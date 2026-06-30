@@ -1,0 +1,45 @@
+{
+  "id": "dnd-contents-zh-tw",
+  "title": "DND5e/5.5e 遊戲內容 — 正體中文",
+  "description": "<p>為 FVTT 中的 D&amp;D 遊戲內容增加正體中文。</p>",
+  "authors": [
+    {
+      "name": "Ludwig",
+      "flags": {}
+    }
+  ],
+  "version": "1.0.0",
+  "compatibility": {
+    "minimum": "12",
+    "verified": "14",
+    "maximum": "14"
+  },
+  "esmodules": [
+    "register.js"
+  ],
+  "languages": [
+    {
+      "lang": "zh-tw",
+      "name": "正體中文",
+      "path": "compendium",
+      "flags": {}
+    }
+  ],
+  "relationships": {
+    "requires": [
+      {
+        "id": "babele",
+        "type": "module",
+        "compatibility": {}
+      }
+    ],
+    "systems": [
+      {
+        "id": "dnd5e",
+        "type": "system",
+        "compatibility": {}
+      }
+    ]
+  },
+  "flags": {}
+}

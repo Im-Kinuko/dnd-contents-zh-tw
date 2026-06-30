@@ -1,0 +1,738 @@
+{
+  "entries": {
+    "Poisoner": {
+      "activities": {
+        "Apply Poison": {
+          "name": "塗毒"
+        },
+        "Poison Save (Dexterity)": {
+          "chatFlavor": "失敗時&Reference[poisoned]",
+          "name": "毒素豁免（敏捷）"
+        },
+        "Poison Save (Intelligence)": {
+          "chatFlavor": "失敗時&Reference[poisoned]",
+          "name": "毒素豁免（智力）"
+        },
+        "Create Poison Doses": {
+          "name": "製造毒劑"
+        }
+      },
+      "effects": {
+        "Poisoned (Dex)": {
+          "description": "<p>當生物因毒物而承受傷害時，該生物必須通過一次[[/save ability=con]]豁免（DC = 8+ 此專長提升屬性的調整值 + 你的熟練加值），否則將承受2d8毒素傷害，並且直到你的下回合結束前，獲得&amp;Reference[Poisoned]狀態。</p>",
+          "name": "中毒（敏捷）",
+          "changes": {
+            "name": "，中毒"
+          }
+        },
+        "Poisoned (Int)": {
+          "description": "<p>塗抹後，毒藥的效力將維持1分鐘，或直到你用塗毒的物品造成傷害，以先發生者為準。當生物受到塗毒物品的傷害時，該生物必須成功通過一次[[/save ability=con]]（DC = 8 + 此專長增加的屬性調整值 + 你的熟練加值），否則承受2d8毒素傷害，並直到你下一回合結束前陷入&amp;Reference[Poisoned]狀態。</p>",
+          "changes": {
+            "name": "，中毒"
+          },
+          "name": "中毒（智力）"
+        }
+      },
+      "description": "<p>你獲得下列好處</p><p><strong>【屬性值提升】</strong>你的敏捷或智力提升1點，上限為20。</p><p><strong>【強效毒藥】</strong>當你造成毒素傷害而擲傷害骰時，無視對毒素傷害的抗性。</p><p><strong>【釀造毒藥】</strong>你獲得製毒工具組的熟練。使用製毒工具組進行1小時的工作並消耗價值50金幣的材料，你可以製作出數量等同於你熟練加值的毒藥。作為附贈動作，你可以將一份毒藥塗抹到武器或彈藥上。塗抹後，毒藥的效力將維持1分鐘，或直到你用塗毒的物品造成傷害，以先發生者為準。當生物受到塗毒物品的傷害時，該生物必須成功通過一次體質豁免（DC = 8 + 此專長增加的屬性調整值 + 你的熟練加值），否則承受2d8毒素傷害，並直到你下一回合結束前陷入中毒狀態。</p><section id=\"secret-Z0hagCaxOGvVtkkm\" class=\"secret\"><p><strong>Foundry筆記</strong></p><p>The <strong>Create Poison Doses</strong> activity will restore a number of uses of this item according to your proficiency bonus.</p><p>The <strong>Apply Poison</strong> enchantment activity provides the option of a Dexterity or Intelligence save activity for the target item, which should be selected based on the ability score increased when this feat was chosen.</p><p>You may delete the <strong>Poison Save</strong> activity associated with the ability score <em>not</em> chosen for this feat.</p><p>Finally, the save DC for the enchantment activities is based on the weapon user's ability scores, but should always be compared to the save DC of this feature's owner.</p></section>",
+      "name": "毒師"
+    },
+    "Mage Slayer": {
+      "name": "巫師殺手",
+      "activities": {
+        "Guard Mind": {
+          "condition": "當你在智力、感知或魅力豁免失敗時",
+          "name": "心靈守護"
+        }
+      },
+      "description": "<p>你獲得下列好處</p><p><strong>【屬性值提升】</strong> 你的力量或敏捷提升1點，上限為20。</p><p><strong>【打破專注】</strong>當你傷害一名正在專注法術的生物時，其為維持專注而進行的豁免檢定具有劣勢。</p><p><strong>【守護心智】</strong>若你在智力、感知或魅力的豁免檢定中失敗，你可以使其變為成功。一旦你使用此增益，直到你完成一次短休或長休時，你無法再次使用。</p><section class=\"secret\" id=\"secret-eqfhO3l6IgAsZKo4\"><p><strong>Foundry筆記</strong></p><p>The <strong>Guard Mind</strong> activity expends the free use of this feature which is recovered after a Short or Long Rest.</p></section>"
+    },
+    "Boon of Energy Resistance": {
+      "name": "能量抵抗恩澤",
+      "effects": {
+        "Lightning: Boon of Energy Resistance": {
+          "name": "閃電：能量抗性恩惠"
+        },
+        "Psychic: Boon of Energy Resistance": {
+          "name": "心靈：能量抗力恩惠"
+        },
+        "Radiant: Boon of Energy Resistance": {
+          "name": "Radiant: Boon of Energy Resistance"
+        },
+        "Fire: Boon of Energy Resistance": {
+          "name": "火焰：能量抗力恩惠"
+        },
+        "Poison: Boon of Energy Resistance": {
+          "name": "毒素：能量抗力恩惠"
+        },
+        "Necrotic: Boon of Energy Resistance": {
+          "name": "黯蝕：能量抗力恩惠"
+        },
+        "Acid: Boon of Energy Resistance": {
+          "name": "強酸：能量抵抗恩惠"
+        },
+        "Thunder: Boon of Energy Resistance": {
+          "name": "雷鳴：能量抗性恩澤"
+        },
+        "Cold: Boon of Energy Resistance": {
+          "name": "寒冷：能量抵抗恩惠"
+        }
+      },
+      "activities": {
+        "Choose Resistances": {
+          "name": "選擇抗性",
+          "condition": "每當你完成長休時"
+        },
+        "Energy Redirection": {
+          "name": "能量重導"
+        }
+      },
+      "description": "<p>你獲得下列好處</p><p><strong>【屬性值提升】</strong> Increase one ability score of your choice by 1, to a maximum of 30.</p><p><strong>Energy Resistances.</strong> You gain Resistance to two of the following damage types of your choice: Acid, Cold, Fire, Lightning, Necrotic, Poison, Psychic, Radiant, or Thunder. Whenever you finish a Long Rest, you can change your choices.</p><p><strong>Energy Redirection.</strong> When you take damage of one of the types chosen for the Energy Resistances benefit, you can take a Reaction to direct damage of the same type toward another creature you can see within 60 feet of yourself that isn’t behind &amp;Reference[Total Cover]. If you do so, that creature must succeed on a Dexterity saving throw (DC 8 plus your Constitution modifier and Proficiency Bonus) or take damage equal to 2d12 plus your Constitution modifier.</p><section class=\"secret\" id=\"secret-YvvZOk14Rk8qwLgW\"><p><strong>Foundry Note</strong></p><p>The <strong>Choose Resistances</strong> activity includes an Active Effect for each Resistance that you can apply to yourself. When choosing new Resistances be sure to delete or disable the previously selected Active Effects in the 'Effects\" tab of your sheet.</p><p>The <strong>Energy Redirection</strong> reaction activity includes a save and you can choose the damage type in the damage roll's dialog box.</p></section>"
+    },
+    "Boon of the Night Spirit": {
+      "effects": {
+        "Boon of the Night Spirit": {
+          "name": "夜之精魂恩惠"
+        },
+        "Merged with Shadows": {
+          "name": "融身入影"
+        }
+      },
+      "name": "夜之精魂恩惠",
+      "activities": {
+        "Merge with the Shadows": {
+          "name": "Merge with the Shadows"
+        }
+      },
+      "description": "<p>你獲得下列益處。</p><p><strong>屬性值提升。</strong>自選一項屬性值提升1點，上限為30。</p><p><strong>陰影融合。</strong>身處微光或黑暗時，你能以附贈動作使自身獲得&amp;參考[隱形]狀態。此狀態將在你執行動作、附贈動作或反應後立即結束。</p><p><strong>暗影型態。</strong>身處微光或黑暗時，你對所有傷害（心靈與光耀除外）具有抗性。</p><section id=\"secret-fpWHPSTNYUeGtg0w\" class=\"secret\"><p><strong>鑄造廠註記</strong></p><p>此特性的<strong>夜靈恩澤</strong>主動效果包含抗性，但需在角色欄的效果分頁手動啟用。</p><p><strong>與陰影融合</strong>行動包含會施加隱形狀態的主動效果。</p></section>"
+    },
+    "Moderately Armored": {
+      "description": "<p>你獲得下列好處</p><p><strong>【屬性值提升】</strong> 你的力量或敏捷提升1點，上限為20。</p><p><strong>【護甲訓練】</strong>你獲得中甲的訓練。</p><section class=\"secret\" id=\"secret-Q1Odcq8OF5Y3cNci\"><p><strong>Foundry筆記</strong></p><p>This feature automatically grants training with Medium armor.</p></section>",
+      "effects": {
+        "Moderately Armored": {
+          "name": "中度著甲"
+        }
+      },
+      "name": "中度著甲"
+    },
+    "Boon of Skill": {
+      "description": "<p>你獲得下列增益。</p><p><strong>屬性值提升。</strong>自選一項屬性提升1點，上限為30。</p><p><strong>全能精通。</strong>你獲得所有技能的熟練項。</p><p><strong>專精訓練。</strong>選擇一項未專精的技能，你將獲得該技能的專精。</p>",
+      "name": "技能恩惠",
+      "effects": {
+        "All-Around Adept": {
+          "name": "All-Around Adept"
+        }
+      }
+    },
+    "Sharpshooter": {
+      "description": "<p>你獲得下列好處</p><p><strong>【屬性值提升】</strong>你的敏捷提升1點，上限為20。</p><p><strong>【忽視掩護】</strong>你以武器進行的遠程攻擊無視半身掩護與四分之三掩護。</p><p><strong>【抵近射擊】</strong>距離敵人5呎內你使用遠程武器進行的攻擊檢定不會造成劣勢。</p><p><strong>【遠射】</strong>你使用遠程武器進行攻擊檢定不會因超出正常射程範圍而造成劣勢。</p>",
+      "name": "神射手"
+    },
+    "Telepathic": {
+      "name": "心電感應",
+      "activities": {
+        "Expend Use": {
+          "name": "消耗使用次數"
+        },
+        "Telepathic Utterance": {
+          "name": "心靈傳話"
+        }
+      },
+      "description": "<p>你獲得下列好處</p><p><strong>【屬性值提升】</strong> 你的智力、感知或魅力值提升1點，上限為20。</p><p><strong>【心靈傳話】</strong>你可以和60尺內任何你所能看見的生物用心靈感應進行交流。你的心靈傳話使用你知曉的語言，並且該生物只有懂得該語言時才能理解你。你的溝通不會給予生物以心靈感應回復你的能力。</p><p><strong>【偵測想法】</strong>你始終準備@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplDetectThou]法術。你可以在不消耗法術位或法術構材的情況下施放法術，並且在你再次以此方式施放前，你必須完成一次長休。你也可以使用相應環階的魔法位施放該法術。你在該法術的施法屬性為此專長所提升的屬性。</p><section id=\"secret-unoZ1rgJPaBmd1Dn\" class=\"secret\"><p><strong>Foundry筆記</strong></p><p>The <strong>Detect Thoughts</strong> activity can be used for tracking your free use per Long Rest. The spell will have to be added to your sheet manually though.</p></section>"
+    },
+    "Boon of Fate": {
+      "name": "命運恩惠",
+      "activities": {
+        "Improve Fate": {
+          "name": "Improve Fate",
+          "roll": "Bonus/Penalty",
+          "condition": "當你或另一個距離你60呎內的生物在D20檢定成功或失敗時"
+        }
+      },
+      "description": "<p>你獲得下列增益。</p><p><strong>【屬性值提升】</strong> 選擇一項屬性值提升1點，上限為30。</p><p><strong>【逆天改命】</strong> 當你或60呎內另一生物D20檢定成功或失敗，你可以擲2d4並將結果作為加值或減值應用於該D20檢定。使用此增益後，直到你擲先攻或完成短休或長休前無法再次使用。</p><section id=\"secret-zl5SPZXJtl1mEKOl\" class=\"secret\"><p><strong>鑄造廠備註</strong></p><p><strong>逆天改命</strong>行動包含擲骰機制，並會在短休或長休後自動恢復使用次數。但擲先攻後不會自動刷新。</p></section>"
+    },
+    "Musician": {
+      "name": "音樂家",
+      "description": "<p>你獲得下列好處</p><p><strong>【樂器訓練】</strong>你獲得三個你所選擇的樂器熟練。</p><p><strong>【鼓舞之歌】</strong>當你完成一次短休或長休後，你可以用你所熟練的樂器演奏一首歌曲，並給予聽到這首歌曲的同伴一個英雄激勵。你所能影響同伴的數量等同於你的熟練加值（目前：[[lookup @prof]]）。</p><section class=\"secret\" id=\"secret-uSBAbHsB2VxFaHwm\"><p><strong>Foundry Note</strong></p><p>This feature does not automatically grant the proficiencies. You can toggle the \"Edit\" mode in the <strong>\"</strong>Details\" tab of your sheet and click on the cog next to \"Tools\" underneath your Skills to choose your Musical Instrument proficiencies.</p></section>"
+    },
+    "Dueling": {
+      "name": "決鬥",
+      "effects": {
+        "Dueling": {
+          "name": "決鬥"
+        }
+      },
+      "description": "<p><em>（先決條件：戰鬥風格特性）</em></p><p>當你單手持握一把近戰武器，且沒有持握其他武器時，則你在使用的武器所進行的傷害骰+2。</p><section id=\"secret-WIcgVLYQvq2Sj87q\" class=\"secret\"><p><strong>Foundry Note</strong></p><p>This feature includes an Active Effect which provides the bonus. Disable it when you are wielding multiple weapons.</p></section>"
+    },
+    "Lucky": {
+      "activities": {
+        "Advantage": {
+          "name": "優勢",
+          "condition": "當你為D20檢定擲d20時"
+        },
+        "Disadvantage": {
+          "name": "劣勢",
+          "condition": "當一個生物對你進行攻擊檢定而擲d20時"
+        }
+      },
+      "name": "幸運",
+      "description": "<p>你獲得下列好處</p><p><strong>【幸運點】</strong>你擁有等同於你熟練加值的幸運點，並且可以將幸運點花費在下列的好處上。你在完成一次長休後恢復所有已花費掉的幸運點。</p><p><strong>【優勢】</strong>當你為D20檢定而骰d20時，你可以花費1幸運點在該檢定上獲得優勢。</p><p><strong>【劣勢】</strong>當一個生物對你進行一次攻擊檢定而骰d20時，你可以花費1幸運點在該檢定上造成劣勢。</p><section id=\"secret-6TFD3CUAlQhYUp4d\" class=\"secret\"><p><strong>Foundry Note</strong></p><p>This feature includes the appropriate number of uses and scales as you level up.</p><p>The <strong>Advantage</strong> and <strong>Disadvantage</strong> activities expend a use but do not enforce the Advantage/Disadvantage.</p></section>"
+    },
+    "Boon of Recovery": {
+      "activities": {
+        "Last Stand": {
+          "condition": "當你生命值將降至0時",
+          "name": "Last Stand"
+        },
+        "Recover Vitality": {
+          "name": "Recover Vitality"
+        }
+      },
+      "name": "恢復恩澤",
+      "description": "<p>你獲得下列好處</p><p><strong>【屬性值提升】</strong> Increase one ability score of your choice by 1, to a maximum of 30.</p><p><strong>Last Stand.</strong> When you would be reduced to 0 Hit Points, you can drop to 1 Hit Point instead and regain a number of Hit Points equal to half your Hit Point maximum. Once you use this benefit, you can’t use it again until you finish a Long Rest.</p><p><strong>Recover Vitality.</strong> You have a pool of ten d10s. As a Bonus Action, you can expend dice from the pool, roll those dice, and regain a number of Hit Points equal to the roll’s total. You regain all the expended dice when you finish a Long Rest.</p><section class=\"secret\" id=\"secret-I5DVfVmEgr5OF82Q\"><p><strong>Foundry Note</strong></p><p>The <strong>Last Stand</strong> activity has one free use per Long Rest and grants half of your Hit Point maximum in healing.</p><p>The <strong>Recover Vitality</strong> activity has 10 free uses per Long Rest representing your pool of d10s. You can select the number you would like to use and the healing formula will automatically update.</p></section>"
+    },
+    "Inspiring Leader": {
+      "activities": {
+        "Inspire with Charisma": {
+          "condition": "當你完成短休或長休時",
+          "name": "以魅力激勵"
+        },
+        "Inspire with Wisdom": {
+          "name": "以感知激勵",
+          "condition": "當你完成短休或長休時"
+        }
+      },
+      "name": "激勵統御",
+      "description": "<p>你獲得下列好處</p><p><strong>【屬性值提升】</strong>你的感知或魅力提升1點，上限為20。</p><p><strong>【鼓舞士氣】</strong>當你完成一次短休或長休時，你可以進行一次激勵表演：演講、歌曲或舞蹈。當你這麼做時，選擇30呎內至多六名欣賞表演的盟友（可以包刮你自己）。每個所選生物獲得等同於你角色等級加上你以此特性所提升的屬性調整值的臨時生命值。</p><section id=\"secret-QFS7wQGuYgNoa0uR\" class=\"secret\"><p><strong>Foundry筆記</strong></p><p>The <strong>Inspire with Wisdom</strong> and <strong>Inspire with Charisma</strong> activities can be used to provide Temporary Hit Points using the relevant ability.</p></section>"
+    },
+    "Chef": {
+      "activities": {
+        "Replenishing Meal": {
+          "name": "補給膳食",
+          "condition": "在短休期間"
+        },
+        "Bolstering Treats": {
+          "name": "激勵點心"
+        },
+        "Eat Treat": {
+          "name": "食用點心"
+        }
+      },
+      "name": "特級廚師",
+      "description": "<p>你獲得下列好處</p><p><strong>【屬性值提升】</strong>你的體質或感知提升1點，上限為20。</p><p><strong>【廚師炊具】</strong> 若你尚未擁有@UUID[Compendium.dnd-players-handbook.equipment.Item.phbtulCooksUtens]的熟練，則獲得其熟練。</p><p><strong>【補給膳食】</strong> 在短休期間，若你手邊有食材與廚師炊具，你可以烹調特別餐點。你能準備足夠份量，提供等同於4 + 熟練加值（當前為[[4 + @prof]]）的生物享用。在短休結束時，任何食用此餐點並消耗一枚或多枚生命骰的生物額外恢復1d8點生命值。</p><p><strong>【激勵點心】</strong> 以1小時製作或當你完成一次長休時，若你手邊有食材與廚師炊具，你可以製作數量等同於你熟練加值的點心。這些特製點心在製作後可以保存8小時。一個生物可以使用一次附贈動作食用其中一份點心，以獲得等同於你熟練加值的臨時生命值。</p><section class=\"secret\" id=\"secret-onsn880Y02uWVh6N\"><p><strong>Foundry Note</strong></p><p>The <strong>Replenishing Meal</strong> activity includes the healing.</p><p>The <strong>Bolstering Treats</strong> activity will restore a number of uses equal to your Proficiency Bonus. As creatures eat them you can use the <strong>Eat Treat</strong> activity to reduce the count or handle it manually.</p><p>This feat does not automatically add proficiency with Cook's Utensils. To add it, toggle on the \"Edit\" mode of your sheet, and below your Skills click on the Cog icon to add this proficiency.</p></section>"
+    },
+    "Skulker": {
+      "name": "潛行者",
+      "effects": {
+        "Skulker": {
+          "name": "潛行者"
+        }
+      },
+      "description": "<p>你獲得下列好處</p><p><strong>【屬性值提升】</strong>你的敏捷提升1點，上限為20。</p><p><strong>【盲視】</strong>你擁有10呎盲視。</p><p><strong>【戰爭迷霧】</strong> 你利用戰鬥的混亂，戰鬥中作為躲藏動作的一部分，任何你進行的敏捷（隱匿）檢定都具有優勢。</p><p><strong>【狙擊手】</strong>若你在躲藏時進行一次攻擊檢定且失手，進行攻擊檢定不會暴露你的位置。</p><section class=\"secret\" id=\"secret-uYEwLh81hYSCN3nb\"><p><strong>Foundry筆記</strong></p><p>This feature automatically grants the Blindsight range.</p></section>"
+    },
+    "Heavily Armored": {
+      "description": "<p>你獲得下列好處</p><p><strong>【屬性值提升】</strong>你的體質或力量提升1點，上限為20。</p><p><strong>【護甲訓練】</strong> 你獲得重甲的訓練。</p><section id=\"secret-XrTFBiTrscuZUyTK\" class=\"secret\"><p><strong>Foundry筆記</strong></p><p>This feature automatically grants training with Heavy Armor.</p></section>",
+      "name": "重度著甲",
+      "effects": {
+        "Heavily Armored": {
+          "name": "重度著甲"
+        }
+      }
+    },
+    "Resilient": {
+      "description": "<p>你獲得下列好處</p><p><strong>【屬性值提升】</strong>選擇一項你缺少豁免熟練的屬性，提升所選屬性1點，上限為20。</p><p><strong>【豁免熟練】</strong>你獲得所選屬性的豁免熟練。</p><section class=\"secret\" id=\"secret-dYKo82Z8YvKLGBKt\"><p><strong>Foundry筆記</strong></p><p>This feature does not automatically grant the saving throw proficiency. You can toggle the \"Edit\" mode for your sheet and click on the cog next to the ability score to enable the saving throw proficiency.</p></section>",
+      "name": "適應力"
+    },
+    "Ritual Caster": {
+      "activities": {
+        "Fast Ritual Cast": {
+          "name": "快速儀式施法"
+        }
+      },
+      "name": "儀式施法者",
+      "description": "<p>你獲得下列好處。</p><p><strong>【屬性值提升】</strong> 你的智力、感知或魅力提升1點，上限為20。</p><p><strong>【儀式法術】</strong> 選擇數量等同於你熟練加值（當前為[[lookup @prof]]）且帶有儀式標籤的1環法術。你始終準備這些法術，並且你可以使用任何你擁有環位施放，其施法屬性為此專長所提升的屬性。每當你的熟練加值提升後，你可以額外選擇一個帶儀式標籤的1環法術加入此特性的始終準備法術。</p><p><strong>【迅捷儀式】</strong> 透過此好處，你可以使用法術原始施法時間而非儀式延長時間來施放已準備的儀式法術，且無需消耗法術位。一旦你以此方式施放法術，直到你完成長休前，你無法再次使用此增益。</p><section id=\"secret-k6S1sYFzUtw0k3RK\" class=\"secret\"><p><strong>鑄造廠備註</strong></p><p>需手動添加法術並進行相應調整。</p><p><strong>迅捷儀式</strong>行動可用於追蹤長休間的使用次數限制。</p></section>"
+    },
+    "Two-Weapon Fighting": {
+      "name": "雙武器戰鬥",
+      "description": "<p><em>（先決條件：戰鬥風格特性）</em></p><p>當你使用帶有輕型屬性的武器進行額外攻擊時，若你未將屬性調整值加上額外攻擊的傷害，則可以加上你的屬性調整值。</p><section class=\"secret\" id=\"secret-hYptyfGCa0gLDQRT\"><p><strong>Foundry Note</strong></p><p>This feature is not automated. You can add your modifier in the Situational Bonus field of the damage roll.</p></section>"
+    },
+    "Blessed Warrior": {
+      "description": "<p>你習得兩項你所選擇的@UUID[Compendium.dnd-players-handbook.content.JournalEntry.phbSpells0000000.JournalEntryPage.SkHptN2PTzFGDaEj#cantrip]{牧師戲法}。建議選擇<em>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplGuidance00]{神導術}</em>及<em>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplSacredFlam]{聖焰}</em>。所選戲法對你來說是聖騎士法術，而魅力是你的施法屬性。每當你獲得聖騎士等級時，你能夠將一個已知戲法替換為另一個牧師戲法。</p>",
+      "name": "受祝勇士"
+    },
+    "Archery": {
+      "description": "<p><em>（先決條件：戰鬥風格特性）</em></p><p>你在使用遠程武器進行的攻擊檢定中獲得+2加值。</p><section id=\"secret-n13Z6zR2u0CiIA7D\" class=\"secret\"><p><strong>Foundry Note</strong></p><p>This feature includes an Active Effect which adds the bonus to Ranged weapon attack rolls.</p></section>",
+      "effects": {
+        "Archery Style": {
+          "name": "弓道"
+        }
+      },
+      "name": "弓道"
+    },
+    "Blind Fighting": {
+      "description": "<p><em>（先決條件：戰鬥風格特性）</em></p><p>你獲得10呎的盲視。</p><section id=\"secret-eG5EudF8gmfHBBul\" class=\"secret\"><p><strong>Foundry Note</strong></p><p>This feature includes an Active Effect that grants the Blindsight.</p></section>",
+      "name": "盲鬥",
+      "effects": {
+        "Blind Fighting": {
+          "name": "盲鬥"
+        }
+      }
+    },
+    "Telekinetic": {
+      "activities": {
+        "Telekinetic Shove: Wisdom": {
+          "name": "念力推撞：感知"
+        },
+        "Telekinetic Shove: Charisma": {
+          "name": "念力推撞：魅力"
+        },
+        "Telekinetic Shove: Intelligence": {
+          "name": "念力推撞：智力"
+        }
+      },
+      "description": "<p></p><p>你獲得下列好處</p><p><strong>【屬性值提升】</strong> 你的智力、感知或魅力值提升1點，上限為20。</p><p><strong>【次級心靈遙控】</strong>你習得@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplMageHand00]法術。你可以在無需聲音或姿勢構材的情況下施放，你可以使幽靈手隱形，並且當你施放該法術時，其射程與可以遠離你的距離皆提升30呎 。該法術的施法屬性為此專長所提升的屬性。</p><p><strong>【心靈推撞】</strong>作為一個附贈動作，你可以用心靈推撞30呎內你所能看見的一個生物。當你這麼做，目標必須成功通過一次力量豁免檢定（DC = 8 + 此專長所提升屬性的調整值 + 你的熟練加值），否則將被你拉近或推離5呎。</p><section class=\"secret\" id=\"secret-FXWRcCRBdJVUHls9\"><p><strong>Foundry筆記</strong></p><p>The spell will have to be added to your sheet manually with the changes.</p><p>The <strong>Telekinetic Shove</strong> activities can be used for the saving throw with the relevant Ability score.</p></section>",
+      "name": "念動力"
+    },
+    "Grappler": {
+      "name": "擒抱者",
+      "description": "<p>你獲得下列好處</p><p><strong>【屬性值提升】</strong> 你的力量或敏捷提升1點，上限為20。</p><p><strong>【連打帶拽】</strong> 當你在自己回合中以攻擊動作一部分的徒手打擊命中一個生物時，你可以同時使用傷害與擒抱兩個選項。此增益每回合僅能使用一次。</p><p><strong>【攻擊優勢】</strong>你對你所&amp;Reference[Grappled]的生物進行攻擊檢定時具有優勢。</p><p><strong>【靈巧拖曳】</strong>移動與你相同或更小體型的受擒生物時，你無須消耗額外的移動力。</p><section class=\"secret\" id=\"secret-LAjjGo55LPacAy8v\"><p><strong>Foundry筆記</strong></p><p>The Advantage is not automated.</p></section>"
+    },
+    "Shadow-Touched": {
+      "activities": {
+        "Expend Invisibility's Use": {
+          "name": "消耗隱形術次數"
+        },
+        "Expend Chosen Spell's Use": {
+          "name": "消耗選擇法術的使用次數"
+        }
+      },
+      "description": "<p><em>通用專長（先決條件：4等以上）</em></p><p>暴露在墮影冥界的魔法之下，使你獲得下列好處。</p><p><strong>【屬性值提升】</strong> 你的智力、感知或魅力值提升1點，上限為20。</p><p><strong>【墮影魔法】</strong>選擇一個1環幻術或死靈學派的法術。你始終準備該法術以及@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplInvisibili]法術。你可以不消耗法術位施放其中一個法術。一旦你以此方式施放法術，直到你完成一次長休後，該法術無法再次以此方式施放。你也可以使用對應環階的法術位施放這些法術。法術施法屬性為此專長所提升的屬性。</p><section class=\"secret\" id=\"secret-MHCfb0RA6g4rzo6K\"><p><strong>Foundry筆記</strong></p><p>The spells will have to be added to your sheet with those changes manually.</p><p>The <strong>Expend Chosen Spell's Use</strong> and <strong>Expend Invisibility Use</strong> can be used for tracking your free uses.</p></section>",
+      "name": "影界觸碰"
+    },
+    "Martial Weapon Training": {
+      "description": "<p>你獲得下列好處</p><p><strong>【屬性值提升】</strong> 你的力量或敏捷提升1點，上限為20。</p><p><strong>【武器熟練】</strong>你獲得軍用武器的熟練。</p><section class=\"secret\" id=\"secret-D09BeCa8lfTgpJ6h\"><p><strong>Foundry筆記</strong></p><p>This feature automatically grants you proficiency with Martial weapons.</p></section>",
+      "name": "軍用武器訓練",
+      "effects": {
+        "Martial Weapon Training": {
+          "name": "軍用武器訓練"
+        }
+      }
+    },
+    "Great Weapon Fighting": {
+      "name": "巨武戰鬥",
+      "description": "<p><em>（先決條件：戰鬥風格特性）</em></p><p>當你以雙手持握近戰武器為攻擊擲傷害骰時，你可以將傷害骰中的任何1和2視作3。該武器必須帶有雙手或兩用屬性才能獲得這個好處。</p><section id=\"secret-jkbP75uR9eNGIRN0\" class=\"secret\"><p><strong>Foundry Note</strong></p><p>This effect is not automated.</p></section>"
+    },
+    "Dual Wielder": {
+      "name": "雙持客",
+      "description": "<p>你獲得下列好處</p><p><strong>【屬性值提升】</strong> 你的力量或敏捷提升1點，上限為20。</p><p><strong>【強化雙持】</strong>當你在你的回合中採取攻擊動作，並以一把具有輕型屬性的武器進行攻擊時，你可以在同一回合稍後以附贈動作進行一次額外攻擊，該攻擊必須使用不同且不具有雙手屬性的近戰武器。你不會將你的屬性調整值加添加到額外攻擊的傷害中，除非該調整值為負值。</p><p><strong>【迅速拔刀】</strong>當你原本只能拔出或收起一把武器時，你可以改為同時拔出或收起兩把不具有雙手屬性的武器。</p><section id=\"secret-EJIyTsTmMlxQDh6V\" class=\"secret\"><p><strong>Foundry筆記</strong></p><p>The removal of your ability modifier is not automated. You can subtract it in the Situational Bonus field of the damage roll's dialog box.</p></section>"
+    },
+    "Shield Master": {
+      "effects": {
+        "Shield Bashed": {
+          "name": "盾牌猛擊"
+        }
+      },
+      "name": "盾牌大師",
+      "description": "<p>你獲得下列好處</p><p><strong>【屬性值提升】</strong>提升力量1點，上限為20。</p><p><strong>【盾牌猛擊】</strong>作為攻擊動作的一部分，若你以近戰武器攻擊並命中5呎內的生物，你可以立即用已裝備的盾牌對目標猛擊，並迫使目標進行一次力量豁免檢定（DC = 8 + 你的力量調整值 + 你的熟練加值）。豁免失敗時，你可以選擇將目標推離5呎，或使其陷入&amp;Reference[Prone]狀態。每一回合你只能使用此好處一次。</p><p><strong>【盾牌格擋】</strong>若你受到令你要進行敏捷豁免檢定以承受一半傷害的效果時，你可以採取反應在正持握盾牌並豁免成功時不受傷。</p><section class=\"secret\" id=\"secret-u778KRzbKiVH0Qos\"><p><strong>Foundry筆記</strong></p><p>The <strong>Shield Bash</strong> activity includes the save and an Active Effect which can apply the Prone condition.</p><p>The <strong>Interpose Shield</strong> activity can be used if you're tracking Reaction usage.</p></section>",
+      "activities": {
+        "Shield Bash": {
+          "name": "盾牌重擊",
+          "condition": "若你以攻擊動作的一部分使用近戰武器命中5呎內的生物"
+        }
+      }
+    },
+    "Slasher": {
+      "name": "劈砍者",
+      "description": "<p>你獲得下列好處</p><p><strong>【屬性值提升】</strong> 你的力量或敏捷提升1點，上限為20。</p><p><strong>【割裂】</strong>一回合一次，當你以造成揮砍傷害的攻擊命中一個生物時，直到你下回合開始前，你可以將該生物的速度減少10呎。</p><p><strong>【強化暴擊】</strong>當你以揮砍傷害對一個生物造成暴擊時，直到你下回合開始前，其進行的攻擊檢定具有劣勢。</p><section class=\"secret\" id=\"secret-PMVAtAZfo61ryOmO\"><p><strong>Foundry筆記</strong></p><p>This feature includes an Active Effect which can be used for tracking the Hamstring and Enhanced Critical effects. It automatically reduces the creature's speed by 10 feet.</p></section>",
+      "effects": {
+        "Slashed": {
+          "name": "割裂"
+        }
+      }
+    },
+    "Actor": {
+      "name": "演員",
+      "activities": {
+        "Mimicry": {
+          "name": "模仿"
+        }
+      },
+      "description": "<p>你獲得下列好處</p><p><strong>【屬性值提升】</strong>你的魅力提升1點，上限為20。</p><p><strong>【喬裝】</strong>當你偽裝成真實或虛構的人物時，你在魅力（欺瞞或表演）檢定上具有優勢，以說服他人你即為該人物。</p><p><strong>【模仿】</strong>你可以模仿其他生物的聲音，包括言語。聽到模仿的生物必須成功通過一次感知（洞悉）檢定才能辨別其真偽（DC = 8 + 你的魅力調整值 + 你的熟練加值）。</p><section class=\"secret\" id=\"secret-tOhwF8l7gqyVJOOB\"><p><strong>Foundry Note</strong></p><p>The <strong>Mimicry</strong> activity includes a check with the correct DC.</p><p>This feat does not automate the Advantage on checks.</p></section>"
+    },
+    "Alert": {
+      "name": "警覺",
+      "effects": {
+        "Alert": {
+          "name": "警覺"
+        }
+      },
+      "description": "<p>你獲得下列好處</p><p><strong>【先攻熟練】</strong>當你骰先攻時，你可以將你的熟練加值加入結果。</p><p><strong>【先攻互換】</strong>緊接在你骰先攻後，你可以與處於同一戰鬥中的一位自願同伴交換先攻。如果你或你的同伴處於&amp;Reference[Incapacitated]狀態，則無法進行交換。</p><section class=\"secret\" id=\"secret-yzfXk3D5M1jv9ixH\"><p><strong>Foundry Note</strong></p><p>This feature automatically includes the bonus to your Initiative.</p></section>"
+    },
+    "Athlete": {
+      "name": "運動健將",
+      "description": "<p>你獲得下列好處</p><p><strong>【屬性值提升】</strong>你的力量或敏捷增加1點，上限為20。</p><p><strong>【攀爬速度】</strong>你獲得等同於你速度的攀爬速度。</p><p><strong>【起身】</strong>處於伏地狀態時你只需5呎移動力就能起身。</p><p><strong>【跳躍】</strong>你可以在移動5呎後完成跳遠或跳高的助跑。</p><section id=\"secret-HwMnjjLPfn97FUqL\" class=\"secret\"><p><strong>Foundry Note</strong></p><p>This feat does not automate the effects. You can add your Climb Speed by toggling the \"Edit\" mode of your sheet and clicking on the \"Gear\" icon above \"Walk\" (Just above your Hit Point bar).</p></section>"
+    },
+    "Boon of Dimensional Travel": {
+      "activities": {
+        "Teleport": {
+          "name": "傳送",
+          "condition": "緊接在你採取攻擊行動後"
+        }
+      },
+      "description": "<p>你獲得下列好處</p><p><strong>【屬性值提升】</strong> Increase one ability score of your choice by 1, to a maximum of 30.</p><p><strong>Blink Steps.</strong> Immediately after you take the Attack action or the Magic action, you can teleport up to 30 feet to an unoccupied space you can see.</p>",
+      "name": "次元旅行恩惠"
+    },
+    "Boon of Speed": {
+      "description": "<p>你獲得下列好處</p><p><strong>【屬性值提升】</strong> Increase one ability score of your choice by 1, to a maximum of 30.</p><p><strong>Escape Artist.</strong> As a Bonus Action, you can take the &amp;Reference[Disengage] action, which also ends the Grappled condition on you.</p><p><strong>Quickness.</strong> Your Speed increases by 30 feet.</p><section class=\"secret\" id=\"secret-BTieKWSqXALMO8oH\"><p><strong>Foundry Note</strong></p><p>This feat includes an Active Effect which automatically increases your Speed.</p></section>",
+      "effects": {
+        "Boon of Speed": {
+          "name": "Boon of Speed"
+        }
+      },
+      "name": "迅捷恩惠"
+    },
+    "Boon of Spell Recall": {
+      "name": "法術回想恩惠",
+      "activities": {
+        "Free Cast Roll": {
+          "condition": "每當你使用1至4環法術位施放法術時",
+          "name": "Free Cast Roll",
+          "roll": "擲骰"
+        }
+      },
+      "description": "<p>你獲得下列增益。</p><p><strong>屬性值提升。</strong>你的智力、感知或魅力屬性提升1點，上限為30。</p><p><strong>無耗施法。</strong>當你使用1至4環法術位施法時，擲一顆4面骰。若結果等於法術位環數，則不消耗該法術位。</p><section id=\"secret-KMAFFZCOzi6Cuemh\" class=\"secret\"><p><strong>鑄造廠備註</strong></p><p>若結果相同，使用法術時請取消勾選消耗選項。</p></section>"
+    },
+    "Speedy": {
+      "name": "疾速",
+      "effects": {
+        "Speedy": {
+          "name": "疾速"
+        }
+      },
+      "description": "<p>你獲得下列好處</p><p><strong>【屬性值提升】</strong>你的敏捷或體質提升1點，上限為20。</p><p><strong>【速度提升】</strong>你的速度提升10呎。&amp;Reference[Speed]</p><p><strong>【疾行無礙】</strong>當你在自己回合採取疾走動作，該回合的剩餘時間中困難地形不會花費你額外的移動力。</p><p><strong>【敏捷移動】</strong>對你進行的藉機攻擊具有劣勢。</p><section class=\"secret\" id=\"secret-mmDZHieZYuvYT5LG\"><p><strong>Foundry筆記</strong></p><p>This feature automatically increases your walk movement Speed by 10 feet. If you have other movement types you will need to update them manually.</p></section>"
+    },
+    "Defensive Duelist": {
+      "activities": {
+        "Parry": {
+          "name": "格擋"
+        }
+      },
+      "name": "防禦式決鬥",
+      "description": "<p>你獲得下列好處</p><p><strong>【屬性值提升】</strong>你的敏捷提升1點，上限為20。</p><p><strong>【格擋】</strong>若你正持握一把靈巧武器，且另一個生物以近戰攻擊命中你，你可採取反應將你的熟練加值（當前：[[lookup @prof]]）添加到你的護甲等級上，此舉可能使該次攻擊落空。 直到你的下一回合開始前，面對近戰攻擊時，你的AC都獲得此加值。</p><section id=\"secret-En8YXJoQaVQXOweT\" class=\"secret\"><p><strong>Foundry筆記</strong></p><p>This feature includes an Active Effect which will increase your Armor Class.</p></section>",
+      "effects": {
+        "Defensive Duelist": {
+          "name": "防禦式決鬥"
+        }
+      }
+    },
+    "Elemental Adept": {
+      "name": "元素行家",
+      "description": "<p>你獲得下列好處</p><p><strong>【屬性值提升】</strong>提升智力、感知或魅力1點，上限為20。</p><p><strong>【能量精通】</strong>選擇下列其中一種傷害類型：強酸、寒冷、火焰、閃電或雷鳴。你施放法術無視所選傷害類型的抗性。此外，當你為造成該類型傷害的法術擲傷害時，你可以將任何結果為1的傷害骰視為2。</p><p><strong>【可複選】</strong>你可以重複選擇此專長。但你每次必須為能量精通選擇不同的傷害類型。</p><section id=\"secret-9zhg6kpDIUc84DCG\" class=\"secret\"><p><strong>Foundry筆記</strong></p><p>The effects of this feat are not automated.</p></section>"
+    },
+    "Great Weapon Master": {
+      "name": "巨武大師",
+      "activities": {
+        "Heavy Weapon Damage": {
+          "condition": "當你在自己回合以攻擊動作的一部分使用具有重型屬性的武器命中一個生物時",
+          "name": "重型武器傷害"
+        }
+      },
+      "description": "<p>你獲得下列好處。</p><p><strong>【屬性值提升】</strong> 你的力量提升1點，上限為20。</p><p><strong>【重型武器精通】</strong> 當你在自己回合中以攻擊動作的一部份使用具有重型屬性的武器命中生物時，你可以使武器對目標造成額外傷害。額外傷害值等同於你的熟練加值。</p><p><strong>【劈斬】</strong>緊接在你已近戰武器造成暴擊，或將一個生物生命值降至0後，以一個附贈動作你可以使用同一把武器攻擊。</p><section id=\"secret-Mp12ak60ZuPnUCLB\" class=\"secret\"><p><strong>Foundry 備註</strong></p><p><strong>重型武器傷害</strong>行動已包含額外傷害計算。</p></section>"
+    },
+    "Healer": {
+      "name": "治療師",
+      "description": "<p>你獲得下列好處</p><p><strong>【戰地醫師】</strong>如果你擁有@UUID[Compendium.dnd-players-handbook.equipment.Item.phbagHealersKit0]{醫療工具組}，以一個使用動作，你可以消耗醫療工具組一次使用額度照顧一個距離你5呎內的生物。該生物可以消耗一個生命骰，並且由你擲骰。該生物恢復等同其生命骰加上你的熟練加值的生命值。</p><p><strong>【治療重骰】</strong>每當你以法術或以此專長的戰地醫師增益來擲骰決定你所恢復的生命值時，若擲骰結果為1，你可以重骰一次，且必須使用新的擲骰結果。</p><section class=\"secret\" id=\"secret-srSK4HzKeG6v6Fzn\"><p><strong>Foundry Note</strong></p><p>The character expending their Hit Die can reduce it on their sheet and inform you of the hit die size. You can then use the <strong>Heal d6, d8, d10, or d12</strong> activity to heal them.</p></section>",
+      "activities": {
+        "Heal d8": {
+          "name": "d8治療"
+        },
+        "Heal d6": {
+          "name": "d6治療"
+        },
+        "Heal d10": {
+          "name": "d10治療"
+        },
+        "Heal d12": {
+          "name": "d12治療"
+        }
+      }
+    },
+    "Interception": {
+      "name": "攔截",
+      "description": "<p><em>（先決條件：戰鬥風格特性）</em></p><p>當一個你所能看見的生物攻擊距離你5尺以內你以外的目標時，你能以一個反應將目標受到的傷害減少1d10 + 你的熟練加值。當你持握一面盾牌或者一把簡易或軍用武器時才能執行此反應。</p><section class=\"secret\" id=\"secret-bOebMMgCjlpqzRnG\"><p><strong>Foundry Note</strong></p><p>The <strong>Intercept</strong> activity can be used to heal the correct amount of damage.</p></section>",
+      "activities": {
+        "Intercept": {
+          "condition": "當你可所能看見的生物以攻擊檢定命中你5呎內另一生物時",
+          "name": "攔截"
+        }
+      }
+    },
+    "Polearm Master": {
+      "name": "長武大師",
+      "activities": {
+        "Reactive Strike": {
+          "name": "反應打擊"
+        },
+        "Pole Strike": {
+          "name": "長柄打擊"
+        }
+      },
+      "description": "<p>你獲得下列好處</p><p><strong>【屬性值提升】</strong>你的敏捷或力量提升1點，上限為20。</p><p><strong>【長柄打擊】</strong>緊接在你採取攻擊動作並以長棍、矛、或具有重型與觸及屬性的武器進行攻擊後，你可以執行附贈動作以武器的另一端進行一次近戰攻擊。該武器造成鈍擊傷害，並且此攻擊的武器傷害骰為d4。</p><p><strong>【反應打擊】</strong> 當你正持握長棍、矛或具有重型與觸及屬性的武器，你可採取反應對進入該武器觸及範圍的生物進行一次近戰攻擊。</p><section id=\"secret-sXGBEjProoBKCuAz\" class=\"secret\"><p><strong>Foundry筆記</strong></p><p>The <strong>Pole Strike</strong> activity can be used for the Bonus Action attack and damage.</p><p>The <strong>Reactive Strike</strong> activity can be used if you're tracking Reaction usage.</p></section>"
+    },
+    "Tough": {
+      "effects": {
+        "Tough": {
+          "name": "健壯"
+        }
+      },
+      "name": "健壯",
+      "description": "<p>你的生命值最大值增加等同於你等級兩倍的數值。每當你在這之後提升等級，你的生命值最大值都會再額外增加2點生命值。</p><section class=\"secret\" id=\"secret-DNpQNBPOozLkTF8R\"><p><strong>Foundry Note</strong></p><p>The Hit Point maximum increase is handled automatically when you get this feat and as you level up.</p></section>"
+    },
+    "Unarmed Fighting": {
+      "activities": {
+        "Grappled Damage": {
+          "condition": "在你每一回合開始時",
+          "name": "擒抱傷害"
+        },
+        "Unarmed Strike (Weapon in Hand)": {
+          "name": "徒手打擊（手持武器時）"
+        },
+        "Unarmed Strike (Empty Hand)": {
+          "name": "徒手打擊（空手）"
+        }
+      },
+      "name": "徒手戰鬥",
+      "description": "<p><em>（先決條件：戰鬥風格特性）</em></p><p>當你使用徒手打擊命中並造成傷害時，你可以造成等同1d6 + 你的力量調整值的鈍擊傷害，而非一般徒手打擊的傷害。若你進行攻擊檢定時並未持握任何武器或盾牌，則傷害由d6改為d8。</p><p>每當你的回合開始時，你可以對被你&amp;Reference[Grappled]的生物造成1d4鈍擊傷害。</p><section id=\"secret-Nv8dMOvrI9GVk4P5\" class=\"secret\"><p><strong>Foundry Note</strong></p><p>The <strong>Unarmed Strike (Weapon in Hand)</strong> activity can be used in place of your normal Unarmed Strike.</p><p>The <strong>Unarmed Strike (Empty Hand)</strong> activity includes the increased damage.</p><p>The <strong>Grappled Damage</strong> activity includes the damage roll.</p></section>"
+    },
+    "Protection": {
+      "name": "守護",
+      "description": "<p><em>（先決條件：戰鬥風格特性）</em></p><p>當一個你所能看見的生物攻擊一個距離你5呎內你以外的目標時，若你正持握盾牌，你可以用一個反應介入攻擊守護目標。你可以讓該攻擊檢定承受劣勢，並且直到你的下一回合開始，若你仍處於守護的目標5呎內，那麼所有該目標進行的其他所有攻擊檢定都將承受劣勢。</p><section id=\"secret-omzqnTg5Wlirj4sK\" class=\"secret\"><p><strong>Foundry Note</strong></p><p>This feature includes an Active Effect for tracking the protected creature but it does not automate the Disadvantage.</p></section>",
+      "activities": {
+        "Protect": {
+          "name": "守護",
+          "condition": "當一個你所能看見的生物在你周圍5尺內攻擊一個非你的目標時"
+        }
+      },
+      "effects": {
+        "Protected": {
+          "name": "受保護"
+        }
+      }
+    },
+    "Sentinel": {
+      "effects": {
+        "Halted": {
+          "name": "止步"
+        }
+      },
+      "description": "<p>你獲得下列好處</p><p><strong>【屬性值提升】</strong> 你的力量或敏捷提升1點，上限為20。</p><p><strong>【警衛】</strong>緊接在一個距離你5呎內的生物在採取撤離動作或以攻擊命中除你以外的目標後，你可以對該生物進行一次藉機攻擊。</p><p><strong>【攔停】</strong>當你以藉機攻擊命中生物時，該生物的速度在當前回合變為0。</p><section id=\"secret-KBMBiIjYcMO6SlX6\" class=\"secret\"><p><strong>Foundry筆記</strong></p><p>This feature includes an Active Effect which can be used for reducing the creature's Speed to 0. </p></section>",
+      "name": "哨兵"
+    },
+    "Piercer": {
+      "name": "穿刺者",
+      "description": "<p>你獲得下列好處</p><p><strong>【屬性值提升】</strong> 你的力量或敏捷提升1點，上限為20。</p><p><strong>【精準穿刺】</strong>每回合一次，當你以造成穿刺傷害的攻擊命中生物時，你可以重骰一枚傷害骰，且必須使用新的結果。</p><p><strong>【強化暴擊】</strong>當你以穿刺傷害對一個生物造成暴擊時，在計算目標所承受的額外穿刺傷害時，你可以額外擲一枚傷害骰。</p><section id=\"secret-5tfbQNYlnPoUJ6u0\" class=\"secret\"><p><strong>Foundry筆記</strong></p><p>This feature's effects are not automated.</p></section>"
+    },
+    "Boon of Combat Prowess": {
+      "name": "戰鬥威能恩惠",
+      "description": "<p>你獲得下列好處</p><p><strong>【屬性值提升】</strong> Increase one ability score of your choice by 1, to a maximum of 30.</p><p><strong>Peerless Aim.</strong> When you miss with an attack roll, you can hit instead. Once you use this benefit, you can’t use it again until the start of your next turn.</p>"
+    },
+    "Lightly Armored": {
+      "description": "<p>你獲得下列好處</p><p><strong>【屬性值提升】</strong> 你的力量或敏捷提升1點，上限為20。</p><p><strong>【護甲訓練】</strong>你獲得輕甲與盾牌的訓練。</p><section class=\"secret\" id=\"secret-NpiwUDsdtqRVqwYX\"><p><strong>Foundry筆記</strong></p><p>This feature automatically provides training with Light armor and Shields.</p></section>",
+      "effects": {
+        "Lightly Armored": {
+          "name": "輕度著甲"
+        }
+      },
+      "name": "輕度著甲"
+    },
+    "Skill Expert": {
+      "description": "<p>你獲得下列好處</p><p><strong>【屬性值提升】</strong>提升一項你所選擇的屬性1點，上限為20。</p><p><strong>【技能熟練】</strong>你獲得你所選擇的一項技能熟練。</p><p><strong>【專精】</strong>選擇一項你擁有熟練但缺少專精的技能。</p><section class=\"secret\" id=\"secret-ulUPWBL6qcjwB3jp\"><p><strong>Foundry筆記</strong></p><p>This feature does not automatically grant the proficiency/Expertise. You can toggle the \"Edit\" mode for your sheet and click on the circle next to the skills to apply proficiency or Expertise as needed.</p></section>",
+      "name": "技藝專家"
+    },
+    "Charger": {
+      "activities": {
+        "Charge Attack": {
+          "condition": "若你在以近戰攻擊命中目標前，沿直線移動至少10呎",
+          "name": "衝刺攻擊"
+        }
+      },
+      "description": "<p>你獲得下列好處</p><p><strong>【屬性值提升】</strong> 你的力量或敏捷提升1點，上限為20。</p><p><strong>【強化疾走】</strong> 當你採取&amp;Reference[Dash]動作時，該動作期間你的速度提升10呎。</p><p><strong>【衝鋒攻擊】</strong> 若你沿直線朝目標移動至少10呎，緊接在作為攻擊動作一部分的近戰攻擊骰命中之前，選擇下列一項效果：該攻擊的傷害骰獲得1d8加值，或是將不超過你體型一級的目標推離至多10呎。此效果你每回合只能觸發一次。</p><section class=\"secret\" id=\"secret-OP6Qbxc6GyD1OFcH\"><p><strong>Foundry筆記</strong></p><p>You can either add the 1d8 to your attack's damage roll dialog box as a Situational Bonus or use the <strong>Charge Attack</strong> activity and select the type of damage in the roll's dialog box.</p></section>",
+      "name": "衝鋒手"
+    },
+    "Defense": {
+      "name": "防禦",
+      "description": "<p><em>（先決條件：戰鬥風格特性）</em></p><p>當你穿戴輕甲或中甲或重甲時，你的護甲等級（AC）+1。</p><section id=\"secret-y8skH0HHunT4I5NR\" class=\"secret\"><p><strong>Foundry Note</strong></p><p>This feature includes an Active Effect which provides the Armor Class bonus. Disable it when you are not wearing armor.</p></section>",
+      "effects": {
+        "Defense": {
+          "name": "防禦"
+        }
+      }
+    },
+    "Keen Mind": {
+      "description": "<p>你獲得下列好處</p><p><strong>【屬性值提升】</strong>你的智力提升1點，上限為20。</p><p><strong>【博聞智識】</strong>選擇下列其中一項技能：奧秘、歷史、調查、自然或宗教。若你沒有所選技能的熟練，則你獲得此技能的熟練；若你已經擁有該項熟練，則獲得該技能的專精。</p><p><strong>【迅速研究】</strong>你可以將研究動作視為附贈動作來執行。</p><section class=\"secret\" id=\"secret-aYFftTTqUBTDay7m\"><p><strong>Foundry筆記</strong></p><p>This feature does not automatically grant the proficiency/Expertise. You can toggle the \"Edit\" mode for your sheet and click on the circle next to the skill to apply proficiency or Expertise as needed.</p></section>",
+      "name": "敏思強記"
+    },
+    "Medium Armor Master": {
+      "effects": {
+        "Medium Armor Master": {
+          "name": "中甲大師"
+        }
+      },
+      "name": "中甲大師",
+      "description": "<p>你獲得下列好處</p><p><strong>【屬性值提升】</strong> 你的力量或敏捷提升1點，上限為20。</p><p><strong>【靈巧著甲】</strong>當你正穿戴中甲時，若你擁有16以上的敏捷值，AC增加3點而非2點。</p><section class=\"secret\" id=\"secret-6pnyGDNgbSDB7FtT\"><p><strong>Foundry筆記</strong></p><p>This feature includes an Active Effect which grants a +1 to Armor Class. Disable it if your Dexterity is 15 or lower.</p></section>"
+    },
+    "Boon of Irresistible Offense": {
+      "name": "無敵攻勢恩惠",
+      "description": "<p>你獲得下列好處。</p><p><strong>【屬性值提升】</strong> 你的力量或敏捷提升1點，上限為30。</p><p><strong>【突破防禦】</strong> 你所造成的鈍擊、穿刺與揮砍傷害永遠無視抗性。</p><p><strong>【輾壓打擊】</strong> 當你在攻擊檢定的d20中骰出20時，你可以額外造成等同於此專長所提升屬性值的傷害。額外傷害類型與攻擊類型相同。</p><section id=\"secret-B9D2nT6vBjWr9JMV\" class=\"secret\"><p><strong>Foundry備註</strong></p><p>此專長效果未自動化執行。額外傷害可於傷害擲骰對話框的情境加值欄位手動添加。</p></section>"
+    },
+    "Crafter": {
+      "description": "<p>你獲得下列好處</p><p><strong>【工具熟練】</strong>你獲得3種快速製作表中你所選擇的不同工匠工具的熟練。</p><p><strong>【折扣】</strong>每當你購買非魔法物品時，你獲得20%的折扣。</p><p><strong>【快速製作】</strong>當你完成一次長休後，你可以製作一件快速製作表中的裝備，前提是你必須擁有與該物品相關的工匠工具以及該工匠工具的熟練才能製作。製作的物品將保留到你完成下一次長休，隨後便會解體損壞。</p><table><caption>快速製作</caption><thead><tr><td>工匠工具</td><td>裝備製作</td></tr></thead><tbody><tr><td>@UUID[Compendium.dnd-players-handbook.equipment.Item.phbtulCarpenters]{木匠工具}</td><td>@UUID[Compendium.dnd-players-handbook.equipment.Item.phbagLadder00000]{長梯}、@UUID[Compendium.dnd-players-handbook.equipment.Item.phbagTorch000000]{火炬}</td></tr><tr><td>@UUID[Compendium.dnd-players-handbook.equipment.Item.phbtulLeatherwor]{皮匠工具}</td><td>小盒子、@UUID[Compendium.dnd-players-handbook.equipment.Item.phbagPouch000000]{囊袋}</td></tr><tr><td>@UUID[Compendium.dnd-players-handbook.equipment.Item.phbtulMasonsTool]{石匠工具}</td><td>@UUID[Compendium.dnd-players-handbook.equipment.Item.phbagBlockandTac]{滑輪組}</td></tr><tr><td>@UUID[Compendium.dnd-players-handbook.equipment.Item.phbtulPottersToo]{陶匠工具}</td><td>@UUID[Compendium.dnd-players-handbook.equipment.Item.phbagJug00000000]{壺}、@UUID[Compendium.dnd-players-handbook.equipment.Item.phbagLamp0000000]{油燈}</td></tr><tr><td>@UUID[Compendium.dnd-players-handbook.equipment.Item.phbtulSmithsTool]{鐵匠工具}</td><td>@UUID[Compendium.dnd-players-handbook.equipment.Item.phbagBallBearing]{滾珠}、@UUID[Compendium.dnd-players-handbook.equipment.Item.phbagBucket00000]{水桶}、@UUID[Compendium.dnd-players-handbook.equipment.Item.phbagCaltrops000]{鐵蒺藜}、@UUID[Compendium.dnd-players-handbook.equipment.Item.phbagGrapplingHo]{爪鉤}、@UUID[Compendium.dnd5e.items.Item.M8xM8BLK4tpUayEE]{鐵鍋}</td></tr><tr><td>@UUID[Compendium.dnd-players-handbook.equipment.Item.phbtulTinkersToo]{修補匠工具}</td><td>@UUID[Compendium.dnd-players-handbook.equipment.Item.phbagBell0000000]{鈴鐺}、@UUID[Compendium.dnd-players-handbook.equipment.Item.phbagShovel00000]{鏟子}、@UUID[Compendium.dnd-players-handbook.equipment.Item.phbagTinderbox00]{打火匣}</td></tr><tr><td>@UUID[Compendium.dnd-players-handbook.equipment.Item.phbtulWeaversToo]{織布工工具}</td><td>@UUID[Compendium.dnd-players-handbook.equipment.Item.phbagBasket00000]{籃子}、@UUID[Compendium.dnd-players-handbook.equipment.Item.phbagRope0000000]{繩索}、@UUID[Compendium.dnd-players-handbook.equipment.Item.phbagNet00000000]{捕網}、@UUID[Compendium.dnd-players-handbook.equipment.Item.phbagTent0000000]{帳篷}</td></tr><tr><td>@UUID[Compendium.dnd-players-handbook.equipment.Item.phbtulWoodcarver]{木匠工具}</td><td>@UUID[Compendium.dnd-players-handbook.equipment.Item.phbwepClub000000]{棍棒}、@UUID[Compendium.dnd-players-handbook.equipment.Item.phbwepGreatclub0]{巨棍}、@UUID[Compendium.dnd-players-handbook.equipment.Item.phbwepQuartersta]{長棍}</td></tr></tbody></table><section class=\"secret\" id=\"secret-0xMSDuPkDWUc959m\"><p><strong>Foundry Note</strong></p><p>This feature does not automatically grant the proficiency. You can toggle the \"Edit\" mode in the <strong>\"</strong>Details\" tab of your sheet and click on the cog next to \"Tools\" underneath your Skills to choose your tool proficiencies.</p></section>",
+      "name": "巧匠"
+    },
+    "Thrown Weapon Fighting": {
+      "description": "<p><em>（先決條件：戰鬥風格特性）</em></p><p>當你使用帶有投擲屬性的武器以遠程攻擊命中時，你的傷害擲骰+2。</p><section class=\"secret\" id=\"secret-bEw60cBL96wx9JH4\"><p><strong>Foundry Note</strong></p><p>This feature is not automated. You can add +2 in the Situational Bonus field of the damage roll.</p></section>",
+      "name": "投擲武器戰鬥"
+    },
+    "Tavern Brawler": {
+      "activities": {
+        "Enhanced Unarmed Strike": {
+          "name": "強化徒手打擊"
+        }
+      },
+      "name": "酒館拳王",
+      "effects": {
+        "Tavern Brawler": {
+          "name": "酒館拳王"
+        }
+      },
+      "description": "<p>你獲得下列好處</p><p><strong>【強化徒手打擊】</strong>當你用徒手打擊命中並造成傷害時，你可以造成1d4 + 力量調整值的鈍擊傷害，而非一般徒手打擊的傷害。</p><p><strong>【傷害重骰】</strong>每當你為徒手打擊擲骰害骰時，若擲骰結果為1，則你可以重骰一次，但你必須使用新的擲骰結果。</p><p><strong>【臨時武器專家】</strong>你擁有臨時武器的熟練。</p><p><strong>【推離】</strong>作為你回合中的攻擊動作的一部分，當你用徒手打擊命中一個生物時，你可以對目標造成傷害並將其推離5呎。每個回合你只能使用一次該好處。<strong>.</strong></p><section class=\"secret\" id=\"secret-XllUmSpInybNueav\"><p><strong>Foundry Note</strong></p><p>The proficiency is automatically granted by this feature.</p><p>The <strong>Enhanced Unarmed Strike</strong> activity includes the damage change.</p></section>"
+    },
+    "Boon of Truesight": {
+      "name": "Boon of Truesight",
+      "description": "<p>你獲得下列益處。</p><p><strong>屬性值提升。</strong>自選一項屬性值提升1點，上限為30。</p><p><strong>真實視覺。</strong>你獲得60呎範圍的真實視覺。</p><section id=\"secret-MmPASAH8hA8METnP\" class=\"secret\"><p><strong>鑄造廠註記</strong></p><p>此特性包含會賦予你60呎範圍真實視覺的主動效果。</p></section>",
+      "effects": {
+        "Boon of Truesight": {
+          "name": "真視恩惠"
+        }
+      }
+    },
+    "Crusher": {
+      "name": "粉碎者",
+      "description": "<p>你獲得下列好處</p><p><strong>【屬性值提升】</strong>你的力量或體質提升1點，上限為20。</p><p><strong>【推離】</strong>每回合一次，當你以會造成頓擊傷害的攻擊命中一個生物時，若目標的體型不超過你一級，你可以將其移動5呎到未被佔據的空間。</p><p><strong>【強化暴擊】</strong>當你以鈍擊傷害對一個生物造成暴擊時，直到你下回合開始前，對該生物進行的攻擊檢定具有優勢。</p><section id=\"secret-Jx3RkyhIRZ7QLlyM\" class=\"secret\"><p><strong>Foundry筆記</strong></p><p>This feature includes an Active Effect which can be used to track the Advantage though it does not automate it.</p></section>",
+      "effects": {
+        "Crushed": {
+          "name": "粉碎"
+        }
+      }
+    },
+    "Heavy Armor Master": {
+      "description": "<p>你獲得下列好處</p><p><strong>【屬性值提升】</strong>你的體質或力量提升1點，上限為20。</p><p><strong>【傷害減免】</strong>當你穿戴中甲被攻擊命中時，該攻擊對你造成的任何鈍擊、穿刺、揮砍傷害減少等同於你熟練加值的數值。</p><section class=\"secret\" id=\"secret-BoU0ql21IXdiGxDw\"><p><strong>Foundry筆記</strong></p><p>This feature includes an Active Effect which automatically reduces those damage types by your Proficiency Bonus. Disable it when you are not wearing Heavy Armor.</p></section>",
+      "name": "重甲大師",
+      "effects": {
+        "Heavy Armor Master": {
+          "name": "重甲大師"
+        }
+      }
+    },
+    "Magic Initiate": {
+      "description": "<p>你獲得下列好處</p><p><strong>【兩道戲法】</strong>你從@UUID[Compendium.dnd-players-handbook.content.JournalEntry.phbSpells0000000.JournalEntryPage.SkHptN2PTzFGDaEj]{牧師}、@UUID[Compendium.dnd-players-handbook.content.JournalEntry.phbSpells0000000.JournalEntryPage.LhvuDQEyrCdg5EfU]{德魯伊}、@UUID[Compendium.dnd-players-handbook.content.JournalEntry.phbSpells0000000.JournalEntryPage.6AnqLUowgdsqMFvz]{法師}法術列表中習得兩個戲法。你以智力、感知、魅力做為你施放專長法術的施法屬性（你選擇此專長時決定）。</p><p><strong>【1環法術】</strong>選擇一個與你所選擇的專長戲法相同的法術列表中的1環法術，且你始終準備這道法術。你可以不消耗法術位施放該法術一次，並在你完成一次長休後，恢復以這種方式施放該法術的能力，你也可以使用你擁有的任意法術位施放這道法術。</p><p><strong>【法術改變】</strong>每當你獲得一個新等級時，你可以將透過此專長所習得的一道法術替換成相同法術列表中相同環術的另一道法術。</p><p><strong>【可複選】</strong>你可以重複選擇此專長，但每次你都必須選擇一個不同的法術列表。</p><section id=\"secret-7JQCSgnGrtu9huzf\" class=\"secret\"><p><strong>Foundry Note</strong></p><p>The spells have to be added to your sheet with the above changes manually.</p></section>",
+      "name": "魔法學徒"
+    },
+    "Ability Score Improvement": {
+      "name": "屬性值提升",
+      "description": "<p><em>通用專長（先決條件：4等以上）</em></p><p>你可以選擇一項屬性值提升2點，或是你可以選擇二項屬性值各1點，此專長無法將屬性值提升超過20。</p><p><strong>【可複選】</strong>你可以重複選擇此專長。</p>"
+    },
+    "Savage Attacker": {
+      "name": "野蠻攻擊者",
+      "description": "<p>你已經訓練出特別具有破壞性的打擊。每回合一次，當你用武器命中目標時，你可以擲兩次武器傷害骰，並任選其中一個結果。</p>"
+    },
+    "Druidic Warrior": {
+      "name": "德魯伊教戰士",
+      "description": "<p>你習得兩項你所選擇的@UUID[Compendium.dnd-players-handbook.content.JournalEntry.phbSpells0000000.JournalEntryPage.LhvuDQEyrCdg5EfU]{德魯伊戲法}。建議選擇@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplGuidance00]{神導術}與@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplStarryWisp]{點點星芒}。所選戲法對你來說是遊俠法術，你的施法屬性為感知。每當你獲得遊俠等級時，你能夠將一個已知戲法替換為另一個德魯伊戲法。</p>"
+    },
+    "Durable": {
+      "activities": {
+        "Speedy Recovery (Largest Die)": {
+          "name": "迅速復原（最大骰面）"
+        },
+        "Speedy Recovery (Smallest Die)": {
+          "name": "迅速復原（最小骰面）"
+        }
+      },
+      "description": "<p>你獲得下列好處</p><p><strong>【屬性值提升】</strong>你的體質提升1點，上限為20。</p><p><strong>【死而不屈】</strong>你在死亡豁免上具有優勢。</p><p><strong>【迅速復原】</strong>作為一個附贈動作，你可以消耗並擲出一個你的生命骰，並恢復等同於骰值的生命值。</p><section class=\"secret\" id=\"secret-2mnen4ekEgf4G7tw\"><p><strong>Foundry筆記</strong></p><p>The <strong>Speedy Recovery (Largest Die)</strong> activity expends your largest available Hit Die and the <strong>(Smallest Die)</strong> activity expends the smallest available Hit Die (only important when multiclassing, otherwise the results are the same).</p></section>",
+      "name": "耐性"
+    },
+    "Spell Sniper": {
+      "name": "法術射手",
+      "description": "<p>你獲得下列好處</p><p><strong>【屬性值提升】</strong> 你的智力、感知或魅力值提升1點，上限為20。</p><p><strong>【忽視掩護】</strong>你的法術攻擊檢定無視半身掩護與四分之三掩護。&amp;Reference[Half Cover] / &amp;Reference[Three-Quarters Cover]</p><p><strong>【近戰施法】</strong>距離敵人5呎內你以法術進行的攻擊檢定不會造成劣勢。</p><p><strong>【提升射程】</strong>當你施放射程至少10呎的法術且需要你進行攻擊檢定，你可以提升法術的射程60呎。</p>"
+    },
+    "Crossbow Expert": {
+      "name": "強弩專家",
+      "description": "<p>你獲得下列好處</p><p><strong>【屬性值提升】</strong>你的敏捷提升1點，上限為20。</p><p><strong>【無視裝填】</strong>你無視手弩、重弩與輕弩的裝填屬性（在此專長統稱為弩）。只要你手持一把弩，即使你沒有空出一隻手，也能為其裝填彈藥。</p><p><strong>【抵近射擊】</strong>距離敵人5呎內你使用弩進行的攻擊檢定不會造成劣勢。</p><p><strong>【雙持射擊】</strong> 當你以輕型屬性進行額外攻擊時，若該攻擊是使用具有輕型屬性的弩，且你尚未將你的屬性調整值加到該攻擊的傷害中，則你可以將其加上調整值。</p><section class=\"secret\" id=\"secret-JbCLp7Ez3Fn6zaVJ\"><p><strong>Foundry筆記</strong></p><p>The additional damage for Dual Wielding is not automatically implemented but it can be added to the Situational Bonus in the normal damage roll's dialog box.</p></section>"
+    },
+    "Boon of Fortitude": {
+      "activities": {
+        "Fortify Health": {
+          "name": "Fortify Health",
+          "condition": "每當你恢復生命值時"
+        }
+      },
+      "name": "堅毅恩惠",
+      "effects": {
+        "Boon of Fortitude": {
+          "name": "堅毅恩惠"
+        }
+      },
+      "description": "<p>你獲得下列好處。</p><p><strong>【屬性值提升】</strong>自選一項屬性值提升1點，上限為30。</p><p><strong>【強化體魄】</strong>你的生命值上限提升40點。此外，每當你恢復生命值時，你可以額外恢復等同你體質調整值（當前為[[lookup @abilities.con.mod]]）的生命值。一旦你恢復了額外的生命值，直到你下一回合開始前，你無法再次使用。</p><section id=\"secret-JgTurTuyg5ikUyQq\" class=\"secret\"><p><strong>鑄造廠註記</strong></p><p>此專長包含會自動套用至生命值上限的主動效果。</p><p><strong>強化體魄</strong>行動包含額外治療效果。</p></section>"
+    },
+    "Mounted Combatant": {
+      "description": "<p>你獲得下列好處</p><p><strong>【屬性值提升】</strong>你的力量、敏捷或感知提升1點，上限為20。</p><p><strong>【騎乘打擊】</strong>騎乘時，你對你坐騎5呎內任何為騎乘且體型比你坐騎小至少一級的生物進行的攻擊檢定具有優勢。</p><p><strong>【躲閃】</strong>若你的坐騎受到令其進行敏捷豁免檢定以承受一半傷害的效果時，坐騎在豁免成功時不受傷害，並在豁免失敗時承受一半傷害。你必須騎乘你的坐騎，且你與其都不處於&amp;Reference[Incapacitated]狀態，你的坐騎才能獲得此好處。</p><p><strong>【偏移】</strong>在你騎乘時，若你未陷入無力狀態，你可以強迫一次命中你坐騎的攻擊轉而命中你。</p>",
+      "name": "騎乘戰鬥"
+    },
+    "Skilled": {
+      "description": "<p>你獲得總共3種的自選技能或工具的熟練。</p><p><strong>【可複選】</strong>你可以重複選擇此專長。</p><section class=\"secret\" id=\"secret-36vceWBnGWiMkySr\"><p><strong>Foundry Note</strong></p><p>This feature does not automatically grant the proficiencies. You can toggle the \"Edit\" mode in the <strong>\"</strong>Details\" tab of your sheet and click on the circles next to the Skills to choose your proficiencies.</p></section>",
+      "name": "技巧嫻熟"
+    },
+    "Observant": {
+      "name": "敏銳觀察",
+      "description": "<p>你獲得下列好處</p><p><strong>【屬性值提升】</strong>你的智力或感知提升1點，上限為20。</p><p><strong>【敏銳觀察者】</strong>選擇下列其中一項技能：洞悉、調查或察覺。若你沒有所選技能的熟練，則你獲得此技能的熟練；若你已經擁有該項熟練，則獲得該技能的專精。</p><p><strong>【迅速搜尋】</strong>你可以將搜尋動作視為附贈動作來執行。</p><section class=\"secret\" id=\"secret-K0jqzqvXGTUKgd4V\"><p><strong>Foundry筆記</strong></p><p>This feature does not automatically grant the proficiency/Expertise. You can toggle the \"Edit\" mode for your sheet and click on the circle next to the skill to apply proficiency or Expertise as needed.</p></section>"
+    },
+    "Weapon Master": {
+      "description": "<p>你獲得下列好處</p><p><strong>【屬性值提升】</strong> 你的力量或敏捷提升1點，上限為20。</p><p><strong>【精通屬性】</strong>你受過的武器訓練，令你能夠使用一種你所選擇且已熟練的簡易或軍用武器的精通屬性。每當你完成一次長休時，你可以更改為另一種符合條件的武器。</p><section class=\"secret\" id=\"secret-pSA9c83D3LNb1BDD\"><p><strong>Foundry筆記</strong></p><p>To change your masteries toggle on the \"Edit\" mode of your sheet. On the \"Details\" tab click on the cog icon next to \"Weapons\" in the bottom right. You can place a check in the mastery column of your chosen weapons.</p></section>",
+      "name": "武器大師"
+    },
+    "War Caster": {
+      "effects": {
+        "War Caster": {
+          "name": "戰爭施法者"
+        }
+      },
+      "description": "<p>你獲得下列好處</p><p><strong>【屬性值提升】</strong> 你的智力、感知或魅力值提升1點，上限為20。</p><p><strong>【專注】</strong>你為維持專注所進行的體質豁免檢定具有優勢。</p><p><strong>【反應施法】</strong>當一個生物離開你的觸及範圍而引發藉機攻擊時，你可以採取反應對該生物施放一道法術，而非進行藉機攻擊。該法術的施法時間必須為一個動作，並且必須僅瞄準該生物。</p><p><strong>【姿勢構材】</strong>即使你單手或雙手持握武器或盾牌，你也可以滿足法術的姿勢構材。</p><section class=\"secret\" id=\"secret-jGAKlXdMPlzHFjTa\"><p><strong>Foundry筆記</strong></p><p>This feat will automate the advantage on Concentration checks.</p></section>",
+      "name": "戰爭施法者"
+    },
+    "Fey-Touched": {
+      "description": "<p>暴露在妖精荒野的魔法之下，使你獲得下列好處。</p><p><strong>【屬性值提升】</strong> 你的智力、感知或魅力值提升1點，上限為20。</p><p><strong>【精類魔法】</strong>選擇一個1環預言或惑控學派的@UUID[Compendium.dnd-players-handbook.content.JournalEntry.phbSpells0000000.JournalEntryPage.dWVioXxEGjcPsI9Y]{法術}。你始終準備該法術以及@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplMistyStep0]法術。你可以不消耗法術位施放其中一個法術。一旦你以此方式施放法術，直到你完成一次長休後，該法術無法再次以此方式施放。你也可以使用對應環階的法術位施放這些法術。法術施法屬性為此專長所提升的屬性。</p><section class=\"secret\" id=\"secret-O8kxBQYKdt4eFJIV\"><p><strong>Foundry筆記</strong></p><p>The spells will have to be manually edited after being added to your sheet to configure the spellcasting ability and add the free use.</p></section>",
+      "name": "精類觸碰"
+    }
+  },
+  "folders": {
+    "General Feats": "通用專長",
+    "Fighting Style Feats": "戰鬥風格專長",
+    "Epic Boon Feats": "史詩恩惠專長",
+    "Origin Feats": "起源專長"
+  },
+  "mapping": {
+    "effects": {
+      "converter": "effects",
+      "path": "effects"
+    },
+    "rangeActivities": {
+      "path": "system.activities",
+      "converter": "rangeActivities"
+    },
+    "activities": {
+      "converter": "activities",
+      "path": "system.activities"
+    }
+  },
+  "label": "專長"
+}

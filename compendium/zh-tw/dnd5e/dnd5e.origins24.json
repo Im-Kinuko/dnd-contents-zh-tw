@@ -1,0 +1,18 @@
+{
+  "label": "Character Origins",
+  "folders": {
+    "Dragonborn": "Dragonborn",
+    "Elf": "Elf",
+    "Goliath": "Goliath",
+    "Traits": "Traits",
+    "Orc": "Orc",
+    "Dwarf": "Dwarf",
+    "Species": "Species",
+    "Tiefling": "Tiefling",
+    "Gnome": "Gnome",
+    "Human": "Human",
+    "Backgrounds": "Backgrounds",
+    "Halfling": "Halfling"
+  },
+  "entries": {}
+}

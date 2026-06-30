@@ -1,0 +1,819 @@
+{
+  "label": "Scenes",
+  "folders": {
+    "Greyhawk": "Greyhawk",
+    "Greyhawk World": "Greyhawk World",
+    "Greyhawk and Environs": "Greyhawk and Environs",
+    "Encounter Maps": "Encounter Maps"
+  },
+  "entries": {
+    "Barrow Crypt": {
+      "name": "Barrow Crypt",
+      "regions": {
+        "Level 1": {
+          "name": "Level 1",
+          "behaviors": {
+            "Teleport Token": {
+              "name": "Teleport Token"
+            }
+          }
+        },
+        "Level 2": {
+          "name": "Level 2",
+          "behaviors": {
+            "Teleport Token": {
+              "name": "Teleport Token"
+            }
+          }
+        },
+        "gRtTbTLPUtwqv8Vs": {
+          "name": "Level 2",
+          "behaviors": {
+            "Teleport Token": {
+              "name": "Teleport Token"
+            }
+          }
+        },
+        "lqA7lYLCRTiToiRM": {
+          "name": "Level 1",
+          "behaviors": {
+            "Teleport Token": {
+              "name": "Teleport Token"
+            }
+          }
+        }
+      }
+    },
+    "Caravan Encampment": {
+      "name": "Caravan Encampment"
+    },
+    "Crossroads Village": {
+      "name": "Crossroads Village"
+    },
+    "Dragon's Lair": {
+      "name": "Dragon's Lair",
+      "regions": {
+        "Level 1": {
+          "name": "Level 1",
+          "behaviors": {
+            "Teleport Token": {
+              "name": "Teleport Token"
+            }
+          }
+        },
+        "Level 2 (from 1)": {
+          "name": "Level 2 (from 1)",
+          "behaviors": {
+            "Teleport Token": {
+              "name": "Teleport Token"
+            }
+          }
+        },
+        "Level 2 (from 3)": {
+          "name": "Level 2 (from 3)",
+          "behaviors": {
+            "Teleport Token": {
+              "name": "Teleport Token"
+            }
+          }
+        },
+        "Level 3": {
+          "name": "Level 3",
+          "behaviors": {
+            "Teleport Token": {
+              "name": "Teleport Token"
+            }
+          }
+        },
+        "Remove Global Illumination": {
+          "name": "Remove Global Illumination",
+          "behaviors": {
+            "Adjust Darkness Level": {
+              "name": "Adjust Darkness Level"
+            }
+          }
+        }
+      }
+    },
+    "Dungeon Hideout": {
+      "name": "Dungeon Hideout",
+      "regions": {
+        "Surface Level (Left)": {
+          "name": "Surface Level (Left)",
+          "behaviors": {
+            "Teleport Token": {
+              "name": "Teleport Token"
+            }
+          }
+        },
+        "Level 1 (Left)": {
+          "name": "Level 1 (Left)",
+          "behaviors": {
+            "Teleport Token": {
+              "name": "Teleport Token"
+            }
+          }
+        },
+        "Surface Level (Right)": {
+          "name": "Surface Level (Right)",
+          "behaviors": {
+            "Teleport Token": {
+              "name": "Teleport Token"
+            }
+          }
+        },
+        "Level 1 (Right)": {
+          "name": "Level 1 (Right)",
+          "behaviors": {
+            "Teleport Token": {
+              "name": "Teleport Token"
+            }
+          }
+        },
+        "Level 1 (Inner Left)": {
+          "name": "Level 1 (Inner Left)",
+          "behaviors": {
+            "Teleport Token": {
+              "name": "Teleport Token"
+            }
+          }
+        },
+        "Level 2 (Inner Left)": {
+          "name": "Level 2 (Inner Left)",
+          "behaviors": {
+            "Teleport Token": {
+              "name": "Teleport Token"
+            }
+          }
+        },
+        "Level 2 (Inner Right)": {
+          "name": "Level 2 (Inner Right)",
+          "behaviors": {
+            "Teleport Token": {
+              "name": "Teleport Token"
+            }
+          }
+        },
+        "Level 1 (Inner Right)": {
+          "name": "Level 1 (Inner Right)",
+          "behaviors": {
+            "Teleport Token": {
+              "name": "Teleport Token"
+            }
+          }
+        }
+      }
+    },
+    "Farmstead": {
+      "name": "Farmstead"
+    },
+    "Greyhawk (Blank)": {
+      "name": "Greyhawk (Blank)",
+      "notes": {
+        "Black Dragon Inn": "Black Dragon Inn",
+        "Great Library": "Great Library",
+        "Silver Dragon Inn": "Silver Dragon Inn",
+        "High Tower Inn": "High Tower Inn",
+        "Temple of the Radiant Sun": "Temple of the Radiant Sun",
+        "Temple of the Far Horizon": "Temple of the Far Horizon",
+        "Unearthed Arcana": "Unearthed Arcana",
+        "Grand Citadel": "Grand Citadel"
+      }
+    },
+    "Greyhawk and Environs (Blank)": {
+      "name": "Greyhawk and Environs (Blank)",
+      "notes": {
+        "Cairn Hills": "Cairn Hills",
+        "Midbay": "Midbay",
+        "Nyr Dyv": "Nyr Dyv",
+        "Great South Peninsula": "Great South Peninsula",
+        "Mistmarsh": "Mistmarsh",
+        "Plain of Greyhawk": "Plain of Greyhawk"
+      }
+    },
+    "Greyhawk and Environs (Labeled)": {
+      "name": "Greyhawk and Environs (Labeled)"
+    },
+    "Greyhawk and Environs (Major Locations No Paths)": {
+      "name": "Greyhawk and Environs (Major Locations No Paths)"
+    },
+    "Greyhawk and Environs (Major Locations with Paths)": {
+      "name": "Greyhawk and Environs (Major Locations with Paths)"
+    },
+    "Greyhawk (Labeled)": {
+      "name": "Greyhawk (Labeled)",
+      "notes": {
+        "Black Dragon Inn": "Black Dragon Inn",
+        "Great Library": "Great Library",
+        "Silver Dragon Inn": "Silver Dragon Inn",
+        "High Tower Inn": "High Tower Inn",
+        "Temple of the Radiant Sun": "Temple of the Radiant Sun",
+        "Temple of the Far Horizon": "Temple of the Far Horizon",
+        "Unearthed Arcana": "Unearthed Arcana",
+        "Grand Citadel": "Grand Citadel"
+      }
+    },
+    "Greyhawk (Sites Only)": {
+      "name": "Greyhawk (Sites Only)",
+      "notes": {
+        "Black Dragon Inn": "Black Dragon Inn",
+        "Great Library": "Great Library",
+        "Silver Dragon Inn": "Silver Dragon Inn",
+        "High Tower Inn": "High Tower Inn",
+        "Temple of the Radiant Sun": "Temple of the Radiant Sun",
+        "Temple of the Far Horizon": "Temple of the Far Horizon",
+        "Unearthed Arcana": "Unearthed Arcana",
+        "Grand Citadel": "Grand Citadel"
+      }
+    },
+    "Greyhawk World (Blank)": {
+      "name": "Greyhawk World (Blank)"
+    },
+    "Greyhawk World (Labeled)": {
+      "name": "Greyhawk World (Labeled)"
+    },
+    "Keep": {
+      "name": "Keep",
+      "regions": {
+        "3rd Level Right Turrent": {
+          "name": "3rd Level Right Turrent",
+          "behaviors": {
+            "Teleport Token": {
+              "name": "Teleport Token"
+            }
+          }
+        },
+        "2nd Level Right Turret": {
+          "name": "2nd Level Right Turret",
+          "behaviors": {
+            "Up": {
+              "name": "Up"
+            },
+            "Down": {
+              "name": "Down"
+            }
+          }
+        },
+        "1st Level Ladder Right Turret": {
+          "name": "1st Level Ladder Right Turret",
+          "behaviors": {
+            "Teleport Token": {
+              "name": "Teleport Token"
+            }
+          }
+        },
+        "3rd Level Ladder (Middle)": {
+          "name": "3rd Level Ladder (Middle)",
+          "behaviors": {
+            "Teleport Token": {
+              "name": "Teleport Token"
+            }
+          }
+        },
+        "2nd Level Ladder (Middle)": {
+          "name": "2nd Level Ladder (Middle)",
+          "behaviors": {
+            "Teleport Token": {
+              "name": "Teleport Token"
+            }
+          }
+        },
+        "1st Level Ladder Guard Room (Right)": {
+          "name": "1st Level Ladder Guard Room (Right)",
+          "behaviors": {
+            "Teleport Token": {
+              "name": "Teleport Token"
+            }
+          }
+        },
+        "1st Level Ladder Guard Room (Left)": {
+          "name": "1st Level Ladder Guard Room (Left)",
+          "behaviors": {
+            "Teleport Token": {
+              "name": "Teleport Token"
+            }
+          }
+        },
+        "2nd Level Ladder (Right)": {
+          "name": "2nd Level Ladder (Right)",
+          "behaviors": {
+            "Teleport Token": {
+              "name": "Teleport Token"
+            }
+          }
+        },
+        "2nd Level Ladder (Left)": {
+          "name": "2nd Level Ladder (Left)",
+          "behaviors": {
+            "Teleport Token": {
+              "name": "Teleport Token"
+            }
+          }
+        },
+        "1st Level Stairs Dining Room": {
+          "name": "1st Level Stairs Dining Room",
+          "behaviors": {
+            "Teleport Token": {
+              "name": "Teleport Token"
+            }
+          }
+        },
+        "2nd Level Stairs Bedrooms": {
+          "name": "2nd Level Stairs Bedrooms",
+          "behaviors": {
+            "Teleport Token": {
+              "name": "Teleport Token"
+            }
+          }
+        },
+        "4th Level Left Turret": {
+          "name": "4th Level Left Turret",
+          "behaviors": {
+            "Teleport Token": {
+              "name": "Teleport Token"
+            }
+          }
+        },
+        "3rd Level Left Turret": {
+          "name": "3rd Level Left Turret",
+          "behaviors": {
+            "Teleport Token": {
+              "name": "Teleport Token"
+            }
+          }
+        },
+        "1st Level Stairs Bottom Left (Up)": {
+          "name": "1st Level Stairs Bottom Left (Up)",
+          "behaviors": {
+            "Teleport Token": {
+              "name": "Teleport Token"
+            }
+          }
+        },
+        "2nd Level Stairs (Up)": {
+          "name": "2nd Level Stairs (Up)",
+          "behaviors": {
+            "Teleport Token": {
+              "name": "Teleport Token"
+            }
+          }
+        },
+        "3rd Level Stairs (Left)": {
+          "name": "3rd Level Stairs (Left)",
+          "behaviors": {
+            "Teleport Token": {
+              "name": "Teleport Token"
+            }
+          }
+        },
+        "2nd Level Stairs (Down)": {
+          "name": "2nd Level Stairs (Down)",
+          "behaviors": {
+            "Teleport Token": {
+              "name": "Teleport Token"
+            }
+          }
+        },
+        "2nd Level Ladder (Center)": {
+          "name": "2nd Level Ladder (Center)",
+          "behaviors": {
+            "Teleport Token": {
+              "name": "Teleport Token"
+            }
+          }
+        },
+        "1st Level Ladder (Center)": {
+          "name": "1st Level Ladder (Center)",
+          "behaviors": {
+            "Teleport Token": {
+              "name": "Teleport Token"
+            }
+          }
+        }
+      }
+    },
+    "Manor": {
+      "name": "Manor",
+      "regions": {
+        "1st Level Main Stairs": {
+          "name": "1st Level Main Stairs",
+          "behaviors": {
+            "Teleport Token": {
+              "name": "Teleport Token"
+            }
+          }
+        },
+        "1st Level Side Stairs": {
+          "name": "1st Level Side Stairs",
+          "behaviors": {
+            "Teleport Token": {
+              "name": "Teleport Token"
+            }
+          }
+        },
+        "1st Level Turret Stairs": {
+          "name": "1st Level Turret Stairs",
+          "behaviors": {
+            "Teleport Token": {
+              "name": "Teleport Token"
+            }
+          }
+        },
+        "1st Level Right Stairs": {
+          "name": "1st Level Right Stairs",
+          "behaviors": {
+            "Teleport Token": {
+              "name": "Teleport Token"
+            }
+          }
+        },
+        "2nd Floor Main Stairs": {
+          "name": "2nd Floor Main Stairs",
+          "behaviors": {
+            "Teleport Token": {
+              "name": "Teleport Token"
+            }
+          }
+        },
+        "2nd Floor Right Stairs": {
+          "name": "2nd Floor Right Stairs",
+          "behaviors": {
+            "Teleport Token": {
+              "name": "Teleport Token"
+            }
+          }
+        },
+        "2nd Floor Side Stairs": {
+          "name": "2nd Floor Side Stairs",
+          "behaviors": {
+            "Teleport Token": {
+              "name": "Teleport Token"
+            }
+          }
+        },
+        "2nd Floor Hallway Stairs": {
+          "name": "2nd Floor Hallway Stairs",
+          "behaviors": {
+            "Teleport Token": {
+              "name": "Teleport Token"
+            }
+          }
+        },
+        "3rd Floor Hallway Stairs": {
+          "name": "3rd Floor Hallway Stairs",
+          "behaviors": {
+            "Teleport Token": {
+              "name": "Teleport Token"
+            }
+          }
+        },
+        "2nd Floor Turret (Bottom)": {
+          "name": "2nd Floor Turret (Bottom)",
+          "behaviors": {
+            "Teleport Token": {
+              "name": "Teleport Token"
+            }
+          }
+        },
+        "2nd Floor Turret (Top)": {
+          "name": "2nd Floor Turret (Top)",
+          "behaviors": {
+            "Teleport Token": {
+              "name": "Teleport Token"
+            }
+          }
+        },
+        "3rd Floor Turret (Bottom)": {
+          "name": "3rd Floor Turret (Bottom)",
+          "behaviors": {
+            "Teleport Token": {
+              "name": "Teleport Token"
+            }
+          }
+        },
+        "3rd Floor Turret (Top)": {
+          "name": "3rd Floor Turret (Top)",
+          "behaviors": {
+            "Teleport Token": {
+              "name": "Teleport Token"
+            }
+          }
+        },
+        "4th Floor Turret (Bottom)": {
+          "name": "4th Floor Turret (Bottom)",
+          "behaviors": {
+            "Teleport Token": {
+              "name": "Teleport Token"
+            }
+          }
+        },
+        "4th Level Turret (Top)": {
+          "name": "4th Level Turret (Top)",
+          "behaviors": {
+            "Teleport Token": {
+              "name": "Teleport Token"
+            }
+          }
+        },
+        "5th Level Turret": {
+          "name": "5th Level Turret",
+          "behaviors": {
+            "Teleport Token": {
+              "name": "Teleport Token"
+            }
+          }
+        }
+      }
+    },
+    "Mine": {
+      "name": "Mine",
+      "regions": {
+        "1st Level": {
+          "name": "1st Level",
+          "behaviors": {
+            "Teleport Token": {
+              "name": "Teleport Token"
+            }
+          }
+        },
+        "3rd Level (Left)": {
+          "name": "3rd Level (Left)",
+          "behaviors": {
+            "Teleport Token": {
+              "name": "Teleport Token"
+            }
+          }
+        },
+        "3rd Level (Right)": {
+          "name": "3rd Level (Right)",
+          "behaviors": {
+            "Teleport Token": {
+              "name": "Teleport Token"
+            }
+          }
+        },
+        "2nd Level": {
+          "name": "2nd Level",
+          "behaviors": {
+            "Teleport Token": {
+              "name": "Teleport Token"
+            }
+          }
+        }
+      }
+    },
+    "Roadside Inn": {
+      "name": "Roadside Inn",
+      "regions": {
+        "1st Level Main Stairs": {
+          "name": "1st Level Main Stairs",
+          "behaviors": {
+            "Teleport Token": {
+              "name": "Teleport Token"
+            }
+          }
+        },
+        "1st Level Backstairs": {
+          "name": "1st Level Backstairs",
+          "behaviors": {
+            "Teleport Token": {
+              "name": "Teleport Token"
+            }
+          }
+        },
+        "1st LevelBarn Stairs": {
+          "name": "1st LevelBarn Stairs",
+          "behaviors": {
+            "Teleport Token": {
+              "name": "Teleport Token"
+            }
+          }
+        },
+        "2nd Level Backstairs": {
+          "name": "2nd Level Backstairs",
+          "behaviors": {
+            "Teleport Token": {
+              "name": "Teleport Token"
+            }
+          }
+        },
+        "2nd Level Main Stairs": {
+          "name": "2nd Level Main Stairs",
+          "behaviors": {
+            "Teleport Token": {
+              "name": "Teleport Token"
+            }
+          }
+        },
+        "2nd Level Barn Stairs": {
+          "name": "2nd Level Barn Stairs",
+          "behaviors": {
+            "Teleport Token": {
+              "name": "Teleport Token"
+            }
+          }
+        }
+      }
+    },
+    "Ship": {
+      "name": "Ship",
+      "regions": {
+        "Bottom Level (Left)": {
+          "name": "Bottom Level (Left)",
+          "behaviors": {
+            "Teleport Token": {
+              "name": "Teleport Token"
+            }
+          }
+        },
+        "Bottom Level (Right)": {
+          "name": "Bottom Level (Right)",
+          "behaviors": {
+            "Teleport Token": {
+              "name": "Teleport Token"
+            }
+          }
+        },
+        "Top Level (Right)": {
+          "name": "Top Level (Right)",
+          "behaviors": {
+            "Teleport Token": {
+              "name": "Teleport Token"
+            }
+          }
+        },
+        "Top Level (Left)": {
+          "name": "Top Level (Left)",
+          "behaviors": {
+            "Teleport Token": {
+              "name": "Teleport Token"
+            }
+          }
+        },
+        "Disable Global Illumination": {
+          "name": "Disable Global Illumination",
+          "behaviors": {
+            "Adjust Darkness Level": {
+              "name": "Adjust Darkness Level"
+            }
+          }
+        }
+      }
+    },
+    "Spooky House": {
+      "name": "Spooky House",
+      "regions": {
+        "Upstairs Left Main Staircase": {
+          "name": "Upstairs Left Main Staircase",
+          "behaviors": {
+            "Teleport Token": {
+              "name": "Teleport Token"
+            }
+          }
+        },
+        "Upstairs Right Main Staircase": {
+          "name": "Upstairs Right Main Staircase",
+          "behaviors": {
+            "Teleport Token": {
+              "name": "Teleport Token"
+            }
+          }
+        },
+        "Ground Floor Left Main Staircase": {
+          "name": "Ground Floor Left Main Staircase",
+          "behaviors": {
+            "Teleport Token": {
+              "name": "Teleport Token"
+            }
+          }
+        },
+        "Ground Floor Right Main Staircase": {
+          "name": "Ground Floor Right Main Staircase",
+          "behaviors": {
+            "Teleport Token": {
+              "name": "Teleport Token"
+            }
+          }
+        },
+        "Ground Floor Kitchen Staircase": {
+          "name": "Ground Floor Kitchen Staircase",
+          "behaviors": {
+            "Teleport Token": {
+              "name": "Teleport Token"
+            }
+          }
+        },
+        "Cellar Staircase Left": {
+          "name": "Cellar Staircase Left",
+          "behaviors": {
+            "Teleport Token": {
+              "name": "Teleport Token"
+            }
+          }
+        },
+        "Cellar Staircase Right": {
+          "name": "Cellar Staircase Right",
+          "behaviors": {
+            "Teleport Token": {
+              "name": "Teleport Token"
+            }
+          }
+        },
+        "Secret Stairs": {
+          "name": "Secret Stairs"
+        }
+      }
+    },
+    "Underdark Warren": {
+      "name": "Underdark Warren"
+    },
+    "Volcanic Caves": {
+      "name": "Volcanic Caves"
+    },
+    "Wizards Tower": {
+      "name": "Wizards Tower",
+      "regions": {
+        "Level 5": {
+          "name": "Level 5",
+          "behaviors": {
+            "Teleport Token": {
+              "name": "Teleport Token"
+            }
+          }
+        },
+        "Level 4 (Down)": {
+          "name": "Level 4 (Down)",
+          "behaviors": {
+            "Teleport Token": {
+              "name": "Teleport Token"
+            }
+          }
+        },
+        "Level 4 (Up)": {
+          "name": "Level 4 (Up)",
+          "behaviors": {
+            "Teleport Token": {
+              "name": "Teleport Token"
+            }
+          }
+        },
+        "Level 3 (Down)": {
+          "name": "Level 3 (Down)",
+          "behaviors": {
+            "Teleport Token": {
+              "name": "Teleport Token"
+            }
+          }
+        },
+        "Level 3 (Up)": {
+          "name": "Level 3 (Up)",
+          "behaviors": {
+            "Teleport Token": {
+              "name": "Teleport Token"
+            }
+          }
+        },
+        "Level 2 (Down)": {
+          "name": "Level 2 (Down)",
+          "behaviors": {
+            "Teleport Token": {
+              "name": "Teleport Token"
+            }
+          }
+        },
+        "Level 2 (Up)": {
+          "name": "Level 2 (Up)",
+          "behaviors": {
+            "Teleport Token": {
+              "name": "Teleport Token"
+            }
+          }
+        },
+        "Level 1 (Down)": {
+          "name": "Level 1 (Down)",
+          "behaviors": {
+            "Teleport Token": {
+              "name": "Teleport Token"
+            }
+          }
+        },
+        "Level 1 (Up)": {
+          "name": "Level 1 (Up)",
+          "behaviors": {
+            "Teleport Token": {
+              "name": "Teleport Token"
+            }
+          }
+        },
+        "Dungeons": {
+          "name": "Dungeons",
+          "behaviors": {
+            "Teleport Token": {
+              "name": "Teleport Token"
+            }
+          }
+        }
+      }
+    }
+  }
+}

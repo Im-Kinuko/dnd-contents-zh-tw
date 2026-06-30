@@ -1,0 +1,22 @@
+{
+  "label": "Character Options",
+  "folders": {
+    "Bladesinger (Wizard)": "Bladesinger (Wizard)",
+    "General Feats": "General Feats",
+    "Origin Feats": "Origin Feats",
+    "Epic Boon Feats": "Epic Boon Feats",
+    "Knowledge Domain (Cleric)": "Knowledge Domain (Cleric)",
+    "Scion of the Three (Rogue)": "Scion of the Three (Rogue)",
+    "Backgrounds": "Backgrounds",
+    "College of the Moon (Bard)": "College of the Moon (Bard)",
+    "Subclasses": "Subclasses",
+    "Oath of the Noble Genies (Paladin)": "Oath of the Noble Genies (Paladin)",
+    "Winter Walker (Ranger)": "Winter Walker (Ranger)",
+    "Feats": "Feats",
+    "Bastion Facilities": "Bastion Facilities",
+    "Spells": "Spells",
+    "Banneret (Fighter)": "Banneret (Fighter)",
+    "Spellfire Sorcery (Sorcerer)": "Spellfire Sorcery (Sorcerer)"
+  },
+  "entries": {}
+}
