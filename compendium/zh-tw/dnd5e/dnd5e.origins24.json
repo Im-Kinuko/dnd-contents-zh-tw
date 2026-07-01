@@ -1,127 +1,127 @@
 {
-  "label": "Character Origins",
+  "label": "角色起源",
   "folders": {
-    "Dragonborn": "Dragonborn",
-    "Elf": "Elf",
-    "Goliath": "Goliath",
-    "Traits": "Traits",
-    "Orc": "Orc",
-    "Dwarf": "Dwarf",
-    "Species": "Species",
-    "Tiefling": "Tiefling",
-    "Gnome": "Gnome",
-    "Human": "Human",
-    "Backgrounds": "Backgrounds",
-    "Halfling": "Halfling"
+    "Dragonborn": "龍裔",
+    "Elf": "精靈",
+    "Goliath": "歌利亞",
+    "Traits": "特性",
+    "Orc": "獸人",
+    "Dwarf": "矮人",
+    "Species": "種族",
+    "Tiefling": "提夫林",
+    "Gnome": "侏儒",
+    "Human": "人類",
+    "Backgrounds": "背景",
+    "Halfling": "半身人"
   },
   "entries": {
     "Acolyte": {
       "advancement": {
         "Choose Languages": {
-          "title": "Choose Languages",
-          "hint": "Your character knows at least three languages: Common plus two languages you roll or choose from the Standard Languages table."
+          "title": "選擇語言",
+          "hint": "你的角色至少知曉三種語言，通用語加兩種你從標準語言表中所擲到或所選擇的。"
         },
         "Background Feat": {
-          "title": "Background Feat",
-          "hint": "Your background grants you the Magic Initiate (Cleric) feat."
+          "title": "背景專長",
+          "hint": "你的背景賦予你魔法學徒（牧師）專長。"
         },
         "Background Ability Score Improvement": {
-          "hint": "Your background allows you to increase your Intelligence, Wisdom, and Charisma scores; increase one of them by 2 and a different one by 1, or increase all three by 1. None of these increases can raise a score above 20.",
-          "title": "Background Ability Score Improvement"
+          "hint": "你的背景讓你能提升智力、感知、魅力。選擇其中一項提升 2 點，另一項提升 1 點；或是三項各提升 1 點。這些提升都不能讓該屬性超過20。",
+          "title": "背景屬性值提升"
         },
         "Background Proficiencies": {
-          "title": "Background Proficiencies",
-          "hint": "Your background grants you proficiency in Insight and Religion. It also grants you proficiency in Calligrapher's Supplies."
+          "title": "背景熟練",
+          "hint": "你的背景賦予你洞悉和宗教的熟練，以及書法家設備的熟練。"
         }
       },
       "description": "<p><strong>Ability Scores:</strong> Intelligence, Wisdom, Charisma</p><p><strong>Feat:</strong> @UUID[Compendium.dnd5e.feats24.Item.phbftMagicInitia]{Magic Initiate} (Cleric)</p><p><strong>Skill Proficiencies:</strong> Insight and Religion</p><p><strong>Tool Proficiency:</strong> Calligrapher's Supplies</p><p><strong>Equipment:</strong> <em>Choose A or B:</em> (A) @UUID[Compendium.dnd5e.equipment24.Item.phbtulCalligraph]{Calligrapher's Supplies}, @UUID[Compendium.dnd5e.equipment24.Item.phbagBook0000000]{Book} (prayers), @UUID[Compendium.dnd5e.equipment24.Item.phbagHolySymbolV]{Holy Symbol}, @UUID[Compendium.dnd5e.equipment24.Item.phbagParchment00]{Parchment} (10 sheets), @UUID[Compendium.dnd5e.equipment24.Item.phbagRobe0000000]{Robe}, 8 GP; or (B) 50 GP</p><p>@Embed[Compendium.dnd5e.content24.JournalEntry.phbAppendixBackg.JournalEntryPage.phbbgAcolyte0000 inline classes=\"free-rules-embed\"]</p>",
-      "name": "Acolyte"
+      "name": "侍僧"
     },
     "Sage": {
       "advancement": {
         "Choose Languages": {
-          "title": "Choose Languages",
-          "hint": "Your character knows at least three languages: Common plus two languages you roll or choose from the Standard Languages table."
+          "title": "選擇語言",
+          "hint": "你的角色至少知曉三種語言，通用語加兩種你從標準語言表中所擲到或所選擇的。"
         },
         "Background Proficiencies": {
-          "hint": "Your background grants you proficiency in Arcana and History. It also grants you proficiency with Calligrapher's Supplies.",
-          "title": "Background Proficiencies"
+          "hint": "你的背景賦予你奧術與歷史的熟練，並讓你熟練書法家設備。",
+          "title": "背景熟練"
         },
         "Background Ability Score Improvement": {
-          "hint": "Your background allows you to increase your Constitution, Intelligence, and Wisdom scores; increase one of them by 2 and a different one by 1, or increase all three by 1. None of these increases can raise a score above 20.",
-          "title": "Background Ability Score Improvement"
+          "hint": "你的背景讓你能提升體質、智力、感知。選擇其中一項提升 2 點，另一項提升 1 點；或是三項各提升 1 點。這些提升都不能讓該屬性超過20。",
+          "title": "背景屬性值提升"
         },
         "Background Feat": {
-          "title": "Background Feat",
-          "hint": "Your backgrounds grants you the Magic Initiate (Wizard) feat."
+          "title": "背景專長",
+          "hint": "你的背景賦予你專長魔法學徒（法師）"
         }
       },
       "description": "<p><strong>Ability Scores:</strong> Constitution, Intelligence, Wisdom</p><p><strong>Feat:</strong> @UUID[Compendium.dnd5e.feats24.Item.phbftMagicInitia]{Magic Initiate} (Wizard)</p><p><strong>Skill Proficiencies:</strong> Arcana and History</p><p><strong>Tool Proficiency:</strong> Calligrapher's Supplies</p><p><strong>Equipment:</strong> <em>Choose A or B:</em> (A) @UUID[Compendium.dnd5e.equipment24.Item.phbwepQuartersta]{Quarterstaff}, @UUID[Compendium.dnd5e.equipment24.Item.phbtulCalligraph]{Calligrapher's Supplies}, @UUID[Compendium.dnd5e.equipment24.Item.phbagBook0000000]{Book} (history), @UUID[Compendium.dnd5e.equipment24.Item.phbagParchment00]{Parchment} (8 sheets), @UUID[Compendium.dnd5e.equipment24.Item.phbagRobe0000000]{Robe}, 8 GP; or (B) 50 GP</p><p>@Embed[Compendium.dnd5e.content24.JournalEntry.phbAppendixBackg.JournalEntryPage.phbbgSage0000000 inline classes=\"free-rules-embed\"]</p>",
-      "name": "Sage"
+      "name": "學者"
     },
     "Elf, Drow": {
-      "name": "Elf, Drow",
+      "name": "卓爾精靈",
       "advancement": {
         "Drow Traits": {
-          "hint": "Intelligence, Wisdom, or Charisma can be chosen for your spellcasting ability.",
-          "title": "Drow Traits"
+          "hint": "你可以選擇智力、感知或魅力作為你的施法屬性。",
+          "title": "卓爾特質"
         },
         "Keen Senses": {
-          "hint": "You have proficiency in the Insight, Perception, or Survival skill.",
-          "title": "Keen Senses"
+          "hint": "你獲得洞悉、察覺或求生中一項技能的熟練項。",
+          "title": "敏銳感官"
         },
         "Elf Traits": {
-          "title": "Elf Traits"
+          "title": "精靈特質"
         },
         "5w2FaHXRKiN7v1rE": {
-          "hint": "Medium (about 5–6 feet tall)"
+          "hint": "中型（約 5 到 6 呎高）"
         }
       },
       "description": "<p>@Embed[Compendium.dnd5e.content24.JournalEntry.phbAppendixSpeci.JournalEntryPage.phbspElf00000000 inline classes=\"free-rules-embed\"]</p><h3 data-anchor=\"drow\">Drow</h3><p>@Embed[Compendium.dnd5e.content24.JournalEntry.phbAppendixSpeci.JournalEntryPage.phbspDrow0000000 inline classes=\"free-rules-embed\"]</p><h3 data-anchor=\"elf-traits\">Elf Traits</h3><p><strong>Creature Type:</strong> Humanoid</p><p><strong>Size: </strong>Medium (about 5–6 feet tall)</p><p><strong>Speed:</strong> 30 feet</p><p>As an Elf, you have these special traits.</p><p><strong>Darkvision. </strong>You have Darkvision with a range of 60 feet.</p><p><strong>Elven Lineage. </strong>You are part of a lineage that grants you supernatural abilities.</p><p>When you reach character levels 3 and 5, you learn a higher-level spell, as shown on the table. You always have that spell prepared. You can cast it once without a spell slot, and you regain the ability to cast it in that way when you finish a Long Rest. You can also cast the spell using any spell slots you have of the appropriate level. Intelligence, Wisdom, or Charisma is your spellcasting ability for the spells you cast with this trait (choose the ability when you select the lineage).</p><table><caption>Drow Lineage Features</caption><thead><tr><td>Level 1</td><td>Level 3</td><td>Level 5</td></tr></thead><tbody><tr><td>The range of your Darkvision increases to 120 feet. You also know the @UUID[Compendium.dnd5e.spells24.Item.phbsplDancingLig]{Dancing Lights} cantrip.</td><td>@UUID[Compendium.dnd5e.spells24.Item.phbsplFaerieFire]{Faerie Fire}</td><td>@UUID[Compendium.dnd5e.spells24.Item.phbsplDarkness00]{Darkness}</td></tr></tbody></table><p><strong>Fey Ancestry.</strong> You have Advantage on saving throws you make to avoid or end the &amp;Reference[Charmed] condition.</p><p><strong>Keen Senses.</strong> You have proficiency in the Insight, Perception, or Survival skill.</p><p><strong>Trance.</strong> You don't need to sleep, and magic can't put you to sleep. You can finish a Long Rest in 4 hours if you spend those hours in a trancelike meditation, during which you retain consciousness.</p>"
     },
     "Goliath": {
-      "name": "Goliath",
+      "name": "歌利亞",
       "advancement": {
         "Goliath Traits": {
-          "title": "Goliath Traits"
+          "title": "歌利亞特質"
         },
         "LETPMtBLvmzWUUb0": {
-          "hint": "Medium (about 7-8 feet tall)"
+          "hint": "中型（約 7 到 8 呎高）"
         },
         "Giant Ancestry": {
-          "hint": "You are descended from Giants. Choose one of the following benefits—a supernatural boon from your ancestry; you can use the chosen benefit a number of times equal to your Proficiency Bonus, and you regain all expended uses when you finish a Long Rest.",
-          "title": "Giant Ancestry"
+          "hint": "你是巨人的後裔，從下列先祖恩賜的增益中選擇一項；你可以使用所選增益的次數等同於你的熟練加值，並在你完成一次長休時重獲所有已消耗的使用次數。",
+          "title": "巨人血統"
         }
       },
       "description": "<p>@Embed[Compendium.dnd5e.content24.JournalEntry.phbAppendixSpeci.JournalEntryPage.phbspGoliath0000 inline classes=\"free-rules-embed\"]</p><h3 data-anchor=\"goliath-traits\">Goliath Traits</h3><p><strong>Creature Type: </strong>Humanoid</p><p><strong>Size: </strong>Medium (about 7–8 feet tall)</p><p><strong>Speed:</strong> 35 feet</p><p>As a Goliath, you have these special traits.</p><p><strong>Giant Ancestry.</strong> You are descended from Giants. Choose one of the following benefits—a supernatural boon from your ancestry; you can use the chosen benefit a number of times equal to your Proficiency Bonus, and you regain all expended uses when you finish a Long Rest:</p><p><strong>Cloud's Jaunt (Cloud Giant). </strong>As a Bonus Action, you magically teleport up to 30 feet to an unoccupied space you can see.</p><p><strong>Fire's Burn (Fire Giant).</strong> When you hit a target with an attack roll and deal damage to it, you can also deal 1d10 Fire damage to that target.</p><p><strong>Frost's Chill (Frost Giant).</strong> When you hit a target with an attack roll and deal damage to it, you can also deal 1d6 Cold damage to that target and reduce its Speed by 10 feet until the start of your next turn.</p><p><strong>Hill's Tumble (Hill Giant). </strong>When you hit a Large or smaller creature with an attack roll and deal damage to it, you can give that target the &amp;Reference[Prone] condition.</p><p><strong>Stone's Endurance (Stone Giant).</strong> When you take damage, you can take a Reaction to roll 1d12. Add your Constitution modifier to the number rolled and reduce the damage by that total.</p><p><strong>Storm's Thunder (Storm Giant).</strong> When you take damage from a creature within 60 feet of you, you can take a Reaction to deal 1d8 Thunder damage to that creature.</p><p><strong>Large Form.</strong> Starting at character level 5, you can change your size to Large as a Bonus Action if you're in a big enough space. This transformation lasts for 10 minutes or until you end it (no action required). For that duration, you have Advantage on Strength checks, and your Speed increases by 10 feet. Once you use this trait, you can't use it again until you finish a Long Rest.</p><p><strong>Powerful Build.</strong> You have Advantage on any ability check you make to end the Grappled condition. You also count as one size larger when determining your carrying capacity.</p>"
     },
     "Tiefling, Infernal": {
-      "name": "Tiefling, Infernal",
+      "name": "煉獄提夫林",
       "advancement": {
         "cj8h25IH0Zvdy3Bm": {
-          "title": "Infernal Tiefling Traits",
-          "hint": "Intelligence, Wisdom, or Charisma is your spellcasting ability for the spells you cast with this trait."
+          "title": "煉獄提夫林特質",
+          "hint": "智力、感知或魅力是你以此特性施放法術的施法屬性。"
         },
         "lskxIeib6rIreZ1h": {
-          "hint": "Meidum (about 4-7 feet tall) or Small (about 3-4 feet tall)"
+          "hint": "中型（約 4 到 7 呎高）或小型（約 3 到 4 呎高）"
         },
         "ol3SWLw2FTNEiXrb": {
-          "title": "Infernal Tiefling Traits",
-          "hint": "Intelligence, Wisdom, or Charisma is your spellcasting ability for the spells you cast with this trait."
+          "title": "煉獄提夫林特質",
+          "hint": "智力、感知或魅力是你以此特性施放法術的施法屬性。"
         },
         "gMovXMwHeD9cCL99": {
-          "hint": "Intelligence, Wisdom, or Charisma is your spellcasting ability for the spells you cast with this trait.",
-          "title": "Infernal Tiefling Traits"
+          "hint": "智力、感知或魅力是你以此特性施放法術的施法屬性。",
+          "title": "煉獄提夫林特質"
         },
         "Infernal Tiefling Traits": {
-          "title": "Infernal Tiefling Traits",
-          "hint": "You have Resistance to Fire damage."
+          "title": "煉獄提夫林特質",
+          "hint": "你具有對火焰傷害的抗性"
         },
         "Tiefling Traits": {
-          "title": "Tiefling Traits"
+          "title": "提夫林特質"
         },
         "Otherworldly Presence": {
-          "title": "Otherworldly Presence"
+          "title": "異界姿態"
         }
       },
       "description": "<p>@Embed[Compendium.dnd5e.content24.JournalEntry.phbAppendixSpeci.JournalEntryPage.phbspTiefling000 inline classes=\"free-rules-embed\"]</p><h3 data-anchor=\"infernal\">Infernal</h3><p>@Embed[Compendium.dnd5e.content24.JournalEntry.phbAppendixSpeci.JournalEntryPage.phbspInfernalTie inline classes=\"free-rules-embed\"]</p><h3 data-anchor=\"tiefling-traits\">Tiefling Traits</h3><p><strong>Creature Type:</strong> Humanoid</p><p><strong>Size: </strong>Medium (about 4–7 feet tall) or Small (about 3–4 feet tall), chosen when you select this species</p><p><strong>Speed:</strong> 30 feet</p><p>As a Tiefling, you have the following special traits.</p><p><strong>Darkvision. </strong>You have Darkvision with a range of 60 feet.</p><p><strong>Fiendish Legacy.</strong> You are the recipient of a legacy that grants you supernatural abilities.</p><p>When you reach character levels 3 and 5, you learn a higher-level spell, as shown on the table. You always have that spell prepared. You can cast it once without a spell slot, and you regain the ability to cast it in that way when you finish a Long Rest. You can also cast the spell using any spell slots you have of the appropriate level. Intelligence, Wisdom, or Charisma is your spellcasting ability for the spells you cast with this trait (choose the ability when you select the legacy).</p><p><strong>Otherworldly Presence.</strong> You know the @UUID[Compendium.dnd5e.spells24.Item.phbsplThaumaturg]{Thaumaturgy} cantrip. When you cast it with this trait, the spell uses the same spellcasting ability you use for your Fiendish Legacy trait.</p><table><caption>Fiendish Legacies</caption><thead><tr><td>Level 1</td><td>Level 3</td><td>Level 5</td></tr></thead><tbody><tr><td>You have Resistance to Fire damage. You also know the @UUID[Compendium.dnd5e.spells24.Item.phbsplFireBolt00]{Fire Bolt} cantrip.</td><td>@UUID[Compendium.dnd5e.spells24.Item.phbsplHellishReb]{Hellish Rebuke}</td><td>@UUID[Compendium.dnd5e.spells24.Item.phbsplDarkness00]{Darkness}</td></tr></tbody></table>"
@@ -129,72 +129,72 @@
     "Elf, High": {
       "advancement": {
         "Elf Traits": {
-          "title": "Elf Traits"
+          "title": "精靈特質"
         },
         "High Elf Traits": {
-          "hint": "Intelligence, Wisdom, or Charisma can be chosen for your spellcasting ability.",
-          "title": "High Elf Traits"
+          "hint": "你可以選擇智力、感知或魅力作為你的施法屬性。",
+          "title": "高等精靈特質"
         },
         "Keen Senses": {
-          "hint": "You have proficiency in the Insight, Perception, or Survival skill.",
-          "title": "Keen Senses"
+          "hint": "你獲得洞悉、察覺或求生中一項技能的熟練項。",
+          "title": "敏銳感官"
         },
         "5w2FaHXRKiN7v1rE": {
-          "hint": "Medium (about 5–6 feet tall)"
+          "hint": "中型（約 5 到 6 呎高）"
         }
       },
-      "name": "Elf, High",
+      "name": "高等精靈",
       "description": "<p>@Embed[Compendium.dnd5e.content24.JournalEntry.phbAppendixSpeci.JournalEntryPage.phbspElf00000000 inline classes=\"free-rules-embed\"]</p><h3 data-anchor=\"high-elves\">High Elves</h3><p>@Embed[Compendium.dnd5e.content24.JournalEntry.phbAppendixSpeci.JournalEntryPage.phbspHighElf0000 inline classes=\"free-rules-embed\"]</p><h3 data-anchor=\"elf-traits\">Elf Traits</h3><p><strong>Creature Type:</strong> Humanoid</p><p><strong>Size: </strong>Medium (about 5–6 feet tall)</p><p><strong>Speed:</strong> 30 feet</p><p>As an Elf, you have these special traits.</p><p><strong>Darkvision. </strong>You have Darkvision with a range of 60 feet.</p><p><strong>Elven Lineage. </strong>You are part of a lineage that grants you supernatural abilities.</p><p>When you reach character levels 3 and 5, you learn a higher-level spell, as shown on the table. You always have that spell prepared. You can cast it once without a spell slot, and you regain the ability to cast it in that way when you finish a Long Rest. You can also cast the spell using any spell slots you have of the appropriate level. Intelligence, Wisdom, or Charisma is your spellcasting ability for the spells you cast with this trait (choose the ability when you select the lineage).</p><table><caption>High Elf Lineage Features</caption><thead><tr><td>Level 1</td><td>Level 3</td><td>Level 5</td></tr></thead><tbody><tr><td>You know the @UUID[Compendium.dnd5e.spells24.Item.phbsplPrestidigi]{Prestidigitation} cantrip. Whenever you finish a Long Rest, you can replace that cantrip with a different cantrip from the @UUID[Compendium.dnd5e.content24.JournalEntry.phbSpells0000000.JournalEntryPage.6AnqLUowgdsqMFvz]{Wizard spell list}.</td><td>@UUID[Compendium.dnd5e.spells24.Item.phbsplDetectMagi]{Detect Magic}</td><td>@UUID[Compendium.dnd5e.spells24.Item.phbsplMistyStep0]{Misty Step}</td></tr></tbody></table><p><strong>Fey Ancestry.</strong> You have Advantage on saving throws you make to avoid or end the Charmed condition.</p><p><strong>Keen Senses.</strong> You have proficiency in the Insight, Perception, or Survival skill.</p><p><strong>Trance.</strong> You don't need to sleep, and magic can't put you to sleep. You can finish a Long Rest in 4 hours if you spend those hours in a trancelike meditation, during which you retain consciousness.</p>"
     },
     "Human": {
       "advancement": {
         "Skillful": {
-          "title": "Skillful",
-          "hint": "You gain proficiency in one skill of your choice."
+          "title": "技藝嫻熟",
+          "hint": "你獲得一項你所選擇的技能熟練。"
         },
         "Versatile": {
-          "title": "Versatile",
-          "hint": "You gain an Origin feat of your choice. Skillful is recommended."
+          "title": "多才多藝",
+          "hint": "你獲得一樣你所選擇的起源專長，推薦選擇技巧嫻熟"
         },
         "Human Traits": {
-          "title": "Human Traits"
+          "title": "人類特質"
         },
         "dLxv96vt2B2KOEe2": {
           "hint": "Medium (about 4-7 feet tall) or Small (about 2-4 feet tall), chosen when you select this species"
         }
       },
-      "name": "Human",
+      "name": "人類",
       "description": "<p>@Embed[Compendium.dnd5e.content24.JournalEntry.phbAppendixSpeci.JournalEntryPage.phbspHuman000000 inline classes=\"free-rules-embed\"]</p><h3 data-anchor=\"human-traits\">Human Traits</h3><p><strong>Creature Type: </strong>Humanoid</p><p><strong>Size: </strong>Medium (about 4–7 feet tall) or Small (about 2–4 feet tall), chosen when you select this species</p><p><strong>Speed: </strong>30 feet</p><p>As a Human, you have these special traits.</p><p><strong>Resourceful. </strong>You gain Heroic Inspiration whenever you finish a Long Rest.</p><p><strong>Skillful. </strong>You gain proficiency in one skill of your choice.</p><p><strong>Versatile.</strong> You gain an Origin feat of your choice (see chapter 5). Skilled is recommended.</p>"
     },
     "Elf, Wood": {
       "advancement": {
         "zFsEPXauTgmYxqiJ": {
-          "hint": "Intelligence, Wisdom, or Charisma can be chosen for your spellcasting ability.",
-          "title": "Wood Elf Traits"
+          "hint": "你可以選擇智力、感知或魅力作為你的施法屬性。",
+          "title": "木精靈特質"
         },
         "Elf Traits": {
-          "title": "Elf Traits"
+          "title": "精靈特質"
         },
         "Wood Elf Traits": {
-          "title": "Wood Elf Traits"
+          "title": "木精靈特質"
         },
         "5w2FaHXRKiN7v1rE": {
-          "hint": "Medium (about 5–6 feet tall)"
+          "hint": "中型（約 5 到 6 呎高）"
         },
         "Keen Senses": {
-          "title": "Keen Senses",
-          "hint": "You have proficiency in the Insight, Perception, or Survival skill."
+          "title": "敏銳感官",
+          "hint": "你獲得洞悉、察覺或求生中一項技能的熟練項。"
         },
         "FRJszO7cYchbaGzt": {
-          "title": "Wood Elf Traits",
-          "hint": "Intelligence, Wisdom, or Charisma can be chosen for your spellcasting ability."
+          "title": "木精靈特質",
+          "hint": "你可以選擇智力、感知或魅力作為你的施法屬性。"
         }
       },
-      "name": "Elf, Wood",
+      "name": "木精靈",
       "description": "<p>@Embed[Compendium.dnd5e.content24.JournalEntry.phbAppendixSpeci.JournalEntryPage.phbspElf00000000 inline classes=\"free-rules-embed\"]</p><h3 data-anchor=\"wood-elves\">Wood Elves</h3><p>@Embed[Compendium.dnd5e.content24.JournalEntry.phbAppendixSpeci.JournalEntryPage.phbspWoodElf0000 inline classes=\"free-rules-embed\"]</p><h3 data-anchor=\"elf-traits\">Elf Traits</h3><p><strong>Creature Type:</strong> Humanoid</p><p><strong>Size: </strong>Medium (about 5–6 feet tall)</p><p><strong>Speed:</strong> 30 feet</p><p>As an Elf, you have these special traits.</p><p><strong>Darkvision. </strong>You have Darkvision with a range of 60 feet.</p><p><strong>Elven Lineage. </strong>You are part of a lineage that grants you supernatural abilities.</p><p>When you reach character levels 3 and 5, you learn a higher-level spell, as shown on the table. You always have that spell prepared. You can cast it once without a spell slot, and you regain the ability to cast it in that way when you finish a Long Rest. You can also cast the spell using any spell slots you have of the appropriate level. Intelligence, Wisdom, or Charisma is your spellcasting ability for the spells you cast with this trait (choose the ability when you select the lineage).</p><table><caption>Wood Elf Lineage Features</caption><thead><tr><td>Level 1</td><td>Level 3</td><td>Level 5</td></tr></thead><tbody><tr><td>Your Speed increases to 35 feet. You also know the @UUID[Compendium.dnd5e.spells24.Item.phbsplDruidcraft]{Druidcraft} cantrip.</td><td>@UUID[Compendium.dnd5e.spells24.Item.phbsplLongstride]{Longstrider}</td><td>@UUID[Compendium.dnd5e.spells24.Item.phbsplPasswithou]{Pass without Trace}</td></tr></tbody></table><p><strong>Fey Ancestry.</strong> You have Advantage on saving throws you make to avoid or end the Charmed condition.</p><p><strong>Keen Senses.</strong> You have proficiency in the Insight, Perception, or Survival skill.</p><p><strong>Trance.</strong> You don't need to sleep, and magic can't put you to sleep. You can finish a Long Rest in 4 hours if you spend those hours in a trancelike meditation, during which you retain consciousness.</p>"
     },
     "Breath Weapon": {
-      "name": "Breath Weapon",
+      "name": "噴吐武器",
       "activities": {
         "Breath Weapon (Cone)": {
           "name": "Breath Weapon (Cone)"
@@ -206,455 +206,455 @@
       "description": "<p>When you take the Attack action on your turn, you can replace one of your attacks with an exhalation of magical energy in either a 15-foot Cone or a 30-foot Line that is 5 feet wide (choose the shape each time). Each creature in that area must make a Dexterity saving throw (DC 8 plus your Constitution modifier and Proficiency Bonus). On a failed save, a creature takes 1d10 damage of the type determined by your Draconic Ancestry trait. On a successful save, a creature takes half as much damage. This damage increases by 1d10 when you reach character levels 5 (2d10), 11 (3d10), and 17 (4d10).You can use this Breath Weapon a number of times equal to your Proficiency Bonus, and you regain all expended uses when you finish a Long Rest.</p><section class=\"secret\" id=\"secret-iuhfGfxgl8GeYWBf\"><p><strong>Foundry Note</strong></p><p>The <strong>Breath Weapon (Cone)</strong> and <strong>Breath Weapon (Line)</strong> activities are both configured for their template type and include each type of damage. The damage also scales as you level up.</p><p>You can select the damage type in the damage roll's dialog box. It will remember your damage choice afterwards. You can edit the activities to remove the other damage types to skip this.</p></section>"
     },
     "Fire's Burn": {
-      "name": "Fire's Burn",
+      "name": "星火燎原",
       "activities": {
         "Burn": {
-          "condition": "When you hit a target with an attack roll and deal damage to it",
-          "name": "Burn"
+          "condition": "當你的攻擊檢定命中目標並對其造成傷害時",
+          "name": "燃燒"
         }
       },
-      "description": "<p>When you hit a target with an attack roll and deal damage to it, you can also deal 1d10 Fire damage to that target.</p>"
+      "description": "<p>當你的攻擊檢定命中目標並對其造成傷害時，你可以對該目標造成1d10火焰傷害。</p>"
     },
     "Relentless Endurance": {
       "activities": {
         "Relentlessly Endure": {
-          "name": "Relentlessly Endure",
-          "condition": "When you are reduced to 0 Hit Points but not killed outright"
+          "name": "不屈韌性",
+          "condition": "當你生命值被降至0但沒有立即死亡時"
         }
       },
       "description": "<p>When you are reduced to 0 Hit Points but not killed outright, you can drop to 1 Hit Point instead. Once you use this trait, you can't do so again until you finish a Long Rest.</p>",
-      "name": "Relentless Endurance"
+      "name": "不屈韌性"
     },
     "Resourceful": {
-      "name": "Resourceful",
+      "name": "足智多謀",
       "description": "<p>You gain Heroic Inspiration whenever you finish a Long Rest.</p>"
     },
     "Skillful": {
-      "name": "Skillful",
-      "description": "<p>You gain proficiency in one skill of your choice.</p><section id=\"secret-lvP62g2xTxkz2VN3\" class=\"secret\"><p><strong>Foundry Note</strong></p><p>You will be prompted for this choice when you select this Species.</p></section>"
+      "name": "技藝嫻熟",
+      "description": "<p>你獲得一項你所選擇的技能熟練。</p><section id=\"secret-lvP62g2xTxkz2VN3\" class=\"secret\"><p><strong>Foundry Note</strong></p><p>You will be prompted for this choice when you select this Species.</p></section>"
     },
     "Storm's Thunder": {
       "activities": {
         "Storm's Thunder": {
-          "condition": "When you take damage from a creature within 60 feet of you",
-          "name": "Storm's Thunder"
+          "condition": "當你受到60呎內一個生物的傷害時",
+          "name": "風暴雷霆"
         }
       },
-      "name": "Storm's Thunder",
-      "description": "<p>When you take damage from a creature within 60 feet of you, you can take a Reaction to deal 1d8 Thunder damage to that creature.</p>"
+      "name": "風暴雷霆",
+      "description": "<p>當你受到60呎內一個生物的傷害時，你可採取反應對該生物造成1d8的雷鳴傷害。</p>"
     },
     "Elven Lineage, Wood Elf": {
-      "name": "Elven Lineage, Wood Elf",
+      "name": "木精靈血系",
       "description": "<p>You are part of a lineage that grants you supernatural abilities.</p><p>When you reach character levels 3 and 5, you learn a higher-level spell, as shown on the table. You always have that spell prepared. You can cast it once without a spell slot, and you regain the ability to cast it in that way when you finish a Long Rest. You can also cast the spell using any spell slots you have of the appropriate level. Intelligence, Wisdom, or Charisma is your spellcasting ability for the spells you cast with this trait (choose the ability when you select the lineage).</p><table><caption>Wood Elf Lineage Features</caption><thead><tr><td>Level 1</td><td>Level 3</td><td>Level 5</td></tr></thead><tbody><tr><td>Your Speed increases to 35 feet. You also know the @UUID[Compendium.dnd5e.spells24.Item.phbsplDruidcraft]{Druidcraft} cantrip.</td><td>@UUID[Compendium.dnd5e.spells24.Item.phbsplLongstride]{Longstrider}</td><td>@UUID[Compendium.dnd5e.spells24.Item.phbsplPasswithou]{Pass without Trace}</td></tr></tbody></table><section class=\"secret\" id=\"secret-9CEnkbCgcLTJ03JL\"><p><strong>Foundry Note</strong></p><p>You will automatically be granted the relevant features and spells when you select the species and as you level up.</p></section>"
     },
     "Orc": {
       "description": "<p>@Embed[Compendium.dnd5e.content24.JournalEntry.phbAppendixSpeci.JournalEntryPage.phbspOrc00000000 inline classes=\"free-rules-embed\"]</p><h3 data-anchor=\"orc-traits\">Orc Traits</h3><p><strong>Creature Type: </strong>Humanoid</p><p><strong>Size: </strong>Medium (about 6–7 feet tall)</p><p><strong>Speed:</strong> 30 feet</p><p>As an Orc, you have these special traits.</p><p><strong>Adrenaline Rush. </strong>You can take the Dash action as a Bonus Action. When you do so, you gain a number of Temporary Hit Points equal to your Proficiency Bonus. You can use this trait a number of times equal to your Proficiency Bonus, and you regain all expended uses when you finish a Short or Long Rest.</p><p><strong>Darkvision.</strong> You have Darkvision with a range of 120 feet.</p><p><strong>Relentless Endurance.</strong> When you are reduced to 0 Hit Points but not killed outright, you can drop to 1 Hit Point instead. Once you use this trait, you can't do so again until you finish a Long Rest.</p>",
       "advancement": {
         "B2sUOuY0KhoULqlX": {
-          "hint": "Medium (about 6-7 feet tall)"
+          "hint": "中型（約 6 到 7 呎高）"
         },
         "Orc Traits": {
-          "title": "Orc Traits"
+          "title": "獸人特質"
         }
       },
-      "name": "Orc"
+      "name": "獸人"
     },
     "Tiefling, Chthonic": {
       "advancement": {
         "Chthonic Tiefling Traits": {
-          "hint": "You have Resistance to Necrotic damage.",
-          "title": "Chthonic Tiefling Traits"
+          "hint": "你擁有對黯蝕傷害的抗性。",
+          "title": "幽冥提夫林特質"
         },
         "lskxIeib6rIreZ1h": {
-          "hint": "Medium (about 4-7 feet tall) or Small (about 3-4 feet tall)"
+          "hint": "中型（約 4 到 7 呎高）或小型（約 3 到 4 呎高）"
         },
         "Otherworldly Presence": {
-          "title": "Otherworldly Presence"
+          "title": "異界姿態"
         },
         "R0k1RmQximNOQw1R": {
-          "hint": "Intelligence, Wisdom, or Charisma is your spellcasting ability for the spells you cast with this trait.",
-          "title": "Chthonic Tiefling Traits"
+          "hint": "智力、感知或魅力是你以此特性施放法術的施法屬性。",
+          "title": "幽冥提夫林特質"
         },
         "pIi692Cevlw7qZRe": {
-          "hint": "Intelligence, Wisdom, or Charisma is your spellcasting ability for the spells you cast with this trait.",
-          "title": "Chthonic Tiefling Traits"
+          "hint": "智力、感知或魅力是你以此特性施放法術的施法屬性。",
+          "title": "幽冥提夫林特質"
         },
         "DU7Y6D1IJSSgObJK": {
-          "hint": "Intelligence, Wisdom, or Charisma is your spellcasting ability for the spells you cast with this trait.",
-          "title": "Chthonic Tiefling Traits"
+          "hint": "智力、感知或魅力是你以此特性施放法術的施法屬性。",
+          "title": "幽冥提夫林特質"
         },
         "Tiefling Traits": {
-          "title": "Tiefling Traits"
+          "title": "提夫林特質"
         }
       },
-      "name": "Tiefling, Chthonic",
+      "name": "幽冥提夫林",
       "description": "<p>@Embed[Compendium.dnd5e.content24.JournalEntry.phbAppendixSpeci.JournalEntryPage.phbspTiefling000 inline classes=\"free-rules-embed\"]</p><h3 data-anchor=\"chthonic\">Chthonic</h3><p>@Embed[Compendium.dnd5e.content24.JournalEntry.phbAppendixSpeci.JournalEntryPage.phbspChthonicTie inline classes=\"free-rules-embed\"]</p><h3 data-anchor=\"tiefling-traits\">Tiefling Traits</h3><p><strong>Creature Type:</strong> Humanoid</p><p><strong>Size: </strong>Medium (about 4–7 feet tall) or Small (about 3–4 feet tall), chosen when you select this species</p><p><strong>Speed:</strong> 30 feet</p><p>As a Tiefling, you have the following special traits.</p><p><strong>Darkvision. </strong>You have Darkvision with a range of 60 feet.</p><p><strong>Fiendish Legacy.</strong> You are the recipient of a legacy that grants you supernatural abilities.</p><p>When you reach character levels 3 and 5, you learn a higher-level spell, as shown on the table. You always have that spell prepared. You can cast it once without a spell slot, and you regain the ability to cast it in that way when you finish a Long Rest. You can also cast the spell using any spell slots you have of the appropriate level. Intelligence, Wisdom, or Charisma is your spellcasting ability for the spells you cast with this trait (choose the ability when you select the legacy).</p><p><strong>Otherworldly Presence.</strong> You know the @UUID[Compendium.dnd5e.spells24.Item.phbsplThaumaturg]{Thaumaturgy} cantrip. When you cast it with this trait, the spell uses the same spellcasting ability you use for your Fiendish Legacy trait.</p><table><caption>Fiendish Legacies</caption><thead><tr><td>Level 1</td><td>Level 3</td><td>Level 5</td></tr></thead><tbody><tr><td>You have Resistance to Necrotic damage.You also know the @UUID[Compendium.dnd5e.spells24.Item.phbsplChillTouch]{Chill Touch} cantrip.</td><td>@UUID[Compendium.dnd5e.spells24.Item.phbsplFalseLife0]{False Life}</td><td>@UUID[Compendium.dnd5e.spells24.Item.phbsplRayofEnfee]{Ray of Enfeeblement}</td></tr></tbody></table>"
     },
     "Hill's Tumble": {
       "activities": {
         "Hill's Tumble": {
-          "name": "Hill's Tumble",
-          "condition": "When you hit a Large or smaller creature with an attack roll and deal damage to it"
+          "name": "地動山搖",
+          "condition": "當你的攻擊檢定命中大型或大型以下的生物並對其造成傷害時"
         }
       },
-      "description": "<p>When you hit a Large or smaller creature with an attack roll and deal damage to it, you can give that target the &amp;Reference[Prone] condition.</p>",
-      "name": "Hill's Tumble"
+      "description": "<p>當你的攻擊檢定命中大型或大型以下的生物並對其造成傷害時，你可以使該目標陷入&amp;Reference[Prone]狀態。</p>",
+      "name": "地動山搖"
     },
     "Gnome, Rock": {
       "advancement": {
         "Gnome Traits": {
-          "title": "Gnome Traits"
+          "title": "侏儒特質"
         },
         "Rock Gnome Traits": {
-          "hint": "Intelligence, Wisdom, or Charisma can be chosen for your spellcasting ability.",
-          "title": "Rock Gnome Traits"
+          "hint": "你可以選擇智力、感知或魅力作為你的施法屬性。",
+          "title": "岩侏儒特質"
         },
         "O7gYRGMSW3atQ2Yc": {
-          "hint": "Small (about 3-4 feet tall)"
+          "hint": "小型（約 3 到 4 呎高）"
         }
       },
-      "name": "Gnome, Rock",
+      "name": "岩侏儒",
       "description": "<p>@Embed[Compendium.dnd5e.content24.JournalEntry.phbAppendixSpeci.JournalEntryPage.phbspGnome000000 inline classes=\"free-rules-embed\"]</p><h3 data-anchor=\"gnome-traits\">Gnome Traits</h3><p><strong>Creature Type: </strong>Humanoid</p><p><strong>Size: </strong>Small (about 3–4 feet tall)</p><p><strong>Speed:</strong> 30 feet</p><p>As a Gnome, you have these special traits.</p><p><strong>Darkvision. </strong>You have Darkvision with a range of 60 feet.</p><p><strong>Gnomish Cunning.</strong> You have Advantage on Intelligence, Wisdom, and Charisma saving throws.</p><p><strong>Gnomish Lineage.</strong> You are part of a lineage that grants you supernatural abilities. Whichever lineage you choose, Intelligence, Wisdom, or Charisma is your spellcasting ability for the spells you cast with this trait (choose the ability when you select the lineage):</p><p><strong>Rock Gnome.</strong> You know the @UUID[Compendium.dnd5e.spells24.Item.phbsplMending000]{Mending} and @UUID[Compendium.dnd5e.spells24.Item.phbsplPrestidigi]{Prestidigitation} cantrips. In addition, you can spend 10 minutes casting <em>Prestidigitation</em> to create a Tiny clockwork device (AC 5, 1 HP), such as a toy, fire starter, or music box. When you create the device, you determine its function by choosing one effect from <em>Prestidigitation</em>; the device produces that effect whenever you or another creature takes a Bonus Action to activate it with a touch. If the chosen effect has options within it, you choose one of those options for the device when you create it. For example, if you choose the spell's ignite-extinguish effect, you determine whether the device ignites or extinguishes fire; the device doesn't do both. You can have three such devices in existence at a time, and each falls apart 8 hours after its creation or when you dismantle it with a touch as a Utilize action.</p>"
     },
     "Dragonborn": {
       "advancement": {
         "Draconic Flight": {
-          "title": "Draconic Flight"
+          "title": "龍翔天際"
         },
         "Damage Resistance": {
           "hint": "You have Resistance to the damage type determined by your Draconic Ancestry trait.",
           "title": "Damage Resistance"
         },
         "Breath Weapon": {
-          "title": "Breath Weapon"
+          "title": "噴吐武器"
         },
         "65BqBxGcj6z4S803": {
-          "hint": "Medium (about 5–7 feet tall)"
+          "hint": "中型（約 5 到 7 呎高）"
         },
         "Draconic Ancestry": {
-          "title": "Draconic Ancestry"
+          "title": "龍族先祖"
         }
       },
       "description": "<p>@Embed[Compendium.dnd5e.content24.JournalEntry.phbAppendixSpeci.JournalEntryPage.phbspDragonborn0 inline classes=\"free-rules-embed\"]</p><h3 data-anchor=\"dragonborn-traits\">Dragonborn Traits</h3><p><strong>Creature Type: </strong>Humanoid</p><p><strong>Size: </strong>Medium (about 5–7 feet tall)</p><p><strong>Speed:</strong> 30 feet</p><p>As a Dragonborn, you have these special traits.</p><p><strong>Draconic Ancestry.</strong> Your lineage stems from a dragon progenitor. Choose the kind of dragon from the Draconic Ancestors table. Your choice affects your Breath Weapon and Damage Resistance traits as well as your appearance.</p><table><caption>Draconic Ancestors</caption><thead><tr><td>Dragon</td><td>Damage Type</td><td>Dragon</td><td>Damage Type</td></tr></thead><tbody><tr><td>Black</td><td>Acid</td><td>Gold</td><td>Fire</td></tr><tr><td>Blue</td><td>Lightning</td><td>Green</td><td>Poison</td></tr><tr><td>Brass</td><td>Fire</td><td>Red</td><td>Fire</td></tr><tr><td>Bronze</td><td>Lightning</td><td>Silver</td><td>Cold</td></tr><tr><td>Copper</td><td>Acid</td><td>White</td><td>Cold</td></tr></tbody></table><p><strong>Breath Weapon.</strong> When you take the Attack action on your turn, you can replace one of your attacks with an exhalation of magical energy in either a 15-foot Cone or a 30-foot Line that is 5 feet wide (choose the shape each time). Each creature in that area must make a Dexterity saving throw (DC 8 plus your Constitution modifier and Proficiency Bonus). On a failed save, a creature takes 1d10 damage of the type determined by your Draconic Ancestry trait. On a successful save, a creature takes half as much damage. This damage increases by 1d10 when you reach character levels 5 (2d10), 11 (3d10), and 17 (4d10).You can use this Breath Weapon a number of times equal to your Proficiency Bonus, and you regain all expended uses when you finish a Long Rest.</p><p><strong>Damage Resistance. </strong>You have Resistance to the damage type determined by your Draconic Ancestry trait.</p><p><strong>Darkvision. </strong>You have Darkvision with a range of 60 feet.</p><p><strong>Draconic Flight.</strong> When you reach character level 5, you can channel draconic magic to give yourself temporary flight. As a Bonus Action, you sprout spectral wings on your back that last for 10 minutes or until you retract the wings (no action required) or have the Incapacitated condition. During that time, you have a Fly Speed equal to your Speed. Your wings appear to be made of the same energy as your Breath Weapon. Once you use this trait, you can't use it again until you finish a Long Rest.</p>",
-      "name": "Dragonborn"
+      "name": "龍裔"
     },
     "Gnomish Cunning": {
       "effects": {
         "Gnomish Cunning": {
-          "description": "<p>You have Advantage on Intelligence, Wisdom, and Charisma saving throws.</p>",
-          "name": "Gnomish Cunning"
+          "description": "<p>你在智力、感知、魅力的豁免檢定中具有優勢。</p>",
+          "name": "侏儒狡黠"
         }
       },
-      "description": "<p>You have Advantage on Intelligence, Wisdom, and Charisma saving throws.</p>",
-      "name": "Gnomish Cunning"
+      "description": "<p>你在智力、感知、魅力的豁免檢定中具有優勢。</p>",
+      "name": "侏儒狡黠"
     },
     "Fiendish Legacy, Abyssal": {
       "description": "<p>You are the recipient of a legacy that grants you supernatural abilities.</p><p>When you reach character levels 3 and 5, you learn a higher-level spell, as shown on the table. You always have that spell prepared. You can cast it once without a spell slot, and you regain the ability to cast it in that way when you finish a Long Rest. You can also cast the spell using any spell slots you have of the appropriate level. Intelligence, Wisdom, or Charisma is your spellcasting ability for the spells you cast with this trait (choose the ability when you select the legacy).</p><h3 data-anchor=\"abyssal\">Abyssal</h3><p>The entropy of the Abyss, the chaos of Pandemonium, and the despair of Carceri call to tieflings who have the abyssal legacy. Horns, fur, tusks, and peculiar scents are common physical features of such tieflings, most of whom have the blood of demons coursing through their veins.</p><table><caption>Abyssal Legacy Traits</caption><thead><tr><td>Level 1</td><td>Level 3</td><td>Level 5</td></tr></thead><tbody><tr><td>You have Resistance to Poison damage. You also know the @UUID[Compendium.dnd5e.spells24.Item.phbsplPoisonSpra]{Poison Spray} cantrip.</td><td>@UUID[Compendium.dnd5e.spells24.Item.phbsplRayofSickn]{Ray of Sickness}</td><td>@UUID[Compendium.dnd5e.spells24.Item.phbsplHoldPerson]{Hold Person}</td></tr></tbody></table><section class=\"secret\" id=\"secret-AZFLMUN7pgAxMG7Q\"><p><strong>Foundry Note</strong></p><p>The Resistance and spells are granted to you automatically and you will be prompted to choose the spellcasting ability during advancement.</p></section>",
-      "name": "Fiendish Legacy, Abyssal"
+      "name": "深淵邪魔遺贈"
     },
     "Criminal": {
       "advancement": {
         "Background Ability Score Improvement": {
-          "title": "Background Ability Score Improvement",
-          "hint": "Your background allows you to increase your Dexterity, Constitution, and Charisma scores; increase one of them by 2 and a different one by 1, or increase all three by 1. None of these increases can raise a score above 20."
+          "title": "背景屬性值提升",
+          "hint": "你的背景讓你能提升敏捷、體質、魅力。選擇其中一項提升 2 點，另一項提升 1 點；或是三項各提升 1 點。這些提升都不能讓該屬性超過20。"
         },
         "Background Proficiencies": {
-          "title": "Background Proficiencies",
-          "hint": "Your background grants you proficiency in Sleight of Hand and Stealth. It also grants you proficiency with Thieves' Tools."
+          "title": "背景熟練",
+          "hint": "你的背景賦予你巧手和隱匿的熟練，以及盜賊工具的熟練。"
         },
         "Choose Languages": {
-          "hint": "Your character knows at least three languages: Common plus two languages you roll or choose from the Standard Languages table.",
-          "title": "Choose Languages"
+          "hint": "你的角色至少知曉三種語言，通用語加兩種你從標準語言表中所擲到或所選擇的。",
+          "title": "選擇語言"
         },
         "Background Feat": {
-          "hint": "Your backgrounds you the Alert feat.",
-          "title": "Background Feat"
+          "hint": "你背景賦予你警覺專長。",
+          "title": "背景專長"
         }
       },
       "description": "<p><strong>Ability Scores:</strong> Dexterity, Constitution, Intelligence</p><p><strong>Feat:</strong> @UUID[Compendium.dnd5e.feats24.Item.phbftAlert000000]{Alert}</p><p><strong>Skill Proficiencies:</strong> Sleight of Hand and Stealth</p><p><strong>Tool Proficiency:</strong> Thieves' Tools</p><p><strong>Equipment:</strong> <em>Choose A or B:</em> (A) 2 @UUID[Compendium.dnd5e.equipment24.Item.phbwepDagger0000]{Daggers}, @UUID[Compendium.dnd5e.equipment24.Item.phbtulThievesToo]{Thieves' Tools}, @UUID[Compendium.dnd5e.equipment24.Item.phbagCrowbar0000]{Crowbar}, 2 @UUID[Compendium.dnd5e.equipment24.Item.phbagPouch000000]{Pouches}, @UUID[Compendium.dnd5e.items.Item.SsAmWV6YBqeOFihT]{Traveler's Clothes}, 16 GP; or (B) 50 GP</p><p>@Embed[Compendium.dnd5e.content24.JournalEntry.phbAppendixBackg.JournalEntryPage.phbbgCriminal000 inline classes=\"free-rules-embed\"]</p>",
-      "name": "Criminal"
+      "name": "罪犯"
     },
     "Draconic Flight": {
       "description": "<p>When you reach character level 5, you can channel draconic magic to give yourself temporary flight. As a Bonus Action, you sprout spectral wings on your back that last for 10 minutes or until you retract the wings (no action required) or have the Incapacitated condition. During that time, you have a Fly Speed equal to your Speed. Your wings appear to be made of the same energy as your Breath Weapon. Once you use this trait, you can't use it again until you finish a Long Rest.</p><section id=\"secret-pP4PH5jVYBp1OEa3\" class=\"secret\"><p><strong>Foundry Note</strong></p><p>This feature includes an Active Effect for tracking but it does not automatically grant the Fly Speed.</p></section>",
       "effects": {
         "Draconic Flight": {
-          "name": "Draconic Flight"
+          "name": "龍翔天際"
         }
       },
       "activities": {
         "Draconic Flight": {
-          "name": "Draconic Flight"
+          "name": "龍翔天際"
         }
       },
-      "name": "Draconic Flight"
+      "name": "龍翔天際"
     },
     "Keen Senses": {
-      "description": "<p>You have proficiency in the Insight, Perception, or Survival skill.</p><section id=\"secret-Tecxufp7EFDVqTEY\" class=\"secret\"><p><strong>Foundry Note</strong></p><p>You will be prompted for your choice after selecting this species.</p></section>",
-      "name": "Keen Senses"
+      "description": "<p>你具有洞悉、察覺或生存其中一項技能熟練。</p><section id=\"secret-Tecxufp7EFDVqTEY\" class=\"secret\"><p><strong>Foundry Note</strong></p><p>You will be prompted for your choice after selecting this species.</p></section>",
+      "name": "敏銳感官"
     },
     "Stonecunning": {
-      "description": "<p>As a Bonus Action, you gain &amp;Reference[Tremorsense] with a range of 60 feet for 10 minutes. You must be on a stone surface or touching a stone surface to use this Tremorsense. The stone can be natural or worked. You can use this Bonus Action a number of times equal to your Proficiency Bonus, and you regain all expended uses when you finish a Long Rest.</p><section class=\"secret\" id=\"secret-7BtT80083mC3Eavg\"><p><strong>Foundry Note</strong></p><p>This feature includes the limited uses and an Active Effect that grants you the 60 feet of Tremorsense. It does not automatically update your Token's vision settings.</p></section>",
+      "description": "<p>作為附贈動作，你獲得持續 10 分鐘60呎範圍的&amp;Reference[Tremorsense]。你必須站在石質表面上，或與石質表面接觸才能使用此震顫感知。這些石質可以是天然形成的，也可以是人工打造的。你可以使用此附贈動作的次數等同於你的熟練加值，並在你完成一次長休時，重獲所有已消耗的使用次數。</p><section class=\"secret\" id=\"secret-7BtT80083mC3Eavg\"><p><strong>Foundry Note</strong></p><p>This feature includes the limited uses and an Active Effect that grants you the 60 feet of Tremorsense. It does not automatically update your Token's vision settings.</p></section>",
       "effects": {
         "Stonecunning": {
-          "name": "Stonecunning"
+          "name": "石中精妙"
         }
       },
       "activities": {
         "Stonecunning": {
-          "name": "Stonecunning"
+          "name": "石中精妙"
         }
       },
-      "name": "Stonecunning"
+      "name": "石中精妙"
     },
     "Luck": {
       "effects": {
         "Luck": {
-          "name": "Luck"
+          "name": "幸運"
         }
       },
-      "name": "Luck",
-      "description": "<p>When you roll a 1 on the d20 of a D20 Test, you can reroll the die, and you must use the new roll.</p>"
+      "name": "幸運",
+      "description": "<p>當你在D20檢定中的d20擲出1時，你可以重骰，並且必須使用新的結果。</p>"
     },
     "Tiefling, Abyssal": {
       "advancement": {
         "VhCiGFOLtG8H93jy": {
-          "hint": "Intelligence, Wisdom, or Charisma is your spellcasting ability for the spells you cast with this trait.",
-          "title": "Abyssal Tiefling Traits"
+          "hint": "智力、感知或魅力是你以此特性施放法術的施法屬性。",
+          "title": "深淵提夫林特質"
         },
         "9iZufhdzY3XN7Em3": {
-          "hint": "Intelligence, Wisdom, or Charisma is your spellcasting ability for the spells you cast with this trait.",
-          "title": "Abyssal Tiefling Traits"
+          "hint": "智力、感知或魅力是你以此特性施放法術的施法屬性。",
+          "title": "深淵提夫林特質"
         },
         "lskxIeib6rIreZ1h": {
-          "hint": "Meidum (about 4-7 feet tall) or Small (about 3-4 feet tall)"
+          "hint": "中型（約 4 到 7 呎高）或小型（約 3 到 4 呎高）"
         },
         "KwcwntR3Ai0R5iPN": {
-          "hint": "Intelligence, Wisdom, or Charisma is your spellcasting ability for the spells you cast with this trait.",
-          "title": "Abyssal Tiefling Traits"
+          "hint": "智力、感知或魅力是你以此特性施放法術的施法屬性。",
+          "title": "深淵提夫林特質"
         },
         "Otherworldly Presence": {
-          "title": "Otherworldly Presence"
+          "title": "異界姿態"
         },
         "Abyssal Tiefling Traits": {
-          "hint": "You have Resistance to Poison damage.",
-          "title": "Abyssal Tiefling Traits"
+          "hint": "你對毒素具有抗性。",
+          "title": "深淵提夫林特質"
         },
         "Tiefling Traits": {
-          "title": "Tiefling Traits"
+          "title": "提夫林特質"
         }
       },
-      "name": "Tiefling, Abyssal",
+      "name": "深淵提夫林",
       "description": "<p>@Embed[Compendium.dnd5e.content24.JournalEntry.phbAppendixSpeci.JournalEntryPage.phbspTiefling000 inline classes=\"free-rules-embed\"]</p><h3 data-anchor=\"abyssal\">Abyssal</h3><p>@Embed[Compendium.dnd5e.content24.JournalEntry.phbAppendixSpeci.JournalEntryPage.phbspAbyssalTief inline classes=\"free-rules-embed\"]</p><h3 data-anchor=\"tiefling-traits\">Tiefling Traits</h3><p><strong>Creature Type</strong>: Humanoid</p><p><strong>Size: </strong>Medium (about 4–7 feet tall) or Small (about 3–4 feet tall), chosen when you select this species</p><p><strong>Speed:</strong> 30 feet</p><p>As a Tiefling, you have the following special traits.</p><p><strong>Darkvision. </strong>You have Darkvision with a range of 60 feet.</p><p><strong>Fiendish Legacy.</strong> You are the recipient of a legacy that grants you supernatural abilities.</p><p>When you reach character levels 3 and 5, you learn a higher-level spell, as shown on the table. You always have that spell prepared. You can cast it once without a spell slot, and you regain the ability to cast it in that way when you finish a Long Rest. You can also cast the spell using any spell slots you have of the appropriate level. Intelligence, Wisdom, or Charisma is your spellcasting ability for the spells you cast with this trait (choose the ability when you select the legacy).</p><p><strong>Otherworldly Presence.</strong> You know the @UUID[Compendium.dnd5e.spells24.Item.phbsplThaumaturg]{Thaumaturgy} cantrip. When you cast it with this trait, the spell uses the same spellcasting ability you use for your Fiendish Legacy trait.</p><table><caption>Abyssal Legacy Traits</caption><thead><tr><td>Level 1</td><td>Level 3</td><td>Level 5</td></tr></thead><tbody><tr><td>You have Resistance to Poison damage. You also know the @UUID[Compendium.dnd5e.spells24.Item.phbsplPoisonSpra]{Poison Spray} cantrip.</td><td>@UUID[Compendium.dnd5e.spells24.Item.phbsplRayofSickn]{Ray of Sickness}</td><td>@UUID[Compendium.dnd5e.spells24.Item.phbsplHoldPerson]{Hold Person}</td></tr></tbody></table>"
     },
     "Otherworldly Presence": {
-      "name": "Otherworldly Presence",
+      "name": "異界姿態",
       "description": "<p>You know the @UUID[Compendium.dnd5e.spells24.Item.phbsplThaumaturg]{Thaumaturgy} cantrip. When you cast it with this trait, the spell uses the same spellcasting ability you use for your Fiendish legacy trait.</p><section id=\"secret-i3PjM9HLuO2Xcae7\" class=\"secret\"><p><strong>Foundry Note</strong></p><p>When you're granted this spell it will allow you to choose your spellcasting ability.</p></section>"
     },
     "Giant Ancestry": {
-      "name": "Giant Ancestry",
+      "name": "巨人血統",
       "description": "<p>You are descended from Giants. Choose one of the following benefits—a supernatural boon from your ancestry; you can use the chosen benefit a number of times equal to your Proficiency Bonus, and you regain all expended uses when you finish a Long Rest:</p><p><strong>Cloud's Jaunt (Cloud Giant). </strong>As a Bonus Action, you magically teleport up to 30 feet to an unoccupied space you can see.</p><p><strong>Fire's Burn (Fire Giant).</strong> When you hit a target with an attack roll and deal damage to it, you can also deal 1d10 Fire damage to that target.</p><p><strong>Frost's Chill (Frost Giant).</strong> When you hit a target with an attack roll and deal damage to it, you can also deal 1d6 Cold damage to that target and reduce its Speed by 10 feet until the start of your next turn.</p><p><strong>Hill's Tumble (Hill Giant). </strong>When you hit a Large or smaller creature with an attack roll and deal damage to it, you can give that target the Prone condition.</p><p><strong>Stone's Endurance (Stone Giant).</strong> When you take damage, you can take a Reaction to roll 1d12. Add your Constitution modifier to the number rolled and reduce the damage by that total.</p><p><strong>Storm's Thunder (Storm Giant).</strong> When you take damage from a creature within 60 feet of you, you can take a Reaction to deal 1d8 Thunder damage to that creature.</p>"
     },
     "Dwarf": {
-      "name": "Dwarf",
+      "name": "矮人",
       "advancement": {
         "Dwarven Resilience": {
-          "title": "Dwarven Resilience",
-          "hint": "You have Resistance to Poison damage."
+          "title": "矮人抗性",
+          "hint": "你對毒素具有抗性。"
         },
         "6HdONjMD4UozXSfC": {
-          "hint": "Medium (about 4–5 feet tall)"
+          "hint": "中型（約 4 到 5 呎高）"
         },
         "Dwarf Traits": {
-          "title": "Dwarf Traits"
+          "title": "矮人特質"
         }
       },
       "description": "<p>@Embed[Compendium.dnd5e.content24.JournalEntry.phbAppendixSpeci.JournalEntryPage.phbspDwarf000000 inline classes=\"free-rules-embed\"]</p><h3 data-anchor=\"dwarf-traits\">Dwarf Traits</h3><p><strong>Creature Type: </strong>Humanoid</p><p><strong>Size: </strong>Medium (about 4–5 feet tall)</p><p><strong>Speed:</strong> 30 feet</p><p>As a Dwarf, you have these special traits.</p><p><strong>Darkvision. </strong>You have Darkvision with a range of 120 feet.</p><p><strong>Dwarven Resilience.</strong> You have Resistance to Poison damage. You also have Advantage on saving throws you make to avoid or end the Poisoned condition.</p><p><strong>Dwarven Toughness.</strong> Your Hit Point maximum increases by 1, and it increases by 1 again whenever you gain a level.</p><p><strong>Stonecunning.</strong> As a Bonus Action, you gain Tremorsense with a range of 60 feet for 10 minutes. You must be on a stone surface or touching a stone surface to use this Tremorsense. The stone can be natural or worked.You can use this Bonus Action a number of times equal to your Proficiency Bonus, and you regain all expended uses when you finish a Long Rest.</p>"
     },
     "Brave": {
-      "description": "<p>You have Advantage on saving throws you make to avoid or end the &amp;Reference[Frightened] condition.</p>",
-      "name": "Brave"
+      "description": "<p>你在避免或結束&amp;Reference[Frightened]狀態時所進行的豁免檢定具有優勢。</p>",
+      "name": "勇氣"
     },
     "Large Form": {
       "effects": {
         "Large Form": {
           "description": "<p>For the duration, you have Advantage on Strength checks, and your Speed increases by 10 feet. Once you use this trait, you can’t use it again until you finish a Long Rest.</p>",
-          "name": "Large Form"
+          "name": "巨化形體"
         }
       },
-      "name": "Large Form",
+      "name": "巨化形體",
       "activities": {
         "Enlarge": {
-          "name": "Enlarge"
+          "name": "巨化身形"
         }
       },
       "description": "<p>Starting at character level 5, you can change your size to Large as a Bonus Action if you're in a big enough space. This transformation lasts for 10 minutes or until you end it (no action required). For that duration, you have Advantage on Strength checks, and your Speed increases by 10 feet. Once you use this trait, you can't use it again until you finish a Long Rest.</p><section class=\"secret\" id=\"secret-MnS2QCGjgh6nXxEa\"><p><strong>Foundry Note</strong></p><p>This feature includes an Active Effect which automates the increase to your Speed and the Advantage on Strength checks.</p></section>"
     },
     "Stone's Endurance": {
-      "description": "<p>When you take damage, you can take a Reaction to roll 1d12. Add your Constitution modifier to the number rolled and reduce the damage by that total.</p>",
+      "description": "<p>當你承受傷害時，你可以採取反應擲1顆d12。將你的體質調整值與擲骰結果相加，並使傷害減少該總值。</p>",
       "activities": {
         "heal": {
-          "condition": "When you take damage"
+          "condition": "當你受到傷害"
         }
       },
-      "name": "Stone's Endurance"
+      "name": "安如磐石"
     },
     "Elven Lineage, Drow": {
-      "name": "Elven Lineage, Drow",
+      "name": "卓爾精靈血系",
       "description": "<p>You are part of a lineage that grants you supernatural abilities.</p><p>When you reach character levels 3 and 5, you learn a higher-level spell, as shown on the table. You always have that spell prepared. You can cast it once without a spell slot, and you regain the ability to cast it in that way when you finish a Long Rest. You can also cast the spell using any spell slots you have of the appropriate level. Intelligence, Wisdom, or Charisma is your spellcasting ability for the spells you cast with this trait (choose the ability when you select the lineage).</p><h3>Drow Lineage Features</h3><table><thead><tr><td><p>Level 1</p></td><td><p>Level 3</p></td><td><p>Level 5</p></td></tr></thead><tbody><tr><td><p>The range of your Darkvision increases to 120 feet. You also know the @UUID[Compendium.dnd5e.spells24.Item.phbsplDancingLig]{Dancing Lights} cantrip.</p></td><td><p>@UUID[Compendium.dnd5e.spells24.Item.phbsplFaerieFire]{Faerie Fire}</p></td><td><p>@UUID[Compendium.dnd5e.spells24.Item.phbsplDarkness00]{Darkness}</p></td></tr></tbody></table><section class=\"secret\" id=\"secret-9CEnkbCgcLTJ03JL\"><p><strong>Foundry Note</strong></p><p>You will automatically be granted the relevant features and spells when you select the species and as you level up.</p></section>"
     },
     "Soldier": {
       "advancement": {
         "Background Proficiencies": {
-          "title": "Background Proficiencies",
-          "hint": "Your background grants you proficiency in Athletics and Intimidation. It also grants you proficiency with any Gaming Set."
+          "title": "背景熟練",
+          "hint": "你的背景賦予你運動與威嚇的熟練，並讓你熟練任意一種遊戲套組。"
         },
         "Background Feat": {
-          "title": "Background Feat",
-          "hint": "Your background grants you the Savage Attacker feat."
+          "title": "背景專長",
+          "hint": "你的背景賦予你專長野蠻攻擊者"
         },
         "Choose Languages": {
-          "title": "Choose Languages",
-          "hint": "Your character knows at least three languages: Common plus two languages you roll or choose from the Standard Languages table."
+          "title": "選擇語言",
+          "hint": "你的角色至少知曉三種語言，通用語加兩種你從標準語言表中所擲到或所選擇的。"
         },
         "Background Ability Score Improvement": {
-          "hint": "Your background allows you to increase your Strength, Dexterity, and Constitution scores; increase one of them by 2 and a different one by 1, or increase all three by 1. None of these increases can raise a score above 20.",
-          "title": "Background Ability Score Improvement"
+          "hint": "你的背景讓你能提升力量、敏捷、體質。選擇其中一項提升 2 點，另一項提升 1 點；或是三項各提升 1 點。這些提升都不能讓該屬性超過20。",
+          "title": "背景屬性值提升"
         }
       },
       "description": "<p><strong>Ability Scores:</strong> Strength, Dexterity, Constitution</p><p><strong>Feat:</strong> @UUID[Compendium.dnd5e.feats24.Item.phbftSavageAttac]{Savage Attacker}</p><p><strong>Skill Proficiencies:</strong> Athletics and Intimidation</p><p><strong>Tool Proficiency:</strong> <em>Choose one kind of</em> <em>Gaming Set</em> (see @UUID[Compendium.dnd5e.content24.JournalEntry.phbEquipment0000.JournalEntryPage.GCvg8n7Q7ltSPRxe#gaming-set-(varies)]{chapter 6})</p><p><strong>Equipment:</strong> <em>Choose A or B:</em> (A) @UUID[Compendium.dnd5e.equipment24.Item.phbwepSpear00000]{Spear}, @UUID[Compendium.dnd5e.equipment24.Item.phbwepShortbow00]{Shortbow}, 20 @UUID[Compendium.dnd5e.equipment24.Item.phbamoArrows0000]{Arrows}, Gaming Set (same as above), @UUID[Compendium.dnd5e.equipment24.Item.phbagHealersKit0]{Healer's Kit}, @UUID[Compendium.dnd5e.equipment24.Item.phbagQuiver00000]{Quiver}, @UUID[Compendium.dnd5e.items.Item.SsAmWV6YBqeOFihT]{Traveler's Clothes}, 14 GP; or (B) 50 GP</p><p>@Embed[Compendium.dnd5e.content24.JournalEntry.phbAppendixBackg.JournalEntryPage.phbbgSoldier0000 inline classes=\"free-rules-embed\"]</p>",
-      "name": "Soldier"
+      "name": "士兵"
     },
     "Gnome, Forest": {
       "advancement": {
         "O7gYRGMSW3atQ2Yc": {
-          "hint": "Small (about 3-4 feet tall)"
+          "hint": "小型（約 3 到 4 呎高）"
         },
         "Forest Gnome Lineage Cantrip": {
-          "hint": "Intelligence, Wisdom, or Charisma can be chosen for your spellcasting ability.",
-          "title": "Forest Gnome Lineage Cantrip"
+          "hint": "你可以選擇智力、感知或魅力作為你的施法屬性。",
+          "title": "森林侏儒血系戲法"
         },
         "Gnome Traits": {
-          "title": "Gnome Traits"
+          "title": "侏儒特質"
         },
         "Forest Gnome Lineage Spell": {
-          "title": "Forest Gnome Lineage Spell",
-          "hint": "Intelligence, Wisdom, or Charisma can be chosen for your spellcasting ability."
+          "title": "森林侏儒血系法術",
+          "hint": "你可以選擇智力、感知或魅力作為你的施法屬性。"
         }
       },
-      "name": "Gnome, Forest",
+      "name": "森林侏儒",
       "description": "<p>@Embed[Compendium.dnd5e.content24.JournalEntry.phbAppendixSpeci.JournalEntryPage.phbspGnome000000 inline classes=\"free-rules-embed\"]</p><h3 data-anchor=\"gnome-traits\">Gnome Traits</h3><p><strong>Creature Type: </strong>Humanoid</p><p><strong>Size: </strong>Small (about 3–4 feet tall)</p><p><strong>Speed:</strong> 30 feet</p><p>As a Gnome, you have these special traits.</p><p><strong>Darkvision. </strong>You have Darkvision with a range of 60 feet.</p><p><strong>Gnomish Cunning.</strong> You have Advantage on Intelligence, Wisdom, and Charisma saving throws.</p><p><strong>Gnomish Lineage.</strong> You are part of a lineage that grants you supernatural abilities. Whichever lineage you choose, Intelligence, Wisdom, or Charisma is your spellcasting ability for the spells you cast with this trait (choose the ability when you select the lineage):</p><p><strong>Forest Gnome.</strong> You know the @UUID[Compendium.dnd5e.spells24.Item.phbsplMinorIllus]{Minor Illusion} cantrip. You also always have the @UUID[Compendium.dnd5e.spells24.Item.phbsplSpeakwithA]{Speak with Animals} spell prepared. You can cast it without a spell slot a number of times equal to your Proficiency Bonus, and you regain all expended uses when you finish a Long Rest. You can also use any spell slots you have to cast the spell.</p>"
     },
     "Halfling": {
       "description": "<p>@Embed[Compendium.dnd5e.content24.JournalEntry.phbAppendixSpeci.JournalEntryPage.phbspHalfling000 inline classes=\"free-rules-embed\"]</p><h3 data-anchor=\"halfling-traits\">Halfling Traits</h3><p><strong>Creature Type: </strong>Humanoid</p><p><strong>Size: </strong>Small (about 2–3 feet tall)</p><p><strong>Speed:</strong> 30 feet</p><p>As a Halfling, you have these special traits.</p><p><strong>Brave.</strong> You have Advantage on saving throws you make to avoid or end the Frightened condition.</p><p><strong>Halfling Nimbleness.</strong> You can move through the space of any creature that is a size larger than you, but you can't stop in the same space.</p><p><strong>Luck.</strong> When you roll a 1 on the d20 of a D20 Test, you can reroll the die, and you must use the new roll.</p><p><strong>Naturally Stealthy.</strong> You can take the Hide action even when you are obscured only by a creature that is at least one size larger than you.</p>",
       "advancement": {
         "GYp1vi82hSEoe3mO": {
-          "hint": "Small (about 2-3 feet tall)"
+          "hint": "小型（約2~3呎高）"
         },
         "Halfling Traits": {
-          "title": "Halfling Traits"
+          "title": "半身人特質"
         }
       },
-      "name": "Halfling"
+      "name": "半身人"
     },
     "Halfling Nimbleness": {
       "effects": {
         "Halfling Nimbleness": {
-          "name": "Halfling Nimbleness"
+          "name": "半身人靈巧"
         }
       },
-      "name": "Halfling Nimbleness",
+      "name": "半身人靈巧",
       "description": "<p>You can move through the space of any creature that is a size larger than you, but you can't stop in the same space.</p>"
     },
     "Cloud's Jaunt": {
       "activities": {
         "Cloud's Jaunt": {
-          "name": "Cloud's Jaunt",
+          "name": "雲步穿行",
           "target": "Unoccupied space"
         }
       },
-      "description": "<p>As a Bonus Action, you magically teleport up to 30 feet to an unoccupied space you can see.</p>",
-      "name": "Cloud's Jaunt"
+      "description": "<p>作為一個附贈動作，你魔法般地傳送到最多30呎一處你所能看見且未被占據的空間。</p>",
+      "name": "雲步穿行"
     },
     "Fiendish Legacy, Chthonic": {
       "description": "<p>You are the recipient of a legacy that grants you supernatural abilities.</p><p>When you reach character levels 3 and 5, you learn a higher-level spell, as shown on the table. You always have that spell prepared. You can cast it once without a spell slot, and you regain the ability to cast it in that way when you finish a Long Rest. You can also cast the spell using any spell slots you have of the appropriate level. Intelligence, Wisdom, or Charisma is your spellcasting ability for the spells you cast with this trait (choose the ability when you select the legacy).</p><h3 data-anchor=\"chthonic\">Chthonic</h3><p>Tieflings who have the chthonic legacy feel not only the tug of Carceri but also the greed of Gehenna and the gloom of Hades. Some of these tieflings look cadaverous. Others possess the unearthly beauty of a succubus, or they have physical features in common with a night hag, a yugoloth, or some other Neutral Evil fiendish ancestor.</p><table><caption>Chthonic Legacy Traits</caption><thead><tr><td>Level 1</td><td>Level 3</td><td>Level 5</td></tr></thead><tbody><tr><td>You have Resistance to Necrotic damage.You also know the @UUID[Compendium.dnd5e.spells24.Item.phbsplChillTouch]{Chill Touch} cantrip.</td><td>@UUID[Compendium.dnd5e.spells24.Item.phbsplFalseLife0]{False Life}</td><td>@UUID[Compendium.dnd5e.spells24.Item.phbsplRayofEnfee]{Ray of Enfeeblement}</td></tr></tbody></table><section class=\"secret\" id=\"secret-GmBAOZVbkBYItbCL\"><p><strong>Foundry Note</strong></p><p>The Resistance and spells are granted to you automatically and you will be prompted to choose the spellcasting ability during advancement.</p></section>",
-      "name": "Fiendish Legacy, Chthonic"
+      "name": "幽冥邪魔遺贈"
     },
     "Elven Lineage, High Elf": {
-      "name": "Elven Lineage, High Elf",
+      "name": "高等精靈血系",
       "description": "<p>You are part of a lineage that grants you supernatural abilities.</p><p>When you reach character levels 3 and 5, you learn a higher-level spell, as shown on the table. You always have that spell prepared. You can cast it once without a spell slot, and you regain the ability to cast it in that way when you finish a Long Rest. You can also cast the spell using any spell slots you have of the appropriate level. Intelligence, Wisdom, or Charisma is your spellcasting ability for the spells you cast with this trait (choose the ability when you select the lineage).</p><table><caption>High Elf Lineage Features</caption><thead><tr><td>Level 1</td><td>Level 3</td><td>Level 5</td></tr></thead><tbody><tr><td>You know the @UUID[Compendium.dnd5e.spells24.Item.phbsplPrestidigi]{Prestidigitation} cantrip. Whenever you finish a Long Rest, you can replace that cantrip with a different cantrip from the Wizard spell list.</td><td>@UUID[Compendium.dnd5e.spells24.Item.phbsplDetectMagi]{Detect Magic}</td><td>@UUID[Compendium.dnd5e.spells24.Item.phbsplMistyStep0]{Misty Step}</td></tr></tbody></table><section class=\"secret\" id=\"secret-9CEnkbCgcLTJ03JL\"><p><strong>Foundry Note</strong></p><p>You will automatically be granted the relevant features and spells when you select the species and as you level up.</p></section>"
     },
     "Adrenaline Rush": {
-      "description": "<p>You can take the Dash action as a Bonus Action. When you do so, you gain a number of Temporary Hit Points equal to your Proficiency Bonus. You can use this trait a number of times equal to your Proficiency Bonus, and you regain all expended uses when you finish a Short or Long Rest.</p>",
-      "name": "Adrenaline Rush",
+      "description": "<p>你可以以一個附贈動作採取疾走動作。當你這麼做時，你獲得等同於你熟練加值的林時生命值。你可以使用此特性的次數等同於你的熟練加值，並且當你完成一次短休或長休後，你恢復所有已消耗的使用次數。</p>",
+      "name": "血脈狂湧",
       "activities": {
         "Adrenaline Rush: Dash": {
-          "name": "Adrenaline Rush: Dash"
+          "name": "血脈狂湧：疾走"
         }
       }
     },
     "Powerful Build": {
       "effects": {
         "Powerful Build": {
-          "name": "Powerful Build"
+          "name": "身強力壯"
         }
       },
-      "name": "Powerful Build",
+      "name": "身強力壯",
       "description": "<p>You have Advantage on any ability check you make to end the &amp;Reference[Grappled apply=false] condition. You also count as one size larger when determining your carrying capacity.</p><section class=\"secret\" id=\"secret-7qaTRjmRe4PD41G3\"><p><strong>Foundry Note</strong></p><p>This feature includes an Active Effect which automatically upgrades your size when determining carrying capacity.</p></section>"
     },
     "Fiendish Legacy, Infernal": {
       "description": "<p>You are the recipient of a legacy that grants you supernatural abilities.</p><p>When you reach character levels 3 and 5, you learn a higher-level spell, as shown on the table. You always have that spell prepared. You can cast it once without a spell slot, and you regain the ability to cast it in that way when you finish a Long Rest. You can also cast the spell using any spell slots you have of the appropriate level. Intelligence, Wisdom, or Charisma is your spellcasting ability for the spells you cast with this trait (choose the ability when you select the legacy).</p><h3 data-anchor=\"infernal\">Infernal</h3><p>The infernal legacy connects tieflings not only to Gehenna but also the Nine Hells and the raging battlefields of Acheron. Horns, spines, tails, golden eyes, and a faint odor of sulfur or smoke are common physical features of such tieflings, most of whom trace their ancestry to devils.</p><table><caption>Infernal Legacy Traits</caption><thead><tr><td>Level 1</td><td>Level 3</td><td>Level 5</td></tr></thead><tbody><tr><td>You have Resistance to Fire damage. You also know the @UUID[Compendium.dnd5e.spells24.Item.phbsplFireBolt00]{Fire Bolt} cantrip.</td><td>@UUID[Compendium.dnd5e.spells24.Item.phbsplHellishReb]{Hellish Rebuke}</td><td>@UUID[Compendium.dnd5e.spells24.Item.phbsplDarkness00]{Darkness}</td></tr></tbody></table><section class=\"secret\" id=\"secret-UpLnecebx3jeydEG\"><p><strong>Foundry Note</strong></p><p>The Resistance and spells are granted to you automatically and you will be prompted to choose the spellcasting ability during advancement.</p></section>",
-      "name": "Fiendish Legacy, Infernal"
+      "name": "煉獄邪魔遺贈"
     },
     "Fey Ancestry": {
-      "description": "<p>You have Advantage on saving throws you make to avoid or end the &amp;Reference[Charmed] condition.</p>",
-      "name": "Fey Ancestry"
+      "description": "<p>你在避免或結束&amp;Reference[Charmed]狀態所進行的豁免檢定具有優勢。</p>",
+      "name": "精類血統"
     },
     "Frost's Chill": {
       "effects": {
         "Chilled": {
-          "name": "Chilled"
+          "name": "凍結"
         }
       },
-      "description": "<p>When you hit a target with an attack roll and deal damage to it, you can also deal 1d6 Cold damage to that target and reduce its Speed by 10 feet until the start of your next turn.</p><section id=\"secret-jxuUuY0r33aiP0zL\" class=\"secret\"><p><strong>Foundry Note</strong></p><p>This feature includes an Active Effect which can be used for tracking and reduces their Speed by 10.</p></section>",
+      "description": "<p>當你的攻擊檢定命中目標並對其造成傷害時，你可以對該目標造成1d6寒冷傷害，並且直到你下一回合開始前，減少其10呎速度。</p><section id=\"secret-jxuUuY0r33aiP0zL\" class=\"secret\"><p><strong>Foundry Note</strong></p><p>This feature includes an Active Effect which can be used for tracking and reduces their Speed by 10.</p></section>",
       "activities": {
         "Chill": {
-          "condition": "When you hit a target with an attack roll and deal damage to it",
-          "name": "Chill"
+          "condition": "當你的攻擊檢定命中目標並對其造成傷害時",
+          "name": "凜若冰霜"
         }
       },
-      "name": "Frost's Chill"
+      "name": "凜若冰霜"
     },
     "Naturally Stealthy": {
-      "name": "Naturally Stealthy",
-      "description": "<p>You can take the &amp;Reference[Hide] action even when you are obscured only by a creature that is at least one size larger than you.</p>"
+      "name": "天生善匿",
+      "description": "<p>即便只受體型比你大一級以上的生物遮蔽，你也可以採取&amp;Reference[Hide]動作。</p>"
     },
     "Dwarven Resilience": {
-      "name": "Dwarven Resilience",
-      "description": "<p>You have Resistance to Poison damage. You also have Advantage on saving throws you make to avoid or end the Poisoned condition.</p><section id=\"secret-EDaMIgklKLK2il2D\" class=\"secret\"><p><strong>Foundry Note</strong></p><p>You will automatically be granted Resistance to Poison damage but not Advantage on saving throws to avoid/end the Poisoned condition.</p></section>"
+      "name": "矮人抗性",
+      "description": "<p>你對毒素具有抗性。你在避免或結束中毒狀態時所進行的豁免檢定也具有優勢</p><section id=\"secret-EDaMIgklKLK2il2D\" class=\"secret\"><p><strong>Foundry Note</strong></p><p>You will automatically be granted Resistance to Poison damage but not Advantage on saving throws to avoid/end the Poisoned condition.</p></section>"
     },
     "Versatile": {
-      "name": "Versatile",
+      "name": "多才多藝",
       "description": "<p>You gain an @UUID[Compendium.dnd5e.content24.JournalEntry.phbFeats00000000.JournalEntryPage.otAeQs0TLHYIBNuj]{Origin feat} of your choice. @UUID[Compendium.dnd5e.feats24.Item.phbftSkilled0000]{Skilled} is recommended.</p><section id=\"secret-9E1yve6WHohyBage\" class=\"secret\"><p><strong>Foundry Note</strong></p><p>You will be prompted for your choice when you select this Species.</p></section>"
     },
     "Gnomish Lineage, Forest": {
-      "name": "Gnomish Lineage, Forest",
+      "name": "森林侏儒血系",
       "description": "<p>You know the @UUID[Compendium.dnd5e.spells24.Item.phbsplMinorIllus]{Minor Illusion} cantrip. You also always have the @UUID[Compendium.dnd5e.spells24.Item.phbsplSpeakwithA]{Speak with Animals} spell prepared. You can cast it without a spell slot a number of times equal to your Proficiency Bonus, and you regain all expended uses when you finish a Long Rest. You can also use any spell slots you have to cast the spell.</p><section id=\"secret-CwVBuqSGI27gl6R9\" class=\"secret\"><p><strong>Foundry Note</strong></p><p>The free castings are included in the spell.</p></section>"
     },
     "Dwarven Toughness": {
       "effects": {
         "Dwarven Toughness": {
-          "name": "Dwarven Toughness"
+          "name": "矮人韌性"
         }
       },
-      "description": "<p>Your Hit Point maximum increases by 1, and it increases by 1 again whenever you gain a level.</p><section class=\"secret\" id=\"secret-FK9DFLudP5EzEss9\"><p><strong>Foundry Note</strong></p><p>The Hit Point maximum increase is handled automatically each level.</p></section>",
-      "name": "Dwarven Toughness"
+      "description": "<p>你的生命最大值提升1點，並且每當你獲得1級時再次提升1點。</p><section class=\"secret\" id=\"secret-FK9DFLudP5EzEss9\"><p><strong>Foundry Note</strong></p><p>The Hit Point maximum increase is handled automatically each level.</p></section>",
+      "name": "矮人韌性"
     },
     "Trance": {
-      "name": "Trance",
+      "name": "傳思",
       "description": "<p>You don't need to sleep, and magic can't put you to sleep. You can finish a Long Rest in 4 hours if you spend those hours in a trancelike meditation, during which you retain consciousness.</p>"
     },
     "Gnomish Lineage, Rock": {
-      "name": "Gnomish Lineage, Rock",
+      "name": "岩侏儒血系法術",
       "description": "<p>You know the @UUID[Compendium.dnd5e.spells24.Item.phbsplMending000]{Mending} and @UUID[Compendium.dnd5e.spells24.Item.phbsplPrestidigi]{Prestidigitation} cantrips. In addition, you can spend 10 minutes casting <em>Prestidigitation</em> to create a Tiny clockwork device (AC 5, 1 HP), such as a toy, fire starter, or music box. When you create the device, you determine its function by choosing one effect from <em>Prestidigitation</em>; the device produces that effect whenever you or another creature takes a Bonus Action to activate it with a touch. If the chosen effect has options within it, you choose one of those options for the device when you create it. For example, if you choose the spell's ignite-extinguish effect, you determine whether the device ignites or extinguishes fire; the device doesn't do both. You can have three such devices in existence at a time, and each falls apart 8 hours after its creation or when you dismantle it with a touch as a Utilize action.</p>"
     }
   }
