@@ -45,6 +45,7 @@ const MODULE_TRANSLATION_DIRS = [
   'dnd-monster-manual',
   'dnd-ravenloft-horros-within',
   'dnd5e',
+  'dnd-forge-artificer',
 ];
 
 /**
