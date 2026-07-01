@@ -18,5 +18,112 @@
     "Freedale": "Freedale",
     "Nelanther": "Nelanther"
   },
-  "entries": {}
+  "entries": {
+    "Lantan": {
+      "name": "Lantan"
+    },
+    "Anauroch DM": {
+      "name": "Anauroch DM"
+    },
+    "Nelanther DM": {
+      "name": "Nelanther DM"
+    },
+    "Old Empires": {
+      "name": "Old Empires"
+    },
+    "Moonshae Isles": {
+      "name": "Moonshae Isles"
+    },
+    "Aglarond and Thay DM": {
+      "regions": {
+        "Rectangle Template": {
+          "name": "Rectangle Template"
+        }
+      },
+      "name": "Aglarond and Thay DM"
+    },
+    "Regions of the Realm": {
+      "name": "Regions of the Realm"
+    },
+    "Vilhon Reach DM": {
+      "name": "Vilhon Reach DM"
+    },
+    "Lands of Intrigue": {
+      "name": "Lands of Intrigue"
+    },
+    "Freedale DM": {
+      "name": "Freedale DM"
+    },
+    "Sword Coast": {
+      "name": "Sword Coast"
+    },
+    "Forgotten Lands DM": {
+      "name": "Forgotten Lands DM"
+    },
+    "Nelanther": {
+      "name": "Nelanther"
+    },
+    "Old Empires DM": {
+      "name": "Old Empires DM"
+    },
+    "Faerûn": {
+      "deltaTokens": {
+        "Borazon": {
+          "name": "Borazon"
+        }
+      },
+      "name": "Faerûn"
+    },
+    "The North": {
+      "name": "The North"
+    },
+    "Aglarond and Thay": {
+      "name": "Aglarond and Thay"
+    },
+    "Rashemen": {
+      "name": "Rashemen"
+    },
+    "Anauroch": {
+      "name": "Anauroch"
+    },
+    "Faerûn DM": {
+      "name": "Faerûn DM"
+    },
+    "Moonshae Isles DM": {
+      "name": "Moonshae Isles DM"
+    },
+    "Rashemen DM": {
+      "name": "Rashemen DM"
+    },
+    "The North DM": {
+      "name": "The North DM"
+    },
+    "Heartlands": {
+      "name": "Heartlands"
+    },
+    "Vilhon Reach": {
+      "name": "Vilhon Reach"
+    },
+    "Lantan DM": {
+      "name": "Lantan DM"
+    },
+    "Heartlands DM": {
+      "name": "Heartlands DM"
+    },
+    "Regions of the Realm DM": {
+      "name": "Regions of the Realm DM"
+    },
+    "Freedale": {
+      "name": "Freedale"
+    },
+    "Lands of Intrigue DM": {
+      "name": "Lands of Intrigue DM"
+    },
+    "Sword Coast DM": {
+      "name": "Sword Coast DM"
+    },
+    "Forgotten Lands": {
+      "name": "Forgotten Lands"
+    }
+  }
 }
