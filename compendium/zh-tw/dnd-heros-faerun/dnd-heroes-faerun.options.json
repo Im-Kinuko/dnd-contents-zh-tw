@@ -1,22 +1,22 @@
 {
-  "label": "Character Options",
+  "label": "角色選項",
   "folders": {
-    "Bladesinger (Wizard)": "Bladesinger (Wizard)",
-    "General Feats": "General Feats",
-    "Origin Feats": "Origin Feats",
+    "Bladesinger (Wizard)": "劍詠者（法師）",
+    "General Feats": "通用專長",
+    "Origin Feats": "起源專長",
     "Epic Boon Feats": "Epic Boon Feats",
-    "Knowledge Domain (Cleric)": "Knowledge Domain (Cleric)",
-    "Scion of the Three (Rogue)": "Scion of the Three (Rogue)",
-    "Backgrounds": "Backgrounds",
-    "College of the Moon (Bard)": "College of the Moon (Bard)",
-    "Subclasses": "Subclasses",
-    "Oath of the Noble Genies (Paladin)": "Oath of the Noble Genies (Paladin)",
-    "Winter Walker (Ranger)": "Winter Walker (Ranger)",
-    "Feats": "Feats",
-    "Bastion Facilities": "Bastion Facilities",
-    "Spells": "Spells",
-    "Banneret (Fighter)": "Banneret (Fighter)",
-    "Spellfire Sorcery (Sorcerer)": "Spellfire Sorcery (Sorcerer)"
+    "Knowledge Domain (Cleric)": "知識領域（牧師）",
+    "Scion of the Three (Rogue)": "三神門徒（遊蕩者）",
+    "Backgrounds": "背景",
+    "College of the Moon (Bard)": "皓月學院（吟遊詩人）",
+    "Subclasses": "子職業",
+    "Oath of the Noble Genies (Paladin)": "巨靈貴族誓約（聖騎士）",
+    "Winter Walker (Ranger)": "凜冬行者（遊俠）",
+    "Feats": "專長",
+    "Bastion Facilities": "堡壘設施",
+    "Spells": "法術",
+    "Banneret (Fighter)": "旗將（戰士）",
+    "Spellfire Sorcery (Sorcerer)": "咒火術法（術士）"
   },
   "entries": {
     "Dread Incarnate": {
@@ -32,51 +32,51 @@
         }
       },
       "name": "Dread Incarnate",
-      "description": "<p>You gain the following benefits.</p><p><em><strong>Cutthroat.</strong></em> You regain one expended use of Bloodthirst when you finish a Short Rest.</p><p><em><strong>Murderous Intent.</strong></em> When you roll for your Sneak Attack damage, you can treat a roll of a 1 or 2 on the die as a 3.</p><section class=\"secret\" id=\"secret-Xdh58rC9vQ95P7Mv\"><p><strong>Foundry Note</strong></p><p>An <strong>Active Effect</strong> is enabled that will treat a roll of a 1 or 2 on the <strong>Sneak Attack die</strong> as a 3.</p></section>"
+      "description": "<p>你獲得下列好處。</p><p><em><strong>Cutthroat.</strong></em> You regain one expended use of Bloodthirst when you finish a Short Rest.</p><p><em><strong>Murderous Intent.</strong></em> When you roll for your Sneak Attack damage, you can treat a roll of a 1 or 2 on the die as a 3.</p><section class=\"secret\" id=\"secret-Xdh58rC9vQ95P7Mv\"><p><strong>Foundry Note</strong></p><p>An <strong>Active Effect</strong> is enabled that will treat a roll of a 1 or 2 on the <strong>Sneak Attack die</strong> as a 3.</p></section>"
     },
     "Flaming Fist Mercenary": {
       "advancement": {
         "Choose Languages": {
-          "title": "Choose Languages",
-          "hint": "Your character knows at least three languages: Common plus two languages you roll or choose from the Standard Languages table."
+          "title": "選擇語言",
+          "hint": "你的角色至少知曉三種語言，通用語加兩種你從標準語言表中所擲到或所選擇的。"
         },
         "Background Proficiencies": {
-          "hint": "Your background grants you proficiency in Intimidation and Perception. It also grants you proficiency in  Smith's Tools.",
-          "title": "Background Proficiencies"
+          "hint": "你的背景賦予你威嚇與察覺的熟練，並讓你熟練鐵匠工具。",
+          "title": "背景熟練"
         },
         "Background Ability Score Improvement": {
-          "title": "Background Ability Score Improvement",
-          "hint": "Your background allows you to increase your Strength, Constitution, and Charisma scores; increase one of them by 2 and a different one by 1, or increase all three by 1. None of these increases can raise a score above 20."
+          "title": "背景屬性值提升",
+          "hint": "你的背景讓你能提升力量、體質、魅力。選擇其中一項提升 2 點，另一項提升 1 點；或是三項各提升 1 點。這些提升都不能讓該屬性超過20。"
         },
         "Background Feat": {
-          "hint": "Your background grants you the Tough feat.",
-          "title": "Background Feat"
+          "hint": "你的背景賦予你健壯特性。",
+          "title": "背景專長"
         }
       },
-      "description": "<p><strong>Ability Scores: </strong>Strength, Constitution, Charisma</p><p><strong>Feat: </strong>@UUID[Compendium.dnd-players-handbook.feats.Item.phbftTough000000]{Tough}</p><p><strong>Skill Proficiencies: </strong>Intimidation and Perception</p><p><strong>Tool Proficiency: </strong>Smith’s Tools</p><p><strong>Equipment: </strong><em>Choose A or B: </em>(A) @UUID[Compendium.dnd-players-handbook.equipment.Item.phbwepMace000000]{Mace}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbtulSmithsTool]{Smith’s Tools}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagClothesFine]{Fine Clothes}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagManacles000]{Manacles},@UUID[Compendium.dnd-players-handbook.equipment.Item.phbagRamPortable]{ Portable Ram}, [[/award 4GP]]; or (B) [[/award 50GP]]</p><p>The chief law enforcement branch of Baldur’s Gate is the Flaming Fist, a brawny mercenary guild led by the city’s grand duke. You once served as a Flaming Fist, where you learned how to preempt trouble with your intimidating stare and, when necessary, absorb deadly blows. Flaming Fist mercenaries, active or retired, are known as some of the toughest, most resilient warriors along the Sword Coast, and you seek to maintain that reputation.</p>",
-      "name": "Flaming Fist Mercenary"
+      "description": "<p><strong>屬性值：</strong>力量、體質、魅力</p><p><strong>專長：</strong>@UUID[Compendium.dnd-players-handbook.feats.Item.phbftTough000000]</p><p><strong>技能熟練：</strong>威嚇與察覺</p><p><strong>工具熟練：</strong>鐵匠工具</p><p><strong>裝備：</strong><em>選擇</em>(A) @UUID[Compendium.dnd-players-handbook.equipment.Item.phbwepMace000000]、 @UUID[Compendium.dnd-players-handbook.equipment.Item.phbtulSmithsTool]、 @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagClothesFine]、@UUID[Compendium.dnd-players-handbook.equipment.Item.phbagManacles000]、@UUID[Compendium.dnd-players-handbook.equipment.Item.phbagRamPortable]、[[/award 4GP]]或 (B) [[/award 50GP]]</p><p>博德之門最主要的執法機構便是焰拳，一個由該城市的大公爵所領導的龐大傭兵協會。你曾經擔任過焰拳的一員，並因此學會了如何用你令人生畏的眼神提前發現並解決問題，以及在必要的時候承受致命打擊。焰拳的傭兵無論是在編還是已經退休，都以劍灣最頑強，最堅韌的戰士著稱，而你也在尋求將這樣的聲譽延續下去。</p>",
+      "name": "焰拳傭兵"
     },
     "Moonwell Pilgrim": {
       "advancement": {
         "Background Feat": {
-          "hint": "Your background grants you the Magic Initiate (Druid) feat.",
-          "title": "Background Feat"
+          "hint": "你的背景賦予你專長魔法學徒（德魯伊）",
+          "title": "背景專長"
         },
         "Background Proficiencies": {
-          "hint": "Your background grants you proficiency in Nature and Performance. It also grants you proficiency in  Painter’s Supplies.",
-          "title": "Background Proficiencies"
+          "hint": "你的背景賦予你自然與表演的熟練，並讓你熟練畫家設備。",
+          "title": "背景熟練"
         },
         "Background Ability Score Improvement": {
-          "hint": "Your background allows you to increase your Constitution, Wisdom, and Charisma scores; increase one of them by 2 and a different one by 1, or increase all three by 1. None of these increases can raise a score above 20.",
-          "title": "Background Ability Score Improvement"
+          "hint": "你的背景讓你能提升體質、感知、魅力。選擇其中一項提升 2 點，另一項提升 1 點；或是三項各提升 1 點。這些提升都不能讓該屬性超過20。",
+          "title": "背景屬性值提升"
         },
         "Choose Languages": {
-          "hint": "Your character knows at least three languages: Common plus two languages you roll or choose from the Standard Languages table.",
-          "title": "Choose Languages"
+          "hint": "你的角色至少知曉三種語言，通用語加兩種你從標準語言表中所擲到或所選擇的。",
+          "title": "選擇語言"
         }
       },
-      "name": "Moonwell Pilgrim",
-      "description": "<p><strong>Ability Scores: </strong>Constitution, Wisdom, Charisma</p><p><strong>Feat: </strong>@UUID[Compendium.dnd-players-handbook.feats.Item.phbftMagicInitia]{Magic Initiate} (Druid)</p><p><strong>Skill Proficiencies: </strong>Nature and Performance</p><p><strong>Tool Proficiency: </strong>Painter’s Supplies</p><p><strong>Equipment: </strong><em>Choose A or B: </em>(A) @UUID[Compendium.dnd-players-handbook.equipment.Item.phbwepQuartersta]{Quarterstaff}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbtulPaintersSu]{Painter’s Supplies}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagBedroll0000]{Bedroll}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagBell0000000]{Bell}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagPouch000000]{Pouch}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagRobe0000000]{Robe}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagString00000]{String}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagClothesTrav]{Traveler’s Clothes}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagWaterskin00]{Waterskin}, [[/award 34GP]]; or (B) [[/award 50GP]]</p><p>Like many who hail from the Moonshae Isles, you grew up revering the blessed land, its unique gods, and the mysterious shrines called the moonwells. As a moonwell pilgrim, you undertook a quest to visit and commune with every moonwell on (or off) the map. Along your idyllic journeys, you collected a repertoire of Moonshavian folk songs, painted landscapes of enchanting vistas, and even learned how to wield a bit of primal magic.</p>"
+      "name": "月井朝聖者",
+      "description": "<p><strong>屬性值：</strong>體質、感知、魅力</p><p><strong>專長：</strong>@UUID[Compendium.dnd-players-handbook.feats.Item.phbftMagicInitia]（德魯伊）</p><p><strong>技能熟練：</strong>自然與表演</p><p><strong>工具熟練：</strong>畫家設備</p><p><strong>裝備：</strong><em>選擇</em> (A) @UUID[Compendium.dnd-players-handbook.equipment.Item.phbwepQuartersta]、@UUID[Compendium.dnd-players-handbook.equipment.Item.phbtulPaintersSu]、@UUID[Compendium.dnd-players-handbook.equipment.Item.phbagBedroll0000]、@UUID[Compendium.dnd-players-handbook.equipment.Item.phbagBell0000000]、@UUID[Compendium.dnd-players-handbook.equipment.Item.phbagPouch000000]、@UUID[Compendium.dnd-players-handbook.equipment.Item.phbagRobe0000000]、@UUID[Compendium.dnd-players-handbook.equipment.Item.phbagString00000]、@UUID[Compendium.dnd-players-handbook.equipment.Item.phbagClothesTrav]、@UUID[Compendium.dnd-players-handbook.equipment.Item.phbagWaterskin00]、[[/award 34GP]]或 (B) [[/award 50GP]]</p><p>與許多來自月影群島的人一樣，你從小便崇對這片聖潔的島嶼，島上獨一無二的神明，以及被稱作月井的神秘聖壇充滿了敬畏。作為一位月井朝聖者，你踏上了探訪地圖上（或地圖外）每座月井並透過它們來與神明對話的旅途。在你如田園牧歌一般的旅途當中，你收集了許多月影群島人的民歌，畫出了許多曾見過的迷人風景，甚至學會了如何支配一些原初魔法。</p>"
     },
     "Boon of the Soul Drinker": {
       "advancement": {
@@ -89,7 +89,7 @@
         }
       },
       "name": "Boon of the Soul Drinker",
-      "description": "<p>You gain the following benefits.</p><p><em><strong>Ability Score Increase.</strong></em> Increase one ability score of your choice by 1, to a maximum of 30.</p><p><em><strong>Grave Resistance.</strong></em> You have Resistance to Cold damage and Necrotic damage.</p><p><em><strong>Siphon Life.</strong></em> When an enemy within 120 feet of you is reduced to 0 Hit Points, you can take a Reaction to regain 50 Hit Points. Once you use this benefit, you can’t use it again until you finish a Short or Long Rest.</p>",
+      "description": "<p>你獲得下列好處。</p><p><em><strong>Ability Score Increase.</strong></em> Increase one ability score of your choice by 1, to a maximum of 30.</p><p><em><strong>Grave Resistance.</strong></em> You have Resistance to Cold damage and Necrotic damage.</p><p><em><strong>Siphon Life.</strong></em> When an enemy within 120 feet of you is reduced to 0 Hit Points, you can take a Reaction to regain 50 Hit Points. Once you use this benefit, you can’t use it again until you finish a Short or Long Rest.</p>",
       "activities": {
         "Siphon Life": {
           "name": "Siphon Life",
@@ -182,7 +182,7 @@
           "name": "Standard Bearer"
         }
       },
-      "description": "<p>You gain the following benefits.</p><p><em><strong>Ability Score Increase.</strong></em> Increase your Strength or Charisma score by 1, to a maximum of 20.</p><p><em><strong>Standard Bearer. </strong></em>As a Bonus Action, choose up to three creatures within 60 feet of yourself that can see you. Each target can immediately take a &amp;Reference[Reaction] to right itself and end the &amp;Reference[Prone] condition, provided its Speed isn’t 0.</p><p>Additionally, you bolster the targets’ resolve, which lasts for 1 minute or until you have the Incapacitated condition. While bolstered, a target can’t be possessed or gain the Charmed or Frightened condition; if a target is already possessed, Charmed, or Frightened, the target has Advantage on any new saving throw against the relevant effect.</p><p>Once you use this benefit, you can’t do so again until you finish a Long Rest.</p><section class=\"secret\" id=\"secret-WhklBhewbGv7bSKI\"><p><strong>Foundry Note</strong></p><p>This feature includes an Active Effect (AE) that can be used as a reminder by the target but does not automate the above benefits.</p></section>"
+      "description": "<p>你獲得下列好處。</p><p><em><strong>Ability Score Increase.</strong></em> Increase your Strength or Charisma score by 1, to a maximum of 20.</p><p><em><strong>Standard Bearer. </strong></em>As a Bonus Action, choose up to three creatures within 60 feet of yourself that can see you. Each target can immediately take a &amp;Reference[Reaction] to right itself and end the &amp;Reference[Prone] condition, provided its Speed isn’t 0.</p><p>Additionally, you bolster the targets’ resolve, which lasts for 1 minute or until you have the Incapacitated condition. While bolstered, a target can’t be possessed or gain the Charmed or Frightened condition; if a target is already possessed, Charmed, or Frightened, the target has Advantage on any new saving throw against the relevant effect.</p><p>Once you use this benefit, you can’t do so again until you finish a Long Rest.</p><section class=\"secret\" id=\"secret-WhklBhewbGv7bSKI\"><p><strong>Foundry Note</strong></p><p>This feature includes an Active Effect (AE) that can be used as a reminder by the target but does not automate the above benefits.</p></section>"
     },
     "Dragonscarred": {
       "advancement": {
@@ -195,7 +195,7 @@
           "hint": "Your feat allows you to increase your Constitution score by 1, to a maximum of 20."
         }
       },
-      "description": "<p>You gain the following benefits.</p><p><em><strong>Ability Score Increase.</strong></em> Increase your Constitution or Charisma score by 1, to a maximum of 20.</p><p><em><strong>Damage Resistance.</strong></em> When you gain this feat, choose Acid, Cold, Fire, Lightning, or Poison. You have Resistance to the chosen damage type.</p><p><em><strong>Fearsome Power.</strong></em> When you deal damage to a creature as part of the Attack or Magic action on your turn, you can use the Dragon’s Terror benefit of the Cult of the Dragon Initiate feat as a Bonus Action this turn.</p>",
+      "description": "<p>你獲得下列好處。</p><p><em><strong>屬性值提升</strong></em> Increase your Constitution or Charisma score by 1, to a maximum of 20.</p><p><em><strong>Damage Resistance.</strong></em> When you gain this feat, choose Acid, Cold, Fire, Lightning, or Poison. You have Resistance to the chosen damage type.</p><p><em><strong>Fearsome Power.</strong></em> When you deal damage to a creature as part of the Attack or Magic action on your turn, you can use the Dragon’s Terror benefit of the Cult of the Dragon Initiate feat as a Bonus Action this turn.</p>",
       "activities": {
         "Dragon's Terror (Bonus Action)": {
           "target": "visible target",
@@ -214,24 +214,24 @@
     "Harper": {
       "advancement": {
         "Background Proficiencies": {
-          "hint": "Your background grants you proficiency in Performance and Sleight of Hand. It also grants you proficiency in  Disguise Kit.",
-          "title": "Background Proficiencies"
+          "hint": "你的背景賦予你表演與巧手的熟練，並讓你熟練易容工具組。",
+          "title": "背景熟練"
         },
         "Background Ability Score Improvement": {
-          "hint": "Your background allows you to increase your Dexterity, Wisdom, and Charisma scores; increase one of them by 2 and a different one by 1, or increase all three by 1. None of these increases can raise a score above 20.",
-          "title": "Background Ability Score Improvement"
+          "hint": "你的背景讓你能提升敏捷、感知、魅力。選擇其中一項提升 2 點，另一項提升 1 點；或是三項各提升 1 點。這些提升都不能讓該屬性超過20。",
+          "title": "背景屬性值提升"
         },
         "Choose Languages": {
-          "title": "Choose Languages",
-          "hint": "Your character knows at least three languages: Common plus two languages you roll or choose from the Standard Languages table."
+          "title": "選擇語言",
+          "hint": "你的角色至少知曉三種語言，通用語加兩種你從標準語言表中所擲到或所選擇的。"
         },
         "Background Feat": {
-          "hint": "Your background grants you the Harper Agent feat.",
-          "title": "Background Feat"
+          "hint": "你的背景賦予你豎琴手特工專長。",
+          "title": "背景專長"
         }
       },
-      "name": "Harper",
-      "description": "<p><strong>Ability Scores: </strong>Dexterity, Intelligence, Charisma</p><p><strong>Feat: </strong>@UUID[Compendium.dnd-heroes-faerun.options.Item.hofHarperAgent00]{Harper Agent} (see “@UUID[Compendium.dnd-heroes-faerun.book.JournalEntry.hofFeats00000000]{Feats}” later in this chapter)</p><p><strong>Skill Proficiencies: </strong>Performance and Sleight of Hand</p><p><strong>Tool Proficiency: </strong>Disguise Kit</p><p><strong>Equipment: </strong><em>Choose A or B: </em>(A) @UUID[Compendium.dnd-players-handbook.equipment.Item.phbtulDisguiseKi]{Disguise Kit}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagBedroll0000]{Bedroll}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagCostume0000]{Costume}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagGrapplingHo]{Grappling Hook}, @UUID[Compendium.dnd-players-handbook.equipment.Item.x8jC9e00t4cUYiKR]{Rope}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagClothesTrav]{Traveler’s Clothes}, [[/award 14GP]]; or (B) [[/award 50GP]]</p><p>You accepted an invitation to join the Harpers, pledging an oath to uphold the Harper code and act in service to the common good. Like all Harpers, you understand the value of teamwork as well as when it’s best to go it alone. Harper veterans have taught you the order’s secrets—magical melodies, special watchwords, and legerdemain—and have entrusted you to use such knowledge to surveil and undermine the forces of evil.</p>"
+      "name": "豎琴手",
+      "description": "<p><strong>屬性值：</strong>敏捷、智力、魅力</p><p><strong>專長：</strong>@UUID[Compendium.dnd-heroes-faerun.options.Item.hofHarperAgent00]（見本章後面所述「@UUID[Compendium.dnd-heroes-faerun.book.JournalEntry.hofFeats00000000]」）</p><p><strong>技能熟練：</strong>表演與巧手</p><p><strong>工具熟練：</strong>易容工具組</p><p><strong>裝備：</strong><em>選擇 </em> (A) @UUID[Compendium.dnd-players-handbook.equipment.Item.phbtulDisguiseKi]、@UUID[Compendium.dnd-players-handbook.equipment.Item.phbagBedroll0000]、@UUID[Compendium.dnd-players-handbook.equipment.Item.phbagCostume0000]、@UUID[Compendium.dnd-players-handbook.equipment.Item.phbagGrapplingHo]、@UUID[Compendium.dnd-players-handbook.equipment.Item.x8jC9e00t4cUYiKR]、@UUID[Compendium.dnd-players-handbook.equipment.Item.phbagClothesTrav]、[[/award 14GP]]或 (B) [[/award 50GP]]</p><p>你收到一封加入豎琴手同盟的邀請函，從此立下誓言擁護豎琴手的行為準則並為服務公共利益而行動。與所有豎琴手一樣，你理解團隊協作的價值，也明白什麼時候獨自行動最為合適。資歷豐富的豎琴手向你傳授了豎琴手同盟的秘密—那些魔法旋律，特殊暗號，以及一些花招詐術—並將利用這些知識以監視並削弱邪惡力量的重任託付給了你。</p>"
     },
     "Boon of the Bright Sun": {
       "effects": {
@@ -263,7 +263,7 @@
         }
       },
       "name": "Boon of the Bright Sun",
-      "description": "<p>You gain the following benefits.</p><p><em><strong>Ability Score Increase.</strong></em> Increase your Constitution, Wisdom, or Charisma score by 1, to a maximum of 30.</p><p><em><strong>Daylight Presence.</strong></em> As a Bonus Action, you radiate a 30-foot Emanation of Bright Light that is sunlight. If any of the Emanation’s area overlaps with an area of Darkness created by a spell, that spell is dispelled. The Emanation lasts until you dismiss it (no action required), die, or have the Incapacitated condition.</p><p><em><strong>Fortifying Light.</strong></em> When your Daylight Presence is active, at the start of each of your turns, you and allies you can see in your Daylight Presence gain 10 Temporary Hit Points.</p>"
+      "description": "<p>你獲得下列好處。</p><p><em><strong>Ability Score Increase.</strong></em> Increase your Constitution, Wisdom, or Charisma score by 1, to a maximum of 30.</p><p><em><strong>Daylight Presence.</strong></em> As a Bonus Action, you radiate a 30-foot Emanation of Bright Light that is sunlight. If any of the Emanation’s area overlaps with an area of Darkness created by a spell, that spell is dispelled. The Emanation lasts until you dismiss it (no action required), die, or have the Incapacitated condition.</p><p><em><strong>Fortifying Light.</strong></em> When your Daylight Presence is active, at the start of each of your turns, you and allies you can see in your Daylight Presence gain 10 Temporary Hit Points.</p>"
     },
     "Rallying Surge": {
       "activities": {
@@ -343,7 +343,7 @@
         }
       },
       "name": "Zhentarim Tactics",
-      "description": "<p>You gain the following benefits.</p><p><em><strong>Ability Score Increase.</strong></em> Increase your Dexterity or Charisma score by 1, to a maximum of 20.</p><p><em><strong>Retaliate.</strong></em> Immediately after a creature within 5 feet of you hits you with a melee attack, you can make an &amp;Reference[OpportunityAttacks] against that creature.</p><p><em><strong>Versatile Merc.</strong></em> When you finish a Long Rest, choose a skill in which you have proficiency. You have Expertise in that skill until you finish your next Long Rest.</p>"
+      "description": "<p>你獲得下列好處。</p><p><em><strong>Ability Score Increase.</strong></em> Increase your Dexterity or Charisma score by 1, to a maximum of 20.</p><p><em><strong>Retaliate.</strong></em> Immediately after a creature within 5 feet of you hits you with a melee attack, you can make an &amp;Reference[OpportunityAttacks] against that creature.</p><p><em><strong>Versatile Merc.</strong></em> When you finish a Long Rest, choose a skill in which you have proficiency. You have Expertise in that skill until you finish your next Long Rest.</p>"
     },
     "Boon of Bountiful Health": {
       "advancement": {
@@ -374,7 +374,7 @@
           "name": "Superior Recuperation (d10)"
         }
       },
-      "description": "<p>You gain the following benefits.</p><p><em><strong>Ability Score Increase.</strong></em> Increase one ability score of your choice by 1, to a maximum of 30.</p><p><em><strong>Augmented Health.</strong></em> When you gain Temporary Hit Points, increase the number of Temporary Hit Points you gain by 5.</p><p><em><strong>Superior Recuperation.</strong></em> When you spend one or more Hit Point Dice to regain Hit Points, you can instead use the highest number possible for each die.</p><section id=\"secret-7TCmUUwJyXSUFkkF\" class=\"secret\"><p><strong>Foundry Note</strong></p><p>Multiple <strong>Superior Recuperation</strong> activities are provided, which can be used in lieu of the standard Hit Dice rolling application and will use the highest possible roll for each die size.</p></section>",
+      "description": "<p>你獲得下列好處。</p><p><em><strong>Ability Score Increase.</strong></em> Increase one ability score of your choice by 1, to a maximum of 30.</p><p><em><strong>Augmented Health.</strong></em> When you gain Temporary Hit Points, increase the number of Temporary Hit Points you gain by 5.</p><p><em><strong>Superior Recuperation.</strong></em> When you spend one or more Hit Point Dice to regain Hit Points, you can instead use the highest number possible for each die.</p><section id=\"secret-7TCmUUwJyXSUFkkF\" class=\"secret\"><p><strong>Foundry Note</strong></p><p>Multiple <strong>Superior Recuperation</strong> activities are provided, which can be used in lieu of the standard Hit Dice rolling application and will use the highest possible roll for each die size.</p></section>",
       "name": "Boon of Bountiful Health"
     },
     "Banneret": {
@@ -389,46 +389,46 @@
     "Genie Touched": {
       "advancement": {
         "Background Feat": {
-          "hint": "Your background grants you the Initiate (Wizard) feat.",
-          "title": "Background Feat"
+          "hint": "你的背景賦予你魔法學徒（法師）專長",
+          "title": "背景專長"
         },
         "Choose Languages": {
-          "title": "Choose Languages",
-          "hint": "Your character knows at least three languages: Common plus two languages you roll or choose from the Standard Languages table."
+          "title": "選擇語言",
+          "hint": "你的角色至少知曉三種語言，通用語加兩種你從標準語言表中所擲到或所選擇的。"
         },
         "Background Proficiencies": {
-          "title": "Background Proficiencies",
-          "hint": "Your background grants you proficiency in Perception and Persuasion. It also grants you proficiency in  Glassblower's Tools."
+          "title": "背景熟練",
+          "hint": "你的背景賦予你察覺與說服的熟練，並讓你熟玻璃匠工具。"
         },
         "Background Ability Score Improvement": {
-          "hint": "Your background allows you to increase your Dexterity, Wisdom, and Charisma scores; increase one of them by 2 and a different one by 1, or increase all three by 1. None of these increases can raise a score above 20.",
-          "title": "Background Ability Score Improvement"
+          "hint": "你的背景讓你能提升敏捷、感知、魅力。選擇其中一項提升 2 點，另一項提升 1 點；或是三項各提升 1 點。這些提升都不能讓該屬性超過20。",
+          "title": "背景屬性值提升"
         }
       },
-      "description": "<p><strong>Ability Scores: </strong>Dexterity, Wisdom, Charisma</p><p><strong>Feat: </strong>@UUID[Compendium.dnd-players-handbook.feats.Item.phbftMagicInitia]{Magic Initiate} (Wizard)</p><p><strong>Skill Proficiencies: </strong>Perception and Persuasion</p><p><strong>Tool Proficiency: </strong>Glassblower’s Tools</p><p><strong>Equipment: </strong><em>Choose A or B: </em>(A) @UUID[Compendium.dnd-players-handbook.equipment.Item.phbwepLightHamme]{Light Hammer}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbtulGlassblowe]{Glassblower’s Tools}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagClothesFine]{Fine Clothes}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagLamp0000000]{Lamp}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagOil00000000]{Oil} (3 flasks), @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagWaterskin00]{Waterskin}, [[/award 2GP]]; or (B) [[/award 50GP]]</p><p>Although genies no longer rule Calimshan, genie magic is still common in your homeland. Perhaps you inadvertently summoned a djinni from a magic lamp, or maybe you came upon an oasis guarded by a marid. A dao might have saved you from a landslide, or you bargained with an efreeti for fleeting wealth. However your fate intersected with that of a genie, the experience left you with a keen eye, a silver tongue, and more than a touch of magic.</p>",
-      "name": "Genie Touched"
+      "description": "<p><strong>屬性值：</strong>敏捷、感知、魅力</p><p><strong>專長：</strong>@UUID[Compendium.dnd-players-handbook.feats.Item.phbftMagicInitia]（法師）</p><p><strong>技能熟練：</strong>察覺與說服</p><p><strong>工具熟練：</strong>玻璃匠工具</p><p><strong>裝備：</strong><em>選擇</em>(A) @UUID[Compendium.dnd-players-handbook.equipment.Item.phbwepLightHamme]、@UUID[Compendium.dnd-players-handbook.equipment.Item.phbtulGlassblowe]、@UUID[Compendium.dnd-players-handbook.equipment.Item.phbagClothesFine]、@UUID[Compendium.dnd-players-handbook.equipment.Item.phbagLamp0000000]、@UUID[Compendium.dnd-players-handbook.equipment.Item.phbagOil00000000]、（3 瓶）、@UUID[Compendium.dnd-players-handbook.equipment.Item.phbagWaterskin00]、[[/award 2GP]]或 (B) [[/award 50GP]]</p><p>雖然巨靈已不再統治卡林珊，但在你的家鄉，巨靈魔法依然很常見。你可能不小心就從某個魔法油燈裡面召喚出了一位氣巨靈，又或者可能偶然來到一片由某位水巨靈守衛著的綠洲。可能有一位土巨靈在山崩時將你救了下來，還可能是你與某位火巨靈在為了某筆稍縱即逝的財富而討價還價。無論你是透過什麼方式而與某位巨靈產生了命運的交集，這種經歷都給予了你敏銳的眼光，伶俐的口舌，而不僅僅只是些許魔法。</p>",
+      "name": "巨靈眷顧者"
     },
     "Lords' Alliance Vassal": {
       "advancement": {
         "Background Feat": {
-          "hint": "Your background grants you the Lords’ Alliance Agent feat.",
-          "title": "Background Feat"
+          "hint": "你的背景賦予你領主聯盟特工專長",
+          "title": "背景專長"
         },
         "Background Proficiencies": {
-          "hint": "Your background grants you proficiency in Insight and Persuasion. It also grants you proficiency in  Calligrapher’s Supplies.",
-          "title": "Background Proficiencies"
+          "hint": "你的背景賦予你洞悉與說服的熟練，並讓你熟練書法家工具。",
+          "title": "背景熟練"
         },
         "Background Ability Score Improvement": {
-          "hint": "Your background allows you to increase your Strength, Intelligence, and Charisma scores; increase one of them by 2 and a different one by 1, or increase all three by 1. None of these increases can raise a score above 20.",
-          "title": "Background Ability Score Improvement"
+          "hint": "你的背景讓你能提升力量、智力、魅力。選擇其中一項提升 2 點，另一項提升 1 點；或是三項各提升 1 點。這些提升都不能讓該屬性超過20。",
+          "title": "背景屬性值提升"
         },
         "Choose Languages": {
-          "title": "Choose Languages",
-          "hint": "Your character knows at least three languages: Common plus two languages you roll or choose from the Standard Languages table."
+          "title": "選擇語言",
+          "hint": "你的角色至少知曉三種語言，通用語加兩種你從標準語言表中所擲到或所選擇的。"
         }
       },
-      "name": "Lords' Alliance Vassal",
-      "description": "<p><strong>Ability Scores: </strong>Strength, Intelligence, Charisma</p><p><strong>Feat: </strong>@UUID[Compendium.dnd-heroes-faerun.options.Item.hofLordsAlliance]{Lords’ Alliance Agent} (see “@UUID[Compendium.dnd-heroes-faerun.book.JournalEntry.hofFeats00000000]{Feats}” later in this chapter)</p><p><strong>Skill Proficiencies: </strong>Insight and Persuasion</p><p><strong>Tool Proficiency: </strong>Calligrapher’s Supplies</p><p><strong>Equipment: </strong><em>Choose A or B: </em>(A) 2 @UUID[Compendium.dnd-players-handbook.equipment.Item.phbwepJavelin000]{Javelins}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbtulCalligraph]{Calligrapher’s Supplies}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagClothesFine]{Fine Clothes}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagInk00000000]{Ink}, 5 @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagInkPen00000]{Ink Pens}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagParchment00]{Parchment} (9 sheets), [[/award 13GP]]; or (B) [[/award 50GP]]</p><p>You’ve pledged your loyalty to a member-city of the Lords’ Alliance. As an Alliance agent, you must uphold the tenets of the Alliance and seek to increase safety and prosperity along the Sword Coast. You’re sworn to bring honor and glory to your lord’s house, whether that means securing trade roads for a merchant-lord of Waterdeep or vanquishing monsters upriver of Daggerford. You’ve trained in the arts of swordplay and statecraft and are as deft with a blade as you are with a quill.</p>"
+      "name": "領主聯盟附庸",
+      "description": "<p><strong>屬性值：</strong>力量、智力、魅力</p><p><strong>專長：</strong>@UUID[Compendium.dnd-heroes-faerun.options.Item.hofLordsAlliance]（見本章後面所述「@UUID[Compendium.dnd-heroes-faerun.book.JournalEntry.hofFeats00000000]」）</p><p><strong>技能熟練：</strong>洞察與說服</p><p><strong>工具熟練：</strong>書法家工具</p><p><strong>裝備：</strong><em>選擇</em>(A) 2支@UUID[Compendium.dnd-players-handbook.equipment.Item.phbwepJavelin000]、@UUID[Compendium.dnd-players-handbook.equipment.Item.phbtulCalligraph]、@UUID[Compendium.dnd-players-handbook.equipment.Item.phbagClothesFine]、@UUID[Compendium.dnd-players-handbook.equipment.Item.phbagInk00000000]、5支@UUID[Compendium.dnd-players-handbook.equipment.Item.phbagInkPen00000]@UUID[Compendium.dnd-players-handbook.equipment.Item.phbagParchment00]（9張）[[/award 13GP]]或 (B) [[/award 50GP]]</p><p>你向領主聯盟的其中一個加盟城鎮宣誓效忠。作為一位聯盟特工，你必須擁護聯盟的信條並致力於提高劍灣的安全與繁榮程度。你發誓要為自己的領主帶來輝煌與榮耀，既可以指的是為深水城的商業領主保護商路，也可以是指消滅匕首灘上游的怪物。無論是用劍的藝術還是治理城邦的藝術，你都早已訓練掌握，你揮舞利劍就宛如揮舞羽毛一般靈巧。</p>"
     },
     "Aura of Elemental Shielding": {
       "effects": {
@@ -463,7 +463,7 @@
       "description": "<p>Choose one of the following damage types: Acid, Cold, Fire, Lightning, or Thunder. You and your allies have Resistance to that damage type while in your Aura of Protection.</p><p>At the start of each of your turns, you can change the damage type affected by this feature to one of the other listed options (no action required).</p>"
     },
     "Boon of Fluid Forms": {
-      "description": "<p>You gain the following benefits.</p><p><em><strong>Ability Score Increase.</strong></em> Increase your Intelligence, Wisdom, or Charisma score by 1, to a maximum of 30.</p><p><em><strong>Shapechanger.</strong></em> You can take a Magic action to shape-shift into a Beast, Humanoid, or Monstrosity with a Challenge Rating no higher than 10. When you shape-shift, you gain a number of Temporary Hit Points equal to the Hit Points of the form. The shape-shifting effect lasts for 1 hour, and it ends early if you have no Temporary Hit Points left or if you take a Magic action to return to your true form.</p><p>Your game statistics are replaced by the stat block of the chosen form, but you retain your creature type; alignment; personality; Intelligence, Wisdom, and Charisma scores; Hit Points; Hit Point Dice; proficiencies; and ability to communicate. If you have the Spellcasting or Pact Magic feature, you retain it too. Upon shape-shifting, you determine whether your equipment drops to the ground or changes in size and shape to fit the new form while you’re in it.</p><p>Once you use this benefit, you can’t do so again until you finish a Long Rest.</p><p><em><strong>Hardy Transformation.</strong></em> When you gain Temporary Hit Points when you shape-shift, increase that number of Temporary Hit Points by 20.</p><section class=\"secret\" id=\"secret-y7018g5gKljzmUqN\"><p><strong>Foundry Note</strong></p><p>The additional 20 temporary hit points from <strong>Hardy Transformation</strong> is included with the <strong>Shapechanger</strong> activity.</p></section>",
+      "description": "<p>你獲得下列好處。</p><p><em><strong>Ability Score Increase.</strong></em> Increase your Intelligence, Wisdom, or Charisma score by 1, to a maximum of 30.</p><p><em><strong>Shapechanger.</strong></em> You can take a Magic action to shape-shift into a Beast, Humanoid, or Monstrosity with a Challenge Rating no higher than 10. When you shape-shift, you gain a number of Temporary Hit Points equal to the Hit Points of the form. The shape-shifting effect lasts for 1 hour, and it ends early if you have no Temporary Hit Points left or if you take a Magic action to return to your true form.</p><p>Your game statistics are replaced by the stat block of the chosen form, but you retain your creature type; alignment; personality; Intelligence, Wisdom, and Charisma scores; Hit Points; Hit Point Dice; proficiencies; and ability to communicate. If you have the Spellcasting or Pact Magic feature, you retain it too. Upon shape-shifting, you determine whether your equipment drops to the ground or changes in size and shape to fit the new form while you’re in it.</p><p>Once you use this benefit, you can’t do so again until you finish a Long Rest.</p><p><em><strong>Hardy Transformation.</strong></em> When you gain Temporary Hit Points when you shape-shift, increase that number of Temporary Hit Points by 20.</p><section class=\"secret\" id=\"secret-y7018g5gKljzmUqN\"><p><strong>Foundry Note</strong></p><p>The additional 20 temporary hit points from <strong>Hardy Transformation</strong> is included with the <strong>Shapechanger</strong> activity.</p></section>",
       "advancement": {
         "Feat Ability Score Improvement": {
           "title": "Feat Ability Score Improvement",
@@ -488,7 +488,7 @@
           "hint": "Your feat allows you to increase your Intelligence, Wisdom, or Charisma score by 1, to a maximum of 30."
         }
       },
-      "description": "<p>You gain the following benefits.</p><p><em><strong>Ability Score Increase.</strong></em> Increase your Intelligence, Wisdom, or Charisma score by 1, to a maximum of 30.</p><p><em><strong>Inspire Dance.</strong></em> You always have the <em>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplOttosIrres]{Otto’s Irresistible Dance}</em> spell prepared. You can cast it once without a spell slot, and you regain the ability to cast it that way when you finish a Long Rest. You can also cast the spell using any spell slots you have of the appropriate level.</p><p>When you cast the spell, it requires no spell components, and taking damage doesn’t break your Concentration on it.</p><p><em><strong>Sing Out.</strong></em> While a creature that failed its saving throw against your <em>Otto’s Irresistible Dance</em> has the Charmed condition from that spell, it can’t cast spells with Verbal components, and it sings delightful nonsense if it can sing.</p>",
+      "description": "<p>你獲得下列好處。</p><p><em><strong>Ability Score Increase.</strong></em> Increase your Intelligence, Wisdom, or Charisma score by 1, to a maximum of 30.</p><p><em><strong>Inspire Dance.</strong></em> You always have the <em>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplOttosIrres]{Otto’s Irresistible Dance}</em> spell prepared. You can cast it once without a spell slot, and you regain the ability to cast it that way when you finish a Long Rest. You can also cast the spell using any spell slots you have of the appropriate level.</p><p>When you cast the spell, it requires no spell components, and taking damage doesn’t break your Concentration on it.</p><p><em><strong>Sing Out.</strong></em> While a creature that failed its saving throw against your <em>Otto’s Irresistible Dance</em> has the Charmed condition from that spell, it can’t cast spells with Verbal components, and it sings delightful nonsense if it can sing.</p>",
       "name": "Boon of Revelry"
     },
     "Inspiring Commander": {
@@ -497,7 +497,7 @@
           "title": "Unshakable Bravery"
         }
       },
-      "description": "<p>You gain the following benefits.</p><p><em><strong>Bolstered Rally.</strong></em> The area of effect for both Group Recovery and Rallying Surge is now a 60-foot Emanation.</p><p><em><strong>Unshakable Bravery.</strong></em> You have Immunity to the Charmed and Frightened conditions.</p><section class=\"secret\" id=\"secret-ahuZEMzUqPlh4Kd0\"><p><strong>Foundry Note</strong></p><p>The area of effect increase for Group Recovery and Rallying Surge is provided by the scale value on Group Recovery.</p></section>",
+      "description": "<p>你獲得下列好處。</p><p><em><strong>Bolstered Rally.</strong></em> The area of effect for both Group Recovery and Rallying Surge is now a 60-foot Emanation.</p><p><em><strong>Unshakable Bravery.</strong></em> You have Immunity to the Charmed and Frightened conditions.</p><section class=\"secret\" id=\"secret-ahuZEMzUqPlh4Kd0\"><p><strong>Foundry Note</strong></p><p>The area of effect increase for Group Recovery and Rallying Surge is provided by the scale value on Group Recovery.</p></section>",
       "name": "Inspiring Commander"
     },
     "Fairy Trickster": {
@@ -522,27 +522,27 @@
         }
       },
       "name": "Fairy Trickster",
-      "description": "<p>You gain the following benefits.</p><p><em><strong>Ability Score Increase. </strong></em>Increase your Dexterity or Charisma ability score by 1, to a maximum of 20.</p><p><em><strong>Faerie Trod Trotter. </strong></em>When you take the &amp;Reference[Disengage] action on your turn, &amp;Reference[Difficult Terrain] doesn’t cost you extra movement for the rest of that turn.</p><p><em><strong>Flustering Strike. </strong></em>When you hit a creature with an attack roll, you can attempt to fluster the target. The target must succeed on a Wisdom saving throw (DC 8 plus the ability modifier of the <span style=\"text-decoration:underline\"><span style=\"text-decoration:underline\">score increased by this feat</span></span> and your Proficiency Bonus) or have Disadvantage on saving throws until the end of your next turn.</p><p>You can use this benefit a number of times equal to your Proficiency Bonus, and you regain all expended uses when you finish a Long Rest.</p><section class=\"secret\" id=\"secret-jfkJVv5bRBSmGMbu\"><p><strong>Foundry Note</strong></p><p>This feature includes an <strong>Active Effect (AE)</strong> that can be used as a reminder by the target but does not automate the above benefits.</p></section>"
+      "description": "<p>你獲得下列好處。</p><p><em><strong>Ability Score Increase. </strong></em>Increase your Dexterity or Charisma ability score by 1, to a maximum of 20.</p><p><em><strong>Faerie Trod Trotter. </strong></em>When you take the &amp;Reference[Disengage] action on your turn, &amp;Reference[Difficult Terrain] doesn’t cost you extra movement for the rest of that turn.</p><p><em><strong>Flustering Strike. </strong></em>When you hit a creature with an attack roll, you can attempt to fluster the target. The target must succeed on a Wisdom saving throw (DC 8 plus the ability modifier of the <span style=\"text-decoration:underline\"><span style=\"text-decoration:underline\">score increased by this feat</span></span> and your Proficiency Bonus) or have Disadvantage on saving throws until the end of your next turn.</p><p>You can use this benefit a number of times equal to your Proficiency Bonus, and you regain all expended uses when you finish a Long Rest.</p><section class=\"secret\" id=\"secret-jfkJVv5bRBSmGMbu\"><p><strong>Foundry Note</strong></p><p>This feature includes an <strong>Active Effect (AE)</strong> that can be used as a reminder by the target but does not automate the above benefits.</p></section>"
     },
     "Purple Dragon Squire": {
-      "description": "<p><strong>Ability Scores: </strong>Strength, Wisdom, Charisma</p><p><strong>Feat: </strong>@UUID[Compendium.dnd-heroes-faerun.options.Item.hofPurpleDragonR]{Purple Dragon Rook} (see “@UUID[Compendium.dnd-heroes-faerun.book.JournalEntry.hofFeats00000000]{Feats}” later in this chapter)</p><p><strong>Skill Proficiencies: </strong>Animal Handling and Insight</p><p><strong>Tool Proficiency: </strong>Navigator’s Tools</p><p><strong>Equipment: </strong><em>Choose A or B: </em>(A) @UUID[Compendium.dnd-players-handbook.equipment.Item.phbwepSpear00000]{Spear}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbtulNavigators]{Navigator’s Tools}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagClothesFine]{Fine Clothes}, [[/award 9GP]]; or (B) [[/award 50GP]]</p><p>You’ve pledged your life to the safety of Cormyr and sought admission to that realm’s order of elite warriors: the Purple Dragon Knights. But before you have the chance to join the ranks officially, you must first serve as a knight’s squire. You’ve found a liege willing to take you on and teach you the order’s ways. Will you uphold the Purple Dragon Knights’ ideals of glory, honor, and strength and prove yourself worthy of knighthood?</p>",
-      "name": "Purple Dragon Squire",
+      "description": "<p><strong>屬性值：</strong>力量、感知、魅力</p><p><strong>專長：</strong>@UUID[Compendium.dnd-heroes-faerun.options.Item.hofPurpleDragonR]（見本章後面所述「@UUID[Compendium.dnd-heroes-faerun.book.JournalEntry.hofFeats00000000]」）</p><p><strong>技能熟練：</strong>馴獸與洞察</p><p><strong>工具熟練：</strong>領航員工具</p><p><strong>裝備：</strong><em>選擇 </em>(A) @UUID[Compendium.dnd-players-handbook.equipment.Item.phbwepSpear00000]、@UUID[Compendium.dnd-players-handbook.equipment.Item.phbtulNavigators]、@UUID[Compendium.dnd-players-handbook.equipment.Item.phbagClothesFine]、[[/award 9GP]]或 (B) [[/award 50GP]]</p><p>你將自己的生命獻給了維護科米爾的安全，並渴望加入當地的精英騎士團體：紫龍騎士團。但在你正式加入紫龍騎士團之前，你必須先擔任騎士侍從。你找到了一位願意提攜你並將騎士團的信條教授於你的領主。你願意擁護紫龍騎士團榮耀、輝煌與力量的理念，並證明自己有成為騎士的資格嗎？</p>",
+      "name": "紫龍侍騎",
       "advancement": {
         "Background Ability Score Improvement": {
-          "hint": "Your background allows you to increase your Strength, Wisdom, and Charisma scores; increase one of them by 2 and a different one by 1, or increase all three by 1. None of these increases can raise a score above 20.",
-          "title": "Background Ability Score Improvement"
+          "hint": "你的背景讓你能提升力量、感知、魅力。選擇其中一項提升 2 點，另一項提升 1 點；或是三項各提升 1 點。這些提升都不能讓該屬性超過20。",
+          "title": "背景屬性值提升"
         },
         "Background Proficiencies": {
-          "title": "Background Proficiencies",
-          "hint": "Your background grants you proficiency in Animal Handling and Insight. It also grants you proficiency in  Navigator’s Tools."
+          "title": "背景熟練",
+          "hint": "你的背景賦予你馴獸與洞悉的熟練，並讓你熟練領航員工具。"
         },
         "Background Feat": {
-          "hint": "Your background grants you the Purple Dragon Rook feat.",
-          "title": "Background Feat"
+          "hint": "你的背景賦予你紫龍新銳",
+          "title": "背景專長"
         },
         "Choose Languages": {
-          "title": "Choose Languages",
-          "hint": "Your character knows at least three languages: Common plus two languages you roll or choose from the Standard Languages table."
+          "title": "選擇語言",
+          "hint": "你的角色至少知曉三種語言，通用語加兩種你從標準語言表中所擲到或所選擇的。"
         }
       }
     },
@@ -573,7 +573,7 @@
         }
       },
       "name": "Genie Magic",
-      "description": "<p>You gain the following benefits.</p><p><em><strong>Ability Score Increase. </strong></em>Increase your Intelligence, Wisdom, or Charisma score by 1, to a maximum of 20.</p><p><em><strong>Wish Magic.</strong></em> As a Magic action, you can cast a level 1 spell of your choice from the Sorcerer spell list that has a casting time of an action. Once you use this benefit, you can’t do so again until you finish a Long Rest. The spell’s spellcasting ability is the ability increased by this feat.</p><p>When you reach level 11, the spell you cast with this feat is cast as though using a level 2 spell slot. When you reach level 17, the spell is cast as though using a level 3 spell slot.</p>"
+      "description": "<p>你獲得下列好處。</p><p><em><strong>Ability Score Increase. </strong></em>Increase your Intelligence, Wisdom, or Charisma score by 1, to a maximum of 20.</p><p><em><strong>Wish Magic.</strong></em> As a Magic action, you can cast a level 1 spell of your choice from the Sorcerer spell list that has a casting time of an action. Once you use this benefit, you can’t do so again until you finish a Long Rest. The spell’s spellcasting ability is the ability increased by this feat.</p><p>When you reach level 11, the spell you cast with this feat is cast as though using a level 2 spell slot. When you reach level 17, the spell is cast as though using a level 3 spell slot.</p>"
     },
     "Boon of Poison Mastery": {
       "name": "Boon of Poison Mastery",
@@ -593,7 +593,7 @@
           "condition": "you roll dice to determine Poison damage"
         }
       },
-      "description": "<p>You gain the following benefits.</p><p><em><strong>Ability Score Increase.</strong></em> Increase one ability score of your choice by 1, to a maximum of 30.</p><p><em><strong>Antitoxic.</strong></em> You have Immunity to Poison damage and the Poisoned condition.</p><p><em><strong>Perfect Poisoner.</strong></em> Once per turn, when you roll dice to determine Poison damage a creature takes from your attack, spell, or feature, you can instead use the highest number possible for each die.</p>"
+      "description": "<p>你獲得下列好處。</p><p><em><strong>Ability Score Increase.</strong></em> Increase one ability score of your choice by 1, to a maximum of 30.</p><p><em><strong>Antitoxic.</strong></em> You have Immunity to Poison damage and the Poisoned condition.</p><p><em><strong>Perfect Poisoner.</strong></em> Once per turn, when you roll dice to determine Poison damage a creature takes from your attack, spell, or feature, you can instead use the highest number possible for each die.</p>"
     },
     "Cacophonic Shield": {
       "effects": {
@@ -616,7 +616,7 @@
     },
     "Knightly Envoy": {
       "name": "Knightly Envoy",
-      "description": "<p>You know how to conduct yourself with grace as a noble ambassador. You gain the following benefits.</p><p><em><strong>Comprehension. </strong></em>You can cast the <em>@UUID[Compendium.dnd5e.spells24.Item.phbsplComprehend]{Comprehend Languages}</em> spell but only as a Ritual. Charisma is your spellcasting ability for it.</p><p><em><strong>Polyglot. </strong></em>You learn one language from the language tables in the <em>Player’s Handbook</em> or chapter 2 of this book. When you finish a Long Rest, you can replace a language learned from this benefit with another language you have heard, seen signed, or read in the past 24 hours.</p><p><em><strong>Well Spoken. </strong></em>You gain proficiency in one of the following skills of your choice: Insight, Intimidation, Persuasion, or Performance.</p>",
+      "description": "<p>You know how to conduct yourself with grace as a noble ambassador. 你獲得下列好處。</p><p><em><strong>Comprehension. </strong></em>You can cast the <em>@UUID[Compendium.dnd5e.spells24.Item.phbsplComprehend]{Comprehend Languages}</em> spell but only as a Ritual. Charisma is your spellcasting ability for it.</p><p><em><strong>Polyglot. </strong></em>You learn one language from the language tables in the <em>Player’s Handbook</em> or chapter 2 of this book. When you finish a Long Rest, you can replace a language learned from this benefit with another language you have heard, seen signed, or read in the past 24 hours.</p><p><em><strong>Well Spoken. </strong></em>You gain proficiency in one of the following skills of your choice: Insight, Intimidation, Persuasion, or Performance.</p>",
       "advancement": {
         "Well Spoken": {
           "title": "Well Spoken"
@@ -645,10 +645,10 @@
           "hint": "You learn the Sacred Flame cantrip. Intelligence, Wisdom, or Charisma is your spellcasting ability for this spell (choose when you select this feat)."
         }
       },
-      "description": "<p>You gain the following benefits.</p><p><em><strong>Magic Absorption. </strong></em>Once per turn, when you take damage from a spell or magical effect, you reduce the total damage taken by [[/heal]]{1d4}. You can’t use this benefit if you have the Incapacitated condition.</p><p><em><strong>Spellfire Flame.</strong></em> You learn the <em>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplSacredFlam]{Sacred Flame}</em> cantrip. Intelligence, Wisdom, or Charisma is your spellcasting ability for this spell (choose when you select this feat). You can also cast this cantrip as a Bonus Action a number of times equal to your Proficiency Bonus, and you regain all expended uses when you finish a Long Rest.</p><section class=\"secret\" id=\"secret-7EfzHVUyBSzr0gKt\"><p><strong>Foundry Note</strong></p><p>Magic Absorption is a healing activity that can be used after taking damage from a spell or magical effect.</p><p><em>Sacred Flame</em> is automatically granted as part of the feat. This feat also allows you to cast <em>Sacred Flame</em> as a bonus action.</p></section>"
+      "description": "<p>你獲得下列好處。</p><p><em><strong>Magic Absorption. </strong></em>Once per turn, when you take damage from a spell or magical effect, you reduce the total damage taken by [[/heal]]{1d4}. You can’t use this benefit if you have the Incapacitated condition.</p><p><em><strong>Spellfire Flame.</strong></em> You learn the <em>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplSacredFlam]{Sacred Flame}</em> cantrip. Intelligence, Wisdom, or Charisma is your spellcasting ability for this spell (choose when you select this feat). You can also cast this cantrip as a Bonus Action a number of times equal to your Proficiency Bonus, and you regain all expended uses when you finish a Long Rest.</p><section class=\"secret\" id=\"secret-7EfzHVUyBSzr0gKt\"><p><strong>Foundry Note</strong></p><p>Magic Absorption is a healing activity that can be used after taking damage from a spell or magical effect.</p><p><em>Sacred Flame</em> is automatically granted as part of the feat. This feat also allows you to cast <em>Sacred Flame</em> as a bonus action.</p></section>"
     },
     "Boon of Terror": {
-      "description": "<p>You gain the following benefits.</p><p><em><strong>Ability Score Increase.</strong></em> Increase your Charisma score by 1, to a maximum of 30.</p><p><em><strong>Fearless.</strong></em> You have Immunity to the Frightened condition.</p><p><em><strong>Flee, Fools!</strong></em> When a creature with the Frightened condition starts its turn within 60 feet of you, you can take a &amp;Reference[reaction]{Reaction} to stoke its terror, provided you can see the creature and it isn’t behind &amp;Reference[totalcover]. If you do so, the creature must succeed on a Wisdom saving throw (DC 8 plus your Charisma modifier and your Proficiency Bonus) or spend its turn moving away from you by the fastest available means. Once you use this benefit, you can’t use it again until you finish a Short or Long Rest.</p><p><em><strong>Intimidating.</strong></em> You gain Proficiency in the Intimidation skill if you don’t already have it. You also gain Expertise in Intimidation.</p>",
+      "description": "<p>你獲得下列好處。</p><p><em><strong>Ability Score Increase.</strong></em> Increase your Charisma score by 1, to a maximum of 30.</p><p><em><strong>Fearless.</strong></em> You have Immunity to the Frightened condition.</p><p><em><strong>Flee, Fools!</strong></em> When a creature with the Frightened condition starts its turn within 60 feet of you, you can take a &amp;Reference[reaction]{Reaction} to stoke its terror, provided you can see the creature and it isn’t behind &amp;Reference[totalcover]. If you do so, the creature must succeed on a Wisdom saving throw (DC 8 plus your Charisma modifier and your Proficiency Bonus) or spend its turn moving away from you by the fastest available means. Once you use this benefit, you can’t use it again until you finish a Short or Long Rest.</p><p><em><strong>Intimidating.</strong></em> You gain Proficiency in the Intimidation skill if you don’t already have it. You also gain Expertise in Intimidation.</p>",
       "advancement": {
         "Feat Condition Immunity": {
           "title": "Feat Condition Immunity"
@@ -673,24 +673,24 @@
     "Rashemi Wanderer": {
       "advancement": {
         "Choose Languages": {
-          "hint": "Your character knows at least three languages: Common plus two languages you roll or choose from the Standard Languages table.",
-          "title": "Choose Languages"
+          "hint": "你的角色至少知曉三種語言，通用語加兩種你從標準語言表中所擲到或所選擇的。",
+          "title": "選擇語言"
         },
         "Background Feat": {
-          "hint": "Your background grants you the Tough feat.",
-          "title": "Background Feat"
+          "hint": "你的背景賦予你健壯特性。",
+          "title": "背景專長"
         },
         "Background Proficiencies": {
-          "hint": "Your background grants you proficiency in Intimidation and Perception. It also grants you proficiency in  Cartographer’s Tools.",
-          "title": "Background Proficiencies"
+          "hint": "你的背景賦予你威嚇與察覺的熟練，並讓你熟練製圖師工具。",
+          "title": "背景熟練"
         },
         "Background Ability Score Improvement": {
-          "title": "Background Ability Score Improvement",
-          "hint": "Your background allows you to increase your Strength, Constitution, and Charisma scores; increase one of them by 2 and a different one by 1, or increase all three by 1. None of these increases can raise a score above 20."
+          "title": "背景屬性值提升",
+          "hint": "你的背景讓你能提升力量、體質、魅力。選擇其中一項提升 2 點，另一項提升 1 點；或是三項各提升 1 點。這些提升都不能讓該屬性超過20。"
         }
       },
-      "name": "Rashemi Wanderer",
-      "description": "<p><strong>Ability Scores: </strong>Strength, Constitution, Charisma</p><p><strong>Feat: </strong>@UUID[Compendium.dnd-players-handbook.feats.Item.phbftTough000000]{Tough}</p><p><strong>Skill Proficiencies: </strong>Intimidation and Perception</p><p><strong>Tool Proficiency: </strong>Cartographer’s Tools</p><p><strong>Equipment: </strong><em>Choose A or B: </em>(A) @UUID[Compendium.dnd-players-handbook.equipment.Item.phbtulCartograph]{Cartographer’s Tools}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagBackpack000]{Backpack}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagBedroll0000]{Bedroll}, @UUID[Compendium.dnd-players-handbook.equipment.Item.DKYzehYrMUKiFDxt]{Hooded Lantern}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagOil00000000]{Oil} (3 flasks), @UUID[Compendium.dnd-players-handbook.equipment.Item.x8jC9e00t4cUYiKR]{Rope}, @UUID[Compendium.dnd-players-handbook.equipment.Item.etKzfLUMWikSsi3R]{Tinderbox}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagClothesTrav]{Traveler’s Clothes}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagWaterskin00]{Waterskin}, [[/award 23GP]]; or (B) [[/award 50GP]]</p><p>You spent years wandering the highlands of Rashemen, a dangerous windswept heath that’s dotted with ancient obelisks enchanted to imprison Fiends and home to dragons, gnolls, and other deadly creatures. Friendships are hard to find in such an isolated land, and you’ve learned to keep strangers at a distance.</p>"
+      "name": "萊瑟曼流浪者",
+      "description": "<p><strong>屬性值：</strong>力量、體質、魅力</p><p><strong>專長：</strong>@UUID[Compendium.dnd-players-handbook.feats.Item.phbftTough000000]</p><p><strong>技能熟練：</strong>威嚇與察覺</p><p><strong>工具熟練：</strong>製圖師工具</p><p><strong>裝備：</strong><em>選擇 </em>(A) @UUID[Compendium.dnd-players-handbook.equipment.Item.phbtulCartograph]、@UUID[Compendium.dnd-players-handbook.equipment.Item.phbagBackpack000]、@UUID[Compendium.dnd-players-handbook.equipment.Item.phbagBedroll0000]、@UUID[Compendium.dnd-players-handbook.equipment.Item.DKYzehYrMUKiFDxt]、@UUID[Compendium.dnd-players-handbook.equipment.Item.phbagOil00000000]（3瓶）、@UUID[Compendium.dnd-players-handbook.equipment.Item.x8jC9e00t4cUYiKR]、@UUID[Compendium.dnd-players-handbook.equipment.Item.etKzfLUMWikSsi3R]、@UUID[Compendium.dnd-players-handbook.equipment.Item.phbagClothesTrav]、@UUID[Compendium.dnd-players-handbook.equipment.Item.phbagWaterskin00]、[[/award 23GP]]或 (B) [[/award 50GP]]</p><p>你在萊瑟曼的高原之上漂泊了許多年，這片狂風席捲的危險荒原上不但星羅密布著用以禁錮邪魔的附魔術方塊尖碑，而且還是巨龍，豺狼人與其他致命生物的棲息地。在這樣一片與世隔絕的土地上很難找到友誼，而你也明白應該與陌生人保持距離。</p>"
     },
     "Zhentarim Travel Station": {
       "effects": {
@@ -710,7 +710,7 @@
       "description": "<p>Level 5 Bastion Facility</p><p><strong>Prerequisite:</strong> Membership in the Zhentarim</p><p><strong>Space:</strong> Vast</p><p><strong>Hirelings:</strong> 2</p><p><strong>Order:</strong> Research</p><p>The Zhentarim maintain stations to facilitate safe and swift long-distance travel on journeys (see @UUID[Compendium.dnd-dungeon-masters-guide.content.JournalEntry.dmgRunningExplor.JournalEntryPage.QrGAynDfEKmKX14L]{chapter 2} of the <em>Dungeon Master’s Guide</em>). Your travel station includes temporary stabling facilities for four Large creatures; two Medium creatures occupy the same space as one Large creature there. The facility’s hirelings look after these creatures.</p><p><em><strong>Long-Distance Travel Speed.</strong></em> Finishing a Long Rest in your Bastion better prepares you for travel; your group’s maximum travel pace increases by one step (from Slow to Normal or from Normal to Fast).</p><p><em><strong>Research: Reconnaissance.</strong></em> When you issue the Research order to this facility, you commission the Zhentarim Travel Station’s hirelings to gather information that facilitates an upcoming journey. This work takes 7 days. For the duration of the journey, you have Advantage on Wisdom (Survival) checks to forage or navigate.</p>"
     },
     "Frigid Explorer": {
-      "description": "<p>You gain the following benefits.</p><p><em><strong>Biting Cold.</strong></em> Damage from your weapon attacks, Ranger spells, and Ranger features ignores Resistance to Cold damage.</p><p><em><strong>Frost Resistance.</strong></em> You have Resistance to Cold damage.</p><p><em><strong>Polar Strikes.</strong></em> When you hit a creature with an attack roll using a weapon, you can deal an extra 1d4 Cold damage to the target, which can take this extra damage only once per turn. When you reach Ranger level 11, this extra damage increases to 1d6.</p><section id=\"secret-bnYrR1lg9cK7jGHJ\" class=\"secret\"><p><strong>Foundry Note</strong></p><p>This feature's extra damage can either be rolled individually via the <strong>Polar Strike</strong> activity, or as a toggled bonus via the <strong>Polar Strikes Damage</strong> active effect applying to all weapon damage rolls.</p></section>",
+      "description": "<p>你獲得下列好處。</p><p><em><strong>Biting Cold.</strong></em> Damage from your weapon attacks, Ranger spells, and Ranger features ignores Resistance to Cold damage.</p><p><em><strong>Frost Resistance.</strong></em> You have Resistance to Cold damage.</p><p><em><strong>Polar Strikes.</strong></em> When you hit a creature with an attack roll using a weapon, you can deal an extra 1d4 Cold damage to the target, which can take this extra damage only once per turn. When you reach Ranger level 11, this extra damage increases to 1d6.</p><section id=\"secret-bnYrR1lg9cK7jGHJ\" class=\"secret\"><p><strong>Foundry Note</strong></p><p>This feature's extra damage can either be rolled individually via the <strong>Polar Strike</strong> activity, or as a toggled bonus via the <strong>Polar Strikes Damage</strong> active effect applying to all weapon damage rolls.</p></section>",
       "advancement": {
         "Polar Strikes Die": {
           "title": "Polar Strikes Die"
@@ -736,24 +736,24 @@
     "Dragon Cultist": {
       "advancement": {
         "Background Feat": {
-          "hint": "Your background grants you the Cult of the Dragon Initiate feat.",
-          "title": "Background Feat"
+          "hint": "你的背景賦予你新晉龍巫教徒專長",
+          "title": "背景專長"
         },
         "Choose Languages": {
-          "hint": "Your character knows at least three languages: Common plus two languages you roll or choose from the Standard Languages table.",
-          "title": "Choose Languages"
+          "hint": "你的角色至少知曉三種語言，通用語加兩種你從標準語言表中所擲到或所選擇的。",
+          "title": "選擇語言"
         },
         "Background Ability Score Improvement": {
-          "hint": "Your background allows you to increase your Dexterity, Constitution, and Intelligence scores; increase one of them by 2 and a different one by 1, or increase all three by 1. None of these increases can raise a score above 20.",
-          "title": "Background Ability Score Improvement"
+          "hint": "你的背景讓你能提升敏捷、體質、智力。選擇其中一項提升 2 點，另一項提升 1 點；或是三項各提升 1 點。這些提升都不能讓該屬性超過20。",
+          "title": "背景屬性值提升"
         },
         "Background Proficiencies": {
-          "hint": "Your background grants you proficiency in Deception and Stealth. It also grants you proficiency in Calligrapher's Supplies.",
-          "title": "Background Proficiencies"
+          "hint": "你的背景賦予你欺瞞與隱匿的熟練，並讓你熟練於書法家工具",
+          "title": "背景熟練"
         }
       },
-      "description": "<p><strong>Ability Scores: </strong>Dexterity, Constitution, Intelligence</p><p><strong>Feat: </strong>@UUID[Compendium.dnd-heroes-faerun.options.Item.hofCultoftheDrag]{Cult of the Dragon Initiate} (see “@UUID[Compendium.dnd-heroes-faerun.book.JournalEntry.hofFeats00000000]{Feats}” later in this chapter)</p><p><strong>Skill Proficiencies: </strong>Deception and Stealth</p><p><strong>Tool Proficiency: </strong>Calligrapher’s Supplies</p><p><strong>Equipment: </strong><em>Choose A or B:</em> (A) @UUID[Compendium.dnd-players-handbook.equipment.Item.phbtulCalligraph]{Calligrapher’s Supplies}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbwepDagger0000]{Dagger}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagBottleGlass]{Glass Bottle}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagLamp0000000]{Lamp}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagManacles000]{Manacles}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagOil00000000]{Oil} (5 flasks), 2 @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagPouch000000]{Pouches}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagRobe0000000]{Robe}, @UUID[Compendium.dnd-players-handbook.equipment.Item.x8jC9e00t4cUYiKR]{Rope}, [[/award 30GP]]; or (B) [[/award 50GP]]</p><p>You are an initiate of the Cult of the Dragon. You discovered or were brought to a cell cult, where you exemplified the values honored by dragon cultists: duplicity, secrecy, and determination. In exchange for your oath to serve the cult, the cult offered you the company of fellow dragon worshipers, plus access to resources that might help further your studies in the realms of arcana and occultism.</p>",
-      "name": "Dragon Cultist"
+      "description": "<p><strong>屬性值：</strong>敏捷、體質、智力</p><p><strong>專長：</strong>@UUID[Compendium.dnd-heroes-faerun.options.Item.hofCultoftheDrag]（見本章節後面所述「@UUID[Compendium.dnd-heroes-faerun.book.JournalEntry.hofFeats00000000]」）</p><p><strong>技能熟練：</strong>欺瞞與隱匿</p><p><strong>工具熟練：</strong>書法家工具</p><p><strong>裝備：</strong><em>選擇</em> (A) @UUID[Compendium.dnd-players-handbook.equipment.Item.phbtulCalligraph]、@UUID[Compendium.dnd-players-handbook.equipment.Item.phbwepDagger0000]、@UUID[Compendium.dnd-players-handbook.equipment.Item.phbagBottleGlass]、@UUID[Compendium.dnd-players-handbook.equipment.Item.phbagLamp0000000]、@UUID[Compendium.dnd-players-handbook.equipment.Item.phbagManacles000]{Manacles}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagOil00000000]（5瓶）、2個@UUID[Compendium.dnd-players-handbook.equipment.Item.phbagPouch000000]、@UUID[Compendium.dnd-players-handbook.equipment.Item.phbagRobe0000000]、@UUID[Compendium.dnd-players-handbook.equipment.Item.x8jC9e00t4cUYiKR]、[[/award 30GP]]或 (B) [[/award 50GP]]</p><p>你是一位新晉龍巫教徒。你了解到或被人帶進了某個基層邪教組織，在那裡，你彰顯著龍巫教徒引以為豪的品質：虛偽狡詐，恪守秘密，以及堅定決心。以你為龍巫教效命的誓言作為交換，龍巫教為你提供了隨行的拜龍者為同伴，以及能夠助你在奧法及神秘學領域中展開進一步研究的資源。</p>",
+      "name": "龍巫教信徒"
     },
     "Elemental Smite": {
       "effects": {
@@ -803,51 +803,51 @@
     "Cult of the Dragon Initiate": {
       "activities": {
         "Inspired by Fear": {
-          "chatFlavor": "You gain Heroic Inspiration",
-          "condition": "you cause a creature to have the Frightened condition and you are the source of its fear",
-          "name": "Inspired by Fear"
+          "chatFlavor": "你獲得英雄激勵",
+          "condition": "你造成一名生物陷入恐懼狀態，且其恐懼源為你",
+          "name": "飲懼為勵"
         },
         "Dragon's Terror": {
-          "target": "visible target",
-          "name": "Dragon's Terror"
+          "target": "可見目標",
+          "name": "龍之威"
         }
       },
       "advancement": {
         "Dragon’s Tongue": {
-          "hint": "You know Draconic. If you already know Draconic when you select this feat, you instead learn one language of your choice.",
-          "title": "Dragon’s Tongue"
+          "hint": "你知曉龍語。若你已經知曉龍語，則當你選擇此專長時，你可以習得一門你所選擇的語言作為替代。",
+          "title": "龍之舌"
         }
       },
-      "name": "Cult of the Dragon Initiate",
+      "name": "新晉龍巫教徒",
       "effects": {
         "Frightened": {
-          "name": "Frightened",
-          "description": "<p>The target has the &amp;Reference[Frightened apply=false]{Frightened} condition until the end of your next turn. If the target succeeds on the save or when the effect ends for a target, the target is immune to this effect for 24 hours.</p>"
+          "name": "恐懼",
+          "description": "<p>目標陷入&amp;Reference[Frightened apply=false]{恐懼}狀態，直到你的下個回合結束。若目標豁免成功或當其身上的此效應結束時，目標在24小時內免疫此效應。</p>"
         }
       },
-      "description": "<p>You gain the following benefits.</p><p><em><strong>Dragon’s Tongue.</strong></em> You know Draconic. If you already know Draconic when you select this feat, you instead learn one language of your choice from the language tables in the <em>Player’s Handbook</em> or chapter 2 of this book.</p><p><em><strong>Dragon’s Terror.</strong></em> You can take a Magic action to instill terror in a creature you can see within 30 feet of yourself. The target must succeed on a Wisdom saving throw (DC 8 plus your Wisdom modifier and Proficiency Bonus) or have the &amp;Reference[Frightened apply=false]{Frightened} condition until the end of your next turn. If the target succeeds on the save or when the effect ends for a target, the target is immune to this effect for 24 hours.</p><p><em><strong>Inspired by Fear.</strong></em> When you cause a creature to have the Frightened condition and you are the source of its fear, you can gain Heroic Inspiration if you lack it. Once you use this benefit, you can’t use it again until you finish a Short or Long Rest.</p>"
+      "description": "<p>你獲得下列好處。</p><p><em><strong>龍之舌 </strong></em>你知曉龍語。若你選擇此專長時已知曉龍語，你可以從<em>玩家手冊</em>或此書第二章的語言表中習得一門語言，以替代龍語。</p><p><em><strong>龍之威 </strong></em>你可以採取魔法動作將恐懼灌輸給位於你30呎內你所能看見的一名生物。目標必須成功通過一次感知豁免（DC等於8+你的感知調整值+你的熟練加值），否則陷入&amp;Reference[Frightened apply=false]{恐懼}狀態，直到你的下個回合結束。若目標豁免成功或當其身上的此效應結束時，目標在24小時內免疫此效應。</p><p><em><strong>飲懼為勵 </strong></em>當你造成一名生物陷入恐懼狀態且恐懼源為你時，若你沒有英雄激勵，你可以獲得之。一旦你使用此好處，直到你完成短休或長休前都無法再次使用。</p>"
     },
     "Mythalkeeper": {
-      "description": "<p><strong>Ability Scores: </strong>Intelligence, Wisdom, Charisma</p><p><strong>Feat: </strong>@UUID[Compendium.dnd-players-handbook.feats.Item.phbftCrafter0000]{Crafter}</p><p><strong>Skill Proficiencies: </strong>Arcana and History</p><p><strong>Tool Proficiency: </strong>Jeweler’s Tools</p><p><strong>Equipment: </strong><em>Choose A or B: </em>(A) @UUID[Compendium.dnd-players-handbook.equipment.Item.phbwepQuartersta]{Quarterstaff}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbtulJewelersTo]{Jeweler’s Tools}, @UUID[Compendium.dnd-players-handbook.equipment.Item.yoRKNd2QddQp1XuX]{Perfume}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagPouch000000]{Pouch}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagRobe0000000]{Robe}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagShovel00000]{Shovel}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagString00000]{String}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagWaterskin00]{Waterskin}, [[/award 16GP]]; or (B) [[/award 50GP]]</p><p>Mythals are sources of great magical power that can alter the Weave or even the very nature of reality. Most were constructed in antiquity, and many have since been damaged or gone dormant. As a mythalkeeper from the Dalelands, your first experience with a mythal was likely in the ruins of Myth Drannor. You roam Faerûn in search of other ruined places of power, hoping to learn more about the history and powers of mythals­—or even restore a malfunctioning one.</p>",
+      "description": "<p><strong>屬性值：</strong>智力、感知、魅力</p><p><strong>專長：</strong>@UUID[Compendium.dnd-players-handbook.feats.Item.phbftCrafter0000]</p><p><strong>技能熟練：</strong>奧秘與歷史</p><p><strong>工具熟練：</strong>珠寶匠工具</p><p><strong>裝備：</strong><em>選擇</em> (A) @UUID[Compendium.dnd-players-handbook.equipment.Item.phbwepQuartersta]、@UUID[Compendium.dnd-players-handbook.equipment.Item.phbtulJewelersTo]、@UUID[Compendium.dnd-players-handbook.equipment.Item.yoRKNd2QddQp1XuX]、@UUID[Compendium.dnd-players-handbook.equipment.Item.phbagPouch000000]、@UUID[Compendium.dnd-players-handbook.equipment.Item.phbagRobe0000000]、@UUID[Compendium.dnd-players-handbook.equipment.Item.phbagShovel00000]、@UUID[Compendium.dnd-players-handbook.equipment.Item.phbagString00000]、@UUID[Compendium.dnd-players-handbook.equipment.Item.phbagWaterskin00]、[[/award 16GP]]或 (B) [[/award 50GP]]</p><p>迷鎖是能夠改造魔網甚至改變現實本源的強大魔法力量之源。大部分迷鎖都建立在古代，其中很多都已損毀或進入休眠狀態。作為一位來自谷地的謎鎖守衛者，你第一次接觸迷鎖可能是在迷斯卓諾Myth Drannor的廢墟中。你為了尋找其他迷鎖力量的遺跡而漫遊於費倫大陸，希望能夠對迷鎖的歷史以及迷鎖的力量有更多的了解——乃至於足以修復發生故障的謎鎖。</p>",
       "advancement": {
         "Background Ability Score Improvement": {
-          "title": "Background Ability Score Improvement",
-          "hint": "Your background allows you to increase your Intelligence, Wisdom, and Charisma scores; increase one of them by 2 and a different one by 1, or increase all three by 1. None of these increases can raise a score above 20."
+          "title": "背景屬性值提升",
+          "hint": "你的背景讓你能提升智力、感知、魅力。選擇其中一項提升 2 點，另一項提升 1 點；或是三項各提升 1 點。這些提升都不能讓該屬性超過20。"
         },
         "Choose Languages": {
-          "hint": "Your character knows at least three languages: Common plus two languages you roll or choose from the Standard Languages table.",
-          "title": "Choose Languages"
+          "hint": "你的角色至少知曉三種語言，通用語加兩種你從標準語言表中所擲到或所選擇的。",
+          "title": "選擇語言"
         },
         "Background Feat": {
-          "title": "Background Feat",
-          "hint": "Your background grants you the Crafter feat."
+          "title": "背景專長",
+          "hint": "你的背景賦予你巧匠專長"
         },
         "Background Proficiencies": {
-          "title": "Background Proficiencies",
-          "hint": "Your background grants you proficiency in Arcana and History. It also grants you proficiency in  Jeweler’s Tools."
+          "title": "背景熟練",
+          "hint": "你的背景賦予你奧秘與歷史的熟練，並讓你熟練珠寶匠工具。"
         }
       },
-      "name": "Mythalkeeper"
+      "name": "秘鎖守望者"
     },
     "Group Recovery": {
       "activities": {
@@ -867,24 +867,24 @@
     "Chondathan Freebooter": {
       "advancement": {
         "Background Ability Score Improvement": {
-          "title": "Background Ability Score Improvement",
-          "hint": "Your background allows you to increase your Strength, Dexterity, and Wisdom scores; increase one of them by 2 and a different one by 1, or increase all three by 1. None of these increases can raise a score above 20."
+          "title": "背景屬性值提升",
+          "hint": "你的背景讓你能提升力量、敏捷、感知。選擇其中一項提升 2 點，另一項提升 1 點；或是三項各提升 1 點。這些提升都不能讓該屬性超過20。"
         },
         "Choose Languages": {
-          "title": "Choose Languages",
-          "hint": "Your character knows at least three languages: Common plus two languages you roll or choose from the Standard Languages table."
+          "title": "選擇語言",
+          "hint": "你的角色至少知曉三種語言，通用語加兩種你從標準語言表中所擲到或所選擇的。"
         },
         "Background Proficiencies": {
-          "hint": "Your background grants you proficiency in Athletics and Sleight of Hand. It also grants you proficiency in Weaver’s Tools.",
-          "title": "Background Proficiencies"
+          "hint": "你的背景給予你運動與巧手的熟練，也給予你織布工工具的熟練。",
+          "title": "背景熟練"
         },
         "Background Feat": {
-          "title": "Background Feat",
-          "hint": "Your background grants you the Skilled feat."
+          "title": "背景專長",
+          "hint": "你的背景專長賦予你技巧嫻熟專長。"
         }
       },
-      "name": "Chondathan Freebooter",
-      "description": "<p><strong>Ability Scores:</strong> Strength, Dexterity, Wisdom</p><p><strong>Feat:</strong> @UUID[Compendium.dnd-players-handbook.feats.Item.phbftSkilled0000]{Skilled}</p><p><strong>Skill Proficiencies:</strong> Athletics and Sleight of Hand</p><p><strong>Tool Proficiency:</strong> Weaver’s Tools</p><p><strong>Equipment:</strong> Choose A or B: (A) @UUID[Compendium.dnd-players-handbook.equipment.Item.phbwepDagger0000]{Dagger}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbtulWeaversToo]{Weaver’s Tools}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagBackpack000]{Backpack}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagBallBearing]{Ball Bearings}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagBasket00000]{Basket}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagBedroll0000]{Bedroll}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagBucket00000]{Bucket}, @UUID[Compendium.dnd-players-handbook.equipment.Item.xP6OWuEaxQbDUfJV]{Rations} (3 days’ worth), @UUID[Compendium.dnd-players-handbook.equipment.Item.x8jC9e00t4cUYiKR]{Rope}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagSignalWhist]{Signal Whistle}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagClothesTrav]{Traveler’s Clothes}, [[/award 38GP]]; or (B) [[/award 50GP]]</p><p>Though most youths in Chondath accept their four-year term of compulsory military service, you bristled at that authoritarian attempt to control your life. You forsook your nationhood, discarded your given name, and worked as a freebooter with the first ship that would have you. Since then, you’ve traveled the Vilhon Reach. Though you’ve never sailed more than a few dozen leagues from land, you make up for it with deep local connections and the breadth of your experiences.</p>"
+      "name": "瓊達斯海盜",
+      "description": "<p><strong>屬性值：</strong>力量、敏捷、感知</p><p><strong>專長：</strong>@UUID[Compendium.dnd-players-handbook.feats.Item.phbftSkilled0000]</p><p><strong>技能熟練：</strong>運動與巧手</p><p><strong>工具熟練：</strong>織布工工具</p><p><strong>裝備：</strong>選擇 (A) @UUID[Compendium.dnd-players-handbook.equipment.Item.phbwepDagger0000]、 @UUID[Compendium.dnd-players-handbook.equipment.Item.phbtulWeaversToo]、@UUID[Compendium.dnd-players-handbook.equipment.Item.phbagBackpack000]、@UUID[Compendium.dnd-players-handbook.equipment.Item.phbagBallBearing]{Ball Bearings}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagBasket00000]、@UUID[Compendium.dnd-players-handbook.equipment.Item.phbagBedroll0000]、@UUID[Compendium.dnd-players-handbook.equipment.Item.phbagBucket00000]、@UUID[Compendium.dnd-players-handbook.equipment.Item.xP6OWuEaxQbDUfJV]（3日份）、@UUID[Compendium.dnd-players-handbook.equipment.Item.x8jC9e00t4cUYiKR]、@UUID[Compendium.dnd-players-handbook.equipment.Item.phbagSignalWhist]、@UUID[Compendium.dnd-players-handbook.equipment.Item.phbagClothesTrav]、[[/award 38GP]]或 (B) [[/award 50GP]]</p><p>雖然瓊達斯的大部分年輕人都需要義務服四年兵役，但你卻對專制政府試圖操縱你的人生而感到不滿。你拋棄了自己的國民身份，拋棄了自己的姓名，並在第一艘接納了自己的船上成為了海盜。自此，你便航行於維洪海域之中。雖然你從未在離陸地距離超過幾十里格的海域航行過，但你與當地的深刻聯繫以及廣泛的人生閱歷彌補了這一點。</p>"
     },
     "Noble Scion": {
       "activities": {
@@ -929,7 +929,7 @@
           "hint": "Your feat allows you to increase your Intelligence, Wisdom, or Charisma score by 1, to a maximum of 20."
         }
       },
-      "description": "<p>You gain the following benefits.</p><p><em><strong>Ability Score Increase. </strong></em>Increase your Intelligence, Wisdom, or Charisma score by 1, to a maximum of 20.</p><p><em><strong>Mythal Ward.</strong></em> If a spell attack hits you or you fail a saving throw against a spell, you can take a Reaction to roll on the Mythal-Touched Magic table to create a magical effect. If an effect requires a saving throw, the DC equals 8 plus the modifier of the ability increased by this feat and your Proficiency Bonus.</p><p>You can use this benefit a number of times equal to your Proficiency Bonus, and you regain all expended uses when you finish a Long Rest.</p><p>@Embed[Compendium.dnd-heroes-faerun.tables.RollTable.hofMythalTouched rollable classes=\"hof caption-top\" caption=false resultLabel=\"Effect\"]{Mythal-Touched Magic}</p>",
+      "description": "<p>你獲得下列好處。</p><p><em><strong>Ability Score Increase. </strong></em>Increase your Intelligence, Wisdom, or Charisma score by 1, to a maximum of 20.</p><p><em><strong>Mythal Ward.</strong></em> If a spell attack hits you or you fail a saving throw against a spell, you can take a Reaction to roll on the Mythal-Touched Magic table to create a magical effect. If an effect requires a saving throw, the DC equals 8 plus the modifier of the ability increased by this feat and your Proficiency Bonus.</p><p>You can use this benefit a number of times equal to your Proficiency Bonus, and you regain all expended uses when you finish a Long Rest.</p><p>@Embed[Compendium.dnd-heroes-faerun.tables.RollTable.hofMythalTouched rollable classes=\"hof caption-top\" caption=false resultLabel=\"Effect\"]{Mythal-Touched Magic}</p>",
       "name": "Mythal Touched"
     },
     "Blessing of Moonlight": {
@@ -1022,46 +1022,46 @@
     "Shadowmasters Exile": {
       "advancement": {
         "Background Proficiencies": {
-          "hint": "Your background grants you proficiency in Acrobatics and Stealth. It also grants you proficiency in  Thieves’ Tools.",
-          "title": "Background Proficiencies"
+          "hint": "你的背景賦予你特技和隱匿的熟練，以及盜賊工具的熟練。",
+          "title": "背景熟練"
         },
         "Background Ability Score Improvement": {
-          "title": "Background Ability Score Improvement",
-          "hint": "Your background allows you to increase your Dexterity, Intelligence, and Charisma scores; increase one of them by 2 and a different one by 1, or increase all three by 1. None of these increases can raise a score above 20."
+          "title": "背景屬性值提升",
+          "hint": "你的背景讓你能提升敏捷、智力、魅力。選擇其中一項提升 2 點，另一項提升 1 點；或是三項各提升 1 點。這些提升都不能讓該屬性超過20。"
         },
         "Background Feat": {
-          "hint": "Your background grants you the Savage Attacker feat.",
-          "title": "Background Feat"
+          "hint": "你的背景賦予你專長野蠻攻擊者",
+          "title": "背景專長"
         },
         "Choose Languages": {
-          "hint": "Your character knows at least three languages: Common plus two languages you roll or choose from the Standard Languages table.",
-          "title": "Choose Languages"
+          "hint": "你的角色至少知曉三種語言，通用語加兩種你從標準語言表中所擲到或所選擇的。",
+          "title": "選擇語言"
         }
       },
-      "description": "<p><strong>Ability Score: </strong>Dexterity, Intelligence, Charisma</p><p><strong>Feat: </strong>@UUID[Compendium.dnd-players-handbook.feats.Item.phbftSavageAttac]{Savage Attacker}</p><p><strong>Skill Proficiencies: </strong>Acrobatics and Stealth</p><p><strong>Tool Proficiency: </strong>Thieves’ Tools</p><p><strong>Equipment: </strong><em>Choose A or B: </em>(A) 2 @UUID[Compendium.dnd-players-handbook.equipment.Item.phbwepDagger0000]{Daggers}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbtulThievesToo]{Thieves’ Tools}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagCaltrops000]{Caltrops}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagCostume0000]{Costume}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagGrapplingHo]{Grappling Hook}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagSpikesIron0]{Iron Spikes}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagMirror00000]{Mirror}, 2 @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagPouch000000]{Pouches}, @UUID[Compendium.dnd-players-handbook.equipment.Item.x8jC9e00t4cUYiKR]{Rope}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagClothesTrav]{Traveler’s Clothes}, [[/award 3GP]]; or (B) [[/award 50GP]]</p><p>You trained your whole life to become a member of the Shadowmasters, the mysterious thieves’ guild that controls the realm of Thesk from behind the scenes. Stealth and quick reflexes were just the start of your Shadowmaster education; you also needed to hone your ruthlessness to ensure the safety of the guild’s secrets. But one wrong move led to your expulsion from the order. Now you must walk your own path.</p>",
-      "name": "Shadowmasters Exile"
+      "description": "<p><strong>屬性值：</strong>敏捷、智力、魅力</p><p><strong>專長：</strong>@UUID[Compendium.dnd-players-handbook.feats.Item.phbftSavageAttac]</p><p><strong>技能熟練：</strong>特技與隱匿</p><p><strong>工具熟練：</strong>盜賊工具</p><p><strong>裝備：</strong><em>選擇</em>(A) 2把@UUID[Compendium.dnd-players-handbook.equipment.Item.phbwepDagger0000]、@UUID[Compendium.dnd-players-handbook.equipment.Item.phbtulThievesToo]、@UUID[Compendium.dnd-players-handbook.equipment.Item.phbagCaltrops000]、@UUID[Compendium.dnd-players-handbook.equipment.Item.phbagCostume0000]、@UUID[Compendium.dnd-players-handbook.equipment.Item.phbagGrapplingHo]、@UUID[Compendium.dnd-players-handbook.equipment.Item.phbagSpikesIron0]、@UUID[Compendium.dnd-players-handbook.equipment.Item.phbagMirror00000]、2個@UUID[Compendium.dnd-players-handbook.equipment.Item.phbagPouch000000]、@UUID[Compendium.dnd-players-handbook.equipment.Item.x8jC9e00t4cUYiKR]、@UUID[Compendium.dnd-players-handbook.equipment.Item.phbagClothesTrav]、[[/award 3GP]]或 (B) [[/award 50GP]]</p><p>你畢生訓練便是為了成為在幕後控制著賽斯克的神秘盜賊協會——影宗的一員。潛行與快速反應的能力只是你影宗課程的開始，你還需要變得更加殘忍無情，以此來保障協會秘密的安全。但某個錯誤之舉導致你被逐出了協會。現在你必須走上自己的道路。</p>",
+      "name": "影宗放逐者"
     },
     "Emerald Enclave Caretaker": {
       "advancement": {
         "Background Proficiencies": {
-          "hint": "Your background grants you proficiency in Nature and Survival. It also grants you proficiency in  Herbalism Kit's.",
-          "title": "Background Proficiencies"
+          "hint": "你的背景賦予你自然與求生的熟練，並讓你熟練草藥師工具組。",
+          "title": "背景熟練"
         },
         "Background Ability Score Improvement": {
-          "title": "Background Ability Score Improvement",
-          "hint": "Your background allows you to increase your Constitution, Intelligence, and Wisdom scores; increase one of them by 2 and a different one by 1, or increase all three by 1. None of these increases can raise a score above 20."
+          "title": "背景屬性值提升",
+          "hint": "你的背景讓你能提升體質、智力、感知。選擇其中一項提升 2 點，另一項提升 1 點；或是三項各提升 1 點。這些提升都不能讓該屬性超過20。"
         },
         "Choose Languages": {
-          "title": "Choose Languages",
-          "hint": "Your character knows at least three languages: Common plus two languages you roll or choose from the Standard Languages table."
+          "title": "選擇語言",
+          "hint": "你的角色至少知曉三種語言，通用語加兩種你從標準語言表中所擲到或所選擇的。"
         },
         "Background Feat": {
-          "hint": "Your background grants you the Emerald Enclave Fledgling  feat.",
-          "title": "Background Feat"
+          "hint": "你的背景賦予你翠綠閒庭新羽專長Your background grants you the Emerald Enclave Fledgling  feat.",
+          "title": "背景專長"
         }
       },
-      "name": "Emerald Enclave Caretaker",
-      "description": "<p><strong>Ability Scores: </strong>Constitution, Intelligence, Wisdom</p><p><strong>Feat: </strong>@UUID[Compendium.dnd-heroes-faerun.options.Item.hofEmeraldEnclav]{Emerald Enclave Fledgling} (see “@UUID[Compendium.dnd-heroes-faerun.book.JournalEntry.hofFeats00000000]{Feats}” later in this chapter)</p><p><strong>Skill Proficiencies: </strong>Nature and Survival</p><p><strong>Tool Proficiency: </strong>Herbalism Kit</p><p><strong>Equipment: </strong><em>Choose A or B:</em> (A) @UUID[Compendium.dnd-players-handbook.equipment.Item.phbwepShortbow00]{Shortbow}, 20 @UUID[Compendium.dnd-players-handbook.equipment.Item.phbamoArrows0000]{Arrows}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbtulHerbalismK]{Herbalism Kit}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagBedroll0000]{Bedroll}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagBlanket0000]{Blanket}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagPouch000000]{Pouch}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagTent0000000]{Tent}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagClothesTrav]{Traveler’s Clothes}, [[/award 13GP]]; or (B) [[/award 50GP]]</p><p>As a Caretaker with the Emerald Enclave, you take care of those who care for the world. Either alongside your fellow Emerald Enclave members or by yourself, you’ve learned essential skills for living with the land: how to track game, where to forage for useful herbs, and even how to forecast the weather. You use these talents to maintain the balance between civilization and the wilds and to rid the world of unnatural creatures.</p>"
+      "name": "翠綠閒庭庇護者",
+      "description": "<p><strong>屬性值：</strong>體質、智力、感知</p><p><strong>專長：</strong>@UUID[Compendium.dnd-heroes-faerun.options.Item.hofEmeraldEnclav] （見本章後面所述「@UUID[Compendium.dnd-heroes-faerun.book.JournalEntry.hofFeats00000000]」）</p><p><strong>技能熟練：</strong>自然與求生</p><p><strong>工具熟練：</strong>草藥師工具組</p><p><strong>裝備：</strong><em>選擇</em> (A) @UUID[Compendium.dnd-players-handbook.equipment.Item.phbwepShortbow00]、20支@UUID[Compendium.dnd-players-handbook.equipment.Item.phbamoArrows0000]、@UUID[Compendium.dnd-players-handbook.equipment.Item.phbtulHerbalismK]、@UUID[Compendium.dnd-players-handbook.equipment.Item.phbagBedroll0000]、 @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagBlanket0000]、@UUID[Compendium.dnd-players-handbook.equipment.Item.phbagPouch000000]、@UUID[Compendium.dnd-players-handbook.equipment.Item.phbagTent0000000]、 @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagClothesTrav]、[[/award 13GP]]或 (B) [[/award 50GP]]</p><p>作為一位翠綠閒庭庇護者，你悉心地照顧著那些對世間充滿了關愛的人。你或是通過陪同翠綠閒庭成員，或是自行摸索，學會了生活在這片大地上所需的關鍵技巧：如何追捕獵物，到哪裡去搜尋有用的藥草，甚至如何預測天氣。你運用這些才賦維持文明與荒野的平衡，以及消滅世上的非自然生物。</p>"
     },
     "Dread Allegiance": {
       "activities": {
@@ -1190,7 +1190,7 @@
         }
       },
       "name": "Boon of Desperate Resilience",
-      "description": "<p>You gain the following benefits.</p><p><em><strong>Ability Score Increase.</strong></em> Increase your Strength or Constitution score by 1, to a maximum of 30.</p><p><em><strong>Defense of Body and Mind.</strong></em> While you are Bloodied, you have Resistance to every damage type except Force.</p><section class=\"secret\" id=\"secret-OwHxhu5eLRikQpVO\"><p><strong>Foundry Note</strong></p><p>This feature provides an <strong>Active Effect (AE)</strong> that will modify your damage resistances. You can enable this damage resistances on your sheet's <strong>Effects Tab</strong>, or apply it via the provided Activity, when Bloodied</p></section>"
+      "description": "<p>你獲得下列好處。</p><p><em><strong>Ability Score Increase.</strong></em> Increase your Strength or Constitution score by 1, to a maximum of 30.</p><p><em><strong>Defense of Body and Mind.</strong></em> While you are Bloodied, you have Resistance to every damage type except Force.</p><section class=\"secret\" id=\"secret-OwHxhu5eLRikQpVO\"><p><strong>Foundry Note</strong></p><p>This feature provides an <strong>Active Effect (AE)</strong> that will modify your damage resistances. You can enable this damage resistances on your sheet's <strong>Effects Tab</strong>, or apply it via the provided Activity, when Bloodied</p></section>"
     },
     "Tyro of the Gauntlet": {
       "activities": {
@@ -1210,7 +1210,7 @@
         }
       },
       "name": "Tyro of the Gauntlet",
-      "description": "<p>You gain the following benefits.</p><p><em><strong>Stand as One.</strong></em> When an ally within 5 feet of you is subjected to an effect that would push or pull it, you can take a Reaction to prevent that ally from being pushed or pulled. To receive this benefit, the ally can’t have the Incapacitated condition.</p><p><em><strong>Vigilant.</strong></em> When you take the &amp;Reference[Ready]action, the next attack roll made against you has Disadvantage before the start of your next turn.</p>"
+      "description": "<p>你獲得下列好處。</p><p><em><strong>Stand as One.</strong></em> When an ally within 5 feet of you is subjected to an effect that would push or pull it, you can take a Reaction to prevent that ally from being pushed or pulled. To receive this benefit, the ally can’t have the Incapacitated condition.</p><p><em><strong>Vigilant.</strong></em> When you take the &amp;Reference[Ready]action, the next attack roll made against you has Disadvantage before the start of your next turn.</p>"
     },
     "Syluné's Viper": {
       "name": "Syluné's Viper",
@@ -1281,7 +1281,7 @@
           "condition": "you fail a saving throw"
         }
       },
-      "description": "<p>You gain the following benefits.</p><p><em><strong>Ability Score Increase.</strong></em> Increase one ability score of your choice by 1, to a maximum of 30.</p><p><em><strong>Saving Throw Reroll.</strong></em> When you fail a saving throw, you can reroll it and must use the new roll. Once you use this benefit, you can’t do so again until the start of your next turn.</p>",
+      "description": "<p>你獲得下列好處。</p><p><em><strong>Ability Score Increase.</strong></em> Increase one ability score of your choice by 1, to a maximum of 30.</p><p><em><strong>Saving Throw Reroll.</strong></em> When you fail a saving throw, you can reroll it and must use the new roll. Once you use this benefit, you can’t do so again until the start of your next turn.</p>",
       "name": "Boon of Fortune’s Favor"
     },
     "Extra Attack": {
@@ -1320,7 +1320,7 @@
       "name": "Frozen Haunt"
     },
     "Harper Teamwork": {
-      "description": "<p>You gain the following benefits.</p><p><em><strong>Ability Score Increase.</strong></em> Increase your Dexterity or Charisma score by 1, to a maximum of 20.</p><p><em><strong>Withering Wordplay.</strong></em> When you take the &amp;Reference[Help] action to assist an ally’s attack roll against an enemy, that enemy also has Disadvantage on the first saving throw it makes before the start of your next turn.</p><p><em><strong>Inspiring Willpower. </strong></em>If you succeed on a saving throw to end the Frightened or Paralyzed condition on yourself, you can choose one ally you can see within 30 feet of yourself that has the same condition. That condition immediately ends for that ally.</p>",
+      "description": "<p>你獲得下列好處。</p><p><em><strong>Ability Score Increase.</strong></em> Increase your Dexterity or Charisma score by 1, to a maximum of 20.</p><p><em><strong>Withering Wordplay.</strong></em> When you take the &amp;Reference[Help] action to assist an ally’s attack roll against an enemy, that enemy also has Disadvantage on the first saving throw it makes before the start of your next turn.</p><p><em><strong>Inspiring Willpower. </strong></em>If you succeed on a saving throw to end the Frightened or Paralyzed condition on yourself, you can choose one ally you can see within 30 feet of yourself that has the same condition. That condition immediately ends for that ally.</p>",
       "advancement": {
         "Feat Ability Score Improvement": {
           "title": "Feat Ability Score Improvement",
@@ -1387,46 +1387,46 @@
     "Mulhorandi Tomb Raider": {
       "advancement": {
         "Background Feat": {
-          "title": "Background Feat",
-          "hint": "Your background grants you the Lucky feat."
+          "title": "背景專長",
+          "hint": "你的背景賦予你專長幸運"
         },
         "Background Ability Score Improvement": {
-          "title": "Background Ability Score Improvement",
-          "hint": "Your background allows you to increase your Dexterity, Constitution, and Intelligence scores; increase one of them by 2 and a different one by 1, or increase all three by 1. None of these increases can raise a score above 20."
+          "title": "背景屬性值提升",
+          "hint": "你的背景讓你能提升敏捷、體質、智力。選擇其中一項提升 2 點，另一項提升 1 點；或是三項各提升 1 點。這些提升都不能讓該屬性超過20。"
         },
         "Choose Languages": {
-          "title": "Choose Languages",
-          "hint": "Your character knows at least three languages: Common plus two languages you roll or choose from the Standard Languages table."
+          "title": "選擇語言",
+          "hint": "你的角色至少知曉三種語言，通用語加兩種你從標準語言表中所擲到或所選擇的。"
         },
         "Background Proficiencies": {
-          "hint": "Your background grants you proficiency in Investigation and Religion. It also grants you proficiency in  Mason’s Tools.",
-          "title": "Background Proficiencies"
+          "hint": "你的背景賦予你調查與宗教的熟練，並讓你熟練石匠工具。",
+          "title": "背景熟練"
         }
       },
-      "name": "Mulhorandi Tomb Raider",
-      "description": "<p><strong>Ability Scores: </strong>Dexterity, Constitution, Intelligence</p><p><strong>Feat: </strong>@UUID[Compendium.dnd-players-handbook.feats.Item.phbftLucky000000]{Lucky}</p><p><strong>Skill Proficiencies: </strong>Investigation and Religion</p><p><strong>Tool Proficiency: </strong>Mason’s Tools</p><p><strong>Equipment: </strong><em>Choose A or B: </em>(A) @UUID[Compendium.dnd-players-handbook.equipment.Item.phbwepDagger0000]{Dagger}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbwepLightHamme]{Light Hammer}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbtulMasonsTool]{Mason’s Tools}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagBackpack000]{Backpack}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagBedroll0000]{Bedroll}, @UUID[Compendium.dnd-players-handbook.equipment.Item.rvz6gQc3OcOMgIQz]{Crowbar}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagLadder00000]{Ladder}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagPole0000000]{Pole}, 2 @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagPouch000000]{Pouches}, @UUID[Compendium.dnd-players-handbook.equipment.Item.x8jC9e00t4cUYiKR]{Rope}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagString00000]{String}, @UUID[Compendium.dnd-players-handbook.equipment.Item.rIuY5ZDJh6ctfUwG]{Tinderbox}, 5 @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagTorch000000]{Torches}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagClothesTrav]{Traveler’s Clothes}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagWaterskin00]{Waterskin}, [[/award 26GP]]; or (B) [[/award 50GP]]</p><p>You grew up in a land of living god-kings, and as a child you were told countless stories of ancient empires and buried cities. In these tales, Mulhorand was a land overflowing with forgotten riches—priceless treasures awaiting anyone cunning and brave enough to seek them out. You’ve taken it upon yourself to explore your homeland’s crypts, tombs, and pyramids to reclaim your people’s relics.</p>"
+      "name": "穆爾霍蘭德盜墓者",
+      "description": "<p><strong>屬性值：</strong>敏捷、體質、智力</p><p><strong>專長：</strong>@UUID[Compendium.dnd-players-handbook.feats.Item.phbftLucky000000]</p><p><strong>技能熟練：</strong>調查與宗教</p><p><strong>工具熟練：</strong>石匠工具</p><p><strong>裝備：</strong><em>選擇</em> (A) @UUID[Compendium.dnd-players-handbook.equipment.Item.phbwepDagger0000]、@UUID[Compendium.dnd-players-handbook.equipment.Item.phbwepLightHamme]、@UUID[Compendium.dnd-players-handbook.equipment.Item.phbtulMasonsTool]、@UUID[Compendium.dnd-players-handbook.equipment.Item.phbagBackpack000]、@UUID[Compendium.dnd-players-handbook.equipment.Item.phbagBedroll0000]、@UUID[Compendium.dnd-players-handbook.equipment.Item.rvz6gQc3OcOMgIQz]、@UUID[Compendium.dnd-players-handbook.equipment.Item.phbagLadder00000]、@UUID[Compendium.dnd-players-handbook.equipment.Item.phbagPole0000000]、2個@UUID[Compendium.dnd-players-handbook.equipment.Item.phbagPouch000000]、@UUID[Compendium.dnd-players-handbook.equipment.Item.x8jC9e00t4cUYiKR]、@UUID[Compendium.dnd-players-handbook.equipment.Item.phbagString00000]、@UUID[Compendium.dnd-players-handbook.equipment.Item.rIuY5ZDJh6ctfUwG]、5支@UUID[Compendium.dnd-players-handbook.equipment.Item.phbagTorch000000]、@UUID[Compendium.dnd-players-handbook.equipment.Item.phbagClothesTrav]、@UUID[Compendium.dnd-players-handbook.equipment.Item.phbagWaterskin00]、[[/award 26GP]]或 (B) [[/award 50GP]]</p><p>你出生在神王們生活的土地上，而自從孩提時起，你便聽過了無數有關古代帝國與被掩埋城邦的故事。在這些故事當中，穆爾霍蘭德是一片充滿了被遺忘財富的土地——無價之寶等待著足夠狡詐又足夠勇敢的人來將它們發掘。你主動出發去探索墓穴、墳塚與金字塔，以發掘自己的民族遺產。</p>"
     },
     "Dead Magic Dweller": {
       "advancement": {
         "Background Proficiencies": {
           "hint": "Your background grants you proficiency in Medicine and Survival. It also grants you proficiency in Leatherworker's Tools.",
-          "title": "Background Proficiencies"
+          "title": "背景熟練"
         },
         "Background Ability Score Improvement": {
-          "title": "Background Ability Score Improvement",
-          "hint": "Your background allows you to increase your Strength, Constitution, and Wisdom scores; increase one of them by 2 and a different one by 1, or increase all three by 1. None of these increases can raise a score above 20."
+          "title": "背景屬性值提升",
+          "hint": "你的背景讓你能提升力量、體質、感知。選擇其中一項提升 2 點，另一項提升 1 點；或是三項各提升 1 點。這些提升都不能讓該屬性超過20。"
         },
         "Choose Languages": {
-          "title": "Choose Languages",
-          "hint": "Your character knows at least three languages: Common plus two languages you roll or choose from the Standard Languages table."
+          "title": "選擇語言",
+          "hint": "你的角色至少知曉三種語言，通用語加兩種你從標準語言表中所擲到或所選擇的。"
         },
         "Background Feat": {
-          "title": "Background Feat",
-          "hint": "Your background grants you the Healer feat."
+          "title": "背景專長",
+          "hint": "你的背景賦予你專長治療師"
         }
       },
-      "name": "Dead Magic Dweller",
-      "description": "<p><strong>Ability Scores: </strong>Strength, Constitution, Wisdom</p><p><strong>Feat: </strong>@UUID[Compendium.dnd-players-handbook.feats.Item.phbftHealer00000]{Healer}</p><p><strong>Skill Proficiencies: </strong>Medicine and Survival</p><p><strong>Tool Proficiency: </strong>Leatherworker’s Tools</p><p><strong>Equipment: </strong><em>Choose A or B: </em>(A) @UUID[Compendium.dnd-players-handbook.equipment.Item.phbwepGreatclub0]{Greatclub}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbtulLeatherwor]{Leatherworker’s Tools}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagBedroll0000]{Bedroll}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagBlanket0000]{Blanket}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagHealersKit0]{Healer’s Kit}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagPole0000000]{Pole}, @UUID[Compendium.dnd-players-handbook.equipment.Item.xP6OWuEaxQbDUfJV]{Rations} (3 days’ worth), @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagTent0000000]{Tent}, @UUID[Compendium.dnd-players-handbook.equipment.Item.rIuY5ZDJh6ctfUwG]{Tinderbox}, 5 @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagTorch000000]{Torches}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagClothesTrav]{Traveler’s Clothes}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagWaterskin00]{Waterskin}, [[/award 32GP]]; or (B) [[/award 50GP]]</p><p>The dead magic zones of the Anauroch desert are anathema to spellcasters and monsters that rely on magic—which is exactly why you made your life there. Perhaps you’re on the run from Red Wizards, or you ran afoul of a powerful djinni in Calimshan. Whatever the case, you decided that living in Anauroch was your best option. After long months or years, you’re stronger, wiser, and armed with hard-earned knowledge of desert medicine and wasteland survival.</p>"
+      "name": "死魔法區住民",
+      "description": "<p><strong>屬性值：</strong>力量、體質、感知</p><p><strong>專長：</strong>@UUID[Compendium.dnd-players-handbook.feats.Item.phbftHealer00000]</p><p><strong>技能熟練：</strong>醫藥與求生</p><p><strong>工具熟練：</strong>皮革匠工具</p><p><strong>裝備：</strong><em>選擇</em> (A) @UUID[Compendium.dnd-players-handbook.equipment.Item.phbwepGreatclub0]、@UUID[Compendium.dnd-players-handbook.equipment.Item.phbtulLeatherwor]、@UUID[Compendium.dnd-players-handbook.equipment.Item.phbagBedroll0000]、@UUID[Compendium.dnd-players-handbook.equipment.Item.phbagBlanket0000]、@UUID[Compendium.dnd-players-handbook.equipment.Item.phbagHealersKit0]、@UUID[Compendium.dnd-players-handbook.equipment.Item.phbagPole0000000]、@UUID[Compendium.dnd-players-handbook.equipment.Item.xP6OWuEaxQbDUfJV]（3日份）、 @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagTent0000000]、@UUID[Compendium.dnd-players-handbook.equipment.Item.rIuY5ZDJh6ctfUwG]、5支@UUID[Compendium.dnd-players-handbook.equipment.Item.phbagTorch000000]、@UUID[Compendium.dnd-players-handbook.equipment.Item.phbagClothesTrav]、@UUID[Compendium.dnd-players-handbook.equipment.Item.phbagWaterskin00]、[[/award 32GP]]或 (B) [[/award 50GP]]</p><p>埃諾奧克沙漠的死魔法區域對於施法者以及那些依賴魔法的怪物來說無法忍受——而這卻正是你在此生活的原因。你可能是正在為了擺脫紅袍法師而奔波，又或者是因為忤逆了卡林珊的某位強大氣巨靈而逃亡。無論情況如何，你最終認為在埃諾奧克居住才是最好的選擇。在若干年月之後，你變得更加智慧，更加強大，並擁有著從沙漠醫藥與荒漠生存當中艱難獲得的知識。</p>"
     },
     "Boon of the Furious Storm": {
       "advancement": {
@@ -1438,7 +1438,7 @@
           "title": "Feat Damage Resistance"
         }
       },
-      "description": "<p>You gain the following benefits.</p><p><em><strong>Ability Score Increase.</strong></em> Increase your Intelligence, Wisdom, or Charisma score by 1, to a maximum of 30.</p><p><em><strong>Eye of the Storm.</strong></em> You have Resistance to Lightning and Thunder damage. While you are Bloodied, you have Immunity to Lightning and Thunder damage.</p><p><em><strong>Storm’s Strength.</strong></em> Creatures have Disadvantage on saving throws against your spells that deal Lightning or Thunder damage.</p>",
+      "description": "<p>你獲得下列好處。</p><p><em><strong>Ability Score Increase.</strong></em> Increase your Intelligence, Wisdom, or Charisma score by 1, to a maximum of 30.</p><p><em><strong>Eye of the Storm.</strong></em> You have Resistance to Lightning and Thunder damage. While you are Bloodied, you have Immunity to Lightning and Thunder damage.</p><p><em><strong>Storm’s Strength.</strong></em> Creatures have Disadvantage on saving throws against your spells that deal Lightning or Thunder damage.</p>",
       "activities": {
         "Eye of the Storm": {
           "duration": "while you are Bloodied",
@@ -1456,24 +1456,24 @@
     "Ice Fisher": {
       "advancement": {
         "Background Ability Score Improvement": {
-          "title": "Background Ability Score Improvement",
-          "hint": "Your background allows you to increase your Strength, Dexterity, and Constitution scores; increase one of them by 2 and a different one by 1, or increase all three by 1. None of these increases can raise a score above 20."
+          "title": "背景屬性值提升",
+          "hint": "你的背景讓你能提升力量、敏捷、體質。選擇其中一項提升 2 點，另一項提升 1 點；或是三項各提升 1 點。這些提升都不能讓該屬性超過20。"
         },
         "Choose Languages": {
-          "hint": "Your character knows at least three languages: Common plus two languages you roll or choose from the Standard Languages table.",
-          "title": "Choose Languages"
+          "hint": "你的角色至少知曉三種語言，通用語加兩種你從標準語言表中所擲到或所選擇的。",
+          "title": "選擇語言"
         },
         "Background Feat": {
-          "title": "Background Feat",
+          "title": "背景專長",
           "hint": "Your background grants you the Alert feat."
         },
         "Background Proficiencies": {
           "hint": "Your background grants you proficiency in Animal Handling and Athletics. It also grants you proficiency in  Woodcarver’s Tools.",
-          "title": "Background Proficiencies"
+          "title": "背景熟練"
         }
       },
-      "name": "Ice Fisher",
-      "description": "<p><strong>Ability Scores: </strong>Strength, Dexterity, Constitution</p><p><strong>Feat: </strong>@UUID[Compendium.dnd-players-handbook.feats.Item.phbftAlert000000]{Alert}</p><p><strong>Skill Proficiencies: </strong>Animal Handling and Athletics</p><p><strong>Tool Proficiency: </strong>Woodcarver’s Tools</p><p><strong>Equipment: </strong><em>Choose A or B: </em>(A) @UUID[Compendium.dnd-players-handbook.equipment.Item.phbtulWoodcarver]{Woodcarver’s Tools}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagBasket00000]{Basket}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagBlockandTac]{Block and Tackle}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagBucket00000]{Bucket}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagChain000000]{Chain}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagHuntingTrap]{Hunting Trap}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagNet00000000]{Net}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagPole0000000]{Pole}, @UUID[Compendium.dnd-players-handbook.equipment.Item.xP6OWuEaxQbDUfJV]{Rations} (3 days’ worth), @UUID[Compendium.dnd-players-handbook.equipment.Item.x8jC9e00t4cUYiKR]{Rope}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagClothesTrav]{Traveler’s Clothes}, [[/award 32GP]]; or (B) [[/award 50GP]]</p><p>You come from a proud line of ice fishers out of Ten-Towns in Icewind Dale. Catching knucklehead trout isn’t the most glorious trade in the North, but it’s an honest living. You’ve trained your senses for the slightest tug on the line, wrestled big trout out of ice-covered lakes, and gutted enough knucklehead trout to feed your village many times over. These experiences have toughened your body and mind for a life of adventuring.</p>"
+      "name": "冰上釣客",
+      "description": "<p><strong>屬性值：</strong>力量、敏捷、體質</p><p><strong>專長：</strong>@UUID[Compendium.dnd-players-handbook.feats.Item.phbftAlert000000]</p><p><strong>技能熟練：</strong>馴獸與運動</p><p><strong>工具熟練：</strong>木雕師工具</p><p><strong>裝備：</strong><em>選擇</em> (A) @UUID[Compendium.dnd-players-handbook.equipment.Item.phbtulWoodcarver]、@UUID[Compendium.dnd-players-handbook.equipment.Item.phbagBasket00000]、@UUID[Compendium.dnd-players-handbook.equipment.Item.phbagBlockandTac]、@UUID[Compendium.dnd-players-handbook.equipment.Item.phbagBucket00000]{Bucket}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagChain000000]{Chain}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagHuntingTrap]{Hunting Trap}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagNet00000000]{Net}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagPole0000000]{Pole}, @UUID[Compendium.dnd-players-handbook.equipment.Item.xP6OWuEaxQbDUfJV]{Rations} (3 days’ worth), @UUID[Compendium.dnd-players-handbook.equipment.Item.x8jC9e00t4cUYiKR]{Rope}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagClothesTrav]{Traveler’s Clothes}, [[/award 32GP]]; or (B) [[/award 50GP]]</p><p>You come from a proud line of ice fishers out of Ten-Towns in Icewind Dale. Catching knucklehead trout isn’t the most glorious trade in the North, but it’s an honest living. You’ve trained your senses for the slightest tug on the line, wrestled big trout out of ice-covered lakes, and gutted enough knucklehead trout to feed your village many times over. These experiences have toughened your body and mind for a life of adventuring.</p>"
     },
     "Lords' Alliance Agent": {
       "effects": {
@@ -1488,7 +1488,7 @@
         }
       },
       "name": "Lords' Alliance Agent",
-      "description": "<p>You gain the following benefits.</p><p><em><strong>Inspiring Strike.</strong></em> Once per turn when you score a Critical Hit against a creature, you can choose an ally within 30 feet of yourself who can see or hear you and who lacks Heroic Inspiration. That ally gains Heroic Inspiration.</p><p><em><strong>Reassert Honor.</strong></em> When an enemy you can see deals damage to an ally of yours that is within 5 feet of you, you have Advantage on your next attack roll against that enemy before the end of your next turn.</p><section class=\"secret\" id=\"secret-mWiw16lJG04PHCaY\"><p><strong>Foundry Note</strong></p><p>This feature includes an <strong>Active Effect</strong> that serves as a reminder for your Advantage, though it does not automate the process.</p></section>"
+      "description": "<p>你獲得下列好處。</p><p><em><strong>Inspiring Strike.</strong></em> Once per turn when you score a Critical Hit against a creature, you can choose an ally within 30 feet of yourself who can see or hear you and who lacks Heroic Inspiration. That ally gains Heroic Inspiration.</p><p><em><strong>Reassert Honor.</strong></em> When an enemy you can see deals damage to an ally of yours that is within 5 feet of you, you have Advantage on your next attack roll against that enemy before the end of your next turn.</p><section class=\"secret\" id=\"secret-mWiw16lJG04PHCaY\"><p><strong>Foundry Note</strong></p><p>This feature includes an <strong>Active Effect</strong> that serves as a reminder for your Advantage, though it does not automate the process.</p></section>"
     },
     "Boon of Exquisite Radiance": {
       "activities": {
@@ -1503,7 +1503,7 @@
           "hint": "Your feat allows you to increase one ability score of your choice by 1, to a maximum of 30."
         }
       },
-      "description": "<p>You gain the following benefits.</p><p><em><strong>Ability Score Increase.</strong></em> Increase one ability score of your choice by 1, to a maximum of 30.</p><p><em><strong>Eternal Rest.</strong></em> Creatures you reduce to 0 Hit Points can’t become Undead.</p><p><em><strong>Powerful Radiance.</strong></em> When you make a damage roll that deals Radiant damage, you can instead use the highest number possible for each damage die. Once you use this benefit, you can’t do so again until you finish a Long Rest.</p>",
+      "description": "<p>你獲得下列好處。</p><p><em><strong>Ability Score Increase.</strong></em> Increase one ability score of your choice by 1, to a maximum of 30.</p><p><em><strong>Eternal Rest.</strong></em> Creatures you reduce to 0 Hit Points can’t become Undead.</p><p><em><strong>Powerful Radiance.</strong></em> When you make a damage roll that deals Radiant damage, you can instead use the highest number possible for each damage die. Once you use this benefit, you can’t do so again until you finish a Long Rest.</p>",
       "name": "Boon of Exquisite Radiance"
     },
     "Elminster's Effulgent Spheres": {
@@ -1550,7 +1550,7 @@
       "name": "Elminster's Effulgent Spheres"
     },
     "Street Justice": {
-      "description": "<p>You gain the following benefits.</p><p><em><strong>Ability Score Increase. </strong></em>Increase your Strength or Dexterity score by 1, to a maximum of 20.</p><p><em><strong>Headlock.</strong></em> Your allies have Advantage on attack rolls against a creature Grappled by you.</p><p><em><strong>Sturdy Knot.</strong></em> When you use Chain, Manacles, or Rope to bind a creature, add your Proficiency Bonus to the DC to escape or burst the Chain, Manacles, or Rope.</p><p><em><strong>Tough Talk.</strong></em> A creature’s Hostile attitude doesn’t impose Disadvantage on your Charisma (Intimidation) checks to influence that creature.</p>",
+      "description": "<p>你獲得下列好處。</p><p><em><strong>Ability Score Increase. </strong></em>Increase your Strength or Dexterity score by 1, to a maximum of 20.</p><p><em><strong>Headlock.</strong></em> Your allies have Advantage on attack rolls against a creature Grappled by you.</p><p><em><strong>Sturdy Knot.</strong></em> When you use Chain, Manacles, or Rope to bind a creature, add your Proficiency Bonus to the DC to escape or burst the Chain, Manacles, or Rope.</p><p><em><strong>Tough Talk.</strong></em> A creature’s Hostile attitude doesn’t impose Disadvantage on your Charisma (Intimidation) checks to influence that creature.</p>",
       "advancement": {
         "Feat Ability Score Improvement": {
           "hint": "Your feat allows you to increase your Strength or Dexterity score by 1, to a maximum of 20.",
@@ -1585,7 +1585,7 @@
         }
       },
       "name": "Enclave Magic",
-      "description": "<p>You gain the following benefits.</p><p><em><strong>Ability Score Increase.</strong></em> Increase your Intelligence, Wisdom, or Charisma score by 1, to a maximum of 20.</p><p><em><strong>Friend to Animals.</strong></em> You have Advantage on ability checks when taking the Influence action with Beasts.</p><p><em><strong>Two Hearts, One Mind.</strong></em> You always have the <em>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplBeastSense]{Beast Sense} </em>spell prepared. You can cast it once without a spell slot, and you regain the ability to cast it in that way when you finish a Long Rest. When you cast it without a spell slot using this feature, it doesn’t require Concentration. You can also cast the spell using any spell slots you have of the appropriate level. The spell’s spellcasting ability is the ability increased by this feat.</p>"
+      "description": "<p>你獲得下列好處。</p><p><em><strong>Ability Score Increase.</strong></em> Increase your Intelligence, Wisdom, or Charisma score by 1, to a maximum of 20.</p><p><em><strong>Friend to Animals.</strong></em> You have Advantage on ability checks when taking the Influence action with Beasts.</p><p><em><strong>Two Hearts, One Mind.</strong></em> You always have the <em>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplBeastSense]{Beast Sense} </em>spell prepared. You can cast it once without a spell slot, and you regain the ability to cast it in that way when you finish a Long Rest. When you cast it without a spell slot using this feature, it doesn’t require Concentration. You can also cast the spell using any spell slots you have of the appropriate level. The spell’s spellcasting ability is the ability increased by this feat.</p>"
     },
     "Moon's Inspiration": {
       "activities": {
@@ -1641,7 +1641,7 @@
       "name": "Blessings of Knowledge"
     },
     "Cold Caster": {
-      "description": "<p>You gain the following benefits.</p><p><em><strong>Ability Score Increase.</strong></em><strong> </strong>Increase your Intelligence, Wisdom, or Charisma score by 1, to a maximum of 20.</p><p><em><strong>Cantrip.</strong></em><strong> </strong>You learn the <em>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplRayofFrost]{Ray of Frost}</em> cantrip. If you already know it, you learn a different Wizard cantrip of your choice. The spell’s spellcasting ability is the ability increased by this feat.</p><p><em><strong>Frostbite. </strong></em>Once per turn when you hit a creature with an attack roll and deal Cold damage, you can temporarily negate the creature’s defenses. The creature subtracts [[/r 1d4]] from the next saving throw it makes before the end of your next turn.</p>",
+      "description": "<p>你獲得下列好處。</p><p><em><strong>Ability Score Increase.</strong></em><strong> </strong>Increase your Intelligence, Wisdom, or Charisma score by 1, to a maximum of 20.</p><p><em><strong>Cantrip.</strong></em><strong> </strong>You learn the <em>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplRayofFrost]{Ray of Frost}</em> cantrip. If you already know it, you learn a different Wizard cantrip of your choice. The spell’s spellcasting ability is the ability increased by this feat.</p><p><em><strong>Frostbite. </strong></em>Once per turn when you hit a creature with an attack roll and deal Cold damage, you can temporarily negate the creature’s defenses. The creature subtracts [[/r 1d4]] from the next saving throw it makes before the end of your next turn.</p>",
       "advancement": {
         "Feat Spell": {
           "hint": "You learn the Ray of Frost cantrip. If you already know it, you learn a different Wizard cantrip of your choice.",
@@ -1702,23 +1702,23 @@
       "advancement": {
         "Background Proficiencies": {
           "hint": "Your background grants you proficiency in Athletics and Medicine. It also grants you proficiency in  Smith's Tools.",
-          "title": "Background Proficiencies"
+          "title": "背景熟練"
         },
         "Background Feat": {
-          "title": "Background Feat",
+          "title": "背景專長",
           "hint": "Your background grants you the Tyro of the Gauntlet feat."
         },
         "Background Ability Score Improvement": {
-          "hint": "Your background allows you to increase your Strength, Intelligence, and Wisdom scores; increase one of them by 2 and a different one by 1, or increase all three by 1. None of these increases can raise a score above 20.",
-          "title": "Background Ability Score Improvement"
+          "hint": "你的背景讓你能提升力量、智力、感知。選擇其中一項提升 2 點，另一項提升 1 點；或是三項各提升 1 點。這些提升都不能讓該屬性超過20。",
+          "title": "背景屬性值提升"
         },
         "Choose Languages": {
-          "hint": "Your character knows at least three languages: Common plus two languages you roll or choose from the Standard Languages table.",
-          "title": "Choose Languages"
+          "hint": "你的角色至少知曉三種語言，通用語加兩種你從標準語言表中所擲到或所選擇的。",
+          "title": "選擇語言"
         }
       },
-      "name": "Knight of the Gauntlet",
-      "description": "<p><strong>Ability Scores: </strong>Strength, Intelligence, Wisdom</p><p><strong>Feat: </strong>@UUID[Compendium.dnd-heroes-faerun.options.Item.hofTyrooftheGaun]{Tyro of the Gauntlet} (see “@UUID[Compendium.dnd-heroes-faerun.book.JournalEntry.hofFeats00000000]{Feats}” later in this chapter)</p><p><strong>Skill Proficiencies: </strong>Athletics and Medicine</p><p><strong>Tool Proficiency: </strong>Smith’s Tools</p><p><strong>Equipment: </strong><em>Choose A or B: </em>(A) @UUID[Compendium.dnd-players-handbook.equipment.Item.phbwepSpear00000]{Spear}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbtulSmithsTool]{Smith’s Tools}, @UUID[Compendium.dnd-players-handbook.equipment.Item.KZUoiZrigDbovEu7]{Bullseye Lantern}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagHolySymbolV]{Holy Symbol}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagManacles000]{Manacles}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagOil00000000]{Oil} (5 flasks), @UUID[Compendium.dnd-players-handbook.equipment.Item.rIuY5ZDJh6ctfUwG]{Tinderbox}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagClothesTrav]{Traveler’s Clothes}, [[/award 9GP]]; or (B) [[/award 50GP]]</p><p>Not all who answer the call of a higher power are content to pore over scripture in a stuffy temple apse. You chose the path of the holy warrior by joining the Order of the Gauntlet. As a knight of the Gauntlet, you exercise righteous scorn for the forces of evil, unswerving camaraderie for your siblings in arms, and heartfelt compassion for the survivors of war. With weapon and holy symbol in hand, you’ve sworn not to rest until the light of justice has vanquished the shadow of chaos across Faerûn.</p>"
+      "name": "鐵腕騎士",
+      "description": "<p><strong>屬性值：</strong>力量、智力、感知</p><p><strong>專長：</strong>@UUID[Compendium.dnd-heroes-faerun.options.Item.hofTyrooftheGaun]（見本章後面所述「@UUID[Compendium.dnd-heroes-faerun.book.JournalEntry.hofFeats00000000]」）</p><p><strong>技能熟練：</strong>運動與醫藥</p><p><strong>工具熟練：</strong>鐵匠工具</p><p><strong>裝備：</strong><em>選擇 </em>(A) @UUID[Compendium.dnd-players-handbook.equipment.Item.phbwepSpear00000]、@UUID[Compendium.dnd-players-handbook.equipment.Item.phbtulSmithsTool]、@UUID[Compendium.dnd-players-handbook.equipment.Item.KZUoiZrigDbovEu7]、@UUID[Compendium.dnd-players-handbook.equipment.Item.phbagHolySymbolV]、@UUID[Compendium.dnd-players-handbook.equipment.Item.phbagManacles000]、@UUID[Compendium.dnd-players-handbook.equipment.Item.phbagOil00000000]（5瓶）、@UUID[Compendium.dnd-players-handbook.equipment.Item.rIuY5ZDJh6ctfUwG]、@UUID[Compendium.dnd-players-handbook.equipment.Item.phbagClothesTrav]、[[/award 9GP]]或 (B) [[/award 50GP]]</p><p>並非所有回應更加強大力量召喚之人都甘心於待在沉悶的神廟後殿裡面苦苦鑽研經文。你以加入鐵腕教團的方式走上了神聖武者的道路。作為一位鐵腕騎士，你對邪惡力量報以正義的輕蔑，將堅定不移的同志視為攜手並肩的骨肉同胞，並對戰爭的倖存者抱以由衷的憐憫。武器與聖徽在手，你發誓永不停歇，直至正義的光芒驅散費倫大陸上每一片混沌的陰影。</p>"
     },
     "Purple Dragon Rook": {
       "advancement": {
@@ -1734,29 +1734,29 @@
         }
       },
       "name": "Purple Dragon Rook",
-      "description": "<p>You gain the following benefits.</p><p><em><strong>Entreat.</strong></em> You gain proficiency in one of the following skills: Insight, Performance, or Persuasion.</p><p><em><strong>Rallying Cry.</strong></em> When you roll Initiative and don’t have the Incapacitated condition, you can choose a number of creatures equal to your Proficiency Bonus ([[lookup @prof]]{2}) that you can see within 30 feet of yourself. Those creatures gain Heroic Inspiration.</p><p>Once you use this benefit, you can’t do so again until you finish a Long Rest.</p>"
+      "description": "<p>你獲得下列好處。</p><p><em><strong>Entreat.</strong></em> You gain proficiency in one of the following skills: Insight, Performance, or Persuasion.</p><p><em><strong>Rallying Cry.</strong></em> When you roll Initiative and don’t have the Incapacitated condition, you can choose a number of creatures equal to your Proficiency Bonus ([[lookup @prof]]{2}) that you can see within 30 feet of yourself. Those creatures gain Heroic Inspiration.</p><p>Once you use this benefit, you can’t do so again until you finish a Long Rest.</p>"
     },
     "Spellfire Initiate": {
       "advancement": {
         "Background Ability Score Improvement": {
-          "hint": "Your background allows you to increase your Constitution, Intelligence, and Charisma scores; increase one of them by 2 and a different one by 1, or increase all three by 1. None of these increases can raise a score above 20.",
-          "title": "Background Ability Score Improvement"
+          "hint": "你的背景讓你能提升體質、智力、魅力。選擇其中一項提升 2 點，另一項提升 1 點；或是三項各提升 1 點。這些提升都不能讓該屬性超過20。",
+          "title": "背景屬性值提升"
         },
         "Background Feat": {
-          "hint": "Your background grants you the Spellfire Spark feat.",
-          "title": "Background Feat"
+          "hint": "你的背景賦予你咒火火花專長",
+          "title": "背景專長"
         },
         "Background Proficiencies": {
-          "title": "Background Proficiencies",
-          "hint": "Your background grants you proficiency in Arcana and Perception. It also grants you proficiency with one kind of Gaming Set."
+          "title": "背景熟練",
+          "hint": "你的背景賦予你奧秘與察覺的熟練，並讓你熟練一種遊戲套組。"
         },
         "Choose Languages": {
-          "title": "Choose Languages",
-          "hint": "Your character knows at least three languages: Common plus two languages you roll or choose from the Standard Languages table."
+          "title": "選擇語言",
+          "hint": "你的角色至少知曉三種語言，通用語加兩種你從標準語言表中所擲到或所選擇的。"
         }
       },
-      "description": "<p><strong>Ability Scores: </strong>Constitution, Intelligence, Charisma</p><p><strong>Feat: </strong>@UUID[Compendium.dnd-heroes-faerun.options.Item.hofSpellfireSpar]{Spellfire Spark} (see “@UUID[Compendium.dnd-heroes-faerun.book.JournalEntry.hofFeats00000000]{Feats}” later in this chapter)</p><p><strong>Skill Proficiencies: </strong>Arcana and Perception</p><p><strong>Tool Proficiency: </strong><em>Choose one kind of Gaming Set</em></p><p><strong>Equipment: </strong><em>Choose A or B: </em>(A) Gaming Set (same as above), @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagArcaneFocus]{Arcane Focus} (Crystal or Wand), 2 @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagPouch000000]{Pouches}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagClothesTrav]{Traveler’s Clothes}, [[/award 36GP]]; or (B) [[/award 50GP]]</p><p>You bear the gift of spellfire: a rare form of magic that channels the raw power of the Weave. Wielding spellfire takes a heavy toll on the body. You’ve trained both mind and body to efficiently wield this sacred power.</p>",
-      "name": "Spellfire Initiate"
+      "description": "<p><strong>屬性值：</strong>體質、智力、魅力</p><p><strong>專長：</strong>@UUID[Compendium.dnd-heroes-faerun.options.Item.hofSpellfireSpar]（見本章後面所述「@UUID[Compendium.dnd-heroes-faerun.book.JournalEntry.hofFeats00000000]」）</p><p><strong>技能熟練：</strong>奧秘與察覺</p><p><strong>工具熟練：</strong><em>選擇一種遊戲套組</em></p><p><strong>裝備：</strong><em>選擇</em> (A) 遊戲套組（同上所選）、@UUID[Compendium.dnd-players-handbook.equipment.Item.phbagArcaneFocus]（水晶或魔杖）、2個@UUID[Compendium.dnd-players-handbook.equipment.Item.phbagPouch000000]、@UUID[Compendium.dnd-players-handbook.equipment.Item.phbagClothesTrav]、[[/award 36GP]]或 (B) [[/award 50GP]]</p><p>你身上具有咒火的天賦：一種稀有的魔法形式，能夠引導魔網的原始力量。 操縱咒火會對身體造成很重的負擔。 因此你鍛鍊了自己的身心，以此來更有效地操縱這股神聖的力量。</p>",
+      "name": "咒火學徒"
     },
     "Order’s Resilience": {
       "advancement": {
@@ -1778,7 +1778,7 @@
           "description": "<p>If you are within 5 feet of an ally that doesn’t have the Incapacitated condition, you and that ally have Advantage on Strength saving throws. You can’t use this benefit while you have the Incapacitated condition.</p>"
         }
       },
-      "description": "<p>You gain the following benefits.</p><p><em><strong>Ability Score Increase.</strong></em> Increase your Strength, Wisdom, or Charisma score by 1, to a maximum of 20.</p><p><em><strong>Resurge.</strong></em> When you have the Prone condition, you can right yourself with only 5 feet of movement.</p><p><em><strong>Stronger Together.</strong></em> If you are within 5 feet of an ally that doesn’t have the Incapacitated condition, you and that ally have Advantage on Strength saving throws. You can’t use this benefit while you have the Incapacitated condition.</p>"
+      "description": "<p>你獲得下列好處。</p><p><em><strong>Ability Score Increase.</strong></em> Increase your Strength, Wisdom, or Charisma score by 1, to a maximum of 20.</p><p><em><strong>Resurge.</strong></em> When you have the Prone condition, you can right yourself with only 5 feet of movement.</p><p><em><strong>Stronger Together.</strong></em> If you are within 5 feet of an ally that doesn’t have the Incapacitated condition, you and that ally have Advantage on Strength saving throws. You can’t use this benefit while you have the Incapacitated condition.</p>"
     },
     "Emerald Enclave Grove": {
       "description": "<p>Level 9 Bastion Facility</p><p><strong>Prerequisite:</strong> Membership in the Emerald Enclave</p><p><strong>Space:</strong> Vast</p><p><strong>Hirelings:</strong> 2</p><p><strong>Order:</strong> Recruit</p><p>Veteran agents of the Emerald Enclave create safe havens with trees, grass, and flowing water, where magical creatures that embody the power of nature live in peace and safety. The Emerald Enclave Grove can house one Huge creature or two Large creatures; four Small or Medium creatures or eight Tiny creatures can occupy the same space as one Large creature there.</p><p><em><strong>Recruit: Creature of Nature.</strong></em> When you issue the Recruit order to this facility, you invite a creature from the Emerald Enclave Grove Creatures table to your Emerald Enclave Grove. Roll any [[/r 1d2]]{die}. If the number rolled is odd, the creature doesn’t accept your invitation and you gain no benefit from having issued the order. If the number rolled is even, a creature accepts your invitation and moves into your Emerald Enclave Grove after 7 days. Your hirelings care for the creature and perform upkeep in the facility.</p><p>Creatures in your Emerald Enclave Grove count as Bastion Defenders. Deduct any you lose from your Bastion Defenders roster. You can choose not to count one or more of these creatures as Bastion Defenders, in which case they can’t be called on to defend the Bastion. Instead, they act in accordance with their nature and use their stat blocks in the <em>Monster Manual</em>.</p><table><caption>Emerald Enclave Grove Creatures</caption><thead><tr><th scope=\"col\"><p>Creature</p></th><th scope=\"col\"><p>Size</p></th></tr></thead><tbody><tr><td><p>@UUID[Compendium.dnd-monster-manual.actors.Actor.mmAwakenedShrub0]{Awakened Shrub}</p></td><td><p>Small</p></td></tr><tr><td><p>@UUID[Compendium.dnd-monster-manual.actors.Actor.mmAwakenedTree00]{Awakened Tree}</p></td><td><p>Huge</p></td></tr><tr><td><p>@UUID[Compendium.dnd-monster-manual.actors.Actor.mmBlinkDog000000]{Blink Dog}</p></td><td><p>Medium</p></td></tr><tr><td><p>@UUID[Compendium.dnd-monster-manual.actors.Actor.mmCentaurTrooper]{Centaur Trooper}</p></td><td><p>Large</p></td></tr><tr><td><p>@UUID[Compendium.dnd-monster-manual.actors.Actor.mmDryad000000000]{Dryad}</p></td><td><p>Medium</p></td></tr><tr><td><p>@UUID[Compendium.dnd-monster-manual.actors.Actor.mmMyconidAdult00]{Myconid Adult}</p></td><td><p>Medium</p></td></tr><tr><td><p>@UUID[Compendium.dnd-monster-manual.actors.Actor.mmMyconidSprout0]{Myconid Sprout}</p></td><td><p>Small</p></td></tr><tr><td><p>@UUID[Compendium.dnd-monster-manual.actors.Actor.mmPixie000000000]{Pixie}</p></td><td><p>Tiny</p></td></tr><tr><td><p>@UUID[Compendium.dnd-monster-manual.actors.Actor.mmSatyr000000000]{Satyr}</p></td><td><p>Medium</p></td></tr><tr><td><p>@UUID[Compendium.dnd-monster-manual.actors.Actor.mmSprite00000000]{Sprite}</p></td><td><p>Tiny</p></td></tr><tr><td><p>@UUID[Compendium.dnd-monster-manual.actors.Actor.mmTreant00000000]{Treant}</p></td><td><p>Large</p></td></tr><tr><td><p>@UUID[Compendium.dnd-monster-manual.actors.Actor.mmUnicorn0000000]{Unicorn}</p></td><td><p>Large</p></td></tr></tbody></table>",
@@ -1821,7 +1821,7 @@
         }
       },
       "name": "Boon of Bloodshed",
-      "description": "<p>You gain the following benefits.</p><p><em><strong>Ability Score Increase.</strong></em> Increase one ability score of your choice by 1, to a maximum of 30.</p><p><em><strong>Killer’s Fortune.</strong></em> When an enemy you can see is reduced to 0 Hit Points, you gain Advantage on the next attack roll you make before the end of your next turn.</p><p><em><strong>Power from Pain. </strong></em>Once per turn, when you make an attack roll while Bloodied, you can deal extra damage to the target equal to your Proficiency Bonus. The extra damage’s type is the same as the attack’s type.</p><section class=\"secret\" id=\"secret-WvuADIcjQEUm317J\"><p><strong>Foundry Note</strong></p><p>This feature includes a \"Killer's Fortune\" <strong>Active Effect (AE)</strong> that can be used as a reminder but does not automate the attack Advantage. Additionally, the \"Power from Pain\" <strong>AE</strong> grants an attack roll damage bonus only when bloodied and should be disabled after its first use per turn.</p></section>"
+      "description": "<p>你獲得下列好處。</p><p><em><strong>Ability Score Increase.</strong></em> Increase one ability score of your choice by 1, to a maximum of 30.</p><p><em><strong>Killer’s Fortune.</strong></em> When an enemy you can see is reduced to 0 Hit Points, you gain Advantage on the next attack roll you make before the end of your next turn.</p><p><em><strong>Power from Pain. </strong></em>Once per turn, when you make an attack roll while Bloodied, you can deal extra damage to the target equal to your Proficiency Bonus. The extra damage’s type is the same as the attack’s type.</p><section class=\"secret\" id=\"secret-WvuADIcjQEUm317J\"><p><strong>Foundry Note</strong></p><p>This feature includes a \"Killer's Fortune\" <strong>Active Effect (AE)</strong> that can be used as a reminder but does not automate the attack Advantage. Additionally, the \"Power from Pain\" <strong>AE</strong> grants an attack roll damage bonus only when bloodied and should be disabled after its first use per turn.</p></section>"
     },
     "Absorb Spells": {
       "activities": {
@@ -1877,7 +1877,7 @@
           "roll": "Roll Largest Hit Dice"
         }
       },
-      "description": "<p>You gain the following benefits.</p><p><em><strong>Ability Score Increase.</strong></em> Increase your Intelligence, Wisdom, or Charisma score by 1, to a maximum of 20.</p><p><em><strong>Fueled Spellfire.</strong></em> Once per turn, when a spell you cast deals Radiant damage, you can expend up to two Hit Point Dice, roll them, and add the total rolled to one damage roll of the spell.</p><p><em><strong>Searing Spellfire.</strong></em> When you make a damage roll that deals Radiant damage, it ignores Resistance to Radiant damage.</p>"
+      "description": "<p>你獲得下列好處。</p><p><em><strong>Ability Score Increase.</strong></em> Increase your Intelligence, Wisdom, or Charisma score by 1, to a maximum of 20.</p><p><em><strong>Fueled Spellfire.</strong></em> Once per turn, when a spell you cast deals Radiant damage, you can expend up to two Hit Point Dice, roll them, and add the total rolled to one damage roll of the spell.</p><p><em><strong>Searing Spellfire.</strong></em> When you make a damage roll that deals Radiant damage, it ignores Resistance to Radiant damage.</p>"
     },
     "Alustriel’s Mooncloak": {
       "activities": {
@@ -1959,7 +1959,7 @@
           "hint": "Your feat allows you to increase your Strength or Dexterity score by 1, to a maximum of 20."
         }
       },
-      "description": "<p>You gain the following benefits.</p><p><em><strong>Ability Score Increase.</strong></em> Increase your Strength or Dexterity score by 1, to a maximum of 20.</p><p><em><strong>Encourage Ally.</strong></em> As a Bonus Action, you bolster one ally you can see within 30 feet. The ally gains Temporary Hit Points equal to 2d6 plus the modifier of the ability score increased by this feat. You can take this Bonus Action a number of times equal to your Proficiency Bonus, and you regain all uses when you finish a Long Rest.</p><p><em><strong>Last Stand.</strong></em> You have Advantage on attack rolls while Bloodied.</p>",
+      "description": "<p>你獲得下列好處。</p><p><em><strong>Ability Score Increase.</strong></em> Increase your Strength or Dexterity score by 1, to a maximum of 20.</p><p><em><strong>Encourage Ally.</strong></em> As a Bonus Action, you bolster one ally you can see within 30 feet. The ally gains Temporary Hit Points equal to 2d6 plus the modifier of the ability score increased by this feat. You can take this Bonus Action a number of times equal to your Proficiency Bonus, and you regain all uses when you finish a Long Rest.</p><p><em><strong>Last Stand.</strong></em> You have Advantage on attack rolls while Bloodied.</p>",
       "name": "Purple Dragon Commandant"
     },
     "Spellfire Burst": {
@@ -1977,24 +1977,24 @@
     "Zhentarim Mercenary": {
       "advancement": {
         "Background Proficiencies": {
-          "title": "Background Proficiencies",
-          "hint": "Your background grants you proficiency in Intimidation and Perception. It also grants you proficiency with Forgery Kit's."
+          "title": "背景熟練",
+          "hint": "你的背景賦予你威嚇與察覺的熟練，並讓你熟練偽造工具組。"
         },
         "Choose Languages": {
-          "title": "Choose Languages",
-          "hint": "Your character knows at least three languages: Common plus two languages you roll or choose from the Standard Languages table."
+          "title": "選擇語言",
+          "hint": "你的角色至少知曉三種語言，通用語加兩種你從標準語言表中所擲到或所選擇的。"
         },
         "Background Feat": {
-          "hint": "Your background grants you the Zhentarim Ruffian feat.",
-          "title": "Background Feat"
+          "hint": "你的背景賦予你散塔林暴徒專長。",
+          "title": "背景專長"
         },
         "Background Ability Score Improvement": {
-          "title": "Background Ability Score Improvement",
-          "hint": "Your background allows you to increase your Strength, Dexterity, and Charisma scores; increase one of them by 2 and a different one by 1, or increase all three by 1. None of these increases can raise a score above 20."
+          "title": "背景屬性值提升",
+          "hint": "你的背景讓你能提升力量、敏捷、魅力。選擇其中一項提升 2 點，另一項提升 1 點；或是三項各提升 1 點。這些提升都不能讓該屬性超過20。"
         }
       },
-      "name": "Zhentarim Mercenary",
-      "description": "<p><strong>Ability Scores: </strong>Strength, Dexterity, Charisma</p><p><strong>Feat: </strong>@UUID[Compendium.dnd-heroes-faerun.options.Item.hofZhentarimRuff]{Zhentarim Ruffian} (see “@UUID[Compendium.dnd-heroes-faerun.book.JournalEntry.hofFeats00000000]{Feats}” later in this chapter)</p><p><strong>Skill Proficiencies: </strong>Intimidation and Perception</p><p><strong>Tool Proficiency: </strong>Forgery Kit</p><p><strong>Equipment: </strong><em>Choose A or B: </em>(A) @UUID[Compendium.dnd-players-handbook.equipment.Item.phbwepClub000000]{Club}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbwepDagger0000]{Dagger}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbtulForgeryKit]{Forgery Kit}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagClothesFine]{Fine Clothes}, @UUID[Compendium.dnd-players-handbook.equipment.Item.DKYzehYrMUKiFDxt]{Hooded Lantern}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagOil00000000]{Oil} (3 flasks), 2 @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagPouch000000]{Pouches}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagString00000]{String}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagTinderbox00]{Tinderbox}, [[/award 11GP]]; or (B) [[/award 50GP]]</p><p>Maybe you needed the money. Maybe you longed for a family, no matter how dubious. Or maybe you’re just good at getting the job done by any means necessary. Whatever your reason, you enlisted with the Zhentarim, the most notorious mercenary guild in the Realms. Though the Zhentarim’s leaders insist the organization is more like a family than a shadowy syndicate, few families exhibit as much dishonesty, nepotism, and corruption as this one. You’ve honed your cunning, reflexes, and blade to climb the guild’s ranks.</p>"
+      "name": "散塔林傭兵",
+      "description": "<p><strong>屬性值：</strong>力量、敏捷、魅力</p><p><strong>專長：</strong>@UUID[Compendium.dnd-heroes-faerun.options.Item.hofZhentarimRuff]（見本章後面所述「@UUID[Compendium.dnd-heroes-faerun.book.JournalEntry.hofFeats00000000]」）</p><p><strong>技能熟練：</strong>威嚇與察覺</p><p><strong>工具熟練：</strong>偽造工具組</p><p><strong>裝備：</strong><em>選擇 </em>(A) @UUID[Compendium.dnd-players-handbook.equipment.Item.phbwepClub000000]、@UUID[Compendium.dnd-players-handbook.equipment.Item.phbwepDagger0000]、@UUID[Compendium.dnd-players-handbook.equipment.Item.phbtulForgeryKit]、@UUID[Compendium.dnd-players-handbook.equipment.Item.phbagClothesFine]、@UUID[Compendium.dnd-players-handbook.equipment.Item.DKYzehYrMUKiFDxt]、@UUID[Compendium.dnd-players-handbook.equipment.Item.phbagOil00000000]（3瓶）、2個@UUID[Compendium.dnd-players-handbook.equipment.Item.phbagPouch000000]、@UUID[Compendium.dnd-players-handbook.equipment.Item.phbagString00000]、@UUID[Compendium.dnd-players-handbook.equipment.Item.phbagTinderbox00]、[[/award 11GP]]或 (B) [[/award 50GP]]</p><p>或許是你需要錢。 或許是你渴望加入某個大家庭，無論它有多麼可疑。 又或許你只是擅長為達成目的而不擇手段。 無論理由如何，總之你加入了散塔林會，這個整個國度最為惡名昭彰的傭兵協會。 雖然散塔林會的領袖宣稱該組織比起幕後財團更像是一個大家庭，但很少會有家庭展現出像這個家庭一樣這麼多的爾虞我詐、任人唯親、貪汙腐敗現象。 你磨礪著自己的狡詐與反應能力，並矢志於提升在協會內的地位。</p>"
     },
     "Emerald Enclave Fledgling": {
       "name": "Emerald Enclave Fledgling",
@@ -2004,7 +2004,7 @@
           "hint": "You always have the Speak with Animals spell prepared and can cast it with any spell slots you have. Intelligence, Wisdom, or Charisma is your spellcasting ability for this spell (choose when you select this feat). When you cast this spell as a Ritual, its duration is 8 hours."
         }
       },
-      "description": "<p>You gain the following benefits.</p><p><em><strong>Speak with Animals.</strong></em> You always have the <em>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplSpeakwithA]{Speak with Animals} </em>spell prepared and can cast it with any spell slots you have. Intelligence, Wisdom, or Charisma is your spellcasting ability for this spell (choose when you select this feat). When you cast this spell as a Ritual, its duration is 8 hours.</p><p><em><strong>Tag Team.</strong></em> When you take the &amp;Reference[Help] action, you can switch places with a willing ally within 5 feet of yourself as part of that same action. This movement doesn’t provoke &amp;Reference[Opportunity Attacks]. You can’t use this benefit if the ally has the Incapacitated condition.</p>"
+      "description": "<p>你獲得下列好處。</p><p><em><strong>Speak with Animals.</strong></em> You always have the <em>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplSpeakwithA]{Speak with Animals} </em>spell prepared and can cast it with any spell slots you have. Intelligence, Wisdom, or Charisma is your spellcasting ability for this spell (choose when you select this feat). When you cast this spell as a Ritual, its duration is 8 hours.</p><p><em><strong>Tag Team.</strong></em> When you take the &amp;Reference[Help] action, you can switch places with a willing ally within 5 feet of yourself as part of that same action. This movement doesn’t provoke &amp;Reference[Opportunity Attacks]. You can’t use this benefit if the ally has the Incapacitated condition.</p>"
     },
     "Boon of Communication": {
       "advancement": {
@@ -2014,7 +2014,7 @@
         }
       },
       "name": "Boon of Communication",
-      "description": "<p><em>Epic Boon Feat (Prerequisite: Level 19+)</em></p><p>You gain the following benefits.</p><p><em><strong>Ability Score Increase.</strong></em> Increase your Intelligence, Wisdom, or Charisma score by 1, to a maximum of 30.</p><p><em><strong>Cunning Speaker.</strong></em> You don’t have Disadvantage on ability checks to influence Hostile creatures.</p><p><em><strong>Gifted Interpreter.</strong></em> You understand the literal meaning of any language you hear or see signed, and you can understand the literal meaning of any written language you see.</p><p><em><strong>Mental Communication.</strong></em> You gain telepathy with a range of 120 feet.</p>",
+      "description": "<p><em>Epic Boon Feat (Prerequisite: Level 19+)</em></p><p>你獲得下列好處。</p><p><em><strong>Ability Score Increase.</strong></em> Increase your Intelligence, Wisdom, or Charisma score by 1, to a maximum of 30.</p><p><em><strong>Cunning Speaker.</strong></em> You don’t have Disadvantage on ability checks to influence Hostile creatures.</p><p><em><strong>Gifted Interpreter.</strong></em> You understand the literal meaning of any language you hear or see signed, and you can understand the literal meaning of any written language you see.</p><p><em><strong>Mental Communication.</strong></em> You gain telepathy with a range of 120 feet.</p>",
       "effects": {
         "Mental Communication": {
           "name": "Mental Communication",
@@ -2023,12 +2023,12 @@
       }
     },
     "Harper Agent": {
-      "name": "Harper Agent",
-      "description": "<p>You gain the following benefits.</p><p><em><strong>Thieves’ Cant.</strong></em> You know Thieves’ Cant.</p><p><em><strong>Instrument Training.</strong></em> You gain proficiency with a Musical Instrument of your choice.</p><p><em><strong>Distracting Melody.</strong></em> When you take the &amp;Reference[Help] action to assist an ally’s attack roll, the enemy you’re distracting can be within 30 feet of you, rather than within 5 feet of you, provided the enemy can see or hear you.</p>",
+      "name": "豎琴手特工",
+      "description": "<p>你獲得下列好處。</p><p><em><strong>盜賊黑話　</strong></em>你知曉盜賊黑話。</p><p><em><strong>樂器訓練　</strong></em>你獲得一項你所選擇樂器的熟練。</p><p><em><strong>分神旋律　</strong></em>當你採取&amp;Reference[Help]動作輔助盟友的攻擊檢定時，你可以分散位於你30呎內且非處於你5呎內敵人的注意力，只要該敵人能看見或聽見你。</p>",
       "advancement": {
         "Trait Language & Musical Instrument Proficiency": {
-          "title": "Trait Language & Musical Instrument Proficiency",
-          "hint": "You trait grants you the Thieves’ Cant language and gain proficiency with a Musical Instrument of your choice."
+          "title": "特性語言＆樂器熟練",
+          "hint": "你的特性賦予你盜賊黑話，並讓你獲得一項你所選擇的樂器熟練。"
         }
       }
     },
@@ -2172,7 +2172,7 @@
       }
     },
     "Zhentarim Ruffian": {
-      "description": "<p>You gain the following benefits.</p><p><em><strong>Exploit Opening.</strong></em> When you roll damage for an &amp;Reference[Opportunity Attacks]{Opportunity Attack}, you can roll the damage dice twice and use either roll against the target.</p><p><em><strong>Family First.</strong></em> If you have Heroic Inspiration when you roll Initiative, you can expend it to give yourself and your allies Advantage on that Initiative roll.</p>",
+      "description": "<p>你獲得下列好處。</p><p><em><strong>Exploit Opening.</strong></em> When you roll damage for an &amp;Reference[Opportunity Attacks]{Opportunity Attack}, you can roll the damage dice twice and use either roll against the target.</p><p><em><strong>Family First.</strong></em> If you have Heroic Inspiration when you roll Initiative, you can expend it to give yourself and your allies Advantage on that Initiative roll.</p>",
       "name": "Zhentarim Ruffian"
     },
     "Spellfire Storm": {
