@@ -41,5 +41,6 @@
       }
     ]
   },
-  "flags": {}
+  "manifest": "https://raw.githubusercontent.com/Im-Kinuko/dnd-contents-zh-tw/refs/heads/main/module.json",
+  "download": "https://github.com/Im-Kinuko/dnd-contents-zh-tw/archive/refs/heads/main.zip",
 }
