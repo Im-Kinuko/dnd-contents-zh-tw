@@ -8,5 +8,21 @@
     "Reincarnated Lineages": "Reincarnated Lineages",
     "Chapter 2": "Chapter 2"
   },
-  "entries": {}
+  "entries": {
+    "Elven Lineage": {
+      "description": "<p>你屬於一支賦予你超自然能力的血系。從精靈血系表選擇一支血系，你將獲得血系等級1的好處。</p><p>當你的角色等級達到3與5級時，你將習得一個更高環位的法術，如表上所示。你始終準備這些法術，你可以在不消耗法術位的情況下施放這些法術各一次，並在你完成一次長休時重獲以該方式施法的能力。你也可以使用相應環階的法術位來施放這些法術。智力、感知或魅力是你以此特性施放法術的施法屬性（當你選擇血系時由你所選擇的屬性）</p><table><caption>Elven Lineages</caption><thead><tr><td><p>Lineage</p></td><td><p>等級1</p></td><td><p>等級3</p></td><td><p>等級5</p></td></tr></thead><tbody><tr><td><p>@UUID[Compendium.dnd-players-handbook.origins.Item.phbsptDrowElfLin]{卓爾}</p></td><td><p>你的黑暗視覺範圍提升到120呎。你也知曉@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplDancingLig]戲法。</p></td><td><p>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplFaerieFire]</p></td><td><p>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplDarkness00]</p></td></tr><tr><td><p>@UUID[Compendium.dnd-players-handbook.origins.Item.phbsptHighElfLin]{高等精靈}</p></td><td><p>你知曉@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplPrestidigi]戲法。每當你完成一次長休時，你可以從 @UUID[Compendium.dnd-players-handbook.content.JournalEntry.phbSpells0000000.JournalEntryPage.6AnqLUowgdsqMFvz]{法師法術列表}替換一種不同的戲法。</p></td><td><p>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplDetectMagi]</p></td><td><p>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplMistyStep0]</p></td></tr><tr><td><p>@UUID[Compendium.dnd-players-handbook.origins.Item.phbsptWoodElfLin]{木精靈}</p></td><td><p>你的速度提升到35呎你也知曉@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplDruidcraft]戲法</p></td><td><p>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplLongstride]</p></td><td><p>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplPasswithou]</p></td></tr></tbody></table><section class=\"secret\" id=\"secret-9CEnkbCgcLTJ03JL\"><p><strong>Foundry備註</strong></p><p>當你選擇該種族並隨著等級提升時，會自動獲得相關的特性與法術。</p></section>",
+      "name": "精靈血系"
+    },
+    "Fiendish Legacy": {
+      "name": "邪魔遺贈"
+    },
+    "Gnomish Lineage": {
+      "name": "侏儒血系",
+      "description": "<p>你屬於一支賦予你超自然能力的血系。無論你選擇哪一血系，智力、感知或魅力是你以此特性施放法術的施法屬性（當你選擇血系時選擇屬性）。</p><p><strong>@UUID[Compendium.dnd-players-handbook.origins.Item.phbspForestGnome]{森林侏儒}</strong></p><p>@Embed[Compendium.dnd-players-handbook.origins.Item.phbsptForestGnom secrets=false inline]{森林侏儒血系}</p><p><strong>@UUID[Compendium.dnd-players-handbook.origins.Item.phbspRockGnome00]{岩侏儒}</strong> @Embed[Compendium.dnd-players-handbook.origins.Item.phbsptRockGnomeL inline]{岩侏儒血系}</p>"
+    },
+    "Wild Magic Surge": {
+      "name": "狂野魔法浪湧",
+      "description": "<p>你的施法可以釋放出未經馴服的魔法浪湧。一回合一次，緊接在你以法術位施放一個術士法術骰一顆d20。若你骰出20，則在狂野魔法浪湧表上擲骰，以確定將創造的魔法效果。</p><p>若狂野魔法效果為一個法術，則它太過狂野以至於它無法被超魔法影響。</p><p>@Embed[Compendium.dnd-players-handbook.tables.RollTable.phbWildMagicSurg rollable caption=false classes=\"wild-magic-surge\"]</p>"
+    }
+  }
 }

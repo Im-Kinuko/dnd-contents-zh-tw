@@ -23,5 +23,69 @@
     "Hell Ship": "Hell Ship",
     "Safe House Standoff": "Safe House Standoff"
   },
-  "entries": {}
+  "entries": {
+    "Brazier of Commanding Fire Elementals": {
+      "name": "命令火元素火盆",
+      "description": "<div><p><em>奇物，珍稀</em></p></div><p>While you are within 5 feet of this brazier, you can take a Magic action to summon a <strong>@UUID[Compendium.dnd-dungeon-masters-guide.actors.Actor.8SMQl75HLjhuSeau]{Fire Elemental}</strong>. The elemental appears in an unoccupied space as close to the brazier as possible, understands your languages, obeys your commands, and takes its turn immediately after you on your Initiative count. The elemental disappears after 1 hour, when it dies, or when you dismiss it as a Bonus Action. The brazier can’t be used this way again until the next dawn.</p>"
+    },
+    "Clockwork Amulet": {
+      "activities": {
+        "Forgo Roll": {
+          "condition": "you make an attack roll while wearing the amulet",
+          "roll": "d20 Result",
+          "name": "Forgo Roll"
+        }
+      },
+      "name": "Clockwork Amulet",
+      "description": "<div><p><em>奇物，普通</em></p></div><blockquote><p>This copper amulet contains tiny interlocking gears and is powered by magic from Mechanus, a plane of clockwork predictability. Faint ticking and whirring noises emanate from within.</p></blockquote><p>When you make an attack roll while wearing the amulet, you can forgo rolling the d20 to get a 10 on the die. Once used, this property can’t be used again until the next dawn.</p>"
+    },
+    "Enduring Spellbook": {
+      "description": "<div><p><em>奇物，普通</em></p></div><p>This spellbook, along with anything written on its pages, can’t be damaged by fire or water. In addition, the spellbook doesn’t deteriorate with age.</p>",
+      "name": "Enduring Spellbook"
+    },
+    "Mariner's Armor": {
+      "activities": {
+        "Underwater Recovery": {
+          "name": "Underwater Recovery",
+          "condition": "you start your turn underwater with 0 Hit Points"
+        },
+        "Mariner's Armor": {
+          "name": "Mariner's Armor"
+        }
+      },
+      "effects": {
+        "Movement: Swim Speed": {
+          "name": "Movement: Swim Speed",
+          "description": "<p>While wearing this armor, you have a Swim Speed equal to your Speed.</p>"
+        },
+        "Mariner's Armor": {
+          "changes": {
+            "system.description.value": "{}<p>@Embed[Compendium.dnd-dungeon-masters-guide.equipment.Item.dmgMarinersArmor caption=false]</p>",
+            "name": "Mariner's {}"
+          },
+          "name": "Mariner's Armor"
+        }
+      },
+      "description": "<p><em>護甲（任意輕甲、中甲或重甲），非普通</em></p><p>While wearing this armor, you have a Swim Speed equal to your Speed. In addition, if you start your turn underwater with 0 Hit Points, you immediately regain 1d4 Hit Points. The armor can’t heal anyone again until the next dawn.</p><p>The armor is decorated with fish and shell motifs.</p><p>@Embed[Compendium.dnd-dungeon-masters-guide.content.JournalEntry.dmgFoundryRefere.JournalEntryPage.Ok4iCgD25ENgoRxE cite=false caption=false classes=\"hide-in-embed\"]</p>",
+      "name": "Mariner's Armor"
+    },
+    "Perfume of Bewitching": {
+      "description": "<p><em>奇物，普通</em></p><p>This tiny vial contains magic perfume, enough for one use. You can take a Magic action to apply the perfume to yourself, and its effect lasts 1 hour. For the duration, you have Advantage on all Charisma (Deception and Persuasion) checks made to influence a creature within 5 feet of yourself.</p><section id=\"secret-csXfXvBZjs3cCGRi\" class=\"secret\"><p><strong>Foundry Note</strong></p><p>The <strong>Bewitching Scent</strong> Active Effect can be used for tracking but does not automate the effects.</p></section>",
+      "activities": {
+        "Apply Perfume": {
+          "name": "Apply Perfume"
+        }
+      },
+      "effects": {
+        "Bewitching Scent": {
+          "name": "Bewitching Scent"
+        }
+      },
+      "name": "Perfume of Bewitching"
+    },
+    "Ring of Three Wishes": {
+      "name": "三願戒指",
+      "description": "<p><em>Ring, Legendary</em></p><p>While wearing this ring, you can expend 1 of its 3 charges to cast @UUID[Compendium.dnd-players-handbook.spells.Item.phbsplWish000000]{Wish} from it. The ring becomes nonmagical when you use the last charge.</p>"
+    }
+  }
 }

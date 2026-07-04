@@ -105,10 +105,21 @@
         },
         "Breath Weapon (Line)": {
           "name": "噴吐武器（線性）"
+        },
+        "Exhale Cone": {
+          "name": "Exhale Cone"
+        },
+        "Exhale Line": {
+          "name": "Exhale Line"
         }
       },
       "description": "<p>當你在自己回合採取攻擊動作時，你可以呼出魔法能量來替代其中一次攻擊，15呎錐形範圍或長30呎寬5呎的直線範圍（每次使用時選擇）。該區域內的每個生物必須進行敏捷豁免檢定（DC = 8 + 你的熟練加值 + 你的體質調整值）。豁免失敗的生物承受1d10被你的龍族血統特性所決定類型的傷害。豁免成功的生物僅承受一半傷害。此傷害在角色到達 5 級時增加到 2d10，11 級為 3d10，17 級為 4d10。你可以使用此噴吐武器的次數等同於你的熟練加值，並在你完成長休時重獲所有已消耗的使用次數。</p><section class=\"secret\" id=\"secret-iuhfGfxgl8GeYWBf\"><p><strong>Foundry Note</strong></p><p>The <strong>Breath Weapon (Cone)</strong> and <strong>Breath Weapon (Line)</strong> activities are both configured for their template type and include each type of damage. The damage also scales as you level up.</p><p>You can select the damage type in the damage roll's dialog box. It will remember your damage choice afterwards. You can edit the activities to remove the other damage types to skip this.</p></section>",
-      "name": "噴吐武器"
+      "name": "噴吐武器",
+      "advancement": {
+        "Breath Weapon Damage": {
+          "title": "Breath Weapon Damage"
+        }
+      }
     },
     "Otherworldly Presence": {
       "description": "<p>你知曉@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplThaumaturg]{奇術}戲法。當你以此特性施放時，該法術使用的施法屬性與你所使用的邪魔遺贈特性相同。</p><section id=\"secret-i3PjM9HLuO2Xcae7\" class=\"secret\"><p><strong>Foundry Note</strong></p><p>When you're granted this spell it will allow you to choose your spellcasting ability.</p></section>",
@@ -419,7 +430,13 @@
     },
     "Gnomish Cunning": {
       "description": "<p>你在智力、感知、魅力的豁免檢定中具有優勢。</p>",
-      "name": "侏儒狡黠"
+      "name": "侏儒狡黠",
+      "effects": {
+        "Gnomish Cunning": {
+          "description": "<p>You have Advantage on Intelligence, Wisdom, and Charisma saving throws.</p>",
+          "name": "Gnomish Cunning"
+        }
+      }
     },
     "Large Form": {
       "activities": {
@@ -430,7 +447,8 @@
       "description": "<p>角色等級達到5級時，若你在足夠大的空間，你可以用附贈動作將你的體型變為大型。此變身持續10分鐘或直到你主動結束（無須動作）。在持續時間內，你在力量檢定上具有優勢，並且你的速度提升10呎。一旦你使用此特性，直到完成一次長休前，你無法再次使用。</p><section class=\"secret\" id=\"secret-MnS2QCGjgh6nXxEa\"><p><strong>Foundry Note</strong></p><p>This feature includes an Active Effect which automatically increases your walking Speed but does not automate the Advantage.</p></section>",
       "effects": {
         "Large Form": {
-          "name": "巨化形體"
+          "name": "巨化形體",
+          "description": "<p>For the duration, you have Advantage on Strength checks, and your Speed increases by 10 feet. Once you use this trait, you can’t use it again until you finish a Long Rest.</p>"
         }
       },
       "name": "巨化形體"
@@ -557,7 +575,8 @@
       "description": "<p>作為一個附贈動作，你魔法般地傳送到最多30呎一處你所能看見且未被占據的空間。</p>",
       "activities": {
         "Cloud's Jaunt": {
-          "name": "雲步穿行"
+          "name": "雲步穿行",
+          "target": "Unoccupied space"
         }
       }
     },
@@ -941,7 +960,12 @@
     },
     "Halfling Nimbleness": {
       "name": "半身人靈巧",
-      "description": "<p>你可以穿過任何體型比你大的生物所在的空間，但你無法在同一空間停留。</p>"
+      "description": "<p>你可以穿過任何體型比你大的生物所在的空間，但你無法在同一空間停留。</p>",
+      "effects": {
+        "Halfling Nimbleness": {
+          "name": "Halfling Nimbleness"
+        }
+      }
     },
     "Resourceful": {
       "name": "足智多謀",
@@ -975,11 +999,97 @@
       "description": "<p>你獲得一樣你所選擇的@UUID[Compendium.dnd-players-handbook.content.JournalEntry.phbFeats00000000.JournalEntryPage.otAeQs0TLHYIBNuj]{起源專長}，推薦選擇@UUID[Compendium.dnd-players-handbook.feats.Item.phbftSkilled0000]。</p><section id=\"secret-9E1yve6WHohyBage\" class=\"secret\"><p><strong>Foundry Note</strong></p><p>You will be prompted for your choice when you select this Species.</p></section>"
     },
     "Fiendish Legacy": {
-      "name": "邪魔遺贈"
+      "name": "邪魔遺贈",
+      "description": "<p>You are the recipient of a legacy that grants you supernatural abilities. Choose a legacy from the Fiendish Legacies table. You gain the level 1 benefit of the chosen legacy.</p><p>When you reach character levels 3 and 5, you learn a higher-level spell, as shown on the table. You always have that spell prepared. You can cast it once without a spell slot, and you regain the ability to cast it in that way when you finish a Long Rest. You can also cast the spell using any spell slots you have of the appropriate level. Intelligence, Wisdom, or Charisma is your spellcasting ability for the spells you cast with this trait (choose the ability when you select the legacy).</p><p></p><table><caption>Fiendish Legacies</caption><thead><tr><td><p>Lineage</p></td><td><p>Level 1</p></td><td><p>Level 3</p></td><td><p>Level 5</p></td></tr></thead><tbody><tr><td><p>@UUID[Compendium.dnd-players-handbook.origins.Item.phbsptAbyssalLeg]{Abyssal}</p></td><td>You have Resistance to Poison damage.You also know the @UUID[Compendium.dnd-players-handbook.spells.Item.phbsplPoisonSpra]{Poison Spray} cantrip.</td><td>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplRayofSickn]{Ray of Sickness}</td><td>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplHoldPerson]{Hold Person}</td></tr><tr><td><p>@UUID[Compendium.dnd-players-handbook.origins.Item.phbsptChthonicLe]{Chthonic}</p></td><td>You have Resistance to Necrotic damage.You also know the @UUID[Compendium.dnd-players-handbook.spells.Item.phbsplChillTouch]{Chill Touch} cantrip.</td><td>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplFalseLife0]{False Life}</td><td>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplRayofEnfee]{Ray of Enfeeblement}</td></tr><tr><td><p>@UUID[Compendium.dnd-players-handbook.origins.Item.phbsptInfernalLe]{Infernal}</p></td><td>You have Resistance to Fire damage.You also know the @UUID[Compendium.dnd-players-handbook.spells.Item.phbsplFireBolt00]{Fire Bolt} cantrip.</td><td>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplHellishReb]{Hellish Rebuke}</td><td>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplDarkness00]{Darkness}</td></tr></tbody></table>"
     },
     "Trance": {
       "name": "傳思",
       "description": "<p>你不需要睡眠，並且魔法無法讓你入睡。你可以維持4個小時的傳思冥想以完成長休，過程中你能保持意識清醒。</p>"
+    },
+    "Poison Breath Weapon": {
+      "activities": {
+        "Exhale Line": {
+          "name": "Exhale Line"
+        },
+        "Exhale Cone": {
+          "name": "Exhale Cone"
+        }
+      },
+      "advancement": {
+        "Breath Weapon Damage": {
+          "title": "Breath Weapon Damage"
+        }
+      },
+      "name": "Poison Breath Weapon",
+      "description": "<p>When you take the Attack action on your turn, you can replace one of your attacks with an exhalation of magical energy in either a 15-foot Cone or a 30-foot Line that is 5 feet wide (choose the shape each time).</p><p>Each creature in that area must make a Dexterity saving throw (DC 8 plus your Constitution modifier and Proficiency Bonus). On a failed save, a creature takes 1d10 damage of the type determined by your Draconic Ancestry trait. On a successful save, a creature takes half as much damage.</p><p>This damage increases by 1d10 when you reach character levels 5 (2d10), 11 (3d10), and 17 (4d10).You can use this Breath Weapon a number of times equal to your Proficiency Bonus, and you regain all expended uses when you finish a Long Rest.</p>"
+    },
+    "Acid Breath Weapon": {
+      "activities": {
+        "Exhale Cone": {
+          "name": "Exhale Cone"
+        },
+        "Exhale Line": {
+          "name": "Exhale Line"
+        }
+      },
+      "advancement": {
+        "Breath Weapon Damage": {
+          "title": "Breath Weapon Damage"
+        }
+      },
+      "name": "Acid Breath Weapon",
+      "description": "<p>When you take the Attack action on your turn, you can replace one of your attacks with an exhalation of magical energy in either a 15-foot Cone or a 30-foot Line that is 5 feet wide (choose the shape each time).</p><p>Each creature in that area must make a Dexterity saving throw (DC 8 plus your Constitution modifier and Proficiency Bonus). On a failed save, a creature takes 1d10 damage of the type determined by your Draconic Ancestry trait. On a successful save, a creature takes half as much damage.</p><p>This damage increases by 1d10 when you reach character levels 5 (2d10), 11 (3d10), and 17 (4d10).You can use this Breath Weapon a number of times equal to your Proficiency Bonus, and you regain all expended uses when you finish a Long Rest.</p>"
+    },
+    "Cold Breath Weapon": {
+      "name": "Cold Breath Weapon",
+      "description": "<p>When you take the Attack action on your turn, you can replace one of your attacks with an exhalation of magical energy in either a 15-foot Cone or a 30-foot Line that is 5 feet wide (choose the shape each time).</p><p>Each creature in that area must make a Dexterity saving throw (DC 8 plus your Constitution modifier and Proficiency Bonus). On a failed save, a creature takes 1d10 damage of the type determined by your Draconic Ancestry trait. On a successful save, a creature takes half as much damage.</p><p>This damage increases by 1d10 when you reach character levels 5 (2d10), 11 (3d10), and 17 (4d10).You can use this Breath Weapon a number of times equal to your Proficiency Bonus, and you regain all expended uses when you finish a Long Rest.</p>",
+      "activities": {
+        "Exhale Cone": {
+          "name": "Exhale Cone"
+        },
+        "Exhale Line": {
+          "name": "Exhale Line"
+        }
+      },
+      "advancement": {
+        "Breath Weapon Damage": {
+          "title": "Breath Weapon Damage"
+        }
+      }
+    },
+    "Lightning Breath Weapon": {
+      "name": "Lightning Breath Weapon",
+      "activities": {
+        "Exhale Line": {
+          "name": "Exhale Line"
+        },
+        "Exhale Cone": {
+          "name": "Exhale Cone"
+        }
+      },
+      "advancement": {
+        "Breath Weapon Damage": {
+          "title": "Breath Weapon Damage"
+        }
+      },
+      "description": "<p>When you take the Attack action on your turn, you can replace one of your attacks with an exhalation of magical energy in either a 15-foot Cone or a 30-foot Line that is 5 feet wide (choose the shape each time).</p><p>Each creature in that area must make a Dexterity saving throw (DC 8 plus your Constitution modifier and Proficiency Bonus). On a failed save, a creature takes 1d10 damage of the type determined by your Draconic Ancestry trait. On a successful save, a creature takes half as much damage.</p><p>This damage increases by 1d10 when you reach character levels 5 (2d10), 11 (3d10), and 17 (4d10).You can use this Breath Weapon a number of times equal to your Proficiency Bonus, and you regain all expended uses when you finish a Long Rest.</p>"
+    },
+    "Fire Breath Weapon": {
+      "activities": {
+        "Exhale Cone": {
+          "name": "Exhale Cone"
+        },
+        "Exhale Line": {
+          "name": "Exhale Line"
+        }
+      },
+      "advancement": {
+        "Breath Weapon Damage": {
+          "title": "Breath Weapon Damage"
+        }
+      },
+      "description": "<p>When you take the Attack action on your turn, you can replace one of your attacks with an exhalation of magical energy in either a 15-foot Cone or a 30-foot Line that is 5 feet wide (choose the shape each time).</p><p>Each creature in that area must make a Dexterity saving throw (DC 8 plus your Constitution modifier and Proficiency Bonus). On a failed save, a creature takes 1d10 damage of the type determined by your Draconic Ancestry trait. On a successful save, a creature takes half as much damage.</p><p>This damage increases by 1d10 when you reach character levels 5 (2d10), 11 (3d10), and 17 (4d10).You can use this Breath Weapon a number of times equal to your Proficiency Bonus, and you regain all expended uses when you finish a Long Rest.</p>",
+      "name": "Fire Breath Weapon"
     }
   },
   "mapping": {

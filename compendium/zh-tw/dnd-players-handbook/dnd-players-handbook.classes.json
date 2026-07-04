@@ -29,6 +29,11 @@
         "Abjured": {
           "name": "防護"
         }
+      },
+      "activities": {
+        "save": {
+          "target": "That you can see"
+        }
       }
     },
     "Abjurer": {
@@ -58,7 +63,21 @@
     },
     "Agonizing Blast": {
       "name": "痛苦衝擊",
-      "description": "<blockquote><p>先決條件：契術師等級2以上，具有可造成傷害的契術師戲法</p></blockquote><p>選擇一個你知曉可以造成傷害的契術師戲法，你可以將你的魅力調整值加到該法術的傷害骰上。</p><p><strong>【可複選】</strong>你可以重複選擇此祈喚，但每次你都必須選擇不同且符合條件的戲法。</p><section class=\"secret\" id=\"secret-e2JfbLoZ7SLiWlcU\"><p><strong>Foundry Note</strong></p><p>The change to your cantrip will have to be made manually by adding \"@abilties.cha.mod\" to the \"Bonus\" field of your spell's damage.</p></section>"
+      "description": "<blockquote><p>先決條件：契術師等級2以上，具有可造成傷害的契術師戲法</p></blockquote><p>選擇一個你知曉可以造成傷害的契術師戲法，你可以將你的魅力調整值加到該法術的傷害骰上。</p><p><strong>【可複選】</strong>你可以重複選擇此祈喚，但每次你都必須選擇不同且符合條件的戲法。</p><section class=\"secret\" id=\"secret-e2JfbLoZ7SLiWlcU\"><p><strong>Foundry Note</strong></p><p>The change to your cantrip will have to be made manually by adding \"@abilties.cha.mod\" to the \"Bonus\" field of your spell's damage.</p></section>",
+      "activities": {
+        "Make Agonizing": {
+          "name": "Make Agonizing"
+        }
+      },
+      "effects": {
+        "Agonizing Blast": {
+          "changes": {
+            "name": ", Agonizing"
+          },
+          "name": "Agonizing Blast",
+          "description": "<p>Choose one of your known Warlock cantrips that deals damage. You can add your Charisma modifier to that spell’s damage rolls.</p>"
+        }
+      }
     },
     "Ambush": {
       "name": "突襲",
@@ -517,6 +536,10 @@
         "Expend Sorcery Points": {
           "name": "Expend Sorcery Points",
           "roll": "Ward Die"
+        },
+        "Create Shield": {
+          "name": "Create Shield",
+          "roll": "Ward Die"
         }
       },
       "effects": {
@@ -639,10 +662,12 @@
       "description": "<p>Once on each of your turns when you hit a creature with an attack roll using a weapon, you can cause the target to take an extra 1d8 Necrotic or Radiant damage (your choice).</p><section id=\"secret-iZHQe1DZBrtcFZCk\" class=\"secret\"><p><strong>Foundry Note</strong></p><p>This feature's damage will automatically increase when you gain @UUID[Compendium.dnd-players-handbook.classes.Item.phbclcImprovedBl]{Improved Blessed Strikes}.</p></section>",
       "activities": {
         "Radiant Divine Strike": {
-          "name": "Radiant Divine Strike"
+          "name": "Radiant Divine Strike",
+          "target": "When you a hit a creature with an attack roll using a weapon once per turn"
         },
         "Necrotic Divine Strike": {
-          "name": "Necrotic Divine Strike"
+          "name": "Necrotic Divine Strike",
+          "target": "When you a hit a creature with an attack roll using a weapon once per turn"
         }
       }
     },
@@ -762,7 +787,8 @@
       "activities": {
         "Chosen Creatures Hit Points": {
           "condition": "Whenever you use your Magical Cunning or finish a Short or Long Rest",
-          "name": "Chosen Creatures Hit Points"
+          "name": "Chosen Creatures Hit Points",
+          "target": "You can see when you gain the points"
         },
         "Your Temporary Hit Points": {
           "name": "Your Temporary Hit Points",
@@ -797,12 +823,19 @@
           "name": "神聖火花：治療"
         },
         "Turn Undead": {
-          "name": "驅散不死"
+          "name": "驅散不死",
+          "target": "Undead of your choice"
         }
       },
       "effects": {
         "Turned": {
-          "name": "驅散"
+          "name": "驅散",
+          "description": "<p>For that duration, it tries to move as far from you as it can on its turns. This effect ends early on the creature if it takes any damage, if you have the Incapacitated condition, or if you die.</p>"
+        }
+      },
+      "advancement": {
+        "Divine Spark Die Count": {
+          "title": "Divine Spark Die Count"
         }
       }
     },
@@ -812,6 +845,15 @@
       "effects": {
         "Circle Forms": {
           "name": "Circle Forms"
+        }
+      },
+      "activities": {
+        "transform": {
+          "profiles": {
+            "Circle Form Options": {
+              "name": "Circle Form Options"
+            }
+          }
         }
       }
     },
@@ -1060,7 +1102,8 @@
       "activities": {
         "Directed Attack": {
           "name": "Directed Attack",
-          "condition": "When you take the Attack action on your turn"
+          "condition": "When you take the Attack action on your turn",
+          "target": "Can see or hear you"
         }
       }
     },
@@ -1174,7 +1217,8 @@
         },
         "Trip": {
           "name": "Trip",
-          "condition": "When you deal Snack Attack damage"
+          "condition": "When you deal Snack Attack damage",
+          "target": "Larger or smaller"
         },
         "Cunning Sneak Attack": {
           "name": "Cunning Sneak Attack",
@@ -1199,7 +1243,13 @@
     },
     "Danger Sense": {
       "name": "危險感知",
-      "description": "<p>你獲得對周遭異常情況超乎尋常的感測力，讓你能先一步脫離危險。除非你陷入無力&amp;Reference[Incapacitated]狀態，你在敏捷豁免上具有優勢。</p>"
+      "description": "<p>你獲得對周遭異常情況超乎尋常的感測力，讓你能先一步脫離危險。除非你陷入無力&amp;Reference[Incapacitated]狀態，你在敏捷豁免上具有優勢。</p>",
+      "effects": {
+        "Danger Sense": {
+          "name": "Danger Sense",
+          "description": "<p>You have Advantage on Dexterity saving throws unless you have the &amp;Reference[Incapacitated] condition.</p>"
+        }
+      }
     },
     "Dark One's Blessing": {
       "name": "黑暗者賜福",
@@ -1266,7 +1316,9 @@
       "activities": {
         "Redirect": {
           "name": "借力打力",
-          "condition": "若將傷害減至0"
+          "condition": "若將傷害減至0",
+          "range": "5 feet for melee attacks or 60 feet for ranged attacks",
+          "target": "Isn't behind Total Cover"
         },
         "Reduce": {
           "name": "撥擋",
@@ -1284,7 +1336,9 @@
         },
         "Redirect": {
           "name": "Redirect",
-          "condition": "If you reduce the damage to 0"
+          "condition": "If you reduce the damage to 0",
+          "target": "Isn't behind Total Cover",
+          "range": "5 feet for melee attacks or 60 feet for ranged attacks"
         }
       }
     },
@@ -1348,7 +1402,12 @@
     },
     "Disciple of Life": {
       "name": "Disciple of Life",
-      "description": "<p>When a spell you cast with a spell slot restores Hit Points to a creature, that creature regains additional Hit Points on the turn you cast the spell. The additional Hit Points equal 2 plus the spell slot's level.</p><section class=\"secret\" id=\"secret-Gy6bYP3AKuabnUlQ\"><p><strong>Foundry Note</strong></p><p>This feature includes a healing activity. Set the scale to the spell slot level you cast and it will provide a healing roll for you.</p></section>"
+      "description": "<p>When a spell you cast with a spell slot restores Hit Points to a creature, that creature regains additional Hit Points on the turn you cast the spell. The additional Hit Points equal 2 plus the spell slot's level.</p><section class=\"secret\" id=\"secret-Gy6bYP3AKuabnUlQ\"><p><strong>Foundry Note</strong></p><p>This feature includes a healing activity. Set the scale to the spell slot level you cast and it will provide a healing roll for you.</p></section>",
+      "activities": {
+        "heal": {
+          "target": "Create you cast a healing spell on"
+        }
+      }
     },
     "Disciplined Survivor": {
       "name": "隨遇而安",
@@ -1387,10 +1446,12 @@
       "description": "<p>你可以引導神性之力到你的打擊中。在你狂暴啟用時的每一回合，你以武器或徒手打擊命中的第一個生物承受等同於1d6 + 你野蠻人等級的一半（向下取整）的額外傷害。該額外傷類型害為黯蝕或光耀，每次你造成傷害時選擇類型。</p><section class=\"secret\" id=\"secret-qDE2QhFtf1aiHWmx\"><p><strong>Foundry Note</strong></p><p>This feature includes an activity for each type of damage.</p></section>",
       "activities": {
         "Necrotic Divine Fury": {
-          "name": "Necrotic Divine Fury"
+          "name": "Necrotic Divine Fury",
+          "target": "First creature you hit with a weapon or an Unarmed Strike"
         },
         "Radiant Divine Fury": {
-          "name": "Radiant Divine Fury"
+          "name": "Radiant Divine Fury",
+          "target": "First creature you hit with a weapon or an Unarmed Strike"
         }
       }
     },
@@ -1638,7 +1699,12 @@
     },
     "Eldritch Mind": {
       "name": "魔能意志",
-      "description": "<p>你在保持專注的體質豁免檢定上具有優勢。</p>"
+      "description": "<p>你在保持專注的體質豁免檢定上具有優勢。</p>",
+      "effects": {
+        "Concentration Advantage": {
+          "name": "Concentration Advantage"
+        }
+      }
     },
     "Eldritch Smite": {
       "name": "魔能重斬",
@@ -1715,13 +1781,26 @@
         },
         "Elemental Save": {
           "name": "Elemental Save",
-          "condition": "When you deal Elemental Strike damage"
+          "condition": "When you deal Elemental Strike damage",
+          "range": "pushed or pulled up to 10 feet",
+          "target": "hit by elemental damage from imbued strike"
+        },
+        "Activate Attunement": {
+          "name": "Activate Attunement"
         }
       },
       "effects": {
         "Elemental Attunement": {
           "name": "Elemental Attunement",
           "description": "<p>You gain the following benefits while this feature is active: <strong>Reach</strong> and <strong>Elemental Strikes</strong>.</p>"
+        },
+        "Active Attunement": {
+          "changes": {
+            "activities[enchant].activation.condition": "at end of duration",
+            "activities[enchant].name": "End Attunement",
+            "name": "{} (Active)"
+          },
+          "name": "Active Attunement"
         }
       }
     },
@@ -1785,7 +1864,8 @@
       "description": "<p>Once on each of your turns when you hit a creature with an attack roll using a weapon or a Beast form's attack in Wild Shape, you can cause the target to take an extra 1d8 [[/damage 1d8 type=cold]]{cold}, [[/damage 1d8 type=fire]]{fire}, [[/damage 1d8 type=lightning]]{lightning}, or [[/damage 1d8 type=thunder]]{thunder} damage (choose when you hit).</p><section class=\"secret\" id=\"secret-teMMREyPGTtod1kP\"><p><strong>Foundry Note</strong></p><p>This feature's damage will automatically increase when you gain @UUID[Compendium.dnd-players-handbook.classes.Item.phbdrdImprovedEl]{Improved Elemental Fury}. If using the activity you will be able to select the damage type when rolling. It will default to your previously chosen damage type.</p></section>",
       "activities": {
         "Primal Strike": {
-          "name": "Primal Strike"
+          "name": "Primal Strike",
+          "target": "When you hit a creature with an attack roll using a weapon or a Beast form's attack in Wild Shape"
         }
       }
     },
@@ -1847,6 +1927,12 @@
           "name": "Evade",
           "roll": "AC Bonus"
         }
+      },
+      "effects": {
+        "Evasive AC": {
+          "description": "<p>Your AC is increased by one roll of your Superiority Die until the start of your next turn.</p>",
+          "name": "Evasive AC"
+        }
       }
     },
     "Evocation Savant": {
@@ -1864,7 +1950,24 @@
     },
     "Exceptional Training": {
       "name": "Exceptional Training",
-      "description": "<p>When you take a Bonus Action to command your Primal Companion beast to take an action, you can also command it to take the &amp;Reference[Dash], &amp;Reference[Disengage], &amp;Reference[Dodge], or &amp;Reference[Help] action using its Bonus Action.</p><p>In addition, whenever it hits with an attack roll and deals damage, it can deal your choice of Force damage or its normal damage type.</p><section id=\"secret-dFb0uteASfxCBh4m\" class=\"secret\"><p><strong>Foundry Note</strong></p><p>The Primal Companion's damage roll dialog's will allow you to choose the type of damage. It defaults to your previous choice each time going forward.</p></section>"
+      "description": "<p>When you take a Bonus Action to command your Primal Companion beast to take an action, you can also command it to take the &amp;Reference[Dash], &amp;Reference[Disengage], &amp;Reference[Dodge], or &amp;Reference[Help] action using its Bonus Action.</p><p>In addition, whenever it hits with an attack roll and deals damage, it can deal your choice of Force damage or its normal damage type.</p><section id=\"secret-dFb0uteASfxCBh4m\" class=\"secret\"><p><strong>Foundry Note</strong></p><p>The Primal Companion's damage roll dialog's will allow you to choose the type of damage. It defaults to your previous choice each time going forward.</p></section>",
+      "activities": {
+        "Train Companion": {
+          "target": "Primal Companion's Attack features",
+          "condition": "As needed to add Force damage option",
+          "name": "Train Companion"
+        },
+        "Command Companion": {
+          "name": "Command Companion",
+          "target": "Primal Companion"
+        }
+      },
+      "effects": {
+        "Exceptionally Trained": {
+          "description": "<p>Whenever the Companion hits with an attack roll and deals damage, it can deal your choice of Force damage or its normal damage type.</p>",
+          "name": "Exceptionally Trained"
+        }
+      }
     },
     "Expert Divination": {
       "name": "Expert Divination",
@@ -2157,7 +2260,8 @@
       "description": "<blockquote><p>先決條件：Level 5+ Warlock</p></blockquote><p>You can use a Bonus Action to touch a willing creature and perceive through its senses until the end of your next turn. As long as the creature is on the same plane of existence as you, you can take a Bonus Action on subsequent turns to maintain this connection, extending the duration until the end of your next turn. The connection ends if you don’t maintain it in this way.</p><p>While perceiving through the other creature’s senses, you benefit from any special senses possessed by that creature, and you can cast spells as if you were in your space or the other creature’s space if the two of you are within 60 feet of each other.</p>",
       "activities": {
         "Gaze of Two Minds": {
-          "name": "Gaze of Two Minds"
+          "name": "Gaze of Two Minds",
+          "target": "Touch"
         }
       }
     },
@@ -2172,6 +2276,10 @@
       "effects": {
         "Water Breathing": {
           "name": "Water Breathing"
+        },
+        "Water Breathing & Swim Speed": {
+          "description": "<p>You can breathe underwater, and you gain a Swim Speed equal to your Speed.</p>",
+          "name": "Water Breathing & Swim Speed"
         }
       }
     },
@@ -2315,7 +2423,12 @@
     },
     "Hand of Ultimate Mercy": {
       "name": "Hand of Ultimate Mercy",
-      "description": "<p>Your mastery of life energy opens the door to the ultimate mercy. As a Magic action, you can touch the corpse of a creature that died within the past 24 hours and expend 5 Focus Points. The creature then returns to life with a number of Hit Points equal to 4d10 plus your Wisdom modifier. If the creature died with any of the following conditions, the creature revives with the conditions removed: Blinded, Deafened, Paralyzed, Poisoned, and Stunned.</p><p>Once you use this feature, you can't use it again until you finish a Long Rest.</p><section id=\"secret-qP8GEBd6nXKTiRMj\" class=\"secret\"><p><strong>Foundry Note</strong></p><p>This feature includes a single use per Long Rest and a healing roll.</p></section>"
+      "description": "<p>Your mastery of life energy opens the door to the ultimate mercy. As a Magic action, you can touch the corpse of a creature that died within the past 24 hours and expend 5 Focus Points. The creature then returns to life with a number of Hit Points equal to 4d10 plus your Wisdom modifier. If the creature died with any of the following conditions, the creature revives with the conditions removed: Blinded, Deafened, Paralyzed, Poisoned, and Stunned.</p><p>Once you use this feature, you can't use it again until you finish a Long Rest.</p><section id=\"secret-qP8GEBd6nXKTiRMj\" class=\"secret\"><p><strong>Foundry Note</strong></p><p>This feature includes a single use per Long Rest and a healing roll.</p></section>",
+      "activities": {
+        "heal": {
+          "target": "died within the past 24 hours"
+        }
+      }
     },
     "Healing Light": {
       "name": "治癒之光",
@@ -2514,7 +2627,8 @@
       "activities": {
         "Healing Illusion": {
           "name": "Healing Illusion",
-          "condition": "When the illusion ends"
+          "condition": "When the illusion ends",
+          "target": "Within 5 feet of the duplicate"
         }
       }
     },
@@ -2531,7 +2645,8 @@
       "description": "<p>You can draw on your Shadowfell connection to empower your teleportation. When you use your Shadow Step, you can expend 1 Focus Point to remove the requirement that you must start and end in Dim Light or Darkness for that use of the feature. As part of this Bonus Action, you can make an Unarmed Strike immediately after you teleport.</p><section id=\"secret-YgbNq427MgTSg20W\" class=\"secret\"><p><strong>Foundry Note</strong></p><p>This feature includes an activity which will expend a Focus Point.</p></section>",
       "activities": {
         "Improved Shadow Step": {
-          "name": "Improved Shadow Step"
+          "name": "Improved Shadow Step",
+          "target": "Unoccupied space"
         }
       }
     },
@@ -2541,7 +2656,12 @@
     },
     "Improved Warding Flare": {
       "name": "精通守護閃光",
-      "description": "<p>當你完成一次短休或長休時，重獲所有已消耗的守護閃光使用次數。</p><p>此外，每當你使用守護閃光時，你可以給予被攻擊的目標提供數量等同於2d6 + 你感知調整值的臨時生命值。</p><section class=\"secret\" id=\"secret-7WmcCKWWvsv7V9NG\"><p><strong>Foundry Note</strong></p><p>此特性不會自動將守護光輝更新為短休恢復。你需編輯該項目並將恢復期設為短休。</p><p><strong>治療</strong>行動包含臨時生命值恢復效果。</p></section>"
+      "description": "<p>當你完成一次短休或長休時，重獲所有已消耗的守護閃光使用次數。</p><p>此外，每當你使用守護閃光時，你可以給予被攻擊的目標提供數量等同於2d6 + 你感知調整值的臨時生命值。</p><section class=\"secret\" id=\"secret-7WmcCKWWvsv7V9NG\"><p><strong>Foundry Note</strong></p><p>此特性不會自動將守護光輝更新為短休恢復。你需編輯該項目並將恢復期設為短休。</p><p><strong>治療</strong>行動包含臨時生命值恢復效果。</p></section>",
+      "activities": {
+        "heal": {
+          "target": "Target of the triggering attack"
+        }
+      }
     },
     "Indomitable": {
       "name": "Indomitable",
@@ -2680,7 +2800,8 @@
           }
         },
         "Invest with Resistance": {
-          "name": "Invest with Resistance"
+          "name": "Invest with Resistance",
+          "target": "Your familiar"
         }
       }
     },
@@ -2689,7 +2810,8 @@
       "description": "<p>As a Bonus Action, you can expend one use of your Channel Divinity to create a perfect visual illusion of yourself in an unoccupied space you can see within 30 feet of yourself. The illusion is intangible and doesn't occupy its space. It lasts for 1 minute, but it ends early if you dismiss it (no action required) or have the &amp;Reference[Incapacitated] condition. The illusion is animated and mimics your expressions and gestures. While it persists, you gain the following benefits.</p><p><strong>Cast Spells.</strong> You can cast spells as though you were in the illusion's space, but you must use your own senses.</p><p><strong>Distract.</strong> When both you and your illusion are within 5 feet of a creature that can see the illusion, you have Advantage on attack rolls against that creature, given how distracting the illusion is to the target.</p><p><strong>Move.</strong> As a Bonus Action, you can move the illusion up to 30 feet to an unoccupied space you can see that is within 120 feet of yourself.</p>",
       "activities": {
         "Move Duplicate": {
-          "name": "Move Duplicate"
+          "name": "Move Duplicate",
+          "target": "within 30 feet"
         }
       }
     },
@@ -2711,7 +2833,8 @@
       "description": "<p>As a Bonus Action, you can discern certain strengths and weaknesses of a creature you can see within 30 feet of yourself; you know whether that creature has any Immunities, Resistances, or Vulnerabilities, and if the creature has any, you know what they are.</p><p>Once you use this feature, you can't do so again until you finish a Long Rest. You can also restore a use of the feature by expending one Superiority Die (no action required).</p><section id=\"secret-7vwF7cOVBeAADPjL\" class=\"secret\"><p><strong>Foundry Note</strong></p><p>This feature includes an activity for discerning the strengths and weaknesses and a recharge activity for restoring a use of this feature.</p></section>",
       "activities": {
         "Discern Strengths and Weaknesses": {
-          "name": "Discern Strengths and Weaknesses"
+          "name": "Discern Strengths and Weaknesses",
+          "target": "Creature you can see"
         },
         "Recharge with Superiority Die": {
           "name": "Recharge with Superiority Die"
@@ -2737,7 +2860,12 @@
     },
     "Lessons of the First Ones": {
       "name": "初代的教誨",
-      "description": "<blockquote><p>先決條件：契術師等級2以上</p></blockquote><p>你獲得來自多元宇宙中一位古老存在的知識，令你獲得一個你所選擇的@UUID[Compendium.dnd-players-handbook.content.JournalEntry.phbFeats00000000.JournalEntryPage.otAeQs0TLHYIBNuj]{起源專長}</p><p><strong>【可複選】</strong>你可以重複選擇此祈喚，但每次你都必須選擇不同的起源專長。</p>"
+      "description": "<blockquote><p>先決條件：契術師等級2以上</p></blockquote><p>你獲得來自多元宇宙中一位古老存在的知識，令你獲得一個你所選擇的@UUID[Compendium.dnd-players-handbook.content.JournalEntry.phbFeats00000000.JournalEntryPage.otAeQs0TLHYIBNuj]{起源專長}</p><p><strong>【可複選】</strong>你可以重複選擇此祈喚，但每次你都必須選擇不同的起源專長。</p>",
+      "advancement": {
+        "Choose Origin Feat": {
+          "title": "Choose Origin Feat"
+        }
+      }
     },
     "Life Domain": {
       "name": "生命領域",
@@ -2805,6 +2933,10 @@
       "effects": {
         "Living Legend": {
           "name": "Living Legend"
+        },
+        "Living Legend: Charismatic": {
+          "description": "<p>You are blessed with an otherworldly presence and have Advantage on all Charisma checks.</p>",
+          "name": "Living Legend: Charismatic"
         }
       }
     },
@@ -2853,7 +2985,8 @@
         "Maneuver": {
           "name": "Maneuver",
           "condition": "When you hit a creature with an attack roll",
-          "roll": "Attack Bonus"
+          "roll": "Attack Bonus",
+          "target": "Can see or hear you"
         }
       }
     },
@@ -2899,6 +3032,13 @@
       "effects": {
         "Martial Arts": {
           "name": "武藝"
+        },
+        "Dexterous Attacks & Martial Arts Damage": {
+          "name": "Dexterous Attacks & Martial Arts Damage",
+          "changes": {
+            "name": "{} (Martial Arts)"
+          },
+          "description": "<p><strong>Martial Arts Die.</strong> You can roll [[lookup @scale.monk.die]] in place of the normal damage of your Unarmed Strike or Monk weapons. This die changes as you gain Monk levels, as shown in the Martial Arts column of the Monk Features table.</p><p><strong>Dexterous Attacks.</strong> You can use your Dexterity modifier instead of your Strength modifier for the attack and damage rolls of your Unarmed Strikes and Monk weapons. In addition, when you use the Grapple or Shove option of your Unarmed Strike, you can use your Dexterity modifier instead of your Strength modifier to determine the save DC.</p><p></p>"
         }
       }
     },
@@ -2994,7 +3134,9 @@
         },
         "Dreadful Step": {
           "name": "Dreadful Step",
-          "condition": "After teleporting"
+          "condition": "After teleporting",
+          "target": "That you choose",
+          "range": "Of the space you just left"
         },
         "2ceGTpBbBclN3qF9": {
           "condition": "After taking damage"
@@ -3073,6 +3215,9 @@
         },
         "Step of the Wind": {
           "name": "疾步如風"
+        },
+        "Expend Focus Point": {
+          "name": "Expend Focus Point"
         }
       },
       "effects": {
@@ -3089,7 +3234,8 @@
       "description": "<p>You magically transport yourself, reappearing amid a burst of moonlight. As a Bonus Action, you teleport up to 30 feet to an unoccupied space you can see, and you have Advantage on the next attack roll you make before the end of this turn.</p><p>You can use this feature a number of times equal to your Wisdom modifier (minimum of once), and you regain all expended uses when you finish a Long Rest. You can also regain uses by expending a level 2+ spell slot for each use you want to restore (no action required).</p><section class=\"secret\" id=\"secret-fQNfNPvTSXWuXepa\"><p><strong>Foundry Note</strong></p><p>This feature includes an activity with an Active Effect for tracking when you have Advantage but it does not automate the Advantage.</p><p>It also includes a Recharge with Spell Slot activity which can be used to convert spell slots into uses of this feature. You can select higher level slots by increasing the scale.</p></section>",
       "activities": {
         "Transport": {
-          "name": "Transport"
+          "name": "Transport",
+          "target": "Unoccupied space"
         },
         "Recharge with Spell Slot": {
           "name": "Recharge with Spell Slot"
@@ -3261,10 +3407,12 @@
       "description": "<p>Instead of manifesting the Emanation of Wrath of the Sea around yourself, you can manifest it around one willing creature within 60 feet of yourself. That creature gains all the benefits of the Emanation and uses your spell save DC and Wisdom modifier for it.</p><p>In addition, you can manifest the Emanation around both the other creature and yourself if you expend two uses of your Wild Shape instead of one when manifesting it.</p><section class=\"secret\" id=\"secret-eZ9lyvQjA22ulGI1\"><p><strong>Foundry Note</strong></p><p>You can use this feature in place of Wrath of the Sea and Stormborn. It includes an activity for a single emanation or a double manifestation. It also includes the Active Effect from Stormborn which can be applied to both characters when manifesting a second emanation.</p></section>",
       "activities": {
         "Manifest Double Emanation": {
-          "name": "Manifest Double Emanation"
+          "name": "Manifest Double Emanation",
+          "range": "One willing creature"
         },
         "Manifest Single Emanation": {
-          "name": "Manifest Single Emanation"
+          "name": "Manifest Single Emanation",
+          "range": "One willing creature"
         }
       },
       "effects": {
@@ -3487,7 +3635,13 @@
     },
     "Peerless Athlete": {
       "name": "Peerless Athlete",
-      "description": "<p>As a Bonus Action, you can expend one use of your Channel Divinity to augment your athleticism. For 1 hour, you have Advantage on Strength (Athletics) and Dexterity (Acrobatics) checks, and the distance of your Long and High Jumps increases by 10 feet (this extra distance costs movement as normal).</p>"
+      "description": "<p>As a Bonus Action, you can expend one use of your Channel Divinity to augment your athleticism. For 1 hour, you have Advantage on Strength (Athletics) and Dexterity (Acrobatics) checks, and the distance of your Long and High Jumps increases by 10 feet (this extra distance costs movement as normal).</p>",
+      "effects": {
+        "Peerless Athlete": {
+          "name": "Peerless Athlete",
+          "description": "<p>For 1 hour, you have Advantage on Strength (Athletics) and Dexterity (Acrobatics) checks, and the distance of your Long and High Jumps increases by 10 feet (this extra distance costs movement as normal).</p>"
+        }
+      }
     },
     "Peerless Skill": {
       "name": "Peerless Skill",
@@ -3589,7 +3743,12 @@
     },
     "Preserve Life": {
       "name": "Preserve Life",
-      "description": "<p>As a Magic action, you present your Holy Symbol and expend a use of your Channel Divinity to evoke healing energy that can restore a number of Hit Points equal to five times your Cleric level. Choose &amp;Reference[Bloodied] creatures within 30 feet of yourself (which can include you), and divide those Hit Points among them. This feature can restore a creature to no more than half its Hit Point maximum.</p><section class=\"secret\" id=\"secret-vybBdwcDQO3jMVDo\"><p><strong>Foundry Note</strong></p><p>The <strong>Heal</strong> activity does not automatically restrict the HP gained to 50% of the target's max.</p></section>"
+      "description": "<p>As a Magic action, you present your Holy Symbol and expend a use of your Channel Divinity to evoke healing energy that can restore a number of Hit Points equal to five times your Cleric level. Choose &amp;Reference[Bloodied] creatures within 30 feet of yourself (which can include you), and divide those Hit Points among them. This feature can restore a creature to no more than half its Hit Point maximum.</p><section class=\"secret\" id=\"secret-vybBdwcDQO3jMVDo\"><p><strong>Foundry Note</strong></p><p>The <strong>Heal</strong> activity does not automatically restrict the HP gained to 50% of the target's max.</p></section>",
+      "activities": {
+        "heal": {
+          "target": "Blooed creatures"
+        }
+      }
     },
     "Primal Champion": {
       "name": "Primal Champion",
@@ -3603,10 +3762,19 @@
           "condition": "每當你完成長休時"
         },
         "Command": {
-          "name": "命令"
+          "name": "命令",
+          "target": "Primal Companion"
         },
         "Summon with Spell Slot": {
           "name": "以法術位召喚"
+        },
+        "Summon Companion": {
+          "name": "Summon Companion",
+          "target": "Unoccupied"
+        },
+        "Restore Companion": {
+          "name": "Restore Companion",
+          "target": "Primal Companion that has died within the last hour"
         }
       }
     },
@@ -3629,6 +3797,9 @@
       "effects": {
         "Magician": {
           "name": "巫祝"
+        },
+        "Magician Checks & Cantrip": {
+          "name": "Magician Checks & Cantrip"
         }
       }
     },
@@ -3638,6 +3809,9 @@
       "effects": {
         "Primal Order: Warden": {
           "name": "原初誓約：衛士"
+        },
+        "Martial Weapon & Medium Armor Training": {
+          "name": "Martial Weapon & Medium Armor Training"
         }
       }
     },
@@ -3647,7 +3821,8 @@
       "activities": {
         "Project Ward": {
           "name": "Project Ward",
-          "condition": "When a creature that you can see within 30 feet of yourself takes damage"
+          "condition": "When a creature that you can see within 30 feet of yourself takes damage",
+          "target": "That you can see"
         }
       }
     },
@@ -3809,7 +3984,8 @@
       },
       "effects": {
         "Rage": {
-          "name": "狂暴"
+          "name": "狂暴",
+          "description": "<p><strong>Damage Resistance.</strong> You have Resistance to Bludgeoning, Piercing, and Slashing damage.</p><p><strong>Rage Damage.</strong> When you make an attack using Strength—with either a weapon or an Unarmed Strike—and deal damage to the target, you gain a bonus to the damage that increases as you gain levels as a Barbarian, as shown in the Rage Damage column of the Barbarian Features table.</p><p><strong>Strength Advantage.</strong> You have Advantage on Strength checks and Strength saving throws.</p>"
         }
       }
     },
@@ -3851,12 +4027,21 @@
       "effects": {
         "Rage of the Bear": {
           "name": "Rage of the Bear"
+        },
+        "Rage of the Wolf": {
+          "name": "Rage of the Wolf",
+          "description": "<p>Your allies have Advantage on attack rolls against any enemy of yours within 5 feet of you.</p>"
         }
       }
     },
     "Rally": {
       "name": "Rally",
-      "description": "<p>As a Bonus Action, you can expend one Superiority Die to bolster the resolve of a companion. Choose an ally of yours within 30 feet of yourself who can see or hear you. That creature gains Temporary Hit Points equal to the Superiority Die roll plus half your Fighter level (round down).</p>"
+      "description": "<p>As a Bonus Action, you can expend one Superiority Die to bolster the resolve of a companion. Choose an ally of yours within 30 feet of yourself who can see or hear you. That creature gains Temporary Hit Points equal to the Superiority Die roll plus half your Fighter level (round down).</p>",
+      "activities": {
+        "heal": {
+          "target": "Can see or hear you"
+        }
+      }
     },
     "Ranger": {
       "name": "遊俠",
@@ -3967,6 +4152,10 @@
         "Rend Mind ": {
           "name": "Rend Mind ",
           "condition": "When you deal Sneak Attack damage with your Psychic Blades"
+        },
+        "Rend Mind": {
+          "condition": "When you deal Sneak Attack damage with your Psychic Blades",
+          "name": "Rend Mind"
         }
       },
       "effects": {
@@ -4000,7 +4189,8 @@
       "activities": {
         "Prevent Advantage/Disadvantage": {
           "name": "Prevent Advantage/Disadvantage",
-          "condition": "When a creature you can see within 60 feet is about to roll d20 with Advantage/Disadvantage"
+          "condition": "When a creature you can see within 60 feet is about to roll d20 with Advantage/Disadvantage",
+          "target": "You can see"
         }
       }
     },
@@ -4137,7 +4327,8 @@
       "description": "<p>Whenever you use Turn Undead, you can roll a number of d8s equal to your Wisdom modifier (minimum of 1d8, currently [[lookup @abilities.wis.mod]]) and add the rolls together. Each Undead that fails its saving throw against that use of Turn Undead takes Radiant damage equal to the roll's total. This damage doesn't end the turn effect.</p><section class=\"secret\" id=\"secret-VJPPRFTlu1fFg8XB\"><p><strong>Foundry Note</strong></p><p>This feature can be used in place of Turn Undead. It consumes a use of Channel Divinity, includes the Save, Active Effects for the conditions, and this feature's damage roll.</p></section>",
       "activities": {
         "Channel Divinity: Turn Undead": {
-          "name": "引導神力：驅散不死"
+          "name": "引導神力：驅散不死",
+          "target": "Undead"
         }
       },
       "effects": {
@@ -4202,7 +4393,8 @@
       "activities": {
         "Shadow Step": {
           "condition": "While entirely within Dim Light or Darkness",
-          "name": "Shadow Step"
+          "name": "Shadow Step",
+          "target": "Unoccupied space"
         }
       }
     },
@@ -4212,7 +4404,8 @@
       "activities": {
         "Shadowy Dodge": {
           "name": "Shadowy Dodge",
-          "condition": "When a creature makes an attack roll against you"
+          "condition": "When a creature makes an attack roll against you",
+          "target": "Unoccupied"
         }
       }
     },
@@ -4333,7 +4526,8 @@
         },
         "Psychic Teleportation": {
           "name": "Psychic Teleportation",
-          "roll": "Max Throw Distance"
+          "roll": "Max Throw Distance",
+          "target": "Unoccupied space"
         }
       }
     },
@@ -4471,11 +4665,13 @@
       "activities": {
         "Refreshing Step": {
           "name": "Refreshing Step",
-          "condition": "Immediately after you teleport"
+          "condition": "Immediately after you teleport",
+          "target": "That you can see"
         },
         "Taunting Step": {
           "name": "Taunting Step",
-          "condition": "After teleporting"
+          "condition": "After teleporting",
+          "range": "Of the space you just left"
         }
       }
     },
@@ -4613,7 +4809,12 @@
     },
     "Superior Hunter's Prey": {
       "name": "高等狩者獵物",
-      "description": "<p>Once per turn when you deal damage to a creature marked by your <em>Hunter’s Mark</em>, you can also deal that spell’s extra damage to a different creature that you can see within 30 feet of the first creature.</p><section id=\"secret-AuiRnxdHXs9cXvQV\" class=\"secret\"><p><strong>Foundry Note</strong></p><p>You can apply the damage from Hunter's Mark or use the <strong>Damage</strong> activity on this feature.</p></section>"
+      "description": "<p>Once per turn when you deal damage to a creature marked by your <em>Hunter’s Mark</em>, you can also deal that spell’s extra damage to a different creature that you can see within 30 feet of the first creature.</p><section id=\"secret-AuiRnxdHXs9cXvQV\" class=\"secret\"><p><strong>Foundry Note</strong></p><p>You can apply the damage from Hunter's Mark or use the <strong>Damage</strong> activity on this feature.</p></section>",
+      "activities": {
+        "damage": {
+          "range": "Of the damaged creature"
+        }
+      }
     },
     "Superior Inspiration": {
       "name": "Superior Inspiration",
@@ -4633,12 +4834,27 @@
       "activities": {
         "heal": {
           "condition": "At the start of each of your turns"
+        },
+        "Heroic Rally": {
+          "condition": "if Bloodied",
+          "name": "Heroic Rally"
+        }
+      },
+      "effects": {
+        "Defy Death": {
+          "name": "Defy Death",
+          "description": "<p><strong>Note:</strong> This effect does not modify the behavior of rolling an 18 or 19 on a Death Saving Throw.</p>"
         }
       }
     },
     "Sweeping Attack": {
       "name": "Sweeping Attack",
-      "description": "<p>When you hit a creature with a melee attack roll using a weapon or an Unarmed Strike, you can expend one Superiority Die to attempt to damage another creature. Choose another creature within 5 feet of the original target and within your reach. If the original attack roll would hit the second creature, it takes damage equal to the number you roll on your Superiority Die. The damage is of the same type dealt by the original attack.</p><section id=\"secret-p0vnnA6PRSzYVHVf\" class=\"secret\"><p><strong>Foundry Note</strong></p><p>The <strong>Damage</strong> activity allows you to select the type of damage it should deal in the roll dialog and consumes a use of your Superiority Die.</p></section>"
+      "description": "<p>When you hit a creature with a melee attack roll using a weapon or an Unarmed Strike, you can expend one Superiority Die to attempt to damage another creature. Choose another creature within 5 feet of the original target and within your reach. If the original attack roll would hit the second creature, it takes damage equal to the number you roll on your Superiority Die. The damage is of the same type dealt by the original attack.</p><section id=\"secret-p0vnnA6PRSzYVHVf\" class=\"secret\"><p><strong>Foundry Note</strong></p><p>The <strong>Damage</strong> activity allows you to select the type of damage it should deal in the roll dialog and consumes a use of your Superiority Die.</p></section>",
+      "activities": {
+        "damage": {
+          "target": "Within 5 feet of the original target and within your reach"
+        }
+      }
     },
     "Tactical Assessment": {
       "name": "Tactical Assessment",
@@ -4656,6 +4872,9 @@
       "effects": {
         "Tactial Master": {
           "name": "Tactial Master"
+        },
+        "Tactical Master": {
+          "name": "Tactical Master"
         }
       }
     },
@@ -4685,7 +4904,8 @@
         "Initiative Bonus": {
           "condition": "When rolling initiative and not Incapacitated.",
           "name": "Initiative Bonus",
-          "roll": "吟遊激勵"
+          "roll": "吟遊激勵",
+          "target": "Ally who can see or hear you"
         }
       }
     },
@@ -4719,7 +4939,8 @@
       "description": "<p>你能夠在自己與他人的意識中構建一道心靈感應的連結。作為一個附贈動作，你可以選擇30尺內一個你可見的生物，只要你與你所選擇的生物在等同於你魅力調整值（最少1里，當前[[lookup @abilities.cha.mod]]里）的里數內，你們就可以通過心靈感應的方式進行交流。為了理解彼此，你們都必須在心靈交流中使用對方知曉的語言。</p><p>心靈感應的連結將持續等同於你術士等級的分鐘。當你使用此能力與其他生物構建連結時，其將提前結束。</p>",
       "activities": {
         "Telepathic Speech": {
-          "name": "Telepathic Speech"
+          "name": "Telepathic Speech",
+          "target": "You can see"
         }
       }
     },
@@ -4839,7 +5060,8 @@
           "name": "Teleport"
         },
         "Extended Teleport": {
-          "name": "Extended Teleport"
+          "name": "Extended Teleport",
+          "target": "within 10 feet of you"
         }
       }
     },
@@ -4864,7 +5086,8 @@
       "description": "<p>Whenever you take the Bonus Action to create or move the illusion of your Invoke Duplicity, you can teleport, swapping places with the illusion.</p><section id=\"secret-V8lO0vrA6lgQvqq7\" class=\"secret\"><p><strong>Foundry Note</strong></p><p>This feature includes a Transpose activity for tracking the use of your Bonus Action but you will have to manually swap your Token and the Duplicate's position.</p></section>",
       "activities": {
         "Transpose": {
-          "name": "Transpose"
+          "name": "Transpose",
+          "target": "Your duplicate"
         }
       }
     },
@@ -4954,6 +5177,13 @@
       "activities": {
         "Majestic Presence": {
           "name": "Majestic Presence"
+        },
+        "Assume Majestic Presence": {
+          "name": "Assume Majestic Presence"
+        },
+        "Recoil Save": {
+          "condition": "a creature hits you with an attack roll for the first time on a turn",
+          "name": "Recoil Save"
         }
       },
       "effects": {
@@ -5042,10 +5272,14 @@
       "description": "<p>You learn a ritual that creates a magical bond between yourself and one weapon. You perform the ritual over the course of 1 hour, which can be done during a Short Rest. The weapon must be within your reach throughout the ritual, at the conclusion of which you touch the weapon and forge the bond. The bond fails if another Fighter is bonded to the weapon or if the weapon is a magic item to which someone else is attuned.</p><p>Once you have bonded a weapon to yourself, you can't be disarmed of that weapon unless you have the Incapacitated condition. If it is on the same plane of existence, you can summon that weapon as a Bonus Action, causing it to teleport instantly to your hand.</p><p>You can have up to two bonded weapons, but you can summon only one at a time with a Bonus Action. If you attempt to bond with a third weapon, you must break the bond with one of the other two.</p><section class=\"secret\" id=\"secret-zmK2Pbr1mAvJ6BLy\"><p><strong>Foundry Note</strong></p><p>This feature includes an activity for summoning your weapon that can be used if you're tracking usage of your Bonus Action.</p><p>It also includes a Bond with Weapon activity which can be used to enchant your bonded weapons. It will append \", War Bonded\" to its name for easy identification.</p></section>",
       "activities": {
         "Summon Weapon": {
-          "name": "Summon Weapon"
+          "name": "Summon Weapon",
+          "target": "bonded weapon",
+          "range": "same plane of existence"
         },
         "Bond with Weapon": {
-          "name": "Bond with Weapon"
+          "name": "Bond with Weapon",
+          "target": "currently unbound weapon",
+          "condition": "or 1 Hour"
         }
       },
       "effects": {
@@ -5053,7 +5287,8 @@
           "name": "War Bond",
           "changes": {
             "name": ", War Bonded"
-          }
+          },
+          "description": "<p>Once you have bonded a weapon to yourself, you can't be disarmed of that weapon unless you have the Incapacitated condition. If it is on the same plane of existence, you can summon that weapon as a Bonus Action, causing it to teleport instantly to your hand.</p>"
         }
       }
     },
@@ -5209,7 +5444,12 @@
     },
     "Warrior of the Gods": {
       "name": "Warrior of the Gods",
-      "description": "<p>某個神聖的存在總能使你持續不斷地戰鬥。你擁有4枚d12所構成的治療池，可以消耗以治療自己。作為一個附贈動作，從治療池中消耗並擲出任意數量的骰子，恢復結果總數的生命值。</p><p>當你完成一次長休時，你的治療池重獲所有已消耗的骰子。</p><p>治療池中骰子的數量將會在你達到特定野蠻人等級時增加，分別為6級時5枚，12級時6枚，17級時7枚。</p><section class=\"secret\" id=\"secret-er80mQOJaHK8ww7M\"><p><strong>Foundry Note</strong></p><p>The pool's increase is automatically handled in this feature. This feature also allows scaling up the number of dice you would like to expend for healing.</p></section>"
+      "description": "<p>某個神聖的存在總能使你持續不斷地戰鬥。你擁有4枚d12所構成的治療池，可以消耗以治療自己。作為一個附贈動作，從治療池中消耗並擲出任意數量的骰子，恢復結果總數的生命值。</p><p>當你完成一次長休時，你的治療池重獲所有已消耗的骰子。</p><p>治療池中骰子的數量將會在你達到特定野蠻人等級時增加，分別為6級時5枚，12級時6枚，17級時7枚。</p><section class=\"secret\" id=\"secret-er80mQOJaHK8ww7M\"><p><strong>Foundry Note</strong></p><p>The pool's increase is automatically handled in this feature. This feature also allows scaling up the number of dice you would like to expend for healing.</p></section>",
+      "advancement": {
+        "Pool Size": {
+          "title": "Pool Size"
+        }
+      }
     },
     "Warrior of the Open Hand": {
       "name": "散打武者",
@@ -5282,6 +5522,19 @@
       "activities": {
         "Wild Shape": {
           "name": "荒野形態"
+        },
+        "transform": {
+          "profiles": {
+            "CR 1": {
+              "name": "CR 1"
+            },
+            "CR ½": {
+              "name": "CR ½"
+            },
+            "CR ¼": {
+              "name": "CR ¼"
+            }
+          }
         }
       }
     },
@@ -5291,6 +5544,9 @@
       "effects": {
         "Witch Sight": {
           "name": "Witch Sight"
+        },
+        "Truesight (30 ft)": {
+          "name": "Truesight (30 ft)"
         }
       }
     },
@@ -5328,7 +5584,12 @@
     },
     "Words of Creation": {
       "name": "Words of Creation",
-      "description": "<p>You have mastered two of the Words of Creation: the words of life and death. You therefore always have the @UUID[Compendium.dnd-players-handbook.spells.Item.phbsplPowerWordH]{Power Word Heal} and @UUID[Compendium.dnd-players-handbook.spells.Item.phbsplPowerWordK]{Power Word Kill} spells prepared. When you cast either spell, you can target a second creature with it if that creature is within 10 feet of the first target.</p><section id=\"secret-aHHp3ZnTrWPHHB7j\" class=\"secret\"><p><strong>Foundry Note</strong></p><p>You are automatically granted these spells as you level up.</p></section>"
+      "description": "<p>You have mastered two of the Words of Creation: the words of life and death. You therefore always have the @UUID[Compendium.dnd-players-handbook.spells.Item.phbsplPowerWordH]{Power Word Heal} and @UUID[Compendium.dnd-players-handbook.spells.Item.phbsplPowerWordK]{Power Word Kill} spells prepared. When you cast either spell, you can target a second creature with it if that creature is within 10 feet of the first target.</p><section id=\"secret-aHHp3ZnTrWPHHB7j\" class=\"secret\"><p><strong>Foundry Note</strong></p><p>You are automatically granted these spells as you level up.</p></section>",
+      "advancement": {
+        "Words of Life and Death": {
+          "title": "Words of Life and Death"
+        }
+      }
     },
     "Wrath of the Sea": {
       "name": "海洋之怒",
@@ -5336,6 +5597,15 @@
       "activities": {
         "Bonus Action Save": {
           "name": "Bonus Action Save"
+        },
+        "Manifest Ocean Spray": {
+          "name": "Manifest Ocean Spray"
+        }
+      },
+      "effects": {
+        "Manifesting Ocean Spray": {
+          "description": "<p>A [[lookup @scale.sea.wrath-range]]-ft.  Emanation of ocean spray surrounds you for 10 minutes. It ends early if you dismiss it (no action required), manifest it again, or have the Incapacitated condition.</p>",
+          "name": "Manifesting Ocean Spray"
         }
       }
     },
@@ -5373,7 +5643,8 @@
       "activities": {
         "Psychic Whispers": {
           "roll": "Psionic Energy Die",
-          "name": "Psychic Whispers"
+          "name": "Psychic Whispers",
+          "target": "Creatures you can see"
         },
         "Psi-Bolstered Knack": {
           "name": "Psi-Bolstered Knack",
@@ -5382,7 +5653,8 @@
         },
         "Psychic Whispers (Free)": {
           "name": "Psychic Whispers (Free)",
-          "roll": "Psionic Energy Die"
+          "roll": "Psionic Energy Die",
+          "target": "Creatures you can see"
         }
       },
       "effects": {
@@ -5534,7 +5806,8 @@
       "name": "徒手打擊",
       "activities": {
         "Grapple/Shove": {
-          "name": "Grapple/Shove"
+          "name": "Grapple/Shove",
+          "chatFlavor": "Grapple or Shove attempt"
         }
       },
       "effects": {
@@ -5544,7 +5817,8 @@
         "Prone": {
           "name": "Prone"
         }
-      }
+      },
+      "description": "<p><em>See: @UUID[Compendium.dnd-players-handbook.classes.Item.phbmnkMartialArt]{Martial Arts (Monk)}</em></p>"
     },
     "phbftrWeaponMast": {
       "description": "<p>你對武器的訓練使你能夠使用三種你所選擇且擁有熟練的武器精通屬性。每當你完成一次長休時，你可以進行武器練習從而更換其中一種武器的選擇。</p><p>你可以掌握精通的武器數量將隨著戰士職業到達特定等級而增加如@UUID[Compendium.dnd-players-handbook.content.JournalEntry.phbFighter000000.JournalEntryPage.wDELe3k25FQvYdrq#class-features]{戰士特性}表中武器精通一欄所示。</p><section class=\"secret\" id=\"secret-Qfoze6XoZUYIlAnw\"><p><strong>Foundry Note</strong></p><p>To change your masteries toggle on the \"Edit\" mode of your sheet. On the \"Details\" tab click on the cog icon next to \"Weapons\" in the bottom right. You can place a check in the mastery column of your chosen weapons.</p></section>",

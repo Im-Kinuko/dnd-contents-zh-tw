@@ -14,5 +14,622 @@
     "Backgrounds": "Backgrounds",
     "Halfling": "Halfling"
   },
-  "entries": {}
+  "entries": {
+    "Acolyte": {
+      "advancement": {
+        "Background Feat": {
+          "title": "背景專長",
+          "hint": "你的背景賦予你魔法學徒（牧師）專長。"
+        },
+        "Choose Languages": {
+          "hint": "你的角色至少知曉三種語言，通用語加兩種你從標準語言表中所擲到或所選擇的。",
+          "title": "選擇語言"
+        },
+        "Background Ability Score Improvement": {
+          "hint": "你的背景讓你能提升智力、感知、魅力。選擇其中一項提升 2 點，另一項提升 1 點；或是三項各提升 1 點。這些提升都不能讓該屬性超過20。",
+          "title": "背景屬性值提升"
+        },
+        "Background Proficiencies": {
+          "title": "背景熟練",
+          "hint": "你的背景賦予你洞悉和宗教的熟練，以及書法家設備的熟練。"
+        }
+      },
+      "description": "<p><strong>屬性值：</strong> 智力、感知、魅力</p><p><strong>專長：</strong> @UUID[Compendium.dnd-players-handbook.feats.Item.phbftMagicInitia]（牧師）</p><p><strong>技能熟練：</strong>洞察和宗教</p><p><strong>工具熟練：</strong>書法家設備</p><p><strong>裝備：</strong><em>選擇A或B：</em>（A）@UUID[Compendium.dnd-players-handbook.equipment.Item.phbtulCalligraph]、@UUID[Compendium.dnd-players-handbook.equipment.Item.phbagBook0000000]（禱文）、聖徽、@UUID[Compendium.dnd-players-handbook.equipment.Item.phbagParchment00]（10張）、@UUID[Compendium.dnd-players-handbook.equipment.Item.phbagRobe0000000]、8 GP 或（B）50 GP</p><p>你曾獻身於一座神殿中侍奉神祇，那裡可能坐落於城鎮之中，也可能隱於神聖的林間空地。在那裡，你主持儀式以敬奉某位神明或整個神祇群。你在一位祭司麾下服侍，並研習宗教知識。在祭司的教導與你自身虔誠的修行下，你學會了如何引導一絲神聖之力，來服侍你所敬奉的聖地，以及向神祈禱的信眾們。</p>",
+      "name": "侍僧"
+    },
+    "Criminal": {
+      "advancement": {
+        "Background Proficiencies": {
+          "hint": "你的背景賦予你巧手和隱匿的熟練，以及盜賊工具的熟練。",
+          "title": "背景熟練"
+        },
+        "Background Ability Score Improvement": {
+          "hint": "你的背景讓你能提升敏捷、體質、魅力。選擇其中一項提升 2 點，另一項提升 1 點；或是三項各提升 1 點。這些提升都不能讓該屬性超過20。",
+          "title": "背景屬性值提升"
+        },
+        "Background Feat": {
+          "hint": "你背景賦予你警覺專長。",
+          "title": "背景專長"
+        },
+        "Choose Languages": {
+          "hint": "你的角色至少知曉三種語言，通用語加兩種你從標準語言表中所擲到或所選擇的。",
+          "title": "選擇語言"
+        }
+      },
+      "description": "<p><strong>屬性值：</strong> 敏捷、體質、智力</p><p><strong>專長：</strong> @UUID[Compendium.dnd-players-handbook.feats.Item.phbftAlert000000]</p><p><strong>技能熟練：</strong>巧手和隱匿</p><p><strong>工具熟練：</strong> Thieves’ Tools</p><p><strong>裝備：</strong><em>選擇A或B：</em>（A）2 @UUID[Compendium.dnd-players-handbook.equipment.Item.phbwepDagger0000]、@UUID[Compendium.dnd-players-handbook.equipment.Item.phbtulThievesToo]、@UUID[Compendium.dnd-players-handbook.equipment.Item.phbagCrowbar0000]、2包@UUID[Compendium.dnd-players-handbook.equipment.Item.phbagPouch000000]、@UUID[Compendium.dnd5e.items.Item.SsAmWV6YBqeOFihT]、16 GP 或（B）50 GP</p><p>你在昏暗巷弄中勉強討生活，不是下手割錢袋，就是潛入店鋪行竊。也許你曾是個小型盜賊團的一員，與一群同道中人彼此照應；又或者你是獨來獨往的孤狼，在當地盜賊公會與更凶殘的罪犯之間艱難求生。</p>",
+      "name": "罪犯"
+    },
+    "Sage": {
+      "activities": {
+        "Card Effect": {
+          "name": "Card Effect"
+        }
+      },
+      "description": "<p> At any time you choose within one year of drawing this card, you can ask a question in meditation and mentally receive a truthful answer to that question.</p>",
+      "name": "學者"
+    },
+    "Soldier": {
+      "advancement": {
+        "Background Feat": {
+          "hint": "你的背景賦予你專長野蠻攻擊者",
+          "title": "背景專長"
+        },
+        "Choose Languages": {
+          "title": "選擇語言",
+          "hint": "你的角色至少知曉三種語言，通用語加兩種你從標準語言表中所擲到或所選擇的。"
+        },
+        "Background Ability Score Improvement": {
+          "hint": "你的背景讓你能提升力量、敏捷、體質。選擇其中一項提升 2 點，另一項提升 1 點；或是三項各提升 1 點。這些提升都不能讓該屬性超過20。",
+          "title": "背景屬性值提升"
+        },
+        "Background Proficiencies": {
+          "title": "背景熟練",
+          "hint": "你的背景賦予你運動與威嚇的熟練，並讓你熟練任意一種遊戲套組。"
+        }
+      },
+      "name": "士兵",
+      "description": "<p><strong>屬性值：</strong> 力量、敏捷、體質</p><p><strong>專長：</strong> @UUID[Compendium.dnd-players-handbook.feats.Item.phbftSavageAttac]</p><p><strong>技能熟練：</strong>運動和威嚇</p><p><strong>工具熟練：</strong> <em>選擇一種遊戲套組</em> (see @UUID[Compendium.dnd-players-handbook.content.JournalEntry.phbEquipment0000.JournalEntryPage.GCvg8n7Q7ltSPRxe#gaming-set-(varies)]{chapter 6})</p><p><strong>裝備：</strong>選擇（A）@UUID[Compendium.dnd-players-handbook.equipment.Item.phbwepSpear00000]{Spear}、@UUID[Compendium.dnd-players-handbook.equipment.Item.phbwepShortbow00]、20支@UUID[Compendium.dnd-players-handbook.equipment.Item.phbamoArrows0000]、遊戲套組（與工具熟練相同）、@UUID[Compendium.dnd-players-handbook.equipment.Item.phbagHealersKit0]、@UUID[Compendium.dnd-players-handbook.equipment.Item.phbagQuiver00000]、@UUID[Compendium.dnd5e.items.Item.SsAmWV6YBqeOFihT]、14 GP 或（B）50 GP</p><p>你一踏入成年便開始接受戰鬥訓練，對舉起武器之前的生活幾乎毫無記憶。戰鬥早已流淌在你的血液之中。有時你甚至會下意識地重複那些最初學到的基礎訓練動作。最終，你將這份鍛鍊化為戰場上的實力，投身戰爭、保衛疆域。</p>"
+    },
+    "Tiefling, Abyssal": {
+      "advancement": {
+        "Abyssal Tiefling Traits": {
+          "hint": "你對毒素具有抗性。",
+          "title": "深淵提夫林特質"
+        },
+        "KwcwntR3Ai0R5iPN": {
+          "title": "深淵提夫林特質",
+          "hint": "智力、感知或魅力是你以此特性施放法術的施法屬性。"
+        },
+        "Tiefling Traits": {
+          "title": "提夫林特質"
+        },
+        "9iZufhdzY3XN7Em3": {
+          "hint": "智力、感知或魅力是你以此特性施放法術的施法屬性。",
+          "title": "深淵提夫林特質"
+        },
+        "lskxIeib6rIreZ1h": {
+          "hint": "中型（約 4 到 7 呎高）或小型（約 3 到 4 呎高）"
+        },
+        "Otherworldly Presence": {
+          "title": "異界姿態"
+        },
+        "VhCiGFOLtG8H93jy": {
+          "hint": "智力、感知或魅力是你以此特性施放法術的施法屬性。",
+          "title": "深淵提夫林特質"
+        }
+      },
+      "name": "深淵提夫林",
+      "description": "<p>提夫林不是一開始就出生在下層位面，就是其血脈被下層位面的邪魔浸汙。提夫林是與魔鬼、惡魔或其他邪魔有血緣關係的存在。這種與下層位面的連結帶給了提夫林某種邪魔遺贈，這是一種應許的力量，但不會影響提夫林自身的道德觀。</p><p>提夫林可能因這份邪魔遺贈而放任自流或是哀痛不安。</p><h3 data-anchor=\"abyssal\">深淵血系</h3><p>無底深淵的熵能，喧癲空隧的混亂，卡瑟利的絕望， 這一切的一切都在呼喚著擁有深淵遺贈的提夫林。犄角、皮毛、獠牙和奇特的氣味是這些提夫林常見的外貌特徵，其中大多數人的血管中都流淌著邪魔的血液。</p><h3 data-anchor=\"tiefling-traits\">提夫林特性</h3><p><strong>生物類型：</strong>類人生物</p><p><strong>體型：</strong>中型（約4~7呎高）或小型（約3~4呎高），當你選擇此種族時決定</p><p><strong>速度：</strong>30呎</p><p>作為提夫林，你這些額外特性。</p><p><strong>【黑暗視覺】</strong>你擁有60呎的黑暗視覺。</p><p><strong>Fiendish Legacy.</strong>邪魔遺贈的傳承賦予你超自然的能力。</p><p>當你的角色等級達到3與5級時，你將習得更高環階的法術，如表中所示。你始終準備這些法術，你可以在不消耗法術位的情況下施放這些法術各一次，並在你完成一次長休時重獲以此方式施法的能力。你也可以使用相應環階的法術位來施展這些法術。智力、感知或魅力是你以此特性施放法術的施法屬性（當你選擇遺贈時你所選擇的屬性）。</p><p><strong>【異界姿態】</strong> 你知曉@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplThaumaturg]{奇術}戲法。當你以此特性施放時，該法術使用的施法屬性與你所使用的邪魔遺贈特性相同。</p><table><caption>Abyssal Legacy Traits</caption><thead><tr><td>等級1</td><td>等級3</td><td>等級5</td></tr></thead><tbody><tr><td>你具有對毒素傷害的抗性。你也知曉@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplPoisonSpra]戲法。</td><td>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplRayofSickn]</td><td>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplHoldPerson]</td></tr></tbody></table>"
+    },
+    "Tiefling, Chthonic": {
+      "name": "幽冥提夫林",
+      "advancement": {
+        "R0k1RmQximNOQw1R": {
+          "title": "幽冥提夫林特質",
+          "hint": "智力、感知或魅力是你以此特性施放法術的施法屬性。"
+        },
+        "pIi692Cevlw7qZRe": {
+          "title": "幽冥提夫林特質",
+          "hint": "智力、感知或魅力是你以此特性施放法術的施法屬性。"
+        },
+        "DU7Y6D1IJSSgObJK": {
+          "title": "幽冥提夫林特質",
+          "hint": "智力、感知或魅力是你以此特性施放法術的施法屬性。"
+        },
+        "Chthonic Tiefling Traits": {
+          "hint": "你擁有對黯蝕傷害的抗性。",
+          "title": "幽冥提夫林特質"
+        },
+        "lskxIeib6rIreZ1h": {
+          "hint": "中型（約 4 到 7 呎高）或小型（約 3 到 4 呎高）"
+        },
+        "Otherworldly Presence": {
+          "title": "異界姿態"
+        },
+        "Tiefling Traits": {
+          "title": "提夫林特質"
+        }
+      },
+      "description": "<p>提夫林不是一開始就出生在下層位面，就是其血脈被下層位面的邪魔浸汙。提夫林是與魔鬼、惡魔或其他邪魔有血緣關係的存在。這種與下層位面的連結帶給了提夫林某種邪魔遺贈，這是一種應許的力量，但不會影響提夫林自身的道德觀。</p><p>提夫林可能因這份邪魔遺贈而放任自流或是哀痛不安。</p><h3 data-anchor=\"chthonic\">幽冥血系</h3><p>擁有幽冥遺贈的提夫林不僅能感受到卡瑟利的牽引，還能感受到焦炎煉獄的貪婪和哈迪斯的晦暗。這些提夫林中有些看起來如同屍體，有些卻擁有魅魔的超凡脫俗之美，還有一部分提夫林的外貌特徵與夜鬼婆、尤格羅斯魔或其他中立邪惡的邪魔先祖相同。</p><h3 data-anchor=\"tiefling-traits\">提夫林特性</h3><p><strong>生物類型：</strong>類人生物</p><p><strong>體型：</strong>中型（約4~7呎高）或小型（約3~4呎高），當你選擇此種族時決定</p><p><strong>速度：</strong>30呎</p><p>作為一位提夫林，你擁有下列特性。</p><p><strong>【黑暗視覺】</strong>你擁有60呎的黑暗視覺。</p><p><strong>【邪魔遺贈】</strong>邪魔遺贈的傳承賦予你超自然的能力。</p><p>當你的角色等級達到3與5級時，你將習得更高環階的法術，如表中所示。你始終準備這些法術，你可以在不消耗法術位的情況下施放這些法術各一次，並在你完成一次長休時重獲以此方式施法的能力。你也可以使用相應環階的法術位來施展這些法術。智力、感知或魅力是你以此特性施放法術的施法屬性（當你選擇遺贈時你所選擇的屬性）。</p><p><strong>【異界姿態】</strong> 你知曉@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplThaumaturg]{奇術}戲法。當你以此特性施放時，該法術使用的施法屬性與你所使用的邪魔遺贈特性相同。</p><table><caption>【邪魔遺贈】</caption><thead><tr><td>等級1</td><td>等級3</td><td>等級5</td></tr></thead><tbody><tr><td>你具有對黯蝕傷害的抗性，此外你也知曉@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplChillTouch]戲法。</td><td>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplFalseLife0]</td><td>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplRayofEnfee]</td></tr></tbody></table>"
+    },
+    "Dragonborn": {
+      "advancement": {
+        "Draconic Ancestry": {
+          "title": "龍族先祖"
+        },
+        "Breath Weapon": {
+          "title": "噴吐武器"
+        },
+        "65BqBxGcj6z4S803": {
+          "hint": "中型（約 5 到 7 呎高）"
+        },
+        "Draconic Flight": {
+          "title": "龍翔天際"
+        },
+        "Damage Resistance": {
+          "hint": "你擁有你龍族血統特性所決定的傷害類型的抗性。",
+          "title": "傷害抗性"
+        }
+      },
+      "description": "<p>龍裔的祖先來自色彩龍與金屬龍的龍蛋。有一種說法認為，這些龍蛋曾受到龍神巴哈姆特與提亞馬特的祝福，祂們希望在多元宇宙中造就出以自己形象所創造的族群。另一種說法則主張，最初的龍裔是由巨龍親手創造，並未經神明允許。無論其起源為何，龍裔如今已在物質界開創出自己的棲居之地。</p><p>龍裔看起來像是沒有雙翼的雙足巨龍——牠們身披鱗甲，雙眼明亮，骨架粗壯，頭上長有角，體貌特徵與牠們的龍族祖先有著明顯的傳承與呼應。</p><h3 data-anchor=\"dragonborn-traits\">龍裔特性</h3><p><strong>生物類型：</strong>類人生物</p><p><strong>體型：</strong>中型（約5~7呎高）</p><p><strong>速度：</strong>30呎</p><p>做為龍裔，你擁有這些額外特性</p><p><strong>【龍族血統】</strong>你的血統源自某位龍族始祖。請從龍族血統表中選擇一種龍類。你的選擇會影響你的吐息武器與傷害抗性特徵，以及你的外貌特徵。</p><table><caption>龍族血統</caption><thead><tr><td>龍</td><td>傷害類型</td><td>龍</td><td>傷害類型</td></tr></thead><tbody><tr><td>黑</td><td>強酸</td><td>金</td><td>火焰</td></tr><tr><td>藍</td><td>閃電</td><td>綠</td><td>毒素</td></tr><tr><td>黃銅</td><td>火焰</td><td>紅</td><td>火焰</td></tr><tr><td>青銅</td><td>閃電</td><td>銀</td><td>寒冷</td></tr><tr><td>赤銅</td><td>強酸</td><td>白</td><td>寒冷</td></tr></tbody></table><p><strong>【噴吐武器】</strong> 當你在自己回合採取攻擊動作時，你可以呼出魔法能量來替代其中一次攻擊，15呎錐形範圍或長30呎寬5呎的直線範圍（每次使用時選擇）。該區域內的每個生物必須進行敏捷豁免檢定（DC = 8 + 你的熟練加值 + 你的體質調整值）。豁免失敗的生物承受1d10被你的龍族血統特性所決定類型的傷害。豁免成功的生物僅承受一半傷害。此傷害在角色到達 5 級時增加到 2d10，11 級為 3d10，17 級為 4d10。你可以使用此噴吐武器的次數等同於你的熟練加值，並在你完成長休時重獲所有已消耗的使用次數。</p><p><strong>【傷害抗性】 </strong>你擁有你龍族血統特性所決定的傷害類型的抗性。</p><p><strong>【黑暗視覺】</strong>你擁有60呎的黑暗視覺。</p><p><strong>【龍翔天際】</strong>當你的角色達到5級時，你可以引導龍族魔法讓自己短暫飛行。作為附贈動作，你的背上顯現持續 10 分鐘的幽靈之翼。你也可以主動收回翅膀（無需動作），或當你陷入失能狀態時翅膀將提前消失。在該期間， 你獲得等同於你速度的飛行速度。你的翅膀看起來與你的噴吐武器是相同類型的能量所構成的。一旦你使用此特性，直到你完成一次長休之前，你無法再次使用。</p>",
+      "name": "龍裔"
+    },
+    "Elf, Drow": {
+      "advancement": {
+        "5w2FaHXRKiN7v1rE": {
+          "hint": "中型（約 5 到 6 呎高）"
+        },
+        "Drow Traits": {
+          "hint": "你可以選擇智力、感知或魅力作為你的施法屬性。",
+          "title": "卓爾特質"
+        },
+        "Keen Senses": {
+          "hint": "你獲得洞悉、察覺或求生中一項技能的熟練項。",
+          "title": "敏銳感官"
+        },
+        "Elf Traits": {
+          "title": "精靈特質"
+        }
+      },
+      "name": "卓爾精靈",
+      "description": "<p>神靈柯瑞隆創造了第一批精靈，他們可以隨心所欲地變換自己的肉體形態。但因為精靈曾與叛神羅絲密謀顛覆柯瑞隆的統治而失敗，柯瑞隆詛咒了他們，使其失去了自由變換形體的能力。即使此後羅絲被打入了深淵，大多數精靈不再信仰她從而獲得了柯瑞隆的寬恕，但是被奪去的能力不再復還。</p><p>精靈們再也無法隨意變形，他們退居到了妖精荒野，卻受這個位面的影響讓悲傷越來越刻骨銘心。隨著時間一點一滴過去，好奇心驅使著一部分精靈開始探索其他位面，其中就包含了物質位面。</p><p>精靈的耳朵尖尖的，沒有鬍子也沒有體毛。他們的壽命約為 750 年，不需要睡眠但會在需要休息時傳思。在這個狀態下，他們沉浸於回憶過往的冥想中，卻仍然保持著對周圍環境的感知。</p><p>在千年的時光中，環境潛移默化地改變了精靈，並給予了他們特定的魔法。卓爾，高等精靈，以及木精靈都是這一系列變化的結果。</p><h3 data-anchor=\"drow\">卓爾</h3><p>卓爾通常居住在幽暗地域，並受其影響而轉變。不過也有些卓爾個體和社群完全遠離了幽暗地域，卻擁有著幽暗地域的魔法。比如說在艾伯倫設定中，卓爾就居住在希恩德瑞克上的熱帶雨林和獨眼巨人遺址中。</p><h3 data-anchor=\"elf-traits\">精靈特性</h3><p><strong>生物類型：</strong>類人生物</p><p><strong>體型：</strong>中型（約5~6呎高）</p><p><strong>速度：</strong>30呎</p><p>作為精靈，你擁有這些額外特性</p><p><strong>【黑暗視覺】</strong>你擁有60呎的黑暗視覺。</p><p><strong>【精靈血系】</strong>你屬於一支賦予你超自然能力的血系。</p><p>當你的角色等級達到3與5級時，你將習得一個更高環位的法術，如表上所示。你始終準備這些法術，你可以在不消耗法術位的情況下施放這些法術各一次，並在你完成一次長休時重獲以該方式施法的能力。你也可以使用相應環階的法術位來施放這些法術。智力、感知或魅力是你以此特性施放法術的施法屬性（當你選擇血系時由你所選擇的屬性）</p><table><caption>卓爾血系特性</caption><thead><tr><td>等級1</td><td>等級3</td><td>等級5</td></tr></thead><tbody><tr><td>你的黑暗視覺範圍提升到120呎。你也知曉@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplDancingLig]戲法。</td><td>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplFaerieFire]</td><td>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplDarkness00]</td></tr></tbody></table><p><strong>【精類血統】</strong>你在避免或結束&amp;Reference[Charmed]狀態所進行的豁免檢定具有優勢。</p><p><strong>【敏銳感官】</strong>你獲得洞悉、察覺或求生中一項技能的熟練項。</p><p><strong>【傳思】</strong>你不需要睡眠，並且魔法無法讓你入睡。你可以維持4個小時的傳思冥想以完成長休，過程中你能保持意識清醒。</p>"
+    },
+    "Dwarf": {
+      "advancement": {
+        "Dwarven Resilience": {
+          "title": "矮人抗性",
+          "hint": "你對毒素具有抗性。"
+        },
+        "6HdONjMD4UozXSfC": {
+          "hint": "中型（約 4 到 5 呎高）"
+        },
+        "Dwarf Traits": {
+          "title": "矮人特質"
+        }
+      },
+      "description": "<p>矮人於太古時代由一位鍛造之神自大地中孕育而生。這位神祇在不同的世界有著不同的名號——莫拉丁、李奥克斯，或其他稱呼——祂賦予了矮人對岩石與金屬的親和，以及在地底生活的天性。這位神同時也讓矮人如山嶽般堅韌，其壽命約為 350 年。</p><p>身形矮壯、常蓄鬍鬚的遠古矮人，曾在山脈側壁與地底深處雕鑿出城市與要塞。他們最古老的傳說中，充滿了與高山怪物與幽暗地域邪物的衝突——不論是高聳的巨人，還是潛伏於地底的恐怖存在。受到這些故事的啟發，來自各地文化的矮人往往都會高唱英勇事蹟之歌——尤其是弱小戰勝強敵的傳奇。</p><p>在多元宇宙中的某些世界裡，矮人最初的聚落建立於丘陵或高山之中。而那些能追溯血統至這些聚落的家族，便自稱為丘陵矮人或高山矮人。灰鷹與龍槍的世界觀中就存在這類社群。</p><h3 data-anchor=\"dwarf-traits\">矮人特性</h3><p><strong>生物類型：</strong>類人生物</p><p><strong>體型：</strong>中型（約4~5呎高）</p><p><strong>速度：</strong>30呎</p><p>作為矮人，你擁有這些額外特性</p><p><strong>【黑暗視覺】</strong>你擁有120呎得黑暗視覺。</p><p><strong>【矮人抗性】</strong>你對毒素具有抗性。你在避免或結束中毒狀態時所進行的豁免檢定也具有優勢</p><p><strong>【矮人韌性】</strong>你的生命最大值提升1點，並且每當你獲得1級時再次提升1點。</p><p><strong>【石中精妙】</strong>作為附贈動作，你獲得持續 10 分鐘60呎範圍的震顫感知。你必須站在石質表面上，或與石質表面接觸才能使用此震顫感知。這些石質可以是天然形成的，也可以是人工打造的。你可以使用此附贈動作的次數等同於你的熟練加值，並在你完成一次長休時，重獲所有已消耗的使用次數。</p>",
+      "name": "矮人"
+    },
+    "Gnome, Forest": {
+      "advancement": {
+        "Forest Gnome Lineage Cantrip": {
+          "title": "森林侏儒血系戲法",
+          "hint": "你可以選擇智力、感知或魅力作為你的施法屬性。"
+        },
+        "Forest Gnome Lineage Spell": {
+          "hint": "你可以選擇智力、感知或魅力作為你的施法屬性。",
+          "title": "森林侏儒血系法術"
+        },
+        "O7gYRGMSW3atQ2Yc": {
+          "hint": "小型（約 3 到 4 呎高）"
+        },
+        "Gnome Traits": {
+          "title": "侏儒特質"
+        }
+      },
+      "description": "<p>侏儒是發明之神、幻象之神和地下生活之神創造的神奇生物。由於侏儒生性隱秘，喜歡住在深林和洞穴中，所以原初的侏儒很少被目擊到。侏儒用聰明才智彌補了體型上的矮小。他們用陷阱和錯綜複雜的隧道迷惑掠食者。加爾．閃金、貝爾凡．野遊者和巴瑞瓦．影斗篷等神祇也曾喬裝打扮與侏儒們相會，並賜予了他們魔法。而這種魔法最終創造了森林侏儒和岩侏儒的血系。</p><p>侏儒身材嬌小，長著大眼睛和尖耳朵，壽命約為 425 歲。許多侏儒喜歡頭頂有屋頂的感覺，即使這個「屋頂」只是一頂帽子。</p><h3 data-anchor=\"gnome-traits\">侏儒特性</h3><p><strong>生物類型：</strong>類人生物</p><p><strong>體型：</strong>小型（約3~4呎高）</p><p><strong>速度：</strong>30呎</p><p>作為侏儒，你擁有這些額外特性</p><p><strong>【黑暗視覺】</strong>你擁有60呎的黑暗視覺。</p><p><strong>【侏儒狡黠】</strong>你在智力、感知、魅力的豁免檢定上具有優勢。</p><p><strong>【侏儒血系】</strong>你屬於一支賦予你超自然能力的血系。你屬於一支賦予你超自然能力的血系。無論你選擇哪一血系，智力、感知或魅力是你以此特性施放法術的施法屬性（當你選擇血系時選擇屬性）：</p><p><strong><em>森林侏儒　</em></strong>你知曉@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplMinorIllus]戲法，此外你也始終準備@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplSpeakwithA]。你可以在不消耗法術位的情況下施放此法術的次數等同於你的熟練加值，並在你完成一次長休時，重獲所有已消耗次數。你也可以使用相應環階的法術位施放該法術。</p>",
+      "name": "森林侏儒"
+    },
+    "Goliath": {
+      "advancement": {
+        "LETPMtBLvmzWUUb0": {
+          "hint": "中型（約 7 到 8 呎高）"
+        },
+        "Goliath Traits": {
+          "title": "歌利亞特質"
+        },
+        "Giant Ancestry": {
+          "hint": "你是巨人的後裔，從下列先祖恩賜的增益中選擇一項；你可以使用所選增益的次數等同於你的熟練加值，並在你完成一次長休時重獲所有已消耗的使用次數。",
+          "title": "巨人血統"
+        }
+      },
+      "name": "歌利亞",
+      "description": "<p>歌利亞身體強壯，高大出眾，和巨人有著稀薄的親緣關係。每個歌利亞都承載著初代巨人的賜福——這些賜福表現為各種超自然的恩惠，包括生長迅速的體質，以及暫時巨化身軀的能力。</p><p>歌利亞的外貌特徵會讓人聯想到其血脈伊始的巨人。比如說有些歌利亞看起來像石巨人，有些則像火巨人。無論和巨人的親緣關係如何，也未受多年來巨人族內亂的束縛，歌利亞已然在多元宇宙中開闢了自己的道路，他們所求乃是超越先祖的極限。</p><h3 data-anchor=\"goliath-traits\">歌利亞特性</h3><p><strong>生物類型：</strong>類人生物</p><p><strong>體型：</strong>中型（約7~8呎高）</p><p><strong>速度：</strong>35呎</p><p>作為歌利亞，你擁有這些額外特性</p><p><strong>【巨人血統】</strong>你是巨人的後裔，從下列先祖恩賜的增益中選擇一項；你可以使用所選增益的次數等同於你的熟練加值，並在你完成一次長休時重獲所有已消耗的使用次數：</p><p><strong>雲步穿行（雲巨人） </strong>作為一個附贈動作，你魔法般地傳送到最多30呎一處你所能看見且未被占據的空間。</p><p><strong>星火燎原（火巨人）</strong>當你的攻擊檢定命中目標並對其造成傷害時，你可以對該目標造成1d10火焰傷害。</p><p><strong>凜若冰霜（冰巨人）</strong>當你的攻擊檢定命中目標並對其造成傷害時，你可以對該目標造成1d6寒冷傷害，並且直到你下一回合開始前，減少其10呎速度。</p><p><strong>地動山搖（山丘巨人） </strong>當你的攻擊檢定命中大型或大型以下的生物並對其造成傷害時，你可以使該目標陷入&amp;Reference[Prone]狀態。</p><p><strong>安如磐石（石巨人）</strong>當你承受傷害時，你可以採取反應擲1顆d12。將你的體質調整值與擲骰結果相加，並使傷害減少該總值。</p><p><strong>風暴雷霆（風暴巨人）</strong>當你受到60呎內一個生物的傷害時，你可採取反應對該生物造成1d8的雷鳴傷害。</p><p><strong>【巨化形體】</strong>角色等級達到5級時，若你在足夠大的空間，你可以用附贈動作將你的體型變為大型。此變身持續10分鐘或直到你主動結束（無須動作）。在持續時間內，你在力量檢定上具有優勢，並且你的速度提升10呎。一旦你使用此特性，直到完成一次長休前，你無法再次使用。</p><p><strong>【身強力壯】</strong>你在結束&amp;Reference[Grappled]狀態時所進行的能力檢定具有優勢。在決定你的載重能力時，你視為體型大一級的生物。</p>"
+    },
+    "Halfling": {
+      "description": "<p>受到珍視生命、家園和爐灶之神靈的眷顧和指引，半身人更嚮往於田園風光安居樂業和人人相助的世外桃源。話雖如此，許多半身人也具有勇敢和冒險的精神，這種個性引領他們踏上探尋之旅，予以探索更大世界的機會，在旅途中廣交好友。半身人們與人類兒童相似的體型更利於他們在人群中神不知鬼不覺地穿行，或是在狹小的空間裡穿梭。</p><p>與半身人，尤其是與半身人冒險者相處過的人，都可能親眼目睹過傳說中的「半身人吉運」。當半身人性命攸關之際，一種不可見的力量似乎會插手其中。許多半身人相信運氣的力量，他們將這種非比尋常的力量歸功於一位或多位仁慈的神靈，其中包括悠妲拉、布蘭多布里斯和楚瑪琳。或許也是因為這樣的賜福，他們壽命長達 150 年。</p><p>半身人的社群家園五花八門。有些隱居在未染纖塵之地，也有些像艾伯倫世界中的波洛馬氏族那樣成為犯罪集團，還有的像浩劫殘陽世界中，化為盤據一方的暴徒半身人。</p><p>喜歡生活在地下的半身人有時被稱為強心半身人或敦實半身人。而遊牧的半身人，以及生活在人類和其他高大民居中的半身人，有時被稱為輕足半身人或高挑半身人。</p><h3 data-anchor=\"halfling-traits\">半身人特性</h3><p><strong>生物類型：</strong>類人生物</p><p><strong>體型：</strong>小型（約2~3呎高）</p><p><strong>速度：</strong>30呎</p><p>作為半身人，你擁有這些額外特性</p><p><strong>【勇氣】</strong>你在避免或結束&amp;Reference[Frightened]狀態時所進行的豁免檢定具有優勢。</p><p><strong>【半身人靈巧】</strong> 你可以穿過任何體型比你大的生物所在的空間，但你無法在同一空間停留。</p><p><strong>【幸運】</strong>當你在D20檢定中的d20擲出1時，你可以重骰，並且必須使用新的結果。</p><p><strong>【天生善匿】</strong>即便只受體型比你大一級以上的生物遮蔽，你也可以採取&amp;Reference[Hide]動作。</p>",
+      "advancement": {
+        "GYp1vi82hSEoe3mO": {
+          "hint": "小型（約2~3呎高）"
+        },
+        "Halfling Traits": {
+          "title": "半身人特質"
+        }
+      },
+      "name": "半身人"
+    },
+    "Elf, High": {
+      "description": "<p>神靈柯瑞隆創造了第一批精靈，他們可以隨心所欲地變換自己的肉體形態。但因為精靈曾與叛神羅絲密謀顛覆柯瑞隆的統治而失敗，柯瑞隆詛咒了他們，使其失去了自由變換形體的能力。即使此後羅絲被打入了深淵，大多數精靈不再信仰她從而獲得了柯瑞隆的寬恕，但是被奪去的能力不再復還。</p><p>精靈們再也無法隨意變形，他們退居到了妖精荒野，卻受這個位面的影響讓悲傷越來越刻骨銘心。隨著時間一點一滴過去，好奇心驅使著一部分精靈開始探索其他位面，其中就包含了物質位面。</p><p>精靈的耳朵尖尖的，沒有鬍子也沒有體毛。他們的壽命約為 750 年，不需要睡眠但會在需要休息時傳思。在這個狀態下，他們沉浸於回憶過往的冥想中，卻仍然保持著對周圍環境的感知。</p><p>在千年的時光中，環境潛移默化地改變了精靈，並給予了他們特定的魔法。卓爾，高等精靈，以及木精靈都是這一系列變化的結果。</p><h3 data-anchor=\"high-elves\">高等精靈</h3><p>穿梭於妖精荒野和物質位面的魔法力量被灌注在高等精靈身上。在某些世界，高等精靈會使用其他名字來稱呼自己，比如說在被遺忘的國度中，他們稱自己日精靈或月精靈；在龍槍中，他們被叫作西瓦那斯提高等精靈或奎靈那斯提高等精靈；而在艾伯倫中，他們的名字是艾倫諾人。</p><h3 data-anchor=\"elf-traits\">精靈特性</h3><p><strong>生物類型：</strong>類人生物</p><p><strong>體型：</strong>中型（約5~6呎高）</p><p><strong>速度：</strong>30呎</p><p>作為精靈，你擁有這些額外特性</p><p><strong>【黑暗視覺】</strong>你擁有60呎的黑暗視覺。</p><p><strong>【精靈血系】</strong>你屬於一支賦予你超自然能力的血系。</p><p>當你的角色等級達到3與5級時，你將習得一個更高環位的法術，如表上所示。你始終準備這些法術，你可以在不消耗法術位的情況下施放這些法術各一次，並在你完成一次長休時重獲以該方式施法的能力。你也可以使用相應環階的法術位來施放這些法術。智力、感知或魅力是你以此特性施放法術的施法屬性（當你選擇血系時由你所選擇的屬性）</p><table><caption>高等精靈血系特性</caption><thead><tr><td>等級1</td><td>等級3</td><td>等級5</td></tr></thead><tbody><tr><td>你知曉@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplPrestidigi]戲法。每當你完成一次長休時，你可以從 @UUID[Compendium.dnd-players-handbook.content.JournalEntry.phbSpells0000000.JournalEntryPage.6AnqLUowgdsqMFvz]{法師法術列表}替換一種不同的戲法。</td><td>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplDetectMagi]</td><td>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplMistyStep0]</td></tr></tbody></table><p><strong>【精類血統】</strong>你在避免或結束&amp;Reference[Charmed]狀態所進行的豁免檢定具有優勢。</p><p><strong>【敏銳感官】</strong>你獲得洞悉、察覺或求生中一項技能的熟練項。</p><p><strong>【傳思】</strong>你不需要睡眠，並且魔法無法讓你入睡。你可以維持4個小時的傳思冥想以完成長休，過程中你能保持意識清醒。</p>",
+      "advancement": {
+        "5w2FaHXRKiN7v1rE": {
+          "hint": "中型（約 5 到 6 呎高）"
+        },
+        "High Elf Traits": {
+          "hint": "你可以選擇智力、感知或魅力作為你的施法屬性。",
+          "title": "高等精靈特質"
+        },
+        "Keen Senses": {
+          "hint": "你獲得洞悉、察覺或求生中一項技能的熟練項。",
+          "title": "敏銳感官"
+        },
+        "Elf Traits": {
+          "title": "精靈特質"
+        }
+      },
+      "name": "高等精靈"
+    },
+    "Human": {
+      "advancement": {
+        "Versatile": {
+          "hint": "你獲得一樣你所選擇的起源專長，推薦選擇技巧嫻熟",
+          "title": "多才多藝"
+        },
+        "dLxv96vt2B2KOEe2": {
+          "hint": "中型（約 4 到 7 呎高）或小型（約 2 到 4 呎高），於你選擇此種族時決定。"
+        },
+        "Skillful": {
+          "title": "技藝嫻熟",
+          "hint": "你獲得一項你所選擇的技能熟練。"
+        },
+        "Human Traits": {
+          "title": "人類特質"
+        }
+      },
+      "name": "人類",
+      "description": "<p>人類遍布整個多元宇宙，他們種類繁雜，人數眾多， 努力在有限的年限裡取得盡可能多的成就。他們的雄心壯志和足智多謀在許多地方都受到讚揚、尊重和敬畏。</p><p>人類的外貌和地球上的人一樣多種多樣，也有著許多信仰。學者們對人類的起源存在爭議，但據說最早的人類聚集地在印記城——一座位於多元宇宙中心的環形城市，也是通用語的誕生地。正因如此，人類得以穿越到多元宇宙，並將眾門之城所代表的世界互聯送往廣袤天地下的每一個角落。</p><h3 data-anchor=\"human-traits\">人類特性</h3><p><strong>生物類型：</strong>類人生物</p><p><strong>體型：</strong>中型（約4~7呎高）或小型（約2~4呎高），當你選擇此種族時決定</p><p><strong>速度：</strong>30呎</p><p>作為人類，你擁有這些額外特性</p><p><strong>【足智多謀】</strong>每當你完成一次長休時，你獲得英雄激勵。</p><p><strong>【技藝嫻熟】</strong>你獲得一項你所選擇的技能熟練。</p><p><strong>【多才多藝】</strong>你獲得一樣你所選擇的起源專長（見第5章），推薦選擇技巧嫻熟</p>"
+    },
+    "Tiefling, Infernal": {
+      "advancement": {
+        "Infernal Tiefling Traits": {
+          "hint": "你具有對火焰傷害的抗性",
+          "title": "煉獄提夫林特質"
+        },
+        "gMovXMwHeD9cCL99": {
+          "title": "煉獄提夫林特質",
+          "hint": "智力、感知或魅力是你以此特性施放法術的施法屬性。"
+        },
+        "ol3SWLw2FTNEiXrb": {
+          "hint": "智力、感知或魅力是你以此特性施放法術的施法屬性。",
+          "title": "煉獄提夫林特質"
+        },
+        "Otherworldly Presence": {
+          "title": "異界姿態"
+        },
+        "lskxIeib6rIreZ1h": {
+          "hint": "中型（約 4 到 7 呎高）或小型（約 3 到 4 呎高）"
+        },
+        "cj8h25IH0Zvdy3Bm": {
+          "title": "煉獄提夫林特質",
+          "hint": "智力、感知或魅力是你以此特性施放法術的施法屬性。"
+        },
+        "Tiefling Traits": {
+          "title": "提夫林特質"
+        }
+      },
+      "name": "煉獄提夫林",
+      "description": "<p>提夫林不是一開始就出生在下層位面，就是其血脈被下層位面的邪魔浸汙。提夫林是與魔鬼、惡魔或其他邪魔有血緣關係的存在。這種與下層位面的連結帶給了提夫林某種邪魔遺贈，這是一種應許的力量，但不會影響提夫林自身的道德觀。</p><p>提夫林可能因這份邪魔遺贈而放任自流或是哀痛不安。</p><h3 data-anchor=\"infernal\">煉獄血系</h3><p>煉獄遺贈不僅將提夫林與焦炎煉獄相連，還將他們與九獄和修羅般的地獄戰場相連。犄角、尖刺、尾巴、金色的眼睛和淡淡的硫磺味或煙塵味是這些提夫林常見的生理特徵，其中大多數提夫林的先祖都是魔鬼。</p><h3 data-anchor=\"tiefling-traits\">提夫林特性</h3><p><strong>生物類型：</strong>類人生物</p><p><strong>體型：</strong>中型（約4~7呎高）或小型（約3~4呎高），當你選擇此種族時決定</p><p><strong>速度：</strong>30呎</p><p>作為一位提夫林，你擁有下列特性。</p><p><strong>【黑暗視覺】</strong>你擁有60呎的黑暗視覺。</p><p><strong>【邪魔遺贈】</strong>邪魔遺贈的傳承賦予你超自然的能力。</p><p>當你的角色等級達到3與5級時，你將習得更高環階的法術，如表中所示。你始終準備這些法術，你可以在不消耗法術位的情況下施放這些法術各一次，並在你完成一次長休時重獲以此方式施法的能力。你也可以使用相應環階的法術位來施展這些法術。智力、感知或魅力是你以此特性施放法術的施法屬性（當你選擇遺贈時你所選擇的屬性）。</p><p><strong>【異界姿態】</strong> 你知曉@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplThaumaturg]{奇術}戲法。當你以此特性施放時，該法術使用的施法屬性與你所使用的邪魔遺贈特性相同。</p><table><caption>【邪魔遺贈】</caption><thead><tr><td>等級1</td><td>等級3</td><td>等級5</td></tr></thead><tbody><tr><td>你具有對火焰傷害的抗性，此外你也知曉@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplFireBolt00]戲法。</td><td>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplHellishReb]</td><td>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplDarkness00]</td></tr></tbody></table>"
+    },
+    "Orc": {
+      "advancement": {
+        "Orc Traits": {
+          "title": "獸人特質"
+        },
+        "B2sUOuY0KhoULqlX": {
+          "hint": "中型（約 6 到 7 呎高）"
+        }
+      },
+      "name": "獸人",
+      "description": "<p>獸人的起源可以追溯到格烏什，他是一位強大的神明， 曾在物質位面廣闊的空間中遊蕩。格烏什為他的子嗣們準備了各種賜福，幫助他們穿行廣袤的平原、巨大的洞穴和洶湧的海洋，面對潛伏在那些地方的各種怪物。即使他們轉而信奉其他神靈，獸人仍保留著格烏什賜予的力量：耐力、決心以及在黑暗中視物的能力。</p><p>獸人大多身高體寬。它們的皮膚泛灰，耳朵尖尖的，下犬齒突出，如同細小獠牙。一些世界的獸人青年獲悉了他們祖先的偉大遠行和苦難。受這些故事的啟發，許多獸人等待著格烏什的召喚，與神明一同重現昔日的英雄事跡，並以此證明自己值得格烏什的青睞。當然，也有些獸人樂於將傳說留在過去，進而尋找屬於自己的道路。</p><h3 data-anchor=\"orc-traits\">獸人特性</h3><p><strong>生物類型：</strong>類人生物</p><p><strong>體型：</strong>中型（約6~7呎高）</p><p><strong>速度：</strong>30呎</p><p>作為獸人，你擁有這些額外特性</p><p><strong>【血脈狂湧】</strong>你可以以一個附贈動作採取疾走動作。當你這麼做時，你獲得等同於你熟練加值的林時生命值。你可以使用此特性的次數等同於你的熟練加值，並且當你完成一次短休或長休後，你恢復所有已消耗的使用次數。</p><p><strong>【黑暗視覺】</strong>你擁有120呎的黑暗視覺。</p><p><strong>【不屈韌性】</strong>當你生命值被降至0，但沒有立即死亡時，你可以改為將生命值降至1。一旦你使用此特性，直到你完成一次長休前，你無法再次使用。</p>"
+    },
+    "Gnome, Rock": {
+      "advancement": {
+        "Rock Gnome Traits": {
+          "title": "岩侏儒特質",
+          "hint": "你可以選擇智力、感知或魅力作為你的施法屬性。"
+        },
+        "Gnome Traits": {
+          "title": "侏儒特質"
+        },
+        "O7gYRGMSW3atQ2Yc": {
+          "hint": "小型（約 3 到 4 呎高）"
+        }
+      },
+      "name": "岩侏儒",
+      "description": "<p>侏儒是發明之神、幻象之神和地下生活之神創造的神奇生物。由於侏儒生性隱秘，喜歡住在深林和洞穴中，所以原初的侏儒很少被目擊到。侏儒用聰明才智彌補了體型上的矮小。他們用陷阱和錯綜複雜的隧道迷惑掠食者。加爾．閃金、貝爾凡．野遊者和巴瑞瓦．影斗篷等神祇也曾喬裝打扮與侏儒們相會，並賜予了他們魔法。而這種魔法最終創造了森林侏儒和岩侏儒的血系。</p><p>侏儒身材嬌小，長著大眼睛和尖耳朵，壽命約為 425 歲。許多侏儒喜歡頭頂有屋頂的感覺，即使這個「屋頂」只是一頂帽子。</p><h3 data-anchor=\"gnome-traits\">侏儒特性</h3><p><strong>生物類型：</strong>類人生物</p><p><strong>體型：</strong>小型（約3~4呎高）</p><p><strong>速度：</strong>30呎</p><p>作為侏儒，你擁有這些額外特性</p><p><strong>【黑暗視覺】</strong>你擁有60呎的黑暗視覺。</p><p><strong>【侏儒狡黠】</strong>你在智力、感知、魅力的豁免檢定上具有優勢。</p><p><strong>【侏儒血系】</strong>你屬於一支賦予你超自然能力的血系。你屬於一支賦予你超自然能力的血系。無論你選擇哪一血系，智力、感知或魅力是你以此特性施放法術的施法屬性（當你選擇血系時選擇屬性）：</p><p><strong><em>岩侏儒　</em></strong>你知曉@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplMending000]與@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplPrestidigi]戲法。此外，你可以花費10分鐘施放<em>魔法技倆</em>以創造一個微型發條裝置（AC 5, 1 HP），例如一個玩具、打火機或音樂盒。當你創造裝置時，你可以選擇一項 <em>魔法技倆</em>的效果作為裝置的功能；每當你或另一生物採取附贈動作以觸碰來啟用裝置時，該裝置將產生相應的效果。若所選效果包含選項，則在你創造裝置時選擇其中一項。例如，若你選擇法術的點火／熄火效果，則你決定裝置可以點火或是熄火，無法同時實現。同一時間你最多可以保留三個這樣的裝置，每個裝置會在被創造的 8 小時後停止運作，你也可以在觸碰時執行使用動作來將其拆除。</p>"
+    },
+    "Elf, Wood": {
+      "advancement": {
+        "FRJszO7cYchbaGzt": {
+          "hint": "你可以選擇智力、感知或魅力作為你的施法屬性。",
+          "title": "木精靈特質"
+        },
+        "zFsEPXauTgmYxqiJ": {
+          "title": "木精靈特質",
+          "hint": "你可以選擇智力、感知或魅力作為你的施法屬性。"
+        },
+        "Wood Elf Traits": {
+          "title": "木精靈特質"
+        },
+        "5w2FaHXRKiN7v1rE": {
+          "hint": "中型（約 5 到 6 呎高）"
+        },
+        "Elf Traits": {
+          "title": "精靈特質"
+        },
+        "Keen Senses": {
+          "title": "敏銳感官",
+          "hint": "你獲得洞悉、察覺或求生中一項技能的熟練項。"
+        }
+      },
+      "name": "木精靈",
+      "description": "<p>神靈柯瑞隆創造了第一批精靈，他們可以隨心所欲地變換自己的肉體形態。但因為精靈曾與叛神羅絲密謀顛覆柯瑞隆的統治而失敗，柯瑞隆詛咒了他們，使其失去了自由變換形體的能力。即使此後羅絲被打入了深淵，大多數精靈不再信仰她從而獲得了柯瑞隆的寬恕，但是被奪去的能力不再復還。</p><p>精靈們再也無法隨意變形，他們退居到了妖精荒野，卻受這個位面的影響讓悲傷越來越刻骨銘心。隨著時間一點一滴過去，好奇心驅使著一部分精靈開始探索其他位面，其中就包含了物質位面。</p><p>精靈的耳朵尖尖的，沒有鬍子也沒有體毛。他們的壽命約為 750 年，不需要睡眠但會在需要休息時傳思。在這個狀態下，他們沉浸於回憶過往的冥想中，卻仍然保持著對周圍環境的感知。</p><p>在千年的時光中，環境潛移默化地改變了精靈，並給予了他們特定的魔法。卓爾，高等精靈，以及木精靈都是這一系列變化的結果。</p><h3 data-anchor=\"wood-elves\">木精靈</h3><p>木精靈體內蘊藏著原始森林的魔力。他們還有許多其他名字，包括野精靈、綠精靈和森林精靈。戈魯蓋奇是灰鷹世界中隱居的木精靈，而卡崗納斯提精靈和泰倫那多人則分別是龍槍和艾伯倫世界中的木精靈。</p><h3 data-anchor=\"elf-traits\">精靈特性</h3><p><strong>生物類型：</strong>類人生物</p><p><strong>體型：</strong>中型（約5~6呎高）</p><p><strong>速度：</strong>30呎</p><p>作為精靈，你擁有這些額外特性</p><p><strong>【黑暗視覺】</strong>你擁有60呎的黑暗視覺。</p><p><strong>【精靈血系】</strong>你屬於一支賦予你超自然能力的血系。</p><p>當你的角色等級達到3與5級時，你將習得一個更高環位的法術，如表上所示。你始終準備這些法術，你可以在不消耗法術位的情況下施放這些法術各一次，並在你完成一次長休時重獲以該方式施法的能力。你也可以使用相應環階的法術位來施放這些法術。智力、感知或魅力是你以此特性施放法術的施法屬性（當你選擇血系時由你所選擇的屬性）</p><table><caption>Wood Elf Lineage Features</caption><thead><tr><td>等級1</td><td>等級3</td><td>等級5</td></tr></thead><tbody><tr><td>你的速度提升到35呎。你也知曉@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplDruidcraft]戲法。</td><td>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplLongstride]</td><td>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplPasswithou]</td></tr></tbody></table><p><strong>【精類血統】</strong>你在避免或結束&amp;Reference[Charmed]狀態所進行的豁免檢定具有優勢。</p><p><strong>【敏銳感官】</strong>你獲得洞悉、察覺或求生中一項技能的熟練項。</p><p><strong>【傳思】</strong>你不需要睡眠，並且魔法無法讓你入睡。你可以維持4個小時的傳思冥想以完成長休，過程中你能保持意識清醒。</p>"
+    },
+    "Fiendish Legacy, Abyssal": {
+      "name": "深淵邪魔遺贈",
+      "description": "<p>邪魔遺贈的傳承賦予你超自然的能力。</p><p>當你的角色等級達到3與5級時，你將習得更高環階的法術，如表中所示。你始終準備這些法術，你可以在不消耗法術位的情況下施放這些法術各一次，並在你完成一次長休時重獲以此方式施法的能力。你也可以使用相應環階的法術位來施展這些法術。智力、感知或魅力是你以此特性施放法術的施法屬性（當你選擇遺贈時你所選擇的屬性）。</p><h3 data-anchor=\"abyssal\">深淵</h3><p>無底深淵的熵能，喧癲空隧的混亂，卡瑟利的絕望， 這一切的一切都在呼喚著擁有深淵遺贈的提夫林。犄角、皮毛、獠牙和奇特的氣味是這些提夫林常見的外貌特徵，其中大多數人的血管中都流淌著邪魔的血液。</p><table><caption>深淵遺贈特性</caption><thead><tr><td>等級1</td><td>等級3</td><td>等級5</td></tr></thead><tbody><tr><td>你具有對毒素傷害的抗性，此外你也知曉 @UUID[Compendium.dnd-players-handbook.spells.Item.phbsplPoisonSpra]戲法。</td><td>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplRayofSickn]</td><td>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplHoldPerson]</td></tr></tbody></table><section class=\"secret\" id=\"secret-AZFLMUN7pgAxMG7Q\"><p><strong>Foundry Note</strong></p><p>The Resistance and spells are granted to you automatically and you will be prompted to choose the spellcasting ability during advancement.</p></section>"
+    },
+    "Adrenaline Rush": {
+      "name": "血脈狂湧",
+      "description": "<p>你可以以一個附贈動作採取疾走動作。當你這麼做時，你獲得等同於你熟練加值的林時生命值。你可以使用此特性的次數等同於你的熟練加值，並且當你完成一次短休或長休後，你恢復所有已消耗的使用次數。</p>",
+      "activities": {
+        "Adrenaline Rush: Dash": {
+          "name": "血脈狂湧：疾走"
+        }
+      }
+    },
+    "Brave": {
+      "description": "<p>你在避免或結束&amp;Reference[Frightened]狀態時所進行的豁免檢定具有優勢。</p>",
+      "name": "勇氣"
+    },
+    "Breath Weapon": {
+      "activities": {
+        "Breath Weapon (Cone)": {
+          "name": "噴吐武器（錐形）"
+        },
+        "Breath Weapon (Line)": {
+          "name": "噴吐武器（線性）"
+        }
+      },
+      "description": "<p>當你在自己回合採取攻擊動作時，你可以呼出魔法能量來替代其中一次攻擊，15呎錐形範圍或長30呎寬5呎的直線範圍（每次使用時選擇）。該區域內的每個生物必須進行敏捷豁免檢定（DC = 8 + 你的熟練加值 + 你的體質調整值）。豁免失敗的生物承受1d10被你的龍族血統特性所決定類型的傷害。豁免成功的生物僅承受一半傷害。此傷害在角色到達 5 級時增加到 2d10，11 級為 3d10，17 級為 4d10。你可以使用此噴吐武器的次數等同於你的熟練加值，並在你完成長休時重獲所有已消耗的使用次數。</p><section class=\"secret\" id=\"secret-iuhfGfxgl8GeYWBf\"><p><strong>Foundry Note</strong></p><p>The <strong>Breath Weapon (Cone)</strong> and <strong>Breath Weapon (Line)</strong> activities are both configured for their template type and include each type of damage. The damage also scales as you level up.</p><p>You can select the damage type in the damage roll's dialog box. It will remember your damage choice afterwards. You can edit the activities to remove the other damage types to skip this.</p></section>",
+      "name": "噴吐武器"
+    },
+    "Fiendish Legacy, Chthonic": {
+      "description": "<p>邪魔遺贈的傳承賦予你超自然的能力。</p><p>當你的角色等級達到3與5級時，你將習得更高環階的法術，如表中所示。你始終準備這些法術，你可以在不消耗法術位的情況下施放這些法術各一次，並在你完成一次長休時重獲以此方式施法的能力。你也可以使用相應環階的法術位來施展這些法術。智力、感知或魅力是你以此特性施放法術的施法屬性（當你選擇遺贈時你所選擇的屬性）。</p><h3 data-anchor=\"chthonic\">幽冥血系</h3><p>擁有幽冥遺贈的提夫林不僅能感受到卡瑟利的牽引，還能感受到焦炎煉獄的貪婪和哈迪斯的晦暗。這些提夫林中有些看起來如同屍體，有些卻擁有魅魔的超凡脫俗之美，還有一部分提夫林的外貌特徵與夜鬼婆、尤格羅斯魔或其他中立邪惡的邪魔先祖相同。</p><table><caption>幽冥遺贈特性</caption><thead><tr><td>等級1</td><td>等級3</td><td>等級5</td></tr></thead><tbody><tr><td>你具有對黯蝕傷害的抗性，此外你也知曉@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplChillTouch]戲法。</td><td>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplFalseLife0]</td><td>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplRayofEnfee]</td></tr></tbody></table><section class=\"secret\" id=\"secret-GmBAOZVbkBYItbCL\"><p><strong>Foundry Note</strong></p><p>The Resistance and spells are granted to you automatically and you will be prompted to choose the spellcasting ability during advancement.</p></section>",
+      "name": "幽冥邪魔遺贈"
+    },
+    "Cloud's Jaunt": {
+      "name": "雲步穿行",
+      "description": "<p>作為一個附贈動作，你魔法般地傳送到最多30呎一處你所能看見且未被占據的空間。</p>",
+      "activities": {
+        "Cloud's Jaunt": {
+          "name": "雲步穿行"
+        }
+      }
+    },
+    "Draconic Flight": {
+      "description": "<p>當你的角色達到5級時，你可以引導龍族魔法讓自己短暫飛行。作為附贈動作，你的背上顯現持續 10 分鐘的幽靈之翼。你也可以主動收回翅膀（無需動作），或當你陷入失能狀態時翅膀將提前消失。在該期間， 你獲得等同於你速度的飛行速度。你的翅膀看起來與你的噴吐武器是相同類型的能量所構成的。一旦你使用此特性，直到你完成一次長休之前，你無法再次使用。</p><section id=\"secret-pP4PH5jVYBp1OEa3\" class=\"secret\"><p><strong>Foundry Note</strong></p><p>This feature includes an Active Effect for tracking but it does not automatically grant the Fly Speed.</p></section>",
+      "name": "龍翔天際",
+      "effects": {
+        "Draconic Flight": {
+          "name": "龍翔天際"
+        }
+      },
+      "activities": {
+        "Draconic Flight": {
+          "name": "龍翔天際"
+        }
+      }
+    },
+    "Elven Lineage, Drow": {
+      "name": "卓爾精靈血系",
+      "description": "<p>你屬於一支賦予你超自然能力的血系。</p><p>當你的角色等級達到3與5級時，你將習得一個更高環位的法術，如表上所示。你始終準備這些法術，你可以在不消耗法術位的情況下施放這些法術各一次，並在你完成一次長休時重獲以該方式施法的能力。你也可以使用相應環階的法術位來施放這些法術。智力、感知或魅力是你以此特性施放法術的施法屬性（當你選擇血系時由你所選擇的屬性）</p><h3>Drow Lineage Features</h3><table><thead><tr><td><p>等級1</p></td><td><p>等級3</p></td><td><p>等級5</p></td></tr></thead><tbody><tr><td><p>你的黑暗視覺範圍提升到120呎。你也知曉@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplDancingLig]戲法。</p></td><td><p>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplFaerieFire]</p></td><td><p>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplDarkness00</p></td></tr></tbody></table><section class=\"secret\" id=\"secret-9CEnkbCgcLTJ03JL\"><p><strong>Foundry Note</strong></p><p>當你選擇該種族並隨著等級提升時，會自動獲得相應的特性與法術。</p></section>"
+    },
+    "Dwarven Resilience": {
+      "name": "矮人抗性",
+      "description": "<p>你對毒素具有抗性。你在避免或結束中毒狀態時所進行的豁免檢定也具有優勢</p><section id=\"secret-EDaMIgklKLK2il2D\" class=\"secret\"><p><strong>Foundry Note</strong></p><p>You will automatically be granted Resistance to Poison damage but not Advantage on saving throws to avoid/end the Poisoned condition.</p></section>"
+    },
+    "Dwarven Toughness": {
+      "description": "<p>你的生命最大值提升1點，並且每當你獲得1級時再次提升1點。</p><section class=\"secret\" id=\"secret-FK9DFLudP5EzEss9\"><p><strong>Foundry Note</strong></p><p>The Hit Point maximum increase is handled automatically each level.</p></section>",
+      "name": "矮人韌性",
+      "effects": {
+        "Dwarven Toughness": {
+          "name": "矮人韌性"
+        }
+      }
+    },
+    "Fey Ancestry": {
+      "name": "精類血統",
+      "description": "<p>你在避免或結束&amp;Reference[Charmed]狀態所進行的豁免檢定具有優勢。</p>"
+    },
+    "Fire's Burn": {
+      "activities": {
+        "Burn": {
+          "condition": "當你的攻擊檢定命中目標並對其造成傷害時",
+          "name": "燃燒"
+        }
+      },
+      "name": "星火燎原",
+      "description": "<p>當你的攻擊檢定命中目標並對其造成傷害時，你可以對該目標造成1d10火焰傷害。</p>"
+    },
+    "Gnomish Lineage, Forest": {
+      "name": "森林侏儒血系",
+      "description": "<p>你知曉@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplMinorIllus]戲法，此外你也始終準備@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplSpeakwithA]。你可以在不消耗法術位的情況下施放此法術的次數等同於你的熟練加值，並在你完成一次長休時，重獲所有已消耗次數。你也可以使用相應環階的法術位施放該法術。</p><section id=\"secret-CwVBuqSGI27gl6R9\" class=\"secret\"><p><strong>Foundry Note</strong></p><p>The free castings are included in the spell.</p></section>"
+    },
+    "Frost's Chill": {
+      "effects": {
+        "Chilled": {
+          "name": "凍結"
+        }
+      },
+      "description": "<p>當你的攻擊檢定命中目標並對其造成傷害時，你可以對該目標造成1d6寒冷傷害，並且直到你下一回合開始前，減少其10呎速度。</p><section id=\"secret-jxuUuY0r33aiP0zL\" class=\"secret\"><p><strong>Foundry Note</strong></p><p>This feature includes an Active Effect which can be used for tracking and reduces their Speed by 10.</p></section>",
+      "activities": {
+        "Chill": {
+          "condition": "當你的攻擊檢定命中目標並對其造成傷害時",
+          "name": "凜若冰霜"
+        }
+      },
+      "name": "凜若冰霜"
+    },
+    "Giant Ancestry": {
+      "name": "巨人血統",
+      "description": "<p>你是巨人的後裔，從下列先祖恩賜的增益中選擇一項；你可以使用所選增益的次數等同於你的熟練加值，並在你完成一次長休時重獲所有已消耗的使用次數：</p><p><strong>雲步穿行（雲巨人） </strong>作為一個附贈動作，你魔法般地傳送到最多30呎一處你所能看見且未被占據的空間。</p><p><strong>星火燎原（火巨人）</strong>當你的攻擊檢定命中目標並對其造成傷害時，你可以對該目標造成1d10火焰傷害。</p><p><strong>凜若冰霜（冰巨人）</strong>當你的攻擊檢定命中目標並對其造成傷害時，你可以對該目標造成1d6寒冷傷害，並且直到你下一回合開始前，減少其10呎速度。</p><p><strong>地動山搖（山丘巨人） </strong>當你的攻擊檢定命中大型或大型以下的生物並對其造成傷害時，你可以使該目標陷入伏地狀態。</p><p><strong>安如磐石（石巨人）</strong>當你承受傷害時，你可以採取反應擲1顆d12。將你的體質調整值與擲骰結果相加，並使傷害減少該總值。</p><p><strong>風暴雷霆（風暴巨人）</strong>當你受到60呎內一個生物的傷害時，你可採取反應對該生物造成1d8的雷鳴傷害。</p>"
+    },
+    "Gnomish Cunning": {
+      "description": "<p>你在智力、感知、魅力的豁免檢定中具有優勢。</p>",
+      "name": "侏儒狡黠"
+    },
+    "Halfling Nimbleness": {
+      "name": "半身人靈巧",
+      "description": "<p>你可以穿過任何體型比你大的生物所在的空間，但你無法在同一空間停留。</p>"
+    },
+    "Elven Lineage, High Elf": {
+      "name": "高等精靈血系",
+      "description": "<p>你屬於一支賦予你超自然能力的血系。</p><p>當你的角色等級達到3與5級時，你將習得一個更高環位的法術，如表上所示。你始終準備這些法術，你可以在不消耗法術位的情況下施放這些法術各一次，並在你完成一次長休時重獲以該方式施法的能力。你也可以使用相應環階的法術位來施放這些法術。智力、感知或魅力是你以此特性施放法術的施法屬性（當你選擇血系時由你所選擇的屬性）</p><table><caption>高等精靈特性</caption><thead><tr><td>等級1</td><td>等級3</td><td>等級5</td></tr></thead><tbody><tr><td>你知曉@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplPrestidigi]戲法。每當你完成一次長休時，你可以從 @UUID[Compendium.dnd-players-handbook.content.JournalEntry.phbSpells0000000.JournalEntryPage.6AnqLUowgdsqMFvz]{法師法術列表}替換一種不同的戲法。</td><td>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplDetectMagi]</td><td>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplMistyStep0]</td></tr></tbody></table><section class=\"secret\" id=\"secret-9CEnkbCgcLTJ03JL\"><p><strong>Foundry Note</strong></p><p>當你選擇該種族並隨著等級提升時，會自動獲得相應的特性與法術。</p></section>"
+    },
+    "Hill's Tumble": {
+      "activities": {
+        "Hill's Tumble": {
+          "condition": "當你的攻擊檢定命中大型或大型以下的生物並對其造成傷害時",
+          "name": "地動山搖"
+        }
+      },
+      "description": "<p>當你的攻擊檢定命中大型或大型以下的生物並對其造成傷害時，你可以使該目標陷入&amp;Reference[Prone]狀態。</p>",
+      "name": "地動山搖"
+    },
+    "Fiendish Legacy, Infernal": {
+      "description": "<p>邪魔遺贈的傳承賦予你超自然的能力。</p><p>當你的角色等級達到3與5級時，你將習得更高環階的法術，如表中所示。你始終準備這些法術，你可以在不消耗法術位的情況下施放這些法術各一次，並在你完成一次長休時重獲以此方式施法的能力。你也可以使用相應環階的法術位來施展這些法術。智力、感知或魅力是你以此特性施放法術的施法屬性（當你選擇遺贈時你所選擇的屬性）。</p><h3 data-anchor=\"infernal\">煉獄血系</h3><p>煉獄遺贈不僅將提夫林與焦炎煉獄相連，還將他們與九獄和修羅般的地獄戰場相連。犄角、尖刺、尾巴、金色的眼睛和淡淡的硫磺味或煙塵味是這些提夫林常見的生理特徵，其中大多數提夫林的先祖都是魔鬼。</p><table><caption>煉獄遺贈特性</caption><thead><tr><td>等級1</td><td>等級3</td><td>等級5</td></tr></thead><tbody><tr><td>你具有對毒素傷害的抗性，此外你也知曉@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplPoisonSpra]戲法。</td><td>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplRayofSickn]</td><td>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplHoldPerson]</td></tr></tbody></table><section class=\"secret\" id=\"secret-UpLnecebx3jeydEG\"><p><strong>Foundry Note</strong></p><p>The Resistance and spells are granted to you automatically and you will be prompted to choose the spellcasting ability during advancement.</p></section>",
+      "name": "煉獄邪魔遺贈"
+    },
+    "Keen Senses": {
+      "description": "<p>你具有洞悉、察覺或生存其中一項技能熟練。</p><section id=\"secret-Tecxufp7EFDVqTEY\" class=\"secret\"><p><strong>Foundry Note</strong></p><p>You will be prompted for your choice after selecting this species.</p></section>",
+      "name": "敏銳感官"
+    },
+    "Large Form": {
+      "activities": {
+        "Enlarge": {
+          "name": "巨化身形"
+        }
+      },
+      "description": "<p>角色等級達到5級時，若你在足夠大的空間，你可以用附贈動作將你的體型變為大型。此變身持續10分鐘或直到你主動結束（無須動作）。在持續時間內，你在力量檢定上具有優勢，並且你的速度提升10呎。一旦你使用此特性，直到完成一次長休前，你無法再次使用。</p><section class=\"secret\" id=\"secret-MnS2QCGjgh6nXxEa\"><p><strong>Foundry Note</strong></p><p>This feature includes an Active Effect which automatically increases your walking Speed but does not automate the Advantage.</p></section>",
+      "effects": {
+        "Large Form": {
+          "name": "巨化形體"
+        }
+      },
+      "name": "巨化形體"
+    },
+    "Luck": {
+      "description": "<p>當你在D20檢定中的d20擲出1時，你可以重骰，並且必須使用新的結果。</p>",
+      "effects": {
+        "Luck": {
+          "name": "幸運"
+        }
+      },
+      "name": "幸運"
+    },
+    "Naturally Stealthy": {
+      "name": "天生善匿",
+      "description": "<p>即便只受體型比你大一級以上的生物遮蔽，你也可以採取&amp;Reference[Hide]動作。</p>"
+    },
+    "Otherworldly Presence": {
+      "description": "<p>你知曉@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplThaumaturg]{奇術}戲法。當你以此特性施放時，該法術使用的施法屬性與你所使用的邪魔遺贈特性相同。</p><section id=\"secret-i3PjM9HLuO2Xcae7\" class=\"secret\"><p><strong>Foundry Note</strong></p><p>When you're granted this spell it will allow you to choose your spellcasting ability.</p></section>",
+      "name": "異界姿態"
+    },
+    "Powerful Build": {
+      "effects": {
+        "Powerful Build": {
+          "name": "身強力壯"
+        }
+      },
+      "name": "身強力壯",
+      "description": "<p>你在結束&amp;Reference[Grappled]狀態時所進行的能力檢定具有優勢。在決定你的載重能力時，你視為體型大一級的生物。</p><section class=\"secret\" id=\"secret-7qaTRjmRe4PD41G3\"><p><strong>Foundry Note</strong></p><p>This feature includes an Active Effect which automatically upgrades your size when determining carrying capacity.</p></section>"
+    },
+    "Relentless Endurance": {
+      "activities": {
+        "Relentlessly Endure": {
+          "name": "不屈韌性",
+          "condition": "當你生命值被降至0但沒有立即死亡時"
+        }
+      },
+      "description": "<p>當你生命值被降至0，但沒有立即死亡時，你可以改為將生命值降至1。一旦你使用此特性，直到你完成一次長休前，你無法再次使用。</p>",
+      "name": "不屈韌性"
+    },
+    "Resourceful": {
+      "name": "足智多謀",
+      "description": "<p>每當你完成一次長休時，你獲得英雄激勵。</p>"
+    },
+    "Gnomish Lineage, Rock": {
+      "name": "岩侏儒血系法術",
+      "description": "<p>你知曉@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplMending000]與@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplPrestidigi]戲法。此外，你可以花費10分鐘施放<em>魔法技倆</em>以創造一個微型發條裝置（AC 5, 1 HP），例如一個玩具、打火機或音樂盒。當你創造裝置時，你可以選擇一項 <em>魔法技倆</em>的效果作為裝置的功能；每當你或另一生物採取附贈動作以觸碰來啟用裝置時，該裝置將產生相應的效果。若所選效果包含選項，則在你創造裝置時選擇其中一項。例如，若你選擇法術的點火／熄火效果，則你決定裝置可以點火或是熄火，無法同時實現。同一時間你最多可以保留三個這樣的裝置，每個裝置會在被創造的 8 小時後停止運作，你也可以在觸碰時執行使用動作來將其拆除。</p>"
+    },
+    "Skillful": {
+      "description": "<p>你獲得一項你所選擇的技能熟練。</p><section id=\"secret-lvP62g2xTxkz2VN3\" class=\"secret\"><p><strong>Foundry Note</strong></p><p>You will be prompted for this choice when you select this Species.</p></section>",
+      "name": "技藝嫻熟"
+    },
+    "Stonecunning": {
+      "description": "<p>作為附贈動作，你獲得持續 10 分鐘60呎範圍的&amp;Reference[Tremorsense]。你必須站在石質表面上，或與石質表面接觸才能使用此震顫感知。這些石質可以是天然形成的，也可以是人工打造的。你可以使用此附贈動作的次數等同於你的熟練加值，並在你完成一次長休時，重獲所有已消耗的使用次數。</p><section class=\"secret\" id=\"secret-7BtT80083mC3Eavg\"><p><strong>Foundry Note</strong></p><p>This feature includes the limited uses and an Active Effect that grants you the 60 feet of Tremorsense. It does not automatically update your Token's vision settings.</p></section>",
+      "activities": {
+        "Stonecunning": {
+          "name": "石中精妙"
+        }
+      },
+      "name": "石中精妙",
+      "effects": {
+        "Stonecunning": {
+          "name": "石中精妙"
+        }
+      }
+    },
+    "Stone's Endurance": {
+      "description": "<p>當你承受傷害時，你可以採取反應擲1顆d12。將你的體質調整值與擲骰結果相加，並使傷害減少該總值。</p>",
+      "activities": {
+        "heal": {
+          "condition": "當你受到傷害"
+        }
+      },
+      "name": "安如磐石"
+    },
+    "Storm's Thunder": {
+      "activities": {
+        "Storm's Thunder": {
+          "condition": "當你受到60呎內一個生物的傷害時",
+          "name": "風暴雷霆"
+        }
+      },
+      "name": "風暴雷霆",
+      "description": "<p>當你受到60呎內一個生物的傷害時，你可採取反應對該生物造成1d8的雷鳴傷害。</p>"
+    },
+    "Trance": {
+      "name": "傳思",
+      "description": "<p>你不需要睡眠，並且魔法無法讓你入睡。你可以維持4個小時的傳思冥想以完成長休，過程中你能保持意識清醒。</p>"
+    },
+    "Versatile": {
+      "name": "多才多藝",
+      "description": "<p>你獲得一樣你所選擇的@UUID[Compendium.dnd-players-handbook.content.JournalEntry.phbFeats00000000.JournalEntryPage.otAeQs0TLHYIBNuj]{起源專長}，推薦選擇@UUID[Compendium.dnd-players-handbook.feats.Item.phbftSkilled0000]。</p><section id=\"secret-9E1yve6WHohyBage\" class=\"secret\"><p><strong>Foundry Note</strong></p><p>You will be prompted for your choice when you select this Species.</p></section>"
+    },
+    "Elven Lineage, Wood Elf": {
+      "name": "木精靈血系",
+      "description": "<p>你屬於一支賦予你超自然能力的血系。</p><p>當你的角色等級達到3與5級時，你將習得一個更高環位的法術，如表上所示。你始終準備這些法術，你可以在不消耗法術位的情況下施放這些法術各一次，並在你完成一次長休時重獲以該方式施法的能力。你也可以使用相應環階的法術位來施放這些法術。智力、感知或魅力是你以此特性施放法術的施法屬性（當你選擇血系時由你所選擇的屬性）</p><table><caption>木精靈血系特性</caption><thead><tr><td>等級1</td><td>等級3</td><td>等級5</td></tr></thead><tbody><tr><td>你的速度提升到35呎。你也知曉 @UUID[Compendium.dnd-players-handbook.spells.Item.phbsplDruidcraft]戲法。</td><td>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplLongstride]</td><td>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplPasswithou]</td></tr></tbody></table><section class=\"secret\" id=\"secret-9CEnkbCgcLTJ03JL\"><p><strong>Foundry Note</strong></p><p>當你選擇該種族並隨著等級提升時，會自動獲得相應的特性與法術。</p></section>"
+    }
+  }
 }

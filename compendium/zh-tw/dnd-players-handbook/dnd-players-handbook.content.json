@@ -10,5 +10,507 @@
     "Chapter 7": "Chapter 7",
     "Appendices": "Appendices"
   },
-  "entries": {}
+  "entries": {
+    "Barbarian": {
+      "name": "野蠻人",
+      "description": "<blockquote><p>原始狂怒的兇猛戰士</p></blockquote><h3>野蠻人核心特性</h3><table class=\"core-class-traits\"><tbody><tr><th scope=\"row\"><p>關鍵屬性</p></th><td><p>力量</p></td></tr><tr><th><p><strong>生命骰</strong></p></th><td><p>每野蠻人等級D12</p></td></tr><tr><th><p><strong>豁免熟練</strong></p></th><td><p>力量和體質</p></td></tr><tr><th><p><strong>技能熟練</strong></p></th><td><p><em>選擇2個：</em>馴獸、運動、威嚇、自然、察覺或求生</p></td></tr><tr><th><p><strong>武器熟練</strong></p></th><td><p>簡易武器和軍用武器</p></td></tr><tr><th><p><strong>護甲訓練</strong></p></th><td><p>輕甲、中甲、盾牌</p></td></tr><tr><th><p><strong>起始裝備</strong></p></th><td><p><em>選擇A或B：</em> (A) @UUID[Compendium.dnd-players-handbook.equipment.Item.phbwepGreataxe00]、4個@UUID[Compendium.dnd-players-handbook.equipment.Item.phbwepHandaxe000]、@UUID[Compendium.dnd-players-handbook.equipment.Item.phbagExplorersPa]、[[/award 15GP]]; or (B) [[/award 75GP]]</p></td></tr></tbody></table><p>野蠻人是強大的戰士，他們由多元宇宙的原初力量所驅動，而這股力量便是「狂暴」。野蠻人的狂暴不只是一種情感，而且是獵食者在絕境中激發的兇暴，是暴風雨般不顧一切的猛襲，也是大海中翻滾不息的波濤。</p><p>有些野蠻人將「狂暴」具象為兇蠻的靈體，或敬仰的先祖；有些野蠻人卻認為狂暴與世界的痛苦悲傷皆有聯繫，還有人認為狂暴是來自狂野魔法的無情糾纏；更有些人認為，狂暴是他們內心最深處的一種自我表達。對所有野蠻人來說，這股狂暴不僅為他們點燃了戰鬥狂熱，更是他們靈活閃避、抵禦傷害和增強力量的源泉。</p><p>野蠻人通常扮演著社群的保護者和領導者。他們往往隻身衝向危險，只為保護他人。敢於面對任何危險的勇氣使野蠻人非常適合冒險。</p><h2>成為野蠻人...</h2><h3>作為首級角色</h3><ul><li>獲得野蠻人核心特徵表中的所有特徵。</li><li>獲得野蠻人特性表中列出的1級特性。</li></ul><h3>作為兼職角色</h3><ul><li>獲得野蠻人核心特徵表中的以下特徵：生命骰、熟練軍用武器、盾牌訓練。</li><li>獲得野蠻人特性表中列出的 1 級特性。</li></ul>",
+      "advancement": {
+        "Rage Damage": {
+          "title": "狂暴傷害"
+        },
+        "Epic Boon": {
+          "title": "史詩恩惠"
+        },
+        "Primal Champion": {
+          "title": "原初勇士",
+          "hint": "你體現了原初的力量。你的力量與體質提升4點，上限為25。"
+        },
+        "Brutal Strike": {
+          "title": "殘暴打擊"
+        },
+        "Saving Throws Proficiencies": {
+          "title": "豁免檢定熟練"
+        },
+        "Skill Proficiencies": {
+          "title": "技能熟練"
+        },
+        "Weapon Proficiencies": {
+          "title": "武器熟練"
+        },
+        "Armor Training": {
+          "title": "護甲訓練"
+        },
+        "Weapon Mastery": {
+          "title": "武器精通",
+          "hint": "你受過武器的訓練，令你能夠使用額外武器的精通屬性。"
+        },
+        "Rages": {
+          "title": "狂暴"
+        },
+        "Weapon Masteries Known": {
+          "title": "已知武器精通"
+        },
+        "Class Features": {
+          "title": "職業特性"
+        },
+        "Primal Knowledge": {
+          "title": "原初知識",
+          "hint": "你獲得1級野蠻人技能列表可用的另一項技能熟練。"
+        }
+      }
+    },
+    "Bard": {
+      "name": "吟遊詩人",
+      "description": "<blockquote><p>集音樂舞蹈魔法於一身的激昂演藝家</p></blockquote><h3>核心吟遊詩人特徵</h3><table class=\"core-class-traits\"><tbody><tr><th><p><strong>關鍵屬性</strong></p></th><td><p>魅力</p></td></tr><tr><th><p><strong>生命骰</strong></p></th><td><p>每吟遊詩人等級D8</p></td></tr><tr><th><p><strong>豁免熟練</strong></p></th><td><p>敏捷和魅力</p></td></tr><tr><th><p><strong>技能熟練</strong></p></th><td><p><em>選擇任意3個技能</em></p></td></tr><tr><th><p><strong>武器熟練</strong></p></th><td><p>簡易武器</p></td></tr><tr><th><p><strong>工具熟練</strong></p></th><td><p><em>選擇3種樂器</em></p></td></tr><tr><th><p><strong>護甲訓練</strong></p></th><td><p>輕甲</p></td></tr><tr><th><p><strong>起始裝備</strong></p></th><td><p><em>選擇A或B：</em> (A) @UUID[Compendium.dnd-players-handbook.equipment.Item.phbarmLeatherArm]、2把@UUID[Compendium.dnd-players-handbook.equipment.Item.phbwepDagger0000]、你所選擇的樂器、@UUID[Compendium.dnd-players-handbook.equipment.Item.phbagEntertainer]、[[/award 19gp]]；或(B) [[/award 90GP]]</p></td></tr></tbody></table><p><strong>通過音樂、舞蹈、詩歌施放魔法，</strong>吟遊詩人是鼓舞他人、撫慰傷痛、打擊敵人和製造幻象的能手。他們認為多元宇宙是被“說”出來的，而那原初的創世真言至今在各個位面迴響。詩人的音樂就是對這迴響的一種操控，試圖將其編織成所需的法術與力量。</p><p>任何事物都可以激發他們創作出新的歌曲或故事，所以詩人往往對萬事萬物都具有好奇心。他們的知識廣博如同大海，演奏音樂施展魔法都是信手拈來，緩和氣氛也是一把好手。</p><p>吟遊詩人的一生都在大地巡遊中度過，他們搜集逸聞、分享故事、然後享受聽眾的掌聲。這跟一般藝人其實沒區別，只是在知識的深度，音樂技巧的層次，對魔法的觸動上，吟遊詩人就不能和那些普通貨色相比了。</p><aside class=\"notable\"><h3>吟遊詩人的表演曲目</h3><p>你的吟遊詩人會一邊擊鼓、一邊高唱遠古英雄的事蹟嗎？彈奏魯特琴、低吟愛情小調？演唱激昂動人的詠嘆調？背誦經典悲劇中的戲劇獨白？運用民間舞蹈的節奏，引導戰場上盟友的動作？還是創作一些不太正經的打油詩？</p><p>當你扮演吟遊詩人時，請思考你偏好的藝術表演風格、你可能喚起的情緒，以及啟發你創作主題的靈感來源。你的詩句是源自對自然美景的讚頌，還是對失落的沉思？你偏好高遠的聖歌，還是熱鬧的酒館小曲？你傾心於為逝者哀悼，還是為歡樂而慶賀？你跳的是歡快的吉格舞，還是華麗繁複的詮釋性編舞？你專精於單一風格，還是追求精通百藝？</p></aside><h2>成為吟遊詩人...</h2><h3>作為首級角色</h3><ul><li>獲得吟遊詩人核心特徵表中的所有特徵。</li><li>獲得吟遊詩人特性表中列出的 1 級特性。</li></ul><h3>作為兼職角色</h3><ul><li>獲得吟遊詩人核心特徵表中下列特徵：生命骰，一項自選技能的熟練，一種自選樂器的熟練，以及輕甲訓練。</li><li>獲得吟遊詩人特性表中列出的 1 級特性。請參閱第 2 章中的兼職規則來確定你的可用法術位。</li></ul>",
+      "advancement": {
+        "Class Features": {
+          "title": "職業特性"
+        },
+        "Max Prepared Spells": {
+          "title": "最大準備法術"
+        },
+        "Cantrips Known": {
+          "title": "已知戲法"
+        },
+        "Expertise": {
+          "title": "專精"
+        },
+        "Epic Boon": {
+          "title": "史詩恩惠"
+        },
+        "Words of Creation": {
+          "title": "創世真言"
+        },
+        "Saving Throw Proficiencies": {
+          "title": "豁免檢定熟練"
+        },
+        "Skill Proficiencies": {
+          "title": "技能熟練"
+        },
+        "Weapon Proficiencies": {
+          "title": "武器熟練"
+        },
+        "Tool Proficiencies": {
+          "title": "工具熟練"
+        },
+        "Armor Training": {
+          "title": "護甲訓練"
+        },
+        "Inspiration Die": {
+          "title": "激勵骰"
+        }
+      }
+    },
+    "Cleric": {
+      "name": "牧師",
+      "description": "<blockquote><p>以神力降下奇蹟的教士</p></blockquote><h3>牧師核心特徵</h3><table class=\"core-class-traits\"><tbody><tr><th scope=\"row\"><p>關鍵屬性</p></th><td><p>感知</p></td></tr><tr><th scope=\"row\"><p>生命骰</p></th><td><p>每牧師等級D8</p></td></tr><tr><th scope=\"row\"><p>豁免熟練</p></th><td><p>感知與魅力</p></td></tr><tr><th scope=\"row\"><p>技能熟練</p></th><td><p>從歷史、洞悉、醫藥、說服、宗教中<em>選擇兩項</em></p></td></tr><tr><th scope=\"row\"><p>武器熟練</p></th><td><p>簡易武器</p></td></tr><tr><th scope=\"row\"><p>護甲訓練</p></th><td><p>輕甲、中甲、盾牌</p></td></tr><tr><th scope=\"row\"><p>起始裝備</p></th><td><p><em>選擇A或B：</em> (A) @UUID[Compendium.dnd-players-handbook.equipment.Item.phbarmChainShirt]、@UUID[Compendium.dnd-players-handbook.equipment.Item.phbarmShield0000]、@UUID[Compendium.dnd-players-handbook.equipment.Item.phbwepMace000000]、@UUID[Compendium.dnd-players-handbook.equipment.Item.phbagHolySymbolV]、@UUID[Compendium.dnd-players-handbook.equipment.Item.phbagPriestsPack]、[[/award 7GP]]； (B) [[/award 110GP]]</p></td></tr></tbody></table><p>牧師們從諸神領域中汲取力量，以之展現奇蹟。受到神祇、神系或其他非凡存在的祝福，牧師得以感應到神明所在的外層位面之力，並將那神聖的魔法用於普渡眾生，懲擊敵寇。</p><p>牧師們的力量即是神明的恩賜，因此他們常常侍奉於那些賦予自身魔法的神祇或非凡之力的神廟中。掌控對神聖魔法的運用並非依賴專項訓練，而需要牧師們從祈禱和儀式中學會如何獲取外層位面的神力。</p><p>當然，並非所有神廟或神社的成員都是牧師。還有一些祭司被召至神廟中，僅僅過著簡單的侍僧生活，透過祈禱和儀式而非魔法來實現他們對神明的獻身。許多凡人都聲稱自己能為諸神代言，但很少有人能像牧師那樣真正調動諸神的力量。</p><h2>成為牧師…</h2><h3>作為首級角色</h3><ul><li>獲得牧師核心特徵表中的所有特徵。</li><li>獲得牧師特性表中列出的1級特性。</li></ul><h3>作為兼職角色</h3><ul><li>獲得下列牧師核心特徵表中的特徵：生命骰以及輕甲、中甲和盾牌的訓練。</li><li>獲得牧師特性表中列出的1級特性。請參閱第 2 章中的兼職規則以確定你的可用法術位。</li></ul>",
+      "advancement": {
+        "Epic Boon": {
+          "title": "史詩恩惠"
+        },
+        "Class Features": {
+          "title": "職業特性"
+        },
+        "Channel Divinity Uses": {
+          "title": "引導神力使用次數"
+        },
+        "Max Prepared Spells": {
+          "title": "最大準備法術"
+        },
+        "Cantrips Known": {
+          "title": "已知戲法"
+        },
+        "Blessed Strikes": {
+          "title": "神祐打擊"
+        },
+        "Divine Order Choice": {
+          "title": "神聖使命選擇",
+          "hint": "你已將自己奉獻給下列一種神聖使命："
+        },
+        "Blessed Strikes Choice": {
+          "title": "神祐打擊選擇",
+          "hint": "你在戰鬥時充滿神性的光輝，選擇並獲得下列你所選擇的一個選項（即使你在舊書中的牧師子職業中已經獲得了下列任一選項，你也只能使用此特性中獲得選項）。"
+        },
+        "Divine Strike": {
+          "title": "神聖打擊"
+        },
+        "Saving Throw Proficiencies": {
+          "title": "豁免檢定熟練"
+        },
+        "Skill Proficiencies": {
+          "title": "技能熟練"
+        },
+        "Weapon Proficiencies": {
+          "title": "武器熟練"
+        },
+        "Armor Training": {
+          "title": "護甲訓練"
+        }
+      }
+    },
+    "Druid": {
+      "name": "德魯伊",
+      "description": "<blockquote><p>擁有原初力量的自然祭司</p></blockquote><h3>核心德魯伊特徵</h3><table class=\"core-class-traits\"><tbody><tr><th scope=\"row\"><p><strong>關鍵屬性</strong></p></th><td><p>感知</p></td></tr><tr><th scope=\"row\"><p><strong>生命骰</strong></p></th><td><p>每德魯伊等級D8 </p></td></tr><tr><th scope=\"row\"><p><strong>豁免熟練</strong></p></th><td><p>智力與感知</p></td></tr><tr><th scope=\"row\"><p><strong>技能熟練</strong></p></th><td><p>從奧秘、馴獸、洞悉、醫藥、自然、察覺、宗教、求生中<em>選擇兩項</em></p></td></tr><tr><th scope=\"row\"><p><strong>武器熟練</strong></p></th><td><p>簡易武器</p></td></tr><tr><th scope=\"row\"><p><strong>工具熟練</strong></p></th><td><p>草藥師工具組</p></td></tr><tr><th scope=\"row\"><p><strong>護甲訓練</strong></p></th><td><p>輕甲和盾牌</p></td></tr><tr><th scope=\"row\"><p><strong>起始裝備</strong></p></th><td><p><em>選擇A或B：</em> (A) @UUID[Compendium.dnd-players-handbook.equipment.Item.phbarmLeatherArm]、@UUID[Compendium.dnd-players-handbook.equipment.Item.phbarmShield0000]、@UUID[Compendium.dnd-players-handbook.equipment.Item.phbwepSickle0000]、@UUID[Compendium.dnd-players-handbook.equipment.Item.phbagDruidicFocu]（@UUID[Compendium.dnd-players-handbook.equipment.Item.phbwepQuartersta]）、@UUID[Compendium.dnd-players-handbook.equipment.Item.phbagExplorersPa]、@UUID[Compendium.dnd-players-handbook.equipment.Item.phbtulHerbalismK]、[[/award 9GP]]; or (B) [[/award 50GP]]</p></td></tr></tbody></table><p>德魯伊屬於呼喚自然之力的古老教派。利用動物、植物和四大元素的魔力，德魯伊們可以治癒疾病、變身動物，乃至駕馭元素施加毀滅。</p><p>德魯伊崇敬自然至上，他們的魔法來自自然、自然神祇，或兩者兼有。通常，德魯伊會與其他德魯伊一起進行儀式，以記錄季節和自然週期的變化。</p><p>德魯伊不僅關注並維持著動植物間微妙的生態平衡，更注重人類與自然的和諧相處。通常，德魯伊們守護著聖地或看顧未受破壞的自然區域，但當世界出現重大危險之時，德魯伊亦將作為冒險者主動出擊，與之抗衡。</p><h2>成為德魯伊…</h2><h3>作為首級角色</h3><ul><li>獲得德魯伊核心特徵表中的所有特徵。</li><li>獲得德魯伊特性表中列出的 1 級特性。</li></ul><h3>作為兼職角色</h3><ul><li>獲得下列德魯伊核心特徵表中的特徵：生命骰以及輕甲和盾牌的訓練。</li><li>獲得德魯伊特性表中列出的 1 級特性。請參閱第 2 章中的兼職規則來確定你的可用法術位。</li></ul>",
+      "advancement": {
+        "Epic Boon": {
+          "title": "史詩恩惠"
+        },
+        "Class Features": {
+          "title": "職業特性"
+        },
+        "Cantrips Known": {
+          "title": "已知戲法"
+        },
+        "Max Prepared Spells": {
+          "title": "最大準備法術"
+        },
+        "Wild Shape CR": {
+          "title": "荒野型態CR"
+        },
+        "Wild Shape Uses": {
+          "title": "荒野型態使用次數"
+        },
+        "Known Forms": {
+          "title": "已知型態"
+        },
+        "Druidic Spells": {
+          "title": "德魯伊法術"
+        },
+        "Primal Order": {
+          "title": "原初誓約",
+          "hint": "你已將自己奉獻給下列一種神聖使命"
+        },
+        "Elemental Fury": {
+          "title": "元素怒火",
+          "hint": "元素的力量在你身上流淌。你獲得下列你所選擇的其中一種效果"
+        },
+        "W0d3c6X31SgnFFYM": {
+          "title": "元素怒火"
+        },
+        "Saving Throw Proficiencies": {
+          "title": "豁免檢定熟練"
+        },
+        "Skill Proficiencies": {
+          "title": "技能熟練"
+        },
+        "Weapon Proficiencies": {
+          "title": "武器熟練"
+        },
+        "Tool Proficiencies": {
+          "title": "工具熟練"
+        },
+        "Armor Training": {
+          "title": "護甲訓練"
+        },
+        "Druidic": {
+          "title": "德魯伊語",
+          "hint": "你知曉德魯伊語，這是一種德魯伊間的秘密語言。"
+        }
+      }
+    },
+    "Fighter": {
+      "name": "戰士",
+      "description": "<blockquote><p>十八般武藝樣樣精通的能手</p></blockquote><h3>核心戰士特徵</h3><table class=\"core-class-traits\"><tbody><tr><th scope=\"row\"><p><strong>關鍵屬性</strong></p></th><td><p>力量和敏捷</p></td></tr><tr><th scope=\"row\"><p><strong>生命骰</strong></p></th><td><p>每戰士等級D10</p></td></tr><tr><th scope=\"row\"><p><strong>豁免熟練</strong></p></th><td><p>力量與體質</p></td></tr><tr><th scope=\"row\"><p><strong>技能熟練</strong></p></th><td><p>從特技、馴獸、運動、歷史、洞悉、威嚇、遊說、察覺或求生中<em>選擇兩項</em></p></td></tr><tr><th scope=\"row\"><p><strong>武器熟練</strong></p></th><td><p>簡易武器和軍用武器</p></td></tr><tr><th scope=\"row\"><p><strong>護甲訓練</strong></p></th><td><p>輕甲、中甲、重甲、盾牌</p></td></tr><tr><th scope=\"row\"><p><strong>起始裝備</strong></p></th><td><p><em>選擇A或B或C：</em> (A) @UUID[Compendium.dnd-players-handbook.equipment.Item.phbarmChainMail0]、@UUID[Compendium.dnd-players-handbook.equipment.Item.phbwepGreatsword]、@UUID[Compendium.dnd-players-handbook.equipment.Item.phbwepFlail00000]、8把@UUID[Compendium.dnd-players-handbook.equipment.Item.phbwepJavelin000]、@UUID[Compendium.dnd-players-handbook.equipment.Item.phbagDungeoneers]、[[/award 4GP]]；(B) @UUID[Compendium.dnd-players-handbook.equipment.Item.phbarmStuddedLea]、@UUID[Compendium.dnd-players-handbook.equipment.Item.phbwepScimitar00]、@UUID[Compendium.dnd-players-handbook.equipment.Item.phbwepShortsword]、@UUID[Compendium.dnd-players-handbook.equipment.Item.phbwepLongbow000]、20支@UUID[Compendium.dnd-players-handbook.equipment.Item.phbamoArrows0000]、@UUID[Compendium.dnd-players-handbook.equipment.Item.phbagQuiver00000]、@UUID[Compendium.dnd-players-handbook.equipment.Item.phbagDungeoneers]、[[/award 11GP]]；(C) [[/award 155GP]]</p></td></tr></tbody></table><p>戰士往往馳騁於戰場。戰士可以是探險騎士，皇家鬥士，精英士兵或是老練傭兵，他們熟習各種武器與護甲，他們的生活與死亡相伴，既不害怕手上染滿鮮血，也不畏懼迎接死亡。</p><p>戰士精通各種武器技藝，裝備精良的戰士總能在任何戰鬥中找到合適的武器。同樣，戰士對於各種盔甲也駕輕就熟。除掌握基本使用技巧外，每位戰士還專精於某種特定的戰鬥風格。有些專攻箭術，有些專精雙持武器戰鬥，有些則擅長於用魔法增強自己的戰鬥能力。泛用與專精相結合，讓戰士無往而不利。</p><h2>成為戰士…</h2><h3>作為首級角色</h3><ul><li>獲得戰士核心特徵表中的所有特徵。</li><li>獲得戰士特性表中列出的1級特性。</li></ul><h3>作為兼職角色</h3><ul><li>獲得下列戰士核心特徵表中的特徵：生命骰，軍用武器熟練，以及輕甲和盾牌的訓練。</li><li>獲得戰士特性表中列出的1級特性。</li></ul>",
+      "advancement": {
+        "Class Features": {
+          "title": "職業特性"
+        },
+        "Action Surge": {
+          "title": "動作如潮"
+        },
+        "Epic Boon": {
+          "title": "史詩恩惠"
+        },
+        "Indomitable": {
+          "title": "不屈"
+        },
+        "Second Wind": {
+          "title": "回氣"
+        },
+        "Saving Throw Proficiencies": {
+          "title": "豁免檢定熟練"
+        },
+        "Skill Proficiencies": {
+          "title": "技能熟練"
+        },
+        "Weapon Proficiencies": {
+          "title": "武器熟練"
+        },
+        "Armor Training": {
+          "title": "護甲訓練"
+        },
+        "Weapon Mastery": {
+          "title": "武器精通"
+        },
+        "Fighting Style": {
+          "title": "戰鬥風格"
+        },
+        "Weapon Masteries Known": {
+          "title": "已知武器精通"
+        }
+      }
+    },
+    "Monk": {
+      "name": "武僧",
+      "description": "<blockquote><p>超凡脫俗的武術家</p></blockquote><h3>核心武僧特徵</h3><table class=\"core-class-traits\"><tbody><tr><th scope=\"row\"><p>關鍵屬性</p></th><td><p>敏捷和感知</p></td></tr><tr><th scope=\"row\"><p>生命骰</p></th><td><p>每武僧等級D8</p></td></tr><tr><th scope=\"row\"><p>豁免熟練</p></th><td><p>力量與敏捷</p></td></tr><tr><th scope=\"row\"><p>技能熟練</p></th><td><p>從特技、運動、歷史、洞悉、宗教或隱匿中<em>選擇2項</em></p></td></tr><tr><th scope=\"row\"><p>武器熟練</p></th><td><p>簡易武器以及擁有輕型屬性的軍用武器</p></td></tr><tr><th scope=\"row\"><p>工具熟練</p></th><td><p><em>任選一種工匠工具或樂器</em></p></td></tr><tr><th scope=\"row\"><p>護甲訓練</p></th><td><p>無</p></td></tr><tr><th scope=\"row\"><p>起始裝備</p></th><td><p><em>選擇A或B：</em> (A) @UUID[Compendium.dnd-players-handbook.equipment.Item.phbwepSpear00000]、5把@UUID[Compendium.dnd-players-handbook.equipment.Item.phbwepDagger0000]、上述工具熟練所選擇的工匠工具或樂器、@UUID[Compendium.dnd-players-handbook.equipment.Item.phbagExplorersPa]、[[/award 11GP]]；(B) [[/award 50GP]]</p></td></tr></tbody></table><p>武僧們靠著嚴苛的戰鬥訓練和精神修煉，令身心與多元宇宙調諧並知曉如何集中內在的力量。不同的武僧對這股力量有著不同的解讀，比如說呼吸、能量、生命力、精華或自相。在武僧的手中，這股力量時而化作迅猛狂暴的武術與戰技，時而化作精巧快速的身法與防禦。</p><p>武僧們凝聚自身的內在之力實現各種非凡之舉，甚至足以超脫自然。不論是否手持武器，他們的攻擊在如此技藝下兼具驚人的速度與力量。即使是最基本的武具在武僧手中也能化為神兵利器。</p><p>許多武僧認為持戒禁慾的生活有助於維持身心專注，以此能令自己更好地駕馭力量。也有其他武僧認為，沉浸在紛亂的世俗生活中才有助於增強他們的決心和戒律。</p><p>武僧通常將冒險視為對肉體和精神成長的考驗。他們的驅動力不僅僅是戰勝怪物和尋獲財寶，更是希望磨練自己至爐火純青。</p><h2>成為武僧…</h2><h3>作為首級角色</h3><ul><li>獲得武僧核心特徵表中的所有特徵。</li><li>獲得武僧特性表中列出的 1 級特性。</li></ul><h3>作為兼職角色</h3><ul><li>獲得武僧核心特徵表中的生命骰。</li><li>獲得武僧特性表中列出的 1 級特性。</li></ul>",
+      "advancement": {
+        "Focus Points": {
+          "title": "內力點"
+        },
+        "Class Features": {
+          "title": "職業特性"
+        },
+        "Body and Mind": {
+          "title": "天人合一"
+        },
+        "Martial Arts Die": {
+          "title": "武藝骰"
+        },
+        "Unarmored Movement": {
+          "title": "無甲移動"
+        },
+        "Disciplined Survivor": {
+          "title": "物我合一"
+        },
+        "Epic Boon": {
+          "title": "史詩恩惠"
+        },
+        "Saving Throw Proficiencies": {
+          "title": "豁免檢定熟練"
+        },
+        "Skill Proficiencies": {
+          "title": "技能熟練"
+        },
+        "Weapon Proficiencies": {
+          "title": "武器熟練"
+        },
+        "Tool Proficiencies": {
+          "title": "工具熟練"
+        }
+      }
+    },
+    "Paladin": {
+      "name": "聖騎士",
+      "description": "<blockquote><p>立下神聖誓言的虔誠戰士</p></blockquote><h3>核心聖騎士特徵</h3><table class=\"core-class-traits\"><tbody><tr><th scope=\"row\"><p><strong>關鍵屬性</strong></p></th><td><p>力量和魅力</p></td></tr><tr><th scope=\"row\"><p><strong>生命骰</strong></p></th><td><p>每聖騎士等級D10</p></td></tr><tr><th scope=\"row\"><p><strong>豁免熟練</strong></p></th><td><p>感知與魅力</p></td></tr><tr><th scope=\"row\"><p><strong>技能熟練</strong></p></th><td><p>從運動、洞悉、威嚇、醫藥、遊說、宗教中<em>選擇2項 </em></p></td></tr><tr><th scope=\"row\"><p><strong>武器熟練</strong></p></th><td><p>簡易和軍用武器</p></td></tr><tr><th scope=\"row\"><p><strong>護甲訓練</strong></p></th><td><p>輕甲、中甲、重甲、盾牌</p></td></tr><tr><th scope=\"row\"><p><strong>起始裝備</strong></p></th><td><p><em>選擇A或B：</em> (A) @UUID[Compendium.dnd-players-handbook.equipment.Item.phbarmChainMail0]、@UUID[Compendium.dnd-players-handbook.equipment.Item.phbarmShield0000]、@UUID[Compendium.dnd-players-handbook.equipment.Item.phbwepLongsword0]、6把@UUID[Compendium.dnd-players-handbook.equipment.Item.phbwepJavelin000]、@UUID[Compendium.dnd-players-handbook.equipment.Item.phbagHolySymbolV]、@UUID[Compendium.dnd-players-handbook.equipment.Item.phbagPriestsPack]、[[/award 9GP]]；(B) [[/award 150GP]]</p></td></tr></tbody></table><p>聖騎士們在各自誓言的驅使下團結一致對抗邪惡勢力。他們也許是在神壇前由祭司見證宣誓，或在林中聖地向自然精魄許下承諾，又或是面臨絕望與災難卻只在死者的見證下立約，所有這些聖騎士誓言都是極強的契約。也正是誓言的偉力才讓一名虔誠的戰士化作身負祝福的勇者。</p><p>聖騎士經年累月苦練戰鬥技藝，並精通各種武器與護甲。即便如此，其武力的重要性也僅次於其行使的魔法力量。他們以之治療傷患，斬殺妄邪，守護清白者和所有為公義而戰的同伴。</p><p>聖騎士的存在本身即決定了其為冒險而生，這種生活會一直持續直至傷重無法繼續，否則他們總是會站在宇宙善惡大戰的最前線，與邪惡殊死搏鬥。在俗世中，真正能受到感召成為聖騎士的人，遠比民兵團或正規軍中可謂之戰士者要更為罕見。而這些勇士們受到感召時，都將放棄所擁有的身份地位，義無反顧投入與邪惡對抗的戰鬥之中。</p><h2>成為聖騎士…</h2><h3>作為首級角色</h3><ul><li>獲得聖騎士核心特徵表中的所有特徵。</li><li>獲得聖騎士特性表中列出的1級特性。</li></ul><h3>作為兼職角色</h3><ul><li>獲得下列聖騎士核心特徵表中的特徵：生命骰，軍用武器熟練，以及輕甲、中甲和盾牌訓練</li><li>獲得聖騎士特性表中列出的1級特性。請參閱第 2 章的兼職規則來確定可用的法術位。</li></ul><blockquote><p><strong>打破誓言</strong></p><p>聖騎士堅持著最高的道德行為標準，但即使最虔誠的人也會犯錯。聖騎士有時也會違背誓言。</p><p>違背誓言的聖騎士常會通宵守夜或禁戒飲食，以這種方式進行懺悔。在寬恕儀式之後，聖騎士將重新啟程。</p><p>若你的聖騎士對違背誓言並無悔意，那麼請與你的 DM 討論。你的聖騎士也許應該選擇更合適的子職業，甚至放棄該職業去選用另一個職業。</p></blockquote>",
+      "advancement": {
+        "Saving Throw Proficiencies": {
+          "title": "豁免檢定熟練"
+        },
+        "Skill Proficiencies": {
+          "title": "技能熟練"
+        },
+        "Weapon Proficiencies": {
+          "title": "武器熟練"
+        },
+        "Class Features": {
+          "title": "職業特性"
+        },
+        "Aura Distance": {
+          "title": "靈光距離"
+        },
+        "Max Prepared Spells": {
+          "title": "最大準備法術"
+        },
+        "Channel Divinity Uses": {
+          "title": "引導神力使用次數"
+        },
+        "Epic Boon": {
+          "title": "史詩恩惠"
+        },
+        "Armor Training": {
+          "title": "護甲訓練"
+        },
+        "Fighting Style": {
+          "title": "戰鬥風格"
+        },
+        "Weapon Mastery": {
+          "title": "武器精通"
+        }
+      }
+    },
+    "Ranger": {
+      "name": "遊俠",
+      "description": "<blockquote><p>身懷原初魔法的流浪武者</p></blockquote><h3>遊俠核心特徵</h3><table class=\"core-class-traits\"><tbody><tr><th scope=\"row\"><p><strong>關鍵屬性</strong></p></th><td><p>敏捷和感知</p></td></tr><tr><th scope=\"row\"><p><strong>生命骰</strong></p></th><td><p>每遊俠等級D10</p></td></tr><tr><th scope=\"row\"><p><strong>豁免熟練</strong></p></th><td><p>力量與敏捷</p></td></tr><tr><th scope=\"row\"><p><strong>技能熟練</strong></p></th><td><p>從馴獸、運動、洞悉、調查、自然、察覺、隱匿和求生中<em>選擇3項</em></p></td></tr><tr><th scope=\"row\"><p><strong>武器熟練</strong></p></th><td><p>簡易和軍用武器</p></td></tr><tr><th scope=\"row\"><p><strong>護甲訓練</strong></p></th><td><p>輕甲、中甲、盾牌</p></td></tr><tr><th scope=\"row\"><p><strong>起始裝備</strong></p></th><td><p><em>選擇A或B： </em>(A) @UUID[Compendium.dnd-players-handbook.equipment.Item.phbarmStuddedLea]、@UUID[Compendium.dnd-players-handbook.equipment.Item.phbwepScimitar00]、@UUID[Compendium.dnd-players-handbook.equipment.Item.phbwepShortsword]、@UUID[Compendium.dnd-players-handbook.equipment.Item.phbwepLongbow000]、20支@UUID[Compendium.dnd-players-handbook.equipment.Item.phbamoArrows0000]、@UUID[Compendium.dnd-players-handbook.equipment.Item.phbagQuiver00000]、@UUID[Compendium.dnd-players-handbook.equipment.Item.phbagDruidicFocu]（@UUID[Compendium.dnd-players-handbook.equipment.Item.phbdfcSprigofmis]）、@UUID[Compendium.dnd-players-handbook.equipment.Item.phbagExplorersPa]、[[/award 7GP]]；(B) [[/award 150GP]]</p></td></tr></tbody></table><p>離開城鎮的喧囂，即是茂密的森林和廣袤的原野。這正是遊俠們進行無盡守望之地。他們向掠食者們學習如何追蹤獵物，借助荒野中的灌木叢和碎石在陰影中潛行。</p><p>熟悉荒野的遊俠們得以利用自然之力施展法術。為保護世界免受魔物和暴君的破壞，遊俠們的天賦和魔法往往都需要經歷刀口舔血般的磨練。</p><h2>成為遊俠…</h2><h3>作為首級角色</h3><ul><li>獲得遊俠核心特徵表中的所有特徵。</li><li>獲得遊俠特性表中列出的1級特性。</li></ul><h3>作為兼職角色</h3><ul><li>獲得遊俠核心特徵表中的以下特徵：生命骰，軍用武器熟練，遊俠技能熟練中選擇其一，以及輕甲、中甲、盾牌訓練。</li><li>獲得遊俠特性表中列出的1級特性。請參閱第2章的兼職規則以確定可用的法術位。</li></ul>",
+      "advancement": {
+        "Armor Training": {
+          "title": "護甲訓練"
+        },
+        "Class Features": {
+          "title": "職業特性"
+        },
+        "Expertise": {
+          "title": "專精"
+        },
+        "Favored Enemy": {
+          "title": "宿敵"
+        },
+        "Deft Explorer": {
+          "title": "熟練探險家"
+        },
+        "Epic Boon": {
+          "title": "史詩恩惠"
+        },
+        "Hunter's Mark Damage": {
+          "title": "獵人印記傷害"
+        },
+        "Max Prepared Spells": {
+          "title": "最大準備法術"
+        },
+        "Saving Throw Proficiencies": {
+          "title": "豁免檢定熟練"
+        },
+        "Skill Proficiencies": {
+          "title": "技能熟練"
+        },
+        "Weapon Proficiencies": {
+          "title": "武器熟練"
+        },
+        "Fighting Style": {
+          "title": "戰鬥風格"
+        },
+        "Weapon Mastery": {
+          "title": "武器精通"
+        }
+      }
+    },
+    "Rogue": {
+      "description": "<p> An NPC of the DM’s choice becomes Hostile toward you. You don’t know the identity of this NPC until they or someone else reveals it. Nothing less than a <em>Wish</em> spell or divine intervention can end the NPC’s hostility toward you.</p>",
+      "effects": {
+        "Rogue Card: Hostility": {
+          "name": "Rogue Card: Hostility",
+          "description": "<p><em>Source: @UUID[Compendium.dnd-dungeon-masters-guide.equipment.Item.dmgDmtRogue00000]{Rogue}</em></p><p>An NPC (unknown identity) is Hostile towards you.</p>"
+        }
+      },
+      "activities": {
+        "Card Effect": {
+          "condition": "Card's effect occurs immediately upon draw",
+          "name": "Card Effect"
+        }
+      },
+      "name": "遊蕩者"
+    },
+    "Sorcerer": {
+      "name": "術士",
+      "description": "<blockquote><p>魔力與生俱來的耀眼巫師</p></blockquote><h3>術士核心特徵</h3><table class=\"core-class-traits\"><tbody><tr><th scope=\"row\"><p><strong>關鍵屬性</strong></p></th><td><p>魅力</p></td></tr><tr><th scope=\"row\"><p><strong>生命骰</strong></p></th><td><p>每術士等級D6</p></td></tr><tr><th scope=\"row\"><p><strong>豁免熟練</strong></p></th><td><p>體質與魅力</p></td></tr><tr><th scope=\"row\"><p><strong>技能熟練</strong></p></th><td><p>從奧秘、欺瞞、洞悉、威嚇、遊說、宗教中<em>選擇兩項</em></p></td></tr><tr><th scope=\"row\"><p><strong>武器熟練</strong></p></th><td><p>簡易武器</p></td></tr><tr><th scope=\"row\"><p><strong>護甲訓練</strong></p></th><td><p>無</p></td></tr><tr><th scope=\"row\"><p><strong>起始裝備</strong></p></th><td><p><em>選擇A或B： </em>(A) @UUID[Compendium.dnd-players-handbook.equipment.Item.phbwepSpear00000]、2 @UUID[Compendium.dnd-players-handbook.equipment.Item.phbwepDagger0000]、@UUID[Compendium.dnd-players-handbook.equipment.Item.phbagArcaneFocus] (@UUID[Compendium.dnd-players-handbook.equipment.Item.phbafcCrystal000])、 @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagDungeoneers]、[[/award 28GP]]；(B) [[/award 50GP]]</p></td></tr></tbody></table><p>術士的魔法力量與生俱來，這種魔力已經融進了他們的血脈裡。有些術士已經說不清他們力量起源究竟是什麼，而另一些術士認為自己的力量來自於他或是家族的某些奇遇。出生時受到龍或樹靈的祝福，又或者萬里無雲降閃電，這些事情都有可能激起術法天賦的火苗。除此之外，神明的恩賜、暴露在另一個位面的怪誕魔法下，又或是一窺現實世界的內裡，都有可能賜予術士力量。不論這股力量起源如何，所造成的結果已然成為術士身上不可磨滅的印記，那便是這世代傳承的湧動魔力。</p><p>術士無需學習魔法，這原始而沸騰的魔力本就是他們的一部分。但他們仍需要精進駕馭引導天生魔力的技巧，以此來尋獲更高效，更強力的方式去釋放他們的力量。隨著術士得以掌控與生俱來的魔力，他們與自己的術法起源也越來越協調，最終展現出與之來源相呼應的獨特力量。</p><p>術士十分罕見。有些家族每一代只會出現一個術士，不多也不少。不過多數時候，術法天賦的出現純屬偶然。擁有這股魔法的人將很快發現，力量不喜歡沉默。它渴望被運用。</p><h2>成為一位術士 …</h2><h3>作為首級角色</h3><ul><li>獲得術士核心特徵表中所有特徵。</li><li>獲得@UUID[Compendium.dnd-players-handbook.content.JournalEntry.phbSorcerer00000.JournalEntryPage.fsqRUA4acVXH4I3O#class-features]{術士特性表}中列出的 1 級特性。</li></ul><h3>作為兼職角色</h3><ul><li>獲得術士核心特徵表中的生命骰。</li><li>獲得術士特性表中列出的 1 級特性。參見@UUID[Compendium.dnd-players-handbook.content.JournalEntry.phbCreatingAChar.JournalEntryPage.vcs4jfEKRxPCsgXm]{兼職規則}以決定你所能使用的法術槽。</li></ul>",
+      "advancement": {
+        "Metamagic": {
+          "title": "超魔法",
+          "hint": "因為你的魔力由體內流動，因此你可以扭曲所施放的法術使其符合你的需求。你獲得兩項超魔法選項。"
+        },
+        "Class Features": {
+          "title": "職業特性"
+        },
+        "Max Prepared Spells": {
+          "title": "最大準備法術"
+        },
+        "Cantrips Known": {
+          "title": "已知戲法"
+        },
+        "Epic Boon": {
+          "title": "史詩恩惠"
+        },
+        "Saving Throw Proficiencies": {
+          "title": "豁免檢定熟練"
+        },
+        "Skill Proficiencies": {
+          "title": "技能熟練"
+        },
+        "Weapon Proficiencies": {
+          "title": "武器熟練"
+        },
+        "Sorcery Points": {
+          "title": "術法點"
+        }
+      }
+    },
+    "Warlock": {
+      "name": "契術師",
+      "description": "<blockquote><p>受異界契約賦能的神秘學家</p></blockquote><h3>核心契術師特徵</h3><table class=\"core-class-traits\"><tbody><tr><th scope=\"row\"><p>關鍵屬性</p></th><td><p>魅力</p></td></tr><tr><th scope=\"row\"><p>生命骰</p></th><td><p>每契術師等級D8</p></td></tr><tr><th scope=\"row\"><p>豁免熟練</p></th><td><p>感知與魅力</p></td></tr><tr><th scope=\"row\"><p>技能熟練</p></th><td><p>從奧秘、欺瞞、歷史、威嚇、調查、自然、宗教中<em>選擇2項</em></p></td></tr><tr><th scope=\"row\"><p>武器熟練</p></th><td><p>簡易武器</p></td></tr><tr><th scope=\"row\"><p>護甲訓練</p></th><td><p>輕甲</p></td></tr><tr><th scope=\"row\"><p>起始裝備</p></th><td><p><em>選擇A或B： </em>(A) @UUID[Compendium.dnd-players-handbook.equipment.Item.phbarmLeatherArm]、@UUID[Compendium.dnd-players-handbook.equipment.Item.phbwepSickle0000]、2把@UUID[Compendium.dnd-players-handbook.equipment.Item.phbwepDagger0000]、@UUID[Compendium.dnd-players-handbook.equipment.Item.phbagArcaneFocus]（@UUID[Compendium.dnd-players-handbook.equipment.Item.phbafcOrb0000000]）、 @UUID[Compendium.dnd-players-handbook.equipment.Item.phiPN9UzkXk3i5xh]（秘學典籍）、@UUID[Compendium.dnd-players-handbook.equipment.Item.phbagScholarsPac]、 [[/award 15GP]]；(B) [[/award 100GP]]</p></td></tr></tbody></table><p>契術師追尋隱於多元宇宙之下的知識。在追尋魔法力量之處，他們鑽研大量的禁忌學識，進而知曉了那些吸引著異界存在的法術，或是尋覓到了足以感受異界之力的神秘地點。在此之後，契術師便與一位強大的宗主簽下彼此綁定的契約。契術師們從天使、至高妖精、惡魔、魔鬼、鬼婆，乃至遙遠國度的外星存在處汲取著遠古學識，並將這些玄奧之秘拼湊起來，進而轉為自己的力量。</p><p>契術師們將自己的宗主視為一種資源，也可以說是他們獲取魔法力量的手段。某些契術師尊重、敬畏甚至熱愛他們的宗主；而另一些則並不那麼心甘情願為自己的宗主服務；有些人會嘗試削弱他們的宗主，即使自己所操弄的力量也正來自於它們。</p><p>一旦簽下契約，契術師對知識和力量的渴求便難以僅透過學習來滿足。大部分契術師畢生都在追求更卓越的力量與更深邃的知識，而這往往通向一條冒險之路。</p><h2>成為契術師…</h2><h3>作為首級角色</h3><ul><li>獲得契術師核心特徵表中的所有特徵。</li><li>獲得@UUID[Compendium.dnd-players-handbook.content.JournalEntry.phbWarlock000000.JournalEntryPage.znue6EaGDDXgeQb0#class-features]{契術師特性}表中列出的 1 級特性。</li></ul><h3>作為兼職角色</h3><ul><li>獲得下列契術師核心特徵表中的特徵：生命骰和輕甲訓練。</li><li>獲得契術師特性表中列出的 1 級特性。請參閱第 2 章的@UUID[Compendium.dnd-players-handbook.content.JournalEntry.phbCreatingAChar.JournalEntryPage.vcs4jfEKRxPCsgXm]{兼職規則}來確定可用的法術位。</li></ul>",
+      "advancement": {
+        "Cantrips Known": {
+          "title": "已知戲法"
+        },
+        "Class Features": {
+          "title": "職業特性"
+        },
+        "bwCLOdauuzoHofil": {
+          "hint": "你獲得屬性值提升專長或另一個符合條件你所選擇的專長。當契術師等級達到8、12和16時，你將再次獲得此特性。"
+        },
+        "mRSh9oUVjLU33e7p": {
+          "hint": "你獲得屬性值提升專長或另一個符合條件你所選擇的專長。當契術師等級達到8、12和16時，你將再次獲得此特性。"
+        },
+        "mhZh3LfLMa15tXee": {
+          "hint": "你獲得屬性值提升專長或另一個符合條件你所選擇的專長。當契術師等級達到8、12和16時，你將再次獲得此特性。"
+        },
+        "FOf5CkGnSs0OlppY": {
+          "hint": "你獲得屬性值提升專長或另一個符合條件你所選擇的專長。當契術師等級達到8、12和16時，你將再次獲得此特性。"
+        },
+        "Eldritch Invocations Known": {
+          "title": "已知魔能祈喚"
+        },
+        "KTLPtUpPuGbXWiap": {
+          "hint": "You gain a Warlock subclass of your choice. A subclass is a specialization that grants you features at certain Warlock levels. For the rest of your career, you gain each of your subclass’s features that are of your Warlock level or lower."
+        },
+        "Max Pact Magic Spells": {
+          "title": "最大契約魔法法術"
+        },
+        "Eldritch Invocations": {
+          "title": "魔能祈喚",
+          "hint": "發掘禁忌的知識殘章賦予了你恆久的魔法能力。"
+        },
+        "Contact Patron": {
+          "title": "聯繫宗主",
+          "hint": "在過往，想聯絡你的宗主都需要一些中間手段，但今時不同往日，你可以直接與他對話了。你始終準備著法術異界探知。"
+        },
+        "Epic Boon": {
+          "title": "史詩恩惠",
+          "hint": "你獲得一個史詩恩惠專長或另一個符合條件你所選擇的專長。推薦選擇扭曲命運恩惠。"
+        },
+        "Weapon Proficiencies": {
+          "title": "武器熟練"
+        },
+        "Armor Training": {
+          "title": "護甲訓練"
+        },
+        "Saving Throw Proficiencies": {
+          "title": "豁免檢定熟練"
+        },
+        "Skill Proficiencies": {
+          "title": "技能熟練"
+        }
+      }
+    },
+    "Wizard": {
+      "name": "法師",
+      "description": "<blockquote><p>研習奧術力量的魔法學者</p></blockquote><h3>核心法師特徵</h3><table class=\"core-class-traits\"><tbody><tr><th scope=\"row\"><p><strong>關鍵屬性</strong></p></th><td><p>智力</p></td></tr><tr><th scope=\"row\"><p><strong>生命骰</strong></p></th><td><p>每法師等級D6</p></td></tr><tr><th scope=\"row\"><p><strong>豁免熟練</strong></p></th><td><p>智力與感知</p></td></tr><tr><th scope=\"row\"><p><strong>技能熟練</strong></p></th><td><p>從奧秘、歷史、洞悉、調查、醫學、自然、宗教中<em>選擇2項</em></p></td></tr><tr><th scope=\"row\"><p><strong>武器熟練</strong></p></th><td><p>簡易武器</p></td></tr><tr><th scope=\"row\"><p><strong>護甲訓練</strong></p></th><td><p>無</p></td></tr><tr><th scope=\"row\"><p><strong>起始裝備</strong></p></th><td><p><em>選擇A或B：</em> (A) 2把@UUID[Compendium.dnd-players-handbook.equipment.Item.phbwepDagger0000]、@UUID[Compendium.dnd-players-handbook.equipment.Item.phbagArcaneFocus]（@UUID[Compendium.dnd-players-handbook.equipment.Item.phbwepQuartersta]）、@UUID[Compendium.dnd-players-handbook.equipment.Item.phbagRobe0000000]、@UUID[Compendium.dnd5e.items.Item.LBajgahniRJbAgDr]、@UUID[Compendium.dnd-players-handbook.equipment.Item.phbagScholarsPac]、[[/award 5GP]]；(B) [[/award 55GP]]</p></td></tr></tbody></table><p>所謂法師，便是對魔法運作原理鑽研探索之人。噴射火焰，奧法閃電，欺詐幻象以及變換身形，這一切都可以由法師施法得來。不止如此，他們手中的魔法還可以喚來異界存在，一瞥未來明細，又或是降下護佑屏障。而最為強大的法術甚至可以點石成金，墜下隕石，打開通往異界的傳送門。</p><p>大多數法師都對魔法抱有學術研究的態度。他們研究魔法的理論基礎，尤其是魔法學派的法術分類。畢格比、塔莎、魔鄧肯和悠蘭德等知名法師在研究的基礎上發明了他們的招牌法術，如今這些法術已在多元宇宙中廣泛使用。</p><p>法師最接近普通人的生活就是擔任智者或講師。還有一些法師則會出售其服務而成為預言家，服役於軍隊，甚至用其力量實施犯罪或支配他人。</p><p>不過，知識與力量的誘惑還是足以令最不想冒險的法師走出其安全的圖書館和實驗室，前往那些廢墟和失落城市中。絕大多數法師堅信遠古時代的同行們掌握了一些現今已失傳許久的魔法奧秘。而只要找到這些秘密，就能獲得遠超現有魔法的強大力量。</p><h2>成為法師…</h2><h3>作為首級角色</h3><ul><li>獲得法師核心特徵表中的所有特徵。</li><li>獲得法師特性表中列出的 1 級特性。</li></ul><h3>作為兼職角色</h3><ul><li>獲得法師核心特徵表中的生命骰。</li><li>獲得@UUID[Compendium.dnd-players-handbook.content.JournalEntry.phbWizard0000000.JournalEntryPage.g7cMRWzsgAsEF7zC#class-features]{法師特性表}中列出的 1 級特性。請參閱第 2 章的@UUID[Compendium.dnd-players-handbook.content.JournalEntry.phbCreatingAChar.JournalEntryPage.vcs4jfEKRxPCsgXm]{兼職規則}來確定可用的法術位。</li></ul><aside class=\"notable\"><p><strong>擴充和替換法術書</strong></p><p>你在提升等級時添加到法術書中的法術正體現了你所進行的魔法研究，但你也可能在冒險中發現其他可以抄錄進法術書中的法術。例如，你可以在發現一張記載法師法術的卷軸後，將其抄錄到你的法術書中。</p><p><strong>將法術抄入法術書</strong>，當你發現一道1環以上法師法術時，只要你能夠準備該法術，並且也有時間去解讀和複製它，你便可以將其抄入你的法術書中。這個過程將消耗每法術環階2小時和50 GP。之後你就可以如法術書中的其他法術一般準備該法術了。</p><p><strong>複製法術書</strong>，你可以將法術書中的法術複製到另一本書中。由於你已經知道如何施放這個法術，所以這個過程會比複製新法術到你的法術書中更快。你只需花費每個法術環階1小時和 10金幣。</p><p>若你的法術書遺失，則你可以用同樣的方法將你準備的法師法術複製到新的法術書中。而填寫新法術書剩餘的內容則需要你尋找新法術完成。因此，許多法師都會保留一本備用法術書。</p></aside>",
+      "advancement": {
+        "Class Features": {
+          "title": "職業特性"
+        },
+        "Max Prepared Spells": {
+          "title": "最大準備法術"
+        },
+        "Scholar": {
+          "title": "學者",
+          "hint": "學習法術之餘，你也在鑽研其他的學術領域。選擇下列一項你具有熟練的技能。你獲得所選技能的專精。"
+        },
+        "Epic Boon": {
+          "title": "史詩恩惠",
+          "hint": "你獲得一項史詩恩惠專長或另一個符合條件你所選擇的專長。推薦選擇咒法回流恩惠。"
+        },
+        "Saving Throw Proficiencies": {
+          "title": "豁免檢定熟練"
+        },
+        "Skill Proficiencies": {
+          "title": "技能熟練"
+        },
+        "Weapon Proficiencies": {
+          "title": "武器熟練"
+        },
+        "Cantrips Known": {
+          "title": "已知戲法"
+        }
+      }
+    }
+  }
 }

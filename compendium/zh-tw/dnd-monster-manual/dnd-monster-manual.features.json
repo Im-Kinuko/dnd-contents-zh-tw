@@ -6,5 +6,366 @@
     "Actions": "Actions",
     "Traits": "Traits"
   },
-  "entries": {}
+  "entries": {
+    "Chain": {
+      "name": "鎖鏈",
+      "activities": {
+        "Burst Chain Check": {
+          "name": "破壞鎖鏈檢定"
+        },
+        "Wrap Chain Check": {
+          "name": "纏鏈檢定"
+        },
+        "Escape Check": {
+          "name": "逃脫檢定"
+        }
+      },
+      "description": "<p>As a Utilize action, you can wrap a Chain around an unwilling creature within 5 feet of yourself that has the &amp;Reference[Grappled], &amp;Reference[Incapacitated], or &amp;Reference[Restrained] condition if you succeed on a DC 13 Strength (Athletics) check. If the creature’s legs are bound, the creature has the Restrained condition until it escapes. Escaping the Chain requires the creature to make a successful DC 18 Dexterity (Acrobatics) check as an action. Bursting the Chain requires a successful DC 20 Strength (Athletics) check as an action.</p>"
+    },
+    "Commanding Presence": {
+      "name": "Commanding Presence",
+      "description": "<p>When you make a Charisma (Intimidation, Performance, or Persuasion) check, you can expend one Superiority Die and add that die to the roll.</p>",
+      "activities": {
+        "utility": {
+          "condition": "When you make a Charisma (Intimidation, Performance, or Persuasion) check",
+          "roll": "Bonus"
+        }
+      }
+    },
+    "Control Weather": {
+      "name": "操控天氣",
+      "description": "<p>You take control of the weather within 5 miles of you for the duration. You must be outdoors to cast this spell, and it ends early if you go indoors.</p><p>When you cast the spell, you change the current weather conditions, which are determined by the DM. You can change precipitation, temperature, and wind. It takes 1d4 × 10 minutes for the new conditions to take effect. Once they do so, you can change the conditions again. When the spell ends, the weather gradually returns to normal.</p><p>When you change the weather conditions, find a current condition on the following tables and change its stage by one, up or down. When changing the wind, you can change its direction.</p><details><summary><strong>Precipitation</strong></summary><table><thead><tr><td>Stage</td><td>Condition</td></tr></thead><tbody><tr><td>1</td><td>Clear</td></tr><tr><td>2</td><td>Light clouds</td></tr><tr><td>3</td><td>Overcast or ground fog</td></tr><tr><td>4</td><td>Rain, hail, or snow</td></tr><tr><td>5</td><td>Torrential rain, driving hail, or blizzard</td></tr></tbody></table></details><details><summary><strong>Temperature</strong></summary><table><thead><tr><td>Stage</td><td>Condition</td></tr></thead><tbody><tr><td>1</td><td>Heat wave</td></tr><tr><td>2</td><td>Hot</td></tr><tr><td>3</td><td>Warm</td></tr><tr><td>4</td><td>Cool</td></tr><tr><td>5</td><td>Cold</td></tr><tr><td>6</td><td>Freezing</td></tr></tbody></table></details><details><summary><strong>Wind</strong></summary><table><thead><tr><td>Stage</td><td>Condition</td></tr></thead><tbody><tr><td>1</td><td>Calm</td></tr><tr><td>2</td><td>Moderate wind</td></tr><tr><td>3</td><td>Strong wind</td></tr><tr><td>4</td><td>Gale</td></tr><tr><td>5</td><td>Storm</td></tr></tbody></table></details>",
+      "activities": {
+        "Cast and Control": {
+          "roll": "Weather Change Delay",
+          "name": "Cast and Control"
+        },
+        "Change Conditions": {
+          "roll": "Weather Change Delay",
+          "name": "Change Conditions"
+        }
+      }
+    },
+    "Counterspell": {
+      "name": "反制法術",
+      "description": "<p>You attempt to interrupt a creature in the process of casting a spell. The creature makes a Constitution saving throw. On a failed save, the spell dissipates with no effect, and the action, Bonus Action, or Reaction used to cast it is wasted. If that spell was cast with a spell slot, the slot isn’t expended.</p>"
+    },
+    "Cunning Action": {
+      "name": "靈巧動作",
+      "description": "<p>你精妙的反應與身手使你的行動無比迅速。在你的回合中，你可以採取下列一項動作作為附贈動作執行：疾走、撤離或躲藏。&amp;Reference[Dash]、&amp;Reference[Disengage]、&amp;Reference[Hide].</p>",
+      "activities": {
+        "Dash": {
+          "name": "疾走"
+        },
+        "Disengage": {
+          "name": "撤離"
+        },
+        "Hide": {
+          "name": "躲藏"
+        }
+      },
+      "effects": {
+        "Hiding": {
+          "name": "躲藏"
+        }
+      }
+    },
+    "Elemental Burst": {
+      "name": "Elemental Burst",
+      "description": "<p>As a Magic action, you can expend 2 Focus Points to cause elemental energy to burst in a 20-foot-radius Sphere centered on a point within 120 feet of yourself. Choose a damage type: Acid, Cold, Fire, Lightning, or Thunder.</p><p>Each creature in the Sphere must make a Dexterity saving throw. On a failed save, a creature takes damage of the chosen type equal to three rolls of your Martial Arts die. On a successful save, a creature takes half as much damage.</p><section id=\"secret-ibRDHOMdegAOpfmU\" class=\"secret\"><p><strong>Foundry Note</strong></p><p>The damage type can be selected in the roll dialog.</p></section>",
+      "activities": {
+        "Burst": {
+          "name": "Burst"
+        }
+      }
+    },
+    "Etherealness": {
+      "name": "跨入乙太界",
+      "description": "<p>You step into the border regions of the Ethereal Plane, where it overlaps with your current plane. You remain in the Border Ethereal for the duration. During this time, you can move in any direction. If you move up or down, every foot of movement costs an extra foot. You can perceive the plane you left, which looks gray, and you can’t see anything there more than 60 feet away.</p><p>While on the Ethereal Plane, you can affect and be affected only by creatures, objects, and effects on that plane. Creatures that aren’t on the Ethereal Plane can’t perceive or interact with you unless a feature gives them the ability to do so.</p><p>When the spell ends, you return to the plane you left in the spot that corresponds to your space in the Border Ethereal. If you appear in an occupied space, you are shunted to the nearest unoccupied space and take Force damage equal to twice the number of feet you are moved.</p><p>This spell ends instantly if you cast it while you are on the Ethereal Plane or a plane that doesn’t border it, such as one of the Outer Planes.</p><p><strong>【升環法術效應】</strong>You can target up to three willing creatures (including yourself) for each spell slot level above 7. The creatures must be within 10 feet of you when you cast the spell.</p>",
+      "effects": {
+        "Etherealness": {
+          "name": "Etherealness"
+        }
+      },
+      "activities": {
+        "Enter Border Ethereal": {
+          "name": "Enter Border Ethereal"
+        }
+      }
+    },
+    "Evasion": {
+      "name": "反射閃避",
+      "description": "<p>You can nimbly dodge out of the way of certain dangers. When you’re subjected to an effect that allows you to make a Dexterity saving throw to take only half damage, you instead take no damage if you succeed on the saving throw and only half damage if you fail. You can’t use this feature if you have the Incapacitated condition.</p><section class=\"secret\" id=\"secret-mJSoikZHwVq6UUDf\"><p><strong>Foundry Note</strong></p><p>With your token selected you can either right click on the damage roll's chat card and select <span class=\"reference\"><em class=\"fas fa-user-shield\"> </em>Apply Half Damage</span> or click the \"1/2\" button and then the <span class=\"reference\"><em class=\"fa-solid fa-reply-all\"> </em>Apply</span> button.</p></section>"
+    },
+    "Fog Cloud": {
+      "name": "雲霧術",
+      "description": "<p>你在射程內以一個點為中心，創造出一個半徑20呎的球形霧氣。球狀區域內屬於&amp;Reference[heavilyobscured]。其將持續存在至法術結束，或者直到強風（比如由 <em>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplGustofWind]</em>創造的風）將其吹散。</p><p><strong>【升環法術效應】</strong>法術位每升一個環階，雲霧半徑就增加20呎。</p>"
+    },
+    "Forbiddance": {
+      "name": "禁制術",
+      "description": "<p>You create a ward against magical travel that protects up to 40,000 square feet of floor space to a height of 30 feet above the floor. For the duration, creatures can’t teleport into the area or use portals, such as those created by the <em>Gate</em> spell, to enter the area. The spell proofs the area against planar travel, and therefore prevents creatures from accessing the area by way of the Astral Plane, the Ethereal Plane, the Feywild, the Shadowfell, or the <em>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplPlaneShift]{Plane Shift}</em> spell.</p><p>In addition, the spell damages types of creatures that you choose when you cast it. Choose one or more of the following: Aberrations, Celestials, Elementals, Fey, Fiends, and Undead. When a creature of a chosen type enters the spell’s area for the first time on a turn or ends its turn there, the creature takes 5d10 Radiant or Necrotic damage (your choice when you cast this spell).</p><p>You can designate a password when you cast the spell. A creature that speaks the password as it enters the area takes no damage from the spell.</p><p>The spell’s area can’t overlap with the area of another <em>Forbiddance</em> spell. If you cast <em>Forbiddance</em> every day for 30 days in the same location, the spell lasts until it is dispelled, and the Material components are consumed on the last casting.</p>",
+      "activities": {
+        "Damage Forbidden Creature": {
+          "condition": "creature of a chosen type enters the spell’s area for the first time on a turn or ends its turn there",
+          "name": "Damage Forbidden Creature"
+        },
+        "Create Ward": {
+          "name": "Create Ward"
+        }
+      }
+    },
+    "Healing Word": {
+      "name": "治癒真言",
+      "description": "<p>射程內一個你所能看見的生物恢復2d4 + 你的施法屬性調整值的生命值。</p><p><strong>【升環法術效應】</strong>法術位每升一個環階，治療量就增加2d4。</p>"
+    },
+    "Hellish Rebuke": {
+      "name": "煉獄叱喝",
+      "description": "<p>傷害你的生物暫時被綠色的火焰包圍。其進行一次敏捷豁免，失敗時承受2d10點火焰傷害，成功時傷害減半。</p><p><strong>【升環法術效應】</strong>法術位每升一個環階，傷害就增加1d10。</p>"
+    },
+    "Hunger of Hadar": {
+      "description": "<p>You open a gateway to the Far Realm, a region infested with unspeakable horrors. A 20-foot-radius Sphere of &amp;Reference[Darkness] appears, centered on a point with range and lasting for the duration. The Sphere is &amp;Reference[DifficultTerrain], and it is filled with strange whispers and slurping noises, which can be heard up to 30 feet away. No light, magical or otherwise, can illuminate the area, and creatures fully within it have the &amp;Reference[Blinded] condition.</p><p>Any creature that starts its turn in the area takes 2d6 Cold damage. Any creature that ends its turn there must succeed on a Dexterity saving throw or take 2d6 Acid damage from otherworldly tentacles.</p><p><strong>【升環法術效應】 </strong>The Cold or Acid damage (your choice) increases by 1d6 for each spell slot level above 3.</p>",
+      "name": "Hunger of Hadar",
+      "activities": {
+        "Start of Turn Damage": {
+          "name": "Start of Turn Damage"
+        },
+        "Open Gateway": {
+          "name": "Open Gateway"
+        },
+        "End of Turn Save": {
+          "name": "End of Turn Save"
+        }
+      }
+    },
+    "Invisibility": {
+      "name": "隱形術",
+      "description": "<p>一個你所觸碰的生物獲得&amp;Reference[invisible apply=false]{隱形}狀態直到法術結束。緊接在目標進行攻擊檢定、造成傷害或施放法術後，法術將提前結束。</p><p><strong>【升環法術效應】</strong>法術位每升一個環階，就可以額外選擇一個生物。</p>",
+      "effects": {
+        "Invisible": {
+          "description": "<p>The spell ends early immediately after the target makes an attack roll, deals damage, or casts a spell.</p>",
+          "name": "Invisible"
+        }
+      }
+    },
+    "Misty Escape": {
+      "name": "Misty Escape",
+      "description": "<p>You can cast @UUID[Compendium.dnd-players-handbook.spells.Item.phbsplMistyStep0]{迷蹤步} as a Reaction in response to taking damage.</p><p>In addition, the following effects are now among your Steps of the Fey options.</p><p><strong>Disappearing Step. </strong>You have the &amp;Reference[Invisible]{隱形} condition until the start of your next turn or until immediately after you make an attack roll, deal damage, or cast a spell.</p><p><strong>Dreadful Step.</strong> Creatures within 5 feet of the space you left or the space you appear in (your choice) must succeed on a Wisdom saving throw against your spell save DC or take 2d10 Psychic damage.</p><section class=\"secret\" id=\"secret-TTIMVNpwS90Cackr\"><p><strong>Foundry Note</strong></p><p>The <strong>Disappearing Step</strong> activity includes an Active Effect which applies the Invisible condition.</p><p>The spell is granted to you automatically as you level up.</p></section>",
+      "activities": {
+        "Disappearing Step": {
+          "name": "Disappearing Step",
+          "condition": "After teleporting"
+        },
+        "Dreadful Step": {
+          "name": "Dreadful Step",
+          "condition": "After teleporting"
+        },
+        "2ceGTpBbBclN3qF9": {
+          "condition": "After taking damage"
+        }
+      },
+      "effects": {
+        "Disappearing Step": {
+          "name": "Disappearing Step"
+        }
+      }
+    },
+    "Misty Step": {
+      "name": "迷蹤步",
+      "description": "<p>銀色的迷霧暫時將你裹住，帶你傳送到30呎內一個你所能看見未被佔據的空間。</p>"
+    },
+    "Needles": {
+      "name": "吹箭",
+      "description": "<p><em><strong>Storage:</strong> @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagPouch000000]{Pouch}</em></p><p>@UUID[Compendium.dnd-players-handbook.equipment.Item.phbagAmmunitionV]{Ammunition} is required by a weapon that has the Ammunition property. A weapon’s description specifies the type of ammunition used by the weapon. The Ammunition table lists the different types and the amount you get when you buy them. The table also lists the item that is typically used to store each type; storage must be bought separately.</p>"
+    },
+    "Parry": {
+      "name": "Parry",
+      "description": "<p>When another creature damages you with a melee attack roll, you can take a Reaction and expend one Superiority Die to reduce the damage by the number you roll on your Superiority Die plus your 力量和敏捷 modifier (your choice).</p><section id=\"secret-0wY3O9dAMQDKj066\" class=\"secret\"><p><strong>Foundry Note</strong></p><p>This feature includes a Healing Reaction activity which can be used to reduce the damage.</p></section>",
+      "activities": {
+        "heal": {
+          "condition": "When another creature damages you with a melee attack roll"
+        }
+      }
+    },
+    "Poison Spray": {
+      "name": "毒氣噴灑",
+      "description": "<p>你向射程內一個生物噴灑毒霧。對目標發動一次遠程法術攻擊。命中時，目標承受1d12毒素傷害。</p><p><strong>【戲法升級】</strong>當你達到特定等級時傷害增加：5級2d12、11級3d12、17級4d12。</p>"
+    },
+    "Portent": {
+      "name": "Portent",
+      "description": "<p>Glimpses of the future begin to press on your awareness. Whenever you finish a Long Rest, roll two [[/r d20]] and record the numbers rolled. You can replace any &amp;Reference[D20 Test] made by you or a creature that you can see with one of these foretelling rolls. You must choose to do so before the roll, and you can replace a roll in this way only once per turn.</p><p>Each foretelling roll can be used only once. When you finish a Long Rest, you lose any unused foretelling rolls.</p><p><strong>Current Portent Rolls:</strong> x, y</p><section class=\"secret\" id=\"secret-UWpQx1BOZPI14hq0\"><p><strong>Foundry Note</strong></p><p>When you roll both of the d20 you can edit this feature's description to track them or log it another way.</p></section>"
+    },
+    "Protection": {
+      "name": "守護",
+      "description": "<p><em>（先決條件：戰鬥風格特性）</em></p><p>當一個你所能看見的生物攻擊一個距離你5呎內你以外的目標時，若你正持握盾牌，你可以用一個反應介入攻擊守護目標。你可以讓該攻擊檢定承受劣勢，並且直到你的下一回合開始，若你仍處於守護的目標5呎內，那麼所有該目標進行的其他所有攻擊檢定都將承受劣勢。</p><section id=\"secret-omzqnTg5Wlirj4sK\" class=\"secret\"><p><strong>Foundry Note</strong></p><p>This feature includes an Active Effect for tracking the protected creature but it does not automate the Disadvantage.</p></section>",
+      "activities": {
+        "Protect": {
+          "name": "守護",
+          "condition": "當一個你所能看見的生物在你周圍5尺內攻擊一個非你的目標時"
+        }
+      },
+      "effects": {
+        "Protected": {
+          "name": "受保護"
+        }
+      }
+    },
+    "Rally": {
+      "name": "Rally",
+      "description": "<p>As a Bonus Action, you can expend one Superiority Die to bolster the resolve of a companion. Choose an ally of yours within 30 feet of yourself who can see or hear you. That creature gains Temporary Hit Points equal to the Superiority Die roll plus half your Fighter level (round down).</p>"
+    },
+    "Ram": {
+      "activities": {
+        "Position": {
+          "name": "Position"
+        },
+        "Ram": {
+          "name": "Ram"
+        }
+      },
+      "name": "Ram",
+      "description": "<p><em>Large Object</em></p><p><strong>Armor Class:</strong> 15 <strong>Hit Points:</strong> 100</p><p><em><strong>Ram (Requires Position).</strong></em> <em>Melee Attack Roll:</em> +8, reach 5 ft. <em>Hit:</em> 16 (3d10) Bludgeoning damage.</p><p>A Ram consists of a movable gallery equipped with a heavy log suspended from two roof beams by chains. The log is shod in iron and used to batter through doors and barricades. Positioning a Ram requires three Utilize actions. Then a crew member can use the Ram action.</p><p>The gallery roof gives the operators &amp;Reference[Total Cover] against attacks and other effects from above.</p><section class=\"secret\" id=\"secret-BrA9tvhEbS4ebsJn\"><p><strong>Foundry Note</strong></p><p>This item has 3 limited uses for tracking positioning.</p><p>The <strong>Position</strong> activity grants one use so after three uses you can use the <strong>Ram</strong> activity.</p></section>"
+    },
+    "Riposte": {
+      "name": "Riposte",
+      "description": "<p>When a creature misses you with a melee attack roll, you can take a Reaction and expend one Superiority Die to make a melee attack roll with a weapon or an Unarmed Strike against the creature. If you hit, add the Superiority Die to the attack's damage.</p><section id=\"secret-aL4TzEY3Wy7mzsWY\" class=\"secret\"><p><strong>Foundry Note</strong></p><p>The <strong>Riposte Damage</strong> reaction activity allows you to select the type of damage it should deal in the roll dialog and will consume a use of your Superiority Die.</p></section>",
+      "activities": {
+        "Riposte Damage": {
+          "condition": "When a creature misses you with a melee attack roll",
+          "name": "Riposte Damage"
+        }
+      }
+    },
+    "Sacred Weapon": {
+      "name": "Sacred Weapon",
+      "description": "<p>When you take the Attack action, you can expend one use of your Channel Divinity to imbue one Melee weapon that you are holding with positive energy. For 10 minutes or until you use this feature again, you add your Charisma modifier to attack rolls you make with that weapon (minimum bonus of +1), and each time you hit with it, you cause it to deal its normal damage type or Radiant damage.</p><p>The weapon also emits Bright Light in a 20-foot radius and Dim Light 20 feet beyond that.</p><p>You can end this effect early (no action required). This effect also ends if you aren’t carrying the weapon.</p>",
+      "effects": {
+        "Sacred Weapon": {
+          "name": "Sacred Weapon",
+          "changes": {
+            "name": ", Sacred Weapon"
+          }
+        }
+      }
+    },
+    "Shield": {
+      "name": "盾牌",
+      "description": "<p>You gain the Armor Class benefit of a Shield only if you have training with it.</p>"
+    },
+    "Shield of Faith": {
+      "name": "虔誠護盾",
+      "description": "<p>一個閃爍的場域將射程內一個你所選擇的生物包裹，並使其在法術持續期間內獲得AC +2的加值。</p>",
+      "effects": {
+        "Shimmering Field": {
+          "description": "<p>目標在法術持續時間內獲得AC+2的加值</p>",
+          "name": "閃爍場域"
+        }
+      }
+    },
+    "Sleep": {
+      "name": "睡眠術",
+      "description": "<p>選擇射程內的一個點，以此為中心半徑5呎球形區域內的每個生物都必須通過一次感知豁免，否則陷入&amp;Reference[incapacitated apply=false]{無力}狀態，直到其下回合結束，此時其必須重複一次豁免。若目標第二次豁免失敗，則目標在法術持續時間內處於&amp;Reference[unconscious]{昏迷}狀態。若目標承受傷害，或有人在其5呎內採取動作將其從法術效果中搖醒，法術在該目標上終止。</p><p>不會睡覺的生物，例如精靈，或者免疫力竭狀態的生物，自動通過對此法術的豁免檢定中。</p>",
+      "effects": {
+        "Sleeping": {
+          "name": "睡眠",
+          "description": "<p>目標陷入&amp;Reference[incapacitated apply=false]{無力}狀態，直到其下回合結束，此時其必須重複一次豁免。若目標第二次豁免失敗，則目標在法術持續時間內處於&amp;Reference[unconscious]{昏迷}狀態。若目標承受傷害，或有人在其5呎內採取動作將其從法術效果中搖醒，法術在該目標上終止。</p>"
+        }
+      }
+    },
+    "Slow": {
+      "name": "緩速術",
+      "description": "<p>You alter time around up to six creatures of your choice in a 40-foot Cube within range. Each target must succeed on a Wisdom saving throw or be affected by this spell for the duration.</p><p>An affected target’s Speed is halved, it takes a −2 penalty to AC and Dexterity saving throws, and it can’t take Reactions. On its turns, it can take either an action or a Bonus Action, not both, and it can make only one attack if it takes the Attack action. If it casts a spell with a Somatic component, there is a [[/r 1d100cs&lt;=25#Slowed spell cast success]]{25 percent} chance the spell fails as a result of the target making the spell’s gestures too slowly.</p><p>An affected target repeats the save at the end of each of its turns, ending the spell on itself on a success.</p><section id=\"secret-2RobIVhv3tn7gmU7\" class=\"secret\"><p><strong>Foundry Note</strong></p><p>The inline roll above will return 1 if it succeeded or 0 if it failed.</p></section>",
+      "effects": {
+        "Slowed": {
+          "name": "Slowed",
+          "description": "<p>An affected target’s Speed is halved, it takes a −2 penalty to AC and Dexterity saving throws, and it can’t take Reactions. On its turns, it can take either an action or a Bonus Action, not both, and it can make only one attack if it takes the Attack action. If it casts a spell with a Somatic component, there is a [[/r 1d100cs&gt;25#Slowed spell cast success]]{25 percent} chance the spell fails as a result of the target making the spell’s gestures too slowly.</p><p>An affected target repeats the [[/save ability=wis]] save at the end of each of its turns, ending the spell on itself on a success.</p>"
+        }
+      }
+    },
+    "Spellcasting": {
+      "name": "施法",
+      "description": "<p>你透過鑽研詩人技藝而學會了施法。有關施法的規則請參見@UUID[Compendium.dnd-players-handbook.content.JournalEntry.phbSpells0000000.JournalEntryPage.mh3akteBDiLegqFK]{chapter 7} 。以下資訊詳細說明了如何將這些規則與吟遊詩人法術結合使用。吟遊詩人法術即該職業描述後的@UUID[Compendium.dnd-players-handbook.content.JournalEntry.phbSpells0000000.JournalEntryPage.wwia6Wwo4BgE9GSI]{吟遊詩人法術列表}中羅列的法術。</p><p><strong>【戲法】</strong>你知曉兩個從吟遊詩人法術列表中你所選擇的戲法。推薦選擇<em>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplDancingLig]</em>和<em>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplViciousMoc]</em> 。</p><p>每當你獲得吟遊詩人等級時，你可以將一個戲法替換為另一個吟遊詩人法術列表中你所選擇的戲法。</p><p>當你達到吟遊詩人 4 級和 10 級時，你可以從吟遊詩人法術列表中學習一個新的戲法，正如@UUID[Compendium.dnd-players-handbook.content.JournalEntry.phbBard000000000.JournalEntryPage.V8pqIWlaL9GhY61t#class-features]{吟遊詩人特性}表中戲法一欄所示。</p><p><strong>【法術位】</strong>吟遊詩人特性表記錄了你有多少法術位用以施放 1+環階的法術。當你完成長休時，你會重獲所有消耗的法術位。</p><p><strong>【準備1環以上的法術】</strong>通過該特性施法前，你需要選擇數個可用的1環以上的法術構成準備列表。首先，從吟遊詩人法術列表中選擇四個 1 環法術。推薦選擇<em>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplCharmPerso]</em>、<em>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplColorSpray]</em>、<em>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplDissonantW]</em>、<em>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplHealingWor]</em>。</p><p>準備列表上的法術數量將隨著你的吟遊詩人等級而增加，正如吟遊詩人特性表中準備法術一欄所示。每當該數量增加時，從吟遊詩人法術列表中選擇額外的法術來新增到你的準備列表中，直到你準備列表上的法術數量與吟遊詩人特性表中的數量相匹配。你只能準備已經獲得相應環階法術位的法術。例如，作為 3 級吟遊詩人，你的準備法術列表應該包括六個任意組合的1環或2環法術。</p><p>若另一個吟遊詩人特性給予你額外的準備法術，這些法術不會計入你在該特性中的準備法術數量，但是這些法術對你而言仍算作吟遊詩人法術。</p><p><strong>【更改準備法術】</strong>每當你獲得一個吟遊詩人等級時， 你可以將準備列表中的一個法術，替換為另一個你擁有法術位的吟遊詩人法術。</p><p><strong>【施法屬性】</strong>魅力是你施放吟遊詩人法術的施法屬性。</p><p><strong>【師法法器】</strong>你可以使用樂器作為吟遊詩人法術的施法法器。</p>"
+    },
+    "Spider Climb": {
+      "name": "蛛行術",
+      "description": "<p>直到法術結束前，你觸碰的一個自願生物會獲得在垂直表面和天花板上移動的能力，且不需要佔用雙手。目標還會獲得等於其速度的攀爬速度。</p><p><strong>【升環法術效應】</strong>法術位每升一個環階，就可以額外選擇一個生物。</p><section class=\"secret\" id=\"secret-4LoECjSnyIsXFdKY\"><p><strong>Foundry Note</strong></p><p>The Active Effect provided by the <strong>Cast</strong> activity upgrades the character's Climb Speed to a value of \"1\" to indicate equivalence to (walk) Speed.</p></section>",
+      "effects": {
+        "Spider Climb": {
+          "name": "蛛行術"
+        }
+      }
+    },
+    "Spiritual Weapon": {
+      "name": "靈體武器",
+      "description": "<p>你創造出一個漂浮的幽靈力場，呈現出你所選擇的武器形狀，並持續到法術結束。這股力場會出現在射程內你所選擇的空間，你可以立即對該力場5呎內的一個生物發動一次近戰法術攻擊。命中時，目標承受1d8 + 你的施法屬性調整值的力場傷害。</p><p>在你後續回合中作為一個附贈動作，你可以將這股力場移動至多20呎，並對其5呎內的生物再次攻擊。</p><p><strong>【升環法術效應】</strong>法術位每升一個環階，傷害就增加1d8。</p>"
+    },
+    "Talons": {
+      "activities": {
+        "Card Effect": {
+          "condition": "Card's effect occurs immediately upon draw",
+          "name": "Card Effect"
+        }
+      },
+      "description": "<p> Every magic item you wear or carry disintegrates. Artifacts in your possession vanish instead.</p>",
+      "name": "Talons"
+    },
+    "Teleport": {
+      "name": "傳送術",
+      "description": "<p>This spell instantly transports you and up to eight willing creatures that you can see within range, or a single object that you can see within range, to a destination you select. If you target an object, it must be Large or smaller, and it can’t be held or carried by an unwilling creature.</p><p>The destination you choose must be known to you, and it must be on the same plane of existence as you. Your familiarity with the destination determines whether you arrive there successfully. The DM rolls [[/gmr 1d100]] and consults the Teleportation Outcome table and the explanations after it.</p><details><summary><strong>@UUID[Compendium.dnd-players-handbook.tables.RollTable.phbsplTeleportMi]{Teleportation Outcome}</strong></summary><table><thead><tr><td>Familiarity</td><td>Mishap</td><td>Similar Area</td><td>Off Target</td><td>On Target</td></tr></thead><tbody><tr><td>Permanent circle</td><td>—</td><td>—</td><td>—</td><td>01–00</td></tr><tr><td>Linked object</td><td>—</td><td>—</td><td>—</td><td>01–00</td></tr><tr><td>Very familiar</td><td>01–05</td><td>06–13</td><td>14–24</td><td>25–00</td></tr><tr><td>Seen casually</td><td>01–33</td><td>34–43</td><td>44–53</td><td>54–00</td></tr><tr><td>Viewed once or described</td><td>01–43</td><td>44–53</td><td>54–73</td><td>74–00</td></tr><tr><td>False destination</td><td>01–50</td><td>51–00</td><td>—</td><td>—</td></tr></tbody></table></details><p><strong>Familiarity.</strong> Here are the meanings of the terms in the table’s Familiarity column:</p><ul><li>“Permanent circle” means a permanent teleportation circle whose sigil sequence you know.</li><li>“Linked object” means you possess an object taken from the desired destination within the last six months, such as a book from a wizard’s library.</li><li>“Very familiar” is a place you have visited often, a place you have carefully studied, or a place you can see when you cast the spell.</li><li>“Seen casually” is a place you have seen more than once but with which you aren’t very familiar.</li><li>“Viewed once or described” is a place you have seen once, possibly using magic, or a place you know through someone else’s description, perhaps from a map.</li><li>“False destination” is a place that doesn’t exist. Perhaps you tried to scry an enemy’s sanctum but instead viewed an illusion, or you are attempting to teleport to a location that no longer exists.</li></ul><p><strong>Mishap.</strong> The spell’s unpredictable magic results in a difficult journey. Each teleporting creature (or the target object) takes [[/damage 3d10 type=force]] damage, and the DM rerolls on the table to see where you wind up (multiple mishaps can occur, dealing damage each time).</p><p><strong>Similar Area.</strong> You and your group (or the target object) appear in a different area that’s visually or thematically similar to the target area. You appear in the closest similar place. If you are heading for your home laboratory, for example, you might appear in another person’s laboratory in the same city.</p><p><strong>Off Target.</strong> You and your group (or the target object) appear [[/r 2d12]] miles away from the destination in a random direction. Roll [[/r 1d8]] for the direction: 1, east; 2, southeast; 3, south; 4, southwest; 5, west; 6, northwest; 7, north; or 8, northeast.</p><p><strong>On Target.</strong> You and your group (or the target object) appear where you intended.</p>"
+    },
+    "Thunderclap": {
+      "name": "鳴雷破",
+      "description": "<p>每個處於你5呎擴散區域內的生物必須通過一次體質豁免，否則承受1d6的雷鳴傷害。法術產生的雷鳴聲可以在100呎遠的地方聽到。</p><p><strong>【戲法升級】</strong>當你達到特定等級時傷害增加：5級2d6、11級3d6、17級4d6。</p>"
+    },
+    "Tree Stride": {
+      "name": "樹躍術",
+      "description": "<p>You gain the ability to enter a tree and move from inside it to inside another tree of the same kind within 500 feet. Both trees must be living and at least the same size as you. You must use 5 feet of movement to enter a tree. You instantly know the location of all other trees of the same kind within 500 feet and, as part of the move used to enter the tree, can either pass into one of those trees or step out of the tree you’re in. You appear in a spot of your choice within 5 feet of the destination tree, using another 5 feet of movement. If you have no movement left, you appear within 5 feet of the tree you entered.</p><p>You can use this transportation ability only once on each of your turns. You must end each turn outside a tree.</p>"
+    },
+    "Uncanny Dodge": {
+      "name": "Uncanny Dodge",
+      "description": "<p>When an attacker that you can see hits you with an attack roll, you can take a Reaction to halve the attack’s damage against you (round down).</p><section class=\"secret\" id=\"secret-fLqTNntX7T0swRsu\"><p><strong>Foundry Note</strong></p><p>With your token selected you can either right click on the damage roll's chat card and select <span class=\"reference\"><em class=\"fas fa-user-shield\"> </em>Apply Half Damage</span> or click the \"1/2\" button and then the <span class=\"reference\"><em class=\"fa-solid fa-reply-all\"> </em>Apply</span> button.</p></section>",
+      "activities": {
+        "Uncanny Dodge": {
+          "name": "Uncanny Dodge",
+          "condition": "When an attacker that you can see hits you with an attack roll"
+        }
+      }
+    },
+    "Water Breathing": {
+      "name": "水下呼吸",
+      "description": "<p>This spell grants up to ten willing creatures of your choice within range the ability to breathe underwater until the spell ends. Affected creatures also retain their normal mode of respiration.</p>",
+      "effects": {
+        "Water Breathing": {
+          "name": "Water Breathing"
+        }
+      }
+    },
+    "Web": {
+      "name": "蛛網術",
+      "description": "<p>You conjure a mass of sticky webbing at a point within range. The webs fill a 20-foot Cube there for the duration. The webs are &amp;Reference[difficultterrain]{困難地形}, and the area within them is &amp;Reference[lightlyobscured].</p><p>If the webs aren’t anchored between two solid masses (such as walls or trees) or layered across a floor, wall, or ceiling, the web collapses on itself, and the spell ends at the start of your next turn. Webs layered over a flat surface have a depth of 5 feet.</p><p>The first time a creature enters the webs on a turn or starts its turn there, it must succeed on a Dexterity saving throw or have the &amp;Reference[restrained] condition while in the webs or until it breaks free.</p><p>A creature Restrained by the webs can take an action to make a [[/check ability=str skill=ath dc=@attributes.spelldc]] check against your spell save DC. If it succeeds, it is no longer Restrained.</p><p>The webs are flammable. Any 5-foot Cube of webs exposed to fire burns away in 1 round, dealing [[/damage 2d4 type=fire]] damage to any creature that starts its turn in the fire.</p>"
+    },
+    "Whelm": {
+      "activities": {
+        "Hurl": {
+          "name": "Hurl"
+        },
+        "Shock Wave": {
+          "name": "Shock Wave"
+        },
+        "Hurl (Constuct, Elemental, Giant)": {
+          "name": "Hurl (Constuct, Elemental, Giant)"
+        },
+        "Standard Attack": {
+          "name": "Standard Attack"
+        }
+      },
+      "effects": {
+        "Stunned": {
+          "name": "Stunned",
+          "description": "<p>The target has the &amp;Reference[Stunned apply=false] condition for 1 minute. The target repeats the save at the end of each of its turns, ending the effect on itself on a success. </p>"
+        }
+      },
+      "name": "Whelm",
+      "description": "<p><em>Weapon (@UUID[Compendium.dnd-players-handbook.equipment.Item.phbwepWarhammer0]{Warhammer}), Artifact (Requires Attunement by a Dwarf or a Creature Attuned to a Belt of Dwarvenkind)</em></p><p>Whelm is a powerful weapon forged by dwarves and lost in the dungeon of White Plume Mountain.</p><p>You gain a +3 bonus to attack rolls and damage rolls made with this magic weapon.</p><p><em><strong>Hurl</strong></em>. <em>Whelm</em> has the Thrown property with a normal range of 60 feet and a long range of 180 feet. When you hit with a ranged attack roll using <em>Whelm</em>, the target takes an extra 1d8 Force damage, or an extra 4d8 Force damage if the target is a Construct, an Elemental, or a Giant. Immediately after hitting or missing, the weapon flies back to your hand.</p><p><em><strong>Shock Wave</strong></em>. You can take a Magic action to strike the ground with <em>Whelm</em> and send a shock wave out from the point of impact. Each creature of your choice on the ground within 60 feet of that point must succeed on a DC 20 Constitution saving throw or have the &amp;Reference[Stunned apply=false]{Stunned} condition for 1 minute. A creature repeats the save at the end of each of its turns, ending the effect on itself on a success. Once used, this property can’t be used again until the next dawn.</p><p><em><strong>Supernatural Awareness</strong></em>. While you are holding the weapon, it alerts you to the location of any secret or concealed doors within 30 feet of you. In addition, you can cast <em>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplDetectEvil]{Detect Evil and Good}</em> or <em>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplLocateObje]{Locate Object}</em> from the weapon. Once you cast either spell, you can’t cast it from the weapon again until the next dawn.</p><details><summary>Sentience/Personality/Destroying Whelm</summary><p><em><strong>Sentience</strong></em>. <em>Whelm</em> is a sentient, Lawful Neutral weapon with an Intelligence of 15, a Wisdom of 12, and a Charisma of 15. It has hearing and Darkvision out to 120 feet.</p><p>The weapon communicates telepathically with its wielder and speaks Dwarvish, Giant, and Goblin.</p><p><em><strong>Personality</strong></em>. <em>Whelm</em> has ties to the dwarf clan that created it, called the Dankil or the Mightyhammer clan. It longs to be returned to that clan. <em>Whelm's</em> purpose is to protect dwarves. Conflict arises if the wielder doesn’t share this goal.</p><p><em><strong>Destroying Whelm</strong></em>. <em>Whelm</em> can be dissolved in the acidic bile of a recently slain ancient black dragon. It can also be melted down in the forges of the Mightyhammer dwarf clan, but only by the rightful leader of that clan.</p></details>"
+    }
+  }
 }

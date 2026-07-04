@@ -26,5 +26,439 @@
     "Spells": "Spells",
     "Alchemist": "Alchemist"
   },
-  "entries": {}
+  "entries": {
+    "Fey Ancestry": {
+      "name": "精類血統",
+      "description": "<p>你在避免或結束&amp;Reference[Charmed]狀態所進行的豁免檢定具有優勢。</p>"
+    },
+    "Armor of Resistance": {
+      "effects": {
+        "Armor of Fire Resistance": {
+          "name": "Armor of Fire Resistance",
+          "changes": {
+            "name": "{} of Fire Resistance",
+            "system.description.value": "{}<p>@Embed[Compendium.dnd-dungeon-masters-guide.equipment.Item.dmgArmorOfResist caption=false]</p>"
+          }
+        },
+        "Acid Resistance": {
+          "name": "Acid Resistance"
+        },
+        "Lightning Resistance": {
+          "name": "Lightning Resistance"
+        },
+        "Armor of Necrotic Resistance": {
+          "changes": {
+            "system.description.value": "{}<p>@Embed[Compendium.dnd-dungeon-masters-guide.equipment.Item.dmgArmorOfResist caption=false]</p>",
+            "name": "{} of Necrotic Resistance"
+          },
+          "name": "Armor of Necrotic Resistance"
+        },
+        "Armor of Force Resistance": {
+          "name": "Armor of Force Resistance",
+          "changes": {
+            "name": "{} of Force Resistance",
+            "system.description.value": "{}<p>@Embed[Compendium.dnd-dungeon-masters-guide.equipment.Item.dmgArmorOfResist caption=false]</p>"
+          }
+        },
+        "Armor of Acid Resistance": {
+          "changes": {
+            "name": "{} of Acid Resistance",
+            "system.description.value": "{}<p>@Embed[Compendium.dnd-dungeon-masters-guide.equipment.Item.dmgArmorOfResist caption=false]</p>"
+          },
+          "name": "Armor of Acid Resistance"
+        },
+        "Radiant Resistance": {
+          "name": "Radiant Resistance"
+        },
+        "Armor of Radiant Resistance": {
+          "changes": {
+            "name": "{} of Radiant Resistance",
+            "system.description.value": "{}<p>@Embed[Compendium.dnd-dungeon-masters-guide.equipment.Item.dmgArmorOfResist caption=false]</p>"
+          },
+          "name": "Armor of Radiant Resistance"
+        },
+        "Cold Resistance": {
+          "name": "Cold Resistance"
+        },
+        "Armor of Poison Resistance": {
+          "changes": {
+            "system.description.value": "{}<p>@Embed[Compendium.dnd-dungeon-masters-guide.equipment.Item.dmgArmorOfResist caption=false]</p>",
+            "name": "{} of Poison Resistance"
+          },
+          "name": "Armor of Poison Resistance"
+        },
+        "Necrotic Resistance": {
+          "name": "Necrotic Resistance"
+        },
+        "Armor of Cold Resistance": {
+          "changes": {
+            "system.description.value": "{}<p>@Embed[Compendium.dnd-dungeon-masters-guide.equipment.Item.dmgArmorOfResist caption=false]</p>",
+            "name": "{} of Cold Resistance"
+          },
+          "name": "Armor of Cold Resistance"
+        },
+        "Armor of Psychic Resistance": {
+          "name": "Armor of Psychic Resistance",
+          "changes": {
+            "system.description.value": "{}<p>@Embed[Compendium.dnd-dungeon-masters-guide.equipment.Item.dmgArmorOfResist caption=false]</p>",
+            "name": "{} of Psychic Resistance"
+          }
+        },
+        "Armor of Thunder Resistance": {
+          "changes": {
+            "name": "{} of Thunder Resistance",
+            "system.description.value": "{}<p>@Embed[Compendium.dnd-dungeon-masters-guide.equipment.Item.dmgArmorOfResist caption=false]</p>"
+          },
+          "name": "Armor of Thunder Resistance"
+        },
+        "Force Resistance": {
+          "name": "Force Resistance"
+        },
+        "Poison Resistance": {
+          "name": "Poison Resistance"
+        },
+        "Fire Resistance": {
+          "name": "Fire Resistance"
+        },
+        "Armor of Lightning Resistance": {
+          "name": "Armor of Lightning Resistance",
+          "changes": {
+            "system.description.value": "{}<p>@Embed[Compendium.dnd-dungeon-masters-guide.equipment.Item.dmgArmorOfResist caption=false]</p>",
+            "name": "{} of Lightning Resistance"
+          }
+        },
+        "Psychic Resistance": {
+          "name": "Psychic Resistance"
+        },
+        "Thunder Resistance": {
+          "name": "Thunder Resistance"
+        }
+      },
+      "name": "Armor of Resistance",
+      "activities": {
+        "Armor of Resistance": {
+          "name": "Armor of Resistance"
+        }
+      },
+      "description": "<p><em>護甲（任意輕甲、中甲或重甲），珍稀（需同調）</em></p><p>You have Resistance to one type of damage while you wear this armor. The DM chooses the type or determines it randomly by rolling on the following table.</p><p>@Embed[Compendium.dnd-dungeon-masters-guide.tables.RollTable.dmgArmorOfResist rollable caption=false]</p><p>@Embed[Compendium.dnd-dungeon-masters-guide.content.JournalEntry.dmgFoundryRefere.JournalEntryPage.Ok4iCgD25ENgoRxE cite=false caption=false classes=\"hide-in-embed\"]</p>"
+    },
+    "Dagger of Venom": {
+      "effects": {
+        "Poisoned": {
+          "description": "<p>The creature has the &amp;Reference[Poisoned apply=false] condition for 1 minute.</p>",
+          "name": "Poisoned"
+        },
+        "Poison Coat": {
+          "name": "Poison Coat"
+        }
+      },
+      "description": "<div><p><em>Weapon (Dagger)，珍稀</em></p></div><p>You gain a +1 bonus to attack rolls and damage rolls made with this magic weapon.</p><p>You can take a Bonus Action to magically coat the blade with poison. The poison remains for 1 minute or until an attack using this weapon hits a creature. That creature must succeed on a DC 15 Constitution saving throw or take 2d10 Poison damage and have the &amp;Reference[Poisoned apply=false] condition for 1 minute. The weapon can’t be used this way again until the next dawn.</p>",
+      "activities": {
+        "Coat Blade with Poison": {
+          "name": "Coat Blade with Poison"
+        },
+        "Poison Save": {
+          "name": "Poison Save"
+        }
+      },
+      "name": "淬毒匕首"
+    },
+    "Elven Chain": {
+      "name": "精靈鏈甲",
+      "description": "<p><em>Armor (@UUID[Compendium.dnd-players-handbook.equipment.Item.phbarmChainMail0]{Chain Mail} or @UUID[Compendium.dnd-players-handbook.equipment.Item.phbarmChainShirt]{Chain Shirt})，珍稀</em></p><p>You gain a +1 bonus to Armor Class while you wear this armor. You are considered trained with this armor even if you lack training with Medium or Heavy armor.</p><p>@Embed[Compendium.dnd-dungeon-masters-guide.content.JournalEntry.dmgFoundryRefere.JournalEntryPage.Ok4iCgD25ENgoRxE cite=false caption=false classes=\"hide-in-embed\"]</p>",
+      "activities": {
+        "Elven Chain": {
+          "name": "精靈鏈甲"
+        }
+      },
+      "effects": {
+        "Elven Chain": {
+          "changes": {
+            "system.description.value": "{}<p>@Embed[Compendium.dnd-dungeon-masters-guide.equipment.Item.dmgElvenChain000 caption=false]</p>",
+            "name": "Elven {}"
+          },
+          "name": "精靈鏈甲"
+        }
+      }
+    },
+    "Ring of Feather Falling": {
+      "description": "<p><em>Ring，珍稀（需同調）</em></p><p>When you fall while wearing this ring, you descend 60 feet per round and take no damage from falling.</p>",
+      "name": "羽落戒指"
+    },
+    "Ring of Jumping": {
+      "description": "<p><em>Ring，非普通（需同調）</em></p><p>While wearing this ring, you can cast @UUID[Compendium.dnd-players-handbook.spells.Item.phbsplJump000000]{Jump} from it, but can target only yourself when you do so.</p>",
+      "name": "跳躍戒指"
+    },
+    "Ring of Mind Shielding": {
+      "name": "心靈護盾戒指",
+      "description": "<p><em>Ring，非普通（需同調）</em></p><p>While wearing this ring, you are immune to magic that allows other creatures to read your thoughts, determine whether you are lying, know your alignment, or know your creature type. Creatures can telepathically communicate with you only if you allow it.</p><p>You can take a Magic action to cause the ring to become imperceptible until you take another Magic action to make it perceptible, until you remove the ring, or until you die.</p><p>If you die while wearing the ring, your soul enters it, unless it already houses a soul. You can remain in the ring or depart for the afterlife. As long as your soul is in the ring, you can telepathically communicate with any creature wearing it. A wearer can’t prevent this telepathic communication.</p>"
+    },
+    "Arrow-Catching Shield": {
+      "activities": {
+        "Intercept Attack": {
+          "name": "Intercept Attack",
+          "condition": "an attacker makes a ranged attack roll against a target within 5 feet of you",
+          "chatFlavor": "You become the target of the ranged attack."
+        }
+      },
+      "description": "<p><em>護甲（盾牌），珍稀（需同調）</em></p><p>You gain a +2 bonus to Armor Class against ranged attack rolls while you wield this Shield. This bonus is in addition to the Shield’s normal bonus to AC.</p><p>Whenever an attacker makes a ranged attack roll against a target within 5 feet of you, you can take a Reaction to become the target of the attack instead.</p><section class=\"secret\" id=\"secret-n4z3GTIVyxRRS17N\"><p><strong>Foundry Note</strong></p><p>The <strong>Ranged Attack AC Bonus</strong> effect is provided for optional use and may be toggled active before a ranged attack roll is made against the wearer.</p></section>",
+      "name": "捕箭盾",
+      "effects": {
+        "Ranged Attack AC Bonus": {
+          "description": "<p>You gain a +2 bonus to Armor Class against ranged attack rolls while you wield this Shield. This bonus is in addition to the Shield’s normal bonus to AC.</p>",
+          "name": "Ranged Attack AC Bonus"
+        }
+      }
+    },
+    "Flame Tongue": {
+      "effects": {
+        "Flame Tongue": {
+          "changes": {
+            "system.description.value": "{}<p>@Embed[Compendium.dnd-dungeon-masters-guide.equipment.Item.dmgFlameTongue00 caption=false]</p>",
+            "name": "Flame Tongue {}"
+          },
+          "name": "Flame Tongue"
+        },
+        "Ablaze": {
+          "name": "Ablaze",
+          "changes": {
+            "name": "{} (Ablaze)"
+          }
+        }
+      },
+      "name": "Flame Tongue",
+      "description": "<p><em>Weapon (Any Melee Weapon)，珍稀（需同調）</em></p><p>While holding this magic weapon, you can take a Bonus Action and use a command word to cause flames to engulf the <span class=\"no-break\">damage</span>-dealing part of the weapon. These flames shed Bright Light in a 40-foot radius and Dim Light for an additional 40 feet. While the weapon is ablaze, it deals an extra 2d6 Fire damage on a hit. The flames last until you take a Bonus Action to issue the command again or until you drop, stow, or sheathe the weapon.</p><p>@Embed[Compendium.dnd-dungeon-masters-guide.content.JournalEntry.dmgFoundryRefere.JournalEntryPage.Ok4iCgD25ENgoRxE cite=false caption=false classes=\"hide-in-embed\"]</p>",
+      "activities": {
+        "Engulf in Flames": {
+          "name": "Engulf in Flames"
+        },
+        "Flame Tongue": {
+          "name": "Flame Tongue"
+        }
+      }
+    },
+    "Ring of Free Action": {
+      "description": "<p><em>Ring，珍稀（需同調）</em></p><p>While you wear this ring, &amp;Reference[Difficult Terrain] doesn’t cost you extra movement. In addition, magic can neither reduce any of your Speeds nor cause you to have the &amp;Reference[Paralyzed apply=false] or &amp;Reference[Restrained apply=false] condition.</p>",
+      "name": "自由行動戒指"
+    },
+    "Ring of Protection": {
+      "name": "防護戒指",
+      "description": "<p><em>Ring，珍稀（需同調）</em></p><p>You gain a +1 bonus to Armor Class and saving throws while wearing this ring.</p>",
+      "effects": {
+        "Ring of Protection": {
+          "name": "防護戒指"
+        }
+      }
+    },
+    "Ring of the Ram": {
+      "name": "公羊戒指",
+      "description": "<p><em>Ring，珍稀（需同調）</em></p><p>This ring has 3 charges and regains 1d3 expended charges daily at dawn. While wearing the ring, you can take a Magic action to expend 1 to 3 charges to make a ranged spell attack against one creature you can see within 60 feet of yourself. The ring produces a spectral ram’s head and makes its attack roll with a +7 bonus. On a hit, for each charge you spend, the target takes 2d10 Force damage and is pushed 5 feet away from you.</p><p>Alternatively, you can expend 1 to 3 of the ring’s charges as a Magic action to try to break a nonmagical object you can see within 60 feet of yourself that isn’t being worn or carried. The ring makes a Strength check with a +5 bonus for each charge you spend.</p>",
+      "activities": {
+        "Break Item": {
+          "name": "Break Item",
+          "roll": "Strength Roll"
+        }
+      }
+    },
+    "Alchemy Jug": {
+      "name": "煉金壺",
+      "description": "<p><em>奇物，非普通</em></p><p>This ceramic jug appears to be able to hold a gallon of liquid and weighs 12 pounds whether full or empty. The jug sloshes when it is shaken, even if the jug is empty.</p><p>You can take a Magic action and name one liquid from the Alchemy Jug Liquids table to cause the jug to produce the chosen liquid. Afterward, you can uncork the jug as a Utilize action and pour that liquid out, up to 2 gallons per minute. The maximum amount of liquid the jug can produce depends on the liquid you named.</p><p>Once the jug starts producing a liquid, it can’t produce a different one, or more of one that has reached its maximum, until the next dawn.</p><table><caption>Alchemy Jug Liquids</caption><thead><tr><td>Liquid</td><td>Max. Amount</td><td>Liquid</td><td>Max. Amount</td></tr></thead><tbody><tr><td>Acid</td><td>8 ounces</td><td>Oil</td><td>1 quart</td></tr><tr><td>Basic Poison</td><td>4 ounces</td><td>Vinegar</td><td>2 gallons</td></tr><tr><td>Beer</td><td>4 gallons</td><td>Water, fresh</td><td>8 gallons</td></tr><tr><td>Honey</td><td>1 gallon</td><td>Water, salt</td><td>12 gallons</td></tr><tr><td>Mayonnaise</td><td>2 gallons</td><td>Wine</td><td>1 gallon</td></tr></tbody></table><section class=\"secret\" id=\"secret-chVDR5A8BYbySfox\"><p><strong>Foundry Note</strong></p><p>The included [[/item Activate Alchemy Jug]] equipment item is intended for daily usage tracking and includes a modified <em>Alchemy Jug Liquids</em> table with links to the consumable liquid items and quantity produced.</p></section>"
+    },
+    "Bag of Holding": {
+      "name": "次元袋",
+      "description": "<p>這個袋子具有一個比它外部尺寸要大上許多的內部空間，它的袋口直徑約莫2呎，且深約4呎。這個袋子可以容納最多500磅的重量，且體積不能超過64立方呎。無論它裝了什麼，這個袋子的重量皆為15磅。將一個物品從袋中取出需要花費一個動作。</p><p>若這個袋子超載、被戳破、或撕裂，則它將因此破裂並被摧毀，且它裝載的東西將散落在星界位面。若這個袋子被裡外翻轉，則它裝載的東西將無傷地掉落而出，但這個袋子必須被恢復原狀才能夠被再次使用。需要呼吸的生物在袋中可以存活的時間最多等同於10除以生物數量的分鐘數（最少1分鐘），在這之後它們將開始窒息。</p><p>將次元袋放入由@霍華德的便利袋、便攜式次元洞、或類似物品所創造的異次元空間中，將會立刻摧毀這兩件物品，並打開一道通往星界位面的傳送門。這道傳送門將產生載這兩件物品被放入彼此的位置。任何距離這道傳送門10呎內的生物將被吸進門內，並被送往星界位面中的一處隨機地點。這道傳送門接著將會關閉。這道傳送門僅限單向傳送，且無法再次被開啟。</p><div><p>此袋子具有一個比它外部尺寸要大上許多的內部空間，它的袋口直徑約莫2呎，且深約4呎。這個袋子可以容納最多500磅的重量，且體積不能超過64<span class=\"no-break\">立方</span>呎。無論它裝了什麼，袋子的重量皆為5磅。將一個物品從袋中取出需要一個使用動作。</p><p>若這個袋子超載、被戳破、或撕裂，則其將被摧毀，且其裝載的內容物將散落在星界位面。若袋子被裡外翻轉，則其裝載的內容物將無傷地掉落而出，但必須將袋子恢復原狀才能夠再次使用。袋子內部儲存的空氣足夠呼吸 10 分鐘，並依照袋中呼吸的生物數量平均分配。</p><p>將 <em>次元袋</em>放入由<em>@UUID[Compendium.dnd-dungeon-masters-guide.equipment.Item.dmgHewardsHandyH]</em>、<em>@UUID[Compendium.dnd-dungeon-masters-guide.equipment.Item.dmgPortableHole0]</em>或類似物品所創造的異次元空間中，將會立刻摧毀這兩件物品，並打開一道通往星界位面的傳送門。傳送門將產生在這兩件物品被放入彼此的位置。任何距離傳送門10呎半徑內的生物將被吸進門內，並被送往星界位面中隨機一處地點，接著傳送門將會關閉。傳送門僅限單向傳送，且無法再次被開啟。</p></div>"
+    },
+    "Cap of Water Breathing": {
+      "description": "<div><p><em>奇物，非普通</em></p></div><p>While wearing this cap underwater, you can take a Magic action to create a bubble of air around your head. This bubble allows you to breathe normally underwater. This bubble stays with you until the cap is removed or you are no longer underwater.</p>",
+      "name": "Cap of Water Breathing",
+      "effects": {
+        "Air Bubble": {
+          "description": "<p> This bubble allows you to breathe normally underwater. This bubble stays with you until the cap is removed or you are no longer underwater.</p>",
+          "name": "Air Bubble"
+        }
+      },
+      "activities": {
+        "Create Air Bubble": {
+          "condition": "user is under water",
+          "name": "Create Air Bubble"
+        }
+      }
+    },
+    "Goggles of Night": {
+      "effects": {
+        "Goggles On": {
+          "name": "Goggles On"
+        }
+      },
+      "name": "夜視護目鏡",
+      "description": "<p><em>奇物，非普通</em></p><p>While wearing these dark lenses, you have Darkvision out to 60 feet. If you already have Darkvision, wearing the goggles increases its range by 60 feet.</p>"
+    },
+    "Rope of Climbing": {
+      "name": "攀爬繩",
+      "activities": {
+        "Command": {
+          "name": "Command"
+        },
+        "Repair Rope": {
+          "name": "Repair Rope"
+        },
+        "Damage Rope": {
+          "name": "Damage Rope"
+        }
+      },
+      "description": "<p><em>奇物，非普通</em></p><p>This 60-foot length of rope can hold up to 3,000 pounds. While holding one end of the rope, you can take a Magic action to command the other end of the rope to animate and move toward a destination you choose, up to the rope’s length away from you. That end moves 10 feet on your turn when you first command it and 10 feet at the start of each of your subsequent turns until reaching its destination or until you tell it to stop. You can also tell the rope to fasten itself securely to an object or to unfasten itself, to knot or unknot itself, or to coil itself for carrying.</p><p>If you tell the rope to knot, large knots appear at 1-foot intervals along the rope. While knotted, the rope shortens to a 50-foot length and grants Advantage on ability checks made to climb using the rope.</p><p>The rope has AC 20, HP 20, and Immunity to Poison and Psychic damage. It regains 1 Hit Point every 5 minutes as long as it has at least 1 Hit Point. If the rope drops to 0 Hit Points, it is destroyed.</p><section class=\"secret\" id=\"secret-S4xxCILbyoIPQL7g\"><p><strong>Foundry Note</strong></p><p>The item includes 20 uses for tracking its HP. The <strong>Damage Rope</strong> activity can be used to apply damage and the <strong>Repair Rope</strong> activity can be used to restore its HP.</p></section>"
+    },
+    "Sending Stones": {
+      "name": "Sending Stones",
+      "description": "<p><em>奇物，非普通</em></p><p><em>Sending Stones</em> come in pairs, with each stone carved to match the other so the pairing is easily recognized. While you touch one stone, you can cast @UUID[Compendium.dnd-players-handbook.spells.Item.phbsplSending000]{Sending} from it. The target is the bearer of the other stone. If no creature bears the other stone, you know that fact as soon as you use the stone, and you don’t cast the spell.</p><p>Once <em>Sending</em> is cast using either stone, the stones can’t be used again until the next dawn. If one of the stones in a pair is destroyed, the other one becomes nonmagical.</p>"
+    },
+    "Wand of Magic Detection": {
+      "name": "偵測魔法魔杖",
+      "description": "<p><em>Wand，非普通</em></p><p>This wand has 3 charges. While holding it, you can expend 1 charge to cast @UUID[Compendium.dnd-players-handbook.spells.Item.phbsplDetectMagi]{Detect Magic} from it. The wand regains 1d3 expended charges daily at dawn.</p>"
+    },
+    "Wand of Secrets": {
+      "name": "探秘魔杖",
+      "description": "<p><em>Wand，非普通</em></p><p>This wand has 3 charges and regains 1d3 expended charges daily at dawn. While holding it, you can take a Magic action to expend 1 charge, and if a secret door or trap is within 60 feet of you, the wand pulses and points at the one nearest to you.</p>",
+      "activities": {
+        "Detect Secret Door/Trap": {
+          "name": "Detect Secret Door/Trap"
+        }
+      }
+    },
+    "Boots of Elvenkind": {
+      "name": "精靈之靴",
+      "description": "<div><p><em>奇物，非普通</em></p></div><p>While you wear these boots, your steps make no sound, regardless of the surface you are moving across. You also have Advantage on Dexterity (Stealth) checks.</p>"
+    },
+    "Cloak of Elvenkind": {
+      "name": "精靈斗篷",
+      "description": "<div><p><em>奇物，非普通（需同調）</em></p></div><p>While you wear this cloak, Wisdom (Perception) checks made to perceive you have Disadvantage, and you have Advantage on Dexterity (Stealth) checks.</p>"
+    },
+    "Cloak of the Manta Ray": {
+      "description": "<div><p><em>奇物，非普通（需同調）</em></p></div><p>While wearing this cloak, you can breathe underwater, and you have a Swim Speed of 60 feet.</p>",
+      "effects": {
+        "Aquatic Bonuses: Swimming and Breathing": {
+          "name": "Aquatic Bonuses: Swimming and Breathing",
+          "description": "<p>You can breathe underwater, and you have a Swim Speed of 60 feet.</p>"
+        }
+      },
+      "name": "魟魚斗篷"
+    },
+    "Eyes of Charming": {
+      "description": "<div><p><em>奇物，非普通（需同調）</em></p></div><p>These crystal lenses fit over the eyes. They have 3 charges. While wearing them, you can expend 1 or more charges to cast <em>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplCharmPerso]{Charm Person}</em> (save DC 13). For 1 charge, you cast the level 1 version of the spell. You increase the spell’s level by one for each additional charge you expend. The lenses regain all expended charges daily at dawn.</p>",
+      "name": "魅惑鏡片"
+    },
+    "Eyes of Minute Seeing": {
+      "name": "微視鏡片",
+      "description": "<div><p><em>奇物，非普通</em></p></div><p>These crystal lenses fit over the eyes. While wearing them, your vision improves significantly out to a range of 1 foot, granting you Darkvision within that range and Advantage on Intelligence (Investigation) checks made to examine something within that range.</p>"
+    },
+    "Gloves of Thievery": {
+      "effects": {
+        "Gloves On": {
+          "name": "Gloves On"
+        }
+      },
+      "name": "Gloves of Thievery",
+      "description": "<p><em>奇物，非普通</em></p><p>These gloves are imperceptible while worn. While wearing them, you gain a +5 bonus to Dexterity (Sleight of Hand) checks.</p><section id=\"secret-MTbVEJqcHy1oERli\" class=\"secret\"><p><strong>Foundry Note</strong></p><p>The <strong>Gloves On</strong> Active Effect automates the +5 to your Sleight of Hand checks.</p></section>"
+    },
+    "Lantern of Revealing": {
+      "name": "顯像提燈",
+      "description": "<p><em>奇物，非普通</em></p><p>While lit, this hooded lantern burns for 6 hours on 1 pint of oil, shedding Bright Light in a 30-foot radius and Dim Light for an additional 30 feet. &amp;Reference[Invisible apply=false]{隱形} creatures and objects are visible as long as they are in the lantern’s Bright Light. You can take a Utilize action to lower the hood, reducing the lantern’s light to Dim Light in a 5-foot radius.</p>",
+      "activities": {
+        "Consume Oil": {
+          "name": "Consume Oil"
+        }
+      }
+    },
+    "Necklace of Adaptation": {
+      "description": "<p><em>奇物，非普通（需同調）</em></p><p>While wearing this necklace, you can breathe normally in any environment, and you have Advantage on saving throws made to avoid or end the &amp;Reference[Poisoned apply=false] condition.</p>",
+      "name": "適應項鍊"
+    },
+    "Pipes of Haunting": {
+      "effects": {
+        "Frightened": {
+          "name": "Frightened"
+        }
+      },
+      "description": "<p><em>奇物，非普通</em></p><p>These pipes have 3 charges and regain 1d3 expended charges daily at dawn. You can take a Magic action to play them and expend 1 charge to create an eerie, spellbinding tune. Each creature of your choice within 30 feet of you must succeed on a DC 15 Wisdom saving throw or have the &amp;Reference[Frightened apply=false] condition for 1 minute. A creature that fails the save repeats it at the end of each of its turns, ending the effect on itself on a success. A creature that succeeds on its save is immune to the effect of these pipes for 24 hours.</p>",
+      "name": "顫慄之笛",
+      "activities": {
+        "Play Pipes": {
+          "name": "Play Pipes"
+        }
+      }
+    },
+    "Ring of Swimming": {
+      "description": "<p><em>Ring，非普通</em></p><p>You have a Swim Speed of 40 feet while wearing this ring.</p>",
+      "name": "游泳戒指",
+      "effects": {
+        "Swimmer": {
+          "name": "Swimmer"
+        }
+      }
+    },
+    "Ring of Water Walking": {
+      "name": "水行戒指",
+      "description": "<p class=\"Core-Styles_Core-Metadata\"><em>Ring，非普通</em></p><p>While wearing this ring, you cast @UUID[Compendium.dnd-players-handbook.spells.Item.phbsplWaterWalk0]{Water Walk} from it, targeting only yourself.</p>"
+    },
+    "Sentinel Shield": {
+      "name": "Sentinel Shield",
+      "effects": {
+        "Initiative Advantage": {
+          "name": "Initiative Advantage"
+        }
+      },
+      "description": "<p><em>護甲（盾牌），非普通</em></p><p>While holding this Shield, you have Advantage on Initiative rolls and Wisdom (Perception) checks. The Shield is emblazoned with a symbol of an eye.</p>"
+    },
+    "Wand of Magic Missiles": {
+      "description": "<p><em>Wand，非普通</em></p><p>This wand has 7 charges. While holding it, you can expend no more than 3 charges to cast @UUID[Compendium.dnd-players-handbook.spells.Item.phbsplMagicMissi]{Magic Missile} from it. For 1 charge, you cast the level 1 version of the spell. You can increase the spell’s level by 1 for each additional charge you expend.</p><p><em><strong>Regaining Charges.</strong></em> The wand regains 1d6 + 1 expended charges daily at dawn. If you expend the wand’s last charge, roll [[/r 1d20]]. On a 1, the wand crumbles into ashes and is destroyed.</p>",
+      "name": "魔法飛彈魔杖"
+    },
+    "Wand of Web": {
+      "name": "蛛網魔杖",
+      "description": "<p><em>Wand，非普通 (Requires Attunement by a Spellcaster)</em></p><p>This wand has 7 charges. While holding it, you can expend 1 charge to cast @UUID[Compendium.dnd-players-handbook.spells.Item.phbsplWeb0000000]{Web} (save DC 13) from it.</p><p><em><strong>Regaining Charges.</strong></em> The wand regains 1d6 + 1 expended charges daily at dawn. If you expend the wand’s last charge, roll [[/r 1d20]]. On a 1, the wand crumbles into ashes and is destroyed.</p>"
+    },
+    "Weapon of Warning": {
+      "activities": {
+        "Weapon of Warning": {
+          "name": "Weapon of Warning"
+        }
+      },
+      "effects": {
+        "Supernatural Readiness: Initiative Advantage": {
+          "description": "<p>Each ally (including you) has Advantage on its Initiative rolls when within 30 feet.</p>",
+          "name": "Supernatural Readiness: Initiative Advantage"
+        },
+        "Weapon of Warning": {
+          "name": "Weapon of Warning",
+          "changes": {
+            "name": "{} of Warning",
+            "system.description.value": "{}<p>@Embed[Compendium.dnd-dungeon-masters-guide.equipment.Item.dmgWeaponOfWarni caption=false]</p>"
+          }
+        }
+      },
+      "name": "Weapon of Warning",
+      "description": "<p><em>武器（任意簡易或軍用），非普通（需同調）</em></p><p>As long as this weapon is within your reach and you are attuned to it, you and allies within 30 feet of you gain the following benefits.</p><p><strong>Alarm.</strong> The weapon magically awakens each subject who is sleeping naturally when combat begins. This benefit doesn’t wake a subject from magically induced sleep.</p><p><strong>Supernatural Readiness.</strong> Each subject has Advantage on its Initiative rolls.</p><p>@Embed[Compendium.dnd-dungeon-masters-guide.content.JournalEntry.dmgFoundryRefere.JournalEntryPage.Ok4iCgD25ENgoRxE cite=false caption=false classes=\"hide-in-embed\"]</p>"
+    },
+    "Spellcasting": {
+      "name": "施法",
+      "description": "<p>你透過鑽研詩人技藝而學會了施法。有關施法的規則請參見@UUID[Compendium.dnd-players-handbook.content.JournalEntry.phbSpells0000000.JournalEntryPage.mh3akteBDiLegqFK]{chapter 7} 。以下資訊詳細說明了如何將這些規則與吟遊詩人法術結合使用。吟遊詩人法術即該職業描述後的@UUID[Compendium.dnd-players-handbook.content.JournalEntry.phbSpells0000000.JournalEntryPage.wwia6Wwo4BgE9GSI]{吟遊詩人法術列表}中羅列的法術。</p><p><strong>【戲法】</strong>你知曉兩個從吟遊詩人法術列表中你所選擇的戲法。推薦選擇<em>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplDancingLig]</em>和<em>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplViciousMoc]</em> 。</p><p>每當你獲得吟遊詩人等級時，你可以將一個戲法替換為另一個吟遊詩人法術列表中你所選擇的戲法。</p><p>當你達到吟遊詩人 4 級和 10 級時，你可以從吟遊詩人法術列表中學習一個新的戲法，正如@UUID[Compendium.dnd-players-handbook.content.JournalEntry.phbBard000000000.JournalEntryPage.V8pqIWlaL9GhY61t#class-features]{吟遊詩人特性}表中戲法一欄所示。</p><p><strong>【法術位】</strong>吟遊詩人特性表記錄了你有多少法術位用以施放 1+環階的法術。當你完成長休時，你會重獲所有消耗的法術位。</p><p><strong>【準備1環以上的法術】</strong>通過該特性施法前，你需要選擇數個可用的1環以上的法術構成準備列表。首先，從吟遊詩人法術列表中選擇四個 1 環法術。推薦選擇<em>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplCharmPerso]</em>、<em>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplColorSpray]</em>、<em>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplDissonantW]</em>、<em>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplHealingWor]</em>。</p><p>準備列表上的法術數量將隨著你的吟遊詩人等級而增加，正如吟遊詩人特性表中準備法術一欄所示。每當該數量增加時，從吟遊詩人法術列表中選擇額外的法術來新增到你的準備列表中，直到你準備列表上的法術數量與吟遊詩人特性表中的數量相匹配。你只能準備已經獲得相應環階法術位的法術。例如，作為 3 級吟遊詩人，你的準備法術列表應該包括六個任意組合的1環或2環法術。</p><p>若另一個吟遊詩人特性給予你額外的準備法術，這些法術不會計入你在該特性中的準備法術數量，但是這些法術對你而言仍算作吟遊詩人法術。</p><p><strong>【更改準備法術】</strong>每當你獲得一個吟遊詩人等級時， 你可以將準備列表中的一個法術，替換為另一個你擁有法術位的吟遊詩人法術。</p><p><strong>【施法屬性】</strong>魅力是你施放吟遊詩人法術的施法屬性。</p><p><strong>【師法法器】</strong>你可以使用樂器作為吟遊詩人法術的施法法器。</p>"
+    },
+    "Tireless": {
+      "name": "Tireless",
+      "description": "<p>Primal forces now help fuel you on your journeys, granting you the following benefits.</p><p><strong>Temporary Hit Points.</strong> As a Magic action, you can give yourself a number of Temporary Hit Points equal to 1d8 plus your Wisdom modifier (minimum of 1). You can use this action a number of times equal to your Wisdom modifier (minimum of once), and you regain all expended uses when you finish a Long Rest.</p><p><strong>Decrease Exhaustion.</strong> Whenever you finish a Short Rest, your Exhaustion level, if any, decreases by 1.</p><section id=\"secret-wlhwV2MDwGKQ8plw\" class=\"secret\"><p><strong>Foundry Note</strong></p><p>The <strong>Temporary Hit Points</strong> activity can apply the Temporary Hit Points to you.</p><p>The <strong>Decrease Exhaustion</strong> activity will decrease your Exhaustion.</p></section>",
+      "activities": {
+        "Temporary Hit Points": {
+          "name": "Temporary Hit Points"
+        },
+        "Decrease Exhaustion": {
+          "name": "Decrease Exhaustion",
+          "condition": "Whenever you finish a Short Rest"
+        }
+      }
+    },
+    "Extra Attack": {
+      "name": "額外攻擊",
+      "description": "<p>每當你在你的回合採取攻擊動作時，你可以攻擊兩次，而非一次。</p>"
+    }
+  }
 }

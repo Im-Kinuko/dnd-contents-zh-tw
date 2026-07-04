@@ -29,7 +29,8 @@
     "Acid": {
       "activities": {
         "Throw Acid": {
-          "name": "投擲強酸"
+          "name": "投擲強酸",
+          "target": "You can see"
         }
       },
       "name": "強酸",
@@ -67,7 +68,8 @@
           "name": "破壞鎖鏈檢定"
         },
         "Wrap Chain Check": {
-          "name": "纏鏈檢定"
+          "name": "纏鏈檢定",
+          "target": "Has the Grappled, Incapacitated, or Restrained condition"
         },
         "Escape Check": {
           "name": "逃脫檢定"
@@ -274,7 +276,8 @@
     "Manacles": {
       "activities": {
         "Bind": {
-          "name": "Bind"
+          "name": "Bind",
+          "target": "Grappled, Incapacitated, or Restrained"
         },
         "Burst Check": {
           "name": "Burst Check"
@@ -296,7 +299,8 @@
       "description": "<p>@UUID[Compendium.dnd-players-handbook.content.JournalEntry.phbAppendixDRule.JournalEntryPage.xJjJ4lhymAYXAOvO]{Unarmed Strike Rules}</p>",
       "activities": {
         "Grapple/Shove": {
-          "name": "Grapple/Shove"
+          "name": "Grapple/Shove",
+          "chatFlavor": "Grapple or Shove attempt"
         }
       },
       "effects": {
@@ -510,7 +514,8 @@
       "description": "<p>A Healer’s Kit has ten uses. As a Utilize action, you can expend one of its uses to stabilize an Unconscious creature that has 0 Hit Points without needing to make a Wisdom (Medicine) check.</p>",
       "activities": {
         "Stabilize": {
-          "name": "穩定傷勢"
+          "name": "穩定傷勢",
+          "target": "Unconscious"
         }
       },
       "name": "醫療工具組"
@@ -1157,6 +1162,10 @@
     },
     "Leather Armor": {
       "name": "皮甲"
+    },
+    "Improvised Weapon": {
+      "name": "Improvised Weapon",
+      "description": "<p>@Embed[Compendium.dnd-players-handbook.content.JournalEntry.phbAppendixCRule.JournalEntryPage.Dyw6b9rQIdbkIIQD inline]</p>"
     }
   },
   "folders": {

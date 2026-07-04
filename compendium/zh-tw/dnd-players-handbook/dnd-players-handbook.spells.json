@@ -114,7 +114,15 @@
     },
     "Animal Shapes": {
       "name": "動物化形",
-      "description": "<p>Choose any number of willing creatures that you can see within range. Each target shape-shifts into a Large or smaller Beast of your choice that has a Challenge Rating of 4 or lower. You can choose a different form for each target. On later turns, you can take a Magic action to transform the targets again.</p><p>A target’s game statistics are replaced by the chosen Beast’s statistics, but the target retains its creature type; Hit Points; Hit Point Dice; alignment; ability to communicate; and Intelligence, Wisdom, and Charisma scores. The target’s actions are limited by the Beast form’s anatomy, and it can’t cast spells. The target’s equipment melds into the new form, and the target can’t use any of that equipment while in that form.</p><p>The target gains a number of Temporary Hit Points equal to the Beast form’s Hit Points. The transformation lasts for the duration for each target, until the target has no Temporary Hit Points, or until the target leaves the form as a Bonus Action.</p>"
+      "description": "<p>Choose any number of willing creatures that you can see within range. Each target shape-shifts into a Large or smaller Beast of your choice that has a Challenge Rating of 4 or lower. You can choose a different form for each target. On later turns, you can take a Magic action to transform the targets again.</p><p>A target’s game statistics are replaced by the chosen Beast’s statistics, but the target retains its creature type; Hit Points; Hit Point Dice; alignment; ability to communicate; and Intelligence, Wisdom, and Charisma scores. The target’s actions are limited by the Beast form’s anatomy, and it can’t cast spells. The target’s equipment melds into the new form, and the target can’t use any of that equipment while in that form.</p><p>The target gains a number of Temporary Hit Points equal to the Beast form’s Hit Points. The transformation lasts for the duration for each target, until the target has no Temporary Hit Points, or until the target leaves the form as a Bonus Action.</p>",
+      "activities": {
+        "Follow Up Transformations": {
+          "name": "Follow Up Transformations"
+        },
+        "Initial Transformation": {
+          "name": "Initial Transformation"
+        }
+      }
     },
     "Animate Dead": {
       "name": "活化死屍",
@@ -207,7 +215,12 @@
     },
     "Arcane Gate": {
       "name": "祕法之門",
-      "description": "<div><p>You create linked teleportation portals. Choose two Large, unoccupied spaces on the ground that you can see, one space within range and the other one within 10 feet of you. A circular portal opens in each of those spaces and remains for the duration.</p><p>The portals are two-dimensional glowing rings filled with mist that blocks sight. They hover inches from the ground and are perpendicular to it.</p><p>A portal is open on only one side (you choose which). Anything entering the open side of a portal exits from the open side of the other portal as if the two were adjacent to each other. As a Bonus Action, you can change the facing of the open sides.</p></div>"
+      "description": "<div><p>You create linked teleportation portals. Choose two Large, unoccupied spaces on the ground that you can see, one space within range and the other one within 10 feet of you. A circular portal opens in each of those spaces and remains for the duration.</p><p>The portals are two-dimensional glowing rings filled with mist that blocks sight. They hover inches from the ground and are perpendicular to it.</p><p>A portal is open on only one side (you choose which). Anything entering the open side of a portal exits from the open side of the other portal as if the two were adjacent to each other. As a Bonus Action, you can change the facing of the open sides.</p></div>",
+      "activities": {
+        "utility": {
+          "target": "Large, unoccupied spaces"
+        }
+      }
     },
     "Arcane Lock": {
       "name": "祕法鎖",
@@ -559,7 +572,12 @@
     },
     "Call Lightning": {
       "name": "召雷術",
-      "description": "<p>A storm cloud appears at a point within range that you can see above yourself. It takes the shape of a Cylinder that is 10 feet tall with a 60-foot radius.</p><p>When you cast the spell, choose a point you can see under the cloud. A lightning bolt shoots from the cloud to that point. Each creature within 5 feet of that point makes a Dexterity saving throw, taking 3d10 Lightning damage on a failed save or half as much damage on a successful one.</p><p>Until the spell ends, you can take a Magic action to call down lightning in that way again, targeting the same point or a different one.</p><p>If you’re outdoors in a storm when you cast this spell, the spell gives you control over that storm instead of creating a new one. Under such conditions, the spell’s damage increases by 1d10.</p><p><strong>【升環法術效應】</strong> The damage increases by 1d10 for each spell slot level above 3.</p>"
+      "description": "<p>A storm cloud appears at a point within range that you can see above yourself. It takes the shape of a Cylinder that is 10 feet tall with a 60-foot radius.</p><p>When you cast the spell, choose a point you can see under the cloud. A lightning bolt shoots from the cloud to that point. Each creature within 5 feet of that point makes a Dexterity saving throw, taking 3d10 Lightning damage on a failed save or half as much damage on a successful one.</p><p>Until the spell ends, you can take a Magic action to call down lightning in that way again, targeting the same point or a different one.</p><p>If you’re outdoors in a storm when you cast this spell, the spell gives you control over that storm instead of creating a new one. Under such conditions, the spell’s damage increases by 1d10.</p><p><strong>【升環法術效應】</strong> The damage increases by 1d10 for each spell slot level above 3.</p>",
+      "activities": {
+        "save": {
+          "chatFlavor": "Bolt strikes a point under the cloud in a 5-ft. radius"
+        }
+      }
     },
     "Calm Emotions": {
       "name": "安定心神",
@@ -636,7 +654,12 @@
     },
     "Cloudkill": {
       "name": "死雲術",
-      "description": "<p>You create a 20-foot-radius Sphere of yellow-green fog centered on a point within range. The fog lasts for the duration or until strong wind (such as the one created by <em>Gust of Wind</em>) disperses it, ending the spell. Its area is Heavily Obscured.</p><p>Each creature in the Sphere makes a Constitution saving throw, taking 5d8 Poison damage on a failed save or half as much damage on a successful one. A creature must also make this save when the Sphere moves into its space and when it enters the Sphere or ends its turn there. A creature makes this save only once per turn.</p><p>The Sphere moves 10 feet away from you at the start of each of your turns.</p><p><strong>【升環法術效應】</strong> The damage increases by 1d8 for each spell slot level above 5.</p>"
+      "description": "<p>You create a 20-foot-radius Sphere of yellow-green fog centered on a point within range. The fog lasts for the duration or until strong wind (such as the one created by <em>Gust of Wind</em>) disperses it, ending the spell. Its area is Heavily Obscured.</p><p>Each creature in the Sphere makes a Constitution saving throw, taking 5d8 Poison damage on a failed save or half as much damage on a successful one. A creature must also make this save when the Sphere moves into its space and when it enters the Sphere or ends its turn there. A creature makes this save only once per turn.</p><p>The Sphere moves 10 feet away from you at the start of each of your turns.</p><p><strong>【升環法術效應】</strong> The damage increases by 1d8 for each spell slot level above 5.</p>",
+      "activities": {
+        "Cast and Save": {
+          "name": "Cast and Save"
+        }
+      }
     },
     "Color Spray": {
       "name": "七彩噴射",
@@ -739,7 +762,8 @@
       "description": "<p>You conjure a Medium spirit from the Feywild in an unoccupied space you can see within range. The spirit lasts for the duration, and it looks like a Fey creature of your choice. When the spirit appears, you can make one melee spell attack against a creature within 5 feet of it. On a hit, the target takes Psychic damage equal to 3d12 plus your spellcasting ability modifier, and the target has the &amp;Reference[Frightened] condition until the start of your next turn, with both you and the spirit as the source of the fear.</p><p>As a Bonus Action on your later turns, you can teleport the spirit to an unoccupied space you can see within 30 feet of the space it left and make the attack against a creature within 5 feet of it.</p><p><strong>【升環法術效應】</strong> The damage increases by 2d12 for each spell slot level above 6.</p>",
       "activities": {
         "Teleport and Attack": {
-          "name": "Teleport and Attack"
+          "name": "Teleport and Attack",
+          "target": "within range of spirit"
         }
       }
     },
@@ -1080,6 +1104,12 @@
           "name": "偽裝",
           "description": "<p><span style=\"font-family:Signika, sans-serif\">要識破你的偽裝，一個生物必須採取研究動作以檢查你的外表，並且通過你法術豁免DC的[[/check ability=int skill=inv]]檢定。</span></p>"
         }
+      },
+      "activities": {
+        "Study": {
+          "condition": "Study Action taken by other creature",
+          "name": "Study"
+        }
       }
     },
     "Disintegrate": {
@@ -1100,10 +1130,12 @@
           "name": "施放"
         },
         "Dismissal": {
-          "name": "Dismissal"
+          "name": "Dismissal",
+          "target": "Celestial, Elemental, Fey, Fiend, or Undead"
         },
         "Break Enchantment": {
-          "name": "Break Enchantment"
+          "name": "Break Enchantment",
+          "target": "Celestial, Elemental, Fey, Fiend, or Undead"
         }
       }
     },
@@ -1230,7 +1262,8 @@
         },
         "Collapsing Structure Save": {
           "name": "Collapsing Structure Save",
-          "condition": "when a structure drops to 0 Hit Points"
+          "condition": "when a structure drops to 0 Hit Points",
+          "range": "half of the structure's height"
         }
       },
       "effects": {
@@ -1550,6 +1583,13 @@
           "description": "<p>Whenever a creature within 5 feet of you hits you with a melee attack roll, the attacker takes [[/damage 2d8 type=cold]] damage.</p>",
           "name": "Chill Shield"
         }
+      },
+      "activities": {
+        "Flame Eruption": {
+          "condition": "a creature within 5 feet hits you with a melee attack",
+          "name": "Flame Eruption",
+          "target": "attacking creature"
+        }
       }
     },
     "Fire Storm": {
@@ -1615,7 +1655,8 @@
       "activities": {
         "Damage Forbidden Creature": {
           "condition": "creature of a chosen type enters the spell’s area for the first time on a turn or ends its turn there",
-          "name": "Damage Forbidden Creature"
+          "name": "Damage Forbidden Creature",
+          "range": "within the spell's area"
         },
         "Create Ward": {
           "name": "Create Ward"
@@ -1879,7 +1920,13 @@
     },
     "Hallucinatory Terrain": {
       "name": "幻景",
-      "description": "<p>You make natural terrain in a 150-foot Cube in range look, sound, and smell like another sort of natural terrain. Thus, open fields or a road can be made to resemble a swamp, hill, crevasse, or some other difficult or impassable terrain. A pond can be made to seem like a grassy meadow, a precipice like a gentle slope, or a rock-strewn gully like a wide and smooth road. Manufactured structures, equipment, and creatures within the area aren’t changed.</p><p>The tactile characteristics of the terrain are unchanged, so creatures entering the area are likely to notice the illusion. If the difference isn’t obvious by touch, a creature examining the illusion can take the Study action to make an [[/check ability=int skill=inv dc=@attributes.spelldc]] check against your spell save DC to disbelieve it. If a creature discerns that the terrain is illusory, the creature sees a vague image superimposed on the real terrain.</p>"
+      "description": "<p>You make natural terrain in a 150-foot Cube in range look, sound, and smell like another sort of natural terrain. Thus, open fields or a road can be made to resemble a swamp, hill, crevasse, or some other difficult or impassable terrain. A pond can be made to seem like a grassy meadow, a precipice like a gentle slope, or a rock-strewn gully like a wide and smooth road. Manufactured structures, equipment, and creatures within the area aren’t changed.</p><p>The tactile characteristics of the terrain are unchanged, so creatures entering the area are likely to notice the illusion. If the difference isn’t obvious by touch, a creature examining the illusion can take the Study action to make an [[/check ability=int skill=inv dc=@attributes.spelldc]] check against your spell save DC to disbelieve it. If a creature discerns that the terrain is illusory, the creature sees a vague image superimposed on the real terrain.</p>",
+      "activities": {
+        "Study": {
+          "name": "Study",
+          "condition": "Study Action taken by other creature"
+        }
+      }
     },
     "Harm": {
       "name": "傷害術",
@@ -2005,6 +2052,9 @@
         },
         "Place Curse": {
           "name": "Place Curse"
+        },
+        "Curse New Creature": {
+          "name": "Curse New Creature"
         }
       }
     },
@@ -2037,6 +2087,16 @@
         },
         "Mark Creature": {
           "name": "標記生物"
+        },
+        "Move Mark": {
+          "condition": "when the currently marked target drops to 0 Hit Points",
+          "name": "Move Mark"
+        }
+      },
+      "effects": {
+        "Hunter's Mark": {
+          "description": "<p>Until the spell ends, the caster deals an extra [[/damage 1d6 force]] damage to the target whenever they hit it with an attack roll.</p>",
+          "name": "Hunter's Mark"
         }
       }
     },
@@ -2106,6 +2166,9 @@
         },
         "Create Cloud": {
           "name": "Create Cloud"
+        },
+        "Cast and Save": {
+          "name": "Cast and Save"
         }
       }
     },
@@ -2255,7 +2318,11 @@
         },
         "Possess Humanoid": {
           "name": "Possess Humanoid",
-          "condition": "your soul inhabits the container"
+          "condition": "your soul inhabits the container",
+          "target": "target is Humanoid"
+        },
+        "Cast and Transfer Soul": {
+          "name": "Cast and Transfer Soul"
         }
       }
     },
@@ -2296,7 +2363,16 @@
     },
     "Major Image": {
       "name": "強效幻影",
-      "description": "<p>You create the image of an object, a creature, or some other visible phenomenon that is no larger than a 20-foot Cube. The image appears at a spot that you can see within range and lasts for the duration. It seems real, including sounds, smells, and temperature appropriate to the thing depicted, but it can’t deal damage or cause conditions.</p><p>If you are within range of the illusion, you can take a Magic action to cause the image to move to any other spot within range. As the image changes location, you can alter its appearance so that its movements appear natural for the image. For example, if you create an image of a creature and move it, you can alter the image so that it appears to be walking. Similarly, you can cause the illusion to make different sounds at different times, even making it carry on a conversation, for example.</p><p>Physical interaction with the image reveals it to be an illusion, for things can pass through it. A creature that takes a Study action to examine the image can determine that it is an illusion with a successful [[/check ability=int skill=inv dc=@attributes.spelldc]] check against your spell save DC. If a creature discerns the illusion for what it is, the creature can see through the image, and its other sensory qualities become faint to the creature.</p><p><strong>【升環法術效應】</strong> The spell lasts until dispelled, without requiring Concentration, if cast with a level 4+ spell slot.</p>"
+      "description": "<p>You create the image of an object, a creature, or some other visible phenomenon that is no larger than a 20-foot Cube. The image appears at a spot that you can see within range and lasts for the duration. It seems real, including sounds, smells, and temperature appropriate to the thing depicted, but it can’t deal damage or cause conditions.</p><p>If you are within range of the illusion, you can take a Magic action to cause the image to move to any other spot within range. As the image changes location, you can alter its appearance so that its movements appear natural for the image. For example, if you create an image of a creature and move it, you can alter the image so that it appears to be walking. Similarly, you can cause the illusion to make different sounds at different times, even making it carry on a conversation, for example.</p><p>Physical interaction with the image reveals it to be an illusion, for things can pass through it. A creature that takes a Study action to examine the image can determine that it is an illusion with a successful [[/check ability=int skill=inv dc=@attributes.spelldc]] check against your spell save DC. If a creature discerns the illusion for what it is, the creature can see through the image, and its other sensory qualities become faint to the creature.</p><p><strong>【升環法術效應】</strong> The spell lasts until dispelled, without requiring Concentration, if cast with a level 4+ spell slot.</p>",
+      "activities": {
+        "Study": {
+          "name": "Study",
+          "condition": "Study Action taken by other creature"
+        },
+        "Create Illusion": {
+          "name": "Create Illusion"
+        }
+      }
     },
     "Mass Cure Wounds": {
       "name": "群體治療傷勢",
@@ -2412,6 +2488,10 @@
               "name": "圖像"
             }
           }
+        },
+        "Study": {
+          "name": "Study",
+          "condition": "Study Action taken by other creature"
         }
       }
     },
@@ -2446,6 +2526,11 @@
         "Invisible": {
           "name": "Invisible",
           "description": "<p>The &amp;Reference[invisible apply=false]{隱形} immediately after you make an attack roll, deals damage, or casts a spell.</p>"
+        }
+      },
+      "activities": {
+        "Create Illusory Double": {
+          "name": "Create Illusory Double"
         }
       }
     },
@@ -2538,13 +2623,15 @@
         },
         "Freeze Water": {
           "name": "Freeze Water",
-          "condition": "if the globe strikes a body of water"
+          "condition": "if the globe strikes a body of water",
+          "target": "creatures swimming on the surface"
         },
         "Cast and Fire": {
           "name": "Cast and Fire"
         },
         "Throw Held Globe": {
-          "name": "Throw Held Globe"
+          "name": "Throw Held Globe",
+          "range": "if hurled with a sling, use sling's normal range"
         }
       },
       "effects": {
@@ -2601,6 +2688,10 @@
         },
         "Cast": {
           "name": "施放"
+        },
+        "Study": {
+          "condition": "Study Action taken by other creature",
+          "name": "Study"
         }
       },
       "effects": {
@@ -2670,7 +2761,16 @@
     },
     "Polymorph": {
       "name": "變形術",
-      "description": "<p>You attempt to transform a creature that you can see within range into a Beast. The target must succeed on a Wisdom saving throw or shape-shift into a Beast form for the duration. That form can be any Beast you choose that has a Challenge Rating equal to or less than the target’s (or the target’s level if it doesn’t have a Challenge Rating). The target’s game statistics are replaced by the stat block of the chosen Beast, but the target retains its alignment, personality, creature type, Hit Points, and Hit Point Dice. See appendix B for a sample of Beast stat blocks.</p><p>The target gains a number of Temporary Hit Points equal to the Hit Points of the Beast form. The spell ends early on the target if it has no Temporary Hit Points left.</p><p>The target is limited in the actions it can perform by the anatomy of its new form, and it can’t speak or cast spells.</p><p>The target’s gear melds into the new form. The creature can’t use or otherwise benefit from any of that equipment.</p>"
+      "description": "<p>You attempt to transform a creature that you can see within range into a Beast. The target must succeed on a Wisdom saving throw or shape-shift into a Beast form for the duration. That form can be any Beast you choose that has a Challenge Rating equal to or less than the target’s (or the target’s level if it doesn’t have a Challenge Rating). The target’s game statistics are replaced by the stat block of the chosen Beast, but the target retains its alignment, personality, creature type, Hit Points, and Hit Point Dice. See appendix B for a sample of Beast stat blocks.</p><p>The target gains a number of Temporary Hit Points equal to the Hit Points of the Beast form. The spell ends early on the target if it has no Temporary Hit Points left.</p><p>The target is limited in the actions it can perform by the anatomy of its new form, and it can’t speak or cast spells.</p><p>The target’s gear melds into the new form. The creature can’t use or otherwise benefit from any of that equipment.</p>",
+      "activities": {
+        "transform": {
+          "profiles": {
+            "Creature into Creature": {
+              "name": "Creature into Creature"
+            }
+          }
+        }
+      }
     },
     "Power Word Fortify": {
       "name": "Power Word Fortify",
@@ -2758,7 +2858,8 @@
           "name": "Create Globe"
         },
         "Blinding Save": {
-          "name": "Blinding Save"
+          "name": "Blinding Save",
+          "range": "measured from nearest point on wall or globe"
         },
         "Create Wall": {
           "name": "Create Wall"
@@ -2797,6 +2898,10 @@
       "activities": {
         "Create Illusion": {
           "name": "Create Illusion"
+        },
+        "Study": {
+          "name": "Study",
+          "condition": "Study Action taken by other creature"
         }
       }
     },
@@ -2806,6 +2911,10 @@
       "activities": {
         "Create Illusion": {
           "name": "Create Illusion"
+        },
+        "Study": {
+          "condition": "Study Action taken by other creature",
+          "name": "Study"
         }
       }
     },
@@ -3100,7 +3209,8 @@
           "name": "Secondhand and Picture"
         },
         "Create Sensor": {
-          "name": "Create Sensor"
+          "name": "Create Sensor",
+          "target": "at target location or within 10 feet of target creature"
         }
       }
     },
@@ -3146,6 +3256,10 @@
         },
         "Unwilling Save": {
           "name": "Unwilling Save"
+        },
+        "Study": {
+          "condition": "Study Action taken by other creature",
+          "name": "Study"
         }
       }
     },
@@ -3165,7 +3279,15 @@
     },
     "Shapechange": {
       "name": "形體變化",
-      "description": "<p>You shape-shift into another creature for the duration or until you take a Magic action to shape-shift into a different eligible form. The new form must be of a creature that has a Challenge Rating no higher than your level or Challenge Rating. You must have seen the sort of creature before, and it can’t be a Construct or an Undead.</p><p>When you shape-shift, you gain a number of Temporary Hit Points equal to the Hit Points of the form. The spell ends early if you have no Temporary Hit Points left.</p><p>Your game statistics are replaced by the stat block of the chosen form, but you retain your creature type; alignment; personality; Intelligence, Wisdom, and Charisma scores; Hit Points; Hit Point Dice; proficiencies; and ability to communicate. If you have the Spellcasting feature, you retain it too.</p><p>Upon shape-shifting, you determine whether your equipment drops to the ground or changes in size and shape to fit the new form while you’re in it.</p>"
+      "description": "<p>You shape-shift into another creature for the duration or until you take a Magic action to shape-shift into a different eligible form. The new form must be of a creature that has a Challenge Rating no higher than your level or Challenge Rating. You must have seen the sort of creature before, and it can’t be a Construct or an Undead.</p><p>When you shape-shift, you gain a number of Temporary Hit Points equal to the Hit Points of the form. The spell ends early if you have no Temporary Hit Points left.</p><p>Your game statistics are replaced by the stat block of the chosen form, but you retain your creature type; alignment; personality; Intelligence, Wisdom, and Charisma scores; Hit Points; Hit Point Dice; proficiencies; and ability to communicate. If you have the Spellcasting feature, you retain it too.</p><p>Upon shape-shifting, you determine whether your equipment drops to the ground or changes in size and shape to fit the new form while you’re in it.</p>",
+      "activities": {
+        "Initial Transformation": {
+          "name": "Initial Transformation"
+        },
+        "Follow Up Transformations": {
+          "name": "Follow Up Transformations"
+        }
+      }
     },
     "Shatter": {
       "name": "粉碎音波",
@@ -3248,7 +3370,16 @@
     },
     "Silent Image": {
       "name": "無聲幻影",
-      "description": "<p>你創建一個物體、生物或其他可見現象的圖像，其大小不超過15立方呎。圖像會出現在射程內的一點，並持續到法術結束。圖像是純視覺的，不伴有聲音、氣味或其他感官效果。</p><p>作為一個魔法動作，你可以讓圖像移動到範圍內的任何位置。隨著圖像位置的變化，你可以調整圖像的外觀，使其移動顯得自然。例如，若你創建一個生物的圖像並移動之，則你可以改變圖像，使其看起來像在行走。</p><p>與圖像的物理互動將揭示其為幻象，因其可被事物穿過。一個採取研究動作以檢查圖像的生物，可以通過對抗你的法術豁免DC的[[/check ability=int skill=inv dc=@attributes.spelldc]]檢定，以確定其為幻象。若一個生物識破幻象，其視覺就能穿透幻象。</p>"
+      "description": "<p>你創建一個物體、生物或其他可見現象的圖像，其大小不超過15立方呎。圖像會出現在射程內的一點，並持續到法術結束。圖像是純視覺的，不伴有聲音、氣味或其他感官效果。</p><p>作為一個魔法動作，你可以讓圖像移動到範圍內的任何位置。隨著圖像位置的變化，你可以調整圖像的外觀，使其移動顯得自然。例如，若你創建一個生物的圖像並移動之，則你可以改變圖像，使其看起來像在行走。</p><p>與圖像的物理互動將揭示其為幻象，因其可被事物穿過。一個採取研究動作以檢查圖像的生物，可以通過對抗你的法術豁免DC的[[/check ability=int skill=inv dc=@attributes.spelldc]]檢定，以確定其為幻象。若一個生物識破幻象，其視覺就能穿透幻象。</p>",
+      "activities": {
+        "Study": {
+          "name": "Study",
+          "condition": "Study Action taken by other creature"
+        },
+        "Create Illusion": {
+          "name": "Create Illusion"
+        }
+      }
     },
     "Simulacrum": {
       "name": "擬像術",
@@ -3336,6 +3467,9 @@
         },
         "Cast": {
           "name": "施放"
+        },
+        "Cast and Save": {
+          "name": "Cast and Save"
         }
       }
     },
@@ -3376,6 +3510,9 @@
         },
         "Start of Turn Save": {
           "name": "Start of Turn Save"
+        },
+        "Cast and Save": {
+          "name": "Cast and Save"
         }
       }
     },
@@ -3398,22 +3535,26 @@
       "activities": {
         "Turn 5+: Gusts and Rain": {
           "name": "Turn 5+: Gusts and Rain",
-          "condition": "at the start of your turn"
+          "condition": "at the start of your turn",
+          "target": "creatures under the cloud"
         },
         "Turn 4: Hailstones": {
           "condition": "at the start of your turn",
-          "name": "Turn 4: Hailstones"
+          "name": "Turn 4: Hailstones",
+          "target": "creatures under the cloud"
         },
         "Turn 3: Lightning": {
           "condition": "at the start of your turn",
-          "name": "Turn 3: Lightning"
+          "name": "Turn 3: Lightning",
+          "target": "creatures under the cloud"
         },
         "Create Storm": {
           "name": "Create Storm"
         },
         "Turn 2: Acid Rain": {
           "name": "Turn 2: Acid Rain",
-          "condition": "at the start of your turn"
+          "condition": "at the start of your turn",
+          "target": "creatures under the cloud"
         }
       },
       "effects": {
@@ -3662,7 +3803,13 @@
     },
     "Thaumaturgy": {
       "name": "奇術",
-      "description": "<p>你在射程內顯現出一個小小的奇蹟。你在射程內創造以下效果之一。若你多次施放此法術，則你最多可以同時讓三種持續1分鐘的效果處於啟動狀態。</p><p><strong>【變化眼眸】</strong>你可以改變你眼睛的外觀，持續1分鐘。</p><p><strong>【放大聲音】</strong>你的聲音比正常聲音大三倍，持續1分鐘。在持續期間內，你在 [[/check ability=cha skill=itm]]檢定上具有優勢。</p><p><strong>【玩火】</strong>你可以讓火焰閃爍、變亮、變暗或改變顏色，持續1分鐘。</p><p><strong>【無形之手】</strong>你瞬間使一個未上鎖的門窗突然開啟或猛然關閉。</p><p><strong>【幻音】</strong>你在射程內你所選擇的一點創造出一個瞬間的聲音，比如雷聲隆隆、烏鴉喳喳或低語切切。</p><p><strong>【微震】</strong>你在地面上引發一陣無害的震動，持續1分鐘。</p>"
+      "description": "<p>你在射程內顯現出一個小小的奇蹟。你在射程內創造以下效果之一。若你多次施放此法術，則你最多可以同時讓三種持續1分鐘的效果處於啟動狀態。</p><p><strong>【變化眼眸】</strong>你可以改變你眼睛的外觀，持續1分鐘。</p><p><strong>【放大聲音】</strong>你的聲音比正常聲音大三倍，持續1分鐘。在持續期間內，你在 [[/check ability=cha skill=itm]]檢定上具有優勢。</p><p><strong>【玩火】</strong>你可以讓火焰閃爍、變亮、變暗或改變顏色，持續1分鐘。</p><p><strong>【無形之手】</strong>你瞬間使一個未上鎖的門窗突然開啟或猛然關閉。</p><p><strong>【幻音】</strong>你在射程內你所選擇的一點創造出一個瞬間的聲音，比如雷聲隆隆、烏鴉喳喳或低語切切。</p><p><strong>【微震】</strong>你在地面上引發一陣無害的震動，持續1分鐘。</p>",
+      "effects": {
+        "Booming Voice": {
+          "description": "<p>Your voice booms up to three times as loud as normal for 1 minute. For the duration, you have Advantage on [[/check ability=cha skill=itm]] checks.</p>",
+          "name": "Booming Voice"
+        }
+      }
     },
     "Thorn Whip": {
       "name": "荊棘之鞭",
@@ -3712,10 +3859,12 @@
       "description": "<p>你指向射程內一名你能看見的生物，目標將聽到 10 尺內某處傳來的悲戚鐘聲。目標必須成功通過感知豁免檢定，否則承受1d8黯蝕傷害。若目標失去過任何生命值，則承受1d12黯蝕傷害。</p><p><strong>【戲法升級】</strong>當你達到特定等級時傷害增加：5 級 2d8 或 2d12、11 級 3d8 或 3d12、17 級 4d8 或 4d12。</p>",
       "activities": {
         "Healthy Target": {
-          "name": "滿血目標"
+          "name": "滿血目標",
+          "target": "undamaged creature"
         },
         "Damaged Target": {
-          "name": "受傷目標"
+          "name": "受傷目標",
+          "target": "creature missing any of its Hit Points"
         }
       }
     },
@@ -3738,7 +3887,19 @@
     },
     "True Polymorph": {
       "name": "完全變形術",
-      "description": "<p>Choose one creature or nonmagical object that you can see within range. The creature shape-shifts into a different creature or a nonmagical object, or the object shape-shifts into a creature (the object must be neither worn nor carried). The transformation lasts for the duration or until the target dies or is destroyed, but if you maintain Concentration on this spell for the full duration, the spell lasts until dispelled.</p><p>An unwilling creature can make a Wisdom saving throw, and if it succeeds, it isn’t affected by this spell.</p><p><strong>Creature into Creature. </strong>If you turn a creature into another kind of creature, the new form can be any kind you choose that has a Challenge Rating equal to or less than the target’s Challenge Rating or level. The target’s game statistics are replaced by the stat block of the new form, but it retains its Hit Points, Hit Point Dice, alignment, and personality.</p><p>The target gains a number of Temporary Hit Points equal to the Hit Points of the new form.</p><p>The target is limited in the actions it can perform by the anatomy of its new form, and it can’t speak or cast spells.</p><p>The target’s gear melds into the new form. The creature can’t use or otherwise benefit from any of that equipment.</p><p><strong>Object into Creature. </strong>You can turn an object into any kind of creature, as long as the creature’s size is no larger than the object’s size and the creature has a Challenge Rating of 9 or lower. The creature is Friendly to you and your allies. In combat, it takes its turns immediately after yours, and it obeys your commands.</p><p>If the spell lasts more than an hour, you no longer control the creature. It might remain Friendly to you, depending on how you have treated it.</p><p><strong>Creature into Object. </strong>If you turn a creature into an object, it transforms along with whatever it is wearing and carrying into that form, as long as the object’s size is no larger than the creature’s size. The creature’s statistics become those of the object, and the creature has no memory of time spent in this form after the spell ends and it returns to normal.</p><section class=\"secret\" id=\"secret-IB4vzIqK9EZU3ho1\"><p><strong>Foundry Note</strong></p><p>An Actor can be dragged onto the polymorphed creature's sheet by the Gamemaster to handle the transformation.</p></section>"
+      "description": "<p>Choose one creature or nonmagical object that you can see within range. The creature shape-shifts into a different creature or a nonmagical object, or the object shape-shifts into a creature (the object must be neither worn nor carried). The transformation lasts for the duration or until the target dies or is destroyed, but if you maintain Concentration on this spell for the full duration, the spell lasts until dispelled.</p><p>An unwilling creature can make a Wisdom saving throw, and if it succeeds, it isn’t affected by this spell.</p><p><strong>Creature into Creature. </strong>If you turn a creature into another kind of creature, the new form can be any kind you choose that has a Challenge Rating equal to or less than the target’s Challenge Rating or level. The target’s game statistics are replaced by the stat block of the new form, but it retains its Hit Points, Hit Point Dice, alignment, and personality.</p><p>The target gains a number of Temporary Hit Points equal to the Hit Points of the new form.</p><p>The target is limited in the actions it can perform by the anatomy of its new form, and it can’t speak or cast spells.</p><p>The target’s gear melds into the new form. The creature can’t use or otherwise benefit from any of that equipment.</p><p><strong>Object into Creature. </strong>You can turn an object into any kind of creature, as long as the creature’s size is no larger than the object’s size and the creature has a Challenge Rating of 9 or lower. The creature is Friendly to you and your allies. In combat, it takes its turns immediately after yours, and it obeys your commands.</p><p>If the spell lasts more than an hour, you no longer control the creature. It might remain Friendly to you, depending on how you have treated it.</p><p><strong>Creature into Object. </strong>If you turn a creature into an object, it transforms along with whatever it is wearing and carrying into that form, as long as the object’s size is no larger than the creature’s size. The creature’s statistics become those of the object, and the creature has no memory of time spent in this form after the spell ends and it returns to normal.</p><section class=\"secret\" id=\"secret-IB4vzIqK9EZU3ho1\"><p><strong>Foundry Note</strong></p><p>An Actor can be dragged onto the polymorphed creature's sheet by the Gamemaster to handle the transformation.</p></section>",
+      "activities": {
+        "transform": {
+          "profiles": {
+            "Creature into Creature": {
+              "name": "Creature into Creature"
+            },
+            "Object into Creature": {
+              "name": "Object into Creature"
+            }
+          }
+        }
+      }
     },
     "True Resurrection": {
       "name": "完全復活術",
@@ -3781,7 +3942,8 @@
       "activities": {
         "Start of Turn Effects": {
           "name": "Start of Turn Effects",
-          "condition": "start of each of your turns"
+          "condition": "start of each of your turns",
+          "range": "moves away from you"
         },
         "Create Tsunami": {
           "name": "Create Tsunami"

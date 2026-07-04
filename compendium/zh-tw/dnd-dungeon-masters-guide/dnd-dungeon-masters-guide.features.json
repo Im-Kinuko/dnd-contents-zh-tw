@@ -3,5 +3,27 @@
   "folders": {
     "Creature Traits": "Creature Traits"
   },
-  "entries": {}
+  "entries": {
+    "Fey Ancestry": {
+      "name": "精類血統",
+      "description": "<p>你在避免或結束&amp;Reference[Charmed]狀態所進行的豁免檢定具有優勢。</p>"
+    },
+    "Forbiddance": {
+      "name": "禁制術",
+      "description": "<p>You create a ward against magical travel that protects up to 40,000 square feet of floor space to a height of 30 feet above the floor. For the duration, creatures can’t teleport into the area or use portals, such as those created by the <em>Gate</em> spell, to enter the area. The spell proofs the area against planar travel, and therefore prevents creatures from accessing the area by way of the Astral Plane, the Ethereal Plane, the Feywild, the Shadowfell, or the <em>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplPlaneShift]{Plane Shift}</em> spell.</p><p>In addition, the spell damages types of creatures that you choose when you cast it. Choose one or more of the following: Aberrations, Celestials, Elementals, Fey, Fiends, and Undead. When a creature of a chosen type enters the spell’s area for the first time on a turn or ends its turn there, the creature takes 5d10 Radiant or Necrotic damage (your choice when you cast this spell).</p><p>You can designate a password when you cast the spell. A creature that speaks the password as it enters the area takes no damage from the spell.</p><p>The spell’s area can’t overlap with the area of another <em>Forbiddance</em> spell. If you cast <em>Forbiddance</em> every day for 30 days in the same location, the spell lasts until it is dispelled, and the Material components are consumed on the last casting.</p>",
+      "activities": {
+        "Damage Forbidden Creature": {
+          "condition": "creature of a chosen type enters the spell’s area for the first time on a turn or ends its turn there",
+          "name": "Damage Forbidden Creature"
+        },
+        "Create Ward": {
+          "name": "Create Ward"
+        }
+      }
+    },
+    "Light": {
+      "name": "光亮術",
+      "description": "<p>你觸摸一個目前未被其他生物穿著或攜帶的大型或更小的物體。直到法術結束前，該物體散發20呎明亮光照，再延伸出20呎微光光照區域。光線的顏色可以根據你的喜好進行設置。</p><p>以不透明的物體覆蓋該物體可以阻擋光線。若你再次施法，則法術終止。</p>"
+    }
+  }
 }
