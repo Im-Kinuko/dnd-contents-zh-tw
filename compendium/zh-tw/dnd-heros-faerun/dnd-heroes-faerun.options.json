@@ -59,7 +59,7 @@
     "Moonwell Pilgrim": {
       "advancement": {
         "Background Feat": {
-          "hint": "你的背景賦予你專長魔法學徒（德魯伊）",
+          "hint": "你的背景賦予你專長魔法學徒（德魯伊）。",
           "title": "背景專長"
         },
         "Background Proficiencies": {
@@ -389,7 +389,7 @@
     "Genie Touched": {
       "advancement": {
         "Background Feat": {
-          "hint": "你的背景賦予你魔法學徒（法師）專長",
+          "hint": "你的背景賦予你魔法學徒（法師）專長。",
           "title": "背景專長"
         },
         "Choose Languages": {
@@ -411,7 +411,7 @@
     "Lords' Alliance Vassal": {
       "advancement": {
         "Background Feat": {
-          "hint": "你的背景賦予你領主聯盟特工專長",
+          "hint": "你的背景賦予你領主聯盟特工專長。",
           "title": "背景專長"
         },
         "Background Proficiencies": {
@@ -537,7 +537,7 @@
           "hint": "你的背景賦予你馴獸與洞悉的熟練，並讓你熟練領航員工具。"
         },
         "Background Feat": {
-          "hint": "你的背景賦予你紫龍新銳",
+          "hint": "你的背景賦予你紫龍新銳。",
           "title": "背景專長"
         },
         "Choose Languages": {
@@ -736,7 +736,7 @@
     "Dragon Cultist": {
       "advancement": {
         "Background Feat": {
-          "hint": "你的背景賦予你新晉龍巫教徒專長",
+          "hint": "你的背景賦予你新晉龍巫教徒專長。",
           "title": "背景專長"
         },
         "Choose Languages": {
@@ -748,7 +748,7 @@
           "title": "背景屬性值提升"
         },
         "Background Proficiencies": {
-          "hint": "你的背景賦予你欺瞞與隱匿的熟練，並讓你熟練於書法家工具",
+          "hint": "你的背景賦予你欺瞞與隱匿的熟練，並讓你熟練於書法家工具。",
           "title": "背景熟練"
         }
       },
@@ -840,7 +840,7 @@
         },
         "Background Feat": {
           "title": "背景專長",
-          "hint": "你的背景賦予你巧匠專長"
+          "hint": "你的背景賦予你巧匠專長。"
         },
         "Background Proficiencies": {
           "title": "背景熟練",
@@ -1030,7 +1030,7 @@
           "hint": "你的背景讓你能提升敏捷、智力、魅力。選擇其中一項提升 2 點，另一項提升 1 點；或是三項各提升 1 點。這些提升都不能讓該屬性超過20。"
         },
         "Background Feat": {
-          "hint": "你的背景賦予你專長野蠻攻擊者",
+          "hint": "你的背景賦予你專長野蠻攻擊者。",
           "title": "背景專長"
         },
         "Choose Languages": {
@@ -1388,7 +1388,7 @@
       "advancement": {
         "Background Feat": {
           "title": "背景專長",
-          "hint": "你的背景賦予你專長幸運"
+          "hint": "你的背景賦予你專長幸運。"
         },
         "Background Ability Score Improvement": {
           "title": "背景屬性值提升",
@@ -1422,7 +1422,7 @@
         },
         "Background Feat": {
           "title": "背景專長",
-          "hint": "你的背景賦予你專長治療師"
+          "hint": "你的背景賦予你專長治療師。"
         }
       },
       "name": "死魔法區住民",
@@ -1743,7 +1743,7 @@
           "title": "背景屬性值提升"
         },
         "Background Feat": {
-          "hint": "你的背景賦予你咒火火花專長",
+          "hint": "你的背景賦予你咒火火花專長。",
           "title": "背景專長"
         },
         "Background Proficiencies": {
