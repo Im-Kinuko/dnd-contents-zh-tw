@@ -10,7 +10,7 @@
     "Traits": "Traits",
     "College of Spirits": "College of Spirits",
     "Channeled Spirits": "Channeled Spirits",
-    "Grave Domain": "Grave Domain",
+    "Grave Domain": "墳墓領域",
     "Shadow Sorcery": "Shadow Sorcery",
     "Hollow Warden": "Hollow Warden",
     "Backgrounds": "Backgrounds",
@@ -336,7 +336,7 @@
       "name": "Knowledge from a Past Life"
     },
     "Reborn": {
-      "name": "Reborn",
+      "name": "重生者",
       "description": "<p>Reborn are individuals who have died yet inexplicably still live. Some reborn exhibit the scars of fatal ends, their ashen flesh or bloodless veins making it clear that they’ve escaped death. Other reborn are marvels of magic or science, being stitched together from disparate beings or bearing mysterious minds in manufactured bodies. Whatever their origins, reborn know a new life and seek experiences and answers all their own.</p><h4 class=\"entry\">Reborn Traits</h4><p><strong>Creature Type:</strong> Humanoid</p><p><strong>Size:</strong> Medium (about 4–7 feet tall) or Small (about 2–4 feet tall), chosen when you select this species</p><p><strong>Speed:</strong> 30 feet</p><p>As a Reborn, you have these special traits.</p><p><span class=\"inline-entry\"><strong>Escaped Death.</strong></span> @Embed[Compendium.dnd-ravenloft-horrors-within.options.Item.rhwEscapedDeatXY inline]</p><p><span class=\"inline-entry\"><strong>Everlasting.</strong></span> @Embed[Compendium.dnd-ravenloft-horrors-within.options.Item.rhwEverlasting7o inline]</p><p><span class=\"inline-entry\"><strong>Knowledge from a Past Life.</strong></span> @Embed[Compendium.dnd-ravenloft-horrors-within.options.Item.rhwKnowledgefraL inline]</p><p><span class=\"inline-entry\"><strong>Strange Endurance.</strong></span> You have Resistance to one of the following damage types of your choice: Cold, Necrotic, or Poison.</p>",
       "advancement": {
         "Strange Endurance": {
@@ -499,23 +499,23 @@
     "Path to the Grave": {
       "effects": {
         "Cursed (Path to the Grave)": {
-          "name": "Cursed (Path to the Grave)",
-          "description": "<p>@Embed[Compendium.dnd-ravenloft-horrors-within.options.Item.rhwCSPathtotheCb inline]</p><p><em>Disadvantage on attack rolls is not automated.</em></p>"
+          "name": "被詛咒（歸墓之途）",
+          "description": "<p>@Embed[Compendium.dnd-ravenloft-horrors-within.options.Item.rhwCSPathtotheCb inline]</p><p><em>攻擊檢定的劣勢不會自動套用。</em></p>"
         }
       },
       "activities": {
         "End Curse Early": {
-          "target": "the cursed creature",
-          "condition": "you or an ally hits the cursed target",
-          "name": "End Curse Early"
+          "target": "被詛咒的生物",
+          "condition": "你或一個你的盟友命中被詛咒的目標時",
+          "name": "提前終止詛咒"
         },
         "Curse": {
-          "target": "visible",
-          "name": "Curse"
+          "target": "可見",
+          "name": "詛咒"
         }
       },
-      "description": "<p>As a Bonus Action, you present your Holy Symbol and expend a use of Channel Divinity to curse one creature you can see within 30 feet of yourself until the start of your next turn. While cursed, the creature has Disadvantage on attack rolls and saving throws.</p><p>When you or an ally you can see hits the cursed target with an attack roll, you can end the curse early (no action required) to make the attack deal extra [[/damage]]{Necrotic or Radiant damage} (your choice) equal to your Cleric level.</p>",
-      "name": "Path to the Grave"
+      "description": "<p>作為一個附贈動作，你展示你的聖徽並消耗一次引導神力的使用次數，直到你的下一回合開始前，詛咒一個30呎範圍內你所能看見的生物。 在被詛咒期間，該生物的攻擊檢定與豁免檢定皆具有劣勢。</p><p>當你或一個你所能看見的盟友以攻擊檢定命中被詛咒的目標時，你可以提前終止詛咒（無需動作）並使本次攻擊額外造成等同於你牧師等級的額外[[/damage]]{暗蝕或光耀傷害}（由你選擇）。</p>",
+      "name": "歸墓之途"
     },
     "Echoing Soul": {
       "activities": {
@@ -602,11 +602,11 @@
     "Sentinel at Death's Door": {
       "activities": {
         "utility": {
-          "condition": "you or a Bloodied target within range is hit with an attack"
+          "condition": "你或一個範圍內的浴血生物被攻擊檢定命中時"
         }
       },
-      "description": "<p>When you or a Bloodied creature you can see within 60 feet of yourself is hit with an attack roll, you can take a Reaction to halve that attack’s damage (round down). If the triggering attack roll was a Critical Hit, any effects triggered by a Critical Hit are canceled.</p><p>You can use this feature a number of times equal to your Wisdom modifier (minimum of once). You regain all expended uses when you finish a Long Rest.</p>",
-      "name": "Sentinel at Death's Door"
+      "description": "<p>當你或一個你60呎範圍內你所能看見的浴血生物被一次攻擊檢定命中時， 你可以採取一次反應並減半該攻擊的傷害（向下取整）。若觸發的攻擊為爆擊，取消任何爆擊觸發的效應。</p><p>你可以使用此特性的次數等同於你的感知調整值（最少1次）。 當你完成一次長休時，你恢復所有已消耗的次數。</p>",
+      "name": "死之門的哨衛"
     },
     "Watchers": {
       "activities": {
@@ -800,13 +800,13 @@
       }
     },
     "Grave Domain": {
-      "description": "<p><em>Embody Deific Forces of Death</em></p><p>The Grave Domain concerns itself with the boundary between life and death. To those who tap into this domain’s power, death is a natural and inevitable part of the multiverse. Such Clerics seek to destroy undead and shepherd spirits.</p><p>The magic of this domain also allows these Clerics to stave off death for a time. But this is merely a delay of death, not a denial of it, for the grave will always claim its due.</p><p class=\"hide-in-embed\"><em>@UUID[Compendium.dnd-ravenloft-horrors-within.book.JournalEntry.rhwSubclasses000.JournalEntryPage.GraveDomainCleri]{Subclass Details}</em></p>",
+      "description": "<p><em>安息亡者，顯化神力</em></p><p>墳墓領域注重生與死的邊界。對從這一領域獲取神力的牧師來說，死亡是多元宇宙中自然且不可避免的一環。 這些牧師致力於摧毀亡靈，並超度亡魂踏入往生。</p><p>此領域的魔法同樣讓牧師能夠暫時將死亡拒之門外。 但這不過是暫緩死亡的到來，絕非徹底的拒絕——因為墳墓，終將收取它的貢賦。</p><p class=\"hide-in-embed\"><em>@UUID[Compendium.dnd-ravenloft-horrors-within.book.JournalEntry.rhwSubclasses000.JournalEntryPage.GraveDomainCleri]{子職業細節}</em></p>",
       "advancement": {
         "Subclass Features": {
-          "title": "Subclass Features"
+          "title": "子職業特徵"
         }
       },
-      "name": "Grave Domain"
+      "name": "墳墓領域"
     },
     "Rot and Violence": {
       "name": "Rot and Violence",
@@ -1173,11 +1173,11 @@
       }
     },
     "Grave Domain Spells": {
-      "name": "Grave Domain Spells",
-      "description": "<p>Your connection to this divine domain ensures you always have certain spells ready. When you reach a Cleric level specified in the Grave Domain Spells table, you thereafter always have the listed spells prepared.</p><table><caption><p>Grave Domain Spells</p></caption><thead><tr><th scope=\"col\"><p>Cleric Level</p></th><th scope=\"col\"><p>Spells</p></th></tr></thead><tbody><tr><td><p>3</p></td><td><p><em>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplDetectEvil]{Detect Evil and Good}</em>, <em>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplFalseLife0]{False Life}</em>,<br class=\"TODO\" /><em>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplGentleRepo]{Gentle Repose}</em>, <em>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplRayofEnfee]{Ray of Enfeeblement}</em>, <em>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplSparetheDy]{Spare the Dying}</em></p></td></tr><tr><td><p>5</p></td><td><p><em>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplRevivify00]{Revivify}</em>, <em>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplVampiricTo]{Vampiric Touch}</em></p></td></tr><tr><td><p>7</p></td><td><p><em>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplBlight0000]{Blight}</em>, <em>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplDeathWard0]{Death Ward}</em></p></td></tr><tr><td><p>9</p></td><td><p><em>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplDispelEvil]{Dispel Evil and Good}</em>, <em>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplRaiseDead0]{Raise Dead}</em></p></td></tr></tbody></table>",
+      "name": "墳墓領域法術",
+      "description": "<p>你與此神聖領域的連結保證你始終準備特定法術。當你達到生命領域法術列表上指定的牧師等級時，你視為始終準備法術表上的法術。</p><table><caption><p>墳墓領域法術</p></caption><thead><tr><th scope=\"col\"><p>牧師等級</p></th><th scope=\"col\"><p>準備法術</p></th></tr></thead><tbody><tr><td><p>3</p></td><td><p><em>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplDetectEvil]</em>、<em>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplFalseLife0]</em>、<br class=\"TODO\" /><em>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplGentleRepo]</em>、<em>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplRayofEnfee]</em>、<em>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplSparetheDy]</em></p></td></tr><tr><td><p>5</p></td><td><p><em>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplRevivify00]</em>、<em>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplVampiricTo]</em></p></td></tr><tr><td><p>7</p></td><td><p><em>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplBlight0000]</em>、<em>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplDeathWard0]</em></p></td></tr><tr><td><p>9</p></td><td><p><em>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplDispelEvil]</em>、<em>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplRaiseDead0]</em></p></td></tr></tbody></table>",
       "advancement": {
         "Spells": {
-          "title": "Spells"
+          "title": "法術"
         }
       }
     },
@@ -1263,20 +1263,20 @@
     "Circle of Mortality": {
       "activities": {
         "Pull of Death": {
-          "condition": "damaging a target missing any Hit Points",
-          "name": "Pull of Death"
+          "condition": "對失去任何生命值的目標造成傷害時",
+          "name": "死亡牽引"
         },
         "Return to Life": {
-          "name": "Return to Life"
+          "name": "回歸生命"
         }
       },
-      "name": "Circle of Mortality",
+      "name": "凡命循環",
       "advancement": {
         "Pull of Death Die": {
-          "title": "Pull of Death Die"
+          "title": "死亡牽引骰"
         }
       },
-      "description": "<p>You can manipulate the balance between life and death, granting you the following benefits.</p><p><strong>Pull of Death.</strong> Once per turn, when you deal damage to a creature that’s missing any Hit Points by casting a spell or by hitting with an attack roll, that creature takes an extra [[/damage]]{1d4 Necrotic} damage. This extra damage increases to 1d6 when you reach Cleric level 11.</p><p><strong>Return to Life.</strong> You can cast <em>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplSparetheDy]{Spare the Dying}</em> as a Bonus Action.</p><p>Additionally, when you would normally roll one or more dice to restore Hit Points to a creature at 0 Hit Points with a spell or Channel Divinity, don’t roll those dice for the healing; instead, use the highest number possible for each die. For example, instead of restoring 2d4 Hit Points to a creature at 0 Hit Points with a spell, you restore 8.</p>"
+      "description": "<p>你可以操弄生與死的天平，這賦予你下列好處。</p><p><strong>【死亡牽引】</strong>每回合一次，當你透過法術或攻擊檢定對一個失去任何生命值的生物造成傷害時，該生物承受額外1d4 黯蝕傷害。當你達到牧師 11 級時，此額外傷害提升為 1d6。</p><p><strong>【回歸生命】</strong>你可以以附贈動作施放<em>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplSparetheDy]</em>。</p><p>此外，當你對 0 HP 生物施放任何會恢復生命值的法術或引導神力時，你可以不擲骰改為每個治療骰取最大值。例如：2d4 治療變為固定恢復 8 點生命值。</p>"
     },
     "Reanimator": {
       "advancement": {
