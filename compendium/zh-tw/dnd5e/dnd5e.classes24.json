@@ -3157,14 +3157,6 @@
     }
   },
   "mapping": {
-    "advancement": {
-      "path": "system.advancement",
-      "converter": "advancement"
-    },
-    "distanceAdvancement": {
-      "path": "system.advancement",
-      "converter": "distanceAdvancement"
-    },
     "effects": {
       "path": "effects",
       "converter": "effects"

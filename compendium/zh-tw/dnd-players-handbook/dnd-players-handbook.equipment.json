@@ -16,10 +16,6 @@
       "path": "system.activities",
       "converter": "rangeActivities"
     },
-    "effects": {
-      "converter": "effects",
-      "path": "effects"
-    },
     "activities": {
       "converter": "activities",
       "path": "system.activities"

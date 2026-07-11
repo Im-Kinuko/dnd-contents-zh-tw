@@ -208,19 +208,5 @@
     "Special": "特殊",
     "Basic": "基礎"
   },
-  "mapping": {
-    "rangeActivities": {
-      "path": "system.activities",
-      "converter": "rangeActivities"
-    },
-    "effects": {
-      "converter": "effects",
-      "path": "effects"
-    },
-    "activities": {
-      "converter": "activities",
-      "path": "system.activities"
-    }
-  },
   "label": "堡壘"
 }

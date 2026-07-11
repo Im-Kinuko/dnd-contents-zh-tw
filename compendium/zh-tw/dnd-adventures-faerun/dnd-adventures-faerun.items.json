@@ -526,10 +526,6 @@
     }
   },
   "mapping": {
-    "range": {
-      "path": "system.range",
-      "converter": "range"
-    },
     "rangeActivities": {
       "path": "system.activities",
       "converter": "rangeActivities"

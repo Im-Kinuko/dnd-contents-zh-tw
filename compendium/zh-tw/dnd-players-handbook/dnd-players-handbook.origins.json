@@ -1101,10 +1101,6 @@
       "path": "system.advancement",
       "converter": "advancement"
     },
-    "effects": {
-      "converter": "effects",
-      "path": "effects"
-    },
     "activities": {
       "converter": "activities",
       "path": "system.activities"

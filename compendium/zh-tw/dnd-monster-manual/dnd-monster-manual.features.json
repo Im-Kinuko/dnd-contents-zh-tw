@@ -6623,10 +6623,6 @@
     }
   },
   "mapping": {
-    "advancement": {
-      "path": "system.advancement",
-      "converter": "advancement"
-    },
     "effects": {
       "path": "effects",
       "converter": "effects"

@@ -139,10 +139,6 @@
     }
   },
   "mapping": {
-    "effects": {
-      "path": "effects",
-      "converter": "effects"
-    },
     "rangeActivities": {
       "path": "system.activities",
       "converter": "rangeActivities"
