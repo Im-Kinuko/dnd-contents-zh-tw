@@ -112,7 +112,8 @@
     "Quaal's Feather Token (Swan Boat)": {
       "activities": {
         "Use": {
-          "name": "Use"
+          "name": "Use",
+          "target": "body of water at least 60 feet in diameter"
         }
       },
       "name": "Quaal's Feather Token (Swan Boat)",
@@ -330,7 +331,8 @@
           "name": "Non-Fiend or Undead Damage"
         },
         "Ultimate End": {
-          "name": "Ultimate End"
+          "name": "Ultimate End",
+          "range": "you can see"
         }
       },
       "effects": {
@@ -546,7 +548,9 @@
       "activities": {
         "Hurl Hammer": {
           "chatFlavor": "On Hit: [[/save ability=con dc=17]] vs Stunned",
-          "name": "Hurl Hammer"
+          "name": "Hurl Hammer",
+          "target": "Excluding self",
+          "range": "long range of 60 feet"
         },
         "Hammer of Thunderbolts": {
           "name": "雷神之鎚"
@@ -631,7 +635,8 @@
       "activities": {
         "Utilize": {
           "name": "Utilize",
-          "roll": "Duration (Minutes)"
+          "roll": "Duration (Minutes)",
+          "duration": "up to 2d4 minutes"
         }
       },
       "name": "無蹤塵",
@@ -642,7 +647,8 @@
         "Check Deck Size": {
           "name": "Check Deck Size",
           "condition": "when determining the number of cards in this Deck",
-          "roll": "Deck Size"
+          "roll": "Deck Size",
+          "target": "The Deck of Many Things"
         },
         "Draw Cards": {
           "roll": "Declared Draws",
@@ -659,10 +665,12 @@
     "Efreeti Bottle": {
       "activities": {
         "2—9: Obeys Commands": {
-          "name": "2—9: Obeys Commands"
+          "name": "2—9: Obeys Commands",
+          "target": "unoccupied space"
         },
         "10: Casts Wish": {
-          "name": "10: Casts Wish"
+          "name": "10: Casts Wish",
+          "target": "unoccupied space"
         },
         "Remove Stopper": {
           "chatFlavor": "DM rolls on the Efreeti Bottle table and user activates corresponding activity",
@@ -670,7 +678,8 @@
         },
         "1: Attacks You": {
           "name": "1: Attacks You",
-          "chatFlavor": "A Hostile @UUID[Compendium.dnd-dungeon-masters-guide.actors.Actor.LTomFUTBrkRi0Pj5]{Efreeti} appears"
+          "chatFlavor": "A Hostile @UUID[Compendium.dnd-dungeon-masters-guide.actors.Actor.LTomFUTBrkRi0Pj5]{Efreeti} appears",
+          "target": "unoccupied space"
         }
       },
       "description": "<div><p><em>奇物, Very Rare</em></p></div><p>When you take a Magic action to remove the stopper of this painted brass bottle, a cloud of thick smoke flows out of it. At the end of your turn, the smoke disappears with a flash of harmless fire, and an <strong>@UUID[Compendium.dnd-dungeon-masters-guide.actors.Actor.LTomFUTBrkRi0Pj5]{Efreeti}</strong> appears in an unoccupied space within 30 feet of you.</p><p>@Embed[Compendium.dnd-dungeon-masters-guide.tables.RollTable.dmgEfreetiBottle rollable classes=\"caption-top\"]</p>",
@@ -723,7 +732,8 @@
       "name": "瓦爾哈拉白銀號角",
       "activities": {
         "Summon Warriors": {
-          "name": "Summon Warriors"
+          "name": "Summon Warriors",
+          "target": "unoccupied spaces"
         }
       }
     },
@@ -734,13 +744,18 @@
         },
         "Grip Edges": {
           "condition": "in an area of Dim Light or Darkness",
-          "name": "Grip Edges"
+          "name": "Grip Edges",
+          "target": "edges of the cloak",
+          "duration": "fail to grip the cloak’s edges while flying in this way, or if you are no longer in Dim Light or Darkness"
         }
       },
       "name": "蝙蝠斗篷",
       "effects": {
         "Fly Speed": {
           "name": "Fly Speed"
+        },
+        "Stealth Advantage": {
+          "name": "Stealth Advantage"
         }
       },
       "description": "<div><p><em>奇物，珍稀（需同調）</em></p></div><p>While wearing this cloak, you have Advantage on Dexterity (Stealth) checks. In an area of Dim Light or Darkness, you can grip the edges of the cloak and use it to gain a Fly Speed of 40 feet. If you ever fail to grip the cloak’s edges while flying in this way, or if you are no longer in &amp;Reference[DimLight] or &amp;Reference[Darkness], you lose this Fly Speed.</p><p>While wearing the cloak in an area of Dim Light or Darkness, you can cast <em>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplPolymorph0]{Polymorph}</em> on yourself, shape-shifting into a <strong>@UUID[Compendium.dnd-players-handbook.actors.Actor.phbmobBat0000000]{Bat}</strong>. While in that form, you retain your Intelligence, Wisdom, and Charisma scores. The cloak can’t be used this way again until the next dawn.</p>"
@@ -924,7 +939,8 @@
       "activities": {
         "Summon Titan": {
           "chatFlavor": "The titan is Hostile toward all other creatures and disappears when it drops to 0 Hit Points.",
-          "name": "Summon Titan"
+          "name": "Summon Titan",
+          "target": "unoccupied space"
         },
         "Scroll of Titan Summoning": {
           "name": "Scroll of Titan Summoning"
@@ -949,7 +965,8 @@
         },
         "Throw": {
           "name": "Throw",
-          "chatFlavor": "Bonus Damage: 1d8 Force vs Giant"
+          "chatFlavor": "Bonus Damage: 1d8 Force vs Giant",
+          "range": "20 feet Normal range; 60 feet Long range"
         },
         "Attack": {
           "name": "Attack"
@@ -1150,10 +1167,12 @@
     "Driftglobe": {
       "activities": {
         "Hover as Daylight": {
-          "name": "Hover as Daylight"
+          "name": "Hover as Daylight",
+          "target": "The Driftglobe"
         },
         "Hover as Light": {
-          "name": "Hover as Light"
+          "name": "Hover as Light",
+          "target": "The Driftglobe"
         }
       },
       "name": "Driftglobe",
@@ -1177,7 +1196,8 @@
       "activities": {
         "Card Effect": {
           "name": "Card Effect",
-          "condition": "Card's effect occurs upon draw or at any other time before you die"
+          "condition": "Card's effect occurs upon draw or at any other time before you die",
+          "target": "One event that has occured"
         }
       },
       "name": "Fates"
@@ -1223,7 +1243,8 @@
           "name": "Button 2 Versatile Attack"
         },
         "Terrify": {
-          "name": "Terrify"
+          "name": "Terrify",
+          "target": "you can see"
         },
         "Button 1 Attack": {
           "name": "Button 1 Attack"
@@ -1306,15 +1327,18 @@
       "activities": {
         "Geyser": {
           "name": "Geyser",
-          "chatFlavor": "30 gallons; save vs &Reference[prone]"
+          "chatFlavor": "30 gallons; save vs &Reference[prone]",
+          "target": "One creature or object of your choice in the Line"
         },
         "Fountain": {
           "chatFlavor": "5 gallon of water",
-          "name": "Fountain"
+          "name": "Fountain",
+          "target": "The Decanter of Endless Water"
         },
         "Splash": {
           "chatFlavor": "1 gallon of water",
-          "name": "Splash"
+          "name": "Splash",
+          "target": "The Decanter of Endless Water"
         }
       },
       "description": "<div><p><em>奇物，非普通</em></p></div><p>This stoppered flask sloshes when shaken, as if it contains water. The decanter weighs 2 pounds.</p><p>You can take a Magic action to remove the stopper and issue one of three command words, whereupon an amount of @UUID[Compendium.dnd-dungeon-masters-guide.equipment.Item.dmgspWaterfresh0]{fresh water} or @UUID[Compendium.dnd-dungeon-masters-guide.equipment.Item.dmgspWatersalt00]{salt water} (your choice) pours out of the flask. The water stops pouring out at the start of your next turn. Choose from the following command words:</p><div class=\"def-block\"><p><strong>Splash.</strong> The decanter produces 1 gallon of water.</p><p><strong>Fountain.</strong> The decanter produces 5 gallons of water.</p><p><strong>Geyser.</strong> The decanter produces 30 gallons of water that gushes forth in a Line 30 feet long and 1 foot wide. If you’re holding the decanter, you can aim the geyser in one direction (no action required). One creature of your choice in the Line must succeed on a DC 13 Strength saving throw or take 1d4 Bludgeoning damage and have the &amp;Reference[Prone] condition. Instead of a creature, you can target one object in the Line that isn’t being worn or carried and that weighs no more than 200 pounds. The object is knocked over by the geyser.</p></div>",
@@ -1489,7 +1513,8 @@
       "name": "Earth Ring of Elemental Command",
       "activities": {
         "Elemental Compulsion": {
-          "name": "Elemental Compulsion"
+          "name": "Elemental Compulsion",
+          "target": "Elemental"
         }
       }
     },
@@ -1516,7 +1541,8 @@
       "activities": {
         "Necrotic Reduction": {
           "name": "Necrotic Reduction",
-          "chatFlavor": "A creature reduced to 0 Hit Points by this damage is transformed into green slime"
+          "chatFlavor": "A creature reduced to 0 Hit Points by this damage is transformed into green slime",
+          "target": "creature you can see"
         },
         "Regeneration": {
           "name": "Regeneration",
@@ -1534,7 +1560,8 @@
       "activities": {
         "Billow": {
           "chatFlavor": "The cloak billows dramatically.",
-          "name": "Billow"
+          "name": "Billow",
+          "target": "The Cloak of Billowing"
         }
       }
     },
@@ -1562,10 +1589,12 @@
           "name": "Dancing Sword"
         },
         "Activate Sword: Stength": {
-          "name": "Activate Sword: Stength"
+          "name": "Activate Sword: Stength",
+          "duration": "Until the sword has made four attacks while hovering"
         },
         "Activate Sword: Dexterity": {
-          "name": "Activate Sword: Dexterity"
+          "name": "Activate Sword: Dexterity",
+          "duration": "Until the sword has made four attacks while hovering"
         }
       },
       "name": "Dancing Sword",
@@ -1762,7 +1791,10 @@
       "effects": {
         "Vecna's Eye: Alignment, Truesight": {
           "description": "<p>While you are attuned to the eye, your alignment is Neutral Evil, and you have &amp;Reference[Truesight] out to 240 feet.</p>",
-          "name": "Vecna's Eye: Alignment, Truesight"
+          "name": "Vecna's Eye: Alignment, Truesight",
+          "changes": {
+            "system.details.alignment": "Neutral Evil"
+          }
         },
         "X-ray Vision": {
           "name": "X-ray Vision",
@@ -1928,15 +1960,19 @@
       "activities": {
         "Ensnarement: Planar Binding": {
           "name": "Ensnarement: Planar Binding",
-          "chatFlavor": "The Fiend has Disadvantage on its saving throw"
+          "chatFlavor": "The Fiend has Disadvantage on its saving throw",
+          "target": "Chosen creature type must be Fiend"
         },
         "Ensnarement: Magic Circle": {
           "chatFlavor": "The Fiend has Disadvantage on its saving throw",
-          "name": "Ensnarement: Magic Circle"
+          "name": "Ensnarement: Magic Circle",
+          "target": "Chosen creature type must be Fiend"
         },
         "Containment": {
           "name": "Containment",
-          "chatFlavor": "The Fiend makes the saving throw with Disadvantage. Deduct one item use on successful containment."
+          "chatFlavor": "The Fiend makes the saving throw with Disadvantage. Deduct one item use on successful containment.",
+          "range": "within sight",
+          "target": "visible Fiend trapped within a Magic Circle"
         },
         "Plane Shift (Abyss)": {
           "chatFlavor": "To the Abyss only",
@@ -1976,11 +2012,13 @@
       "activities": {
         "Energy Ladder": {
           "chatFlavor": "Creates a magical ladder 60 feet high",
-          "name": "Energy Ladder"
+          "name": "Energy Ladder",
+          "target": "a wall"
         },
         "Arrow of Transport": {
           "name": "Arrow of Transport",
-          "chatFlavor": "Willing target teleported to within 10 feet of you"
+          "chatFlavor": "Willing target teleported to within 10 feet of you",
+          "target": "Medium or smaller willing creature or object"
         },
         "Energy Bow": {
           "name": "Energy Bow"
@@ -2004,7 +2042,8 @@
       "description": "<p><em>See: @UUID[Compendium.dnd-dungeon-masters-guide.equipment.Item.dmgHornofValhall]{Horn of Valhalla}</em></p><p><em>Requirement: Proficiency with all Simple weapons</em></p><p><em>Spirits: 3</em></p><p>You can take a Magic action to blow this horn. In response, warrior spirits from the plane of Ysgard appear in unoccupied spaces within 60 feet of you. Each spirit uses the <strong>@UUID[Compendium.dnd-dungeon-masters-guide.actors.Actor.kz1t6xeXVwODpYb2]{Berserker}</strong> stat block and returns to Ysgard after 1 hour or when it drops to 0 Hit Points. The spirits look like living, breathing warriors, and they have Immunity to the &amp;Reference[Charmed apply=false] and &amp;Reference[Frightened apply=false] conditions. Once you use the horn, it can’t be used again until 7 days have passed.</p><p>If you blow the horn without meeting its requirement, the summoned spirits attack you. If you meet the requirement, they are Friendly to you and your allies and follow your commands.</p>",
       "activities": {
         "Summon Warriors": {
-          "name": "Summon Warriors"
+          "name": "Summon Warriors",
+          "target": "unoccupied spaces"
         }
       },
       "name": "瓦爾哈拉黃銅號角"
@@ -2040,7 +2079,8 @@
           "name": "Attunement Save"
         },
         "Call Dragons": {
-          "name": "Call Dragons"
+          "name": "Call Dragons",
+          "target": "Chromatic Dragons"
         }
       },
       "description": "<p><em>奇物, Artifact（需同調）</em></p><section class=\"secret\" id=\"secret-giR5yoa8kkJFGmuP\"><details><summary>Lore</summary><p>Long ago, in the Dragonlance setting, elves and humans waged a terrible war against chromatic dragons. When the world seemed doomed, the wizards of the Towers of High Sorcery came together and forged five <em>Orbs of Dragonkind</em> to help defeat the dragons. One orb was taken to each of the five towers, and there they were used to speed the war toward a victorious end. The wizards used the orbs to lure dragons to them, then destroyed the dragons with powerful magic.</p><p>As the Towers of High Sorcery fell in later ages, the orbs were destroyed or faded into legend, and only three are thought to survive. Their magic has been warped over the centuries. Their primary purpose of calling dragons still functions, but they also allow some measure of control over dragons.</p><p>Each orb contains the essence of an evil dragon, a presence that resents any attempt to coax magic from it. Those who try to wield an orb’s magic but lack sufficient force of personality might find themselves under the orb’s control.</p></details><p>While attuned to an orb, you can take a Magic action to peer into the orb’s depths. You must then make a DC 15 Charisma saving throw. On a successful save, you control the orb for as long as you remain attuned to it. On a failed save, the orb imposes the Charmed condition on you for as long as you remain attuned to it.</p><p>While you are Charmed by the orb, you can’t voluntarily end your Attunement to it, and the orb casts @UUID[Compendium.dnd-players-handbook.spells.Item.phbsplSuggestion]{Suggestion} on you at will (save DC 18), urging you to work toward the evil ends it desires. The dragon essence within the orb might want many things: the annihilation of a particular society or organization, freedom from the orb, to spread suffering in the world, to advance the worship of Tiamat, or something else the DM decides.</p><p><em><strong>Destroying an Orb.</strong></em> An <em>Orb of Dragonkind</em> has AC 20 and is destroyed if it takes damage from a <em>+3 Weapon</em> or a @UUID[Compendium.dnd-players-handbook.spells.Item.phbsplDisintegra]{Disintegrate} spell. Nothing else can harm it.</p></section><p>An orb is an etched crystal globe about 10 inches in diameter. When used, it grows to about 20 inches in diameter, and mist swirls inside it.</p><p><em><strong>Random Properties.</strong></em> An <em>Orb of Dragonkind</em> has the following @UUID[Compendium.dnd-dungeon-masters-guide.content.JournalEntry.dmgMagicItems000.JournalEntryPage.iA3mHmvlXvWKlyBo#artifact-properties]{random properties}:</p><ul><li class=\"Core-Styles_Core-Bulleted\">2 @UUID[Compendium.dnd-dungeon-masters-guide.tables.RollTable.dmgMinorBenefici]{minor beneficial properties}</li><li class=\"Core-Styles_Core-Bulleted\">1 @UUID[Compendium.dnd-dungeon-masters-guide.tables.RollTable.dmgMinorDetrimen]{minor detrimental property}</li><li class=\"Core-Styles_Core-Bulleted\">1 @UUID[Compendium.dnd-dungeon-masters-guide.tables.RollTable.dmgMajorDetrimen]{major detrimental property}</li></ul><p><em><strong>Spells.</strong></em> The orb has 7 charges and regains 1d4 + 3 expended charges daily at dawn. If you control the orb, you can cast one of the spells on the following table from it. The table indicates how many charges you must expend to cast the spell.</p><table><thead><tr><th><p>Spell</p></th><th><p>Charge Cost</p></th><th></th></tr></thead><tbody><tr><td><p>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplCureWounds]{Cure Wounds} (level 9 version)</p></td><td><p>4</p></td><td></td></tr><tr><td><p>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplDaylight00]{Daylight}</p></td><td><p>1</p></td><td></td></tr><tr><td><p>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplDeathWard0]{Death Ward}</p></td><td><p>2</p></td><td></td></tr><tr><td><p>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplDetectMagi]{Detect Magic}</p></td><td><p>0</p></td><td></td></tr><tr><td><p>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplScrying000]{Scrying} (save DC 18)</p></td><td><p>3</p></td><td></td></tr></tbody></table><p><em><strong>Call Dragons.</strong></em> While you control the orb, you can take a Magic action to cause the orb to issue a telepathic call that extends in all directions for 40 miles. Chromatic dragons in range feel compelled to come to the orb as soon as possible by the most direct route. Dragon deities such as Tiamat are unaffected by this call. Chromatic dragons drawn to the orb might be Hostile toward you for compelling them against their will. Once you have used this property, it can’t be used again for 1 hour.</p>",
@@ -2166,7 +2206,8 @@
     "Air Ring of Elemental Command": {
       "activities": {
         "Elemental Compulsion": {
-          "name": "Elemental Compulsion"
+          "name": "Elemental Compulsion",
+          "target": "Elemental"
         }
       },
       "effects": {
@@ -2374,7 +2415,8 @@
           "name": "Blinding Flash"
         },
         "Conjure Spectral Entity": {
-          "name": "Conjure Spectral Entity"
+          "name": "Conjure Spectral Entity",
+          "duration": "It remains until it drops to 0 Hit Points or you dismiss it as a Magic action."
         }
       },
       "description": "<p><em>Weapon (@UUID[Compendium.dnd-players-handbook.equipment.Item.phbwepGreatsword]{Greatsword}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbwepLongsword0]{Longsword}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbwepRapier0000]{Rapier}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbwepScimitar00]{Scimitar}, or @UUID[Compendium.dnd-players-handbook.equipment.Item.phbwepShortsword]{Shortsword}), Legendary (Requires Attunement by a Creature of the Weapon’s Choice)</em></p><blockquote><p>Of all the magic items created by elves, one of the most prized and jealously guarded is a <em>Moonblade</em> . In ancient times, nearly all elven noble houses claimed one such weapon. Over the centuries, some of these weapons have faded from the world, their magic lost as family lines have become extinct. Others have vanished with their bearers during great quests. Thus, only a few of these weapons remain.</p></blockquote><p>Every <em>Moonblade</em> longs for a bearer whose disposition and goals are compatible with its own. If you try to attune to a <em>Moonblade</em> that doesn’t want you as its bearer, the weapon not only rejects you but also places a curse on you, causing you to make D20 Tests with Disadvantage for 24 hours or until the curse is ended by a <em>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplRemoveCurs]{Remove Curse}</em> spell or similar magic. If you’re accepted by the weapon and try to attune to it, you become attuned to it instantly, and a new rune appears on it. You remain attuned to the weapon until you die or the weapon is destroyed. A <em>Moonblade</em> functions like a nonmagical weapon of its kind for anyone other than its chosen bearer.</p><p>A <em>Moonblade</em> has one rune on it for each bearer it has willingly served (typically [[/r 1d6 + 1]]). The @UUID[.ActiveEffect.o2IcKz2aAooQr7EK]{first rune} grants a +1 bonus to attack rolls and damage rolls made with this magic weapon. Each rune beyond the first grants the <em>Moonblade</em> an additional property. The DM chooses each property or determines it randomly by rolling on the Moonblade Properties table.</p><details><summary><strong>Minor Property.</strong></summary><p>In addition to its aforementioned properties, each <em>Moonblade</em> has a minor property determined by rolling on the Magic Item’s @UUID[Compendium.dnd-dungeon-masters-guide.tables.RollTable.dmgMagicItemsMin]{Minor Property} table.</p></details><details><summary><strong>Sentience.</strong></summary><p>A <em>Moonblade</em> is a sentient weapon with an Intelligence of 12, a Wisdom of 10, and a Charisma of 12. It has hearing and Darkvision out to 120 feet. Its alignment matches that of its creator.</p><p>The weapon communicates by transmitting emotions, sending a tingling sensation through the wielder’s hand when it wants to communicate something it has sensed. It can communicate through visions or dreams when the wielder is either in a trance or asleep.</p></details><details><summary><strong>Personality.</strong></summary><p>A <em>Moonblade</em> has a personality similar to that of its creator. Once a <em>Moonblade</em> has decided on an owner, it believes that only that person should wield it, even if the bearer’s alignment differs from that of the weapon’s or the bearer’s goals later clash with the weapon’s goals.</p></details><details><summary><strong>Moonblade Properties.</strong></summary><p>@Embed[Compendium.dnd-dungeon-masters-guide.tables.RollTable.dmgMoonbladeProp rollable caption=false]</p></details><p> @Embed[Compendium.dnd-dungeon-masters-guide.content.JournalEntry.dmgFoundryRefere.JournalEntryPage.Ok4iCgD25ENgoRxE cite=false caption=false classes=\"hide-in-embed\"]</p>",
@@ -2391,10 +2433,12 @@
               "name": "Second Command Word (Keelboat)"
             }
           },
-          "name": "1st and 2nd Command"
+          "name": "1st and 2nd Command",
+          "target": "folded boat"
         },
         "3rd Command": {
-          "name": "3rd Command"
+          "name": "3rd Command",
+          "target": "unfolded Rowboat or Keelboat"
         }
       },
       "name": "Activate Folding Boat",
@@ -2568,7 +2612,8 @@
         },
         "Slaying Save": {
           "condition": "when the specified creature type is damaged by this ammunition",
-          "name": "Slaying Save"
+          "name": "Slaying Save",
+          "target": "specific creature type"
         }
       },
       "name": "Ammunition of Slaying",
@@ -2686,6 +2731,9 @@
       "activities": {
         "attack": {
           "chatFlavor": "Bonus Damage: 2d6 Radiant vs Fiend/Undead"
+        },
+        "save": {
+          "target": "Fiend or Undead"
         }
       },
       "name": "瓦解之錘",
@@ -2797,7 +2845,8 @@
           "name": "Explosive Emanation"
         },
         "Diamond Light": {
-          "name": "Diamond Light"
+          "name": "Diamond Light",
+          "target": "Undead"
         },
         "Fire Opal Flames": {
           "name": "Fire Opal Flames"
@@ -2848,7 +2897,8 @@
       "activities": {
         "Vile Speech": {
           "chatFlavor": "[[/damage 1d12 type=psychic]] to self",
-          "name": "Vile Speech"
+          "name": "Vile Speech",
+          "target": "Fiends and Undead excluded"
         },
         "Spend Hours Reading": {
           "name": "Spend Hours Reading"
@@ -3088,7 +3138,8 @@
       "description": "<p><em>See: @UUID[Compendium.dnd-dungeon-masters-guide.equipment.Item.dmgHornofValhall]{Horn of Valhalla}</em></p><p><em>Requirement: Proficiency with all Martial weapons</em></p><p><em>Spirits: 5</em></p><p>You can take a Magic action to blow this horn. In response, warrior spirits from the plane of Ysgard appear in unoccupied spaces within 60 feet of you. Each spirit uses the <strong>@UUID[Compendium.dnd-dungeon-masters-guide.actors.Actor.kz1t6xeXVwODpYb2]{Berserker}</strong> stat block and returns to Ysgard after 1 hour or when it drops to 0 Hit Points. The spirits look like living, breathing warriors, and they have Immunity to the &amp;Reference[Charmed apply=false] and &amp;Reference[Frightened apply=false] conditions. Once you use the horn, it can’t be used again until 7 days have passed.</p><p>If you blow the horn without meeting its requirement, the summoned spirits attack you. If you meet the requirement, they are Friendly to you and your allies and follow your commands.</p>",
       "activities": {
         "Summon Warriors": {
-          "name": "Summon Warriors"
+          "name": "Summon Warriors",
+          "target": "unoccupied spaces"
         }
       }
     },
@@ -3246,6 +3297,9 @@
       "activities": {
         "Display Dazzling Hues": {
           "name": "Display Dazzling Hues"
+        },
+        "save": {
+          "target": "can see you"
         }
       },
       "description": "<p><em>奇物, Very Rare（需同調）</em></p><p>This robe has 3 charges, and it regains 1d3 expended charges daily at dawn. While you wear it, you can take a Magic action and expend 1 charge to cause the garment to display a shifting pattern of dazzling hues until the end of your next turn. During this time, the robe sheds Bright Light in a 30-foot radius and Dim Light for an additional 30 feet, and creatures that can see you have Disadvantage on attack rolls against you. Any creature in the Bright Light that can see you when the robe’s power is activated must succeed on a DC 15 Wisdom saving throw or have the Stunned condition until the effect ends.</p><section id=\"secret-fHn9nt3cSF0lOwcT\" class=\"secret\"><p><strong>Foundry Note</strong></p><p>The <strong>Display Dazzling Hues</strong> activity includes a measured template which can be used for tracking the area of Bright Light.</p></section>"
@@ -3333,7 +3387,8 @@
       "name": "Horn of Valhalla",
       "activities": {
         "Summon Warriors": {
-          "name": "Summon Warriors"
+          "name": "Summon Warriors",
+          "target": "unoccupied space"
         }
       },
       "description": "<p><em>奇物，珍稀 (Silver or Brass), Very Rare (Bronze), or Legendary (Iron)</em></p><p>You can take a Magic action to blow this horn. In response, warrior spirits from the plane of Ysgard appear in unoccupied spaces within 60 feet of you. Each spirit uses the <strong>Berserker</strong> stat block and returns to Ysgard after 1 hour or when it drops to 0 Hit Points. The spirits look like living, breathing warriors, and they have Immunity to the Charmed and Frightened conditions. Once you use the horn, it can’t be used again until 7 days have passed.</p><p>Four types of <em>Horn of Valhalla</em> are known to exist, each made of a different metal. The horn’s type determines how many spirits it summons, as well as the requirement for its use. The DM chooses the horn’s type or determines it randomly by rolling on the following table.</p><p>If you blow the horn without meeting its requirement, the summoned spirits attack you. If you meet the requirement, they are Friendly to you and your allies and follow your commands.</p><p>@Embed[Compendium.dnd-dungeon-masters-guide.tables.RollTable.dmgHornOfValhall rollable]</p>"
@@ -3369,10 +3424,12 @@
       "description": "<div><p><em>奇物，珍稀（需同調）</em></p></div><p>As a Magic action, you can place this 1-inch adamantine statuette on the ground and, using a command word, cause it to grow rapidly into a square adamantine tower. Repeating the command word causes the tower to revert to statuette form, which works only if the tower is empty. Each creature in the area where the tower appears is pushed to an unoccupied space outside but next to the tower. Objects in the area that aren’t being worn or carried are also pushed clear of the tower.</p><p>The tower is 20 feet on a side and 30 feet high, with arrow slits on all sides and a battlement atop it. Its interior is divided into two floors, with a ladder, staircase, or ramp (your choice) connecting them. This ladder, staircase, or ramp ends at a trapdoor leading to the roof. When created, the tower has a single door at ground level on the side facing you. The door opens only at your command, which you can issue as a Bonus Action. It is immune to the <em>Knock</em> spell and similar magic.</p><p>Magic prevents the tower from being tipped over. The roof, the door, and the walls each have AC 20; HP 100; Immunity to Bludgeoning, Piercing, and Slashing damage except that which is dealt by siege equipment; and Resistance to all other damage. Shrinking the tower back down to statuette form doesn’t repair damage to the tower. Only a <em>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplWish000000]{Wish}</em> spell can repair the tower (this use of the spell counts as replicating a spell of level 8 or lower). Each casting of <em>Wish</em> causes the tower to regain all its Hit Points.</p>",
       "activities": {
         "Open Fortress Door": {
-          "name": "Open Fortress Door"
+          "name": "Open Fortress Door",
+          "target": "The tower's door"
         },
         "Grow Tower": {
-          "name": "Grow Tower"
+          "name": "Grow Tower",
+          "target": "The adamantine"
         }
       },
       "name": "Daern's Instant Fortress"
@@ -3423,7 +3480,8 @@
       "name": "Ear Horn of Hearing",
       "activities": {
         "Hold to Ear": {
-          "name": "Hold to Ear"
+          "name": "Hold to Ear",
+          "duration": "while held up to your ear"
         }
       },
       "description": "<div><p><em>奇物，普通</em></p></div><p>While held up to your ear, this horn suppresses the effects of the &amp;Reference[Deafened apply=false] condition on you.</p>"
@@ -3466,7 +3524,8 @@
           "name": "Executioner's Axe",
           "changes": {
             "system.description.value": "{}<p>@Embed[Compendium.dnd-dungeon-masters-guide.equipment.Item.dmgExecutionersA caption=false]</p>",
-            "name": "Executioner's {}"
+            "name": "Executioner's {}",
+            "activities[attack].description.chatFlavor": "{}<dl><dt>Humanoid Target</dt><dd>[[/damage 2d6 type=slashing]]{Extra Damage}<br>[[/healing 0 type=temphp]]{Temporary HP}</dd></dl>"
           }
         }
       },
@@ -3588,7 +3647,10 @@
       "effects": {
         "Vecna's Hand: Alignment, Strength": {
           "name": "Vecna's Hand: Alignment, Strength",
-          "description": "<p>While you are attuned to the hand, your alignment is Neutral Evil, and your Strength becomes 20 unless it is already 20 or higher.</p>"
+          "description": "<p>While you are attuned to the hand, your alignment is Neutral Evil, and your Strength becomes 20 unless it is already 20 or higher.</p>",
+          "changes": {
+            "system.details.alignment": "Neutral Evil"
+          }
         },
         "Icy Touch: Bonus Damage": {
           "name": "Icy Touch: Bonus Damage",
@@ -3612,7 +3674,8 @@
     "Blackrazor": {
       "activities": {
         "attack": {
-          "chatFlavor": "<em>Devour Soul</em> on kill"
+          "chatFlavor": "<em>Devour Soul</em> on kill",
+          "target": "self damage if Undead"
         },
         "tbt8KtzxLOPvLnaD": {
           "condition": "Blackrazor decides when to cast the spell, which takes effect at the start of your turn."
@@ -3699,7 +3762,8 @@
       "description": "<p><em>Rod, Very Rare</em></p><p>While holding this rod, you can take a Magic action to activate it. The rod then instantly transports you and up to 199 other willing creatures you can see to a demiplane. You choose the form the demiplane takes. It could be a tranquil garden, a cheery tavern, an immense palace, a tropical island, a fantastic carnival, or whatever else you can imagine. Regardless of its nature, the demiplane contains enough water and food to sustain its visitors, and the demiplane's environment can't harm its occupants. Everything else that can be interacted with there can exist only there. For example, a flower picked from a garden there disappears if it is taken outside the demiplane.</p><p>For each hour spent in the demiplane, a visitor regains Hit Points as if it had spent 1 Hit Point Die. Also, creatures don't age while there, although time passes normally. Visitors can remain there for up to 200 days divided by the number of creatures present (round down).</p><p>When the time runs out or you take a Magic action to end the effect, all visitors reappear in the location they occupied when you activated the rod or an unoccupied space nearest that location. Once used, this property can't be used again until 10 days have passed.</p><section class=\"secret\" id=\"secret-Z6J3bMzIgyeF3UkP\"><p><strong>Foundry Note</strong></p><p>The <strong>Transport to Demiplane</strong> activity will consume a use of this item but the ten day recovery period must be tracked manually.</p></section>",
       "activities": {
         "Transport to Demiplane": {
-          "name": "Transport to Demiplane"
+          "name": "Transport to Demiplane",
+          "target": "you can see"
         }
       },
       "name": "庇護權杖"
@@ -3745,12 +3809,14 @@
       },
       "activities": {
         "Place Shackles": {
-          "name": "Place Shackles"
+          "name": "Place Shackles",
+          "target": "Small to Large creature with the Incapacitated condition"
         },
         "Attempt Escape": {
           "condition": "is bound by Dimensional Shackles",
           "chatFlavor": "Can be attempted once every 30 days",
-          "name": "Attempt Escape"
+          "name": "Attempt Escape",
+          "target": "Dimensional Shackles binding self"
         }
       },
       "description": "<div><p><em>奇物，珍稀</em></p></div><p>You can take a Utilize action to place these shackles on a creature that has the &amp;Reference[Incapacitated apply=false] condition. The shackles adjust to fit a creature of Small to Large size. The shackles prevent a creature bound by them from using any method of extradimensional movement, including teleportation or travel to a different plane of existence. They don’t prevent the creature from passing through an interdimensional portal.</p><p>You and any creature you designate when you use the shackles can take a Utilize action to remove them. Once every 30 days, the bound creature can make a [[/check ability=str skill=ath dc=30 format=long]]. On a successful check, the creature breaks free and destroys the shackles.</p>"
@@ -3774,7 +3840,12 @@
     },
     "Serpentine Owl": {
       "description": "<p><em>See @UUID[Compendium.dnd-dungeon-masters-guide.equipment.Item.dmgFigurineOfWon]{Figurine of Wondrous Power}</em></p><p>This serpentine statuette of an owl can become a <strong>@UUID[Compendium.dnd-dungeon-masters-guide.actors.Actor.VVXly3ue0i3YgGrB]{Giant Owl}</strong> for up to 8 hours. The owl can communicate telepathically with you at any range if you and it are on the same plane of existence. Once it has been used, it can’t be used again until 2 days have passed.</p><section class=\"secret\" id=\"secret-lvDPI4uyHQj4dE5a\"><p><strong>Foundry Note</strong></p><p>This item's limited uses represent the 2 days required before the figurine can be used again.</p></section>",
-      "name": "Serpentine Owl"
+      "name": "Serpentine Owl",
+      "activities": {
+        "summon": {
+          "target": "unoccupied space"
+        }
+      }
     },
     "Hidden Pit": {
       "activities": {
@@ -3831,7 +3902,8 @@
       "activities": {
         "Card Effect": {
           "condition": "Card's effect occurs immediately upon draw",
-          "name": "Card Effect"
+          "name": "Card Effect",
+          "duration": "Until either you or the devil dies"
         }
       },
       "effects": {
@@ -3886,7 +3958,8 @@
     "Water Ring of Elemental Command": {
       "activities": {
         "Elemental Compulsion": {
-          "name": "Elemental Compulsion"
+          "name": "Elemental Compulsion",
+          "target": "Elemental"
         }
       },
       "effects": {
@@ -3994,7 +4067,8 @@
       "activities": {
         "Pull and Throw": {
           "name": "Pull and Throw",
-          "chatFlavor": "Transformed creature determined by DM or table roll"
+          "chatFlavor": "Transformed creature determined by DM or table roll",
+          "duration": "Until the next dawn or when creature is reduced to 0 Hit Points."
         }
       }
     },
@@ -4066,12 +4140,19 @@
       "activities": {
         "Plant Rod": {
           "name": "Plant Rod"
+        },
+        "Protective Aura": {
+          "name": "Protective Aura"
         }
       },
       "description": "<p><em>Rod, Very Rare（需同調）</em></p><p>This rod has the following properties.</p><p><strong>Alertness.</strong> While holding the rod, you have Advantage on Wisdom (Perception) checks and on Initiative rolls.</p><p><strong>Spells.</strong> While holding the rod, you can cast the following spells from it: @UUID[Compendium.dnd5e.spells.Item.Mzh95utKDPIrjiH8]{Detect Evil and Good}, @UUID[Compendium.dnd-players-handbook.spells.Item.phbsplDetectMagi]{Detect Magic}, @UUID[Compendium.dnd-players-handbook.spells.Item.phbsplDetectPois]{Detect Poison and Disease}, @UUID[Compendium.dnd-players-handbook.spells.Item.phbsplSeeInvisib]{See Invisibility}.</p><p><strong>Protective Aura.</strong> As a Magic action, you can plant the haft end of the rod in the ground, whereupon the rod’s head sheds Bright Light in a 60-foot radius and Dim Light for an additional 60 feet. While in that Bright Light, you and your allies gain a +1 bonus to Armor Class and saving throws and can sense the location of any Invisible creature that is also in the Bright Light.</p><p>The rod’s head stops glowing and the effect ends after 10 minutes or when a creature takes a Magic action to pull the rod from the ground. Once used, this property can’t be used again until the next dawn.</p><section id=\"secret-jGrucoqKAFLoFtqT\" class=\"secret\"><p><strong>Foundry Note</strong></p><p>The <strong>Plant Rod</strong> activity can be used to place a 60 foot template representing the Bright Light radius. It includes an Active Effect which can be applied to the relevant Actors and adds the +1 bonus to AC and Saving Throws.</p></section>",
       "effects": {
         "Protective Aura": {
-          "name": "Protective Aura"
+          "name": "Protective Aura",
+          "description": "<p>While in that Bright Light, you and your allies gain a +1 bonus to Armor Class and saving throws and can sense the location of any Invisible creature that is also in the Bright Light.</p>"
+        },
+        "Alertness": {
+          "name": "Alertness"
         }
       }
     },
@@ -4079,7 +4160,8 @@
       "activities": {
         "Pull and Throw": {
           "name": "Pull and Throw",
-          "chatFlavor": "Transformed creature determined by DM or table roll"
+          "chatFlavor": "Transformed creature determined by DM or table roll",
+          "duration": "Until the next dawn or when creature is reduced to 0 Hit Points."
         }
       },
       "name": "Gray Bag of Tricks",
@@ -4134,7 +4216,8 @@
           "name": "Tails"
         },
         "Heads": {
-          "name": "Heads"
+          "name": "Heads",
+          "target": "you can see"
         }
       },
       "description": "<p><em>奇物，普通</em></p><p>This gold coin has a creature embossed on each side. The two depicted creatures must be famous rivals or enemies of each other. For example, a <em>Rival Coin</em> might show Iggwilv on one side and Mordenkainen on the other, or Venger on one side and Tiamat on the other. One of these figures is on the “heads” side of the coin, the other on the “tails” side.</p><p>The coin has 1 charge and regains its expended charge daily at dawn. You can take a Magic action to toss the coin, expending its charge. Roll any die ([[/r 1d2]]) to determine whether the coin comes up heads (on an even number) or tails (on an odd number). The roll also determines the effect:</p><p><strong>Heads.</strong> Target one creature you can see within 60 feet of yourself. The target makes a DC 13 Wisdom saving throw. On a failed save, the target takes 2d4 Psychic damage and has Disadvantage on the next attack roll it makes before the end of its next turn. On a successful save, the target takes half as much damage only.</p><p><strong>Tails.</strong> You take 1d4 Psychic damage.</p>",
@@ -4182,7 +4265,8 @@
           "name": "釀造藥水"
         },
         "Enlarge Cauldron": {
-          "name": "Enlarge Cauldron"
+          "name": "Enlarge Cauldron",
+          "target": "The Cauldron of Rebirth"
         }
       },
       "description": "<div><p><em>奇物, Very Rare (Requires Attunement by a Druid or Warlock)</em></p></div><blockquote><p>This Tiny pot bears relief scenes of heroes on its cast-iron sides.</p></blockquote><p>You can use the cauldron as a Spellcasting Focus for your spells, and it functions as a suitable component for the <em>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplScrying000]{Scrying}</em> spell.</p><details><summary><strong>Brew Potion.</strong></summary><p>When you finish a Long Rest, you can use the cauldron to create a <em>@UUID[Compendium.dnd-dungeon-masters-guide.equipment.Item.dmgGreaterPotion]{Potion of Healing (greater)}</em>, which takes 1 minute. The potion lasts for 24 hours, then loses its magic if not consumed.</p></details><details><summary><strong>Raise Dead.</strong></summary><p>As a Magic action, you can cause the cauldron to grow large enough for a Medium creature to crouch within. You can revert the cauldron to its normal size as a Magic action, harmlessly shunting anything that can’t fit inside to the nearest unoccupied space.</p><p>If you place the corpse of a Humanoid into the cauldron and cover the corpse with 200 pounds of salt (which costs 10 GP) for at least 8 hours, the salt is consumed and the creature returns to life as if by <em>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplRaiseDead0]</em> at the next dawn. Once used, this property can’t be used again for 7 days.</p><section class=\"secret\" id=\"secret-67GBb7ysNk6W5rYv\"><p><strong>Foundry Note</strong></p><p>The <strong>Enlarge Cauldron</strong> activity is optional and provided to create a small, circular Measured Template indicating the cauldron's position.</p><p>The <strong>Raise Dead</strong> activity contains and consumes 7 uses, which recover at a rate of one per Day to represent its one activation per 7 Days.</p></section></details>"
@@ -4192,13 +4276,19 @@
       "description": "<p><em>See @UUID[Compendium.dnd-dungeon-masters-guide.equipment.Item.dmgFigurineOfWon]{Figurine of Wondrous Power}</em></p><p>This polished obsidian horse can become a <strong>@UUID[Compendium.dnd-dungeon-masters-guide.actors.Actor.5SgVGhQBswgWRwsF]{Nightmare}</strong> for up to 24 hours. The nightmare fights only to defend itself. Once it has been used, it can’t be used again until 5 days have passed.</p><p>The figurine has a [[/r 1d10cs1]]{10 percent chance} each time you use it to ignore your orders, including a command to revert to figurine form. If you mount the nightmare while it is ignoring your orders, you and the nightmare are instantly transported to a random location on the plane of Hades, where the nightmare reverts to figurine form.</p><section class=\"secret\" id=\"secret-OH9v7OxKinHyCnIQ\"><p><strong>Foundry Note</strong></p><p>This item's limited uses represent the 5 days required before the figurine can be used again.</p></section>",
       "activities": {
         "summon": {
-          "chatFlavor": " [[/r 1d10cs1]]{10 percent chance} of ignoring your orders."
+          "chatFlavor": " [[/r 1d10cs1]]{10 percent chance} of ignoring your orders.",
+          "target": "unoccupied space"
         }
       }
     },
     "Boots of Elvenkind": {
       "name": "精靈之靴",
-      "description": "<div><p><em>奇物，非普通</em></p></div><p>While you wear these boots, your steps make no sound, regardless of the surface you are moving across. You also have Advantage on Dexterity (Stealth) checks.</p>"
+      "description": "<div><p><em>奇物，非普通</em></p></div><p>While you wear these boots, your steps make no sound, regardless of the surface you are moving across. You also have Advantage on Dexterity (Stealth) checks.</p>",
+      "effects": {
+        "Stealth Advantage": {
+          "name": "Stealth Advantage"
+        }
+      }
     },
     "Oil of Taggit": {
       "description": "<p><em>Contact Poison</em></p><p>A creature subjected to Oil of Taggit must succeed on a DC 13 Constitution saving throw or have the &amp;Reference[Poisoned apply=false] condition for 24 hours. The creature also has the &amp;Reference[Unconscious apply=false] condition while Poisoned in this way. It wakes up if it takes damage.</p>",
@@ -4223,7 +4313,8 @@
       },
       "effects": {
         "Bewitching Scent": {
-          "name": "Bewitching Scent"
+          "name": "Bewitching Scent",
+          "description": "<p>For the duration, you have Advantage on all Charisma (Deception and Persuasion) checks made to influence a creature within 5 feet of yourself.</p>"
         }
       },
       "name": "Perfume of Bewitching"
@@ -4241,7 +4332,12 @@
     },
     "Cloak of Elvenkind": {
       "name": "精靈斗篷",
-      "description": "<div><p><em>奇物，非普通（需同調）</em></p></div><p>While you wear this cloak, Wisdom (Perception) checks made to perceive you have Disadvantage, and you have Advantage on Dexterity (Stealth) checks.</p>"
+      "description": "<div><p><em>奇物，非普通（需同調）</em></p></div><p>While you wear this cloak, Wisdom (Perception) checks made to perceive you have Disadvantage, and you have Advantage on Dexterity (Stealth) checks.</p>",
+      "effects": {
+        "Stealth Advantage": {
+          "name": "Stealth Advantage"
+        }
+      }
     },
     "Throne": {
       "activities": {
@@ -4432,7 +4528,8 @@
           "name": "Sway Rats"
         },
         "Call Swarm of Rats": {
-          "name": "Call Swarm of Rats"
+          "name": "Call Swarm of Rats",
+          "target": "rats"
         }
       },
       "name": "喚鼠排笛"
@@ -4444,7 +4541,8 @@
         },
         "Count Number of Cards": {
           "chatFlavor": "You find the deck missing some cards.",
-          "name": "Count Number of Cards"
+          "name": "Count Number of Cards",
+          "target": "The Deck of Illusions"
         }
       },
       "description": "<div><p><em>奇物，非普通</em></p></div><p>This box contains a set of cards. A full deck has 34 cards: 32 depicting specific creatures and two with a mirrored surface. A deck found as treasure is usually missing [[/r 1d20 − 1#Missing cards]] cards.</p><p>The magic of the deck functions only if its cards are drawn at random. You can take a Magic action to draw a card at random from the deck and throw it to the ground at a point within 30 feet of yourself. An illusion of a creature, determined by rolling on the Deck of Illusions table, forms over the thrown card and remains until dispelled. The illusory creature created by the card looks and behaves like a real creature of its kind, except that it can do no harm. While you are within 120 feet of the illusory creature and can see it, you can take a Magic action to move it anywhere within 30 feet of its card.</p><p>Any physical interaction with the illusory creature reveals it to be false, because objects pass through it. A creature that takes a Study action to visually inspect the illusory creature identifies it as an illusion with a successful [[/check ability=int skill=inv dc=15 format=long]]. The illusion lasts until its card is moved or the illusion is dispelled (using a <em>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplDispelMagi]{Dispel Magic}</em> spell or a similar effect). When the illusion ends, the image on its card disappears, and that card can’t be used again.</p><p>@Embed[Compendium.dnd-dungeon-masters-guide.tables.RollTable.dmgDeckOfIllusio rollable]</p><section class=\"secret\" id=\"secret-dg7rbpSc8GfB0AXm\"><p><strong>Foundry Note</strong></p><p>Due to the single-use nature of each card, it is recommended to import a copy of the @UUID[Compendium.dnd-dungeon-masters-guide.tables.RollTable.dmgDeckOfIllusio]{table} and insert its UUID into the @Embed enricher, above.</p><p>Additionally, when first obtained, the DM or player should use the <strong>Count Number of Cards</strong> activity to randomly determine the total number of cards remaining in the deck. After one use, it may be deleted.</p></section><p></p>",
@@ -4608,7 +4706,8 @@
         "Dragon Slayer": {
           "changes": {
             "name": "Dragon Slayer {}",
-            "system.description.value": "{}<p>@Embed[Compendium.dnd-dungeon-masters-guide.equipment.Item.dmgDragonSlayer0 caption=false]</p>"
+            "system.description.value": "{}<p>@Embed[Compendium.dnd-dungeon-masters-guide.equipment.Item.dmgDragonSlayer0 caption=false]</p>",
+            "activities[attack].description.chatFlavor": "{} Bonus Damage: 3d6 vs Dragon"
           },
           "name": "Dragon Slayer"
         }
@@ -4775,7 +4874,8 @@
     "Talisman of Pure Good": {
       "activities": {
         "Pure Rebuke": {
-          "name": "Pure Rebuke"
+          "name": "Pure Rebuke",
+          "range": "you can see"
         },
         "Fiend and Undead Damage": {
           "name": "Fiend and Undead Damage"
@@ -4820,7 +4920,8 @@
       "name": "Cloak of Many Fashions",
       "activities": {
         "Use": {
-          "name": "Use"
+          "name": "Use",
+          "target": "The Cloak of Many Fasions"
         }
       },
       "description": "<div><p><em>奇物，普通</em></p></div><p>While wearing this cloak, you can take a Bonus Action to change the style, color, and apparent quality of the garment. The cloak’s weight doesn’t change. Regardless of its appearance, the cloak can’t be anything but a cloak. Although it can duplicate the appearance of other magic cloaks, it doesn’t gain their magical properties.</p>"
@@ -4836,7 +4937,8 @@
       "activities": {
         "Card Effect": {
           "condition": "Card's effect occurs immediately upon draw",
-          "name": "Card Effect"
+          "name": "Card Effect",
+          "duration": "a Wish spell or divine intervention can end the hostility"
         }
       },
       "name": "遊蕩者"
@@ -4866,16 +4968,20 @@
     "Carpet of Flying": {
       "activities": {
         "Activate (4 by 6 ft.)": {
-          "name": "Activate (4 by 6 ft.)"
+          "name": "Activate (4 by 6 ft.)",
+          "target": "The Carpet of Flying"
         },
         "Activate (5 by 7 ft.)": {
-          "name": "Activate (5 by 7 ft.)"
+          "name": "Activate (5 by 7 ft.)",
+          "target": "The Carpet of Flying"
         },
         "Activate (6 by 9 ft.)": {
-          "name": "Activate (6 by 9 ft.)"
+          "name": "Activate (6 by 9 ft.)",
+          "target": "The Carpet of Flying"
         },
         "Activate (3 by 5 ft.)": {
-          "name": "Activate (3 by 5 ft.)"
+          "name": "Activate (3 by 5 ft.)",
+          "target": "The Carpet of Flying"
         }
       },
       "name": "Carpet of Flying",
@@ -4934,7 +5040,8 @@
       },
       "activities": {
         "Elemental Compulsion": {
-          "name": "Elemental Compulsion"
+          "name": "Elemental Compulsion",
+          "target": "Elemental"
         }
       }
     },
@@ -5075,7 +5182,12 @@
     },
     "Ring of Djinni Summoning": {
       "description": "<p><em>Ring, Legendary（需同調）</em></p><p>While wearing this ring, you can take a Magic action to summon a particular <strong>@UUID[Compendium.dnd-dungeon-masters-guide.actors.Actor.5P1VGAZQwOilwZQf]{Djinni}</strong> from the Elemental Plane of Air. The djinni appears in an unoccupied space you choose within 120 feet of yourself. It remains as long as you maintain Concentration, to a maximum of 1 hour, or until it drops to 0 Hit Points.</p><p>While summoned, the djinni is Friendly to you and your allies, and it obeys your commands. If you fail to command it, the djinni defends itself against attackers but takes no other actions.</p><p>After the djinni departs, it can’t be summoned again for 24 hours, and the ring becomes nonmagical if the djinni dies.</p><p><em>Rings of Djinni Summoning</em> are often created by the djinn they summon and given to mortals as gifts of friendship or tokens of esteem.</p>",
-      "name": "氣巨靈召喚戒指"
+      "name": "氣巨靈召喚戒指",
+      "activities": {
+        "summon": {
+          "range": "you can see"
+        }
+      }
     },
     "Sword of Wounding": {
       "activities": {
@@ -5264,7 +5376,8 @@
       "name": "Elemental Gem (Blue Sapphire)",
       "activities": {
         "Utilize": {
-          "name": "Utilize"
+          "name": "Utilize",
+          "target": "unoccupied space as close to the broken gem as possible"
         }
       },
       "description": "<p><em>See: @UUID[Compendium.dnd-dungeon-masters-guide.equipment.Item.dmgElementalGem0]</em></p><p>This gem contains a mote of elemental energy. When you take a Utilize action to break the gem, an @UUID[Compendium.dnd-dungeon-masters-guide.actors.Actor.banHjKDMCegbUwYE]{Air Elemental} is summoned, and the gem ceases to be magical. The elemental appears in an unoccupied space as close to the broken gem as possible, understands your languages, obeys your commands, and takes its turn immediately after you on your Initiative count. The elemental disappears after 1 hour, when it dies, or when you dismiss it as a Bonus Action.</p>"
@@ -5349,13 +5462,17 @@
           "name": "Poisoned"
         },
         "Poison Coat": {
-          "name": "Poison Coat"
+          "name": "Poison Coat",
+          "changes": {
+            "activities[attack].description.chatFlavor": "{}  On Hit: Use <em>Poison Save</em> activity."
+          }
         }
       },
       "description": "<div><p><em>Weapon (Dagger)，珍稀</em></p></div><p>You gain a +1 bonus to attack rolls and damage rolls made with this magic weapon.</p><p>You can take a Bonus Action to magically coat the blade with poison. The poison remains for 1 minute or until an attack using this weapon hits a creature. That creature must succeed on a DC 15 Constitution saving throw or take 2d10 Poison damage and have the &amp;Reference[Poisoned apply=false] condition for 1 minute. The weapon can’t be used this way again until the next dawn.</p>",
       "activities": {
         "Coat Blade with Poison": {
-          "name": "Coat Blade with Poison"
+          "name": "Coat Blade with Poison",
+          "target": "The Dagger of Venom"
         },
         "Poison Save": {
           "name": "Poison Save"
@@ -5382,13 +5499,15 @@
     "Dust of Dryness": {
       "activities": {
         "Sprinkle over Water": {
-          "name": "Sprinkle over Water"
+          "name": "Sprinkle over Water",
+          "target": "water"
         },
         "Determine Number of Pinches": {
           "name": "Determine Number of Pinches"
         },
         "Sprinkle on Elemental": {
-          "name": "Sprinkle on Elemental"
+          "name": "Sprinkle on Elemental",
+          "target": "Elemental composed mostly of water"
         }
       },
       "name": "乾燥塵",
@@ -5422,7 +5541,8 @@
       "description": "<p><em>See: @UUID[Compendium.dnd-dungeon-masters-guide.equipment.Item.dmgHornofValhall]{Horn of Valhalla}</em></p><p><em>Requirement: Training with all Medium armor</em></p><p><em>Spirits: 4</em></p><p>You can take a Magic action to blow this horn. In response, warrior spirits from the plane of Ysgard appear in unoccupied spaces within 60 feet of you. Each spirit uses the <strong>@UUID[Compendium.dnd-dungeon-masters-guide.actors.Actor.kz1t6xeXVwODpYb2]{Berserker}</strong> stat block and returns to Ysgard after 1 hour or when it drops to 0 Hit Points. The spirits look like living, breathing warriors, and they have Immunity to the &amp;Reference[Charmed apply=false] and &amp;Reference[Frightened apply=false] conditions. Once you use the horn, it can’t be used again until 7 days have passed.</p><p>If you blow the horn without meeting its requirement, the summoned spirits attack you. If you meet the requirement, they are Friendly to you and your allies and follow your commands.</p>",
       "activities": {
         "Summon Warriors": {
-          "name": "Summon Warriors"
+          "name": "Summon Warriors",
+          "target": "unoccupied spaces"
         }
       },
       "effects": {
@@ -5464,7 +5584,8 @@
       "name": "Elemental Gem (Emerald)",
       "activities": {
         "Utilize": {
-          "name": "Utilize"
+          "name": "Utilize",
+          "target": "unoccupied space as close to the broken gem as possible"
         }
       }
     },
@@ -5519,7 +5640,12 @@
     },
     "Censer of Controlling Air Elementals": {
       "name": "控制氣元素香爐",
-      "description": "<div><p><em>奇物，珍稀</em></p></div><p>While gently swinging this censer, you can take a Magic action to summon an <strong>@UUID[Compendium.dnd-dungeon-masters-guide.actors.Actor.banHjKDMCegbUwYE]{Air Elemental}</strong>. The elemental appears in an unoccupied space as close to the censer as possible, understands your languages, obeys your commands, and takes its turn immediately after you on your Initiative count. The elemental disappears after 1 hour, when it dies, or when you dismiss it as a Bonus Action. The censer can’t be used this way again until the next dawn.</p>"
+      "description": "<div><p><em>奇物，珍稀</em></p></div><p>While gently swinging this censer, you can take a Magic action to summon an <strong>@UUID[Compendium.dnd-dungeon-masters-guide.actors.Actor.banHjKDMCegbUwYE]{Air Elemental}</strong>. The elemental appears in an unoccupied space as close to the censer as possible, understands your languages, obeys your commands, and takes its turn immediately after you on your Initiative count. The elemental disappears after 1 hour, when it dies, or when you dismiss it as a Bonus Action. The censer can’t be used this way again until the next dawn.</p>",
+      "activities": {
+        "summon": {
+          "target": "unoccupied space as close to the brazier as possible"
+        }
+      }
     },
     "Sovereign Glue": {
       "activities": {
@@ -5559,7 +5685,8 @@
     "Elemental Gem (Red Corundum)": {
       "activities": {
         "Utilize": {
-          "name": "Utilize"
+          "name": "Utilize",
+          "target": "unoccupied space as close to the broken gem as possible"
         }
       },
       "description": "<p><em>See: @UUID[Compendium.dnd-dungeon-masters-guide.equipment.Item.dmgElementalGem0]</em></p><p>This gem contains a mote of elemental energy. When you take a Utilize action to break the gem, a @UUID[Compendium.dnd-dungeon-masters-guide.actors.Actor.8SMQl75HLjhuSeau]{Fire Elemental} is summoned, and the gem ceases to be magical. The elemental appears in an unoccupied space as close to the broken gem as possible, understands your languages, obeys your commands, and takes its turn immediately after you on your Initiative count. The elemental disappears after 1 hour, when it dies, or when you dismiss it as a Bonus Action.</p>",
@@ -5607,7 +5734,8 @@
       "activities": {
         "Card Effect: Start": {
           "condition": "The next time you enter combat against one or more Hostile creatures",
-          "name": "Card Effect: Start"
+          "name": "Card Effect: Start",
+          "duration": "length of that combat"
         },
         "Card Effect: Resolve": {
           "condition": "when the selected Hostile creature dies during this combat",
@@ -5649,7 +5777,8 @@
     "Staff of the Python": {
       "activities": {
         "Transform into Snake": {
-          "name": "Transform into Snake"
+          "name": "Transform into Snake",
+          "target": "Unoccupied"
         }
       },
       "description": "<p><em>@UUID[Compendium.dnd-players-handbook.equipment.Item.phbafcStaffalsoa]{Staff}，非普通（需同調）</em></p><p>As a Magic action, you can throw this staff so that it lands in an unoccupied space within 10 feet of you, causing the staff to become a <strong>Giant Constrictor Snake</strong> in that space. The snake is under your control and shares your Initiative count, taking its turn immediately after yours.</p><p>On your turn, you can mentally command the snake (no action required) if it is within 60 feet of you and you don’t have the Incapacitated condition. You decide what action the snake takes and where it moves during its turn, or you can issue it a general command, such as to attack your enemies or guard a location. Absent commands from you, the snake defends itself.</p><p>As a Bonus Action, you can command the snake to revert to staff form in its current space, and you can’t use the staff’s property again for 1 hour. If the snake is reduced to 0 Hit Points, it dies and reverts to its staff form; the staff then shatters and is destroyed. If the snake reverts to staff form before losing all its Hit Points, it regains all of them.</p>",
@@ -5715,7 +5844,8 @@
     "Iron Bands of Bilarro": {
       "activities": {
         "Throw Bands": {
-          "name": "Throw Bands"
+          "name": "Throw Bands",
+          "target": "Huge or smaller you can see"
         },
         "Break Check": {
           "name": "Break Check"
@@ -5756,7 +5886,9 @@
       "activities": {
         "Card Effect": {
           "chatFlavor": "Card's effect occurs immediately upon draw",
-          "name": "Card Effect"
+          "name": "Card Effect",
+          "duration": "until the avatar drops to 0 Hit Points or you die",
+          "target": "nearest unoccupied space"
         }
       },
       "name": "Skull",
@@ -5877,7 +6009,9 @@
       },
       "activities": {
         "Send Alone or Recall": {
-          "name": "Send Alone or Recall"
+          "name": "Send Alone or Recall",
+          "target": "the Broom of Flying",
+          "range": "a familiar destination you have named"
         },
         "Activate Broom": {
           "name": "Activate Broom"
@@ -5923,17 +6057,24 @@
     "Ivory Goats": {
       "activities": {
         "Goat of Traveling": {
-          "name": "Goat of Traveling"
+          "name": "Goat of Traveling",
+          "duration": "24 hours of use (non-contiguous)",
+          "target": "unoccupied space"
         },
         "Revert or Recall Goat of Traveling": {
           "chatFlavor": "Each hour or portion thereof it spends in goat form costs 1 charge.",
-          "name": "Revert or Recall Goat of Traveling"
+          "name": "Revert or Recall Goat of Traveling",
+          "target": "unoccupied space",
+          "duration": "24 hours of use (non-contiguous)"
         },
         "Goat of Travail": {
-          "name": "Goat of Travail"
+          "name": "Goat of Travail",
+          "duration": "24 hours of use (non-contiguous)",
+          "target": "unoccupied space"
         },
         "Goat of Terror": {
-          "name": "Goat of Terror"
+          "name": "Goat of Terror",
+          "target": "unoccupied space"
         }
       },
       "name": "Ivory Goats",
@@ -6060,7 +6201,12 @@
     },
     "Ebony Fly": {
       "name": "Ebony Fly",
-      "description": "<p><em>See @UUID[Compendium.dnd-dungeon-masters-guide.equipment.Item.dmgFigurineOfWon]{Figurine of Wondrous Power}</em></p><p>This ebony statuette, carved in the likeness of a horsefly, can become a <strong>@UUID[Compendium.dnd-dungeon-masters-guide.actors.Actor.dmgGiantFly00000]{Giant Fly}</strong> for up to 12 hours and can be ridden as a mount. Once it has been used, it can’t be used again until 2 days have passed.</p><section class=\"secret\" id=\"secret-50TFh1zOfnv1SBKO\"><p><strong>Foundry Note</strong></p><p>This item's limited uses represent the 2 days required before the figurine can be used again.</p></section>"
+      "description": "<p><em>See @UUID[Compendium.dnd-dungeon-masters-guide.equipment.Item.dmgFigurineOfWon]{Figurine of Wondrous Power}</em></p><p>This ebony statuette, carved in the likeness of a horsefly, can become a <strong>@UUID[Compendium.dnd-dungeon-masters-guide.actors.Actor.dmgGiantFly00000]{Giant Fly}</strong> for up to 12 hours and can be ridden as a mount. Once it has been used, it can’t be used again until 2 days have passed.</p><section class=\"secret\" id=\"secret-50TFh1zOfnv1SBKO\"><p><strong>Foundry Note</strong></p><p>This item's limited uses represent the 2 days required before the figurine can be used again.</p></section>",
+      "activities": {
+        "summon": {
+          "target": "unoccupied space"
+        }
+      }
     },
     "Potion of Flying": {
       "effects": {
@@ -6096,6 +6242,9 @@
         },
         "Determine Ounces": {
           "name": "Determine Ounces"
+        },
+        "Apply Solvent": {
+          "name": "Apply Solvent"
         }
       },
       "description": "<p><em>奇物, Legendary</em></p><p>This tube holds milky liquid with a strong alcohol smell. When found, a tube contains 1d6 + 1 ounces.</p><p>You can take a Utilize action to pour 1 or more ounces of solvent from the tube onto a surface within reach. Each ounce instantly dissolves up to 1 square foot of adhesive it touches, including @UUID[Compendium.dnd-dungeon-masters-guide.equipment.Item.dmgSovereignGlue]{Sovereign Glue}.</p><section class=\"secret\" id=\"secret-cCr2F0ctb7qvQ3x8\"><p><strong>Foundry Note</strong></p><p>This item includes 7 limited uses. The <strong>Determine Ounces</strong> activity can be used to determine the number of ounces equivalent to 1d6 + 1.</p><p>The <strong>Apply Solvent</strong> activity allows you to select the number of ounces you're applying.</p></section>",
@@ -6107,7 +6256,8 @@
         "Holy Avenger": {
           "changes": {
             "name": "Holy Avenger {}",
-            "system.description.value": "{}<p>@Embed[Compendium.dnd-dungeon-masters-guide.equipment.Item.dmgHolyAvenger00 caption=false]</p>"
+            "system.description.value": "{}<p>@Embed[Compendium.dnd-dungeon-masters-guide.equipment.Item.dmgHolyAvenger00 caption=false]</p>",
+            "activities[attack].description.chatFlavor": "{} Bonus Damage: 2d10 Radiant vs Fiend/Undead"
           },
           "name": "Holy Avenger"
         }
@@ -6121,7 +6271,12 @@
     },
     "Marble Elephant": {
       "name": "Marble Elephant",
-      "description": "<p><em>See @UUID[Compendium.dnd-dungeon-masters-guide.equipment.Item.dmgFigurineOfWon]{Figurine of Wondrous Power}</em></p><p>This marble statuette resembles a trumpeting elephant. It can become an <strong>@UUID[Compendium.dnd-players-handbook.actors.Actor.phbmobElephant00]{Elephant}</strong> for up to 24 hours. Once it has been used, it can’t be used again until 7 days have passed.</p><section class=\"secret\" id=\"secret-RHHx3aKcpKsHN2aK\"><p><strong>Foundry Note</strong></p><p>This item's limited uses represent the 7 days required before the figurine can be used again.</p></section>"
+      "description": "<p><em>See @UUID[Compendium.dnd-dungeon-masters-guide.equipment.Item.dmgFigurineOfWon]{Figurine of Wondrous Power}</em></p><p>This marble statuette resembles a trumpeting elephant. It can become an <strong>@UUID[Compendium.dnd-players-handbook.actors.Actor.phbmobElephant00]{Elephant}</strong> for up to 24 hours. Once it has been used, it can’t be used again until 7 days have passed.</p><section class=\"secret\" id=\"secret-RHHx3aKcpKsHN2aK\"><p><strong>Foundry Note</strong></p><p>This item's limited uses represent the 7 days required before the figurine can be used again.</p></section>",
+      "activities": {
+        "summon": {
+          "target": "unoccupied space"
+        }
+      }
     },
     "Moon": {
       "name": "Moon",
@@ -6150,7 +6305,8 @@
       "description": "<p><em>Wand，非普通</em></p><p>This wand has 3 charges and regains 1d3 expended charges daily at dawn. While holding it, you can take a Magic action to expend 1 charge, and if a secret door or trap is within 60 feet of you, the wand pulses and points at the one nearest to you.</p>",
       "activities": {
         "Detect Secret Door/Trap": {
-          "name": "Detect Secret Door/Trap"
+          "name": "Detect Secret Door/Trap",
+          "target": "secret doors/traps"
         }
       }
     },
@@ -6222,7 +6378,10 @@
     "Baba Yaga's Dancing Broom": {
       "activities": {
         "Animate": {
-          "name": "Animate"
+          "name": "Animate",
+          "duration": "If the broom is reduced to 0 HP before reverting to its inanimate form.",
+          "target": "An unoccupied space",
+          "range": "As close to you as possible."
         },
         "Render Broom Inanimate": {
           "chatFlavor": "Renders broom inanimate",
@@ -6237,7 +6396,8 @@
       "description": "<p><em>奇物，珍稀, See: @UUID[Compendium.dnd-dungeon-masters-guide.equipment.Item.dmgQuaalsFeather]{Quaal's Feather Token}</em></p><p>You can take a Magic action to toss the token 5 feet into the air. The token disappears and an enormous, multicolored bird takes its place. The bird has the statistics of a <strong>@UUID[Compendium.dnd-dungeon-masters-guide.actors.Actor.p980augbCIdpK9ZX]{Roc}</strong>, but it can’t attack. It obeys your simple commands and can carry up to 500 pounds while flying at its maximum speed (16 miles per hour for a maximum of 144 miles per day, with a 1-hour rest for every 3 hours of flying) or 1,000 pounds at half that speed. The bird disappears after flying its maximum distance for a day or if it drops to 0 Hit Points. You can dismiss the bird as a Magic action.</p>",
       "activities": {
         "Use": {
-          "name": "Use"
+          "name": "Use",
+          "duration": "The bird disappears after flying its maximum distance for a day or if it drops to 0 Hit Points. You can dismiss the bird as a Magic action."
         }
       }
     },
@@ -6309,12 +6469,14 @@
         },
         "Plant Bean": {
           "name": "Plant Bean",
-          "condition": "Object interaction"
+          "condition": "Object interaction",
+          "target": "Dirt or sand"
         },
         "Count Beans": {
           "name": "Count Beans",
           "condition": "Upon discovering the bag.",
-          "chatFlavor": "3d4 dry beans found in bag."
+          "chatFlavor": "3d4 dry beans found in bag.",
+          "target": "Held Bag of Beans"
         }
       },
       "name": "魔豆之袋",
@@ -6428,7 +6590,8 @@
         "Intercept Attack": {
           "name": "Intercept Attack",
           "condition": "an attacker makes a ranged attack roll against a target within 5 feet of you",
-          "chatFlavor": "You become the target of the ranged attack."
+          "chatFlavor": "You become the target of the ranged attack.",
+          "target": "attack roll made against target"
         }
       },
       "description": "<p><em>護甲（盾牌），珍稀（需同調）</em></p><p>You gain a +2 bonus to Armor Class against ranged attack rolls while you wield this Shield. This bonus is in addition to the Shield’s normal bonus to AC.</p><p>Whenever an attacker makes a ranged attack roll against a target within 5 feet of you, you can take a Reaction to become the target of the attack instead.</p><section class=\"secret\" id=\"secret-n4z3GTIVyxRRS17N\"><p><strong>Foundry Note</strong></p><p>The <strong>Ranged Attack AC Bonus</strong> effect is provided for optional use and may be toggled active before a ranged attack roll is made against the wearer.</p></section>",
@@ -6467,7 +6630,8 @@
       "description": "<p>This Blessing grants you the power to summon spirit warriors, as if you are blowing a @UUID[Compendium.dnd-dungeon-masters-guide.equipment.Item.dmgSilverHornOfV]{silver Horn of Valhalla}. Once you use this Blessing, you can’t use it again until 7 days have passed.</p><section id=\"secret-HIMjPTgH9Tl4KwCQ\" class=\"secret\"><p><strong>Foundry Note</strong></p><p>This item includes a limited use but the 7 day recovery period will have to be tracked manually.</p></section>",
       "activities": {
         "Summon Warriors": {
-          "name": "Summon Warriors"
+          "name": "Summon Warriors",
+          "target": "unoccupied spaces"
         }
       }
     },
@@ -6528,7 +6692,8 @@
     "Silver Raven": {
       "activities": {
         "bO4agG7byTwFTiFg": {
-          "chatFlavor": "Can target only the Silver Raven"
+          "chatFlavor": "Can target only the Silver Raven",
+          "target": "The Silver Raven in raven form"
         }
       },
       "name": "Silver Raven",
@@ -6538,7 +6703,8 @@
       "description": "<p><em>See: @UUID[Compendium.dnd-dungeon-masters-guide.equipment.Item.dmgElementalGem0]</em></p><p>This gem contains a mote of elemental energy. When you take a Utilize action to break the gem, an @UUID[Compendium.dnd-dungeon-masters-guide.actors.Actor.sApYLZj9PTZ40wJr] is summoned, and the gem ceases to be magical. The elemental appears in an unoccupied space as close to the broken gem as possible, understands your languages, obeys your commands, and takes its turn immediately after you on your Initiative count. The elemental disappears after 1 hour, when it dies, or when you dismiss it as a Bonus Action.</p>",
       "activities": {
         "Utilize": {
-          "name": "Utilize"
+          "name": "Utilize",
+          "target": "unoccupied space as close to the broken gem as possible"
         }
       },
       "name": "Elemental Gem (Yellow Diamond)"
@@ -6547,7 +6713,8 @@
       "activities": {
         "Card Effect": {
           "condition": "Card's effect occurs immediately upon draw",
-          "name": "Card Effect"
+          "name": "Card Effect",
+          "target": "all magic items you wear or carry"
         }
       },
       "description": "<p> Every magic item you wear or carry disintegrates. Artifacts in your possession vanish instead.</p>",
@@ -6620,7 +6787,12 @@
     },
     "Bowl of Commanding Water Elementals": {
       "description": "<div><p><em>奇物，珍稀</em></p></div><p>While this bowl is filled with water and you are within 5 feet of it, you can take a Magic action to summon a <strong>@UUID[Compendium.dnd-dungeon-masters-guide.actors.Actor.namJz755U1EhvEJa]{Water Elemental}</strong>. The elemental appears in an unoccupied space as close to the bowl as possible, understands your languages, obeys your commands, and takes its turn immediately after you on your Initiative count. The elemental disappears after 1 hour, when it dies, or when you dismiss it as a Bonus Action. The bowl can’t be used this way again until the next dawn.</p><p>The bowl is about 1 foot in diameter and half as deep. It holds about 3 gallons.</p>",
-      "name": "命令水元素水缽"
+      "name": "命令水元素水缽",
+      "activities": {
+        "summon": {
+          "target": "unoccupied space as close to the bowl as possible"
+        }
+      }
     },
     "Ring of Water Walking": {
       "name": "水行戒指",
@@ -6672,7 +6844,8 @@
       "description": "<p><em>奇物，非普通, See: @UUID[Compendium.dnd-dungeon-masters-guide.equipment.Item.dmgQuaalsFeather]{Quaal's Feather Token}</em></p><p>You must be outdoors to use this token. You can take a Magic action to touch it to an unoccupied space on the ground. The token disappears, and in its place a nonmagical oak tree springs into existence. The tree is 60 feet tall and has a 5-foot-diameter trunk, and its branches at the top spread out in a 20-foot radius.</p>",
       "activities": {
         "Use": {
-          "name": "Use"
+          "name": "Use",
+          "target": "unoccupied space on the ground"
         }
       }
     },
@@ -6770,12 +6943,20 @@
           "name": "Mastiff Figurine"
         }
       },
-      "description": "<p><em>See @UUID[Compendium.dnd-dungeon-masters-guide.equipment.Item.dmgFigurineOfWon]{Figurine of Wondrous Power}</em></p><p>This onyx statuette of a dog can become a <strong>@UUID[Compendium.dnd-players-handbook.actors.Actor.phbmobMastiff000]{Mastiff}</strong> for up to 6 hours. The mastiff has an Intelligence of 8 and can speak Common. It also has Blindsight with a range of 60 feet. Once it has been used, it can’t be used again until 7 days have passed.</p><section class=\"secret\" id=\"secret-61PsF1VxjiD2gq06\"><p><strong>Foundry Note</strong></p><p>This item's limited uses represent the 7 days required before the figurine can be used again.</p></section>"
+      "description": "<p><em>See @UUID[Compendium.dnd-dungeon-masters-guide.equipment.Item.dmgFigurineOfWon]{Figurine of Wondrous Power}</em></p><p>This onyx statuette of a dog can become a <strong>@UUID[Compendium.dnd-players-handbook.actors.Actor.phbmobMastiff000]{Mastiff}</strong> for up to 6 hours. The mastiff has an Intelligence of 8 and can speak Common. It also has Blindsight with a range of 60 feet. Once it has been used, it can’t be used again until 7 days have passed.</p><section class=\"secret\" id=\"secret-61PsF1VxjiD2gq06\"><p><strong>Foundry Note</strong></p><p>This item's limited uses represent the 7 days required before the figurine can be used again.</p></section>",
+      "activities": {
+        "summon": {
+          "target": "unoccupied space"
+        }
+      }
     },
     "Plate Armor of Etherealness": {
       "activities": {
         "Plate Armor of Etherealness": {
           "name": "乙太化板甲"
+        },
+        "4dRHNHbVFlWq34Ow": {
+          "duration": "8 hours or if you remove the armor or take a Magic action to repeat the command word."
         }
       },
       "description": "<p><em>Armor (@UUID[Compendium.dnd-players-handbook.equipment.Item.phbarmHalfPlateA]{Half Plate Armor} or @UUID[Compendium.dnd-players-handbook.equipment.Item.phbarmPlateArmor]{Plate Armor}), Legendary（需同調）</em></p><p>While you’re wearing this armor, you can take a Magic action and use a command word to gain the effect of the <em>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplEtherealne]{Etherealness}</em> spell. The spell ends immediately if you remove the armor or take a Magic action to repeat the command word. This property of the armor can’t be used again until the next dawn.</p><p>@Embed[Compendium.dnd-dungeon-masters-guide.content.JournalEntry.dmgFoundryRefere.JournalEntryPage.Ok4iCgD25ENgoRxE cite=false caption=false classes=\"hide-in-embed\"]</p>",
@@ -6811,7 +6992,8 @@
       "activities": {
         "Pull and Throw": {
           "chatFlavor": "Transformed creature determined by DM or table roll",
-          "name": "Pull and Throw"
+          "name": "Pull and Throw",
+          "duration": "Until the next dawn or when creature is reduced to 0 Hit Points."
         }
       },
       "name": "Rust Bag of Tricks"
@@ -6946,7 +7128,12 @@
     },
     "Bronze Griffon": {
       "description": "<p><em>See @UUID[Compendium.dnd-dungeon-masters-guide.equipment.Item.dmgFigurineOfWon]{Figurine of Wondrous Power}</em></p><p>This bronze statuette is of a griffon rampant. It can become a <strong>@UUID[Compendium.dnd-dungeon-masters-guide.actors.Actor.h052EIIUmRwJum65]{Griffon}</strong> for up to 6 hours. Once it has been used, it can’t be used again until 5 days have passed.</p><section class=\"secret\" id=\"secret-CyXRwZfsh4tOiRUf\"><p><strong>Foundry Note</strong></p><p>This item's limited uses represent the 5 days required before the figurine can be used again.</p></section>",
-      "name": "Bronze Griffon"
+      "name": "Bronze Griffon",
+      "activities": {
+        "summon": {
+          "target": "unoccupied space"
+        }
+      }
     },
     "Ring of Regeneration": {
       "description": "<p><em>Ring, Very Rare（需同調）</em></p><p>While wearing this ring, you regain 1d6 Hit Points every 10 minutes if you have at least 1 Hit Point. If you lose a body part, the ring causes the missing part to regrow and return to full functionality after [[/r 1d6 + 1]] days if you have at least 1 Hit Point the whole time.</p><section class=\"secret\" id=\"secret-N3RMelHP7jT5vBMy\"><p><strong>Foundry Note</strong></p><p>The <strong>Heal</strong> activity allows you to enter the number of 10 minute increments that have passed and will automatically scale the healing formula. For example, if it's been an hour, you can enter 6 and it will roll 6d6.</p></section>",
@@ -6988,16 +7175,20 @@
     "Elemental Gem": {
       "activities": {
         "Red Corundum": {
-          "name": "Red Corundum"
+          "name": "Red Corundum",
+          "target": "unoccupied space as close to the broken gem as possible"
         },
         "Yellow Diamond": {
-          "name": "Yellow Diamond"
+          "name": "Yellow Diamond",
+          "target": "unoccupied space as close to the broken gem as possible"
         },
         "Emerald": {
-          "name": "Emerald"
+          "name": "Emerald",
+          "target": "unoccupied space as close to the broken gem as possible"
         },
         "Blue Sapphire": {
-          "name": "Blue Sapphire"
+          "name": "Blue Sapphire",
+          "target": "unoccupied space as close to the broken gem as possible"
         }
       },
       "name": "Elemental Gem",
@@ -7031,7 +7222,12 @@
     },
     "Brazier of Commanding Fire Elementals": {
       "name": "命令火元素火盆",
-      "description": "<div><p><em>奇物，珍稀</em></p></div><p>While you are within 5 feet of this brazier, you can take a Magic action to summon a <strong>@UUID[Compendium.dnd-dungeon-masters-guide.actors.Actor.8SMQl75HLjhuSeau]{Fire Elemental}</strong>. The elemental appears in an unoccupied space as close to the brazier as possible, understands your languages, obeys your commands, and takes its turn immediately after you on your Initiative count. The elemental disappears after 1 hour, when it dies, or when you dismiss it as a Bonus Action. The brazier can’t be used this way again until the next dawn.</p>"
+      "description": "<div><p><em>奇物，珍稀</em></p></div><p>While you are within 5 feet of this brazier, you can take a Magic action to summon a <strong>@UUID[Compendium.dnd-dungeon-masters-guide.actors.Actor.8SMQl75HLjhuSeau]{Fire Elemental}</strong>. The elemental appears in an unoccupied space as close to the brazier as possible, understands your languages, obeys your commands, and takes its turn immediately after you on your Initiative count. The elemental disappears after 1 hour, when it dies, or when you dismiss it as a Bonus Action. The brazier can’t be used this way again until the next dawn.</p>",
+      "activities": {
+        "summon": {
+          "target": "unoccupied space as close to the brazier as possible"
+        }
+      }
     },
     "Orb of Time": {
       "name": "Orb of Time",
@@ -7167,10 +7363,12 @@
     "Golden Lions": {
       "activities": {
         "Use First Lion": {
-          "name": "Use First Lion"
+          "name": "Use First Lion",
+          "target": "unoccupied space"
         },
         "Use Second Lion": {
-          "name": "Use Second Lion"
+          "name": "Use Second Lion",
+          "target": "unoccupied space"
         }
       },
       "description": "<p><em>See @UUID[Compendium.dnd-dungeon-masters-guide.equipment.Item.dmgFigurineOfWon]{Figurine of Wondrous Power}</em></p><p>These gold statuettes of lions are always created in pairs. You can use one figurine or both simultaneously. Each can become a <strong>@UUID[Compendium.dnd-players-handbook.actors.Actor.phbmobLion000000]{Lion}</strong> for up to 1 hour. Once a lion has been used, it can’t be used again until 7 days have passed.</p><section class=\"secret\" id=\"secret-e1wLN4czlgS5CpcW\"><p><strong>Foundry Note</strong></p><p>Each <strong>Use Lion</strong> activity has limited uses which represent the 7 days required before that particular paired figurine can be used again.</p></section>",
@@ -7312,6 +7510,16 @@
     "Art Object (2,500 GP)": {
       "name": "Art Object (2,500 GP)",
       "description": "<p>Idols cast of solid gold, necklaces studded with precious stones, paintings of ancient kings, bejeweled dishes—art objects include all these and more.</p>"
+    },
+    "Ioun Stone of Regeneration": {
+      "activities": {
+        "Regeneration": {
+          "condition": "once per hour if you have at least 1 Hit Point",
+          "name": "Regeneration"
+        }
+      },
+      "description": "<p><em>See: @UUID[Compendium.dnd-dungeon-masters-guide.equipment.Item.dmgIounStone0000]{Ioun Stone}</em></p><p>When you take a Magic action to toss an <em>Ioun Stone</em> into the air, the stone orbits your head at a distance of 1d3 feet, conferring its benefit to you while doing so. You can have up to three <em>Ioun Stones</em> orbiting your head at the same time.</p><p>As a Utilize action, you can seize and stow any number of <em>Ioun Stones</em> orbiting your head. If your Attunement to an <em>Ioun Stone</em> ends while it’s orbiting your head, the stone falls as though you had dropped it.</p><p>You regain [[/healing 15 type=healing]]{15 Hit Points} at the end of each hour this pearly white spindle orbits your head if you have at least 1 Hit Point.</p>",
+      "name": "Ioun Stone of Regeneration"
     }
   },
   "folders": {
