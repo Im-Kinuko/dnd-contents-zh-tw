@@ -36,7 +36,7 @@
         },
         "Damage Resistance": {
           "hint": "You have Resistance to the damage type determined by your Draconic Ancestry trait.",
-          "title": "Damage Resistance"
+          "title": "傷害抗性"
         },
         "Breath Weapon": {
           "title": "噴吐武器"
@@ -656,6 +656,24 @@
     "Brave": {
       "description": "<p>你在避免或結束&amp;Reference[Frightened]狀態時所進行的豁免檢定具有優勢。</p>",
       "name": "勇氣"
+    }
+  },
+  "mapping": {
+    "advancement": {
+      "path": "system.advancement",
+      "converter": "advancement"
+    },
+    "effects": {
+      "path": "effects",
+      "converter": "effects"
+    },
+    "rangeActivities": {
+      "path": "system.activities",
+      "converter": "rangeActivities"
+    },
+    "activities": {
+      "path": "system.activities",
+      "converter": "activities"
     }
   }
 }

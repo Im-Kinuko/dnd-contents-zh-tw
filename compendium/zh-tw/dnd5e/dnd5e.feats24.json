@@ -137,5 +137,19 @@
       "description": "<p>你獲得總共3種的自選技能或工具的熟練。</p><p><strong>【可複選】</strong>你可以重複選擇此專長。</p><section class=\"secret\" id=\"secret-36vceWBnGWiMkySr\"><p><strong>Foundry Note</strong></p><p>This feature does not automatically grant the proficiencies. You can toggle the \"Edit\" mode in the <strong>\"</strong>Details\" tab of your sheet and click on the circles next to the Skills to choose your proficiencies.</p></section>",
       "name": "技巧嫻熟"
     }
+  },
+  "mapping": {
+    "effects": {
+      "path": "effects",
+      "converter": "effects"
+    },
+    "rangeActivities": {
+      "path": "system.activities",
+      "converter": "rangeActivities"
+    },
+    "activities": {
+      "path": "system.activities",
+      "converter": "activities"
+    }
   }
 }

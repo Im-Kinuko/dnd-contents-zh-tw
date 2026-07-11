@@ -524,5 +524,23 @@
       },
       "description": "<p>A <em>Mechanical Wonder </em>is a semi-autonomous object imbued with magical power. <em>Mechanical Wonders</em> vary greatly in size and form depending on their function.</p><p>A <em>Mechanical Wonder </em>is a dormant object until activated. To activate a <em>Mechanical Wonder</em>, you must wind the wonder with a handheld key unique to that wonder. It takes 1 minute to wind a <em>Mechanical Wonder</em>. While you wind it, you must take the Utilize action each turn.</p><p>Once wound, a <em>Mechanical Wonder </em>remains activated for the duration specified in the wonder’s description below.</p><p>This bipedal wonder is designed to assist with household duties. It vaguely resembles whatever species its creator used as inspiration. An activated domestic wonder<em> </em>uses the <strong>@UUID[Compendium.dnd-adventures-faerun.actors.Actor.aifDomesticWonde]{Domestic Wonder} </strong>stat block. The wonder is an ally to you and your allies. In combat, the wonder shares your Initiative count, but it takes its turn immediately after yours. It obeys your verbal commands (no action required by you). If you don’t issue any, it takes the Dodge action and uses its movement to avoid danger. The domestic wonder<em> </em>is destroyed if it drops to 0 Hit Points.</p>"
     }
+  },
+  "mapping": {
+    "range": {
+      "path": "system.range",
+      "converter": "range"
+    },
+    "rangeActivities": {
+      "path": "system.activities",
+      "converter": "rangeActivities"
+    },
+    "effects": {
+      "path": "effects",
+      "converter": "effects"
+    },
+    "activities": {
+      "path": "system.activities",
+      "converter": "activities"
+    }
   }
 }

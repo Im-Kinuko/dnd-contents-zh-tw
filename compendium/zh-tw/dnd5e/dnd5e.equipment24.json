@@ -6340,5 +6340,31 @@
     "Leather Armor": {
       "name": "皮甲"
     }
+  },
+  "mapping": {
+    "weight": {
+      "path": "system.weight",
+      "converter": "weight"
+    },
+    "sources": {
+      "path": "system.source",
+      "converter": "source"
+    },
+    "range": {
+      "path": "system.range",
+      "converter": "range"
+    },
+    "rangeActivities": {
+      "path": "system.activities",
+      "converter": "rangeActivities"
+    },
+    "effects": {
+      "path": "effects",
+      "converter": "effects"
+    },
+    "activities": {
+      "path": "system.activities",
+      "converter": "activities"
+    }
   }
 }

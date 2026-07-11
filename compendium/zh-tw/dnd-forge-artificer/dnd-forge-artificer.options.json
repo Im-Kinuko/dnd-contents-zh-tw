@@ -119,20 +119,20 @@
     "House Jorasco Heir": {
       "advancement": {
         "Background Ability Score Improvement": {
-          "title": "Background Ability Score Improvement",
+          "title": "背景屬性值提升",
           "hint": "Your background allows you to increase your Dexterity, Constitution, and Wisdom scores; increase one of them by 2 and a different one by 1, or increase all three by 1. None of these increases can raise a score above 20."
         },
         "Choose Languages": {
           "hint": "Your character knows at least three languages: Common plus two languages you roll or choose from the Standard Languages table.",
-          "title": "Choose Languages"
+          "title": "選擇語言"
         },
         "Background Feat": {
-          "title": "Background Feat",
+          "title": "背景專長",
           "hint": "Your background grants you the Mark of Healing feat."
         },
         "Background Proficiencies": {
           "hint": "Your background grants you proficiency in Medicine and Stealth. It also grants you proficiency with an Herbalism Kit.",
-          "title": "Background Proficiencies"
+          "title": "背景熟練"
         }
       },
       "description": "<p><strong>Ability Scores:</strong> Dexterity, Constitution, Wisdom</p><p><strong>Feat:</strong> @UUID[Compendium.dnd-forge-artificer.options.Item.efaMarkHealing00]{Mark of Healing} (see @UUID[Compendium.dnd-forge-artificer.book.JournalEntry.efaFeats00000000]{Dragonmark Feats})</p><p><strong>Skill Proficiencies:</strong> Medicine and Stealth</p><p><strong>Tool Proficiency:</strong> Herbalism Kit</p><p><strong>Equipment:</strong> <em>Choose A or B:</em> (A) @UUID[Compendium.dnd5e.equipment24.Item.phbtulHerbalismK]{Herbalism Kit}, @UUID[Compendium.dnd5e.equipment24.Item.pjxpIVbJEfOvM240]{Fine Clothes}, @UUID[Compendium.dnd5e.equipment24.Item.phbagHealersKit0]{Healer’s Kit}, [[/award 25GP]]; or (B) [[/award 50GP]]</p><p>House Jorasco teaches that illness and injury stalk the living like ghosts, robbing people of health and longevity. You’ve been taught ways to combat these scourges, both magically and medically. You’re trained to use those skills in the service of others—and to ascertain that you are always appropriately compensated for this service, ensuring the health and longevity of House Jorasco. You might be a kindly healer with no stomach for combat or a dispassionate specialist who knows exactly how to incapacitate or kill an enemy with precise strikes.</p>",
@@ -165,20 +165,20 @@
     "House Sivis Heir": {
       "advancement": {
         "Background Proficiencies": {
-          "title": "Background Proficiencies",
+          "title": "背景熟練",
           "hint": "Your background grants you proficiency in History and Perception. It also grants you proficiency in Calligrapher's Supplies."
         },
         "Choose Languages": {
           "hint": "Your character knows at least three languages: Common plus two languages you roll or choose from the Standard Languages table.",
-          "title": "Choose Languages"
+          "title": "選擇語言"
         },
         "Background Feat": {
           "hint": "Your background grants you the Mark of Scribing feat.",
-          "title": "Background Feat"
+          "title": "背景專長"
         },
         "Background Ability Score Improvement": {
           "hint": "Your background allows you to increase your Intelligence, Wisdom, and Charisma scores; increase one of them by 2 and a different one by 1, or increase all three by 1. None of these increases can raise a score above 20.",
-          "title": "Background Ability Score Improvement"
+          "title": "背景屬性值提升"
         }
       },
       "description": "<p><strong>Ability Scores:</strong> Intelligence, Wisdom, Charisma</p><p><strong>Feat:</strong> @UUID[Compendium.dnd-forge-artificer.options.Item.efaMarkScribing0]{Mark of Scribing} (see @UUID[Compendium.dnd-forge-artificer.book.JournalEntry.efaFeats00000000]{Dragonmark Feats})</p><p><strong>Skill Proficiencies:</strong> History and Perception</p><p><strong>Tool Proficiency:</strong> Calligrapher’s Supplies</p><p><strong>Equipment:</strong> <em>Choose A or B:</em> (A) @UUID[Compendium.dnd5e.equipment24.Item.phbtulCalligraph]{Calligrapher’s Supplies}, @UUID[Compendium.dnd5e.equipment24.Item.phbagClothesFine]{Fine Clothes}, @UUID[Compendium.dnd5e.equipment24.Item.phbagInk00000000]{Ink}, 5 @UUID[Compendium.dnd5e.equipment24.Item.phbagInkPen00000]{Ink Pens}, @UUID[Compendium.dnd5e.equipment24.Item.phbagPaper000000]{Paper} (30 sheets), @UUID[Compendium.dnd5e.equipment24.Item.phbagParchment00]{Parchment} (9 sheets), [[/award 8GP]]; or (B) [[/award 50GP]]</p><p>For nearly thirty centuries, your family has worked to maintain order. Communication is the cord that binds civilization together, and your ancestors settled the disputes of sovereigns and helped the dragonmarked houses find a place in the world. Few people realize the influence House Sivis has had on the shape of the modern age—just as few know how often a royal adviser holds more power than the actual ruler. While the other dragonmarked houses fight for fame and recognition, House Sivis plays a long game of subtle influence behind the scenes, keeping order amid the chaos of unending intrigue.</p>",
@@ -362,7 +362,7 @@
       "description": "<p>You gain the following benefits.</p><p><em><strong>Tool Proficiency.</strong></em> You gain proficiency with Alchemist’s Supplies and the Herbalism Kit. If you already have one of these proficiencies, you gain proficiency with one other type of Artisan’s Tools of your choice (or with two other types if you have both).</p><p><em><strong>Potion Crafting.</strong></em> When you brew a potion using the crafting rules in the <em>Dungeon Master’s Guide</em>, the amount of time required to craft it is halved.</p>",
       "advancement": {
         "Tool Proficiency": {
-          "title": "Tool Proficiency"
+          "title": "工具熟練"
         }
       }
     },
@@ -387,7 +387,7 @@
           "title": "Cartographer Spells"
         },
         "Subclass Features": {
-          "title": "Subclass Features"
+          "title": "子職業特性"
         },
         "Cartographer Spells": {
           "hint": "Faerie Fire is granted as a separate advancement configured with Mapping Magic's limited free uses.",
@@ -409,19 +409,19 @@
     "House Kundarak Heir": {
       "advancement": {
         "Background Ability Score Improvement": {
-          "title": "Background Ability Score Improvement",
+          "title": "背景屬性值提升",
           "hint": "Your background allows you to increase your Strength, Constitution, and Intelligence scores; increase one of them by 2 and a different one by 1, or increase all three by 1. None of these increases can raise a score above 20."
         },
         "Background Feat": {
-          "title": "Background Feat",
+          "title": "背景專長",
           "hint": "Your background grants you the Mark of Warding feat."
         },
         "Choose Languages": {
-          "title": "Choose Languages",
+          "title": "選擇語言",
           "hint": "Your character knows at least three languages: Common plus two languages you roll or choose from the Standard Languages table."
         },
         "Background Proficiencies": {
-          "title": "Background Proficiencies",
+          "title": "背景熟練",
           "hint": "Your background grants you proficiency in Arcana and Investigation. It also grants you proficiency with Thieves' Tools."
         }
       },
@@ -432,19 +432,19 @@
       "advancement": {
         "Background Feat": {
           "hint": "Your background grants you the Aberrant Dragonmark feat.",
-          "title": "Background Feat"
+          "title": "背景專長"
         },
         "Background Proficiencies": {
-          "title": "Background Proficiencies",
+          "title": "背景熟練",
           "hint": "Your background grants you proficiency in History and Intimidation. It also grants you proficiency in Disguise Kit."
         },
         "Background Ability Score Improvement": {
-          "title": "Background Ability Score Improvement",
+          "title": "背景屬性值提升",
           "hint": "Your background allows you to increase your Strength, Constitution, and Charisma scores; increase one of them by 2 and a different one by 1, or increase all three by 1. None of these increases can raise a score above 20."
         },
         "Choose Languages": {
           "hint": "Your character knows at least three languages: Common plus two languages you roll or choose from the Standard Languages table.",
-          "title": "Choose Languages"
+          "title": "選擇語言"
         }
       },
       "description": "<p><strong>Ability Scores:</strong> Strength, Constitution, Charisma</p><p><strong>Feat:</strong> @UUID[Compendium.dnd-forge-artificer.options.Item.efaAberrantDrago]{Aberrant Dragonmark} (see @UUID[Compendium.dnd-forge-artificer.book.JournalEntry.efaFeats00000000]{Dragonmark Feats})</p><p><strong>Skill Proficiencies:</strong> History and Intimidation</p><p><strong>Tool Proficiency:</strong> @UUID[Compendium.dnd5e.equipment24.Item.phbtulDisguiseKi]{Disguise Kit}</p><p><strong>Equipment:</strong> <em>Choose A or B:</em> (A) @UUID[Compendium.dnd5e.equipment24.Item.phbwepDagger0000]{Dagger}, @UUID[Compendium.dnd5e.equipment24.Item.phbtulDisguiseKi]{Disguise Kit}, @UUID[Compendium.dnd5e.equipment24.Item.phbagCostume0000]{Costume}, @UUID[Compendium.dnd5e.equipment24.Item.phbagClothesTrav]{Traveler’s Clothes}, [[/award 16GP]]; or (B) [[/award 50gp]]</p><p>Your aberrant dragonmark has made life challenging since it manifested. You might have hidden it successfully for most of your life or managed to avoid notice. Alternatively, you might have encountered suspicion and fear, perhaps coupled with the outright antagonism of one or more dragonmarked houses. You might have formed an association with the House Tarkanan criminal organization (named for one of the most notorious leaders of the aberrant dragonmarked in the War of the Mark twenty­ five centuries ago). Or you might struggle to find your own way in the world, relying on your wits and the power of your mark.</p>",
@@ -542,20 +542,20 @@
     "House Agent": {
       "advancement": {
         "Background Feat": {
-          "title": "Background Feat",
+          "title": "背景專長",
           "hint": "Your background grants you the Lucky feat."
         },
         "Background Proficiencies": {
           "hint": "Your background grants you proficiency in Investigation and Persuasion. It also grants you proficiency in a set of Artisan's Tools.",
-          "title": "Background Proficiencies"
+          "title": "背景熟練"
         },
         "Choose Languages": {
-          "title": "Choose Languages",
+          "title": "選擇語言",
           "hint": "Your character knows at least three languages: Common plus two languages you roll or choose from the Standard Languages table."
         },
         "Background Ability Score Improvement": {
           "hint": "Your background allows you to increase your Strength, Intelligence, and Charisma scores; increase one of them by 2 and a different one by 1, or increase all three by 1. None of these increases can raise a score above 20.",
-          "title": "Background Ability Score Improvement"
+          "title": "背景屬性值提升"
         }
       },
       "name": "House Agent",
@@ -623,20 +623,20 @@
     "House Medani Heir": {
       "advancement": {
         "Background Ability Score Improvement": {
-          "title": "Background Ability Score Improvement",
+          "title": "背景屬性值提升",
           "hint": "Your background allows you to increase your Dexterity, Intelligence, and Wisdom scores; increase one of them by 2 and a different one by 1, or increase all three by 1. None of these increases can raise a score above 20."
         },
         "Background Feat": {
-          "title": "Background Feat",
+          "title": "背景專長",
           "hint": "Your background grants you the Mark of Detection feat."
         },
         "Background Proficiencies": {
-          "title": "Background Proficiencies",
+          "title": "背景熟練",
           "hint": "Your background grants you proficiency in Insight and Investigation. It also grants you proficiency with a Disguise Kit."
         },
         "Choose Languages": {
           "hint": "Your character knows at least three languages: Common plus two languages you roll or choose from the Standard Languages table.",
-          "title": "Choose Languages"
+          "title": "選擇語言"
         }
       },
       "description": "<p><strong>Ability Scores:</strong> Dexterity, Intelligence, Wisdom</p><p><strong>Feat:</strong> @UUID[Compendium.dnd-forge-artificer.options.Item.efaMarkDetection]{Mark of Detection} (see @UUID[Compendium.dnd-forge-artificer.book.JournalEntry.efaFeats00000000]{Dragonmark Feats})</p><p><strong>Skill Proficiencies:</strong> Insight and Investigation</p><p><strong>Tool Proficiency:</strong> Disguise Kit</p><p><strong>Equipment:</strong> <em>Choose A or B:</em> (A) @UUID[Compendium.dnd5e.equipment24.Item.phbtulDisguiseKi]{Disguise Kit}, @UUID[Compendium.dnd5e.equipment24.Item.phbagClothesFine]{Fine Clothes}, [[/award 10GP]]; or (B) [[/award 50GP]]</p><p>As a member of House Medani, your life revolves around subterfuge—not engaging in it, but preventing others from doing so. You see the world around you as an intricate web of schemes, plots, and counterplots. Assessing the range of possibilities, you use instinct to predict threats to your clients and defend against them well before those threats can turn into danger. Defending against an assassin’s blade is a job any Deneith sellsword or Tharashk enforcer can do—making sure no one ever draws that blade is the Medani way.</p>",
@@ -697,7 +697,7 @@
       "advancement": {
         "Tool Proficiency": {
           "hint": "You gain proficiency with Smith’s Tools. If you already have this proficiency, you gain proficiency with one other type of Artisan’s Tools of your choice.",
-          "title": "Tool Proficiency"
+          "title": "工具熟練"
         }
       },
       "name": "Tools of the Trade"
@@ -750,19 +750,19 @@
       "advancement": {
         "Background Proficiencies": {
           "hint": "Your background grants you proficiency in Investigation and Sleight of Hand. It also grants you proficiency in a set of Artisan's Tools.",
-          "title": "Background Proficiencies"
+          "title": "背景熟練"
         },
         "Choose Languages": {
-          "title": "Choose Languages",
+          "title": "選擇語言",
           "hint": "Your character knows at least three languages: Common plus two languages you roll or choose from the Standard Languages table."
         },
         "Background Feat": {
           "hint": "Your background grants you the Mark of Making feat.",
-          "title": "Background Feat"
+          "title": "背景專長"
         },
         "Background Ability Score Improvement": {
           "hint": "Your background allows you to increase your Strength, Dexterity, and Intelligence scores; increase one of them by 2 and a different one by 1, or increase all three by 1. None of these increases can raise a score above 20.",
-          "title": "Background Ability Score Improvement"
+          "title": "背景屬性值提升"
         }
       },
       "description": "<p><strong>Ability Scores:</strong> Strength, Dexterity, Intelligence</p><p><strong>Feat:</strong> @UUID[Compendium.dnd-forge-artificer.options.Item.efaMarkMaking000]{Mark of Making} (see @UUID[Compendium.dnd-forge-artificer.book.JournalEntry.efaFeats00000000]{Dragonmark Feats})</p><p><strong>Skill Proficiencies:</strong> Investigation and Sleight of Hand</p><p><strong>Tool Proficiency:</strong> <em>Choose one kind of Artisan’s Tools</em></p><p><strong>Equipment:</strong> <em>Choose A or B:</em> (A) Artisan’s Tools (same as above), @UUID[Compendium.dnd5e.equipment24.Item.phbagCrowbar0000]{Crowbar}, @UUID[Compendium.dnd5e.equipment24.Item.phbagClothesFine]{Fine Clothes}, 2 @UUID[Compendium.dnd5e.equipment24.Item.phbagPouch000000]{Pouches}, [[/award 17GP]]; or (B) [[/award 50GP]]</p><p>As a scion of House Cannith, you carry a proud legacy. Cannith creates wonders of the modern world, and you’re expected to contribute to the ongoing success of the house through invention, scholarship, business, or diplomacy. The only thing that can stand in your way is the deep rift within your own house. The sooner the three barons sort out which of them is the true head of the house (and you, no doubt, have your preference), the sooner House Cannith can claim its rightful position of leadership among all the dragonmarked houses.</p>",
@@ -953,19 +953,19 @@
       "advancement": {
         "Background Proficiencies": {
           "hint": "Your background grants you proficiency in Insight and Persuasion. It also grants you proficiency in Cook's Utensils.",
-          "title": "Background Proficiencies"
+          "title": "背景熟練"
         },
         "Background Ability Score Improvement": {
-          "title": "Background Ability Score Improvement",
+          "title": "背景屬性值提升",
           "hint": "Your background allows you to increase your Dexterity, Wisdom, and Charisma scores; increase one of them by 2 and a different one by 1, or increase all three by 1. None of these increases can raise a score above 20."
         },
         "Background Feat": {
-          "title": "Background Feat",
+          "title": "背景專長",
           "hint": "Your background grants you the Mark of Hospitality feat."
         },
         "Choose Languages": {
           "hint": "Your character knows at least three languages: Common plus two languages you roll or choose from the Standard Languages table.",
-          "title": "Choose Languages"
+          "title": "選擇語言"
         }
       },
       "description": "<p><strong>Ability Scores:</strong> Dexterity, Wisdom, Charisma</p><p><strong>Feat:</strong> @UUID[Compendium.dnd-forge-artificer.options.Item.efaMarkHospitali]{Mark of Hospitality} (see @UUID[Compendium.dnd-forge-artificer.book.JournalEntry.efaFeats00000000]{Dragonmark Feats})</p><p><strong>Skill Proficiencies:</strong> Insight and Persuasion</p><p><strong>Tool Proficiency:</strong> Cook’s Utensils</p><p><strong>Equipment:</strong> <em>Choose A or B:</em> (A) @UUID[Compendium.dnd5e.equipment24.Item.phbtulCooksUtens]{Cook’s Utensils}, @UUID[Compendium.dnd5e.equipment24.Item.phbagClothesFine]{Fine Clothes}, @UUID[Compendium.dnd5e.equipment24.Item.phbagPotIron0000]{Iron Pot}, @UUID[Compendium.dnd5e.equipment24.Item.phbagLamp0000000]{Lamp}, @UUID[Compendium.dnd5e.equipment24.Item.phbagOil00000000]{Oil} (5 flasks), @UUID[Compendium.dnd5e.equipment24.Item.phbagPerfume0000]{Perfume}, [[/award 26GP]]; or (B) [[/award 50GP]]</p><p>Thanks to your connections to House Ghallanda, you grew up accustomed to creature comforts, lively conversation, good drink, and delicious food. You might be a charming and witty scion of the house who loves nothing more than a pleasant evening beside a warm hearth. Or you could be a schemer who exploits bonds of trust and friendship to bend others to your will. You might pursue an adventuring career to master the cuisines of other cultures and ages, expand your network of useful contacts, or earn enough money to open your own inn.</p>",
@@ -1093,19 +1093,19 @@
     "House Deneith Heir": {
       "advancement": {
         "Background Ability Score Improvement": {
-          "title": "Background Ability Score Improvement",
+          "title": "背景屬性值提升",
           "hint": "Your background allows you to increase your Strength, Constitution, and Wisdom scores; increase one of them by 2 and a different one by 1, or increase all three by 1. None of these increases can raise a score above 20."
         },
         "Background Feat": {
-          "title": "Background Feat",
+          "title": "背景專長",
           "hint": "Your background grants you the Mark of Sentinel feat."
         },
         "Background Proficiencies": {
-          "title": "Background Proficiencies",
+          "title": "背景熟練",
           "hint": "Your background grants you proficiency in Insight and Perception. It also grants you proficiency in a Gaming Set."
         },
         "Choose Languages": {
-          "title": "Choose Languages",
+          "title": "選擇語言",
           "hint": "Your character knows at least three languages: Common plus two languages you roll or choose from the Standard Languages table."
         }
       },
@@ -1410,7 +1410,7 @@
           "title": "Experimental Elixirs"
         },
         "Subclass Features": {
-          "title": "Subclass Features"
+          "title": "子職業特性"
         }
       },
       "description": "<p><em>Craft Magic Elixirs and Potions</em></p><p>An Alchemist is an expert at combining reagents to produce magical effects. Alchemists use their creations to give life and to leech it away.</p>"
@@ -1419,18 +1419,18 @@
       "advancement": {
         "Background Proficiencies": {
           "hint": "Your background grants you proficiency in Insight and Investigation. It also grants you proficiency with Thieves' Tools.",
-          "title": "Background Proficiencies"
+          "title": "背景熟練"
         },
         "Background Feat": {
-          "title": "Background Feat",
+          "title": "背景專長",
           "hint": "Your background grants you the Alert feat."
         },
         "Background Ability Score Improvement": {
-          "title": "Background Ability Score Improvement",
+          "title": "背景屬性值提升",
           "hint": "Your background allows you to increase your Constitution, Intelligence, and Charisma scores; increase one of them by 2 and a different one by 1, or increase all three by 1. None of these increases can raise a score above 20."
         },
         "Choose Languages": {
-          "title": "Choose Languages",
+          "title": "選擇語言",
           "hint": "Your character knows at least three languages: Common plus two languages you roll or choose from the Standard Languages table."
         }
       },
@@ -1602,7 +1602,7 @@
           "title": "Ranged Weaponry"
         },
         "Tool Proficiency": {
-          "title": "Tool Proficiency",
+          "title": "工具熟練",
           "hint": "You gain proficiency with Woodcarver’s Tools. If you already have this proficiency, you gain proficiency with one other type of Artisan’s Tools of your choice."
         }
       }
@@ -1795,7 +1795,7 @@
     "Artillerist": {
       "advancement": {
         "Subclass Features": {
-          "title": "Subclass Features"
+          "title": "子職業特性"
         },
         "Subclass Feature": {
           "title": "Subclass Feature"
@@ -1807,20 +1807,20 @@
     "House Lyrandar Heir": {
       "advancement": {
         "Choose Languages": {
-          "title": "Choose Languages",
+          "title": "選擇語言",
           "hint": "Your character knows at least three languages: Common plus two languages you roll or choose from the Standard Languages table."
         },
         "Background Feat": {
           "hint": "Your background grants you the Mark of Storm feat.",
-          "title": "Background Feat"
+          "title": "背景專長"
         },
         "Background Proficiencies": {
-          "title": "Background Proficiencies",
+          "title": "背景熟練",
           "hint": "Your background grants you proficiency in Acrobatics and Nature. It also grants you proficiency with Navigator's Tools."
         },
         "Background Ability Score Improvement": {
           "hint": "Your background allows you to increase your Strength, Dexterity, and Charisma scores; increase one of them by 2 and a different one by 1, or increase all three by 1. None of these increases can raise a score above 20.",
-          "title": "Background Ability Score Improvement"
+          "title": "背景屬性值提升"
         }
       },
       "name": "House Lyrandar Heir",
@@ -1908,19 +1908,19 @@
     "House Tharashk Heir": {
       "advancement": {
         "Background Ability Score Improvement": {
-          "title": "Background Ability Score Improvement",
+          "title": "背景屬性值提升",
           "hint": "Your background allows you to increase your Constitution, Intelligence, and Wisdom scores; increase one of them by 2 and a different one by 1, or increase all three by 1. None of these increases can raise a score above 20."
         },
         "Background Feat": {
-          "title": "Background Feat",
+          "title": "背景專長",
           "hint": "Your background grants you the Mark of Finding feat."
         },
         "Choose Languages": {
-          "title": "Choose Languages",
+          "title": "選擇語言",
           "hint": "Your character knows at least three languages: Common plus two languages you roll or choose from the Standard Languages table."
         },
         "Background Proficiencies": {
-          "title": "Background Proficiencies",
+          "title": "背景熟練",
           "hint": "Your background grants you proficiency in Perception and Survival. It also grants you proficiency with a Gaming Set."
         }
       },
@@ -2006,7 +2006,7 @@
     "Armorer": {
       "advancement": {
         "Subclass Features": {
-          "title": "Subclass Features"
+          "title": "子職業特性"
         }
       },
       "description": "<p><em>Craft Magic Armor to Enhance Your Abilities</em></p><p>An Armorer modifies armor to function almost like a second skin. The armor is enhanced to hone the Armorer’s magic, unleash potent attacks, and generate a formidable defense.</p>",
@@ -2016,18 +2016,18 @@
       "advancement": {
         "Choose Languages": {
           "hint": "Your character knows at least three languages: Common plus two languages you roll or choose from the Standard Languages table.",
-          "title": "Choose Languages"
+          "title": "選擇語言"
         },
         "Background Proficiencies": {
-          "title": "Background Proficiencies",
+          "title": "背景熟練",
           "hint": "Your background grants you proficiency in Animal Handling and Nature. It also grants you proficiency with an Herbalism Kit."
         },
         "Background Feat": {
-          "title": "Background Feat",
+          "title": "背景專長",
           "hint": "Your background grants you the Mark of Handling feat."
         },
         "Background Ability Score Improvement": {
-          "title": "Background Ability Score Improvement",
+          "title": "背景屬性值提升",
           "hint": "Your background allows you to increase your Constitution, Wisdom, and Charisma scores; increase one of them by 2 and a different one by 1, or increase all three by 1. None of these increases can raise a score above 20."
         }
       },
@@ -2204,10 +2204,10 @@
       "advancement": {
         "Armor Training": {
           "hint": "You gain training with Heavy armor.",
-          "title": "Armor Training"
+          "title": "護甲訓練"
         },
         "Tool Proficiencies": {
-          "title": "Tool Proficiencies",
+          "title": "工具熟練",
           "hint": "You gain proficiency with Smith’s Tools. If you already have this tool proficiency, you gain proficiency with one other type of Artisan’s Tools of your choice."
         }
       },
@@ -2460,19 +2460,19 @@
     "House Phiarlan Heir": {
       "advancement": {
         "Background Ability Score Improvement": {
-          "title": "Background Ability Score Improvement",
+          "title": "背景屬性值提升",
           "hint": "Your background allows you to increase your Dexterity, Wisdom, and Charisma scores; increase one of them by 2 and a different one by 1, or increase all three by 1. None of these increases can raise a score above 20."
         },
         "Background Proficiencies": {
           "hint": "Your background grants you proficiency in Deception and Stealth. It also grants you proficiency with a Disguise Kit.",
-          "title": "Background Proficiencies"
+          "title": "背景熟練"
         },
         "Background Feat": {
-          "title": "Background Feat",
+          "title": "背景專長",
           "hint": "Your background grants you the Mark of Shadow feat."
         },
         "Choose Languages": {
-          "title": "Choose Languages",
+          "title": "選擇語言",
           "hint": "Your character knows at least three languages: Common plus two languages you roll or choose from the Standard Languages table."
         }
       },
@@ -2571,18 +2571,18 @@
       "advancement": {
         "Background Feat": {
           "hint": "Your background grants you the Mark of Passage feat.",
-          "title": "Background Feat"
+          "title": "背景專長"
         },
         "Background Ability Score Improvement": {
           "hint": "Your background allows you to increase your Dexterity, Constitution, and Intelligence scores; increase one of them by 2 and a different one by 1, or increase all three by 1. None of these increases can raise a score above 20.",
-          "title": "Background Ability Score Improvement"
+          "title": "背景屬性值提升"
         },
         "Background Proficiencies": {
-          "title": "Background Proficiencies",
+          "title": "背景熟練",
           "hint": "Your background grants you proficiency in Acrobatics and Athletics. It also grants you proficiency with Cartographer's Tools."
         },
         "Choose Languages": {
-          "title": "Choose Languages",
+          "title": "選擇語言",
           "hint": "Your character knows at least three languages: Common plus two languages you roll or choose from the Standard Languages table."
         }
       },
@@ -2686,28 +2686,28 @@
     "Artificer": {
       "advancement": {
         "Skill Proficiencies": {
-          "title": "Skill Proficiencies"
+          "title": "技能熟練"
         },
         "Tool Proficiencies": {
-          "title": "Tool Proficiencies"
+          "title": "工具熟練"
         },
         "Epic Boon": {
-          "title": "Epic Boon"
+          "title": "史詩恩惠"
         },
         "Plans Known": {
           "title": "Plans Known"
         },
         "Saving Throw Proficiencies": {
-          "title": "Saving Throw Proficiencies"
+          "title": "豁免檢定熟練"
         },
         "Weapon Proficiencies": {
-          "title": "Weapon Proficiencies"
+          "title": "武器熟練"
         },
         "Cantrips": {
           "title": "Cantrips"
         },
         "Class Features": {
-          "title": "Class Features"
+          "title": "職業特性"
         },
         "Magic Items": {
           "title": "Magic Items"
@@ -2806,19 +2806,19 @@
       "advancement": {
         "Background Proficiencies": {
           "hint": "Your background grants you proficiency in Performance and Stealth. It also grants you proficiency with a Musical Instrument.",
-          "title": "Background Proficiencies"
+          "title": "背景熟練"
         },
         "Background Ability Score Improvement": {
-          "title": "Background Ability Score Improvement",
+          "title": "背景屬性值提升",
           "hint": "Your background allows you to increase your Dexterity, Intelligence, and Charisma scores; increase one of them by 2 and a different one by 1, or increase all three by 1. None of these increases can raise a score above 20."
         },
         "Background Feat": {
           "hint": "Your background grants you the Mark of Shadow feat.",
-          "title": "Background Feat"
+          "title": "背景專長"
         },
         "Choose Languages": {
           "hint": "Your character knows at least three languages: Common plus two languages you roll or choose from the Standard Languages table.",
-          "title": "Choose Languages"
+          "title": "選擇語言"
         }
       },
       "name": "House Thuranni Heir",
@@ -3019,19 +3019,19 @@
       "advancement": {
         "Choose Languages": {
           "hint": "Your character knows at least three languages: Common plus two languages you roll or choose from the Standard Languages table.",
-          "title": "Choose Languages"
+          "title": "選擇語言"
         },
         "Background Feat": {
           "hint": "Your background grants you the Skilled feat.",
-          "title": "Background Feat"
+          "title": "背景專長"
         },
         "Background Proficiencies": {
-          "title": "Background Proficiencies",
+          "title": "背景熟練",
           "hint": "Your background grants you proficiency in History and Survival. It also grants you proficiency in Calligrapher's Tools."
         },
         "Background Ability Score Improvement": {
           "hint": "Your background allows you to increase your Dexterity, Intelligence, and Wisdom scores; increase one of them by 2 and a different one by 1, or increase all three by 1. None of these increases can raise a score above 20.",
-          "title": "Background Ability Score Improvement"
+          "title": "背景屬性值提升"
         }
       },
       "description": "<p><strong>Ability Scores:</strong> Dexterity, Intelligence, Wisdom</p><p><strong>Feat:</strong> @UUID[Compendium.dnd5e.feats24.Item.phbftSkilled0000]{Skilled}</p><p><strong>Skill Proficiencies:</strong> History and Survival</p><p><strong>Tool Proficiency:</strong> Cartographer’s Tools</p><p><strong>Equipment:</strong> <em>Choose A or B:</em> (A) @UUID[Compendium.dnd5e.equipment24.Item.phbtulCartograph]{Cartographer’s Tools}, @UUID[Compendium.dnd5e.equipment24.Item.phbagLanternBull]{Bullseye Lantern}, @UUID[Compendium.dnd5e.equipment24.Item.phbagMap00000000]{Map}, @UUID[Compendium.dnd5e.equipment24.Item.phbagCaseMaporSc]{Map or Scroll Case}, @UUID[Compendium.dnd5e.equipment24.Item.phbagShovel00000]{Shovel}, @UUID[Compendium.dnd5e.equipment24.Item.phbagTent0000000]{Tent}, @UUID[Compendium.dnd5e.equipment24.Item.phbagClothesTrav]{Traveler’s Clothes}, [[/award 17GP]]; or (B) [[/award 50GP]]</p><p>You’ve made a lifelong study of the lost and fallen cultures of the past, visiting their ruins, deciphering their written records, and examining their surviving masterworks. Perhaps you studied at Morgrave University or a similar institution, supplementing your time in the library with fieldwork amid ancient ruins in remote locations. Some archaeologists plunder the treasures of the past in search of wealth or fame, but most consider it their calling to learn from the past. In any case, the archaeologists of Eberron combine the qualities of learned historians with the grit of treasure hunters.</p>",

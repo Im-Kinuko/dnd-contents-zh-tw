@@ -1431,39 +1431,39 @@
       "name": "遊蕩者",
       "advancement": {
         "Class Features": {
-          "title": "Class Features"
+          "title": "職業特性"
         },
         "Expertise": {
-          "title": "Expertise",
+          "title": "專精",
           "hint": "You gain Expertise in two of your skill proficiencies of your choice. Sleight of Hand and Stealth are recommended if you have proficiency in them."
         },
         "Tool Proficiencies": {
-          "title": "Tool Proficiencies"
+          "title": "工具熟練"
         },
         "Saving Throw Proficiencies": {
-          "title": "Saving Throw Proficiencies"
+          "title": "豁免檢定熟練"
         },
         "Skill Proficiencies": {
-          "title": "Skill Proficiencies"
+          "title": "技能熟練"
         },
         "Armor Training": {
-          "title": "Armor Training"
+          "title": "護甲訓練"
         },
         "Thieves' Cant": {
           "hint": "You picked up various languages in the communities where you plied your roguish talents. You know Thieves’ Cant and one other language of your choice, which you can choose from the languages below.",
-          "title": "Thieves' Cant"
+          "title": "盜賊黑話"
         },
         "sqWH6tnUg7jiGaEj": {
-          "title": "Expertise"
+          "title": "專精"
         },
         "Weapon Mastery": {
-          "title": "Weapon Mastery"
+          "title": "武器精通"
         },
         "Weapon Proficiencies": {
-          "title": "Weapon Proficiencies"
+          "title": "武器熟練"
         },
         "Sneak Attack": {
-          "title": "Sneak Attack"
+          "title": "偷襲"
         },
         "FiaNLovfP6tnY4tD": {
           "hint": "Your cunning mind is exceptionally difficult to control. You gain proficiency in Wisdom and Charisma saving throws."
@@ -2311,7 +2311,7 @@
       "description": "<p>你始終準備@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplHuntersMar]{獵人印記}法術。你可以不消耗法術位施放此法術兩次，並在你完成一次長休後恢復所有此能力的使用次數。</p><p>你可以不消耗法術位施放此法術的次數會在你達到特定的遊俠等級時增加，具體詳見遊俠特性表中的宿敵一欄。</p><section id=\"secret-cyuZuzwxsQg01vVN\" class=\"secret\"><p><strong>Foundry Note</strong></p><p>The spell is granted to you at this level and will increase the number of free uses available automatically as you level up.</p></section>",
       "advancement": {
         "Favored Enemy": {
-          "title": "Favored Enemy"
+          "title": "宿敵"
         }
       }
     },
@@ -2993,7 +2993,7 @@
       "advancement": {
         "Primal Champion": {
           "hint": "You embody primal power. Your Strength and Constitution scores increase by 4, to a maximum of 25.",
-          "title": "Primal Champion"
+          "title": "原初勇士"
         }
       },
       "name": "Primal Champion"
@@ -3154,6 +3154,32 @@
     "Draconic Spells": {
       "name": "龍族法術",
       "description": "<p>當你達到龍族法術表中所述的相應術士等級時，你視為始終準備法術表上的法術。</p><table><caption>龍族法術</caption><thead><tr><td>術士等級</td><td>法術</td></tr></thead><tbody><tr><td>3</td><td><em>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplAlterSelf0]、@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplChromaticO]、@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplCommand000]{命令術}、@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplDragonsBre]</em></td></tr><tr><td>5</td><td><em>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplFear000000]、@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplFly0000000]</em></td></tr><tr><td>7</td><td><em>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplArcaneEye0]、@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplCharmMonst]</em></td></tr><tr><td>9</td><td><em>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplLegendLore]、@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplSummonDrag]</em></td></tr></tbody></table><section class=\"secret\" id=\"secret-kL8H0ClyrUNajoht\"><p><strong>Foundry Note</strong></p><p>法術會隨著你升級時自動獲得。</p></section>"
+    }
+  },
+  "mapping": {
+    "advancement": {
+      "path": "system.advancement",
+      "converter": "advancement"
+    },
+    "distanceAdvancement": {
+      "path": "system.advancement",
+      "converter": "distanceAdvancement"
+    },
+    "effects": {
+      "path": "effects",
+      "converter": "effects"
+    },
+    "rangeActivities": {
+      "path": "system.activities",
+      "converter": "rangeActivities"
+    },
+    "activities": {
+      "path": "system.activities",
+      "converter": "activities"
+    },
+    "range": {
+      "path": "system.range",
+      "converter": "range"
     }
   }
 }

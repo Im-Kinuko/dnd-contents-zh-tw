@@ -61,7 +61,7 @@
       "description": "<blockquote><p>Unearth Secrets and Master the Mind</p></blockquote><p>The Knowledge Domain values learning and understanding above all. Clerics who tap into this domain study esoteric lore, collect old tomes, delve into secret places, and examine the processes of the mind. To them, knowledge is more valuable than material wealth, and learning is an act of worship. Libraries, universities, and other educational institutions also draw on the power of the Knowledge Domain.</p><p>Gods of knowledge vary from masters of arcane magic to patrons of craft and invention. In Faerûn, Clerics of the Knowledge Domain worship deities of learning and ingenuity such as Oghma and Gond, among many others.</p>",
       "advancement": {
         "Subclass Features": {
-          "title": "Subclass Features"
+          "title": "子職業特性"
         }
       },
       "name": "Knowledge Domain"
@@ -192,7 +192,7 @@
       "description": "<blockquote><p>Withstand the Horrors of Frigid Wastelands</p></blockquote><p>Winter Walkers hone their craft in the bleak and frozen wilds of places like Icewind Dale. These ruthless, rimed Rangers hunt monsters that haunt arctic wastelands, eventually becoming frigid terrors themselves. Winter Walkers are well versed in the phenomena of Icewind Dale, including the latent magic of fallen Netherese cities, endemic monsters like yetis and crag cats, and the rising threat of Underdark invaders. Due to their cold pragmatism, terrifying magic, and mastery of the region, Winter Walkers are regarded with equal parts respect and fear. Ten-Towns citizens say that Winter Walkers’ frequent exposure to malignant entities gives them their fearsome powers. Many Reghed nomads, on the other hand, believe that nature spirits bestow on Winter Walkers a unique curse.</p>",
       "advancement": {
         "Subclass Features": {
-          "title": "Subclass Features"
+          "title": "子職業特性"
         }
       },
       "name": "Winter Walker"
@@ -372,7 +372,7 @@
       "name": "College of the Moon",
       "advancement": {
         "Subclass Features": {
-          "title": "Subclass Features"
+          "title": "子職業特性"
         }
       }
     },
@@ -689,7 +689,7 @@
     "Oath of the Noble Genies": {
       "advancement": {
         "Subclass Features": {
-          "title": "Subclass Features"
+          "title": "子職業特性"
         }
       },
       "name": "Oath of the Noble Genies",
@@ -1138,7 +1138,7 @@
       "name": "Spellfire Sorcery",
       "advancement": {
         "Subclass Features": {
-          "title": "Subclass Features"
+          "title": "子職業特性"
         }
       }
     },
@@ -1436,7 +1436,7 @@
       "description": "<blockquote><p>Wield Weapon and Wizardry in Elegant Tandem</p></blockquote><p>Bladesingers master a tradition of wizardry that incorporates swordplay and dance. In combat, a Bladesinger uses intricate, elegant maneuvers that fend off harm and allow the Bladesinger to channel magic into devastating attacks and a cunning defense. Many who have observed a Bladesinger at work remember the display as one of the more beautiful experiences in their lif­e—a glorious dance accompanied by a singing blade.</p><p>Bladesinging is associated with the ancient elven societies that first mastered the art and coined the term. Even today, most Bladesingers still hail from old elven realms, such as Myth Drannor, or from non-elven societies that share land and history with elves, such as the Silver Marches. Wherever they hail from, Bladesingers take their talents all across the Realms to help common people and perform heroic deeds. Most communities greet the arrival of a Bladesinger as a good omen.</p>",
       "advancement": {
         "Subclass Features": {
-          "title": "Subclass Features"
+          "title": "子職業特性"
         }
       }
     },
@@ -1493,7 +1493,7 @@
       "name": "Banneret",
       "advancement": {
         "Subclass Features": {
-          "title": "Subclass Features"
+          "title": "子職業特性"
         }
       },
       "description": "<blockquote><p>Rally Fellow Heroes with Inspiring Leadership</p></blockquote><p>Bannerets are paragons of valor and leadership who protect the innocent and rally fellow adventurers to the causes of justice and freedom. Many are knights serving in Cormyr, the Silver Marches, Damara, Chessenta, or other lands across Faerûn. They wander the realms as knights errant, taking the fight against evil beyond their kingdom’s borders.</p><p>A Banneret relies on judgment, bravery, and fidelity to the code of chivalry to guide them in defeating evildoers. A lone Banneret is a skilled warrior, but when leading a band of allies one of these warriors can transform even a poorly equipped militia into a ferocious war band.</p>"
@@ -1931,7 +1931,7 @@
       "description": "<blockquote><p>Become a Gruesome Agent of Malice</p></blockquote><p>A Scion of the Three draws power from a group of malevolent gods known in Baldur’s Gate as the Dead Three: Bane, a god of tyranny; Bhaal, a god of violence and murder; and Myrkul, a god of death. While some Rogues of this subclass pledge themselves ardently to those three macabre gods, others are thrust on this path by a curse. Either way, a scion’s power manifests as various occult gifts, as well as an uncanny talent for striking and terrifying foes.</p><p>Scions of the Three are most common in Baldur’s Gate, where the Dead Three lived as mortals before ascending to godhood. Underground cults to Bane, Bhaal, and Myrkul often count Scions of the Three among their most useful agents. Outside Baldur’s Gate, secular thieves’ guilds such as the Shadow Thieves of Amn or the Xanathar Guild in Waterdeep might call on a Scion of the Three to undertake an especially violent contract.</p>",
       "advancement": {
         "Subclass Features": {
-          "title": "Subclass Features"
+          "title": "子職業特性"
         }
       }
     },
@@ -2231,6 +2231,40 @@
         }
       },
       "description": "<p>你獲得下列好處。</p><p><em><strong>龍之舌 </strong></em>你知曉龍語。若你選擇此專長時已知曉龍語，你可以從<em>玩家手冊</em>或此書第二章的語言表中習得一門語言，以替代龍語。</p><p><em><strong>龍之威 </strong></em>你可以採取魔法動作將恐懼灌輸給位於你30呎內你所能看見的一名生物。目標必須成功通過一次感知豁免（DC等於8+你的感知調整值+你的熟練加值），否則陷入&amp;Reference[Frightened apply=false]{恐懼}狀態，直到你的下個回合結束。若目標豁免成功或當其身上的此效應結束時，目標在24小時內免疫此效應。</p><p><em><strong>飲懼為勵 </strong></em>當你造成一名生物陷入恐懼狀態且恐懼源為你時，若你沒有英雄激勵，你可以獲得之。一旦你使用此好處，直到你完成短休或長休前都無法再次使用。</p>"
+    }
+  },
+  "mapping": {
+    "range": {
+      "path": "system.range",
+      "converter": "range"
+    },
+    "senses": {
+      "path": "system.senses",
+      "converter": "senses"
+    },
+    "target": {
+      "path": "system.target",
+      "converter": "target"
+    },
+    "movement": {
+      "path": "system.movement",
+      "converter": "movement"
+    },
+    "rangeActivities": {
+      "path": "system.activities",
+      "converter": "rangeActivities"
+    },
+    "advancement": {
+      "path": "system.advancement",
+      "converter": "advancement"
+    },
+    "effects": {
+      "path": "effects",
+      "converter": "effects"
+    },
+    "activities": {
+      "path": "system.activities",
+      "converter": "activities"
     }
   }
 }

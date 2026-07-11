@@ -6621,5 +6621,23 @@
       "description": "<p class=\"feature\">[[/attack extended]]. [[/damage average extended]]. <em>Hit or Miss:</em> The trident magically returns to the [[lookup @name lowercase]]'s hand immediately after a ranged attack.</p>",
       "name": "Flame Trident"
     }
+  },
+  "mapping": {
+    "advancement": {
+      "path": "system.advancement",
+      "converter": "advancement"
+    },
+    "effects": {
+      "path": "effects",
+      "converter": "effects"
+    },
+    "rangeActivities": {
+      "path": "system.activities",
+      "converter": "rangeActivities"
+    },
+    "activities": {
+      "path": "system.activities",
+      "converter": "activities"
+    }
   }
 }

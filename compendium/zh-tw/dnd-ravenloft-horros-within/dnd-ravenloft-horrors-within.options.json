@@ -168,17 +168,17 @@
       "advancement": {
         "Choose Languages": {
           "hint": "<p>Your character knows at least three languages: Common plus two languages you roll or choose from the @UUID[Compendium.dnd-players-handbook.content.JournalEntry.phbCreatingAChar.JournalEntryPage.t1WP9VEevo4TOTXw#choose-languages]{Standard Languages} table.</p>",
-          "title": "Choose Languages"
+          "title": "選擇語言"
         },
         "Feat": {
           "title": "Feat",
           "hint": "<p>@UUID[Compendium.dnd-ravenloft-horrors-within.options.Item.rhwSharpEyev8PBf]{Sharp Eye} or a @UUID[Compendium.dnd-ravenloft-horrors-within.book.JournalEntry.rhwFeats00000000.JournalEntryPage.yEsfCxTXqE0ZGQ3B]{Dark Gift feat} of your choice.</p>"
         },
         "Skill Proficiencies": {
-          "title": "Skill Proficiencies"
+          "title": "技能熟練"
         },
         "Tool Proficiency": {
-          "title": "Tool Proficiency"
+          "title": "工具熟練"
         },
         "Ability Scores": {
           "title": "Ability Scores"
@@ -191,10 +191,10 @@
       "advancement": {
         "Choose Languages": {
           "hint": "<p>Your character knows at least three languages: Common plus two languages you roll or choose from the @UUID[Compendium.dnd-players-handbook.content.JournalEntry.phbCreatingAChar.JournalEntryPage.t1WP9VEevo4TOTXw#choose-languages]{Standard Languages} table.</p>",
-          "title": "Choose Languages"
+          "title": "選擇語言"
         },
         "Tool Proficiency": {
-          "title": "Tool Proficiency"
+          "title": "工具熟練"
         },
         "Feat": {
           "hint": "<p>A @UUID[Compendium.dnd-ravenloft-horrors-within.book.JournalEntry.rhwFeats00000000.JournalEntryPage.yEsfCxTXqE0ZGQ3B]{Dark Gift feat} of your choice (see “Feats” later in this chapter; @UUID[Compendium.dnd-ravenloft-horrors-within.options.Item.rhwGatheredWhisp]{Gathered Whispers} is recommended)</p>",
@@ -204,7 +204,7 @@
           "title": "Ability Scores"
         },
         "Skill Proficiencies": {
-          "title": "Skill Proficiencies"
+          "title": "技能熟練"
         }
       },
       "description": "<p><strong>Ability Scores:</strong> Constitution, Intelligence, Wisdom</p><p><strong>Feat:</strong> A @UUID[Compendium.dnd-ravenloft-horrors-within.book.JournalEntry.rhwFeats00000000.JournalEntryPage.yEsfCxTXqE0ZGQ3B]{Dark Gift feat} of your choice (@UUID[Compendium.dnd-ravenloft-horrors-within.options.Item.rhwGatheredWhisp]{Gathered Whispers} is recommended)</p><p><strong>Skill Proficiencies:</strong> Insight and Religion</p><p><strong>Tool Proficiency:</strong> <em>Choose one kind of Gaming Set</em></p><p><strong>Equipment:</strong> <em>Choose A or B:</em> (A) Dagger, Gaming Set (same as above), Basket, Bell, 8 Candles, Ink, Ink Pen, Paper (5 sheets), Tinderbox, Traveler’s Clothes, and 32 GP; or (B) 50 GP</p><p>Through strange rituals and fateful encounters, you’ve discovered that you bear a unique connection to the spirits of the dead and damned. Your body is a conduit for such spirits, granting you prescient insight from beyond. But these spirits’ intentions aren’t always innocent, and their gifts come at a haunting cost.</p>",
@@ -235,7 +235,7 @@
       "description": "<p class=\"meta\"><em>Bend Doom and Darkness to Your Will</em></p><p>Your innate magic comes from the most nebulous and inscrutable forces of the Shadowfell or from other regions of supernatural darkness. You might trace your lineage to an entity from such a place, or perhaps you were exposed to the sinister energy of a shadow dragon and were transformed by it. Your shadowy magic allows you to command darkness, undeath, and woe.</p><p class=\"hide-in-embed\"><em>@UUID[Compendium.dnd-ravenloft-horrors-within.book.JournalEntry.rhwSubclasses000.JournalEntryPage.ShadowSorcerySor]{Subclass Details}</em></p>",
       "advancement": {
         "Subclass Features": {
-          "title": "Subclass Features"
+          "title": "子職業特性"
         }
       }
     },
@@ -387,7 +387,7 @@
     "Reanimator": {
       "advancement": {
         "Subclass Features": {
-          "title": "Subclass Features"
+          "title": "子職業特性"
         }
       },
       "name": "Reanimator",
@@ -430,7 +430,7 @@
       "description": "<p class=\"meta\"><em>Defy Death for Profane Power</em></p><p>You’ve made a pact with a creature that defies the cycle of life and death: a powerful lich, a vampire, or another entity of undeath. Having once been mortal, these ancient patrons know firsthand the paths of ambition and the routes past the doors of death. They eagerly share this profane knowledge and other secrets with those who work their will among the living.</p><p class=\"hide-in-embed\"><em>@UUID[Compendium.dnd-ravenloft-horrors-within.book.JournalEntry.rhwSubclasses000.JournalEntryPage.UndeadPatronWarl]{Subclass Details}</em></p>",
       "advancement": {
         "Subclass Features": {
-          "title": "Subclass Features"
+          "title": "子職業特性"
         }
       },
       "name": "Undead Patron"
@@ -581,7 +581,7 @@
     "Hollow Warden": {
       "advancement": {
         "Subclass Features": {
-          "title": "Subclass Features"
+          "title": "子職業特性"
         }
       },
       "name": "Hollow Warden",
@@ -1112,7 +1112,7 @@
       "description": "<p class=\"meta\"><em>Embrace Death and Wield Ghostly Power</em></p><p>Some Rogues traverse the veil between life and death, shepherding opponents to the grave and slipping through the world as undetectable as a spirit. In these pursuits, a Rogue might discover a mystical connection to death itself. Such an individual becomes immersed in negative energy, infusing their strikes with deathly energy and stealing knowledge from souls who have passed on. Thieves’ guilds value Rogues of this persuasion as highly effective information gatherers and spies.</p><p class=\"hide-in-embed\"><em>@UUID[Compendium.dnd-ravenloft-horrors-within.book.JournalEntry.rhwSubclasses000.JournalEntryPage.PhantomRogueBU0w]{Subclass Details}</em></p>",
       "advancement": {
         "Subclass Features": {
-          "title": "Subclass Features"
+          "title": "子職業特性"
         }
       },
       "name": "Phantom"
@@ -1156,14 +1156,14 @@
           "title": "Ability Scores"
         },
         "Choose Languages": {
-          "title": "Choose Languages",
+          "title": "選擇語言",
           "hint": "<p>Your character knows at least three languages: Common plus two languages you roll or choose from the @UUID[Compendium.dnd-players-handbook.content.JournalEntry.phbCreatingAChar.JournalEntryPage.t1WP9VEevo4TOTXw#choose-languages]{Standard Languages} table.</p>"
         },
         "Skill Proficiencies": {
-          "title": "Skill Proficiencies"
+          "title": "技能熟練"
         },
         "Tool Proficiency": {
-          "title": "Tool Proficiency"
+          "title": "工具熟練"
         },
         "Feat": {
           "hint": "<p>@UUID[Compendium.dnd-ravenloft-horrors-within.options.Item.rhwSurvivor2zrM3]{Survivor} or a @UUID[Compendium.dnd-ravenloft-horrors-within.book.JournalEntry.rhwFeats00000000.JournalEntryPage.yEsfCxTXqE0ZGQ3B]{Dark Gift feat} of your choice.</p>",
@@ -1176,7 +1176,7 @@
     "College of Spirits": {
       "advancement": {
         "Subclass Features": {
-          "title": "Subclass Features"
+          "title": "子職業特性"
         }
       },
       "name": "College of Spirits",
@@ -1210,7 +1210,7 @@
       "description": "<p><strong>Ability Scores:</strong> Dexterity, Constitution, Wisdom</p><p><strong>Feat:</strong> A @UUID[Compendium.dnd-ravenloft-horrors-within.book.JournalEntry.rhwFeats00000000.JournalEntryPage.yEsfCxTXqE0ZGQ3B]{Dark Gift feat} of your choice (see “Feats” later in this chapter; @UUID[Compendium.dnd-ravenloft-horrors-within.options.Item.rhwMistWalkerlge]{Mist Walker} is recommended)</p><p><strong>Skill Proficiencies:</strong> Survival and Stealth</p><p><strong>Tool Proficiency:</strong> <em>Choose one kind of Artisan’s Tools</em></p><p><strong>Equipment:</strong> <em>Choose A or B:</em> (A) Artisan’s Tools (same as above), Lamp, Oil (5 flasks), Pouch, Rope, Tinderbox, Traveler’s Clothes, and 30 GP; or (B) 50 GP</p><p>You once knew your home. But one day, the Mists rose and drew you into a Domain of Dread. Ever since, you have wandered between domains, braving the mercurial Mists as you search for a way home. Your time in these cursed realms has changed you, yet you find solace in communities of fellow wanderers throughout the Mists.</p>",
       "advancement": {
         "Choose Languages": {
-          "title": "Choose Languages",
+          "title": "選擇語言",
           "hint": "<p>Your character knows at least three languages: Common plus two languages you roll or choose from the @UUID[Compendium.dnd-players-handbook.content.JournalEntry.phbCreatingAChar.JournalEntryPage.t1WP9VEevo4TOTXw#choose-languages]{Standard Languages} table.</p>"
         },
         "Ability Scores": {
@@ -1221,10 +1221,10 @@
           "hint": "<p>A @UUID[Compendium.dnd-ravenloft-horrors-within.book.JournalEntry.rhwFeats00000000.JournalEntryPage.yEsfCxTXqE0ZGQ3B]{Dark Gift feat} of your choice (see “Feats” later in this chapter; @UUID[Compendium.dnd-ravenloft-horrors-within.options.Item.rhwMistWalkerlge]{Mist Walker} is recommended)</p>"
         },
         "Skill Proficiencies": {
-          "title": "Skill Proficiencies"
+          "title": "技能熟練"
         },
         "Tool Proficiency": {
-          "title": "Tool Proficiency"
+          "title": "工具熟練"
         }
       },
       "name": "Mist Wanderer"

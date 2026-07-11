@@ -115,5 +115,23 @@
       "name": "Poison Tolerant",
       "description": "<p>The [[lookup @name]] has Advantage on saving throws it makes to avoid or end the &amp;Reference[Poisoned apply=false] condition.</p>"
     }
+  },
+  "mapping": {
+    "advancement": {
+      "path": "system.advancement",
+      "converter": "advancement"
+    },
+    "effects": {
+      "path": "effects",
+      "converter": "effects"
+    },
+    "rangeActivities": {
+      "path": "system.activities",
+      "converter": "rangeActivities"
+    },
+    "activities": {
+      "path": "system.activities",
+      "converter": "activities"
+    }
   }
 }

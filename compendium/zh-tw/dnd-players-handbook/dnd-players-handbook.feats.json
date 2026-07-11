@@ -156,7 +156,7 @@
       "description": "<p>你獲得下列好處</p><p><strong>【樂器訓練】</strong>你獲得三個你所選擇的樂器熟練。</p><p><strong>【鼓舞之歌】</strong>當你完成一次短休或長休後，你可以用你所熟練的樂器演奏一首歌曲，並給予聽到這首歌曲的同伴一個英雄激勵。你所能影響同伴的數量等同於你的熟練加值（目前：[[lookup @prof]]）。</p><section class=\"secret\" id=\"secret-uSBAbHsB2VxFaHwm\"><p><strong>Foundry Note</strong></p><p>This feature does not automatically grant the proficiencies. You can toggle the \"Edit\" mode in the <strong>\"</strong>Details\" tab of your sheet and click on the cog next to \"Tools\" underneath your Skills to choose your Musical Instrument proficiencies.</p></section>",
       "advancement": {
         "Instrument Training": {
-          "title": "Instrument Training",
+          "title": "樂器訓練",
           "hint": "You gain proficiency with three Musical Instruments of your choice."
         }
       }
@@ -582,7 +582,7 @@
       "name": "技藝專家",
       "advancement": {
         "Expertise": {
-          "title": "Expertise",
+          "title": "專精",
           "hint": "Choose one skill in which you have proficiency but lack Expertise. You gain Expertise with that skill."
         },
         "Skill Proficiency": {
@@ -638,7 +638,7 @@
       "name": "巧匠",
       "advancement": {
         "Tool Proficiency": {
-          "title": "Tool Proficiency",
+          "title": "工具熟練",
           "hint": "You gain proficiency with three different Artisan’s Tools of your choice from the Fast Crafting table."
         }
       }

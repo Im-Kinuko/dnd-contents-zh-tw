@@ -102,5 +102,23 @@
       "description": "<p class=\"hide-in-embed\">@UUID[Compendium.dnd-players-handbook.content.JournalEntry.phbEquipment0000.JournalEntryPage.GCvg8n7Q7ltSPRxe#musical-instrument-(varies)]{Musical Instrument}, 2lb.</p><p>A cittern, distinguished by its pear-shaped bowl, produces a pleasing, richer sound.</p>",
       "name": "Cittern"
     }
+  },
+  "mapping": {
+    "range": {
+      "path": "system.range",
+      "converter": "range"
+    },
+    "rangeActivities": {
+      "path": "system.activities",
+      "converter": "rangeActivities"
+    },
+    "effects": {
+      "path": "effects",
+      "converter": "effects"
+    },
+    "activities": {
+      "path": "system.activities",
+      "converter": "activities"
+    }
   }
 }
