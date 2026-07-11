@@ -1,0 +1,63 @@
+name: Release
+
+on:
+  release:
+    types: [published]
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Extract version from tag
+        id: version
+        run: echo "version=${GITHUB_REF_NAME#v}" >> $GITHUB_OUTPUT
+
+      - name: Update module.json with release URLs
+        run: |
+          VERSION="${{ steps.version.outputs.version }}"
+          REPO="${{ github.repository }}"
+          DOWNLOAD_URL="https://github.com/${REPO}/releases/download/${{ github.ref_name }}/dnd-contents-zh-tw.zip"
+          MANIFEST_URL="https://github.com/${REPO}/releases/latest/download/module.json"
+
+          python3 - <<EOF
+          import json
+
+          with open("module.json", "r", encoding="utf-8") as f:
+              manifest = json.load(f)
+
+          manifest["version"] = "$VERSION"
+          manifest["download"] = "$DOWNLOAD_URL"
+          manifest["manifest"] = "$MANIFEST_URL"
+
+          with open("module.json", "w", encoding="utf-8") as f:
+              json.dump(manifest, f, ensure_ascii=False, indent=2)
+
+          print(f"version: {manifest['version']}")
+          print(f"download: {manifest['download']}")
+          print(f"manifest: {manifest['manifest']}")
+          EOF
+
+      - name: Build zip (module files only, no dev files)
+        run: |
+          mkdir -p dist/dnd-contents-zh-tw
+          cp module.json dist/dnd-contents-zh-tw/
+          cp register.js dist/dnd-contents-zh-tw/
+          mkdir -p dist/dnd-contents-zh-tw/compendium
+          cp -r compendium/zh-tw dist/dnd-contents-zh-tw/compendium/
+          cd dist
+          zip -r dnd-contents-zh-tw.zip dnd-contents-zh-tw/
+          echo "Zip contents:"
+          unzip -l dnd-contents-zh-tw.zip | tail -5
+
+      - name: Upload zip to release
+        uses: softprops/action-gh-release@v2
+        with:
+          files: |
+            dist/dnd-contents-zh-tw.zip
+            module.json
