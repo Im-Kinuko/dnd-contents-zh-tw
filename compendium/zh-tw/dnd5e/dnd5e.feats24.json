@@ -7,9 +7,38 @@
     "General Feats": "General Feats"
   },
   "entries": {
-    "Boon of Combat Prowess": {
-      "name": "戰鬥威能恩惠",
-      "description": "<p>你獲得下列好處</p><p><strong>【屬性值提升】</strong> Increase one ability score of your choice by 1, to a maximum of 30.</p><p><strong>Peerless Aim.</strong> When you miss with an attack roll, you can hit instead. Once you use this benefit, you can’t use it again until the start of your next turn.</p>"
+    "Boon of Spell Recall": {
+      "name": "法術回想恩惠",
+      "activities": {
+        "Free Cast Roll": {
+          "condition": "每當你使用1至4環法術位施放法術時",
+          "name": "Free Cast Roll",
+          "roll": "擲骰"
+        }
+      },
+      "description": "<p>你獲得下列增益。</p><p><strong>屬性值提升。</strong>你的智力、感知或魅力屬性提升1點，上限為30。</p><p><strong>無耗施法。</strong>當你使用1至4環法術位施法時，擲一顆4面骰。若結果等於法術位環數，則不消耗該法術位。</p><section id=\"secret-KMAFFZCOzi6Cuemh\" class=\"secret\"><p><strong>鑄造廠備註</strong></p><p>若結果相同，使用法術時請取消勾選消耗選項。</p></section>"
+    },
+    "Savage Attacker": {
+      "name": "野蠻攻擊者",
+      "description": "<p>你已經訓練出特別具有破壞性的打擊。每回合一次，當你用武器命中目標時，你可以擲兩次武器傷害骰，並任選其中一個結果。</p>"
+    },
+    "Defense": {
+      "name": "防禦",
+      "description": "<p><em>（先決條件：戰鬥風格特性）</em></p><p>當你穿戴輕甲或中甲或重甲時，你的護甲等級（AC）+1。</p><section id=\"secret-y8skH0HHunT4I5NR\" class=\"secret\"><p><strong>Foundry Note</strong></p><p>This feature includes an Active Effect which provides the Armor Class bonus. Disable it when you are not wearing armor.</p></section>",
+      "effects": {
+        "Defense": {
+          "name": "防禦"
+        }
+      }
+    },
+    "Boon of Truesight": {
+      "name": "Boon of Truesight",
+      "description": "<p>You gain the following benefits.</p><p><strong>Ability Score Increase.</strong> Increase one ability score of your choice by 1, to a maximum of 30.</p><p><strong>Truesight.</strong> You have Truesight with a range of 60 feet.</p><section id=\"secret-MmPASAH8hA8METnP\" class=\"secret\"><p><strong>Foundry Note</strong></p><p>This feature includes an Active Effect which grants you Truesight with a range of 60 feet.</p></section>",
+      "effects": {
+        "Boon of Truesight": {
+          "name": "Boon of Truesight"
+        }
+      }
     },
     "Boon of Dimensional Travel": {
       "activities": {
@@ -20,6 +49,18 @@
       },
       "description": "<p>你獲得下列好處</p><p><strong>【屬性值提升】</strong> Increase one ability score of your choice by 1, to a maximum of 30.</p><p><strong>Blink Steps.</strong> Immediately after you take the Attack action or the Magic action, you can teleport up to 30 feet to an unoccupied space you can see.</p>",
       "name": "次元旅行恩惠"
+    },
+    "Boon of Irresistible Offense": {
+      "name": "無敵攻勢恩惠",
+      "description": "<p>你獲得下列好處。</p><p><strong>【屬性值提升】</strong> 你的力量或敏捷提升1點，上限為30。</p><p><strong>【突破防禦】</strong> 你所造成的鈍擊、穿刺與揮砍傷害永遠無視抗性。</p><p><strong>【輾壓打擊】</strong> 當你在攻擊檢定的d20中骰出20時，你可以額外造成等同於此專長所提升屬性值的傷害。額外傷害類型與攻擊類型相同。</p><section id=\"secret-B9D2nT6vBjWr9JMV\" class=\"secret\"><p><strong>Foundry備註</strong></p><p>此專長效果未自動化執行。額外傷害可於傷害擲骰對話框的情境加值欄位手動添加。</p></section>"
+    },
+    "Magic Initiate": {
+      "description": "<p>你獲得下列好處</p><p><strong>【兩道戲法】</strong>你從@UUID[Compendium.dnd-players-handbook.content.JournalEntry.phbSpells0000000.JournalEntryPage.SkHptN2PTzFGDaEj]{牧師}、@UUID[Compendium.dnd-players-handbook.content.JournalEntry.phbSpells0000000.JournalEntryPage.LhvuDQEyrCdg5EfU]{德魯伊}、@UUID[Compendium.dnd-players-handbook.content.JournalEntry.phbSpells0000000.JournalEntryPage.6AnqLUowgdsqMFvz]{法師}法術列表中習得兩個戲法。你以智力、感知、魅力做為你施放專長法術的施法屬性（你選擇此專長時決定）。</p><p><strong>【1環法術】</strong>選擇一個與你所選擇的專長戲法相同的法術列表中的1環法術，且你始終準備這道法術。你可以不消耗法術位施放該法術一次，並在你完成一次長休後，恢復以這種方式施放該法術的能力，你也可以使用你擁有的任意法術位施放這道法術。</p><p><strong>【法術改變】</strong>每當你獲得一個新等級時，你可以將透過此專長所習得的一道法術替換成相同法術列表中相同環術的另一道法術。</p><p><strong>【可複選】</strong>你可以重複選擇此專長，但每次你都必須選擇一個不同的法術列表。</p><section id=\"secret-7JQCSgnGrtu9huzf\" class=\"secret\"><p><strong>Foundry Note</strong></p><p>The spells have to be added to your sheet with the above changes manually.</p></section>",
+      "name": "魔法學徒"
+    },
+    "Boon of Combat Prowess": {
+      "name": "戰鬥威能恩惠",
+      "description": "<p>你獲得下列好處</p><p><strong>【屬性值提升】</strong> Increase one ability score of your choice by 1, to a maximum of 30.</p><p><strong>Peerless Aim.</strong> When you miss with an attack roll, you can hit instead. Once you use this benefit, you can’t use it again until the start of your next turn.</p>"
     },
     "Boon of Fate": {
       "name": "命運恩惠",
@@ -32,29 +73,30 @@
       },
       "description": "<p>你獲得下列增益。</p><p><strong>【屬性值提升】</strong> 選擇一項屬性值提升1點，上限為30。</p><p><strong>【逆天改命】</strong> 當你或60呎內另一生物D20檢定成功或失敗，你可以擲2d4並將結果作為加值或減值應用於該D20檢定。使用此增益後，直到你擲先攻或完成短休或長休前無法再次使用。</p><section id=\"secret-zl5SPZXJtl1mEKOl\" class=\"secret\"><p><strong>鑄造廠備註</strong></p><p><strong>逆天改命</strong>行動包含擲骰機制，並會在短休或長休後自動恢復使用次數。但擲先攻後不會自動刷新。</p></section>"
     },
-    "Boon of Irresistible Offense": {
-      "name": "無敵攻勢恩惠",
-      "description": "<p>你獲得下列好處。</p><p><strong>【屬性值提升】</strong> 你的力量或敏捷提升1點，上限為30。</p><p><strong>【突破防禦】</strong> 你所造成的鈍擊、穿刺與揮砍傷害永遠無視抗性。</p><p><strong>【輾壓打擊】</strong> 當你在攻擊檢定的d20中骰出20時，你可以額外造成等同於此專長所提升屬性值的傷害。額外傷害類型與攻擊類型相同。</p><section id=\"secret-B9D2nT6vBjWr9JMV\" class=\"secret\"><p><strong>Foundry備註</strong></p><p>此專長效果未自動化執行。額外傷害可於傷害擲骰對話框的情境加值欄位手動添加。</p></section>"
+    "Ability Score Improvement": {
+      "name": "屬性值提升",
+      "description": "<p><em>通用專長（先決條件：4等以上）</em></p><p>你可以選擇一項屬性值提升2點，或是你可以選擇二項屬性值各1點，此專長無法將屬性值提升超過20。</p><p><strong>【可複選】</strong>你可以重複選擇此專長。</p>"
     },
-    "Boon of Spell Recall": {
-      "name": "法術回想恩惠",
-      "activities": {
-        "Free Cast Roll": {
-          "condition": "每當你使用1至4環法術位施放法術時",
-          "name": "Free Cast Roll",
-          "roll": "擲骰"
+    "Grappler": {
+      "name": "擒抱者",
+      "description": "<p>你獲得下列好處</p><p><strong>【屬性值提升】</strong> 你的力量或敏捷提升1點，上限為20。</p><p><strong>【連打帶拽】</strong> 當你在自己回合中以攻擊動作一部分的徒手打擊命中一個生物時，你可以同時使用傷害與擒抱兩個選項。此增益每回合僅能使用一次。</p><p><strong>【攻擊優勢】</strong>你對你所&amp;Reference[Grappled]的生物進行攻擊檢定時具有優勢。</p><p><strong>【靈巧拖曳】</strong>移動與你相同或更小體型的受擒生物時，你無須消耗額外的移動力。</p><section class=\"secret\" id=\"secret-LAjjGo55LPacAy8v\"><p><strong>Foundry筆記</strong></p><p>The Advantage is not automated.</p></section>"
+    },
+    "Two-Weapon Fighting": {
+      "name": "雙武器戰鬥",
+      "description": "<p><em>（先決條件：戰鬥風格特性）</em></p><p>當你使用帶有輕型屬性的武器進行額外攻擊時，若你未將屬性調整值加上額外攻擊的傷害，則可以加上你的屬性調整值。</p><section class=\"secret\" id=\"secret-hYptyfGCa0gLDQRT\"><p><strong>Foundry Note</strong></p><p>This feature is not automated. You can add your modifier in the Situational Bonus field of the damage roll.</p></section>"
+    },
+    "Alert": {
+      "name": "警覺",
+      "effects": {
+        "Alert": {
+          "name": "警覺"
         }
       },
-      "description": "<p>你獲得下列增益。</p><p><strong>屬性值提升。</strong>你的智力、感知或魅力屬性提升1點，上限為30。</p><p><strong>無耗施法。</strong>當你使用1至4環法術位施法時，擲一顆4面骰。若結果等於法術位環數，則不消耗該法術位。</p><section id=\"secret-KMAFFZCOzi6Cuemh\" class=\"secret\"><p><strong>鑄造廠備註</strong></p><p>若結果相同，使用法術時請取消勾選消耗選項。</p></section>"
+      "description": "<p>你獲得下列好處</p><p><strong>【先攻熟練】</strong>當你骰先攻時，你可以將你的熟練加值加入結果。</p><p><strong>【先攻互換】</strong>緊接在你骰先攻後，你可以與處於同一戰鬥中的一位自願同伴交換先攻。如果你或你的同伴處於&amp;Reference[Incapacitated]狀態，則無法進行交換。</p><section class=\"secret\" id=\"secret-yzfXk3D5M1jv9ixH\"><p><strong>Foundry Note</strong></p><p>This feature automatically includes the bonus to your Initiative.</p></section>"
     },
-    "Boon of Truesight": {
-      "name": "Boon of Truesight",
-      "description": "<p>你獲得下列益處。</p><p><strong>屬性值提升。</strong>自選一項屬性值提升1點，上限為30。</p><p><strong>真實視覺。</strong>你獲得60呎範圍的真實視覺。</p><section id=\"secret-MmPASAH8hA8METnP\" class=\"secret\"><p><strong>鑄造廠註記</strong></p><p>此特性包含會賦予你60呎範圍真實視覺的主動效果。</p></section>",
-      "effects": {
-        "Boon of Truesight": {
-          "name": "真視恩惠"
-        }
-      }
+    "Great Weapon Fighting": {
+      "name": "巨武戰鬥",
+      "description": "<p><em>（先決條件：戰鬥風格特性）</em></p><p>當你以雙手持握近戰武器為攻擊擲傷害骰時，你可以將傷害骰中的任何1和2視作3。該武器必須帶有雙手或兩用屬性才能獲得這個好處。</p><section id=\"secret-jkbP75uR9eNGIRN0\" class=\"secret\"><p><strong>Foundry Note</strong></p><p>This effect is not automated.</p></section>"
     },
     "Boon of the Night Spirit": {
       "effects": {
@@ -81,48 +123,6 @@
         }
       },
       "name": "弓道"
-    },
-    "Defense": {
-      "name": "防禦",
-      "description": "<p><em>（先決條件：戰鬥風格特性）</em></p><p>當你穿戴輕甲或中甲或重甲時，你的護甲等級（AC）+1。</p><section id=\"secret-y8skH0HHunT4I5NR\" class=\"secret\"><p><strong>Foundry Note</strong></p><p>This feature includes an Active Effect which provides the Armor Class bonus. Disable it when you are not wearing armor.</p></section>",
-      "effects": {
-        "Defense": {
-          "name": "防禦"
-        }
-      }
-    },
-    "Great Weapon Fighting": {
-      "name": "巨武戰鬥",
-      "description": "<p><em>（先決條件：戰鬥風格特性）</em></p><p>當你以雙手持握近戰武器為攻擊擲傷害骰時，你可以將傷害骰中的任何1和2視作3。該武器必須帶有雙手或兩用屬性才能獲得這個好處。</p><section id=\"secret-jkbP75uR9eNGIRN0\" class=\"secret\"><p><strong>Foundry Note</strong></p><p>This effect is not automated.</p></section>"
-    },
-    "Two-Weapon Fighting": {
-      "name": "雙武器戰鬥",
-      "description": "<p><em>（先決條件：戰鬥風格特性）</em></p><p>當你使用帶有輕型屬性的武器進行額外攻擊時，若你未將屬性調整值加上額外攻擊的傷害，則可以加上你的屬性調整值。</p><section class=\"secret\" id=\"secret-hYptyfGCa0gLDQRT\"><p><strong>Foundry Note</strong></p><p>This feature is not automated. You can add your modifier in the Situational Bonus field of the damage roll.</p></section>"
-    },
-    "Ability Score Improvement": {
-      "name": "屬性值提升",
-      "description": "<p><em>通用專長（先決條件：4等以上）</em></p><p>你可以選擇一項屬性值提升2點，或是你可以選擇二項屬性值各1點，此專長無法將屬性值提升超過20。</p><p><strong>【可複選】</strong>你可以重複選擇此專長。</p>"
-    },
-    "Alert": {
-      "name": "警覺",
-      "effects": {
-        "Alert": {
-          "name": "警覺"
-        }
-      },
-      "description": "<p>你獲得下列好處</p><p><strong>【先攻熟練】</strong>當你骰先攻時，你可以將你的熟練加值加入結果。</p><p><strong>【先攻互換】</strong>緊接在你骰先攻後，你可以與處於同一戰鬥中的一位自願同伴交換先攻。如果你或你的同伴處於&amp;Reference[Incapacitated]狀態，則無法進行交換。</p><section class=\"secret\" id=\"secret-yzfXk3D5M1jv9ixH\"><p><strong>Foundry Note</strong></p><p>This feature automatically includes the bonus to your Initiative.</p></section>"
-    },
-    "Grappler": {
-      "name": "擒抱者",
-      "description": "<p>你獲得下列好處</p><p><strong>【屬性值提升】</strong> 你的力量或敏捷提升1點，上限為20。</p><p><strong>【連打帶拽】</strong> 當你在自己回合中以攻擊動作一部分的徒手打擊命中一個生物時，你可以同時使用傷害與擒抱兩個選項。此增益每回合僅能使用一次。</p><p><strong>【攻擊優勢】</strong>你對你所&amp;Reference[Grappled]的生物進行攻擊檢定時具有優勢。</p><p><strong>【靈巧拖曳】</strong>移動與你相同或更小體型的受擒生物時，你無須消耗額外的移動力。</p><section class=\"secret\" id=\"secret-LAjjGo55LPacAy8v\"><p><strong>Foundry筆記</strong></p><p>The Advantage is not automated.</p></section>"
-    },
-    "Magic Initiate": {
-      "description": "<p>你獲得下列好處</p><p><strong>【兩道戲法】</strong>你從@UUID[Compendium.dnd-players-handbook.content.JournalEntry.phbSpells0000000.JournalEntryPage.SkHptN2PTzFGDaEj]{牧師}、@UUID[Compendium.dnd-players-handbook.content.JournalEntry.phbSpells0000000.JournalEntryPage.LhvuDQEyrCdg5EfU]{德魯伊}、@UUID[Compendium.dnd-players-handbook.content.JournalEntry.phbSpells0000000.JournalEntryPage.6AnqLUowgdsqMFvz]{法師}法術列表中習得兩個戲法。你以智力、感知、魅力做為你施放專長法術的施法屬性（你選擇此專長時決定）。</p><p><strong>【1環法術】</strong>選擇一個與你所選擇的專長戲法相同的法術列表中的1環法術，且你始終準備這道法術。你可以不消耗法術位施放該法術一次，並在你完成一次長休後，恢復以這種方式施放該法術的能力，你也可以使用你擁有的任意法術位施放這道法術。</p><p><strong>【法術改變】</strong>每當你獲得一個新等級時，你可以將透過此專長所習得的一道法術替換成相同法術列表中相同環術的另一道法術。</p><p><strong>【可複選】</strong>你可以重複選擇此專長，但每次你都必須選擇一個不同的法術列表。</p><section id=\"secret-7JQCSgnGrtu9huzf\" class=\"secret\"><p><strong>Foundry Note</strong></p><p>The spells have to be added to your sheet with the above changes manually.</p></section>",
-      "name": "魔法學徒"
-    },
-    "Savage Attacker": {
-      "name": "野蠻攻擊者",
-      "description": "<p>你已經訓練出特別具有破壞性的打擊。每回合一次，當你用武器命中目標時，你可以擲兩次武器傷害骰，並任選其中一個結果。</p>"
     },
     "Skilled": {
       "description": "<p>你獲得總共3種的自選技能或工具的熟練。</p><p><strong>【可複選】</strong>你可以重複選擇此專長。</p><section class=\"secret\" id=\"secret-36vceWBnGWiMkySr\"><p><strong>Foundry Note</strong></p><p>This feature does not automatically grant the proficiencies. You can toggle the \"Edit\" mode in the <strong>\"</strong>Details\" tab of your sheet and click on the circles next to the Skills to choose your proficiencies.</p></section>",
