@@ -1483,7 +1483,7 @@
     },
     "Diviner": {
       "name": "預言師",
-      "description": "<blockquote><p>Learn the Secrets of the Multiverse</p></blockquote><p>The counsel of a Diviner is sought by those who want a clearer understanding of the past, present, and future. As a Diviner, you strive to part the veils of space, time, and consciousness. You work to master spells of discernment, remote viewing, supernatural knowledge, and foresight.</p>",
+      "description": "<blockquote><p>探究多元宇宙之秘</p></blockquote><p>那些尋求對過去、現在和未來有更清晰了解的人會尋求預言師的建議。作為一位預言師，你致力於揭開空間、時間與意識的面紗。你努力掌握的法術囊括識別能力、千里眼、超自然學識和預警等內容。</p>",
       "advancement": {
         "Subclass Features": {
           "title": "子職業特性"
@@ -2377,8 +2377,8 @@
       "description": "<p>You can call on even more powerful divine intervention. When you use your Divine Intervention feature, you can choose @UUID[Compendium.dnd-players-handbook.spells.Item.phbsplWish000000]{Wish} when you select a spell. If you do so, you can't use Divine Intervention again until you finish [[/r 2d4]] Long Rests.</p><section class=\"secret\" id=\"secret-LP9WqNdaJevppYeM\"><p><strong>Foundry Note</strong></p><p>This feature will consume a use of your Divine Intervention but it can not automatically recharge the usage after the rolled number of Long Rests.</p></section>"
     },
     "Greater Portent": {
-      "name": "Greater Portent",
-      "description": "<p>The visions in your dreams intensify and paint a more accurate picture in your mind of what is to come. Roll three d20s for your Portent feature rather than two.</p>"
+      "name": "高等預兆",
+      "description": "<p>你夢中的景象更為清晰地在你意識中描繪出了將要發生的一切。為你的預兆特性擲3次d20，而非2次。</p>"
     },
     "Guarded Mind": {
       "name": "Guarded Mind",
@@ -3698,8 +3698,8 @@
       }
     },
     "Portent": {
-      "name": "Portent",
-      "description": "<p>Glimpses of the future begin to press on your awareness. Whenever you finish a Long Rest, roll two [[/r d20]] and record the numbers rolled. You can replace any &amp;Reference[D20 Test] made by you or a creature that you can see with one of these foretelling rolls. You must choose to do so before the roll, and you can replace a roll in this way only once per turn.</p><p>Each foretelling roll can be used only once. When you finish a Long Rest, you lose any unused foretelling rolls.</p><p><strong>Current Portent Rolls:</strong> x, y</p><section class=\"secret\" id=\"secret-UWpQx1BOZPI14hq0\"><p><strong>Foundry Note</strong></p><p>When you roll both of the d20 you can edit this feature's description to track them or log it another way.</p></section>"
+      "name": "預兆",
+      "description": "<p>預知未來的片段開始在你意識中閃過。每當你完成一次長休時，擲2次 [[/r d20]]並記錄其結果。你可以將其中一個預言骰替換任何你或一個你所能看見的生物進行的&amp;Reference[D20 Test]{D20檢定}。你必須在檢定進行前選擇這麼做，且你每回合只能以這種方式替換一次檢定。</p><p>每個預言骰只能被使用一次。當你完成一次長休時，你失去所有未消耗的預言骰。</p><p><strong>當前預兆擲骰：</strong> x, y</p><section class=\"secret\" id=\"secret-UWpQx1BOZPI14hq0\"><p><strong>Foundry Note</strong></p><p>當你擲完所有d20時，你可編輯此特性敘述以追蹤之，或使用其他方式記錄。</p></section>"
     },
     "Potent Cantrip": {
       "name": "Potent Cantrip",

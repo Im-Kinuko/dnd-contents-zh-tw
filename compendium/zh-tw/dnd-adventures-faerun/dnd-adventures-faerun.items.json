@@ -1,7 +1,7 @@
 {
-  "label": "Items",
+  "label": "物品",
   "folders": {
-    "Calimshan": "Calimshan",
+    "Calimshan": "卡林珊",
     "Heart of Fire": "Heart of Fire",
     "Moving Mountains": "Moving Mountains",
     "Features": "Features",
@@ -9,14 +9,14 @@
     "Hazards": "Hazards",
     "Robber Baron": "Robber Baron",
     "Haunted Grove": "Haunted Grove",
-    "Adventure Loot": "Adventure Loot",
+    "Adventure Loot": "冒險戰利品",
     "Shared": "Shared",
     "Items": "Items",
     "Contagions": "Contagions",
     "Shadowdale Town": "Shadowdale Town",
     "The Lost Library of Lethchauntos": "The Lost Library of Lethchauntos",
     "The Tomb of Damara": "The Tomb of Damara",
-    "Calim Crossing": "Calim Crossing",
+    "Calim Crossing": "跨越卡林",
     "The Forhammer Horn": "The Forhammer Horn",
     "The Siege of Shalespire Priory": "The Siege of Shalespire Priory",
     "Wreck of the Silverhand": "Wreck of the Silverhand",
@@ -26,7 +26,7 @@
   "entries": {
     "Brazier of Commanding Fire Elementals": {
       "name": "命令火元素火盆",
-      "description": "<div><p><em>奇物，珍稀</em></p></div><p>While you are within 5 feet of this brazier, you can take a Magic action to summon a <strong>@UUID[Compendium.dnd-dungeon-masters-guide.actors.Actor.8SMQl75HLjhuSeau]{Fire Elemental}</strong>. The elemental appears in an unoccupied space as close to the brazier as possible, understands your languages, obeys your commands, and takes its turn immediately after you on your Initiative count. The elemental disappears after 1 hour, when it dies, or when you dismiss it as a Bonus Action. The brazier can’t be used this way again until the next dawn.</p>",
+      "description": "<div><p><em>奇物，珍稀</em></p></div><p>當你處於火盆5呎範圍內，你可以採取一個魔法動作來召喚一隻<strong>@UUID[Compendium.dnd-dungeon-masters-guide.actors.Actor.8SMQl75HLjhuSeau]{火元素}</strong>。火元素會出現在距離火盆最近的未佔據空間、理解你所說的語言、服從你的命令，使用你的先攻值並緊接在你之後執行其回合。火元素會在1小時後，或其死亡時，或你以一個附贈動作解除召喚時消失。直到下個黎明前，火盆都無法再以此方式使用。</p>",
       "activities": {
         "summon": {
           "target": "unoccupied space as close to the brazier as possible"
@@ -121,26 +121,26 @@
     "Calimemnon Crystal": {
       "activities": {
         "Aura of Cold": {
-          "name": "Aura of Cold"
+          "name": "寒冷靈光"
         },
         "Invisibility (Self Only)": {
-          "name": "Invisibility (Self Only)"
+          "name": "隱形術（僅自身）"
         },
         "Healing Ray": {
-          "name": "Healing Ray"
+          "name": "治療射線"
         },
         "Damage Ray": {
-          "name": "Damage Ray"
+          "name": "傷害射線"
         }
       },
       "effects": {
         "Calimemnon Crystal": {
-          "name": "Calimemnon Crystal",
-          "description": "<p><strong>Flight.</strong> You have a Fly Speed of 30 feet and can hover.</p>"
+          "name": "卡林門農水晶",
+          "description": "<p><strong>【飛行】</strong>你獲得30呎飛行速度，並且可以懸浮。</p>"
         }
       },
-      "description": "<p>This immaculately cut sixty-sided diamond fits in one hand, yet it contains an entire genie empire. The <em>Calimemnon Crystal</em> was made by high elf magic to imprison the notorious genie lords Calim and Memnon, who once ruled and warred over what is now Calimshan.</p><p>When viewed by a creature with &amp;Reference[Truesight], the normally beautiful diamond is a grotesque sight: trapped within the gemstone are more than a hundred genies, including the physical forms of Calim and Memnon. The genies scream and strain in agonized fury, pressing their belligerent faces against the walls of their crystalline prison.</p><p><em><strong>Properties of the Crystal.</strong></em> While attuned to the crystal, you gain the following benefits:</p><p><strong>Arcane Focus. </strong>You can use the <em>Calimemnon Crystal</em> as an Arcane Focus.</p><p><strong>Flight.</strong> You have a Fly Speed of 30 feet and can hover.</p><p><strong>Spells.</strong> You can cast these spells with the crystal (spell save DC 18): <em>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplCreateorDe]{Create or Destroy Water}</em>, <em>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplEnlargeRed]{Enlarge/Reduce}</em>, <em>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplInvisibili]{Invisibility}</em> (targeting yourself only), and <em>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplMajorImage]{Major Image}</em>.</p><p><em><strong>Aura of Cold.</strong></em> The temperature drops precipitously in a 20-foot Emanation originating from the crystal. Whenever the Emanation enters a creature’s space and whenever a creature enters the Emanation or ends its turn there, the creature takes [[/damage 2d6 type=Cold]] Cold damage. A creature takes this damage only once per turn. While attuned to the crystal, you are unaffected by the aura, and you can take a Magic action to disable or enable the aura.</p><p><em><strong>Healing/Damage Rays.</strong></em> While holding the crystal, you can take a Magic action to fire six rays of volatile energy from the crystal at one or more creatures within 60 feet. You can aim the rays at one target or at several. For each ray, choose one of the following effects:</p><p><strong>Damage Ray.</strong> The target makes a [[/save 18 dexterity]] saving throw, taking [[/damage 6d6 + 6 type=Radiant]] damage on a failed save or half as much damage on a successful one.</p><p><strong>Healing Ray.</strong> The target regains 2d6 + 2 Hit Points.</p><p>This property can’t be used again until the next dawn.</p><p><em><strong>Random Properties.</strong></em> The Artifact has the following random properties (see @UUID[Compendium.dnd-dungeon-masters-guide.content.JournalEntry.dmgMagicItems000.JournalEntryPage.iA3mHmvlXvWKlyBo#artifact-properties]{chapter 7} of the <em>Dungeon Master’s Guide</em>):</p><ul><li>1 minor beneficial property</li><li>1 major beneficial property</li><li>1 minor detrimental property</li><li>1 major detrimental property</li></ul><p><em><strong>Destroying the Crystal.</strong></em> The <em>Calimemnon Crystal</em> is destroyed if the creature attuned to it casts the <em>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplWish000000]{Wish}</em> spell and wishes the crystal destroyed. Nothing else can harm it. When the crystal is destroyed, all the genies in the crystal are released.</p><section class=\"secret\" id=\"secret-609PNB6vZylDC9Mg\"><p><strong>Foundry Note</strong></p><p>The <strong>Damage Ray</strong> and <strong>Healing Ray</strong> are both configured to consume an Item usage. When using both rays as part of an action uncheck the consumption checkbox when using the other activity.</p></section>",
-      "name": "Calimemnon Crystal"
+      "description": "<p>這枚切割無瑕的六十面鑽石可被一手握住，然而其中卻囚禁著整個的巨靈帝國。<em>卡林門農水晶</em>由精靈高等魔法所鑄，用以封印那兩位惡名昭彰的巨靈領主——卡林與門農——他們曾統治並征戰於如今稱作卡林珊的土地。 </p><p>在擁有&amp;Reference[Truesight]{真實視覺}的生物眼中，這原本美麗的鑽石卻化為怪誕的景象：在寶石內部，數以百計的巨靈被囚禁其中，包括卡林與曼農的實體形態。巨靈們在痛苦與狂怒中嘶吼掙扎，他們充滿敵意的面孔緊貼在水晶監獄的牆壁之上。</p><p><em><strong>水晶屬性　</strong></em>與該水晶同調時，你獲得下列好處：</p><p><strong>【奧術法器】</strong>你可以將<em>卡林門農水晶</em>作為奧術法器。</p><p><strong>【飛行】</strong>你獲得30呎的飛行速度且可以懸浮。</p><p><strong>【法術】</strong>你可以用該水晶施放這些法術（法術豁免DC18）： <em>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplCreateorDe]</em>、<em>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplEnlargeRed]</em>、<em>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplInvisibili]</em>（僅自身）、<em>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplMajorImage]</em>.</p><p><em><strong>【寒冷靈光】</strong></em> 源自卡林門農水晶的20呎擴散區域內溫度急劇下降。每當靈光範圍進入生物所在空間、生物進入靈光區域或在其內結束回合時，目標生物承受[[/damage 2d6 type=Cold]]寒冷傷害。每個生物在每個回合會承受此傷害一次。與卡林門農水晶同調期間，你不會受到靈光影響，並且你可以採取魔法動作來開啟或關閉該靈光。</p><p><em><strong>治療/傷害射線　</strong></em>持握卡林曼農水晶期間，你可以採取魔法動作從水晶中發射出六道不穩定能量射線，射向60呎範圍內的一個或多個目標。你可以將射線瞄準一個或多個目標。每道射線都可以選擇以下效應之一： </p><p><strong>【傷害射線】</strong>目標進行一次[[/save 18 dexterity]]豁免，若豁免失敗，則承受[[/damage 6d6 + 6 type=Radiant]]傷害；若豁免成功，僅承受一半的傷害。</p><p><strong>【治療射線】</strong>目標恢復2d6+2生命值。</p><p>直到下個黎明之前，此屬性不能再次使用。</p><p><em><strong>隨機屬性　</strong></em>該神器具有下列隨機屬性（見《城主指南》@UUID[Compendium.dnd-dungeon-masters-guide.content.JournalEntry.dmgMagicItems000.JournalEntryPage.iA3mHmvlXvWKlyBo#artifact-properties]{第七章}）：</p><ul><li>1項次要增益屬性</li><li>1項主要增益屬性</li><li>1項次要減益屬性</li><li>1項主要減益屬性</li></ul><p><em><strong>摧毀水晶　</strong></em>若與其同調的生物施放 <em>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplWish000000]{祈願術}並祈願摧毀</em><em>卡林門農水晶</em>，則水晶被摧毀。除此之外，沒有任何事物能傷害之。當卡林門農水晶被摧毀時，其中的所有巨靈都將被釋放。</p><section class=\"secret\" id=\"secret-609PNB6vZylDC9Mg\"><p><strong>Foundry Note</strong></p><p><strong>傷害射線</strong>與<strong>治療射線</strong>兩者皆被設置為會消耗物品使用次數。若將這兩道射線作為同一個動作來使用，在點選另一個行動時，請取消勾選消耗（Consumption）核取方塊。</p></section>",
+      "name": "卡林門農水晶"
     },
     "Cymrych Hugh's Ring": {
       "name": "Cymrych Hugh's Ring",

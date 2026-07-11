@@ -53,8 +53,8 @@
       "description": "<p>Each creature of your choice in a 30-foot Emanation originating from the target makes a [[/save]]{Strength saving throw.} On a failed save, a creature takes [[/damage]]{Thunder damage} equal to three rolls of your Bardic Inspiration die and has the &amp;Reference[Prone] condition. On a successful save, a creature takes half as much damage only.</p>"
     },
     "Everlasting": {
-      "description": "<p>You don’t gain Exhaustion levels from dehydration, malnutrition, or suffocation. You don’t need to sleep, and magic can’t put you to sleep. You can finish a Long Rest in 4 hours if you spend those hours in an inactive, motionless state, during which you retain consciousness.</p>",
-      "name": "Everlasting"
+      "description": "<p>你不會因脫水、飢餓或窒息獲得力竭等級。你無需睡眠，魔法也無法使你陷入睡眠。你可以保持非活動的靜止狀態來僅用4小時完成長休，且在這期間保持意識清醒。</p>",
+      "name": "永固不朽"
     },
     "Soul Trinkets": {
       "effects": {
@@ -269,26 +269,26 @@
     },
     "Reborn": {
       "name": "重生者",
-      "description": "<p>Reborn are individuals who have died yet inexplicably still live. Some reborn exhibit the scars of fatal ends, their ashen flesh or bloodless veins making it clear that they’ve escaped death. Other reborn are marvels of magic or science, being stitched together from disparate beings or bearing mysterious minds in manufactured bodies. Whatever their origins, reborn know a new life and seek experiences and answers all their own.</p><h4 class=\"entry\">Reborn Traits</h4><p><strong>Creature Type:</strong> Humanoid</p><p><strong>Size:</strong> Medium (about 4–7 feet tall) or Small (about 2–4 feet tall), chosen when you select this species</p><p><strong>Speed:</strong> 30 feet</p><p>As a Reborn, you have these special traits.</p><p><span class=\"inline-entry\"><strong>Escaped Death.</strong></span> @Embed[Compendium.dnd-ravenloft-horrors-within.options.Item.rhwEscapedDeatXY inline]</p><p><span class=\"inline-entry\"><strong>Everlasting.</strong></span> @Embed[Compendium.dnd-ravenloft-horrors-within.options.Item.rhwEverlasting7o inline]</p><p><span class=\"inline-entry\"><strong>Knowledge from a Past Life.</strong></span> @Embed[Compendium.dnd-ravenloft-horrors-within.options.Item.rhwKnowledgefraL inline]</p><p><span class=\"inline-entry\"><strong>Strange Endurance.</strong></span> You have Resistance to one of the following damage types of your choice: Cold, Necrotic, or Poison.</p>",
+      "description": "<p>重生者是指那些已經死去卻又莫名依然存活的個體。有些重生者的身上有著致命傷留下的疤痕，那死灰般的血肉和無血的血管無不表明著他們曾死裡逃生。有些重生者則是魔法或科學造就的奇蹟，他們或由迥然不同的生命縫合而成，或是在人造軀殼中承載著神秘的心智。無論起源如何，重生者都迎來了新生，並尋求屬於他們自己的經歷和答案。</p><h4 class=\"entry\">重生者特性</h4><p><strong>生物類型：</strong>類人生物</p><p><strong>體型：</strong>中型（約4-7呎高）或小型（約2-4呎高），當你選擇此種族時決定</p><p><strong>速度：</strong>30呎</p><p>作為重生者，你擁有這些特性</p><p><span class=\"inline-entry\"><strong>【死裡逃生】</strong></span>@Embed[Compendium.dnd-ravenloft-horrors-within.options.Item.rhwEscapedDeatXY inline]</p><p><span class=\"inline-entry\"><strong>【永固不朽】</strong></span>@Embed[Compendium.dnd-ravenloft-horrors-within.options.Item.rhwEverlasting7o inline]</p><p><span class=\"inline-entry\"><strong>【往昔知識】</strong></span> @Embed[Compendium.dnd-ravenloft-horrors-within.options.Item.rhwKnowledgefraL inline]</p><p><span class=\"inline-entry\"><strong>【奇異耐性】</strong></span>你具有下列一項你所選擇的傷害類型抗性：寒冷、黯蝕、毒素。</p>",
       "advancement": {
         "Strange Endurance": {
-          "hint": "<p>You have Resistance to one of the following damage types of your choice: Cold, Necrotic, or Poison.</p>",
-          "title": "Strange Endurance"
+          "hint": "<p>你具有下列一項你所選擇的傷害類型抗性：寒冷、黯蝕、毒素。</p>",
+          "title": "奇異耐性"
         },
         "Umt70RQ304hjOibr": {
-          "hint": "<p>Medium (about 4–7 feet tall) or Small (about 2–4 feet tall), chosen when you select this species</p>"
+          "hint": "<p>中型（約4-7呎高）或小型（約2-4呎高），當你選擇此種族時決定</p>"
         },
         "Reborn Traits": {
-          "title": "Reborn Traits"
+          "title": "重生者特性"
         }
       }
     },
     "Escaped Death": {
-      "name": "Escaped Death",
-      "description": "<p>You have Advantage on Death Saving Throws.</p>",
+      "name": "死裡逃生",
+      "description": "<p>你的死亡豁免具有優勢。</p>",
       "effects": {
         "Escaped Death": {
-          "name": "Escaped Death"
+          "name": "死裡逃生"
         }
       }
     },
@@ -823,18 +823,18 @@
     "Knowledge from a Past Life": {
       "advancement": {
         "Proficiency in One Skill": {
-          "title": "Proficiency in One Skill"
+          "title": "熟練一項技能"
         }
       },
       "activities": {
         "Past Aids Present": {
-          "name": "Past Aids Present",
-          "condition": "you fail an ability check",
-          "roll": "D20 Bonus"
+          "name": "以過去協助現在",
+          "condition": "屬性檢定失敗",
+          "roll": "D20加值"
         }
       },
-      "description": "<p> You gain proficiency in one skill of your choice.</p><p>In addition, you can temporarily peer into the past to aid you in the present. When you fail an ability check, you can roll 1d6 and add the number rolled to the d20, potentially turning the failure into a success. You can do this a number of times equal to your Proficiency Bonus, and you regain all expended uses when you finish a Long Rest.</p>",
-      "name": "Knowledge from a Past Life"
+      "description": "<p>你獲得一項你所選擇的技能熟練。</p><p>此外，你可以暫時窺探過去來助你應付現在。當你屬性檢定失敗時，你可以擲1d6並將骰值加入d20中，這可能使該次失敗改為成功。你可以如此做的次數等於你的熟練加值，當你完成長休時，你重獲所有已消耗的使用次數。</p>",
+      "name": "往昔知識"
     },
     "Grave Domain": {
       "description": "<p><em>安息亡者，顯化神力</em></p><p>墳墓領域注重生與死的邊界。對從這一領域獲取神力的牧師來說，死亡是多元宇宙中自然且不可避免的一環。 這些牧師致力於摧毀亡靈，並超度亡魂踏入往生。</p><p>此領域的魔法同樣讓牧師能夠暫時將死亡拒之門外。 但這不過是暫緩死亡的到來，絕非徹底的拒絕——因為墳墓，終將收取它的貢賦。</p><p class=\"hide-in-embed\"><em>@UUID[Compendium.dnd-ravenloft-horrors-within.book.JournalEntry.rhwSubclasses000.JournalEntryPage.GraveDomainCleri]{子職業細節}</em></p>",
