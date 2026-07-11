@@ -24,6 +24,96 @@
     "Light": {
       "name": "光亮術",
       "description": "<p>你觸摸一個目前未被其他生物穿著或攜帶的大型或更小的物體。直到法術結束前，該物體散發20呎明亮光照，再延伸出20呎微光光照區域。光線的顏色可以根據你的喜好進行設置。</p><p>以不透明的物體覆蓋該物體可以阻擋光線。若你再次施法，則法術終止。</p>"
+    },
+    "Battle Ready": {
+      "description": "<p>The [[lookup @name]] has Advantage on Initiative rolls.</p>",
+      "name": "Battle Ready"
+    },
+    "Mimicry": {
+      "name": "Mimicry",
+      "description": "<p>The [[lookup @name]] can mimic Beast sounds and Humanoid voices. A creature that hears the sounds can tell they are imitations with a successful DC 14 Wisdom (Insight) check.</p>"
+    },
+    "Telepathic Shroud": {
+      "name": "Telepathic Shroud",
+      "description": "<p>The [[lookup @name]] is immune to any effect that would sense its emotions or read its thoughts, as well as to spells from the school of Divination. As a Bonus Action, the [[lookup @name]] can suppress this trait or reactivate it.</p>"
+    },
+    "Gloom Shroud": {
+      "activities": {
+        "Emanation Template": {
+          "name": "Emanation Template"
+        }
+      },
+      "description": "<p>Imperceptible energy channeled from the Shadowfell extends from the [[lookup @name]] in a 20-foot Emanation. Other creatures in that area have Disadvantage on Charisma checks and Charisma saving throws.</p>",
+      "name": "Gloom Shroud"
+    },
+    "Dimensional Disruption": {
+      "description": "<p>Disruptive energy extends from the [[lookup @name]] in a 30-foot Emanation. Other creatures can't teleport to or from a space in that area. Any attempt to do so is wasted.</p>",
+      "activities": {
+        "Disruption Template": {
+          "name": "Disruption Template"
+        }
+      },
+      "name": "Dimensional Disruption"
+    },
+    "Emissary of Juiblex": {
+      "name": "Emissary of Juiblex",
+      "description": "<p>When the [[lookup @name]] dies, its body disgorges a Hostile <strong>Ochre Jelly</strong> in the same space.</p>"
+    },
+    "Telepathic Bond": {
+      "name": "Telepathic Bond",
+      "description": "<p>The [[lookup @name]] is linked psychically to another creature. While both are on the same plane of existence, they can communicate telepathically with each other.</p>"
+    },
+    "Beast Whisperer": {
+      "description": "<p>The [[lookup @name]] can communicate with Beasts as if they shared a common language.</p>",
+      "name": "Beast Whisperer"
+    },
+    "Warrior's Wrath": {
+      "description": "<p>The [[lookup @name]] has Advantage on melee attack rolls against any &amp;Reference[Bloodied] creature.</p>",
+      "name": "Warrior's Wrath"
+    },
+    "Resonant Connection": {
+      "name": "Resonant Connection",
+      "description": "<p>The [[lookup @name]] has a supernatural connection to another creature or an object and knows the most direct route to it, provided the two are within 1 mile of each other.</p>"
+    },
+    "Wild Talent": {
+      "name": "Wild Talent",
+      "description": "<p>Choose one cantrip; the [[lookup @name]] can cast that cantrip without spell components, using Intelligence, Wisdom, or Charisma as the spellcasting ability.</p>"
+    },
+    "Ventriloquism": {
+      "name": "Ventriloquism",
+      "description": "<p>Whenever the [[lookup @name]] speaks, it can choose a point within 30 feet of itself; its voice emanates from that point.</p>"
+    },
+    "Disintegration": {
+      "description": "<p>When the [[lookup @name]] dies, its body and nonmagical possessions turn to dust. Any magic items it possessed are left behind in its space.</p>",
+      "name": "Disintegration"
+    },
+    "Death Jinx": {
+      "name": "Death Jinx",
+      "description": "<p>When the [[lookup @name]] dies, one random creature within 10 feet of the dead [[lookup @name]] is targeted by a @UUID[Compendium.dnd-players-handbook.spells.Item.phbsplBane000000]{Bane} spell (save DC 13), which lasts for its full duration.</p>"
+    },
+    "Aversion to Fire": {
+      "name": "Aversion to Fire",
+      "description": "<p>If the [[lookup @name]] takes Fire damage, it has Disadvantage on attack rolls and ability checks until the end of its next turn.</p>"
+    },
+    "Siege Monster": {
+      "name": "Siege Monster",
+      "description": "<p>The [[lookup @name]] deals double damage to objects and structures.</p>"
+    },
+    "Disciple of the Nine Hells": {
+      "description": "<p>When the [[lookup @name]] dies, its body disgorges a Hostile @UUID[Compendium.dnd-dungeon-masters-guide.actors.Actor.dmgmobImp0000000]{Imp} in the same space.</p>",
+      "name": "Disciple of the Nine Hells"
+    },
+    "Steadfast": {
+      "name": "Steadfast",
+      "description": "<p>The [[lookup @name]] has Immunity to the &amp;Reference[Frightened apply=false] condition while it can see an ally within 30 feet of itself.</p>"
+    },
+    "Slaad Host": {
+      "name": "Slaad Host",
+      "description": "<p>When the [[lookup @name]] dies, a Hostile <strong>Slaad Tadpole</strong> bursts from its innards in the same space.</p>"
+    },
+    "Poison Tolerant": {
+      "name": "Poison Tolerant",
+      "description": "<p>The [[lookup @name]] has Advantage on saving throws it makes to avoid or end the &amp;Reference[Poisoned apply=false] condition.</p>"
     }
   }
 }
