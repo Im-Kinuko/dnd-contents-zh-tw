@@ -283,7 +283,7 @@
           "name": "Enhance Fortitude: Constitution Bonus"
         }
       },
-      "name": "艾恩石，堅韌",
+      "name": "Ioun Stone of Fortitude",
       "description": "<p><em>See: @UUID[Compendium.dnd5e.equipment24.Item.dmgIounStone0000]{Ioun Stone}</em></p><p>When you take a Magic action to toss an <em>Ioun Stone</em> into the air, the stone orbits your head at a distance of 1d3 feet, conferring its benefit to you while doing so. You can have up to three <em>Ioun Stones</em> orbiting your head at the same time.</p><p>As a Utilize action, you can seize and stow any number of <em>Ioun Stones</em> orbiting your head. If your Attunement to an <em>Ioun Stone</em> ends while it's orbiting your head, the stone falls as though you had dropped it.</p><p>Your Constitution increases by 2, to a maximum of 20, while this pink rhomboid orbits your head.</p>"
     },
     "Flame Tongue": {
@@ -450,7 +450,7 @@
         "Luck": {
           "roll": "Roll D20",
           "condition": "failed D20 Test",
-          "name": "Luck"
+          "name": "幸運"
         },
         "Luck Blade": {
           "name": "Luck Blade"
@@ -848,7 +848,7 @@
       "description": "<p>You can douse a creature, object, or space with Oil or use it as fuel, as detailed below.</p><p><strong>Dousing a Creature or an Object.</strong> When you take the Attack action, you can replace one of your attacks with throwing an Oil flask. Target one creature or object within 20 feet of yourself. The target must succeed on a Dexterity saving throw (DC 8 plus your Dexterity modifier and Proficiency Bonus) or be covered in oil. If the target takes Fire damage before the oil dries (after 1 minute), the target takes an extra [[/damage 5 type=fire]] damage from burning oil.</p><p><strong>Dousing a Space.</strong> You can take the Utilize action to pour an Oil flask on level ground to cover a 5-foot-square area within 5 feet of yourself. If lit, the oil burns until the end of the turn 2 rounds from when the oil was lit (or 12 seconds) and deals 5 Fire damage to any creature that enters the area or ends its turn there. A creature can take this damage only once per turn.</p><p><strong>Fuel.</strong> Oil serves as fuel for Lamps and Lanterns. Once lit, a flask of Oil burns for 6 hours in a Lamp or Lantern. That duration doesn't need to be consecutive; you can extinguish the burning Oil (as a Utilize action) and rekindle it again until it has burned for a total of 6 hours.</p>",
       "activities": {
         "Throw": {
-          "name": "投擲"
+          "name": "Throw"
         },
         "Douse Space": {
           "name": "Douse Space"
@@ -897,7 +897,7 @@
       "name": "Pipe of Smoke Monsters"
     },
     "Ioun Stone of Agility": {
-      "name": "艾恩石，機敏",
+      "name": "Ioun Stone of Agility",
       "effects": {
         "Enhanced Agility: Dexterity Bonus": {
           "description": "<p>Your Dexterity increases by 2, to a maximum of 20, while this deep-red sphere orbits your head.</p>",
@@ -1047,7 +1047,7 @@
           "name": "Bonus Damage: Bows"
         }
       },
-      "name": "射手護腕",
+      "name": "Bracers of Archery",
       "description": "<div><p><em>Wondrous Item, Uncommon (Requires Attunement)</em></p></div><p>While wearing these bracers, you have proficiency with the Longbow and Shortbow, and you gain a +2 bonus to damage rolls made with such weapons.</p><section class=\"secret\" id=\"secret-l1W6lw8WR2ku4qP2\"><p><strong>Foundry Note</strong></p><p>The <strong>Bonus Damage: Bows</strong> passive effect applies the damage bonus to <em>all</em> ranged weapon damage rolls and should be disabled before rolling damage for weapons other than a Longbow or Shortbow.</p></section>"
     },
     "Whip": {
@@ -1449,7 +1449,7 @@
       "name": "聖水",
       "activities": {
         "Throw": {
-          "name": "投擲"
+          "name": "Throw"
         }
       },
       "description": "<p>When you take the Attack action, you can replace one of your attacks with throwing a flask of Holy Water. Target one creature you can see within 20 feet of yourself. The target must succeed on a Dexterity saving throw (DC 8 plus your Dexterity modifier and Proficiency Bonus) or take 2d8 Radiant damage if it is a Fiend or an Undead.</p>"
@@ -2126,7 +2126,7 @@
       "description": "<p><em>Wondrous Item, Legendary</em></p><p>This 2-foot-diameter black sphere is a hole in the multiverse, hovering in space and stabilized by a magical field surrounding it.</p><p>The sphere obliterates all matter it passes through and all matter that passes through it. Artifacts are the exception. Unless an Artifact is susceptible to damage from a <em>Sphere of Annihilation</em>, it passes through the sphere unscathed. Anything else that touches the sphere but isn't wholly engulfed and obliterated by it takes 8d10 Force damage.</p><p><em><strong>Controlling the Sphere.</strong></em> A <em>Sphere of Annihilation</em> is stationary until someone takes control of it. If you are within 60 feet of a sphere, you can take a Magic action to make a DC 25 Intelligence (Arcana) check. On a successful check, you control the sphere until the start of your next turn, and if it was under another creature's control, that creature loses control of the sphere. On a failed check, the sphere moves 10 feet toward you in a straight line.</p><p>While in control of the sphere, you can take a Bonus Action to cause it to move in one direction of your choice, up to a number of feet equal to 5 times your Intelligence modifier (minimum 5 feet). Any creature whose space the sphere enters must succeed on a DC 19 Dexterity saving throw or be touched by it, taking 8d10 Force damage. A creature reduced to 0 Hit Points by this damage is obliterated, leaving its possessions behind but no other physical remains.</p><p><em><strong>Sphere Interactions.</strong></em> If the sphere comes into contact with a planar portal (such as that created by the @UUID[Compendium.dnd5e.spells24.Item.phbsplGate000000]{Gate} spell) or an extradimensional space (such as that within a @UUID[Compendium.dnd5e.equipment24.Item.dmgPortableHole0]{Portable Hole}), the GM determines randomly what happens using the following table.</p><p>@Embed[Compendium.dnd5e.tables24.RollTable.dmgSphereOfAnnih]</p>"
     },
     "Ioun Stone of Regeneration": {
-      "name": "Ioun Stone of Regeneration",
+      "name": "艾恩石，再生",
       "activities": {
         "Regeneration": {
           "condition": "once per hour if you have at least 1 Hit Point",
@@ -2681,7 +2681,7 @@
         }
       },
       "description": "<p><em>See: @UUID[Compendium.dnd5e.equipment24.Item.dmgIounStone0000]{Ioun Stone}</em></p><p>When you take a Magic action to toss an <em>Ioun Stone</em> into the air, the stone orbits your head at a distance of 1d3 feet, conferring its benefit to you while doing so. You can have up to three <em>Ioun Stones</em> orbiting your head at the same time.</p><p>As a Utilize action, you can seize and stow any number of <em>Ioun Stones</em> orbiting your head. If your Attunement to an <em>Ioun Stone</em> ends while it's orbiting your head, the stone falls as though you had dropped it.</p><p>Your Wisdom increases by 2, to a maximum of 20, while this incandescent blue sphere orbits your head.</p>",
-      "name": "艾恩石，洞悉"
+      "name": "Ioun Stone of Insight"
     },
     "Cook's Utensils": {
       "activities": {
@@ -2939,7 +2939,7 @@
       }
     },
     "Ioun Stone of Mastery": {
-      "name": "艾恩石，精通",
+      "name": "Ioun Stone of Mastery",
       "effects": {
         "Enhanced Mastery: Proficiency Bonus": {
           "description": "<p>Your Proficiency Bonus increases by 1 while this pale green prism orbits your head.</p>",
@@ -3194,7 +3194,7 @@
           "name": "Ogre Strength"
         }
       },
-      "name": "食人魔力量護手",
+      "name": "Gauntlets of Ogre Power",
       "description": "<p><em>Wondrous Item, Uncommon (Requires Attunement)</em></p><p>Your Strength is 19 while you wear these gauntlets. They have no effect on you if your Strength is 19 or higher without them.</p>"
     },
     "Burnt Othur Fumes": {
@@ -3933,7 +3933,7 @@
       "name": "強健護符"
     },
     "Map or Scroll Case": {
-      "description": "<p>這款圓柱形皮套最多可容納十捲紙或五卷羊皮紙。</p>",
+      "description": "這款圓柱形皮套最多可容納十捲紙或五卷羊皮紙。",
       "name": "地圖或卷軸筒"
     },
     "Helm of Teleportation": {
@@ -4239,7 +4239,7 @@
     "Dwarven Thrower": {
       "activities": {
         "Throw": {
-          "name": "投擲",
+          "name": "Throw",
           "chatFlavor": "Bonus Damage: 1d8 Force vs Giant"
         },
         "Attack": {
@@ -4373,7 +4373,7 @@
       "description": "<p><em>Wondrous Item, Uncommon (Requires Attunement by a Spellcaster)</em></p><p>While this pearl is on your person, you can take a Magic action to regain one expended spell slot of level 3 or lower. Once you use the pearl, it can't be used again until the next dawn.</p>",
       "activities": {
         "Regain Spell Slot": {
-          "name": "Regain Spell Slot"
+          "name": "重獲法術位"
         }
       },
       "name": "法力再生珍珠"
@@ -4513,7 +4513,7 @@
     "Grappling Hook": {
       "activities": {
         "Throw": {
-          "name": "投擲"
+          "name": "Throw"
         }
       },
       "description": "<p>As a Utilize action, you can throw the Grappling Hook at a railing, a ledge, or another catch within 50 feet of yourself, and the hook catches on if you succeed on a DC 13 Dexterity (Acrobatics) check. If you tied a Rope to the hook, you can then climb it.</p>",
@@ -4606,7 +4606,7 @@
           "name": "Enhanced Leadership: Charisma Bonus"
         }
       },
-      "name": "艾恩石，統御"
+      "name": "Ioun Stone of Leadership"
     },
     "Ring of Feather Falling": {
       "description": "<p><em>Ring, Rare (Requires Attunement)</em></p><p>When you fall while wearing this ring, you descend 60 feet per round and take no damage from falling.</p>",
@@ -4925,7 +4925,7 @@
       "name": "Midsize Compartment"
     },
     "Staff of Fire": {
-      "name": "火焰法杖",
+      "name": "Staff of Fire",
       "effects": {
         "Fire Resistance": {
           "name": "Fire Resistance"
@@ -5377,7 +5377,7 @@
       "name": "飛鏢"
     },
     "Staff of Power": {
-      "name": "威力法杖",
+      "name": "Staff of Power",
       "description": "<p><em>@UUID[Compendium.dnd5e.equipment24.Item.phbafcStaffalsoa]{Staff}, Very Rare (Requires Attunement by a Sorcerer, Warlock, or Wizard)</em></p><p>This staff has 20 charges and can be wielded as a magic Quarterstaff that grants a +2 bonus to attack rolls and damage rolls made with it. While holding it, you gain a +2 bonus to Armor Class, saving throws, and spell attack rolls.</p><p><em><strong>Spells.</strong></em> While holding the staff, you can cast one of the spells on the following table from it, using your spell save DC. The table indicates how many charges you must expend to cast the spell.</p><details><summary>Spell Cost Table</summary><table><thead><tr><th><p>Spell</p></th><th><p>Charge Cost</p></th><th></th></tr></thead><tbody><tr><td><p>@UUID[Compendium.dnd5e.spells24.Item.phbsplConeofCold]{Cone of Cold}</p></td><td><p>5</p></td><td></td></tr><tr><td><p>@UUID[Compendium.dnd5e.spells24.Item.phbsplFireball00]{Fireball} (level 5 version)</p></td><td><p>5</p></td><td></td></tr><tr><td><p>@UUID[Compendium.dnd5e.spells24.Item.phbsplGlobeofInv]{Globe of Invulnerability}</p></td><td><p>6</p></td><td></td></tr><tr><td><p>@UUID[Compendium.dnd5e.spells24.Item.phbsplHoldMonste]{Hold Monster}</p></td><td><p>5</p></td><td></td></tr><tr><td><p>@UUID[Compendium.dnd5e.spells24.Item.phbsplLevitate00]{Levitate}</p></td><td><p>2</p></td><td></td></tr><tr><td><p>@UUID[Compendium.dnd5e.spells24.Item.phbsplLightningB]{Lightning Bolt} (level 5 version)</p></td><td><p>5</p></td><td></td></tr><tr><td><p>@UUID[Compendium.dnd5e.spells24.Item.phbsplMagicMissi]{Magic Missile}</p></td><td><p>1</p></td><td></td></tr><tr><td><p>@UUID[Compendium.dnd5e.spells24.Item.phbsplRayofEnfee]{Ray of Enfeeblement}</p></td><td><p>1</p></td><td></td></tr><tr><td><p>@UUID[Compendium.dnd5e.spells24.Item.phbsplWallofForc]{Wall of Force}</p></td><td><p>5</p></td><td></td></tr></tbody></table></details><p><em><strong>Regaining Charges.</strong></em> The staff regains 2d8 + 4 expended charges daily at dawn. If you expend the last charge, roll [[/r 1d20]]. On a 1, the staff retains its +2 bonus to attack rolls and damage rolls but loses all other properties. On a 20, the staff regains [[/r 1d8 + 2]] charges.</p><p><em><strong>Retributive Strike.</strong></em> You can take a Magic action to break the staff over your knee or against a solid surface. The staff is destroyed and releases its magic in an explosion that fills a 30-foot Emanation originating from itself. You have a 50 percent chance to instantly travel to a random plane of existence, avoiding the explosion. If you fail to avoid the effect, you take Force damage equal to 16 times the number of charges in the staff. Each other creature in the area makes a DC 17 Dexterity saving throw. On a failed save, a creature takes Force damage equal to 4 times the number of charges in the staff. On a successful save, a creature takes half as much damage.</p>",
       "activities": {
         "Retributive Strike: Save": {
@@ -5389,7 +5389,7 @@
       },
       "effects": {
         "Staff of Power": {
-          "name": "威力法杖"
+          "name": "Staff of Power"
         }
       }
     },
@@ -5561,7 +5561,7 @@
         }
       },
       "description": "<p><em>@UUID[Compendium.dnd5e.equipment24.Item.phbafcStaffalsoa]{Staff}, Legendary (Requires Attunement by a Sorcerer, Warlock, or Wizard)</em></p><p>This staff has 50 charges and can be wielded as a magic Quarterstaff that grants a +2 bonus to attack rolls and damage rolls made with it. While you hold it, you gain a +2 bonus to spell attack rolls.</p><p><em><strong>Spell Absorption.</strong></em> While holding the staff, you have Advantage on saving throws against spells. In addition, you can take a Reaction when another creature casts a spell that targets only you. If you do, the staff absorbs the magic of the spell, canceling its effect and gaining a number of charges equal to the absorbed spell's level. However, if doing so brings the staff's total number of charges above 50, the staff explodes as if you activated its Retributive Strike (see below).</p><p><em><strong>Spells.</strong></em> While holding the staff, you can cast one of the spells on the following table from it, using your spell save DC. The table indicates how many charges you must expend to cast the spell.</p><details><summary>Spell Cost Table</summary><table><thead><tr><th><p>Spell</p></th><th><p>Charge Cost</p></th><th></th></tr></thead><tbody><tr><td><p>@UUID[Compendium.dnd5e.spells24.Item.phbsplArcaneLock]{Arcane Lock}</p></td><td><p>0</p></td><td></td></tr><tr><td><p>@UUID[Compendium.dnd5e.spells24.Item.phbsplConjureEle]{Conjure Elemental}</p></td><td><p>7</p></td><td></td></tr><tr><td><p>@UUID[Compendium.dnd5e.spells24.Item.phbsplDetectMagi]{Detect Magic}</p></td><td><p>0</p></td><td></td></tr><tr><td><p>@UUID[Compendium.dnd5e.spells24.Item.phbsplDispelMagi]{Dispel Magic}</p></td><td><p>3</p></td><td></td></tr><tr><td><p>@UUID[Compendium.dnd5e.spells24.Item.phbsplEnlargeRed]{Enlarge/Reduce}</p></td><td><p>0</p></td><td></td></tr><tr><td><p>@UUID[Compendium.dnd5e.spells24.Item.phbsplFireball00]{Fireball} (level 7 version)</p></td><td><p>7</p></td><td></td></tr><tr><td><p>@UUID[Compendium.dnd5e.spells24.Item.phbsplFlamingSph]{Flaming Sphere}</p></td><td><p>2</p></td><td></td></tr><tr><td><p>@UUID[Compendium.dnd5e.spells24.Item.phbsplIceStorm00]{Ice Storm}</p></td><td><p>4</p></td><td></td></tr><tr><td><p>@UUID[Compendium.dnd5e.spells24.Item.phbsplInvisibili]{Invisibility}</p></td><td><p>2</p></td><td></td></tr><tr><td><p>@UUID[Compendium.dnd5e.spells24.Item.phbsplKnock00000]{Knock}</p></td><td><p>2</p></td><td></td></tr><tr><td><p>@UUID[Compendium.dnd5e.spells24.Item.phbsplLight00000]{Light}</p></td><td><p>0</p></td><td></td></tr><tr><td><p>@UUID[Compendium.dnd5e.spells24.Item.phbsplLightningB]{Lightning Bolt} (level 7 version)</p></td><td><p>7</p></td><td></td></tr><tr><td><p>@UUID[Compendium.dnd5e.spells24.Item.phbsplMageHand00]{Mage Hand}</p></td><td><p>0</p></td><td></td></tr><tr><td><p>@UUID[Compendium.dnd5e.spells24.Item.phbsplPasswall00]{Passwall}</p></td><td><p>5</p></td><td></td></tr><tr><td><p>@UUID[Compendium.dnd5e.spells24.Item.phbsplPlaneShift]{Plane Shift}</p></td><td><p>7</p></td><td></td></tr><tr><td><p>@UUID[Compendium.dnd5e.spells24.Item.phbEvilAndGoodPr]{Protection from Evil and Good}</p></td><td><p>0</p></td><td></td></tr><tr><td><p>@UUID[Compendium.dnd5e.spells24.Item.phbsplTelekinesi]{Telekinesis}</p></td><td><p>5</p></td><td></td></tr><tr><td><p>@UUID[Compendium.dnd5e.spells24.Item.phbsplWallofFire]{Wall of Fire}</p></td><td><p>4</p></td><td></td></tr><tr><td><p>@UUID[Compendium.dnd5e.spells24.Item.phbsplWeb0000000]{Web}</p></td><td><p>2</p></td><td></td></tr></tbody></table></details><p><em><strong>Regaining Charges.</strong></em> The staff regains 4d6 + 2 expended charges daily at dawn. If you expend the last charge, roll [[/r 1d20]]. On a 20, the staff regains [[/r 1d12 + 1]] charges.</p><p><em><strong>Retributive Strike.</strong></em> You can take a Magic action to break the staff over your knee or against a solid surface. The staff is destroyed and releases its magic in an explosion that fills a 30-foot Emanation originating from itself. You have a 50 percent chance to instantly travel to a random plane of existence, avoiding the explosion ([[/r 1d2]], teleported on a 1). If you fail to avoid the effect, you take Force damage equal to 16 times the number of charges in the staff. Each other creature in the area makes a DC 17 Dexterity saving throw. On a failed save, a creature takes Force damage equal to 6 times the number of charges in the staff. On a successful save, a creature takes half as much damage.</p><section class=\"secret\" id=\"secret-aWlDNImPrAgu7dbv\"><p><strong>Foundry Note</strong></p><p>The <strong>Spell Absorption</strong> activity allows you to select the level of the cast spell and restores that number of charges.</p></section>",
-      "name": "賢者法杖"
+      "name": "Staff of the Magi"
     },
     "Wand of Binding": {
       "description": "<p><em>Wand, Rare (Requires Attunement)</em></p><p>This wand has 7 charges.</p><p><em><strong>Spells.</strong></em> While holding the wand, you can cast one of the spells (save DC 17) on the following table from it. The table indicates how many charges you must expend to cast the spell.</p><table><thead><tr><th><p>Spell</p></th><th><p>Charge Cost</p></th><th></th></tr></thead><tbody><tr><td><p>@UUID[Compendium.dnd5e.spells24.Item.phbsplHoldMonste]{Hold Monster}</p></td><td><p>5</p></td><td></td></tr><tr><td><p>@UUID[Compendium.dnd5e.spells24.Item.phbsplHoldPerson]{Hold Person}</p></td><td><p>2</p></td><td></td></tr></tbody></table><p><em><strong>Regaining Charges.</strong></em> The wand regains 1d6 + 1 expended charges daily at dawn. If you expend the wand's last charge, roll [[/r 1d20]]. On a 1, the wand crumbles into ashes and is destroyed.</p>",
@@ -5857,7 +5857,7 @@
       "name": "學者套裝"
     },
     "Staff of Frost": {
-      "name": "冰霜法杖",
+      "name": "Staff of Frost",
       "effects": {
         "Resistance to Cold": {
           "name": "Resistance to Cold"
