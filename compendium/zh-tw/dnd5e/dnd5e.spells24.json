@@ -81,11 +81,23 @@
             "name": "{}（克敵機先）"
           },
           "name": "克敵機先"
+        },
+        "Ranged Weapon": {
+          "name": "Ranged Weapon",
+          "changes": {
+            "name": "{} (True Strike)"
+          }
         }
       },
       "activities": {
         "Enchant Weapon": {
           "name": "附魔武器"
+        },
+        "Spellcasting Attack": {
+          "name": "Spellcasting Attack"
+        },
+        "cGNXKjpoRima6wjQ": {
+          "name": "Spellcasting Attack"
         }
       }
     },
@@ -466,22 +478,26 @@
       "activities": {
         "Turn 5+: Gusts and Rain": {
           "name": "Turn 5+: Gusts and Rain",
-          "condition": "at the start of your turn"
+          "condition": "at the start of your turn",
+          "target": "creatures under the cloud"
         },
         "Turn 4: Hailstones": {
           "condition": "at the start of your turn",
-          "name": "Turn 4: Hailstones"
+          "name": "Turn 4: Hailstones",
+          "target": "creatures under the cloud"
         },
         "Turn 3: Lightning": {
           "condition": "at the start of your turn",
-          "name": "Turn 3: Lightning"
+          "name": "Turn 3: Lightning",
+          "target": "creatures under the cloud"
         },
         "Create Storm": {
           "name": "Create Storm"
         },
         "Turn 2: Acid Rain": {
           "name": "Turn 2: Acid Rain",
-          "condition": "at the start of your turn"
+          "condition": "at the start of your turn",
+          "target": "creatures under the cloud"
         }
       },
       "effects": {
@@ -805,7 +821,8 @@
       "description": "<p>You conjure a Medium spirit from the Feywild in an unoccupied space you can see within range. The spirit lasts for the duration, and it looks like a Fey creature of your choice. When the spirit appears, you can make one melee spell attack against a creature within 5 feet of it. On a hit, the target takes Psychic damage equal to 3d12 plus your spellcasting ability modifier, and the target has the &amp;Reference[Frightened] condition until the start of your next turn, with both you and the spirit as the source of the fear.</p><p>As a Bonus Action on your later turns, you can teleport the spirit to an unoccupied space you can see within 30 feet of the space it left and make the attack against a creature within 5 feet of it.</p><p><strong>【升環法術效應】</strong> The damage increases by 2d12 for each spell slot level above 6.</p>",
       "activities": {
         "Teleport and Attack": {
-          "name": "Teleport and Attack"
+          "name": "Teleport and Attack",
+          "target": "within range of spirit"
         }
       }
     },
@@ -820,7 +837,21 @@
     },
     "Sanctuary": {
       "name": "聖所",
-      "description": "<p><em>Level 5 Bastion Facility</em></p><p><strong>Prerequisite: </strong>Ability to use a Holy Symbol or Druidic Focus as a Spellcasting Focus</p><p><strong>Space: </strong>Roomy</p><p><strong>Hirelings: </strong>1</p><p><strong>Order: </strong>Craft</p><p>Icons of your religion are displayed in this facility, which includes a quiet place for worship.</p><p><em><strong>Sanctuary Charm.</strong></em> After spending a Long Rest in your Bastion, you gain a magical Charm (see @UUID[Compendium.dnd-dungeon-masters-guide.content.JournalEntry.dmgDmsToolbox000.JournalEntryPage.U9qU1oUFTPAK7g50]{Supernatural Gifts}) that lasts for 7 days or until you use it. The Charm allows you to cast <em>Healing Word</em> once without expending a spell slot. You can’t gain this Charm again while you still have it.</p><p><em><strong>Craft: Sacred Focus.</strong></em><strong> </strong>When you issue the Craft order to this facility, you commission the facility’s hireling to craft a @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagDruidicFocu]{Druidic Focus} (wooden staff) or a @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagHolySymbolV]{Holy Symbol}. The work takes 7 days and costs no money. The item remains in your Bastion until you claim it.</p>"
+      "description": "<p><em>Level 5 Bastion Facility</em></p><p><strong>Prerequisite: </strong>Ability to use a Holy Symbol or Druidic Focus as a Spellcasting Focus</p><p><strong>Space: </strong>Roomy</p><p><strong>Hirelings: </strong>1</p><p><strong>Order: </strong>Craft</p><p>Icons of your religion are displayed in this facility, which includes a quiet place for worship.</p><p><em><strong>Sanctuary Charm.</strong></em> After spending a Long Rest in your Bastion, you gain a magical Charm (see @UUID[Compendium.dnd-dungeon-masters-guide.content.JournalEntry.dmgDmsToolbox000.JournalEntryPage.U9qU1oUFTPAK7g50]{Supernatural Gifts}) that lasts for 7 days or until you use it. The Charm allows you to cast <em>Healing Word</em> once without expending a spell slot. You can’t gain this Charm again while you still have it.</p><p><em><strong>Craft: Sacred Focus.</strong></em><strong> </strong>When you issue the Craft order to this facility, you commission the facility’s hireling to craft a @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagDruidicFocu]{Druidic Focus} (wooden staff) or a @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagHolySymbolV]{Holy Symbol}. The work takes 7 days and costs no money. The item remains in your Bastion until you claim it.</p>",
+      "activities": {
+        "Cast": {
+          "name": "Cast"
+        },
+        "Save on Target": {
+          "name": "Save on Target"
+        }
+      },
+      "effects": {
+        "Warded": {
+          "description": "<p>Until the spell ends, any creature who targets the warded creature with an attack roll or a damaging spell must succeed on a [[/save ability=wis format=long]] or either choose a new target or lose the attack or spell.</p><p> The spell ends if the warded creature makes an attack roll, casts a spell, or deals damage.</p>",
+          "name": "Warded"
+        }
+      }
     },
     "Counterspell": {
       "name": "反制法術",
@@ -862,10 +893,12 @@
           "name": "施放"
         },
         "Dismissal": {
-          "name": "Dismissal"
+          "name": "Dismissal",
+          "target": "Celestial, Elemental, Fey, Fiend, or Undead"
         },
         "Break Enchantment": {
-          "name": "Break Enchantment"
+          "name": "Break Enchantment",
+          "target": "Celestial, Elemental, Fey, Fiend, or Undead"
         }
       }
     },
@@ -1680,7 +1713,8 @@
         },
         "Collapsing Structure Save": {
           "name": "Collapsing Structure Save",
-          "condition": "when a structure drops to 0 Hit Points"
+          "condition": "when a structure drops to 0 Hit Points",
+          "range": "half of the structure's height"
         }
       },
       "effects": {
@@ -1775,7 +1809,8 @@
           "name": "Secondhand and Picture"
         },
         "Create Sensor": {
-          "name": "Create Sensor"
+          "name": "Create Sensor",
+          "target": "at target location or within 10 feet of target creature"
         }
       }
     },
@@ -1811,6 +1846,9 @@
       "activities": {
         "Imbue Weapon": {
           "name": "灌注武器"
+        },
+        "Spellcasting Attack": {
+          "name": "Spellcasting Attack"
         }
       }
     },
@@ -2052,7 +2090,8 @@
       "activities": {
         "Damage Forbidden Creature": {
           "condition": "creature of a chosen type enters the spell’s area for the first time on a turn or ends its turn there",
-          "name": "Damage Forbidden Creature"
+          "name": "Damage Forbidden Creature",
+          "range": "within the spell's area"
         },
         "Create Ward": {
           "name": "Create Ward"
@@ -2126,7 +2165,13 @@
     },
     "Shield": {
       "name": "盾牌",
-      "description": "<p>You gain the Armor Class benefit of a Shield only if you have training with it.</p>"
+      "description": "<p>You gain the Armor Class benefit of a Shield only if you have training with it.</p>",
+      "effects": {
+        "Imperceptible Barrier": {
+          "description": "<p>Until the start of your next turn, you have a +5 bonus to AC, including against the triggering attack, and you take no damage from <em>Magic Missile</em>.</p>",
+          "name": "Imperceptible Barrier"
+        }
+      }
     },
     "Lightning Bolt": {
       "name": "閃電束",
@@ -2762,7 +2807,8 @@
         },
         "Possess Humanoid": {
           "name": "Possess Humanoid",
-          "condition": "your soul inhabits the container"
+          "condition": "your soul inhabits the container",
+          "target": "target is Humanoid"
         }
       }
     },
@@ -3065,7 +3111,13 @@
     },
     "Thaumaturgy": {
       "name": "奇術",
-      "description": "<p>你在射程內顯現出一個小小的奇蹟。你在射程內創造以下效果之一。若你多次施放此法術，則你最多可以同時讓三種持續1分鐘的效果處於啟動狀態。</p><p><strong>【變化眼眸】</strong>你可以改變你眼睛的外觀，持續1分鐘。</p><p><strong>【放大聲音】</strong>你的聲音比正常聲音大三倍，持續1分鐘。在持續期間內，你在 [[/check ability=cha skill=itm]]檢定上具有優勢。</p><p><strong>【玩火】</strong>你可以讓火焰閃爍、變亮、變暗或改變顏色，持續1分鐘。</p><p><strong>【無形之手】</strong>你瞬間使一個未上鎖的門窗突然開啟或猛然關閉。</p><p><strong>【幻音】</strong>你在射程內你所選擇的一點創造出一個瞬間的聲音，比如雷聲隆隆、烏鴉喳喳或低語切切。</p><p><strong>【微震】</strong>你在地面上引發一陣無害的震動，持續1分鐘。</p>"
+      "description": "<p>你在射程內顯現出一個小小的奇蹟。你在射程內創造以下效果之一。若你多次施放此法術，則你最多可以同時讓三種持續1分鐘的效果處於啟動狀態。</p><p><strong>【變化眼眸】</strong>你可以改變你眼睛的外觀，持續1分鐘。</p><p><strong>【放大聲音】</strong>你的聲音比正常聲音大三倍，持續1分鐘。在持續期間內，你在 [[/check ability=cha skill=itm]]檢定上具有優勢。</p><p><strong>【玩火】</strong>你可以讓火焰閃爍、變亮、變暗或改變顏色，持續1分鐘。</p><p><strong>【無形之手】</strong>你瞬間使一個未上鎖的門窗突然開啟或猛然關閉。</p><p><strong>【幻音】</strong>你在射程內你所選擇的一點創造出一個瞬間的聲音，比如雷聲隆隆、烏鴉喳喳或低語切切。</p><p><strong>【微震】</strong>你在地面上引發一陣無害的震動，持續1分鐘。</p>",
+      "effects": {
+        "Booming Voice": {
+          "name": "Booming Voice",
+          "description": "<p>Your voice booms up to three times as loud as normal for 1 minute. For the duration, you have Advantage on [[/check ability=cha skill=itm]] checks.</p>"
+        }
+      }
     },
     "Enthrall": {
       "name": "注目術",
@@ -3209,6 +3261,16 @@
         },
         "Mark Creature": {
           "name": "標記生物"
+        },
+        "Move Mark": {
+          "condition": "when the currently marked target drops to 0 Hit Points",
+          "name": "Move Mark"
+        }
+      },
+      "effects": {
+        "Hunter's Mark": {
+          "name": "Hunter's Mark",
+          "description": "<p>Until the spell ends, the caster deals an extra [[/damage 1d6 force]] damage to the target whenever they hit it with an attack roll.</p>"
         }
       }
     },
@@ -3381,7 +3443,8 @@
           "name": "Create Globe"
         },
         "Blinding Save": {
-          "name": "Blinding Save"
+          "name": "Blinding Save",
+          "range": "measured from nearest point on wall or globe"
         },
         "Create Wall": {
           "name": "Create Wall"
