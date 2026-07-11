@@ -46,6 +46,12 @@
         "Consume Focus Point": {
           "name": "Consume Focus Point"
         }
+      },
+      "effects": {
+        "Disciplined Survivor": {
+          "name": "Disciplined Survivor",
+          "description": "<p>Your physical and mental discipline grant you proficiency in all saving throws.</p><p>Additionally, whenever you make a saving throw and fail, you can expend 1 Focus Point to reroll it, and you must use the new roll.</p>"
+        }
       }
     },
     "Uncanny Metabolism": {
@@ -126,7 +132,9 @@
         },
         "Redirect": {
           "name": "Redirect",
-          "condition": "If you reduce the damage to 0"
+          "condition": "If you reduce the damage to 0",
+          "target": "Isn't behind Total Cover",
+          "range": "5 feet for melee attacks or 60 feet for ranged attacks"
         }
       }
     },
@@ -291,14 +299,20 @@
     },
     "Eldritch Mind": {
       "name": "魔能意志",
-      "description": "<p>你在保持專注的體質豁免檢定上具有優勢。</p>"
+      "description": "<p>你在保持專注的體質豁免檢定上具有優勢。</p>",
+      "effects": {
+        "Eldritch Mind": {
+          "name": "Eldritch Mind"
+        }
+      }
     },
     "Monk's Focus": {
       "name": "武僧內功",
       "description": "<p>你的心法以及武藝的訓練，使你得以掌握自身非凡的能量，而內力點則代表著這股能量。你的武僧等級將決定你擁有多少內力點，具體內力點詳見武僧特性表。</p><p>你可以消耗內力點以增強或啟用特定的武僧特性，你一開始知曉三個這類特性：疾風連擊、堅強防禦、行步如風。能力細節詳見下方。</p><p>當你消耗1點內力時，直到你完成一次長休或短休時，該內力點都無法再使用。在完成長休或短休後，你將重獲所有已消耗的內力點。</p><p>某些使用內力點的特性需要目標進行豁免檢定。豁免DC = 8+你的感知調整值+你的熟練加值。</p><p><strong>【疾風連擊】</strong>你可以消耗1內力點以附贈動作進行兩次徒手打擊。</p><p><strong>【閃轉騰挪】</strong>你能以附贈動作採取撤離動作。或者，你可以消耗1內力點，以附贈動作同時採取撤離和迴避兩個動作。</p><p><strong>【疾步如風】</strong>你能以附贈動作採取疾走動作。或者，你可以消耗1內力點，以附贈動作同時採取撤離和疾走兩個動作，且該回合內你的跳躍距離翻倍。</p><section class=\"secret\" id=\"secret-Kb8gEVefEUz6IHer\"><p><strong>Foundry Note</strong></p><p>The <strong>Flurry of Blows</strong> activity is a Bonus Action which expends a Focus Point and includes the Attack Roll and Damage for an Unarmored Strike using your Martial Arts Die which automatically scales as you level up.</p><p>The <strong>Patient Defense</strong> Bonus Action activity includes an Active Effect for tracking that you're Disengaged. The <strong>Patient Defense (Focus Point)</strong> activity expends a Focus Point and includes an Active Effect that adds the Dodging status.</p><p>The <strong>Step of the Wind</strong> Bonus Action activity expends 1 Focus Point and includes an Active Effect for tracking that you're Disengaged.</p></section>",
       "activities": {
         "Flurry of Blows": {
-          "name": "疾風連擊"
+          "name": "疾風連擊",
+          "chatFlavor": "Make two [[/item Unarmed Strike]]{Unarmed Strikes}"
         },
         "Patient Defense (Focus Point)": {
           "name": "閃轉騰挪（內力點）"
@@ -513,7 +527,12 @@
     },
     "Superior Hunter's Prey": {
       "name": "高等狩者獵物",
-      "description": "<p>Once per turn when you deal damage to a creature marked by your <em>Hunter’s Mark</em>, you can also deal that spell’s extra damage to a different creature that you can see within 30 feet of the first creature.</p><section id=\"secret-AuiRnxdHXs9cXvQV\" class=\"secret\"><p><strong>Foundry Note</strong></p><p>You can apply the damage from Hunter's Mark or use the <strong>Damage</strong> activity on this feature.</p></section>"
+      "description": "<p>Once per turn when you deal damage to a creature marked by your <em>Hunter’s Mark</em>, you can also deal that spell’s extra damage to a different creature that you can see within 30 feet of the first creature.</p><section id=\"secret-AuiRnxdHXs9cXvQV\" class=\"secret\"><p><strong>Foundry Note</strong></p><p>You can apply the damage from Hunter's Mark or use the <strong>Damage</strong> activity on this feature.</p></section>",
+      "activities": {
+        "damage": {
+          "range": "Of the damaged creature"
+        }
+      }
     },
     "Supreme Sneak": {
       "name": "Supreme Sneak",
@@ -602,7 +621,13 @@
     },
     "Danger Sense": {
       "name": "危險感知",
-      "description": "<p>你獲得對周遭異常情況超乎尋常的感測力，讓你能先一步脫離危險。除非你陷入無力&amp;Reference[Incapacitated]狀態，你在敏捷豁免上具有優勢。</p>"
+      "description": "<p>你獲得對周遭異常情況超乎尋常的感測力，讓你能先一步脫離危險。除非你陷入無力&amp;Reference[Incapacitated]狀態，你在敏捷豁免上具有優勢。</p>",
+      "effects": {
+        "Danger Sense": {
+          "name": "Danger Sense",
+          "description": "<p>You have Advantage on Dexterity saving throws unless you have the &amp;Reference[Incapacitated] condition.</p>"
+        }
+      }
     },
     "Dark One's Own Luck": {
       "activities": {
@@ -702,7 +727,13 @@
     },
     "Arcane Recovery": {
       "name": "奧術恢復",
-      "description": "<p>你可以通過研讀法術書來恢復一些魔法能量。當你完成一次短休時，你可以選擇已消耗的法術位來恢復。法術位的環階總和必須小於或等於你法師等級的一半（向上取整），且每個法術位都不能為6環或更高。舉例來說，若你是個4級法師，你可以恢復最多共計2個環階的法術位，可以恢復一個2環法術位，或恢復二個1環法術位。</p><p>一旦你使用此特性後，直到你完成一次長休前無法再次使用。</p><p><strong>可用環階總和：</strong> [[(@classes.wizard.levels / 2)]]</p><section id=\"secret-cO6X083GFJ1W4071\" class=\"secret\"><p><strong>Foundry Note</strong></p><p>Since you can select the slots you will have to manually adjust your available slots. This feature can be used to track the one-time use though.</p></section>"
+      "description": "<p>你可以通過研讀法術書來恢復一些魔法能量。當你完成一次短休時，你可以選擇已消耗的法術位來恢復。法術位的環階總和必須小於或等於你法師等級的一半（向上取整），且每個法術位都不能為6環或更高。舉例來說，若你是個4級法師，你可以恢復最多共計2個環階的法術位，可以恢復一個2環法術位，或恢復二個1環法術位。</p><p>一旦你使用此特性後，直到你完成一次長休前無法再次使用。</p><p><strong>可用環階總和：</strong> [[(@classes.wizard.levels / 2)]]</p><section id=\"secret-cO6X083GFJ1W4071\" class=\"secret\"><p><strong>Foundry Note</strong></p><p>Since you can select the slots you will have to manually adjust your available slots. This feature can be used to track the one-time use though.</p></section>",
+      "activities": {
+        "Recover": {
+          "name": "Recover",
+          "roll": "Combined Spell Levels"
+        }
+      }
     },
     "Aura of Devotion": {
       "name": "Aura of Devotion",
@@ -1200,6 +1231,11 @@
         "Abjured": {
           "name": "防護"
         }
+      },
+      "activities": {
+        "save": {
+          "target": "That you can see"
+        }
       }
     },
     "Tactical Shift": {
@@ -1392,7 +1428,47 @@
           "name": "Card Effect"
         }
       },
-      "name": "遊蕩者"
+      "name": "遊蕩者",
+      "advancement": {
+        "Class Features": {
+          "title": "Class Features"
+        },
+        "Expertise": {
+          "title": "Expertise",
+          "hint": "You gain Expertise in two of your skill proficiencies of your choice. Sleight of Hand and Stealth are recommended if you have proficiency in them."
+        },
+        "Tool Proficiencies": {
+          "title": "Tool Proficiencies"
+        },
+        "Saving Throw Proficiencies": {
+          "title": "Saving Throw Proficiencies"
+        },
+        "Skill Proficiencies": {
+          "title": "Skill Proficiencies"
+        },
+        "Armor Training": {
+          "title": "Armor Training"
+        },
+        "Thieves' Cant": {
+          "hint": "You picked up various languages in the communities where you plied your roguish talents. You know Thieves’ Cant and one other language of your choice, which you can choose from the languages below.",
+          "title": "Thieves' Cant"
+        },
+        "sqWH6tnUg7jiGaEj": {
+          "title": "Expertise"
+        },
+        "Weapon Mastery": {
+          "title": "Weapon Mastery"
+        },
+        "Weapon Proficiencies": {
+          "title": "Weapon Proficiencies"
+        },
+        "Sneak Attack": {
+          "title": "Sneak Attack"
+        },
+        "FiaNLovfP6tnY4tD": {
+          "hint": "Your cunning mind is exceptionally difficult to control. You gain proficiency in Wisdom and Charisma saving throws."
+        }
+      }
     },
     "Supreme Healing": {
       "description": "<p>When you would normally roll one or more dice to restore Hit Points to a creature with a spell or Channel Divinity, don't roll those dice for the healing; instead use the highest number possible for each die. For example, instead of restoring 2d6 Hit Points to a creature with a spell, you restore 12.</p><section id=\"secret-1Bw7MOem4xyPO17q\" class=\"secret\"><p><strong>Foundry Note</strong></p><p>This feature does not automate the maximizing of all of your rolls.</p></section>",
@@ -1519,6 +1595,19 @@
       "activities": {
         "Wild Shape": {
           "name": "荒野形態"
+        },
+        "transform": {
+          "profiles": {
+            "CR ¼": {
+              "name": "CR ¼"
+            },
+            "CR ½": {
+              "name": "CR ½"
+            },
+            "CR 1": {
+              "name": "CR 1"
+            }
+          }
         }
       }
     },
@@ -1641,7 +1730,8 @@
       "description": "<p>Once on each of your turns when you hit a creature with an attack roll using a weapon or a Beast form's attack in Wild Shape, you can cause the target to take an extra 1d8 [[/damage 1d8 type=cold]]{cold}, [[/damage 1d8 type=fire]]{fire}, [[/damage 1d8 type=lightning]]{lightning}, or [[/damage 1d8 type=thunder]]{thunder} damage (choose when you hit).</p><section class=\"secret\" id=\"secret-teMMREyPGTtod1kP\"><p><strong>Foundry Note</strong></p><p>This feature's damage will automatically increase when you gain @UUID[Compendium.dnd-players-handbook.classes.Item.phbdrdImprovedEl]{Improved Elemental Fury}. If using the activity you will be able to select the damage type when rolling. It will default to your previously chosen damage type.</p></section>",
       "activities": {
         "Primal Strike": {
-          "name": "Primal Strike"
+          "name": "Primal Strike",
+          "target": "When you hit a creature with an attack roll using a weapon or a Beast form's attack in Wild Shape"
         }
       }
     },
@@ -1783,7 +1873,13 @@
     },
     "Blessed Warrior": {
       "description": "<p>你習得兩項你所選擇的@UUID[Compendium.dnd-players-handbook.content.JournalEntry.phbSpells0000000.JournalEntryPage.SkHptN2PTzFGDaEj#cantrip]{牧師戲法}。建議選擇<em>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplGuidance00]{神導術}</em>及<em>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplSacredFlam]{聖焰}</em>。所選戲法對你來說是聖騎士法術，而魅力是你的施法屬性。每當你獲得聖騎士等級時，你能夠將一個已知戲法替換為另一個牧師戲法。</p>",
-      "name": "受祝勇士"
+      "name": "受祝勇士",
+      "advancement": {
+        "Choose Cantrips": {
+          "title": "Choose Cantrips",
+          "hint": "You learn two Cleric cantrips of your choice. Guidance and Sacred Flame are recommended. The chosen cantrips count as Paladin spells for you, and Charisma is your spellcasting ability for them. Whenever you gain a Paladin level, you can replace one of these cantrips with another Cleric cantrip."
+        }
+      }
     },
     "Circle of the Land Spells": {
       "name": "大地結社法術",
@@ -1855,12 +1951,19 @@
           "name": "神聖火花：治療"
         },
         "Turn Undead": {
-          "name": "驅散不死"
+          "name": "驅散不死",
+          "target": "Undead of your choice"
         }
       },
       "effects": {
         "Turned": {
-          "name": "驅散"
+          "name": "驅散",
+          "description": "<p>For that duration, it tries to move as far from you as it can on its turns. This effect ends early on the creature if it takes any damage, if you have the Incapacitated condition, or if you die.</p>"
+        }
+      },
+      "advancement": {
+        "Divine Spark Die Count": {
+          "title": "Divine Spark Die Count"
         }
       }
     },
@@ -2067,10 +2170,30 @@
     },
     "Druidic Warrior": {
       "name": "德魯伊教戰士",
-      "description": "<p>你習得兩項你所選擇的@UUID[Compendium.dnd-players-handbook.content.JournalEntry.phbSpells0000000.JournalEntryPage.LhvuDQEyrCdg5EfU]{德魯伊戲法}。建議選擇@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplGuidance00]{神導術}與@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplStarryWisp]{點點星芒}。所選戲法對你來說是遊俠法術，你的施法屬性為感知。每當你獲得遊俠等級時，你能夠將一個已知戲法替換為另一個德魯伊戲法。</p>"
+      "description": "<p>你習得兩項你所選擇的@UUID[Compendium.dnd-players-handbook.content.JournalEntry.phbSpells0000000.JournalEntryPage.LhvuDQEyrCdg5EfU]{德魯伊戲法}。建議選擇@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplGuidance00]{神導術}與@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplStarryWisp]{點點星芒}。所選戲法對你來說是遊俠法術，你的施法屬性為感知。每當你獲得遊俠等級時，你能夠將一個已知戲法替換為另一個德魯伊戲法。</p>",
+      "advancement": {
+        "Choose Cantrips": {
+          "title": "Choose Cantrips",
+          "hint": "You learn two Druid cantrips of your choice. Guidance and Starry Wisp are recommended. The chosen cantrips count as Ranger spells for you, and Wisdom is your spellcasting ability for them. Whenever you gain a Ranger level, you can replace one of these cantrips with another Druid cantrip."
+        }
+      }
     },
     "Unarmed Strike": {
-      "name": "徒手打擊"
+      "name": "徒手打擊",
+      "description": "<p>@UUID[Compendium.dnd5e.content24.JournalEntry.phbAppendixDRule.JournalEntryPage.xJjJ4lhymAYXAOvO]{Unarmed Strike Rules}</p>",
+      "activities": {
+        "Grapple/Shove": {
+          "name": "Grapple/Shove"
+        }
+      },
+      "effects": {
+        "Grappled": {
+          "name": "Grappled"
+        },
+        "Prone": {
+          "name": "Prone"
+        }
+      }
     },
     "Magical Cunning": {
       "name": "魔法機靈",
@@ -2185,7 +2308,12 @@
     },
     "Favored Enemy": {
       "name": "宿敵",
-      "description": "<p>你始終準備@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplHuntersMar]{獵人印記}法術。你可以不消耗法術位施放此法術兩次，並在你完成一次長休後恢復所有此能力的使用次數。</p><p>你可以不消耗法術位施放此法術的次數會在你達到特定的遊俠等級時增加，具體詳見遊俠特性表中的宿敵一欄。</p><section id=\"secret-cyuZuzwxsQg01vVN\" class=\"secret\"><p><strong>Foundry Note</strong></p><p>The spell is granted to you at this level and will increase the number of free uses available automatically as you level up.</p></section>"
+      "description": "<p>你始終準備@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplHuntersMar]{獵人印記}法術。你可以不消耗法術位施放此法術兩次，並在你完成一次長休後恢復所有此能力的使用次數。</p><p>你可以不消耗法術位施放此法術的次數會在你達到特定的遊俠等級時增加，具體詳見遊俠特性表中的宿敵一欄。</p><section id=\"secret-cyuZuzwxsQg01vVN\" class=\"secret\"><p><strong>Foundry Note</strong></p><p>The spell is granted to you at this level and will increase the number of free uses available automatically as you level up.</p></section>",
+      "advancement": {
+        "Favored Enemy": {
+          "title": "Favored Enemy"
+        }
+      }
     },
     "phbmnkEpicBoon00": {
       "name": "史詩恩惠",
@@ -2274,7 +2402,8 @@
       "name": "徒手打擊",
       "activities": {
         "Grapple/Shove": {
-          "name": "Grapple/Shove"
+          "name": "Grapple/Shove",
+          "chatFlavor": "Grapple or Shove attempt"
         }
       },
       "effects": {
@@ -2284,7 +2413,8 @@
         "Prone": {
           "name": "Prone"
         }
-      }
+      },
+      "description": "<p>You can use Dexterity instead of Strength for the attack and damage rolls of your &amp;Reference[Unarmed Strike]{unarmed strikes}. You can roll your Martial Arts die in place of the normal damage.</p>\n<p><em>See: @UUID[Compendium.dnd5e.classes24.Item.phbmnkMartialArt]{Martial Arts (Monk)}</em></p>"
     },
     "Precise Hunter": {
       "description": "<p>You have Advantage on attack rolls against the creature currently marked by your Hunter's Mark.</p>",
@@ -2636,6 +2766,13 @@
       "effects": {
         "Martial Arts": {
           "name": "武藝"
+        },
+        "Dexterous Attacks & Martial Arts Damage": {
+          "name": "Dexterous Attacks & Martial Arts Damage",
+          "changes": {
+            "name": "{} (Martial Arts)"
+          },
+          "description": "<p><strong>Martial Arts Die.</strong> You can roll [[lookup @scale.monk.die]] in place of the normal damage of your Unarmed Strike or Monk weapons. This die changes as you gain Monk levels, as shown in the Martial Arts column of the Monk Features table.</p><p><strong>Dexterous Attacks.</strong> You can use your Dexterity modifier instead of your Strength modifier for the attack and damage rolls of your Unarmed Strikes and Monk weapons. In addition, when you use the Grapple or Shove option of your Unarmed Strike, you can use your Dexterity modifier instead of your Strength modifier to determine the save DC.</p><p></p>"
         }
       }
     },
@@ -2677,7 +2814,9 @@
       "activities": {
         "Redirect": {
           "name": "借力打力",
-          "condition": "若將傷害減至0"
+          "condition": "若將傷害減至0",
+          "range": "5 feet for melee attacks or 60 feet for ranged attacks",
+          "target": "Isn't behind Total Cover"
         },
         "Reduce": {
           "name": "撥擋",

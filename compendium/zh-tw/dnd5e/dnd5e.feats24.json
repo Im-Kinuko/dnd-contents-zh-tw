@@ -44,7 +44,8 @@
       "activities": {
         "Teleport": {
           "name": "傳送",
-          "condition": "緊接在你採取攻擊行動後"
+          "condition": "緊接在你採取攻擊行動後",
+          "target": "Unocuppied space"
         }
       },
       "description": "<p>你獲得下列好處</p><p><strong>【屬性值提升】</strong> Increase one ability score of your choice by 1, to a maximum of 30.</p><p><strong>Blink Steps.</strong> Immediately after you take the Attack action or the Magic action, you can teleport up to 30 feet to an unoccupied space you can see.</p>",
@@ -56,7 +57,15 @@
     },
     "Magic Initiate": {
       "description": "<p>你獲得下列好處</p><p><strong>【兩道戲法】</strong>你從@UUID[Compendium.dnd-players-handbook.content.JournalEntry.phbSpells0000000.JournalEntryPage.SkHptN2PTzFGDaEj]{牧師}、@UUID[Compendium.dnd-players-handbook.content.JournalEntry.phbSpells0000000.JournalEntryPage.LhvuDQEyrCdg5EfU]{德魯伊}、@UUID[Compendium.dnd-players-handbook.content.JournalEntry.phbSpells0000000.JournalEntryPage.6AnqLUowgdsqMFvz]{法師}法術列表中習得兩個戲法。你以智力、感知、魅力做為你施放專長法術的施法屬性（你選擇此專長時決定）。</p><p><strong>【1環法術】</strong>選擇一個與你所選擇的專長戲法相同的法術列表中的1環法術，且你始終準備這道法術。你可以不消耗法術位施放該法術一次，並在你完成一次長休後，恢復以這種方式施放該法術的能力，你也可以使用你擁有的任意法術位施放這道法術。</p><p><strong>【法術改變】</strong>每當你獲得一個新等級時，你可以將透過此專長所習得的一道法術替換成相同法術列表中相同環術的另一道法術。</p><p><strong>【可複選】</strong>你可以重複選擇此專長，但每次你都必須選擇一個不同的法術列表。</p><section id=\"secret-7JQCSgnGrtu9huzf\" class=\"secret\"><p><strong>Foundry Note</strong></p><p>The spells have to be added to your sheet with the above changes manually.</p></section>",
-      "name": "魔法學徒"
+      "name": "魔法學徒",
+      "advancement": {
+        "Level 1 Spell": {
+          "title": "Level 1 Spell"
+        },
+        "Two Cantrips": {
+          "title": "Two Cantrips"
+        }
+      }
     },
     "Boon of Combat Prowess": {
       "name": "戰鬥威能恩惠",
