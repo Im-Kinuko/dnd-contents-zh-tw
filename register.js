@@ -168,7 +168,9 @@ export class Converters {
         return foundry.utils.mergeObject(effect, {
           name: translation.name ?? effect.name,
           description: translation.description ?? effect.description,
-          changes: translation.changes ?? effect.changes
+          // NOTE: translation.changes is Babele's text-template dict, NOT FVTT's
+          // ActiveEffect.changes array. Do NOT apply it here or it overwrites the
+          // mechanical effect data (stat bonuses, conditions, etc.).
         });
       }
       return effect;
