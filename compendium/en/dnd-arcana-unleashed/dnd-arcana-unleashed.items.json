@@ -1,0 +1,1078 @@
+{
+  "label": "Magic Items",
+  "folders": {
+    "Consumables": "Consumables",
+    "Armor": "Armor",
+    "Wondrous Item": "Wondrous Item",
+    "Wands": "Wands",
+    "Evolving Magic Items": "Evolving Magic Items",
+    "Weapons": "Weapons",
+    "Rings": "Rings",
+    "Potions": "Potions",
+    "Equipment": "Equipment",
+    "Ammunition": "Ammunition",
+    "Common": "Common",
+    "Uncommon": "Uncommon",
+    "Rare": "Rare",
+    "Very Rare": "Very Rare",
+    "Legendary": "Legendary",
+    "Artifact": "Artifact"
+  },
+  "entries": {
+    "Dispelling Ammunition (Bullet, Firearm)": {
+      "name": "Dispelling Ammunition (Bullet, Firearm)",
+      "description": "<p>When a target takes damage from this magical piece of ammunition, any ongoing spell of level 3 or lower on the target ends. Once it deals damage to a target, the ammunition is no longer magical.</p><section id=\"secret-gNrXI0cVSjqbGHig\" class=\"secret hide-in-embed\"><p><strong>Foundry Note</strong></p><p>After this ammunition deals damage, use <strong>Dispelling Effect</strong>. The GM manually removes any ongoing spell effects of level 3 or lower from the damaged target.</p></section>",
+      "activities": {
+        "Dispelling Effect": {
+          "name": "Dispelling Effect",
+          "condition": "When a target takes damage from this ammunition."
+        }
+      }
+    },
+    "Potion of Dragon's Breath (White)": {
+      "name": "Potion of Dragon's Breath (White)",
+      "description": "<p>When you drink this potion, you gain the effect of the <em>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplDragonsBre]{Dragon’s Breath}</em> spell for 1 minute (save DC 13, no Concentration required). The spell deals Cold damage.</p><p>Light catches off the glittery liquid inside this potion, which is made from the pulverized scale of a chromatic dragon.</p><section id=\"secret-dNE2pWIKChrQTQsI\" class=\"secret hide-in-embed\"><p><strong>Foundry Note</strong></p><p>After drinking the potion, use <strong>Exhale</strong> for its breath effect. Delete the spent potion from your inventory when the 1-minute duration ends.</p></section>",
+      "activities": {
+        "Drink Potion": {
+          "name": "Drink Potion"
+        },
+        "Exhale": {
+          "name": "Exhale"
+        }
+      }
+    },
+    "Necklace of the Beastly Familiar (Fire Opal)": {
+      "name": "Necklace of the Beastly Familiar (Fire Opal)",
+      "description": "<p class=\"metadata hide-in-embed\"><em>Requires Attunement by a Spellcaster</em></p><p>This bejeweled necklace comes with a matching charm that can be worn by your familiar. A variety of these necklaces exist, each set with a different kind of gemstone.</p><p><em><strong>Familiar</strong></em>. While wearing this necklace, you can cast the <em>Find Familiar</em> spell from it. Once the necklace has been used to cast this spell, it can’t be used to cast it again until the next dawn.</p><p><em><strong>Beast Transformation. </strong></em>While your familiar is within 60 feet of you, you can take a Magic action to activate the necklace. Your familiar shape-shifts into a Tyrannosaurus Rex for 10 minutes.</p><p>While your familiar is transformed, its stat block is replaced by the stat block of the Beast form, but it retains its alignment, personality, creature type, Hit Points, and Hit Point Dice. Equipment the familiar is wearing or carrying doesn’t change size or shape to match the Beast form, and any equipment that the Beast form can’t wear or carry falls to the ground.</p><p>Your familiar gains a number of Temporary Hit Points equal to the Hit Points of the Beast form. These Temporary Hit Points vanish if any remain when the transformation ends. The transformation ends early on your familiar if it has no Temporary Hit Points left.</p><section id=\"secret-3Pz6DwMNChXlSXaB\" class=\"secret hide-in-embed\"><p><strong>Foundry Note</strong></p><p>The necklace's activities are not automatically disabled while it is unequipped. For Beast Transformation, control only your familiar's token and confirm it is within 60 feet before transforming it. Use <strong>Restore Transformation</strong> when 10 minutes expire or the transformation's Temporary Hit Points reach 0. Handle any familiar equipment that the Beast form can't wear or carry manually.</p></section>",
+      "activities": {
+        "Beast Transformation": {
+          "name": "Beast Transformation"
+        }
+      }
+    },
+    "Potion of Dragon's Breath (Red)": {
+      "name": "Potion of Dragon's Breath (Red)",
+      "description": "<p>When you drink this potion, you gain the effect of the <em>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplDragonsBre]{Dragon’s Breath}</em> spell for 1 minute (save DC 13, no Concentration required). The spell deals Fire damage.</p><p>Light catches off the glittery liquid inside this potion, which is made from the pulverized scale of a chromatic dragon.</p><section id=\"secret-dNE2pWIKChrQTQsI\" class=\"secret hide-in-embed\"><p><strong>Foundry Note</strong></p><p>After drinking the potion, use <strong>Exhale</strong> for its breath effect. Delete the spent potion from your inventory when the 1-minute duration ends.</p></section>",
+      "activities": {
+        "Drink Potion": {
+          "name": "Drink Potion"
+        },
+        "Exhale": {
+          "name": "Exhale"
+        }
+      }
+    },
+    "Dispelling Ammunition (Bullet, Sling)": {
+      "name": "Dispelling Ammunition (Bullet, Sling)",
+      "description": "<p>When a target takes damage from this magical piece of ammunition, any ongoing spell of level 3 or lower on the target ends. Once it deals damage to a target, the ammunition is no longer magical.</p><section id=\"secret-gNrXI0cVSjqbGHig\" class=\"secret hide-in-embed\"><p><strong>Foundry Note</strong></p><p>After this ammunition deals damage, use <strong>Dispelling Effect</strong>. The GM manually removes any ongoing spell effects of level 3 or lower from the damaged target.</p></section>",
+      "activities": {
+        "Dispelling Effect": {
+          "name": "Dispelling Effect",
+          "condition": "When a target takes damage from this ammunition."
+        }
+      }
+    },
+    "Potion of Dragon's Breath (Green)": {
+      "name": "Potion of Dragon's Breath (Green)",
+      "description": "<p>When you drink this potion, you gain the effect of the <em>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplDragonsBre]{Dragon’s Breath}</em> spell for 1 minute (save DC 13, no Concentration required). The spell deals Poison damage.</p><p>Light catches off the glittery liquid inside this potion, which is made from the pulverized scale of a chromatic dragon.</p><section id=\"secret-dNE2pWIKChrQTQsI\" class=\"secret hide-in-embed\"><p><strong>Foundry Note</strong></p><p>After drinking the potion, use <strong>Exhale</strong> for its breath effect. Delete the spent potion from your inventory when the 1-minute duration ends.</p></section>",
+      "activities": {
+        "Drink Potion": {
+          "name": "Drink Potion"
+        },
+        "Exhale": {
+          "name": "Exhale"
+        }
+      }
+    },
+    "Dispelling Ammunition (Bolt)": {
+      "name": "Dispelling Ammunition (Bolt)",
+      "description": "<p>When a target takes damage from this magical piece of ammunition, any ongoing spell of level 3 or lower on the target ends. Once it deals damage to a target, the ammunition is no longer magical.</p><section id=\"secret-gNrXI0cVSjqbGHig\" class=\"secret hide-in-embed\"><p><strong>Foundry Note</strong></p><p>After this ammunition deals damage, use <strong>Dispelling Effect</strong>. The GM manually removes any ongoing spell effects of level 3 or lower from the damaged target.</p></section>",
+      "activities": {
+        "Dispelling Effect": {
+          "name": "Dispelling Effect",
+          "condition": "When a target takes damage from this ammunition."
+        }
+      }
+    },
+    "Goading Ammunition (Bolt)": {
+      "name": "Goading Ammunition (Bolt)",
+      "description": "<p>If this piece of magic ammunition hits a creature and deals damage, the target makes a [[/save format=long]]. On a failed save, the target can’t take Reactions until the start of its next turn, as it sputters and rages impotently. Once it hits a target, the ammunition is no longer magical.</p><section id=\"secret-sPWThHUulbeAkQUR\" class=\"secret hide-in-embed\"><p><strong>Foundry Note</strong></p><p>After this ammunition hits and deals damage, use <strong>Goading Effect</strong>. On a failed save, apply the <strong>No Reactions</strong> reminder active effect to the target.</p></section>",
+      "activities": {
+        "Save: Goading Effect": {
+          "name": "Save: Goading Effect",
+          "condition": "When this ammunition hits a creature and deals damage."
+        }
+      },
+      "effects": {
+        "No Reactions": {
+          "name": "No Reactions",
+          "description": "<p>The target can’t take Reactions until the start of their next turn, as they sputter and rage impotently.</p>"
+        }
+      }
+    },
+    "Arcane Chatelaine": {
+      "name": "Arcane Chatelaine",
+      "description": "<p>This ornate clasp has six spectral keys attached to it. As a Magic action, you can touch one of the keys to a closed door, window, gate, container, or hatch to cast the <em>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplArcaneLock]{Arcane Lock}</em> spell on it.</p><p>Once a key is used, it disappears. When all six keys have disappeared, the chatelaine disappears.</p>"
+    },
+    "Arcanist's Bestiary": {
+      "name": "Arcanist's Bestiary",
+      "description": "<p>Hundreds of pages of illustrations, tables, and diagrams about a wide variety of monsters fill this magical tome.</p><p><em><strong>Charm Monster</strong></em>. While holding the book, you can cast the <em>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplCharmMonst]{Charm Monster}</em> spell (spell save DC 15) from it. The target has Disadvantage on the saving throw against this spell if it isn’t a Humanoid. You can’t cast this spell again in this way until the next dawn.</p><p><em><strong>Extensive Knowledge</strong></em>. When you become attuned to the book, you gain proficiency in one of the following skills of your choice: Arcana, History, Nature, or Religion. Whenever you finish a Long Rest, you can change your choice. If your Attunement to the book ends, you lose this proficiency.</p><p><em><strong>Monster Primer</strong></em>. While carrying the book, whenever you take a &amp;Reference[Study] action to make an Intelligence (Arcana) check to recall information about an Aberration, Construct, Elemental, Fey, or Monstrosity you can see, on a successful check, you learn whether that creature has any Immunities, Resistances, or Vulnerabilities. If the creature has any, you know what they are.</p><section id=\"secret-w2bK0nolgDDWHtfX\" class=\"secret hide-in-embed\"><p><strong>Foundry Note</strong></p><p>The <strong>Extensive Knowledge</strong> activity allows you to choose the skill you're proficient in and will allow you to update it after each Long Rest.</p></section>",
+      "activities": {
+        "Cast Charm Monster": {
+          "name": "Cast Charm Monster"
+        },
+        "Monster Primer": {
+          "name": "Monster Primer"
+        },
+        "Extensive Knowledge": {
+          "name": "Extensive Knowledge"
+        }
+      },
+      "effects": {
+        "Arcana Proficiency": {
+          "name": "Arcana Proficiency",
+          "description": "<p>You gain proficiency in the Arcana skill.</p>"
+        },
+        "History Proficiency": {
+          "name": "History Proficiency",
+          "description": "<p>You gain proficiency in the History skill.</p>"
+        },
+        "Nature Proficiency": {
+          "name": "Nature Proficiency",
+          "description": "<p>You gain proficiency in the Nature skill.</p>"
+        },
+        "Religion Proficiency": {
+          "name": "Religion Proficiency",
+          "description": "<p>You gain proficiency in the Religion skill.</p>"
+        }
+      }
+    },
+    "Bellows of Strangulation": {
+      "name": "Bellows of Strangulation",
+      "description": "<p>This bellows has 6 charges. While you are holding it, you can take a Magic action and use one of three command words to cause one of the following effects:</p><p><strong>First Command Word.</strong> You expend 1 charge to cause the bellows to suck the energy from one creature you can see within [[lookup @range.value activity=7XzQQwSvt8sLkYgk]] feet. The creature must succeed on a [[/save format=long activity=7XzQQwSvt8sLkYgk]] or have the &amp;Reference[Incapacitated apply=false] condition for 1 minute. The creature repeats the save at the end of each of its turns, ending the effect on itself on a success.</p><p><strong>Second Command Word.</strong> You expend 3 charges to cause the bellows to suck the energy from creatures in a [[lookup @target.template.size activity=sMmORTMiEdb6K8XK]]-foot [[lookup @target.template.type capitalize activity=sMmORTMiEdb6K8XK]]. Each creature in that area must succeed on a [[/save format=long activity=sMmORTMiEdb6K8XK]] or have the &amp;Reference[Incapacitated apply=false] condition for 1 minute. An affected creature repeats the save at the end of each of its turns, ending the effect on itself on a success.</p><p><strong>Third Command Word.</strong> You expend 5 charges to cast the <em>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplCloudkill0]{Cloudkill}</em> spell (spell DC 17) from the bellows.</p><p><em><strong>Regaining Charges</strong></em>. The bellows regains 1d6 + 1 charges daily at dawn. If you expend the last charge, roll [[/r 1d20#On a 1, the bellows is lost forever]]. On a 1, the bellows explodes in a harmless burst of wind and is lost forever.</p>",
+      "activities": {
+        "First Command Word": {
+          "name": "First Command Word"
+        },
+        "Second Command Word": {
+          "name": "Second Command Word"
+        },
+        "Third Command Word": {
+          "name": "Third Command Word"
+        },
+        "Last Charge Check": {
+          "name": "Last Charge Check",
+          "roll": "Last Charge Check",
+          "chatFlavor": "On a 1, the bellows explodes in a harmless burst of wind and is lost forever."
+        }
+      },
+      "effects": {
+        "Incapacitated": {
+          "name": "Incapacitated",
+          "description": "<p>You have the &amp;Reference[Incapacitated apply=false] condition. At the end of each of your turns, repeat the DC 15 Constitution saving throw, ending this effect on yourself on a success.</p>"
+        }
+      }
+    },
+    "Blood Amulet": {
+      "name": "Blood Amulet",
+      "description": "<p>This delicate amulet looks like a diminutive beating heart impaled with spikes. It has 3 charges and regains 1d3 charges daily at dawn.</p><p>Whenever you deal damage to a creature, you can expend 1 charge to deal an extra [[/damage]] damage to the target and force it to make a [[/save format=long]]. On a failed save, the target gains one &amp;Reference[Exhaustion apply=false] level.</p>",
+      "activities": {
+        "save": {
+          "condition": "Whenever you deal damage to a creature."
+        }
+      },
+      "effects": {
+        "Exhaustion": {
+          "name": "Exhaustion",
+          "description": "<p>The target gains one level of &amp;Reference[exhaustion apply=false].</p>"
+        }
+      }
+    },
+    "Blossom Rod": {
+      "name": "Blossom Rod",
+      "description": "<p class=\"metadata hide-in-embed\"><em>(Requires Attunement by a Spellcaster)</em></p><p>This rod is made of intertwined, living plant stems.</p><p><em><strong>Budding (Uncommon)</strong></em>. Multicolored leaves decorate the rod’s stems, and a few buds cluster near each end.</p><p>While you hold the rod, you can cast <em>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplDruidcraft]{Druidcraft}</em> or <em>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplPlantGrowt]{Plant Growth}</em> (Overgrowth only) from it. Once the rod has been used to cast <em>Plant Growth</em>, it can’t be used to cast this spell again until the next dawn.</p><p>While you hold the rod, as a Magic action, you can rejuvenate nonmagical plants in a 5-foot Cube you can see within 15 feet of yourself. The rejuvenated plants remain verdant for 1d4 days, after which they grow or wither as normal plants would.</p><section id=\"secret-9UFmZpQR6vnzn3Jm\" class=\"secret hide-in-embed\"><p><strong>Foundry Note</strong></p><p>When this item evolves, use the appropriate <strong>Evolve to...</strong> activity. When evolving from <strong>Flowering</strong> to <strong>Somniferous</strong> revert the <strong>Flowering</strong> evolution.</p></section>",
+      "activities": {
+        "Rejuvenate Plants": {
+          "name": "Rejuvenate Plants",
+          "roll": "Verdant Duration",
+          "condition": "plants only",
+          "duration": "1d4 days"
+        },
+        "Save: Sleep-Inducing Pollen": {
+          "name": "Save: Sleep-Inducing Pollen"
+        },
+        "Evolve to Flowering": {
+          "name": "Evolve to Flowering",
+          "condition": "When the GM evolves the item to Rare"
+        },
+        "Evolve to Somniferous": {
+          "name": "Evolve to Somniferous",
+          "condition": "When the GM evolves the item to Very Rare"
+        }
+      },
+      "effects": {
+        "Unconscious": {
+          "name": "Unconscious",
+          "description": "<p>The target is &amp;Reference[Unconscious apply=false] for 1 hour.</p>"
+        }
+      }
+    },
+    "Boon Companions' Bands": {
+      "name": "Boon Companions' Bands",
+      "description": "<p><em>Boon Companions’ Bands</em> come in pairs and bear matching engravings. While wearing one of the bands, when you cast a spell or use a feature that forces other creatures in its area of effect to make a saving throw, you can protect the creature wearing the matching band if the creature is in the effect’s area. That creature automatically succeeds on its saving throw against the effect, and it takes no damage if it would normally take half damage on a successful save.</p><p>Once this property is used by either band, the bands can’t be used again until the next dawn. If one of the bands in a pair is destroyed, the other one crumbles to dust.</p><section id=\"secret-nPjGGaUbZXkzcwHA\" class=\"secret hide-in-embed\"><p><strong>Foundry Note</strong></p><p><span style=\"margin:0px;padding:0px\">When using <strong>Expend Use</strong>, manually mark the corresponding band’s use as spent. If either band is destroyed, remove or unequip the corresponding band from the respective wearer’s inventory.</span></p></section>",
+      "activities": {
+        "Expend Use": {
+          "name": "Expend Use",
+          "condition": "When you cast a spell or use a feature that forces other creatures in its area of effect to make a saving throw."
+        }
+      }
+    },
+    "Conjurer's Canopy": {
+      "name": "Conjurer's Canopy",
+      "description": "<p>You can take a Magic action and use a command word to plunge this magical walking stick into the ground, where it stands straight up and projects a canopy of transparent force in a [[lookup @target.template.size activity=r3P2CQjVaKWsfrqt]]-foot [[lookup @target.template.type capitalize activity=r3P2CQjVaKWsfrqt]] originating from the stick. The canopy lasts for 1 hour or until you end the effect early as a Magic action.</p><p>The canopy protects creatures and objects within that area from ordinary weather phenomena such as rain or snow. The atmosphere within the canopy’s area is comfortable and dry, regardless of the weather. Creatures, objects, and magical effects can still pass through the canopy as usual.</p><p>When the canopy disappears, the stick can’t be used again for [[/r 1d12]] hours.</p><section id=\"secret-s3AAdIcdBznou7uI\" class=\"secret hide-in-embed\"><p><strong>Foundry Note</strong></p><p>Remove the canopy template when the effect ends, then use <strong>Canopy Reuse Period</strong> to determine the cooldown period. Initiative recovery is only a placeholder; if Foundry restores the item's use before the cooldown expires, set the use back to spent until the rolled time has elapsed.</p></section>",
+      "activities": {
+        "Expend Use": {
+          "name": "Expend Use"
+        },
+        "Canopy Reuse Period": {
+          "name": "Canopy Reuse Period"
+        }
+      }
+    },
+    "Diamond Staff": {
+      "name": "Diamond Staff",
+      "description": "<p class=\"metadata hide-in-embed\"><em>Requires Attunement by a Sorcerer, Warlock, or Wizard</em></p><p>This 6-foot-long scepter is carved from a single enormous crystal, with a perfect transparent globe at its head. This staff has 20 charges and can be wielded as a magic Quarterstaff that grants a +3 bonus to attack rolls and damage rolls made with it.</p><p><em><strong>Adept</strong></em>. While holding the staff, you have Advantage on Intelligence (Arcana) checks.</p><p><em><strong>Dazzling Light</strong></em>.While holding the staff, you can expend 1 charge and use a command word to cause light to shine from the staff. The staff emits Bright Light in a 40-foot radius and Dim Light for an additional 40 feet. The staff stops glowing after 1 minute or when you use a command word to deactivate it.</p><p><em><strong>Spells</strong></em>. While holding the staff, you can cast one of the spells on the following table from it, using your spell save DC. The table indicates how many charges you must expend to cast the spell.</p><div class=\"tableWrapper\"><table style=\"min-width:125px\"><thead><tr><th scope=\"col\"><p>Spell</p></th><th scope=\"col\"><p>Charge Cost</p></th><td><p><br class=\"ProseMirror-trailingBreak\"></p></td><th scope=\"col\"><p>Spell</p></th><th scope=\"col\"><p>Charge Cost</p></th></tr></thead><tbody><tr><td><p><em>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplDetectMagi]{Detect Magic}</em></p></td><td><p style=\"text-align:center\">0</p></td><td><p><br class=\"ProseMirror-trailingBreak\"></p></td><td><p><em>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplLight00000]{Light}</em></p></td><td><p style=\"text-align:center\">0</p></td></tr><tr><td><p><em>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplIdentify00]{Identify}</em></p></td><td><p style=\"text-align:center\">1</p></td><td><p><br class=\"ProseMirror-trailingBreak\"></p></td><td><p><em>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplMaze000000]{Maze}</em></p></td><td><p style=\"text-align:center\">8</p></td></tr><tr><td><p><em>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplKnock00000]{Knock}</em></p></td><td><p style=\"text-align:center\">2</p></td><td><p><br class=\"ProseMirror-trailingBreak\"></p></td><td><p><em>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplTongues000]{Tongues}</em> (self only)</p></td><td><p style=\"text-align:center\">0</p></td></tr><tr><td><p><em>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplLegendLore]{Legend Lore}</em></p></td><td><p style=\"text-align:center\">5</p></td><td><p><br class=\"ProseMirror-trailingBreak\"></p></td><td><p><em>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplTrueSeeing]{True Seeing}</em></p></td><td><p style=\"text-align:center\">3</p></td></tr></tbody></table></div><p><em><strong>Stunning Hit</strong></em>. When you hit with a melee attack using the staff, you can expend 2 charges, and the target must succeed on a [[/save format=long activity=Z9F6LU9LgiiCdB2m]] or have the &amp;Reference[Stunned apply=false] condition until the end of your next turn.</p><p><em><strong>Regaining Charges</strong></em>. The staff regains [[/r 1d6 + 4]] expended charges daily at dawn. If you expend the last charge, roll [[/r 1d20#On a 1, the staff is destroyed]]. On a 1, the staff is destroyed.</p>",
+      "activities": {
+        "Dazzling Light": {
+          "name": "Dazzling Light"
+        },
+        "Stunning Hit": {
+          "name": "Stunning Hit",
+          "condition": "When you hit with a melee attack using this staff."
+        },
+        "Last Charge Check": {
+          "name": "Last Charge Check",
+          "roll": "Last Charge Check",
+          "chatFlavor": "On a 1, the staff is destroyed."
+        }
+      },
+      "effects": {
+        "Adept": {
+          "name": "Adept",
+          "description": "<p>While holding the staff, you have Advantage on Intelligence (Arcana) checks.</p>"
+        },
+        "Dazzling Light": {
+          "name": "Dazzling Light",
+          "description": "<p>The staff emits Bright Light in a 40-foot radius and Dim Light for an additional 40 feet. The staff stops glowing after 1 minute or when you use a command word to deactivate it.</p>"
+        },
+        "Stunned": {
+          "name": "Stunned",
+          "description": "<p>The target has the &amp;Reference[Stunned apply=false] condition until the end of the attacking creature's next turn.</p>"
+        }
+      }
+    },
+    "Dictation Quill": {
+      "name": "Dictation Quill",
+      "description": "<p>When you take a Magic action to set this magic quill next to Paper or Parchment and a bottle of Ink and use a command word, the quill writes your next spoken or signed words, in the language you’re using, at a rate of 25 words per minute. The quill writes for 1 hour; until it has no Paper, Parchment, or Ink; or until you use another command word to stop it (no action required).</p>",
+      "activities": {
+        "Dictation": {
+          "name": "Dictation"
+        }
+      }
+    },
+    "Dispelling Ammunition (Arrow)": {
+      "name": "Dispelling Ammunition (Arrow)",
+      "description": "<p>When a target takes damage from this magical piece of ammunition, any ongoing spell of level 3 or lower on the target ends. Once it deals damage to a target, the ammunition is no longer magical.</p><section id=\"secret-gNrXI0cVSjqbGHig\" class=\"secret hide-in-embed\"><p><strong>Foundry Note</strong></p><p>After this ammunition deals damage, use <strong>Dispelling Effect</strong>. The GM manually removes any ongoing spell effects of level 3 or lower from the damaged target.</p></section>",
+      "activities": {
+        "Dispelling Effect": {
+          "name": "Dispelling Effect",
+          "condition": "When a target takes damage from this ammunition."
+        }
+      }
+    },
+    "Dissuader": {
+      "name": "Dissuader",
+      "description": "<p>This staff can be wielded as a magic Quarterstaff that grants a +1 bonus to attack rolls and damage rolls made with it. It also has the following additional properties. Once one of these properties is used, that property can’t be used again until the next dawn.</p><p><em><strong>Calm Emotions</strong></em>. You can cast the <em>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplCalmEmotio]{Calm Emotions}</em> spell (save DC 15) from the staff.</p><p><em><strong>Dissuading Aura</strong></em>. As a Magic action while holding the staff, you can create a [[lookup @target.template.size activity=sfhYAB3hkwYoFsOy]]-foot Emanation of mental unrest originating from you that lasts for [[lookup @duration.value activity=sfhYAB3hkwYoFsOy]] [[lookup @duration.units activity=sfhYAB3hkwYoFsOy]]. Whenever the Emanation enters the space of a creature you can see and whenever a creature you can see enters the Emanation or ends its turn there, you can force that creature to make a [[/save format=long activity=4ONLGaqWtXgAdhUH]]. On a failed save, the creature has the &amp;Reference[Frightened apply=false] condition until the start of its next turn.</p><p><em><strong>Repel</strong></em>. When a creature enters a space within [[lookup @range.value activity=KvHAPfJlexViNI2O]] feet of you, you can take a Reaction to create a shock wave of force. Each creature of your choice in a [[lookup @target.template.size activity=KvHAPfJlexViNI2O]]-foot Emanation originating from you must succeed on a [[/save format=long activity=KvHAPfJlexViNI2O]] or be pushed up to 30 feet straight away from you.</p><section id=\"secret-amg5MtZdAPLiRTDc\" class=\"secret hide-in-embed\"><p><strong>Foundry Note</strong></p><p>While Dissuading Aura is active, use <strong>Dissuading Aura Save</strong> whenever an eligible creature must save against it. For <strong>Repel</strong>, manually move each creature that fails its save up to 30 feet straight away from you.</p></section>",
+      "activities": {
+        "Dissuading Aura": {
+          "name": "Dissuading Aura"
+        },
+        "Dissuading Aura Save": {
+          "name": "Dissuading Aura Save",
+          "condition": "When the Emanation enters a creature's space, or when a creature enters the Emanation or ends its turn there."
+        },
+        "Repel": {
+          "name": "Repel",
+          "condition": "When a creature enters a space within 5 feet of you."
+        }
+      },
+      "effects": {
+        "Frightened": {
+          "name": "Frightened",
+          "description": "<p>The target has the &amp;Reference[Frightened apply=false] condition until the start of its next turn.</p>"
+        }
+      }
+    },
+    "Dream Weaver": {
+      "name": "Dream Weaver",
+      "description": "<p>This magic tapestry can be hung on a wall or another suitable vertical surface. The tapestry magically unravels and reweaves itself to illustrate the content and emotions of your most recent dreams.</p><p>You gain the following benefits while the tapestry is hung and you are within 30 feet of it.</p><p><em><strong>Dream Wisdom</strong></em>. During a Long Rest, you can spend an hour studying the tapestry. At the end of the Long Rest, roll [[/r 1d20]] and record the number rolled. Once before you finish a Long Rest, you can replace any D20 Test you make with this result. You must choose to do so before you roll the D20 Test.</p><p><em><strong>Message Recorder</strong></em>. If you are targeted by the <em>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplDream00000]{Dream}</em> spell, the tapestry records the appearance and name of the spell’s caster in its design.</p><p><em><strong>Mind Wall</strong></em>. While you have the &amp;Reference[Unconscious apply=false] condition, you have Advantage on Intelligence, Wisdom, and Charisma saving throws.</p>",
+      "activities": {
+        "Dream Wisdom": {
+          "name": "Dream Wisdom",
+          "roll": "Dream Wisdom",
+          "condition": "At the end of a Long Rest after spending 1 hour studying the tapestry."
+        },
+        "Use Dream Wisdom": {
+          "name": "Use Dream Wisdom",
+          "condition": "Before making a D20 Test."
+        },
+        "Mind Wall": {
+          "name": "Mind Wall"
+        }
+      },
+      "effects": {
+        "Mind Wall Advantages": {
+          "name": "Mind Wall Advantages",
+          "description": "<p>You have Advantage on Intelligence, Wisdom, and Charisma saving throws while Mind Wall applies.</p>"
+        }
+      }
+    },
+    "Elocutionist's Lexicon": {
+      "name": "Elocutionist's Lexicon",
+      "description": "<p>While holding this magic dictionary, you can take a Magic action and try to recall a specific word. The book automatically opens to the page containing the exact word you’re searching for.</p>",
+      "activities": {
+        "Open Book": {
+          "name": "Open Book"
+        }
+      }
+    },
+    "Ensorcelled Missive": {
+      "name": "Ensorcelled Missive",
+      "description": "<p>This item functions as a sheet of Parchment. After writing on it, you can take a Magic action to fold or roll the sheet and seal it while speaking or signing a word or short phrase. If a creature unseals the sheet without using the same word or phrase, the writing on the sheet appears as if it were written in an unknown and unintelligible script.</p>",
+      "activities": {
+        "Use Scroll": {
+          "name": "Use Scroll"
+        }
+      }
+    },
+    "Evergreen Fertilizer": {
+      "name": "Evergreen Fertilizer",
+      "description": "<p>Once sprinkled on the soil around a nonmagical plant, this pungent powder keeps the plant healthy for the next 365 days.</p>"
+    },
+    "Goading Ammunition (Arrow)": {
+      "name": "Goading Ammunition (Arrow)",
+      "description": "<p>If this piece of magic ammunition hits a creature and deals damage, the target makes a [[/save format=long]]. On a failed save, the target can’t take Reactions until the start of its next turn, as it sputters and rages impotently. Once it hits a target, the ammunition is no longer magical.</p><section id=\"secret-sPWThHUulbeAkQUR\" class=\"secret hide-in-embed\"><p><strong>Foundry Note</strong></p><p>After this ammunition hits and deals damage, use <strong>Goading Effect</strong>. On a failed save, apply the <strong>No Reactions</strong> reminder active effect to the target.</p></section>",
+      "activities": {
+        "Save: Goading Effect": {
+          "name": "Save: Goading Effect",
+          "condition": "When this ammunition hits a creature and deals damage."
+        }
+      },
+      "effects": {
+        "No Reactions": {
+          "name": "No Reactions",
+          "description": "<p>The target can’t take Reactions until the start of their next turn, as they sputter and rage impotently.</p>"
+        }
+      }
+    },
+    "Goodberry Charm": {
+      "name": "Goodberry Charm",
+      "description": "<p>The Charm allows you to cast <em>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplGoodberry0]{Goodberry}</em> once without expending a spell slot.</p>"
+    },
+    "Grave Reaper": {
+      "name": "Grave Reaper",
+      "description": "<p>You gain a +2 bonus to attack rolls and damage rolls made with this magic weapon. When you hit a creature with it, the target takes an extra 2d8 Necrotic damage.</p><p><em><strong>Soul Lantern</strong></em>. While holding this weapon, you can cast the <em>@UUID[Compendium.dnd-arcana-unleashed.spells.Item.oY5tTbIhlVJbrnKW]{Spirit Lantern}</em> spell. When you cast the spell using the weapon, the conjured lantern can hold up to five soul fragments, and the spell’s save DC is 17.</p><p>Once the weapon has been used to cast the spell, it can’t be used to cast it again until the next dawn.</p>"
+    },
+    "Homeward Compass": {
+      "name": "Homeward Compass",
+      "description": "<p>While holding this small brass compass, you can take a Magic action to orient the compass to your current location. Thereafter, the compass’s needle always points toward that location. The compass can be oriented to only one location at a time. As a Magic action, you can end the compass’s current orientation. When it isn’t oriented to a particular location, or if the compass is on a different plane of existence than the location to which it is oriented, the compass’s needle spins aimlessly.</p>",
+      "activities": {
+        "Orient Compass": {
+          "name": "Orient Compass",
+          "condition": "While holding the compass."
+        },
+        "End Orientation": {
+          "name": "End Orientation"
+        }
+      }
+    },
+    "Idol of Good Fortunes": {
+      "name": "Idol of Good Fortunes",
+      "description": "<p>This idol resembles an elephant sitting on its haunches, smiling regally behind its uplifted trunk.</p><p><em><strong>Blemished (Uncommon)</strong></em>. The idol is made of tarnished bronze, with minor dings and dents scattered over its surface.</p><p>You can cast the <em>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplAugury0000]{Augury}</em> spell from the idol. The idol speaks the omen aloud in response. Once the idol has been used to cast this spell, it can’t be used to cast this spell again until the next dawn.</p><section id=\"secret-mbrbf2Xibdf5r4Bp\" class=\"secret hide-in-embed\"><p><strong>Foundry Note</strong></p><p>When this item evolves, use the appropriate <strong>Evolve to...</strong> activity. When evolving from <strong>Tarnished</strong> to <strong>Golden</strong> revert the <strong>Tarnished</strong> evolution.</p><p>For <strong>Transform Valuables</strong>, manually remove the touched trade bar or gemstone and add coinage equal to its value.</p></section>",
+      "activities": {
+        "Transform Valuables": {
+          "name": "Transform Valuables"
+        },
+        "Evolve to Tarnished": {
+          "name": "Evolve to Tarnished",
+          "condition": "When the GM evolves the item to Rare"
+        },
+        "Evolve to Golden": {
+          "name": "Evolve to Golden",
+          "condition": "When the GM evolves the item to Very Rare"
+        }
+      },
+      "effects": {
+        "Tarnished (+1 AC)": {
+          "name": "Tarnished (+1 AC)"
+        }
+      }
+    },
+    "Keyholes Dagger": {
+      "name": "Keyholes Dagger",
+      "description": "<p>The hilt of this magic weapon is adorned with ornate, decorative keyholes outlined in golden filigree.</p><p><em><strong>Three (Uncommon)</strong></em>. Three ornamental keyholes adorn the weapon’s hilt.</p><p>You have a +1 bonus to attack rolls and damage rolls made with this magic weapon. When you take the Attack action, you can transform this weapon into a Handaxe or Mace. It remains transformed in this way until the start of your next turn, at which point it reverts back to its Dagger form. Regardless of the weapon’s form, you can use the choice of your Strength or Dexterity modifier for the attack and damage rolls; you must use the same modifier for both rolls.</p><section id=\"secret-AWjlUY03vOfKhAou\" class=\"secret hide-in-embed\"><p><strong>Foundry Note</strong></p><p>When the dagger transforms, use <strong>Transform Weapon</strong> and choose the desired weapon form. The transformation expires automatically at the start of your next turn.</p><p>When this item evolves, use the appropriate <strong>Evolve to...</strong> activity. When evolving to the <strong>Many Keyholes Dagger</strong> revert the <strong>Ten Keyholes Dagger</strong> evolution if it was applied.</p></section>",
+      "activities": {
+        "Evolve to Ten": {
+          "name": "Evolve to Ten",
+          "condition": "When the GM evolves the item to Rare"
+        },
+        "Evolve to Many": {
+          "name": "Evolve to Many",
+          "condition": "When the GM evolves the item to Very Rare"
+        },
+        "Reroll Miss": {
+          "name": "Reroll Miss",
+          "condition": "When you miss with an attack roll using this weapon"
+        },
+        "Transform Weapon (Three)": {
+          "name": "Transform Weapon (Three)",
+          "condition": "When you take the Attack action"
+        },
+        "Transform Weapon (Ten)": {
+          "name": "Transform Weapon (Ten)",
+          "condition": "When you take the Attack action"
+        },
+        "Transform Weapon (Many)": {
+          "name": "Transform Weapon (Many)",
+          "condition": "When you take the Attack action"
+        }
+      }
+    },
+    "Lucky Foot": {
+      "name": "Lucky Foot",
+      "description": "<p>When you roll a 1 on a saving throw or ability check, you can use this preserved rabbit foot’s magic to reroll the die. You must use the new roll, and the foot disintegrates.</p>",
+      "activities": {
+        "Lucky Reroll": {
+          "name": "Lucky Reroll",
+          "condition": "When you roll a 1 on a saving throw or ability check."
+        }
+      }
+    },
+    "Mage Breaker": {
+      "name": "Mage Breaker",
+      "description": "<p>You gain a +1 bonus to attack rolls and damage rolls made with this magic weapon.</p><p>When you hit a concentrating creature with an attack roll using this weapon and deal damage, the creature has Disadvantage on the saving throw it makes to maintain Concentration.</p><section id=\"secret-cYsG1DHnBnluHk5g\" class=\"secret hide-in-embed\"><p><strong>Foundry Note</strong></p><p>Apply the <strong>Disadv. Concentration Check</strong> active effect to a concentrating target damaged by this weapon, then remove the effect after the resulting Concentration save is resolved.</p></section>",
+      "effects": {
+        "Disadv. Concentration Check": {
+          "name": "Disadv. Concentration Check",
+          "description": "<p>The target has a disadvantage on the saving throw it makes to maintain Concentration.</p>"
+        }
+      }
+    },
+    "Mage's Manacle": {
+      "name": "Mage's Manacle",
+      "description": "<p>As a Magic action while wearing this bracelet, you can target a Large or smaller creature within 5 feet of yourself that has the &amp;Reference[Grappled apply=false] or &amp;Reference[Incapacitated apply=false] condition. The target must succeed on a [[/save format=long]] or become magically bound to you by a spectral chain and manacle that spring from the bracelet.</p><p>While bound in this way, the creature has the &amp;Reference[Restrained apply=false] condition. When you move, the creature moves with you.</p><p>A creature remains bound for 8 hours or until you release it (no action required). If the manacle takes damage from a <em>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplDisintegra]{Disintegrate}</em> spell, it is destroyed; nothing else can break or harm it. Once the manacle has bound a creature, it can’t be used again this way until the next dawn.</p><section id=\"secret-kaAuxM5VhfU2Pnm5\" class=\"secret hide-in-embed\"><p><strong>Foundry Note</strong></p><p>When a target fails the <strong>Bind Creature </strong>save, apply the linked <strong>Restrained</strong> active effect and manually use the <strong>Expend Use</strong> activity to mark the item’s use as spent. Move the bound creature manually when you move.</p></section>",
+      "activities": {
+        "Save: Bind Creature": {
+          "name": "Save: Bind Creature",
+          "condition": "While wearing the bracelet; target must be Large or smaller and Grappled or Incapacitated."
+        },
+        "Expend Use": {
+          "name": "Expend Use"
+        }
+      },
+      "effects": {
+        "Restrained": {
+          "name": "Restrained",
+          "description": "<p>You are magically &amp;Reference[Restrained apply=false] by the Mage’s Manacle. Remove this effect if the binding is released or otherwise ends early.</p>"
+        }
+      }
+    },
+    "Magewright's Gloves": {
+      "name": "Magewright's Gloves",
+      "description": "<p>While you wear these gloves, you work as efficiently as two characters when determining how much time it takes to craft nonmagical items using any of the following tools: Alchemist’s Supplies, Brewer’s Supplies, Calligrapher’s Supplies, Cartographer’s Tools, Glassblower’s Tools, or Jeweler’s Tools.</p>"
+    },
+    "Martialist's Quarterstaff": {
+      "name": "Martialist's Quarterstaff",
+      "description": "<p>This magic Quarterstaff has 4 charges and regains 1d4 expended charges daily at dawn. It has the following additional properties.</p><p><em><strong>Searing Smite</strong></em>. You can expend 2 charges to cast the <em>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplSearingSmi]{Searing Smite}</em> spell (DC 13).</p><p><em><strong>Throw</strong></em>. When you take the Attack action, you can expend 1 charge to imbue the staff with magical velocity. Until the end of your next turn, the staff gains the Thrown property, with a normal range of 20 feet and a long range of 60 feet, and immediately after you make a ranged attack with the weapon, it flies back to your hand.</p><p><em><strong>Trip</strong></em>. When you make a melee attack with this weapon, you can expend 1 charge to give yourself Advantage on the attack roll. If the attack hits, the target makes a DC 13 Strength saving throw. On a failed save, the target has the Prone condition.</p><section id=\"secret-IYU6g64Ku8SCdfaT\" class=\"secret hide-in-embed\"><p><strong>Foundry Note</strong></p><p>The <strong>Make Throwable</strong> activity will apply an enchantment to the staff which makes it throwable. You can then use the standard <strong>Attack</strong> activity and select <strong>Thrown</strong>. When using the <em><strong>Trip</strong></em> option, select Advantage when rolling a normal attack; if it hits, use <strong>Trip Save</strong>.</p></section>",
+      "activities": {
+        "Trip Save": {
+          "name": "Trip Save",
+          "condition": "After Trip Attack hits."
+        },
+        "Make Throwable": {
+          "name": "Make Throwable"
+        }
+      },
+      "effects": {
+        "Prone": {
+          "name": "Prone",
+          "description": "<p>The target is knocked &amp;Reference[prone apply=false] and can use half of their movement on their turn to stand up.</p>"
+        }
+      }
+    },
+    "Namer's Needle": {
+      "name": "Namer's Needle",
+      "description": "<p>You gain a +1 bonus to attack rolls and damage rolls made with this magic weapon.</p><p><em><strong>Identify Target</strong></em>. When you hit a creature with an attack roll using this weapon, you can compel the target to reveal its identity. The target makes a DC 15 Wisdom saving throw. On a failed save, the target says or signs its name clearly and emphatically. On a successful save, the target is immune to this effect for the next 24 hours. If the creature can’t speak or sign a language, it automatically succeeds on the save.</p><p><em><strong>Named Target</strong></em>. When you hit a creature with an attack roll using this weapon, you can say or sign the target’s name clearly and emphatically to turn the hit into a Critical Hit. Once this property is used, it can’t be used again until the next dawn.</p><section id=\"secret-Rk6LAQYKsorBLuTN\" class=\"secret hide-in-embed\"><p><strong>Foundry Note</strong></p><p>After a successful <strong>Identify Target</strong> save, apply the linked <strong>Immune to Identify Target</strong> effect. For <strong>Named Target</strong>, use the activity after the attack hits, then resolve that attack's damage as a Critical Hit.</p></section>",
+      "activities": {
+        "Save: Identify Target": {
+          "name": "Save: Identify Target",
+          "condition": "After you hit a creature with this weapon."
+        },
+        "Named Target": {
+          "name": "Named Target",
+          "condition": "After you hit a creature with this weapon and before rolling the attack's damage."
+        }
+      },
+      "effects": {
+        "Immune to Identify Target": {
+          "name": "Immune to Identify Target",
+          "description": "<p>This creature is immune to Namer's Needle's Identify Target property.</p>"
+        }
+      }
+    },
+    "Necklace of the Beastly Familiar (Azurite)": {
+      "name": "Necklace of the Beastly Familiar (Azurite)",
+      "description": "<p class=\"metadata hide-in-embed\"><em>Requires Attunement by a Spellcaster</em></p><p>This bejeweled necklace comes with a matching charm that can be worn by your familiar. A variety of these necklaces exist, each set with a different kind of gemstone.</p><p><em><strong>Familiar</strong></em>. While wearing this necklace, you can cast the <em>Find Familiar</em> spell from it. Once the necklace has been used to cast this spell, it can’t be used to cast it again until the next dawn.</p><p><em><strong>Beast Transformation. </strong></em>While your familiar is within 60 feet of you, you can take a Magic action to activate the necklace. Your familiar shape-shifts into a Giant Octopus for 10 minutes.</p><p>While your familiar is transformed, its stat block is replaced by the stat block of the Beast form, but it retains its alignment, personality, creature type, Hit Points, and Hit Point Dice. Equipment the familiar is wearing or carrying doesn’t change size or shape to match the Beast form, and any equipment that the Beast form can’t wear or carry falls to the ground.</p><p>Your familiar gains a number of Temporary Hit Points equal to the Hit Points of the Beast form. These Temporary Hit Points vanish if any remain when the transformation ends. The transformation ends early on your familiar if it has no Temporary Hit Points left.</p><section id=\"secret-3Pz6DwMNChXlSXaB\" class=\"secret hide-in-embed\"><p><strong>Foundry Note</strong></p><p>The necklace's activities are not automatically disabled while it is unequipped. For Beast Transformation, control only your familiar's token and confirm it is within 60 feet before transforming it. Use <strong>Restore Transformation</strong> when 10 minutes expire or the transformation's Temporary Hit Points reach 0. Handle any familiar equipment that the Beast form can't wear or carry manually.</p></section>",
+      "activities": {
+        "Beast Transformation": {
+          "name": "Beast Transformation"
+        }
+      }
+    },
+    "Orb of Divination Detection": {
+      "name": "Orb of Divination Detection",
+      "description": "<p>This glass orb is a useful defense against meddlesome mages and magic-wielding spies.</p><p><em><strong>Detect Divination</strong></em>. When you are targeted by a spell from the Divination school, the orb glows bright green for the spell’s duration.</p><p><em><strong>Spellcasting Focus</strong></em>. This orb can be used as an Arcane Focus.</p>"
+    },
+    "Orb of Sorcery": {
+      "name": "Orb of Sorcery",
+      "description": "<p class=\"metadata hide-in-embed\"><em>Requires Attunement by a Sorcerer</em></p><p>Ribbons of varicolored light swirl inside this magical glass orb.</p><p><em><strong>Sorcerous Reservoir</strong></em>. While holding this orb, you can take a Magic action to regain up to 2 expended Sorcery Points. Once this property is used, it can’t be used again until the next dawn.</p><p><em><strong>Spellcasting Focus</strong></em>. You can use the orb as a Spellcasting Focus for your Sorcerer spells.</p>",
+      "activities": {
+        "Sorcerous Reservoir": {
+          "name": "Sorcerous Reservoir"
+        }
+      }
+    },
+    "Potion of Dragon's Breath (Black)": {
+      "name": "Potion of Dragon's Breath (Black)",
+      "description": "<p>When you drink this potion, you gain the effect of the <em>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplDragonsBre]{Dragon’s Breath}</em> spell for 1 minute (save DC 13, no Concentration required). The spell deals Acid damage.</p><p>Light catches off the glittery liquid inside this potion, which is made from the pulverized scale of a chromatic dragon.</p><section id=\"secret-dNE2pWIKChrQTQsI\" class=\"secret hide-in-embed\"><p><strong>Foundry Note</strong></p><p>After drinking the potion, use <strong>Exhale</strong> for its breath effect. Delete the spent potion from your inventory when the 1-minute duration ends.</p></section>",
+      "activities": {
+        "Drink Potion": {
+          "name": "Drink Potion"
+        },
+        "Exhale": {
+          "name": "Exhale"
+        }
+      }
+    },
+    "Potion of Tirelessness": {
+      "name": "Potion of Tirelessness",
+      "description": "<p>After you drink this potion, you don’t need to sleep, and magic can’t put you to sleep. This effect lasts 24 hours. For the duration, you can finish a Long Rest in 4 hours if you spend those hours in a state of quiet focus, during which you retain consciousness.</p><p>This pale red potion is as thick as molasses, yet it slides out of the bottle as readily as oil.</p>",
+      "activities": {
+        "Drink Potion": {
+          "name": "Drink Potion"
+        }
+      },
+      "effects": {
+        "Tireless": {
+          "name": "Tireless"
+        }
+      }
+    },
+    "Prismatic Rune": {
+      "name": "Prismatic Rune",
+      "description": "<p class=\"metadata hide-in-embed\"><em>Requires Attunement by a Spellcaster</em></p><p>A magical rune is etched on this small stone made of multicolored quartz. When you finish a Long Rest, choose one of the following damage types: Acid, Cold, Fire, Lightning, or Thunder. The rune is imbued with the chosen damage type until you finish another Long Rest.</p><p><em><strong>Charges</strong></em>. The rune has 6 charges and regains 1d6 expended charges daily at dawn. When you cast a spell that deals damage, you can expend 1 charge to change the spell’s damage type to the damage type chosen for the rune.</p><section id=\"secret-C1iyQlu9JnLlh1D9\" class=\"secret hide-in-embed\"><p><strong>Foundry Note</strong></p><p><strong>Prismatic Conversion</strong> includes enchantments for each damage type which can be applied to the spell. Remove the enchantment from the spell when that casting ends.</p></section>",
+      "activities": {
+        "Prismatic Conversion": {
+          "name": "Prismatic Conversion"
+        }
+      },
+      "effects": {
+        "Prismatic Conversion: Acid": {
+          "name": "Prismatic Conversion: Acid",
+          "changes": {
+            "name": "{} (Acid Damage)"
+          }
+        },
+        "Prismatic Conversion: Cold": {
+          "name": "Prismatic Conversion: Cold",
+          "changes": {
+            "name": "{} (Cold Damage)"
+          }
+        },
+        "Prismatic Conversion: Fire": {
+          "name": "Prismatic Conversion: Fire",
+          "changes": {
+            "name": "{} (Fire Damage)"
+          }
+        },
+        "Prismatic Conversion: Lightning": {
+          "name": "Prismatic Conversion: Lightning",
+          "changes": {
+            "name": "{} (Lightning Damage)"
+          }
+        },
+        "Prismatic Conversion: Thunder": {
+          "name": "Prismatic Conversion: Thunder",
+          "changes": {
+            "name": "{} (Thunder Damage)"
+          }
+        }
+      }
+    },
+    "Queen Ehlissa's Marvelous Nightingale": {
+      "name": "Queen Ehlissa's Marvelous Nightingale",
+      "description": "<p><em>Queen Ehlissa’s Marvelous Nightingale</em> is named for its first owner, a queen from the eastern Flanaess in the world of Greyhawk. Its origin is unknown, but one legend holds that it was made to console the queen when a beloved pet songbird met its unfortunate end.</p><p>This mechanical songbird has crystal eyes, golden feathers, and a small windup key on its back. As a Magic action, you can cause the bird to spring to life for 10 minutes, during which time it sings a beautiful melody audible within 300 feet, or you can revert the bird to its mechanical form. When the nightingale becomes mechanical again, it can’t come to life again for 1 hour.</p><p><em><strong>Ensemble Casting</strong></em>. The nightingale has 6 charges and regains 1d6 + 1 expended charges daily at dawn. As a Bonus Action while the nightingale is singing and within 60 feet of you, you can expend charges to cast one of the spells on the table below from the nightingale (save DC 18). The table shows the number of charges you must expend to cast the spell.</p><div class=\"tableWrapper\"><table style=\"min-width:50px\"><thead><tr><th scope=\"col\"><p>Spell</p></th><th scope=\"col\"><p>Charge Cost</p></th></tr></thead><tbody><tr><td><p><em>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplCalmEmotio]{Calm Emotions}</em></p></td><td><p>1</p></td></tr><tr><td><p><em>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplCompulsion]{Compulsion}</em></p></td><td><p>3</p></td></tr><tr><td><p><em>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplDelayedBla]{Delayed Blast Fireball}</em></p></td><td><p>6</p></td></tr><tr><td><p><em>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplDetectEvil]{Detect Evil and Good}</em></p></td><td><p>0</p></td></tr><tr><td><p><em>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplGreaterRes]{Greater Restoration}</em></p></td><td><p>4</p></td></tr><tr><td><p><em>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplPrismaticS]{Prismatic Spray}</em></p></td><td><p>6</p></td></tr><tr><td><p><em>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplSlow000000]{Slow}</em></p></td><td><p>2</p></td></tr><tr><td><p><em>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplSpeakwithA]{Speak with Animals}</em></p></td><td><p>0</p></td></tr></tbody></table></div><p><em><strong>Aura of Truth</strong></em>. While the nightingale sings, the effect of a <em>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplZoneofTrut]{Zone of Truth}</em> spell (save DC 18) fills a 15-foot Emanation originating from the nightingale. While attuned to the nightingale, you know which creatures succeed on or fail the saving throw against this effect.</p><p><em><strong>Counterspell</strong></em>. While the nightingale sings, you can take a Reaction to cast <em>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplCounterspe]{Counterspell}</em> (save DC 18) in response to that spell’s trigger. Once this property is used, it can’t be used again until the next dawn.</p><p><em><strong>Random Properties</strong></em>. The Artifact has the following random properties (see the “Artifacts” section in the <em>Dungeon Master’s Guide</em>):</p><ul><li><p>2 minor beneficial properties</p></li><li><p>1 major beneficial property</p></li><li><p>1 minor detrimental property</p></li></ul><p><em><strong>Destroying the Nightingale</strong></em>. The nightingale is destroyed if it is released into a whirlwind in Limbo.</p>",
+      "activities": {
+        "Begin Singing": {
+          "name": "Begin Singing"
+        },
+        "Revert to Mechanical Form": {
+          "name": "Revert to Mechanical Form"
+        },
+        "Aura of Truth": {
+          "name": "Aura of Truth"
+        }
+      }
+    },
+    "Ring of Dedicated Focus": {
+      "name": "Ring of Dedicated Focus",
+      "description": "<p>The magical spike on the side of this ring allows you to sharpen your focus at a moment’s notice. When you fail a Constitution saving throw to maintain Concentration, you can roll up to two of your unexpended Hit Dice and add the total rolled to your save, potentially turning the failure into a success. The rolled Hit Dice are then expended.</p>",
+      "activities": {
+        "Dedicated Focus (Largest Hit Die)": {
+          "name": "Dedicated Focus (Largest Hit Die)",
+          "roll": "Save Bonus",
+          "condition": "After you fail a Constitution saving throw to maintain Concentration"
+        },
+        "Dedicated Focus (Smallest Hit Die)": {
+          "name": "Dedicated Focus (Smallest Hit Die)",
+          "roll": "Save Bonus",
+          "condition": "After you fail a Constitution saving throw to maintain Concentration"
+        }
+      }
+    },
+    "Scholar's Anchoring Bangle": {
+      "name": "Scholar's Anchoring Bangle",
+      "description": "<p>This heavy magical bracelet inures your mind against potential distractions. While wearing this bracelet, you gain the following benefits.</p><p><em><strong>Deep Knowledge</strong></em>. When you take the &amp;Reference[Study] action and make an Intelligence check using a skill in which you have proficiency, you can treat a d20 roll of 9 or lower as a 10.</p><p><em><strong>Single-Minded Focus</strong></em>. When you fail a Constitution saving throw to maintain Concentration, you can take a Reaction to succeed instead. Once you use this property, it can’t be used again until the next dawn.</p>",
+      "activities": {
+        "Single-Minded Focus": {
+          "name": "Single-Minded Focus",
+          "condition": "After you fail a Constitution saving throw to maintain Concentration"
+        }
+      }
+    },
+    "Secret Keeper's Circlet": {
+      "name": "Secret Keeper's Circlet",
+      "description": "<p>This circlet allows the wearer to wipe from their memory any knowledge of a specific deed or time in their life, making it useful for those who fear mages plumbing their minds with magic.</p><p>While wearing this circlet, you can take a Magic action to specify a trigger such as “after I leave this temple” or “when I cast the <em>Animate Dead</em> spell.” For the next 24 hours, if that trigger occurs, the circlet erases your memories of everything from the time you chose the trigger until the trigger occurred. No magic short of a <em>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplWish000000]{Wish}</em> spell can restore your memory of this time. Once you use this property, you can’t use it again until the next dawn.</p>",
+      "activities": {
+        "Set Trigger": {
+          "name": "Set Trigger"
+        }
+      }
+    },
+    "Spell Component Ring": {
+      "name": "Spell Component Ring",
+      "description": "<p>This steel ring has a discreet chamber lined with a mystical inscription. As a Magic action, choose one spell you have prepared that requires a Material component; the required Material component must neither have a cost specified nor be consumed by the spell. You store that spell’s Material component in the ring’s chamber.</p><p>Whenever you cast the chosen spell, you don’t need to have a hand free to access its Material component, provided you are wearing the ring. The ring can hold the Material component for one spell at a time.</p><section id=\"secret-RTkZSNw53mA0BO2o\" class=\"secret hide-in-embed\"><p><strong>Foundry Note</strong></p><p>When you use <strong>Store Component</strong>, record the chosen spell manually. The ring can store a component for only one spell at a time.</p></section>",
+      "activities": {
+        "Store Component": {
+          "name": "Store Component"
+        }
+      }
+    },
+    "Spell Duelist's Trophy": {
+      "name": "Spell Duelist's Trophy",
+      "description": "<p class=\"metadata hide-in-embed\"><em>Requires Attunement by a Spellcaster</em></p><p>This withered hand or talon is attached to a leather cord that can be worn like a necklace or bracelet. You gain the following benefits while wearing the trophy.</p><p><em><strong>Dispelling Touch</strong></em>. When you hit a creature with a melee spell attack, you can activate the trophy to cast the <em>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplDispelMagi]{Dispel Magic}</em> spell as part of that attack, targeting the hit creature. Once this property has been used, it can’t be used again until the next dawn.</p><p><em><strong>Helping Hand</strong></em>. When you cast a spell using a spell slot, you can cast it without any Somatic components.</p><p><em><strong>Mage Hand</strong></em>. You can cast the <em>@UUID[Compendium.dnd-players-handbook.classes.Item.phbrgeMageHandLe]{Mage Hand}</em> cantrip from the trophy.</p>",
+      "activities": {
+        "Dispelling Touch": {
+          "name": "Dispelling Touch",
+          "condition": "After you hit a creature with a melee spell attack",
+          "range": "The creature hit by the triggering melee spell attack"
+        }
+      }
+    },
+    "Spell-Slinger's Puppet": {
+      "name": "Spell-Slinger's Puppet",
+      "description": "<p>As a Bonus Action while holding this ventriloquist’s doll, you can pull the cord on the doll’s back to cause the doll to levitate to an unoccupied space you can see within 30 feet of yourself and hover there. While the doll hovers, you can take a Bonus Action to cause the doll to move up to 30 feet to another unoccupied space you can see within 30 feet of yourself. The doll hovers for 1 minute or until you end the effect as a Bonus Action.</p><p>While the doll is within 30 feet of you, you can speak using the doll’s mouth rather than your own. This allows you to, for instance, cast a spell with a Verbal component even if you can’t speak.</p><section id=\"secret-Si1hRjlRjTMUII0t\" class=\"secret hide-in-embed\"><p><strong>Foundry Note</strong></p><p>If you are using a token for the hovering doll, you will need to place, move, and remove/hide the token manually.</p></section>",
+      "activities": {
+        "Levitate Doll": {
+          "name": "Levitate Doll",
+          "condition": "While holding the doll"
+        },
+        "Move Doll": {
+          "name": "Move Doll",
+          "condition": "While the doll is hovering"
+        }
+      }
+    },
+    "Staff of Skulls": {
+      "name": "Staff of Skulls",
+      "description": "<p class=\"metadata hide-in-embed\"><em>(Requires Attunement by a Spellcaster)</em></p><p>This staff is made of polished, interlocking bones. Runes are carved along its length.</p><p><em><strong>Ominous (Uncommon)</strong></em>. A skull adorns the top of the staff.</p><p>While you hold the staff, you can cast <em>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplChillTouch]{Chill Touch}</em> from it, using your spell attack bonus. Additionally, you have Advantage on Charisma (Intimidation) checks made while holding the staff, and the staff’s eye sockets glow a disquieting green, shedding Dim Light in a 5-foot radius.</p><section id=\"secret-L20ZA5A5ysB65V8A\" class=\"secret hide-in-embed\"><p><strong>Foundry Note</strong></p><p>When this item evolves, use the appropriate <strong>Evolve to...</strong> activity.</p><p>The staff includes an off by default Active Effect for the staff's glow. You can enable it if it will not impact other lights you have enabled on your Token.</p></section>",
+      "activities": {
+        "zgmcUan7zafnfOC3": {
+          "condition": "While holding the staff"
+        },
+        "Evolve to Chattering": {
+          "name": "Evolve to Chattering",
+          "condition": "When the GM evolves the item to Rare"
+        },
+        "Chattering": {
+          "name": "Chattering",
+          "condition": "When a creature you can see within 30 feet of you makes an attack roll"
+        },
+        "Evolve to Pulverizing": {
+          "name": "Evolve to Pulverizing",
+          "condition": "When the GM evolves the item to Very Rare"
+        },
+        "Pulverizing": {
+          "name": "Pulverizing",
+          "condition": "While holding the staff",
+          "range": "A Humanoid you can see",
+          "target": "Humanoid"
+        }
+      },
+      "effects": {
+        "Prone": {
+          "name": "Prone",
+          "description": "<p>The target is knocked &amp;Reference[prone apply=false] and can use half of their movement on their turn to stand up.</p>"
+        },
+        "Intimidation Advantage": {
+          "name": "Intimidation Advantage"
+        },
+        "Staff Glow": {
+          "name": "Staff Glow"
+        }
+      }
+    },
+    "Staff of the Lost": {
+      "name": "Staff of the Lost",
+      "description": "<p class=\"hide-in-embed\">[[/attack extended]]. [[/damage average extended]] or [[/damage attackMode=twoHanded average]] damage if used with two hands.</p><hr class=\"hide-in-embed\"><p>This staff can be wielded as a magic Quarterstaff that grants a +1 bonus to attack rolls and damage rolls made with it.</p><p>The staff has 3 charges. While holding the staff, you can expend 1 charge to cast either <em>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplMaze000000]{Maze}</em> (save DC 18) or <em>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplTeleport00]{Teleport}</em> from it. When the staff has no more charges remaining, it loses its magic and becomes a nonmagical Quarterstaff.</p><p><em><strong>Curse</strong></em>. This staff is cursed. Becoming attuned to it extends the curse to you. As long as you remain cursed, you are unwilling to part with the staff, keeping it on your person at all times.</p><p>While attuned to this staff, you never know which way is north, and you have Disadvantage on Wisdom (Survival) checks made to navigate. Additionally, whenever you expend a charge from the staff, roll 1d20. On a 1, [[/r 1d4]] <strong>@UUID[Compendium.dnd-monster-manual.actors.Actor.mmMinotaurOfBaph]{Minotaurs of Baphomet}</strong> materialize, each appearing in an unoccupied space within 30 feet of you. The minotaurs begin combat with you immediately.</p>",
+      "activities": {
+        "Expend Charge Check": {
+          "name": "Expend Charge Check",
+          "roll": "Expend Charge Check",
+          "condition": "After you expend a charge from the staff"
+        },
+        "Summon Minotaurs": {
+          "name": "Summon Minotaurs",
+          "condition": "Use when Expend Charge Check rolls a 1"
+        },
+        "Exhaust Staff": {
+          "name": "Exhaust Staff",
+          "condition": "After expending the final charge"
+        }
+      },
+      "effects": {
+        "Magic Exhausted": {
+          "name": "Magic Exhausted",
+          "changes": {
+            "name": "Quarterstaff",
+            "activities[enchant].name": "Unexhaust Staff",
+            "system.description.value": "<p>[[/attack extended]]. [[/damage average extended]] or [[/damage attackMode=twoHanded average]] damage if used with two hands.</p>"
+          }
+        }
+      }
+    },
+    "Sweeping Broom": {
+      "name": "Sweeping Broom",
+      "description": "<p>As a Magic action, you can use this unassuming broom’s command word, choosing a point you can see on the ground within 60 feet of yourself. The broom animates and sweeps dust and detritus from the ground in a 20-foot square centered on the chosen point. It sweeps that area until you take another Magic action to deactivate it.</p>",
+      "activities": {
+        "Activate Broom": {
+          "name": "Activate Broom",
+          "condition": "Speak the broom's command word",
+          "duration": "Until deactivated"
+        },
+        "Deactivate Broom": {
+          "name": "Deactivate Broom"
+        }
+      }
+    },
+    "Thespian's Playbill": {
+      "name": "Thespian's Playbill",
+      "description": "<p>While holding this magical theater program, whenever you take the &amp;Reference[Study] action and make an Intelligence check, you gain a bonus to the check equal to your Charisma modifier (minimum of +1).</p>",
+      "activities": {
+        "Study Check": {
+          "name": "Study Check",
+          "condition": "While holding the playbill and taking the Study"
+        }
+      }
+    },
+    "Thief's Thimble": {
+      "name": "Thief's Thimble",
+      "description": "<p>This magic thimble aids thieves in foiling traps. While wearing this thimble, if you trigger a trap and take damage, the thimble takes the damage instead.</p><p>The thimble has 30 Hit Points. If the thimble is reduced to 0 Hit Points, it breaks, and you take any remaining damage.</p><section id=\"secret-BQmKFqZ5kxiOwzjP\" class=\"secret hide-in-embed\"><p><strong>Foundry Note</strong></p><p>Use the thimble's remaining Uses as its Hit Points. When a trap damages you, decrease Spent Uses by that damage. If the damage exceeds the thimble's remaining Uses, apply the excess to your character.</p></section>",
+      "activities": {
+        "Transfer Damage": {
+          "name": "Transfer Damage",
+          "condition": "After you trigger a trap and would take damage"
+        }
+      }
+    },
+    "Tramontane Armor": {
+      "name": "Tramontane Armor",
+      "description": "<p class=\"metadata hide-in-embed\"><em>Armor (Any Light or Medium), Very Rare (Requires Attunement)</em></p>\n<p>You gain a +1 bonus to Armor Class while wearing this armor. The armor is enchanted to look like a scholarly or priestly robe.</p>\n<p><em><strong>Mountain Walker</strong></em>. While you’re wearing this armor, &amp;Reference[Difficult Terrain] composed of heavy snow, ice, rubble, or undergrowth doesn’t cost you extra movement.</p>\n<p><em><strong>Grasping Tendrils</strong></em>. As a Magic action, you can activate the armor, causing the hems of its sleeves and body to extend into ribbonlike tendrils.</p>\n<p>As a Bonus Action while the armor is active, you can force each creature of your choice in a 20-foot Emanation originating from you to make a DC 15 Strength saving throw. On a failed save, a creature has the Grappled condition (escape DC 15) and is pulled up to 20 feet straight toward you.</p>\n<p>The armor remains active for 1 minute or until you take another Magic action to deactivate it. Once you activate the armor, it can’t be activated again until the next dawn.</p>\n<section class=\"fvtt advice hide-in-embed\">\n    <figure class=\"icon\">\n        <img src=\"systems/dnd5e/icons/spell-tiers/spell3.webp\" class=\"round\">\n    </figure>\n    <article>\n        <h5 data-no-toc class=\"hide-in-embed\"><span style=\"margin-top:0px;font-size:larger\">Create Tramontane Armor with a Template</span></h5>\n        <p><span style=\"margin:0px;padding:0px\"><strong>Tramontane Armor</strong> can be crafted from any non-magical Light or Medium Armor. Instead of providing a separate magic item for every possible type of armor, this template allows you to apply the Tramontane Armor enchantment to the armor of your choice.</span></p>\n        <p><span style=\"margin:0px;padding:0px\">To use the <strong>Create Tramontane Armor</strong> enchantment activity, follow these steps: When prompted, drag the Light or Medium Armor you wish to enchant from your inventory to the designated drop zone in the chat card. The activity will automatically apply the Tramontane Armor enchantment and include the necessary magical properties, activities, and active effects needed to utilize the item.</span></p>\n        <p>To remove an enchantment, open the enchanted armor, navigate to the Effects tab, and disable or delete the enchantment.</p>\n    </article>\n</section>",
+      "activities": {
+        "Create Tramontane Armor": {
+          "name": "Create Tramontane Armor"
+        },
+        "Activate Tendrils": {
+          "name": "Activate Tendrils"
+        },
+        "Save: Grasping Tendrils": {
+          "name": "Save: Grasping Tendrils",
+          "condition": "While Grasping Tendrils is active",
+          "target": "of your choice in the 20-foot Emanation AOE."
+        },
+        "Escape Check": {
+          "name": "Escape Check",
+          "target": "Grappled by the tentrals"
+        },
+        "Deactivate Tendrils": {
+          "name": "Deactivate Tendrils",
+          "condition": "While Grasping Tendrils is active"
+        }
+      },
+      "effects": {
+        "Ignore Difficult Terrain": {
+          "name": "Ignore Difficult Terrain",
+          "description": "<p>Ignores difficult terrain caused by heavy snow, ice, rubble, and undergrowth while this armor is worn.</p>"
+        },
+        "Grappled": {
+          "name": "Grappled"
+        }
+      }
+    },
+    "Traveler's Pearl": {
+      "name": "Traveler's Pearl",
+      "description": "<p>By using a command word while holding this pearl, you can cast the <em>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplTeleport00]{Teleport}</em> spell from it. Once this property is used, it can’t be used again until the next dawn.</p>"
+    },
+    "Universal Pantograph": {
+      "name": "Universal Pantograph",
+      "description": "<p>This cubical box measures 2 feet on each side. It appears to be made of oak and bound in silver, and its surface is engraved with motifs of marionettes and laughing children.</p><p>When a nonmagical item is placed in the box and the lid is closed, a perfect duplicate of the item appears next to the box.</p><p><em><strong>Clone</strong></em>. As a Magic action, you can cause the pantograph to grow large enough for a Medium creature to crouch within. You can revert the pantograph to its normal size as a Magic action, harmlessly shunting anything that can’t fit inside to the nearest unoccupied space.</p><p>When a creature is inside the pantograph, you can close the pantograph’s lid and sprinkle the pantograph with diamond dust worth at least 100 GP. If you do, the diamond dust is consumed, and you cast the <em>Clone</em> spell, targeting the creature inside the pantograph.</p><p>After the spell’s casting time is finished, the creature is harmlessly shunted from the pantograph, and the pantograph’s lid then can’t be opened for 120 days, during which time the duplicate from the spell grows within.</p><p>Once the clone is finished forming, it is harmlessly shunted from the pantograph, and the pantograph returns to its original size. A clone created by the pantograph doesn’t need to be contained within a vessel and endures indefinitely while inert.</p><p><em><strong>Destroying the Pantograph</strong></em>. If the pantograph doesn’t contain a clone, it is destroyed after being submerged in a bog in the Feywild for 999 years.</p><section id=\"secret-I2poP6hX3Cf5MT1j\" class=\"secret hide-in-embed\"><p><strong>Foundry Note</strong></p><p>Duplicate nonmagical items manually. For <strong>Clone</strong>, consume 100 GP of diamond dust manually, then use the <strong>Grow Clone</strong> activity when the casting time ends. After 120 days, use the <strong>Complete Clone Growth</strong> activity to restore the item to normal operation.</p></section>",
+      "activities": {
+        "Grow Clone": {
+          "name": "Grow Clone",
+          "condition": "After the Clone spell's casting time is completed"
+        }
+      },
+      "effects": {
+        "Grow Clone": {
+          "name": "Grow Clone",
+          "changes": {
+            "activities[enchant].name": "Complete Clone Growth",
+            "system.description.value": "<p>Use the Complete Clone Growth activity after 120 days have passed to complete the clone's growth and restore the pantograph to normal operation.</p>",
+            "name": "Clone Growth in Progress"
+          }
+        }
+      }
+    },
+    "Wand of Freshness": {
+      "name": "Wand of Freshness",
+      "description": "<p>This wand has 4 charges and regains 1d4 + 1 expended charges daily at dawn. While holding it, you can expend 1 charge to cast the <em>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplPurifyFood]{Purify Food and Drink}</em> spell from it.</p>"
+    },
+    "Wand of Slumber": {
+      "name": "Wand of Slumber",
+      "description": "<p>This wand has 7 charges. While holding it, you can cast one of the spells on the following table from it. The table indicates how many charges you must expend to cast the spell.</p><div class=\"tableWrapper\"><table style=\"min-width:50px\"><thead><tr><th scope=\"col\"><p>Spell</p></th><th scope=\"col\"><p>Charge Cost</p></th></tr></thead><tbody><tr><td><p><em>@UUID[Compendium.dnd-arcana-unleashed.spells.Item.aunCatnap0000000]{Catnap}</em> (see chapter 2)</p></td><td><p>3</p></td></tr><tr><td><p><em>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplSleep00000]{Sleep}</em> (save DC 15)</p></td><td><p>1</p></td></tr></tbody></table></div><p><em><strong>Regaining Charges</strong></em>. The wand regains 1d6 + 1 expended charges daily at dawn. If you expend the wand’s last charge, roll [[/r 1d20#On a 1, the wand crumbles into sand and is destroyed.]]. On a 1, the wand crumbles into sand and is destroyed.</p>",
+      "activities": {
+        "Last Charge Check": {
+          "name": "Last Charge Check",
+          "roll": "Last Charge Check",
+          "condition": "After expending the wand's last charge",
+          "chatFlavor": "On a 1, the wand crumbles into sand and is destroyed."
+        }
+      }
+    },
+    "Wand of Teeth": {
+      "name": "Wand of Teeth",
+      "description": "<p>This wand has 10 charges. While holding it, you can take a Magic action to expend up to 3 charges to spray a wave of sharp, spectral teeth in the direction you point it. Each creature in a [[lookup @target.template.size activity=ULEyST3mYHNVF16f]]-foot [[lookup @target.template.type capitalize activity=ULEyST3mYHNVF16f]] makes a [[/save format=long]]. Roll a number of d8s equal to the number of charges expended. On a failed save, a creature takes Piercing damage equal to the total rolled and has the &amp;Reference[Poisoned apply=false] condition until the start of your next turn; on a successful save, a creature takes half as much damage only.</p><p><em><strong>Regaining Charges</strong></em>. The wand regains 1d10 expended charges daily at dawn. If you expend the wand’s last charge, roll [[/r 1d20#On a 1, the wand explodes into harmless splinters and is destroyed.]]. On a 1, the wand explodes into harmless splinters and is destroyed.</p>",
+      "activities": {
+        "Save: Spectral Teeth": {
+          "name": "Save: Spectral Teeth",
+          "condition": "While holding the wand"
+        },
+        "Last Charge Check": {
+          "name": "Last Charge Check",
+          "roll": "Last Charge Check",
+          "condition": "After expending the wand's last charge",
+          "chatFlavor": "On a 1, the wand explodes into harmless splinters and is destroyed."
+        }
+      },
+      "effects": {
+        "Poisoned": {
+          "name": "Poisoned",
+          "description": "<p>The target has the &amp;Reference[Poisoned apply=false] condition until the attacking creature’s next turn</p>"
+        }
+      }
+    },
+    "Wave-Swept Weapon": {
+      "name": "Wave-Swept Weapon",
+      "description": "<p class=\"metadata hide-in-embed\"><em>Weapon (Greatsword, Longsword, Rapier, Scimitar, or Shortsword), Rarity Varies (Requires Attunement)</em></p><p>This weapon is covered in oceanic motifs, from wavelike etchings on its blade to stylized sea monsters embroidered onto its leather hilt.</p><p><em><strong>Barnacled (Uncommon)</strong></em>. Barnacles dot this blade’s guard and the flat sides of its etched blade.</p><p>You have a +1 bonus to attack rolls and damage rolls made with this magic weapon. While holding this weapon, you can take a Magic action to touch up to a gallon of liquid and infuse it with brine, turning fresh water into saltwater, for instance.</p><p><em><strong>Aquatic (Rare)</strong></em>. The wavelike etchings on this weapon’s blade glow with light, shedding Bright Light in a 5-foot radius and Dim Light for an additional 5 feet.</p><p>Your bonus to attack rolls and damage rolls made with this magic weapon increases to +2. While you hold the weapon, you can breathe underwater, and you have a Swim Speed of 30 feet.</p><p><em><strong>Ascendant (Very Rare)</strong></em>. The sea monsters embroidered on this weapon’s hilt are studded with chips of colorful gemstones.</p><p>Your bonus to attack rolls and damage rolls made with this magic weapon increases to +3. While you hold this weapon, you have a Fly Speed of 30 feet; when you use this Fly Speed, a salty sea breeze carries you through the air.</p><section id=\"secret-xuyZt3DWHHDE5byk\" class=\"secret hide-in-embed\"><p><strong>Foundry Note.</strong> Apply the appropriate Barnacled, Aquatic, or Ascendant enchantment profile to a mundane Greatsword, Longsword, Rapier, Scimitar, or Shortsword. When the weapon evolves, replace its current Wave-Swept enchantment with the new profile rather than stacking multiple profiles. At the Aquatic or Ascendant stage, toggle the <strong>Aquatic Light</strong> effect on while the weapon is held and off when it is not. Underwater breathing is not automated.</p></section>",
+      "activities": {
+        "Wave-Swept Weapon": {
+          "name": "Wave-Swept Weapon"
+        },
+        "Infuse with Brine": {
+          "name": "Infuse with Brine",
+          "condition": "While holding the weapon",
+          "target": "Up to 1 gallon of liquid"
+        }
+      },
+      "effects": {
+        "Barnacled": {
+          "name": "Barnacled",
+          "changes": {
+            "name": "Barnacled {}",
+            "system.description.value": "{}<hr> <p class=\"metadata hide-in-embed\"><em>Wave-Swept Weapon, Uncommon (Requires Attunement)</em></p> <p>This weapon is covered in oceanic motifs, from wavelike etchings on its blade to stylized sea monsters embroidered onto its leather hilt.</p> <p><em><strong>Barnacled (Uncommon)</strong></em>. Barnacles dot this blade’s guard and the flat sides of its etched blade.</p> <p>You have a +1 bonus to attack rolls and damage rolls made with this magic weapon. While holding this weapon, you can take a Magic action to touch up to a gallon of liquid and infuse it with brine, turning fresh water into saltwater, for instance.</p> <section class=\"secret hide-in-embed\">   <p><strong>Foundry Note.</strong> This weapon was created with the <strong>Barnacled</strong> Wave-Swept Weapon enchantment. When it evolves, replace this enchantment with the appropriate higher-rarity profile rather than stacking multiple Wave-Swept enchantments.</p> </section>"
+          }
+        },
+        "Aquatic": {
+          "name": "Aquatic",
+          "changes": {
+            "name": "Aquatic {}",
+            "system.description.value": "{}<hr> <p class=\"metadata hide-in-embed\"><em>Wave-Swept Weapon, Rare (Requires Attunement)</em></p> <p>This weapon is covered in oceanic motifs, from wavelike etchings on its blade to stylized sea monsters embroidered onto its leather hilt.</p> <p><em><strong>Barnacled (Uncommon)</strong></em>. Barnacles dot this blade’s guard and the flat sides of its etched blade.</p> <p>You have a +1 bonus to attack rolls and damage rolls made with this magic weapon. While holding this weapon, you can take a Magic action to touch up to a gallon of liquid and infuse it with brine, turning fresh water into saltwater, for instance.</p> <p><em><strong>Aquatic (Rare)</strong></em>. The wavelike etchings on this weapon’s blade glow with light, shedding Bright Light in a 5-foot radius and Dim Light for an additional 5 feet.</p> <p>Your bonus to attack rolls and damage rolls made with this magic weapon increases to +2. While you hold the weapon, you can breathe underwater, and you have a Swim Speed of 30 feet.</p> <section class=\"secret hide-in-embed\">   <p><strong>Foundry Note.</strong> This weapon was created with the <strong>Aquatic</strong> Wave-Swept Weapon enchantment. Toggle the <strong>Aquatic Light</strong> effect on while the weapon is held and off when it is not. Underwater breathing is not automated. When the weapon evolves, replace this enchantment with the higher-rarity profile rather than stacking multiple Wave-Swept enchantments.</p> </section>"
+          }
+        },
+        "Ascendant": {
+          "name": "Ascendant",
+          "changes": {
+            "name": "Ascendant {}",
+            "system.description.value": "{}<hr> <p class=\"metadata hide-in-embed\"><em>Wave-Swept Weapon, Very Rare (Requires Attunement)</em></p> <p>This weapon is covered in oceanic motifs, from wavelike etchings on its blade to stylized sea monsters embroidered onto its leather hilt.</p> <p><em><strong>Barnacled (Uncommon)</strong></em>. Barnacles dot this blade’s guard and the flat sides of its etched blade.</p> <p>You have a +1 bonus to attack rolls and damage rolls made with this magic weapon. While holding this weapon, you can take a Magic action to touch up to a gallon of liquid and infuse it with brine, turning fresh water into saltwater, for instance.</p> <p><em><strong>Aquatic (Rare)</strong></em>. The wavelike etchings on this weapon’s blade glow with light, shedding Bright Light in a 5-foot radius and Dim Light for an additional 5 feet.</p> <p>Your bonus to attack rolls and damage rolls made with this magic weapon increases to +2. While you hold the weapon, you can breathe underwater, and you have a Swim Speed of 30 feet.</p> <p><em><strong>Ascendant (Very Rare)</strong></em>. The sea monsters embroidered on this weapon’s hilt are studded with chips of colorful gemstones.</p> <p>Your bonus to attack rolls and damage rolls made with this magic weapon increases to +3. While you hold this weapon, you have a Fly Speed of 30 feet; when you use this Fly Speed, a salty sea breeze carries you through the air.</p> <section class=\"secret hide-in-embed\">   <p><strong>Foundry Note.</strong> This weapon was created with the <strong>Ascendant</strong> Wave-Swept Weapon enchantment. Toggle the <strong>Aquatic Light</strong> effect on while the weapon is held and off when it is not. Underwater breathing is not automated. If the weapon is reverted to an earlier state, replace this enchantment with the appropriate lower-rarity profile rather than stacking multiple Wave-Swept enchantments.</p> </section>"
+          }
+        },
+        "Aquatic Traits": {
+          "name": "Aquatic Traits"
+        },
+        "Ascendant Traits": {
+          "name": "Ascendant Traits"
+        },
+        "Aquatic Light": {
+          "name": "Aquatic Light"
+        }
+      }
+    },
+    "Workshop Wrecker": {
+      "name": "Workshop Wrecker",
+      "description": "<p>When this 3-inch-diameter metal ball is activated as a Magic action, it moves at a rapid speed, bouncing off walls and defying any attempts to capture it. The ball remains active for 1 minute or until you deactivate it by using a command word while within 30 feet of it (no action required). Once the ball is used, it can’t be used again until the next dawn.</p><p>When you activate the ball and at the beginning of each of your turns while the ball is active, each creature in the area makes a Dexterity saving throw, taking Bludgeoning damage on a failed save. The save DC and amount of damage dealt depend on the approximate size of the area in which the ball is active, as shown on the following table.</p><div class=\"tableWrapper\"><table style=\"min-width:75px\"><thead><tr><th scope=\"col\"><p>Area</p></th><th scope=\"col\"><p>Save DC</p></th><th scope=\"col\"><p>Bludgeoning Damage</p></th></tr></thead><tbody><tr><td><p>15-foot Cube</p></td><td><p>18</p></td><td><p>6d6 + 5</p></td></tr><tr><td><p>30-foot Cube</p></td><td><p>17</p></td><td><p>4d6 + 4</p></td></tr><tr><td><p>50-foot Cube</p></td><td><p>15</p></td><td><p>2d6 + 2</p></td></tr><tr><td><p>100-foot Cube</p></td><td><p>14</p></td><td><p>1d6 + 1</p></td></tr></tbody></table></div><p>A nonmagical object that isn’t being worn or carried also takes the damage if it is in the area. In confined areas larger than a 100-foot Cube, the amount of damage caused by the ball is negligible. If the ball is activated in an unconfined area, it flies off in a random direction at a rate of 300 feet per round.</p>",
+      "activities": {
+        "Save: 15-foot Cube": {
+          "name": "Save: 15-foot Cube",
+          "condition": "When activated or at the beginning of your turn while active"
+        },
+        "Save: 30-foot Cube": {
+          "name": "Save: 30-foot Cube",
+          "condition": "When activated or at the beginning of your turn while active"
+        },
+        "Save: 50-foot Cube": {
+          "name": "Save: 50-foot Cube",
+          "condition": "When activated or at the beginning of your turn while active"
+        },
+        "Save: 100-foot Cube": {
+          "name": "Save: 100-foot Cube",
+          "condition": "When activated or at the beginning of your turn while active"
+        },
+        "Activate Wrecker": {
+          "name": "Activate Wrecker"
+        }
+      },
+      "effects": {
+        "Activate Wrecker": {
+          "name": "Activate Wrecker"
+        }
+      }
+    },
+    "Necklace of the Beastly Familiar (Zircon)": {
+      "name": "Necklace of the Beastly Familiar (Zircon)",
+      "description": "<p class=\"metadata hide-in-embed\"><em>Requires Attunement by a Spellcaster</em></p><p>This bejeweled necklace comes with a matching charm that can be worn by your familiar. A variety of these necklaces exist, each set with a different kind of gemstone.</p><p><em><strong>Familiar</strong></em>. While wearing this necklace, you can cast the <em>Find Familiar</em> spell from it. Once the necklace has been used to cast this spell, it can’t be used to cast it again until the next dawn.</p><p><em><strong>Beast Transformation. </strong></em>While your familiar is within 60 feet of you, you can take a Magic action to activate the necklace. Your familiar shape-shifts into a Hippopotamus for 10 minutes.</p><p>While your familiar is transformed, its stat block is replaced by the stat block of the Beast form, but it retains its alignment, personality, creature type, Hit Points, and Hit Point Dice. Equipment the familiar is wearing or carrying doesn’t change size or shape to match the Beast form, and any equipment that the Beast form can’t wear or carry falls to the ground.</p><p>Your familiar gains a number of Temporary Hit Points equal to the Hit Points of the Beast form. These Temporary Hit Points vanish if any remain when the transformation ends. The transformation ends early on your familiar if it has no Temporary Hit Points left.</p><section id=\"secret-3Pz6DwMNChXlSXaB\" class=\"secret hide-in-embed\"><p><strong>Foundry Note</strong></p><p>The necklace's activities are not automatically disabled while it is unequipped. For Beast Transformation, control only your familiar's token and confirm it is within 60 feet before transforming it. Use <strong>Restore Transformation</strong> when 10 minutes expire or the transformation's Temporary Hit Points reach 0. Handle any familiar equipment that the Beast form can't wear or carry manually.</p></section>",
+      "activities": {
+        "Beast Transformation": {
+          "name": "Beast Transformation"
+        }
+      }
+    },
+    "Goading Ammunition (Bullet, Firearm)": {
+      "name": "Goading Ammunition (Bullet, Firearm)",
+      "description": "<p>If this piece of magic ammunition hits a creature and deals damage, the target makes a [[/save format=long]]. On a failed save, the target can’t take Reactions until the start of its next turn, as it sputters and rages impotently. Once it hits a target, the ammunition is no longer magical.</p><section id=\"secret-sPWThHUulbeAkQUR\" class=\"secret hide-in-embed\"><p><strong>Foundry Note</strong></p><p>After this ammunition hits and deals damage, use <strong>Goading Effect</strong>. On a failed save, apply the <strong>No Reactions</strong> reminder active effect to the target.</p></section>",
+      "activities": {
+        "Save: Goading Effect": {
+          "name": "Save: Goading Effect",
+          "condition": "When this ammunition hits a creature and deals damage."
+        }
+      },
+      "effects": {
+        "No Reactions": {
+          "name": "No Reactions",
+          "description": "<p>The target can’t take Reactions until the start of their next turn, as they sputter and rage impotently.</p>"
+        }
+      }
+    },
+    "Necklace of the Beastly Familiar (Topaz)": {
+      "name": "Necklace of the Beastly Familiar (Topaz)",
+      "description": "<p class=\"metadata hide-in-embed\"><em>Requires Attunement by a Spellcaster</em></p><p>This bejeweled necklace comes with a matching charm that can be worn by your familiar. A variety of these necklaces exist, each set with a different kind of gemstone.</p><p><em><strong>Familiar</strong></em>. While wearing this necklace, you can cast the <em>Find Familiar</em> spell from it. Once the necklace has been used to cast this spell, it can’t be used to cast it again until the next dawn.</p><p><em><strong>Beast Transformation. </strong></em>While your familiar is within 60 feet of you, you can take a Magic action to activate the necklace. Your familiar shape-shifts into a Mammoth for 10 minutes.</p><p>While your familiar is transformed, its stat block is replaced by the stat block of the Beast form, but it retains its alignment, personality, creature type, Hit Points, and Hit Point Dice. Equipment the familiar is wearing or carrying doesn’t change size or shape to match the Beast form, and any equipment that the Beast form can’t wear or carry falls to the ground.</p><p>Your familiar gains a number of Temporary Hit Points equal to the Hit Points of the Beast form. These Temporary Hit Points vanish if any remain when the transformation ends. The transformation ends early on your familiar if it has no Temporary Hit Points left.</p><section id=\"secret-3Pz6DwMNChXlSXaB\" class=\"secret hide-in-embed\"><p><strong>Foundry Note</strong></p><p>The necklace's activities are not automatically disabled while it is unequipped. For Beast Transformation, control only your familiar's token and confirm it is within 60 feet before transforming it. Use <strong>Restore Transformation</strong> when 10 minutes expire or the transformation's Temporary Hit Points reach 0. Handle any familiar equipment that the Beast form can't wear or carry manually.</p></section>",
+      "activities": {
+        "Beast Transformation": {
+          "name": "Beast Transformation"
+        }
+      }
+    },
+    "Dispelling Ammunition (Needle)": {
+      "name": "Dispelling Ammunition (Needle)",
+      "description": "<p>When a target takes damage from this magical piece of ammunition, any ongoing spell of level 3 or lower on the target ends. Once it deals damage to a target, the ammunition is no longer magical.</p><section id=\"secret-gNrXI0cVSjqbGHig\" class=\"secret hide-in-embed\"><p><strong>Foundry Note</strong></p><p>After this ammunition deals damage, use <strong>Dispelling Effect</strong>. The GM manually removes any ongoing spell effects of level 3 or lower from the damaged target.</p></section>",
+      "activities": {
+        "Dispelling Effect": {
+          "name": "Dispelling Effect",
+          "condition": "When a target takes damage from this ammunition."
+        }
+      }
+    },
+    "Goading Ammunition (Bullet, Sling)": {
+      "name": "Goading Ammunition (Bullet, Sling)",
+      "description": "<p>If this piece of magic ammunition hits a creature and deals damage, the target makes a [[/save format=long]]. On a failed save, the target can’t take Reactions until the start of its next turn, as it sputters and rages impotently. Once it hits a target, the ammunition is no longer magical.</p><section id=\"secret-sPWThHUulbeAkQUR\" class=\"secret hide-in-embed\"><p><strong>Foundry Note</strong></p><p>After this ammunition hits and deals damage, use <strong>Goading Effect</strong>. On a failed save, apply the <strong>No Reactions</strong> reminder active effect to the target.</p></section>",
+      "activities": {
+        "Save: Goading Effect": {
+          "name": "Save: Goading Effect",
+          "condition": "When this ammunition hits a creature and deals damage."
+        }
+      },
+      "effects": {
+        "No Reactions": {
+          "name": "No Reactions",
+          "description": "<p>The target can’t take Reactions until the start of their next turn, as they sputter and rage impotently.</p>"
+        }
+      }
+    },
+    "Necklace of the Beastly Familiar (Chrysoprase)": {
+      "name": "Necklace of the Beastly Familiar (Chrysoprase)",
+      "description": "<p class=\"metadata hide-in-embed\"><em>Requires Attunement by a Spellcaster</em></p><p>This bejeweled necklace comes with a matching charm that can be worn by your familiar. A variety of these necklaces exist, each set with a different kind of gemstone.</p><p><em><strong>Familiar</strong></em>. While wearing this necklace, you can cast the <em>Find Familiar</em> spell from it. Once the necklace has been used to cast this spell, it can’t be used to cast it again until the next dawn.</p><p><em><strong>Beast Transformation. </strong></em>While your familiar is within 60 feet of you, you can take a Magic action to activate the necklace. Your familiar shape-shifts into a Giant Scorpion for 10 minutes.</p><p>While your familiar is transformed, its stat block is replaced by the stat block of the Beast form, but it retains its alignment, personality, creature type, Hit Points, and Hit Point Dice. Equipment the familiar is wearing or carrying doesn’t change size or shape to match the Beast form, and any equipment that the Beast form can’t wear or carry falls to the ground.</p><p>Your familiar gains a number of Temporary Hit Points equal to the Hit Points of the Beast form. These Temporary Hit Points vanish if any remain when the transformation ends. The transformation ends early on your familiar if it has no Temporary Hit Points left.</p><section id=\"secret-3Pz6DwMNChXlSXaB\" class=\"secret hide-in-embed\"><p><strong>Foundry Note</strong></p><p>The necklace's activities are not automatically disabled while it is unequipped. For Beast Transformation, control only your familiar's token and confirm it is within 60 feet before transforming it. Use <strong>Restore Transformation</strong> when 10 minutes expire or the transformation's Temporary Hit Points reach 0. Handle any familiar equipment that the Beast form can't wear or carry manually.</p></section>",
+      "activities": {
+        "Beast Transformation": {
+          "name": "Beast Transformation"
+        }
+      }
+    },
+    "Potion of Dragon's Breath (Blue)": {
+      "name": "Potion of Dragon's Breath (Blue)",
+      "description": "<p>When you drink this potion, you gain the effect of the <em>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplDragonsBre]{Dragon’s Breath}</em> spell for 1 minute (save DC 13, no Concentration required). The spell deals Lightning damage.</p><p>Light catches off the glittery liquid inside this potion, which is made from the pulverized scale of a chromatic dragon.</p><section id=\"secret-dNE2pWIKChrQTQsI\" class=\"secret hide-in-embed\"><p><strong>Foundry Note</strong></p><p>After drinking the potion, use <strong>Exhale</strong> for its breath effect. Delete the spent potion from your inventory when the 1-minute duration ends.</p></section>",
+      "activities": {
+        "Drink Potion": {
+          "name": "Drink Potion"
+        },
+        "Exhale": {
+          "name": "Exhale"
+        }
+      }
+    },
+    "Goading Ammunition (Needle)": {
+      "name": "Goading Ammunition (Needle)",
+      "description": "<p>If this piece of magic ammunition hits a creature and deals damage, the target makes a [[/save format=long]]. On a failed save, the target can’t take Reactions until the start of its next turn, as it sputters and rages impotently. Once it hits a target, the ammunition is no longer magical.</p><section id=\"secret-sPWThHUulbeAkQUR\" class=\"secret hide-in-embed\"><p><strong>Foundry Note</strong></p><p>After this ammunition hits and deals damage, use <strong>Goading Effect</strong>. On a failed save, apply the <strong>No Reactions</strong> reminder active effect to the target.</p></section>",
+      "activities": {
+        "Save: Goading Effect": {
+          "name": "Save: Goading Effect",
+          "condition": "When this ammunition hits a creature and deals damage."
+        }
+      },
+      "effects": {
+        "No Reactions": {
+          "name": "No Reactions",
+          "description": "<p>The target can’t take Reactions until the start of their next turn, as they sputter and rage impotently.</p>"
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,52 @@
+{
+  "label": "Backgrounds",
+  "folders": {
+    "Supplemental": "Supplemental"
+  },
+  "entries": {
+    "Book (anatomy)": {
+      "name": "Book (anatomy)",
+      "description": "<p>A Book contains fiction or nonfiction. If you consult an accurate nonfiction Book about its topic, you gain a +5 bonus to Intelligence (Arcana, History, Nature, or Religion) checks you make about that topic.</p>"
+    },
+    "Bejeweled Conclave Spy": {
+      "name": "Bejeweled Conclave Spy",
+      "description": "<p><strong>Ability Scores:</strong> Dexterity, Wisdom, Charisma</p><p><strong>Feat:</strong> @UUID[Compendium.dnd-arcana-unleashed.feats.Item.aunArcaneEloqum6]{Arcane Eloquence}</p><p><strong>Skill Proficiencies:</strong> Deception and Perception</p><p><strong>Tool Proficiency:</strong> Disguise Kit</p><p><strong>Equipment:</strong> <em>Choose A or B:</em> (A) Disguise Kit, Fine Clothes, Perfume, 5 GP; or (B) 50 GP</p><p>Publicly, you’re a courtier, a mediator, or an entertainer. But behind that glamorous visage is a mind honed for gathering secrets. Trained by the enchanters of the @UUID[Compendium.dnd-arcana-unleashed.book.JournalEntry.aunBejeweledCokS]{Bejeweled Conclave,} you know how to use your charm and wit (plus a little magic) to infiltrate organizations, uncover information, and broker deals.</p>"
+    },
+    "Cosmic Dawn Experiment": {
+      "name": "Cosmic Dawn Experiment",
+      "description": "<p><strong>Ability Scores:</strong> Strength, Dexterity, Constitution</p><p><strong>Feat:</strong> @UUID[Compendium.dnd-arcana-unleashed.feats.Item.aunTransmutedAqb]{Transmuted Anatomy}</p><p><strong>Skill Proficiencies:</strong> Athletics and Survival</p><p><strong>Tool Proficiency:</strong> <em>Choose one kind of Artisan’s Tools</em></p><p><strong>Equipment:</strong> <em>Choose A or B:</em> (A) Artisan’s Tools (same as above), Backpack, Robe, Traveler’s Clothes, 30 GP; or (B) 50 GP</p><p>Your body has been warped by the transmutation practices of the @UUID[Compendium.dnd-arcana-unleashed.book.JournalEntry.aunBringersofCfQ]{Bringers of the Cosmic Dawn.} Perhaps you were inadvertently caught up in one of the organization’s experiments, or maybe you were a member of the organization and sought to improve your physical form through magical might. Whatever the case, you use your strange anatomy to your benefit.</p>"
+    },
+    "Covenant of the Grave Recruit": {
+      "name": "Covenant of the Grave Recruit",
+      "description": "<p><strong>Ability Scores:</strong> Strength, Intelligence, Wisdom</p><p><strong>Feat:</strong> @UUID[Compendium.dnd-arcana-unleashed.feats.Item.aunArcaneUnder1Z]{Arcane Undertaker}</p><p><strong>Skill Proficiencies:</strong> History and Medicine</p><p><strong>Tool Proficiency:</strong> Herbalism Kit</p><p><strong>Equipment:</strong> <em>Choose A or B:</em> (A) Dagger, Herbalism Kit, Book (anatomy), Shovel, 16 GP; or (B) 50 GP</p><p>Death has always fascinated you. You’ve studied that morbid topic alongside members of the @UUID[Compendium.dnd-arcana-unleashed.book.JournalEntry.aunCovenantoftXQ]{Covenant of the Grave}, analyzing the macabre with scientific precision. Though these studies, you’ve amassed knowledge of medication, necromancy, and history.</p>"
+    },
+    "Crucible Storm Chaser": {
+      "name": "Crucible Storm Chaser",
+      "description": "<p><strong>Ability Scores:</strong> Strength, Constitution, Intelligence</p><p><strong>Feat:</strong> @UUID[Compendium.dnd-arcana-unleashed.feats.Item.aunArcaneOverlB1]{Arcane Overload}</p><p><strong>Skill Proficiencies:</strong> Athletics and Nature</p><p><strong>Tool Proficiency:</strong> Glassblower’s Tools</p><p><strong>Equipment:</strong> <em>Choose A or B:</em> (A) Glassblower’s Tools, Backpack, Rope, Traveler’s Clothes, 15 GP; or (B) 50 GP</p><p>Your daredevil tendencies and thirst for excitement led you to the @UUID[Compendium.dnd-arcana-unleashed.book.JournalEntry.aunCrucibleKeenY]{Crucible Keepers,} an organization dedicated to studying natural and magical catastrophes. From playing with molten glass to charging into a hurricane’s eye, you thrive when disaster is mere steps away.</p>"
+    },
+    "Familiar Trainer": {
+      "name": "Familiar Trainer",
+      "description": "<p><strong>Ability Scores:</strong> Constitution, Intelligence, Wisdom</p><p><strong>Feat:</strong> @UUID[Compendium.dnd-arcana-unleashed.feats.Item.aunFamiliarFri4q]{Familiar Friend}</p><p><strong>Skill Proficiencies:</strong> Animal Handling and Arcana</p><p><strong>Tool Proficiency:</strong> <em>Choose one kind of Gaming Set</em></p><p><strong>Equipment:</strong> <em>Choose A or B:</em> (A) Quarterstaff, Gaming Set (same as above), Bedroll, Bell, String, Tinderbox, Traveler’s Clothes, Waterskin, 44 GP; or (B) 50 GP</p><p>A magical familiar bonded with you when you were young, accompanying you throughout your adolescence. Now, you can’t imagine life without your furry—or feathery, scaly, or slimy—friend at your side. You’ve learned to work in tandem with your familiar, and when adventure presents its challenges, your familiar is quick to remind you of the small joys in life.</p>"
+    },
+    "Horizon Weaver Initiate": {
+      "name": "Horizon Weaver Initiate",
+      "description": "<p><strong>Ability Scores:</strong> Dexterity, Constitution, Wisdom</p><p><strong>Feat:</strong> @UUID[Compendium.dnd-arcana-unleashed.feats.Item.aunPortalJumpeRu]{Portal Jumper}</p><p><strong>Skill Proficiencies:</strong> Acrobatics and Survival</p><p><strong>Tool Proficiency:</strong> Weaver’s Tools</p><p><strong>Equipment:</strong> <em>Choose A or B:</em> (A) Shortbow, 20 Arrows, Weaver’s Tools, Map, Quiver, Rope, Traveler’s Clothes, 18 GP; or (B) 50 GP</p><p>Your adolescence was marked by unquenchable wanderlust. You left home and began your travels as soon as you were able. Along the way, you encountered the adventurous conjurers of the @UUID[Compendium.dnd-arcana-unleashed.book.JournalEntry.aunHorizonWeavEA]{Horizon Weavers,} who taught you some of their teleportation magic to further your explorations.</p>"
+    },
+    "Agent of Ninth Quill": {
+      "name": "Agent of Ninth Quill",
+      "description": "<p><strong>Ability Scores:</strong> Dexterity, Intelligence, Charisma</p><p><strong>Feat:</strong> @UUID[Compendium.dnd-arcana-unleashed.feats.Item.ArcaneInfiltraQy]{Arcane Infiltrator}</p><p><strong>Skill Proficiencies:</strong> Arcana and Sleight of Hand</p><p><strong>Tool Proficiency:</strong> Thieves’ Tools</p><p><strong>Equipment:</strong> <em>Choose A or B:</em> (A) Dagger, Light Hammer, Thieves’ Tools, Iron Spikes, Rope, Traveler’s Clothes, 17 GP; or (B) 50 GP</p><p>Your sharp mind and keen burgling skills led you to fall in with the @UUID[Compendium.dnd-arcana-unleashed.book.JournalEntry.aunNinthQuill5Q9]{Ninth Quill,} a collective of thieves, saboteurs, and spies who steal magical lore and relics from others. Through your escapades—from purloining magic items and arcane tomes to sabotaging groups of mages—you’ve developed cunning skills and magical tricks to further your spy craft.</p>"
+    },
+    "Phantasmic Circus Trouper": {
+      "name": "Phantasmic Circus Trouper",
+      "description": "<p><strong>Ability Scores:</strong> Dexterity, Constitution, Charisma</p><p><strong>Feat:</strong> @UUID[Compendium.dnd-arcana-unleashed.feats.Item.aunArcaneArtiss3]{Arcane Artist}</p><p><strong>Skill Proficiencies:</strong> Deception and Performance</p><p><strong>Tool Proficiency:</strong> Disguise Kit</p><p><strong>Equipment:</strong> <em>Choose A or B:</em> (A) Disguise Kit, Gaming Set (any), Costume, Mirror, Traveler’s Clothes, 12 GP; or (B) 50 GP</p><p>Whether as a performer or a circus hand, you found a home among the members of the @UUID[Compendium.dnd-arcana-unleashed.book.JournalEntry.aunPhantasmicC8Y]{Phantasmic Circus.} As you traveled across the world bringing magic and wonder to excited audiences, you learned some illusion magic and honed your talents for performance and misdirection.</p>"
+    },
+    "Seer Apprentice": {
+      "name": "Seer Apprentice",
+      "description": "<p><strong>Ability Scores:</strong> Intelligence, Wisdom, Charisma</p><p><strong>Feat:</strong> @UUID[Compendium.dnd-arcana-unleashed.feats.Item.aunArcaneOmensJK]{Arcane Omens}</p><p><strong>Skill Proficiencies:</strong> History and Insight</p><p><strong>Tool Proficiency:</strong> Navigator’s Tools</p><p><strong>Equipment:</strong> <em>Choose A or B:</em> (A) Navigator’s Tools, 8 Candles, Ink, Ink Pen, Parchment (9 sheets), Pouch, Tinderbox, Traveler’s Clothes, 11 GP; or (B) 50 GP</p><p>As an apprentice among the @UUID[Compendium.dnd-arcana-unleashed.book.JournalEntry.aunSeersofSeaann]{Seers of Sea and Sky,} you learned to interpret minor omens from the clouds above and the fathoms below. The organization’s rich network of libraries furthered your education, and you now travel across the world, imparting advice and aid to others.</p>"
+    },
+    "Ward of the Sheltering Hands": {
+      "name": "Ward of the Sheltering Hands",
+      "description": "<p><strong>Ability Scores:</strong> Constitution, Wisdom, Charisma</p><p><strong>Feat:</strong> @UUID[Compendium.dnd-arcana-unleashed.feats.Item.aunArcaneSafegid]{Arcane Safeguard}</p><p><strong>Skill Proficiencies:</strong> Insight and Medicine</p><p><strong>Tool Proficiency:</strong> Cook’s Utensils</p><p><strong>Equipment:</strong> <em>Choose A or B:</em> (A) Cook’s Utensils, Blanket, Healer’s Kit, Lamp, Oil (3 flasks), Tinderbox, Traveler’s Clothes, Waterskin, 40 GP; or (B) 50 GP</p><p>A turn of ill luck led you to the @UUID[Compendium.dnd-arcana-unleashed.book.JournalEntry.aunShelteringHmM]{Sheltering Hands,} an altruistic organization dedicated to defending the downtrodden. The organization helped you regain your footing and taught you some of its protective magic—in the hope that one day you too would shelter the less fortunate in their time of need.</p>"
+    }
+  }
+}

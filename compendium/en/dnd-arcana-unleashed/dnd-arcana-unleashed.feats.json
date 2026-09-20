@@ -1,0 +1,527 @@
+{
+  "label": "Feats",
+  "folders": {
+    "Epic Boons": "Epic Boons",
+    "General Feats": "General Feats",
+    "Origin Feats": "Origin Feats",
+    "Magic School Masteries": "Magic School Masteries",
+    "Fighting Styles": "Fighting Styles"
+  },
+  "entries": {
+    "Arcane Infiltrator": {
+      "name": "Arcane Infiltrator",
+      "description": "<p>You gain the following benefits.</p><p><span class=\"inline-h4\">Cantrip.</span> You learn the <em>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplFriends000]{Friends}</em> cantrip. Intelligence, Wisdom, or Charisma is your spellcasting ability for this spell (choose when you select this feat).</p><p><span class=\"inline-h4\">Cunning Diversion.</span> You can take the &amp;Reference[Dodge] action as a Bonus Action. You can use this benefit a number of times equal to your Proficiency Bonus, and you regain all expended uses when you finish a Long Rest.</p>",
+      "activities": {
+        "Dodge": {
+          "name": "Dodge"
+        }
+      }
+    },
+    "Abjuration Adept": {
+      "name": "Abjuration Adept",
+      "description": "<p>You gain the following benefits.</p><p><span class=\"inline-h4\">Ability Score Increase.</span> Increase your Intelligence, Wisdom, or Charisma score by 1, to a maximum of 20.</p><p><span class=\"inline-h4\">Additional Spells.</span> Your prowess allows you to always have certain spells at the ready. When you have spell slots of a level specified in the Abjuration Adept Spells table, you thereafter always have the spells listed for that level and lower prepared.</p><p><span class=\"inline-h4\">Protective Ward.</span> When you cast a spell from the Abjuration school using a spell slot, you or one creature you can see within 30 feet of yourself gains Temporary Hit Points equal to twice the level of spell slot expended.</p><table><caption><p>Abjuration Adept Spells</p></caption><thead><tr><th scope=\"col\"><p>Spell Slot Level</p></th><th scope=\"col\"><p>Spell</p></th></tr></thead><tbody><tr><td><p>1</p></td><td><p><em>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplShield0000]{Shield}</em></p></td></tr><tr><td><p>2</p></td><td><p><em>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplLesserRest]{Lesser Restoration}</em></p></td></tr><tr><td><p>3</p></td><td><p><em>@UUID[Compendium.dnd-players-handbook.spells.Item.phbProtectionFro]{Protection from Energy}</em></p></td></tr><tr><td><p>4</p></td><td><p><em>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplBanishment]{Banishment}</em></p></td></tr><tr><td><p>5</p></td><td><p><em>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplMassCureWo]{Mass Cure Wounds}</em></p></td></tr></tbody></table><section id=\"secret-V7IGvJOFShQhHByx\" class=\"secret hide-in-embed\"><p><strong>Foundry Note</strong></p><p>This feat grants all of the spells at once but they are not usable due to a lack of spell slots until you should have access to them.</p></section>",
+      "activities": {
+        "Protective Ward": {
+          "name": "Protective Ward"
+        }
+      }
+    },
+    "Arcane Artist": {
+      "name": "Arcane Artist",
+      "description": "<p>You gain the following benefits.</p><p><span class=\"inline-h4\">Cantrip.</span> You learn the <em>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplMinorIllus]{Minor Illusion}</em> cantrip. Intelligence, Wisdom, or Charisma is your spellcasting ability for this spell (choose when you select this feat).</p><p><span class=\"inline-h4\">Inspiring Magic.</span> When you cast a spell from the Illusion school, you can choose one ally within 30 feet of yourself who can see you. That ally gains Heroic Inspiration. Once you use this benefit, you can’t use it again until you finish a Long Rest.</p>",
+      "activities": {
+        "Inspiring Magic": {
+          "name": "Inspiring Magic",
+          "condition": "you cast a spell from the Illusion school"
+        }
+      }
+    },
+    "Arcane Eloquence": {
+      "name": "Arcane Eloquence",
+      "description": "<p>You gain the following benefits.</p><p><span class=\"inline-h4\">Cantrip.</span> You learn the <em>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplViciousMoc]{Vicious Mockery}</em> cantrip. Intelligence, Wisdom, or Charisma is your spellcasting ability for this spell (choose when you select this feat).</p><p><span class=\"inline-h4\">Smooth Talker.</span> When you make a Charisma (Deception, Intimidation, or Persuasion) check, you can roll 1d4 and add the number rolled to the ability check.</p>",
+      "effects": {
+        "Smooth Talker": {
+          "name": "Smooth Talker"
+        }
+      }
+    },
+    "Arcane Omens": {
+      "name": "Arcane Omens",
+      "description": "<p>You gain the following benefits.</p><p><span class=\"inline-h4\">Cantrip.</span> You learn the <em>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplGuidance00]{Guidance}</em> cantrip. Intelligence, Wisdom, or Charisma is your spellcasting ability for this spell (choose when you select this feat).</p><p><span class=\"inline-h4\">Helpful Premonition.</span> When you or a creature you can see within 30 feet of yourself fails a saving throw, you can take a Reaction to roll 1d4 and add the number rolled to the save’s total, potentially turning the failure into a success. You can use this benefit a number of times equal to your Proficiency Bonus, and you regain all expended uses when you finish a Long Rest.</p>",
+      "activities": {
+        "Helpful Premonition": {
+          "name": "Helpful Premonition",
+          "roll": "Save Bonus",
+          "condition": "you or a target you can see within range fails a saving throw",
+          "target": "visible"
+        }
+      }
+    },
+    "Arcane Overload": {
+      "name": "Arcane Overload",
+      "description": "<p>You gain the following benefits.</p><p><span class=\"inline-h4\">Cantrip.</span> You learn the <em>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplFireBolt00]{Fire Bolt}</em> cantrip. Intelligence, Wisdom, or Charisma is your spellcasting ability for this spell (choose when you select this feat).</p><p><span class=\"inline-h4\">Power Surge.</span> When you cast an Evocation spell and deal damage with it, you can add your Proficiency Bonus to one damage roll of that spell. Once you use this benefit, you can’t do so again until you finish a Long Rest.</p>",
+      "activities": {
+        "Power Surge": {
+          "name": "Power Surge",
+          "condition": "when you cast an Evocation spell and deal damage with it"
+        }
+      }
+    },
+    "Arcane Safeguard": {
+      "name": "Arcane Safeguard",
+      "description": "<p>You gain the following benefits.</p><p><span class=\"inline-h4\">Cantrip.</span> You learn the <em>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplResistance]{Resistance}</em> cantrip. Intelligence, Wisdom, or Charisma is your spellcasting ability for this spell (choose when you select this feat).</p><p>You can cast the <em>Resistance</em> cantrip as a Bonus Action. You can do so a number of times equal to your Proficiency Bonus, and you regain all expended uses when you finish a Long Rest.</p><p><span class=\"inline-h4\">Sheltering Aid.</span> When you take the Help action to assist with an ally’s ability check, that ally gains a number of Temporary Hit Points equal to your Proficiency Bonus.</p>",
+      "activities": {
+        "Sheltering Aid": {
+          "name": "Sheltering Aid",
+          "condition": "when you take the Help action to assist with an ally's ability check"
+        }
+      },
+      "effects": {
+        "Cantrip Modifications": {
+          "name": "Cantrip Modifications",
+          "changes": {
+            "activities[forward].name": "Cast as Bonus Action"
+          }
+        }
+      }
+    },
+    "Arcane Undertaker": {
+      "name": "Arcane Undertaker",
+      "description": "<p>You gain the following benefits.</p><p><span class=\"inline-h4\">Cantrip.</span> You learn one Cleric or Wizard cantrip of your choice. The cantrip must be from the Necromancy school. Intelligence, Wisdom, or Charisma is your spellcasting ability for this spell (choose when you select this feat).</p><p><span class=\"inline-h4\">Knowledge from the Dead.</span> When you make an Intelligence (History) or Wisdom (Medicine) check, you can roll 1d4 and add the number rolled to the ability check.</p><p><span class=\"inline-h4\">Understanding of Death.</span> When you take the Help action to stabilize a creature with 0 Hit Points, you gain Heroic Inspiration. Once you use this benefit, you can’t use it again until you finish a Long Rest.</p>",
+      "activities": {
+        "Understanding of Death": {
+          "name": "Understanding of Death",
+          "condition": "you take the Help action to stabilize a creature"
+        }
+      },
+      "effects": {
+        "Knowledge from the Dead": {
+          "name": "Knowledge from the Dead"
+        }
+      },
+      "advancement": {
+        "2fdpIhHcbiUlOTdt": {
+          "hint": "<p>The cantrip must be from the Necromancy school.</p>"
+        }
+      }
+    },
+    "Arcane Warrior": {
+      "name": "Arcane Warrior",
+      "description": "<p>You learn two Wizard cantrips of your choice. <em>@UUID[Compendium.dnd5e.spells24.Item.phbsplMageHand00]{Mage Hand}</em> and <em>@UUID[Compendium.dnd5e.spells24.Item.phbsplRayofFrost]{Ray of Frost}</em> are recommended. Intelligence, Wisdom, or Charisma is your spellcasting ability for these spells (choose when you select this feat).</p><p>Whenever you gain a level, you can replace one of these cantrips with another Wizard cantrip.</p>",
+      "advancement": {
+        "bO7bNHwkXzs14isW": {
+          "hint": "<p class=\"metadata\">Fighting Style Feat (Prerequisite: Fighting Style Feature)</p><p>You learn two Wizard cantrips of your choice. <em>@UUID[Compendium.dnd5e.spells24.Item.phbsplMageHand00]{Mage Hand}</em> and <em>@UUID[Compendium.dnd5e.spells24.Item.phbsplRayofFrost]{Ray of Frost}</em> are recommended. Intelligence, Wisdom, or Charisma is your spellcasting ability for these spells (choose when you select this feat).</p><p>Whenever you gain a level, you can replace one of these cantrips with another Wizard cantrip.</p>"
+        }
+      }
+    },
+    "Boon of Erupting Spellpower": {
+      "name": "Boon of Erupting Spellpower",
+      "description": "<p>You gain the following benefits.</p><p><span class=\"inline-h4\">Ability Score Increase.</span> Increase your Intelligence, Wisdom, or Charisma score by 1, to a maximum of 30.</p><p><span class=\"inline-h4\">Spell Overload.</span> When you cast a spell that deals damage using a spell slot, you can cause its magical energy to surge. You can treat any 1 or 2 on a damage die rolled for the spell as a 3, and creatures that took damage from the spell also have the Prone condition. Once you use this benefit, you can’t do so again until you roll Initiative or finish a Long or Short rest.</p><section id=\"secret-RtUwAEDTrY1bN8tn\" class=\"secret hide-in-embed\"><p><strong>Foundry Note</strong></p><p>Foundry does not adjust the spell's damage dice automatically. Treat any damage die result of 1 or 2 as 3 manually.</p></section>",
+      "activities": {
+        "Spell Overload": {
+          "name": "Spell Overload",
+          "condition": "When you cast a spell that deals damage using a spell slot"
+        }
+      }
+    },
+    "Boon of Magic School Mastery": {
+      "name": "Boon of Magic School Mastery",
+      "description": "<p>You gain the following benefits.</p><p><span class=\"inline-h4\">Ability Score Increase.</span> Increase your Intelligence, Wisdom, or Charisma score by 1, to a maximum of 30.</p><p><span class=\"inline-h4\">Mastered School.</span> Choose one of the eight schools of magic: Abjuration, Conjuration, Divination, Enchantment, Evocation, Illusion, Necromancy, or Transmutation. Your choice grants you the following features:</p><p class=\"hanging\"><strong>Rote Casting.</strong> Choose a level 1 spell from the chosen school that appears on your class’s spell list. You always have that spell prepared and can cast it without a spell slot or spell components.</p><p class=\"hanging\"><strong>Signature Arcanum.</strong> Choose a level 7 or lower spell from the chosen school. You always have that spell prepared. You can cast it once without a spell slot, and you regain the ability to cast it in this way when you finish a Long Rest.</p><p>You can also cast these prepared spells using any spell slots you have of the appropriate level.</p><p><span class=\"inline-h4\">Repeatable.</span> You can take this feat more than once, but you must choose a different school of magic each time.</p>",
+      "advancement": {
+        "x7fOOn2ADF8yXsqf": {
+          "hint": "<p>Choose one of the eight schools of magic: Abjuration, Conjuration, Divination, Enchantment, Evocation, Illusion, Necromancy, or Transmutation. Your choice grants you the following features:</p><p class=\"hanging\"><strong>Rote Casting.</strong> Choose a level 1 spell from the chosen school that appears on your class’s spell list. You always have that spell prepared and can cast it without a spell slot or spell components.</p><p class=\"hanging\"><strong>Signature Arcanum.</strong> Choose a level 7 or lower spell from the chosen school. You always have that spell prepared. You can cast it once without a spell slot, and you regain the ability to cast it in this way when you finish a Long Rest.</p>"
+        }
+      }
+    },
+    "Boon of the Iron Mind": {
+      "name": "Boon of the Iron Mind",
+      "description": "<p>You gain the following benefits.</p><p><span class=\"inline-h4\">Ability Score Increase.</span> Increase one ability score of your choice by 1, to a maximum of 30.</p><p><span class=\"inline-h4\">Unshakable Focus.</span> When you are maintaining Concentration on an effect, you lose Concentration only if you cast a spell or activate another effect that requires Concentration, if you have the &amp;Reference[Petrified apply=false] or &amp;Reference[Unconscious apply=false] condition, or if you die.</p>"
+    },
+    "Conjuration Adept": {
+      "name": "Conjuration Adept",
+      "description": "<p>You gain the following benefits.</p><p><span class=\"inline-h4\">Ability Score Increase.</span> Increase your Intelligence, Wisdom, or Charisma score by 1, to a maximum of 20.</p><p><span class=\"inline-h4\">Additional Spells.</span> Your prowess allows you to always have certain spells at the ready. When you have spell slots of a level specified in the Conjuration Adept Spells table, you thereafter always have the spells listed for that level and lower prepared.</p><p><span class=\"inline-h4\">Persistent Conjuration.</span> While maintaining Concentration on a spell from the Conjuration school, you gain a bonus to Constitution saving throws to maintain this Concentration. This bonus is equal to the ability modifier of the score increased by this feat.</p><table><caption><p>Conjuration Adept Spells</p></caption><thead><tr><th scope=\"col\"><p>Spell Slot Level</p></th><th scope=\"col\"><p>Spell</p></th></tr></thead><tbody><tr><td><p>1</p></td><td><p><em>@UUID[Compendium.dnd5e.spells24.Item.phbsplEntangle00]{Entangle}</em></p></td></tr><tr><td><p>2</p></td><td><p><em>@UUID[Compendium.dnd5e.spells24.Item.phbsplMistyStep0]{Misty Step}</em></p></td></tr><tr><td><p>3</p></td><td><p><em>@UUID[Compendium.dnd5e.spells24.Item.phbsplConjureAni]{Conjure Animals}</em></p></td></tr><tr><td><p>4</p></td><td><p><em>@UUID[Compendium.dnd5e.spells24.Item.phbsplDimensionD]{Dimension Door}</em></p></td></tr><tr><td><p>5</p></td><td><p><em>@UUID[Compendium.dnd5e.spells24.Item.phbsplConjureEle]{Conjure Elemental}</em></p></td></tr></tbody></table><section id=\"secret-EJ0ntZZ5A1cuumcy\" class=\"secret hide-in-embed\"><p><strong>Foundry Note</strong></p><p>Foundry grants all five spells when you acquire this feat. Higher-level spells remain unavailable until you have a spell slot of the required level.</p><p>For Persistent Conjuration, enable the effect matching the ability increased by this feat while concentrating on a Conjuration spell, then disable it when that concentration ends.</p></section>",
+      "effects": {
+        "Conjuration Focus (INT)": {
+          "name": "Conjuration Focus (INT)"
+        },
+        "Conjuration Focus (WIS)": {
+          "name": "Conjuration Focus (WIS)"
+        },
+        "Conjuration Focus (CHA)": {
+          "name": "Conjuration Focus (CHA)"
+        }
+      }
+    },
+    "Divination Adept": {
+      "name": "Divination Adept",
+      "description": "<p>You gain the following benefits.</p><p><span class=\"inline-h4\">Ability Score Increase.</span> Increase your Intelligence, Wisdom, or Charisma score by 1, to a maximum of 20.</p><p><span class=\"inline-h4\">Additional Spells.</span> Your prowess allows you to always have certain spells at the ready. When you have spell slots of a level specified in the Divination Adept Spells table, you thereafter always have the spells listed for that level and lower prepared.</p><p><span class=\"inline-h4\">Prescient Intervention.</span> When a creature you can see within 60 feet of yourself makes a &amp;Reference[D20 Test], you can take a Reaction to give that creature Advantage or Disadvantage (your choice) on that roll.</p><p>Once you use this benefit, you can’t do so again until you finish a Long Rest. You can also regain use of this feature when you cast a spell from the Divination school using a spell slot.</p><table><caption><p>Divination Adept Spells</p></caption><thead><tr><th scope=\"col\"><p>Spell Slot Level</p></th><th scope=\"col\"><p>Spell</p></th></tr></thead><tbody><tr><td><p>1</p></td><td><p><em>@UUID[Compendium.dnd5e.spells24.Item.phbsplDetectEvil]{Detect Evil and Good}</em></p></td></tr><tr><td><p>2</p></td><td><p><em>@UUID[Compendium.dnd5e.spells24.Item.phbsplMindSpike0]{Mind Spike}</em></p></td></tr><tr><td><p>3</p></td><td><p><em>@UUID[Compendium.dnd5e.spells24.Item.phbsplClairvoyan]{Clairvoyance}</em></p></td></tr><tr><td><p>4</p></td><td><p><em>@UUID[Compendium.dnd5e.spells24.Item.phbsplDivination]{Divination}</em></p></td></tr><tr><td><p>5</p></td><td><p><em>@UUID[Compendium.dnd5e.spells24.Item.phbsplScrying000]{Scrying}</em></p></td></tr></tbody></table><section id=\"secret-D8FQYCsBh0VZpBOd\" class=\"secret hide-in-embed\"><p><strong>Foundry Note</strong></p><p>Foundry grants all five spells when you acquire this feat. Higher-level spells remain unavailable until you have a spell slot of the required level.</p></section>",
+      "activities": {
+        "Prescient Intervention": {
+          "name": "Prescient Intervention"
+        },
+        "Restore Use": {
+          "name": "Restore Use",
+          "condition": "After casting a Divination spell using a spell slot"
+        }
+      }
+    },
+    "Elemental Familiar": {
+      "name": "Elemental Familiar",
+      "description": "<p>You gain the following benefits.</p><p><span class=\"inline-h4\">Ability Score Increase.</span> Increase one ability score of your choice by 1, to a maximum of 20.</p><p><span class=\"inline-h4\">Elemental Energy.</span> You learn how to imbue your familiar with elemental power. When you cast the <em>Find Familiar</em> spell, choose Acid, Cold, Fire, Lightning, or Thunder damage. Your familiar is imbued with this energy until you cast <em>Find Familiar</em> again, granting it the following benefits:</p><p class=\"hanging\"><strong>Elemental Resistance.</strong> Your familiar has Resistance to the chosen damage type.</p><p class=\"hanging\"><strong>Energy Pulse.</strong> As a Bonus Action, you command your familiar to unleash a burst of elemental energy. Your familiar must be within 120 feet of you and take a Reaction to unleash this burst. Each creature in a 5-foot Emanation originating from your familiar makes a Dexterity saving throw (DC 8 plus your spellcasting ability modifier for the <em>Find Familiar</em> spell and your Proficiency Bonus). On a failed save, a creature takes 2d4 damage of the chosen type, and if the creature is Medium or smaller, it has the Prone condition.</p><section id=\"secret-0nYy8XGqIfQgzoSv\" class=\"secret hide-in-embed\"><p><strong>Foundry Note</strong></p><p>Use the Elemental Energy activity to enchant your <em>Find Familiar</em> spell, then use the summon activity matching the damage type you chose.</p></section>",
+      "activities": {
+        "Acid Elemental Familiar": {
+          "name": "Acid Elemental Familiar",
+          "profiles": {
+            "CR 0 Beast": {
+              "name": "CR 0 Beast"
+            }
+          }
+        },
+        "Cold Elemental Familiar": {
+          "name": "Cold Elemental Familiar",
+          "profiles": {
+            "CR 0 Beast": {
+              "name": "CR 0 Beast"
+            }
+          }
+        },
+        "Fire Elemental Familiar": {
+          "name": "Fire Elemental Familiar",
+          "profiles": {
+            "CR 0 Beast": {
+              "name": "CR 0 Beast"
+            }
+          }
+        },
+        "Lightning Elemental Familiar": {
+          "name": "Lightning Elemental Familiar",
+          "profiles": {
+            "CR 0 Beast": {
+              "name": "CR 0 Beast"
+            }
+          }
+        },
+        "Thunder Elemental Familiar": {
+          "name": "Thunder Elemental Familiar",
+          "profiles": {
+            "CR 0 Beast": {
+              "name": "CR 0 Beast"
+            }
+          }
+        },
+        "Energy Pulse": {
+          "name": "Energy Pulse"
+        },
+        "Elemental Energy": {
+          "name": "Elemental Energy"
+        }
+      },
+      "effects": {
+        "Elemental Familiar": {
+          "name": "Elemental Familiar"
+        }
+      }
+    },
+    "Enchantment Adept": {
+      "name": "Enchantment Adept",
+      "description": "<p>You gain the following benefits.</p><p><span class=\"inline-h4\">Ability Score Increase.</span> Increase your Intelligence, Wisdom, or Charisma score by 1, to a maximum of 20.</p><p><span class=\"inline-h4\">Additional Spells.</span> Your prowess allows you to always have certain spells at the ready. When you have spell slots of a level specified in the Enchantment Adept Spells table, you thereafter always have the spells listed for that level and lower prepared.</p><p><span class=\"inline-h4\">Subtle Enchantments.</span> When you cast a spell from the Enchantment school using a spell slot, you can cast it without any Verbal, Somatic, or Material components, except Material components that are consumed by the spell or that have a cost specified in the spell.</p><table><caption><p>Enchantment Adept Spells</p></caption><thead><tr><th scope=\"col\"><p>Spell Slot Level</p></th><th scope=\"col\"><p>Spell</p></th></tr></thead><tbody><tr><td><p>1</p></td><td><p><em>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplDissonantW]{Dissonant Whispers}</em></p></td></tr><tr><td><p>2</p></td><td><p><em>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplEnthrall00]{Enthrall}</em></p></td></tr><tr><td><p>3</p></td><td><p><em>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplHoldPerson]{Hold Person}</em></p></td></tr><tr><td><p>4</p></td><td><p><em>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplDominateBe]{Dominate Beast}</em></p></td></tr><tr><td><p>5</p></td><td><p><em>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplModifyMemo]{Modify Memory}</em></p></td></tr></tbody></table><section id=\"secret-jAAcIowhWd9kjxDQ\" class=\"secret hide-in-embed\"><p><strong>Foundry Note</strong></p><p>Foundry grants all five spells when you acquire this feat. Higher-level spells remain unavailable until you have a spell slot of the required level.</p><p>When you cast an Enchantment spell using a spell slot, handle Subtle Enchantments manually. Costly or consumed Material components are still required.</p></section>"
+    },
+    "Evocation Adept": {
+      "name": "Evocation Adept",
+      "description": "<p>You gain the following benefits.</p><p><span class=\"inline-h4\">Ability Score Increase.</span> Increase your Intelligence, Wisdom, or Charisma score by 1, to a maximum of 20.</p><p><span class=\"inline-h4\">Additional Spells.</span> Your prowess allows you to always have certain spells at the ready. When you have spell slots of a level specified in the Evocation Adept Spells table, you thereafter always have the spells listed for that level and lower prepared.</p><p><span class=\"inline-h4\">Fueled Evocation.</span> Once per turn when you cast an Evocation spell and deal damage, you can roll up to two of your unexpended Hit Point Dice and add the total rolled to one of the spell’s damage rolls. Those Hit Point Dice are then expended.</p><table><caption><p>Evocation Adept Spells</p></caption><thead><tr><th scope=\"col\"><p>Spell Slot Level</p></th><th scope=\"col\"><p>Spell</p></th></tr></thead><tbody><tr><td><p>1</p></td><td><p><em>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplChromaticO]{Chromatic Orb}</em></p></td></tr><tr><td><p>2</p></td><td><p><em>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplShatter000]{Shatter}</em></p></td></tr><tr><td><p>3</p></td><td><p><em>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplFireball00]{Fireball}</em></p></td></tr><tr><td><p>4</p></td><td><p><em>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplVitriolicS]{Vitriolic Sphere}</em></p></td></tr><tr><td><p>5</p></td><td><p><em>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplWallofForc]{Wall of Force}</em></p></td></tr></tbody></table><section id=\"secret-4t6zzmLeRz5pdRCA\" class=\"secret hide-in-embed\"><p><strong>Foundry Note</strong></p><p>All five spells are granted when you gain this feat, but you can’t cast the higher-level spells until you have the required spell slots.</p><p>For Fueled Evocation, use the Smallest or Largest Hit Die activity that matches the Hit Die you want to spend. You can expend up to two Hit Dice and add the total rolled to one damage roll of the qualifying spell.</p></section>",
+      "activities": {
+        "Fueled Evocation (Smallest Hit Die)": {
+          "name": "Fueled Evocation (Smallest Hit Die)",
+          "condition": "When you cast an Evocation spell and deal damage"
+        },
+        "Fueled Evocation (Largest Hit Die)": {
+          "name": "Fueled Evocation (Largest Hit Die)",
+          "condition": "When you cast an Evocation spell and deal damage"
+        }
+      }
+    },
+    "Familiar Friend": {
+      "name": "Familiar Friend",
+      "description": "<p>You gain the following benefits.</p><p><span class=\"inline-h4\">Faithful Companion.</span> You always have the <em>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplFindFamili]{Find Familiar}</em> spell prepared. Intelligence, Wisdom, or Charisma is your spellcasting ability for this spell (choose when you select this feat). You can cast it once without a spell slot or Material components, and you regain the ability to cast it in this way when you finish a Long Rest. You can also cast the spell using any spell slots you have.</p><p><span class=\"inline-h4\">Fortified Familiar.</span> When you cast the <em>Find Familiar</em> spell, your familiar’s Hit Point maximum and current Hit Points are increased by an amount equal to twice your character level.</p><p><span class=\"inline-h4\">Helpful Friend.</span> When you make an ability check using a skill in which you have proficiency while your familiar is within 5 feet of you, you gain Advantage on the check. You can use this benefit a number of times equal to your Proficiency Bonus, and you regain all expended uses when you finish a Long Rest.</p>",
+      "activities": {
+        "Helpful Friend": {
+          "name": "Helpful Friend",
+          "condition": "you make an ability check with proficiency while your familiar is in range"
+        }
+      },
+      "effects": {
+        "Fortified Familiar": {
+          "name": "Fortified Familiar"
+        }
+      }
+    },
+    "Illusion Adept": {
+      "name": "Illusion Adept",
+      "description": "<p>You gain the following benefits.</p><p><span class=\"inline-h4\">Ability Score Increase.</span> Increase your Intelligence, Wisdom, or Charisma score by 1, to a maximum of 20.</p><p><span class=\"inline-h4\">Additional Spells.</span> Your prowess allows you to always have certain spells at the ready. When you have spell slots of a level specified in the Illusion Adept Spells table, you thereafter always have the spells listed for that level and lower prepared.</p><p><span class=\"inline-h4\">Masterful Illusions.</span> When you cast a spell from the Illusion school using a spell slot, you can cast it without any Verbal, Somatic, or Material components, except Material components that are consumed by the spell or that have a cost specified in the spell.</p><p>Additionally, creatures have Disadvantage on Intelligence (Investigation) checks made to discern the true nature of illusions created by your spells.</p><table><caption><p>Illusion Adept Spells</p></caption><thead><tr><th scope=\"col\"><p>Spell Slot Level</p></th><th scope=\"col\"><p>Spell</p></th></tr></thead><tbody><tr><td><p>1</p></td><td><p><em>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplSilentImag]{Silent Image}</em></p></td></tr><tr><td><p>2</p></td><td><p><em>@UUID[Compendium.dnd-players-handbook.spells.Item.phbPhantasmalFor]{Phantasmal Force}</em></p></td></tr><tr><td><p>3</p></td><td><p><em>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplMajorImage]{Major Image}</em></p></td></tr><tr><td><p>4</p></td><td><p><em>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplHallucinat]{Hallucinatory Terrain}</em></p></td></tr><tr><td><p>5</p></td><td><p><em>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplSeeming000]{Seeming}</em></p></td></tr></tbody></table><section id=\"secret-P3BEqGV5SKGq5Sf2\" class=\"secret hide-in-embed\"><p><strong>Foundry Note</strong></p><p>All five spells are granted when you gain this feat, but you can’t cast the higher-level spells until you have the required spell slots.</p><p>Handle Masterful Illusions manually when casting an Illusion spell or when a creature makes an Investigation check against one of your illusions.</p></section>"
+    },
+    "Magic Connoisseur": {
+      "name": "Magic Connoisseur",
+      "description": "<p>You gain the following benefits.</p><p><span class=\"inline-h4\">Ability Score Increase.</span> Increase your Intelligence, Wisdom, or Charisma score by 1, to a maximum of 20.</p><p><span class=\"inline-h4\">Additional Spells.</span> Choose a level 1 and a level 2 spell from the same list you selected for the Magic Initiate feat’s cantrips. You always have those spells prepared. You can cast each spell once without a spell slot, and you regain the ability to cast it in this way when you finish a Long Rest. You can also cast those spells using any spell slots you have of the appropriate level. The spellcasting ability for these spells is the same as the spellcasting ability chosen for your Magic Initiate feat’s spells.</p><p><span class=\"inline-h4\">Spell Change.</span> Whenever you gain a new level, you can replace one of the spells you chose for this feat with a different spell of the same level from the chosen spell list.</p><section id=\"secret-Gya5BhVUjRU7YPb1\" class=\"secret hide-in-embed\"><p><strong>Foundry Note</strong></p><p>Choose both spells from the same Cleric, Druid, or Wizard spell list you chose for Magic Initiate, and select the same spellcasting ability.</p><p>When you gain a level, Foundry offers a replacement for each spell. Replace only one of the two spells at that level.</p></section>",
+      "advancement": {
+        "RVaelHvXSVcRTamH": {
+          "hint": "<p>Choose a level 1 and a level 2 spell from the same list you selected for the Magic Initiate feat’s cantrips. You always have those spells prepared. You can cast each spell once without a spell slot, and you regain the ability to cast it in this way when you finish a Long Rest. You can also cast those spells using any spell slots you have of the appropriate level. The spellcasting ability for these spells is the same as the spellcasting ability chosen for your Magic Initiate feat’s spells.</p>"
+        },
+        "fqUFCFmzIRDyLpIA": {
+          "hint": "<p>Choose a level 1 and a level 2 spell from the same list you selected for the Magic Initiate feat’s cantrips. You always have those spells prepared. You can cast each spell once without a spell slot, and you regain the ability to cast it in this way when you finish a Long Rest. You can also cast those spells using any spell slots you have of the appropriate level. The spellcasting ability for these spells is the same as the spellcasting ability chosen for your Magic Initiate feat’s spells.</p>"
+        }
+      }
+    },
+    "Mastered Abjuration": {
+      "name": "Mastered Abjuration",
+      "description": "<p>Your choice grants you the following features:</p><p class=\"hanging\"><strong>Rote Casting.</strong> Choose a level 1 spell from the chosen school that appears on your class’s spell list. You always have that spell prepared and can cast it without a spell slot or spell components.</p><p class=\"hanging\"><strong>Signature Arcanum.</strong> Choose a level 7 or lower spell from the chosen school. You always have that spell prepared. You can cast it once without a spell slot, and you regain the ability to cast it in this way when you finish a Long Rest.</p><p>You can also cast these prepared spells using any spell slots you have of the appropriate level.</p><p><span class=\"inline-h4\">Repeatable.</span> You can take this feat more than once, but you must choose a different school of magic each time.</p>",
+      "advancement": {
+        "dmBX0iiHGU3WSvLT": {
+          "hint": "<p>Choose a level 1 spell from the chosen school that appears on your class’s spell list. You always have that spell prepared and can cast it without a spell slot or spell components.</p>"
+        },
+        "m6hEDoCYP4xQWuVF": {
+          "hint": "<p>Choose a level 7 or lower spell from the chosen school. You always have that spell prepared. You can cast it once without a spell slot, and you regain the ability to cast it in this way when you finish a Long Rest.</p><p>You can also cast these prepared spells using any spell slots you have of the appropriate level.</p>"
+        }
+      }
+    },
+    "Mastered Conjuration": {
+      "name": "Mastered Conjuration",
+      "description": "<p>Your choice grants you the following features:</p><p class=\"hanging\"><strong>Rote Casting.</strong> Choose a level 1 spell from the chosen school that appears on your class’s spell list. You always have that spell prepared and can cast it without a spell slot or spell components.</p><p class=\"hanging\"><strong>Signature Arcanum.</strong> Choose a level 7 or lower spell from the chosen school. You always have that spell prepared. You can cast it once without a spell slot, and you regain the ability to cast it in this way when you finish a Long Rest.</p><p>You can also cast these prepared spells using any spell slots you have of the appropriate level.</p><p><span class=\"inline-h4\">Repeatable.</span> You can take this feat more than once, but you must choose a different school of magic each time.</p>",
+      "advancement": {
+        "dmBX0iiHGU3WSvLT": {
+          "hint": "<p>Choose a level 1 spell from the chosen school that appears on your class’s spell list. You always have that spell prepared and can cast it without a spell slot or spell components.</p>"
+        },
+        "m6hEDoCYP4xQWuVF": {
+          "hint": "<p>Choose a level 7 or lower spell from the chosen school. You always have that spell prepared. You can cast it once without a spell slot, and you regain the ability to cast it in this way when you finish a Long Rest.</p><p>You can also cast these prepared spells using any spell slots you have of the appropriate level.</p>"
+        }
+      }
+    },
+    "Mastered Divination": {
+      "name": "Mastered Divination",
+      "description": "<p>Your choice grants you the following features:</p><p class=\"hanging\"><strong>Rote Casting.</strong> Choose a level 1 spell from the chosen school that appears on your class’s spell list. You always have that spell prepared and can cast it without a spell slot or spell components.</p><p class=\"hanging\"><strong>Signature Arcanum.</strong> Choose a level 7 or lower spell from the chosen school. You always have that spell prepared. You can cast it once without a spell slot, and you regain the ability to cast it in this way when you finish a Long Rest.</p><p>You can also cast these prepared spells using any spell slots you have of the appropriate level.</p><p><span class=\"inline-h4\">Repeatable.</span> You can take this feat more than once, but you must choose a different school of magic each time.</p>",
+      "advancement": {
+        "dmBX0iiHGU3WSvLT": {
+          "hint": "<p>Choose a level 1 spell from the chosen school that appears on your class’s spell list. You always have that spell prepared and can cast it without a spell slot or spell components.</p>"
+        },
+        "m6hEDoCYP4xQWuVF": {
+          "hint": "<p>Choose a level 7 or lower spell from the chosen school. You always have that spell prepared. You can cast it once without a spell slot, and you regain the ability to cast it in this way when you finish a Long Rest.</p><p>You can also cast these prepared spells using any spell slots you have of the appropriate level.</p>"
+        }
+      }
+    },
+    "Mastered Enchantment": {
+      "name": "Mastered Enchantment",
+      "description": "<p>Your choice grants you the following features:</p><p class=\"hanging\"><strong>Rote Casting.</strong> Choose a level 1 spell from the chosen school that appears on your class’s spell list. You always have that spell prepared and can cast it without a spell slot or spell components.</p><p class=\"hanging\"><strong>Signature Arcanum.</strong> Choose a level 7 or lower spell from the chosen school. You always have that spell prepared. You can cast it once without a spell slot, and you regain the ability to cast it in this way when you finish a Long Rest.</p><p>You can also cast these prepared spells using any spell slots you have of the appropriate level.</p><p><span class=\"inline-h4\">Repeatable.</span> You can take this feat more than once, but you must choose a different school of magic each time.</p>",
+      "advancement": {
+        "dmBX0iiHGU3WSvLT": {
+          "hint": "<p>Choose a level 1 spell from the chosen school that appears on your class’s spell list. You always have that spell prepared and can cast it without a spell slot or spell components.</p>"
+        },
+        "m6hEDoCYP4xQWuVF": {
+          "hint": "<p>Choose a level 7 or lower spell from the chosen school. You always have that spell prepared. You can cast it once without a spell slot, and you regain the ability to cast it in this way when you finish a Long Rest.</p><p>You can also cast these prepared spells using any spell slots you have of the appropriate level.</p>"
+        }
+      }
+    },
+    "Mastered Evocation": {
+      "name": "Mastered Evocation",
+      "description": "<p>Your choice grants you the following features:</p><p class=\"hanging\"><strong>Rote Casting.</strong> Choose a level 1 spell from the chosen school that appears on your class’s spell list. You always have that spell prepared and can cast it without a spell slot or spell components.</p><p class=\"hanging\"><strong>Signature Arcanum.</strong> Choose a level 7 or lower spell from the chosen school. You always have that spell prepared. You can cast it once without a spell slot, and you regain the ability to cast it in this way when you finish a Long Rest.</p><p>You can also cast these prepared spells using any spell slots you have of the appropriate level.</p><p><span class=\"inline-h4\">Repeatable.</span> You can take this feat more than once, but you must choose a different school of magic each time.</p>",
+      "advancement": {
+        "dmBX0iiHGU3WSvLT": {
+          "hint": "<p>Choose a level 1 spell from the chosen school that appears on your class’s spell list. You always have that spell prepared and can cast it without a spell slot or spell components.</p>"
+        },
+        "m6hEDoCYP4xQWuVF": {
+          "hint": "<p>Choose a level 7 or lower spell from the chosen school. You always have that spell prepared. You can cast it once without a spell slot, and you regain the ability to cast it in this way when you finish a Long Rest.</p><p>You can also cast these prepared spells using any spell slots you have of the appropriate level.</p>"
+        }
+      }
+    },
+    "Mastered Illusion": {
+      "name": "Mastered Illusion",
+      "description": "<p>Your choice grants you the following features:</p><p class=\"hanging\"><strong>Rote Casting.</strong> Choose a level 1 spell from the chosen school that appears on your class’s spell list. You always have that spell prepared and can cast it without a spell slot or spell components.</p><p class=\"hanging\"><strong>Signature Arcanum.</strong> Choose a level 7 or lower spell from the chosen school. You always have that spell prepared. You can cast it once without a spell slot, and you regain the ability to cast it in this way when you finish a Long Rest.</p><p>You can also cast these prepared spells using any spell slots you have of the appropriate level.</p><p><span class=\"inline-h4\">Repeatable.</span> You can take this feat more than once, but you must choose a different school of magic each time.</p>",
+      "advancement": {
+        "dmBX0iiHGU3WSvLT": {
+          "hint": "<p>Choose a level 1 spell from the chosen school that appears on your class’s spell list. You always have that spell prepared and can cast it without a spell slot or spell components.</p>"
+        },
+        "m6hEDoCYP4xQWuVF": {
+          "hint": "<p>Choose a level 7 or lower spell from the chosen school. You always have that spell prepared. You can cast it once without a spell slot, and you regain the ability to cast it in this way when you finish a Long Rest.</p><p>You can also cast these prepared spells using any spell slots you have of the appropriate level.</p>"
+        }
+      }
+    },
+    "Mastered Necromancy": {
+      "name": "Mastered Necromancy",
+      "description": "<p>Your choice grants you the following features:</p><p class=\"hanging\"><strong>Rote Casting.</strong> Choose a level 1 spell from the chosen school that appears on your class’s spell list. You always have that spell prepared and can cast it without a spell slot or spell components.</p><p class=\"hanging\"><strong>Signature Arcanum.</strong> Choose a level 7 or lower spell from the chosen school. You always have that spell prepared. You can cast it once without a spell slot, and you regain the ability to cast it in this way when you finish a Long Rest.</p><p>You can also cast these prepared spells using any spell slots you have of the appropriate level.</p><p><span class=\"inline-h4\">Repeatable.</span> You can take this feat more than once, but you must choose a different school of magic each time.</p>",
+      "advancement": {
+        "dmBX0iiHGU3WSvLT": {
+          "hint": "<p>Choose a level 1 spell from the chosen school that appears on your class’s spell list. You always have that spell prepared and can cast it without a spell slot or spell components.</p>"
+        },
+        "m6hEDoCYP4xQWuVF": {
+          "hint": "<p>Choose a level 7 or lower spell from the chosen school. You always have that spell prepared. You can cast it once without a spell slot, and you regain the ability to cast it in this way when you finish a Long Rest.</p><p>You can also cast these prepared spells using any spell slots you have of the appropriate level.</p>"
+        }
+      }
+    },
+    "Mastered Transmutation": {
+      "name": "Mastered Transmutation",
+      "description": "<p>Your choice grants you the following features:</p><p class=\"hanging\"><strong>Rote Casting.</strong> Choose a level 1 spell from the chosen school that appears on your class’s spell list. You always have that spell prepared and can cast it without a spell slot or spell components.</p><p class=\"hanging\"><strong>Signature Arcanum.</strong> Choose a level 7 or lower spell from the chosen school. You always have that spell prepared. You can cast it once without a spell slot, and you regain the ability to cast it in this way when you finish a Long Rest.</p><p>You can also cast these prepared spells using any spell slots you have of the appropriate level.</p><p><span class=\"inline-h4\">Repeatable.</span> You can take this feat more than once, but you must choose a different school of magic each time.</p>",
+      "advancement": {
+        "dmBX0iiHGU3WSvLT": {
+          "hint": "<p>Choose a level 1 spell from the chosen school that appears on your class’s spell list. You always have that spell prepared and can cast it without a spell slot or spell components.</p>"
+        },
+        "m6hEDoCYP4xQWuVF": {
+          "hint": "<p>Choose a level 7 or lower spell from the chosen school. You always have that spell prepared. You can cast it once without a spell slot, and you regain the ability to cast it in this way when you finish a Long Rest.</p><p>You can also cast these prepared spells using any spell slots you have of the appropriate level.</p>"
+        }
+      }
+    },
+    "Necromancy Adept": {
+      "name": "Necromancy Adept",
+      "description": "<p>You gain the following benefits.</p><p><span class=\"inline-h4\">Ability Score Increase.</span> Increase your Intelligence, Wisdom, or Charisma score by 1, to a maximum of 20.</p><p><span class=\"inline-h4\">Additional Spells.</span> Your prowess allows you to always have certain spells at the ready. When you have spell slots of a level specified in the Necromancy Adept Spells table, you thereafter always have the spells listed for that level and lower prepared.</p><p><span class=\"inline-h4\">Life Manipulation.</span> When you cast a spell from the Necromancy school using a spell slot, you can immediately roll up to two of your unexpended Hit Point Dice. You regain Hit Points equal to the total rolled plus the level of spell slot expended. Those Hit Point Dice are then expended.</p><table><caption><p>Necromancy Adept Spells</p></caption><thead><tr><th scope=\"col\"><p>Spell Slot Level</p></th><th scope=\"col\"><p>Spell</p></th></tr></thead><tbody><tr><td><p>1</p></td><td><p><em>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplInflictWou]{Inflict Wounds}</em></p></td></tr><tr><td><p>2</p></td><td><p><em>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplRayofEnfee]{Ray of Enfeeblement}</em></p></td></tr><tr><td><p>3</p></td><td><p><em>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplVampiricTo]{Vampiric Touch}</em></p></td></tr><tr><td><p>4</p></td><td><p><em>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplBlight0000]{Blight}</em></p></td></tr><tr><td><p>5</p></td><td><p><em>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplRaiseDead0]{Raise Dead}</em></p></td></tr></tbody></table><section id=\"secret-Hv8K7cOJTDoknneC\" class=\"secret hide-in-embed\"><p><strong>Foundry Note</strong></p><p>All five spells are granted when you gain this feat, but you can’t cast the higher-level spells until you have the required spell slots.</p><p>Life Manipulation rolls and spends the selected Hit Dice. After the healing is applied, increase your Hit Points by the level of the spell slot you used.</p></section>",
+      "activities": {
+        "Life Manipulation (Smallest Hit Die)": {
+          "name": "Life Manipulation (Smallest Hit Die)",
+          "condition": "Cast a Necromancy school spell using a spell slot"
+        },
+        "Life Manipulation (Largest Hit Die)": {
+          "name": "Life Manipulation (Largest Hit Die)",
+          "condition": "Cast a Necromancy school spell using a spell slot"
+        }
+      }
+    },
+    "Otherworldly Familiar": {
+      "name": "Otherworldly Familiar",
+      "description": "<p>You gain the following benefits.</p><p><span class=\"inline-h4\">Ability Score Increase.</span> Increase one ability score of your choice by 1, to a maximum of 20.</p><p><span class=\"inline-h4\">Otherworldly Power.</span> When you cast the <em>Find Familiar</em> spell, you can imbue your familiar with otherworldly might, which lasts until you cast <em>Find Familiar</em> again. While imbued, your familiar gains the following benefits:</p><p class=\"hanging\"><strong>Energy Resistance.</strong> Choose Necrotic, Poison, Psychic, Radiant, or Thunder damage. Your familiar has Resistance to the chosen damage type.</p><p class=\"hanging\"><strong>Phase Walk.</strong> Your familiar can move through other creatures and objects as if they were Difficult Terrain. If your familiar ends its turn inside an object, it is shunted to the last unoccupied space it was in.</p><section id=\"secret-etgoPuAG3BUaxhzl\" class=\"secret hide-in-embed\"><p><strong>Foundry Note</strong></p><p>Use the Enchant activity on your <em>Find Familiar</em> spell, then use the summon activity matching the damage resistance you chose.</p><p>Handle Phase Walk movement manually.</p></section>",
+      "activities": {
+        "Enchant": {
+          "name": "Enchant"
+        },
+        "Otherworldly Necrotic Familiar": {
+          "name": "Otherworldly Necrotic Familiar",
+          "profiles": {
+            "CR 0 Beast": {
+              "name": "CR 0 Beast"
+            }
+          }
+        },
+        "Otherworldly Poison Familiar": {
+          "name": "Otherworldly Poison Familiar",
+          "profiles": {
+            "CR 0 Beast": {
+              "name": "CR 0 Beast"
+            }
+          }
+        },
+        "Otherworldly Psychic Familiar": {
+          "name": "Otherworldly Psychic Familiar",
+          "profiles": {
+            "CR 0 Beast": {
+              "name": "CR 0 Beast"
+            }
+          }
+        },
+        "Otherworldly Radiant Familiar": {
+          "name": "Otherworldly Radiant Familiar",
+          "profiles": {
+            "CR 0 Beast": {
+              "name": "CR 0 Beast"
+            }
+          }
+        },
+        "Otherworldly Thunder Familiar": {
+          "name": "Otherworldly Thunder Familiar",
+          "profiles": {
+            "CR 0 Beast": {
+              "name": "CR 0 Beast"
+            }
+          }
+        }
+      },
+      "effects": {
+        "Otherworldly Familiar": {
+          "name": "Otherworldly Familiar"
+        }
+      }
+    },
+    "Portal Jumper": {
+      "name": "Portal Jumper",
+      "description": "<p>You gain the following benefits.</p><p><span class=\"inline-h4\">Otherworldly Resilience.</span> You have Resistance to one of the following damage types: Necrotic, Psychic, or Radiant (choose when you select this feat).</p><p><span class=\"inline-h4\">Portal Step.</span> You can spend 15 feet of movement to teleport to an unoccupied space you can see within 15 feet of yourself. You can use this benefit a number of times equal to your Proficiency Bonus but only once per turn, and you regain all expended uses when you finish a Long Rest.</p>",
+      "activities": {
+        "Portal Step": {
+          "name": "Portal Step",
+          "condition": "spending 15 feet of movement",
+          "target": "unoccupied"
+        }
+      }
+    },
+    "Soothing Familiar": {
+      "name": "Soothing Familiar",
+      "description": "<p>You gain the following benefits.</p><p><span class=\"inline-h4\">Ability Score Increase.</span> Increase one ability score of your choice by 1, to a maximum of 20.</p><p><span class=\"inline-h4\">Healing Beacon.</span> Positive energy fills a 5-foot Emanation originating from your familiar as long as it is within 120 feet of you. Whenever an ally in that Emanation rolls a die to determine the number of Hit Points restored to a creature, that ally can treat a roll of 1 or 2 on the die as a 3.</p><section id=\"secret-t8qlGQ9nZQosO7aO\" class=\"secret hide-in-embed\"><p><strong>Foundry Note</strong></p><p>Foundry does not adjust the healing dice automatically, so apply Healing Beacon manually when it qualifies.</p></section>"
+    },
+    "Spell Resistant": {
+      "name": "Spell Resistant",
+      "description": "<p>You gain the following benefits.</p><p><span class=\"inline-h4\">Ability Score Increase.</span> Increase your Dexterity or Constitution score by 1, to a maximum of 20.</p><p><span class=\"inline-h4\">Magical Resilience.</span> You have Resistance to one of the following damage types (choose when you gain this feat): Necrotic, Psychic, Radiant, or Thunder.</p><p><span class=\"inline-h4\">Magic Resistant.</span> When you would fail a saving throw against a spell or magical effect, you can roll [[/r 1d6]] and add the number rolled to the save’s total, potentially turning the failure into a success. You can use this benefit a number of times equal to your Proficiency Bonus, and you regain all expended uses when you finish a Long Rest.</p><section id=\"secret-JvdRa1oDo9flpZxU\" class=\"secret hide-in-embed\"><p><strong>Foundry Note</strong></p><p>The Magic Resistant activity rolls the bonus and spends a use. Add the result to the failed saving throw manually.</p></section>",
+      "activities": {
+        "Magic Resistant": {
+          "name": "Magic Resistant",
+          "roll": "Magic Resistant Bonus",
+          "condition": "When you would fail a saving throw against a spell or magical effect"
+        }
+      },
+      "advancement": {
+        "nclFjtxmrgatMcVQ": {
+          "hint": "<p>You have Resistance to one of the following damage types (choose when you gain this feat): Necrotic, Psychic, Radiant, or Thunder.</p>"
+        }
+      }
+    },
+    "Spell Subterfuge": {
+      "name": "Spell Subterfuge",
+      "description": "<p>You gain the following benefits.</p><p><span class=\"inline-h4\">Ability Score Increase.</span> Increase your Intelligence, Wisdom, or Charisma score by 1, to a maximum of 20.</p><p><span class=\"inline-h4\">Shrouding Spells.</span> After you cast a spell that has a casting time of an action using a spell slot, you can take both the &amp;Reference[Dash] and &amp;Reference[Hide] actions as a Bonus Action. You can use this benefit a number of times equal to the ability modifier of the score increased by this feat, and you regain all expended uses when you finish a Long Rest.</p><p><span class=\"inline-h4\">Sneaky Casting.</span> If you have the Hide action’s &amp;Reference[Invisible apply=false] condition, casting a spell with a Verbal component or making a spell attack doesn’t end that condition on you if you end the turn behind &amp;Reference[Three-Quarters Cover] or &amp;Reference[Total Cover].</p><section id=\"secret-Jgokg0VHoVX2zWOn\" class=\"secret hide-in-embed\"><p><strong>Foundry Note</strong></p><p>After choosing your Ability Score Increase, set Limited Uses Max to <code>@abilities.int.mod</code>, <code>@abilities.wis.mod</code>, or <code>@abilities.cha.mod</code> to match your choice.</p></section>",
+      "activities": {
+        "Shrouding Spells": {
+          "name": "Shrouding Spells",
+          "condition": "After you cast a spell that has a casting time of an action using a spell slot"
+        }
+      }
+    },
+    "Transmutation Adept": {
+      "name": "Transmutation Adept",
+      "description": "<p>You gain the following benefits.</p><p><span class=\"inline-h4\">Ability Score Increase.</span> Increase your Intelligence, Wisdom, or Charisma score by 1, to a maximum of 20.</p><p><span class=\"inline-h4\">Additional Spells.</span> Your prowess allows you to always have certain spells at the ready. When you have spell slots of a level specified in the Transmutation Adept Spells table, you thereafter always have the spells listed for that level and lower prepared.</p><p><span class=\"inline-h4\">Magical Augmentation.</span> On your turn when you cast a spell from the Transmutation school using a spell slot, your Speed increases by a number of feet equal to five times the level of spell slot expended. This increase lasts until the end of the turn.</p><table><caption><p>Transmutation Adept Spells</p></caption><thead><tr><th scope=\"col\"><p>Spell Slot Level</p></th><th scope=\"col\"><p>Spell</p></th></tr></thead><tbody><tr><td><p>1</p></td><td><p><em>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplJump000000]{Jump}</em></p></td></tr><tr><td><p>2</p></td><td><p><em>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplSpiderClim]{Spider Climb}</em></p></td></tr><tr><td><p>3</p></td><td><p><em>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplSlow000000]{Slow}</em></p></td></tr><tr><td><p>4</p></td><td><p><em>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplPolymorph0]{Polymorph}</em></p></td></tr><tr><td><p>5</p></td><td><p><em>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplAnimateObj]{Animate Objects}</em></p></td></tr></tbody></table><section id=\"secret-L57gwPvZ7wpo4LJr\" class=\"secret hide-in-embed\"><p><strong>Foundry Note</strong></p><p>All five spells are granted when you gain this feat, but the higher-level spells remain unavailable until you have the required spell slots.</p></section>",
+      "activities": {
+        "Magical Augmentation": {
+          "name": "Magical Augmentation",
+          "condition": "Cast a Transmutation spell using a spell slot"
+        }
+      },
+      "effects": {
+        "Magical Augmentation: Speed Increase": {
+          "name": "Magical Augmentation: Speed Increase",
+          "description": "<p>On your turn when you cast a spell from the Transmutation school using a spell slot, your Speed increases by a number of feet equal to five times the level of spell slot expended. This increase lasts until the end of the turn.</p>"
+        }
+      }
+    },
+    "Transmuted Anatomy": {
+      "name": "Transmuted Anatomy",
+      "description": "<p>You gain the following benefits.</p><p><span class=\"inline-h4\">Lengthened Stride.</span> Your Speed increases by 5 feet.</p><p><span class=\"inline-h4\">Resilient Anatomy.</span> You have Advantage on saving throws against effects that would compel you to shape-shift against your will.</p><p>Additionally, when you fail a Constitution saving throw, you can take a Reaction to roll 1d4 and add the number rolled to the save, potentially turning the failure into a success. You can use this benefit a number of times equal to your Proficiency Bonus, and you regain all expended uses when you finish a Long Rest.</p>",
+      "activities": {
+        "utility": {
+          "roll": "Save Bonus",
+          "condition": "you fail a Constitution saving throw"
+        }
+      },
+      "effects": {
+        "Lengthened Stride": {
+          "name": "Lengthened Stride"
+        }
+      }
+    },
+    "Warlike Familiar": {
+      "name": "Warlike Familiar",
+      "description": "<p>You gain the following benefits.</p><p><span class=\"inline-h4\">Ability Score Increase.</span> Increase one ability score of your choice by 1, to a maximum of 20.</p><p><span class=\"inline-h4\">Battle Familiar.</span> You always have the <em>Battle Familiar</em> spell (see chapter 2) prepared. You can cast it once without a spell slot, and you regain the ability to cast it in this way when you finish a Long Rest. You can also cast the spell using any spell slots you have of the appropriate level. Your spellcasting ability for this spell is the one chosen for the Faithful Companion benefit of your Familiar Friend feat.</p><p><span class=\"inline-h4\">Intercept Attack.</span> When a creature within 5 feet of your familiar is hit by an attack roll, your familiar can take a Reaction to add a bonus to the creature’s Armor Class against that attack, potentially causing the attack to miss. The bonus is equal to your Proficiency Bonus.</p><section id=\"secret-4GnuTPDXR5v5QLnk\" class=\"secret hide-in-embed\"><p><strong>Foundry Note</strong></p><p>When choosing the spellcasting ability for Battle Familiar, select the same ability you chose for Familiar Friend. Intercept Attack rolls the AC bonus; apply that bonus to the triggering attack manually.</p></section>",
+      "activities": {
+        "Intercept Attack": {
+          "name": "Intercept Attack",
+          "roll": "Armor Class Bonus",
+          "condition": "A creature within 5 feet of your familiar is hit by an attack roll"
+        }
+      },
+      "advancement": {
+        "xce2uSXTC7KeCIIJ": {
+          "hint": "<p>You always have the <em>@UUID[Compendium.dnd-arcana-unleashed.spells.Item.aunBattleFamilq9]{Battle Familiar}</em> spell (see chapter 2) prepared. You can cast it once without a spell slot, and you regain the ability to cast it in this way when you finish a Long Rest. You can also cast the spell using any spell slots you have of the appropriate level. Your spellcasting ability for this spell is the one chosen for the Faithful Companion benefit of your Familiar Friend feat.</p>"
+        }
+      }
+    }
+  }
+}
