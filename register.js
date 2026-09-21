@@ -46,6 +46,7 @@ const MODULE_TRANSLATION_DIRS = [
   'dnd-ravenloft-horros-within',
   'dnd5e',
   'dnd-forge-artificer',
+  'dnd-arcana-unleashed',
 ];
 
 /**
