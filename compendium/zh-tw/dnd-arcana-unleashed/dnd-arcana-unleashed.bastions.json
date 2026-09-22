@@ -1,0 +1,18 @@
+{
+  "label": "堡壘",
+  "entries": {},
+  "mapping": {
+    "activities": {
+      "path": "system.activities",
+      "converter": "activities"
+    },
+    "rangeActivities": {
+      "path": "system.activities",
+      "converter": "rangeActivities"
+    },
+    "effects": {
+      "path": "effects",
+      "converter": "effects"
+    }
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "label": "專長",
+  "folders": {
+    "General Feats": "通用專長",
+    "Origin Feats": "起源專長",
+    "Magic School Masteries": "魔法學派宗師",
+    "Fighting Styles": "戰鬥風格"
+  },
+  "entries": {},
+  "mapping": {
+    "activities": {
+      "path": "system.activities",
+      "converter": "activities"
+    },
+    "rangeActivities": {
+      "path": "system.activities",
+      "converter": "rangeActivities"
+    },
+    "effects": {
+      "path": "effects",
+      "converter": "effects"
+    },
+    "advancement": {
+      "path": "system.advancement",
+      "converter": "advancement"
+    }
+  }
+}

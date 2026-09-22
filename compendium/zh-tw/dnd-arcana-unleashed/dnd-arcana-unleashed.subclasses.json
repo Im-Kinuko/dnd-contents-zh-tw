@@ -1,0 +1,28 @@
+{
+  "label": "子職業",
+  "folders": {
+    "Arcane Shot Options": "奧術射擊選項",
+    "Magical Ammunition": "注魔彈藥",
+    "Warrior of the Mystic Arts": "秘術武者",
+    "Conjurer": "咒法師"
+  },
+  "entries": {},
+  "mapping": {
+    "activities": {
+      "path": "system.activities",
+      "converter": "activities"
+    },
+    "rangeActivities": {
+      "path": "system.activities",
+      "converter": "rangeActivities"
+    },
+    "effects": {
+      "path": "effects",
+      "converter": "effects"
+    },
+    "advancement": {
+      "path": "system.advancement",
+      "converter": "advancement"
+    }
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "folders": {
+    "Consumables": "消耗品",
+    "Armor": "防具",
+    "Weapons": "武器",
+    "Potions": "藥水",
+    "Equipment": "裝備",
+    "Ammunition": "彈藥"
+  },
+  "entries": {},
+  "mapping": {
+    "activities": {
+      "path": "system.activities",
+      "converter": "activities"
+    },
+    "rangeActivities": {
+      "path": "system.activities",
+      "converter": "rangeActivities"
+    },
+    "effects": {
+      "path": "effects",
+      "converter": "effects"
+    }
+  }
+}
