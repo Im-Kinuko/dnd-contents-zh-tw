@@ -4,7 +4,7 @@
     "Rings": "Rings",
     "Ammunition": "彈藥",
     "Simple Melee": "簡易近戰",
-    "Light": "點亮",
+    "Light": "光亮術",
     "Other": "其他",
     "Scrolls": "Scrolls",
     "Bags of Tricks": "Bags of Tricks",
@@ -608,7 +608,7 @@
     "Lantern, Hooded": {
       "activities": {
         "Light": {
-          "name": "點亮"
+          "name": "光亮術"
         }
       },
       "name": "Lantern, Hooded",
@@ -810,7 +810,7 @@
       "effects": {
         "Protected": {
           "description": "<p>You gain a +1 bonus to Armor Class and you have Advantage on saving throws against spells.</p>",
-          "name": "Protected"
+          "name": "保護"
         }
       },
       "description": "<p><em>Wondrous Item, Legendary (Requires Attunement)</em></p><p>This beetle-shaped medallion provides three benefits while it is on your person.</p><p><em><strong>Defense.</strong></em> You gain a +1 bonus to Armor Class.</p><p><em><strong>Preservation.</strong></em> The scarab has 12 charges. If you fail a saving throw against a Necromancy spell or a harmful effect originating from an Undead, you can take a Reaction to expend 1 charge and turn the failed save into a successful one. The scarab crumbles into powder and is destroyed when its last charge is expended.</p><p><em><strong>Spell Resistance.</strong></em> You have Advantage on saving throws against spells.</p>",
@@ -1176,7 +1176,7 @@
     "Lantern, Bullseye": {
       "activities": {
         "Light": {
-          "name": "點亮"
+          "name": "光亮術"
         }
       },
       "description": "<p>A Bullseye Lantern burns Oil as fuel to cast Bright Light in a 60-foot Cone and Dim Light for an additional 60 feet.</p>",
@@ -1385,7 +1385,7 @@
       "name": "造風之扇",
       "activities": {
         "Gust of Wind": {
-          "name": "Gust of Wind"
+          "name": "造風術"
         }
       },
       "description": "<p><em>Wondrous Item, Uncommon</em></p><p>While holding this fan, you can cast @UUID[Compendium.dnd5e.spells24.Item.phbsplGustofWind]{Gust of Wind} (save DC 13) from it. Each subsequent time the fan is used before the next dawn, it has a cumulative 20 percent chance of not working; if the fan fails to work, it tears into useless, nonmagical tatters.</p><p><strong>Roll for Chance of Not Working:</strong> [[/r 1d5cs&gt;@item.uses.spent]]</p><section class=\"secret\" id=\"secret-hNmHToEJ6Gg4usEf\"><p><strong>Foundry Note</strong></p><p>Each of use of Gust of Wind expends a use of this item and is reset at dawn. The inline roll above rolls 1d5 and checks if the value is higher than the number of uses to handle the cumulative 20 percent chance of not working. It will return \"1\" if it's successful and \"0\" if it fails.</p></section>"
@@ -1405,7 +1405,7 @@
       "description": "<p><em>Wondrous Item, Uncommon (Requires Attunement)</em></p><p>These boots have 4 charges and regain 1d4 expended charges daily at dawn. While wearing the boots, you can take a Magic action to expend 1 charge, gaining a Fly Speed of 30 feet for 1 hour. If you are flying when the duration expires, you descend at a rate of 30 feet per round until you land.</p>",
       "activities": {
         "Fly": {
-          "name": "Fly"
+          "name": "飛行術"
         }
       }
     },
@@ -2293,7 +2293,7 @@
       "description": "<p><em>Wand, Rare (Requires Attunement)</em></p><p>This wand has 7 charges. While holding it, you can take a Magic action to expend 1 charge while choosing a point within 120 feet of yourself. That location becomes the point of origin of a spell or other magical effect determined by rolling on the Wand of Wonder Effects table. Spells cast from the wand have a save DC of 15. If a spell's maximum range is normally less than 120 feet, it becomes 120 feet when cast from the wand. If an effect has multiple possible subjects, the GM determines randomly which among them are affected.</p><p><em><strong>Regaining Charges.</strong></em> The wand regains 1d6 + 1 expended charges daily at dawn. If you expend the wand's last charge, roll [[/r 1d20]]. On a 1, the wand crumbles into dust and is destroyed.</p><details><summary>Wand of Wonder Effects Table</summary><p>@Embed[Compendium.dnd5e.tables24.RollTable.dmgWandOfWonderE rollable caption=false]</p></details><section class=\"secret\" id=\"secret-cRW0AfZNJaYwjQa0\"><p><strong>Foundry Note</strong></p><p>The actionable effects of the table are included as activities and implemented as much as possible in the table to provide flexibility in how you'd like to use them.</p><p>The <strong>Expend</strong> activity should be used for any effect which isn't implemented as an activity for tracking charge uses.</p></section>",
       "effects": {
         "Blinded": {
-          "name": "Blinded"
+          "name": "目盲"
         }
       }
     },
@@ -2306,7 +2306,7 @@
       },
       "effects": {
         "Charmed": {
-          "name": "Charmed"
+          "name": "魅惑"
         },
         "Fire Focus": {
           "name": "Fire Focus"
@@ -2576,28 +2576,28 @@
     "Staff of the Woodlands": {
       "activities": {
         "Speak with Plants": {
-          "name": "Speak with Plants"
+          "name": "植物交談術"
         },
         "Speak with Animals": {
-          "name": "Speak with Animals"
+          "name": "動物交談術"
         },
         "Tree Form": {
           "name": "Tree Form"
         },
         "Locate Animals or Plants": {
-          "name": "Locate Animals or Plants"
+          "name": "動植物定位術"
         },
         "Animal Friendship": {
-          "name": "Animal Friendship"
+          "name": "化獸為友"
         },
         "Awaken": {
-          "name": "Awaken"
+          "name": "啟蒙術"
         },
         "Barkskin": {
-          "name": "Barkskin"
+          "name": "樹膚術"
         },
         "Pass without Trace": {
-          "name": "Pass without Trace"
+          "name": "行蹤無跡"
         }
       },
       "effects": {
@@ -2797,7 +2797,7 @@
           "name": "Frightened"
         },
         "Paralyzed": {
-          "name": "Paralyzed"
+          "name": "麻痺"
         }
       },
       "name": "王者力量權杖"
@@ -3233,7 +3233,7 @@
     "Dragon Orb": {
       "effects": {
         "Charmed": {
-          "name": "Charmed"
+          "name": "魅惑"
         }
       },
       "name": "Dragon Orb",
@@ -3556,7 +3556,7 @@
     "Water Ring of Elemental Command": {
       "effects": {
         "Charmed": {
-          "name": "Charmed"
+          "name": "魅惑"
         },
         "Water Focus": {
           "name": "Water Focus"
@@ -3948,7 +3948,7 @@
           "name": "Earth Focus"
         },
         "Charmed": {
-          "name": "Charmed"
+          "name": "魅惑"
         }
       },
       "activities": {
@@ -4167,7 +4167,7 @@
       },
       "effects": {
         "Charmed": {
-          "name": "Charmed"
+          "name": "魅惑"
         },
         "Air Focus": {
           "name": "Air Focus"
@@ -4198,7 +4198,7 @@
           "name": "Damage Rope"
         },
         "Entangle": {
-          "name": "Entangle"
+          "name": "糾纏術"
         }
       },
       "description": "<p><em>Wondrous Item, Rare</em></p><p>This rope is 30 feet long. While holding one end of the rope, you can take a Magic action to command the other end to dart forward and entangle one creature you can see within 20 feet of yourself. The target must succeed on a DC 15 Dexterity saving throw or have the &amp;Reference[Restrained apply=false] condition. You can release the target by letting go of your end of the rope (causing the rope to coil up in the target's space) or by using a Bonus Action to repeat the command (causing the rope to coil up in your hand).</p><p>A target Restrained by the rope can take an action to make its choice of a DC 15 Strength (Athletics) or Dexterity (Acrobatics) check. On a successful check, the target is no longer Restrained by the rope. If you're still holding onto the rope when a target escapes from it, you can take a Reaction to command the rope to coil up in your hand; otherwise, the rope coils up in the target's space.</p><p>The rope has AC 20, HP 20, and Immunity to Poison and Psychic damage. It regains 1 Hit Point every 5 minutes as long as it has at least 1 Hit Point. If the rope drops to 0 Hit Points, it is destroyed.</p><section class=\"secret\" id=\"secret-7RGkmfY1bTmeeb5L\"><p><strong>Foundry Note</strong></p><p>The item includes 20 uses for tracking its HP. The <strong>Damage Rope</strong> activity can be used to apply damage and the <strong>Repair Rope</strong> activity can be used to restore its HP.</p><p>The <strong>Escape</strong> activity can be used to send an Athletics and Dexterity check to the chat for the target to roll for their escape.</p></section>",
@@ -4214,7 +4214,7 @@
       "name": "油燈",
       "activities": {
         "Light": {
-          "name": "點亮"
+          "name": "光亮術"
         }
       }
     },
@@ -4308,7 +4308,7 @@
     "Rope of Climbing": {
       "activities": {
         "Command": {
-          "name": "Command"
+          "name": "命令術"
         },
         "Repair Rope": {
           "name": "Repair Rope"
@@ -4574,7 +4574,7 @@
       "description": "<p><em>Potion, Rare</em></p><p>When you drink this potion, you gain 10 Temporary Hit Points that last for 1 hour. For the same duration, you are under the effect of the @UUID[Compendium.dnd5e.spells24.Item.phbsplBless00000]{Bless} spell (no Concentration required).</p><p>This potion's blue liquid bubbles and steams as if boiling.</p>",
       "effects": {
         "Blessed": {
-          "name": "Blessed",
+          "name": "祝福",
           "description": "<p>Whenever a target makes an attack roll or a saving throw before the effect ends, the target adds 1d4 to the attack roll or save.</p>"
         }
       },
@@ -4768,7 +4768,7 @@
     "Oil of Etherealness": {
       "effects": {
         "Etherealness": {
-          "name": "Etherealness"
+          "name": "跨入乙太界"
         }
       },
       "description": "<p><em>Potion, Rare</em></p><p>One vial of this oil can cover one Medium or smaller creature, along with the equipment it's wearing and carrying (one additional vial is required for each size category above Medium). Applying the oil takes 10 minutes. The affected creature then gains the effect of the @UUID[Compendium.dnd5e.spells24.Item.phbsplEtherealne]{Etherealness} spell for 1 hour.</p><p>Beads of this cloudy, gray oil form on the outside of its container and quickly evaporate.</p>",
@@ -5139,7 +5139,7 @@
       "description": "<p>For 1 hour, a lit Candle sheds Bright Light in a 5-foot radius and Dim Light for an additional 5 feet.</p>",
       "activities": {
         "Light": {
-          "name": "點亮"
+          "name": "光亮術"
         }
       }
     },
@@ -5159,7 +5159,7 @@
     "Trident of Fish Command": {
       "activities": {
         "Dominate Beast": {
-          "name": "Dominate Beast"
+          "name": "支配野獸"
         }
       },
       "description": "<p><em>Weapon (@UUID[Compendium.dnd5e.equipment24.Item.phbwepTrident000]{Trident}), Uncommon (Requires Attunement)</em></p><p>This magic weapon has 3 charges, and it regains 1d3 expended charges daily at dawn. While you carry it, you can expend 1 charge to cast @UUID[Compendium.dnd5e.spells24.Item.phbsplDominateBe]{Dominate Beast} (save DC 15) from it on a Beast that has a Swim Speed.</p>",
@@ -5231,7 +5231,7 @@
     "Tinderbox": {
       "activities": {
         "Light": {
-          "name": "點亮"
+          "name": "光亮術"
         }
       },
       "description": "<p>A Tinderbox is a small container holding flint, fire steel, and tinder (usually dry cloth soaked in light oil) used to kindle a fire. Using it to light a Candle, Lamp, Lantern, or Torch—or anything else with exposed fuel—takes a Bonus Action. Lighting any other fire takes 1 minute.</p>",
@@ -5781,7 +5781,7 @@
       "name": "麻痺魔杖",
       "effects": {
         "Paralyzed": {
-          "name": "Paralyzed"
+          "name": "麻痺"
         }
       }
     },
@@ -5931,7 +5931,7 @@
       "name": "閃電標槍",
       "activities": {
         "Lightning Bolt": {
-          "name": "Lightning Bolt"
+          "name": "閃電束"
         }
       },
       "description": "<p>Each time you make an attack roll with this magic weapon and hit, you can have it deal Lightning damage instead of Piercing damage.</p><p><em><strong>Lightning Bolt.</strong></em> When you throw this weapon at a target no farther than 120 feet from you, you can forgo making a ranged attack roll and instead turn the weapon into a bolt of lightning. This bolt forms a 5-foot-wide Line between you and the target. The target and each other creature in the Line (excluding you) makes a DC 13 Dexterity saving throw, taking 4d6 Lightning damage on a failed save or half as much damage on a successful one. Immediately after dealing this damage, the weapon reappears in your hand. This property can't be used again until the next dawn.</p><section id=\"secret-606LeZVVMHWwmeln\" class=\"secret\"><p><strong>Foundry Note</strong></p><p>The <strong>Attack</strong> activity allows you to choose between Lightning and Piercing when rolling damage and will remember your last choice.</p></section>"
@@ -6167,7 +6167,7 @@
       "name": "Rolling Stone",
       "activities": {
         "Slow": {
-          "name": "Slow"
+          "name": "緩速術"
         }
       }
     },
