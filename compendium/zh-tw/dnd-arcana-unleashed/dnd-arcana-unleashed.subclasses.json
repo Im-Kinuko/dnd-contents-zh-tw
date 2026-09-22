@@ -4,9 +4,14 @@
     "Arcane Shot Options": "奧術射擊選項",
     "Magical Ammunition": "注魔彈藥",
     "Warrior of the Mystic Arts": "秘術武者",
-    "Conjurer": "咒法師"
+    "Conjurer": "咒法師",
+    "Necromancer": "Necromancer",
+    "Transmuter": "Transmuter",
+    "Arcana Domain Features": "Arcana Domain Features",
+    "Vestige Patron": "Vestige Patron",
+    "Arcane Archer Features": "Arcane Archer Features",
+    "Enchanter": "Enchanter"
   },
-  "entries": {},
   "mapping": {
     "activities": {
       "path": "system.activities",
@@ -23,6 +28,818 @@
     "advancement": {
       "path": "system.advancement",
       "converter": "advancement"
+    }
+  },
+  "entries": {
+    "Death's Master": {
+      "activities": {
+        "Bolster Undead": {
+          "target": "Undead you have created or summoned with a Necromancy spell",
+          "name": "Bolster Undead"
+        },
+        "Extinguish Undead": {
+          "name": "Extinguish Undead",
+          "target": "Can see"
+        },
+        "Expend Reaction/Slot": {
+          "name": "Expend Reaction/Slot"
+        }
+      },
+      "effects": {
+        "Extinguished": {
+          "description": "<p>The creature cannot take Reactions until the start of its next turn.</p>",
+          "name": "Extinguished"
+        }
+      },
+      "name": "Death's Master",
+      "description": "<p>Abstruse rituals within your spellbook allow you mastery over undeath. While holding your spellbook, you gain the following benefits.</p><p><span class=\"inline-h4\"><em><strong>Bolster Undead.</strong></em></span> As a Bonus Action, choose any number of Undead you have created or summoned with a Necromancy spell that are within 60 feet of you. Those Undead each gain Temporary Hit Points equal to your Wizard level. Once you use this Bonus Action, you can’t do so again until you finish a Long Rest.</p><p><span class=\"inline-h4\"><em><strong>Extinguish Undead.</strong></em></span> When an Undead creature you can see is reduced to 0 Hit Points, you can cause it to explode with necrotic energy. Roll a number of d6s equal to half the creature’s unexpended Hit Dice (round up, minimum of 1d6), and add them together. Each creature in a 10-foot Emanation originating from the Undead makes a Dexterity saving throw. On a failed save, a target takes Necrotic damage equal to the number rolled and can’t take Reactions until the start of its next turn. On a successful save, a target takes half as much damage only. When you use this feature to explode an Undead creature you don’t control, you must take a Reaction and expend a level 5+ spell slot to do so.</p><section id=\"secret-lmHtlFuyXttyNc45\" class=\"secret hide-in-embed\"><p><strong>Foundry Notes</strong></p><p><strong>Extinguish Undead.</strong> Place the 10-foot Emanation at the Undead that was reduced to 0 Hit Points. Open that Undead's actor sheet and click the <strong>Short Rest</strong> icon to see how many Hit Dice it has remaining. Enter that number as the Scaling value.</p><p>If you don't control that Undead, also use <strong>Expend Reaction/Slot</strong> to expend your Reaction and a level 5+ spell slot. Creatures that fail the saving throw can't take Reactions until the start of their next turn; enforce this restriction manually.</p></section>"
+    },
+    "Transmuter's Stone": {
+      "effects": {
+        "Acid Resistance Benefit": {
+          "name": "Acid Resistance Benefit",
+          "changes": {
+            "system.description.value": "<p><span class=\"inline-h4\"><em><strong>Resistance.</strong></em></span> The bearer gains Resistance to Acid damage.</p>"
+          }
+        },
+        "Lightning Resistance": {
+          "name": "Lightning Resistance"
+        },
+        "oYo5HUxB5vSKInba": {
+          "name": "Mighty Build Benefit"
+        },
+        "Speed Benefit": {
+          "name": "Speed Benefit",
+          "changes": {
+            "system.description.value": "<p><span class=\"inline-h4\"><em><strong>Speed.</strong></em></span> The bearer’s Speed increases by 10 feet.</p>"
+          }
+        },
+        "jU3Le3X02vkUYu2U": {
+          "changes": {
+            "system.description.value": "<p><span class=\"inline-h4\"><em><strong>Darkvision.</strong></em></span> The bearer gains Darkvision with a range of 60 feet or increases the range of its Darkvision by 60 feet.</p>"
+          },
+          "name": "Darkvision Benefit"
+        },
+        "Fire Resistance Benefit": {
+          "name": "Fire Resistance Benefit",
+          "changes": {
+            "system.description.value": "<p><span class=\"inline-h4\"><em><strong>Resistance.</strong></em></span> The bearer gains Resistance to Fire damage.</p>"
+          }
+        },
+        "Poison Resistance": {
+          "name": "Poison Resistance"
+        },
+        "Thunder Resistance": {
+          "name": "Thunder Resistance"
+        },
+        "Thunder Resistance Benefit": {
+          "changes": {
+            "system.description.value": "<p><span class=\"inline-h4\"><em><strong>Resistance.</strong></em></span> The bearer gains Resistance to Thunder damage.</p>"
+          },
+          "name": "Thunder Resistance Benefit"
+        },
+        "Cold Resistance": {
+          "name": "Cold Resistance"
+        },
+        "Lightning Resistance Benefit": {
+          "name": "Lightning Resistance Benefit",
+          "changes": {
+            "system.description.value": "<p><span class=\"inline-h4\"><em><strong>Resistance.</strong></em></span> The bearer gains Resistance to Lightning damage.</p>"
+          }
+        },
+        "Poison Resistance Benefit": {
+          "name": "Poison Resistance Benefit",
+          "changes": {
+            "system.description.value": "<p><span class=\"inline-h4\"><em><strong>Resistance.</strong></em></span> The bearer gains Resistance to Poison damage.</p>"
+          }
+        },
+        "Mighty Build Benefit": {
+          "name": "Mighty Build Benefit",
+          "changes": {
+            "system.description.value": "<p><span class=\"inline-h4\"><em><strong>Mighty Build.</strong></em></span> The bearer has Advantage on Strength saving throws. The bearer also counts as one size larger when determining its carrying capacity.</p>"
+          }
+        },
+        "Tremorsense Benefit": {
+          "changes": {
+            "system.description.value": "<p><span class=\"inline-h4\"><em><strong style=\"\">Tremorsense.</strong></em></span> The bearer gains Tremorsense with a range of 30 feet.</p>"
+          },
+          "name": "Tremorsense Benefit"
+        },
+        "Darkvision Benefit": {
+          "name": "Darkvision Benefit"
+        },
+        "Cold Resistance Benefit": {
+          "changes": {
+            "system.description.value": "<p><span class=\"inline-h4\"><em><strong>Resistance.</strong></em></span> The bearer gains Resistance to Cold damage.</p>"
+          },
+          "name": "Cold Resistance Benefit"
+        },
+        "Fire Resistance": {
+          "name": "Fire Resistance"
+        },
+        "hxYVIfvftZkcm7LJ": {
+          "name": "Tremorsense Benefit"
+        },
+        "Acid Resistance": {
+          "name": "Acid Resistance"
+        },
+        "jIxRybS7O6TdvlVE": {
+          "name": "Speed Benefit"
+        }
+      },
+      "activities": {
+        "Darkvision Benefit": {
+          "name": "Darkvision Benefit"
+        },
+        "Resistance Benefit": {
+          "name": "Resistance Benefit"
+        },
+        "Tremorsense Benefit": {
+          "name": "Tremorsense Benefit"
+        },
+        "Speed Benefit": {
+          "name": "Speed Benefit"
+        },
+        "Mighty Build Benefit": {
+          "name": "Mighty Build Benefit"
+        }
+      },
+      "name": "Transmuter's Stone",
+      "description": "<p>When you finish a Long Rest, you can create a magic stone that lasts until you use this feature again. The stone is a Tiny object, and you can use it as a Spellcasting Focus for your Wizard spells. A creature with the stone in its possession gains proficiency in Constitution saving throws and one of the following benefits, which you choose when you create the stone. You can change the stone’s benefit when you cast a Transmutation spell using a spell slot.</p><p><span class=\"inline-h4\"><em><strong>Darkvision.</strong></em></span> The bearer gains Darkvision with a range of 60 feet or increases the range of its Darkvision by 60 feet.</p><p><span class=\"inline-h4\"><em><strong>Resistance.</strong></em></span> The bearer gains Resistance to Acid, Cold, Fire, Lightning, Poison, or Thunder damage (your choice each time you choose this benefit).</p><p><span class=\"inline-h4\"><em><strong>Speed.</strong></em></span> The bearer’s Speed increases by 10 feet.</p><section id=\"secret-9vsSXrF720FyorEA\" class=\"secret\"><p><strong>Foundry Note</strong></p><p>This feature includes enchantments that can be applied to your Transmuter Stone. You can remove the enchantments and replace them with new ones as needed. The <strong>Resistance</strong> enchantment can be used multiple times to apply multiple different resistances.</p></section>"
+    },
+    "Ever-Ready Shot": {
+      "advancement": {
+        "UMD7ZTUmkPj4n9L2": {
+          "hint": "<p>This advancement modifies Arcane Shot to automatically recover a use when you roll for initiative.</p>"
+        }
+      },
+      "description": "<p>When you roll Initiative, you can regain one expended use of Arcane Shot.</p>",
+      "name": "Ever-Ready Shot"
+    },
+    "Necromancy Savant": {
+      "name": "Necromancy Savant",
+      "advancement": {
+        "AKw9wLUr2rWMwE1K": {
+          "hint": "<p>Choose two Wizard spells from the Necromancy school, each of which must be no higher than level 2, and add them to your spellbook for free.</p><p>In addition, whenever you gain access to a new level of spell slots in this class, you can add one Wizard spell from the Necromancy school to your spellbook for free. The chosen spell must be of a level for which you have spell slots.</p>"
+        }
+      },
+      "description": "<p>Choose two Wizard spells from the Necromancy school, each of which must be no higher than level 2, and add them to your spellbook for free.</p><p>In addition, whenever you gain access to a new level of spell slots in this class, you can add one Wizard spell from the Necromancy school to your spellbook for free. The chosen spell must be of a level for which you have spell slots.</p>"
+    },
+    "Dispelling Recovery": {
+      "activities": {
+        "Restore Use with Channel Divinity": {
+          "name": "Restore Use with Channel Divinity"
+        }
+      },
+      "name": "Dispelling Recovery",
+      "description": "<p>Immediately after you cast a spell with a spell slot that restores Hit Points to a creature or ends a condition on a creature, you can cast <em>@UUID[Compendium.dnd5e.spells24.Item.phbsplDispelMagi]{Dispel Magic}</em> as part of that action, Bonus Action, or Reaction, and without expending a spell slot.</p><p>Once you use this feature, you can’t use it again until you finish a Short or Long Rest. You also restore your use of it by expending one use of Channel Divinity (no action required).</p>"
+    },
+    "Semblance of Life": {
+      "activities": {
+        "Summon Celestial": {
+          "name": "Summon Celestial"
+        },
+        "Summon Fiend": {
+          "profiles": {
+            "Demon": {
+              "name": "Demon"
+            },
+            "Devil": {
+              "name": "Devil"
+            },
+            "Yugoloth": {
+              "name": "Yugoloth"
+            }
+          },
+          "name": "Summon Fiend"
+        },
+        "Summon Undead": {
+          "name": "Summon Undead"
+        }
+      },
+      "name": "Semblance of Life",
+      "description": "<p>Your Vestige Companion continues to grow in strength, and with your assistance, it can briefly adopt a more powerful form. Depending on the vestige’s type, you can take a Magic action while the vestige is within 90 feet of you to shape-shift it for 1 hour into one of the following forms: <strong>Celestial Spirit</strong> (Celestial vestige; see the <em>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplSummonCele]{Summon Celestial}</em> spell in the <em>Player’s Handbook</em>), <strong>Fiendish Spirit</strong> (Fiend vestige; see the <em>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplSummonFien]{Summon Fiend}</em> spell in the <em>Player’s Handbook</em>), or <strong>Undead Spirit</strong> (Undead vestige; see the <em>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplSummonUnde]{Summon Undead}</em> spell in the <em>Player’s Handbook</em>). The vestige’s game statistics are replaced by the spirit’s stat block, and the spell’s level is equal to half your Warlock level (round down; maximum level 9), but the vestige retains its personality, Divine Power Bonus Action, Hit Points, and Hit Point Dice.</p><p>The vestige gains a number of Temporary Hit Points equal to the Hit Points of the spirit form. These Temporary Hit Points vanish if any remain after 1 hour, and the transformation ends early if it has no Temporary Hit Points left.</p><p>Once you use this feature, you can’t do so again until you finish a Long Rest.</p><section id=\"secret-GxwxdxU1Jup55ZMI\" class=\"secret\"><p><strong>Foundry Note</strong></p><p>Use the relevant summon activity for the creature you would like transform your Vestige Companion into so that it will be scaled to your level. Then, drag the actor onto your Vestige's character sheet to transform it.</p></section>"
+    },
+    "Enchanting Conversation (Deception)": {
+      "name": "Enchanting Conversation (Deception)",
+      "description": "<p>You gain proficiency in Deception.</p><p>In addition, when you make an ability check with the chosen skill, you gain a bonus to the check equal to your Intelligence modifier (minimum of +1).</p>",
+      "advancement": {
+        "u52oqCfB5pTiTdUz": {
+          "hint": "<p>You gain proficiency in Deception.</p>"
+        }
+      },
+      "effects": {
+        "Enchanting Deception": {
+          "name": "Enchanting Deception"
+        }
+      }
+    },
+    "Distant Transposition": {
+      "description": "<p>The range of your Benign Transposition feature increases to 60 feet. Additionally, you can restore one use of it by expending a level 3+ spell slot (no action required).</p>",
+      "name": "Distant Transposition"
+    },
+    "Transmuter": {
+      "description": "<p><em>Transform Energy and Matter</em></p><p>You study spells that modify energy and matter—to you, the world is eminently mutable. Using your magic, you become a smith at reality’s forge.</p><p>Some Transmuters are tinkerers and pranksters. Others seek the power to make and destroy worlds.</p>",
+      "name": "Transmuter"
+    },
+    "Alter Memories": {
+      "name": "Alter Memories",
+      "description": "<p>You can make a creature unaware of your magical influence. When you cast an Enchantment spell that imposes the &amp;Reference[Charmed apply=false] condition using a spell slot, you can choose one creature targeted by the spell. That creature remains unaware of being Charmed by you.</p><p>In addition, once before the spell ends, you can take a Magic action to force the chosen creature to make an Intelligence saving throw against your spell save DC. On a failed save, you can make the creature lose a number of hours of its memories equal to 1 plus your Intelligence modifier (minimum of 1 hour lost; maximum of<strong>:</strong> [[max(1 + @abilities.int.mod, 1)]] hours). You can make the creature forget less time, and the amount of time can’t exceed the duration of your Enchantment spell.</p>"
+    },
+    "Benign Transposition": {
+      "activities": {
+        "Restore Use": {
+          "name": "Restore Use"
+        }
+      },
+      "description": "<p>As a Bonus Action, you teleport up to 30 feet to an unoccupied space that you can see. Alternatively, you can choose a space within range that is occupied by a Medium or smaller creature. If that creature is willing, you both teleport, swapping places.</p><p>You can use this feature a number of times equal to your Intelligence modifier (minimum of once), and you regain all expended uses when you finish a Long Rest.</p><section id=\"secret-IP2XxTe8cBkyLdBn\" class=\"secret hide-in-embed\"><p><strong>Foundry Notes</strong></p><p>The Teleport activity handles normal teleport movement but doesn't enforce the swap restrictions. For a swap, verify the other creature is willing and Medium or smaller, then exchange the two tokens' spaces manually.</p></section>",
+      "name": "Benign Transposition"
+    },
+    "Curving Shot": {
+      "name": "Curving Shot",
+      "description": "<p>You learn how to direct an errant shot toward a new target. If you make a ranged attack roll with a weapon with the Ammunition property and miss, you can cause the shot to ricochet toward a new target as a Bonus Action immediately after the attack misses. The new target must be a creature you can see within the weapon’s range and within 60 feet of the attack’s original target. Make an attack roll against the new target.</p>"
+    },
+    "Focused Strike": {
+      "name": "Focused Strike",
+      "description": "<p>When you use your Stunning Strike, whether the target succeeds or fails on the saving throw, the target has Disadvantage on saving throws against your spells until the start of your next turn.</p>",
+      "activities": {
+        "Focused Strike": {
+          "condition": "When you use your Stunning Strike",
+          "name": "Focused Strike"
+        }
+      }
+    },
+    "Grave Power": {
+      "name": "Grave Power",
+      "description": "<p>You have discovered more necromantic insights and inscribed them in your spellbook. While holding your spellbook, you gain the following benefits.</p><p><span class=\"inline-h4\"><em><strong>Grave Resilience.</strong></em></span> When you use Arcane Recovery, your Exhaustion level, if any, decreases by 1.</p><p><span class=\"inline-h4\"><em><strong>Overwhelming Necrosis.</strong></em></span> Damage from your Wizard spells and Wizard features ignores Resistance to Necrotic damage.</p><section id=\"secret-CIVLhFvHcJ8FfieR\" class=\"secret hide-in-embed\"><p><strong>Foundry Notes</strong></p><p><strong>Overwhelming Necrosis.</strong> Foundry doesn't automatically ignore Necrotic Resistance for damage from your Wizard spells and Wizard features. If a target has Resistance to Necrotic damage, apply the full Necrotic damage instead of halving it.</p></section>",
+      "advancement": {
+        "bQ60shzNektNYSL6": {
+          "hint": "<p><span class=\"inline-h4\"><em><strong>Grave Resilience.</strong></em></span> When you use Arcane Recovery, your Exhaustion level, if any, decreases by 1.</p>"
+        }
+      }
+    },
+    "Grasping Shot": {
+      "effects": {
+        "Grasping Shot": {
+          "name": "Grasping Shot",
+          "description": "<p>The target has the &amp;Reference[Restrained apply=false] condition for 1 minute or until you use this option again. The target or a creature within reach of it can take an action to make a Strength (Athletics) check against your Arcane Shot saving throw DC, removing the brambles and ending the Restrained condition on the target on a successful check.</p>"
+        }
+      },
+      "activities": {
+        "Escape Check": {
+          "name": "Escape Check"
+        }
+      },
+      "name": "Grasping Shot",
+      "description": "<p>Your ammunition creates clutching brambles around your target. The creature you hit takes extra Slashing damage equal to one roll of your Arcane Shot Die and must succeed on a Strength saving throw or have the &amp;Reference[Restrained apply=false] condition for 1 minute or until you use this option again. The target or a creature within reach of it can take an action to make a Strength (Athletics) check against your Arcane Shot saving throw DC, removing the brambles and ending the Restrained condition on the target on a successful check.</p>"
+    },
+    "Modify Magic": {
+      "name": "Modify Magic",
+      "description": "<p>You can use your Channel Divinity to alter your spells as you cast them. When you cast a spell, you can expend one use of your Channel Divinity and change the spell in one of the following ways (no action required).</p><p><em><strong>Fortifying Spell.</strong></em> One target of the spell gains a number of Temporary Hit Points equal to 2d8 plus your Cleric level.</p><p><em><strong>Tenacious Spell.</strong></em> When you cast a spell that forces a creature to make a saving throw, and a creature you can see succeeds on that saving throw, roll 1d6 and subtract the number rolled from the target’s first saving throw against the spell’s effect.</p>",
+      "activities": {
+        "Tenacious Spell": {
+          "roll": "Reduce Save",
+          "name": "Tenacious Spell"
+        },
+        "Fortifying Spell": {
+          "name": "Fortifying Spell"
+        }
+      }
+    },
+    "Mystic Focus": {
+      "activities": {
+        "Focus Points to Spell Slots": {
+          "condition": "When you finish a Short Rest or use Uncanny Metabolism",
+          "name": "Focus Points to Spell Slots"
+        },
+        "9Lsz1JvFAbp4mZSM": {
+          "name": "Focus Points to Spell Slots",
+          "condition": "When you finish a Short Rest or use Uncanny Metabolism"
+        },
+        "Spell Slot to Focus Points": {
+          "name": "Spell Slot to Focus Points",
+          "condition": "When you finish a Short Rest or use Uncanny Metabolism"
+        },
+        "8FmJJxmbEcWBDrkP": {
+          "condition": "When you finish a Short Rest or use Uncanny Metabolism",
+          "name": "Spell Slot to Focus Points"
+        },
+        "kejiMdIfeakli8Pj": {
+          "condition": "When you finish a Short Rest or use Uncanny Metabolism",
+          "name": "Spell Slot to Focus Points"
+        },
+        "oRhnEpnZSoWr3sVZ": {
+          "name": "Focus Points to Spell Slots",
+          "condition": "When you finish a Short Rest or use Uncanny Metabolism"
+        },
+        "RyhhF5c8eTk1LUZ1": {
+          "name": "Focus Points to Spell Slots",
+          "condition": "When you finish a Short Rest or use Uncanny Metabolism"
+        },
+        "yOMpjrTwhl0K4rL3": {
+          "name": "Spell Slot to Focus Points",
+          "condition": "When you finish a Short Rest or use Uncanny Metabolism"
+        }
+      },
+      "description": "<p>You keep your magical power and martial focus in perfect balance, allowing you to convert spell slots into Focus Points, or convert Focus Points into spell slots.</p><p><span class=\"inline-h4\"><em><strong>Converting Spell Slots to Focus Points.</strong></em></span> You can expend a spell slot to regain a number of expended Focus Points equal to the slot’s level (no action required).</p><p><span class=\"inline-h4\"><em><strong>Recovering Spell Slots.</strong></em></span> When you finish a Short Rest or use Uncanny Metabolism, you can transform unexpended Focus Points to recover one expended spell slot. The Recovering Spell Slots table shows the cost of recovering a spell slot of a given level, and it lists the minimum Monk level you must be to recover a slot. You can recover a spell slot no higher than level 4.</p><table><caption><p>Recovering Spell Slots</p></caption><thead><tr><th scope=\"col\"><p>Spell Slot Level</p></th><th scope=\"col\"><p>Focus Point Cost</p></th><th scope=\"col\"><p>Min. Monk Level</p></th></tr></thead><tbody><tr><td><p>1</p></td><td><p>2</p></td><td><p>6</p></td></tr><tr><td><p>2</p></td><td><p>3</p></td><td><p>7</p></td></tr><tr><td><p>3</p></td><td><p>5</p></td><td><p>13</p></td></tr><tr><td><p>4</p></td><td><p>6</p></td><td><p>19</p></td></tr></tbody></table><section id=\"secret-iSKyD79i1QyCMLss\" class=\"secret hide-in-embed\"><p><strong>Foundry Note</strong></p><p>Use Focus Points to Spell Slots only after finishing a Short Rest or when you use Uncanny Metabolism.</p></section>",
+      "name": "Mystic Focus"
+    },
+    "Transmuter Stone": {
+      "name": "Transmuter Stone",
+      "effects": {
+        "Transmuter Stone": {
+          "name": "Transmuter Stone"
+        }
+      },
+      "description": "<p>The stone is a Tiny object, and you can use it as a Spellcasting Focus for your Wizard spells. A creature with the stone in its possession gains proficiency in Constitution saving throws and can include benefits from the Transmuter's Stone feature. The current benefits (if any are applied) are:</p>"
+    },
+    "Conjurer": {
+      "description": "<p><em>Step Across Space and Call Creatures from Thin Air</em></p><p>A Conjurer considers distance and matter to be flexible guidelines rather than physical laws. Conjurers master magic that moves creatures instantly through space and summons creatures to fight on their behalf.</p>",
+      "name": "Conjurer"
+    },
+    "Banishing Shot": {
+      "description": "<p>Your ammunition temporarily sequesters your target in a harmless demiplane. The creature you hit takes extra Psychic damage equal to one roll of your Arcane Shot Die and must succeed on a Charisma saving throw or be banished.</p><p>While banished, the creature has the &amp;Reference[Incapacitated apply=false] condition and a Speed of 0. At the end of its next turn, the target reappears in the space it left or, if that space is occupied, in the nearest unoccupied space.</p>",
+      "effects": {
+        "Banishing Shot": {
+          "name": "Banishing Shot",
+          "description": "<p>While banished, the creature has the &amp;Reference[Incapacitated apply=false] condition and a Speed of 0. At the end of its next turn, the target reappears in the space it left or, if that space is occupied, in the nearest unoccupied space.</p>"
+        }
+      },
+      "name": "Banishing Shot"
+    },
+    "Beguiling Shot": {
+      "name": "Beguiling Shot",
+      "description": "<p>Your ammunition beguiles your target. The creature you hit takes extra Psychic damage equal to two rolls of your Arcane Shot Die and must succeed on a Wisdom saving throw or have the &amp;Reference[Charmed apply=false] condition until the start of your next turn, treating either you or one of your allies within 30 feet of the target (your choice) as the charmer. The Charmed condition ends early if the charmer attacks the target, deals damage to it, or forces it to make a saving throw.</p>",
+      "effects": {
+        "Beguiling Shot": {
+          "description": "<p>The target has the &amp;Reference[Charmed apply=false] condition until the start of your next turn, treating either you or one of your allies within 30 feet of the target (your choice) as the charmer. The Charmed condition ends early if the charmer attacks the target, deals damage to it, or forces it to make a saving throw.</p>",
+          "name": "Beguiling Shot"
+        }
+      }
+    },
+    "Enchantment Savant": {
+      "advancement": {
+        "uUaB153AMqwjd2kd": {
+          "hint": "<p>Choose two Wizard spells from the Enchantment school, each of which must be no higher than level 2, and add them to your spellbook for free.</p><p>In addition, whenever you gain access to a new level of spell slots in this class, you can add one Wizard spell from the Enchantment school to your spellbook for free. The chosen spell must be of a level for which you have spell slots.</p>"
+        }
+      },
+      "description": "<p>Choose two Wizard spells from the Enchantment school, each of which must be no higher than level 2, and add them to your spellbook for free.</p><p>In addition, whenever you gain access to a new level of spell slots in this class, you can add one Wizard spell from the Enchantment school to your spellbook for free. The chosen spell must be of a level for which you have spell slots.</p>",
+      "name": "Enchantment Savant"
+    },
+    "Vestige Spells (War)": {
+      "name": "Vestige Spells (War)",
+      "description": "<p>The magic of your Vestige Companion ensures you always have certain spells ready. Select one of the following Cleric domains: Life, Light, Trickery, or War. The Domain Spells of your chosen domain are Warlock spells for you. When you reach a Warlock level equal to a Cleric level listed on the Domain Spells table for the domain you have chosen, you thereafter always have the listed spells prepared.</p><p>For example, if you chose the War Domain for this feature, when you reach Warlock level 3, you would have the <em>@UUID[Compendium.dnd5e.spells24.Item.phbsplGuidingBol]{Guiding Bolt}</em>, <em>@UUID[Compendium.dnd5e.spells24.Item.phbsplMagicWeapo]{Magic Weapon}</em>, <em>@UUID[Compendium.dnd5e.spells24.Item.phbsplShieldofFa]{Shield of Faith}</em>, and <em>@UUID[Compendium.dnd5e.spells24.Item.phbsplSpiritualW]{Spiritual Weapon}</em> spells prepared.</p>"
+    },
+    "Enchanting Conversation": {
+      "description": "<p>You gain proficiency in one of the following skills of your choice: Deception, Intimidation, or Persuasion.</p><p>In addition, when you make an ability check with the chosen skill, you gain a bonus to the check equal to your Intelligence modifier (minimum of +1).</p>",
+      "name": "Enchanting Conversation",
+      "advancement": {
+        "WcSVwjh3aCH0bNvL": {
+          "hint": "<p>Choose one skill for Enchanting Conversation: Deception, Intimidation, or Persuasion. Your choice grants proficiency in that skill and applies the feature’s Intelligence modifier bonus to checks using it.</p>"
+        }
+      }
+    },
+    "Undead Thralls": {
+      "advancement": {
+        "EH4n2nPforM9RQYP": {
+          "hint": "<p>You always have <em>@UUID[Compendium.dnd5e.spells24.Item.phbsplAnimateDea]{Animate Dead}</em> prepared and can cast it without expending a spell slot, but you must finish a Long Rest before you can cast it in this way again. Whenever you start casting the spell, you can increase the spell’s effective level by 1.</p>"
+        },
+        "TQyDraJOy8HtXiZL": {
+          "hint": "<p>Whenever you cast Animate Dead the spell's level is increased by 1. It also has the benefits of <em><strong>Undead Fortitude</strong></em> and <em><strong>Withering Strike</strong></em>.</p>"
+        }
+      },
+      "name": "Undead Thralls",
+      "activities": {
+        "Spell Improvements": {
+          "name": "Spell Improvements"
+        }
+      },
+      "description": "<p>You always have <em>@UUID[Compendium.dnd5e.spells24.Item.phbsplAnimateDea]{Animate Dead}</em> prepared and can cast it without expending a spell slot, but you must finish a Long Rest before you can cast it in this way again. Whenever you start casting the spell, you can increase the spell’s effective level by 1.</p><p>In addition, while holding your spellbook, you gain the following benefits.</p><p><span class=\"inline-h4\"><em><strong>Undead Fortitude.</strong></em></span> Whenever you cast a Necromancy spell that creates or summons an Undead, the Undead’s Hit Point maximum and current Hit Points increase by a number equal to your Intelligence modifier plus half your Wizard level (round down).</p><p><span class=\"inline-h4\"><em><strong>Withering Strike.</strong></em></span> Whenever an Undead you control within 60 feet of you hits a creature with an attack roll, the Undead deals extra Necrotic damage equal to your Intelligence modifier (minimum of 1 Necrotic damage).</p><section id=\"secret-7SB3q6JehDZTuqrX\" class=\"secret\"><p><strong>Foundry Note</strong></p><p>The improvements to <em>Animate Dead</em> are automatically applied. You can use the <strong>Spell Improvements</strong> enchantment on any other Necromancy spells to integrate the benefits of <em><strong>Undead Fortitude</strong></em> and <em><strong>Withering Strike</strong></em>.</p></section>"
+    },
+    "Enchanter": {
+      "name": "Enchanter",
+      "description": "<p><em>Entrance and Beguile Others</em></p><p>An Enchanter’s magic clouds or captivates minds. Some Enchanters use their abilities to encourage peace and soften cruelty, while others use their mind-altering magic for selfish ends.</p>"
+    },
+    "Enchanting Conversation (Intimidation)": {
+      "effects": {
+        "Enchanting Intimidation": {
+          "name": "Enchanting Intimidation"
+        }
+      },
+      "name": "Enchanting Conversation (Intimidation)",
+      "description": "<p>You gain proficiency in Intimidation.</p><p>In addition, when you make an ability check with the chosen skill, you gain a bonus to the check equal to your Intelligence modifier (minimum of +1).</p>",
+      "advancement": {
+        "VL0jgCgBBTRe0zjZ": {
+          "hint": "<p>You gain proficiency in Intimidation.</p>"
+        }
+      }
+    },
+    "Master Transmuter": {
+      "activities": {
+        "Restore Life": {
+          "name": "Restore Life"
+        },
+        "Panacea": {
+          "name": "Panacea"
+        },
+        "Expend Spell Slot": {
+          "name": "Expend Spell Slot"
+        }
+      },
+      "description": "<p>While you carry your Transmuter’s Stone, you can take a Magic action to consume the reserve of transmutation magic stored inside and choose one of the following benefits. After you use the stone in this way, it crumbles to dust. You can prevent the stone from crumbling by expending a level 7+ spell slot as part of the Magic action you take using this feature.</p><p><em><strong>Major Transformation.</strong></em> You can transmute one nonmagical object—no larger than a 10-foot Cube or eight connected 5-foot Cubes—into another non-magical object of similar size and mass and of equal or lesser value. You must spend 10 minutes handling the object to transform it.</p><p><em><strong>Panacea.</strong></em> You touch a creature as part of this Magic action, and the target regains a number of Hit Points equal to half its Hit Point maximum (round down). The target is cured of all magical contagions, and any curses affecting the target are lifted, including the target’s Attunement to a cursed item. If the target has the Poisoned or Petrified condition, those conditions end.</p><p><em><strong>Restore Life.</strong></em> You cast the <em>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplRaiseDead0]{Raise Dead}</em> spell without expending a spell slot, using the stone in place of the required Material components.</p><p><em><strong>Restore Youth.</strong></em> You touch one willing creature as part of this Magic action, and the target’s Exhaustion level, if any, decreases to 0, and it permanently appears [[/r 3d10]] years younger, to a minimum of young adulthood.</p><section id=\"secret-g1y4y2qWE6FjAdoc\" class=\"secret hide-in-embed\"><p><strong>Foundry Notes</strong></p><p>After using Master Transmuter, unequip the Transmuter Stone to represent it crumbling unless you also use Expend Spell Slot to expend a level 7+ spell slot. Re-equip the stone after your next Long Rest when you create it again.</p><p>For Panacea, enter half the target's Hit Point maximum, rounded down, as the Scaling value and resolve its other removals manually. </p><p>Resolve Major Transformation and Restore Youth manually.</p></section>",
+      "name": "Master Transmuter"
+    },
+    "Vestige Companion": {
+      "name": "Vestige Companion",
+      "activities": {
+        "Vestige Companion": {
+          "name": "Vestige Companion"
+        }
+      },
+      "description": "<p>The vestige manifests, drawing strength from your pact. It uses the <strong>Vestige Companion</strong> stat block and is a @UUID[Compendium.dnd-arcana-unleashed.actors.Actor.aunCelestialVest]{Celestial}, @UUID[Compendium.dnd-arcana-unleashed.actors.Actor.aunFiendishVesti]{Fiend}, or @UUID[Compendium.dnd-arcana-unleashed.actors.Actor.aunUndeadVestige]{Undead} (choose when you gain this feature). You determine what the vestige looks like, but regardless of its form, the vestige bears features indicating its supernatural origin. For example, you might decide your vestige is an oversized floating skull etched with sigils, a circle of glowing runes, or a constantly shifting abstract shape. The vestige is Friendly to you and your allies and obeys your commands. It vanishes if you die.</p><p><span class=\"inline-h4\"><em><strong>The Vestige in Combat.</strong></em></span> In combat, the vestige acts during your turn. It can move and use its Reaction on its own, but the only action it takes is the Dodge action unless you take a Bonus Action to command it to take an action in its stat block or some other action. You can also sacrifice one of your attacks when you take the Attack action to command the vestige to take the Vestige’s Strike action. If you have the &amp;Reference[Incapacitated apply=false] condition, the vestige acts on its own and isn’t limited to the Dodge action.</p><p><span class=\"inline-h4\"><em><strong>Disappearance of the Vestige.</strong></em></span> When the vestige drops to 0 Hit Points, it disappears. You can spend 1 minute performing a magical ceremony to manifest the vestige again; it reappears with its maximum Hit Points in an unoccupied space within 5 feet of you. As a Magic action, you can temporarily dismiss the vestige to a pocket dimension. As a Magic action while it is temporarily dismissed, you can cause the vestige to reappear in an unoccupied space within 30 feet of you. Whenever the vestige drops to 0 Hit Points or disappears into the pocket dimension, it leaves behind in its space anything it was wearing or carrying.</p><p>Whenever you finish a Long Rest, you can summon the vestige in a new form, which appears in an unoccupied space within 5 feet of you. You choose its appearance and whether it is a Celestial, Fiend, or Undead. If the vestige is already manifested from this feature, its form changes to the new one.</p><p>@Embed[Compendium.dnd-arcana-unleashed.actors.Actor.audVestigeCompan caption=false cite=true statblock]</p>"
+    },
+    "Vestige Power": {
+      "name": "Vestige Power",
+      "description": "<p>Your Vestige Companion now regains its use of Divine Power whenever you finish a Short or Long Rest or when you use your Magical Cunning feature. In addition, while within 30 feet of your Vestige Companion, you have Resistance to the same damage types as the vestige.</p><section id=\"secret-CxYREKXuRmiApzSY\" class=\"secret hide-in-embed\"><p><strong>Foundry Notes</strong></p><p>After a qualifying rest or use of Magical Cunning, manually reset the manifested vestige's Divine Power to 1 use on its sheet. The Warlock's matching damage resistance is not automated; adjudicate that resistance manually while it is in effect.</p></section>"
+    },
+    "Necromancer": {
+      "name": "Necromancer",
+      "description": "<p><em>Command the Powers of Death and Undeath</em></p><p>You explore the forces of life, death, and undeath. As a necromancer, you learn to manipulate the energy that animates all creatures, and you draw increasing power from the forbidden secrets in your spellbook. Though many see Necromancers as menacing or villainous, not all Necromancers are evil.</p>"
+    },
+    "Split Enchantment": {
+      "activities": {
+        "Cast Spell: 8th → 9th Level": {
+          "name": "Cast Spell: 8th → 9th Level"
+        },
+        "Cast Spell: 1st → 2nd Level": {
+          "name": "Cast Spell: 1st → 2nd Level"
+        },
+        "Cast Spell: 4th → 5th Level": {
+          "name": "Cast Spell: 4th → 5th Level"
+        },
+        "Cast Spell: 5th → 6th Level": {
+          "name": "Cast Spell: 5th → 6th Level"
+        },
+        "Cast Spell: 6th → 7th Level": {
+          "name": "Cast Spell: 6th → 7th Level"
+        },
+        "Cast Spell: 7th → 8th Level": {
+          "name": "Cast Spell: 7th → 8th Level"
+        },
+        "Cast Spell: 2nd → 3rd Level": {
+          "name": "Cast Spell: 2nd → 3rd Level"
+        },
+        "Cast Spell: 3rd → 4th Level": {
+          "name": "Cast Spell: 3rd → 4th Level"
+        }
+      },
+      "description": "<p>When you use a spell slot to cast an Enchantment spell, such as <em>@UUID[Compendium.dnd5e.spells24.Item.phbsplCharmPerso]{Charm Person}</em>, that can be cast with a higher-level spell slot to target an additional creature, you can increase the spell’s effective level by 1.</p><p>You can use this feature a number of times equal to your Intelligence modifier, and you regain all expended uses when you finish a Long Rest.</p><section id=\"secret-rzMF0sjS1za8A1od\" class=\"secret hide-in-embed\"><p><strong>Foundry Notes</strong></p><p>Cast the qualifying Enchantment spell one spell-slot level higher than the slot you want to expend, allowing Foundry to apply the increased target count and consume that higher-level slot. </p><p>Then use the matching <strong>Split Enchantment</strong> activity. It restores the higher-level slot, expends the correct slot one level lower, and spends one use of Split Enchantment.</p></section>",
+      "name": "Split Enchantment"
+    },
+    "Splintered Summons": {
+      "name": "Splintered Summons",
+      "activities": {
+        "Restore Use": {
+          "name": "Restore Use"
+        },
+        "utility": {
+          "condition": "When you use a spell slot to cast a Conjuration spell that summons a spirit whose stat block is included in the spell description"
+        }
+      },
+      "description": "<p>When you use a spell slot to cast a Conjuration spell that summons a spirit whose stat block is included in the spell description, such as <em>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplSummonAber]{Summon Aberration}</em>, you can modify the spell to summon two creatures with the spell instead of one. Each creature is of the same kind, uses the stat block and rules denoted by the spell, and manifests in a different unoccupied space of your choice within the spell’s range, but the summoned creatures’ Hit Point maximums and current Hit Points are halved. If you lose Concentration on the spell, both creatures disappear.</p><p>Once you use this feature to modify a spell in this way, you must finish a Long Rest before you can do so again. You can also restore your use of it by expending a level 5+ spell slot (no action required).</p><section id=\"secret-sgkOOp9V8YKLoWZH\" class=\"secret hide-in-embed\"><p><strong>Foundry Notes</strong></p><p>Cast the eligible summon spell normally and use its Summon chat button twice to place two copies of the same spirit. Then target both creatures and use Splintered Summons to apply the halved Hit Points effect.</p></section>",
+      "effects": {
+        "Splintered Summon": {
+          "name": "Splintered Summon"
+        }
+      }
+    },
+    "Magical Mastery": {
+      "description": "<p>You learn four Wizard spells, one from each of levels 6, 7, 8, and 9. You thereafter always have those spells prepared. Whenever you gain a Cleric level, you can replace one of these spells with another Wizard spell of the same level.</p>",
+      "name": "Magical Mastery"
+    },
+    "Arcane Archer Lore": {
+      "advancement": {
+        "LNsgAWw8x2cVxyWs": {
+          "hint": "<p><em><strong>Cantrip.</strong></em> You know either the <em>@UUID[Compendium.dnd5e.spells24.Item.phbsplDruidcraft]{Druidcraft}</em> or the @UUID[Compendium.dnd5e.spells24.Item.phbsplPrestidigi]{Prestidigitation} cantrip. Intelligence is your spellcasting ability for it.</p>"
+        },
+        "TC6W4Mugmnci3Re3": {
+          "hint": "<p>You gain proficiency in the Arcana and Nature skills. If you already have one of these proficiencies, you instead gain proficiency in a different skill of your choice from the skills available to Fighters at level 1 (or in two skills available to Fighters at level 1 if you have both).</p><p><em>Skills available to Fighters at level 1:</em> Acrobatics, Animal Handling, Athletics, History, Insight, Intimidation, Perception, Persuasion, Survival</p>"
+        }
+      },
+      "name": "Arcane Archer Lore",
+      "description": "<p>You learn magical theory and secrets of nature, granting you the following benefits.</p><p><em><strong>Cantrip.</strong></em> You know either the <em>@UUID[Compendium.dnd5e.spells24.Item.phbsplDruidcraft]{Druidcraft}</em> or the @UUID[Compendium.dnd5e.spells24.Item.phbsplPrestidigi]{Prestidigitation} cantrip. Intelligence is your spellcasting ability for it.</p><p><em><strong>Skills.</strong></em> You gain proficiency in the Arcana and Nature skills. If you already have one of these proficiencies, you instead gain proficiency in a different skill of your choice from the skills available to Fighters at level 1 (or in two skills available to Fighters at level 1 if you have both).</p>"
+    },
+    "Spellcasting": {
+      "advancement": {
+        "Z2ms9KKLMRagWNna": {
+          "hint": "<p>You prepare the list of level 1+ spells that are available for you to cast with this feature. To start, choose three level 1 spells from the Sorcerer spell list. <em>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplJump000000]{Jump}</em>, <em>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplMagicMissi]{Magic Missile}</em>, and <em>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplShield0000]{Shield}</em> are recommended.</p>"
+        },
+        "KWXlpdXeV6uSKQmi": {
+          "hint": "<p>You know two cantrips of your choice from the Sorcerer spell list. <em>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplBladeWard0]{Blade Ward}</em> and <em>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplThundercla]{Thunderclap}</em> are recommended. Whenever you gain a Monk level, you can replace one of these cantrips with another cantrip of your choice from the Sorcerer spell list.</p><p>When you reach Monk level 10, you learn another Sorcerer cantrip of your choice.</p>"
+        }
+      },
+      "description": "<p>You have learned to cast spells. See the <em>Player’s Handbook</em> for the rules on spellcasting. The information below details how you use those rules as a Warrior of the Mystic Arts.</p><p><span class=\"inline-h4\"><em><strong>Cantrips.</strong></em></span> You know two cantrips of your choice from the Sorcerer spell list. <em>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplBladeWard0]{Blade Ward}</em> and <em>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplThundercla]{Thunderclap}</em> are recommended. Whenever you gain a Monk level, you can replace one of these cantrips with another cantrip of your choice from the Sorcerer spell list.</p><p>When you reach Monk level 10, you learn another Sorcerer cantrip of your choice.</p><p><span class=\"inline-h4\"><em><strong>Spell Slots.</strong></em></span> The Warrior of the Mystic Arts Spellcasting table shows how many spell slots you have to cast your level 1+ spells. You regain all expended slots when you finish a Long Rest.</p><table><caption><p>Warrior of the Mystic Arts Spellcasting</p></caption><thead><tr><th rowspan=\"2\" scope=\"col\"><p>Monk Level</p></th><th rowspan=\"2\" scope=\"col\"><p>Prepared Spells</p></th><th colspan=\"4\" scope=\"col\"><p>—Spell Slots per Spell Level—</p></th></tr><tr><th scope=\"col\"><p>1</p></th><th scope=\"col\"><p>2</p></th><th scope=\"col\"><p>3</p></th><th scope=\"col\"><p>4</p></th></tr></thead><tbody><tr><td><p>3</p></td><td><p>3</p></td><td><p>2</p></td><td><p>—</p></td><td><p>—</p></td><td><p>—</p></td></tr><tr><td><p>4</p></td><td><p>4</p></td><td><p>3</p></td><td><p>—</p></td><td><p>—</p></td><td><p>—</p></td></tr><tr><td><p>5</p></td><td><p>4</p></td><td><p>3</p></td><td><p>—</p></td><td><p>—</p></td><td><p>—</p></td></tr><tr><td><p>6</p></td><td><p>4</p></td><td><p>3</p></td><td><p>—</p></td><td><p>—</p></td><td><p>—</p></td></tr><tr><td><p>7</p></td><td><p>5</p></td><td><p>4</p></td><td><p>2</p></td><td><p>—</p></td><td><p>—</p></td></tr><tr><td><p>8</p></td><td><p>6</p></td><td><p>4</p></td><td><p>2</p></td><td><p>—</p></td><td><p>—</p></td></tr><tr><td><p>9</p></td><td><p>6</p></td><td><p>4</p></td><td><p>2</p></td><td><p>—</p></td><td><p>—</p></td></tr><tr><td><p>10</p></td><td><p>7</p></td><td><p>4</p></td><td><p>3</p></td><td><p>—</p></td><td><p>—</p></td></tr><tr><td><p>11</p></td><td><p>8</p></td><td><p>4</p></td><td><p>3</p></td><td><p>—</p></td><td><p>—</p></td></tr><tr><td><p>12</p></td><td><p>8</p></td><td><p>4</p></td><td><p>3</p></td><td><p>—</p></td><td><p>—</p></td></tr><tr><td><p>13</p></td><td><p>9</p></td><td><p>4</p></td><td><p>3</p></td><td><p>2</p></td><td><p>—</p></td></tr><tr><td><p>14</p></td><td><p>10</p></td><td><p>4</p></td><td><p>3</p></td><td><p>2</p></td><td><p>—</p></td></tr><tr><td><p>15</p></td><td><p>10</p></td><td><p>4</p></td><td><p>3</p></td><td><p>2</p></td><td><p>—</p></td></tr><tr><td><p>16</p></td><td><p>11</p></td><td><p>4</p></td><td><p>3</p></td><td><p>3</p></td><td><p>—</p></td></tr><tr><td><p>17</p></td><td><p>11</p></td><td><p>4</p></td><td><p>3</p></td><td><p>3</p></td><td><p>—</p></td></tr><tr><td><p>18</p></td><td><p>11</p></td><td><p>4</p></td><td><p>3</p></td><td><p>3</p></td><td><p>—</p></td></tr><tr><td><p>19</p></td><td><p>12</p></td><td><p>4</p></td><td><p>3</p></td><td><p>3</p></td><td><p>1</p></td></tr><tr><td><p>20</p></td><td><p>13</p></td><td><p>4</p></td><td><p>3</p></td><td><p>3</p></td><td><p>1</p></td></tr></tbody></table><p><span class=\"inline-h4\"><em><strong>Prepared Spells of Level 1+.</strong></em></span> You prepare the list of level 1+ spells that are available for you to cast with this feature. To start, choose three level 1 spells from the Sorcerer spell list. <em>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplJump000000]{Jump}</em>, <em>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplMagicMissi]{Magic Missile}</em>, and <em>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplShield0000]{Shield}</em> are recommended.</p><p>The number of spells on your list increases as you gain Monk levels, as shown in the Prepared Spells column of the Warrior of the Mystic Arts Spellcasting table. Whenever that number increases, choose additional spells from the Sorcerer spell list until the number of spells on your list matches the number on the table. The chosen spells must be of a level for which you have spell slots. For example, if you’re a level 7 Monk, your list of prepared spells can include five Sorcerer spells of levels 1 and 2 in any combination.</p><p><span class=\"inline-h4\"><em><strong>Changing Your Prepared Spells.</strong></em></span> Whenever you gain a Monk level, you can replace one spell on your list with another Sorcerer spell for which you have spell slots.</p><p><span class=\"inline-h4\"><em><strong>Spellcasting Ability.</strong></em></span> Wisdom is your spellcasting ability for your Sorcerer spells.</p><p><span class=\"inline-h4\"><em><strong>Spellcasting Focus.</strong></em></span> You can use an Arcane Focus as a Spellcasting Focus for your Sorcerer spells.</p><p><span class=\"inline-h4\"><em><strong>Multiclassing.</strong></em></span> If you multiclass and have the Spellcasting feature from more than one class, add one third of your Monk levels (round down) to determine your available spell slots.</p>",
+      "name": "Spellcasting"
+    },
+    "Potent Stone": {
+      "name": "Potent Stone",
+      "description": "<p>Your Transmuter’s Stone is more versatile. When you create your Transmuter’s Stone, you can choose up to two benefits. You can choose each option other than Resistance only once. If you choose Resistance twice, you must choose different damage types. You can change either or both benefits when you cast a Transmutation spell using a spell slot.</p><p>In addition, the following are now among your benefit options for Transmuter’s Stone.</p><p><span class=\"inline-h4\"><em><strong>Mighty Build.</strong></em></span> The bearer has Advantage on Strength saving throws. The bearer also counts as one size larger when determining its carrying capacity.</p><p><span class=\"inline-h4\"><em><strong>Tremorsense.</strong></em></span> The bearer gains Tremorsense with a range of 30 feet.</p><section id=\"secret-IjF57btSMj6a9dRP\" class=\"secret\"><p><strong>Foundry Note</strong></p><p>These options are automatically added to your [[/item Transmuter's Stone]] feature.</p></section>"
+    },
+    "Necromancy Spellbook": {
+      "description": "<p>Your spellbook’s necromantic secrets grant you additional powers. You gain the following benefits.</p><p><span class=\"inline-h4\"><em><strong>Necrotic Resistance.</strong></em></span> You have Resistance to Necrotic damage.</p><p><span class=\"inline-h4\"><em><strong>Undead Familiar.</strong></em></span> The <em>@UUID[Compendium.dnd5e.spells24.Item.phbsplFindFamili]{Find Familiar}</em> spell appears in your spellbook. When you cast the spell, you choose one of the normal forms for your familiar or one of the following special forms: <strong>Skeleton</strong> or <strong>Zombie</strong> (see appendix B of the <em>Player’s Handbook</em> for the familiar’s stat block). When you choose one of the normal forms, you can choose Undead as its creature type.</p><p>Additionally, when you take the Attack action, you can forgo one of your own attacks to allow your familiar to make one attack of its own with its Reaction.</p><p><span class=\"inline-h4\"><em><strong>Undead Vitality.</strong></em></span> When you cast a Necromancy spell using a spell slot, you can choose an Undead creature you can see within 60 feet of yourself to regain a number of Hit Points equal to the level of the spell slot expended plus your Wizard level.</p>",
+      "name": "Necromancy Spellbook",
+      "advancement": {
+        "53nSv1GAo6wXWt5A": {
+          "hint": "<p>When you cast Find Familiar, you choose one of the normal forms for your familiar or one of the following special forms: <strong>Skeleton</strong> or <strong>Zombie</strong>. When you choose one of the normal forms, you can choose Undead as its creature type.</p>"
+        },
+        "yUEiTJrLsByaEvWV": {
+          "hint": "<p>The <em>Find Familiar</em> spell appears in your spellbook.</p>"
+        },
+        "uAEFNQd4AgPZ68cN": {
+          "hint": "<p>You have Resistance to Necrotic damage.</p>"
+        }
+      },
+      "effects": {
+        "Undead Familiar": {
+          "name": "Undead Familiar"
+        }
+      },
+      "activities": {
+        "Undead Vitality": {
+          "name": "Undead Vitality",
+          "condition": "When you cast a Necromancy spell using a spell slot",
+          "target": "Undead you can see"
+        },
+        "Summon Undead Familiar": {
+          "name": "Summon Undead Familiar"
+        }
+      }
+    },
+    "Focused Conjuration": {
+      "name": "Focused Conjuration",
+      "description": "<p>Taking damage can’t break your Concentration on Conjuration spells.</p>"
+    },
+    "Empowered Transmutation": {
+      "name": "Empowered Transmutation",
+      "activities": {
+        "Expend Use": {
+          "name": "Expend Use"
+        }
+      },
+      "description": "<p>When you use a spell slot to cast a Transmutation spell that doesn’t make an attack roll or force a saving throw, such as <em>@UUID[Compendium.dnd5e.spells24.Item.phbsplFly0000000]{Fly}</em> or <em>@UUID[Compendium.dnd5e.spells24.Item.phbsplMagicWeapo]{Magic Weapon}</em>, you can increase the spell’s effective level by 1.</p><p>You can use this feature a number of times equal to your Intelligence modifier (minimum of once), and you regain all expended uses when you finish a Long Rest.</p><section id=\"secret-aH5uLHKpx9cJfWAZ\" class=\"secret\"><p><strong>Foundry Note</strong></p><p>This feature can be used to track uses but does not automatically scale the level of the spell.</p></section>"
+    },
+    "Instinctive Charm": {
+      "description": "<p>When a creature within 30 feet of you that you can see hits you with an attack roll, you can take a Reaction to force the attacker to make a Wisdom saving throw against your spell save DC. On a failed save, the attack misses instead, and if there is another creature within range of the attack other than the attacker, the attacker targets that creature with the triggering attack, using the same attack roll. If multiple creatures are within the attack’s range, you choose which one to target.</p><p>Once you take this Reaction, you can’t do so again until you finish a Long Rest. You can also restore your use of it by casting an Enchantment spell with a spell slot.</p>",
+      "activities": {
+        "Restore Use": {
+          "name": "Restore Use",
+          "condition": "Cast an Enchantment spell with a spell slot"
+        }
+      },
+      "name": "Instinctive Charm"
+    },
+    "Vestige Spells (Life)": {
+      "description": "<p>The magic of your Vestige Companion ensures you always have certain spells ready. Select one of the following Cleric domains: Life, Light, Trickery, or War. The Domain Spells of your chosen domain are Warlock spells for you. When you reach a Warlock level equal to a Cleric level listed on the Domain Spells table for the domain you have chosen, you thereafter always have the listed spells prepared.</p><p>For example, if you chose the War Domain for this feature, when you reach Warlock level 3, you would have the <em>@UUID[Compendium.dnd5e.spells24.Item.phbsplGuidingBol]{Guiding Bolt}</em>, <em>@UUID[Compendium.dnd5e.spells24.Item.phbsplMagicWeapo]{Magic Weapon}</em>, <em>@UUID[Compendium.dnd5e.spells24.Item.phbsplShieldofFa]{Shield of Faith}</em>, and <em>@UUID[Compendium.dnd5e.spells24.Item.phbsplSpiritualW]{Spiritual Weapon}</em> spells prepared.</p>",
+      "name": "Vestige Spells (Life)"
+    },
+    "Warrior of the Mystic Arts": {
+      "name": "Warrior of the Mystic Arts",
+      "description": "<p><em>Weave Martial and Mystic Arts</em></p><p>Warriors of the Mystic Arts wield magic to supplement their martial skill. They harness mystical focus to enhance their magical and physical abilities.</p>"
+    },
+    "Harvest Undead": {
+      "description": "<p>You have learned more secrets about the nuances of life and death. Immediately after you become &amp;Reference[Bloodied apply=false] but aren’t reduced to 0 Hit Points from taking damage, you can take a Reaction to reduce an Undead creature under your control that you can see to 0 Hit Points. You then immediately regain a number of Hit Points equal to your Wizard level.</p>",
+      "activities": {
+        "heal": {
+          "range": "Undead that you can see"
+        }
+      },
+      "name": "Harvest Undead"
+    },
+    "Student of Arcana": {
+      "advancement": {
+        "szHaTl5r6pDAcGUp": {
+          "hint": "<p>You gain proficiency in the Arcana skill or one skill of your choice from the skills available to Clerics at level 1.</p>"
+        },
+        "cDw256TLQAb1yXZR": {
+          "hint": "<p>You learn two Wizard cantrips of your choice. Whenever you gain a Cleric level, you can replace one of these cantrips with another Wizard cantrip.</p>"
+        }
+      },
+      "name": "Student of Arcana",
+      "description": "<p>You gain the following benefits.</p><p><em><strong>Magical Knowledge.</strong></em> You gain proficiency in the Arcana skill or one skill of your choice from the skills available to Clerics at level 1.</p><p><em><strong>Cantrips.</strong></em> You learn two Wizard cantrips of your choice. Whenever you gain a Cleric level, you can replace one of these cantrips with another Wizard cantrip.</p>"
+    },
+    "Magical Ammunition": {
+      "name": "Magical Ammunition",
+      "activities": {
+        "Restore Use with Second Wind": {
+          "name": "Restore Use with Second Wind"
+        },
+        "Darkening Ammunition": {
+          "name": "Darkening Ammunition"
+        },
+        "Vine Ammunition": {
+          "name": "Vine Ammunition"
+        },
+        "Unlocking Ammunition": {
+          "name": "Unlocking Ammunition"
+        }
+      },
+      "description": "<p>You learn to imbue your ammunition with magical properties. As a Magic action, you can imbue a piece of nonmagical ammunition with one of the following magical properties and fire it at a solid surface you can see within the weapon’s range. When the ammunition hits the surface, the ammunition’s effect activates, and the ammunition attaches to the surface it hit for the duration of the effect; you can remove an attached piece of ammunition as a Magic action, ending the effect early. When the effect ends, the ammunition is destroyed.</p><p>Once you use this feature, you can’t do so again until you finish a Short or Long Rest. You can also restore your use of this feature by expending a use of your Second Wind (no action required).</p><p><em><strong>Darkening Ammunition.</strong></em> Magical shadows fill a 15-foot Emanation originating from the ammunition for 1 minute. Nonmagical flames in the Emanation are extinguished, and creatures in the Emanation have a −5 penalty to Wisdom (Perception) checks and Passive Perception.</p><p><em><strong>Unlocking Ammunition.</strong></em> A burst of magic fills a 15-foot Emanation originating from the ammunition. The ammunition also emits a loud knocking sound, audible up to 300 feet away. Any object in the Emanation that is held shut by a nonmagical lock or that is stuck or barred becomes unlocked, unstuck, or unbarred. If such an object has multiple locks, only one of them is unlocked.</p><p><em><strong>Vine Ammunition.</strong></em> A 120-foot-long vine grows from the ammunition. You and other creatures can then climb it. The vine withers away after 10 minutes.</p>"
+    },
+    "Shadow Shot": {
+      "effects": {
+        "Shadow Shot": {
+          "name": "Shadow Shot",
+          "description": "<p>The target has the &amp;Reference[Blinded apply=false] condition until the end of its next turn.</p>"
+        }
+      },
+      "name": "Shadow Shot",
+      "description": "<p>Your ammunition occludes your foe’s vision with shadows. The creature you hit takes extra Psychic damage equal to one roll of your Arcane Shot Die, and it must succeed on a Wisdom saving throw or have the &amp;Reference[Blinded apply=false] condition until the end of its next turn.</p>"
+    },
+    "Hypnotic Presence": {
+      "description": "<p>Your charming words and enchanting gaze can enthrall another creature. As a Magic action, choose one creature that you can see within 10 feet of yourself. If the target can see or hear you, it must succeed on a Wisdom saving throw against your spell save DC or have the &amp;Reference[Charmed apply=false] condition for 1 minute or until the target is more than 10 feet away from you, the target can neither see nor hear you, or the target takes damage. While Charmed, the target has the &amp;Reference[Incapacitated apply=false] condition and a Speed of 0.</p><p>You can use this feature a number of times equal to your Intelligence modifier (minimum of once), and you regain all expended uses when you finish a Long Rest.</p><section id=\"secret-TmiTf3R7QgHAkvHY\" class=\"secret hide-in-embed\"><p><strong>Foundry Notes</strong></p><p>Foundry applies the 1-minute duration automatically, but it doesn't end the effect when the target moves more than 10 feet away, can no longer see or hear you, or takes damage. Remove the Hypnotic Presence effect manually when any of those conditions occurs.</p></section>",
+      "effects": {
+        "Hypnotic Presence": {
+          "name": "Hypnotic Presence",
+          "description": "<p>The target has the Charmed condition for 1 minute or until the target is more than 10 feet away from you, the target can neither see nor hear you, or the target takes damage. While Charmed, the target has the Incapacitated condition and a Speed of 0.</p>"
+        }
+      },
+      "name": "Hypnotic Presence"
+    },
+    "Wondrous Alteration": {
+      "name": "Wondrous Alteration",
+      "effects": {
+        "Wondrous Alteration": {
+          "description": "<p>While under the effects of the <em>Alter Self</em> spell's <strong>Natural Weapons</strong> option.</p>",
+          "name": "Wondrous Alteration"
+        }
+      },
+      "activities": {
+        "Natural Weapons": {
+          "name": "Natural Weapons"
+        },
+        "Change Appearance": {
+          "name": "Change Appearance"
+        },
+        "Aquatic Adaptation": {
+          "name": "Aquatic Adaptation"
+        }
+      },
+      "description": "<p>You always have the <em>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplAlterSelf0]{Alter Self}</em> spell prepared and can cast it once without expending a spell slot. You regain the ability to cast it in this way when you finish a Long Rest.</p><p>While under the effects of <em>Alter Self</em>, you gain an additional benefit for each of its options.</p><p><span class=\"inline-h4\"><em><strong>Aquatic Adaptation.</strong></em></span> While underwater, you can take the Dash action as a Bonus Action.</p><p><span class=\"inline-h4\"><em><strong>Change Appearance.</strong></em></span> You have Advantage on Charisma (Deception) checks.</p><p><span class=\"inline-h4\"><em><strong>Natural Weapons.</strong></em></span> The damage of your new growth increases to 2d6 damage of the type associated with the growth. You also have Advantage on Constitution saving throws to maintain Concentration.</p><section id=\"secret-kWXzIvMpoES9aNF8\" class=\"secret\"><p><strong>Foundry Note</strong></p><p>The <strong>Aquatic Adaptation</strong> activity can be used to expend your Bonus Action. The <strong>Change Appearance</strong> activity can be used to apply an Active Effect that grants Advantage. The <strong>Natural Weapons</strong> changes are automatically applied to the spell's activities.</p></section>"
+    },
+    "Shape-Shifter": {
+      "activities": {
+        "Target Self": {
+          "profiles": {
+            "Creature into Creature": {
+              "name": "Creature into Creature"
+            }
+          },
+          "name": "Target Self"
+        }
+      },
+      "name": "Shape-Shifter",
+      "description": "<p>You always have the <em>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplPolymorph0]{Polymorph}</em> spell prepared and can cast it once without expending a spell slot. You regain the ability to cast it in this way when you finish a Long Rest.</p><p>In addition, when you target yourself with the spell, you can modify the spell to gain the benefits below. Once you modify the spell using this feature, you can’t do so again until you finish a Long Rest.</p><p><span class=\"inline-h4\"><em><strong>Game Statistics.</strong></em></span> In addition to retaining the features specified in the spell, you retain your memories and ability to communicate. You also retain your Intelligence, Wisdom, and Charisma scores; proficiencies; class features; and feats.</p><p><span class=\"inline-h4\"><em><strong>Transmute Spells.</strong></em></span> While shape-shifted, you can cast spells, but only Transmutation spells that don’t have a Material component that has a specified cost or that is consumed by the spell.</p>"
+    },
+    "Vestige Spells": {
+      "advancement": {
+        "7nJeTyS6ojgzbVPS": {
+          "hint": "<p>The magic of your Vestige Companion ensures you always have certain spells ready. Select one of the following Cleric domains: Life, Light, Trickery, or War. The Domain Spells of your chosen domain are Warlock spells for you. When you reach a Warlock level equal to a Cleric level listed on the Domain Spells table for the domain you have chosen, you thereafter always have the listed spells prepared.</p>"
+        }
+      },
+      "name": "Vestige Spells",
+      "description": "<p>The magic of your Vestige Companion ensures you always have certain spells ready. Select one of the following Cleric domains: Life, Light, Trickery, or War. The Domain Spells of your chosen domain are Warlock spells for you. When you reach a Warlock level equal to a Cleric level listed on the Domain Spells table for the domain you have chosen, you thereafter always have the listed spells prepared.</p><p>For example, if you chose the War Domain for this feature, when you reach Warlock level 3, you would have the <em>@UUID[Compendium.dnd5e.spells24.Item.phbsplGuidingBol]{Guiding Bolt}</em>, <em>@UUID[Compendium.dnd5e.spells24.Item.phbsplMagicWeapo]{Magic Weapon}</em>, <em>@UUID[Compendium.dnd5e.spells24.Item.phbsplShieldofFa]{Shield of Faith}</em>, and <em>@UUID[Compendium.dnd5e.spells24.Item.phbsplSpiritualW]{Spiritual Weapon}</em> spells prepared.</p>"
+    },
+    "Enfeebling Shot": {
+      "effects": {
+        "Enfeebling Shot": {
+          "name": "Enfeebling Shot",
+          "description": "<p>The target has the &amp;Reference[Poisoned apply=false] condition until the end of its next turn. Whenever a target Poisoned in this way hits with an attack roll, it subtracts an amount equal to one roll of your Arcane Shot Die from the total damage of that attack.</p>"
+        }
+      },
+      "name": "Enfeebling Shot",
+      "description": "<p>Your ammunition saps your target’s strength. The creature you hit takes extra Necrotic damage equal to two rolls of your Arcane Shot Die. The target must also succeed on a Constitution saving throw or have the &amp;Reference[Poisoned apply=false] condition until the end of its next turn. Whenever a target Poisoned in this way hits with an attack roll, it subtracts an amount equal to one roll of your Arcane Shot Die from the total damage of that attack.</p>"
+    },
+    "Durable Summons": {
+      "description": "<p>When you cast a Conjuration spell to summon or create a creature using a spell slot, that creature gains Temporary Hit Points equal to twice your Wizard level when it first appears. While it has these Temporary Hit Points, the creature has Resistance to every damage type except Force, Necrotic, Psychic, and Radiant.</p>",
+      "activities": {
+        "heal": {
+          "condition": "When you cast a Conjuration spell to summon or create a creature"
+        }
+      },
+      "name": "Durable Summons",
+      "effects": {
+        "Durable Summons": {
+          "description": "<p>While it has Temporary Hit Points, the creature has Resistance to every damage type except Force, Necrotic, Psychic, and Radiant.</p>",
+          "name": "Durable Summons"
+        }
+      }
+    },
+    "Indomitable Teleport": {
+      "description": "<p>Your magical mastery lets you escape dire situations. When you use your Indomitable feature and succeed on the saving throw, you can teleport up to 60 feet to an unoccupied space you can see.</p>",
+      "name": "Indomitable Teleport",
+      "activities": {
+        "teleport": {
+          "condition": "Succeed on Indomitable saving throw"
+        }
+      }
+    },
+    "Piercing Shot": {
+      "name": "Piercing Shot",
+      "description": "<p>You give your ammunition an ethereal quality. When you use this option, you don’t make an attack roll for the attack. Instead, the ammunition shoots forward in a 30-foot-long, 1-foot-wide Line originating from you, then vanishes. The Line ignores cover, as the ammunition phases through solid objects. Each creature in the Line makes a Dexterity saving throw. On a failed save, a creature takes damage as if it were hit plus extra Piercing damage equal to two rolls of your Arcane Shot Die. On a successful save, a creature takes half as much damage.</p><section id=\"secret-qCupscdY8IzvoQxK\" class=\"secret hide-in-embed\"><p><strong>Foundry Note</strong></p><p>Piercing Shot does not know which ammunition weapon produced the shot. Roll the weapon's normal hit damage separately, add the Piercing Shot damage, and apply the combined total manually: full damage on a failed save or half the combined total on a successful save.</p></section>"
+    },
+    "Arcana Domain Spells": {
+      "description": "<p>Your connection to this divine domain means you always have certain spells ready. When you reach a Cleric level specified in the Arcana Domain Spells table, you thereafter always have the listed spells prepared.</p><table><caption><p>Arcana Domain Spells</p></caption><thead><tr><th><p>Cleric Level</p></th><th colspan=\"2\"><p>Prepared Spells</p></th></tr></thead><tbody><tr><td><p>3</p></td><td colspan=\"2\"><p><em>@UUID[Compendium.dnd5e.spells24.Item.phbsplDetectMagi]{Detect Magic}, @UUID[Compendium.dnd5e.spells24.Item.phbsplMagicMissi]{Magic Missile}, @UUID[Compendium.dnd5e.spells24.Item.phbsplMagicWeapo]{Magic Weapon}, @UUID[Compendium.dnd5e.spells24.Item.phbsplNystulsMag]{Nystul's Magic Aura}</em></p></td></tr><tr><td><p>5</p></td><td colspan=\"2\"><p><em>@UUID[Compendium.dnd5e.spells24.Item.phbsplCounterspe]{Counterspell}, @UUID[Compendium.dnd5e.spells24.Item.phbsplDispelMagi]{Dispel Magic}</em></p></td></tr><tr><td><p>7</p></td><td colspan=\"2\"><p><em>@UUID[Compendium.dnd5e.spells24.Item.phbsplArcaneEye0]{Arcane Eye}, @UUID[Compendium.dnd5e.spells24.Item.phbsplLeomundsSe]{Leomund’s Secret Chest}</em></p></td></tr><tr><td><p>9</p></td><td colspan=\"2\"><p><em>@UUID[Compendium.dnd5e.spells24.Item.phbsplBigbysHand]{Bigby’s Hand}, @UUID[Compendium.dnd5e.spells24.Item.phbsplTeleportat]{Teleportation Circle}</em></p></td></tr></tbody></table>",
+      "name": "Arcana Domain Spells"
+    },
+    "Enchanting Conversation (Persuasion)": {
+      "description": "<p>You gain proficiency in Persuasion.</p><p>In addition, when you make an ability check with the chosen skill, you gain a bonus to the check equal to your Intelligence modifier (minimum of +1).</p>",
+      "advancement": {
+        "GmhoVWpx7pk7F4Fs": {
+          "hint": "<p>You gain proficiency in Persuasion.</p>"
+        }
+      },
+      "effects": {
+        "Enchanting Persuasion": {
+          "name": "Enchanting Persuasion"
+        }
+      },
+      "name": "Enchanting Conversation (Persuasion)"
+    },
+    "Vestige Spells (Light)": {
+      "name": "Vestige Spells (Light)",
+      "description": "<p>The magic of your Vestige Companion ensures you always have certain spells ready. Select one of the following Cleric domains: Life, Light, Trickery, or War. The Domain Spells of your chosen domain are Warlock spells for you. When you reach a Warlock level equal to a Cleric level listed on the Domain Spells table for the domain you have chosen, you thereafter always have the listed spells prepared.</p><p>For example, if you chose the War Domain for this feature, when you reach Warlock level 3, you would have the <em>@UUID[Compendium.dnd5e.spells24.Item.phbsplGuidingBol]{Guiding Bolt}</em>, <em>@UUID[Compendium.dnd5e.spells24.Item.phbsplMagicWeapo]{Magic Weapon}</em>, <em>@UUID[Compendium.dnd5e.spells24.Item.phbsplShieldofFa]{Shield of Faith}</em>, and <em>@UUID[Compendium.dnd5e.spells24.Item.phbsplSpiritualW]{Spiritual Weapon}</em> spells prepared.</p>"
+    },
+    "Seeking Shot": {
+      "activities": {
+        "save": {
+          "target": "seen within the past minute"
+        }
+      },
+      "description": "<p>Your ammunition can seek out a target. When you use this option, you don’t make an attack roll for the attack. Instead, choose one creature you have seen in the last minute. The ammunition flies toward that creature, moving around corners if necessary and ignoring &amp;Reference[Half Cover] and &amp;Reference[Three-Quarters Cover]. If the target is within your weapon’s long range, the target makes a Dexterity saving throw. On a failed save, the target takes damage as if it were hit plus extra Force damage equal to two rolls of your Arcane Shot Die, and you learn the target’s current location. On a successful save, the target takes half as much damage only. If the target is beyond your weapon’s long range, the ammunition disappears after traveling as far as it can.</p><section id=\"secret-B2Bv8IpUGkF4hVwv\" class=\"secret hide-in-embed\"><p><strong>Foundry Note</strong></p><p>Verify the target was seen within the last minute and is within the weapon's long range. Roll the weapon's normal hit damage separately and combine it with Seeking Shot damage. Apply full damage on a failed save or half on a success. On a failed save, reveal the target's location. If the target is beyond long range, the ammunition disappears before reaching it.</p></section>",
+      "name": "Seeking Shot"
+    },
+    "Vestige Patron": {
+      "name": "Vestige Patron",
+      "description": "<p><em>Wield the Remnants of a Dying God’s Power</em></p><p>Your pact draws on the power of a dying god, a being once worshipped by countless followers but now abandoned and forgotten. This dying god, known as a vestige, might have been benevolent, evil, or strange and unknowable, but now it is driven to regain its former power. The vestige needs your help, and it is willing to share its remaining strength with you.</p>"
+    },
+    "Masterful Shots": {
+      "name": "Masterful Shots",
+      "description": "<p>You employ agility in your sharpshooting. When a creature you can see misses you with an attack roll, you can take a Reaction to move up to half your Speed away from the attacker without provoking Opportunity Attacks. You can then make a ranged attack roll against the attacker as part of this Reaction if the attacker is within the weapon’s range.</p>"
+    },
+    "Conjuration Savant": {
+      "name": "Conjuration Savant",
+      "description": "<p>Choose two Wizard spells from the Conjuration school, each of which must be no higher than level 2, and add them to your spellbook for free.</p><p>In addition, whenever you gain access to a new level of spell slots in this class, you can add one Wizard spell from the Conjuration school to your spellbook for free. The chosen spell must be of a level for which you have spell slots.</p>",
+      "advancement": {
+        "LATroigBMTButQll": {
+          "hint": "<p>Choose two Wizard spells from the Conjuration school, each of which must be no higher than level 2, and add them to your spellbook for free.</p><p>In addition, whenever you gain access to a new level of spell slots in this class, you can add one Wizard spell from the Conjuration school to your spellbook for free. The chosen spell must be of a level for which you have spell slots.</p>"
+        }
+      }
+    },
+    "Transmutation Savant": {
+      "advancement": {
+        "mKmzZLAdo9JIY0uL": {
+          "hint": "<p>Choose two Wizard spells from the Transmutation school, each of which must be no higher than level 2, and add them to your spellbook for free.</p><p>In addition, whenever you gain access to a new level of spell slots in this class, you can add one Wizard spell from the Transmutation school to your spellbook for free. The chosen spell must be of a level for which you have spell slots.</p>"
+        }
+      },
+      "description": "<p>Choose two Wizard spells from the Transmutation school, each of which must be no higher than level 2, and add them to your spellbook for free.</p><p>In addition, whenever you gain access to a new level of spell slots in this class, you can add one Wizard spell from the Transmutation school to your spellbook for free. The chosen spell must be of a level for which you have spell slots.</p>",
+      "name": "Transmutation Savant"
+    },
+    "Arcane Shot": {
+      "description": "<p>You learn to unleash special magical effects with your shots.</p><p><em><strong>Arcane Shot Options.</strong></em> You learn two Arcane Shot options of your choice from the “Arcane Shot Options” section later in this subclass’s description.</p><p>You learn an additional Arcane Shot option of your choice when you reach Fighter levels 7, 10, 15, and 18. Each time you learn a new Arcane Shot option, you can also replace one option you know with a different one.</p><p><em><strong>Using Arcane Shot.</strong></em> Once per turn when you make a ranged attack using a weapon with the Ammunition property, you can apply one of your Arcane Shot options to that attack. You decide to use the option when you hit a creature and deal damage to it unless the option doesn’t involve an attack roll.</p><p>You can use this feature a number of times equal to your Intelligence modifier (minimum of once). You regain all expended uses when you finish a Short or Long Rest.</p><p><em><strong>Arcane Shot Die.</strong></em> Arcane Shot options refer to your Arcane Shot Die. Your Arcane Shot Die is a [[lookup @scale.arcane-archer.arcane-shot.die]]{d6}.</p><p><em><strong>Saving Throws.</strong></em> If an Arcane Shot option requires a saving throw, the DC equals 8 plus your Intelligence modifier and Proficiency Bonus.</p><p><em><strong>At Higher Levels.</strong></em> Your Arcane Shot Die changes when you reach certain Fighter levels. The die becomes a d8 at level 10, a d10 at level 15, and a d12 at level 18.</p>",
+      "advancement": {
+        "fw8yHNCnQkj4nRqD": {
+          "hint": "<p>You learn two Arcane Shot options of your choice from the “Arcane Shot Options” section later in this subclass’s description.</p><p>You learn an additional Arcane Shot option of your choice when you reach Fighter levels 7, 10, 15, and 18. Each time you learn a new Arcane Shot option, you can also replace one option you know with a different one.</p>"
+        }
+      },
+      "name": "Arcane Shot"
+    },
+    "Vestige Recovery": {
+      "name": "Vestige Recovery",
+      "description": "<p>When your Vestige Companion would drop to 0 Hit Points, you can take a Reaction and expend a Pact Magic spell slot to instead change its Hit Points to its Hit Point maximum. The vestige then teleports to an unoccupied space you can see within 30 feet of it. Once you use this feature, you can’t do so again until you finish a Long Rest.</p>"
+    },
+    "Bursting Shot": {
+      "name": "Bursting Shot",
+      "description": "<p>You imbue your ammunition with explosive magical energy. Immediately after you deal damage to the creature, your target and each creature within a 10-foot Emanation originating from the target take Force damage equal to two rolls of your Arcane Shot Die.</p>"
+    },
+    "Mystic Fighting Style": {
+      "description": "<p>When you take the Attack action on your turn, you can replace one Unarmed Strike with a casting of one of your Sorcerer cantrips that has a casting time of an action.</p><section id=\"secret-xdGR0G9ZvoP8k4tM\" class=\"secret hide-in-embed\"><p><strong>Foundry Note</strong></p><p>When using Mystic Fighting Style, cast the qualifying cantrip from your Spellbook and treat that casting as replacing one Unarmed Strike from your Attack action.</p></section>",
+      "name": "Mystic Fighting Style"
+    },
+    "Improved Fighting Style": {
+      "description": "<p>When you use Flurry of Blows, you can replace two of the Unarmed Strikes with a casting of one of your level 1 or 2 Sorcerer spells that has a casting time of an action, and you cast it as part of the same Bonus Action you use to activate Flurry of Blows.</p><section id=\"secret-nnBL3LsZawQMpV99\" class=\"secret hide-in-embed\"><p><strong>Foundry Note</strong></p><p>Use the normal Flurry of Blows activity, then cast the qualifying level 1 or 2 spell from your Spellbook in place of two of its Unarmed Strikes. Do not make those two replaced strikes.</p></section>",
+      "name": "Improved Fighting Style"
+    },
+    "Arcane Archer": {
+      "description": "<p><em>Deploy Magical Effects Through Enchanted Ammunition</em></p><p>An Arcane Archer studies a unique elven method of archery that weaves magic into attacks to produce supernatural effects. Over the centuries, other folk have learned this technique and broadened it so it applies to ranged weapons of many kinds and to aspects of adventuring life outside of combat.</p>",
+      "name": "Arcane Archer"
+    },
+    "Vestige Spells (Trickery)": {
+      "name": "Vestige Spells (Trickery)",
+      "description": "<p>The magic of your Vestige Companion ensures you always have certain spells ready. Select one of the following Cleric domains: Life, Light, Trickery, or War. The Domain Spells of your chosen domain are Warlock spells for you. When you reach a Warlock level equal to a Cleric level listed on the Domain Spells table for the domain you have chosen, you thereafter always have the listed spells prepared.</p><p>For example, if you chose the War Domain for this feature, when you reach Warlock level 3, you would have the <em>@UUID[Compendium.dnd5e.spells24.Item.phbsplGuidingBol]{Guiding Bolt}</em>, <em>@UUID[Compendium.dnd5e.spells24.Item.phbsplMagicWeapo]{Magic Weapon}</em>, <em>@UUID[Compendium.dnd5e.spells24.Item.phbsplShieldofFa]{Shield of Faith}</em>, and <em>@UUID[Compendium.dnd5e.spells24.Item.phbsplSpiritualW]{Spiritual Weapon}</em> spells prepared.</p>"
+    },
+    "Arcana Domain": {
+      "name": "Arcana Domain",
+      "description": "<p><em>Amplify Your Magical Power</em></p><p>Magic suffuses the multiverse and fuels both destruction and creation. Clerics with the Arcana Domain view magical knowledge not as power to be used in pursuit of personal ends, but as a gift they have the responsibility to share.</p><p>Gods associated with the Arcana Domain know the secrets and potential of magic intimately. These gods are often connected to knowledge, secrecy, or power.</p>"
     }
   }
 }
