@@ -16,18 +16,18 @@
   },
   "entries": {
     "Disruptive Tune": {
-      "name": "Disruptive Tune",
+      "name": "擾神曲",
       "activities": {
         "Disruptive Tune": {
-          "name": "Disruptive Tune"
+          "name": "擾神曲"
         }
       },
       "effects": {
         "Disadv. CON Saves": {
-          "name": "Disadv. CON Saves"
+          "name": "體質豁免劣勢"
         }
       },
-      "description": "<p>A distracting melody momentarily fills a [[lookup @target.template.size activity=3Hl3sK9YjhjG6nnR]]-foot-radius [[lookup @target.template.type capitalize activity=3Hl3sK9YjhjG6nnR]] centered on a point you choose within range. Each creature in the Sphere makes a Constitution saving throw. On a failed save, a target loses &amp;Reference[Concentration], and it has Disadvantage on Constitution saving throws to maintain Concentration for the spell’s duration.</p><section id=\"secret-P10nQtg4ZUovIVzG\" class=\"secret hide-in-embed\"><p><strong>Foundry Note</strong></p><p>On a failed initial save, end the target's current Concentration and apply the Disruptive Tune active effect. Remove the effect if this spell's Concentration ends early.</p></section>"
+      "description": "<p>一段擾亂心神的旋律短暫迴盪在以施法距離內你選擇的一點為中心、[[lookup @target.template.size activity=3Hl3sK9YjhjG6nnR]]呎半徑[[lookup @target.template.type capitalize activity=3Hl3sK9YjhjG6nnR]]區域。區域內的每個生物都進行一次體質豁免。豁免失敗時，目標失去&amp;Reference[Concentration]{專注}，且在法術持續時間內為維持專注而進行的體質豁免具有劣勢。</p><section id=\"secret-P10nQtg4ZUovIVzG\" class=\"secret hide-in-embed\"><p><strong>Foundry 說明</strong></p><p>在初始豁免失敗時，結束目標當前的專注並套用「擾神曲」主動效果。若此法術的專注提前結束，則移除該效果。</p></section>"
     },
     "Negative Energy Flood": {
       "activities": {
@@ -88,24 +88,24 @@
     "Festering Blast": {
       "activities": {
         "Ongoing Poison Damage": {
-          "name": "Ongoing Poison Damage",
-          "target": "Poisoned by the spell"
+          "name": "持續毒素傷害",
+          "target": "因此法術中毒"
         },
         "Cast Spell": {
-          "name": "Cast Spell"
+          "name": "施放法術"
         },
         "Repeat Save": {
-          "name": "Repeat Save"
+          "name": "重複豁免"
         }
       },
-      "description": "<p>A [[lookup @target.template.size activity=kpVaAawtqwUYnst5]]-foot-long, [[lookup @target.template.width activity=kpVaAawtqwUYnst5]]-foot-wide [[lookup @target.template.type capitalize activity=kpVaAawtqwUYnst5]] of miasma blasts from you in a direction you choose. Each creature in the Line must make a Constitution saving throw. On a failed save, a target takes [[/damage activity=kpVaAawtqwUYnst5]] damage and has the &amp;Reference[Poisoned apply=false] condition for the duration.</p><p>A creature Poisoned by this spell takes [[/damage activity=RsCrFQCmliHaBpsa]] damage at the start of each of its turns.</p><p>At the end of each of its turns, a Poisoned target repeats the save, ending the spell on itself on a success.</p><p><em><strong>Using a Higher-Level Spell Slot</strong></em>. The initial damage increases by 1d10 for each spell slot level above 4.</p>",
+      "description": "<p>一道[[lookup @target.template.size activity=kpVaAawtqwUYnst5]]呎長、[[lookup @target.template.width activity=kpVaAawtqwUYnst5]]呎寬的[[lookup @target.template.type capitalize activity=kpVaAawtqwUYnst5]]瘴氣自你的位置向你選擇的方向爆散而出。該直線區域內的每個生物都必須進行一次體質豁免。豁免失敗者承受[[/damage activity=kpVaAawtqwUYnst5]]傷害，且在法術持續時間內陷入&amp;Reference[Poisoned apply=false]{中毒}狀態。</p><p>因此法術而中毒的生物在其每個回合開始時承受[[/damage activity=RsCrFQCmliHaBpsa]]傷害。</p><p>中毒的目標在其每個回合結束時重複此豁免，豁免成功則結束此法術對其的影響。</p><p><em><strong>【升環法術效應】</strong></em>你使用的法術位每比四環高一環，初始傷害便增加1d10。</p>",
       "effects": {
         "Poisoned": {
-          "name": "Poisoned",
-          "description": "<p>The target is &amp;Reference[Poisoned apply=false] for one minute.</p>"
+          "name": "中毒",
+          "description": "<p>目標陷入&amp;Reference[Poisoned apply=false]{中毒}狀態，持續一分鐘。</p>"
         }
       },
-      "name": "Festering Blast"
+      "name": "潰爛爆發"
     },
     "Spirit Lantern": {
       "activities": {
@@ -141,14 +141,14 @@
     "Wither and Bloom": {
       "activities": {
         "Bloom": {
-          "name": "Bloom"
+          "name": "生華"
         },
         "Cast Spell: Wither": {
-          "name": "Cast Spell: Wither"
+          "name": "施放法術：靡葉"
         }
       },
-      "name": "Wither and Bloom",
-      "description": "<p>You invoke both death and life in a [[lookup @target.template.size activity=VuL7iUvj2gXAthhI]]-foot-radius [[lookup @target.template.type capitalize activity=VuL7iUvj2gXAthhI]] centered on a point within range. Each creature of your choice in that area makes a Constitution saving throw, taking [[/damage]] damage on a failed save or half as much damage on a successful one. Nonmagical plants in that area that aren’t creatures, such as trees and shrubs, wither.</p><p>In addition, one creature of your choice in that area can roll one of its unexpended Hit Point Dice and regain a number of Hit Points equal to the roll plus your spellcasting ability modifier. That die is then expended.</p><p><em><strong>Using a Higher-Level Spell Slot</strong></em>. The damage increases by 1d6 for each spell slot level above 2. The number of Hit Point Dice that can be rolled and expended increases by one for each spell slot level above 2. You add your spellcasting modifier to the number of Hit Points regained by this spell only once, regardless of the number of Hit Point Dice rolled and expended.</p>"
+      "name": "靡葉生華",
+      "description": "<p>你以施法距離內的一點作為中心，在[[lookup @target.template.size activity=VuL7iUvj2gXAthhI]]呎半徑的[[lookup @target.template.type capitalize activity=VuL7iUvj2gXAthhI]]區域裡喚起死氣與生機。該區域裡每個由你所選擇的生物都進行一次體質豁免，豁免失敗則受到[[/damage]]傷害，豁免成功則傷害減半。區域裡並非生物的非魔法植物都會枯萎，例如樹木與灌木。</p><p>此外，區域裡一個由你所選擇的生物能擲一枚其未使用的生命骰，並恢復等同於擲骰結果加上你的施法屬性調整值的生命值。該骰子隨即被消耗。</p><p><em><strong>【升環法術效應】</strong></em>。你使用的法術位每比二環高一環，其傷害便增加1d6。可投擲並消耗的生命骰數量每高一環也多1顆。無論擲多少顆生命骰，你的施法屬性調整值都僅在法術恢復的生命值中加上一次。</p>"
     },
     "Waves of Exhaustion": {
       "effects": {
@@ -203,15 +203,15 @@
     "Zone of Amicability": {
       "effects": {
         "Zone of Amicability": {
-          "name": "Zone of Amicability",
-          "description": "<p>Enable this effect when making an ability check to influence a creature within the spell's Emanation, then disable it after the check.</p>"
+          "name": "友善之域",
+          "description": "<p>在法術的發散區域內進行用於影響生物的屬性檢定時啟用此效果，檢定後停用。</p>"
         }
       },
-      "name": "Zone of Amicability",
-      "description": "<p>A magical zone of amicability radiates from you in a 60-foot Emanation for the duration. When you make an ability check to influence a creature in that area, you can treat a d20 roll of 9 or lower as a 10.</p>",
+      "name": "友善之域",
+      "description": "<p>在法術持續時間內，你放射出一道60呎發散範圍的魔法友善之域。當你進行一次用於影響該區域內一名生物的屬性檢定時，你都可以將d20中擲出的9或更低的結果視為10。</p>",
       "activities": {
         "Cast Spell": {
-          "name": "Cast Spell"
+          "name": "施放法術"
         }
       }
     },
@@ -220,20 +220,20 @@
         "Cast Spell": {
           "profiles": {
             "Stalker": {
-              "name": "Stalker"
+              "name": "潛獵"
             },
             "Brute": {
-              "name": "Brute"
+              "name": "蠻勇"
             },
             "Flyer": {
-              "name": "Flyer"
+              "name": "掠空"
             }
           },
-          "name": "Cast Spell"
+          "name": "施放法術"
         }
       },
-      "name": "Battle Familiar",
-      "description": "<p>You conjure a familiar imbued with magical might. The familiar appears in an unoccupied space within range; resembles an animal of your choice but is a Celestial, Fey, or Fiend (your choice); and uses the <strong>Battle Familiar</strong> stat block. When you cast this spell, choose the @UUID[Compendium.dnd-arcana-unleashed.actors.Actor.aunBattleFamilXo]{Brute}, @UUID[Compendium.dnd-arcana-unleashed.actors.Actor.aunBattleFamilbe]{Flyer}, or @UUID[Compendium.dnd-arcana-unleashed.actors.Actor.aunBattleFamil2I]{Stalker} form. The choice determines certain details in the stat block.</p><p><em><strong>Combat</strong></em>. The familiar is an ally to you and your allies. It rolls its own Initiative and acts on its own turn.</p><p><em><strong>Disappearance of the Familiar</strong></em>. The battle familiar disappears when the spell ends, if it drops to 0 Hit Points, or if you die. When it disappears, it leaves behind in its space anything it was wearing or carrying. If you cast this spell again, you decide whether you summon the familiar that disappeared or a different one.</p><p><em><strong>One Familiar at a Time</strong></em>. You can’t have more than one familiar at a time. If you cast this spell while you already have a familiar from this spell, that familiar is replaced by the new one.</p><p>If you have a familiar from the <em>Find Familiar</em> spell when you cast this spell, you empower your existing familiar rather than conjuring a new one. For the duration, your familiar can attack in addition to taking other actions as normal, and your familiar’s game statistics are replaced by the <strong>Battle Familiar</strong> stat block, but it retains its creature type, alignment, Hit Points, Hit Point Dice, and any features granted by the <em>Find Familiar</em> spell. Your familiar gains a number of Temporary Hit Points equal to the Hit Points of the battle familiar. <em>Battle Familiar</em> ends early if the familiar has no more Temporary Hit Points left, and these Temporary Hit Points vanish if any remain when <em>Battle Familiar</em> ends. Your familiar reverts to its previous form when <em>Battle Familiar</em> ends.</p><p><em><strong>Using a Higher-Level Spell Slot</strong></em>. Use the spell slot’s level for the spell’s level in the stat block.</p><section id=\"secret-eZlFTx3zwyNUMJUJ\" class=\"secret hide-in-embed\"><p><strong>Foundry Note</strong></p><p>If you already have a familiar from <em>Find Familiar</em> open its character sheet and drag the <strong>Battle Familiar</strong> actor onto it and select the <strong>Polymorph</strong> transformation profile.</p></section>"
+      "name": "戰鬥魔寵",
+      "description": "<p>你召喚出一隻充滿魔法力量的魔寵。該魔寵出現在施法距離內一處未佔據的空間；外貌類似你所選擇的一種動物，但生物類型為天界生物、妖精或邪魔（由你選擇），並且使用<strong>戰鬥魔寵</strong>數據卡。當你施放此法術時，選擇@UUID[Compendium.dnd-arcana-unleashed.actors.Actor.aunBattleFamilXo]{蠻勇}、@UUID[Compendium.dnd-arcana-unleashed.actors.Actor.aunBattleFamilbe]{掠空}或@UUID[Compendium.dnd-arcana-unleashed.actors.Actor.aunBattleFamil2I]{潛獵}形態。該選擇將決定數據卡中的特定細節。</p><p><em><strong>【戰鬥】</strong></em>該魔寵是你與你盟友的盟友。其擁有自己的先攻，並在自己的回合內行動。</p><p><em><strong>【魔寵消失】</strong></em>戰鬥魔寵在法術結束、其生命值降至0，或你死亡時消失。當它消失時，其所穿著或攜帶的任何物品都會留在其原本所在空間。如果你再次施放此法術，你可以決定是召喚那隻已消失的魔寵，還是召喚一隻不同的魔寵。</p><p><em><strong>【數量限制】</strong></em>。你同時擁有的魔寵數量上限為一。如果你已經擁有一個通過此法術召喚的魔寵，則舊的魔寵會被新的取代。</p><p>當你施放此法術時，如果你已經擁有一個來自<em>尋獲魔寵</em>法術的魔寵，你將強化你現有的魔寵，而不是召喚一個新的。在持續時間內，除了正常採取其他動作外，你的魔寵還可以進行攻擊，並且你魔寵的遊戲數據會被<strong>戰鬥魔寵</strong>數據卡所取代，但其保留其原本的生物類型、陣營、生命值、生命骰，以及<em>尋獲魔寵</em>法術賦予的任何特性。你的魔寵獲得數量等同於戰鬥魔寵生命值數值的臨時生命值。<em>戰鬥魔寵</em>法術在魔寵沒有剩餘臨時生命值時提前結束；而當<em>戰鬥魔寵</em>結束時，若仍有剩餘的臨時生命值，這些臨時生命值也會隨之消散。當<em>戰鬥魔寵</em>結束時，你的魔寵會變回原本的形態。</p><p><em><strong>【升環法術效應】</strong></em>該生物的數據使用新的法術環階。</p><section id=\"secret-eZlFTx3zwyNUMJUJ\" class=\"secret hide-in-embed\"><p><strong>Foundry 說明</strong></p><p>如果你已經擁有來自<em>尋獲魔寵</em>法術的魔寵，開啟其角色卡，將<strong>戰鬥魔寵</strong>Actor 拖曳至其上，並選擇<strong>變化</strong>變形設定檔。</p></section>"
     },
     "Mordenkainen's Lucubration": {
       "activities": {
@@ -293,21 +293,21 @@
     "Distorted Distance": {
       "effects": {
         "+20 Speed": {
-          "description": "<p>Your Speed is increased by 20 feet until the end of your next turn.</p>",
-          "name": "+20 Speed"
+          "description": "<p>你的速度增加20呎，持續至你下一回合結束。</p>",
+          "name": "速度+20"
         }
       },
-      "name": "Distorted Distance",
-      "description": "<p>You create an illusory spatial dilation that fills a [[lookup @target.template.size activity=HmKOEyhRsTbneToR]]-foot-radius [[lookup @target.template.type capitalize activity=HmKOEyhRsTbneToR]] centered on a point within range. For each creature you can see in the Sphere, you can choose one of the following effects for it:</p><p><strong>Dizzying Elongation.</strong> The creature makes an Intelligence saving throw. On a failed save, the creature takes [[/damage]] damage, and the Sphere is &amp;Reference[Difficult Terrain] for it until the end of its turn.</p><p><strong>Shortened Space.</strong> The creature’s Speed increases by 20 feet until the end of its next turn.</p><p>Until the spell ends, whenever a creature enters the Sphere or ends its turn there, you can choose for it to receive one of these effects. A creature can be affected by this spell only once per turn.</p><section id=\"secret-lYkX9VZaLhXCSjif\" class=\"secret hide-in-embed\"><p><strong>Foundry Note</strong></p><p>Use the appropriate follow-up activity when a creature enters the Sphere or ends its turn there. A creature can be affected only once per turn. After a failed Dizzying Elongation save, treat the Sphere as Difficult Terrain for that creature until the end of its turn.</p></section>",
+      "name": "距離失真",
+      "description": "<p>你創造出一種空間膨脹幻象，填滿以射程內一點為中心的[[lookup @target.template.size activity=HmKOEyhRsTbneToR]]呎半徑[[lookup @target.template.type capitalize activity=HmKOEyhRsTbneToR]]區域。對於球型區域內你所能看見的每個生物，你可以對其選擇下列效應之一：</p><p><strong>【天旋地轉】</strong>該生物進行一次智力豁免。若豁免失敗，則其受到[[/damage]]傷害，且球形區域對其而言視為&amp;Reference[Difficult Terrain]{困難地形}，持續至其回合結束。</p><p><strong>【縮地成吋】</strong>該生物的速度增加20呎，持續至其下一回合結束。</p><p>直到法術結束前，每當一名生物進入球型區域或在其中結束回合，你都可以選擇使其受到這些效應之一。一名生物每回合只能受到一次此法術的影響。</p><section id=\"secret-lYkX9VZaLhXCSjif\" class=\"secret hide-in-embed\"><p><strong>Foundry 說明</strong></p><p>當生物進入球型區域或在其中結束回合時，使用對應的後續活動。每名生物每回合只能受影響一次。天旋地轉豁免失敗後，將球型區域視為該生物的困難地形，持續至其回合結束。</p></section>",
       "activities": {
         "Cast Spell": {
-          "name": "Cast Spell"
+          "name": "施放法術"
         },
         "Shortened Space": {
-          "name": "Shortened Space"
+          "name": "縮地成吋"
         },
         "Dizzying Elongation": {
-          "name": "Dizzying Elongation"
+          "name": "天旋地轉"
         }
       }
     },
@@ -362,49 +362,49 @@
       "description": "<p>An aura of alacrity radiates from you in a [[lookup @target.template.size activity=icBZdq2WvMCsaopA]]-foot Emanation for the duration. While in the aura, you and your allies have Advantage on Dexterity saving throws. When an affected creature is subjected to an effect that allows it to make a Dexterity saving throw to take only half damage, it takes no damage if it succeeds on the save and only half damage if it fails. A creature with the &amp;Reference[Incapacitated] condition doesn’t gain any benefit from being in the aura.</p><section id=\"secret-j0pHt0feR1ZcP2U2\" class=\"secret hide-in-embed\"><p><strong>Foundry Note</strong></p><p>When a creature benefiting from this aura makes a Dexterity save against an effect that normally deals half damage on a success, apply <strong>0 damage</strong> on a successful save or <strong>half damage</strong> on a failed save. If the creature is Incapacitated, resolve the damage normally.</p></section>"
     },
     "Uncertain Footing": {
-      "description": "<p>You create illusory obstacles such as rocks or spikes in an attempt to confuse up to three creatures you can see within range, affecting their ability to move.</p><p>Each target makes an Intelligence saving throw. On a failed save, a target’s Speed is halved, and it can’t take the &amp;Reference[Dash] action. A hampered target repeats the save at the end of each of its turns, ending the spell on itself on a success.</p>",
+      "description": "<p>你創造出諸如岩石或地刺般的障礙物幻象，嘗試干擾至多三名施法距離內你所能看見的生物，影響其移動能力。</p><p>每名目標進行一次智力豁免。豁免失敗時，目標的速度減半，且無法採取&amp;Reference[Dash]{疾走}動作。受妨害的目標在其每個回合結束時重複此豁免，若豁免成功，則其身上的該法術終止。</p>",
       "activities": {
         "Cast Spell": {
-          "name": "Cast Spell"
+          "name": "施放法術"
         }
       },
       "effects": {
         "Hampered": {
-          "description": "<p>The creature's Speed is halved, and it can't take the &amp;Reference[Dash] action.</p>",
-          "name": "Hampered"
+          "description": "<p>該生物的速度減半，且無法採取&amp;Reference[Dash]{疾走}動作。</p>",
+          "name": "受妨害"
         }
       },
-      "name": "Uncertain Footing"
+      "name": "步履維艱"
     },
     "Catnap": {
       "effects": {
         "Unconscious": {
-          "description": "<p>You have the &amp;Reference[Unconscious] condition for the spell’s duration.</p>",
-          "name": "Unconscious"
+          "description": "<p>你在法術持續時間內陷入&amp;Reference[Unconscious]{昏迷}狀態。</p>",
+          "name": "昏迷"
         }
       },
       "activities": {
         "Cast Spell": {
-          "name": "Cast Spell"
+          "name": "施放法術"
         }
       },
-      "description": "<p>You make a calming gesture, and up to three willing creatures of your choice that you can see within range have the &amp;Reference[Unconscious apply=false] condition for the spell’s duration.</p><p>The spell ends on a target if it takes damage or another creature takes an action to shake it awake.</p><p>If a target has the Unconscious condition from this spell for the full duration, that target gains the benefits of finishing a &amp;Reference[Short Rest], and it can’t be affected by this spell again until it finishes a &amp;Reference[Long Rest].</p><p><em><strong>Using a Higher-Level Spell Slot</strong></em>. You can target one additional willing creature for each spell slot level above 3.</p><section id=\"secret-N37yYvCodMIbXhyB\" class=\"secret hide-in-embed\"><p><strong>Foundry Note</strong></p><p>Remove the Unconscious effect early if the target takes damage or is shaken awake.</p></section>",
-      "name": "Catnap"
+      "description": "<p>你做出一個安撫的手勢，隨後，射程內至多三名你所選且能看見的自願生物在法術持續時間內陷入&amp;Reference[Unconscious apply=false]{昏迷}狀態。</p><p>若目標承受傷害，或有其他生物採取動作將其搖醒，則目標身上的法術提前終止。</p><p>若一名目標因此法術而在整個持續時間內都具有昏迷狀態，則該目標獲得完成一次&amp;Reference[Short Rest]{短休}的好處，且在完成一次&amp;Reference[Long Rest]{長休}前不能再受到此法術的影響。</p><p><em><strong>【升環法術效應】</strong></em>法術位每升一個環階，你就可以額外指定一名自願生物作為目標。</p><section id=\"secret-N37yYvCodMIbXhyB\" class=\"secret hide-in-embed\"><p><strong>Foundry 說明</strong></p><p>若目標受到傷害或被搖醒，請提前移除昏迷效果。</p></section>",
+      "name": "假寐術"
     },
     "Dueling Ground": {
-      "description": "<p>You create a magical dueling ground bounded by a glowing, rune-scribed circle in a [[lookup @target.template.size activity=xCrhehapHurs0qGo]]-foot-radius [[lookup @target.template.type capitalize activity=xCrhehapHurs0qGo]] centered on a point on the ground you touch.</p><p>As part of creating the dueling ground, you designate two willing creatures within the Sphere as the targets. The spell ends early if a creature other than one of the targets enters the Sphere.</p><p>If a target drops to 0 Hit Points while in the dueling ground, the target is Stable and teleports to the nearest unoccupied space outside the dueling ground. If a target is subjected to an effect that would kill it instantly without dealing damage while in the dueling ground, the target doesn’t die and instead has 0 Hit Points and the Unconscious condition, is Stable, and teleports to the nearest unoccupied space outside the dueling ground.</p><p>When only one target remains in the dueling ground, runes matching those on the ground around the Sphere briefly flash around the remaining target’s head like a crown.</p><p><em><strong>Using a Higher-Level Spell Slot</strong></em>. You can target one additional willing creature for each spell slot level above 2.</p><section id=\"secret-oAC2hWsRcxuwS4pA\" class=\"secret hide-in-embed\"><p><strong>Foundry Note</strong></p><p>Apply the <strong>Mark Dueling Ground Target</strong> active effect to each designated duelist. If another creature enters the Sphere, end the spell and remove those effects. When a duelist is reduced to 0 Hit Points or avoids instant death through this spell, resolve its Stable state and move its token to the nearest unoccupied space outside the Sphere.</p></section>",
+      "description": "<p>你創造出一個由發光符文法陣所框定的魔法決鬥場地，其以你所觸碰的地面上一點為中心的[[lookup @target.template.size activity=xCrhehapHurs0qGo]]呎半徑[[lookup @target.template.type capitalize activity=xCrhehapHurs0qGo]]區域。</p><p>作為創造此決鬥場的一部分，你指定兩名位於球狀區域中的自願生物作為目標。若除了這兩名目標之外的任何生物進入球狀區域，則法術提前終止。</p><p>若一名目標在身處決鬥場地期間生命值降至0，則目標傷勢穩定，並傳送至距其最近且位於決鬥場外的未佔據空間。若一名目標在身處決鬥場期間，受到某種不造成傷害卻能夠立即將其殺死的效應影響，則目標不會死亡，轉而具有0生命值並陷入昏迷狀態，傷勢穩定，並傳送至距其最近且位於決鬥場外的未佔據空間。</p><p>當只有一名目標位於決鬥場地中時，與球狀區域周圍地面上相對應的符文會短暫地在那名目標的頭頂閃爍，如同一頂冠冕。</p><p><em><strong>【升環法術效應】</strong></em>你使用的法術位每比二環高一環，你就可以額外指定一名自願生物作為目標。</p><section id=\"secret-oAC2hWsRcxuwS4pA\" class=\"secret hide-in-embed\"><p><strong>Foundry 說明</strong></p><p>為每名被指定的決鬥者套用<strong>標記決鬥場地目標</strong>主動效果。若有其他生物進入球狀區域，結束法術並移除這些效果。當決鬥者的生命值降至0或透過此法術避免立即死亡時，處理其傷勢穩定狀態並將其 Token 移動至球狀區域外最近的未佔據空間。</p></section>",
       "effects": {
         "Mark Dueling Ground Target": {
-          "name": "Mark Dueling Ground Target",
-          "description": "<p>You are a designated target of <em>Dueling Ground</em>.</p>"
+          "name": "標記決鬥場目標",
+          "description": "<p>你是<em>決鬥場</em>的指定目標。</p>"
         }
       },
       "activities": {
         "Cast Spell": {
-          "name": "Cast Spell"
+          "name": "施放法術"
         }
       },
-      "name": "Dueling Ground"
+      "name": "決鬥場"
     },
     "Detonate": {
       "description": "<p>You create a magical, explosive seed inside a creature you can see within range. The target makes a Constitution saving throw, taking [[/damage average activity=gzd1pO9UqWXZQjmv]] damage on a failed save or half as much damage on a successful one.</p><p>An explosion then originates from the target. Each creature in a 60-foot Emanation originating from the target (not including the target) makes a Dexterity saving throw, with Disadvantage if this spell reduced the target to 0 Hit Points. A creature takes [[/damage average activity=d6Ijp0rgJgYpV8gc]] damage on a failed save or half as much damage on a successful one.</p><p>A nonmagical object that isn’t being worn or carried also takes the damage if it’s in the Emanation, and the object starts burning if it’s flammable.</p>",
@@ -504,17 +504,17 @@
     "Inflict Doubt": {
       "activities": {
         "Cast Spell": {
-          "name": "Cast Spell"
+          "name": "施放法術"
         }
       },
       "effects": {
         "Disadv. D20 Tests": {
-          "name": "Disadv. D20 Tests",
-          "description": "<p>The creature has Disadvantage on D20 Tests.</p>"
+          "name": "D20檢定劣勢",
+          "description": "<p>該生物進行的D20檢定具有劣勢。</p>"
         }
       },
-      "name": "Inflict Doubt",
-      "description": "<p>You inflict self-doubt on a creature you can see within range. The target must succeed on a Wisdom saving throw or have Disadvantage on &amp;Reference[D20 Test]{D20 Tests} for the duration. At the end of each of its turns, the target repeats the save, ending the spell on itself on a success.</p>"
+      "name": "賦予懷疑",
+      "description": "<p>你向射程內一名你所能看見的生物植入自我懷疑。目標必須通過一次感知豁免，否則在法術持續時間內進行的&amp;Reference[D20 Test]{D20檢定}具有劣勢。目標在其每個回合結束時重複此豁免，若豁免成功則結束此法術對其的影響。</p>"
     },
     "Entrancing Mirrors": {
       "description": "<p>You create dozens of illusory mirrors to confuse up to three creatures of your choice that you can see within range.</p><p>Each target makes an Intelligence saving throw. On a failed save, a target takes [[/damage activity=NBsNZGWCtKk5Bbc4]] damage and has the &amp;Reference[Stunned apply=false] condition. While the target is Stunned, its Speed is halved. On a successful save, a target takes half as much damage only.</p><p>A Stunned target repeats the Intelligence saving throw at the end of each of its turns, ending the spell on itself on a success.</p>",
