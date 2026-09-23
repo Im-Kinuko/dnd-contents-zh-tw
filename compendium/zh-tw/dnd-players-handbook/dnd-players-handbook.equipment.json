@@ -855,7 +855,7 @@
       "description": "<p>Set of clothes designed specifically to be expensive and show it.</p>"
     },
     "Shield": {
-      "name": "盾牌",
+      "name": "護盾術",
       "description": "<p>You gain the Armor Class benefit of a Shield only if you have training with it.</p>"
     },
     "Halberd": {
