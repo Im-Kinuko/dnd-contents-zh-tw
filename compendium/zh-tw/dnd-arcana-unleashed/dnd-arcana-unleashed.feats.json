@@ -5,7 +5,7 @@
     "Origin Feats": "起源專長",
     "Magic School Masteries": "魔法學派宗師",
     "Fighting Styles": "戰鬥風格",
-    "Epic Boons": "Epic Boons"
+    "Epic Boons": "傳奇恩惠"
   },
   "mapping": {
     "activities": {
@@ -27,18 +27,18 @@
   },
   "entries": {
     "Necromancy Adept": {
-      "name": "Necromancy Adept",
+      "name": "死靈專家",
       "activities": {
         "Life Manipulation (Largest Hit Die)": {
-          "condition": "Cast a Necromancy school spell using a spell slot",
-          "name": "Life Manipulation (Largest Hit Die)"
+          "condition": "使用法術位施放一道死靈學派的法術",
+          "name": "操縱生命（最大生命骰）"
         },
         "Life Manipulation (Smallest Hit Die)": {
-          "condition": "Cast a Necromancy school spell using a spell slot",
-          "name": "Life Manipulation (Smallest Hit Die)"
+          "condition": "使用法術位施放一道死靈學派的法術",
+          "name": "操縱生命（最小生命骰）"
         }
       },
-      "description": "<p>You gain the following benefits.</p><p><span class=\"inline-h4\">Ability Score Increase.</span> Increase your Intelligence, Wisdom, or Charisma score by 1, to a maximum of 20.</p><p><span class=\"inline-h4\">Additional Spells.</span> Your prowess allows you to always have certain spells at the ready. When you have spell slots of a level specified in the Necromancy Adept Spells table, you thereafter always have the spells listed for that level and lower prepared.</p><p><span class=\"inline-h4\">Life Manipulation.</span> When you cast a spell from the Necromancy school using a spell slot, you can immediately roll up to two of your unexpended Hit Point Dice. You regain Hit Points equal to the total rolled plus the level of spell slot expended. Those Hit Point Dice are then expended.</p><table><caption><p>Necromancy Adept Spells</p></caption><thead><tr><th scope=\"col\"><p>Spell Slot Level</p></th><th scope=\"col\"><p>Spell</p></th></tr></thead><tbody><tr><td><p>1</p></td><td><p><em>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplInflictWou]{Inflict Wounds}</em></p></td></tr><tr><td><p>2</p></td><td><p><em>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplRayofEnfee]{Ray of Enfeeblement}</em></p></td></tr><tr><td><p>3</p></td><td><p><em>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplVampiricTo]{Vampiric Touch}</em></p></td></tr><tr><td><p>4</p></td><td><p><em>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplBlight0000]{Blight}</em></p></td></tr><tr><td><p>5</p></td><td><p><em>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplRaiseDead0]{Raise Dead}</em></p></td></tr></tbody></table><section id=\"secret-Hv8K7cOJTDoknneC\" class=\"secret hide-in-embed\"><p><strong>Foundry Note</strong></p><p>All five spells are granted when you gain this feat, but you can’t cast the higher-level spells until you have the required spell slots.</p><p>Life Manipulation rolls and spends the selected Hit Dice. After the healing is applied, increase your Hit Points by the level of the spell slot you used.</p></section>"
+      "description": "<p>你獲得下列好處。</p><p><span class=\"inline-h4\">【屬性值提升】</span>你的智力、感知或魅力提升1點，上限為20。</p><p><span class=\"inline-h4\">【額外法術】</span>你的造詣令你始終準備特定法術。當你具有死靈專家法術表指定環階的法術位時，你此後始終準備著該環階及更低環階對應的法術。</p><p><span class=\"inline-h4\">【操縱生命】</span>當你使用法術位施放一道來自死靈學派的法術時，你可以立即擲至多兩枚你未消耗的生命骰。你恢復等同於骰值總和加上所消耗法術位環階的生命值。那些生命骰其後被消耗。</p><table><caption><p>死靈專家法術</p></caption><thead><tr><th scope=\"col\"><p>法術位環階</p></th><th scope=\"col\"><p>法術</p></th></tr></thead><tbody><tr><td><p>1</p></td><td><p><em>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplInflictWou]{造成傷勢}</em></p></td></tr><tr><td><p>2</p></td><td><p><em>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplRayofEnfee]{衰弱射線}</em></p></td></tr><tr><td><p>3</p></td><td><p><em>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplVampiricTo]{吸血鬼之觸}</em></p></td></tr><tr><td><p>4</p></td><td><p><em>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplBlight0000]{枯萎術}</em></p></td></tr><tr><td><p>5</p></td><td><p><em>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplRaiseDead0]{喚醒死者}</em></p></td></tr></tbody></table><section id=\"secret-Hv8K7cOJTDoknneC\" class=\"secret hide-in-embed\"><p><strong>Foundry 註記</strong></p><p>五道法術會在你取得此專長時一併授予，但在你具有對應環階的法術位之前，你無法施放較高環階的法術。</p><p>操縱生命會擲出並消耗所選的生命骰。治療套用之後，再將你的生命值增加所使用法術位的環階數值。</p></section>"
     },
     "Mastered Transmutation": {
       "advancement": {
@@ -67,56 +67,56 @@
     "Otherworldly Familiar": {
       "effects": {
         "Otherworldly Familiar": {
-          "name": "Otherworldly Familiar"
+          "name": "異界魔寵"
         }
       },
       "activities": {
         "Otherworldly Thunder Familiar": {
           "profiles": {
             "CR 0 Beast": {
-              "name": "CR 0 Beast"
+              "name": "CR 0 野獸"
             }
           },
-          "name": "Otherworldly Thunder Familiar"
+          "name": "異界雷鳴魔寵"
         },
         "Otherworldly Psychic Familiar": {
-          "name": "Otherworldly Psychic Familiar",
+          "name": "異界心靈魔寵",
           "profiles": {
             "CR 0 Beast": {
-              "name": "CR 0 Beast"
+              "name": "CR 0 野獸"
             }
           }
         },
         "Otherworldly Poison Familiar": {
           "profiles": {
             "CR 0 Beast": {
-              "name": "CR 0 Beast"
+              "name": "CR 0 野獸"
             }
           },
-          "name": "Otherworldly Poison Familiar"
+          "name": "異界毒素魔寵"
         },
         "Otherworldly Necrotic Familiar": {
           "profiles": {
             "CR 0 Beast": {
-              "name": "CR 0 Beast"
+              "name": "CR 0 野獸"
             }
           },
-          "name": "Otherworldly Necrotic Familiar"
+          "name": "異界黯蝕魔寵"
         },
         "Otherworldly Radiant Familiar": {
           "profiles": {
             "CR 0 Beast": {
-              "name": "CR 0 Beast"
+              "name": "CR 0 野獸"
             }
           },
-          "name": "Otherworldly Radiant Familiar"
+          "name": "異界光耀魔寵"
         },
         "Enchant": {
-          "name": "Enchant"
+          "name": "附魔"
         }
       },
-      "name": "Otherworldly Familiar",
-      "description": "<p>You gain the following benefits.</p><p><span class=\"inline-h4\">Ability Score Increase.</span> Increase one ability score of your choice by 1, to a maximum of 20.</p><p><span class=\"inline-h4\">Otherworldly Power.</span> When you cast the <em>Find Familiar</em> spell, you can imbue your familiar with otherworldly might, which lasts until you cast <em>Find Familiar</em> again. While imbued, your familiar gains the following benefits:</p><p class=\"hanging\"><strong>Energy Resistance.</strong> Choose Necrotic, Poison, Psychic, Radiant, or Thunder damage. Your familiar has Resistance to the chosen damage type.</p><p class=\"hanging\"><strong>Phase Walk.</strong> Your familiar can move through other creatures and objects as if they were Difficult Terrain. If your familiar ends its turn inside an object, it is shunted to the last unoccupied space it was in.</p><section id=\"secret-etgoPuAG3BUaxhzl\" class=\"secret hide-in-embed\"><p><strong>Foundry Note</strong></p><p>Use the Enchant activity on your <em>Find Familiar</em> spell, then use the summon activity matching the damage resistance you chose.</p><p>Handle Phase Walk movement manually.</p></section>"
+      "name": "異界魔寵",
+      "description": "<p>你獲得下列好處。</p><p><span class=\"inline-h4\">【屬性值提升】</span>提升一項你所選擇的屬性1點，上限為20。</p><p><span class=\"inline-h4\">【異界威能】</span>當你施放<em>尋獲魔寵</em>法術時，你可以賦予你的魔寵異界威能，持續至你再次施放<em>尋獲魔寵</em>。賦能期間，你的魔寵獲得下列好處：</p><p class=\"hanging\"><strong>能量抗性。</strong>選擇黯蝕、毒素、心靈、光耀或雷鳴傷害。你的魔寵具有對所選類型傷害的抗性。</p><p class=\"hanging\"><strong>相位行走。</strong>你的魔寵可以移動穿過其他生物和物件，如同穿過困難地形一般。若你的魔寵在其回合結束時仍處於物件內，其被轉移至其最後身處的未占據空間。</p><section id=\"secret-etgoPuAG3BUaxhzl\" class=\"secret hide-in-embed\"><p><strong>Foundry 註記</strong></p><p>使用你<em>尋獲魔寵</em>法術上的「附魔」活動，然後使用與你所選傷害抗性相符的召喚活動。</p><p>相位行走的移動請手動處理。</p></section>"
     },
     "Boon of Erupting Spellpower": {
       "activities": {
@@ -133,105 +133,105 @@
         "Cold Elemental Familiar": {
           "profiles": {
             "CR 0 Beast": {
-              "name": "CR 0 Beast"
+              "name": "CR 0 野獸"
             }
           },
-          "name": "Cold Elemental Familiar"
+          "name": "寒冷元素魔寵"
         },
         "Thunder Elemental Familiar": {
-          "name": "Thunder Elemental Familiar",
+          "name": "雷鳴元素魔寵",
           "profiles": {
             "CR 0 Beast": {
-              "name": "CR 0 Beast"
+              "name": "CR 0 野獸"
             }
           }
         },
         "Lightning Elemental Familiar": {
           "profiles": {
             "CR 0 Beast": {
-              "name": "CR 0 Beast"
+              "name": "CR 0 野獸"
             }
           },
-          "name": "Lightning Elemental Familiar"
+          "name": "閃電元素魔寵"
         },
         "Fire Elemental Familiar": {
-          "name": "Fire Elemental Familiar",
+          "name": "火焰元素魔寵",
           "profiles": {
             "CR 0 Beast": {
-              "name": "CR 0 Beast"
+              "name": "CR 0 野獸"
             }
           }
         },
         "Acid Elemental Familiar": {
-          "name": "Acid Elemental Familiar",
+          "name": "強酸元素魔寵",
           "profiles": {
             "CR 0 Beast": {
-              "name": "CR 0 Beast"
+              "name": "CR 0 野獸"
             }
           }
         },
         "Elemental Energy": {
-          "name": "Elemental Energy"
+          "name": "元素賦能"
         },
         "Energy Pulse": {
-          "name": "Energy Pulse"
+          "name": "能量脈衝"
         }
       },
       "effects": {
         "Elemental Familiar": {
-          "name": "Elemental Familiar"
+          "name": "元素魔寵"
         }
       },
-      "description": "<p>You gain the following benefits.</p><p><span class=\"inline-h4\">Ability Score Increase.</span> Increase one ability score of your choice by 1, to a maximum of 20.</p><p><span class=\"inline-h4\">Elemental Energy.</span> You learn how to imbue your familiar with elemental power. When you cast the <em>Find Familiar</em> spell, choose Acid, Cold, Fire, Lightning, or Thunder damage. Your familiar is imbued with this energy until you cast <em>Find Familiar</em> again, granting it the following benefits:</p><p class=\"hanging\"><strong>Elemental Resistance.</strong> Your familiar has Resistance to the chosen damage type.</p><p class=\"hanging\"><strong>Energy Pulse.</strong> As a Bonus Action, you command your familiar to unleash a burst of elemental energy. Your familiar must be within 120 feet of you and take a Reaction to unleash this burst. Each creature in a 5-foot Emanation originating from your familiar makes a Dexterity saving throw (DC 8 plus your spellcasting ability modifier for the <em>Find Familiar</em> spell and your Proficiency Bonus). On a failed save, a creature takes 2d4 damage of the chosen type, and if the creature is Medium or smaller, it has the Prone condition.</p><section id=\"secret-0nYy8XGqIfQgzoSv\" class=\"secret hide-in-embed\"><p><strong>Foundry Note</strong></p><p>Use the Elemental Energy activity to enchant your <em>Find Familiar</em> spell, then use the summon activity matching the damage type you chose.</p></section>",
-      "name": "Elemental Familiar"
+      "description": "<p>你獲得下列好處。</p><p><span class=\"inline-h4\">【屬性值提升】</span>提升一項你所選擇的屬性1點，上限為20。</p><p><span class=\"inline-h4\">【元素賦能】</span>你學會了如何賦予你魔寵元素之力。當你施放<em>尋獲魔寵</em>法術時，選擇強酸、寒冷、火焰、閃電或雷鳴傷害。你的魔寵被賦予這種能量，持續至你再次施放<em>尋獲魔寵</em>，並令其獲得下列好處：</p><p class=\"hanging\"><strong>元素抗性。</strong>你的魔寵具有對所選類型傷害的抗性。</p><p class=\"hanging\"><strong>能量脈衝。</strong>你以附贈動作命令你的魔寵釋放元素能量爆發。你的魔寵必須位於你120呎內，並採取反應來釋放此爆發。位於源自你魔寵的5呎發散區域內的每名生物進行一次敏捷豁免（DC為8加上你施放<em>尋獲魔寵</em>法術的施法屬性調整值再加上你的熟練加值）。豁免失敗時，生物受到2d4所選類型的傷害；若該生物體型為中型或更小，則其陷入倒地狀態。</p><section id=\"secret-0nYy8XGqIfQgzoSv\" class=\"secret hide-in-embed\"><p><strong>Foundry 註記</strong></p><p>使用「元素賦能」活動為你的<em>尋獲魔寵</em>法術附魔，然後使用與你所選傷害類型相符的召喚活動。</p></section>",
+      "name": "元素魔寵"
     },
     "Divination Adept": {
-      "name": "Divination Adept",
+      "name": "預言專家",
       "activities": {
         "Restore Use": {
-          "condition": "After casting a Divination spell using a spell slot",
-          "name": "Restore Use"
+          "condition": "在使用法術位施放一道預言學派的法術之後",
+          "name": "重獲使用權"
         },
         "Prescient Intervention": {
-          "name": "Prescient Intervention"
+          "name": "先見干預"
         }
       },
-      "description": "<p>You gain the following benefits.</p><p><span class=\"inline-h4\">Ability Score Increase.</span> Increase your Intelligence, Wisdom, or Charisma score by 1, to a maximum of 20.</p><p><span class=\"inline-h4\">Additional Spells.</span> Your prowess allows you to always have certain spells at the ready. When you have spell slots of a level specified in the Divination Adept Spells table, you thereafter always have the spells listed for that level and lower prepared.</p><p><span class=\"inline-h4\">Prescient Intervention.</span> When a creature you can see within 60 feet of yourself makes a &amp;Reference[D20 Test], you can take a Reaction to give that creature Advantage or Disadvantage (your choice) on that roll.</p><p>Once you use this benefit, you can’t do so again until you finish a Long Rest. You can also regain use of this feature when you cast a spell from the Divination school using a spell slot.</p><table><caption><p>Divination Adept Spells</p></caption><thead><tr><th scope=\"col\"><p>Spell Slot Level</p></th><th scope=\"col\"><p>Spell</p></th></tr></thead><tbody><tr><td><p>1</p></td><td><p><em>@UUID[Compendium.dnd5e.spells24.Item.phbsplDetectEvil]{Detect Evil and Good}</em></p></td></tr><tr><td><p>2</p></td><td><p><em>@UUID[Compendium.dnd5e.spells24.Item.phbsplMindSpike0]{Mind Spike}</em></p></td></tr><tr><td><p>3</p></td><td><p><em>@UUID[Compendium.dnd5e.spells24.Item.phbsplClairvoyan]{Clairvoyance}</em></p></td></tr><tr><td><p>4</p></td><td><p><em>@UUID[Compendium.dnd5e.spells24.Item.phbsplDivination]{Divination}</em></p></td></tr><tr><td><p>5</p></td><td><p><em>@UUID[Compendium.dnd5e.spells24.Item.phbsplScrying000]{Scrying}</em></p></td></tr></tbody></table><section id=\"secret-D8FQYCsBh0VZpBOd\" class=\"secret hide-in-embed\"><p><strong>Foundry Note</strong></p><p>Foundry grants all five spells when you acquire this feat. Higher-level spells remain unavailable until you have a spell slot of the required level.</p></section>"
+      "description": "<p>你獲得下列好處。</p><p><span class=\"inline-h4\">【屬性值提升】</span>你的智力、感知或魅力提升1點，上限為20。</p><p><span class=\"inline-h4\">【額外法術】</span>你的造詣令你始終準備特定法術。當你具有預言專家法術表指定環階的法術位時，你此後始終準備著該環階及更低環階對應的法術。</p><p><span class=\"inline-h4\">【先見干預】</span>當位於你60呎內一名你所能看見的生物進行&amp;Reference[D20 Test]{D20檢定}時，你可以採取反應令那名生物的該次擲骰獲得優勢或劣勢（由你選擇）。</p><p>此好處一經使用，直到完成長休前你都無法再次使用。當你使用法術位施放一道預言學派的法術時，你也能重獲此特性的使用權。</p><table><caption><p>預言專家法術</p></caption><thead><tr><th scope=\"col\"><p>法術位環階</p></th><th scope=\"col\"><p>法術</p></th></tr></thead><tbody><tr><td><p>1</p></td><td><p><em>@UUID[Compendium.dnd5e.spells24.Item.phbsplDetectEvil]{偵測善惡}</em></p></td></tr><tr><td><p>2</p></td><td><p><em>@UUID[Compendium.dnd5e.spells24.Item.phbsplMindSpike0]{心靈尖刺}</em></p></td></tr><tr><td><p>3</p></td><td><p><em>@UUID[Compendium.dnd5e.spells24.Item.phbsplClairvoyan]{銳眼術}</em></p></td></tr><tr><td><p>4</p></td><td><p><em>@UUID[Compendium.dnd5e.spells24.Item.phbsplDivination]{預言術}</em></p></td></tr><tr><td><p>5</p></td><td><p><em>@UUID[Compendium.dnd5e.spells24.Item.phbsplScrying000]{探知}</em></p></td></tr></tbody></table><section id=\"secret-D8FQYCsBh0VZpBOd\" class=\"secret hide-in-embed\"><p><strong>Foundry 註記</strong></p><p>Foundry 會在你取得此專長時一次授予全部五道法術。在你具有對應環階的法術位之前，較高環階的法術仍無法使用。</p></section>"
     },
     "Portal Jumper": {
-      "name": "Portal Jumper",
+      "name": "躍界者",
       "activities": {
         "Portal Step": {
-          "name": "Portal Step",
-          "condition": "spending 15 feet of movement",
-          "target": "unoccupied"
+          "name": "穿界步",
+          "condition": "消耗15呎移動力",
+          "target": "未被佔據"
         }
       },
-      "description": "<p>You gain the following benefits.</p><p><span class=\"inline-h4\">Otherworldly Resilience.</span> You have Resistance to one of the following damage types: Necrotic, Psychic, or Radiant (choose when you select this feat).</p><p><span class=\"inline-h4\">Portal Step.</span> You can spend 15 feet of movement to teleport to an unoccupied space you can see within 15 feet of yourself. You can use this benefit a number of times equal to your Proficiency Bonus but only once per turn, and you regain all expended uses when you finish a Long Rest.</p>"
+      "description": "<p>你獲得下列好處。</p><p><span class=\"inline-h4\">【異界抗性】</span>你具有下列其中一種傷害類型的抗性：黯蝕、心靈或光耀（在你選取此專長時選擇）。</p><p><span class=\"inline-h4\">【穿界步】</span>你能消耗15呎移動力傳送至一處位於你15呎內你所能看見的未占據空間。你能使用此好處的次數等同於你的熟練加值，但每回合限一次，當你完成長休時重獲所有已消耗的使用次數。</p>"
     },
     "Arcane Eloquence": {
-      "description": "<p>You gain the following benefits.</p><p><span class=\"inline-h4\">Cantrip.</span> You learn the <em>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplViciousMoc]{Vicious Mockery}</em> cantrip. Intelligence, Wisdom, or Charisma is your spellcasting ability for this spell (choose when you select this feat).</p><p><span class=\"inline-h4\">Smooth Talker.</span> When you make a Charisma (Deception, Intimidation, or Persuasion) check, you can roll 1d4 and add the number rolled to the ability check.</p>",
+      "description": "<p>你獲得下列好處。</p><p><span class=\"inline-h4\">【戲法】</span>你習得<em>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplViciousMoc]{惡毒嘲笑}</em>戲法。你施放該法術的施法屬性是智力、感知或魅力（在你選取此專長時選擇）。</p><p><span class=\"inline-h4\">【巧舌如簧】</span>當你進行魅力（欺瞞、恐嚇或遊說）檢定時，你可以擲1d4並將骰值加入該屬性檢定。</p>",
       "effects": {
         "Smooth Talker": {
-          "name": "Smooth Talker"
+          "name": "巧舌如簧"
         }
       },
-      "name": "Arcane Eloquence"
+      "name": "奧法雄辯家"
     },
     "Familiar Friend": {
       "effects": {
         "Fortified Familiar": {
-          "name": "Fortified Familiar"
+          "name": "強韌魔寵"
         }
       },
       "activities": {
         "Helpful Friend": {
-          "name": "Helpful Friend",
-          "condition": "you make an ability check with proficiency while your familiar is in range"
+          "name": "得力助手",
+          "condition": "你以具有熟練的技能進行屬性檢定，且你的魔寵位於範圍內"
         }
       },
-      "description": "<p>You gain the following benefits.</p><p><span class=\"inline-h4\">Faithful Companion.</span> You always have the <em>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplFindFamili]{Find Familiar}</em> spell prepared. Intelligence, Wisdom, or Charisma is your spellcasting ability for this spell (choose when you select this feat). You can cast it once without a spell slot or Material components, and you regain the ability to cast it in this way when you finish a Long Rest. You can also cast the spell using any spell slots you have.</p><p><span class=\"inline-h4\">Fortified Familiar.</span> When you cast the <em>Find Familiar</em> spell, your familiar’s Hit Point maximum and current Hit Points are increased by an amount equal to twice your character level.</p><p><span class=\"inline-h4\">Helpful Friend.</span> When you make an ability check using a skill in which you have proficiency while your familiar is within 5 feet of you, you gain Advantage on the check. You can use this benefit a number of times equal to your Proficiency Bonus, and you regain all expended uses when you finish a Long Rest.</p>",
-      "name": "Familiar Friend"
+      "description": "<p>你獲得下列好處。</p><p><span class=\"inline-h4\">【忠實夥伴】</span>你始終準備著<em>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplFindFamili]{尋獲魔寵}</em>法術。你施放該法術的施法屬性是感知、智力或魅力（在你選取此專長時選擇）。你可以無需消耗法術位且無需材料成分地施放該法術一次，當你完成長休時，你重獲以此法施放該法術的能力。你也能夠以你擁有的任意法術位施放該法術。</p><p><span class=\"inline-h4\">【強韌魔寵】</span>當你施放<em>尋獲魔寵</em>法術時，你魔寵的生命值上限和當前生命值提升等同於你角色等級兩倍的數值。</p><p><span class=\"inline-h4\">【得力助手】</span>當你使用你具有熟練的技能進行屬性檢定時，若你的魔寵位於你5呎內，你獲得該檢定的優勢。你能使用此好處的次數等同於你的熟練加值，當你完成長休時重獲所有已消耗的使用次數。</p>",
+      "name": "魔寵密友"
     },
     "Mastered Evocation": {
       "name": "Mastered Evocation",
@@ -260,18 +260,18 @@
     "Warlike Familiar": {
       "activities": {
         "Intercept Attack": {
-          "condition": "A creature within 5 feet of your familiar is hit by an attack roll",
-          "name": "Intercept Attack",
-          "roll": "Armor Class Bonus"
+          "condition": "一名位於你魔寵5呎內的生物被一次攻擊檢定命中",
+          "name": "攔截攻擊",
+          "roll": "AC加值"
         }
       },
-      "name": "Warlike Familiar",
+      "name": "尚武魔寵",
       "advancement": {
         "xce2uSXTC7KeCIIJ": {
-          "hint": "<p>You always have the <em>@UUID[Compendium.dnd-arcana-unleashed.spells.Item.aunBattleFamilq9]{Battle Familiar}</em> spell (see chapter 2) prepared. You can cast it once without a spell slot, and you regain the ability to cast it in this way when you finish a Long Rest. You can also cast the spell using any spell slots you have of the appropriate level. Your spellcasting ability for this spell is the one chosen for the Faithful Companion benefit of your Familiar Friend feat.</p>"
+          "hint": "<p>你始終準備著<em>@UUID[Compendium.dnd-arcana-unleashed.spells.Item.aunBattleFamilq9]{戰鬥魔寵}</em>法術（見第二章）。你可以無需消耗法術位地施放該法術一次，當你完成長休時，你重獲以此法施放該法術的能力。你也能夠以你擁有的任意合適環階的法術位施放該法術。你施放該法術的施法屬性與你為魔寵密友專長的忠實夥伴好處所選的屬性相同。</p>"
         }
       },
-      "description": "<p>You gain the following benefits.</p><p><span class=\"inline-h4\">Ability Score Increase.</span> Increase one ability score of your choice by 1, to a maximum of 20.</p><p><span class=\"inline-h4\">Battle Familiar.</span> You always have the <em>Battle Familiar</em> spell (see chapter 2) prepared. You can cast it once without a spell slot, and you regain the ability to cast it in this way when you finish a Long Rest. You can also cast the spell using any spell slots you have of the appropriate level. Your spellcasting ability for this spell is the one chosen for the Faithful Companion benefit of your Familiar Friend feat.</p><p><span class=\"inline-h4\">Intercept Attack.</span> When a creature within 5 feet of your familiar is hit by an attack roll, your familiar can take a Reaction to add a bonus to the creature’s Armor Class against that attack, potentially causing the attack to miss. The bonus is equal to your Proficiency Bonus.</p><section id=\"secret-4GnuTPDXR5v5QLnk\" class=\"secret hide-in-embed\"><p><strong>Foundry Note</strong></p><p>When choosing the spellcasting ability for Battle Familiar, select the same ability you chose for Familiar Friend. Intercept Attack rolls the AC bonus; apply that bonus to the triggering attack manually.</p></section>"
+      "description": "<p>你獲得下列好處。</p><p><span class=\"inline-h4\">【屬性值提升】</span>提升一項你所選擇的屬性1點，上限為20。</p><p><span class=\"inline-h4\">【戰鬥魔寵】</span>你始終準備著<em>戰鬥魔寵</em>法術（見第二章）。你可以無需消耗法術位地施放該法術一次，當你完成長休時，你重獲以此方式施放該法術的能力。你也能夠以你擁有的任意合適環階的法術位施放該法術。你施放該法術的施法屬性與你為魔寵密友專長的忠實夥伴好處所選的屬性相同。</p><p><span class=\"inline-h4\">【攔截攻擊】</span>當一名位於你魔寵5呎內的生物被一次攻擊檢定命中時，你的魔寵能採取反應，令該生物對抗那次攻擊的護甲等級獲得加值，可能使那次攻擊改為失手。該加值等同於你的熟練加值。</p><section id=\"secret-4GnuTPDXR5v5QLnk\" class=\"secret hide-in-embed\"><p><strong>Foundry 註記</strong></p><p>為戰鬥魔寵選擇施法屬性時，請選擇與魔寵密友相同的屬性。攔截攻擊會擲出護甲等級加值，請手動將該加值套用到觸發的攻擊上。</p></section>"
     },
     "Mastered Enchantment": {
       "description": "<p>Your choice grants you the following features:</p><p class=\"hanging\"><strong>Rote Casting.</strong> Choose a level 1 spell from the chosen school that appears on your class’s spell list. You always have that spell prepared and can cast it without a spell slot or spell components.</p><p class=\"hanging\"><strong>Signature Arcanum.</strong> Choose a level 7 or lower spell from the chosen school. You always have that spell prepared. You can cast it once without a spell slot, and you regain the ability to cast it in this way when you finish a Long Rest.</p><p>You can also cast these prepared spells using any spell slots you have of the appropriate level.</p><p><span class=\"inline-h4\">Repeatable.</span> You can take this feat more than once, but you must choose a different school of magic each time.</p>",
@@ -288,153 +288,153 @@
     "Spell Resistant": {
       "activities": {
         "Magic Resistant": {
-          "roll": "Magic Resistant Bonus",
-          "condition": "When you would fail a saving throw against a spell or magical effect",
-          "name": "Magic Resistant"
+          "roll": "魔法抗性加值",
+          "condition": "當你對抗法術或魔法效應的豁免將要失敗時",
+          "name": "魔法抵抗"
         }
       },
       "advancement": {
         "nclFjtxmrgatMcVQ": {
-          "hint": "<p>You have Resistance to one of the following damage types (choose when you gain this feat): Necrotic, Psychic, Radiant, or Thunder.</p>"
+          "hint": "<p>你具有下列其中一種傷害類型的抗性（在你獲得此專長時選擇）：黯蝕、心靈、光耀或雷鳴。</p>"
         }
       },
-      "name": "Spell Resistant",
-      "description": "<p>You gain the following benefits.</p><p><span class=\"inline-h4\">Ability Score Increase.</span> Increase your Dexterity or Constitution score by 1, to a maximum of 20.</p><p><span class=\"inline-h4\">Magical Resilience.</span> You have Resistance to one of the following damage types (choose when you gain this feat): Necrotic, Psychic, Radiant, or Thunder.</p><p><span class=\"inline-h4\">Magic Resistant.</span> When you would fail a saving throw against a spell or magical effect, you can roll [[/r 1d6]] and add the number rolled to the save’s total, potentially turning the failure into a success. You can use this benefit a number of times equal to your Proficiency Bonus, and you regain all expended uses when you finish a Long Rest.</p><section id=\"secret-JvdRa1oDo9flpZxU\" class=\"secret hide-in-embed\"><p><strong>Foundry Note</strong></p><p>The Magic Resistant activity rolls the bonus and spends a use. Add the result to the failed saving throw manually.</p></section>"
+      "name": "法術抗性",
+      "description": "<p>你獲得下列好處。</p><p><span class=\"inline-h4\">【屬性值提升】</span>你的敏捷或體質提升1點，上限為20。</p><p><span class=\"inline-h4\">【魔法抗性】</span>你具有下列其中一種傷害類型的抗性（在你獲得此專長時選擇）：黯蝕、心靈、光耀或雷鳴。</p><p><span class=\"inline-h4\">【魔法抵抗】</span>當你對抗法術或魔法效應的豁免將要失敗時，你能擲[[/r 1d6]]並將骰出的數值加入該豁免總值，這可能使失敗改為成功。你能使用此好處的次數等同於你的熟練加值，當你完成長休時重獲所有已消耗的使用次數。</p><section id=\"secret-JvdRa1oDo9flpZxU\" class=\"secret hide-in-embed\"><p><strong>Foundry 註記</strong></p><p>「魔法抵抗」活動會擲出加值並消耗一次使用次數。請手動將結果加入失敗的豁免。</p></section>"
     },
     "Arcane Safeguard": {
       "effects": {
         "Cantrip Modifications": {
           "changes": {
-            "activities[forward].name": "Cast as Bonus Action"
+            "activities[forward].name": "以附贈動作施放"
           },
-          "name": "Cantrip Modifications"
+          "name": "戲法調整"
         }
       },
-      "description": "<p>You gain the following benefits.</p><p><span class=\"inline-h4\">Cantrip.</span> You learn the <em>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplResistance]{Resistance}</em> cantrip. Intelligence, Wisdom, or Charisma is your spellcasting ability for this spell (choose when you select this feat).</p><p>You can cast the <em>Resistance</em> cantrip as a Bonus Action. You can do so a number of times equal to your Proficiency Bonus, and you regain all expended uses when you finish a Long Rest.</p><p><span class=\"inline-h4\">Sheltering Aid.</span> When you take the Help action to assist with an ally’s ability check, that ally gains a number of Temporary Hit Points equal to your Proficiency Bonus.</p>",
+      "description": "<p>你獲得下列好處。</p><p><span class=\"inline-h4\">【戲法】</span>你習得<em>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplResistance]{提升抗力}</em>戲法。你施放該法術的施法屬性是智力、感知或魅力（在你選取此專長時選擇）。</p><p>你能以附贈動作施放<em>提升抗力</em>戲法。你可以這麼做的次數等同於你的熟練加值，當你完成長休時重獲所有已消耗的使用次數。</p><p><span class=\"inline-h4\">【庇護之援】</span>當你採取協助動作輔助一次盟友的屬性檢定時，那名盟友獲得等同於你熟練加值的臨時生命值。</p>",
       "activities": {
         "Sheltering Aid": {
-          "condition": "when you take the Help action to assist with an ally's ability check",
-          "name": "Sheltering Aid"
+          "condition": "當你採取協助動作輔助一次盟友的屬性檢定時",
+          "name": "庇護之援"
         }
       },
-      "name": "Arcane Safeguard"
+      "name": "奧法護佑者"
     },
     "Enchantment Adept": {
-      "description": "<p>You gain the following benefits.</p><p><span class=\"inline-h4\">Ability Score Increase.</span> Increase your Intelligence, Wisdom, or Charisma score by 1, to a maximum of 20.</p><p><span class=\"inline-h4\">Additional Spells.</span> Your prowess allows you to always have certain spells at the ready. When you have spell slots of a level specified in the Enchantment Adept Spells table, you thereafter always have the spells listed for that level and lower prepared.</p><p><span class=\"inline-h4\">Subtle Enchantments.</span> When you cast a spell from the Enchantment school using a spell slot, you can cast it without any Verbal, Somatic, or Material components, except Material components that are consumed by the spell or that have a cost specified in the spell.</p><table><caption><p>Enchantment Adept Spells</p></caption><thead><tr><th scope=\"col\"><p>Spell Slot Level</p></th><th scope=\"col\"><p>Spell</p></th></tr></thead><tbody><tr><td><p>1</p></td><td><p><em>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplDissonantW]{Dissonant Whispers}</em></p></td></tr><tr><td><p>2</p></td><td><p><em>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplEnthrall00]{Enthrall}</em></p></td></tr><tr><td><p>3</p></td><td><p><em>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplHoldPerson]{Hold Person}</em></p></td></tr><tr><td><p>4</p></td><td><p><em>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplDominateBe]{Dominate Beast}</em></p></td></tr><tr><td><p>5</p></td><td><p><em>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplModifyMemo]{Modify Memory}</em></p></td></tr></tbody></table><section id=\"secret-jAAcIowhWd9kjxDQ\" class=\"secret hide-in-embed\"><p><strong>Foundry Note</strong></p><p>Foundry grants all five spells when you acquire this feat. Higher-level spells remain unavailable until you have a spell slot of the required level.</p><p>When you cast an Enchantment spell using a spell slot, handle Subtle Enchantments manually. Costly or consumed Material components are still required.</p></section>",
-      "name": "Enchantment Adept"
+      "description": "<p>你獲得下列好處。</p><p><span class=\"inline-h4\">【屬性值提升】</span>你的智力、感知或魅力提升1點，上限為20。</p><p><span class=\"inline-h4\">【額外法術】</span>你的造詣令你始終準備特定法術。當你具有惑控專家法術表指定環階的法術位時，你此後始終準備著該環階及更低環階對應的法術。</p><p><span class=\"inline-h4\">【精妙惑控】</span>當你使用法術位施放一道來自惑控學派的法術時，你施放該法術時可以無需任意言語、姿勢或材料成分，除非該材料成分會被那道法術消耗，或在法術中具有指定的價值。</p><table><caption><p>惑控專家法術</p></caption><thead><tr><th scope=\"col\"><p>法術位環階</p></th><th scope=\"col\"><p>法術</p></th></tr></thead><tbody><tr><td><p>1</p></td><td><p><em>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplDissonantW]{噪音暗語}</em></p></td></tr><tr><td><p>2</p></td><td><p><em>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplEnthrall00]{注目術}</em></p></td></tr><tr><td><p>3</p></td><td><p><em>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplHoldPerson]{人類定身術}</em></p></td></tr><tr><td><p>4</p></td><td><p><em>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplDominateBe]{支配野獸}</em></p></td></tr><tr><td><p>5</p></td><td><p><em>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplModifyMemo]{修改記憶}</em></p></td></tr></tbody></table><section id=\"secret-jAAcIowhWd9kjxDQ\" class=\"secret hide-in-embed\"><p><strong>Foundry 註記</strong></p><p>Foundry 會在你取得此專長時一次授予全部五道法術。在你具有對應環階的法術位之前，較高環階的法術仍無法使用。</p><p>當你使用法術位施放惑控法術時，精妙惑控請手動處理。具有價值或會被消耗的材料成分仍然是必需的。</p></section>",
+      "name": "惑控專家"
     },
     "Arcane Artist": {
       "activities": {
         "Inspiring Magic": {
-          "name": "Inspiring Magic",
-          "condition": "you cast a spell from the Illusion school"
+          "name": "激勵魔法",
+          "condition": "你施放一道幻術學派的法術"
         }
       },
-      "description": "<p>You gain the following benefits.</p><p><span class=\"inline-h4\">Cantrip.</span> You learn the <em>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplMinorIllus]{Minor Illusion}</em> cantrip. Intelligence, Wisdom, or Charisma is your spellcasting ability for this spell (choose when you select this feat).</p><p><span class=\"inline-h4\">Inspiring Magic.</span> When you cast a spell from the Illusion school, you can choose one ally within 30 feet of yourself who can see you. That ally gains Heroic Inspiration. Once you use this benefit, you can’t use it again until you finish a Long Rest.</p>",
+      "description": "<p>你獲得下列好處。</p><p><span class=\"inline-h4\">【戲法】</span>你習得<em>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplMinorIllus]{次級幻象}</em>戲法。你施放該法術的施法屬性是智力、感知或魅力（在你選取此專長時選擇）。</p><p><span class=\"inline-h4\">【激勵魔法】</span>當你施放一道幻術學派的法術時，你能選擇一名位於你30呎內能看見你的盟友。那名盟友獲得英雄激勵。此好處一經使用，直到完成長休前你都無法再次使用。</p>",
       "name": "奧法藝術家"
     },
     "Abjuration Adept": {
-      "description": "<p>You gain the following benefits.</p><p><span class=\"inline-h4\">Ability Score Increase.</span> Increase your Intelligence, Wisdom, or Charisma score by 1, to a maximum of 20.</p><p><span class=\"inline-h4\">Additional Spells.</span> Your prowess allows you to always have certain spells at the ready. When you have spell slots of a level specified in the Abjuration Adept Spells table, you thereafter always have the spells listed for that level and lower prepared.</p><p><span class=\"inline-h4\">Protective Ward.</span> When you cast a spell from the Abjuration school using a spell slot, you or one creature you can see within 30 feet of yourself gains Temporary Hit Points equal to twice the level of spell slot expended.</p><table><caption><p>Abjuration Adept Spells</p></caption><thead><tr><th scope=\"col\"><p>Spell Slot Level</p></th><th scope=\"col\"><p>Spell</p></th></tr></thead><tbody><tr><td><p>1</p></td><td><p><em>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplShield0000]{Shield}</em></p></td></tr><tr><td><p>2</p></td><td><p><em>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplLesserRest]{Lesser Restoration}</em></p></td></tr><tr><td><p>3</p></td><td><p><em>@UUID[Compendium.dnd-players-handbook.spells.Item.phbProtectionFro]{Protection from Energy}</em></p></td></tr><tr><td><p>4</p></td><td><p><em>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplBanishment]{Banishment}</em></p></td></tr><tr><td><p>5</p></td><td><p><em>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplMassCureWo]{Mass Cure Wounds}</em></p></td></tr></tbody></table><section id=\"secret-V7IGvJOFShQhHByx\" class=\"secret hide-in-embed\"><p><strong>Foundry Note</strong></p><p>This feat grants all of the spells at once but they are not usable due to a lack of spell slots until you should have access to them.</p></section>",
-      "name": "Abjuration Adept",
+      "description": "<p>你獲得下列好處。</p><p><span class=\"inline-h4\">【屬性值提升】</span>你的智力、感知或魅力提升1點，上限為20。</p><p><span class=\"inline-h4\">【額外法術】</span>你的造詣令你始終準備特定法術。當你具有防護專家法術表指定環階的法術位時，你此後始終準備著該環階及更低環階對應的法術。</p><p><span class=\"inline-h4\">【守護結界】</span>當你使用法術位施放來自防護學派的法術時，你或位於你30呎內你所能看見的生物獲得等同於所消耗法術位環階兩倍的臨時生命值。</p><table><caption><p>防護專家法術</p></caption><thead><tr><th scope=\"col\"><p>法術位環階</p></th><th scope=\"col\"><p>法術</p></th></tr></thead><tbody><tr><td><p>1</p></td><td><p><em>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplShield0000]{護盾術}</em></p></td></tr><tr><td><p>2</p></td><td><p><em>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplLesserRest]{次級復原術}</em></p></td></tr><tr><td><p>3</p></td><td><p><em>@UUID[Compendium.dnd-players-handbook.spells.Item.phbProtectionFro]{防護能量}</em></p></td></tr><tr><td><p>4</p></td><td><p><em>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplBanishment]{放逐術}</em></p></td></tr><tr><td><p>5</p></td><td><p><em>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplMassCureWo]{群體治療傷勢}</em></p></td></tr></tbody></table><section id=\"secret-V7IGvJOFShQhHByx\" class=\"secret hide-in-embed\"><p><strong>Foundry 註記</strong></p><p>此專長會一次授予全部法術，但在你應當能取得它們之前，你會因為缺少對應環階的法術位而無法施放。</p></section>",
+      "name": "防護專家",
       "activities": {
         "Protective Ward": {
-          "name": "Protective Ward"
+          "name": "守護結界"
         }
       }
     },
     "Arcane Overload": {
       "activities": {
         "Power Surge": {
-          "condition": "when you cast an Evocation spell and deal damage with it",
-          "name": "Power Surge"
+          "condition": "當你施放塑能法術並以之造成傷害時",
+          "name": "能量如潮"
         }
       },
-      "description": "<p>You gain the following benefits.</p><p><span class=\"inline-h4\">Cantrip.</span> You learn the <em>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplFireBolt00]{Fire Bolt}</em> cantrip. Intelligence, Wisdom, or Charisma is your spellcasting ability for this spell (choose when you select this feat).</p><p><span class=\"inline-h4\">Power Surge.</span> When you cast an Evocation spell and deal damage with it, you can add your Proficiency Bonus to one damage roll of that spell. Once you use this benefit, you can’t do so again until you finish a Long Rest.</p>",
-      "name": "Arcane Overload"
+      "description": "<p>你獲得下列好處。</p><p><span class=\"inline-h4\">【戲法】</span>你習得<em>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplFireBolt00]{火焰箭}</em>戲法。你施放該法術的施法屬性是智力、感知或魅力（在你選取此專長時選擇）。</p><p><span class=\"inline-h4\">【能量如潮】</span>當你施放塑能法術並以之造成傷害時，你能將你的熟練加值加入該法術的其中一枚傷害骰。此好處一經使用，直到完成長休前你都無法再次使用。</p>",
+      "name": "奧法超負荷"
     },
     "Arcane Undertaker": {
       "activities": {
         "Understanding of Death": {
-          "condition": "you take the Help action to stabilize a creature",
-          "name": "Understanding of Death"
+          "condition": "你採取協助動作穩定一名生物的傷勢",
+          "name": "曉亡之理"
         }
       },
-      "description": "<p>You gain the following benefits.</p><p><span class=\"inline-h4\">Cantrip.</span> You learn one Cleric or Wizard cantrip of your choice. The cantrip must be from the Necromancy school. Intelligence, Wisdom, or Charisma is your spellcasting ability for this spell (choose when you select this feat).</p><p><span class=\"inline-h4\">Knowledge from the Dead.</span> When you make an Intelligence (History) or Wisdom (Medicine) check, you can roll 1d4 and add the number rolled to the ability check.</p><p><span class=\"inline-h4\">Understanding of Death.</span> When you take the Help action to stabilize a creature with 0 Hit Points, you gain Heroic Inspiration. Once you use this benefit, you can’t use it again until you finish a Long Rest.</p>",
+      "description": "<p>你獲得下列好處。</p><p><span class=\"inline-h4\">【戲法】</span>你習得一道你選擇的牧師或法師戲法。這道戲法必須來自死靈學派。你施放該法術的施法屬性是智力、感知或魅力（在你選取此專長時選擇）。</p><p><span class=\"inline-h4\">【源死之識】</span>當你進行智力（歷史）或感知（醫藥）檢定時，你可以擲1d4並將骰值加入該屬性檢定。</p><p><span class=\"inline-h4\">【曉亡之理】</span>當你採取協助動作穩定一名0生命值生物的傷勢時，你獲得英雄激勵。此好處一經使用，直到完成長休前你都無法再次使用。</p>",
       "advancement": {
         "2fdpIhHcbiUlOTdt": {
-          "hint": "<p>The cantrip must be from the Necromancy school.</p>"
+          "hint": "<p>這道戲法必須來自死靈學派。</p>"
         }
       },
-      "name": "Arcane Undertaker",
+      "name": "奧法送葬者",
       "effects": {
         "Knowledge from the Dead": {
-          "name": "Knowledge from the Dead"
+          "name": "源死之識"
         }
       }
     },
     "Evocation Adept": {
       "activities": {
         "Fueled Evocation (Largest Hit Die)": {
-          "name": "Fueled Evocation (Largest Hit Die)",
-          "condition": "When you cast an Evocation spell and deal damage"
+          "name": "塑能助燃（最大生命骰）",
+          "condition": "當你施放一道造成傷害的塑能法術時"
         },
         "Fueled Evocation (Smallest Hit Die)": {
-          "name": "Fueled Evocation (Smallest Hit Die)",
-          "condition": "When you cast an Evocation spell and deal damage"
+          "name": "塑能助燃（最小生命骰）",
+          "condition": "當你施放一道造成傷害的塑能法術時"
         }
       },
-      "name": "Evocation Adept",
-      "description": "<p>You gain the following benefits.</p><p><span class=\"inline-h4\">Ability Score Increase.</span> Increase your Intelligence, Wisdom, or Charisma score by 1, to a maximum of 20.</p><p><span class=\"inline-h4\">Additional Spells.</span> Your prowess allows you to always have certain spells at the ready. When you have spell slots of a level specified in the Evocation Adept Spells table, you thereafter always have the spells listed for that level and lower prepared.</p><p><span class=\"inline-h4\">Fueled Evocation.</span> Once per turn when you cast an Evocation spell and deal damage, you can roll up to two of your unexpended Hit Point Dice and add the total rolled to one of the spell’s damage rolls. Those Hit Point Dice are then expended.</p><table><caption><p>Evocation Adept Spells</p></caption><thead><tr><th scope=\"col\"><p>Spell Slot Level</p></th><th scope=\"col\"><p>Spell</p></th></tr></thead><tbody><tr><td><p>1</p></td><td><p><em>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplChromaticO]{Chromatic Orb}</em></p></td></tr><tr><td><p>2</p></td><td><p><em>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplShatter000]{Shatter}</em></p></td></tr><tr><td><p>3</p></td><td><p><em>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplFireball00]{Fireball}</em></p></td></tr><tr><td><p>4</p></td><td><p><em>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplVitriolicS]{Vitriolic Sphere}</em></p></td></tr><tr><td><p>5</p></td><td><p><em>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplWallofForc]{Wall of Force}</em></p></td></tr></tbody></table><section id=\"secret-4t6zzmLeRz5pdRCA\" class=\"secret hide-in-embed\"><p><strong>Foundry Note</strong></p><p>All five spells are granted when you gain this feat, but you can’t cast the higher-level spells until you have the required spell slots.</p><p>For Fueled Evocation, use the Smallest or Largest Hit Die activity that matches the Hit Die you want to spend. You can expend up to two Hit Dice and add the total rolled to one damage roll of the qualifying spell.</p></section>"
+      "name": "塑能專家",
+      "description": "<p>你獲得下列好處。</p><p><span class=\"inline-h4\">【屬性值提升】</span>你的智力、感知或魅力提升1點，上限為20。</p><p><span class=\"inline-h4\">【額外法術】</span>你的造詣令你始終準備特定法術。當你具有塑能專家法術表指定環階的法術位時，你此後始終準備著該環階及更低環階對應的法術。</p><p><span class=\"inline-h4\">【塑能助燃】</span>每回合一次，當你施放一道造成傷害的塑能法術時，你可以擲至多兩枚你未消耗的生命骰，並將骰值總和加入該法術的其中一枚傷害骰。那些生命骰其後被消耗。</p><table><caption><p>塑能專家法術</p></caption><thead><tr><th scope=\"col\"><p>法術位環階</p></th><th scope=\"col\"><p>法術</p></th></tr></thead><tbody><tr><td><p>1</p></td><td><p><em>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplChromaticO]{幻色法球}</em></p></td></tr><tr><td><p>2</p></td><td><p><em>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplShatter000]{粉碎音波}</em></p></td></tr><tr><td><p>3</p></td><td><p><em>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplFireball00]{火球術}</em></p></td></tr><tr><td><p>4</p></td><td><p><em>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplVitriolicS]{濃酸球}</em></p></td></tr><tr><td><p>5</p></td><td><p><em>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplWallofForc]{力場牆}</em></p></td></tr></tbody></table><section id=\"secret-4t6zzmLeRz5pdRCA\" class=\"secret hide-in-embed\"><p><strong>Foundry 註記</strong></p><p>五道法術會在你取得此專長時一併授予，但在你具有對應環階的法術位之前，你無法施放較高環階的法術。</p><p>塑能助燃請使用與你想消耗的生命骰相符的「最小生命骰」或「最大生命骰」活動。你最多可以消耗兩枚生命骰，並將骰值總和加入符合條件法術的其中一枚傷害骰。</p></section>"
     },
     "Transmuted Anatomy": {
       "activities": {
         "utility": {
-          "roll": "Save Bonus",
-          "condition": "you fail a Constitution saving throw"
+          "roll": "豁免加值",
+          "condition": "你的體質豁免失敗"
         }
       },
       "effects": {
         "Lengthened Stride": {
-          "name": "Lengthened Stride"
+          "name": "大步流星"
         }
       },
-      "description": "<p>You gain the following benefits.</p><p><span class=\"inline-h4\">Lengthened Stride.</span> Your Speed increases by 5 feet.</p><p><span class=\"inline-h4\">Resilient Anatomy.</span> You have Advantage on saving throws against effects that would compel you to shape-shift against your will.</p><p>Additionally, when you fail a Constitution saving throw, you can take a Reaction to roll 1d4 and add the number rolled to the save, potentially turning the failure into a success. You can use this benefit a number of times equal to your Proficiency Bonus, and you regain all expended uses when you finish a Long Rest.</p>",
-      "name": "Transmuted Anatomy"
+      "description": "<p>你獲得下列好處。</p><p><span class=\"inline-h4\">【大步流星】</span>你的速度提升5呎。</p><p><span class=\"inline-h4\">【強韌內構】</span>你對抗將迫使你違背意願變形的效應時進行的豁免具有優勢。</p><p>此外，當你的體質豁免失敗時，你可以採取反應擲1d4並將骰值加入該豁免總值，這可能使失敗改為成功。你能使用此好處的次數等同於你的熟練加值，當你完成長休時重獲所有已消耗的使用次數。</p>",
+      "name": "萬化本質"
     },
     "Illusion Adept": {
-      "description": "<p>You gain the following benefits.</p><p><span class=\"inline-h4\">Ability Score Increase.</span> Increase your Intelligence, Wisdom, or Charisma score by 1, to a maximum of 20.</p><p><span class=\"inline-h4\">Additional Spells.</span> Your prowess allows you to always have certain spells at the ready. When you have spell slots of a level specified in the Illusion Adept Spells table, you thereafter always have the spells listed for that level and lower prepared.</p><p><span class=\"inline-h4\">Masterful Illusions.</span> When you cast a spell from the Illusion school using a spell slot, you can cast it without any Verbal, Somatic, or Material components, except Material components that are consumed by the spell or that have a cost specified in the spell.</p><p>Additionally, creatures have Disadvantage on Intelligence (Investigation) checks made to discern the true nature of illusions created by your spells.</p><table><caption><p>Illusion Adept Spells</p></caption><thead><tr><th scope=\"col\"><p>Spell Slot Level</p></th><th scope=\"col\"><p>Spell</p></th></tr></thead><tbody><tr><td><p>1</p></td><td><p><em>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplSilentImag]{Silent Image}</em></p></td></tr><tr><td><p>2</p></td><td><p><em>@UUID[Compendium.dnd-players-handbook.spells.Item.phbPhantasmalFor]{Phantasmal Force}</em></p></td></tr><tr><td><p>3</p></td><td><p><em>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplMajorImage]{Major Image}</em></p></td></tr><tr><td><p>4</p></td><td><p><em>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplHallucinat]{Hallucinatory Terrain}</em></p></td></tr><tr><td><p>5</p></td><td><p><em>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplSeeming000]{Seeming}</em></p></td></tr></tbody></table><section id=\"secret-P3BEqGV5SKGq5Sf2\" class=\"secret hide-in-embed\"><p><strong>Foundry Note</strong></p><p>All five spells are granted when you gain this feat, but you can’t cast the higher-level spells until you have the required spell slots.</p><p>Handle Masterful Illusions manually when casting an Illusion spell or when a creature makes an Investigation check against one of your illusions.</p></section>",
-      "name": "Illusion Adept"
+      "description": "<p>你獲得下列好處。</p><p><span class=\"inline-h4\">【屬性值提升】</span>你的智力、感知或魅力提升1點，上限為20。</p><p><span class=\"inline-h4\">【額外法術】</span>你的造詣令你始終準備特定法術。當你具有幻術專家法術表指定環階的法術位時，你此後始終準備著該環階及更低環階對應的法術。</p><p><span class=\"inline-h4\">【精湛幻象】</span>當你使用法術位施放一道來自幻術學派的法術時，你施放該法術時可以無需任意言語、姿勢或材料成分，除非該材料成分會被那道法術消耗，或在法術中具有指定的價值。</p><p>此外，生物為識破你的法術所創造幻象之真實本質而進行的智力（調查）檢定具有劣勢。</p><table><caption><p>幻術專家法術</p></caption><thead><tr><th scope=\"col\"><p>法術位環階</p></th><th scope=\"col\"><p>法術</p></th></tr></thead><tbody><tr><td><p>1</p></td><td><p><em>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplSilentImag]{無聲幻影}</em></p></td></tr><tr><td><p>2</p></td><td><p><em>@UUID[Compendium.dnd-players-handbook.spells.Item.phbPhantasmalFor]{魅影之力}</em></p></td></tr><tr><td><p>3</p></td><td><p><em>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplMajorImage]{強效幻影}</em></p></td></tr><tr><td><p>4</p></td><td><p><em>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplHallucinat]{幻景}</em></p></td></tr><tr><td><p>5</p></td><td><p><em>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplSeeming000]{偽裝術}</em></p></td></tr></tbody></table><section id=\"secret-P3BEqGV5SKGq5Sf2\" class=\"secret hide-in-embed\"><p><strong>Foundry 註記</strong></p><p>五道法術會在你取得此專長時一併授予，但在你具有對應環階的法術位之前，你無法施放較高環階的法術。</p><p>施放幻術法術時，或當生物針對你的幻象進行調查檢定時，精湛幻象請手動處理。</p></section>",
+      "name": "幻術專家"
     },
     "Soothing Familiar": {
-      "description": "<p>You gain the following benefits.</p><p><span class=\"inline-h4\">Ability Score Increase.</span> Increase one ability score of your choice by 1, to a maximum of 20.</p><p><span class=\"inline-h4\">Healing Beacon.</span> Positive energy fills a 5-foot Emanation originating from your familiar as long as it is within 120 feet of you. Whenever an ally in that Emanation rolls a die to determine the number of Hit Points restored to a creature, that ally can treat a roll of 1 or 2 on the die as a 3.</p><section id=\"secret-t8qlGQ9nZQosO7aO\" class=\"secret hide-in-embed\"><p><strong>Foundry Note</strong></p><p>Foundry does not adjust the healing dice automatically, so apply Healing Beacon manually when it qualifies.</p></section>",
-      "name": "Soothing Familiar"
+      "description": "<p>你獲得下列好處。</p><p><span class=\"inline-h4\">【屬性值提升】</span>提升一項你所選擇的屬性1點，上限為20。</p><p><span class=\"inline-h4\">【治癒信標】</span>只要你的魔寵位於你120呎內，源自你魔寵的5呎發散區域內便充滿著正能量。每當一名盟友在該發散區域內擲骰以決定生物恢復的生命值數值時，那名盟友可以將骰出的1和2都視為3。</p><section id=\"secret-t8qlGQ9nZQosO7aO\" class=\"secret hide-in-embed\"><p><strong>Foundry 註記</strong></p><p>Foundry 不會自動調整治療骰，所以符合條件時請手動套用治癒信標。</p></section>",
+      "name": "慰療魔寵"
     },
     "Arcane Omens": {
       "activities": {
         "Helpful Premonition": {
           "target": "visible",
-          "name": "Helpful Premonition",
-          "condition": "you or a target you can see within range fails a saving throw",
-          "roll": "Save Bonus"
+          "name": "助人預兆",
+          "condition": "你或位於範圍內一名你所能看見的目標豁免失敗",
+          "roll": "豁免加值"
         }
       },
-      "name": "Arcane Omens",
-      "description": "<p>You gain the following benefits.</p><p><span class=\"inline-h4\">Cantrip.</span> You learn the <em>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplGuidance00]{Guidance}</em> cantrip. Intelligence, Wisdom, or Charisma is your spellcasting ability for this spell (choose when you select this feat).</p><p><span class=\"inline-h4\">Helpful Premonition.</span> When you or a creature you can see within 30 feet of yourself fails a saving throw, you can take a Reaction to roll 1d4 and add the number rolled to the save’s total, potentially turning the failure into a success. You can use this benefit a number of times equal to your Proficiency Bonus, and you regain all expended uses when you finish a Long Rest.</p>"
+      "name": "奧法預言家",
+      "description": "<p>你獲得下列好處。</p><p><span class=\"inline-h4\">【戲法】</span>你習得<em>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplGuidance00]{指導術}</em>戲法。你施放該法術的施法屬性是智力、感知或魅力（在你選取此專長時選擇）。</p><p><span class=\"inline-h4\">【助人預兆】</span>當你或位於你30呎內一名你所能看見的生物豁免失敗時，你可以採取反應擲1d4並將骰值加入該豁免總值，這可能使失敗改為成功。你能使用此好處的次數等同於你的熟練加值，當你完成長休時重獲所有已消耗的使用次數。</p>"
     },
     "Conjuration Adept": {
       "effects": {
         "Conjuration Focus (WIS)": {
-          "name": "Conjuration Focus (WIS)"
+          "name": "咒法專注（感知）"
         },
         "Conjuration Focus (CHA)": {
-          "name": "Conjuration Focus (CHA)"
+          "name": "咒法專注（魅力）"
         },
         "Conjuration Focus (INT)": {
-          "name": "Conjuration Focus (INT)"
+          "name": "咒法專注（智力）"
         }
       },
-      "description": "<p>You gain the following benefits.</p><p><span class=\"inline-h4\">Ability Score Increase.</span> Increase your Intelligence, Wisdom, or Charisma score by 1, to a maximum of 20.</p><p><span class=\"inline-h4\">Additional Spells.</span> Your prowess allows you to always have certain spells at the ready. When you have spell slots of a level specified in the Conjuration Adept Spells table, you thereafter always have the spells listed for that level and lower prepared.</p><p><span class=\"inline-h4\">Persistent Conjuration.</span> While maintaining Concentration on a spell from the Conjuration school, you gain a bonus to Constitution saving throws to maintain this Concentration. This bonus is equal to the ability modifier of the score increased by this feat.</p><table><caption><p>Conjuration Adept Spells</p></caption><thead><tr><th scope=\"col\"><p>Spell Slot Level</p></th><th scope=\"col\"><p>Spell</p></th></tr></thead><tbody><tr><td><p>1</p></td><td><p><em>@UUID[Compendium.dnd5e.spells24.Item.phbsplEntangle00]{Entangle}</em></p></td></tr><tr><td><p>2</p></td><td><p><em>@UUID[Compendium.dnd5e.spells24.Item.phbsplMistyStep0]{Misty Step}</em></p></td></tr><tr><td><p>3</p></td><td><p><em>@UUID[Compendium.dnd5e.spells24.Item.phbsplConjureAni]{Conjure Animals}</em></p></td></tr><tr><td><p>4</p></td><td><p><em>@UUID[Compendium.dnd5e.spells24.Item.phbsplDimensionD]{Dimension Door}</em></p></td></tr><tr><td><p>5</p></td><td><p><em>@UUID[Compendium.dnd5e.spells24.Item.phbsplConjureEle]{Conjure Elemental}</em></p></td></tr></tbody></table><section id=\"secret-EJ0ntZZ5A1cuumcy\" class=\"secret hide-in-embed\"><p><strong>Foundry Note</strong></p><p>Foundry grants all five spells when you acquire this feat. Higher-level spells remain unavailable until you have a spell slot of the required level.</p><p>For Persistent Conjuration, enable the effect matching the ability increased by this feat while concentrating on a Conjuration spell, then disable it when that concentration ends.</p></section>",
-      "name": "Conjuration Adept"
+      "description": "<p>你獲得下列好處。</p><p><span class=\"inline-h4\">【屬性值提升】</span>你的智力、感知或魅力提升1點，上限為20。</p><p><span class=\"inline-h4\">【額外法術】</span>你的造詣令你始終準備特定法術。當你具有咒法專家法術表指定環階的法術位時，你此後始終準備著該環階及更低環階對應的法術。</p><p><span class=\"inline-h4\">【恆久咒法】</span>為一道來自咒法學派的法術維持專注期間，你為維持該專注進行的體質豁免具有加值。該加值等同於你以此專長提升的屬性調整值。</p><table><caption><p>咒法專家法術</p></caption><thead><tr><th scope=\"col\"><p>法術位環階</p></th><th scope=\"col\"><p>法術</p></th></tr></thead><tbody><tr><td><p>1</p></td><td><p><em>@UUID[Compendium.dnd5e.spells24.Item.phbsplEntangle00]{糾纏術}</em></p></td></tr><tr><td><p>2</p></td><td><p><em>@UUID[Compendium.dnd5e.spells24.Item.phbsplMistyStep0]{迷蹤步}</em></p></td></tr><tr><td><p>3</p></td><td><p><em>@UUID[Compendium.dnd5e.spells24.Item.phbsplConjureAni]{召喚動物}</em></p></td></tr><tr><td><p>4</p></td><td><p><em>@UUID[Compendium.dnd5e.spells24.Item.phbsplDimensionD]{次元門}</em></p></td></tr><tr><td><p>5</p></td><td><p><em>@UUID[Compendium.dnd5e.spells24.Item.phbsplConjureEle]{召喚元素生物}</em></p></td></tr></tbody></table><section id=\"secret-EJ0ntZZ5A1cuumcy\" class=\"secret hide-in-embed\"><p><strong>Foundry 註記</strong></p><p>Foundry 會在你取得此專長時一次授予全部五道法術。在你具有對應環階的法術位之前，較高環階的法術仍無法使用。</p><p>恆久咒法請手動處理：為咒法法術維持專注期間，啟用與此專長所提升屬性相符的效果，該專注結束後再停用。</p></section>",
+      "name": "咒法專家"
     },
     "Boon of the Iron Mind": {
       "description": "<p>You gain the following benefits.</p><p><span class=\"inline-h4\">Ability Score Increase.</span> Increase one ability score of your choice by 1, to a maximum of 30.</p><p><span class=\"inline-h4\">Unshakable Focus.</span> When you are maintaining Concentration on an effect, you lose Concentration only if you cast a spell or activate another effect that requires Concentration, if you have the &amp;Reference[Petrified apply=false] or &amp;Reference[Unconscious apply=false] condition, or if you die.</p>",
@@ -443,14 +443,14 @@
     "Magic Connoisseur": {
       "advancement": {
         "fqUFCFmzIRDyLpIA": {
-          "hint": "<p>Choose a level 1 and a level 2 spell from the same list you selected for the Magic Initiate feat’s cantrips. You always have those spells prepared. You can cast each spell once without a spell slot, and you regain the ability to cast it in this way when you finish a Long Rest. You can also cast those spells using any spell slots you have of the appropriate level. The spellcasting ability for these spells is the same as the spellcasting ability chosen for your Magic Initiate feat’s spells.</p>"
+          "hint": "<p>你從魔法學徒專長的戲法所選的法術列表中選擇一道一環法術和一道二環法術。你始終準備著那些法術。你可以無需消耗法術位施放每道法術各一次，當你完成長休時，你重獲以此法施放該法術的能力。你也能夠以你擁有的任意合適環階的法術位施放那些法術。這些法術的施法屬性與你為魔法學徒專長的法術所選的施法屬性相同。</p>"
         },
         "RVaelHvXSVcRTamH": {
-          "hint": "<p>Choose a level 1 and a level 2 spell from the same list you selected for the Magic Initiate feat’s cantrips. You always have those spells prepared. You can cast each spell once without a spell slot, and you regain the ability to cast it in this way when you finish a Long Rest. You can also cast those spells using any spell slots you have of the appropriate level. The spellcasting ability for these spells is the same as the spellcasting ability chosen for your Magic Initiate feat’s spells.</p>"
+          "hint": "<p>你從魔法學徒專長的戲法所選的法術列表中選擇一道一環法術和一道二環法術。你始終準備著那些法術。你可以無需消耗法術位施放每道法術各一次，當你完成長休時，你重獲以此法施放該法術的能力。你也能夠以你擁有的任意合適環階的法術位施放那些法術。這些法術的施法屬性與你為魔法學徒專長的法術所選的施法屬性相同。</p>"
         }
       },
-      "description": "<p>You gain the following benefits.</p><p><span class=\"inline-h4\">Ability Score Increase.</span> Increase your Intelligence, Wisdom, or Charisma score by 1, to a maximum of 20.</p><p><span class=\"inline-h4\">Additional Spells.</span> Choose a level 1 and a level 2 spell from the same list you selected for the Magic Initiate feat’s cantrips. You always have those spells prepared. You can cast each spell once without a spell slot, and you regain the ability to cast it in this way when you finish a Long Rest. You can also cast those spells using any spell slots you have of the appropriate level. The spellcasting ability for these spells is the same as the spellcasting ability chosen for your Magic Initiate feat’s spells.</p><p><span class=\"inline-h4\">Spell Change.</span> Whenever you gain a new level, you can replace one of the spells you chose for this feat with a different spell of the same level from the chosen spell list.</p><section id=\"secret-Gya5BhVUjRU7YPb1\" class=\"secret hide-in-embed\"><p><strong>Foundry Note</strong></p><p>Choose both spells from the same Cleric, Druid, or Wizard spell list you chose for Magic Initiate, and select the same spellcasting ability.</p><p>When you gain a level, Foundry offers a replacement for each spell. Replace only one of the two spells at that level.</p></section>",
-      "name": "Magic Connoisseur"
+      "description": "<p>你獲得下列好處。</p><p><span class=\"inline-h4\">【屬性值提升】</span>你的智力、感知或魅力提升1點，上限為20。</p><p><span class=\"inline-h4\">【額外法術】</span>你從魔法學徒專長的戲法所選的法術列表中選擇一道一環法術和一道二環法術。你始終準備著那些法術。你可以無需消耗法術位施放每道法術各一次，當你完成長休時，你重獲以此法施放該法術的能力。你也能夠以你擁有的任意合適環階的法術位施放那些法術。這些法術的施法屬性與你為魔法學徒專長的法術所選的施法屬性相同。</p><p><span class=\"inline-h4\">【法術切換】</span>每當你獲得新的等級時，你可以將你在此專長選擇的其中一道法術替換為另一道來自所選法術列表且環階相同的法術。</p><section id=\"secret-Gya5BhVUjRU7YPb1\" class=\"secret hide-in-embed\"><p><strong>Foundry 註記</strong></p><p>請從你為魔法學徒所選的同一份牧師、德魯伊或法師法術列表中選擇兩道法術，並選擇相同的施法屬性。</p><p>當你獲得等級時，Foundry 會為每道法術提供替換選項。該等級只替換兩道法術中的一道。</p></section>",
+      "name": "魔法行家"
     },
     "Mastered Necromancy": {
       "advancement": {
@@ -486,17 +486,17 @@
         }
       },
       "description": "<p>Your choice grants you the following features:</p><p class=\"hanging\"><strong>Rote Casting.</strong> Choose a level 1 spell from the chosen school that appears on your class’s spell list. You always have that spell prepared and can cast it without a spell slot or spell components.</p><p class=\"hanging\"><strong>Signature Arcanum.</strong> Choose a level 7 or lower spell from the chosen school. You always have that spell prepared. You can cast it once without a spell slot, and you regain the ability to cast it in this way when you finish a Long Rest.</p><p>You can also cast these prepared spells using any spell slots you have of the appropriate level.</p><p><span class=\"inline-h4\">Repeatable.</span> You can take this feat more than once, but you must choose a different school of magic each time.</p>",
-      "name": "Mastered Abjuration"
+      "name": "精通防護"
     },
     "Spell Subterfuge": {
       "activities": {
         "Shrouding Spells": {
-          "condition": "After you cast a spell that has a casting time of an action using a spell slot",
-          "name": "Shrouding Spells"
+          "condition": "在你使用法術位施放一道施法時間為動作的法術後",
+          "name": "覆身法術"
         }
       },
-      "description": "<p>You gain the following benefits.</p><p><span class=\"inline-h4\">Ability Score Increase.</span> Increase your Intelligence, Wisdom, or Charisma score by 1, to a maximum of 20.</p><p><span class=\"inline-h4\">Shrouding Spells.</span> After you cast a spell that has a casting time of an action using a spell slot, you can take both the &amp;Reference[Dash] and &amp;Reference[Hide] actions as a Bonus Action. You can use this benefit a number of times equal to the ability modifier of the score increased by this feat, and you regain all expended uses when you finish a Long Rest.</p><p><span class=\"inline-h4\">Sneaky Casting.</span> If you have the Hide action’s &amp;Reference[Invisible apply=false] condition, casting a spell with a Verbal component or making a spell attack doesn’t end that condition on you if you end the turn behind &amp;Reference[Three-Quarters Cover] or &amp;Reference[Total Cover].</p><section id=\"secret-Jgokg0VHoVX2zWOn\" class=\"secret hide-in-embed\"><p><strong>Foundry Note</strong></p><p>After choosing your Ability Score Increase, set Limited Uses Max to <code>@abilities.int.mod</code>, <code>@abilities.wis.mod</code>, or <code>@abilities.cha.mod</code> to match your choice.</p></section>",
-      "name": "Spell Subterfuge"
+      "description": "<p>你獲得下列好處。</p><p><span class=\"inline-h4\">【屬性值提升】</span>你的智力、感知或魅力提升1點，上限為20。</p><p><span class=\"inline-h4\">【覆身法術】</span>在你使用法術位施放一道施法時間為動作的法術後，你能以附贈動作同時採取&amp;Reference[Dash]{疾走}和&amp;Reference[Hide]{躲藏}動作。你能使用此好處的次數等同於你以此專長提升的屬性調整值，當你完成長休時重獲所有已消耗的使用次數。</p><p><span class=\"inline-h4\">【隱祕施法】</span>若你具有躲藏動作的&amp;Reference[Invisible apply=false]{隱形}狀態，只要你在&amp;Reference[Three-Quarters Cover]{四分之三掩護}或&amp;Reference[Total Cover]{全身掩護}後結束該回合，施放帶有言語成分的法術或發動法術攻擊就不會終止你身上的該狀態。</p><section id=\"secret-Jgokg0VHoVX2zWOn\" class=\"secret hide-in-embed\"><p><strong>Foundry 註記</strong></p><p>選定你的屬性值提升之後，請將「有限使用次數上限」設為<code>@abilities.int.mod</code>、<code>@abilities.wis.mod</code>或<code>@abilities.cha.mod</code>，以符合你的選擇。</p></section>",
+      "name": "法術詭計"
     },
     "Boon of Magic School Mastery": {
       "name": "Boon of Magic School Mastery",
@@ -510,36 +510,36 @@
     "Arcane Warrior": {
       "advancement": {
         "bO7bNHwkXzs14isW": {
-          "hint": "<p class=\"metadata\">Fighting Style Feat (Prerequisite: Fighting Style Feature)</p><p>You learn two Wizard cantrips of your choice. <em>@UUID[Compendium.dnd5e.spells24.Item.phbsplMageHand00]{Mage Hand}</em> and <em>@UUID[Compendium.dnd5e.spells24.Item.phbsplRayofFrost]{Ray of Frost}</em> are recommended. Intelligence, Wisdom, or Charisma is your spellcasting ability for these spells (choose when you select this feat).</p><p>Whenever you gain a level, you can replace one of these cantrips with another Wizard cantrip.</p>"
+          "hint": "<p class=\"metadata\">戰鬥風格專長（先決條件：戰鬥風格特性）</p><p>你習得兩道你所選擇的法師戲法。推薦選擇<em>@UUID[Compendium.dnd5e.spells24.Item.phbsplMageHand00]</em>與<em>@UUID[Compendium.dnd5e.spells24.Item.phbsplRayofFrost]</em>。你施放這些法術的施法屬性是智力、感知或魅力（在你選取此專長時選擇）。</p><p>每當你升級時，你可以將其中一道戲法替換為另一道法師戲法。</p>"
         }
       },
-      "description": "<p>You learn two Wizard cantrips of your choice. <em>@UUID[Compendium.dnd5e.spells24.Item.phbsplMageHand00]{Mage Hand}</em> and <em>@UUID[Compendium.dnd5e.spells24.Item.phbsplRayofFrost]{Ray of Frost}</em> are recommended. Intelligence, Wisdom, or Charisma is your spellcasting ability for these spells (choose when you select this feat).</p><p>Whenever you gain a level, you can replace one of these cantrips with another Wizard cantrip.</p>",
-      "name": "Arcane Warrior"
+      "description": "<p>你習得兩道你所選擇的法師戲法。推薦選擇<em>@UUID[Compendium.dnd5e.spells24.Item.phbsplMageHand00]</em>與<em>@UUID[Compendium.dnd5e.spells24.Item.phbsplRayofFrost]</em>。你施放這些法術的施法屬性是智力、感知或魅力（在你選取此專長時選擇）。</p><p>每當你升級時，你可以將其中一道戲法替換為另一道法師戲法。</p>",
+      "name": "奧術武者"
     },
     "Transmutation Adept": {
-      "description": "<p>You gain the following benefits.</p><p><span class=\"inline-h4\">Ability Score Increase.</span> Increase your Intelligence, Wisdom, or Charisma score by 1, to a maximum of 20.</p><p><span class=\"inline-h4\">Additional Spells.</span> Your prowess allows you to always have certain spells at the ready. When you have spell slots of a level specified in the Transmutation Adept Spells table, you thereafter always have the spells listed for that level and lower prepared.</p><p><span class=\"inline-h4\">Magical Augmentation.</span> On your turn when you cast a spell from the Transmutation school using a spell slot, your Speed increases by a number of feet equal to five times the level of spell slot expended. This increase lasts until the end of the turn.</p><table><caption><p>Transmutation Adept Spells</p></caption><thead><tr><th scope=\"col\"><p>Spell Slot Level</p></th><th scope=\"col\"><p>Spell</p></th></tr></thead><tbody><tr><td><p>1</p></td><td><p><em>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplJump000000]{Jump}</em></p></td></tr><tr><td><p>2</p></td><td><p><em>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplSpiderClim]{Spider Climb}</em></p></td></tr><tr><td><p>3</p></td><td><p><em>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplSlow000000]{Slow}</em></p></td></tr><tr><td><p>4</p></td><td><p><em>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplPolymorph0]{Polymorph}</em></p></td></tr><tr><td><p>5</p></td><td><p><em>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplAnimateObj]{Animate Objects}</em></p></td></tr></tbody></table><section id=\"secret-L57gwPvZ7wpo4LJr\" class=\"secret hide-in-embed\"><p><strong>Foundry Note</strong></p><p>All five spells are granted when you gain this feat, but the higher-level spells remain unavailable until you have the required spell slots.</p></section>",
+      "description": "<p>你獲得下列好處。</p><p><span class=\"inline-h4\">【屬性值提升】</span>你的智力、感知或魅力提升1點，上限為20。</p><p><span class=\"inline-h4\">【額外法術】</span>你的造詣令你始終準備特定法術。當你具有變化專家法術表指定環階的法術位時，你此後始終準備著該環階及更低環階對應的法術。</p><p><span class=\"inline-h4\">【魔法增幅】</span>當你在你的回合內使用法術位施放一道來自變化學派的法術時，你的速度增加等同於所消耗法術位環階五倍的呎數。該增幅持續至該回合結束。</p><table><caption><p>變化專家法術</p></caption><thead><tr><th scope=\"col\"><p>法術位環階</p></th><th scope=\"col\"><p>法術</p></th></tr></thead><tbody><tr><td><p>1</p></td><td><p><em>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplJump000000]{跳躍術}</em></p></td></tr><tr><td><p>2</p></td><td><p><em>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplSpiderClim]{蛛行術}</em></p></td></tr><tr><td><p>3</p></td><td><p><em>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplSlow000000]{緩速術}</em></p></td></tr><tr><td><p>4</p></td><td><p><em>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplPolymorph0]{變形術}</em></p></td></tr><tr><td><p>5</p></td><td><p><em>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplAnimateObj]{活化物體}</em></p></td></tr></tbody></table><section id=\"secret-L57gwPvZ7wpo4LJr\" class=\"secret hide-in-embed\"><p><strong>Foundry 註記</strong></p><p>五道法術會在你取得此專長時一併授予，但在你具有對應環階的法術位之前，較高環階的法術仍無法使用。</p></section>",
       "activities": {
         "Magical Augmentation": {
-          "name": "Magical Augmentation",
-          "condition": "Cast a Transmutation spell using a spell slot"
+          "name": "魔法增幅",
+          "condition": "使用法術位施放一道變化學派的法術"
         }
       },
-      "name": "Transmutation Adept",
+      "name": "變化專家",
       "effects": {
         "Magical Augmentation: Speed Increase": {
-          "description": "<p>On your turn when you cast a spell from the Transmutation school using a spell slot, your Speed increases by a number of feet equal to five times the level of spell slot expended. This increase lasts until the end of the turn.</p>",
-          "name": "Magical Augmentation: Speed Increase"
+          "description": "<p>當你在你的回合內使用法術位施放一道來自變化學派的法術時，你的速度增加等同於所消耗法術位環階五倍的呎數。該增幅持續至該回合結束。</p>",
+          "name": "魔法增幅：速度提升"
         }
       }
     },
     "Arcane Infiltrator": {
       "activities": {
         "Dodge": {
-          "name": "Dodge"
+          "name": "迴避"
         }
       },
-      "name": "Arcane Infiltrator",
-      "description": "<p>You gain the following benefits.</p><p><span class=\"inline-h4\">Cantrip.</span> You learn the <em>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplFriends000]{Friends}</em> cantrip. Intelligence, Wisdom, or Charisma is your spellcasting ability for this spell (choose when you select this feat).</p><p><span class=\"inline-h4\">Cunning Diversion.</span> You can take the &amp;Reference[Dodge] action as a Bonus Action. You can use this benefit a number of times equal to your Proficiency Bonus, and you regain all expended uses when you finish a Long Rest.</p>"
+      "name": "奧法滲透者",
+      "description": "<p>你獲得下列好處。</p><p><span class=\"inline-h4\">【戲法】</span>你習得<em>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplFriends000]{交友術}</em>戲法。你施放該法術的施法屬性是智力、感知或魅力（在你選取此專長時選擇）。</p><p><span class=\"inline-h4\">【詭影迷蹤】</span>你能以附贈動作採取&amp;Reference[Dodge]{迴避}動作。你能使用此好處的次數等同於你的熟練加值，當你完成長休時重獲所有已消耗的使用次數。</p>"
     }
   }
 }
