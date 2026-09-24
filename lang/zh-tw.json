@@ -1,0 +1,7287 @@
+{
+  "DOCUMENT.Activity": "行動",
+  "DOCUMENT.Advancement": "升級",
+  "DOCUMENT.DND5E": {
+    "Warning": {
+      "SelectType": "{name} 類型必須選擇以進行建立。"
+    }
+  },
+  "TYPES.Actor": {
+    "character": "玩家角色",
+    "characterPl": "玩家角色",
+    "encounter": "遭遇",
+    "encounterPl": "遭遇",
+    "group": "團隊",
+    "groupPl": "團隊",
+    "npc": "非玩家角色",
+    "npcPl": "非玩家角色",
+    "vehicle": "載具",
+    "vehiclePl": "載具"
+  },
+  "TYPES.ActiveEffect": {
+    "enchantment": "附魔",
+    "enchantmentPl": "附魔"
+  },
+  "TYPES.ChatMessage": {
+    "item": "物品訊息",
+    "prompt": "提示訊息",
+    "request": "請求訊息",
+    "rest": "休息訊息",
+    "timePassed": "時間經過訊息",
+    "turn": "戰鬥回合訊息",
+    "usage": "使用訊息"
+  },
+  "TYPES.Item": {
+    "background": "背景",
+    "backgroundPl": "背景",
+    "container": "容器",
+    "containerPl": "容器",
+    "class": "職業",
+    "classPl": "職業",
+    "consumable": "消耗品",
+    "consumablePl": "消耗品",
+    "equipment": "裝備",
+    "equipmentPl": "裝備",
+    "facility": "設施",
+    "facilityPl": "設施",
+    "feat": "特性",
+    "featurePl": "特性",
+    "loot": "戰利品",
+    "lootPl": "戰利品",
+    "race": "種族",
+    "racePl": "種族",
+    "raceLegacy": "種族",
+    "raceLegacyPl": "種族",
+    "spell": "法術",
+    "spellPl": "法術",
+    "subclass": "子職業",
+    "subclassPl": "子職業",
+    "tool": "工具",
+    "toolPl": "工具",
+    "weapon": "武器",
+    "weaponPl": "武器"
+  },
+  "TYPES.RegionBehavior": {
+    "dnd5e.applyActiveEffect": "套用Active Effect(5e)",
+    "dnd5e.difficultTerrain": "困難地形",
+    "dnd5e.rotateArea": "旋轉區域"
+  },
+  "TYPES.HINTS": {
+    "RegionBehavior": {
+      "dnd5e.applyActiveEffect": "將 Active Effect 套用至位於該區域且符合特定條件的圖標。",
+      "dnd5e.difficultTerrain": "將區域標記為困難地形，並設定其類型及受影響對象。",
+      "dnd5e.rotateArea": "圍繞中心點旋轉圖標、圖塊、牆壁及其他物體。"
+    }
+  },
+  "DND5E.title": "龍與地下城第五版",
+  "DND5E.AbbreviationCR": "CR",
+  "DND5E.AbbreviationConc": "專注",
+  "DND5E.AbbreviationDC": "DC",
+  "DND5E.AbbreviationKg": "kg",
+  "DND5E.AbbreviationLR": "長休",
+  "DND5E.AbbreviationLevel": "Lvl.",
+  "DND5E.AbbreviationLbs": "磅",
+  "DND5E.AbbreviationSR": "短休",
+  "DND5E.ABILITY": {
+    "Configure": {
+      "AttackLabel": "{ability}攻擊",
+      "CheckLabel": "{ability}檢定",
+      "SaveLabel": "{ability}豁免",
+      "Title": "配置{ability}"
+    },
+    "FIELDS": {
+      "abilities": {
+        "element": {
+          "attack": {
+            "roll": {
+              "bonus": {
+                "label": "攻擊加值"
+              },
+              "max": {
+                "label": "最大攻擊檢定"
+              },
+              "min": {
+                "label": "最小攻擊檢定"
+              },
+              "mode": {
+                "label": "攻擊優勢模式"
+              }
+            }
+          },
+          "check": {
+            "roll": {
+              "bonus": {
+                "label": "檢定加值"
+              },
+              "max": {
+                "label": "最大檢定擲骰"
+              },
+              "min": {
+                "label": "最小檢定擲骰"
+              },
+              "mode": {
+                "label": "檢定優勢模式"
+              }
+            }
+          },
+          "save": {
+            "roll": {
+              "bonus": {
+                "label": "豁免加值"
+              },
+              "max": {
+                "label": "最大豁免檢定"
+              },
+              "min": {
+                "label": "最小豁免檢定"
+              },
+              "mode": {
+                "label": "豁免優勢模式"
+              }
+            }
+          }
+        }
+      }
+    },
+    "Formatter": {
+      "Attack": {
+        "AdvantageMode": "{name}攻擊優勢模式",
+        "Bonus": "{name}攻擊加值",
+        "最大值": "最大{name}攻擊檢定",
+        "Minimum": "最小{name}攻擊檢定"
+      },
+      "Check": {
+        "AdvantageMode": "{name}檢定優勢模式",
+        "Bonus": "{name}檢定加值",
+        "最大值": "最大{name}檢定擲骰",
+        "Minimum": "最小{name}檢定擲骰"
+      },
+      "最大值": "最大{name}",
+      "Save": {
+        "AdvantageMode": "{name}豁免優勢模式",
+        "Bonus": "{name}豁免加值",
+        "最大值": "最大{name}豁免檢定",
+        "Minimum": "最小{name}豁免檢定",
+        "Proficiency": "{name}豁免熟練"
+      },
+      "Score": "{name}屬性值"
+    },
+    "SECTIONS": {
+      "Bonuses": {
+        "Label": "{ability}加值",
+        "Hint": "這些加值適用於{ability}的檢定和豁免。"
+      },
+      "Global": {
+        "Label": "全域加值",
+        "Hint": "這些加值適用於任何屬性的檢定和豁免。"
+      },
+      "Score": "{ability}屬性值"
+    }
+  },
+  "DND5E.Ability": "屬性",
+  "DND5E.Abilities": "屬性",
+  "DND5E.AbilityStr": "力量",
+  "DND5E.AbilityStrAbbr": "str",
+  "DND5E.AbilityCon": "體質",
+  "DND5E.AbilityConAbbr": "con",
+  "DND5E.AbilityDex": "敏捷",
+  "DND5E.AbilityDexAbbr": "dex",
+  "DND5E.AbilityInt": "智力",
+  "DND5E.AbilityIntAbbr": "int",
+  "DND5E.AbilityWis": "感知",
+  "DND5E.AbilityWisAbbr": "wis",
+  "DND5E.AbilityCha": "魅力",
+  "DND5E.AbilityChaAbbr": "cha",
+  "DND5E.AbilityHon": "榮譽",
+  "DND5E.AbilityHonAbbr": "榮譽",
+  "DND5E.AbilitySan": "理智",
+  "DND5E.AbilitySanAbbr": "理智",
+  "DND5E.AbilityScore": "屬性值",
+  "DND5E.AbilityScoreShort": "屬性值",
+  "DND5E.AbilityScorePl": "屬性值",
+  "DND5E.AbilityScoreL": "{ability} ",
+  "DND5E.AbilityScoreMax": "屬性值上限",
+  "DND5E.AbilityScoreMaxShort": "上限",
+  "DND5E.AbilityModifier": "屬性調整值",
+  "DND5E.AbilityModifierShort": "Mod",
+  "DND5E.AbilityPromptText": "什麼類型的 {ability} 檢定？",
+  "DND5E.AbilityPromptTitle": "{ability} 屬性檢定",
+  "DND5E.AbilityUseChargesLabel": "{value} 發充能",
+  "DND5E.AbilityUseConsumableLabel": "{max} 發/每 {per}",
+  "DND5E.AbilityUseCast": "施法",
+  "DND5E.AbilityUseUse": "使用能力",
+  "DND5E.AbilityUseConfig": "使用配置",
+  "DND5E.AbilityBonuses": "屬性加值",
+  "DND5E.AbilityConfigure": "配置{ability}",
+  "DND5E.AbilityConfigureTitle": "配置 {ability} 豁免和檢定",
+  "DND5E.AbilitySaveConfigure": "{ability} 豁免",
+  "DND5E.AbilityCheckConfigure": "{ability} 屬性檢定",
+  "DND5E.AbilityCheckConfigurationHint": "設置屬性加值.",
+  "DND5E.AbilityConfigurationHint": "配置屬性豁免熟練值、豁免加值和檢定加值。",
+  "DND5E.AbilityCheckGlobalBonusHint": "此加值適用於該角色進行的所有屬性檢定。",
+  "DND5E.Action": "動作",
+  "DND5E.ActionAbbr": "A",
+  "DND5E.ActionPl": "動作",
+  "DND5E.ActionAbil": "屬性檢定",
+  "DND5E.ActionEnch": "附魔",
+  "DND5E.ActionHeal": "治療",
+  "DND5E.ActionMSAK": "近戰法術攻擊",
+  "DND5E.ActionMWAK": "近戰武器攻擊",
+  "DND5E.ActionOther": "其他",
+  "DND5E.ActionRSAK": "遠程法術攻擊",
+  "DND5E.ActionRWAK": "遠程武器攻擊",
+  "DND5E.ActionSave": "豁免骰",
+  "DND5E.ActionSumm": "召喚",
+  "DND5E.ActionUtil": "效應",
+  "DND5E.ActionWarningNoItem": "角色 {name} 不再擁有請求的物品 {item}",
+  "DND5E.ActionWarningNoToken": "你必須擁有一個以上的可控制的指示物以使用這個選項。",
+  "DND5E.ACTIVATION": {
+    "FIELDS": {
+      "activation": {
+        "label": "觸發方式",
+        "condition": {
+          "label": "觸發條件",
+          "hint": "啟用此行動所需達成的條件。"
+        },
+        "override": {
+          "label": "覆寫觸發方式",
+          "hint": "當你使用此行動時，將以這些觸發方式取代物品原本的設定。"
+        },
+        "type": {
+          "label": "觸發花費時間",
+          "hint": "觸發類型（例如：動作、傳奇動作、分鐘等）。"
+        },
+        "value": {
+          "label": "觸發值",
+          "hint": "與觸發方式相關的數值。"
+        }
+      }
+    },
+    "Category": {
+      "Combat": "戰鬥",
+      "Monster": "怪物",
+      "Rest": "休息",
+      "Standard": "標準",
+      "Time": "時間",
+      "Vehicle": "載具"
+    },
+    "Type": {
+      "Action": {
+        "Header": "動作",
+        "Label": "動作"
+      },
+      "BonusAction": {
+        "Header": "附贈動作",
+        "Label": "附贈動作"
+      },
+      "Crew": {
+        "Counted": {
+          "one": "{number} 個乘員動作",
+          "other": "{number} 個乘員動作"
+        },
+        "Header": "乘員動作",
+        "Label": "乘員動作"
+      },
+      "Day": {
+        "Header": "天數",
+        "Label": "天"
+      },
+      "Encounter": {
+        "Label": "遭遇開始"
+      },
+      "Hour": {
+        "Header": "小時",
+        "Label": "小時"
+      },
+      "Lair": {
+        "Header": "巢穴動作",
+        "Label": "巢穴動作"
+      },
+      "Legendary": {
+        "Counted": {
+          "one": "{number}傳奇動作",
+          "other": "{number}次傳奇動作"
+        },
+        "Header": "傳奇動作",
+        "Label": "傳奇動作"
+      },
+      "LongRest": {
+        "Label": "長休結束時"
+      },
+      "Minute": {
+        "Header": "分鐘",
+        "Label": "分鐘"
+      },
+      "Mythic": {
+        "Counted": {
+          "one": "{number} 個神話動作",
+          "other": "{number} 個神話動作"
+        },
+        "Header": "神話動作",
+        "Label": "神話動作"
+      },
+      "Reaction": {
+        "Header": "反應動作",
+        "Label": "反應動作"
+      },
+      "ShortRest": {
+        "Label": "短休結束時"
+      },
+      "TurnEnd": {
+        "Label": "回合結束"
+      },
+      "TurnStart": {
+        "Label": "回合開始"
+      }
+    },
+    "Warning": {
+      "NoActions": "目前沒有可用的 {type}，但此動作至少需要 {required} 次。",
+      "NotEnoughActions": "可用的 {type} 不足，需 {required} 次，但僅有 {available} 次。"
+    }
+  },
+  "DND5E.ACTIVITY": {
+    "Action": {
+      "Create": "創建行動",
+      "Delete": "刪除行動",
+      "Edit": "編輯行動"
+    },
+    "Title": {
+      "one": "行動",
+      "other": "行動"
+    },
+    "FIELDS": {
+      "behaviors": {
+        "element": {
+          "level": {
+            "label": "等級限制",
+            "hint": "套用此行為所需的等級範圍。",
+            "max": {
+              "label": "最高等級"
+            },
+            "min": {
+              "label": "最低等級"
+            }
+          },
+          "name": {
+            "label": "名稱"
+          }
+        },
+        "label": "區域效果行為"
+      },
+      "description": {
+        "label": "描述",
+        "chatFlavor": {
+          "label": "對話框",
+          "hint": "在觸發對話訊息中顯示的額外文字。"
+        }
+      },
+      "effects": {
+        "element": {
+          "level": {
+            "label": "等級限制",
+            "hint": "套用此效果所需的等級範圍。",
+            "max": {
+              "label": "最高等級"
+            },
+            "min": {
+              "label": "最低等級"
+            }
+          }
+        },
+        "label": "應用效果"
+      },
+      "img": {
+        "label": "圖示"
+      },
+      "name": {
+        "label": "名稱"
+      },
+      "visibility": {
+        "identifier": {
+          "hint": "套用等級限制的職業識別碼。若留空，則使用角色等級。",
+          "label": "職業識別碼"
+        },
+        "label": "可見度",
+        "level": {
+          "hint": "使用此行動所需的等級範圍。",
+          "label": "等級限制",
+          "max": {
+            "label": "最高等級"
+          },
+          "min": {
+            "label": "最低等級"
+          }
+        },
+        "requireAttunement": {
+          "hint": "如果物品需要同調且未同調，則無法使用此行動。",
+          "label": "需要同調"
+        },
+        "requireIdentification": {
+          "hint": "如果物品未被鑑定，則無法使用此行動。",
+          "label": "需要鑑定"
+        },
+        "requireMagic": {
+          "hint": "如果無法使用魔法，則無法使用此行動。",
+          "label": "需要魔法"
+        }
+      }
+    },
+    "SECTIONS": {
+      "Activation": "行動",
+      "Behavior": "行為",
+      "Effect": "效果",
+      "Identity": "標識",
+      "Time": "時間"
+    },
+    "Warning": {
+      "UsageNotAllowed": "當前無法使用此行動。"
+    }
+  },
+  "DND5E.ACTOR": {
+    "Warning": {
+      "CreateActor": "你必須擁有「建立新角色」的權限，才能直接從套件庫召喚。",
+      "InvalidItem": "{itemType}物品無法被加入至{actorType}中。",
+      "NoActor": "無法找到 UUID 為 '{uuid}' 的角色以進行召喚。",
+      "Singleton": "只能有一個{itemType}被加入至{actorType}中。"
+    }
+  },
+  "DND5E.Add": "增加",
+  "DND5E.AdditionalControls": "額外控制項",
+  "DND5E.AdditionalSettings": "額外設定",
+  "DND5E.Advanced": "升級",
+  "DND5E.ADVANCEMENT": {
+    "AbilityScoreImprovement": {
+      "Action": {
+        "Select": "選擇專長"
+      },
+      "CapDisplay": {
+        "one": "每個屬性最大{points}點",
+        "other": "每個屬性最大{points}點"
+      },
+      "Details": "提升詳情",
+      "EffectTargetHint": "此屬性值正受到作用中效果（Active Effect）修改。其最終數值將為 {value}。",
+      "Feat": {
+        "ASIName": "屬性值提升專長",
+        "Hint": "選擇並拖曳一個專長至此，以取代屬性值提升。"
+      },
+      "FIELDS": {
+        "cap": {
+          "hint": "玩家可分配至單一屬性值的最大點數。",
+          "label": "點數上限"
+        },
+        "fixed": {
+          "hint": "提升固定數值的屬性值在過程中無法手動調整。",
+          "label": "固定提升"
+        },
+        "locked": {
+          "hint": "屬性無法提升",
+          "label": "鎖定",
+          "locked": "屬性已鎖定，無法提升",
+          "unlocked": "屬性可以提升"
+        },
+        "max": {
+          "hint": "在角色允許的範圍內提高屬性值上限。",
+          "label": "最大值"
+        },
+        "points": {
+          "decrease": "降低點數",
+          "hint": "可分配至未鎖定屬性值的點數。",
+          "increase": "提升點數",
+          "label": "點數"
+        },
+        "recommendation": {
+          "hint": "此職業推薦的傳奇恩惠（Epic Boon）專長。",
+          "label": "推薦"
+        }
+      },
+      "Hint": "允許玩家提升一項或多項屬性值，或選擇一個可用的專長。",
+      "Journal": {
+        "DescriptionEpic": "<p>你獲得一個傳奇恩惠專長，或是其他你符合條件且所選的專長。</p>",
+        "DescriptionEpicRecommendation": "<p>你獲得一個傳奇恩惠專長，或是其他你符合條件且所選的專長。推薦選擇 {recommendation}。</p>",
+        "DescriptionLegacy": "<p>當你到達{firstLevelOrdinal}級時，之後每當到達{otherLevelsOrdinal}級時，你可以選擇將一項屬性值提升 2 點，或將兩項屬性值各提升 1 點。一如往常，你無法透過此特性將屬性值提升至高於 {maxAbilityScore}。</p><p>若使用可選專長規則，你可以放棄此特性，改為選擇一個符合條件的專長。</p>",
+        "DescriptionModern": "<p>你獲得「屬性值提升」專長，或一個你符合條件的其他專長。此特性會在你達到 {class} 的 {otherLevels} 級時再次獲得。</p>",
+        "Name": "屬性值提升"
+      },
+      "LockedHint": "當選擇專長，屬性值無法調整。",
+      "PointsRemaining": {
+        "one": "剩餘{points}點",
+        "other": "剩餘{points}點"
+      },
+      "Title": "屬性值提升",
+      "TitleEpic": "傳奇恩惠",
+      "Warning": {
+        "Type": "僅能選擇類型為「專長」的特性。"
+      }
+    },
+    "Action": {
+      "Create": "創建升級項",
+      "Delete": "刪除升級項",
+      "Duplicate": "複製升級項",
+      "Edit": "編輯升級項",
+      "ModifyChoices": "修改選擇",
+      "View": "查看升級項"
+    },
+    "Config": {
+      "AnyLevel": "任意等級",
+      "Details": "升級詳情",
+      "Status": {
+        "Complete": "設定齊全",
+        "Incomplete": "未設定"
+      },
+      "Title": "設定 {item} 升級"
+    },
+    "Defaults": {
+      "BackgroundFeat": "背景專長",
+      "BackgroundFeature": "背景特性",
+      "BackgroundProficiencies": "背景熟練",
+      "ChooseLanguages": "選擇語言"
+    },
+    "Deletion": {
+      "Delete": {
+        "Message": "刪除此物品也將會刪除為其所做的所有升級選擇。只要勾選下方的核取方塊，這些變更將從你的角色中移除。",
+        "Title": "確認刪除"
+      },
+      "LevelDown": {
+        "Message": "降低此職業的等級也將會刪除為其所做的所有升級選擇。只要勾選下方的核取方塊，這些變更將從你的角色中移除。",
+        "Title": "降低等級"
+      },
+      "Label": "移除變更",
+      "Options": "選項"
+    },
+    "FIELDS": {
+      "classRestriction": {
+        "label": "職業限制",
+        "none": "所有職業",
+        "primary": "僅限初始職業",
+        "secondary": "僅限兼職職業"
+      },
+      "hint": {
+        "label": "提示"
+      },
+      "img": {
+        "label": "自訂圖示"
+      },
+      "level": {
+        "label": "等級"
+      },
+      "name": {
+        "label": "自訂標題"
+      }
+    },
+    "HitPoints": {
+      "Action": {
+        "RollClass": "擲 {class} 生命值",
+        "RollDie": "擲 {die}"
+      },
+      "Average": "平均值",
+      "Breakdown": {
+        "Average": "Avg.",
+        "Bonus": "Bonus",
+        "Final": "Final",
+        "Max": "Max",
+        "Previous": "Prev.",
+        "Roll": "Roll"
+      },
+      "Hint": "追蹤玩家在職業中的每級生命值。",
+      "MaxAtFirstLevel": "首級取滿：<strong>{max}</strong>",
+      "Options": "選項",
+      "Starting": "首級生命值",
+      "TakeAverage": "取平均值",
+      "Title": "生命值",
+      "Warning": {
+        "Empty": "必須擲生命值或取平均值。",
+        "Invalid": "生命值必須是整數。"
+      }
+    },
+    "ItemChoice": {
+      "Action": {
+        "SelectGeneric": "選擇物品",
+        "SelectSpecific": "選擇 {type}"
+      },
+      "Choose": "選擇{count}",
+      "Chosen": "選擇：{current} / {max}",
+      "Details": "選項詳情",
+      "DropHint": "將物品拖曳到此處，加入可在此升級項中選擇的列表。",
+      "FIELDS": {
+        "allowDrops": {
+          "hint": "允許玩家自行拖曳選項到此升級項中。",
+          "label": "允許拖曳"
+        },
+        "choices": {
+          "hint": "指定每個等級可選擇的數量。",
+          "label": "選擇",
+          "FIELDS": {
+            "count": {
+              "label": "數量"
+            },
+            "replacement": {
+              "label": "允許替代"
+            }
+          }
+        },
+        "pool": {
+          "label": "物品選項"
+        },
+        "restriction": {
+          "level": {
+            "Available": "所有可用環位",
+            "AvailableNoCantrips": "任何可用環階（不包含戲法）",
+            "hint": "僅允許選擇此環位的法術。",
+            "label": "法術環位"
+          },
+          "list": {
+            "hint": "僅允許來自這些列表的法術。",
+            "label": "法術列表"
+          },
+          "school": {
+            "hint": "僅允許來自這些學派的法術。",
+            "label": "法術學派"
+          },
+          "subtype": {
+            "label": "子類"
+          },
+          "type": {
+            "label": "類型"
+          }
+        },
+        "sorting": {
+          "label": "排序模式"
+        },
+        "type": {
+          "Any": "任意類型",
+          "hint": "限制可被選擇的物品類型。",
+          "label": "物品類型"
+        }
+      },
+      "Hint": "讓玩家從一組物品中做出選擇（如裝備、特性或法術），可套用於一級或多級角色成長中。",
+      "Options": "選項",
+      "Replacement": {
+        "None": "不可替代",
+        "Title": "替代"
+      },
+      "Title": "選擇物品",
+      "Warning": {
+        "InvalidType": "僅可選擇類型為 {type} 的物品。",
+        "MaxSelected": "無法再選擇其他物品，請在選擇更多物品前取消勾選。",
+        "NoOriginal": "先前的選擇已無法進行替代。",
+        "SpellLevelAvailable": "此升級項僅可選擇{level}環或更低的法術。",
+        "SpellLevelSpecific": "此升級項僅可選擇{level}環的法術。",
+        "SpellList": "此升級只能選擇在 {lists} 法術列表中的法術。",
+        "SpellSchool": "此升級只能選擇 {schools} 學派的法術。",
+        "FeatureLevel": "必須達到 {level} 級才能選擇此特性。",
+        "PreviouslyChosen": "此物品已在先前的等級中選擇過。"
+      }
+    },
+    "ItemGrant": {
+      "Details": "獲得詳情",
+      "DropHint": "將項目拖曳到此處，將其新增至此升級給予的列表中。",
+      "FIELDS": {
+        "items": {
+          "label": "物品"
+        },
+        "optional": {
+          "label": "可選",
+          "hint": "如果可選，玩家將能選擇取消以下任何項目，否則所有項目都將被給予。"
+        },
+        "sorting": {
+          "label": "排序模式"
+        }
+      },
+      "Hint": "當角色達到一定等級時給予項目（例如裝備、特性或法術）。",
+      "Title": "獲得項目",
+      "Warning": {
+        "Container": "容器內容物不會隨容器一起加入。",
+        "Duplicate": "該項目已存在於此升級。",
+        "Recursive": "你無法在自己升級時獲得一個項目。",
+        "Type": "{type} 物品不能新增至此升級類型中。"
+      }
+    },
+    "Label": "升級",
+    "Level": {
+      "Any": "任意等級",
+      "None": "無等級",
+      "Specific": "{level} 級"
+    },
+    "Manager": {
+      "Action": {
+        "Complete": "完成",
+        "NextStep": "下一步",
+        "PreviousStep": "上一步",
+        "Restart": "重新開始"
+      },
+      "ClosePrompt": {
+        "Action": {
+          "Continue": "繼續",
+          "Stop": "停止升級"
+        },
+        "Message": "<p>如果取消升級過程，則迄今為止所做的選擇將被放棄，並且不會對角色進行任何修改。</p>",
+        "Title": "停止升級"
+      },
+      "RestartPrompt": {
+        "Message": "你確定要撤銷目前為止的所有選擇嗎？",
+        "Title": "重新開始升級選擇"
+      },
+      "Steps": "步驟{current} / {total}",
+      "Title": {
+        "Default": "升級",
+        "LevelIncreased": "升級腳色",
+        "LevelNewClass": "新增職業",
+        "ModifyChoices": "調整選擇"
+      }
+    },
+    "Migration": {
+      "Action": {
+        "Confirm": "套用轉移"
+      },
+      "Hint": "選擇以下要新增至 {name} 的升級中。",
+      "Selection": "升級選擇",
+      "Title": "轉移升級"
+    },
+    "ModifyItem": {
+      "Action": {
+        "AddChange": "新增變更",
+        "DeleteChange": "刪除變更"
+      },
+      "DropHint": "將附魔拖曳至此處",
+      "Empty": {
+        "WithDropdown": "沒有變更。使用上方的 <i class=\"fa-solid fa-plus\"></i> 按鈕建立一個，或從下拉選單中選擇現有的效果。",
+        "WithoutDropdown": "沒有變更。使用上方的 <i class=\"fa-solid fa-plus\"></i> 按鈕建立一個。"
+      },
+      "FIELDS": {
+        "changes": {
+          "element": {
+            "enchantment": {
+              "label": "套用的附魔"
+            },
+            "identifiers": {
+              "hint": "將被此附魔修改的物品識別碼。識別碼可加上物品類型作為前綴（例如 \"spell:mage-hand\"）。",
+              "label": "修改的物品"
+            }
+          },
+          "label": "物品變更"
+        }
+      },
+      "Hint": "使用附魔來修改現有的物品。",
+      "Title": "修改物品"
+    },
+    "ScaleValue": {
+      "Action": {
+        "CopyFormula": "複製公式"
+      },
+      "Details": "比例值詳情",
+      "FIELDS": {
+        "distance": {
+          "units": {
+            "label": "距離單位"
+          }
+        },
+        "identifier": {
+          "label": "識別碼"
+        },
+        "scale": {
+          "label": "比例"
+        },
+        "type": {
+          "label": "比例類型"
+        }
+      },
+      "Hint": "隨著職業等級提升而變動的單一數值，可用於擲骰公式中（如武僧的武藝骰）。",
+      "Title": "比例值",
+      "Type": {
+        "CR": {
+          "FIELDS": {
+            "value": {
+              "label": "CR"
+            }
+          },
+          "Hint": "用於表示如荒野型態等特性所依據的生物挑戰等級。",
+          "Label": "挑戰等級"
+        },
+        "Dice": {
+          "FIELDS": {
+            "faces": {
+              "label": "骰面數"
+            },
+            "number": {
+              "label": "骰子數量"
+            }
+          },
+          "Hint": "用於成長型骰值，如激勵骰、偷襲傷害或戰技骰。",
+          "Identifier": "此等級的成長值可透過以下公式存取：<br><copyable-text>@scale.{class}.{identifier}</copyable-text> - 完整公式（例：<code>4d6</code>）<br><copyable-text>@scale.{class}.{identifier}.die</copyable-text> - 完整骰型（例：<code>d6</code>）<br><copyable-text>@scale.{class}.{identifier}.number</copyable-text> - 骰子數量（例：<code>4</code>）<br><copyable-text>@scale.{class}.{identifier}.faces</copyable-text> - 骰面數（例：<code>6</code>）",
+          "Label": "骰值"
+        },
+        "Distance": {
+          "Hint": "用於距離相關數值，如無甲移動速度或守護靈光範圍。",
+          "Label": "距離"
+        },
+        "Number": {
+          "Hint": "用於純數值，如狂暴傷害加值或每日使用次數。",
+          "Label": "數值"
+        },
+        "String": {
+          "FIELDS": {
+            "value": {
+              "label": "數值"
+            }
+          },
+          "Hint": "若不確定比例值的類型，或類型不影響公式時可使用此項。",
+          "Identifier": "此等級的比例值可透過以下公式存取：<br><copyable-text>@scale.{class}.{identifier}</copyable-text>",
+          "Label": "其他"
+        },
+        "使用方式": {
+          "FIELDS": {
+            "period": {
+              "label": "期間"
+            },
+            "value": {
+              "label": "使用次數"
+            }
+          },
+          "Hint": "使用此設定來表示物品在特定期間內的使用次數。",
+          "Label": "使用方式"
+        }
+      },
+      "Warning": {
+        "DuplicateIdentifier": "多個比例值共用相同的識別碼 {identifier}。"
+      }
+    },
+    "Size": {
+      "Action": {
+        "SelectSize": "選擇體型"
+      },
+      "DefaultHint": {
+        "Multiple": "從{sizes}選擇你的體型。",
+        "Single": "你的體型是{size}。"
+      },
+      "FIELDS": {
+        "sizes": {
+          "label": "體型"
+        }
+      },
+      "Hint": "設定角色的體型。",
+      "Title": "體型"
+    },
+    "SPELLCONFIG": {
+      "FIELDS": {
+        "spell": {
+          "label": "法術詳情",
+          "ability": {
+            "label": "屬性"
+          },
+          "method": {
+            "label": "施法方式"
+          },
+          "prepared": {
+            "label": "準備"
+          },
+          "uses": {
+            "max": {
+              "label": "使用次數"
+            },
+            "per": {
+              "label": "間隔"
+            },
+            "requireSlot": {
+              "label": "需要法術位",
+              "hint": "使用此有限次數的法術時是否需要消耗法術位。若未勾選，則這些次數視為額外的免費施放次數。"
+            }
+          },
+          "preparation": {
+            "label": "準備模式"
+          }
+        }
+      },
+      "FreeCasting": "免費施法"
+    },
+    "Subclass": {
+      "Action": {
+        "Select": "選擇子職業"
+      },
+      "Hint": "指定此職業在第幾級獲得子職業。",
+      "Title": "子職業",
+      "Warning": {
+        "InvalidType": "僅能選擇子職業。"
+      }
+    },
+    "Trait": {
+      "Action": {
+        "AddChoice": "新增選擇",
+        "RemoveChoice": "移除選擇",
+        "RemoveTrait": "移除特性",
+        "SelectTrait": "選擇特性"
+      },
+      "ChoicesRemaining": "請再選擇{count}個{type}",
+      "Details": "特徵詳情",
+      "FIELDS": {
+        "allowReplacements": {
+          "hint": "若角色已有某項特徵，允許玩家改選其他特性作為替代。",
+          "label": "允許替代"
+        },
+        "choices": {
+          "hint": "以下特徵將作為選項提供給玩家選擇。",
+          "label": "可選特徵",
+          "element": {
+            "count": {
+              "label": "數量"
+            },
+            "pool": {
+              "label": "特性"
+            }
+          },
+          "FIELDS": {
+            "count": {
+              "label": "數量"
+            },
+            "pool": {
+              "label": "特徵"
+            }
+          }
+        },
+        "grants": {
+          "hint": "只要角色尚未擁有該特徵，角色將直接獲得以下特性。",
+          "label": "保底"
+        },
+        "mode": {
+          "label": "模式"
+        }
+      },
+      "Hint": "給予角色特定特徵，或讓玩家從多個特徵中選擇（如熟練項、技能、語言等）。",
+      "Mode": {
+        "Default": {
+          "Hint": "獲得一項特徵或熟練項。",
+          "Label": "預設"
+        },
+        "Expertise": {
+          "Hint": "獲得對熟練技能的專精。",
+          "Label": "專精"
+        },
+        "Force": {
+          "Hint": "無論是否已熟練，強制獲得該熟練項的專精。",
+          "Label": "強制專精"
+        },
+        "Mastery": {
+          "Hint": "獲得對熟練武器的精通。",
+          "Label": "武器精通"
+        },
+        "Upgrade": {
+          "Hint": "若尚未熟練則獲得熟練；若已熟練則提升為專精。",
+          "Label": "升級"
+        }
+      },
+      "TraitType": "特徵類型",
+      "Title": "特徵"
+    }
+  },
+  "DND5E.Advantage": "優勢",
+  "DND5E.AdvantageMode": "優勢模式",
+  "DND5E.ADVENTURE": {
+    "Finished": {
+      "one": "{adventure}準備完成。",
+      "other": "{number}個冒險準備完成。"
+    },
+    "ImportAction": {
+      "ActivateScene": "啟用初始場景",
+      "CustomizeWorld": "自訂世界細節",
+      "DisplayJournal": "顯示入門日誌"
+    },
+    "Options": "冒險選項",
+    "Warning": {
+      "JournalMissing": "找不到日誌條目 `{id}`，無法為 {adventure} 顯示。",
+      "SceneMissing": "找不到場景 `{id}`，無法為 {adventure} 啟動。"
+    }
+  },
+  "DND5E.Age": "年齡",
+  "DND5E.Alignment": "陣營",
+  "DND5E.AlignmentCE": "混亂邪惡",
+  "DND5E.AlignmentCG": "混亂善良",
+  "DND5E.AlignmentCN": "混亂中立",
+  "DND5E.AlignmentLE": "守序邪惡",
+  "DND5E.AlignmentLG": "守序善良",
+  "DND5E.AlignmentLN": "守序中立",
+  "DND5E.AlignmentNE": "中立邪惡",
+  "DND5E.AlignmentNG": "中立善良",
+  "DND5E.AlignmentTN": "絕對中立",
+  "DND5E.Amount": "數量",
+  "DND5E.Appearance": "外貌",
+  "DND5E.Apply": "應用",
+  "DND5E.AttributeScores": "屬性值",
+  "DND5E.Attunement": "同調",
+  "DND5E.AttunementMax": "同調物品上限",
+  "DND5E.AttunementNone": "無需同調",
+  "DND5E.AttunementOptional": "選擇性同調",
+  "DND5E.AttunementRequired": "需要同調",
+  "DND5E.AttunementAttuned": "已同調",
+  "DND5E.AttunementOverride": "覆蓋同調",
+  "DND5E.Attuned": "已同調",
+  "DND5E.AreaOfEffect": {
+    "Description": {
+      "Height": "高",
+      "Length": "長",
+      "Radius": "半徑",
+      "SizeSimple": "{number}-{unit}",
+      "SizeType": "{number}-{unit}-{type}",
+      "Thickness": "厚",
+      "Width": "寬"
+    },
+    "標籤": "範圍效果",
+    "Size": {
+      "標籤": "尺寸",
+      "Height": "高度",
+      "Length": "長度",
+      "Radius": "半徑",
+      "Thickness": "厚度",
+      "Width": "寬度"
+    }
+  },
+  "DND5E.Armor": "護甲",
+  "DND5E.ARMORCLASS": {
+    "Action": {
+      "Configure": "調整護甲",
+      "CreateFormula": "建立自訂公式",
+      "DeleteFormula": "刪除自訂公式"
+    },
+    "計算方式": {
+      "穿著護甲": "已裝備護甲",
+      "自訂": "自訂",
+      "Draconic": "龍族韌性",
+      "標籤": "計算方式",
+      "Mage": "法師護甲",
+      "Natural": "天生護甲",
+      "無甲": "無甲",
+      "UnarmoredBarbarian": "無甲防禦（野蠻人）",
+      "UnarmoredBard": "無甲防禦（吟遊詩人）",
+      "UnarmoredMonk": "無甲防禦（武僧）"
+    },
+    "Condition": {
+      "Positive": "必須有{type}",
+      "Negative": "必須沒有{type}"
+    },
+    "調整": "調整",
+    "CurrentFormula": "目前公式",
+    "CustomFormulas": {
+      "Empty": "沒有自訂公式。請使用上方的 <i class=\"fas fa-plus\"></i> 按鈕來建立。"
+    },
+    "FIELDS": {
+      "attributes": {
+        "ac": {
+          "armor": {
+            "label": "已裝備護甲值"
+          },
+          "base": {
+            "label": "基礎護甲等級"
+          },
+          "bonus": {
+            "label": "AC 加值"
+          },
+          "calc": {
+            "label": "AC 計算方式"
+          },
+          "calcs": {
+            "hint": "計算護甲等級時將使用這些公式。",
+            "label": "所選公式"
+          },
+          "cover": {
+            "label": "來自掩蔽的 AC"
+          },
+          "flat": {
+            "hint": "可在護甲等級公式中使用 @attributes.ac.flat 調用的數值。",
+            "label": "固定值"
+          },
+          "formula": {
+            "label": "額外 AC 公式"
+          },
+          "formulas": {
+            "element": {
+              "armored": {
+                "excluded": "未穿著護甲",
+                "label": "穿著護甲",
+                "required": "需要護甲"
+              },
+              "formula": {
+                "label": "公式"
+              },
+              "label": {
+                "label": "標籤"
+              },
+              "shielded": {
+                "excluded": "無盾牌",
+                "label": "裝備盾牌",
+                "required": "需要盾牌"
+              }
+            },
+            "label": "AC 公式"
+          },
+          "label": "護甲等級",
+          "min": {
+            "label": "最低護甲等級"
+          },
+          "override": {
+            "hint": "此數值將取代計算後的護甲等級，忽略掩蔽、盾牌及任何其他加值。",
+            "label": "覆寫"
+          },
+          "shield": {
+            "label": "已裝備盾牌數值"
+          }
+        }
+      }
+    },
+    "固定值": "固定值",
+    "公式": "公式"
+  },
+  "DND5E.ArmorClass": "AC",
+  "DND5E.ArmorHeavyProficiency": "重甲",
+  "DND5E.ArmorLightProficiency": "輕甲",
+  "DND5E.ArmorMediumProficiency": "中甲",
+  "DND5E.ArmorValue": "護甲數值",
+  "DND5E.AC": "AC",
+  "DND5E.ATTACK": {
+    "攻擊": {
+      "mwak": "近戰攻擊",
+      "rwak": "遠程攻擊"
+    },
+    "Classification": {
+      "Spell": "法術",
+      "Unarmed": "徒手",
+      "Weapon": "武器"
+    },
+    "FIELDS": {
+      "attack": {
+        "label": "攻擊詳情",
+        "abilities": {
+          "label": "屬性選項"
+        },
+        "ability": {
+          "label": "攻擊屬性",
+          "hint": "用於進行攻擊並決定傷害的屬性。在公式中可使用 @mod 來表示。"
+        },
+        "bonus": {
+          "label": "命中加值",
+          "hint": "加在命中擲骰上的加值。"
+        },
+        "critical": {
+          "threshold": {
+            "label": "暴擊閾值",
+            "hint": "在D20上擲出暴擊所需的最小值。"
+          }
+        },
+        "flat": {
+          "label": "固定命中",
+          "hint": "忽略屬性調整值、熟練加值與其他角色加成，僅使用此行動所定義的加值進行命中計算。"
+        },
+        "type": {
+          "label": "攻擊類型",
+          "value": {
+            "label": "攻擊類型",
+            "hint": "這是近戰還是遠程攻擊？"
+          },
+          "classification": {
+            "label": "攻擊分類",
+            "hint": "這是徒手攻擊、武器攻擊，還是法術攻擊？"
+          }
+        }
+      },
+      "damage": {
+        "label": "攻擊傷害",
+        "critical": {
+          "bonus": {
+            "label": "額外暴擊傷害",
+            "hint": "骰出暴擊時額外造成傷害。會加在基礎傷害或第一段傷害上。"
+          }
+        },
+        "includeBase": {
+          "label": "包含基礎傷害",
+          "hint": "在額外的傷害組成中包含物品的基礎傷害。"
+        },
+        "parts": {
+          "label": "傷害組成",
+          "hint": "包含於擲骰中的各個傷害組成。"
+        }
+      }
+    },
+    "Formatted": {
+      "2014": "{type} {classification}攻擊",
+      "2024": "{type}攻擊擲骰"
+    },
+    "Hint": "進行攻擊檢定並擲傷害骰。",
+    "Mode": {
+      "標籤": "攻擊模式",
+      "Offhand": "副手",
+      "OneHanded": "單手",
+      "Ranged": "遠程",
+      "Thrown": "投擲",
+      "ThrownOffhand": "副手投擲",
+      "TwoHanded": "雙手"
+    },
+    "Title": {
+      "one": "攻擊",
+      "other": "攻擊"
+    },
+    "Type": {
+      "Melee": "近戰",
+      "Ranged": "遠程"
+    },
+    "Warning": {
+      "NoQuantity": "試圖以數量為零的武器進行攻擊。"
+    },
+    "Weapon": {
+      "Melee": "近戰武器",
+      "Ranged": "遠程武器"
+    }
+  },
+  "DND5E.Attack": "攻擊",
+  "DND5E.AttackPl": "戰鬥",
+  "DND5E.AttackRoll": "攻擊骰",
+  "DND5E.Attributes": "屬性",
+  "DND5E.AttrConcentration": {
+    "上限": "上限"
+  },
+  "DND5E.Automatic": "自動",
+  "DND5E.AutomaticValue": "自動({value})",
+  "DND5E.Award": {
+    "Title": "分配獎勵",
+    "Action": "獎勵",
+    "Distribution": {
+      "Split": "拆分",
+      "Each": "每個"
+    },
+    "Message": "{name} 獲得 {award}。",
+    "NoDestinations": "無可分配目標",
+    "NoPrimaryParty": "沒有設定主要隊伍，所以分配給玩家的角色。",
+    "NotGMError": "只有GM可以使用/award指令。",
+    "UnrecognizedWarning": "無法解析{commands}。使用/award指令時必須搭配XP或貨幣值，例如：'/award 10gp 50xp'"
+  },
+  "DND5E.Background": "背景",
+  "DND5E.BackgroundAdd": "新增背景",
+  "DND5E.BackgroundName": "背景名稱",
+  "DND5E.BaseItem": "基礎物品",
+  "DND5E.BASE": {
+    "圖片": "圖片",
+    "名稱": "名稱"
+  },
+  "DND5E.Bastion": {
+    "Action": {
+      "Advance": "推進堡壘回合",
+      "Maintain": "維護堡壘",
+      "BastionTurn": "推進堡壘回合"
+    },
+    "攻擊": {
+      "Automatic": "自動解決",
+      "公式": "攻擊公式",
+      "NoActorWarning": "尚未選擇作為攻擊目標的角色。請選擇一個角色的指示物，或打開其角色卡。",
+      "Resolve": "解決攻擊",
+      "Result": {
+        "Damaged": "{link}在攻擊中受到損傷。",
+        "Deaths": {
+          "one": "<strong>{deaths}</strong> 名防衛者在其堡壘遭受攻擊時陣亡！",
+          "other": "<strong>{deaths}</strong> 名防衛者在其堡壘遭受攻擊時陣亡！"
+        },
+        "NoDeaths": "成功擊退對堡壘的攻擊，無人傷亡！",
+        "Undefended": "無防禦的堡壘遭到攻擊！"
+      },
+      "Title": "堡壘攻擊"
+    },
+    "調整": {
+      "名稱": "堡壘",
+      "標籤": "配置堡壘",
+      "Hint": "針對DMG 2024中所述的堡壘系統進行各項設定。"
+    },
+    "Confirm": "要推進一個堡壘回合嗎？",
+    "FIELDS": {
+      "button": {
+        "hint": "在主遊戲介面中顯示一個推進堡壘回合的按鈕。",
+        "label": "顯示堡壘回合按鈕"
+      },
+      "duration": {
+        "label": "堡壘回合時間（天）"
+      },
+      "enabled": {
+        "hint": "啟用後，玩家角色在達到5級時，其角色卡將出現新的「堡壘」分頁，可建造設施並對其下達指令。",
+        "label": "啟用堡壘功能"
+      },
+      "reminder": {
+        "hint": "隨著時間推移應進行下一個堡壘回合時，在聊天框中顯示提醒。",
+        "label": "自動回合提醒"
+      }
+    },
+    "Gold": {
+      "Claim": "領取收入",
+      "Claimed": "已領取",
+      "Unclaimed": "未領取"
+    },
+    "標籤": "堡壘",
+    "Reminder": {
+      "Elapsed": "距離上一次堡壘回合已經過了{time}。",
+      "Triggered": "發生一次堡壘回合。",
+      "Unknown": "距離上一次堡壘回合已經過了一段時間。"
+    },
+    "Summary": {
+      "Gold": "{value}({claimed})",
+      "NoOrders": "本回合未對特殊設施下達任何指令。",
+      "Order": "{link}完成了<strong>{order}</strong>指令。"
+    },
+    "Trade": {
+      "Cancel": "取消待處理交易",
+      "Invalid": "移除待處理交易將導致你的交易指令無效。",
+      "Pending": "待處理交易"
+    },
+    "Button": {
+      "標籤": "顯示堡壘回合按鈕",
+      "Hint": "在主遊戲介面中顯示一個用於推進堡壘回合的按鈕。"
+    },
+    "Duration": {
+      "標籤": "堡壘回合持續時間（天）"
+    },
+    "啟用": {
+      "標籤": "啟用堡壘功能",
+      "Hint": "啟用後，玩家角色在達到 5 級時將在角色卡上解鎖新的堡壘分頁，並能建造設施與下達指令。"
+    }
+  },
+  "DND5E.BEHAVIOR": {
+    "Action": {
+      "Create": "建立行為",
+      "Delete": "刪除行為"
+    },
+    "Empty": "沒有關聯的行為。請使用上方的 <i class=\"fas fa-plus\"></i> 按鈕來建立。",
+    "Hint": "這些行為將會應用於此行動所放置的任何效果範圍（Area of Effect）。",
+    "標籤": "行為"
+  },
+  "DND5E.Biography": "傳記",
+  "DND5E.BiographyPublic": "公開傳記",
+  "DND5E.BiographyPublicEdit": "編輯公開傳記",
+  "DND5E.Bonds": "羈絆",
+  "DND5E.Bonus": "加值",
+  "DND5E.BonusAction": "附贈動作",
+  "DND5E.BonusActionAbbr": "附贈",
+  "DND5E.BonusAttack": "攻擊加值",
+  "DND5E.BonusDamage": "傷害加值",
+  "DND5E.BonusSaveForm": "更新加值",
+  "DND5E.BonusTitle": "設置角色加值",
+  "DND5E.BONUSES": {
+    "FIELDS": {
+      "bonuses": {
+        "label": "全域加值",
+        "hint": "作為公式加入特定擲骰的全域性加值。",
+        "spell": {
+          "label": "全域法術加值",
+          "dc": {
+            "label": "全域法術豁免DC加值"
+          }
+        },
+        "abilities": {
+          "label": "全域屬性加值",
+          "check": {
+            "label": "全域屬性檢定加值"
+          },
+          "save": {
+            "label": "全域豁免檢定加值"
+          },
+          "skill": {
+            "label": "全域技能檢定加值"
+          }
+        },
+        "msak": {
+          "label": "近戰法術加值",
+          "attack": {
+            "label": "近戰法術攻擊加值"
+          },
+          "damage": {
+            "label": "近戰法術傷害加值"
+          }
+        },
+        "mwak": {
+          "label": "近戰武器加值",
+          "attack": {
+            "label": "近戰武器攻擊加值"
+          },
+          "damage": {
+            "label": "近戰武器傷害加值"
+          }
+        },
+        "rsak": {
+          "label": "遠程法術加值",
+          "attack": {
+            "label": "遠程法術攻擊加值"
+          },
+          "damage": {
+            "label": "遠程法術傷害加值"
+          }
+        },
+        "rwak": {
+          "label": "遠程武器加值",
+          "attack": {
+            "label": "遠程武器攻擊加值"
+          },
+          "damage": {
+            "label": "遠程武器傷害加值"
+          }
+        }
+      }
+    }
+  },
+  "DND5E.CALENDAR": {
+    "Action": {
+      "AdvanceTime": "推進{amount}",
+      "OpenCharacterSheet": "開啟角色卡",
+      "OpenPartySheet": "開啟隊伍卡",
+      "ReverseTime": "倒轉{amount}",
+      "SetDate": "設定日期"
+    },
+    "Component": {
+      "天": "天",
+      "月": "月",
+      "年": "年"
+    },
+    "調整": {
+      "DisabledMessage": "DM 必須先啟用日曆介面，玩家才能使用它。",
+      "Hint": "控制是否顯示日曆 HUD 以及其運作方式。",
+      "標籤": "設定日曆",
+      "名稱": "日曆",
+      "Preferences": "日曆偏好設定",
+      "UnavailableMessage": "預設日曆介面無法使用，因為已被模組停用。"
+    },
+    "FIELDS": {
+      "calendar": {
+        "hint": "此日曆將用於追蹤遊戲內時間。",
+        "label": "日曆"
+      },
+      "enabled": {
+        "hint": "允許所有使用者查看與自訂日曆介面。",
+        "label": "啟用"
+      },
+      "dailyRecovery": {
+        "calendar": "日曆恢復（隨時間推移）",
+        "default": "預設（與日曆啟用設定綁定）",
+        "hint": "控制需要每日、黎明和黃昏才能恢復的有限次數，是根據世界日曆恢復，還是透過休息對話框恢復。",
+        "label": "每日恢復模式",
+        "manual": "手動恢復（透過休息對話框）"
+      },
+      "formatters": {
+        "date": {
+          "label": "日期格式"
+        },
+        "time": {
+          "label": "時間格式"
+        }
+      },
+      "visible": {
+        "label": "顯示日曆 HUD"
+      }
+    },
+    "Formatters": {
+      "Date": "日期格式器",
+      "ApproximateDate": {
+        "EarlySeason": "{season}初",
+        "標籤": "大概日期",
+        "LateSeason": "{season}末",
+        "MidSeason": "仲{season}"
+      },
+      "ApproximateTime": {
+        "下午": "下午",
+        "黎明": "黎明",
+        "黃昏": "黃昏",
+        "傍晚": "傍晚",
+        "標籤": "大概時間",
+        "午夜": "午夜",
+        "早晨": "早晨",
+        "夜晚": "夜晚",
+        "中午": "中午",
+        "日出": "日出",
+        "日落": "日落"
+      },
+      "HoursMinutes": {
+        "Format": "{H}:{M}",
+        "標籤": "時 & 分"
+      },
+      "HoursMinutesSeconds": {
+        "Format": "{H}:{M}:{S}",
+        "標籤": "時、分、秒"
+      },
+      "MonthDay": {
+        "Format": "{B} {D}",
+        "標籤": "月 & 日"
+      },
+      "MonthDayYear": {
+        "Format": "{B} {D}, {y}",
+        "標籤": "月、日、年"
+      },
+      "Time": "時間格式器"
+    },
+    "Gregorian": "公曆（格里曆）",
+    "Greyhawk": {
+      "天": {
+        "星群日 (Starday)": "星群日 (Starday)",
+        "太陽日 (Sunday)": "太陽日 (Sunday)",
+        "明月日 (Moonday)": "明月日 (Moonday)",
+        "諸神日 (Godsday)": "諸神日 (Godsday)",
+        "海潮日 (Waterday)": "海潮日 (Waterday)",
+        "大地日 (Earthday)": "大地日 (Earthday)",
+        "自由日 (Freeday)": "自由日 (Freeday)"
+      },
+      "Festival": {
+        "祈願節 (Needfest)": "祈願節 (Needfest)",
+        "春華節 (Growfest)": "春華節 (Growfest)",
+        "豐收節 (Richfest)": "豐收節 (Richfest)",
+        "釀酒節 (Brewfest)": "釀酒節 (Brewfest)"
+      },
+      "Formatters": {
+        "MonthDay": "{B} {d}",
+        "MonthDayYear": "{B} {d}, {y}"
+      },
+      "月": {
+        "尋火月 (Fireseek)": "尋火月 (Fireseek)",
+        "備耕月 (Readying)": "備耕月 (Readying)",
+        "冷風月 (Coldeven)": "冷風月 (Coldeven)",
+        "播種月 (Planting)": "播種月 (Planting)",
+        "牧群月 (Flocktime)": "牧群月 (Flocktime)",
+        "福陽月 (Wealsun)": "福陽月 (Wealsun)",
+        "收割月 (Reaping)": "收割月 (Reaping)",
+        "神之月 (Godmonth)": "神之月 (Godmonth)",
+        "收成月 (Harvester)": "收成月 (Harvester)",
+        "補牆月 (Patchwall)": "補牆月 (Patchwall)",
+        "Readyreat": "備冬月 (Ready’reat)",
+        "日暮月 (Sunsebb)": "日暮月 (Sunsebb)"
+      },
+      "名稱": "灰鷹曆 (Calendar of Greyhawk)",
+      "Season": {
+        "春": "春",
+        "夏": "夏",
+        "秋": "秋",
+        "冬": "冬"
+      }
+    },
+    "Harptos": {
+      "天": {
+        "One": "一之日 (one-day)",
+        "Two": "二之日 (two-day)",
+        "Three": "三之日 (three-day)",
+        "Four": "四之日 (four-day)",
+        "Five": "五之日 (five-day)",
+        "Six": "六之日 (six-day)",
+        "Seven": "七之日 (seven-day)",
+        "Eight": "八之日 (eight-day)",
+        "Nine": "九之日 (nine-day)",
+        "Ten": "十之日 (ten-day)"
+      },
+      "Festival": {
+        "仲冬節 (Midwinter)": "仲冬節 (Midwinter)",
+        "綠草節 (Greengrass)": "綠草節 (Greengrass)",
+        "仲夏節 (Midsummer)": "仲夏節 (Midsummer)",
+        "盾會節 (Shieldmeet)": "盾會節 (Shieldmeet)",
+        "豐收節 (Highharvestide)": "豐收節 (Highharvestide)",
+        "FeastOfTheMoon": "月之盛宴 (The Feast of the Moon)"
+      },
+      "Formatters": {
+        "DayMonth": "{d} {B}",
+        "DayMonthYear": "谷地曆{y}年{B}{d}日",
+        "FestivalDayYear": "谷地曆{y}年{day}"
+      },
+      "月": {
+        "哈莫月 (Hammer)": "哈莫月 (Hammer)",
+        "HammerCommon": "深冬 (Deepwinter)",
+        "魯里月 (Alturiak)": "魯里月 (Alturiak)",
+        "AlturiakCommon": "冬爪 (The Claw of Winter)",
+        "徹斯月 (Ches)": "徹斯月 (Ches)",
+        "ChesCommon": "暮爪 (The Claw of the Sunsets)",
+        "塔司月 (Tarsakh)": "塔司月 (Tarsakh)",
+        "TarsakhCommon": "風爪 (The Claw of the Storms)",
+        "莫多月 (Mirtul)": "莫多月 (Mirtul)",
+        "MirtulCommon": "融雪 (The Melting)",
+        "凱索月 (Kythorn)": "凱索月 (Kythorn)",
+        "KythornCommon": "花期 (The Time of Flowers)",
+        "菲路月 (Flamerule)": "菲路月 (Flamerule)",
+        "FlameruleCommon": "夏潮 (Summertide)",
+        "莉西月 (Eleasis)": "莉西月 (Eleasis)",
+        "EleasisCommon": "烈日 (Highsun)",
+        "伊萊月 (Eleint)": "伊萊月 (Eleint)",
+        "EleintCommon": "凋零 (The Fading)",
+        "瑪諾月 (Marpenoth)": "瑪諾月 (Marpenoth)",
+        "MarpenothCommon": "落葉 (Leaffall)",
+        "烏塔月 (Uktar)": "烏塔月 (Uktar)",
+        "UktarCommon": "腐朽 (The Rotting)",
+        "奈托月 (Nightal)": "奈托月 (Nightal)",
+        "NightalCommon": "沉暮 (The Drawing Down)"
+      },
+      "名稱": "哈普托斯曆法（被遺忘的國度）",
+      "Season": {
+        "春": "春",
+        "夏": "夏",
+        "秋": "秋",
+        "冬": "冬"
+      }
+    },
+    "Khorvaire": {
+      "天": {
+        "蘇爾日 (Sul)": "蘇爾日 (Sul)",
+        "莫爾日 (Mol)": "莫爾日 (Mol)",
+        "佐爾日 (Zol)": "佐爾日 (Zol)",
+        "威爾日 (Wir)": "威爾日 (Wir)",
+        "佐爾日 (Zor)": "佐爾日 (Zor)",
+        "法爾日 (Far)": "法爾日 (Far)",
+        "薩爾日 (Sar)": "薩爾日 (Sar)"
+      },
+      "Formatters": {
+        "DayMonth": "{d} {B}",
+        "DayMonthYear": "科瓦雷曆{y}年{B}{d}日"
+      },
+      "月": {
+        "札蘭提爾月 (Zarantyr)": "札蘭提爾月 (Zarantyr)",
+        "歐拉倫月 (Olarune)": "歐拉倫月 (Olarune)",
+        "瑟瑞多月 (Therendor)": "瑟瑞多月 (Therendor)",
+        "艾爾月 (Eyre)": "艾爾月 (Eyre)",
+        "卓瓦戈月 (Dravago)": "卓瓦戈月 (Dravago)",
+        "寧姆月 (Nymm)": "寧姆月 (Nymm)",
+        "拉維昂月 (Lharvion)": "拉維昂月 (Lharvion)",
+        "巴拉卡斯月 (Barrakas)": "巴拉卡斯月 (Barrakas)",
+        "拉恩月 (Rhaan)": "拉恩月 (Rhaan)",
+        "賽斐洛斯月 (Sypheros)": "賽斐洛斯月 (Sypheros)",
+        "阿瑞斯月 (Aryth)": "阿瑞斯月 (Aryth)",
+        "瓦爾特月 (Vult)": "瓦爾特月 (Vult)"
+      },
+      "名稱": "科瓦雷曆法（艾伯倫）",
+      "Season": {
+        "春": "春",
+        "夏": "夏",
+        "秋": "秋",
+        "冬": "冬"
+      }
+    },
+    "TimePassage": {
+      "午夜": "新的一天開始了。",
+      "日出": "太陽升起了。",
+      "日落": "太陽下山了。",
+      "SunsetSunrise": "太陽落下，新的一天黎明已經到來。",
+      "TimePassed": {
+        "one": "已經過了{number}。",
+        "other": "已經過了{number}。"
+      },
+      "Title": "時間流逝"
+    }
+  },
+  "DND5E.CAST": {
+    "Action": {
+      "DropSpell": "將法術拖曳至此處",
+      "RemoveSpell": "移除法術"
+    },
+    "Enchantment": {
+      "名稱": "法術變更"
+    },
+    "FIELDS": {
+      "spell": {
+        "label": "施放詳情",
+        "ability": {
+          "label": "施法能力值",
+          "hint": "用來取代此生物原本施法能力值的能力。"
+        },
+        "challenge": {
+          "attack": {
+            "label": "攻擊加值",
+            "hint": "用以取代法術原本攻擊加值的固定命中加值。"
+          },
+          "save": {
+            "label": "豁免DC",
+            "hint": "用以取代法術原本豁免DC的固定數值。"
+          },
+          "override": {
+            "label": "覆寫數值",
+            "hint": "施放時取代法術原有攻擊加值與豁免 DC 的設定。"
+          }
+        },
+        "level": {
+          "label": "施放環位",
+          "hint": "施放此法術的環位，若與法術本身不同可在此設定。"
+        },
+        "properties": {
+          "label": "無視屬性",
+          "hint": "施放時可忽略的法術構材與標籤。"
+        },
+        "spellbook": {
+          "label": "顯示於法術書",
+          "hint": "是否在角色卡的法術頁中顯示此法術。"
+        },
+        "uuid": {
+          "label": "要施放的法術"
+        }
+      }
+    },
+    "Hint": "透過物品施展法術。",
+    "SECTIONS": {
+      "Spell": "法術",
+      "Spellbook": "額外法術"
+    },
+    "Title": "施放"
+  },
+  "DND5E.Casting": "施放",
+  "DND5E.Conditions": "狀態",
+  "DND5E.CONTAINER": {
+    "Details": "容器詳情",
+    "FIELDS": {
+      "capacity": {
+        "label": "容量",
+        "count": {
+          "label": "物品計算"
+        },
+        "volume": {
+          "label": "體積容量",
+          "units": {
+            "label": "容量單位"
+          },
+          "value": {
+            "label": "最大容量"
+          }
+        },
+        "weight": {
+          "label": "承載重量",
+          "units": {
+            "label": "重量單位"
+          },
+          "value": {
+            "label": "最大重量"
+          }
+        }
+      },
+      "properties": {
+        "label": "容器屬性"
+      }
+    },
+    "UnidentifiedContentsWarning": {
+      "Title": "未鑑定的容器",
+      "Message": "這個容器尚未鑑定。在鑑定之前，您放入的任何物品都會被隱藏。要繼續嗎？"
+    }
+  },
+  "DND5E.Controls": {
+    "Hint": "啟用介面中各種滑鼠與鍵盤操作提示。",
+    "LeftClick": "點擊左鍵",
+    "LockHint": "點擊中鍵鎖定頁面",
+    "MiddleClick": "點擊中鍵",
+    "名稱": "啟用操作提示",
+    "Activity": {
+      "FastForwardHint": "<kbd>Shift</kbd> + <left-click> 此物品以略過此對話框"
+    }
+  },
+  "DND5E.Challenge": "挑戰",
+  "DND5E.ChallengeRating": "挑戰等級",
+  "DND5E.CHARACTER": {
+    "FIELDS": {
+      "traits": {
+        "weaponProf": {
+          "mastery": {
+            "bonus": {
+              "label": "額外武器精通"
+            },
+            "value": {
+              "label": "武器精通"
+            }
+          }
+        }
+      }
+    }
+  },
+  "DND5E.Charged": "已充能",
+  "DND5E.Charges": "充能",
+  "DND5E.ChatContextDamage": "應用傷害",
+  "DND5E.ChatContextHealing": "應用治療",
+  "DND5E.ChatContextTempHP": "應用臨時生命",
+  "DND5E.ChatContextDoubleDamage": "應用雙倍傷害",
+  "DND5E.ChatContextHalfDamage": "應用半傷",
+  "DND5E.ChatContextSelectHit": "選擇命中目標",
+  "DND5E.ChatContextSelectMiss": "選擇失手目標",
+  "DND5E.ChatFlavor": "聊天訊息",
+  "DND5E.CHATMESSAGE": {
+    "Action": {
+      "SelectAll": "選擇所有結果",
+      "SelectFailure": "選擇失敗者",
+      "SelectSuccess": "選擇成功者"
+    },
+    "Activities": "行動",
+    "Button": {
+      "rollAttack": "攻擊",
+      "rollCheck": "屬性檢定",
+      "rollDamage": "傷害",
+      "rollFormula": "Roll",
+      "rollSave": "豁免檢定"
+    },
+    "Deltas": {
+      "Created": "已建立物品",
+      "Deleted": "已刪除物品",
+      "Recovery": "恢復"
+    },
+    "REQUEST": {
+      "Action": {
+        "Handle": "處理請求",
+        "Post": "發布請求"
+      },
+      "AnyOwner": "任何擁有者",
+      "Complete": "請求已完成",
+      "PartyMembers": "隊伍成員",
+      "Title": "請求"
+    },
+    "Row": {
+      "Actions": "物品動作",
+      "物品": "物品",
+      "Properties": "物品屬性",
+      "Roll": "擲骰",
+      "rollCheck": "屬性檢定",
+      "rollSave": "豁免檢定",
+      "目標": "目標"
+    },
+    "目標": {
+      "Count": "{number} × {name}"
+    },
+    "TURN": {
+      "NoCombatant": "戰鬥成員已不存在！"
+    }
+  },
+  "DND5E.CHECK": {
+    "FIELDS": {
+      "check": {
+        "label": "檢定詳情",
+        "ability": {
+          "label": "檢定屬性",
+          "hint": "進行檢定時使用之屬性。"
+        },
+        "associated": {
+          "label": "相關技能或工具",
+          "hint": "以這些技能或工具的熟練與加值來呈現此能力檢定。"
+        },
+        "bonus": {
+          "label": "檢定加值",
+          "hint": "使用此行動進行的所有檢定之額外加值。"
+        },
+        "dc": {
+          "label": "難度等級",
+          "calculation": {
+            "label": "DC計算",
+            "hint": "用於計算難度等級的方法或能力值。"
+          },
+          "formula": {
+            "label": "DC公式",
+            "hint": "自定的檢定 DC 計算公式或固定數值。"
+          }
+        },
+        "visible": {
+          "label": "對所有人可見",
+          "hint": "在聊天室中向所有玩家顯示擲骰按鈕。"
+        }
+      }
+    },
+    "Hint": "請求一次可能需要技能或工具輔助的屬性檢定。",
+    "ThisTool": "此工具",
+    "Title": "檢定"
+  },
+  "DND5E.CLASS": {
+    "Multiclass": {
+      "Title": "兼職"
+    },
+    "FIELDS": {
+      "hd": {
+        "label": "生命骰",
+        "additional": {
+          "label": "額外生命骰",
+          "hint": "此職業可獲得超出正常數量的生命骰公式。"
+        },
+        "spent": {
+          "label": "已消耗生命骰"
+        }
+      },
+      "levels": {
+        "label": "職業等級"
+      },
+      "primaryAbility": {
+        "all": {
+          "label": "需要所有主屬性達標",
+          "hint": "必須所有主屬性都達到最低要求，才能進行兼職。"
+        },
+        "value": {
+          "label": "主屬性",
+          "hint": "此職業最常使用的屬性。用於判斷是否符合兼職條件。"
+        }
+      },
+      "properties": {
+        "label": "職業屬性"
+      }
+    }
+  },
+  "DND5E.ClassAdd": "新增職業",
+  "DND5E.ClassIdentifier": "職業識別碼",
+  "DND5E.ClassIdentifierHint": "可以在擲骰公式中使用 <strong>@classes.{identifier}</strong>來獲取此職業的資料。",
+  "DND5E.ClassLevels": "職業等級",
+  "DND5E.ClassMakeOriginal": "原始職業",
+  "DND5E.ClassMakeOriginalHint": "角色選擇的第一個職業，用於在兼職時確定某些職業特性。",
+  "DND5E.ClassName": "職業",
+  "DND5E.ClassOriginal": "原始職業",
+  "DND5E.ClassSaves": "豁免",
+  "DND5E.Confirm": "確認",
+  "DND5E.COMBAT": {
+    "Group": {
+      "ActiveCount": "{combatants}中的{current}",
+      "Title": "{name}小隊"
+    }
+  },
+  "DND5E.COMBATANT": {
+    "Counted": {
+      "one": "{number}名戰鬥者",
+      "other": "{number}名戰鬥者"
+    }
+  },
+  "DND5E.CompendiumBrowser": {
+    "Title": "合集瀏覽器",
+    "Action": {
+      "Open": "開啟合集瀏覽器"
+    },
+    "Column": {
+      "Icon": "圖示",
+      "名稱": "名稱",
+      "Results": "結果",
+      "Source": "資源"
+    },
+    "Filters": {
+      "標籤": "篩選",
+      "Grouped": "{type}({group})",
+      "HasDarkvision": "擁有黑暗視覺",
+      "HasSpellcasting": "可施法",
+      "SearchResults": "搜尋結果"
+    },
+    "Selection": {
+      "標籤": "已選擇：{summary}",
+      "Select": "選擇",
+      "Summary": {
+        "Max": "<span class=\"value\">{value}</span>（上限{max}）",
+        "Min": "<span class=\"value\">{value}</span>（至少{min}）",
+        "Range": "<span class=\"value\">{value}</span>（範圍：{min}～{max}",
+        "Single": "<span class=\"value\">{value}</span>（共{max}）"
+      },
+      "Warning": {
+        "Document": {
+          "one": "文件",
+          "other": "文件"
+        },
+        "Max": "最多只能選擇{max} {document}，目前已選擇{value}項。",
+        "Min": "至少要選擇{min} {document}，目前只選擇{value}項。",
+        "Range": "請選擇{min}到{max}項資料，目前已選擇{value}項。",
+        "Single": "必須選擇{max} {document}，目前已選擇{value}項。"
+      }
+    },
+    "Sources": {
+      "名稱": "合集包瀏覽器資源",
+      "標籤": "設定資源",
+      "FilterPackages": "篩選資料包",
+      "Hint": "設定哪些合集包的內容可以在合集包瀏覽器中顯示。"
+    },
+    "Tabs": {
+      "Feat.other": "專長",
+      "Item.other": "物品",
+      "Monster.other": "怪物"
+    },
+    "Types": {
+      "標籤": "類型"
+    },
+    "Locked": "已鎖定"
+  },
+  "DND5E.ComponentMaterial": "材料",
+  "DND5E.ComponentMaterialAbbr": "材",
+  "DND5E.ComponentSomatic": "姿勢",
+  "DND5E.ComponentSomaticAbbr": "勢",
+  "DND5E.ComponentVerbal": "言語",
+  "DND5E.ComponentVerbalAbbr": "聲",
+  "DND5E.Components": "構材",
+  "DND5E.Container": "容器",
+  "DND5E.ContainerDeleteMessage": "此容器將永久刪除且無法恢復，其中包含的{count}個物品將被移出。",
+  "DND5E.ContainerDeleteContents": "也移除容器內所有物品。",
+  "DND5E.ContainerMaxDepth": "容器不能有超過{depth}層的巢狀結構。",
+  "DND5E.ContainerRecursiveError": "容器無法容納自身。",
+  "DND5E.Contents": "內容",
+  "DND5E.ContextMenuActionEdit": "編輯",
+  "DND5E.ContextMenuActionDuplicate": "複製",
+  "DND5E.ContextMenuActionDelete": "刪除",
+  "DND5E.ContextMenuActionEquip": "裝備",
+  "DND5E.ContextMenuActionUnequip": "卸下",
+  "DND5E.ContextMenuActionPrepare": "準備",
+  "DND5E.ContextMenuActionExpendCharge": "未充能",
+  "DND5E.ContextMenuActionCharge": "充能",
+  "DND5E.ContextMenuActionUnprepare": "未準備",
+  "DND5E.ContextMenuActionAttune": "同調",
+  "DND5E.ContextMenuActionUnattune": "未同調",
+  "DND5E.ContextMenuActionEnable": "啟用",
+  "DND5E.ContextMenuActionDisable": "停用",
+  "DND5E.ContextMenuActionView": "檢視",
+  "DND5E.Contiguous": "相鄰",
+  "DND5E.ConBlinded": "目盲",
+  "DND5E.ConCharmed": "魅惑",
+  "DND5E.ConDeafened": "耳聾",
+  "DND5E.ConDiseased": "疾病",
+  "DND5E.ConExhaustion": "力竭",
+  "DND5E.ConFrightened": "恐慌",
+  "DND5E.ConGrappled": "被擒",
+  "DND5E.ConIncapacitated": "失能",
+  "DND5E.ConInvisible": "隱形",
+  "DND5E.ConParalyzed": "麻痺",
+  "DND5E.ConPetrified": "石化",
+  "DND5E.ConPoisoned": "中毒",
+  "DND5E.ConProne": "倒地",
+  "DND5E.ConRestrained": "束縛",
+  "DND5E.ConStunned": "震懾",
+  "DND5E.ConUnconscious": "昏迷",
+  "DND5E.Concentration": "專注",
+  "DND5E.CONCENTRATION": {
+    "Abbreviation": "C",
+    "Action": {
+      "Break": "打破專注",
+      "End": "結束專注"
+    },
+    "Description": "你正在維持對「{name}」{type}的專注。",
+    "Duration": {
+      "Scalar": "專注，最多{duration}",
+      "Special": "專注，{durationLc}"
+    },
+    "EndChoice": "你正在維持來自多個來源的專注。請選擇要結束哪個效果的專注。",
+    "FIELDS": {
+      "attributes": {
+        "concentration": {
+          "label": "Concentration",
+          "limit": {
+            "label": "專注數量上限"
+          },
+          "roll": {
+            "ability": {
+              "label": "專注屬性"
+            },
+            "bonus": {
+              "label": "專注加值"
+            },
+            "max": {
+              "label": "最高專注擲骰"
+            },
+            "min": {
+              "label": "最低專注擲骰"
+            },
+            "mode": {
+              "label": "專注優勢模式"
+            }
+          }
+        }
+      }
+    },
+    "Limit": {
+      "Hard": "你無法維持更多效果的專注！",
+      "Optional": "你可以結束目前維持的其中一個專注效果，以使用此物品。",
+      "Reached": "你無法開始對額外效果進行專注。",
+      "Zero": "你無法維持任何效果的專注！"
+    },
+    "Lost": "失去專注",
+    "NoSource": "無來源的專注",
+    "Warning": {
+      "BreakWithoutGM": "打破作用於其他生物身上的專注效果，需要 GM 主動操作。",
+      "MissingItem": "正在專注且要被替換的效果不存在。"
+    }
+  },
+  "DND5E.ConsumeTitle": "消耗品",
+  "DND5E.ConsumeAmount": "消耗數量",
+  "DND5E.ConsumeHint": {
+    "Attribute": "要消耗的屬性（例如：currency.gp）",
+    "Item": "合集包中目標項目的 UUID"
+  },
+  "DND5E.ConsumeTarget": "消耗目標",
+  "DND5E.ConsumeType": "消耗類別",
+  "DND5E.ConsumeAmmunition": "彈藥",
+  "DND5E.ConsumeAttribute": "屬性",
+  "DND5E.ConsumeHitDice": "生命骰",
+  "DND5E.ConsumeHitDiceLargest": "最大可用類型",
+  "DND5E.ConsumeHitDiceLargestLong": "最大可用生命骰",
+  "DND5E.ConsumeHitDiceSmallest": "最小可用類型",
+  "DND5E.ConsumeHitDiceSmallestLong": "最小可用生命骰",
+  "DND5E.ConsumeMaterial": "材料",
+  "DND5E.ConsumeCharges": "使用物品",
+  "DND5E.ConsumeResource": "是否消耗資源？",
+  "DND5E.ConsumeRecharge": "是否消耗充能？",
+  "DND5E.ConsumeScaling": "資源縮放",
+  "DND5E.ConsumeScalingLabel": "使用資源",
+  "DND5E.ConsumeScalingTooltip": "如果勾選，消耗額外資源將提高施法環級。",
+  "DND5E.CONSUMABLE": {
+    "FIELDS": {
+      "damage": {
+        "base": {
+          "bonus": {
+            "label": "基礎傷害加值"
+          },
+          "custom": {
+            "enabled": {
+              "label": "使用自訂基礎傷害公式"
+            },
+            "formula": {
+              "label": "自訂基礎傷害公式"
+            }
+          },
+          "denomination": {
+            "label": "基礎傷害骰面"
+          },
+          "number": {
+            "label": "基礎傷害骰數"
+          },
+          "scaling": {
+            "formula": {
+              "label": "基礎傷害成長公式"
+            },
+            "mode": {
+              "label": "基礎傷害成長模式"
+            },
+            "number": {
+              "label": "基礎傷害成長值"
+            }
+          },
+          "types": {
+            "label": "基礎傷害類型"
+          }
+        },
+        "bonus": {
+          "label": "傷害加值"
+        },
+        "label": "彈藥傷害",
+        "replace": {
+          "label": "取代武器傷害",
+          "hint": "以此傷害取代武器的基礎傷害，而非加成。"
+        }
+      },
+      "magicalBonus": {
+        "label": "魔法加值"
+      },
+      "properties": {
+        "label": "消耗品屬性"
+      },
+      "uses": {
+        "autoDestroy": {
+          "label": "耗盡時刪除",
+          "hint": "當物品的有限使用次數耗盡時，自動減少其數量1。"
+        }
+      }
+    },
+    "Category": {
+      "毒素": "彈藥"
+    },
+    "類型": {
+      "Ammunition": {
+        "Label": "彈藥",
+        "Arrow": "箭矢",
+        "Bolt": "弩矢",
+        "BulletFirearm": "火器子彈",
+        "BulletSling": "投石索彈藥",
+        "EnergyCell": "能量電池",
+        "Needle": "針"
+      },
+      "Food": {
+        "Label": "食物"
+      },
+      "毒素": {
+        "Label": "毒藥",
+        "Contact": "接觸",
+        "Ingested": "攝入",
+        "Inhaled": "吸入",
+        "Injury": "傷口"
+      },
+      "Potion": {
+        "Label": "藥水"
+      },
+      "Rod": {
+        "Label": "法杖"
+      },
+      "Scroll": {
+        "Label": "卷軸"
+      },
+      "Trinket": {
+        "Label": "小飾品"
+      },
+      "Wand": {
+        "Label": "魔杖"
+      },
+      "Wondrous": {
+        "Label": "奇物"
+      }
+    }
+  },
+  "DND5E.ConsumableUseWarnStart": "這個消耗品有",
+  "DND5E.ConsumableUseWarnEnd": "的當前單位",
+  "DND5E.ConsumableUnitWarn": "剩餘單位",
+  "DND5E.ConsumableLastChargeWarn": "這是該物品單位的最後充能且消耗該充能也會令物品總數減少 1",
+  "DND5E.ConsumableWithoutCharges": "可用物品單位",
+  "DND5E.CONSUMPTION": {
+    "FIELDS": {
+      "consumption": {
+        "label": "消耗",
+        "scaling": {
+          "abbr": "成長",
+          "label": "消耗成長",
+          "allowed": {
+            "label": "允許成長",
+            "hint": "是否可以更高等級啟用非法術的行動？"
+          },
+          "max": {
+            "label": "最大成長值",
+            "hint": "此物品最大可達的成長等級數，包含基礎等級。"
+          }
+        },
+        "spellSlot": {
+          "label": "消耗法術位",
+          "hint": "使用此行動時是否應消耗對應的法術位？"
+        },
+        "targets": {
+          "label": "消耗目標",
+          "hint": "此行動啟用時可能會被消耗的目標。",
+          "FIELDS": {
+            "type": {
+              "label": "消耗類型",
+              "hint": "被消耗目標的類型。"
+            },
+            "target": {
+              "label": "消耗目標",
+              "hint": "指定要被消耗的具體目標。"
+            },
+            "value": {
+              "label": "消耗數值",
+              "hint": "輸入負值表示恢復而非消耗。"
+            },
+            "scaling": {
+              "label": "消耗比例",
+              "mode": {
+                "label": "成長模式",
+                "hint": "消耗數值應如何依等級變化。"
+              },
+              "formula": {
+                "label": "成長公式",
+                "hint": "每等級的自定消耗數值計算公式。"
+              }
+            }
+          }
+        }
+      }
+    },
+    "Action": {
+      "ConsumeResource": "消耗資源",
+      "Create": "創建消耗目標",
+      "Delete": "刪除消耗目標",
+      "RefundResource": "退還資源"
+    },
+    "Empty": "沒有相關聯的消耗。請使用上方的 <i class=\"fas fa-plus\"></i> 按鈕來新增消耗目標。",
+    "Scaling": {
+      "Amount": "數量",
+      "Automatic": "自動",
+      "None": "無增長",
+      "SlotLevel": "環位等級"
+    },
+    "目標": {
+      "ThisItem": "此物品",
+      "UnknownItem": "未知物品"
+    },
+    "類型": {
+      "Action": {
+        "Prompt": "要消耗{type}嗎?",
+        "PromptHint": "消耗{cost}（當前可用：{available}）。"
+      },
+      "ActivityUses": {
+        "Label": "行動使用次數",
+        "PromptDecrease": "要消耗行動使用次數嗎?",
+        "PromptIncrease": "要恢復行動使用次數嗎?",
+        "PromptHintDecrease": "消耗<strong>{cost}</strong>次此行動的使用次數（當前可用：{available}次{availableUse}）。",
+        "PromptHintIncrease": "恢復<strong>{cost}</strong>次此行動的使用次數。",
+        "Warning": "來自 {item} 的行動 {activity} 的使用次數"
+      },
+      "Attribute": {
+        "Label": "屬性值",
+        "NonEmbeddedHint": "要消耗的屬性路徑（例如：attributes.exhaustion、spells.pact.value）。",
+        "PromptDecrease": "要消耗屬性值嗎？",
+        "PromptIncrease": "要恢復屬性值嗎？",
+        "PromptHintDecrease": "<code>{attribute}</code> 減少 <strong>{cost}</strong>（目前為 {current}）。",
+        "PromptHintIncrease": "<code>{attribute}</code> 增加 <strong>{cost}</strong>（目前為 {current}）。",
+        "Warning": "{attribute} 屬性值"
+      },
+      "HitDice": {
+        "Label": "生命骰",
+        "PromptDecrease": "要消耗生命骰嗎？",
+        "PromptIncrease": "要恢復生命骰嗎？",
+        "PromptHintDecrease": "消耗 <strong>{cost}</strong> 顆 {denomination} {die}（剩餘 {available} 顆）。",
+        "PromptHintIncrease": "恢復 <strong>{cost}</strong> 顆 {denomination} {die}。",
+        "Warning": "{denomination} 類型的生命骰"
+      },
+      "HitDie": {
+        "one": "生命骰",
+        "other": "生命骰"
+      },
+      "ItemUses": {
+        "Label": "物品使用次數",
+        "NonEmbeddedHint": "即將自動連結到角色卡上相符物品的物品識別碼或合集包 UUID。",
+        "PromptDecrease": "要消耗物品使用次數嗎？",
+        "PromptIncrease": "要恢復物品使用次數嗎？",
+        "PromptHintDecrease": "消耗 <strong>{cost}</strong> 次 {item} 的使用次數（可用 {available} 次 {availableUse}）。",
+        "PromptHintIncrease": "恢復 <strong>{cost}</strong> 次 {item} 的使用次數。",
+        "Warning": "{name} 的使用次數"
+      },
+      "Material": {
+        "Label": "材料",
+        "NonEmbeddedHint": "即將自動連結到角色卡上相符物品的物品識別碼或合集包 UUID。",
+        "PromptDecrease": "要消耗材料嗎？",
+        "PromptIncrease": "要恢復材料嗎？",
+        "PromptHintDecrease": "{item} 數量減少 <strong>{cost}</strong>（剩餘 {quantity}）。",
+        "PromptHintIncrease": "{item} 數量增加 <strong>{cost}</strong>。",
+        "Warning": "{name} 的材料"
+      },
+      "SpellSlot": {
+        "one": "{level}環",
+        "other": "{level}環"
+      },
+      "SpellSlots": {
+        "Label": "法術位",
+        "PromptDecrease": "要消耗法術位嗎？",
+        "PromptIncrease": "要恢復法術位嗎？",
+        "PromptHintDecrease": "消耗 <strong>{cost}</strong> 個 {slot}（剩餘 {available} 個）。",
+        "PromptHintIncrease": "恢復 <strong>{cost}</strong> 個 {slot}。",
+        "Warning": "{level}環法術位"
+      },
+      "Use": {
+        "one": "次",
+        "other": "次"
+      }
+    },
+    "Warning": {
+      "MissingAttribute": "設定於 {item} 的行動 {activity} 中將被消耗的屬性 {attribute} 無法找到。",
+      "MissingHitDice": "角色未擁有生命骰為{denomination}的職業。",
+      "MissingItem": "設定於 {item} 的行動 {activity} 中將被消耗的物品無法找到。",
+      "MissingSpellSlot": "沒有可用的 {level} 環法術位。",
+      "None": "沒有可消耗的 {type}，但需要 {cost}。",
+      "NotEnough": "{type} 數量不足，需 {cost}，但僅有 {available} 可用。",
+      "WillDestroy": "消耗 {item} 將會花掉最後一次使用次數並摧毀該物品。"
+    }
+  },
+  "DND5E.Consumed": "使用時消耗",
+  "DND5E.Copy": "複製文字",
+  "DND5E.Copied": "已複製 {value}",
+  "DND5E.Cover": "掩蔽",
+  "DND5E.CoverHalf": "半掩蔽",
+  "DND5E.CoverThreeQuarters": "四分之三掩蔽",
+  "DND5E.CoverTotal": "全掩蔽",
+  "DND5E.Cost": "花費",
+  "DND5E.CostGP": "費用（GP）",
+  "DND5E.CreatureAberration": "異怪",
+  "DND5E.CreatureAberrationPl": "異怪",
+  "DND5E.CreatureBeast": "野獸",
+  "DND5E.CreatureBeastPl": "野獸",
+  "DND5E.CreatureCelestial": "天界",
+  "DND5E.CreatureCelestialPl": "天界",
+  "DND5E.CreatureConstruct": "構裝體",
+  "DND5E.CreatureConstructPl": "構裝體",
+  "DND5E.CreatureDragon": "龍類",
+  "DND5E.CreatureDragonPl": "龍類",
+  "DND5E.CreatureElemental": "元素",
+  "DND5E.CreatureElementalPl": "元素",
+  "DND5E.CreatureFey": "精類",
+  "DND5E.CreatureFeyPl": "精類",
+  "DND5E.CreatureFiend": "邪魔",
+  "DND5E.CreatureFiendPl": "邪魔",
+  "DND5E.CreatureGiant": "巨人",
+  "DND5E.CreatureGiantPl": "巨人",
+  "DND5E.CreatureHumanoid": "類人生物",
+  "DND5E.CreatureHumanoidPl": "類人生物",
+  "DND5E.CreatureMonstrosity": "怪物",
+  "DND5E.CreatureMonstrosityPl": "怪物",
+  "DND5E.CreatureOoze": "軟泥",
+  "DND5E.CreatureOozePl": "軟泥",
+  "DND5E.CreaturePlant": "植物",
+  "DND5E.CreaturePlantPl": "植物",
+  "DND5E.CreatureType": "生物類型",
+  "DND5E.CreatureTypeTitle": "配置生物類型",
+  "DND5E.CreatureSwarm": "集群",
+  "DND5E.CreatureSwarmSize": "集群大小",
+  "DND5E.CreatureSwarmPhrase": "{type} 的 {size} 集群",
+  "DND5E.CreatureTag": "{size}{type}，{alignment}",
+  "DND5E.CreatureTypeConfig": "配置生物類型",
+  "DND5E.CreatureTypeSelectorCustom": "自定義類型",
+  "DND5E.CreatureTypeSelectorSubtype": "亞種",
+  "DND5E.CreatureUndead": "亡靈",
+  "DND5E.CreatureUndeadPl": "亡靈",
+  "DND5E.Crewed": "成員",
+  "DND5E.Critical": "重擊",
+  "DND5E.CriticalHit": "重擊命中",
+  "DND5E.PowerfulCritical": "強力重擊",
+  "DND5E.CRLabel": "CR {cr}",
+  "DND5E.Currency": "貨幣",
+  "DND5E.CurrencyAbbrCP": "cp",
+  "DND5E.CurrencyAbbrEP": "ep",
+  "DND5E.CurrencyAbbrGP": "gp",
+  "DND5E.CurrencyAbbrPP": "pp",
+  "DND5E.CurrencyAbbrSP": "sp",
+  "DND5E.CurrencyCP": "CP",
+  "DND5E.CurrencyEP": "EP",
+  "DND5E.CurrencyGP": "GP",
+  "DND5E.CurrencyPP": "PP",
+  "DND5E.CurrencySP": "SP",
+  "DND5E.CurrencyManager": {
+    "Title": "管理貨幣",
+    "Convert": {
+      "Label": "轉換",
+      "Action": "兌換所有貨幣",
+      "Hint": "將所有攜帶的貨幣轉換為盡可能高的面額，以減少角色攜帶的貨幣數量。注意，此操作無法撤銷。"
+    },
+    "Error": {
+      "InsufficientFunds": "無法從{name}扣除{amount}{denomination}。資源不足。"
+    },
+    "Transfer": {
+      "Label": "轉移",
+      "Action": "轉移所選",
+      "All": "全部",
+      "Half": "一半"
+    }
+  },
+  "DND5E.Current": "當前值",
+  "DND5E.DAMAGE": {
+    "All": "所有傷害",
+    "FIELDS": {
+      "damage": {
+        "label": "傷害",
+        "critical": {
+          "allow": {
+            "label": "允許暴擊",
+            "hint": "此生物是否可以骰出暴擊傷害？"
+          },
+          "bonus": {
+            "label": "額外暴擊傷害",
+            "hint": "當骰出暴擊時，會套用至第一個傷害組成的額外傷害。"
+          }
+        },
+        "parts": {
+          "label": "傷害組成",
+          "hint": "擲骰時包含的各別傷害組成。",
+          "FIELDS": {
+            "bonus": {
+              "label": "傷害加值",
+              "hint": "添加在傷害骰上的加值。"
+            },
+            "custom": {
+              "label": "自定傷害公式",
+              "enabled": {
+                "label": "啟用自定義公式",
+                "hint": "使用自定義公式而非預設的骰子設定。"
+              },
+              "formula": {
+                "label": "傷害公式",
+                "hint": "自定義傷害計算的公式。"
+              }
+            },
+            "denomination": {
+              "label": "骰子面數",
+              "hint": "要擲的骰子種類（幾面骰）。"
+            },
+            "modifiers": {
+              "label": "調整值",
+              "hint": "附加至基礎骰的擲骰調整值。"
+            },
+            "number": {
+              "label": "骰子數量",
+              "hint": "要擲幾顆骰子。"
+            },
+            "scaling": {
+              "label": "傷害成長",
+              "abbr": "成長",
+              "mode": {
+                "label": "成長模式",
+                "abbr": "模式",
+                "hint": "計算傷害成長的方法。"
+              },
+              "number": {
+                "label": "骰子成長數量",
+                "abbr": "骰數",
+                "hint": "每次成長階段增加的骰子數量。若傷害公式中包含多顆骰子，則只會套用於第一顆。"
+              },
+              "formula": {
+                "label": "成長公式",
+                "hint": "每個成長階段要乘上的自定義公式，並加至原始公式中。"
+              }
+            },
+            "types": {
+              "label": "傷害類型",
+              "hint": "造成的傷害類型，或供使用者選擇的多種類型。"
+            }
+          }
+        }
+      }
+    },
+    "Empty": "未配置傷害。請使用上方的 <i class=\"fas fa-plus\"></i> 按鈕來新增傷害部分。",
+    "EmptyExceptBase": "請使用上方的 <i class=\"fas fa-plus\"></i> 按鈕來新增額外傷害部分。",
+    "Hint": "在不需要進行攻擊或豁免的情況下對生物造成傷害。",
+    "Part": {
+      "Action": {
+        "Create": "創建傷害組成",
+        "Delete": "刪除傷害組成"
+      }
+    },
+    "PhysicalBypass": {
+      "Description": "來自非{bypassTypes}攻擊的{damageTypes}",
+      "DescriptionShort": "被{type}來源繞過",
+      "Hint": "這些武器屬性將無視物理傷害的抗性。",
+      "Label": "物理傷害無視"
+    },
+    "Scaling": {
+      "Half": "每兩環提升一次",
+      "HalfCantrip": "僅在11等時成長",
+      "None": "無成長",
+      "Whole": "每環提升一次",
+      "WholeCantrip": "在等級5、11、17時成長"
+    },
+    "Title": "傷害",
+    "類型": {
+      "強酸": "強酸",
+      "鈍擊": "鈍擊",
+      "寒冷": "寒冷",
+      "火焰": "火焰",
+      "力場": "力場",
+      "閃電": "閃電",
+      "黯蝕": "黯蝕",
+      "穿刺": "穿刺",
+      "毒素": "毒素",
+      "心靈": "心靈",
+      "光耀": "光耀",
+      "揮砍": "揮砍",
+      "雷鳴": "雷鳴"
+    }
+  },
+  "DND5E.Damage": "傷害",
+  "DND5E.DamageApplication": {
+    "Back": "回到上一頁",
+    "變更": {
+      "Modification": "{type}調整",
+      "Immunity": "{type}免疫",
+      "Resistance": "{type}抗性",
+      "Threshold": "傷害閾值",
+      "Vulnerability": "{type}易傷"
+    },
+    "Downgrading": "將{source}降為抗性",
+    "Ignoring": "無視{source}",
+    "Multiplier": "傷害倍率",
+    "Section": {
+      "Changes": "套用至此目標",
+      "倍率": "倍率",
+      "Targets": "此群組中的目標"
+    },
+    "State": {
+      "active": "已套用",
+      "downgrade": "已降級",
+      "ignore": "已忽略"
+    }
+  },
+  "DND5E.DamageModification": {
+    "Label": "傷害調整",
+    "Hint": "針對套用在此角色身上的各類型傷害，所附加的數值公式。負值會減少實際承受的傷害。",
+    "BypassHint": "以下武器屬性會略過對物理傷害的傷害調整。",
+    "Formatter": "{name}傷害修改"
+  },
+  "DND5E.DamageRoll": "傷害骰",
+  "DND5E.DamageThreshold": "傷害閾值",
+  "DND5E.DamageType": "傷害類型",
+  "DND5E.DamageTypes": "傷害類型",
+  "DND5E.Dawn": "黎明",
+  "DND5E.Day": "天",
+  "DND5E.DeathSave": "死亡豁免",
+  "DND5E.DeathSaveConfigure": "配置死亡豁免",
+  "DND5E.DeathSaveHide": "隱藏死亡豁免",
+  "DND5E.DeathSaveShow": "顯示死亡豁免",
+  "DND5E.DeathSaveSuccessLabel": "死亡豁免成功",
+  "DND5E.DeathSaveSuccessLabelN.one": "死亡豁免成功1次",
+  "DND5E.DeathSaveSuccessLabelN.two": "死亡豁免成功2次",
+  "DND5E.DeathSaveSuccessLabelN.few": "死亡豁免成功3次",
+  "DND5E.DeathSaveSuccesses": "成功",
+  "DND5E.DeathSaveFailureLabel": "死亡豁免失敗",
+  "DND5E.DeathSaveFailureLabelN.one": "死亡豁免失敗1次",
+  "DND5E.DeathSaveFailureLabelN.two": "死亡豁免失敗2次",
+  "DND5E.DeathSaveFailureLabelN.few": "死亡豁免失敗3次",
+  "DND5E.DeathSaveFailures": "失敗",
+  "DND5E.DeathSaveRoll": "擲骰死亡豁免",
+  "DND5E.DeathSavingThrow": "死亡豁免",
+  "DND5E.DeathSaveUnnecessary": "你無需進行死亡豁免，因為你的生命值大於0或者已經集齊三次成功或失敗。",
+  "DND5E.DEATH": {
+    "FIELDS": {
+      "attributes": {
+        "death": {
+          "roll": {
+            "bonus": {
+              "label": "死亡豁免加值"
+            },
+            "max": {
+              "label": "最高死亡豁免擲骰"
+            },
+            "min": {
+              "label": "最低死亡豁免擲骰"
+            },
+            "mode": {
+              "label": "死亡豁免優勢模式"
+            }
+          }
+        }
+      }
+    },
+    "Outcome": {
+      "death": "{name}累積 3 次死亡豁免失敗，已經死亡！",
+      "revive": "{name}在死亡豁免中骰出大成功，回復 1 點生命值！",
+      "stable": "{name}累積 3 次死亡豁免成功存活下來，狀態已經穩定！"
+    }
+  },
+  "DND5E.Default": "預設",
+  "DND5E.DefaultSpecific": "預設({default})",
+  "DND5E.DefaultAbilityCheck": "預設屬性檢定",
+  "DND5E.Denomination": "面額",
+  "DND5E.Description": "描述",
+  "DND5E.DescriptionChat": "聊天描述",
+  "DND5E.DescriptionEdit": "編輯{description}",
+  "DND5E.DescriptionSummary": "摘要描述",
+  "DND5E.DescriptionUnidentified": "未鑑定描述",
+  "DND5E.Details": "詳情",
+  "DND5E.DetailsEdit": "編輯詳情",
+  "DND5E.Die": "骰子",
+  "DND5E.Dimensions": "維度",
+  "DND5E.Disadvantage": "劣勢",
+  "DND5E.Discord": "Discord",
+  "DND5E.Disclaimer": "免責聲明",
+  "DND5E.DisplayCard": "顯示於聊天視窗",
+  "DND5E.DistAny": "任意",
+  "DND5E.DistFt": "英呎",
+  "DND5E.DistFtAbbr": "英呎",
+  "DND5E.DistKm": "公里",
+  "DND5E.DistKmAbbr": "公里",
+  "DND5E.DistM": "公尺",
+  "DND5E.DistMAbbr": "米",
+  "DND5E.DistMi": "英里",
+  "DND5E.DistMiAbbr": "英哩",
+  "DND5E.DistSelf": "自身",
+  "DND5E.DistTouch": "接觸",
+  "DND5E.DocumentUseWarn": "你無權使用此文件的物品。",
+  "DND5E.DocumentViewWarn": "你無權使用此文件。",
+  "DND5E.DURATION": {
+    "FIELDS": {
+      "duration": {
+        "label": "持續時間",
+        "concentration": {
+          "label": "專注",
+          "hint": "生物在效果期間內必須維持專注。"
+        },
+        "expiry": {
+          "label": "到期事件",
+          "hint": "觸發使用結束的事件。"
+        },
+        "override": {
+          "label": "覆蓋持續時間",
+          "hint": "在使用此行動時，改用這組持續時間數值取代物品原本的設定。"
+        },
+        "special": {
+          "label": "特殊持續時間",
+          "hint": "任何關於特殊持續時間的細節。"
+        },
+        "units": {
+          "label": "持續時間單位",
+          "hint": "用來衡量持續時間的單位。"
+        },
+        "value": {
+          "label": "持續時間數值",
+          "hint": "若適用，則以所選單位表示的持續時間數值。"
+        }
+      }
+    }
+  },
+  "DND5E.Duration": "持續時間",
+  "DND5E.DurationPermanent": "永久",
+  "DND5E.DurationTime": "時間",
+  "DND5E.DurationType": "持續時間類型",
+  "DND5E.DurationUnits": "持續時間單位",
+  "DND5E.DurationValue": "持續時間值",
+  "DND5E.Dusk": "黃昏",
+  "DND5E.Effect": "效果",
+  "DND5E.EFFECT": {
+    "Action": {
+      "AddChange": "新增變更",
+      "套用": "套用",
+      "CreateEffect": "建立效果",
+      "DeleteEffect": "刪除效果",
+      "DeleteChange": "刪除變更",
+      "DisableEffect": "停用效果",
+      "DissociateEffect": "解除關聯效果",
+      "EditChange": "編輯變更",
+      "EditEffect": "編輯效果",
+      "EnableEffect": "啟用效果",
+      "PanToToken": "平移至指示物",
+      "RemoveStatus": {
+        "all": "所有來源",
+        "label": "來源"
+      },
+      "Search": "搜尋效果",
+      "Create": "創建效果",
+      "Delete": "刪除效果",
+      "Dissociate": "解除關聯效果"
+    },
+    "AdditionalChanges": "額外變更",
+    "Application": {
+      "Action": {
+        "ApplyTokens": "套用至選取的指示物"
+      },
+      "Header": "效果",
+      "Warning": {
+        "Ownership": "無法將效果套用至您未擁有的指示物。"
+      }
+    },
+    "AttributeKeyTooltip": "如需常見屬性鍵與其接受數值的列表，請參閱 <a href=\"{url}\">Wiki</a>。",
+    "BASE": {
+      "FIELDS": {
+        "changes": {
+          "element": {
+            "conditions": {
+              "hint": "套用此變更必須符合的條件。",
+              "label": "變更條件"
+            },
+            "key": {
+              "label": "屬性鍵"
+            },
+            "phase": {
+              "hint": "套用變更的資料準備階段，或是其他事件點。",
+              "label": "階段"
+            },
+            "priority": {
+              "label": "優先順序"
+            },
+            "replacement": {
+              "label": "替換",
+              "hint": "設定是否在套用前替換數值中的擲骰資料屬性，以及要使用誰的資料。"
+            },
+            "type": {
+              "label": "類型"
+            },
+            "value": {
+              "label": "數值"
+            }
+          }
+        },
+        "conditions": {
+          "hint": "控制何時套用效果的條件。",
+          "label": "效果條件"
+        },
+        "magical": {
+          "hint": "此附魔具有魔法，當魔法不可用時應將其停用。",
+          "label": "魔法"
+        }
+      }
+    },
+    "Category": {
+      "Temporary": "暫時效果",
+      "Passive": "被動效果",
+      "Inactive": "未啟用效果",
+      "Unavailable": "不可用效果"
+    },
+    "變更": {
+      "Configuration": "變更設定",
+      "Group": {
+        "自訂": "自訂",
+        "規則": "規則",
+        "標準": "標準"
+      },
+      "Label": "變更",
+      "Title": "{effect}變更 #{number}",
+      "類型": {
+        "Advantage": {
+          "Label": "優勢模式"
+        },
+        "Bonus": {
+          "Label": "Bonus"
+        },
+        "Maximum": {
+          "Label": "最高擲骰"
+        },
+        "Minimum": {
+          "Label": "最低擲骰"
+        }
+      }
+    },
+    "DisabledTooltip": {
+      "Disabled": "此效果目前被選為其物品行動的一部分，因此無法被暫停。",
+      "Transfer": "此效果目前被選為其物品行動的一部分，因此無法被動套用至該物品的擁有者身上。"
+    },
+    "DropHint": "將 Active Effect 拖曳至此處",
+    "Empty": "尚未連結任何效果。請點擊上方的<i class=\"fas fa-plus\"></i>按鈕創建，或從下拉選單中選擇一個現有效果。",
+    "已到期": "已到期",
+    "Expiry": {
+      "Abbreviation": {
+        "結束": "結束",
+        "開始": "開始"
+      },
+      "Group": {
+        "一般": "一般",
+        "特定": "特定"
+      },
+      "類型": {
+        "LongRest": "長休結束時",
+        "ShortRest": "短休結束時",
+        "SourceEnd": "來源的下個回合結束時",
+        "SourceStart": "來源的下個回合開始時",
+        "TargetEnd": "目標的下個回合結束時",
+        "TargetStart": "目標的下個回合開始時",
+        "YourEnd": "你的下個回合結束時",
+        "YourStart": "你的下個回合開始時"
+      }
+    },
+    "FIELDS": {
+      "statuses": {
+        "label": "狀態條件",
+        "hint": "當受此 Active Effect 影響時，目標將被視為具有這些額外的狀態條件。"
+      }
+    },
+    "Label": "可用效果",
+    "New": "新效果",
+    "替換": {
+      "NoChange": "無變更",
+      "來源": "來源",
+      "目標": "目標"
+    },
+    "RIDER": {
+      "Activity": "附魔附加行動",
+      "Effect": "附魔附加效果",
+      "FIELDS": {
+        "rider": {
+          "statuses": {
+            "hint": "當此 Active Effect 套用時，這些額外的狀態條件將會分開套用。",
+            "label": "獨立狀態條件"
+          }
+        }
+      }
+    },
+    "Status": {
+      "ChangeActive": "變更為啟用",
+      "ChangeInactive": "變更為未啟用",
+      "DeleteDialog": {
+        "hint": "你正受到來自多個來源的此條件影響。請選擇要結束哪個效果。",
+        "title": "移除效果"
+      },
+      "未啟用": "未啟用",
+      "被動": "被動",
+      "暫時": "暫時",
+      "不可用": "不可用"
+    },
+    "Suppressed": {
+      "Hint": "來源物品必須被裝備或同調才能啟動這些效果"
+    },
+    "Tab": "效果",
+    "Warning": {
+      "RollCondition": "效果條件不能參考「roll.」屬性。請將此條件移至要套用效果的個別變更中。",
+      "StatusCondition": "賦予狀態的效果不能同時以狀態作為條件。請將此條件移至要套用效果的個別變更中。"
+    }
+  },
+  "DND5E.ENCHANT": {
+    "FIELDS": {
+      "effects.element": {
+        "level": {
+          "label": "等級限制",
+          "hint": "使用此附魔所需的等級範圍。",
+          "max": {
+            "label": "最高等級"
+          },
+          "min": {
+            "label": "最低等級"
+          }
+        },
+        "riders": {
+          "label": "附加內容",
+          "activity": {
+            "label": "附加行動",
+            "hint": "當此附魔被套用時，這些額外行動會加入附魔物品中，並在附魔移除時一併移除。"
+          },
+          "effect": {
+            "label": "附加效果",
+            "hint": "當此附魔被套用時，這些額外效果會加入附魔物品中，並在附魔移除時一併移除。"
+          },
+          "item": {
+            "label": "附加物品",
+            "hint": "當某件物品被附魔時，這些額外物品會加入該生物擁有的物品欄，並在附魔移除時移除。"
+          }
+        }
+      },
+      "enchant": {
+        "label": "附魔配置",
+        "identifier": {
+          "label": "職業識別碼",
+          "hint": "用於判定附魔等級限制應參考角色總等級，還是特定職業等級。"
+        },
+        "self": {
+          "label": "自動附魔自身",
+          "hint": "當使用此行動時，自動將選擇的附魔套用到包含此行動的物品上，並在再次使用該行動時將其移除。"
+        }
+      },
+      "restrictions": {
+        "label": "限制",
+        "hint": "此附魔可套用於哪些類型的物品。",
+        "allowMagical": {
+          "label": "允許魔法物品",
+          "hint": "允許魔法物品再被附魔。."
+        },
+        "categories": {
+          "label": "有效分類",
+          "hint": "可被此附魔套用的特定物品分類。"
+        },
+        "properties": {
+          "label": "有效屬性",
+          "hint": "附魔必須套用在擁有下列屬性的物品上。"
+        },
+        "type": {
+          "label": "物品類型",
+          "hint": "此附魔可套用的物品類型。",
+          "Any": "任意可附魔類型"
+        }
+      }
+    },
+    "DropArea": "將物品放置此處以附魔",
+    "Enchanted": "{current} &sol; {max}已附魔",
+    "Enchantment": {
+      "Action": {
+        "Create": "創建附魔",
+        "Delete": "刪除附魔",
+        "Dissociate": "解除關聯附魔"
+      },
+      "Active": "{name}（作用中）",
+      "Empty": "目前沒有關聯的附魔。請點擊上方 <i class=\"fas fa-plus\"></i> 按鈕創建，或從下拉選單選擇現有附魔。"
+    },
+    "Hint": "對物品套用附魔，以修改其數值或功能。",
+    "SECTIONS": {
+      "Enchanting": "附魔中",
+      "Enchantments": "附魔清單",
+      "Restrictions": "限制"
+    },
+    "Title": "附魔",
+    "Warning": {
+      "ConcentrationEnded": "無法套用此附魔，因為專注已結束。",
+      "MissingProperty": "物品必須擁有以下屬性之一才能被附魔：{validProperties}。",
+      "NoMagicalItems": "具有魔法性質的物品無法再進行附魔。",
+      "NoTargetActor": "從合集包進行附魔需要指定一個角色或選取一個指示物。",
+      "NoSubtype": "此附魔只能套用於{allowedType}物品，但該物品沒有子類型。",
+      "WrongType": "{incorrectType}的物品無法使用此附魔，僅允許{allowedType}。"
+    }
+  },
+  "DND5E.ENCHANTMENT": {
+    "Action": {
+      "套用": "套用附魔",
+      "Disable": "禁用附魔",
+      "Edit": "編輯附魔",
+      "Enable": "啟用附魔",
+      "Remove": "移除附魔"
+    },
+    "Category": {
+      "Active": "啟用中的附魔",
+      "一般": "附魔清單",
+      "未啟用": "未啟用的附魔"
+    },
+    "FIELDS": {
+      "magical": {
+        "hint": "此附魔具有魔法，當魔法不可用時應將其停用。",
+        "label": "魔法"
+      },
+      "enchantment": {
+        "label": "附魔配置",
+        "items": {
+          "max": {
+            "label": "物品上限",
+            "hint": "可同時啟用此類附魔的最大數量計算公式。"
+          },
+          "period": {
+            "label": "更換間隔",
+            "hint": "此類附魔可重新綁定至不同物品的頻率。"
+          }
+        }
+      }
+    },
+    "Items": {
+      "Entry": "{item}（<em>{actor}</em>）"
+    },
+    "Label": "附魔",
+    "Period": {
+      "AtWill": "隨時",
+      "LongRest": "長休",
+      "Never": "永不",
+      "ShortRest": "短休"
+    },
+    "Transfer": {
+      "DisabledTooltip": "此附魔目前被選為其物品的一項或多項附魔行動，因此無法直接套用至該物品。",
+      "Hint": "若勾選，此附魔將會直接套用至其母物品上。",
+      "Label": "將附魔套用至物品"
+    },
+    "Warning": {
+      "NotOnActor": "附魔只能套用於物品，不能直接加在角色身上。",
+      "Override": "此數值已被附魔修改，無法編輯。如需修改，請至角色卡的效果分頁停用該附魔。"
+    }
+  },
+  "DND5E.ENCOUNTER": {
+    "Action": {
+      "AddCreature": "新增生物",
+      "Award": "給予 XP 與貨幣"
+    },
+    "Difficulty": {
+      "high": "高難度",
+      "low": "低難度",
+      "moderate": "中等難度"
+    },
+    "Tab": {
+      "描述": "描述",
+      "戰利品": "戰利品",
+      "成員": "成員"
+    }
+  },
+  "DND5E.Encumbrance": "負重",
+  "DND5E.ENCUMBRANCE": {
+    "FIELDS": {
+      "attributes": {
+        "encumbrance": {
+          "bonuses": {
+            "encumbered": {
+              "label": "超重閾值加值"
+            },
+            "heavilyEncumbered": {
+              "label": "嚴重超重閾值加值"
+            },
+            "maximum": {
+              "label": "最大負重能力加值"
+            },
+            "overall": {
+              "label": "所有負重閾值加值"
+            }
+          },
+          "multipliers": {
+            "encumbered": {
+              "label": "超重閾值倍率"
+            },
+            "heavilyEncumbered": {
+              "label": "嚴重超重閾值倍率"
+            },
+            "maximum": {
+              "label": "最大負重能力倍率"
+            },
+            "overall": {
+              "label": "所有負重閾值倍率"
+            }
+          }
+        }
+      }
+    }
+  },
+  "DND5E.Environment": "環境",
+  "DND5E.EQUIPMENT": {
+    "類型": {
+      "Clothing": {
+        "Label": "服裝"
+      },
+      "Ring": {
+        "Label": "戒指"
+      },
+      "Rod": {
+        "Label": "法杖"
+      },
+      "Trinket": {
+        "Label": "小飾品"
+      },
+      "載具": {
+        "Label": "載具裝備"
+      },
+      "Wand": {
+        "Label": "法棒"
+      },
+      "Wondrous": {
+        "Label": "奇物"
+      }
+    }
+  },
+  "DND5E.EquipmentBonus": "魔法加值",
+  "DND5E.EquipmentHeavy": "重型護甲",
+  "DND5E.EquipmentLight": "輕型護甲",
+  "DND5E.EquipmentMedium": "中型護甲",
+  "DND5E.EquipmentNatural": "天生護甲",
+  "DND5E.EquipmentShield": "盾牌",
+  "DND5E.EquipmentShieldProficiency": "盾牌",
+  "DND5E.Equipped": "已裝備",
+  "DND5E.Exhaustion": "力竭",
+  "DND5E.ExhaustionLevel": " {n}級力竭",
+  "DND5E.ExperiencePoints": {
+    "Abbreviation": "XP",
+    "Boons": {
+      "one": "{number} 個恩惠",
+      "other": "{number} 個恩惠"
+    },
+    "Current": "當前 XP",
+    "Format": "{value} XP",
+    "Label": "經驗值",
+    "Pool": "XP 池",
+    "Progress": "距離下個等級的進度",
+    "StatBlock": {
+      "標準": "XP {value}",
+      "Lair": "XP {value}, 在巢穴中為 {lair}"
+    },
+    "數值": "XP 值"
+  },
+  "DND5E.Expertise": "專長",
+  "DND5E.Eyes": "眼睛",
+  "DND5E.FACILITY": {
+    "Action": {
+      "DeleteDefender": "移除防禦者",
+      "DeleteOccupant": "移除居住者",
+      "RemoveCraft": "移除製作項目"
+    },
+    "AvailableFacility": {
+      "basic": {
+        "build": "建造設施",
+        "free": "免費設施"
+      },
+      "special": {
+        "free": "新增設施"
+      }
+    },
+    "Build": {
+      "Unbuilt": "未建造"
+    },
+    "Costs": {
+      "Automatic": "自動扣除",
+      "Days": "{days} 天",
+      "Label": "花費",
+      "Manual": "標記為已支付",
+      "Paid": "已支付",
+      "Unpaid": "未支付"
+    },
+    "Craft": {
+      "BaseItem": {
+        "Label": "購買基礎物品",
+        "Hint": "若勾選，將以全價購買基礎物品，而非自行製作。"
+      },
+      "DropHint": "將物品拖曳至此處",
+      "Hint": "此設施目前正在製作或收成的物品（如有）。"
+    },
+    "描述": "描述",
+    "FIELDS": {
+      "building": {
+        "built": {
+          "label": "已建造",
+          "hint": "基礎設施必須先建造後才能使用。"
+        }
+      },
+      "defenders": {
+        "max": {
+          "label": "防禦者"
+        }
+      },
+      "disabled": {
+        "hint": "已停用的設施無法下達命令，並會在下一回合開始時進行修復。",
+        "label": "已停用"
+      },
+      "enlargeable": {
+        "hint": "某些特殊設施可花費資源擴增其大小等級。",
+        "label": "可擴增"
+      },
+      "free": {
+        "hint": "免費設施不會計入特殊設施的上限。",
+        "label": "免費設施"
+      },
+      "hirelings": {
+        "max": {
+          "label": "雇員數量"
+        }
+      },
+      "level": {
+        "label": "等級需求"
+      },
+      "order": {
+        "label": "命令"
+      },
+      "progress": {
+        "max": {
+          "label": "總量"
+        },
+        "order": {
+          "label": "執行中"
+        },
+        "value": {
+          "label": "目前進度"
+        }
+      },
+      "size": {
+        "label": "尺寸"
+      },
+      "trade": {
+        "creatures": {
+          "max": {
+            "label": "生物容量"
+          }
+        },
+        "profit": {
+          "label": "利潤係數"
+        },
+        "stock": {
+          "stocked": {
+            "hint": "適用於不記錄具體貨物數量的設施，其狀態僅為「已補貨」或「空」。",
+            "label": "已補貨"
+          },
+          "value": {
+            "label": "數值"
+          },
+          "max": {
+            "label": "上限"
+          }
+        }
+      },
+      "type": {
+        "subtype": {
+          "label": "類型"
+        },
+        "value": {
+          "label": "分類"
+        }
+      }
+    },
+    "Goods": "貨品",
+    "NoDefenders": "據點未設防。",
+    "Occupants": "居住者",
+    "Order": {
+      "Execute": "執行命令",
+      "Issue": "發出命令：{order}"
+    },
+    "Orders": {
+      "Label": "命令",
+      "build": {
+        "inf": "建造",
+        "present": "建造中"
+      },
+      "change": {
+        "inf": "更改",
+        "present": "更改中"
+      },
+      "craft": {
+        "inf": "製作",
+        "present": "製作中"
+      },
+      "empower": {
+        "inf": "強化",
+        "present": "強化中"
+      },
+      "enlarge": {
+        "inf": "擴增",
+        "present": "擴增中"
+      },
+      "harvest": {
+        "inf": "收成",
+        "present": "收成中"
+      },
+      "maintain": {
+        "inf": "維護",
+        "present": "維護中"
+      },
+      "recruit": {
+        "inf": "招募",
+        "present": "招募中"
+      },
+      "repair": {
+        "inf": "修復",
+        "present": "修復中"
+      },
+      "research": {
+        "inf": "研究",
+        "present": "研究中"
+      },
+      "trade": {
+        "inf": "交易",
+        "present": "交易中"
+      }
+    },
+    "Progress": "進度",
+    "Properties": "屬性",
+    "Sizes": {
+      "cramped": "狹窄",
+      "roomy": "寬敞",
+      "vast": "遼闊"
+    },
+    "Squares": "{squares}格",
+    "Trade": {
+      "Buy": {
+        "Supplement": "購買"
+      },
+      "Creatures": {
+        "Buy": "將你想購買的動物拖曳至上方欄位，並在下方調整價格。"
+      },
+      "Price": {
+        "Label": "基礎價格",
+        "Hint": "選擇欲販售的存貨，並於上方輸入其基礎價格。"
+      },
+      "Sell": {
+        "Label": "販售存貨",
+        "Supplement": "販售"
+      },
+      "Stock": {
+        "Buy": "進貨中",
+        "Sell": "販售中"
+      },
+      "Stocked": {
+        "Label": "補滿存貨",
+        "Hint": "在下方輸入補滿此設施所需的花費。",
+        "Supplement": "庫存充足"
+      }
+    },
+    "Types": {
+      "Basic": {
+        "Label": {
+          "one": "基礎設施",
+          "other": "基礎設施"
+        },
+        "Bedroom": "臥室",
+        "DiningRoom": "餐廳",
+        "Parlor": "會客室",
+        "Courtyard": "庭院",
+        "Kitchen": "廚房",
+        "Storage": "儲藏室"
+      },
+      "Special": {
+        "Label": {
+          "one": "特殊設施",
+          "other": "特殊設施"
+        },
+        "ArcaneStudy": "祕法研究室",
+        "Armory": "軍械庫",
+        "Barrack": "兵營",
+        "Garden": "花園",
+        "Library": "圖書館",
+        "Sanctuary": "聖所",
+        "Smithy": "鐵匠鋪",
+        "Storehouse": "倉庫",
+        "Workshop": "工坊",
+        "GamingHall": "遊戲大廳",
+        "Greenhouse": "溫室",
+        "Laboratory": "實驗室",
+        "Sacristy": "聖器室",
+        "Scriptorium": "抄寫室",
+        "Stable": "馬廄",
+        "TeleportationCircle": "傳送法陣",
+        "Theater": "劇院",
+        "TrainingArea": "訓練場",
+        "TrophyRoom": "戰利品室",
+        "Archive": "檔案室",
+        "MeditationChamber": "冥想室",
+        "Menagerie": "獸欄",
+        "Observatory": "天文台",
+        "Pub": "酒館",
+        "Reliquary": "聖物室",
+        "Demiplane": "半位面",
+        "Guildhall": "公會廳",
+        "Sanctum": "密室",
+        "WarRoom": "作戰室"
+      }
+    },
+    "Use": {
+      "描述": "已向{link} {facilityType}下達<strong>{order}</strong>命令。"
+    }
+  },
+  "DND5E.FALLING": {
+    "DamageFlavor": "墜落了{distance}",
+    "MovementAction": "墜落",
+    "Warning": {
+      "NoLandingSurface": "無法讓{name}墜落，他們下方沒有表面。"
+    }
+  },
+  "DND5E.Favorite": "我的最愛",
+  "DND5E.FavoriteDrop": "拖入我的最愛",
+  "DND5E.FavoriteRemove": "自最愛移除",
+  "DND5E.Favorites": "我的最愛",
+  "DND5E.FeatureActionRecharge": "動作充能",
+  "DND5E.FEATURE": {
+    "FIELDS": {
+      "cover": {
+        "label": "掩護",
+        "hint": "此載具特性能為乘員提供的掩護。"
+      },
+      "enchant": {
+        "label": "附魔設定",
+        "items": {
+          "max": {
+            "label": "物品上限",
+            "hint": "可同時啟用此類型附魔的最大數量公式。"
+          },
+          "period": {
+            "label": "替換間隔",
+            "hint": "此類型附魔可重新綁定到不同物品上的頻率。"
+          }
+        }
+      },
+      "properties": {
+        "label": "特性屬性"
+      },
+      "requirements": {
+        "label": "需求條件"
+      },
+      "type": {
+        "label": "特性類型"
+      }
+    }
+  },
+  "DND5E.Feature": {
+    "Background": "背景特性",
+    "Class": {
+      "Label": "職業特性",
+      "ArcaneShot": "祕法射擊",
+      "ArtificerInfusion": "奇械師注法",
+      "ArtificerPlan": "奇械師藍圖",
+      "ChannelDivinity": "引導神力",
+      "DefensiveTactic": "防禦性戰術",
+      "EldritchInvocation": "魔能祈喚",
+      "ElementalDiscipline": "四象法門",
+      "FightingStyle": "戰鬥風格",
+      "HuntersPrey": "狩者獵物",
+      "Ki": "氣",
+      "Maneuver": "戰技",
+      "Metamagic": "超魔法選項",
+      "Multiattack": "額外攻擊",
+      "PactBoon": "契約恩賜",
+      "PsionicPower": "靈能力量",
+      "Rune": "符文",
+      "SuperiorHuntersDefense": "卓越獵人防禦"
+    },
+    "Feat": {
+      "Label": "專長",
+      "EpicBoon": "史詩恩惠專長",
+      "FightingStyle": "戰鬥風格",
+      "一般": "一般專長",
+      "來源": "起源專長"
+    },
+    "Monster": "怪物特性",
+    "PietyTrait": "虔誠特徵",
+    "Species": "種族特性",
+    "SpeciesLegacy": "種族特性",
+    "SupernaturalGift": {
+      "Label": "超自然贈禮",
+      "Blessing": "祝福",
+      "Charm": "護咒",
+      "EpicBoon": "恩賜"
+    },
+    "載具": {
+      "Label": "載具特性"
+    }
+  },
+  "DND5E.Focus": {
+    "Label": "施法法器",
+    "Arcane": "奧術法器",
+    "Druidic": "德魯伊法器",
+    "Holy": "神聖法器"
+  },
+  "DND5E.Loot.Art": "藝術品",
+  "DND5E.Loot.Gear": "冒險裝備",
+  "DND5E.Loot.Gem": "寶石",
+  "DND5E.Loot.Junk": "垃圾",
+  "DND5E.Loot.Material": "材料",
+  "DND5E.Loot.Resource": "資源",
+  "DND5E.Loot.Trade": "貿易商品",
+  "DND5E.Loot.Treasure": "寶藏",
+  "DND5E.Flaws": "缺陷",
+  "DND5E.FormulaCannotContainDiceError": "{name}公式不能包含骰子表達式。",
+  "DND5E.FORWARD": {
+    "FIELDS": {
+      "activity": {
+        "label": "觸發行動"
+      }
+    },
+    "Hint": "觸發此物品上的另一個行動，可具有不同的消耗與成長細節。",
+    "Title": "聯動",
+    "Warning": {
+      "NoActivity": "在使用聯動行動前，必須先設定連結的行動。"
+    }
+  },
+  "DND5E.Faith": "信仰",
+  "DND5E.FeatureActive": "主動能力",
+  "DND5E.FeatureAdd": "創建特性",
+  "DND5E.FeatureAttack": "特性攻擊",
+  "DND5E.FeaturePassive": "被動能力",
+  "DND5E.FeatureRechargeOn": "充能公式",
+  "DND5E.FeatureRechargeResult": "1d6 結果",
+  "DND5E.FeatureSearch": "搜尋特性",
+  "DND5E.FeatureUsage": "特性用法",
+  "DND5E.Features": "特性",
+  "DND5E.FeaturesBackground": "背景特性",
+  "DND5E.FeaturesClass": "{class}特性",
+  "DND5E.FeaturesOther": "其他特性",
+  "DND5E.Feats": "專長",
+  "DND5E.FeetAbbr": "呎",
+  "DND5E.Filter": "過濾條件",
+  "DND5E.FilterClear": "清除篩選",
+  "DND5E.FilterGroupCategory": "按分類分組",
+  "DND5E.FilterGroupOrigin": "按來源分組",
+  "DND5E.FilterGroupAction": "按動作分組",
+  "DND5E.FilterNoSpells": "該條件下沒有找到法術",
+  "DND5E.FILTER": {
+    "Action": {
+      "Edit": "編輯過濾器"
+    },
+    "Empty": "無過濾",
+    "Invalid": "無效過濾",
+    "Operator": {
+      "And": "and",
+      "Not": "not",
+      "Or": "or"
+    }
+  },
+  "DND5E.NoSpellLevels": "該人物沒有施法等級，但是你可以手動增加法術。",
+  "DND5E.FLAGS": {
+    "EnhancedDualWielding": {
+      "Name": "強化雙武器戰鬥",
+      "Hint": "允許以附贈動作使用任何不具雙手屬性的近戰武器，進行額外攻擊。"
+    },
+    "IgnoreArmorSpeedReduction": {
+      "Name": "無視護甲減速",
+      "Hint": "無視未達力量需求時穿著護甲所受到的速度減值。"
+    }
+  },
+  "DND5E.FlagsInstructions": "設置角色特性（種族特性或專長）",
+  "DND5E.FlagsSave": "更新特性",
+  "DND5E.FlagsTitle": "設置特性",
+  "DND5E.FlagsDiamondSoul": "金剛魂（武僧）",
+  "DND5E.FlagsDiamondSoulHint": "獲得所有豁免擲骰的熟練。",
+  "DND5E.FlagsPowerfulBuild": "身強力壯",
+  "DND5E.FlagsPowerfulBuildHint": "負重能力提升一級。",
+  "DND5E.FlagsElvenAccuracy": "精靈之準",
+  "DND5E.FlagsElvenAccuracyHint": "在敏捷、智力、感知或魅力檢定具有優勢時額外投一個D20。",
+  "DND5E.FlagsHalflingLucky": "半身人幸運",
+  "DND5E.FlagsHalflingLuckyHint": "當攻擊檢定、屬性檢定以及豁免檢定擲出1時，你可以再重擲一次，但必須使用重擲的結果。",
+  "DND5E.FlagsHalflingNimbleness": "半身人靈巧",
+  "DND5E.FlagsHalflingNimblenessHint": "穿過體型更大生物的空間時不會被阻擋。",
+  "DND5E.FlagsAlert": "警覺（專長）",
+  "DND5E.FlagsAlertHint": "先攻骰熟練",
+  "DND5E.FlagsAlertHintLegacy": "+5 先攻",
+  "DND5E.FlagsJOAT": "全能高手",
+  "DND5E.FlagsJOATHint": "進行未熟練的技能檢定時，加入1/2的熟練加值到檢定中。",
+  "DND5E.FlagsObservant": "敏銳觀察（專長）",
+  "DND5E.FlagsObservantHint": "被動察覺和調查+5。",
+  "DND5E.FlagsTavernBrawler": "酒館拳王（專長）",
+  "DND5E.FlagsTavernBrawlerHint": "熟練臨時武器。",
+  "DND5E.FlagsReliableTalent": "可靠才能（遊蕩者）",
+  "DND5E.FlagsReliableTalentHint": "每當你以一種熟練技能或熟練工具進行屬性檢定時，你可以將d20骰中9或以下的結果都視為10。",
+  "DND5E.FlagsRemarkableAthlete": "運動健將（戰士）",
+  "DND5E.FlagsRemarkableAthleteHint": "將1/2熟練加值（向上取整）加在物理能力檢定以及先攻上。",
+  "DND5E.FlagsRemarkableAthleteHintLegacy": "在物理屬性檢定與先攻檢定中獲得半熟練加值（無條件進位）。",
+  "DND5E.FlagsWeaponCritThreshold": "武器爆擊閾值",
+  "DND5E.FlagsWeaponCritThresholdHint": "擴增的武器攻擊達成爆擊的閾值。",
+  "DND5E.FlagsSpellCritThreshold": "法術爆擊閾值",
+  "DND5E.FlagsSpellCritThresholdHint": "擴增的法術攻擊達成爆擊的閾值。",
+  "DND5E.FlagsMeleeCriticalDice": "近戰爆擊傷害骰",
+  "DND5E.FlagsMeleeCriticalDiceHint": "近戰武器爆擊時額外增加的傷害骰的數量。",
+  "DND5E.FlagsToolExpertise": "工具專精",
+  "DND5E.FlagsToolExpertiseHint": "當你進行使用工具熟練的屬性檢定時，你的熟練加值加倍。",
+  "DND5E.Flat": "固定",
+  "DND5E.Formula": "公式",
+  "DND5E.FormulaMalformedError": "在 {name} 中準備 {property} 公式時出現問題。",
+  "DND5E.FormulaMissingReferenceWarn": "{name} 中的 {property} 公式引用了缺失的資料：{references}",
+  "DND5E.Gear": "裝備",
+  "DND5E.Gender": "性別",
+  "DND5E.GlobalBonus": "全域加值",
+  "DND5E.GrantedAbilities": "已獲得能力",
+  "DND5E.GroupInventory": "物品欄",
+  "DND5E.GroupHP": "總生命值",
+  "DND5E.GroupSummary": "共{members}個",
+  "DND5E.GroupSummaryEmpty": "無團體",
+  "DND5E.GroupControls": "管理",
+  "DND5E.Group": {
+    "Action": {
+      "ChangePace": "變更步調",
+      "Inventory": {
+        "Group": "顯示團體物品欄",
+        "Vehicle": "顯示載具物品欄"
+      },
+      "Remove": "移除成員",
+      "SetPrimaryVehicle": "設為主要載具",
+      "UnsetPrimaryVehicle": "取消主要載具",
+      "View": "檢視成員"
+    },
+    "Config": {
+      "Art": {
+        "Label": "成員立繪",
+        "portraits": "頭像",
+        "tokens": "指示物"
+      },
+      "Legend": "團體角色卡選項"
+    },
+    "Challenge": "挑戰",
+    "Distribute": {
+      "noxp": "分配池中貨幣",
+      "xp": "分配池中 XP 與貨幣"
+    },
+    "Member": {
+      "one": "成員",
+      "other": "成員"
+    },
+    "PlaceMembers": "放置成員",
+    "Primary": {
+      "Remove": "取消主隊伍",
+      "Set": "設為主隊伍"
+    },
+    "類型": "團體類型",
+    "TypeEncounter": "遭遇",
+    "TypeGeneric": "團體",
+    "TypeParty": "隊伍",
+    "載具": {
+      "Count": {
+        "one": "載具",
+        "other": "載具"
+      },
+      "Primary": {
+        "label": "主要載具"
+      },
+      "one": "載具",
+      "other": "載具"
+    },
+    "Warning": {
+      "PhysicalItemOnly": "僅支援實體物品。",
+      "PlaceMembers": "將指示物放置於場景中時發生錯誤。"
+    }
+  },
+  "DND5E.Habitat": {
+    "Categories": {
+      "Any": "任意",
+      "Arctic": "極地",
+      "Coastal": "海岸",
+      "Desert": "沙漠",
+      "Forest": "森林",
+      "Grassland": "草原",
+      "Hill": "丘陵",
+      "Mountain": "山脈",
+      "Planar": "異界",
+      "Swamp": "沼澤",
+      "Underdark": "幽暗地域",
+      "Underwater": "水下",
+      "Urban": "城市"
+    },
+    "Configuration": {
+      "自訂": "自定義",
+      "Label": "棲地",
+      "Legend": "分類",
+      "Subtype": "{type} 子類型",
+      "Title": "設定棲地"
+    },
+    "Subtype": "{type}（{subtype}）"
+  },
+  "DND5E.Hair": "頭髮",
+  "DND5E.HalfProficient": "1/2熟練加值",
+  "DND5E.HEAL": {
+    "FIELDS": {
+      "healing": {
+        "label": "治療",
+        "bonus": {
+          "label": "治療加值",
+          "hint": "加在治療骰上的加值。"
+        },
+        "custom": {
+          "label": "自定治療公式",
+          "enabled": {
+            "label": "啟用自定義公式",
+            "hint": "是否使用自定義公式而非預設骰子。"
+          },
+          "formula": {
+            "label": "治療公式",
+            "hint": "自定義的治療公式。"
+          }
+        },
+        "denomination": {
+          "label": "骰子面數",
+          "hint": "要擲的骰子種類（幾面骰）。"
+        },
+        "number": {
+          "label": "骰子數量",
+          "hint": "要擲幾顆骰子。"
+        },
+        "scaling": {
+          "label": "治療成長",
+          "mode": {
+            "label": "成長模式",
+            "hint": "計算治療成長的方法。"
+          },
+          "number": {
+            "label": "骰子成長數量",
+            "hint": "每次成長階段增加的骰子數量。若治療公式中包含多顆骰子，則只會套用於第一顆。"
+          },
+          "formula": {
+            "label": "成長公式",
+            "hint": "每個成長階段要乘上的公式，並加至原始治療公式中。"
+          }
+        },
+        "types": {
+          "label": "治療類型",
+          "hint": "造成的治療類型，或供使用者選擇的多種類型。"
+        }
+      }
+    },
+    "HealingButton": "治療",
+    "HealingRoll": "治療擲骰",
+    "Hint": "治療一個生物",
+    "Title": "治療",
+    "類型": {
+      "治療": "Hit Points",
+      "HealingShort": "治療",
+      "Maximum": "最大生命值",
+      "MaximumShort": "最大生命值",
+      "暫時": "Temporary Hit Points",
+      "TemporaryShort": "臨時生命"
+    }
+  },
+  "DND5E.Height": "身高",
+  "DND5E.HITPOINTS": {
+    "Bloodied": {
+      "label": "重傷閾值"
+    },
+    "Counted": {
+      "one": "{number}生命值",
+      "other": "{number} 生命值"
+    },
+    "DT": {
+      "abbr": "DT"
+    },
+    "Other": {
+      "label": "其他選項"
+    }
+  },
+  "DND5E.HitPoints": "生命值",
+  "DND5E.HitPointsBonusLevel": "每級加值",
+  "DND5E.HitPointsBonusOverall": "總加值",
+  "DND5E.HitPointsConfig": "配置生命值",
+  "DND5E.HitPointsCurrent": "目前生命值",
+  "DND5E.HitPointsMax": "最大生命值",
+  "DND5E.HitPointsMin": "最小生命值",
+  "DND5E.HitPointsOverride": "覆蓋最大生命值",
+  "DND5E.HitPointsOverrideHint": "覆蓋自動計算的生命值，無視來自職業、加值和屬性調整值的任何生命值。",
+  "DND5E.HitPointsTemp": "臨時生命值",
+  "DND5E.HitPointsTempShort": "臨時HP",
+  "DND5E.HitPointsTempMax": "最大臨時生命值",
+  "DND5E.HitPointsTempMaxHint": "生命值上限的臨時變動。",
+  "DND5E.HitPointsTempMaxShort": "臨時最大生命",
+  "DND5E.HP": "HP",
+  "DND5E.HPFormula": "HP公式",
+  "DND5E.HPFormulaError": "無法評估所提供的生命值公式。",
+  "DND5E.HPFormulaRollMessage": "生命值擲骰公式",
+  "DND5E.HITDICE": {
+    "Abbreviation": "HD",
+    "Action": {
+      "Decrease": "減少",
+      "Increase": "增加"
+    },
+    "Available": "{number}顆可用",
+    "Config": "調整生命骰",
+    "Counted": {
+      "one": "{number}生命骰",
+      "other": "{number}生命骰"
+    }
+  },
+  "DND5E.HitDie": "生命骰",
+  "DND5E.HitDice": "生命骰",
+  "DND5E.HitDiceConfig": "調整生命骰",
+  "DND5E.HitDiceConfigHint": "調整每個職業的生命骰。",
+  "DND5E.HitDiceMax": "最大生命骰",
+  "DND5E.HitDiceRemaining": "剩餘生命骰",
+  "DND5E.HitDiceRoll": "投擲生命骰",
+  "DND5E.HitDiceWarn": "{name} 沒有剩餘可用的 {formula} 生命骰!",
+  "DND5E.HitDiceNPCWarn": "{name}沒有剩餘可用的!",
+  "DND5E.Ideals": "理念",
+  "DND5E.Identified": "已鑒定",
+  "DND5E.Identifier": "識別碼",
+  "DND5E.IdentifierCustom": "自訂識別碼",
+  "DND5E.IdentifierError": "識別碼只能包含字母 (a-z)、數字 (0-9)、破折號 (-) 和底線 (_)。",
+  "DND5E.Identify": "鑑定",
+  "DND5E.Immunities": "免疫",
+  "DND5E.Initiative": "先攻",
+  "DND5E.InitiativeAbbr": "先攻",
+  "DND5E.InitiativeRoll": "先攻檢定",
+  "DND5E.InitiativeConfig": "管理先攻",
+  "DND5E.InitiativeConfigHint": "配置適用於該角色的先攻調整值與加值。",
+  "DND5E.INITIATIVE": {
+    "FIELDS": {
+      "attributes": {
+        "init": {
+          "roll": {
+            "bonus": {
+              "label": "先攻加值"
+            },
+            "max": {
+              "label": "最高先攻擲骰"
+            },
+            "min": {
+              "label": "最低先攻擲骰"
+            },
+            "mode": {
+              "label": "先攻優勢模式"
+            }
+          }
+        }
+      }
+    }
+  },
+  "DND5E.Inspiration": "激勵",
+  "DND5E.Inventory": "所持物",
+  "DND5E.InventorySearch": "搜尋物品欄",
+  "DND5E.Issues": "問題",
+  "DND5E.ItemActionType": "動作類型",
+  "DND5E.ItemActivation": "啟動",
+  "DND5E.ItemActivationCondition": "啟動條件",
+  "DND5E.ItemActivationCost": "啟動費用",
+  "DND5E.ItemActivationType": "啟動類型",
+  "DND5E.ItemAmmoProperties": "彈藥屬性",
+  "DND5E.ItemAttackBonus": "攻擊加值",
+  "DND5E.ItemAttackFlat": "固定加值",
+  "DND5E.ItemAttackFlatHint": "勾選時，不使用熟練加值、屬性調整值等任何其他加值",
+  "DND5E.ItemBackgroundDetails": "背景詳情",
+  "DND5E.ItemClassDetails": "職業詳情",
+  "DND5E.ItemConsumableActivation": "消耗品效果",
+  "DND5E.ItemConsumableUsage": "消耗品用法",
+  "DND5E.ItemConsumableDetails": "消耗品詳情",
+  "DND5E.ItemConsumableProperties": "消耗品屬性",
+  "DND5E.ItemConsumableStatus": "消耗品狀態",
+  "DND5E.ItemConsumableSubtype": "{category}類別",
+  "DND5E.ItemConsumableType": "消耗品類型",
+  "DND5E.ItemCreate": "創建物品",
+  "DND5E.ItemCritThreshold": "爆擊閾值",
+  "DND5E.ItemCritExtraDamage": "額外爆擊傷害",
+  "DND5E.ItemDelete": "刪除物品",
+  "DND5E.ItemEdit": "編輯物品",
+  "DND5E.ItemEquipmentAction": "裝備動作",
+  "DND5E.ItemEquipmentBase": "基本裝備",
+  "DND5E.ItemEquipmentDetails": "裝備詳情",
+  "DND5E.ItemEquipmentDexMod": "最大敏捷調整值",
+  "DND5E.ItemEquipmentDexModAbbr": "敏捷上限",
+  "DND5E.ItemEquipmentProperties": "裝備屬性",
+  "DND5E.ItemEquipmentStatus": "裝備狀態",
+  "DND5E.ItemEquipmentStealthDisav": "隱匿劣勢",
+  "DND5E.ItemEquipmentType": "裝備類型",
+  "DND5E.ItemEquipmentUsage": "裝備用法",
+  "DND5E.ItemFacilityDetails": "設施詳情",
+  "DND5E.ItemFeatureDetails": "特性詳情",
+  "DND5E.ItemFeatureProperties": "特性屬性",
+  "DND5E.ItemFeatureSubtype": "{category}類別",
+  "DND5E.ItemFeatureType": "特性類型",
+  "DND5E.ItemLootDetails": "戰利品詳情",
+  "DND5E.ItemLootProperties": "戰利品屬性",
+  "DND5E.ItemLootSubtype": "{category}類別",
+  "DND5E.ItemLootType": "戰利品類型",
+  "DND5E.ItemName": "物品名",
+  "DND5E.ItemNew": "新 {type}",
+  "DND5E.ItemRechargeCheck": "{name} 充能檢定",
+  "DND5E.ItemRechargeFailure": "失敗！",
+  "DND5E.ItemRechargeSuccess": "成功！",
+  "DND5E.ItemRecoveryRoll": "{name}恢復了{count}點充能",
+  "DND5E.ItemLossRoll": "{name}失去了{count}點充能",
+  "DND5E.ItemRecoveryRollMax": "{name}恢復所有充能",
+  "DND5E.ItemRecoveryFormulaWarning": "無法恢復{name}的充能。 恢復公式'{formula}'無效。",
+  "DND5E.ItemRequiredStr": "力量要求",
+  "DND5E.Items": "物品",
+  "DND5E.ItemSiegeProperties": "攻城屬性",
+  "DND5E.ItemSpeciesDetails": "種族詳情",
+  "DND5E.ItemSpeciesDetailsLegacy": "種族詳情",
+  "DND5E.ItemSubclassDetails": "子職業詳情",
+  "DND5E.ItemToolBase": "基本工具",
+  "DND5E.ItemToolBonus": "工具加值",
+  "DND5E.ItemToolDetails": "工具詳情",
+  "DND5E.ItemToolProficiency": "工具熟練",
+  "DND5E.ItemToolProperties": "工具屬性",
+  "DND5E.ItemToolStatus": "工具狀態",
+  "DND5E.ItemToolType": "工具類型",
+  "DND5E.ItemToolUsage": "工具用法",
+  "DND5E.ItemVehicleProperties": "載具屬性",
+  "DND5E.ItemView": "檢視項目",
+  "DND5E.ItemWeaponAttack": "武器攻擊",
+  "DND5E.ItemWeaponBase": "基本武器",
+  "DND5E.ItemWeaponDetails": "武器詳情",
+  "DND5E.ItemWeaponProperties": "武器屬性",
+  "DND5E.ItemWeaponStatus": "武器狀態",
+  "DND5E.ItemWeaponType": "武器類型",
+  "DND5E.ItemWeaponUsage": "武器用法",
+  "DND5E.ITEM": {
+    "Category": {
+      "Label": "分類",
+      "Physical": "實體物品"
+    },
+    "Property": {
+      "Adamantine": "精金",
+      "Ammunition": "彈藥",
+      "Concentration": "專注",
+      "Finesse": "靈巧",
+      "Firearm": "火器",
+      "Focus": "法器",
+      "裝備": "裝備",
+      "Heavy": "重型",
+      "Light": "輕型",
+      "Loading": "裝填",
+      "Material": "材料",
+      "魔法": "魔法",
+      "Reach": "觸及",
+      "Reload": "裝填",
+      "Returning": "返回",
+      "Ritual": "儀式",
+      "助手": "助手",
+      "Silvered": "銀製",
+      "Somatic": "姿勢",
+      "Special": "特殊",
+      "StealthDisadvantage": "隱匿劣勢",
+      "Thrown": "投擲",
+      "Trait": "被動特徵",
+      "TwoHanded": "雙手",
+      "UnidentifiedContents": "隱藏未鑑定內容物",
+      "Versatile": "多用",
+      "Verbal": "言語",
+      "WeightlessContents": "無重量內容"
+    },
+    "Rarity": {
+      "神器": "神器",
+      "普通": "普通",
+      "傳說": "傳說",
+      "平凡": "平凡",
+      "珍稀": "珍稀",
+      "非普通": "非普通",
+      "可變": "可變",
+      "VeryRare": "極珍稀"
+    },
+    "SECTIONS": {
+      "Activities": "行動",
+      "Advancement": "成長",
+      "Contents": "內容物",
+      "描述": "描述",
+      "Details": "詳情",
+      "效果": "效果"
+    }
+  },
+  "DND5E.JackOfAllTrades": "全能高手",
+  "DND5E.JOURNALENTRY": {
+    "Action": {
+      "ConfigureNavigation": "設定導覽"
+    },
+    "導覽": {
+      "Next": "下一頁",
+      "Previous": "上一頁",
+      "Title": "導覽",
+      "上": "上"
+    }
+  },
+  "DND5E.LAIR": {
+    "Label": "巢穴",
+    "Action": {
+      "Label": "巢穴動作",
+      "Initiative": "巢穴動作先攻計算",
+      "Uses": "使用巢穴動作"
+    },
+    "HasLair": "擁有巢穴",
+    "Inside": "在巢穴中"
+  },
+  "DND5E.Language": {
+    "All": "所有語言",
+    "Label": "語言",
+    "Category": {
+      "Exotic": "罕見語言",
+      "珍稀": "珍稀語言",
+      "標準": "標準語言"
+    },
+    "Communication": {
+      "Label": "遠距溝通",
+      "Telepathy": "心靈感應"
+    },
+    "Language": {
+      "Aarakocra": "阿蘭寇拉語",
+      "Abyssal": "深淵語",
+      "Aquan": "水族語",
+      "Auran": "氣族語",
+      "Celestial": "天界語",
+      "普通": "通用語",
+      "CommonSign": "通用手語",
+      "DeepSpeech": "深潛語",
+      "Draconic": "龍語",
+      "Druidic": "德魯伊語",
+      "Dwarvish": "矮人語",
+      "Elvish": "精靈語",
+      "Giant": "巨人語",
+      "Gith": "吉斯語",
+      "Gnoll": "豺狼人語",
+      "Gnomish": "侏儒語",
+      "Goblin": "哥布林語",
+      "Halfling": "半身人語",
+      "Ignan": "火族語",
+      "Infernal": "煉獄語",
+      "Orc": "獸人語",
+      "Primordial": "原初語",
+      "Sylvan": "木族語",
+      "Terran": "土族語",
+      "ThievesCant": "盜賊黑話",
+      "Undercommon": "地底通用語"
+    }
+  },
+  "DND5E.Languages": "語言",
+  "DND5E.LegendaryAction": {
+    "Description": "傳奇動作可用次數：{uses}.",
+    "DescriptionLegacy": "{name}每輪可以進行{usesNamed}，從下方選項中擇一執行。每次只能在其他生物的回合結束時使用一項傳奇動作。{name}在其回合開始時恢復已消耗的傳奇動作次數。",
+    "Label": "傳奇動作",
+    "LabelPl": "傳奇動作",
+    "LairUses": "{normal} (在巢穴中為{lair})",
+    "Max": "傳奇動作上限",
+    "Ordinal": {
+      "one": "第 {n} 次傳奇動作",
+      "two": "第 {n} 次傳奇動作",
+      "few": "第 {n} 次傳奇動作",
+      "other": "第 {n} 次傳奇動作"
+    },
+    "Remaining": "剩餘傳奇動作次數",
+    "Spent": "消耗傳奇動作"
+  },
+  "DND5E.LegendaryResistance": {
+    "Action": {
+      "Resist": "傳奇抗性"
+    },
+    "Label": "傳奇抗性",
+    "LabelPl": "傳奇抗性",
+    "LairUses": "{normal}/日，或在巢穴中{lair}/日",
+    "Max": "傳奇抗性上限",
+    "Ordinal": {
+      "one": "第 {n} 次傳奇抗性",
+      "two": "第 {n} 次傳奇抗性",
+      "few": "第 {n} 次傳奇抗性",
+      "other": "第 {n} 次傳奇抗性"
+    },
+    "Remaining": "剩餘傳奇抗性次數",
+    "Resisted": "已使用傳奇抗性",
+    "Spent": "消耗傳奇抗性"
+  },
+  "DND5E.Level": "等級",
+  "DND5E.LevelAvg": "平均等級",
+  "DND5E.LevelPl": "等級",
+  "DND5E.LevelActionDecrease": "降級",
+  "DND5E.LevelActionIncrease": "升級",
+  "DND5E.LevelCount": "{ordinal}級",
+  "DND5E.LevelLimit": {
+    "Label": "等級上限",
+    "Max": "最大等級",
+    "Min": "最小等級"
+  },
+  "DND5E.LevelNumber": "{level}級",
+  "DND5E.LevelScaling": "升環施法",
+  "DND5E.LimitedUses": "可用次數",
+  "DND5E.LimitedUsesAvailable": "剩餘次數",
+  "DND5E.LimitedUsesMax": "最大次數",
+  "DND5E.LimitedUsesPer": "使用恢復模式",
+  "DND5E.LimitedUsesPrompt": "使用提示",
+  "DND5E.LimitedUsesPromptTooltip": "如果未勾選，則將抑制消耗可用用途的提示。",
+  "DND5E.Long": "長距離",
+  "DND5E.Loyalty": "忠誠值",
+  "DND5E.MagicalBonus": "魔法加值",
+  "DND5E.Materials": "材料",
+  "DND5E.Max": "最大值",
+  "DND5E.MaxCharacterLevelExceededWarn": "角色無法升級超過{max}級。",
+  "DND5E.MaxClassLevelExceededWarn": "職業無法升級超過{max}級。",
+  "DND5E.MaxClassLevelMinimumWarn": "職業必須至少有1級",
+  "DND5E.Maximum": "最大值",
+  "DND5E.Minimum": "最小值",
+  "DND5E.Method": "方法",
+  "DND5E.Modifier": "調整值",
+  "DND5E.Multiple": "多個",
+  "DND5E.Multiplier": "倍數",
+  "DND5E.MythicActionLabel": "神話動作",
+  "DND5E.Name": "角色名",
+  "DND5E.NameUnidentified": "未鑑定名稱",
+  "DND5E.NoCharges": "無充能",
+  "DND5E.None": "無",
+  "DND5E.NoneActionLabel": "無",
+  "DND5E.Normal": "普通",
+  "DND5E.NotProficient": "無熟練",
+  "DND5E.Notes": "筆記",
+  "DND5E.NPC": {
+    "ActionCostCounted": {
+      "other": "消耗 {number} 個動作"
+    },
+    "FIELDS": {
+      "attributes": {
+        "price": {
+          "denomination": {
+            "label": "面額"
+          },
+          "hint": "每日雇傭費或牲畜購買價格。",
+          "label": "花費",
+          "value": {
+            "label": "數量"
+          }
+        }
+      },
+      "traits": {
+        "important": {
+          "hint": "重要NPC會紀錄死亡豁免、生命骰與忠誠度（若啟用）。任何擁有職業等級的NPC都會被視為重要 NPC，無論此設定是否啟用。",
+          "label": "重要NPC"
+        }
+      }
+    },
+    "Label": "NPC",
+    "SECTIONS": {
+      "Actions": "動作",
+      "BonusActions": "附贈動作",
+      "LegendaryActions": "傳奇動作",
+      "MythicActions": "神話動作",
+      "Reactions": "反應",
+      "Traits": "特徵"
+    }
+  },
+  "DND5E.NUMBER": {
+    "1": "一",
+    "2": "二",
+    "3": "三",
+    "4": "四",
+    "5": "五",
+    "6": "六",
+    "7": "七",
+    "8": "八",
+    "9": "九"
+  },
+  "DND5E.Number": "數字",
+  "DND5E.OtherFormula": "其他公式",
+  "DND5E.ORDINAL": {
+    "one": "第{number}",
+    "two": "第{number}",
+    "few": "第{number}",
+    "other": "第{number}"
+  },
+  "DND5E.PactMagic": "契約魔法",
+  "DND5E.Passive": "被動",
+  "DND5E.PassivePerception": "被動感知",
+  "DND5E.Period": "期間",
+  "DND5E.PersonalityTraits": "個性",
+  "DND5E.PIETY": {
+    "Configure": "配置虔誠",
+    "Label": "虔誠",
+    "FIELDS": {
+      "value": {
+        "label": "虔誠值",
+        "hint": "此角色目前的虔誠值。"
+      }
+    }
+  },
+  "DND5E.Portrait": "畫像",
+  "DND5E.Prepared": "已準備",
+  "DND5E.Preparation": "準備",
+  "DND5E.Prerequisites": {
+    "Header": "特性先決條件",
+    "FIELDS": {
+      "prerequisites": {
+        "items": {
+          "display": "{items}",
+          "hint": "角色在選擇此物品前必須擁有的物品識別碼。",
+          "label": "必備物品"
+        },
+        "label": "先決條件",
+        "level": {
+          "display": "等級 {level}+",
+          "displayLegacy": "第{levelOrdinal}級",
+          "hint": "選擇此特性時所需的角色等級或職業等級。",
+          "label": "所需等級"
+        },
+        "repeatable": {
+          "display": "尚未選取",
+          "hint": "此特性能夠被多次選擇。",
+          "label": "可重複獲得"
+        }
+      }
+    },
+    "Status": {
+      "Invalid": "先決條件驗證失敗",
+      "Unknown": "先決條件驗證未完成",
+      "Valid": "先決條件驗證成功"
+    },
+    "Warning": {
+      "InvalidLevel": "必須至少為等級 {level}",
+      "Message": "{actor} {requirements}以選取此{type}。",
+      "MissingItem": "必須先選取過 {items}",
+      "NotRepeatable": "不能選取過 {name}"
+    }
+  },
+  "DND5E.Price": "價格",
+  "DND5E.Proficiency": "熟練加值",
+  "DND5E.ProficiencyBonus": "熟練加值",
+  "DND5E.ProficiencyBonusAbbr": "熟練加值",
+  "DND5E.ProficiencyConfigurationHint": "配置熟練與加值",
+  "DND5E.ProficiencyConfigureTitle": "配置 {label}",
+  "DND5E.ProficiencyLevel": "熟練度",
+  "DND5E.ProficiencyOther": "其他",
+  "DND5E.Proficient": "熟練",
+  "DND5E.Properties": "屬性",
+  "DND5E.PropertyBase": "基本",
+  "DND5E.PropertyTotal": "總計",
+  "DND5E.Public": "公開資訊",
+  "DND5E.Quality": "品質",
+  "DND5E.Quantity": "數量",
+  "DND5E.QuantityAbbr": "數量",
+  "DND5E.QuantityFormula": "數量公式",
+  "DND5E.QuantityRoll": "擲骰數量",
+  "DND5E.RacialTraits": "種族特性",
+  "DND5E.RacialTraitsLegacy": "種族特性",
+  "DND5E.RANGE": {
+    "FIELDS": {
+      "range": {
+        "label": "距離",
+        "long": {
+          "label": "長距離",
+          "hint": "武器的遠距攻擊範圍（若武器有標註）。"
+        },
+        "override": {
+          "label": "覆蓋距離",
+          "hint": "使用此行動時，使用此距離值而非物品原有的設定。"
+        },
+        "reach": {
+          "label": "觸及"
+        },
+        "special": {
+          "label": "特殊距離",
+          "hint": "有關特殊距離效果的描述。"
+        },
+        "units": {
+          "label": "距離單位",
+          "hint": "衡量距離的單位。"
+        },
+        "value": {
+          "label": "距離數值",
+          "hint": "若適用，則以所選單位表示的距離數值。"
+        }
+      }
+    },
+    "Formatted": {
+      "Range": "距離{range}",
+      "Reach": "觸及{reach}"
+    }
+  },
+  "DND5E.Range": "射程",
+  "DND5E.RangeDistance": "距離",
+  "DND5E.RangeLong": "長距離",
+  "DND5E.RangeNormal": "一般距離",
+  "DND5E.RangeUnits": "射程類型或單位",
+  "DND5E.Rarity": "稀有度",
+  "DND5E.Reaction": "反應",
+  "DND5E.ReactionAbbr": "R",
+  "DND5E.ReactionPl": "反應",
+  "DND5E.Recharge": "充能",
+  "DND5E.RechargeLong": "長休後充能",
+  "DND5E.RechargeShort": "短休或長休後充能",
+  "DND5E.Recovery": "恢復",
+  "DND5E.RecoveryFormula": "恢復公式",
+  "DND5E.REGIONBEHAVIORS": {
+    "APPLYACTIVEEFFECT": {
+      "FIELDS": {
+        "dispositions": {
+          "hint": "若設定，僅對具有這些立場的指示物套用效果。",
+          "label": "立場"
+        },
+        "effects": {
+          "hint": "套用於區域內指示物的效果。",
+          "label": "效果"
+        },
+        "sizes": {
+          "hint": "若設定，僅對符合這些體型的指示物套用效果。",
+          "label": "體型"
+        },
+        "types": {
+          "hint": "若設定，僅對符合這些生物類型的指示物套用效果。",
+          "label": "類型"
+        }
+      }
+    },
+    "DIFFICULTTERRAIN": {
+      "FIELDS": {
+        "ignoredDispositions": {
+          "hint": "具有這些立場的指示物將不會受到此困難地形影響。",
+          "label": "忽略立場"
+        },
+        "magical": {
+          "hint": "此困難地形由魔法效果創造。",
+          "label": "魔法"
+        },
+        "types": {
+          "hint": "最能描述此困難地形來源的類型（若有的話）。",
+          "label": "類型"
+        }
+      },
+      "Type": {
+        "All": "所有類型",
+        "Ice": "滑冰",
+        "Magical": "魔法",
+        "Nonmagical": "非魔法",
+        "Plants": "植物或矮叢",
+        "Rocks": "碎石或岩石",
+        "Liquid": "淺層液體",
+        "Mud": "濃泥",
+        "Sand": "流沙",
+        "Slope": "陡坡",
+        "Snow": "深雪",
+        "Webs": "黏網"
+      }
+    },
+    "ROTATEAREA": {
+      "Action": {
+        "AddPosition": "新增位置",
+        "DeletePosition": "刪除位置",
+        "RotateToPosition": "旋轉至位置"
+      },
+      "DirectionMode": {
+        "Clockwise": "順時針",
+        "CounterClockwise": "逆時針",
+        "Longest": "最長",
+        "Shortest": "最短"
+      },
+      "FIELDS": {
+        "directionMode": {
+          "label": "方向模式",
+          "hint": "決定移至下個位置時旋轉方向的方式。"
+        },
+        "lights": {
+          "ids": {
+            "label": "光源"
+          }
+        },
+        "positions": {
+          "label": "位置",
+          "element": {
+            "angle": {
+              "label": "角度"
+            }
+          }
+        },
+        "regions": {
+          "ids": {
+            "label": "區域"
+          }
+        },
+        "sounds": {
+          "ids": {
+            "label": "環境音效"
+          }
+        },
+        "tiles": {
+          "ids": {
+            "label": "圖塊"
+          }
+        },
+        "time": {
+          "mode": {
+            "label": "速度模式",
+            "hint": "根據旋轉時間決定旋轉速度的方式，可能與移動距離無關（固定），也可能取決於旋轉的距離（可變）。"
+          },
+          "value": {
+            "label": "旋轉時間",
+            "hint": "Time in miliseconds to rotate to the next position (in fixed mode) or to rotate 90˚ (in variable mode)."
+          }
+        },
+        "walls": {
+          "ids": {
+            "label": "牆壁"
+          },
+          "link": {
+            "label": "連結牆壁",
+            "hint": "旋轉所有與指定牆壁相連的牆段。"
+          }
+        }
+      },
+      "SpeedMode": {
+        "Fixed": "固定（總旋轉時間）",
+        "Variable": "Variable (time to rotate 90˚)"
+      },
+      "Warning": {
+        "RecursiveRegion": "無法旋轉包含該行為的同一區域。"
+      }
+    }
+  },
+  "DND5E.Remaining": "剩餘",
+  "DND5E.RequiredMaterials": "需要材料",
+  "DND5E.Requirements": "需求",
+  "DND5E.Resistances": "抗性",
+  "DND5E.Resources": "資源",
+  "DND5E.ResourceLabel": "標籤",
+  "DND5E.ResourceMax": "資源上限",
+  "DND5E.ResourceValue": "資源值",
+  "DND5E.ResourcePrimary": "資源 1",
+  "DND5E.ResourceSecondary": "資源 2",
+  "DND5E.ResourceTertiary": "資源 3",
+  "DND5E.REST": {
+    "Configuration": "休息配置",
+    "Duration": {
+      "Hint": "休息期間經過的時間量。",
+      "Label": "持續時間",
+      "UntilSunrise": "休息至日出"
+    },
+    "HitDice": {
+      "AutoSpend": {
+        "Hint": "自動消耗生命骰直到耗盡或生命值全滿。",
+        "Label": "自動消耗生命骰"
+      },
+      "None": "此次休息無剩餘生命骰可用。",
+      "Select": "選擇要擲的生命骰"
+    },
+    "Label": "休息",
+    "Long": {
+      "Abbreviation": "長休",
+      "Hint": {
+        "Group": "長休時，全體成員將恢復生命值、生命骰、職業資源、有限使用的物品充能和法術位。",
+        "GroupLegacy": "長休時，全體成員會回復生命值、一半的生命骰上限、職業資源、有限使用的物品次數，以及法術位。",
+        "Normal": "長休時，你將恢復生命值、生命骰、職業資源、有限使用的物品充能和法術位。",
+        "NormalLegacy": "長休時，你會回復生命值、一半的生命骰上限、職業資源、有限使用的物品次數，以及法術位。"
+      },
+      "Label": "長休",
+      "LabelShort": "長休",
+      "Recovery": "長休後恢復",
+      "Result": {
+        "Full": "{name}進行了長休，並且恢復了{health}和{dice}。",
+        "HitDice": "{name}進行了長休，並且恢復了{dice}.",
+        "HitPoints": "{name}進行了長休，並且恢復了{health}.",
+        "Short": "{name}進行了長休。"
+      }
+    },
+    "NewDay": {
+      "Hint": "恢復在黃昏、黎明或新的一天時會充能的有限次數能力。",
+      "Label": "新的一天"
+    },
+    "RecoverTempHP": {
+      "Label": "移除臨時生命"
+    },
+    "RecoverTempMaxHP": {
+      "Hint": "移除任何對角色最大生命值的調整。",
+      "Label": "恢復最大生命值"
+    },
+    "Request": {
+      "AutoRest": {
+        "Hint": "自動為選定的隊伍角色執行休息，而不是向玩家發送休息請求。",
+        "Label": "自動休息"
+      },
+      "Label": "休息請求"
+    },
+    "Short": {
+      "Abbreviation": "短休",
+      "Hint": {
+        "Group": "短休時，全體成員可以消耗生命骰並恢復部分物品的使用次數。",
+        "Normal": "短休時，你可以消耗生命骰並恢復部分物品的使用次數。"
+      },
+      "Label": "短休",
+      "LabelShort": "短休",
+      "Recovery": "短休後恢復",
+      "Result": {
+        "Full": "{name}進行了短休，並且消耗{dice}以恢復{health}。",
+        "Short": "{name}進行了短休。"
+      }
+    },
+    "Warning": {
+      "OnlyByRequest": "只能在 GM 要求下進行休息。"
+    }
+  },
+  "DND5E.Ritual": "儀式",
+  "DND5E.RitualAbbr": "R",
+  "DND5E.ROLL": {
+    "Bonus": "擲骰加值",
+    "Description": {
+      "ability": "擲骰屬性",
+      "attack": {
+        "classification": "攻擊分類",
+        "mode": "攻擊模式",
+        "type": "攻擊類型"
+      },
+      "damage": {
+        "type": "傷害類型"
+      },
+      "proficient": "熟練",
+      "skill": "擲骰的技能",
+      "tool": "擲骰的工具",
+      "type": "擲骰類型"
+    },
+    "FIELDS": {
+      "rolls": {
+        "ability": {
+          "check": {
+            "bonus": {
+              "label": "全局屬性檢定加值"
+            },
+            "max": {
+              "label": "最高全局屬性檢定擲骰"
+            },
+            "min": {
+              "label": "最低全局屬性檢定擲骰"
+            },
+            "mode": {
+              "label": "全局屬性檢定優勢模式"
+            },
+            "proficiency": {
+              "label": "全局屬性檢定熟練"
+            }
+          },
+          "label": "屬性擲骰調整",
+          "save": {
+            "bonus": {
+              "label": "全局屬性豁免加值"
+            },
+            "max": {
+              "label": "最高全局屬性豁免擲骰"
+            },
+            "min": {
+              "label": "最低全局屬性豁免擲骰"
+            },
+            "mode": {
+              "label": "全局屬性豁免優勢模式"
+            },
+            "proficiency": {
+              "label": "全局屬性豁免熟練"
+            }
+          },
+          "skill": {
+            "bonus": {
+              "label": "全局技能檢定加值"
+            },
+            "max": {
+              "label": "最高全局技能檢定擲骰"
+            },
+            "min": {
+              "label": "最低全局技能檢定擲骰"
+            },
+            "mode": {
+              "label": "全局技能檢定優勢模式"
+            },
+            "proficiency": {
+              "label": "全局技能檢定熟練"
+            }
+          },
+          "tool": {
+            "bonus": {
+              "label": "全局工具檢定加值"
+            },
+            "max": {
+              "label": "最高全局工具檢定擲骰"
+            },
+            "min": {
+              "label": "最低全局工具檢定擲骰"
+            },
+            "mode": {
+              "label": "全局工具檢定優勢模式"
+            },
+            "proficiency": {
+              "label": "全局工具檢定熟練"
+            }
+          }
+        },
+        "attack": {
+          "bonus": {
+            "label": "全局攻擊加值"
+          },
+          "label": "攻擊擲骰調整",
+          "max": {
+            "label": "最高全局攻擊擲骰"
+          },
+          "min": {
+            "label": "最低全局攻擊擲骰"
+          },
+          "mode": {
+            "label": "全局攻擊優勢模式"
+          },
+          "msak": {
+            "bonus": {
+              "label": "近戰法術攻擊加值"
+            },
+            "max": {
+              "label": "最高近戰法術攻擊擲骰"
+            },
+            "min": {
+              "label": "最低近戰法術攻擊擲骰"
+            },
+            "mode": {
+              "label": "近戰法術攻擊優勢模式"
+            }
+          },
+          "mwak": {
+            "bonus": {
+              "label": "近戰武器攻擊加值"
+            },
+            "max": {
+              "label": "最高近戰武器攻擊擲骰"
+            },
+            "min": {
+              "label": "最低近戰武器攻擊擲骰"
+            },
+            "mode": {
+              "label": "近戰武器攻擊優勢模式"
+            }
+          },
+          "rsak": {
+            "bonus": {
+              "label": "遠程法術攻擊加值"
+            },
+            "max": {
+              "label": "最高遠程法術攻擊擲骰"
+            },
+            "min": {
+              "label": "最低遠程法術攻擊擲骰"
+            },
+            "mode": {
+              "label": "遠程法術攻擊優勢模式"
+            }
+          },
+          "rwak": {
+            "bonus": {
+              "label": "遠程武器攻擊加值"
+            },
+            "max": {
+              "label": "最高遠程武器攻擊擲骰"
+            },
+            "min": {
+              "label": "最低遠程武器攻擊擲骰"
+            },
+            "mode": {
+              "label": "遠程武器攻擊優勢模式"
+            }
+          }
+        },
+        "damage": {
+          "label": "傷害擲骰調整",
+          "msak": {
+            "bonus": {
+              "label": "近戰法術攻擊傷害加值"
+            }
+          },
+          "mwak": {
+            "bonus": {
+              "label": "近戰武器攻擊傷害加值"
+            }
+          },
+          "rsak": {
+            "bonus": {
+              "label": "遠程法術攻擊傷害加值"
+            }
+          },
+          "rwak": {
+            "bonus": {
+              "label": "遠程武器攻擊傷害加值"
+            }
+          }
+        }
+      }
+    },
+    "Formatter": {
+      "AdvantageMode": "{name}優勢模式",
+      "Bonus": "{name}擲骰加值",
+      "Maximum": "最高{name}擲骰",
+      "Minimum": "最低{name}擲骰",
+      "ModifierAbility": "{name}調整值屬性"
+    },
+    "Generic": {
+      "D20": {
+        "bonus": {
+          "label": "擲骰加值"
+        },
+        "max": {
+          "label": "最高擲骰"
+        },
+        "min": {
+          "label": "最低擲骰"
+        },
+        "mode": {
+          "label": "優勢模式"
+        }
+      },
+      "Damage": {
+        "bonus": {
+          "label": "傷害加值"
+        }
+      }
+    },
+    "Range": {
+      "Label": "擲骰範圍",
+      "Maximum": "最大骰值",
+      "Minimum": "最小骰值"
+    },
+    "Section": "{label}擲骰",
+    "Status": "狀態"
+  },
+  "DND5E.Roll": "擲骰",
+  "DND5E.RollConfiguration": {
+    "Title": "配置擲骰",
+    "Configuration": "配置",
+    "Rolls": "擲骰"
+  },
+  "DND5E.RollExample": "例：+1d4",
+  "DND5E.RollMode": "擲骰模式",
+  "DND5E.RollModifiers": "調整值",
+  "DND5E.RollSituationalBonus": "環境加值",
+  "DND5E.Rule": {
+    "Tooltip": "提示",
+    "Type": {
+      "Label": "規則類型",
+      "Condition": "狀態",
+      "Rule": "規則"
+    }
+  },
+  "DND5E.MOVEMENT": {
+    "Action": {
+      "Configure": "配置移動速度"
+    },
+    "FIELDS": {
+      "bonus": {
+        "label": "移動加值"
+      },
+      "ignoredDifficultTerrain": {
+        "label": "無視困難地形"
+      },
+      "multiplier": {
+        "label": "移動倍率"
+      },
+      "special": {
+        "label": "特殊移動"
+      },
+      "speeds": {
+        "label": "移動速度"
+      },
+      "units": {
+        "label": "單位"
+      }
+    },
+    "Hover": "懸浮",
+    "HoverSpeed": "{speed}（懸浮）",
+    "Speed": "戰鬥速度",
+    "Type": {
+      "Burrow": "掘地",
+      "Climb": "攀爬",
+      "Fly": "飛行",
+      "Jump": "跳躍",
+      "Speed": "速度",
+      "Swim": "游泳",
+      "Walk": "步行"
+    }
+  },
+  "DND5E.Movement": "移動",
+  "DND5E.SAVE": {
+    "FIELDS": {
+      "damage": {
+        "label": "豁免傷害",
+        "onSave": {
+          "label": "豁免時傷害",
+          "hint": "成功進行豁免時應承受多少傷害？",
+          "Full": "全部傷害",
+          "Half": "一半傷害",
+          "None": "不受傷害"
+        },
+        "parts": {
+          "label": "傷害組成",
+          "hint": "擲骰時包含的各別傷害組成。"
+        }
+      },
+      "effects": {
+        "onSave": {
+          "label": "總是應用",
+          "hint": "即使目標成功通過豁免，此效果仍會應用。"
+        }
+      },
+      "save": {
+        "label": "豁免詳情",
+        "ability": {
+          "label": "檢定屬性",
+          "hint": "進行豁免的屬性。"
+        },
+        "bonus": {
+          "label": "豁免加值",
+          "hint": "附加到使用此行動進行的所有豁免檢定的加值。"
+        },
+        "dc": {
+          "label": "難度等級",
+          "bonus": {
+            "label": "DC 加值"
+          },
+          "calculation": {
+            "label": "DC計算",
+            "hint": "計算難度等級的屬性或方法"
+          },
+          "formula": {
+            "label": "DC公式",
+            "hint": "設定豁免DC的自定義公式或固定值。"
+          },
+          "CustomFormula": "自定公式",
+          "DefaultFormula": "8 + @mod + @prof"
+        },
+        "visible": {
+          "label": "對所有人可見",
+          "hint": "在聊天室中為所有玩家顯示擲骰按鈕。"
+        }
+      }
+    },
+    "Hint": "請求豁免檢定，並可選擇擲傷害。",
+    "OnSave": "成功豁免時",
+    "Title": {
+      "one": "豁免",
+      "other": "豁免"
+    }
+  },
+  "DND5E.SaveGlobalBonusHint": "此加值適用於該角色進行的所有豁免檢定。",
+  "DND5E.Scroll": {
+    "CreateFrom": "從{spell}製作卷軸",
+    "CreateScroll": "創建卷軸",
+    "Details": "卷軸詳情",
+    "Explanation": {
+      "Label": "說明",
+      "Hint": "選擇製作出的卷軸中要包含多少使用法術卷軸的規則說明。",
+      "Complete": "完整說明",
+      "Reference": "參照說明"
+    },
+    "RequiresConcentration": "需要專注",
+    "SaveDC": "豁免DC",
+    "Values": "法術數值"
+  },
+  "DND5E.Senses": "感官",
+  "DND5E.SensesConfig": "配置感官",
+  "DND5E.SensesConfigHint": "配置該角色擁有的任意特殊感官能力。",
+  "DND5E.SenseDarkvision": "黑暗視覺",
+  "DND5E.SenseBlindsight": "盲視",
+  "DND5E.SenseTremorsense": "顫動感知",
+  "DND5E.SenseTruesight": "真視",
+  "DND5E.SenseUnits": "單位",
+  "DND5E.SenseSpecial": "特殊感官",
+  "DND5E.Shape": "形狀",
+  "DND5E.SheetClass": {
+    "ActiveEffect": "D&D 5e Active Effect 角色卡",
+    "AdventureImporter": "D&D 5e 冒險匯入器",
+    "Character": "D&D 5e 角色卡",
+    "ClassSummary": "D&D 5e 職業摘要表",
+    "Container": "D&D 5e 容器介面",
+    "DifficultTerrain": "D&D 5e 困難地形介面",
+    "Encounter": "D&D 5e 遭遇表",
+    "Group": "D&D 5e 團體卡",
+    "Item": "D&D 5e 物品卡",
+    "JournalEntry": "D&D 5e 日誌條目介面",
+    "JournalEntryLegacy": "傳統 D&D 5e 日誌條目介面",
+    "MapLocation": "D&D 5e 地圖位置介面",
+    "NPC": "D&D 5e NPC 角色卡",
+    "RollTable": "D&D 5e 擲骰表介面",
+    "RotateArea": "D&D 5e 旋轉區域介面",
+    "Rule": "D&D 5e 規則卡",
+    "SpellList": "D&D 5e 法術列表介面",
+    "Token": "D&D 5e 指示物介面",
+    "Vehicle": "D&D 5e 載具角色卡"
+  },
+  "DND5E.SheetModeEdit": "編輯",
+  "DND5E.SheetModePlay": "遊玩",
+  "DND5E.SavingThrow": "豁免骰",
+  "DND5E.SavingThrowDC": "DC {dc} {ability}豁免",
+  "DND5E.SavingThrowRoll": "骰{ability}豁免",
+  "DND5E.SavingThrowShort": "豁免",
+  "DND5E.SaveDC": "DC {dc} {ability}",
+  "DND5E.SavePromptTitle": "{ability} 豁免",
+  "DND5E.ScalingFormula": "升環公式",
+  "DND5E.ScalingMode": "升環模式",
+  "DND5E.ScalingValue": "升環數值",
+  "DND5E.School": "學派",
+  "DND5E.SchoolAbj": "防護系",
+  "DND5E.SchoolCon": "咒法系",
+  "DND5E.SchoolDiv": "預言系",
+  "DND5E.SchoolEnc": "惑控系",
+  "DND5E.SchoolEvo": "塑能系",
+  "DND5E.SchoolIll": "幻術系",
+  "DND5E.SchoolNec": "死靈系",
+  "DND5E.SchoolTrs": "變化系",
+  "DND5E.Size": "體型",
+  "DND5E.SizeGargantuan": "超巨型",
+  "DND5E.SizeGargantuanAbbr": "超巨型",
+  "DND5E.SizeHuge": "巨型",
+  "DND5E.SizeHugeAbbr": "巨型",
+  "DND5E.SizeLarge": "大型",
+  "DND5E.SizeLargeAbbr": "大型",
+  "DND5E.SizeMedium": "中型",
+  "DND5E.SizeMediumAbbr": "中型",
+  "DND5E.SizeSmall": "小型",
+  "DND5E.SizeSmallAbbr": "小型",
+  "DND5E.SizeTiny": "微型",
+  "DND5E.SizeTinyAbbr": "微型",
+  "DND5E.SKILL": {
+    "FIELDS": {
+      "skills": {
+        "element": {
+          "roll": {
+            "bonus": {
+              "label": "技能檢定加值"
+            },
+            "max": {
+              "label": "最高技能檢定擲骰"
+            },
+            "min": {
+              "label": "最低技能檢定擲骰"
+            },
+            "mode": {
+              "label": "技能檢定優勢模式"
+            }
+          }
+        }
+      }
+    },
+    "Formatter": {
+      "CheckBonus": "{name}檢定加值",
+      "PassiveBonus": "被動{name}加值",
+      "Proficiency": "{name}熟練"
+    },
+    "SECTIONS": {
+      "Details": "{label}詳情",
+      "Bonuses": {
+        "Label": "{label}加值",
+        "Hint": "這些加值會套用至{label}的被動數值與技能檢定。"
+      },
+      "Global": {
+        "Label": "全域加值",
+        "Hint": "這些加值會套用至所有技能的檢定。"
+      }
+    }
+  },
+  "DND5E.Skill": "技能",
+  "DND5E.Skills": "技能",
+  "DND5E.SkillAcr": "特技",
+  "DND5E.SkillAni": "馴獸",
+  "DND5E.SkillArc": "奧秘",
+  "DND5E.SkillAth": "運動",
+  "DND5E.SkillDec": "欺瞞",
+  "DND5E.SkillHis": "歷史",
+  "DND5E.SkillIns": "洞悉",
+  "DND5E.SkillInv": "調查",
+  "DND5E.SkillItm": "威嚇",
+  "DND5E.SkillMed": "醫療",
+  "DND5E.SkillNat": "自然",
+  "DND5E.SkillPer": "說服",
+  "DND5E.SkillPrc": "察覺",
+  "DND5E.SkillPrf": "表演",
+  "DND5E.SkillRel": "宗教",
+  "DND5E.SkillSlt": "巧手",
+  "DND5E.SkillSte": "隱匿",
+  "DND5E.SkillSur": "求生",
+  "DND5E.SkillRoll": "擲 {ability}（{skill}）檢定",
+  "DND5E.SkillTitle": "{ability}（{skill}）",
+  "DND5E.SkillPromptTitle": "{skill} 技能檢定",
+  "DND5E.SkillConfigureTitle": "配置 {skill}",
+  "DND5E.SkillConfigure": "設置技能",
+  "DND5E.SkillsConfig": "配置技能",
+  "DND5E.SkillBonuses": "技能加值",
+  "DND5E.SkillBonusPassive": "被動加值",
+  "DND5E.SkillConfigurationHint": "配置技能熟練和加值",
+  "DND5E.SkillGlobalBonusCheckHint": "此加值適用於該角色進行的所有技能檢定。",
+  "DND5E.SkillModifierHint": "{skill} 調整值",
+  "DND5E.SkillPassiveHint": "被動 {skill}",
+  "DND5E.SkillPassiveSpecificHint": "被動 {ability} ({skill})",
+  "DND5E.SkillPassiveScore": "被動{skill}",
+  "DND5E.SkillPassives": "技能被動",
+  "DND5E.Skin": "膚色",
+  "DND5E.Skip": "略過",
+  "DND5E.SOURCE": {
+    "FIELDS": {
+      "source": {
+        "label": "來源",
+        "book": {
+          "label": "書籍"
+        },
+        "custom": {
+          "label": "自訂標籤"
+        },
+        "license": {
+          "label": "授權"
+        },
+        "page": {
+          "label": "頁碼／章節"
+        },
+        "revision": {
+          "label": "修訂版次"
+        },
+        "rules": {
+          "label": "規則版本"
+        },
+        "uuid": {
+          "label": "原始來源"
+        }
+      }
+    },
+    "Action": {
+      "Configure": "配置來源"
+    },
+    "Display": {
+      "Full": "{book} 第 {page} 頁",
+      "Page": "第{page}頁"
+    }
+  },
+  "DND5E.SourceItem": {
+    "Label": "來源物品",
+    "LockedHint": "此物品的來源由給予物品自動決定，無法更改。"
+  },
+  "DND5E.Special": "特殊",
+  "DND5E.SpecialHint": "以分號分隔的特殊值。",
+  "DND5E.SpecialTraits": "特性",
+  "DND5E.Species": {
+    "Label": "種族",
+    "Add": "新增種族",
+    "AddLegacy": "新增種族",
+    "Features": "種族特性",
+    "FeaturesLegacy": "種族特性",
+    "Name": "種族名稱"
+  },
+  "DND5E.Speed": "速度",
+  "DND5E.SpeedSpecial": "特殊移動",
+  "DND5E.SPELL": {
+    "Embed": {
+      "CastingTimeTrigger": "{castingTime}，你可以在{trigger}時進行",
+      "Tag": {
+        "Cantrip": "{school}戲法",
+        "CantripLegacy": "{school}戲法",
+        "Classes": "{levelSchool}（{classes}）",
+        "Leveled": "{level}環 {school}",
+        "LeveledLegacy": "第{levelOrdinal}環 {school}",
+        "Ritual": "{levelSchool}（儀式）"
+      }
+    }
+  },
+  "DND5E.SpellAbility": "施法能力",
+  "DND5E.SpellAbilitySet": "設定施法關鍵屬性",
+  "DND5E.SpellAdd": "增加法術",
+  "DND5E.SpellAttackBonus": "法術攻擊加值",
+  "DND5E.SpellCantrip": "戲法",
+  "DND5E.SpellCastConsume": "是否使用法術位？",
+  "DND5E.SpellCastNoSlots": "你沒有可用的法術位來施放法術",
+  "DND5E.SpellCastNoSlotsLeft": "你沒有可用的法術位來施放{name}!",
+  "DND5E.SpellCastTime": "施法時間",
+  "DND5E.SpellCastUpcast": "以此等級施放",
+  "DND5E.SpellcasterLevel": "施法者等級",
+  "DND5E.SpellCastingHeader": "施法",
+  "DND5E.Spellcasting": "施法方式",
+  "DND5E.SPELLCASTING": {
+    "METHODS": {
+      "AtWill": {
+        "label": "隨意"
+      },
+      "Innate": {
+        "label": "天生施法"
+      },
+      "Ritual": {
+        "label": "僅限儀式"
+      },
+      "Spell": {
+        "label": "施法",
+        "Full": {
+          "label": "全施法者"
+        },
+        "Half": {
+          "label": "半施法者"
+        },
+        "Third": {
+          "label": "三分之一施法者"
+        },
+        "Artificer": {
+          "label": "奇械師"
+        }
+      },
+      "Pact": {
+        "abbr": "契約",
+        "label": "契約魔法",
+        "Full": {
+          "label": "契約魔法"
+        }
+      }
+    },
+    "SLOTS": {
+      "spell0": "戲法",
+      "spell1": "1 環",
+      "spell2": "2 環",
+      "spell3": "3 環",
+      "spell4": "4 環",
+      "spell5": "5 環",
+      "spell6": "6 環",
+      "spell7": "7 環",
+      "spell8": "8 環",
+      "spell9": "9 環"
+    },
+    "STATES": {
+      "Unprepared": "未準備",
+      "Prepared": "已準備",
+      "AlwaysPrepared": "始終準備"
+    },
+    "Unlabeled": "未標記的施法"
+  },
+  "DND5E.SpellcastingClass": "{class}施法",
+  "DND5E.SpellComponent": "法術成分",
+  "DND5E.SpellComponents": "法術成分",
+  "DND5E.SpellComponentsMaterial": "{components}（{materials}）",
+  "DND5E.SpellCreate": "創建法術",
+  "DND5E.SpellDC": "法術DC",
+  "DND5E.SpellDetails": "法術詳情",
+  "DND5E.SpellEffects": "法術效果",
+  "DND5E.SpellHeader": {
+    "Formula": "公式",
+    "Range": "射程",
+    "Roll": "擲骰",
+    "School": "學派",
+    "Target": "目標",
+    "Time": "時間"
+  },
+  "DND5E.SpellLevel": "法術環級",
+  "DND5E.SpellLevels": "法術環級",
+  "DND5E.SpellLevel0": "戲法",
+  "DND5E.SpellLevel1": "1環",
+  "DND5E.SpellLevel2": "2環",
+  "DND5E.SpellLevel3": "3環",
+  "DND5E.SpellLevel4": "4環",
+  "DND5E.SpellLevel5": "5環",
+  "DND5E.SpellLevel6": "6環",
+  "DND5E.SpellLevel7": "7環",
+  "DND5E.SpellLevel8": "8環",
+  "DND5E.SpellLevel9": "9環",
+  "DND5E.SpellLevelSpell": "{level}（{n} 個環位）",
+  "DND5E.SpellLevelPact": "契約法術位",
+  "DND5E.SpellMaterials": "施法材料",
+  "DND5E.SpellMaterialsConsumed": "消耗材料",
+  "DND5E.SpellMaterialsCost": "花費材料",
+  "DND5E.SpellMaterialsDescription": "材料描述",
+  "DND5E.SpellMaterialsSupply": "材料補給",
+  "DND5E.SpellName": "法術名",
+  "DND5E.SpellNone": "無",
+  "DND5E.SpellPrepAtWill": "隨意施法",
+  "DND5E.SpellPrepInnate": "天生法術",
+  "DND5E.SpellPrepRitual": "僅儀式",
+  "DND5E.SpellPrepPrepared": "已準備",
+  "DND5E.SpellPrepAlways": "始終準備",
+  "DND5E.SpellPreparation": {
+    "Label": "法術準備",
+    "Formula": "準備公式",
+    "Method": "施法方法",
+    "Mode": "法術準備模式"
+  },
+  "DND5E.SpellPrepared": "已準備",
+  "DND5E.SpellProgArt": "奇械師",
+  "DND5E.SpellProgAvailable": "可用法術位",
+  "DND5E.SpellProgFull": "全職施法者",
+  "DND5E.SpellProgHalf": "半施法者",
+  "DND5E.SpellProgLeveled": "帶環魔法",
+  "DND5E.SpellProgOverride": "覆蓋法術位",
+  "DND5E.SpellProgPact": "契約魔法",
+  "DND5E.SpellProgThird": "1/3施法者",
+  "DND5E.SpellProgression": "施法者類型",
+  "DND5E.SpellsSearch": "搜尋法術",
+  "DND5E.SpellSchool": "法術學派",
+  "DND5E.SpellScroll": "法術卷軸",
+  "DND5E.SpellSlotExpended": "消耗法術位",
+  "DND5E.SpellSlotN.one": "{n}個法術位",
+  "DND5E.SpellSlotN.two": "{n}個法術位",
+  "DND5E.SpellSlotN.few": "{n}個法術位",
+  "DND5E.SpellSlotN.other": "{n}個法術位",
+  "DND5E.SpellSlotTemporary": "暫時法術位",
+  "DND5E.SpellSlotsN.one": "{n}環法術位",
+  "DND5E.SpellSlotsN.two": "{n}環法術位",
+  "DND5E.SpellSlotsN.few": "{n}環法術位",
+  "DND5E.SpellSlotsN.other": "{n}環法術位",
+  "DND5E.SpellSlotsPact": "契術師法術位",
+  "DND5E.SpellSlotsConfig": "配置法術位",
+  "DND5E.SpellTag": "法術標籤",
+  "DND5E.SpellTarget": "法術目標",
+  "DND5E.SpellUnprepared": "未準備",
+  "DND5E.SpellUsage": "法術用法",
+  "DND5E.Spellbook": "法術書",
+  "DND5E.Spent": "已消耗",
+  "DND5E.SplitStack": {
+    "Action": "拆分",
+    "Title": "拆分堆疊"
+  },
+  "DND5E.StartingEquipment": {
+    "Title": "起始裝備",
+    "Action": {
+      "AddEntry": "新增條目",
+      "Configure": "配置起始裝備",
+      "RemoveEntry": "刪除條目"
+    },
+    "Choice": {
+      "Armor": "選擇護甲",
+      "Focus": "選擇施法法器",
+      "Tool": "選擇工具",
+      "Weapon": "選擇武器"
+    },
+    "ChooseList": "<em>選擇 {prefixes}：</em> {choices}",
+    "Currency": "貨幣",
+    "DropHint": "將物品拖曳到此處",
+    "IfProficient": "若熟練",
+    "Operator": {
+      "AND": "下列全部：",
+      "OR": "下列之一："
+    },
+    "Prefixes": "abcdefghijklmnopqrstuvwxyz",
+    "RequireProficiency": "需要熟練",
+    "SpecificItem": "特定物品",
+    "Warning": {
+      "Depth": "起始裝備只允許至多三層的巢狀結構。",
+      "ItemTypeInvalid": "無法將{type}加入起始裝備。"
+    },
+    "Wealth": {
+      "Label": "起始財富",
+      "Hint": "取代起始裝備的GP公式。"
+    }
+  },
+  "DND5E.SubclassAdd": "新增子職業",
+  "DND5E.SubclassIdentifierHint": "此識別碼應與關聯職業上的識別碼匹配，以確保能正確連結。",
+  "DND5E.SubclassAssignmentError": "{class}已經有子職。新增子職之前先刪除現有的'{subclass}'子職。",
+  "DND5E.SubclassDuplicateError": "該角色已存在識別碼為{identifier}的子職。",
+  "DND5E.SubclassMismatchWarn": "沒有與子職業{name}匹配的'{class}'職業。",
+  "DND5E.SubclassName": "子職名",
+  "DND5E.SubclassOf": "{class}子職業",
+  "DND5E.Subtype": "子類型",
+  "DND5E.Summary": "摘要",
+  "DND5E.SUMMON": {
+    "FIELDS": {
+      "bonuses": {
+        "ac": {
+          "label": "額外護甲等級",
+          "hint": "賦予召喚物的額外護甲等級（AC）加值，會加在其數據表上。"
+        },
+        "attackDamage": {
+          "label": "額外攻擊傷害",
+          "hint": "召喚物攻擊的額外傷害。"
+        },
+        "hd": {
+          "label": "額外生命骰",
+          "hint": "在召喚物數據表的生命骰公式上增加額外的生命骰，僅適用於召喚 NPC 類型生物。"
+        },
+        "healing": {
+          "label": "額外治療",
+          "hint": "治療能力提供的額外治療量。"
+        },
+        "hp": {
+          "label": "額外生命值",
+          "hint": "在召喚物數據表的生命值上增加額外的生命值。"
+        },
+        "saveDamage": {
+          "label": "額外豁免傷害",
+          "hint": "需要進行豁免檢定的能力造成的額外傷害"
+        }
+      },
+      "creatureSizes": {
+        "label": "生物體型",
+        "hint": "召喚出的生物和其指示物會變成此體型。若選擇多個體型，則玩家召喚時可從中選擇。"
+      },
+      "creatureTypes": {
+        "label": "生物類型",
+        "hint": "召喚生物會變更為此類型。若選擇多種類型，則可於召喚時選擇。"
+      },
+      "flat": {
+        "attack": {
+          "label": "固定攻擊命中"
+        },
+        "save": {
+          "label": "固定豁免 DC"
+        }
+      },
+      "match": {
+        "ability": {
+          "label": "匹配屬性",
+          "hint": "匹配攻擊與豁免 DC 的特定屬性。"
+        },
+        "attacks": {
+          "label": "匹配攻擊加值",
+          "hint": "將召喚生物的命中加值調整為與召喚者一致。"
+        },
+        "disposition": {
+          "label": "配合立場",
+          "hint": "修改召喚生物的立場以配合召喚者。"
+        },
+        "proficiency": {
+          "label": "匹配熟練",
+          "hint": "將召喚生物的熟練設為與召喚者相同。"
+        },
+        "saves": {
+          "label": "匹配豁免",
+          "hint": "將召喚生物的屬性豁免 DC 設為與召喚者一致。"
+        }
+      },
+      "profiles": {
+        "element": {
+          "count": {
+            "label": "數量"
+          },
+          "cr": {
+            "label": "挑戰等級",
+            "abbr": "CR",
+            "hint": "召喚生物的最大挑戰等級（CR）。"
+          },
+          "level": {
+            "label": "等級限制",
+            "hint": "使用此資料所需的等級範圍。",
+            "max": {
+              "label": "最高等級"
+            },
+            "min": {
+              "label": "最低等級"
+            }
+          },
+          "name": {
+            "label": "顯示名稱",
+            "hint": "在使用介面中顯示的資料名稱。"
+          },
+          "types": {
+            "label": "生物類型",
+            "hint": "可從中選擇召喚生物的生物類型列表。"
+          },
+          "uuid": {
+            "label": "連結生物"
+          }
+        },
+        "label": "召喚資料"
+      },
+      "summon": {
+        "label": "召喚詳情",
+        "identifier": {
+          "label": "職業識別碼",
+          "hint": "用於判定設定檔限制應參考角色總等級，還是特定職業等級的識別碼。"
+        },
+        "mode": {
+          "label": "模式",
+          "hint": "設定召喚生物的指定方式。",
+          "CR": "依挑戰等級與類型",
+          "Direct": "直接連結"
+        },
+        "prompt": {
+          "label": "召喚提示",
+          "hint": "召喚時是否提示玩家放置生物？若關閉提示，玩家仍可透過聊天卡進行召喚。"
+        }
+      },
+      "tempHP": {
+        "label": "臨時生命",
+        "hint": "賦予召喚生物臨時生命，取代任何現有的臨時生命。"
+      }
+    },
+    "Action": {
+      "Place": "放置召喚物",
+      "Summon": "召喚",
+      "View": "檢視召喚"
+    },
+    "CreatureChanges": {
+      "Label": "生物更改",
+      "Hint": "將套用至被召喚生物的更改。以下公式中可使用 @ 來引用召喚者的數值，召喚生物的數據則可使用 @summon（例如 @summon.attributes.hd.max 表示生命骰最大值）。"
+    },
+    "Hint": "將新生物召喚至場景中。",
+    "ItemChanges": {
+      "Label": "物品更改",
+      "Hint": "將套用於召喚生物所持物品的變更。"
+    },
+    "Profile": {
+      "Label": "召喚設定檔",
+      "Action": {
+        "Create": "創建設定檔",
+        "Delete": "刪除設定檔"
+      },
+      "ChallengeRatingLabel": "挑戰等級為 {cr} 或以下",
+      "DropHint": "拖曳生物至此處",
+      "Empty": "點擊上方 <i class=\"fas fa-plus\"></i> 按鈕以創建設定檔。.",
+      "EmptyDrop": "點擊上方 <i class=\"fas fa-plus\"></i> 按鈕創建定檔，或拖曳生物至此進行召喚。"
+    },
+    "SECTIONS": {
+      "Changes": "更改",
+      "Profiles": "設定檔",
+      "Summoning": "召喚"
+    },
+    "Title": "召喚",
+    "Warning": {
+      "NoOwnership": "你必須擁有「{actor}」的控制權才能召喚該角色。",
+      "NoProfile": "無法在「{item}」上找到召喚設定檔 {profileId}。",
+      "PlaceTokens": "將召喚物放置於場景中時發生錯誤。",
+      "Wildcard": "你必須擁有『使用檔案瀏覽器』的權限才能召喚具有通配圖片的生物。",
+      "CreateActor": "你必須擁有『建立新角色』的權限，才能從合集包直接召喚。",
+      "NoActor": "無法找到 UUID 為「{uuid}」的角色以進行召喚。"
+    }
+  },
+  "DND5E.Summoning": {
+    "Label": "召喚"
+  },
+  "DND5E.Supply": "供應",
+  "DND5E.Suppressed": "被抑制",
+  "DND5E.TABLEOFCONTENTS": {
+    "Action": {
+      "Configure": "配置目錄"
+    },
+    "FIELDS": {
+      "order": {
+        "label": "順序"
+      },
+      "position": {
+        "label": "位置"
+      },
+      "showPages": {
+        "label": "顯示頁面"
+      },
+      "title": {
+        "label": "標題覆寫"
+      },
+      "type": {
+        "label": "類型"
+      }
+    },
+    "HiddenPages": "隱藏頁面",
+    "HideAllPages": "隱藏所有頁面",
+    "JournalEntry": "日誌條目",
+    "NoFolder": "無資料夾",
+    "Special": {
+      "After": "在{chapter}之後",
+      "End": "目錄末尾"
+    },
+    "Title": "目錄",
+    "Type": {
+      "Appendix": "附錄",
+      "Chapter": "章節",
+      "Header": "標題",
+      "Special": "特殊"
+    },
+    "Warning": {
+      "DuplicateHeader": "只有一個條目可以配置為標題類型。",
+      "DuplicatePosition": "每個章節和附錄應該有一個唯一的位置值。"
+    }
+  },
+  "DND5E.TARGET": {
+    "Action": {
+      "PlaceTemplate": "放置範圍模板"
+    },
+    "Count": {
+      "Any": "任意",
+      "Every": "所有"
+    },
+    "FIELDS": {
+      "target": {
+        "label": "目標",
+        "affects": {
+          "label": "受影響目標",
+          "choice": {
+            "label": "選擇目標",
+            "hint": "在瞄準一個區域時，使用者是否可以選擇哪些目標會受到影響？"
+          },
+          "count": {
+            "label": "目標數量",
+            "hint": "可被影響的個別目標數量。"
+          },
+          "special": {
+            "label": "特殊目標",
+            "hint": "任何特殊目標細節的說明。"
+          },
+          "type": {
+            "label": "目標類型",
+            "hint": "可被影響的目標類型（例如：生物、物體、區域等）。"
+          }
+        },
+        "override": {
+          "label": "覆蓋目標",
+          "hint": "使用此行動時，以這些目標瞄準值取代物品本身的設定。"
+        },
+        "prompt": {
+          "label": "範圍模板提示",
+          "hint": "是否提示玩家放置範圍模板？若不啟用，玩家仍可透過聊天卡放置模板。"
+        },
+        "template": {
+          "label": "效果範圍",
+          "contiguous": {
+            "label": "相鄰範圍",
+            "hint": "所有產生的範圍是否必須彼此相鄰？"
+          },
+          "count": {
+            "label": "範圍數量",
+            "hint": "可被指定為目標的獨立範圍數量。"
+          },
+          "height": {
+            "label": "範圍高度",
+            "hint": "若適用，則為影響的圓柱體高度。"
+          },
+          "size": {
+            "label": "範圍尺寸",
+            "hint": "範圍效果在主要軸向的大小。"
+          },
+          "stationary": {
+            "label": "靜止",
+            "hint": "發散效果放置後無法移動。"
+          },
+          "type": {
+            "label": "範圍類型",
+            "hint": "被瞄準的範圍效果類型。"
+          },
+          "units": {
+            "label": "範圍單位",
+            "hint": "用於衡量範圍效果尺寸的單位。"
+          },
+          "width": {
+            "label": "範圍寬度",
+            "hint": "若適用，則為影響線條的寬度。"
+          }
+        }
+      }
+    },
+    "Formatted": "{count}個{type}",
+    "Type": {
+      "Ally": {
+        "Label": "盟友",
+        "Counted": {
+          "any": "任意盟友",
+          "each": "每個盟友",
+          "every": "所有盟友",
+          "one": "{number} 名盟友",
+          "other": "{number} 名盟友"
+        }
+      },
+      "Any": {
+        "Label": "任何"
+      },
+      "Circle": {
+        "Label": "圓形",
+        "Counted": {
+          "one": "{number} 個圓形",
+          "other": "{number} 個圓形",
+          "oneSized": "{sizes}圓形",
+          "otherSized": "{number}個{sizes}圓形"
+        }
+      },
+      "Cone": {
+        "Label": "錐形",
+        "Counted": {
+          "one": "{number} 個錐形",
+          "other": "{number} 個錐形",
+          "oneSized": "{sizes}錐形",
+          "otherSized": "{number}個{sizes}錐形"
+        }
+      },
+      "Creature": {
+        "Label": "生物",
+        "Counted": {
+          "any": "任意生物",
+          "each": "每個生物",
+          "every": "所有生物",
+          "one": "{number} 個生物",
+          "other": "{number} 個生物"
+        }
+      },
+      "CreatureOrObject": {
+        "Label": "生物或物體",
+        "Counted": {
+          "any": "任意生物或物體",
+          "each": "每個生物或物體",
+          "every": "所有生物或物體",
+          "one": "{number} 個生物或物體",
+          "other": "{number} 個生物或物體"
+        }
+      },
+      "Cube": {
+        "Label": "立方",
+        "Counted": {
+          "one": "{number} 個立方",
+          "other": "{number} 個立方",
+          "oneSized": "{sizes}立方體",
+          "otherSized": "{number}個{sizes}立方體"
+        }
+      },
+      "Cylinder": {
+        "Label": "圓柱",
+        "Counted": {
+          "one": "{number} 個圓柱",
+          "other": "{number} 個圓柱",
+          "oneSized": "{sizes}圓柱體",
+          "otherSized": "{number}個{sizes}圓柱體"
+        }
+      },
+      "Emanation": {
+        "Label": "擴散",
+        "Counted": {
+          "one": "{number} 個擴散區域",
+          "other": "{number} 個擴散區域",
+          "oneSized": "{sizes}發散",
+          "otherSized": "{number}個{sizes}發散"
+        }
+      },
+      "Enemy": {
+        "Label": "敵人",
+        "Counted": {
+          "any": "任意敵人",
+          "each": "每個敵人",
+          "every": "所有敵人",
+          "one": "{number} 名敵人",
+          "other": "{number} 名敵人"
+        }
+      },
+      "Line": {
+        "Label": "直線",
+        "Counted": {
+          "one": "{number} 條直線",
+          "other": "{number} 條直線",
+          "oneSized": "{sizes}直線",
+          "otherSized": "{number}個{sizes}直線"
+        }
+      },
+      "Object": {
+        "Label": "物體",
+        "Counted": {
+          "any": "任意物體",
+          "each": "每個物體",
+          "every": "所有物體",
+          "one": "{number} 個物體",
+          "other": "{number} 個物體"
+        }
+      },
+      "Radius": {
+        "Label": "半徑",
+        "Counted": {
+          "one": "{number} 個半徑",
+          "other": "{number} 個半徑",
+          "oneSized": "{sizes}半徑",
+          "otherSized": "{number}個{sizes}半徑"
+        }
+      },
+      "Ring": {
+        "Label": "環狀",
+        "Counted": {
+          "one": "環狀",
+          "other": "環狀",
+          "oneSized": "{sizes}環狀",
+          "otherSized": "{number}個{sizes}環狀"
+        }
+      },
+      "Self": {
+        "Label": "自身"
+      },
+      "Space": {
+        "Label": "空間",
+        "Counted": {
+          "any": "任意空間",
+          "each": "每個空間",
+          "every": "所有空間",
+          "one": "{number} 個空間",
+          "other": "{number} 個空間"
+        }
+      },
+      "Sphere": {
+        "Label": "球形",
+        "Counted": {
+          "one": "{number} 個球形",
+          "other": "{number} 個球形",
+          "oneSized": "{sizes}球型",
+          "otherSized": "{number}個{sizes}球型"
+        }
+      },
+      "Special": {
+        "Label": "{special}",
+        "Counted": {
+          "any": "任何{special}",
+          "each": "每個{special}",
+          "every": "每個{special}",
+          "one": "{special}",
+          "other": "{special}"
+        }
+      },
+      "Square": {
+        "Label": "方格",
+        "Counted": {
+          "one": "{number} 個方格",
+          "other": "{number} 個方格",
+          "oneSized": "{sizes}方形",
+          "otherSized": "{number}個{sizes}方形"
+        }
+      },
+      "Target": {
+        "Label": "目標",
+        "Counted": {
+          "any": "任意目標",
+          "each": "每個目標",
+          "every": "所有目標",
+          "one": "{number} 個目標",
+          "other": "{number} 個目標"
+        }
+      },
+      "Wall": {
+        "Label": "牆面",
+        "Counted": {
+          "one": "{number} 面牆",
+          "other": "{number} 面牆",
+          "oneSized": "{sizes}牆形",
+          "otherSized": "{number}個{sizes}牆形"
+        }
+      },
+      "WillingCreature": {
+        "Label": "自願生物",
+        "Counted": {
+          "any": "任意自願生物",
+          "each": "每個自願生物",
+          "every": "所有自願生物",
+          "one": "{number} 個自願生物",
+          "other": "{number} 個自願生物"
+        }
+      }
+    },
+    "Warning": {
+      "PlaceTemplate": "無法放置範圍模板。"
+    }
+  },
+  "DND5E.TELEPORT": {
+    "Action": {
+      "Teleport": "傳送"
+    },
+    "FIELDS": {
+      "teleport": {
+        "label": "距離",
+        "hint": "配置最大傳送距離。",
+        "override": {
+          "label": "覆寫",
+          "hint": "覆寫行動的一般射程並手動配置最大傳送距離。"
+        },
+        "units": {
+          "label": "距離單位"
+        },
+        "value": {
+          "label": "最大距離"
+        }
+      }
+    },
+    "Hint": "將指示物傳送至選擇的目的地。",
+    "SECTIONS": {
+      "Teleport": "傳送"
+    },
+    "Title": "傳送",
+    "Warning": {
+      "InvalidDistance": "無法在沒有支援移動單位的場景中使用傳送。"
+    }
+  },
+  "DND5E.Target": "目標",
+  "DND5E.TargetPl": "目標",
+  "DND5E.TargetType": "目標類型",
+  "DND5E.TargetTypeArea": "範圍",
+  "DND5E.TargetTypeIndividual": "個體",
+  "DND5E.TargetUnits": "效果範圍單位",
+  "DND5E.TargetValue": "目標長度或數量",
+  "DND5E.TargetWidth": "線寬",
+  "DND5E.TemplatePrompt": "模板提示",
+  "DND5E.TemplatePromptTooltip": "如果沒有勾選，則放置測量模板的提示將不顯示。",
+  "DND5E.Temp": "臨時",
+  "DND5E.Threshold": "閾值",
+  "DND5E.TimeDay": "天",
+  "DND5E.TimeDayAbbr": "天",
+  "DND5E.TimeDisp": "直到被解除",
+  "DND5E.TimeDispTrig": "直到被解除或觸發",
+  "DND5E.TimeHour": "小時",
+  "DND5E.TimeHourAbbr": "時",
+  "DND5E.TimeInst": "瞬間",
+  "DND5E.TimeMinute": "分鐘",
+  "DND5E.TimeMinuteAbbr": "分",
+  "DND5E.TimeMonth": "月",
+  "DND5E.TimePerm": "永久",
+  "DND5E.TimeRound": "輪",
+  "DND5E.TimeTurn": "回合",
+  "DND5E.TimeYear": "年",
+  "DND5E.TMP": "臨時",
+  "DND5E.ToHit": "命中",
+  "DND5E.TOKEN": {
+    "Attribute": {
+      "Label": "指示物：{attribute}",
+      "LightBrightRadius": "亮光半徑",
+      "LightDimRadius": "微光半徑"
+    },
+    "LockScale": {
+      "Hint": "如果角色體型為小，則防止對指示物套用縮放調整。",
+      "Label": "鎖定縮放"
+    },
+    "LockSize": {
+      "Hint": "解鎖以手動輸入此指示物的尺寸，並防止它們根據生物體型自動調整。",
+      "Label": "鎖定尺寸"
+    }
+  },
+  "DND5E.Tokens": {
+    "NoneSelected": "未選取任何指示物",
+    "NoneTargeted": "未鎖定任何指示物",
+    "NoTargets": "沒有目標",
+    "Selected": "已選取",
+    "Targeted": "已鎖定"
+  },
+  "DND5E.ToggleDescription": "切換描述顯示",
+  "DND5E.TOOL": {
+    "FIELDS": {
+      "tools": {
+        "element": {
+          "roll": {
+            "bonus": {
+              "label": "工具檢定加值"
+            },
+            "max": {
+              "label": "最高工具檢定擲骰"
+            },
+            "min": {
+              "label": "最低工具檢定擲骰"
+            },
+            "mode": {
+              "label": "工具檢定優勢模式"
+            }
+          }
+        }
+      }
+    },
+    "Formatter": {
+      "CheckBonus": "{name}檢定加值",
+      "Proficiency": "{name}熟練"
+    },
+    "SECTIONS": {
+      "Details": "{label}細節",
+      "Bonuses": {
+        "Label": "{label}加值",
+        "Hint": "這些加值會套用至{label}的檢定。"
+      },
+      "Global": {
+        "Label": "全域加值",
+        "Hint": "這些加值會套用至任意工具的檢定。"
+      }
+    }
+  },
+  "DND5E.ToolArtisans": "工匠工具",
+  "DND5E.ToolBonuses": "工具加值",
+  "DND5E.ToolCheck": "工具檢定",
+  "DND5E.ToolConfigure": "配置工具熟練",
+  "DND5E.ToolDisguiseKit": "易容工具",
+  "DND5E.ToolForgeryKit": "文書偽造工具",
+  "DND5E.ToolGamingSet": "賭博工具",
+  "DND5E.ToolHerbalismKit": "草藥工具",
+  "DND5E.ToolMusicalInstrument": "樂器",
+  "DND5E.ToolNavigators": "領航工具",
+  "DND5E.ToolPoisonersKit": "製毒工具",
+  "DND5E.ToolPromptTitle": "{tool}檢定",
+  "DND5E.ToolThieves": "盜賊工具",
+  "DND5E.ToolVehicle": "載具",
+  "DND5E.TRAIT": {
+    "Action": {
+      "Configure": "配置{trait}"
+    },
+    "All": "所有{category}",
+    "Armor": {
+      "one": "護甲訓練",
+      "other": "護甲訓練",
+      "title": "護甲訓練"
+    },
+    "ArmorLegacy": {
+      "one": "護甲熟練",
+      "other": "護甲熟練",
+      "title": "護甲熟練"
+    },
+    "Condition": {
+      "Immunity": {
+        "one": "狀態免疫",
+        "other": "狀態免疫",
+        "title": "狀態免疫"
+      }
+    },
+    "Choose": {
+      "AnyCounted": "任何{count}種{type}",
+      "AnyUncounted": "任何{type}",
+      "List": "從{list}中選擇{count}種",
+      "Other": "其他{count}種{type}",
+      "Wrapper": "選擇{choices}"
+    },
+    "Chosen": "已選特徵",
+    "Damage": {
+      "Immunity": {
+        "one": "傷害免疫",
+        "other": "傷害免疫",
+        "title": "傷害免疫"
+      },
+      "Modification": {
+        "one": "傷害修改",
+        "other": "傷害修改",
+        "title": "傷害修改"
+      },
+      "Resistance": {
+        "one": "傷害抗力",
+        "other": "傷害抗力",
+        "title": "傷害抗力"
+      },
+      "Vulnerability": {
+        "one": "易傷",
+        "other": "易傷",
+        "title": "易傷"
+      }
+    },
+    "Generic": {
+      "one": "特徵",
+      "other": "特徵",
+      "title": "特徵"
+    },
+    "Language": {
+      "one": "語言",
+      "other": "語言",
+      "title": "語言"
+    },
+    "Save": {
+      "one": "豁免熟練",
+      "other": "豁免熟練",
+      "title": "豁免熟練"
+    },
+    "Skill": {
+      "one": "技能熟練",
+      "other": "技能熟練",
+      "title": "技能熟練"
+    },
+    "Tool": {
+      "one": "工具熟練",
+      "other": "工具熟練",
+      "title": "工具熟練"
+    },
+    "Weapon": {
+      "one": "武器熟練",
+      "other": "武器熟練",
+      "title": "武器熟練"
+    }
+  },
+  "DND5E.Traits": "特徵",
+  "DND5E.TRANSFORM": {
+    "Action": {
+      "Restore": "恢復變形",
+      "Transform": "變形"
+    },
+    "Dialog": {
+      "Title": "配置變形"
+    },
+    "FIELDS": {
+      "profiles": {
+        "element": {
+          "cr": {
+            "label": "挑戰等級",
+            "abbr": "CR",
+            "hint": "來源生物最大的挑戰等級。"
+          },
+          "level": {
+            "label": "等級限制",
+            "hint": "使用此變形設定檔所需的角色等級範圍。",
+            "max": {
+              "label": "最高等級"
+            },
+            "min": {
+              "label": "最低等級"
+            }
+          },
+          "movement": {
+            "hint": "來源生物中不允許出現的移動類型。",
+            "label": "限制移動類型"
+          },
+          "name": {
+            "hint": "使用介面中顯示的設定檔名稱。",
+            "label": "顯示名稱"
+          },
+          "sizes": {
+            "hint": "可作為變形對象的生物體型列表。",
+            "label": "生物體型"
+          },
+          "types": {
+            "hint": "可作為變形對象的生物類型列表。",
+            "label": "生物類型"
+          },
+          "uuid": {
+            "label": "關聯角色"
+          }
+        },
+        "label": "變形設定檔"
+      },
+      "transform": {
+        "label": "變形詳情",
+        "customize": {
+          "label": "自訂",
+          "hint": "使用自訂的變形設定，取代預設的預設值。"
+        },
+        "formless": {
+          "hint": "允許生物移除所有型態並回到預設狀態。",
+          "label": "無型態"
+        },
+        "identifier": {
+          "label": "職業識別碼",
+          "hint": "用於判定設定檔限制應參考角色總等級，還是特定職業等級的識別碼。"
+        },
+        "mode": {
+          "label": "模式",
+          "hint": "設定變形來源生物如何被選擇。",
+          "CR": "生物數值（依據挑戰等級）",
+          "Direct": "直接連結",
+          "Form": "選擇型態",
+          "Appearance": "僅外觀",
+          "Default": "合集包瀏覽器"
+        },
+        "preset": {
+          "label": "預設配置"
+        }
+      }
+    },
+    "Hint": "使用另一個角色的數值來改變角色。",
+    "NoForm": "無型態",
+    "Preset": {
+      "Appearance": {
+        "Label": "僅外觀"
+      },
+      "Default": "預設",
+      "Label": "預設設定",
+      "Polymorph": {
+        "Label": "變形術"
+      },
+      "WildShape": {
+        "Label": "荒野型態"
+      }
+    },
+    "Profile": {
+      "Action": {
+        "Create": "創建設定檔",
+        "Delete": "刪除設定檔"
+      },
+      "ChallengeRatingLabel": "挑戰等級 {cr} 或以下",
+      "DropHint": "將生物拖曳至此處",
+      "Empty": "點擊上方 <i class=\"fas fa-plus\"></i> 按鈕創建設定檔。",
+      "Label": "變形設定檔"
+    },
+    "SECTIONS": {
+      "Profiles": "設定檔",
+      "Settings": "設定",
+      "Transformation": "變形"
+    },
+    "Setting": {
+      "Effects": {
+        "All": {
+          "Hint": "保留所有效果，忽略其他效果設定。",
+          "Label": "所有效果"
+        },
+        "Background": {
+          "Label": "背景效果"
+        },
+        "Class": {
+          "Label": "職業效果"
+        },
+        "Equipment": {
+          "Label": "裝備效果"
+        },
+        "Feature": {
+          "Label": "特性效果"
+        },
+        "Origin": {
+          "Hint": "保留任何直接創建在原角色上的效果。",
+          "Label": "此角色效果"
+        },
+        "OtherOrigin": {
+          "Hint": "保留由其他角色施加的效果。",
+          "Label": "其他角色效果"
+        },
+        "Spell": {
+          "Label": "法術效果"
+        }
+      },
+      "FIELDS": {
+        "effects": {
+          "label": "主動效果"
+        },
+        "keep": {
+          "hint": "這些資訊會從原角色保留至變形後角色。",
+          "label": "保留"
+        },
+        "merge": {
+          "hint": "合併這些熟練項，並保留較高的調整值。",
+          "label": "合併"
+        },
+        "minimumAC": {
+          "hint": "定義變身後生物護甲等級的公式（若目標角色原有的 AC 沒有比較高）。",
+          "label": "最低護甲等級"
+        },
+        "other": {
+          "label": "其他選項"
+        },
+        "spellLists": {
+          "hint": "若角色擁有相符的物品，這些法術列表上的法術將會被保留。",
+          "label": "保留的法術列表"
+        },
+        "tempFormula": {
+          "hint": "變形時將套用的臨時生命值公式。",
+          "label": "臨時生命公式"
+        },
+        "transformTokens": {
+          "label": "變形指示物"
+        }
+      },
+      "Keep": {
+        "Biography": {
+          "Label": "傳記"
+        },
+        "CreatureType": {
+          "Label": "生物類型"
+        },
+        "Equipment": {
+          "Label": "裝備"
+        },
+        "Features": {
+          "Label": "特性"
+        },
+        "GearProficiency": {
+          "Label": "裝備熟練"
+        },
+        "Health": {
+          "Label": "生命值與生命骰"
+        },
+        "Languages": {
+          "Label": "語言"
+        },
+        "Mental": {
+          "Hint": "保留智力、感知與魅力值。",
+          "Label": "心智屬性"
+        },
+        "Physical": {
+          "Hint": "保留力量、敏捷與體質值。",
+          "Label": "物理屬性"
+        },
+        "Proficiency": {
+          "Label": "熟練加值"
+        },
+        "Resistances": {
+          "Label": "傷害抗力"
+        },
+        "Saves": {
+          "Label": "豁免熟練"
+        },
+        "Self": {
+          "Hint": "僅更改頭像與指示物圖像，其餘設定不變。",
+          "Label": "自身外觀"
+        },
+        "Skills": {
+          "Label": "技能熟練"
+        },
+        "Spells": {
+          "Label": "法術"
+        },
+        "TempHP": {
+          "Label": "臨時生命"
+        },
+        "Vision": {
+          "Label": "視覺"
+        }
+      },
+      "Merge": {
+        "Saves": {
+          "Label": "豁免熟練"
+        },
+        "Skills": {
+          "Label": "技能熟練"
+        }
+      }
+    },
+    "TemporaryClass": "臨時職業",
+    "Title": "變形",
+    "Warning": {
+      "NoOwnership": "你沒有權限變形此角色。",
+      "NoPermission": "尚未授予玩家變形的權限。",
+      "OriginalActor": "找不到 ID 為「{reference}」的原始角色。",
+      "SourceActor": "找不到可供變形的角色。"
+    }
+  },
+  "DND5E.TRAVEL": {
+    "FIELDS": {
+      "pace": {
+        "label": "步調"
+      },
+      "time": {
+        "hint": "每日旅行的小時數，用於將旅行速度換算為步調。",
+        "label": "每日小時數"
+      }
+    },
+    "Label": "旅行步調",
+    "Pace": {
+      "Fast": "快",
+      "Normal": "正常",
+      "Slow": "慢"
+    },
+    "Per": {
+      "Day": "每日",
+      "Hour": "每小時"
+    },
+    "Slowed": {
+      "Group": "團體步調因某個成員的速度減半或更低而變慢。",
+      "Member": "該團體成員正在拖慢其他人的速度。"
+    },
+    "Speed": "旅行速度",
+    "Type": {
+      "Air": "空中",
+      "Land": "陸上",
+      "Water": "水上"
+    }
+  },
+  "DND5E.Treasure": {
+    "Categories": {
+      "Any": "任意",
+      "Arcana": "魔導物",
+      "Armaments": "武裝",
+      "Implements": "法器",
+      "Individual": "個人財物",
+      "None": "無",
+      "Relics": "遺物"
+    },
+    "Configuration": {
+      "Label": "寶藏",
+      "Title": "配置寶藏"
+    }
+  },
+  "DND5E.Trigger": "觸發",
+  "DND5E.Type": "類型",
+  "DND5E.Uncrewed": "無人照管",
+  "DND5E.Unequipped": "未裝備",
+  "DND5E.Unidentified.DefaultName": "未鑑定{name}",
+  "DND5E.Unidentified.Notice": "你必須鑑定該物品才能了解其詳細資訊。",
+  "DND5E.Unidentified.Title": "未鑑定",
+  "DND5E.Unidentified.Value": "???",
+  "DND5E.Unit": "單位",
+  "DND5E.UNITS": {
+    "DISTANCE": {
+      "Foot": {
+        "Abbreviation": "ft",
+        "Label": "呎",
+        "Template": "呎"
+      },
+      "Kilometer": {
+        "Abbreviation": "km",
+        "Label": "公里",
+        "Template": "公里"
+      },
+      "Label": "距離單位",
+      "Meter": {
+        "Abbreviation": "m",
+        "Label": "公尺",
+        "Template": "公尺"
+      },
+      "Mile": {
+        "Abbreviation": "mi",
+        "Label": "哩",
+        "Template": "哩"
+      }
+    },
+    "TIME": {
+      "Day": {
+        "Label": "天"
+      },
+      "Hour": {
+        "Label": "小時"
+      },
+      "Minute": {
+        "Label": "分鐘"
+      },
+      "Month": {
+        "Label": "月"
+      },
+      "Round": {
+        "Label": "輪",
+        "Counted": {
+          "narrow": "{number}輪",
+          "one": "{number}輪",
+          "other": "{number}輪"
+        }
+      },
+      "Second": {
+        "Label": "秒"
+      },
+      "Turn": {
+        "Label": "回合",
+        "Abbreviation": "回合",
+        "Counted": {
+          "narrow": "{number}回合",
+          "one": "{number}回合",
+          "other": "{number}回合"
+        }
+      },
+      "Week": {
+        "Label": "週"
+      },
+      "Year": {
+        "Label": "年"
+      }
+    },
+    "TRAVEL": {
+      "Kilometer": {
+        "AbbreviationHour": "公里/小時",
+        "AbbreviationDay": "公里/日",
+        "Label": "公里"
+      },
+      "Label": "旅行單位",
+      "Mile": {
+        "AbbreviationDay": "哩/日",
+        "AbbreviationHour": "哩/小時",
+        "Label": "哩"
+      }
+    },
+    "VOLUME": {
+      "Label": "容量單位",
+      "CubicFoot": {
+        "Label": "立方呎",
+        "Abbreviation": "ft³",
+        "Counted": {
+          "narrow": {
+            "one": "{number}ft³",
+            "other": "{number}ft³"
+          },
+          "short": {
+            "one": "{number} 立方呎",
+            "other": "{number} 立方呎"
+          },
+          "long": {
+            "one": "{number}立方呎",
+            "other": "{number}立方呎"
+          }
+        }
+      },
+      "Liter": {
+        "Label": "公升",
+        "Abbreviation": "L"
+      }
+    },
+    "WEIGHT": {
+      "Label": "重量單位",
+      "Kilogram": {
+        "Label": "公斤",
+        "Abbreviation": "kg"
+      },
+      "Megagram": {
+        "Label": "公噸",
+        "Abbreviation": "t",
+        "Counted": {
+          "narrow": {
+            "one": "{number} 噸",
+            "other": "{number} 噸"
+          },
+          "short": {
+            "one": "{number} 噸",
+            "other": "{number} 噸"
+          },
+          "long": {
+            "one": "{number}公噸",
+            "other": "{number}公噸"
+          }
+        }
+      },
+      "Pound": {
+        "Label": "磅",
+        "Abbreviation": "lb"
+      },
+      "Ton": {
+        "Label": "噸",
+        "Abbreviation": "tn",
+        "Counted": {
+          "narrow": {
+            "one": "{number} 噸",
+            "other": "{number} 噸"
+          },
+          "short": {
+            "one": "{number} 噸",
+            "other": "{number} 噸"
+          },
+          "long": {
+            "one": "{number}噸",
+            "other": "{number}噸"
+          }
+        }
+      }
+    }
+  },
+  "DND5E.USAGE": {
+    "SECTION": {
+      "Consumption": "消耗",
+      "Creation": "製作",
+      "Scaling": "成長"
+    }
+  },
+  "DND5E.Usage": "用法",
+  "DND5E.Use": "使用",
+  "DND5E.UseItem": "使用{item}",
+  "DND5E.Uses": "使用",
+  "DND5E.UsesAvailable": "可用次數",
+  "DND5E.UsesMax": "最大次數",
+  "DND5E.UsesPeriod": "恢復期",
+  "DND5E.UsesPeriods": {
+    "Charges": "充能",
+    "ChargesAbbreviation": "充能"
+  },
+  "DND5E.USES": {
+    "FIELDS": {
+      "uses": {
+        "label": "使用次數",
+        "max": {
+          "label": "最大使用次數",
+          "hint": "計算最大使用次數的公式。"
+        },
+        "recovery": {
+          "label": "使用次數恢復",
+          "hint": "此行動的使用次數恢復設定。",
+          "FIELDS": {
+            "period": {
+              "label": "恢復週期",
+              "hint": "恢復會在什麼時間點發生。"
+            },
+            "type": {
+              "label": "恢復類型",
+              "hint": "使用次數如何恢復。"
+            },
+            "formula": {
+              "label": "恢復公式",
+              "hint": "決定恢復多少使用次數的公式。"
+            }
+          }
+        },
+        "spent": {
+          "label": "已消耗次數",
+          "hint": "已消耗的使用次數"
+        }
+      }
+    },
+    "Recovery": {
+      "Action": {
+        "Create": "創建恢復總則",
+        "Delete": "刪除恢復總則"
+      },
+      "Combat": "戰鬥",
+      "Empty": "未指定恢復方式。請使用上方的 <i class=\"fas fa-plus\"></i> 按鈕來新增恢復期間。",
+      "Never": "從不",
+      "Period": {
+        "Dawn": {
+          "Label": "黎明"
+        },
+        "Day": {
+          "Label": "天"
+        },
+        "Dusk": {
+          "Label": "黃昏"
+        },
+        "Initiative": {
+          "Label": "先攻"
+        },
+        "LongRest": {
+          "Label": "長休",
+          "Abbreviation": "長休"
+        },
+        "ShortRest": {
+          "Label": "短休",
+          "Abbreviation": "短休"
+        },
+        "Turn": {
+          "Label": "每一回合"
+        },
+        "TurnEnd": {
+          "Label": "回合結束",
+          "Abbreviation": "回合結束"
+        },
+        "TurnStart": {
+          "Label": "回合開始",
+          "Abbreviation": "回合開始"
+        }
+      },
+      "Recharge": {
+        "Label": "充能",
+        "Range": "充能{range}"
+      },
+      "Special": "特殊",
+      "Time": "時間",
+      "Type": {
+        "Formula": "自定公式",
+        "LoseAll": "失去所有使用次數",
+        "RecoverAll": "恢復所有使用次數"
+      }
+    }
+  },
+  "DND5E.UTILITY": {
+    "FIELDS": {
+      "roll": {
+        "label": "擲骰",
+        "formula": {
+          "label": "擲骰公式",
+          "hint": "自訂擲骰的公式。"
+        },
+        "name": {
+          "label": "擲骰標籤",
+          "hint": "顯示在擲骰按鈕上的名稱。"
+        },
+        "prompt": {
+          "label": "擲骰提示",
+          "hint": "擲骰時是否顯示設定視窗？"
+        },
+        "visible": {
+          "label": "對所有人可見",
+          "hint": "擲骰按鈕是否對所有玩家可見？"
+        }
+      }
+    },
+    "Hint": "進行任意擲骰或表示執行了未由其他行動類型代表的動作。",
+    "Title": "使用"
+  },
+  "DND5E.Value": "數值",
+  "DND5E.VEHICLE": {
+    "Action": {
+      "Create": {
+        "Equipment": "建立裝備",
+        "Feature": "建立特性",
+        "Weapon": "建立武器"
+      },
+      "Crew": {
+        "Decrease": "減少",
+        "Increase": "增加"
+      },
+      "Drop": {
+        "Animal": "放置馱獸",
+        "Crew": "放置乘員",
+        "Passengers": "放置乘客"
+      },
+      "Uncrew": "撤下乘員"
+    },
+    "Actions": {
+      "Ordinal": {
+        "one": "第{n}個動作",
+        "two": "第{n}個動作",
+        "few": "第{n}個動作",
+        "other": "第{n}個動作"
+      }
+    },
+    "Activation": {
+      "Crew": {
+        "label": "乘員動作"
+      }
+    },
+    "Crew": {
+      "Assigned": "已指派",
+      "Label": "乘員",
+      "Passengers": "乘客",
+      "Unassigned": "未指派"
+    },
+    "FIELDS": {
+      "attributes": {
+        "actions": {
+          "label": "動作",
+          "max": {
+            "hint": "滿編乘員可執行的動作",
+            "label": "最大動作數"
+          },
+          "spent": {
+            "label": "消耗動作"
+          },
+          "stations": {
+            "label": "戰鬥位置"
+          },
+          "thresholds": {
+            "full": {
+              "label": "滿編乘員"
+            },
+            "mid": {
+              "label": "部分編制乘員"
+            },
+            "min": {
+              "label": "最低編制乘員"
+            },
+            "label": "閾值"
+          }
+        },
+        "capacity": {
+          "cargo": {
+            "value": {
+              "label": "貨物"
+            }
+          },
+          "label": "容量"
+        }
+      },
+      "crew": {
+        "max": {
+          "label": "乘員"
+        }
+      },
+      "passengers": {
+        "max": {
+          "label": "乘客"
+        }
+      },
+      "traits": {
+        "beam": {
+          "value": {
+            "label": "船寬"
+          }
+        },
+        "keel": {
+          "value": {
+            "label": "龍骨"
+          }
+        }
+      }
+    },
+    "Mishap": {
+      "label": "事故",
+      "Threshold": {
+        "abbr": "事故閾值",
+        "label": "事故閾值"
+      }
+    },
+    "MOUNTABLE": {
+      "FIELDS": {
+        "cover": {
+          "label": "掩護",
+          "hint": "此裝備可為操作成員提供的掩護。"
+        },
+        "crew": {
+          "label": "乘員"
+        },
+        "hp": {
+          "label": "生命值",
+          "conditions": {
+            "label": "生命狀態"
+          },
+          "dt": {
+            "label": "傷害閾值"
+          },
+          "max": {
+            "label": "最大HP"
+          },
+          "value": {
+            "label": "當前HP"
+          }
+        },
+        "speed": {
+          "conditions": {
+            "label": "速度狀態"
+          },
+          "value": {
+            "label": "速度"
+          }
+        },
+        "crewed": {
+          "label": "需要人員"
+        }
+      }
+    },
+    "Option": {
+      "Abilities": "顯示屬性",
+      "Initiative": "顯示先攻",
+      "Quality": "顯示品質"
+    },
+    "Tabs": {
+      "Cargo": "貨物",
+      "CrewPassengers": "乘員與乘客"
+    },
+    "Type": {
+      "Air": {
+        "label": "飛行載具"
+      },
+      "label": "載具類型",
+      "Land": {
+        "label": "陸上載具"
+      },
+      "Space": {
+        "label": "太空載具"
+      },
+      "Water": {
+        "label": "水上載具"
+      }
+    }
+  },
+  "DND5E.Vehicle": "載具",
+  "DND5E.Versatile": "多用",
+  "DND5E.VersatileDamage": "多用傷害",
+  "DND5E.VsDC": "對抗DC",
+  "DND5E.Vulnerabilities": "易傷",
+  "DND5E.WarnBadACFormula": "無法評估提供的 AC 公式。",
+  "DND5E.WarnCantAddMultipleAdvancements": "目前無法同時為角色加入多個帶有進階選項的物品。請逐一加入。",
+  "DND5E.WarnMultipleArmor": "裝備一套以上的護甲，AC計算可能不正確。",
+  "DND5E.WarnMultipleShields": "裝備一套以上的盾牌，AC計算可能不正確。",
+  "DND5E.WEAPON": {
+    "FIELDS": {
+      "ammunition": {
+        "type": {
+          "label": "彈藥類型"
+        }
+      },
+      "armor": {
+        "value": {
+          "label": "護甲等級"
+        }
+      },
+      "damage": {
+        "base": {
+          "bonus": {
+            "label": "基礎傷害加值"
+          },
+          "custom": {
+            "enabled": {
+              "label": "使用自訂基礎傷害公式"
+            },
+            "formula": {
+              "label": "自訂基礎傷害公式"
+            }
+          },
+          "denomination": {
+            "label": "基礎傷害骰面"
+          },
+          "number": {
+            "label": "基礎傷害骰數"
+          },
+          "scaling": {
+            "formula": {
+              "label": "基礎傷害成長公式"
+            },
+            "mode": {
+              "label": "基礎傷害成長模式"
+            },
+            "number": {
+              "label": "基礎傷害成長值"
+            }
+          },
+          "types": {
+            "label": "基礎傷害類型"
+          }
+        },
+        "bonus": {
+          "label": "傷害加值"
+        },
+        "hint": "武器本身的傷害骰。在攻擊時，屬性調整值與其他額外傷害組成會自動套用。"
+      },
+      "mastery": {
+        "label": "精通",
+        "hint": "已擁有武器精通或相關特性的角色可解鎖特殊的武器能力。"
+      }
+    },
+    "Mastery": {
+      "Label": "武器精通",
+      "Flavor": "精通",
+      "Cleave": "橫掃",
+      "Graze": "擦傷",
+      "Nick": "迅擊",
+      "Push": "推離",
+      "Sap": "削弱",
+      "Slow": "緩速",
+      "Topple": "失衡",
+      "Vex": "侵擾"
+    }
+  },
+  "DND5E.WeaponCategory": "{category}武器",
+  "DND5E.WeaponImprov": "臨時",
+  "DND5E.WeaponMartialM": "軍用近戰",
+  "DND5E.WeaponMartialProficiency": "軍用",
+  "DND5E.WeaponMartialR": "軍用遠程",
+  "DND5E.WeaponNatural": "天生武器",
+  "DND5E.WeaponSiege": "攻城武器",
+  "DND5E.WeaponSimpleM": "簡易近戰",
+  "DND5E.WeaponSimpleProficiency": "簡易",
+  "DND5E.WeaponSimpleR": "簡易遠程",
+  "DND5E.Weight": "重量",
+  "DND5E.WELCOME": {
+    "Button": "歡迎畫面",
+    "Message": {
+      "Bugs": "<p>遇到任何 Bug 嗎？請至<a href=\"{discord}\">官方 Discord</a> 尋求社群協助，或是到系統的<a href=\"{issues}\">問題追蹤區</a>回報。</p>",
+      "Changes": "<p>查看最新版本的<a href=\"{changes}\">更新內容</a>。</p>",
+      "Content": "<p>前往 <strong>Official Content</strong> 分頁，你可以看到哪些 D&D 5e 書籍可供使用，並在此世界中啟用它們。</p>",
+      "Documentation": "<p>探索<a href=\"{wiki}\">文件 Wiki</a> 以獲取有關如何使用該系統的詳細資訊。</p>",
+      "Introduction": "<p>歡迎使用<strong>龍與地下城第五版</strong>官方遊戲系統。</p>",
+      "MoreContent": "<p>在官方 <a href=\"{marketplace}\">Foundry VTT 市集</a>尋找更多龍與地下城第五版的內容。</p>"
+    },
+    "Module": {
+      "Enabled": "已啟用",
+      "NotInstalled": "未安裝"
+    },
+    "Section": {
+      "adventures": "冒險",
+      "core": "核心規則書",
+      "expanded": "擴充規則書",
+      "more": "更多內容"
+    },
+    "Settings": {
+      "Label": "設定",
+      "Metric": {
+        "Hint": "將距離、重量和體積的預設單位切換為公制。",
+        "Label": "使用公制系統"
+      }
+    },
+    "Tab": {
+      "main": "歡迎",
+      "modules": "官方內容"
+    },
+    "Title": "歡迎來到 D&D 5e"
+  },
+  "DND5E.WhisperedTo": "悄悄話給",
+  "DND5E.Wiki": "Wiki",
+  "DND5E.available": "可用",
+  "DND5E.description": "可在Foundry VTT環境中運行的《龍與地下城》第5版的完整遊戲系統。",
+  "DND5E.of": "之",
+  "DND5E.per": "每",
+  "DND5E.spell": "法術",
+  "EDITOR.DND5E.Inline": {
+    "ApplyStatus": "套用狀態到所選指示物",
+    "AttackExtended": "<em>{type}</em>：{parts}",
+    "AttackLong": "{formula}命中",
+    "AttackShort": "{formula}",
+    "AwardEach": "{award} 每個",
+    "CheckShort": "{check}",
+    "CheckLong": "{check}檢定",
+    "CheckUsing": "使用{tool}進行{check}",
+    "DamageAverage": "{average} <span class=\"formula-group\">({formula})</span> {type}",
+    "DamageDouble": "{first} 加上 {second}",
+    "DamageExtended": "<em>命中：</em> {damage} 傷害",
+    "DamageLong": "{average} ({formula}) {type}",
+    "DamageShort": "{formula} {type}",
+    "DC": "DC {dc} {check}",
+    "DCPassiveShort": "DC {dc}被動{check}",
+    "DCPassiveLong": "被動{check}分數為{dc}或更高",
+    "ItemActivity": "{item}（{activity}）",
+    "NoActorWarning": "找不到已選取或指定的角色來執行此擲骰。",
+    "PassiveShort": "被動{check}",
+    "PassiveLong": "被動 {check} 數值",
+    "RequestRoll": "請求擲骰",
+    "RollRequest": "擲骰請求",
+    "SaveShort": "{save}",
+    "SaveLong": "{save}豁免",
+    "SpecificCheck": "{ability}（{type}）",
+    "Warning": {
+      "NoActivityOnItem": "{actor}的{item}中找不到名為{activity}的行動。",
+      "NoActor": "找不到已選取或指定的角色來執行此擲骰。",
+      "NoItemOnActor": "{actor}沒有名為{item}的物品。"
+    }
+  },
+  "EDITOR.DND5E.Inserts": {
+    "Advice": "一般建議",
+    "Attack": "攻擊擲骰",
+    "Award": "獎勵",
+    "Check": "屬性檢定",
+    "Damage": "傷害",
+    "EnrichersGroup": "D&D 擴充格式",
+    "FloatLeft": "向左浮動",
+    "FloatRight": "向右浮動",
+    "Group": "D&D 模組",
+    "HabitatTreasure": "棲息地與寶物",
+    "Healing": "治療",
+    "Item": "物品",
+    "Lookup": "查詢",
+    "Narrative": "敘事",
+    "Notable": "顯著",
+    "Quest": "任務",
+    "Quote": "引用",
+    "Reference": "參考",
+    "Save": "豁免檢定",
+    "Skill": "技能檢定",
+    "VTTAdvice": "VTT 建議"
+  },
+  "EFFECT.DND5E": {
+    "StatusBleeding": "流血",
+    "StatusBloodied": "血跡斑斑",
+    "StatusBurning": "燃燒",
+    "StatusBurrowing": "掘地",
+    "StatusConcentrating": "專注",
+    "StatusCursed": "詛咒",
+    "StatusDead": "死亡",
+    "StatusDehydration": "脫水",
+    "StatusDodging": "閃避",
+    "StatusEncumbered": "重載",
+    "StatusEthereal": "以太",
+    "StatusExceedingCarryingCapacity": "超過負重上限",
+    "StatusFalling": "墜落",
+    "StatusFlying": "飛行",
+    "StatusHalfCover": "半掩護",
+    "StatusHeavilyEncumbered": "超載",
+    "StatusHiding": "躲藏",
+    "StatusHovering": "浮空",
+    "StatusMalnutrition": "營養不良",
+    "StatusMarked": "被標記",
+    "StatusSilenced": "沉默",
+    "StatusSleeping": "睡眠",
+    "StatusStable": "穩定",
+    "StatusSuffocation": "窒息",
+    "StatusSurprised": "被突襲",
+    "StatusThreeQuartersCover": "四分之三掩護",
+    "StatusTotalCover": "完全掩護",
+    "StatusTransformed": "變形"
+  },
+  "TYPES.JournalEntryPage.class": "職業摘要",
+  "TYPES.JournalEntryPage.map": "地圖位置",
+  "TYPES.JournalEntryPage.rule": "規則",
+  "TYPES.JournalEntryPage.spells": "法術列表",
+  "TYPES.JournalEntryPage.subclass": "子職業摘要",
+  "JOURNALENTRYPAGE.DND5E": {
+    "Class": {
+      "FIELDS": {
+        "description": {
+          "additionalEquipment": {
+            "label": "額外裝備描述",
+            "hint": "在起始裝備區段下方顯示的額外說明文字。"
+          },
+          "additionalHitPoints": {
+            "label": "額外生命值描述",
+            "hint": "在自動生成的生命值區段下方顯示的額外說明文字。"
+          },
+          "additionalTraits": {
+            "label": "額外熟練描述",
+            "hint": "在此職業所賦予的熟練項目列表下方顯示的說明文字。"
+          },
+          "subclass": {
+            "label": "子職業介紹",
+            "hint": "顯示於此職業的子職業列表之前的介紹。"
+          },
+          "value": {
+            "label": "職業介紹",
+            "hint": "此職業的主要描述文字，會顯示在最前面。"
+          }
+        },
+        "item": {
+          "label": "已選擇職業"
+        },
+        "style": {
+          "label": "樣式",
+          "hint": "強制此頁面使用現代或舊版樣式格式，而非職業預設樣式。"
+        },
+        "subclassHeader": {
+          "label": "子職業標題"
+        },
+        "subclassItems": {
+          "label": "子職業"
+        }
+      },
+      "EquipmentHeader": "裝備",
+      "EquipmentDescription": "你擁有以下起始裝備，這是額外於背景所提供的裝備之外：",
+      "Features": {
+        "DescriptionLegacy": "作為{lowercaseName}，你獲得以下職業特性，這些特性可在{name}表格中查閱。",
+        "DescriptionModern": "作為{name}，當你達到對應的等級時會獲得以下職業特性。這些特性可在「{name} 特性表」中查閱。",
+        "Header": "職業特性",
+        "Name": "等級{level}：{name}"
+      },
+      "HitPoints": {
+        "Header": "生命值",
+        "HitDiceLegacy": "<strong>生命骰：</strong>每一{class}等級{dice}",
+        "HitDiceModern": "每一{class}等級{dice}",
+        "Level1": "<strong>首級生命值：</strong> {max} + 你的體質調整值",
+        "LevelX": "<strong>其後生命值：</strong>1級之後每{class}等級 {dice} (或{average}) + 你的體質調整值"
+      },
+      "ItemHint": "拖曳職業至此",
+      "NoValidClass": "尚未選擇有效的職業，請按下編輯按鈕新增職業。",
+      "OptionalFeaturesCaption": "可選職業特性",
+      "OptionalFeaturesDescription": "下列區段包含{class}的可選特性。這些特性不會自動獲得，你可以依據DM裁量選擇其中一項、多項或全部。",
+      "SpellSlotLevel": "環位等級",
+      "SpellSlots": "法術位",
+      "SpellSlotsPerSpellLevel": "—法術位/每環—",
+      "Style": {
+        "Inferred": "依來源推斷",
+        "Legacy": "舊版樣式",
+        "Modern": "現代樣式"
+      },
+      "SubclassHint": "拖曳子職業至此",
+      "TableCaption": "{class}表",
+      "TableOptionalCaption": "可選{class}特性",
+      "Traits": {
+        "Caption": "{class} 核心特性",
+        "Header": "熟練項"
+      }
+    },
+    "EditDescription": "編輯",
+    "TableTOC": "表格：{caption}",
+    "SpellList": {
+      "DropHint": "將法術或法術資料夾拖曳至此以新增到列表中",
+      "Grouping": {
+        "Label": "分類模式",
+        "Hint": "控制法術列表預設如何分組顯示。",
+        "Alphabetical": "依字母",
+        "Level": "依環位",
+        "None": "不分類",
+        "School": "依學派"
+      },
+      "IdentifierHint": "識別碼應與對應文件中的定義一致。例如製作法師法術列表時，識別碼應設為 'wizard'。",
+      "Type": {
+        "Label": "法術列表類型",
+        "Other": "未分類"
+      },
+      "UnlinkedSpells": {
+        "Label": "未連結的法術",
+        "Add": "新增未連結法術",
+        "Configuration": "法術配置",
+        "Edit": "編輯未連結法術"
+      }
+    },
+    "Subclass": {
+      "FIELDS": {
+        "description": {
+          "value": {
+            "label": "子職業介紹",
+            "hint": "顯示於子職業特性表之前的介紹。"
+          }
+        },
+        "item": {
+          "label": "已選擇子職業"
+        },
+        "style": {
+          "label": "樣式",
+          "hint": "強制此頁面使用現代或舊版樣式格式，而非子職業預設樣式。"
+        }
+      },
+      "ItemHint": "拖曳子職業至此",
+      "NoValidSubclass": "尚未選擇有效的子職業，請按下編輯按鈕新增子職業。"
+    }
+  },
+  "KEYBINDINGS.DND5E.DragCopy": "拖曳文件時強制複製",
+  "KEYBINDINGS.DND5E.DragMove": "拖曳文件時強制移動",
+  "KEYBINDINGS.DND5E.OpenCompendiumBrowser": "開啟合集包瀏覽器",
+  "KEYBINDINGS.DND5E.SkipDialogAdvantage": "略過對話框（骰優勢／暴擊）",
+  "KEYBINDINGS.DND5E.SkipDialogDisadvantage": "略過對話框（骰劣勢）",
+  "KEYBINDINGS.DND5E.SkipDialogNormal": "略過對話框",
+  "KEYBINDINGS.DND5E.ToggleSheetMode": "切換角色卡模式",
+  "MACRO.5eMissingTargetWarn": "你控制的角色'{actor}'沒有名為'{name}'的{type}。",
+  "MACRO.5eMultipleTargetsWarn": "你控制的角色'{actor}'擁有多個名為'{name}'的{type}。將選擇第一個符合的。",
+  "MACRO.5eNoActorSelected": "找不到已選取或指派的角色以供巨集使用。",
+  "MACRO.5eUnownedWarn": "你只能為自有物品創建巨集。",
+  "MIGRATION.DND5E": {
+    "Compendium": {
+      "Failed": "轉移合集包 {compendium} 失敗。",
+      "Migrate": "正在為版本 {version} 轉移合集包 {compendium}。",
+      "Refresh": "重新整理合集包 {compendium}。"
+    },
+    "World": {
+      "Begin": "正在套用 D&D 5e 系統版本 {version} 的轉移。請耐心等候，不要關閉遊戲或關閉伺服器。",
+      "Complete": "D&D 5e 系統轉移至版本 {version} 完成！"
+    },
+    "Warning": {
+      "VersionTooOld": "你的 D&D 5e 系統資料來自過舊的 Foundry 版本，無法可靠地轉移至最新版本。將嘗試進行此程序，但可能會發生錯誤。"
+    }
+  },
+  "SETTINGS.5eAutoCollapseCardL": "自動折疊發送到聊天視窗的物品卡片",
+  "SETTINGS.5eAutoCollapseCardN": "折疊聊天物品",
+  "SETTINGS.5eAutoSpellTemplateL": "如果法術有測量板，當施放法術時自動創建測量板（需要受信玩家或更高許可權的用戶組）",
+  "SETTINGS.5eAutoSpellTemplateN": "總是放置法術測量板",
+  "SETTINGS.5eNoAdvancementsN": "停用自動升級",
+  "SETTINGS.5eNoAdvancementsL": "不提示升級或角色建立選擇。",
+  "SETTINGS.5eNoConcentrationN": "停用專注追蹤",
+  "SETTINGS.5eNoConcentrationL": "停用系統的自動專注追蹤。",
+  "SETTINGS.5eNoExhaustionN": "停用力竭自動化",
+  "SETTINGS.5eNoExhaustionL": "停用系統對力竭效果的自動化。",
+  "SETTINGS.5eGridAlignedSquareTemplatesL": "當施放法術或使用物品而創建方形模板時，將被鎖定到網格對齊方式並且無法旋轉。",
+  "SETTINGS.5eGridAlignedSquareTemplatesN": "網格對齊的方形模板",
+  "SETTINGS.DND5E": {
+    "AUTOMATION": {
+      "Autosize": {
+        "Hint": "根據其體型類別自動調整指示物的尺寸和縮放比例。",
+        "Name": "同步指示物尺寸"
+      },
+      "Falling": {
+        "Name": "停用墜落自動化",
+        "Hint": "不追蹤指示物的墜落狀態。"
+      },
+      "Movement": {
+        "Name": "移動自動化",
+        "Hint": "配置系統使用的移動自動化程度：包含指示物阻擋的完全自動化、僅限困難地形的部分自動化，或完全關閉。",
+        "Full": "完全",
+        "NoBlocking": "部分",
+        "None": "無"
+      },
+      "SenseVision": {
+        "Name": "將感官同步至指示物視野",
+        "Hint": "根據角色的感官自動配置指示物的視野範圍、視野模式和偵測模式。",
+        "Notice": "視野和偵測同步自此角色的{senses}。",
+        "Senses": "感官"
+      }
+    },
+    "BLOODIED": {
+      "Name": "重傷狀態",
+      "Hint": "設定是否自動追蹤重傷狀態及其可視性。",
+      "All": "對盟友與敵人皆顯示",
+      "Player": "僅對盟友顯示",
+      "None": "從不顯示"
+    },
+    "CHATLOG": {
+      "Hint": "指定聊天紀錄的主題。預設將繼承應用程式的主題。",
+      "Name": "聊天紀錄主題",
+      "Options": {
+        "blank": "預設",
+        "dark": "深色",
+        "light": "淺色"
+      }
+    },
+    "COLLAPSETRAYS": {
+      "Name": "折疊聊天面板",
+      "Hint": "自動折疊在聊天卡片中顯示的傷害、命中與效果面板。",
+      "Always": "全部折疊",
+      "Older": "折疊較舊面板",
+      "Never": "全部展開",
+      "Manual": "永不折疊"
+    },
+    "COMBAT": {
+      "Hint": "影響戰鬥的各種配置選項。",
+      "Label": "配置戰鬥",
+      "Name": "戰鬥",
+      "DexTiebreaker": {
+        "Name": "敏捷決勝",
+        "Hint": "在先攻相同時，以敏捷屬性值分出高下。"
+      },
+      "AutoApplyDowned": {
+        "Name": "自動套用倒地",
+        "Hint": "當生物在戰鬥中生命值降至 0 時，自動將其標記為死亡或昏迷。不重要的 NPC 標記為死亡。重要的 NPC 和 PC 首先標記為昏迷，如果他們三次死亡豁免失敗則標記為死亡。",
+        "None": "從不",
+        "DeadOnly": "針對 NPC（僅限死亡）",
+        "NPCs": "針對 NPC（死亡和昏迷）",
+        "All": "總是"
+      },
+      "InitiativeScore": {
+        "Name": "先攻值",
+        "Hint": "使用生物固定的先攻值（10+加值），而非擲骰決定先攻。",
+        "All": "全部生物使用先攻值",
+        "None": "全部以擲骰決定先攻",
+        "NPCs": "僅 GM 的 NPC 使用先攻值"
+      },
+      "InitiativeGroupCombatants": {
+        "Name": "戰鬥人員分組",
+        "Hint": "在遭遇追蹤器中將具有相同先攻值的戰鬥人員分組。"
+      },
+      "InitiativeGroupRoll": {
+        "Name": "每種生物擲骰一次",
+        "Hint": "為相同的生物使用同一個先攻擲骰。"
+      }
+    },
+    "CONDITIONS": {
+      "Name": "狀態"
+    },
+    "CRITICAL": {
+      "Name": "暴擊傷害",
+      "MaxDice": {
+        "Name": "最大化骰值",
+        "Hint": "將暴擊時的基礎傷害骰最大化，使暴擊更為致命。"
+      },
+      "MultiplyModifiers": {
+        "Name": "倍增調整值",
+        "Hint": "在暴擊時，除了傷害骰外，非骰子的調整值也一併倍增，使暴擊更加致命。"
+      }
+    },
+    "DEFAULTSKILLS": {
+      "Name": "預設技能",
+      "Hint": "NPC 卡上預設會顯示的技能，無論熟練度如何。"
+    },
+    "ENCOUNTERS": {
+      "Name": "遭遇",
+      "EncounterPlacementBehavior": {
+        "Name": "放置選項",
+        "Hint": "配置在放置於場景中時是否將遭遇成員加入戰鬥。",
+        "CreateCombatants": "加入戰鬥",
+        "None": "無動作",
+        "RollInitiative": "加入戰鬥並擲先攻"
+      }
+    },
+    "General": "一般",
+    "LOYALTY": {
+      "Hint": "啟用可選的忠誠度追蹤。",
+      "Name": "忠誠值"
+    },
+    "METRIC": {
+      "LengthUnits": {
+        "Name": "使用公制長度單位",
+        "Hint": "移動與感知距離預設使用公尺（米）代替英呎。"
+      },
+      "VolumeUnits": {
+        "Name": "使用公制容量單位",
+        "Hint": "容器容量預設使用公升代替立方英呎。"
+      },
+      "WeightUnits": {
+        "Name": "使用公制重量單位",
+        "Hint": "將所有磅（lbs）單位換為公斤（kg），並更新負重計算方式。"
+      }
+    },
+    "NPCS": {
+      "Name": "NPC",
+      "AutoRecharge": {
+        "Name": "能力充能",
+        "Hint": "在 NPC 回合開始時自動擲骰檢查能力是否充能。",
+        "No": "不自動充能",
+        "Silent": "自動充能但不顯示於聊天",
+        "Yes": "自動充能並顯示於聊天"
+      },
+      "AutoRollNPCHP": {
+        "Name": "生命值",
+        "Hint": "設定每當創建新NPC指示物時是否擲骰決定最大生命值。",
+        "No": "不擲骰",
+        "Silent": "擲骰但不顯示於聊天",
+        "Yes": "擲骰並顯示於聊天"
+      }
+    },
+    "PIETY": {
+      "Hint": "為玩家角色啟用可選的虔誠追蹤。",
+      "Name": "虔誠值"
+    },
+    "PERMISSIONS": {
+      "AllowDamage": {
+        "Hint": "允許玩家對他們擁有的指示物套用傷害。",
+        "Name": "允許玩家套用傷害"
+      },
+      "AllowEffects": {
+        "Hint": "當玩家擁有的角色是效果目標時，允許玩家使用效果套用區塊。",
+        "Name": "允許玩家套用效果"
+      },
+      "AllowRests": {
+        "Hint": "允許玩家直接從他們的角色卡進行休息。停用時，玩家只能在 GM 向隊伍提出要求時進行休息。",
+        "Name": "允許個別休息"
+      },
+      "AllowSummoning": {
+        "Hint": "允許玩家召喚角色。玩家必須同時擁有創建指示物的核心權限。",
+        "Name": "允許召喚"
+      },
+      "AllowTransformation": {
+        "Hint": "允許玩家變形自己的角色。玩家必須同時擁有創建角色的核心權限。",
+        "Name": "允許變形"
+      }
+    },
+    "RULESVERSION": {
+      "Name": "規則版本",
+      "Hint": "切換 2024 及 2014 版規則的處理方式。",
+      "Legacy": "舊版規則（2014）",
+      "Modern": "現代規則（2024）"
+    },
+    "SUMMARIZECHAT": {
+      "Hint": "將某些結果附加為摘要，而不是完整的聊天卡。",
+      "Name": "摘要聊天卡"
+    },
+    "VARIANT": {
+      "Hint": "啟用並設定系統所提供的規則變體。",
+      "Label": "設定變體規則",
+      "Name": "變體規則",
+      "AllowFeats": {
+        "Hint": "在使用經典規則時，允許玩家於職業升級時選擇專長代替屬性值提升。",
+        "Name": "允許選擇專長"
+      },
+      "CurrencyWeight": {
+        "Hint": "攜帶的貨幣會影響角色的負重。",
+        "Name": "追蹤貨幣重量"
+      },
+      "Encumbrance": {
+        "Hint": "啟用自動追蹤負重，對攜帶過多物品的角色施加狀態效果。",
+        "Name": "負重追蹤",
+        "None": "無",
+        "Normal": "標準（最大負重）",
+        "Variant": "變體（負重、重度負重）"
+      },
+      "HonorScore": {
+        "Hint": "啟用可選的榮譽屬性值。",
+        "Name": "榮譽屬性值"
+      },
+      "LevelingMode": {
+        "Hint": "決定玩家如何獲得新等級。",
+        "Name": "升級模式",
+        "NoXP": "無經驗值升級",
+        "XP": "經驗值制",
+        "XPBoons": "經驗值加史詩恩惠制"
+      },
+      "ProficiencyModifier": {
+        "Bonus": "PHB：固定加值 (+2, +3, +4, +5, +6)",
+        "Dice": "DMG：骰子(1d4, 1d6, 1d8, 1d10, 1d12)",
+        "Hint": "設定熟練調整值為固定加值或擲骰決定。",
+        "Name": "熟練加值變體"
+      },
+      "Rest": {
+        "Epic": "史詩英雄（長休：1小時，短休：1分鐘）",
+        "Gritty": "寫實風格（長休：7天，短休：8小時）",
+        "Hint": "設定本系統遊戲所採用的休息變體。",
+        "Name": "休息變體",
+        "Normal": "玩家手冊（長休：8小時，短休：1小時）"
+      },
+      "SanityScore": {
+        "Hint": "啟用可選的理智屬性值。",
+        "Name": "理智屬性值"
+      }
+    },
+    "VISIBILITY": {
+      "Hint": "各種影響玩家對資訊可視性的選項，供 DM 隱藏特定資訊。",
+      "Label": "配置可視性",
+      "Name": "可視性",
+      "Attack": {
+        "Name": "攻擊結果可視性",
+        "Hint": "控制玩家於聊天卡片中能看到的攻擊擲骰結果內容。",
+        "All": "顯示結果與目標 AC",
+        "HideAC": "僅顯示結果",
+        "None": "全部隱藏"
+      },
+      "Challenge": {
+        "All": "全部顯示",
+        "Hint": "控制玩家能看到哪些擲骰DC，以及是否標示成功／失敗。",
+        "Name": "挑戰可視性",
+        "None": "全部隱藏",
+        "Player": "僅顯示來自其他玩家"
+      },
+      "ItemDescriptions": {
+        "Hint": "當 DM 在聊天中發送 NPC 物品時，隱藏描述。僅隱藏沒有設定聊天描述的物品。",
+        "Name": "隱藏 NPC 描述"
+      }
+    },
+    "THEME": {
+      "Name": "主題風格",
+      "Hint": "預設應用於介面和所有卡片的主題風格。自動則依據瀏覽器或作業系統設定決定。"
+    }
+  },
+  "SOURCE.BOOK.FreeRules": "免費規則",
+  "SOURCE.BOOK.SRD51": "System Reference Document 5.1",
+  "SOURCE.BOOK.SRD52": "System Reference Document 5.2",
+  "SIDEBAR.SortModePriority": "依優先順序排序"
+}
