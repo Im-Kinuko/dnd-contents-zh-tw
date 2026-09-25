@@ -188,11 +188,11 @@
     "Dispelling Recovery": {
       "activities": {
         "Restore Use with Channel Divinity": {
-          "name": "Restore Use with Channel Divinity"
+          "name": "使用引導神力重置次數"
         }
       },
       "name": "驅法復原",
-      "description": "<p>Immediately after you cast a spell with a spell slot that restores Hit Points to a creature or ends a condition on a creature, you can cast <em>@UUID[Compendium.dnd5e.spells24.Item.phbsplDispelMagi]{Dispel Magic}</em> as part of that action, Bonus Action, or Reaction, and without expending a spell slot.</p><p>Once you use this feature, you can’t use it again until you finish a Short or Long Rest. You also restore your use of it by expending one use of Channel Divinity (no action required).</p>"
+      "description": "<p>緊接在你使用法術位施放一道恢復生物生命值或終止生物身上狀態的法術時，你可以無需消耗法術位施放<em>@UUID[Compendium.dnd5e.spells24.Item.phbsplDispelMagi]{解除魔法}</em>作為該動作、附贈動作或反應的一部分。</p><p>此特性一旦使用，直到完成短休或長休前你都無法再次使用。你也可以消耗一次引導神力（無需動作）重獲使用次數。</p>"
     },
     "Semblance of Life": {
       "activities": {
@@ -294,15 +294,15 @@
       "description": "<p>Your ammunition creates clutching brambles around your target. The creature you hit takes extra Slashing damage equal to one roll of your Arcane Shot Die and must succeed on a Strength saving throw or have the &amp;Reference[Restrained apply=false] condition for 1 minute or until you use this option again. The target or a creature within reach of it can take an action to make a Strength (Athletics) check against your Arcane Shot saving throw DC, removing the brambles and ending the Restrained condition on the target on a successful check.</p>"
     },
     "Modify Magic": {
-      "name": "Modify Magic",
-      "description": "<p>You can use your Channel Divinity to alter your spells as you cast them. When you cast a spell, you can expend one use of your Channel Divinity and change the spell in one of the following ways (no action required).</p><p><em><strong>Fortifying Spell.</strong></em> One target of the spell gains a number of Temporary Hit Points equal to 2d8 plus your Cleric level.</p><p><em><strong>Tenacious Spell.</strong></em> When you cast a spell that forces a creature to make a saving throw, and a creature you can see succeeds on that saving throw, roll 1d6 and subtract the number rolled from the target’s first saving throw against the spell’s effect.</p>",
+      "name": "調整魔法",
+      "description": "<p>你可以使用引導神力改動你所施放的法術。當你施放一道法術時，你可以消耗一次你的引導神力次數並選擇下列方式之一，以修改那道法術（無需動作）。</p><p><em><strong>【鞏固法術】</strong></em>該法術的其中一個目標獲得等同於 2d8 加上你的牧師等級的臨時生命值。</p><p><em><strong>【穩固法術】</strong></em>當你施放一道迫使生物進行豁免檢定的法術，且一個你所能看見的生物通過該豁免檢定時，擲1d6，並從該目標對抗該法術效應的第一次豁免檢定中減去該骰值。</p>",
       "activities": {
         "Tenacious Spell": {
           "roll": "Reduce Save",
-          "name": "Tenacious Spell"
+          "name": "穩固法術"
         },
         "Fortifying Spell": {
-          "name": "Fortifying Spell"
+          "name": "鞏固法術"
         }
       }
     },
@@ -514,8 +514,8 @@
       }
     },
     "Magical Mastery": {
-      "description": "<p>You learn four Wizard spells, one from each of levels 6, 7, 8, and 9. You thereafter always have those spells prepared. Whenever you gain a Cleric level, you can replace one of these spells with another Wizard spell of the same level.</p>",
-      "name": "Magical Mastery"
+      "description": "<p>你習得四道法師法術，分別為六、七、八、九環各一道。此後，你始終準備著這些法術。每當你獲得牧師等級時，你都可以將這些法術中的一道替換為同環階的另一道法師法術。</p>",
+      "name": "奧術精通"
     },
     "Arcane Archer Lore": {
       "advancement": {
@@ -618,14 +618,14 @@
     "Student of Arcana": {
       "advancement": {
         "szHaTl5r6pDAcGUp": {
-          "hint": "<p>You gain proficiency in the Arcana skill or one skill of your choice from the skills available to Clerics at level 1.</p>"
+          "hint": "<p>你獲得奧秘技能或一項從牧師1級可用技能中選擇的技能熟練。</p>"
         },
         "cDw256TLQAb1yXZR": {
-          "hint": "<p>You learn two Wizard cantrips of your choice. Whenever you gain a Cleric level, you can replace one of these cantrips with another Wizard cantrip.</p>"
+          "hint": "<p>你習得由你選擇的兩道法師戲法。每當你獲得牧師等級時，你可以將這些戲法中的一道替換為另一道法師戲法。</p>"
         }
       },
-      "name": "Student of Arcana",
-      "description": "<p>You gain the following benefits.</p><p><em><strong>Magical Knowledge.</strong></em> You gain proficiency in the Arcana skill or one skill of your choice from the skills available to Clerics at level 1.</p><p><em><strong>Cantrips.</strong></em> You learn two Wizard cantrips of your choice. Whenever you gain a Cleric level, you can replace one of these cantrips with another Wizard cantrip.</p>"
+      "name": "奧秘學者",
+      "description": "<p>你獲得下列好處。</p><p><em><strong>【魔法知識】</strong></em>你獲得奧秘技能或一項從牧師1級可用技能中選擇的技能熟練。</p><p><em><strong>【戲法】</strong></em>你習得你所選擇的兩道法師戲法。每當你獲得牧師等級時，你可以將這些戲法中的一道替換為另一道法師戲法。</p>"
     },
     "Magical Ammunition": {
       "name": "Magical Ammunition",
