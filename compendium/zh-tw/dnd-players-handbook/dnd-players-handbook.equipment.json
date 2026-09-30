@@ -26,11 +26,11 @@
       "activities": {
         "Throw Acid": {
           "name": "投擲強酸",
-          "target": "You can see"
+          "target": "你所可看見"
         }
       },
       "name": "強酸",
-      "description": "<p>當你採取攻擊動作時，你可以投擲a vial of Acid以替換其中一次攻擊。. Target one creature or object you can see within 20 feet of yourself. The target must succeed on a Dexterity saving throw (DC 8 plus your Dexterity modifier and Proficiency Bonus) or take 2d6 Acid damage.</p>"
+      "description": "<p>當你採取攻擊動作時，你可以將你的一次攻擊替換為丟出一小瓶強酸。你可以選擇位於你20呎內一個你所能看見的生物或物體作為目標。該目標必須通過一次敏捷豁免（DC = 8 + 你的敏捷調整值 + 你的熟練加值），否則承受2d6點強酸傷害。</p>"
     },
     "Bagpipes": {
       "description": "<p><strong>屬性：</strong> 魅力</p><p class=\"phb-meta\"><strong>使用：</strong> 演奏熟悉的旋律（DC 10）或即興演唱一曲（DC 15）</p>",
@@ -46,11 +46,11 @@
     },
     "Book": {
       "name": "書",
-      "description": "<p>A Book contains fiction or nonfiction. If you consult an accurate nonfiction Book about its topic, you gain a +5 bonus to Intelligence (Arcana, History, Nature, or Religion) checks you make about that topic.</p>"
+      "description": "<p>一本書會記載虛構或非虛構的內容。如果你在某個主題上參考了一本內容準確的非虛構書籍，你對該主題所做的智力（奧秘、歷史、自然或宗教）檢定會獲得+5加值。</p>"
     },
     "Candle": {
       "name": "蠟燭",
-      "description": "<p>For 1 hour, a lit Candle sheds Bright Light in a 5-foot radius and Dim Light for an additional 5 feet.</p>",
+      "description": "<p>一根蠟燭點燃後可以燃燒1小時，並發出半徑5呎的明亮光照，以及額外5呎的微光光照。</p>",
       "activities": {
         "Light": {
           "name": "點亮"
@@ -61,17 +61,17 @@
       "name": "鎖鏈",
       "activities": {
         "Burst Chain Check": {
-          "name": "破壞鎖鏈檢定"
+          "name": "扯斷鎖鏈檢定"
         },
         "Wrap Chain Check": {
           "name": "纏鏈檢定",
-          "target": "Has the Grappled, Incapacitated, or Restrained condition"
+          "target": "具有擒住、失能或束縛狀態"
         },
         "Escape Check": {
-          "name": "逃脫檢定"
+          "name": "掙脫檢定"
         }
       },
-      "description": "<p>As a Utilize action, you can wrap a Chain around an unwilling creature within 5 feet of yourself that has the &amp;Reference[Grappled], &amp;Reference[Incapacitated], or &amp;Reference[Restrained] condition if you succeed on a DC 13 Strength (Athletics) check. If the creature’s legs are bound, the creature has the Restrained condition until it escapes. Escaping the Chain requires the creature to make a successful DC 18 Dexterity (Acrobatics) check as an action. Bursting the Chain requires a successful DC 20 Strength (Athletics) check as an action.</p>"
+      "description": "<p>以一個利用動作，你可以用鎖鏈捆住一個位於你5呎內處於&amp;Reference[Grappled]{擒抱}、&amp;Reference[Incapacitated]{失能}或&amp;Reference[Restrained]{束縛}狀態的非自願生物，前提是你成功通過一次DC13的力量（運動）檢定。如果該生物的腿被綁住，其將陷入束縛狀態，直至掙脫為止。掙脫鎖鏈需要該生物使用動作通過一次DC18的敏捷（特技）檢定。扯斷鎖鏈需要使用動作通過一次DC20的力量（運動）檢定。</p>"
     },
     "Flute": {
       "name": "長笛",
@@ -87,11 +87,11 @@
     },
     "Ladder": {
       "name": "長梯",
-      "description": "<p>A Ladder is 10 feet tall. You must climb to move up or down it.</p>"
+      "description": "<p>一把長梯有10呎高。你必須攀爬才能向上或向下移動。</p>"
     },
     "Map": {
       "name": "地圖",
-      "description": "<p>If you consult an accurate Map, you gain a +5 bonus to Wisdom (Survival) checks you make to find your way in the place represented on it.</p>"
+      "description": "<p>如果你參考一張準確的地圖，你在地圖所繪地點為辨認方位所做的感知（求生）檢定會獲得+5加值。</p>"
     },
     "Mace": {
       "name": "硬頭錘"
@@ -100,21 +100,21 @@
       "name": "領航員工具",
       "activities": {
         "Determine Position by Stargazing": {
-          "name": "Determine Position by Stargazing"
+          "name": "以觀星確認位置"
         },
         "Plot a Course": {
-          "name": "Plot a Course"
+          "name": "標定方向"
         }
       },
       "description": "<p class=\"phb-meta\"><strong>屬性：</strong>感知</p><p class=\"phb-meta\"><strong>使用：</strong> Plot a course (DC 10), or determine position by stargazing (DC 15)</p>"
     },
     "Quiver": {
-      "description": "<p>A Quiver holds up to 20 Arrows.</p>",
+      "description": "<p>箭袋至多能裝入20根箭矢。</p>",
       "name": "箭袋"
     },
     "Holy Water": {
       "name": "聖水",
-      "description": "<p>當你採取攻擊動作時，你可以投擲「」替換其中一次攻擊。a flask of Holy Water. Target one creature you can see within 20 feet of yourself. The target must succeed on a Dexterity saving throw (DC 8 plus your Dexterity modifier and Proficiency Bonus) or take 2d8 Radiant damage if it is a Fiend or an Undead.</p>",
+      "description": "<p>當你採取攻擊動作時，你可以將你的一次攻擊替換為丟出一扁瓶聖水。你可以選擇位於你20呎內一個你所能看見的生物作為目標。該目標必須通過一次敏捷豁免（DC = 8 + 你的敏捷調整值 + 你的熟練加值），若其為邪魔或不死生物，失敗時承受2d8點光耀傷害。</p>",
       "activities": {
         "Throw": {
           "name": "投擲"
@@ -122,7 +122,7 @@
       }
     },
     "Bolts": {
-      "description": "<p><em><strong>Storage:</strong> @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagCaseCrossbo]{Case}</em></p><p>@UUID[Compendium.dnd-players-handbook.equipment.Item.phbagAmmunitionV]{Ammunition} is required by a weapon that has the Ammunition property. A weapon’s description specifies the type of ammunition used by the weapon. The Ammunition table lists the different types and the amount you get when you buy them. The table also lists the item that is typically used to store each type; storage must be bought separately.</p>",
+      "description": "<p><em><strong>容器：</strong> @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagCaseCrossbo]{弩箭匣}</em></p><p>具有彈藥詞條的武器需要@UUID[Compendium.dnd-players-handbook.equipment.Item.phbagAmmunitionV]{彈藥}才能發射。武器的描述部分會指定這把武器需要哪種彈藥。彈藥表列出了不同類型的彈藥，以及購買這些彈藥時一份能買到多少枚。表格還會列出這些彈藥通常需要哪種容器存放；容器必須要單獨購買。</p>",
       "name": "弩矢"
     },
     "Chest": {
@@ -130,11 +130,11 @@
       "description": "<p>一個箱子可以容納12立方呎的物品。</p>"
     },
     "Bullets, Firearm": {
-      "description": "<p><em><strong>Storage:</strong> @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagPouch000000]{Pouch}</em></p><p>@UUID[Compendium.dnd-players-handbook.equipment.Item.phbagAmmunitionV]{Ammunition} is required by a weapon that has the Ammunition property. A weapon’s description specifies the type of ammunition used by the weapon. The Ammunition table lists the different types and the amount you get when you buy them. The table also lists the item that is typically used to store each type; storage must be bought separately.</p>",
+      "description": "<p><em><strong>容器：</strong> @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagPouch000000]{囊袋}</em></p><p>具有彈藥詞條的武器需要@UUID[Compendium.dnd-players-handbook.equipment.Item.phbagAmmunitionV]{彈藥}才能發射。武器的描述部分會指定這把武器需要哪種彈藥。彈藥表列出了不同類型的彈藥，以及購買這些彈藥時一份能買到多少枚。表格還會列出這些彈藥通常需要哪種容器存放；容器必須要單獨購買。</p>",
       "name": "火器子彈"
     },
     "Lamp": {
-      "description": "<p>A Lamp burns @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagOil00000000]{Oil} as fuel to cast Bright Light in a 15-foot radius and Dim Light for an additional 30 feet.</p>",
+      "description": "<p>油燈以@UUID[Compendium.dnd-players-handbook.equipment.Item.phbagOil00000000]{燃油}作為燃料，點燃時能發出半徑15呎的明亮光照，以及額外30呎的微光光照。</p>",
       "name": "油燈",
       "activities": {
         "Light": {
@@ -149,7 +149,7 @@
         }
       },
       "name": "鐵蒺藜",
-      "description": "<p>As a Utilize action, you can spread Caltrops from their bag to cover a 5-foot-square area within 5 feet of yourself. A creature that enters this area for the first time on a turn must succeed on a DC 15 Dexterity saving throw or take 1 Piercing damage and have its Speed reduced to 0 until the start of its next turn. It takes 10 minutes to recover the Caltrops.</p>"
+      "description": "<p>以一個利用動作，你能將一包鐵蒺藜從袋中撒出，覆蓋你周圍5呎內的一處5呎方形區域。任何生物每回合首次進入這片區域時都必須通過一次DC15的敏捷豁免，否則受到1點穿刺傷害，且速度降至0，直到其下一回合開始為止。重新收集這些鐵蒺藜需要花費10分鐘時間。</p>"
     },
     "Glassblower's Tools": {
       "activities": {
@@ -178,7 +178,7 @@
     "Weaver's Tools": {
       "activities": {
         "Mend or Sew": {
-          "name": "Mend or Sew"
+          "name": "修補或縫紉"
         }
       },
       "name": "織布工工具",
@@ -191,7 +191,7 @@
       "name": "全身板甲"
     },
     "Ink": {
-      "description": "<p>Ink comes in a 1-ounce bottle, which provides enough ink to write about 500 pages.</p>",
+      "description": "<p>墨水一般裝在1盎司的瓶子裡，足夠書寫約500頁的內容。</p>",
       "name": "墨水"
     },
     "Tinker's Tools": {
@@ -199,36 +199,36 @@
       "description": "<p class=\"phb-meta\"><strong>屬性：</strong>敏捷</p><p class=\"phb-meta\"><strong>使用：</strong> Assemble a Tiny item composed of scrap, which falls apart in 1 minute (DC 20)</p><p class=\"phb-meta\"><strong>製作：</strong> @UUID[Compendium.dnd-players-handbook.equipment.Item.phbwepMusket0000]{Musket}、@UUID[Compendium.dnd-players-handbook.equipment.Item.phbwepPistol0000]{Pistol}、@UUID[Compendium.dnd-players-handbook.equipment.Item.phbagBell0000000]{Bell}、@UUID[Compendium.dnd5e.items.Item.UkWdyJYQTfVX2cJW]{Bullseye Lantern}、@UUID[Compendium.dnd-players-handbook.equipment.Item.phbagFlask000000]{Flask}、@UUID[Compendium.dnd5e.items.Item.wjHtGnd05SPdURqE]{Hooded Lantern}、@UUID[Compendium.dnd-players-handbook.equipment.Item.phbagHuntingTrap]{Hunting Trap}、@UUID[Compendium.dnd-players-handbook.equipment.Item.phbagLock0000000]{Lock}、@UUID[Compendium.dnd-players-handbook.equipment.Item.phbagManacles000]{Manacles}、@UUID[Compendium.dnd-players-handbook.equipment.Item.phbagMirror00000]{Mirror}、@UUID[Compendium.dnd-players-handbook.equipment.Item.phbagShovel00000]{Shovel}、@UUID[Compendium.dnd-players-handbook.equipment.Item.phbagSignalWhist]{Signal Whistle}、@UUID[Compendium.dnd-players-handbook.equipment.Item.phbagTinderbox00]{Tinderbox}</p>",
       "activities": {
         "Assemble a Tiny Item": {
-          "name": "Assemble a Tiny Item"
+          "name": "組裝微型物品"
         }
       }
     },
     "Spyglass": {
-      "description": "<p>Objects viewed through a Spyglass are magnified to twice their size.</p>",
+      "description": "<p>透過望遠鏡看到的物體會被放大為原本的兩倍大小。</p>",
       "name": "望遠鏡"
     },
     "Mirror": {
-      "description": "<p>A handheld steel Mirror is useful for personal cosmetics but also for peeking around corners and reflecting light as a signal.</p>",
-      "name": "Mirror"
+      "description": "<p>一面手持的鋼鏡不僅可用於個人梳妝打扮，也可以用來窺視轉角，或反射光線作為信號。</p>",
+      "name": "鏡子"
     },
     "Tooled Owlbear Hide": {
-      "description": "<p>An owlbear hide tooled with stellar symbols that can be used as a Spellcasting Focus by Circle of the Star Druids. It is a Tiny object.</p>",
+      "description": "<p>一張梟熊皮，上面標有星星的符號，可以被用作星辰結社德魯伊的施法法器。其是一個微型物體。</p>",
       "name": "雕飾梟雄皮"
     },
     "Burglar's Pack": {
       "name": "竊賊套裝",
-      "description": "<p>A Burglar’s Pack contains the following items: @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagBackpack000]、@UUID[Compendium.dnd-players-handbook.equipment.Item.phbagBallBearing]{Ball Bearings}、@UUID[Compendium.dnd-players-handbook.equipment.Item.phbagBell0000000]{Bell}, 10 @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagCandle00000]{Candles}、@UUID[Compendium.dnd-players-handbook.equipment.Item.phbagCrowbar0000]{Crowbar}、@UUID[Compendium.dnd5e.items.Item.wjHtGnd05SPdURqE]{Hooded Lantern}, 7 @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagOil00000000]{flasks of Oil}, 5 days of @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagRations0000]{Rations}、@UUID[Compendium.dnd-players-handbook.equipment.Item.phbagRope0000000]{Rope}、@UUID[Compendium.dnd-players-handbook.equipment.Item.phbagTinderbox00]{Tinderbox}, and @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagWaterskin00]{Waterskin}.</p>"
+      "description": "<p>竊賊套裝包含以下物品：@UUID[Compendium.dnd-players-handbook.equipment.Item.phbagBackpack000]{背包}、@UUID[Compendium.dnd-players-handbook.equipment.Item.phbagBallBearing]{滾珠}、@UUID[Compendium.dnd-players-handbook.equipment.Item.phbagBell0000000]{鈴鐺}、10根@UUID[Compendium.dnd-players-handbook.equipment.Item.phbagCandle00000]{蠟燭}、@UUID[Compendium.dnd-players-handbook.equipment.Item.phbagCrowbar0000]{撬棍}、@UUID[Compendium.dnd5e.items.Item.wjHtGnd05SPdURqE]{附蓋提燈}、7扁瓶@UUID[Compendium.dnd-players-handbook.equipment.Item.phbagOil00000000]{燃油}、五天份的@UUID[Compendium.dnd-players-handbook.equipment.Item.phbagRations0000]{口糧}、@UUID[Compendium.dnd-players-handbook.equipment.Item.phbagRope0000000]{繩索}、@UUID[Compendium.dnd-players-handbook.equipment.Item.phbagTinderbox00]{打火匣}和@UUID[Compendium.dnd-players-handbook.equipment.Item.phbagWaterskin00]{水袋}。</p>"
     },
     "Bedroll": {
       "name": "睡袋",
-      "description": "<p>A Bedroll sleeps one Small or Medium creature. While in a Bedroll, you automatically succeed on saving throws against extreme cold (see the <em>Dungeon Master</em> <em>’s Guide</em>).</p>"
+      "description": "<p>一個睡袋能睡下一個小型或中型生物。躺在睡袋中時，你自動通過抵抗極寒的豁免檢定（詳見<em>Dungeon Master</em> <em>’s Guide</em>）。</p>"
     },
     "Pistol": {
       "name": "手槍"
     },
     "Sack": {
       "name": "麻袋",
-      "description": "<p>A Sack holds up to 30 pounds within 1 cubic foot.</p>"
+      "description": "<p>麻袋至多能裝入30磅重、1立方呎大的東西。</p>"
     },
     "Grappling Hook": {
       "activities": {
@@ -236,7 +236,7 @@
           "name": "投擲"
         }
       },
-      "description": "<p>As a Utilize action, you can throw the Grappling Hook at a railing, a ledge, or another catch within 50 feet of yourself, and the hook catches on if you succeed on a DC 13 Dexterity (Acrobatics) check. If you tied a Rope to the hook, you can then climb it.</p>",
+      "description": "<p>以一個利用動作，你能將爪鉤朝著位於自身50呎內的一處欄杆、突起的邊緣或其他可鉤住的位置扔出，若你通過一次DC13的敏捷（特技）檢定，爪鉤便會鉤住。如果你已將繩索綁在爪鉤上，就可以攀爬上去。</p>",
       "name": "爪鉤"
     },
     "Carpenter's Tools": {
@@ -249,15 +249,15 @@
       "name": "木匠工具"
     },
     "Case, Map or Scroll": {
-      "description": "<p>A Map or Scroll Case holds up to 10 sheets of paper or 5 sheets of parchment.</p>",
-      "name": "Case, Map or Scroll"
+      "description": "<p>一個地圖或卷軸匣至多能存放10張紙張或5張羊皮紙。</p>",
+      "name": "地圖／卷軸匣"
     },
     "War Pick": {
       "name": "戰鎬"
     },
     "Paper": {
-      "name": "紙",
-      "description": "<p>One sheet of Paper can hold about 250 handwritten words.</p>"
+      "name": "紙張",
+      "description": "<p>一頁紙張可以寫下約250個手寫單詞。</p>"
     },
     "Light Hammer": {
       "name": "輕錘"
@@ -266,45 +266,45 @@
       "name": "條板甲"
     },
     "Wooden staff": {
-      "description": "<p>A @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagDruidicFocu]{Druidic Focus} takes one of the forms in the Druidic Focuses table and is carved, tied with ribbon, or painted to channel primal magic. A Druid or Ranger can use such an object as a Spellcasting Focus.</p><p>This item also functions as a @UUID[Compendium.dnd-players-handbook.equipment.Item.phbwepQuartersta]{Quarterstaff}</p><section class=\"secret\" id=\"secret-XEbhgCaozZsnw6QT\"><p><strong>Foundry Note</strong></p><p>This item has been configured with the additional properties of a Quarterstaff.</p></section>",
+      "description": "<p>@UUID[Compendium.dnd-players-handbook.equipment.Item.phbagDruidicFocu]{德魯伊法器}是德魯伊法器表中列出的其中一種形式，並經由雕刻、綁上緞帶或彩繪來引導原初魔法。德魯伊或遊俠可以使用這種物品作為施法法器。</p><p>此物品也當作@UUID[Compendium.dnd-players-handbook.equipment.Item.phbwepQuartersta]{長棍}使用。</p><section class=\"secret\" id=\"secret-XEbhgCaozZsnw6QT\"><p><strong>Foundry註記</strong></p><p>此物品已配有長棍額外的屬性。</p></section>",
       "name": "木質法杖"
     },
     "Manacles": {
       "activities": {
         "Bind": {
-          "name": "Bind",
-          "target": "Grappled, Incapacitated, or Restrained"
+          "name": "捆綁",
+          "target": "擒住、失能或束縛"
         },
         "Burst Check": {
-          "name": "Burst Check"
+          "name": "扯斷檢定"
         },
         "Escape Check": {
-          "name": "逃脫檢定"
+          "name": "掙脫檢定"
         }
       },
       "effects": {
         "Manacled": {
-          "name": "Manacled"
+          "name": "被銬住"
         }
       },
-      "description": "<p>As a Utilize action, you can use Manacles to bind an unwilling Small or Medium creature within 5 feet of yourself that has the &amp;Reference[Grappled], &amp;Reference[Incapacitated], or &amp;Reference[Restrained] condition if you succeed on a DC 13 Dexterity (Sleight of Hand) check. While bound, a creature has Disadvantage on attack rolls, and the creature is Restrained if the Manacles are attached to a chain or hook that is fixed in place. Escaping the Manacles requires a successful DC 20 Dexterity (Sleight of Hand) check as an action. Bursting them requires a successful DC 25 Strength (Athletics) check as an action.</p><p>Each set of Manacles comes with a key. Without the key, a creature can use Thieves’ Tools to pick the Manacles’ lock with a successful [[/tool thief dex 15]] check.</p>",
+      "description": "<p>以一個利用動作，你可以用鐐銬捆住一個位於你5呎內、處於&amp;Reference[Grappled]、&amp;Reference[Incapacitated]或&amp;Reference[Restrained]狀態的非自願小型或中型生物，前提是你成功通過一次DC13的敏捷（巧手）檢定。被捆住期間，該生物進行的攻擊檢定具有劣勢；如果鐐銬還被固定在原地的鎖鏈或鉤子上，該生物還會陷入束縛狀態。掙脫鐐銬需要該生物使用動作通過一次DC20的敏捷（巧手）檢定。扯斷鐐銬需要使用動作通過一次DC25的力量（運動）檢定。</p><p>每副鐐銬都附有對應的鑰匙。若沒有鑰匙，生物可以使用盜賊工具，成功通過一次[[/tool thief dex 15]]檢定來撬開鐐銬的鎖。</p>",
       "name": "鐐銬"
     },
     "Unarmed Strike": {
       "name": "徒手打擊",
-      "description": "<p>@UUID[Compendium.dnd-players-handbook.content.JournalEntry.phbAppendixDRule.JournalEntryPage.xJjJ4lhymAYXAOvO]{Unarmed Strike Rules}</p>",
+      "description": "<p><em>見&amp;Reference[unarmedstrike]{徒手打擊}</em>。</p>",
       "activities": {
         "Grapple/Shove": {
-          "name": "Grapple/Shove",
-          "chatFlavor": "Grapple or Shove attempt"
+          "name": "擒抱／推動",
+          "chatFlavor": "嘗試擒抱或推動"
         }
       },
       "effects": {
         "Grappled": {
-          "name": "Grappled"
+          "name": "擒住"
         },
         "Prone": {
-          "name": "Prone"
+          "name": "伏地"
         }
       }
     },
@@ -321,46 +321,46 @@
       }
     },
     "Magnifying Glass": {
-      "description": "<p>A Magnifying Glass grants Advantage on any ability check made to appraise or inspect a highly detailed item. Lighting a fire with a Magnifying Glass requires light as bright as sunlight to focus, tinder to ignite, and about 5 minutes for the fire to ignite.</p>",
+      "description": "<p>使用放大鏡時，你為鑑定或檢查精密物品所進行的任何屬性檢定都具有優勢。想用放大鏡點火，需要一束如陽光般明亮的強光來聚焦、用於點燃的火絨，以及約5分鐘的時間來生火。</p>",
       "name": "放大鏡"
     },
     "Rations": {
       "name": "口糧",
-      "description": "<p>Rations consist of travel-ready food, including jerky, dried fruit, hardtack, and nuts. See &amp;Reference[Malnutrition] in the rules glossary for the risks of not eating.</p>"
+      "description": "<p>口糧由適合長途旅行攜帶的食物組成，包含肉乾、風乾水果、硬餅乾和堅果。不進食的風險詳見規則詞彙表中的&amp;Reference[Malnutrition]{飢餓}。</p>"
     },
     "Thieves' Tools": {
       "description": "<p class=\"phb-meta\"><strong>屬性：</strong>敏捷</p><p class=\"phb-meta\"><strong>使用：</strong> Pick a lock (DC 15), or disarm a trap (DC 15)</p>",
       "activities": {
         "Pick a Lock/Disarm a Trap": {
-          "name": "Pick a Lock/Disarm a Trap"
+          "name": "開鎖／解除陷阱"
         }
       },
       "name": "盜賊工具"
     },
     "Lantern, Bullseye": {
-      "description": "<p>A Bullseye Lantern burns Oil as fuel to cast Bright Light in a 60-foot Cone and Dim Light for an additional 60 feet.</p>",
+      "description": "<p>牛眼提燈以燃油作為燃料，點燃時能發出60呎錐形的明亮光照，以及額外60呎的微光光照。</p>",
       "activities": {
         "Light": {
           "name": "點亮"
         }
       },
-      "name": "Lantern, Bullseye"
+      "name": "牛眼提燈"
     },
     "Blanket": {
-      "description": "<p>While wrapped in a blanket, you have Advantage on saving throws against extreme cold (see the <em>Dungeon Master</em> <em>’s Guide</em>).</p>",
+      "description": "<p>包裹在毛毯中時，你在抵抗極寒的豁免檢定上具有優勢（詳見<em>Dungeon Master</em> <em>’s Guide</em>）。</p>",
       "name": "毛毯"
     },
     "Water (Pint)": {
-      "description": "<p>If you don’t drink sufficient water, you risk &amp;Reference[dehydration].</p>",
+      "description": "<p>如果你喝水不足，就會面臨&amp;Reference[dehydration]{脫水}的風險。</p>",
       "activities": {
         "Consume": {
-          "name": "Consume"
+          "name": "消耗"
         }
       },
-      "name": "Water (Pint)"
+      "name": "1品脫的水"
     },
     "Ink Pen": {
-      "description": "<p>Using Ink, an Ink Pen is used to write or draw.</p>",
+      "description": "<p>墨水筆使用墨水來書寫或繪畫。</p>",
       "name": "墨水筆"
     },
     "Disguise Kit": {
@@ -440,11 +440,11 @@
     },
     "Bullets, Sling": {
       "name": "投石索子彈",
-      "description": "<p><em><strong>Storage:</strong> @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagPouch000000]{Pouch}</em></p><p>@UUID[Compendium.dnd-players-handbook.equipment.Item.phbagAmmunitionV]{Ammunition} is required by a weapon that has the Ammunition property. A weapon’s description specifies the type of ammunition used by the weapon. The Ammunition table lists the different types and the amount you get when you buy them. The table also lists the item that is typically used to store each type; storage must be bought separately.</p>"
+      "description": "<p><em><strong>容器：</strong> @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagPouch000000]{囊袋}</em></p><p>具有彈藥詞條的武器需要@UUID[Compendium.dnd-players-handbook.equipment.Item.phbagAmmunitionV]{彈藥}才能發射。武器的描述部分會指定這把武器需要哪種彈藥。彈藥表列出了不同類型的彈藥，以及購買這些彈藥時一份能買到多少枚。表格還會列出這些彈藥通常需要哪種容器存放；容器必須要單獨購買。</p>"
     },
     "Backpack": {
       "name": "背包",
-      "description": "<p>A Backpack holds up to 30 pounds within 1 cubic foot. It can also serve as a saddlebag.</p>"
+      "description": "<p>一個背包最多能裝入30磅重、1立方呎大的東西。背包也能當作鞍囊使用。</p>"
     },
     "Hunting Trap": {
       "name": "狩獵陷阱",
@@ -453,13 +453,13 @@
           "name": "被捕獲"
         }
       },
-      "description": "<p>As a Utilize action, you can set a Hunting Trap, which is a sawtooth steel ring that snaps shut when a creature steps on a pressure plate in the center. The trap is affixed by a heavy chain to an immobile object, such as a tree or a spike driven into the ground. A creature that steps on the plate must succeed on a DC 13 Dexterity saving throw or take 1d4 Piercing damage and have its Speed reduced to 0 until the start of its next turn. Thereafter, until the creature breaks free of the trap, its movement is limited by the length of the chain (typically 3 feet). A creature can use its action to make a DC 13 Strength (Athletics) check, freeing itself or another creature within its reach on a success. Each failed check deals [[/damage 1 type=piercing]] damage to the trapped creature.</p>",
+      "description": "<p>以一個利用動作，你可以設置一個狩獵陷阱。狩獵陷阱是一組帶有鋸齒的鋼環，當生物踩到中心的壓力板時，鋸齒會迅速合上。陷阱以沉重的鎖鏈固定在某個無法移動的物體上，例如大樹或打入地面的固定釘。踩到壓力板的生物必須通過一次DC13的敏捷豁免，否則受到1d4點穿刺傷害，且速度降至0，直到其下一回合開始為止。此後，在該生物掙脫陷阱之前，它的移動範圍會受鎖鏈長度限制（通常為3呎）。生物可以使用它的動作進行一次DC13的力量（運動）檢定，成功時能讓自己或自己觸及範圍內的另一個生物脫困。每次檢定失敗，被困生物就會受到[[/damage 1 type=piercing]]點傷害。</p>",
       "activities": {
         "Escape": {
-          "name": "Escape"
+          "name": "脫困"
         },
         "save": {
-          "condition": "踩上壓板"
+          "condition": "踩到壓力板時"
         }
       }
     },
@@ -467,20 +467,20 @@
       "name": "鐵匠工具",
       "activities": {
         "Pry Open": {
-          "name": "Pry Open"
+          "name": "撬開"
         }
       },
       "description": "<p class=\"phb-meta\"><strong>屬性：</strong>力量</p><p class=\"phb-meta\"><strong>使用：</strong> Pry open a door or container (DC 20)</p><p class=\"phb-meta\"><strong>製作：</strong> Any Melee weapon (except Club, Greatclub, Quarterstaff, and Whip), Medium armor (except Hide), Heavy armor, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagBallBearing]{Ball Bearings}、@UUID[Compendium.dnd-players-handbook.equipment.Item.phbagBucket00000]{Bucket}、@UUID[Compendium.dnd-players-handbook.equipment.Item.phbagCaltrops000]{Caltrops}、@UUID[Compendium.dnd-players-handbook.equipment.Item.phbagChain000000]{Chain}、@UUID[Compendium.dnd-players-handbook.equipment.Item.phbagCrowbar0000]{Crowbar}、@UUID[Compendium.dnd-players-handbook.equipment.Item.phbamoBulletsFir]{Firearm Bullets}、@UUID[Compendium.dnd-players-handbook.equipment.Item.phbagGrapplingHo]{Grappling Hook}、@UUID[Compendium.dnd5e.items.Item.M8xM8BLK4tpUayEE]{Iron Pot}、@UUID[Compendium.dnd-players-handbook.equipment.Item.phbagSpikesIron0]{Iron Spikes}、@UUID[Compendium.dnd-players-handbook.equipment.Item.phbamoBulletsSli]{Sling Bullets}</p>"
     },
     "Parchment": {
-      "description": "<p>One sheet of Parchment can hold about 250 handwritten words.</p>",
+      "description": "<p>一頁羊皮紙可以寫下約250個手寫單詞。</p>",
       "name": "羊皮紙"
     },
     "Woodcarver's Tools": {
       "description": "<p class=\"phb-meta\"><strong>屬性：</strong>敏捷</p><p class=\"phb-meta\"><strong>使用：</strong> Carve a pattern in wood (DC 10)</p><p class=\"phb-meta\"><strong>製作：</strong> @UUID[Compendium.dnd-players-handbook.equipment.Item.phbwepClub000000]{Club}、@UUID[Compendium.dnd-players-handbook.equipment.Item.phbwepGreatclub0]{Greatclub}、@UUID[Compendium.dnd-players-handbook.equipment.Item.phbwepQuartersta]{Quarterstaff}, Ranged weapons (except Pistol, Musket, and Sling), Arcane Focus, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbamoArrows0000]{Arrows}、@UUID[Compendium.dnd-players-handbook.equipment.Item.phbamoBolts00000]{Bolts}, Druidic Focus, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagInkPen00000]{Ink Pen}、@UUID[Compendium.dnd-players-handbook.equipment.Item.phbamoNeedles000]{Needles}</p>",
       "activities": {
         "Carve Pattern": {
-          "name": "Carve Pattern"
+          "name": "雕刻圖案"
         }
       },
       "name": "木雕工具"
@@ -488,13 +488,13 @@
     "Ball Bearings": {
       "activities": {
         "Recover Ball Bearings": {
-          "name": "收回滾珠"
+          "name": "回收滾珠"
         },
         "Spill Ball Bearings": {
           "name": "撒出滾珠"
         }
       },
-      "description": "<p>As a Utilize action, you can spill Ball Bearings from their pouch. They spread to cover a level, 10-foot-square area within 10 feet of yourself. A creature that enters this area for the first time on a turn must succeed on a DC 10 Dexterity saving throw or have the &amp;Reference[Prone] condition. It takes 10 minutes to recover the Ball Bearings.</p><section id=\"secret-bbcC5syRGw0PCZnG\" class=\"secret\"><p><strong>Foundry Note</strong></p><p>The <strong>Recover Ball Bearings</strong> activity grants another use of this item.</p></section>",
+      "description": "<p>以一個利用動作，你能將一小包滾珠撒至地面，並覆蓋你周圍10呎內的一處10呎方形區域。任何生物每回合首次進入這片區域時都必須成功通過一次DC10的敏捷豁免，否則陷入&amp;Reference[Prone]{伏地}狀態。重新收集這些滾珠需要花費10分鐘時間。</p><section id=\"secret-bbcC5syRGw0PCZnG\" class=\"secret\"><p><strong>Foundry 註記</strong></p><p><strong>「回收滾珠」活動</strong>會賦予這件物品一次額外的使用次數。</p></section>",
       "effects": {
         "Tripped": {
           "name": "絆倒"
@@ -503,15 +503,15 @@
       "name": "滾珠"
     },
     "Barrel": {
-      "description": "<p>A Barrel holds up to 40 gallons of liquid or up to 4 cubic feet of dry goods.</p>",
+      "description": "<p>一個木桶能夠至多裝入40加侖的液體或4立方呎的乾燥貨物。</p>",
       "name": "木桶"
     },
     "Healer's Kit": {
-      "description": "<p>A Healer’s Kit has ten uses. As a Utilize action, you can expend one of its uses to stabilize an Unconscious creature that has 0 Hit Points without needing to make a Wisdom (Medicine) check.</p>",
+      "description": "<p>一個醫療工具組有十次使用次數。以一個利用動作，你可以花費其中一次使用次數，來穩定一名生命值為0且處於昏迷狀態的生物，且無需進行感知（醫藥）檢定。</p>",
       "activities": {
         "Stabilize": {
           "name": "穩定傷勢",
-          "target": "Unconscious"
+          "target": "昏迷"
         }
       },
       "name": "醫療工具組"
@@ -531,23 +531,23 @@
     "Alchemist's Fire": {
       "effects": {
         "Burning.": {
-          "description": "<p>規則參考：&amp;Reference[burning].</p>",
+          "description": "<p>規則參考：&amp;Reference[burning]{燃燒}。</p>",
           "name": "燃燒"
         }
       },
-      "description": "<p>When you take the Attack action, you can replace one of your attacks with throwing a flask of Alchemist’s Fire. Target one creature or object you can see within 20 feet of yourself. The target must succeed on a Dexterity saving throw (DC 8 plus your Dexterity modifier and Proficiency Bonus) or take [[/damage 1d4 type=fire]] damage and start &amp;Reference[burning].</p>",
+      "description": "<p>當你採取攻擊動作時，你可以將你的一次攻擊替換為丟出一扁瓶熾火膠。你可以選擇位於你20呎內一個你所能看見的生物或物體作為目標。該目標必須通過一次敏捷豁免（DC = 8 + 你的敏捷調整值 + 你的熟練加值），否則承受[[/damage 1d4 type=fire]]點傷害，並開始&amp;Reference[burning]{燃燒}。</p>",
       "name": "熾火膠"
     },
     "Yew wand": {
       "name": "紫杉魔杖",
-      "description": "<p>A @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagDruidicFocu]{Druidic Focus} takes one of the forms in the Druidic Focuses table and is carved, tied with ribbon, or painted to channel primal magic. A Druid or Ranger can use such an object as a Spellcasting Focus.</p>"
+      "description": "<p>@UUID[Compendium.dnd-players-handbook.equipment.Item.phbagDruidicFocu]{德魯伊法器}是德魯伊法器表中列出的其中一種形式，並經由雕刻、綁上緞帶或彩繪來引導原初魔法。德魯伊或遊俠可以使用這種物品作為施法法器。</p>"
     },
     "Stone Tablet": {
       "name": "石板",
-      "description": "<p>A stone tablet with fine holes drilled through it that can be used as a Spellcasting Focus by Circle of the Star Druids. It is a Tiny object.</p>"
+      "description": "<p>一塊鑽有細孔的石板，可以被用作星辰結社德魯伊的施法法器。其是一個微型物體。</p>"
     },
     "Rod": {
-      "description": "<p>An @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagArcaneFocus]{Arcane Focus} is bejeweled or carved to channel arcane magic. A Sorcerer, Warlock, or Wizard can use such an item as a Spellcasting Focus.</p>",
+      "description": "<p>@UUID[Compendium.dnd-players-handbook.equipment.Item.phbagArcaneFocus]{奧術法器}鑲嵌著寶石或被雕刻過以引導奧術魔法。術士、契術師、法師可以使用這種物品作為施法法器。</p>",
       "name": "權杖"
     },
     "Bullseye Lantern": {
@@ -555,11 +555,11 @@
       "name": "牛眼提燈"
     },
     "Poison, Basic": {
-      "description": "<p>As a Bonus Action, you can use a vial of Basic Poison to coat one weapon or up to three pieces of ammunition. A creature that takes Piercing or Slashing damage from the poisoned weapon or ammunition takes an extra 1d4 Poison damage. Once applied, the poison retains potency for 1 minute or until its damage is dealt, whichever comes first.</p><section id=\"secret-YwO5GX35V4XweNWL\" class=\"secret\"><p><strong>Foundry Note</strong></p><p>This feature includes a roll for the Poison damage.</p></section>",
+      "description": "<p>以一個附贈動作，你可以使用一小瓶基礎毒藥塗抹在一把武器或至多三枚彈藥上。當生物受到塗有毒藥的武器或彈藥造成的穿刺或揮砍傷害時，該生物會受到額外1d4點毒素傷害。毒藥一旦塗抹，效力只會持續1分鐘，或持續到造成其傷害為止，以先到者為準。</p><section id=\"secret-YwO5GX35V4XweNWL\" class=\"secret\"><p><strong>Foundry 註記</strong></p><p>此特性包含針對毒素傷害的擲骰。</p></section>",
       "name": "基礎毒藥"
     },
     "Emblem": {
-      "description": "<p><em><strong>Usage Requirement: </strong>Borne on fabric or a Shield</em></p><p>A @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagHolySymbolV]{Holy Symbol} takes one of the forms in the Holy Symbol table and is bejeweled or painted to channel divine magic. A Cleric or Paladin can use a Holy Symbol as a Spellcasting Focus.</p>",
+      "description": "<p><em><strong>使用需求：</strong>承載於織物或盾牌上</em></p><p>@UUID[Compendium.dnd-players-handbook.equipment.Item.phbagHolySymbolV]{聖徽}是一種以寶石鑲嵌或彩繪來引導神聖魔法的物品，會以聖徽表中列出的其中一種形式存在。牧師和聖騎士可以使用聖徽作為施法法器。</p>",
       "name": "徽章"
     },
     "Mason's Tools": {
@@ -567,12 +567,12 @@
       "description": "<p class=\"phb-meta\"><strong>屬性：</strong>力量</p><p class=\"phb-meta\"><strong>使用：</strong> Chisel a symbol or hole in stone (DC 10)</p><p class=\"phb-meta\"><strong>製作：</strong> @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagBlockandTac]{Block and Tackle}</p>",
       "activities": {
         "Chisel a Symbol or Hole": {
-          "name": "Chisel a Symbol or Hole"
+          "name": "鑿出一個形狀或洞"
         }
       }
     },
     "Waterskin": {
-      "description": "<p>A Waterskin holds up to 4 pints. If you don’t drink sufficient water, you risk &amp;Reference[dehydration].</p>",
+      "description": "<p>水袋具有4品脫的容量。如果你喝水不足，就會面臨&amp;Reference[dehydration]{脫水}的風險。</p>",
       "name": "水袋"
     },
     "Shortbow": {
@@ -580,10 +580,10 @@
     },
     "Amulet": {
       "name": "護符",
-      "description": "<p><em><strong>Usage Requirement: </strong>Worn or held</em></p><p>A @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagHolySymbolV]{Holy Symbol} takes one of the forms in the Holy Symbol table and is bejeweled or painted to channel divine magic. A Cleric or Paladin can use a Holy Symbol as a Spellcasting Focus.</p>"
+      "description": "<p><em><strong>使用需求：</strong>佩戴或持握</em></p><p>@UUID[Compendium.dnd-players-handbook.equipment.Item.phbagHolySymbolV]{聖徽}是一種以寶石鑲嵌或彩繪來引導神聖魔法的物品，會以聖徽表中列出的其中一種形式存在。牧師和聖騎士可以使用聖徽作為施法法器。</p>"
     },
     "Clothes, Traveler's": {
-      "description": "<p>Traveler’s Clothes are resilient garments designed for travel in various environments.</p>",
+      "description": "<p>旅行者服裝是為了應對多種環境下的旅途而設計的耐用服裝。</p>",
       "name": "旅行者服裝"
     },
     "Component Pouch": {
@@ -594,14 +594,14 @@
       "name": "鑲釘皮甲"
     },
     "Pot, Iron": {
-      "description": "<p>An Iron Pot holds up to 1 gallon.</p>",
-      "name": "Pot, Iron"
+      "description": "<p>鐵鍋具有1加侖的容量。</p>",
+      "name": "鐵鍋"
     },
     "Antitoxin": {
-      "description": "<p>As a Bonus Action, you can drink a vial of Antitoxin to gain Advantage on saving throws to avoid or end the Poisoned condition for 1 hour.</p>",
+      "description": "<p>以一個附贈動作，你可以喝下一小瓶抗毒劑來使你在避免或結束中毒狀態的豁免中具有優勢，持續一小時。</p>",
       "effects": {
         "Antitoxin": {
-          "name": "解毒劑"
+          "name": "抗毒劑"
         }
       },
       "name": "解毒劑"
@@ -610,7 +610,7 @@
       "name": "三叉戟"
     },
     "Priest's Pack": {
-      "description": "<p>A Priest’s Pack contains the following items: @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagBackpack000]、@UUID[Compendium.dnd-players-handbook.equipment.Item.phbagBlanket0000]{Blanket}、@UUID[Compendium.dnd-players-handbook.equipment.Item.phbagHolyWater00]{Holy Water}、@UUID[Compendium.dnd-players-handbook.equipment.Item.phbagLamp0000000]{Lamp}, 7 days of @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagRations0000]{Rations}、@UUID[Compendium.dnd-players-handbook.equipment.Item.phbagRobe0000000]{Robe}, and @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagTinderbox00]{Tinderbox}.</p>",
+      "description": "<p>祭司套裝包含以下物品：@UUID[Compendium.dnd-players-handbook.equipment.Item.phbagBackpack000]{背包}、@UUID[Compendium.dnd-players-handbook.equipment.Item.phbagBlanket0000]{毛毯}、@UUID[Compendium.dnd-players-handbook.equipment.Item.phbagHolyWater00]{聖水}、@UUID[Compendium.dnd-players-handbook.equipment.Item.phbagLamp0000000]{油燈}、7天份的@UUID[Compendium.dnd-players-handbook.equipment.Item.phbagRations0000]{口糧}、@UUID[Compendium.dnd-players-handbook.equipment.Item.phbagRobe0000000]{法袍}和@UUID[Compendium.dnd-players-handbook.equipment.Item.phbagTinderbox00]{打火匣}。</p>",
       "name": "祭司套裝"
     },
     "Herbalism Kit": {
@@ -624,7 +624,7 @@
     },
     "Shovel": {
       "name": "鏟子",
-      "description": "<p>Working for 1 hour, you can use a Shovel to dig a hole that is 5 feet on each side in soil or similar material.</p>"
+      "description": "<p>你可以使用鏟子，花費1小時在土壤或類似材質中挖出一個每邊5呎的洞。</p>"
     },
     "Tinderbox": {
       "activities": {
@@ -632,7 +632,7 @@
           "name": "點亮"
         }
       },
-      "description": "<p>A Tinderbox is a small container holding flint, fire steel, and tinder (usually dry cloth soaked in light oil) used to kindle a fire. Using it to light a Candle, Lamp, Lantern, or Torch—or anything else with exposed fuel—takes a Bonus Action. Lighting any other fire takes 1 minute.</p>",
+      "description": "<p>打火匣是一個小型容器，裡面裝有打火石、火鐮和火絨（通常是浸泡在輕油裡的乾布料），用來點火。使用其點燃蠟燭、油燈、提燈、火炬，或任何其他有外露燃料的東西，需要一個附贈動作。點燃其他任何火焰需要1分鐘。</p>",
       "name": "打火匣"
     },
     "Shortsword": {
@@ -640,19 +640,19 @@
     },
     "Diplomat's Pack": {
       "name": "大使套裝",
-      "description": "<p>A Diplomat’s Pack contains the following items: @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagChest000000]{Chest}、@UUID[Compendium.dnd5e.items.Item.FqFmdzIBUSxFKKfi]{Fine Clothes}、@UUID[Compendium.dnd-players-handbook.equipment.Item.phbagInk00000000]{Ink}, 5 @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagInkPen00000]{Ink Pens}、@UUID[Compendium.dnd-players-handbook.equipment.Item.phbagLamp0000000]{Lamp}, 2 @UUID[Compendium.dnd5e.items.Item.5mIeX824uMklU3xq]{Map or Scroll Cases}, 4 @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagOil00000000]{flasks of Oil}, 5 sheets of @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagPaper000000]{Paper}, 5 sheets of @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagParchment00]{Parchment}、@UUID[Compendium.dnd-players-handbook.equipment.Item.phbagPerfume0000]{Perfume}, and @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagTinderbox00]{Tinderbox}.</p>"
+      "description": "<p>大使套裝包含以下物品：@UUID[Compendium.dnd-players-handbook.equipment.Item.phbagChest000000]{箱子}、@UUID[Compendium.dnd5e.items.Item.FqFmdzIBUSxFKKfi]{高級服裝}、@UUID[Compendium.dnd-players-handbook.equipment.Item.phbagInk00000000]{墨水}、5支@UUID[Compendium.dnd-players-handbook.equipment.Item.phbagInkPen00000]{墨水筆}、@UUID[Compendium.dnd-players-handbook.equipment.Item.phbagLamp0000000]{油燈}、2個@UUID[Compendium.dnd5e.items.Item.5mIeX824uMklU3xq]{地圖／卷軸匣}、4扁瓶@UUID[Compendium.dnd-players-handbook.equipment.Item.phbagOil00000000]{燃油}、5張@UUID[Compendium.dnd-players-handbook.equipment.Item.phbagPaper000000]{紙張}、5張@UUID[Compendium.dnd-players-handbook.equipment.Item.phbagParchment00]{羊皮紙}、@UUID[Compendium.dnd-players-handbook.equipment.Item.phbagPerfume0000]{香水}和@UUID[Compendium.dnd-players-handbook.equipment.Item.phbagTinderbox00]{打火匣}。</p>"
     },
     "Warhammer": {
       "name": "戰錘"
     },
     "Lantern, Hooded": {
-      "description": "<p>A Hooded Lantern burns Oil as fuel to cast Bright Light in a 30-foot radius and Dim Light for an additional 30 feet. As a Bonus Action, you can lower the hood, reducing the light to Dim Light in a 5-foot radius, or raise it again.</p>",
+      "description": "<p>附蓋提燈以燃油作為燃料，點燃時能發出半徑30呎的明亮光照，以及額外30呎的微光光照。以一個附贈動作，你可以蓋上或掀開提燈的蓋子；蓋上時，提燈的光亮降至半徑5呎的微光光照。</p>",
       "activities": {
         "Light": {
           "name": "點亮"
         }
       },
-      "name": "Lantern, Hooded"
+      "name": "附蓋提燈"
     },
     "Tent": {
       "name": "帳篷",
@@ -663,11 +663,11 @@
     },
     "Engraved Crystal": {
       "name": "雕刻水晶",
-      "description": "<p>A crystal engraved with starry patterns that can be used as a Spellcasting Focus by Circle of the Star Druids. It is a Tiny object.</p>"
+      "description": "<p>一塊遇光會投射出星辰軌跡的水晶，可以被用作星辰結社德魯伊的施法法器。其是一個微型物體。</p>"
     },
     "Arrows": {
       "name": "箭矢",
-      "description": "<p><em><strong>Storage:</strong> @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagQuiver00000]{Quiver}</em></p><p>@UUID[Compendium.dnd-players-handbook.equipment.Item.phbagAmmunitionV]{Ammunition} is required by a weapon that has the Ammunition property. A weapon’s description specifies the type of ammunition used by the weapon. The Ammunition table lists the different types and the amount you get when you buy them. The table also lists the item that is typically used to store each type; storage must be bought separately.</p>"
+      "description": "<p><em><strong>容器：</strong> @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagQuiver00000]{箭袋}</em></p><p>具有彈藥詞條的武器需要@UUID[Compendium.dnd-players-handbook.equipment.Item.phbagAmmunitionV]{彈藥}才能發射。武器的描述部分會指定這把武器需要哪種彈藥。彈藥表列出了不同類型的彈藥，以及購買這些彈藥時一份能買到多少枚。表格還會列出這些彈藥通常需要哪種容器存放；容器必須要單獨購買。</p>"
     },
     "Dice": {
       "activities": {
@@ -682,15 +682,15 @@
       "description": "<p><strong>屬性：</strong>感知</p><p class=\"phb-meta\"><strong>使用：</strong>辨別某人是否作弊（DC 10），或贏得這場遊戲（DC 20）</p>"
     },
     "Block and Tackle": {
-      "description": "<p>A Block and Tackle allows you to hoist up to four times the weight you can normally lift.</p>",
+      "description": "<p>滑輪組允許你提起你平常能提動的四倍重量的物品。</p>",
       "name": "滑輪組"
     },
     "Signal Whistle": {
       "name": "訊號哨",
-      "description": "<p>When blown as a Utilize action, a Signal Whistle produces a sound that can be heard up to 600 feet away.</p>",
+      "description": "<p>以一個利用動作吹響訊號哨時，會發出600呎外都能聽到的聲音。</p>",
       "activities": {
         "Whistle": {
-          "name": "Whistle"
+          "name": "吹響"
         }
       }
     },
@@ -698,7 +698,7 @@
       "name": "手斧"
     },
     "Druidic Focus (Varies)": {
-      "description": "<p>A Druidic Focus takes one of the forms in the Druidic Focuses table and is carved, tied with ribbon, or painted to channel primal magic. A Druid or Ranger can use such an object as a Spellcasting Focus.</p><table><caption>Druidic Focuses</caption><thead><tr><td>Focus</td><td>Weight</td><td>Cost</td></tr></thead><tbody><tr><td>@UUID[Compendium.dnd-players-handbook.equipment.Item.phbdfcSprigofmis]{Sprig of mistletoe}</td><td>—</td><td>1 GP</td></tr><tr><td>@UUID[Compendium.dnd-players-handbook.equipment.Item.phbdfcWoodenstaf]{Wooden staff} (also a @UUID[Compendium.dnd-players-handbook.equipment.Item.phbwepQuartersta]{Quarterstaff})</td><td>4 lb.</td><td>5 GP</td></tr><tr><td>@UUID[Compendium.dnd-players-handbook.equipment.Item.phbdfcYewwand000]{Yew wand}</td><td>1 lb.</td><td>10 GP</td></tr></tbody></table>",
+      "description": "<p>德魯伊法器是德魯伊法器表中列出的其中一種形式，並經由雕刻、綁上緞帶或彩繪來引導原初魔法。德魯伊或遊俠可以使用這種物品作為施法法器。</p><table><caption>德魯伊法器</caption><thead><tr><td>法器</td><td>重量</td><td>價格</td></tr></thead><tbody><tr><td>@UUID[Compendium.dnd-players-handbook.equipment.Item.phbdfcSprigofmis]{槲寄生枝}</td><td>—</td><td>1GP</td></tr><tr><td>@UUID[Compendium.dnd-players-handbook.equipment.Item.phbdfcWoodenstaf]{木質法杖}（也視作@UUID[Compendium.dnd-players-handbook.equipment.Item.phbwepQuartersta]{長棍}）</td><td>4磅</td><td>5GP</td></tr><tr><td>@UUID[Compendium.dnd-players-handbook.equipment.Item.phbdfcYewwand000]{紫杉魔杖}</td><td>1磅</td><td>10GP</td></tr></tbody></table>",
       "name": "德魯伊法器（多類）"
     },
     "Drum": {
@@ -714,7 +714,7 @@
       "name": "鼓"
     },
     "Crystal": {
-      "description": "<p>An @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagArcaneFocus]{Arcane Focus} is bejeweled or carved to channel arcane magic. A Sorcerer, Warlock, or Wizard can use such an item as a Spellcasting Focus.</p>",
+      "description": "<p>@UUID[Compendium.dnd-players-handbook.equipment.Item.phbagArcaneFocus]{奧術法器}鑲嵌著寶石或被雕刻過以引導奧術魔法。術士、契術師、法師可以使用這種物品作為施法法器。</p>",
       "name": "水晶"
     },
     "Bottle, Glass": {
@@ -722,27 +722,27 @@
       "name": "玻璃瓶"
     },
     "Pouch": {
-      "description": "<p>A Pouch holds up to 6 pounds within one-fifth of a cubic foot.</p>",
+      "description": "<p>一個囊袋最多能裝入6磅重、五分之一立方呎大的東西。</p>",
       "name": "囊袋"
     },
     "Rope": {
       "activities": {
         "Burst Rope": {
-          "name": "Burst Rope"
+          "name": "扯斷繩索"
         },
         "Tie Knot": {
-          "name": "Tie Knot"
+          "name": "打結"
         },
         "Escape Check": {
-          "name": "逃脫檢定"
+          "name": "掙脫檢定"
         }
       },
-      "description": "<p>As a Utilize action, you can tie a knot with Rope if you succeed on a DC 10 Dexterity (Sleight of Hand) check. The Rope can be burst with a successful DC 20 Strength (Athletics) check.</p><p>You can bind an unwilling creature with the Rope only if the creature has the &amp;Reference[Grappled], &amp;Reference[Incapacitated], or &amp;Reference[Restrained] condition. If the creature’s legs are bound, the creature has the Restrained condition until it escapes. Escaping the Rope requires the creature to make a successful DC 15 Dexterity (Acrobatics) check as an action.</p>",
+      "description": "<p>以一個利用動作，你可以在成功通過一次DC10的敏捷（巧手）檢定後，用繩索打一個結。扯斷繩索需要成功通過一次DC20的力量（運動）檢定。</p><p>只有當生物處於&amp;Reference[Grappled]{擒住}、&amp;Reference[Incapacitated]{失能}或&amp;Reference[Restrained]{束縛}狀態時，你才能用繩索捆住非自願生物。如果該生物的腿被綁住，其將陷入束縛狀態，直至掙脫為止。掙脫繩索需要該生物使用動作成功通過一次DC15的敏捷（特技）檢定。</p>",
       "name": "繩索"
     },
     "Spell Scroll, Level 1": {
       "name": "1環法術卷軸",
-      "description": "<p>A @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagCantripScro]{Spell Scroll (Cantrip)} or <em>Spell Scroll</em> (Level 1) is a magic item that bears the words of a cantrip or level 1 spell, respectively, determined by the scroll’s creator. If the spell is on your class’s spell list, you can read the scroll and cast the spell using its normal casting time and without providing any Material components.</p><p>If the spell requires a saving throw or an attack roll, the spell save DC is 13, and the attack bonus is +5. The scroll disintegrates when the casting is completed.</p>"
+      "description": "<p>一個@UUID[Compendium.dnd-players-handbook.equipment.Item.phbagCantripScro]{戲法法術卷軸}或<em>1環法術卷軸</em>是一種記載了戲法或1環法術的魔法物品，具體是哪一種由卷軸的創造者決定。如果該法術在你的職業法術列表中，你就可以閱讀這卷卷軸，並以法術的正常施法時間施放該法術，且無需提供任何材料成分。</p><p>如果法術要求豁免檢定或攻擊檢定，法術豁免DC為13，攻擊加值為+5。施法完成後，卷軸會煙消雲散。</p>"
     },
     "Scimitar": {
       "name": "彎刀"
@@ -771,7 +771,7 @@
       "name": "環甲"
     },
     "Constellations Scroll": {
-      "description": "<p>A scroll bearing depictions of constellations that can be used as a Spellcasting Focus by Circle of the Star Druids. It is a Tiny object.</p>",
+      "description": "<p>一張布滿星座圖列的卷軸，可以被用作星辰結社德魯伊的施法法器。其是一個微型物體。</p>",
       "name": "星座卷軸"
     },
     "Half Plate Armor": {
@@ -780,7 +780,7 @@
     "Poisoner's Kit": {
       "activities": {
         "Detect Poisoned Object": {
-          "name": "Detect Poisoned Object"
+          "name": "偵測有毒物體"
         }
       },
       "description": "<p class=\"phb-meta\"><strong>屬性：</strong>智力</p><p class=\"phb-meta\"><strong>使用：</strong> Detect a poisoned object (DC 10)</p><p class=\"phb-meta\"><strong>製作：</strong> @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagPoisonBasic]{Basic Poison}</p>",
@@ -790,16 +790,16 @@
       "name": "長柄刀"
     },
     "Net": {
-      "description": "<p>當你採取攻擊動作時，你可以投擲「」替換其中一次攻擊。a Net. Target a creature you can see within 15 feet of yourself. The target must succeed on a Dexterity saving throw (DC 8 plus your Dexterity modifier and Proficiency Bonus) or have the &amp;Reference[Restrained] condition until it escapes. The target succeeds automatically if it is Huge or larger.</p><p>To escape, the target or a creature within 5 feet of it must take an action to make a [[/skill ath 10]] check, freeing the Restrained creature on a success. Destroying the Net (AC 10; 5 HP; Immunity to Bludgeoning, Poison, and Psychic damage) also frees the target, ending the effect.</p>",
+      "description": "<p>當你採取攻擊動作時，你可以將你的一次攻擊替換為丟出一張捕網。你可以選擇位於你15呎內一個你所能看見的生物作為目標。該目標必須通過一次敏捷豁免（DC = 8 + 你的敏捷調整值 + 你的熟練加值），否則陷入&amp;Reference[Restrained]{束縛}狀態，直至掙脫為止。若目標的體型為巨型或更大，則自動通過豁免。</p><p>要掙脫，目標或位於其5呎內的生物必須使用一個動作進行一次[[/skill ath 10]]檢定，成功時即可解放被束縛的生物。摧毀捕網（AC 10；5 HP；對鈍擊、毒素和心靈傷害免疫）同樣能解放目標並結束效果。</p>",
       "effects": {
         "Caught in Net": {
-          "name": "Caught in Net"
+          "name": "被捕網纏住"
         }
       },
       "name": "捕網"
     },
     "Wand": {
-      "description": "<p>An @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagArcaneFocus]{Arcane Focus} is bejeweled or carved to channel arcane magic. A Sorcerer, Warlock, or Wizard can use such an item as a Spellcasting Focus.</p>",
+      "description": "<p>@UUID[Compendium.dnd-players-handbook.equipment.Item.phbagArcaneFocus]{奧術法器}鑲嵌著寶石或被雕刻過以引導奧術魔法。術士、契術師、法師可以使用這種物品作為施法法器。</p>",
       "name": "魔杖"
     },
     "Whip": {
@@ -813,24 +813,24 @@
       "name": "重弩"
     },
     "Sprig of mistletoe": {
-      "description": "<p>A @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagDruidicFocu]{Druidic Focus} takes one of the forms in the Druidic Focuses table and is carved, tied with ribbon, or painted to channel primal magic. A Druid or Ranger can use such an object as a Spellcasting Focus.</p>",
+      "description": "<p>@UUID[Compendium.dnd-players-handbook.equipment.Item.phbagDruidicFocu]{德魯伊法器}是德魯伊法器表中列出的其中一種形式，並經由雕刻、綁上緞帶或彩繪來引導原初魔法。德魯伊或遊俠可以使用這種物品作為施法法器。</p>",
       "name": "槲寄生枝"
     },
     "Orb": {
-      "description": "<p>An @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagArcaneFocus]{Arcane Focus} is bejeweled or carved to channel arcane magic. A Sorcerer, Warlock, or Wizard can use such an item as a Spellcasting Focus.</p>",
+      "description": "<p>@UUID[Compendium.dnd-players-handbook.equipment.Item.phbagArcaneFocus]{奧術法器}鑲嵌著寶石或被雕刻過以引導奧術魔法。術士、契術師、法師可以使用這種物品作為施法法器。</p>",
       "name": "法球"
     },
     "Lock": {
-      "description": "<p>A Lock comes with a key. Without the key, a creature can use @UUID[Compendium.dnd-players-handbook.equipment.Item.phbtulThievesToo]{Thieves’ Tools} to pick this Lock with a successful [[/tool thief dex 15]] check.</p>",
+      "description": "<p>每把鎖都附有對應的鑰匙。若沒有鑰匙，生物可以使用@UUID[Compendium.dnd-players-handbook.equipment.Item.phbtulThievesToo]{盜賊工具}，成功通過一次[[/tool thief dex 15]]檢定來撬開這把鎖。</p>",
       "name": "鎖"
     },
     "Bell": {
-      "description": "<p>When rung as a Utilize action, a Bell produces a sound that can be heard up to 60 feet away.</p>",
+      "description": "<p>以一個利用動作搖響鈴鐺，會發出60呎內都能聽到的聲音。</p>",
       "name": "鈴鐺"
     },
     "Potion of Healing": {
       "name": "治療藥水",
-      "description": "<p>This potion is a magic item. As a Bonus Action, you can drink it or administer it to another creature within 5 feet of yourself. The creature that drinks the magical red fluid in this vial regains 2d4 + 2 Hit Points.</p>"
+      "description": "<p>這瓶藥水是一種魔法物品。以一個附贈動作，你可以將其喝下，或將其餵給位於你5呎內的另一名生物。喝下這小瓶魔法紅色液體的生物能恢復2d4 + 2點生命值。</p>"
     },
     "Case, Crossbow Bolt": {
       "name": "弩矢匣",
@@ -841,32 +841,32 @@
     },
     "Dungeoneer's Pack": {
       "name": "地城探險家套裝",
-      "description": "<p>A Dungeoneer’s Pack contains the following items: @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagBackpack000]、@UUID[Compendium.dnd-players-handbook.equipment.Item.phbagCaltrops000]{Caltrops}、@UUID[Compendium.dnd-players-handbook.equipment.Item.phbagCrowbar0000]{Crowbar}, 2 flasks of @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagOil00000000]{Oil}, 10 days of @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagRations0000]{Rations}、@UUID[Compendium.dnd-players-handbook.equipment.Item.phbagRope0000000]{Rope}、@UUID[Compendium.dnd-players-handbook.equipment.Item.phbagTinderbox00]{Tinderbox}, 10 @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagTorch000000]{Torches}, and @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagWaterskin00]{Waterskin}.</p>"
+      "description": "<p>地城探險家套裝包含以下物品：@UUID[Compendium.dnd-players-handbook.equipment.Item.phbagBackpack000]{背包}、@UUID[Compendium.dnd-players-handbook.equipment.Item.phbagCaltrops000]{鐵蒺藜}、@UUID[Compendium.dnd-players-handbook.equipment.Item.phbagCrowbar0000]{撬棍}、2扁瓶@UUID[Compendium.dnd-players-handbook.equipment.Item.phbagOil00000000]{燃油}、10天份的@UUID[Compendium.dnd-players-handbook.equipment.Item.phbagRations0000]{口糧}、@UUID[Compendium.dnd-players-handbook.equipment.Item.phbagRope0000000]{繩索}、@UUID[Compendium.dnd-players-handbook.equipment.Item.phbagTinderbox00]{打火匣}、10根@UUID[Compendium.dnd-players-handbook.equipment.Item.phbagTorch000000]{火炬}和@UUID[Compendium.dnd-players-handbook.equipment.Item.phbagWaterskin00]{水袋}。</p>"
     },
     "Chain Mail": {
       "name": "鎖子甲"
     },
     "Needles": {
       "name": "吹箭",
-      "description": "<p><em><strong>Storage:</strong> @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagPouch000000]{Pouch}</em></p><p>@UUID[Compendium.dnd-players-handbook.equipment.Item.phbagAmmunitionV]{Ammunition} is required by a weapon that has the Ammunition property. A weapon’s description specifies the type of ammunition used by the weapon. The Ammunition table lists the different types and the amount you get when you buy them. The table also lists the item that is typically used to store each type; storage must be bought separately.</p>"
+      "description": "<p><em><strong>容器：</strong> @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagPouch000000]{囊袋}</em></p><p>具有彈藥詞條的武器需要@UUID[Compendium.dnd-players-handbook.equipment.Item.phbagAmmunitionV]{彈藥}才能發射。武器的描述部分會指定這把武器需要哪種彈藥。彈藥表列出了不同類型的彈藥，以及購買這些彈藥時一份能買到多少枚。表格還會列出這些彈藥通常需要哪種容器存放；容器必須要單獨購買。</p>"
     },
     "Fine Clothes": {
       "name": "高級服裝",
-      "description": "<p>Set of clothes designed specifically to be expensive and show it.</p>"
+      "description": "<p>一套專門設計成昂貴並用以展示的服裝。</p>"
     },
     "Shield": {
       "name": "護盾術",
-      "description": "<p>You gain the Armor Class benefit of a Shield only if you have training with it.</p>"
+      "description": "<p>僅在你擁有盾牌訓練時，才能獲得其護甲等級的好處。</p>"
     },
     "Halberd": {
       "name": "斧槍"
     },
     "Pole": {
-      "description": "<p>A Pole is 10 feet long. You can use it to touch something up to 10 feet away. If you must make a Strength (Athletics) check as part of a High or Long Jump, you can use the Pole to vault, giving yourself Advantage on the check.</p>",
+      "description": "<p>一根長桿長10呎。你可以用其觸碰10呎外的東西。如果你需要為跳高或跳遠進行力量（運動）檢定，你可以使用長桿撐竿跳，讓該次檢定具有優勢。</p>",
       "name": "長桿"
     },
     "Scholar's Pack": {
-      "description": "<p>A Scholar’s Pack contains the following items: @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagBackpack000]、@UUID[Compendium.dnd-players-handbook.equipment.Item.phbagBook0000000]{Book}、@UUID[Compendium.dnd-players-handbook.equipment.Item.phbagInk00000000]{Ink}、@UUID[Compendium.dnd-players-handbook.equipment.Item.phbagInkPen00000]{Ink Pen}、@UUID[Compendium.dnd-players-handbook.equipment.Item.phbagLamp0000000]{Lamp}, 10 flasks of @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagOil00000000]{Oil}, 10 sheets of @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagParchment00]{Parchment}, and @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagTinderbox00]{Tinderbox}.</p>",
+      "description": "<p>學者套裝包含以下物品：@UUID[Compendium.dnd-players-handbook.equipment.Item.phbagBackpack000]{背包}、@UUID[Compendium.dnd-players-handbook.equipment.Item.phbagBook0000000]{書}、@UUID[Compendium.dnd-players-handbook.equipment.Item.phbagInk00000000]{墨水}、@UUID[Compendium.dnd-players-handbook.equipment.Item.phbagInkPen00000]{墨水筆}、@UUID[Compendium.dnd-players-handbook.equipment.Item.phbagLamp0000000]{油燈}、10扁瓶@UUID[Compendium.dnd-players-handbook.equipment.Item.phbagOil00000000]{燃油}、10張@UUID[Compendium.dnd-players-handbook.equipment.Item.phbagParchment00]{羊皮紙}和@UUID[Compendium.dnd-players-handbook.equipment.Item.phbagTinderbox00]{打火匣}。</p>",
       "name": "學者套裝"
     },
     "Three-dragon ante": {
@@ -882,7 +882,7 @@
       "name": "三龍牌"
     },
     "Perfume": {
-      "description": "<p>Perfume comes in a 4-ounce vial. For 1 hour after applying Perfume to yourself, you have Advantage on 魅力 (Persuasion) checks made to influence an Indifferent Humanoid within 5 feet of yourself.</p>",
+      "description": "<p>香水通常裝在4盎司的小瓶裡。為自己塗上香水後的1小時內，你對位於你5呎內、態度為冷漠的類人生物進行影響時所做的魅力（說服）檢定具有優勢。</p>",
       "name": "香水"
     },
     "Viol": {
@@ -907,7 +907,7 @@
       "description": "<p class=\"phb-meta\"><strong>屬性：</strong>感知</p><p class=\"phb-meta\"><strong>使用：</strong> Draft a map of a small area (DC 15)</p><p class=\"phb-meta\"><strong>製作：</strong> @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagMap00000000]{Map}</p>"
     },
     "Staff": {
-      "description": "<p>An @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagArcaneFocus]{Arcane Focus} is bejeweled or carved to channel arcane magic. A Sorcerer, Warlock, or Wizard can use such an item as a Spellcasting Focus.</p><p>This item also functions as a @UUID[Compendium.dnd-players-handbook.equipment.Item.phbwepQuartersta]{Quarterstaff}</p><section class=\"secret\" id=\"secret-wJ4SJVg9unbYSBJb\"><p><strong>Foundry Note</strong></p><p>This item has been configured with the additional properties of a Quarterstaff.</p></section>",
+      "description": "<p>@UUID[Compendium.dnd-players-handbook.equipment.Item.phbagArcaneFocus]{奧術法器}鑲嵌著寶石或被雕刻過以引導奧術魔法。術士、契術師、法師可以使用這種物品作為施法法器。</p><p>此物品也當作@UUID[Compendium.dnd-players-handbook.equipment.Item.phbwepQuartersta]{長棍}使用。</p><section class=\"secret\" id=\"secret-wJ4SJVg9unbYSBJb\"><p><strong>Foundry註記</strong></p><p>此物品已配有長棍額外的屬性。</p></section>",
       "name": "法杖"
     },
     "Painter's Supplies": {
@@ -915,7 +915,7 @@
       "name": "畫家設備",
       "activities": {
         "Paint a Recognizable Image": {
-          "name": "Paint a Recognizable Image"
+          "name": "繪製一幅高辨識度的圖像"
         }
       }
     },
@@ -928,7 +928,7 @@
     },
     "Holy Symbol (Varies)": {
       "name": "聖徽（多類）",
-      "description": "<p>A Holy Symbol takes one of the forms in the Holy Symbol table and is bejeweled or painted to channel divine magic. A Cleric or Paladin can use a Holy Symbol as a Spellcasting Focus.</p><p>The table indicates whether a Holy Symbol needs to be held, worn, or borne on fabric (such as a tabard or banner) or a Shield.</p><table><caption>Holy Symbols</caption><thead><tr><td>Symbol</td><td>Weight</td><td>Cost</td></tr></thead><tbody><tr><td>@UUID[Compendium.dnd-players-handbook.equipment.Item.phbhsyAmuletworn]{Amulet} (worn or held)</td><td>1 lb.</td><td>5 GP</td></tr><tr><td>@UUID[Compendium.dnd-players-handbook.equipment.Item.phbhsyEmblemborn]{Emblem} (borne on fabric or a Shield)</td><td>—</td><td>5 GP</td></tr><tr><td>@UUID[Compendium.dnd-players-handbook.equipment.Item.phbhsyReliquaryh]{Reliquary} (held)</td><td>2 lb.</td><td>5 GP</td></tr></tbody></table>"
+      "description": "<p>聖徽是一種以寶石鑲嵌或彩繪來引導神聖魔法的物品，會以聖徽表中列出的其中一種形式存在。牧師和聖騎士可以使用聖徽作為施法法器。</p><p>表格會說明各種聖徽需要手持、佩戴，或是承載於織物（例如披風或旗幟）或盾牌上。</p><table><caption>聖徽</caption><thead><tr><td>徽章</td><td>重量</td><td>價格</td></tr></thead><tbody><tr><td>@UUID[Compendium.dnd-players-handbook.equipment.Item.phbhsyAmuletworn]{護符}（佩戴或手持）</td><td>1磅</td><td>5GP</td></tr><tr><td>@UUID[Compendium.dnd-players-handbook.equipment.Item.phbhsyEmblemborn]{徽章}（承載於織物或盾牌上）</td><td>—</td><td>5GP</td></tr><tr><td>@UUID[Compendium.dnd-players-handbook.equipment.Item.phbhsyReliquaryh]{聖物匣}（手持）</td><td>2磅</td><td>5GP</td></tr></tbody></table>"
     },
     "Dragonchess": {
       "description": "<p><strong>屬性：</strong>感知</p><p class=\"phb-meta\"><strong>使用：</strong>辨別某人是否作弊（DC 10），或贏得這場遊戲（DC 20）</p>",
@@ -943,16 +943,16 @@
       "name": "龍棋"
     },
     "Arcane Focus (Varies)": {
-      "description": "<p>An Arcane Focus takes one of the forms in the Arcane Focuses table and is bejeweled or carved to channel arcane magic. A Sorcerer, Warlock, or Wizard can use such an item as a Spellcasting Focus.</p><table><caption>Arcane Focuses</caption><thead><tr><td>Focus</td><td>Weight</td><td>Cost</td></tr></thead><tbody><tr><td>@UUID[Compendium.dnd-players-handbook.equipment.Item.phbafcCrystal000]{Crystal}</td><td>1 lb.</td><td>10 GP</td></tr><tr><td>@UUID[Compendium.dnd-players-handbook.equipment.Item.phbafcOrb0000000]{Orb}</td><td>3 lb.</td><td>20 GP</td></tr><tr><td>@UUID[Compendium.dnd-players-handbook.equipment.Item.phbafcRod0000000]{Rod}</td><td>2 lb.</td><td>10 GP</td></tr><tr><td>@UUID[Compendium.dnd-players-handbook.equipment.Item.phbafcStaffalsoa]{Staff} (also a @UUID[Compendium.dnd-players-handbook.equipment.Item.phbwepQuartersta]{Quarterstaff})</td><td>4 lb.</td><td>5 GP</td></tr><tr><td>@UUID[Compendium.dnd-players-handbook.equipment.Item.phbafcWand000000]{Wand}</td><td>1 lb.</td><td>10 GP</td></tr></tbody></table>",
+      "description": "<p>奧術法器是奧術法器表中列出的其中一種形式，並鑲嵌寶石或雕刻以引導奧術魔法。術士、契術師或法師可以使用這種物品作為施法法器。</p><table><caption>奧術法器</caption><thead><tr><td>法器</td><td>重量</td><td>價格</td></tr></thead><tbody><tr><td>@UUID[Compendium.dnd-players-handbook.equipment.Item.phbafcCrystal000]{水晶}</td><td>1磅</td><td>10GP</td></tr><tr><td>@UUID[Compendium.dnd-players-handbook.equipment.Item.phbafcOrb0000000]{法球}</td><td>3磅</td><td>20GP</td></tr><tr><td>@UUID[Compendium.dnd-players-handbook.equipment.Item.phbafcRod0000000]{權杖}</td><td>2磅</td><td>10GP</td></tr><tr><td>@UUID[Compendium.dnd-players-handbook.equipment.Item.phbafcStaffalsoa]{法杖}（也視作@UUID[Compendium.dnd-players-handbook.equipment.Item.phbwepQuartersta]{長棍}）</td><td>4磅</td><td>5GP</td></tr><tr><td>@UUID[Compendium.dnd-players-handbook.equipment.Item.phbafcWand000000]{魔杖}</td><td>1磅</td><td>10GP</td></tr></tbody></table>",
       "name": "奧術法器（多類）"
     },
     "Ammunition (Varies)": {
       "name": "彈藥（多類）",
-      "description": "<p>Ammunition is required by a weapon that has the Ammunition property. A weapon’s description specifies the type of ammunition used by the weapon. The Ammunition table lists the different types and the amount you get when you buy them. The table also lists the item that is typically used to store each type; storage must be bought separately.</p><table><caption>Ammunition</caption><thead><tr><td>Type</td><td>Amount</td><td>Storage</td><td>Weight</td><td>Cost</td></tr></thead><tbody><tr><td>@UUID[Compendium.dnd-players-handbook.equipment.Item.phbamoArrows0000]{Arrows}</td><td>20</td><td>@UUID[Compendium.dnd-players-handbook.equipment.Item.phbagQuiver00000]{Quiver}</td><td>1 lb.</td><td>1 GP</td></tr><tr><td>@UUID[Compendium.dnd-players-handbook.equipment.Item.phbamoBolts00000]{Bolts}</td><td>20</td><td>@UUID[Compendium.dnd-players-handbook.equipment.Item.phbagCaseCrossbo]{Case}</td><td>1½ lb.</td><td>1 GP</td></tr><tr><td>@UUID[Compendium.dnd-players-handbook.equipment.Item.phbamoBulletsFir]{Bullets, Firearm}</td><td>10</td><td>@UUID[Compendium.dnd-players-handbook.equipment.Item.phbagPouch000000]{Pouch}</td><td>2 lb.</td><td>3 GP</td></tr><tr><td>@UUID[Compendium.dnd-players-handbook.equipment.Item.phbamoBulletsSli]{Bullets, Sling}</td><td>20</td><td>@UUID[Compendium.dnd-players-handbook.equipment.Item.phbagPouch000000]{Pouch}</td><td>1½ lb.</td><td>4 CP</td></tr><tr><td>@UUID[Compendium.dnd-players-handbook.equipment.Item.phbamoNeedles000]{Needles}</td><td>50</td><td>@UUID[Compendium.dnd-players-handbook.equipment.Item.phbagPouch000000]{Pouch}</td><td>1 lb.</td><td>1 GP</td></tr></tbody></table>"
+      "description": "<p>具有彈藥詞條的武器需要彈藥才能發射。武器的描述部分會指定這把武器需要哪種彈藥。彈藥表列出了不同類型的彈藥，以及購買這些彈藥時一份能買到多少枚。表格還會列出這些彈藥通常需要哪種容器存放；容器必須要單獨購買。</p><table><caption>彈藥</caption><thead><tr><td>種類</td><td>份量</td><td>容器</td><td>重量</td><td>價格</td></tr></thead><tbody><tr><td>@UUID[Compendium.dnd-players-handbook.equipment.Item.phbamoArrows0000]{箭矢}</td><td>20</td><td>@UUID[Compendium.dnd-players-handbook.equipment.Item.phbagQuiver00000]{箭袋}</td><td>1磅</td><td>1GP</td></tr><tr><td>@UUID[Compendium.dnd-players-handbook.equipment.Item.phbamoBolts00000]{弩矢}</td><td>20</td><td>@UUID[Compendium.dnd-players-handbook.equipment.Item.phbagCaseCrossbo]{弩矢匣}</td><td>1.5磅</td><td>1GP</td></tr><tr><td>@UUID[Compendium.dnd-players-handbook.equipment.Item.phbamoBulletsFir]{火器子彈}</td><td>10</td><td>@UUID[Compendium.dnd-players-handbook.equipment.Item.phbagPouch000000]{囊袋}</td><td>2磅</td><td>3GP</td></tr><tr><td>@UUID[Compendium.dnd-players-handbook.equipment.Item.phbamoBulletsSli]{投石索子彈}</td><td>20</td><td>@UUID[Compendium.dnd-players-handbook.equipment.Item.phbagPouch000000]{囊袋}</td><td>1.5磅</td><td>4CP</td></tr><tr><td>@UUID[Compendium.dnd-players-handbook.equipment.Item.phbamoNeedles000]{吹箭}</td><td>50</td><td>@UUID[Compendium.dnd-players-handbook.equipment.Item.phbagPouch000000]{囊袋}</td><td>1磅</td><td>1GP</td></tr></tbody></table>"
     },
     "Ram, Portable": {
-      "description": "<p>You can use a Portable Ram to break down doors. When doing so, you gain a +4 bonus to the Strength check. One other character can help you use the ram, giving you Advantage on this check.</p>",
-      "name": "Ram, Portable"
+      "description": "<p>你可以使用便攜式攻城錘撞破門。這麼做時，你在力量檢定上獲得+4加值。另一名角色可以協助你使用攻城錘，讓你這次檢定具有優勢。</p>",
+      "name": "便攜式攻城錘"
     },
     "Cobbler's Tools": {
       "activities": {
@@ -965,18 +965,18 @@
     },
     "Climber's Kit": {
       "name": "攀爬工具組",
-      "description": "<p>A Climber’s Kit includes boot tips, gloves, pitons, and a harness. As a Utilize action, you can use the Climber’s Kit to anchor yourself; when you do, you can’t fall more than 25 feet from the anchor point, and you can’t move more than 25 feet from there without undoing the anchor as a Bonus Action.</p>"
+      "description": "<p>一套攀爬工具組包含鞋頭護套、手套、岩釘和安全帶。以一個利用動作，你可以使用攀爬工具組將自己錨定；錨定後，你不會從錨定點墜落超過25呎，且在以附贈動作解除錨定之前，無法從該處移動超過25呎。</p>"
     },
     "Spell Scroll, Cantrip": {
       "name": "戲法法術卷軸",
-      "description": "<p>A <em>Spell Scroll</em> (Cantrip) or @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagSpellScroll]{Spell Scroll (Level 1)} is a magic item that bears the words of a cantrip or level 1 spell, respectively, determined by the scroll’s creator. If the spell is on your class’s spell list, you can read the scroll and cast the spell using its normal casting time and without providing any Material components.</p><p>If the spell requires a saving throw or an attack roll, the spell save DC is 13, and the attack bonus is +5. The scroll disintegrates when the casting is completed.</p>"
+      "description": "<p>一個<em>戲法法術卷軸</em>或@UUID[Compendium.dnd-players-handbook.equipment.Item.phbagSpellScroll]{1環法術卷軸}是一種記載了戲法或1環法術的魔法物品，具體是哪一種由卷軸的創造者決定。如果該法術在你的職業法術列表中，你就可以閱讀這卷卷軸，並以法術的正常施法時間施放該法術，且無需提供任何材料成分。</p><p>如果法術要求豁免檢定或攻擊檢定，法術豁免DC為13，攻擊加值為+5。施法完成後，卷軸會煙消雲散。</p>"
     },
     "Explorer's Pack": {
       "name": "探索者套裝",
-      "description": "<p>An Explorer’s Pack contains the following items: @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagBackpack000]、@UUID[Compendium.dnd-players-handbook.equipment.Item.phbagBedroll0000]、2 flasks of @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagOil00000000]{Oil}, 10 days of @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagRations0000]{Rations}、@UUID[Compendium.dnd-players-handbook.equipment.Item.phbagRope0000000]{Rope}、@UUID[Compendium.dnd-players-handbook.equipment.Item.phbagTinderbox00]{Tinderbox}, 10 @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagTorch000000]{Torches}, and @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagWaterskin00]{Waterskin}.</p>"
+      "description": "<p>探索者套裝包含以下物品：@UUID[Compendium.dnd-players-handbook.equipment.Item.phbagBackpack000]{背包}、@UUID[Compendium.dnd-players-handbook.equipment.Item.phbagBedroll0000]{睡袋}、2扁瓶@UUID[Compendium.dnd-players-handbook.equipment.Item.phbagOil00000000]{燃油}、10天份的@UUID[Compendium.dnd-players-handbook.equipment.Item.phbagRations0000]{口糧}、@UUID[Compendium.dnd-players-handbook.equipment.Item.phbagRope0000000]{繩索}、@UUID[Compendium.dnd-players-handbook.equipment.Item.phbagTinderbox00]{打火匣}、10根@UUID[Compendium.dnd-players-handbook.equipment.Item.phbagTorch000000]{火炬}和@UUID[Compendium.dnd-players-handbook.equipment.Item.phbagWaterskin00]{水袋}。</p>"
     },
     "Costume": {
-      "description": "<p>穿著戲服時，你在模仿他人或you have Advantage on any ability check you make to impersonate the person or type of person it represents.</p>",
+      "description": "<p>穿著戲服時，你為了模仿其所代表的某人或某類人所做的任何屬性檢定都具有優勢。</p>",
       "name": "戲服"
     },
     "Potter's Tools": {
@@ -989,8 +989,8 @@
       "name": "陶匠工具"
     },
     "Ebony-bound Atlas": {
-      "description": "<p>A collection of maps bound in an ebony cover that can be used as a Spellcasting Focus by Circle of the Star Druids. It is a Tiny object.</p>",
-      "name": "Ebony-bound Atlas"
+      "description": "<p>一套黑檀木封皮的星圖集，可以被用作星辰結社德魯伊的施法法器。其是一個微型物體。</p>",
+      "name": "黑檀木封皮星圖集"
     },
     "Jeweler's Tools": {
       "description": "<p class=\"phb-meta\"><strong>屬性：</strong>智力</p><p class=\"phb-meta\"><strong>使用：</strong> Discern a gem’s value (DC 15)</p><p class=\"phb-meta\"><strong>製作：</strong> Arcane Focus, Holy Symbol</p>",
@@ -1002,19 +1002,19 @@
       "name": "珠寶匠工具"
     },
     "Oil": {
-      "name": "油",
-      "description": "<p>You can douse a creature, object, or space with Oil or use it as fuel, as detailed below.</p><p><strong>Dousing a Creature or an Object.</strong> 當你採取攻擊動作時，你可以投擲「」替換其中一次攻擊。an Oil flask. Target one creature or object within 20 feet of yourself. The target must succeed on a Dexterity saving throw (DC 8 plus your Dexterity modifier and Proficiency Bonus) or be covered in oil. If the target takes Fire damage before the oil dries (after 1 minute), the target takes an extra [[/damage 5 type=fire]] damage from burning oil.</p><p><strong>Dousing a Space.</strong> You can take the Utilize action to pour an Oil flask on level ground to cover a 5-foot-square area within 5 feet of yourself. If lit, the oil burns until the end of the turn 2 rounds from when the oil was lit (or 12 seconds) and deals 5 Fire damage to any creature that enters the area or ends its turn there. A creature can take this damage only once per turn.</p><p><strong>Fuel.</strong> Oil serves as fuel for Lamps and Lanterns. Once lit, a flask of Oil burns for 6 hours in a Lamp or Lantern. That duration doesn’t need to be consecutive; you can extinguish the burning Oil (as a Utilize action) and rekindle it again until it has burned for a total of 6 hours.</p>",
+      "name": "燃油",
+      "description": "<p>你可以將燃油潑在生物、物體或一處空間上，也可以將燃油作為燃料使用，詳細如下。</p><p><strong>【潑灑生物或物體】</strong>當你採取攻擊動作時，你可以將你的一次攻擊替換為丟出一扁瓶燃油。你可以選擇位於你20呎內一個你所能看見的生物或物體作為目標。該目標必須通過一次敏捷豁免（DC = 8 + 你的敏捷調整值 + 你的熟練加值），否則被燃油覆蓋。如果目標在燃油揮發前（1分鐘後）受到火焰傷害，則目標因燃燒的燃油受到額外[[/damage 5 type=fire]]點傷害。</p><p><strong>【潑灑空間】</strong>你可以採取利用動作，將一扁瓶燃油潑在水平地面上，覆蓋你周圍5呎內一塊5呎方型區域。點燃後，燃油會持續燃燒直到從點燃時算起的第2輪回合結束（或12秒），任何進入該區域或在該區域結束其回合的生物都會受到5點火焰傷害。同一生物每回合只會受到一次該傷害。</p><p><strong>【燃料】</strong>燃油可作為油燈和提燈的燃料。一旦點燃，一扁瓶燃油可在油燈或提燈中持續燃燒6小時。持續時間不需要連續；你可以（以一個利用動作）熄滅燃燒中的燃油，並在之後再次點燃，直到總共燃燒了6小時。</p>",
       "activities": {
         "Throw": {
           "name": "投擲"
         },
         "Douse Space": {
-          "name": "Douse Space"
+          "name": "潑灑至空間"
         }
       }
     },
     "Robe": {
-      "description": "<p>A Robe has vocational or ceremonial significance. Some events and locations admit only people wearing a Robe bearing certain colors or symbols.</p>",
+      "description": "<p>法袍通常具有職業或儀式上的特殊意義。有些活動和場合只允許穿著帶有特定顏色或符號的法袍的人參加。</p>",
       "name": "法袍"
     },
     "Playing Cards": {
@@ -1036,7 +1036,7 @@
       "name": "烏銃"
     },
     "Jug": {
-      "description": "<p>A Jug holds up to 1 gallon.</p>",
+      "description": "<p>壺具有1加侖的容量。</p>",
       "name": "壺"
     },
     "Vial": {
@@ -1049,7 +1049,7 @@
     },
     "String": {
       "name": "弦線",
-      "description": "<p>String is 10 feet long. You can tie a knot in it as a Utilize action.</p>"
+      "description": "<p>弦線長10呎。你可以用一個利用動作在它上面打一個結。</p>"
     },
     "Flail": {
       "name": "連枷"
@@ -1059,7 +1059,7 @@
     },
     "Entertainer's Pack": {
       "name": "表演家套裝",
-      "description": "<p>An Entertainer’s Pack contains the following items: @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagBackpack000]、@UUID[Compendium.dnd-players-handbook.equipment.Item.phbagBedroll0000]、@UUID[Compendium.dnd-players-handbook.equipment.Item.phbagBell0000000]{Bell}、@UUID[Compendium.dnd5e.items.Item.UkWdyJYQTfVX2cJW]、3 @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagCostume0000]{Costumes}、@UUID[Compendium.dnd-players-handbook.equipment.Item.phbagMirror00000]{Mirror}, 8 flasks of @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagOil00000000]{Oil}, 9 days of @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagRations0000]{Rations}、@UUID[Compendium.dnd-players-handbook.equipment.Item.phbagTinderbox00]{Tinderbox}, and @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagWaterskin00]{Waterskin}.</p>"
+      "description": "<p>表演家套裝包含以下物品：@UUID[Compendium.dnd-players-handbook.equipment.Item.phbagBackpack000]{背包}、@UUID[Compendium.dnd-players-handbook.equipment.Item.phbagBedroll0000]{睡袋}、@UUID[Compendium.dnd-players-handbook.equipment.Item.phbagBell0000000]{鈴鐺}、@UUID[Compendium.dnd5e.items.Item.UkWdyJYQTfVX2cJW]{牛眼提燈}、3套@UUID[Compendium.dnd-players-handbook.equipment.Item.phbagCostume0000]{戲服}、@UUID[Compendium.dnd-players-handbook.equipment.Item.phbagMirror00000]{鏡子}、8扁瓶@UUID[Compendium.dnd-players-handbook.equipment.Item.phbagOil00000000]{燃油}、9天份的@UUID[Compendium.dnd-players-handbook.equipment.Item.phbagRations0000]{口糧}、@UUID[Compendium.dnd-players-handbook.equipment.Item.phbagTinderbox00]{打火匣}和@UUID[Compendium.dnd-players-handbook.equipment.Item.phbagWaterskin00]{水袋}。</p>"
     },
     "Padded Armor": {
       "name": "綿甲"
@@ -1089,18 +1089,18 @@
     },
     "Reliquary": {
       "name": "聖物匣",
-      "description": "<p><em><strong>Usage Requirement: </strong>Held</em></p><p>A @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagHolySymbolV]{Holy Symbol} takes one of the forms in the Holy Symbol table and is bejeweled or painted to channel divine magic. A Cleric or Paladin can use a Holy Symbol as a Spellcasting Focus.</p>"
+      "description": "<p><em><strong>使用需求：</strong>手持</em></p><p>@UUID[Compendium.dnd-players-handbook.equipment.Item.phbagHolySymbolV]{聖徽}是一種以寶石鑲嵌或彩繪來引導神聖魔法的物品，會以聖徽表中列出的其中一種形式存在。牧師和聖騎士可以使用聖徽作為施法法器。</p>"
     },
     "Spear": {
       "name": "矛"
     },
     "Crowbar": {
-      "description": "<p>Using a Crowbar gives you Advantage on Strength checks where the Crowbar’s leverage can be applied.</p>",
+      "description": "<p>在能夠施力撬動的地方使用撬棍，能讓你在相關的力量檢定上獲得優勢。</p>",
       "name": "撬棍"
     },
     "Clothes, Fine": {
       "name": "高級服裝",
-      "description": "<p>Fine Clothes are made of expensive fabrics and adorned with expertly crafted details. Some events and locations admit only people wearing these clothes.</p>"
+      "description": "<p>高級服裝使用昂貴的布料製成，並綴有精心打造的細節。部分活動和場合只允許穿著高級服裝的人參加。</p>"
     },
     "Leatherworker's Tools": {
       "activities": {
@@ -1112,8 +1112,8 @@
       "description": "<p class=\"phb-meta\"><strong>屬性：</strong>敏捷</p><p class=\"phb-meta\"><strong>使用：</strong> Add a design to a leather item (DC 10)</p><p class=\"phb-meta\"><strong>製作：</strong> @UUID[Compendium.dnd-players-handbook.equipment.Item.phbwepSling00000]{Sling}、@UUID[Compendium.dnd-players-handbook.equipment.Item.phbwepWhip000000]{Whip}、@UUID[Compendium.dnd-players-handbook.equipment.Item.phbarmHideArmor0]{Hide Armor}、@UUID[Compendium.dnd-players-handbook.equipment.Item.phbarmLeatherArm]{Leather Armor}、@UUID[Compendium.dnd-players-handbook.equipment.Item.phbarmStuddedLea]{Studded Leather Armor}、@UUID[Compendium.dnd-players-handbook.equipment.Item.phbagBackpack000]、@UUID[Compendium.dnd5e.items.Item.eJtPBiZtr2pp6ynt]{Crossbow Bolt Case}、@UUID[Compendium.dnd-players-handbook.equipment.Item.phbagCaseMaporSc]{Map or Scroll Case}、@UUID[Compendium.dnd-players-handbook.equipment.Item.phbagParchment00]{Parchment}、@UUID[Compendium.dnd-players-handbook.equipment.Item.phbagPouch000000]{Pouch}、@UUID[Compendium.dnd-players-handbook.equipment.Item.phbagQuiver00000]{Quiver}、@UUID[Compendium.dnd-players-handbook.equipment.Item.phbagWaterskin00]{Waterskin}</p>"
     },
     "Spikes, Iron": {
-      "description": "<p>Iron Spikes come in bundles of ten. As a Utilize action, you can use a blunt object, such as a Light Hammer, to hammer a spike into wood, earth, or a similar material. You can do so to jam a door shut or to then tie a Rope or Chain to the Spike.</p>",
-      "name": "Spikes, Iron"
+      "description": "<p>鐵釘以十支為一組。以一個利用動作，你可以使用鈍器（例如輕錘）將鐵釘錘入木頭、土地或類似的材質。你可以藉此卡死一扇門，或是將繩索或鎖鏈綁在鐵釘上。</p>",
+      "name": "鐵釘"
     },
     "Light Crossbow": {
       "name": "輕弩"
@@ -1150,8 +1150,8 @@
       "name": "長劍"
     },
     "Etched Glass Disk": {
-      "description": "<p>A glass disk etched with constellations that can be used as a Spellcasting Focus by Circle of the Star Druids. It is a Tiny object.</p>",
-      "name": "Etched Glass Disk"
+      "description": "<p>刻有圖案的玻璃圓盤，可以被用作星辰結社德魯伊的施法法器。其是一個微型物體。</p>",
+      "name": "刻有圖案的玻璃圓盤"
     },
     "Sling": {
       "name": "投石索"
@@ -1160,7 +1160,7 @@
       "name": "皮甲"
     },
     "Improvised Weapon": {
-      "name": "Improvised Weapon",
+      "name": "臨時武器",
       "description": "<p>@Embed[Compendium.dnd-players-handbook.content.JournalEntry.phbAppendixCRule.JournalEntryPage.Dyw6b9rQIdbkIIQD inline]</p>"
     }
   },
