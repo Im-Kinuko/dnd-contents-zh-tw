@@ -7,7 +7,7 @@
     },
     "Aid": {
       "name": "援助術",
-      "description": "<p>選擇射程內至多三個生物。每個目標的最大生命值和當前生命值在法術持續時間內提升5點。</p><p><strong>【升環施法效應】 </strong>法術位每升一個環階，每個目標的生命值就額外提高5點。</p><section id=\"secret-u9DpSmufNhFMDGmN\" class=\"secret\"><p><strong>Foundry Note</strong></p><p>The default <strong>Heal</strong> activity is configured with multiple Active Effects representing the temporary maximum Hit Points provided by this spell.</p><p>Users should apply the appropriate Active Effect for the spell slot level used in the casting of this spell.</p></section>",
+      "description": "<p>選擇射程內至多三個生物。每個目標的最大生命值和當前生命值在法術持續時間內提升5點。</p><p><strong>【升環法術效應】</strong>法術位每升一個環階，每個目標的生命值就額外提高5點。</p><section id=\"secret-u9DpSmufNhFMDGmN\" class=\"secret\"><p><strong>Foundry 註記</strong></p><p>預設的「<strong>治療</strong>」行動被設定為多個主動效果，用以代表此法術所提供的暫時生命值上限。</p><p>使用者應依施放此法術所用的法術位環階，套用對應的主動效果。</p></section>",
       "effects": {
         "Level 6: +25 Max HP": {
           "name": "6環：+25最大HP",
@@ -57,7 +57,7 @@
     },
     "Alter Self": {
       "name": "變造自身",
-      "description": "<p>你變換了自身物理形態。從下列效果選項中選擇其中一項。其效果維持至其持續時間結束，在此期間你可以採取一個魔法動作，在選項間切換。</p><p><strong>【水中適應】</strong>你長出鰓以及手指間的蹼。你可以在水下呼吸，且獲得等同於你步行速度的游泳速度。</p><section class=\"secret\" id=\"secret-7sTILHJaR1io7TWi\"><p><strong>Foundry Note</strong></p><p>The Active Effect provided by the <strong>Aquatic Adaptation</strong> activity upgrades the character's Swim Speed to a value of \"1\" to indicate equivalence to (walk) Speed.</p></section><p><strong>【改變外貌】</strong>你改變了自己的外貌。你決定自己的外觀，包括你的身高、體重、面容細節、聲音、髮長、膚色、以及其他顯著特徵。你可以讓自己看起來像是其他種族的一員，但你的角色數值並不會因此改變。你不能變成與你有著不同體型大小的生物，且你的基本身體輪廓保持原樣。例如，若你是兩足生物，則你不能使用此法術變為四足生物。在法術持續期間內，你可以採取一個魔法動作以此方法再次改變外貌。</p><p><strong>【天生武器】 </strong>你長出利爪（揮砍）、獠牙（穿刺）、犄角（穿刺）或獸蹄（鈍擊）。當你使用這些新生長的部位進行徒手打擊造成傷害時，其造成1d6括弧內指定類型的傷害，而非造成一般徒手打擊傷害。並且，你以施法屬性調整值進行攻擊檢定和傷害擲骰，而不是使用力量。</p>",
+      "description": "<p>你變換了自身物理形態。從下列效果選項中選擇其中一項。其效果維持至其持續時間結束，在此期間你可以採取一個魔法動作，在選項間切換。</p><p><strong>【水中適應】</strong>你長出鰓以及手指間的蹼。你可以在水下呼吸，且獲得等同於你步行速度的游泳速度。</p><section class=\"secret\" id=\"secret-7sTILHJaR1io7TWi\"><p><strong>Foundry 註記</strong></p><p>由「<strong>水中適應</strong>」行動所提供的主動效果，會將角色的游泳速度升級為「1」，表示與（步行）速度相同。</p></section><p><strong>【改變外貌】</strong>你改變了自己的外貌。你決定自己的外觀，包括你的身高、體重、面容細節、聲音、髮長、膚色、以及其他顯著特徵。你可以讓自己看起來像是其他種族的一員，但你的角色數值並不會因此改變。你不能變成與你有著不同體型大小的生物，且你的基本身體輪廓保持原樣。例如，若你是兩足生物，則你不能使用此法術變為四足生物。在法術持續期間內，你可以採取一個魔法動作以此方法再次改變外貌。</p><p><strong>【天生武器】</strong>你長出利爪（揮砍）、獠牙（穿刺）、犄角（穿刺）或獸蹄（鈍擊）。當你使用這些新生長的部位進行徒手打擊造成傷害時，其造成1d6括弧內指定類型的傷害，而非造成一般徒手打擊傷害。並且，你以施法屬性調整值進行攻擊檢定和傷害擲骰，而不是使用力量。</p>",
       "activities": {
         "Attack: Fangs/Horns": {
           "name": "獠牙/犄角攻擊"
@@ -104,11 +104,11 @@
     },
     "Animal Messenger": {
       "name": "動物信使",
-      "description": "<p>A Tiny Beast of your choice that you can see within range must succeed on a Charisma saving throw, or it attempts to deliver a message for you (if the target’s Challenge Rating isn’t 0, it automatically succeeds). You specify a location you have visited and a recipient who matches a general description, such as “a person dressed in the uniform of the town guard” or “a red-haired dwarf wearing a pointed hat.” You also communicate a message of up to twenty-five words. The Beast travels for the duration toward the specified location, covering about 25 miles per 24 hours or 50 miles if the Beast can fly.</p><p>When the Beast arrives, it delivers your message to the creature that you described, mimicking your communication. If the Beast doesn’t reach its destination before the spell ends, the message is lost, and the Beast returns to where you cast the spell.</p><p><strong>【升環法術效應】</strong> The spell’s duration increases by 48 hours for each spell slot level above 2.</p>",
+      "description": "<p>指定一隻你在射程內所能看見的微型野獸，該野獸必須通過一次魅力豁免，否則其將為你傳遞一則訊息（若目標的挑戰等級不是0，則自動通過豁免）。你指定一個你曾造訪過的地點，以及一位符合概略描述的收信人，例如「一個穿著城鎮守衛制服的人」或「一個戴著尖帽的紅髮矮人」。你還要傳達一段不超過二十五個單詞的訊息。野獸會在持續期間內前往指定地點，每24小時行進約25哩，若野獸能飛行則為50哩。</p><p>野獸抵達後，會模仿你的溝通方式，將你的訊息傳遞給你所描述的生物。若野獸在法術結束前未能抵達目的地，訊息就會遺失，野獸則返回你施放法術的地點。</p><p><strong>【升環法術效應】</strong>法術位每比2環高一環，此法術的持續時間就增加48小時。</p>",
       "effects": {
         "Carrying Message": {
-          "name": "Carrying Message",
-          "description": "<p>The Beast travels for the duration toward the specified location, covering about 25 miles per 24 hours or 50 miles if the Beast can fly.</p><p>When the Beast arrives, it delivers your message to the creature that you described, mimicking your communication. If the Beast doesn’t reach its destination before the spell ends, the message is lost, and the Beast returns to where you cast the spell.</p>"
+          "name": "傳遞訊息",
+          "description": "<p>野獸會在持續期間內前往指定地點，每24小時行進約25哩，若野獸能飛行則為50哩。</p><p>野獸抵達後，會模仿你的溝通方式，將你的訊息傳遞給你所描述的生物。若野獸在法術結束前未能抵達目的地，訊息就會遺失，野獸則返回你施放法術的地點。</p>"
         }
       }
     },
@@ -224,7 +224,7 @@
     },
     "Arcane Lock": {
       "name": "祕法鎖",
-      "description": "<p>You touch a closed door, window, gate, container, or hatch and magically lock it for the duration. This lock can’t be unlocked by any nonmagical means. You and any creatures you designate when you cast the spell can open and close the object despite the lock. You can also set a password that, when spoken within 5 feet of the object, unlocks it for 1 minute.</p>"
+      "description": "<p>你觸碰一扇關閉的門、窗、柵門、容器或艙口，並使其在持續期間內被魔法鎖住。這道鎖無法以任何非魔法方式解開。你和你在施法時指定的任何生物，都能無視此鎖來開啟和關閉該物件。你也可以設定一組密語，在該物件5呎內說出密語時，可將其解鎖1分鐘。</p>"
     },
     "Armor of Agathys": {
       "name": "艾嘉西斯之鎧",
@@ -261,7 +261,7 @@
     },
     "Augury": {
       "name": "卜筮",
-      "description": "<p>You receive an omen from an otherworldly entity about the results of a course of action that you plan to take within the next 30 minutes. The DM chooses the omen from the Omens table.</p><table><thead><tr><td>Omen</td><td>For Results That Will Be …</td></tr></thead><tbody><tr><td>Weal</td><td>Good</td></tr><tr><td>Woe</td><td>Bad</td></tr><tr><td>Weal and woe</td><td>Good and bad</td></tr><tr><td>Indifference</td><td>Neither good nor bad</td></tr></tbody></table><p>The spell doesn’t account for circumstances, such as other spells, that might change the results.</p><p>If you cast the spell more than once before finishing a Long Rest, there is a cumulative 25 percent chance for each casting after the first that you get no answer.</p>"
+      "description": "<p>你從異界存在處獲得一則預兆，預示你在接下來30分鐘內打算採取的一連串行動的結果。DM會從預兆表中選擇一則預兆。</p><table><thead><tr><td>預兆</td><td>預示著…</td></tr></thead><tbody><tr><td>吉</td><td>好的結果。</td></tr><tr><td>凶</td><td>壞的結果。</td></tr><tr><td>吉凶並存</td><td>結果既有好的方面，也有壞的方面。</td></tr><tr><td>無</td><td>結果並無明顯的好壞之分。</td></tr></tbody></table><p>此法術不會考量可能改變結果的其他情況，例如其他法術。</p><p>若你在完成一次長休之前不只施放一次此法術，那麼第一次之後的每次施放，都有累積25%的機率得不到任何答案。</p>"
     },
     "Aura of Life": {
       "name": "生命靈光",
@@ -347,10 +347,10 @@
     },
     "Barkskin": {
       "name": "樹膚術",
-      "description": "<p>You touch a willing creature. Until the spell ends, the target’s skin assumes a bark-like appearance, and the target has an Armor Class of 17 if its AC is lower than that.</p>",
+      "description": "<p>你觸碰一名自願的生物。直到法術結束前，目標的皮膚會呈現樹皮般的外觀，且若目標的AC低於17，則其AC變為17。</p>",
       "effects": {
         "Bark-like Skin": {
-          "name": "Bark-like Skin"
+          "name": "樹皮般的皮膚"
         }
       }
     },
@@ -366,7 +366,7 @@
     },
     "Beast Sense": {
       "name": "野獸知覺",
-      "description": "<p>You touch a willing Beast. For the duration, you can perceive through the Beast’s senses as well as your own. When perceiving through the Beast’s senses, you benefit from any special senses it has.</p>"
+      "description": "<p>你觸碰一隻自願的野獸。在持續期間內，你可以透過該野獸的感官以及你自己的感官來感知周遭。透過野獸的感官感知時，你也能受益於其所擁有的任何特殊感官。</p>"
     },
     "Befuddlement": {
       "name": "摧心術",
@@ -475,7 +475,7 @@
     },
     "Arcane Vigor": {
       "name": "祕法活力",
-      "description": "<p>You tap into your life force to heal yourself. Roll one or two of your unexpended Hit Point Dice, and regain a number of Hit Points equal to the roll’s total plus your spellcasting ability modifier. Those dice are then expended.</p><p><strong>【升環法術效應】</strong> The number of unexpended Hit Dice you can roll increases by one for each spell slot level above 2.</p><section id=\"secret-boiIVpDiaDqivdaw\" class=\"secret\"><p><strong>Foundry Note</strong></p><p>The <strong>Expend dN Hit Dice</strong> activities are configured to consume a minimum of 2 Hit Dice while adding your modifier only once.</p><p>If expending a <em>single</em> Hit Die is desired, please deduct, roll, and heal manually.</p></section><p></p>",
+      "description": "<p>你利用自己的生命力來治癒自身。投擲一枚或兩枚你尚未消耗的生命骰，然後恢復等同於擲骰總和加上你的施法屬性調整值的生命值。這些生命骰隨後會被消耗。</p><p><strong>【升環法術效應】</strong>法術位每比2環高一環，你可投擲的未消耗生命骰數量就增加一枚。</p><section id=\"secret-boiIVpDiaDqivdaw\" class=\"secret\"><p><strong>Foundry 註記</strong></p><p>「<strong>消耗dN生命骰</strong>」行動被設定為至少消耗2枚生命骰，且只加一次你的調整值。</p><p>若想只消耗<em>一枚</em>生命骰，請手動扣除、擲骰並治療。</p></section><p></p>",
       "activities": {
         "Expend d8 Hit Dice": {
           "name": "消耗d8生命骰"
@@ -558,11 +558,11 @@
     },
     "Blur": {
       "name": "朦朧術",
-      "description": "<p>Your body becomes blurred. For the duration, any creature has Disadvantage on attack rolls against you. An attacker is immune to this effect if it perceives you with &amp;Reference[blindsight]{盲視} or &amp;Reference[truesight]{真視}.</p>",
+      "description": "<p>你的身體變得模糊不定。在持續期間內，任何生物對你進行的攻擊檢定都具有劣勢。若攻擊者能以&amp;Reference[blindsight]{盲視}或&amp;Reference[truesight]{真視}感知你，則對此效應免疫。</p>",
       "effects": {
         "Blurred": {
-          "name": "Blurred",
-          "description": "<p>For the duration, any creature has Disadvantage on attack rolls against you. An attacker is immune to this effect if it perceives you with Blindsight or Truesight.</p>"
+          "name": "模糊",
+          "description": "<p>在持續期間內，任何生物對你進行的攻擊檢定都具有劣勢。若攻擊者能以盲視或真視感知你，則對此效應免疫。</p>"
         }
       }
     },
@@ -581,15 +581,15 @@
     },
     "Calm Emotions": {
       "name": "安定心神",
-      "description": "<p>Each Humanoid in a 20-foot-radius Sphere centered on a point you choose within range must succeed on a Charisma saving throw or be affected by one of the following effects (choose for each creature):</p><ul><li>The creature has Immunity to the Charmed and Frightened conditions until the spell ends. If the creature was already Charmed or Frightened, those conditions are suppressed for the duration.</li><li>The creature becomes Indifferent about creatures of your choice that it’s Hostile toward. This indifference ends if the target takes damage or witnesses its allies taking damage. When the spell ends, the creature’s attitude returns to normal.</li></ul>",
+      "description": "<p>你選擇射程內一點，以該點為中心的半徑20呎球形區域內的每個類人生物，都必須通過一次魅力豁免，否則會受到下列效果之一影響（由你為每個生物分別選擇）：</p><ul><li>直到法術結束前，該生物對魅惑和恐慌狀態免疫。若該生物已經處於魅惑或恐慌狀態，則這些狀態在持續期間內被壓制。</li><li>該生物對你所選擇、原本對其懷有敵意的生物，態度變為冷漠。此冷漠在目標受到傷害，或目睹其盟友受到傷害時結束。法術結束時，該生物的態度恢復正常。</li></ul>",
       "effects": {
         "Calmed": {
-          "description": "<p>The creature has Immunity to the Charmed and Frightened conditions until the spell ends. If the creature was already Charmed or Frightened, those conditions are suppressed for the duration.</p>",
-          "name": "Calmed"
+          "description": "<p>直到法術結束前，該生物對魅惑和恐慌狀態免疫。若該生物已經處於魅惑或恐慌狀態，則這些狀態在持續期間內被壓制。</p>",
+          "name": "平靜"
         },
         "Indifference": {
-          "name": "Indifference",
-          "description": "<p>The creature becomes Indifferent about creatures of your choice that it’s Hostile toward. This indifference ends if the target takes damage or witnesses its allies taking damage. When the spell ends, the creature’s attitude returns to normal.</p>"
+          "name": "冷漠",
+          "description": "<p>該生物對你所選擇、原本對其懷有敵意的生物，態度變為冷漠。此冷漠在目標受到傷害，或目睹其盟友受到傷害時結束。法術結束時，該生物的態度恢復正常。</p>"
         }
       }
     },
@@ -851,7 +851,7 @@
     },
     "Continual Flame": {
       "name": "不滅明焰",
-      "description": "<p>一束火焰從你觸碰的物體上冒出。這個效果發出20呎半徑的&amp;Reference[brightlight]{明亮光照}，並延伸出20呎的&amp;Reference[dimlight]{微光}。其看起來像普通的火焰，但不產生熱量， 也不消耗燃料。火焰可以被遮蓋或隱藏，但不能被悶熄或澆滅。</p>"
+      "description": "<p>一束火焰從你觸碰的物體上冒出。這個效果發出半徑20呎的&amp;Reference[brightlight]{明亮光照}，並延伸出20呎的&amp;Reference[dimlight]{微光}。其看起來像普通的火焰，但不產生熱量，也不消耗燃料。火焰可以被遮蓋或隱藏，但不能被悶熄或澆滅。</p>"
     },
     "Control Water": {
       "name": "操控水體",
@@ -918,7 +918,7 @@
     },
     "Cordon of Arrows": {
       "name": "警戒箭陣",
-      "description": "<p>You touch up to four nonmagical Arrows or Bolts and plant them in the ground in your space. Until the spell ends, the ammunition can’t be physically uprooted, and whenever a creature other than you enters a space within 30 feet of the ammunition for the first time on a turn or ends its turn there, one piece of ammunition flies up to strike it. The creature must succeed on a Dexterity saving throw or take 2d4 Piercing damage. The piece of ammunition is then destroyed. The spell ends when none of the ammunition remains planted in the ground.</p><p>When you cast this spell, you can designate any creatures you choose, and the spell ignores them.</p><p><strong>【升環法術效應】</strong> The amount of ammunition that can be affected increases by two for each spell slot level above 2.</p><section class=\"secret\" id=\"secret-hTdxVas0HdLYLcC5\"><p><strong>Foundry Note</strong></p><p>The <strong>Cast</strong> activity will reset the limited uses of this item according to how many pieces of ammunition are affected and can be fired by the <strong>Save</strong> activity.</p></section>",
+      "description": "<p>你觸碰至多四枚非魔法的箭矢或弩矢，並將其插在你所處空間的地面上。直到法術結束前，這些彈藥無法被以物理方式拔起；每當除你以外的生物於一回合內首次進入距該彈藥30呎內的空間，或在該範圍內結束其回合時，就會有一枚彈藥飛起對其發起攻擊。該生物必須通過一次敏捷豁免，否則受到2d4點穿刺傷害，該枚彈藥隨後被摧毀。當沒有任何彈藥插在地面上時，法術結束。</p><p>施放此法術時，你可以指定任何你選擇的生物，法術會無視於其。</p><p><strong>【升環法術效應】</strong>法術位每比2環高一環，可受影響的彈藥數量就增加兩枚。</p><section class=\"secret\" id=\"secret-hTdxVas0HdLYLcC5\"><p><strong>Foundry 註記</strong></p><p>「<strong>施放</strong>」行動會依受影響且可由「<strong>豁免</strong>」行動射出的彈藥數量，重置此物品的有限使用次數。</p></section>",
       "activities": {
         "Cast": {
           "name": "施放"
@@ -993,15 +993,15 @@
     },
     "Darkness": {
       "name": "黑暗術",
-      "description": "<p>法術持續時間內，魔法&amp;Reference[darkness]{黑暗}從射程內的一點擴散，並籠罩半徑15呎的球形區域。黑暗視覺不能看透，非魔法光源也無法照亮。</p><p>或者，你可以將法術施放在一個未被穿著或攜帶的物體上，使黑暗從該物體開始向外擴散，形成一個 15 呎的擴散區域。用不透明的東西，比如碗或頭盔，覆蓋該物體可以阻擋黑暗。</p><p>若此法術的任何區域與一個明亮或微光光照區域重疊，而這個光照區域是由某個2環或更低環階的法術所創造，則那個法術將被解除。</p>"
+      "description": "<p>法術持續時間內，魔法&amp;Reference[darkness]{黑暗}從射程內的一點擴散，並籠罩半徑15呎的球形區域。黑暗視覺無法看透其中，非魔法光源也無法將其照亮。</p><p>或者，你可以將法術施放在一個未被穿著或攜帶的物體上，使黑暗填滿以該物體為中心 15 呎的發散區域。用不透明的東西，比如碗或頭盔，覆蓋該物體即可阻擋黑暗。</p><p>若此法術的任何區域與一個明亮或微光光照區域重疊，而這個光照區域是由某個2環或更低環階的法術所創造，則那個法術將被解除。</p>"
     },
     "Darkvision": {
       "name": "黑暗視覺",
-      "description": "<p>For the duration, a willing creature you touch has &amp;Reference[darkvision] with a range of 150 feet.</p>",
+      "description": "<p>在持續期間內，你所觸碰的自願生物擁有範圍150呎的&amp;Reference[darkvision]{黑暗視覺}。</p>",
       "effects": {
         "Darkvision": {
-          "description": "<p>For the duration, a willing creature you touch has &amp;Reference[darkvision] with a range of 150 feet.</p>",
-          "name": "Darkvision"
+          "description": "<p>在持續期間內，你所觸碰的自願生物擁有範圍150呎的&amp;Reference[darkvision]{黑暗視覺}。</p>",
+          "name": "黑暗視覺"
         }
       }
     },
@@ -1082,7 +1082,7 @@
     },
     "Detect Thoughts": {
       "name": "偵測思想",
-      "description": "<p>你啟動以下效果之一。直到法術結束前，你可以在後續回合以魔法行動啟動任一效果。</p><p><strong>【感知思想】</strong> 你感知自身周圍30呎內知曉一門語言或具有心靈感應能力生物的思想。你不能讀取這些思想，但你知道有一個有思想的生物存在。</p><p>該法術無法穿透1呎厚的石頭、泥土、木頭、1英寸厚的金屬或薄薄一層鉛。</p><p><strong>【讀取思想】</strong> 選擇30呎內一個你所能看見的生物，或者你通過感知思想選項探測到的生物。你瞭解此刻目標心中最大的想法。若目標不懂任何語言且不能進行心靈感應，則你一無所獲。</p><p>作為你下一回合的魔法動作，你可以嘗試深入目標的思維。若你深入思維，目標進行一次感知豁免。豁免失敗時，你將洞察到目標的理性、情緒，以及佔據其思維中重要位置的事情（比如擔憂、愛慕或憎恨）。豁免成功時，法術結束。無論結果如何，目標知道你正在探測它的思想，並且直到你將注意力從目標的思維上移開前，目標可以在其回合採取一個動作，進行一次[[/check ability=int skill=arc dc=@attributes.spelldc]]檢定，對抗你的法術豁免 DC，成功則法術結束。</p>",
+      "description": "<p>你啟動以下效果之一。直到法術結束前，你可以在後續回合以魔法行動啟動任一效果。</p><p><strong>【感知思想】</strong>你感知自身周圍30呎內知曉一門語言或具有心靈感應能力生物的思想。你不能讀取這些思想，但你知道有一個有思想的生物存在。</p><p>該法術無法穿透1呎厚的石頭、泥土、木頭、1英寸厚的金屬或薄薄一層鉛。</p><p><strong>【讀取思想】</strong>選擇30呎內一個你所能看見的生物，或者你通過感知思想選項探測到的生物。你瞭解此刻目標心中最大的想法。若目標不懂任何語言且不能進行心靈感應，則你一無所獲。</p><p>作為你下一回合的魔法動作，你可以嘗試深入目標的思維。若你深入思維，目標進行一次感知豁免。豁免失敗時，你將洞察到目標的理性、情緒，以及佔據其思維中重要位置的事情（比如擔憂、愛慕或憎恨）。豁免成功時，法術結束。無論結果如何，目標都知道你正在探測其思想，並且直到你將注意力從目標的思維上移開前，目標可以在其回合採取一個動作，進行一次[[/check ability=int skill=arc dc=@attributes.spell.dc]]檢定，對抗你的法術豁免DC，成功則法術結束。</p>",
       "activities": {
         "Sense Thoughts": {
           "name": "感知思想"
@@ -1212,7 +1212,7 @@
     },
     "Dragon's Breath": {
       "name": "龍息術",
-      "description": "<p>你觸碰一個自願生物，並選擇強酸、寒冷、火焰、閃電或毒素。直到法術結束前，目標可以採取魔法動作來呼出一道15呎錐形區域的吐息。每個處於該區域內的生物進行一次敏捷豁免，失敗時承受3d6所選擇類型的傷害，成功時承受一半的傷害。</p><p><strong>【升環法術效應】 </strong>法術位每升一個環階，傷害就增加1d6。</p>",
+      "description": "<p>你觸碰一個自願生物，並選擇強酸、寒冷、火焰、閃電或毒素。直到法術結束前，目標可以採取魔法動作來呼出一道15呎錐形區域的吐息。每個處於該區域內的生物進行一次敏捷豁免，失敗時承受3d6所選擇類型的傷害，成功時承受一半的傷害。</p><p><strong>【升環法術效應】</strong>法術位每升一個環階，傷害就增加1d6。</p>",
       "activities": {
         "Exhale": {
           "name": "吐息"
@@ -1369,15 +1369,15 @@
     },
     "Enlarge/Reduce": {
       "name": "變巨/縮小術",
-      "description": "<p>For the duration, the spell enlarges or reduces a creature or an object you can see within range (see the chosen effect below). A targeted object must be neither worn nor carried. If the target is an unwilling creature, it can make a Constitution saving throw. On a successful save, the spell has no effect.</p><p>Everything that a targeted creature is wearing and carrying changes size with it. Any item it drops returns to normal size at once. A thrown weapon or piece of ammunition returns to normal size immediately after it hits or misses a target.</p><p><strong>Enlarge.</strong> The target’s size increases by one category—from Medium to Large, for example. The target also has Advantage on Strength checks and Strength saving throws. The target’s attacks with its enlarged weapons or Unarmed Strikes deal an extra 1d4 damage on a hit.</p><p><strong>Reduce.</strong> The target’s size decreases by one category—from Medium to Small, for example. The target also has Disadvantage on Strength checks and Strength saving throws. The target’s attacks with its reduced weapons or Unarmed Strikes deal 1d4 less damage on a hit (this can’t reduce the damage below 1).</p>",
+      "description": "<p>在持續期間內，法術會使你在射程內一個你所能看見的生物或物體的大小發生改變（見下方所選效果）。作為目標的物體不能被穿著或攜帶。若目標是非自願的生物，其可以進行一次體質豁免；豁免成功時，法術無效。</p><p>目標生物所穿著與攜帶的一切都會隨其改變大小。其掉落的任何物品會立即恢復為正常大小。投擲武器或彈藥在命中或未命中目標後，會立即恢復為正常大小。</p><p><strong>【變巨】</strong>目標的體型增大一級，例如從中型變為大型。目標在力量檢定和力量豁免上具有優勢。目標以其變巨的武器或徒手打擊進行的攻擊，命中時額外造成1d4傷害。</p><p><strong>【縮小】</strong>目標的體型縮小一級，例如從中型變為小型。目標在力量檢定和力量豁免上具有劣勢。目標以其縮小的武器或徒手打擊進行的攻擊，命中時少造成1d4傷害（此效果無法使傷害降至1以下）。</p>",
       "effects": {
         "Reduced": {
-          "name": "Reduced",
-          "description": "<p>The target’s size decreases by one category—from Medium to Small, for example. The target also has Disadvantage on Strength checks and Strength saving throws. The target’s attacks with its reduced weapons or Unarmed Strikes deal 1d4 less damage on a hit (this can’t reduce the damage below 1).</p>"
+          "name": "縮小",
+          "description": "<p>目標的體型縮小一級，例如從中型變為小型。目標在力量檢定和力量豁免上具有劣勢。目標以其縮小的武器或徒手打擊進行的攻擊，命中時少造成1d4傷害（此效果無法使傷害降至1以下）。</p>"
         },
         "Enlarged": {
-          "description": "<p>The target’s size increases by one category—from Medium to Large, for example. The target also has Advantage on Strength checks and Strength saving throws. The target’s attacks with its enlarged weapons or Unarmed Strikes deal an extra 1d4 damage on a hit.</p>",
-          "name": "Enlarged"
+          "description": "<p>目標的體型增大一級，例如從中型變為大型。目標在力量檢定和力量豁免上具有優勢。目標以其變巨的武器或徒手打擊進行的攻擊，命中時額外造成1d4傷害。</p>",
+          "name": "變巨"
         }
       }
     },
@@ -1531,19 +1531,19 @@
     },
     "Find Steed": {
       "name": "尋獲坐騎",
-      "description": "<p>You summon an otherworldly being that appears as a loyal steed in an unoccupied space of your choice within range. This creature uses the <strong>@UUID[Compendium.dnd-players-handbook.actors.Actor.phbmobOtherworld]{Otherworldly Steed}</strong> stat block. If you already have a steed from this spell, the steed is replaced by the new one.</p><p>The steed resembles a Large, rideable animal of your choice, such as a horse, a camel, a dire wolf, or an elk. Whenever you cast the spell, choose the steed’s creature type—Celestial, Fey, or Fiend—which determines certain traits in the stat block.</p><p><strong>Combat.</strong> The steed is an ally to you and your allies. In combat, it shares your Initiative count, and it functions as a &amp;Reference[controllingamount]{controlled mount} while you ride it (as defined in the rules on mounted combat). If you have the Incapacitated condition, the steed takes its turn immediately after yours and acts independently, focusing on protecting you.</p><p><strong>Disappearance of the Steed.</strong> The steed disappears if it drops to 0 Hit Points or if you die. When it disappears, it leaves behind anything it was wearing or carrying. If you cast this spell again, you decide whether you summon the steed that disappeared or a different one.</p><p><strong>【升環法術效應】</strong> Use the spell slot’s level for the spell’s level in the stat block.</p><section class=\"fvtt advice\" style=\"margin:0.5rem;padding:0.5rem\"><article><p>In addition to the noted usage of the spell's level in the steed's Traits and Actions, the following attributes are also affected.</p><table><caption>Otherworldly Steed</caption><tbody><tr><td><strong>AC</strong></td><td>10 + 1 per spell level</td></tr><tr><td><strong>HP</strong></td><td>5 + 10 per spell level (the steed has a number of Hit Dice [d10s] equal to the spell’s level)</td></tr><tr><td><strong>Speed</strong></td><td>60 ft., Fly 60 ft. (requires level 4+ spell)</td></tr><tr><td><strong>PB</strong></td><td>equals your Proficiency Bonus</td></tr></tbody></table></article></section><section class=\"secret\" id=\"secret-SI4qlfj05o21BBGg\"><p><strong>Foundry Note</strong></p><p>The <strong>Summon Flying Steed</strong> activity should be used when consuming a fourth level or higher spell slot and is configured to apply the Fly Speed.</p><p>When using a second or third level spell slot, the <strong>Summon Steed</strong> activity should be used instead.</p></section>",
+      "description": "<p>你召喚一個異界存在，其以忠誠坐騎的樣貌出現在射程內你所選的未被佔據的空間中。此生物使用<strong>@UUID[Compendium.dnd-players-handbook.actors.Actor.phbmobOtherworld]{異界坐騎}</strong>的屬性值。若你已經擁有以此法術獲得的坐騎，該坐騎會被新的坐騎取代。</p><p>該坐騎的外觀像是一隻由你選擇的大型、可騎乘的動物，例如馬、駱駝、恐狼或赤鹿。每當你施放此法術時，選擇坐騎的生物類型——天界、精類或邪魔——這會決定其屬性值中的某些特質。</p><p><strong>【戰鬥】</strong>坐騎是你和你盟友的盟友。在戰鬥中，其與你共用先攻值，並在你騎乘期間視同&amp;Reference[controllingamount]{受控坐騎}（如騎乘戰鬥規則所定義）。若你處於失能狀態，坐騎會在你的回合之後立即進行其回合，並獨立行動，專注於保護你。</p><p><strong>【坐騎消失】</strong>坐騎在生命值降至0或你死亡時會消失。消失時，其會留下自身穿著或攜帶的任何物品。若你再次施放此法術，由你決定是召喚先前消失的坐騎，還是召喚不同的坐騎。</p><p><strong>【升環法術效應】</strong>在屬性值中，以法術位的環階作為法術的環階。</p><section class=\"fvtt advice\" style=\"margin:0.5rem;padding:0.5rem\"><article><p>除了坐騎的特質與動作中已註明使用法術環階之外，下列屬性也會受到影響。</p><table><caption>異界坐騎</caption><tbody><tr><td><strong>AC</strong></td><td>10 + 每法術環階1點</td></tr><tr><td><strong>HP</strong></td><td>5 + 每法術環階10點（坐騎擁有等同於法術環階的生命骰［d10］）</td></tr><tr><td><strong>速度</strong></td><td>60呎，飛行60呎（需要4環以上的法術）</td></tr><tr><td><strong>PB</strong></td><td>等同於你的熟練加值</td></tr></tbody></table></article></section><section class=\"secret\" id=\"secret-SI4qlfj05o21BBGg\"><p><strong>Foundry 註記</strong></p><p>「<strong>召喚飛行坐騎</strong>」行動應在消耗四環或更高環階的法術位時使用，並已設定為賦予飛行速度。</p><p>使用二環或三環法術位時，應改用「<strong>召喚坐騎</strong>」行動。</p></section>",
       "activities": {
         "Summon Steed": {
-          "name": "Summon Steed"
+          "name": "召喚坐騎"
         },
         "Summon Flying Steed": {
-          "name": "Summon Flying Steed"
+          "name": "召喚飛行坐騎"
         }
       },
       "effects": {
         "Flying Steed": {
-          "description": "<p>The steed has a Fly speed of 60ft. when summoned by a level 4+ spell.</p>",
-          "name": "Flying Steed"
+          "description": "<p>以4環以上的法術召喚時，坐騎擁有60呎的飛行速度。</p>",
+          "name": "飛行坐騎"
         }
       }
     },
@@ -1607,10 +1607,10 @@
     },
     "Flame Blade": {
       "name": "火焰刀",
-      "description": "<p>You evoke a fiery blade in your free hand. The blade is similar in size and shape to a scimitar, and it lasts for the duration. If you let go of the blade, it disappears, but you can evoke it again as a Bonus Action.</p><p>As a Magic action, you can make a melee spell attack with the fiery blade. On a hit, the target takes Fire damage equal to 3d6 plus your spellcasting ability modifier.</p><p>The flaming blade sheds Bright Light in a 10-foot radius and Dim Light for an additional 10 feet.</p><p><strong>【升環法術效應】</strong> 法術位每升一個環階，傷害就增加1d6。</p>",
+      "description": "<p>你在空著的手中召出一把火焰刀刃。刀刃的大小與形狀類似彎刀，並在持續期間內持續存在。若你放開刀刃，其會消失，但你可以用一個附贈動作再次將其召出。</p><p>你可以用一個魔法動作，以火焰刀刃進行一次近戰法術攻擊。命中時，目標受到等同於3d6加上你的施法屬性調整值的火焰傷害。</p><p>火焰刀刃會發出半徑10呎的明亮光照，以及額外10呎的微光光照。</p><p><strong>【升環法術效應】</strong>法術位每升一個環階，傷害就增加1d6。</p>",
       "activities": {
         "Evoke Blade": {
-          "name": "Evoke Blade"
+          "name": "召出刀刃"
         }
       }
     },
@@ -1620,7 +1620,7 @@
     },
     "Flaming Sphere": {
       "name": "熾焰法球",
-      "description": "<p>You create a 5-foot-diameter sphere of fire in an unoccupied space on the ground within range. It lasts for the duration. Any creature that ends its turn within 5 feet of the sphere makes a [[/save ability=dex dc=@attributes.spelldc]] saving throw, taking 2d6 Fire damage on a failed save or half as much damage on a successful one.</p><p>As a Bonus Action, you can move the sphere up to 30 feet, rolling it along the ground. If you move the sphere into a creature’s space, that creature makes the save against the sphere, and the sphere stops moving for the turn.</p><p>When you move the sphere, you can direct it over barriers up to 5 feet tall and jump it across pits up to 10 feet wide. Flammable objects that aren’t being worn or carried start burning if touched by the sphere, and it sheds Bright Light in a 20-foot radius and Dim Light for an additional 20 feet.</p><p><strong>【升環法術效應】</strong> 法術位每升一個環階，傷害就增加1d6。</p>"
+      "description": "<p>你在射程內地面上一處未被佔據的空間創造一個直徑5呎的火焰球，並持續至法術結束。任何在火球5呎內結束其回合的生物，須進行一次[[/save ability=dex dc=@attributes.spell.dc]]豁免，豁免失敗時受到2d6點火焰傷害，成功時則傷害減半。</p><p>你可以用一個附贈動作，將火球沿著地面移動最多30呎。若你將火球移入某個生物的空間，該生物須進行對抗火球的豁免，且火球在該回合停止移動。</p><p>移動火球時，你可以指引其越過高度不超過5呎的障礙，或跳過寬度不超過10呎的陷坑。未被穿著或攜帶的易燃物件若被火球觸碰便會開始燃燒；火球會發出半徑20呎的明亮光照，以及額外20呎的微光光照。</p><p><strong>【升環法術效應】</strong>法術位每升一個環階，傷害就增加1d6。</p>"
     },
     "Flesh to Stone": {
       "name": "石化術",
@@ -1912,7 +1912,7 @@
     },
     "Gust of Wind": {
       "name": "造風術",
-      "description": "<p>A Line of strong wind 60 feet long and 10 feet wide blasts from you in a direction you choose for the duration. Each creature in the Line must succeed on a Strength saving throw or be pushed 15 feet away from you in a direction following the Line. A creature that ends its turn in the Line must make the same save.</p><p>Any creature in the Line must spend 2 feet of movement for every 1 foot it moves when moving closer to you.</p><p>The gust disperses gas or vapor, and it extinguishes candles and similar unprotected flames in the area. It causes protected flames, such as those of lanterns, to dance wildly and has a 50 percent chance to extinguish them.</p><p>As a Bonus Action on your later turns, you can change the direction in which the Line blasts from you.</p>"
+      "description": "<p>一道長60呎、寬10呎的直線強風，在持續期間內從你身上朝你選擇的方向吹出。位於該直線內的每個生物都必須通過一次力量豁免，否則會沿著直線方向被推離你15呎遠。在該直線內結束其回合的生物必須進行同樣的豁免。</p><p>位於該直線內的任何生物，在朝你靠近移動時，其每移動1呎就必須花費2呎的移動速度。</p><p>這陣強風會吹散氣體或蒸氣，並吹熄該區域內的蠟燭及類似的無保護火焰。有保護的火焰（例如提燈裡的火焰）會劇烈搖曳，且有50%的機率被吹熄。</p><p>在你後續的回合中，你可以用一個附贈動作改變直線從你身上吹出的方向。</p>"
     },
     "Hallow": {
       "name": "聖居",
@@ -1964,22 +1964,22 @@
     },
     "Heat Metal": {
       "name": "灼熱金屬",
-      "description": "<p>Choose a manufactured metal object, such as a metal weapon or a suit of Heavy or Medium metal armor, that you can see within range. You cause the object to glow red-hot. Any creature in physical contact with the object takes 2d8 Fire damage when you cast the spell. Until the spell ends, you can take a Bonus Action on each of your later turns to deal this damage again if the object is within range.</p><p>If a creature is holding or wearing the object and takes the damage from it, the creature must succeed on a Constitution saving throw or drop the object if it can. If it doesn’t drop the object, it has Disadvantage on attack rolls and ability checks until the start of your next turn.</p><p><strong>【升環法術效應】</strong> 法術位每升一個環階，傷害就增加1d8。</p>",
+      "description": "<p>選擇射程內一件你所能看見的人造金屬物件，例如金屬武器，或一套重甲或中甲的金屬護甲。你使該物件燒得通紅。施放法術時，任何與該物件有身體接觸的生物都會受到2d8點火焰傷害。直到法術結束前，只要該物件仍在射程內，你可以在後續每個回合以一個附贈動作再次造成此傷害。</p><p>若有生物持握或穿戴該物件並因此受到傷害，該生物必須通過一次[[/save ability=con format=long]]，否則在能夠的情況下必須丟下該物件。若其沒有丟下該物件，則在你的下一回合開始前，其進行攻擊檢定和屬性檢定時具有劣勢。</p><p><strong>【升環法術效應】</strong>法術位每升一個環階，傷害就增加1d8。</p>",
       "effects": {
         "Heated Metal": {
-          "name": "Heated Metal",
-          "description": "<p>If a creature is holding or wearing the object and takes the damage from it, The creature must succeed on a [[/save ability=con format=long]] or drop the object if it can. If it doesn’t drop the object, it has Disadvantage on attack rolls and ability checks until the start of your next turn.</p>"
+          "name": "被加熱的金屬",
+          "description": "<p>若有生物握持或穿戴該物件並因此受到傷害，該生物必須通過一次[[/save ability=con format=long]]，否則在能夠的情況下必須丟下該物件。若其沒有丟下該物件，則在你的下一回合開始前，其進行攻擊檢定和屬性檢定時具有劣勢。</p>"
         }
       },
       "activities": {
         "Cast and Heat": {
-          "name": "Cast and Heat"
+          "name": "施放並灼燒"
         },
         "Reheat": {
-          "name": "Reheat"
+          "name": "再次灼燒"
         },
         "On Damage Save": {
-          "name": "On Damage Save"
+          "name": "傷害豁免"
         }
       }
     },
@@ -2185,8 +2185,8 @@
       "description": "<p>一個你所觸碰的生物獲得&amp;Reference[invisible apply=false]{隱形}狀態直到法術結束。緊接在目標進行攻擊檢定、造成傷害或施放法術後，法術將提前結束。</p><p><strong>【升環法術效應】</strong>法術位每升一個環階，就可以額外選擇一個生物。</p>",
       "effects": {
         "Invisible": {
-          "description": "<p>The spell ends early immediately after the target makes an attack roll, deals damage, or casts a spell.</p>",
-          "name": "Invisible"
+          "description": "<p>緊接在目標進行攻擊檢定、造成傷害或施放法術後，法術將提前結束。</p>",
+          "name": "隱形"
         }
       }
     },
@@ -2240,11 +2240,11 @@
     },
     "Levitate": {
       "name": "浮空術",
-      "description": "<p>One creature or loose object of your choice that you can see within range rises vertically up to 20 feet and remains suspended there for the duration. The spell can levitate an object that weighs up to 500 pounds. An unwilling creature that succeeds on a Constitution saving throw is unaffected.</p><p>The target can move only by pushing or pulling against a fixed object or surface within reach (such as a wall or a ceiling), which allows it to move as if it were climbing. You can change the target’s altitude by up to 20 feet in either direction on your turn. If you are the target, you can move up or down as part of your move. Otherwise, you can take a Magic action to move the target, which must remain within the spell’s range.</p><p>When the spell ends, the target floats gently to the ground if it is still aloft.</p>",
+      "description": "<p>你選擇射程內一個能看見的生物或未固定的物件，使其垂直上升至多20呎，並在持續期間內懸浮於該處。此法術可使重量至多500磅的物件浮空。通過體質豁免的非自願生物則不受影響。</p><p>目標只能透過推動或拉動觸及範圍內的固定物件或表面（例如牆壁或天花板）來移動，這讓其移動方式如同攀爬。在你的回合中，你可以將目標的高度向上或向下改變至多20呎。若你就是目標，你可以將上升或下降作為你移動的一部分；否則，你可以採取魔法動作來移動目標，且目標必須始終處於法術射程內。</p><p>法術結束時，若目標仍在空中，會緩緩飄落至地面。</p>",
       "effects": {
         "Levitating": {
-          "name": "Levitating",
-          "description": "<p>The target can move only by pushing or pulling against a fixed object or surface within reach (such as a wall or a ceiling), which allows it to move as if it were climbing.</p>"
+          "name": "懸浮",
+          "description": "<p>目標只能透過推動或拉動觸及範圍內的固定物件或表面（例如牆壁或天花板）來移動，這讓其移動方式如同攀爬。</p>"
         }
       }
     },
@@ -2262,7 +2262,7 @@
     },
     "Locate Animals or Plants": {
       "name": "動植物定位術",
-      "description": "<p>Describe or name a specific kind of Beast, Plant creature, or nonmagical plant. You learn the direction and distance to the closest creature or plant of that kind within 5 miles, if any are present.</p>"
+      "description": "<p>描述或指名一種特定的野獸、植物生物或非魔法植物。若5哩內有該類生物或植物，你會得知最近的那一個所在的方向與距離。</p>"
     },
     "Locate Creature": {
       "name": "生物定位術",
@@ -2328,32 +2328,32 @@
     },
     "Magic Mouth": {
       "name": "魔嘴術",
-      "description": "<p>你在射程內的一個物體注入一段訊息，這段訊息將在觸發條件被滿足時被說出。選擇一個你所能看見且未被其他生物穿戴或攜帶的物體。接著說出一段訊息，這段信息的長度必須不超過25個字，但可以用最多10分鐘的時間被傳達。最後，決定一個將會觸發此法術以傳達你訊息的情境。</p><p>當該情境發生，一個魔法嘴將出現在物體上，並以你的聲音和你述說時相同的音量復述該訊息。若你所選擇的物體有一張嘴或看起來像嘴巴的東西（例如雕像的嘴），則魔法嘴會出現在該處，讓其看起來像是從該物體的嘴巴說出話語。當你施放此法術時，你可以讓此法術在傳達該訊息後結束、或是讓它繼續存在並在每次被觸發時都再一次重述這段訊息。</p><p>觸發的情境可以很籠統也可以很具體，由你決定。但它必須要基於距離該物體30呎內所發生的視覺或聲音狀況。舉例來說，你可以指示魔嘴在有任何生物移進該物體30呎範圍內時、或當30呎內有銀製鈴鐺響起時，讓其說出訊息。</p>"
+      "description": "<p>你在射程內的一個物體注入一段訊息，這段訊息將在觸發條件被滿足時被說出。選擇一個你所能看見且未被其他生物穿戴或攜帶的物體。接著說出一段訊息，這段訊息的長度必須不超過25個字，但可以用最多10分鐘的時間被傳達。最後，決定一個將會觸發此法術以傳達你訊息的情境。</p><p>當該情境發生，一個魔法嘴將出現在物體上，並以你的聲音和你述說時相同的音量復述該訊息。若你所選擇的物體有一張嘴或看起來像嘴巴的東西（例如雕像的嘴），則魔法嘴會出現在該處，讓其看起來像是從該物體的嘴巴說出話語。當你施放此法術時，你可以讓此法術在傳達該訊息後結束、或是讓其繼續存在並在每次被觸發時都再一次重述這段訊息。</p><p>觸發的情境可以很籠統也可以很具體，由你決定。但其必須要基於距離該物體30呎內所發生的視覺或聲音狀況。舉例來說，你可以指示魔嘴在有任何生物移進該物體30呎範圍內時、或當30呎內有銀製鈴鐺響起時，讓其說出訊息。</p>"
     },
     "Magic Weapon": {
       "name": "魔化武器",
-      "description": "<p>You touch a nonmagical weapon. Until the spell ends, that weapon becomes a magic weapon with a +1 bonus to attack rolls and damage rolls. The spell ends early if you cast it again.</p><p><strong>【升環法術效應】</strong> The bonus increases to +2 with a level 3–5 spell slot. The bonus increases to +3 with a level 6+ spell slot.</p>",
+      "description": "<p>你觸碰一把非魔法武器。直到法術結束前，該武器成為魔法武器，在攻擊檢定與傷害擲骰上具有+1加值。若你再次施放此法術，法術會提前結束。</p><p><strong>【升環法術效應】</strong>使用3至5環的法術位時，加值增加至+2；使用6環以上的法術位時，加值增加至+3。</p>",
       "effects": {
         "Magic Weapon +1": {
-          "description": "<p>Until the spell ends, that weapon becomes a magic weapon with a +1 bonus to attack rolls and damage rolls.</p>",
-          "name": "Magic Weapon +1",
+          "description": "<p>直到法術結束前，該武器成為魔法武器，在攻擊檢定與傷害擲骰上具有+1加值。</p>",
+          "name": "魔化武器 +1",
           "changes": {
             "name": "Magic {} +1"
           }
         },
         "Magic Weapon +2": {
-          "description": "<p>Until the spell ends, that weapon becomes a magic weapon with a +2 bonus to attack rolls and damage rolls.</p>",
+          "description": "<p>直到法術結束前，該武器成為魔法武器，在攻擊檢定與傷害擲骰上具有+2加值。</p>",
           "changes": {
             "name": "Magic {} +2"
           },
-          "name": "Magic Weapon +2"
+          "name": "魔化武器 +2"
         },
         "Magic Weapon +3": {
           "changes": {
             "name": "Magic {} +3"
           },
-          "name": "Magic Weapon +3",
-          "description": "<p>Until the spell ends, that weapon becomes a magic weapon with a +3 bonus to attack rolls and damage rolls.</p>"
+          "name": "魔化武器 +3",
+          "description": "<p>直到法術結束前，該武器成為魔法武器，在攻擊檢定與傷害擲骰上具有+3加值。</p>"
         }
       }
     },
@@ -2416,20 +2416,20 @@
       "description": "<p>You step into a stone object or surface large enough to fully contain your body, merging yourself and your equipment with the stone for the duration. You must touch the stone to do so. Nothing of your presence remains visible or otherwise detectable by nonmagical senses.</p><p>While merged with the stone, you can’t see what occurs outside it, and any [[/check ability=wis skill=prc]] checks you make to hear sounds outside it are made with Disadvantage. You remain aware of the passage of time and can cast spells on yourself while merged in the stone. You can use 5 feet of movement to leave the stone where you entered it, which ends the spell. You otherwise can’t move.</p><p>Minor physical damage to the stone doesn’t harm you, but its partial destruction or a change in its shape (to the extent that you no longer fit within it) expels you and deals [[/damage 6d6 type=force]] damage to you. The stone’s complete destruction (or transmutation into a different substance) expels you and deals [[/damage 50 type=force]] damage to you. If expelled, you move into an unoccupied space closest to where you first entered and have the &amp;Reference[prone]{伏地} condition.</p>"
     },
     "Melf's Acid Arrow": {
-      "name": "Melf's Acid Arrow",
-      "description": "<p>A shimmering green arrow streaks toward a target within range and bursts in a spray of acid. Make a ranged spell attack against the target. On a hit, the target takes 4d4 Acid damage and 2d4 Acid damage at the end of its next turn. On a miss, the arrow splashes the target with acid for half as much of the initial damage only.</p><p><strong>【升環法術效應】</strong> The damage (both initial and later) increases by 1d4 for each spell slot level above 2.</p>",
+      "name": "馬友夫強酸箭",
+      "description": "<p>一支閃爍的綠色箭矢朝射程內的一個目標疾速飛去，並炸裂成一灘強酸。對目標進行一次遠程法術攻擊。命中時，目標受到4d4點強酸傷害，並在其下一回合結束時再受到2d4點強酸傷害。未命中時，箭矢的酸液仍會濺到目標，僅造成初始傷害一半的傷害。</p><p><strong>【升環法術效應】</strong>法術位每比2環高一環，此法術的傷害（包括初始與後續傷害）增加1d4。</p>",
       "activities": {
         "Lingering Acid Damage": {
-          "name": "Lingering Acid Damage"
+          "name": "殘留強酸傷害"
         },
         "Cast and Attack": {
-          "name": "Cast and Attack"
+          "name": "施放並攻擊"
         }
       },
       "effects": {
         "Lingering Acid": {
-          "name": "Lingering Acid",
-          "description": "<p>On a hit, the target takes 4d4 Acid damage and [[/damage 2d4 type=acid]] (plus 1d4 per spell slot level above 2) Acid damage at the end of its next turn.</p>"
+          "name": "殘留強酸",
+          "description": "<p>命中時，目標受到4d4點強酸傷害，並在其下一回合結束時再受到[[/damage 2d4 type=acid]]點強酸傷害（法術位每比2環高一環，再加1d4）。</p>"
         }
       }
     },
@@ -2466,7 +2466,7 @@
     },
     "Mind Spike": {
       "name": "心靈尖刺",
-      "description": "<p>你驅使一根心靈能量的尖刺插入一個射程內你所能看見的生物心智中。目標進行一次感知豁免，豁免失敗時承受3d8心靈傷害，成功時傷害減半。在豁免失敗時，直到法術結束前你將始終知曉其位置，但僅限你們在同一位面時才有效。當你掌握此資訊時，目標不能對你隱匿，且若其處於&amp;Reference[invisible apply=false]{隱形}狀態，則其從該狀態獲得的好處對你無效。</p><p><strong>【升環法術效應】 </strong>法術位每升一個環階，傷害就增加1d8。</p>",
+      "description": "<p>你驅使一根心靈能量的尖刺插入一個射程內你所能看見的生物心智中。目標進行一次感知豁免，豁免失敗時承受3d8心靈傷害，成功時傷害減半。在豁免失敗時，直到法術結束前你將始終知曉其位置，但僅限你們在同一位面時才有效。當你掌握此資訊時，目標不能對你隱匿，且若其處於&amp;Reference[invisible apply=false]{隱形}狀態，則其從該狀態獲得的好處對你無效。</p><p><strong>【升環法術效應】</strong>法術位每升一個環階，傷害就增加1d8。</p>",
       "effects": {
         "Spiked": {
           "description": "<p>直到法術結束前你將始終知曉其位置，但僅限你們在同一位面時才有效。當你掌握此資訊時，目標不能對你隱匿，且若其處於&amp;Reference[invisible apply=false]{隱形}狀態，則其從該狀態獲得的好處對你無效。</p>",
@@ -2550,7 +2550,7 @@
     },
     "Moonbeam": {
       "name": "月華之光",
-      "description": "<p>A silvery beam of pale light shines down in a 5-foot-radius, 40-foot-high Cylinder centered on a point within range. Until the spell ends, Dim Light fills the Cylinder, and you can take a Magic action on later turns to move the Cylinder up to 60 feet.</p><p>When the Cylinder appears, each creature in it makes a Constitution saving throw. On a failed save, a creature takes 2d10 Radiant damage, and if the creature is shape-shifted (as a result of the <em>Polymorph</em> spell, for example), it reverts to its true form and can’t shape-shift until it leaves the Cylinder. On a successful save, a creature takes half as much damage only. A creature also makes this save when the spell’s area moves into its space and when it enters the spell’s area or ends its turn there. A creature makes this save only once per turn.</p><p><strong>【升環法術效應】</strong>The damage increases by 1d10 for each spell slot level above 2.</p>"
+      "description": "<p>一道淡淡的銀光照耀在以射程內一點為中心、半徑5呎、高40呎的圓柱體內。直到法術結束前，微光光照充滿該圓柱體，且在後續回合中，你可以採取魔法動作將圓柱體移動至多60呎。</p><p>當圓柱體出現時，處於其中的每個生物都必須進行一次體質豁免。豁免失敗時，生物受到2d10點光耀傷害；若該生物處於變形狀態（例如因<em>變形術</em>法術而變形），則其會恢復為真實形態，且在離開該圓柱體前無法變形。豁免成功時，生物僅受到一半傷害。當法術區域移動到生物的空間，或是生物進入法術區域，抑或在其中結束回合時，該生物也須進行此豁免。每個生物每回合只需進行一次此豁免。</p><p><strong>【升環法術效應】</strong>法術位每升一個環階，傷害就增加1d10。</p>"
     },
     "Mordenkainen's Faithful Hound": {
       "name": "Mordenkainen's Faithful Hound",
@@ -2605,12 +2605,12 @@
       }
     },
     "Nystul's Magic Aura": {
-      "name": "Nystul's Magic Aura",
-      "description": "<p>With a touch, you place an illusion on a willing creature or an object that isn’t being worn or carried. A creature gains the Mask effect below, and an object gains the False Aura effect below. The effect lasts for the duration. If you cast the spell on the same target every day for 30 days, the illusion lasts until dispelled.</p><p><strong>Mask (Creature). </strong>Choose a creature type other than the target’s actual type. Spells and other magical effects treat the target as if it were a creature of the chosen type.</p><p><strong>False Aura (Object). </strong>You change the way the target appears to spells and magical effects that detect magical auras, such as <em>Detect Magic</em>. You can make a nonmagical object appear magical, make a magic item appear nonmagical, or change the object’s aura so that it appears to belong to a school of magic you choose.</p>",
+      "name": "涅斯圖魔法靈光",
+      "description": "<p>以一次觸碰，你在一個自願的生物或一個未被穿著或攜帶的物件上設置一道幻術。生物會獲得下述偽裝效果，物件則獲得下述虛假靈光效果。該效果持續至法術結束，若你連續30日每天都對同一個目標施放此法術，幻術將持續至被解除為止。</p><p><strong>【偽裝（生物）】</strong>選擇一種不同於目標實際類型的生物類型。法術和其他魔法效果會將目標視為所選類型的生物。</p><p><strong>【虛假靈光（物件）】</strong>你改變目標在能夠偵測魔法靈光的法術與魔法效果（例如<em>偵測魔法</em>）中呈現的樣子。你可以讓非魔法物件看起來具有魔法、讓魔法物品看起來不具有魔法，或改變物件的靈光，使其看起來屬於你所選擇的魔法學派。</p>",
       "effects": {
         "Masked": {
-          "name": "Masked",
-          "description": "<p>Choose a creature type other than the target’s actual type. Spells and other magical effects treat the target as if it were a creature of the chosen type.</p>"
+          "name": "偽裝",
+          "description": "<p>選擇一種不同於目標實際類型的生物類型。法術和其他魔法效果會將目標視為所選類型的生物。</p>"
         }
       }
     },
@@ -2667,11 +2667,11 @@
     },
     "Pass without Trace": {
       "name": "行蹤無跡",
-      "description": "<p>You radiate a concealing aura in a 30-foot Emanation for the duration. While in the aura, you and each creature you choose have a +10 bonus to [[/check ability=dex skill=ste]] checks and leave no tracks.</p>",
+      "description": "<p>在持續期間內，你散發出一道30呎發散區域的遮蔽靈光。位於靈光內時，你和你選擇的每個生物在[[/check ability=dex skill=ste]]檢定上獲得 +10 加值，且不會留下任何足跡。</p>",
       "effects": {
         "Concealed": {
-          "description": "<p>While in the aura, you and each creature you choose have a +10 bonus to [[/check ability=dex skill=ste]] checks and leave no tracks.</p>",
-          "name": "Concealed"
+          "description": "<p>位於靈光內時，你和你選擇的每個生物在[[/check ability=dex skill=ste]]檢定上獲得+10加值，且不會留下任何足跡。</p>",
+          "name": "遮蔽"
         }
       }
     },
@@ -2681,7 +2681,7 @@
     },
     "Phantasmal Force": {
       "name": "魅影之力",
-      "description": "<div><p>你嘗試對射程內一個你所能看見的生物腦海中製造幻象。目標進行一次智力豁免檢定。若豁免失敗，你將創造一個不大於10立方呎的幻象物體、生物或其它現象，且只有目標能在法術持續期間感知到它。該幻象包含聲音、溫度及其他感官刺激。</p><p>目標可以採取&amp;Reference[Study]{研究}動作，以[[/check ability=int skill=inv dc=@attributes.spelldc]]檢定對抗你的法術豁免難度等級。若檢定成功，目標意識到幻象是幻覺，且法術結束。</p><p>在法術影響下，目標將幻覺視為真實，並合理化與其互動時產生的任何不合邏輯的結果。例如，若目標穿過一個幻影橋梁並從墜落中倖存，其會相信橋梁是存在的，並認為有其他原因導致它墜落。</p><p>受影響的目標甚至可能從幻象中受到傷害，如果幻覺代表了一個危險的生物或危險。在你的每個回合中，如果目標在幻覺區域內或距離幻想5呎以內，這樣的幻覺可以對目標造成2d8心靈傷害。目標將傷害感知為適合幻象的類型。</p></div>",
+      "description": "<div><p>你嘗試在射程內一個你所能看見的生物腦海中編造一個幻象。目標進行一次智力豁免。豁免失敗時，你創造出一個不大於10立方呎、且在持續期間內只有目標能感知到的幻象物體、生物或其他現象。該幻象包含聲音、溫度及其他感官刺激。</p><p>目標可以採取&amp;Reference[Study]{研究}動作，以[[/check ability=int skill=inv dc=@attributes.spell.dc]]檢定對抗你的法術豁免DC，來檢查該幻象。若檢定成功，目標意識到幻象是幻覺，且法術結束。</p><p>在法術影響下，目標將幻象視為真實，並合理化與其互動時產生的任何不合邏輯的結果。例如，若目標踏上一座幻影橋梁並在墜落中倖存，其會相信橋梁真實存在，並認為是別的原因導致其墜落。</p><p>受影響的目標甚至可能從幻象中受到傷害，只要該幻象代表一個危險的生物或危害。在你的每個回合中，若目標位於幻象區域內或距離幻象5呎以內，這樣的幻象可以對目標造成2d8點心靈傷害。目標會將該傷害感知為適合此幻象的類型。</p></div>",
       "activities": {
         "Phantasm Damage": {
           "name": "幻覺傷害"
@@ -2690,13 +2690,13 @@
           "name": "施放"
         },
         "Study": {
-          "condition": "Study Action taken by other creature",
-          "name": "Study"
+          "condition": "其他生物採取研究動作",
+          "name": "研究"
         }
       },
       "effects": {
         "Seeing Illusions": {
-          "description": "<p>目標可以採取&amp;Reference[Study]{研究}動作，以[[/check ability=int skill=inv dc=@attributes.spelldc]]檢定對抗你的法術豁免難度等級。若檢定成功，目標意識到幻象是幻覺，且法術結束。</p>",
+          "description": "<p>目標可以採取&amp;Reference[Study]{研究}動作，以[[/check ability=int skill=inv dc=@attributes.spell.dc]]檢定對抗你的法術豁免DC，來檢查該幻象。若檢定成功，目標意識到幻象是幻覺，且法術結束。</p>",
           "name": "識破幻象"
         }
       }
@@ -2810,7 +2810,7 @@
     },
     "Prayer of Healing": {
       "name": "治癒祈禱",
-      "description": "<p>最多五個你所選擇且整個施法過程中停留在射程內的生物，獲得&amp;Reference[shortrest]的好處，並恢復2d8生命值。直到該生物完成一次長休前，不能再次受到此法術影響。</p><p><strong>【升環法術效應】 </strong>法術位每升一個環階，治療量就增加1d8。</p>",
+      "description": "<p>最多五個你所選擇且整個施法過程中停留於射程內的生物，獲得&amp;Reference[shortrest]{短休}的好處，並恢復2d8點生命值。直到該生物完成一次長休前，不能再次受到此法術影響。</p><p><strong>【升環法術效應】 </strong>法術位每升一個環階，治療量就增加1d8。</p>",
       "effects": {
         "Healed by Prayer": {
           "description": "<p>直到該生物完成一次長休前，不能再次受到@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplPrayerofHe]法術的影響。</p>",
@@ -2920,7 +2920,7 @@
     },
     "Protection from Energy": {
       "name": "防護能量",
-      "description": "<div><p>在法術持續期間，你所觸碰的自願生物對一個你所選擇的傷害類型擁有抗性：強酸、寒冷、火焰、閃電、雷鳴。</p></div>",
+      "description": "<div><p>在法術持續期間，你所觸碰的自願生物對一個你所選擇的傷害類型擁有抗力：強酸、寒冷、火焰、閃電、雷鳴。</p></div>",
       "effects": {
         "Fire Protection": {
           "name": "Fire Protection"
@@ -2951,11 +2951,11 @@
     },
     "Protection from Poison": {
       "name": "防護毒素",
-      "description": "<p>你觸碰一個生物並結束其&amp;Reference[poisoned]{中毒}狀態。在法術持續期間，目標在迴避或結束中毒狀態的豁免檢定中具有優勢，且其獲得毒素傷害的抗性。</p>",
+      "description": "<p>你觸碰一個生物並結束其&amp;Reference[poisoned]{中毒}狀態。在法術持續期間，目標在迴避或結束中毒狀態的豁免檢定中具有優勢，且其獲得毒素傷害的抗力。</p>",
       "effects": {
         "Poison Protection": {
-          "name": "Poison Protection",
-          "description": "<p><span style=\"font-family:Signika, sans-serif\">For the duration, the target has Advantage on saving throws to avoid or end the Poisoned condition, and it has Resistance to Poison damage.</span></p>"
+          "name": "毒素防護",
+          "description": "<p><span style=\"font-family:Signika, sans-serif\">在持續期間內，目標在迴避或結束中毒狀態的豁免檢定中具有優勢，且其獲得毒素傷害的抗性。</span></p>"
         }
       }
     },
@@ -3006,11 +3006,11 @@
     },
     "Ray of Enfeeblement": {
       "name": "衰弱射線",
-      "description": "<p>一束衰敗的能量從你身上射向射程內一個生物。目標必須進行一次體質豁免。豁免成功時，直到你下回合開始前，目標在下一次攻擊檢定時具有劣勢。</p><p>豁免失敗時，在法術持續時間內，目標基於力量的D20檢定中具有劣勢。在此期間，其所有傷害骰也會減少1d8。目在每回合結束時重複這個豁免，成功時則法術結束。</p>",
+      "description": "<p>一束衰敗的能量從你身上射向射程內一個生物。目標必須進行一次體質豁免。豁免成功時，直到你下回合開始前，目標在下一次攻擊檢定時具有劣勢。</p><p>豁免失敗時，在法術持續時間內，目標基於力量的D20檢定上具有劣勢。在此期間，其所有傷害骰也會減少1d8。目在每回合結束時重複該豁免，成功時法術結束。</p>",
       "effects": {
         "Enervated": {
           "name": "衰弱",
-          "description": "<p>目標基於力量的D20檢定中具有劣勢。在此期間，其所有傷害骰也會減少1d8。目標在每回合結束時重複[[/save ability=con]]豁免，成功時則法術結束。</p>"
+          "description": "<p>目標基於力量的D20檢定上具有劣勢。在此期間，其所有傷害骰也會減少1d8。目標在每回合結束時重複[[/save ability=con]]豁免，成功時法術結束。</p>"
         },
         "Brief Enfeeblement": {
           "description": "<p>直到你下回合開始前，目標在下一次攻擊檢定時具有劣勢。</p>",
@@ -3149,7 +3149,7 @@
     },
     "Rope Trick": {
       "name": "通天繩",
-      "description": "<p>You touch a rope. One end of it hovers upward until the rope hangs perpendicular to the ground or the rope reaches a ceiling. At the rope’s upper end, an Invisible 3-foot-by-5-foot portal opens to an extra­dimensional space that lasts until the spell ends. That space can be reached by climbing the rope, which can be pulled into or dropped out of it.</p><p>The space can hold up to eight Medium or smaller creatures. Attacks, spells, and other effects can’t pass into or out of the space, but creatures inside it can see through the portal. Anything inside the space drops out when the spell ends.</p>"
+      "description": "<p>你觸碰一條繩索。其一端會向上浮起，直到繩索與地面垂直懸掛，或繩索觸及天花板。在繩索上端會開啟一道隱形的3呎乘5呎傳送門，通往一個持續至法術結束的異次元空間。可以沿著繩索攀爬進入該空間，繩索也可以被拉入該空間或從中丟出。</p><p>該空間可容納至多八個中型或更小的生物。攻擊、法術和其他效果無法穿入或穿出該空間，但空間內的生物可以透過傳送門向外看。法術結束時，空間內的一切東西都會掉出來。</p>"
     },
     "Sacred Flame": {
       "name": "聖焰",
@@ -3291,7 +3291,7 @@
     },
     "Shatter": {
       "name": "粉碎音波",
-      "description": "<p>A loud noise erupts from a point of your choice within range. Each creature in a 10-foot-radius Sphere centered there makes a Constitution saving throw, taking 3d8 Thunder damage on a failed save or half as much damage on a successful one. A Construct has Disadvantage on the save.</p><p>A nonmagical object that isn’t being worn or carried also takes the damage if it’s in the spell’s area.</p><p><strong>【升環法術效應】</strong> 法術位每升一個環階，傷害就增加1d8。</p>"
+      "description": "<p>一陣巨大的噪音從你在射程內選擇的一點爆發。以該點為中心、半徑10呎的球形區域內的每個生物都必須進行一次體質豁免，豁免失敗時受到3d8點雷鳴傷害，成功時則傷害減半。構裝生物在此豁免上具有劣勢。</p><p>若有未被穿著或攜帶的非魔法物件位於法術區域內，也會受到該傷害。</p><p><strong>【升環法術效應】</strong>法術位每升一個環階，傷害就增加1d8。</p>"
     },
     "Shield": {
       "name": "護盾術",
@@ -3349,12 +3349,12 @@
       }
     },
     "Shining Smite": {
-      "name": "Shining Smite",
-      "description": "<p>The target hit by the strike takes an extra 2d6 Radiant damage from the attack. Until the spell ends, the target sheds &amp;Reference[BrightLight] in a 5-foot radius, attack rolls against it have Advantage, and it can’t benefit from the &amp;Reference[Invisible]{隱形} condition.</p><p><strong>【升環法術效應】</strong> 法術位每升一個環階，傷害就增加1d6。</p>",
+      "name": "閃耀斬",
+      "description": "<p>被該打擊命中的目標會因該次攻擊額外承受2d6點光耀傷害。直到法術結束前，目標會發出半徑5呎的&amp;Reference[BrightLight]{明亮光照}，對其進行的攻擊檢定具有優勢，且其無法受益於&amp;Reference[Invisible]{隱形}狀態。</p><p><strong>【升環法術效應】</strong>法術位每升一個環階，傷害就增加1d6。</p>",
       "effects": {
         "Shining": {
-          "name": "Shining",
-          "description": "<p>Until the spell ends, the target sheds &amp;Reference[BrightLight] in a 5-foot radius, attack rolls against it have Advantage, and it can’t benefit from the &amp;Reference[Invisible]{隱形} condition.</p>"
+          "name": "閃耀",
+          "description": "<p>直到法術結束前，目標會發出半徑5呎的&amp;Reference[BrightLight]{明亮光照}，對其進行的攻擊檢定具有優勢，且其無法受益於&amp;Reference[Invisible]{隱形}狀態。</p>"
         }
       }
     },
@@ -3441,7 +3441,7 @@
     },
     "Spider Climb": {
       "name": "蛛行術",
-      "description": "<p>直到法術結束前，你觸碰的一個自願生物會獲得在垂直表面和天花板上移動的能力，且不需要佔用雙手。目標還會獲得等於其速度的攀爬速度。</p><p><strong>【升環法術效應】</strong>法術位每升一個環階，就可以額外選擇一個生物。</p><section class=\"secret\" id=\"secret-4LoECjSnyIsXFdKY\"><p><strong>Foundry Note</strong></p><p>The Active Effect provided by the <strong>Cast</strong> activity upgrades the character's Climb Speed to a value of \"1\" to indicate equivalence to (walk) Speed.</p></section>",
+      "description": "<p>直到法術結束前，你觸碰的一個自願生物會獲得在垂直表面和天花板上移動的能力，且不需要佔用雙手。目標還會獲得等於其速度的攀爬速度。</p><p><strong>【升環法術效應】</strong>法術位每升一個環階，就可以額外選擇一個生物。</p><section class=\"secret\" id=\"secret-4LoECjSnyIsXFdKY\"><p><strong>Foundry 註記</strong></p><p>由「<strong>施放</strong>」行動所提供的Active Effect，會將角色的攀爬速度升級為「1」，表示與（步行）速度相同。</p></section>",
       "effects": {
         "Spider Climb": {
           "name": "蛛行術"
@@ -3450,7 +3450,7 @@
     },
     "Spike Growth": {
       "name": "荊棘叢生",
-      "description": "<p>The ground in a 20-foot-radius Sphere centered on a point within range sprouts hard spikes and thorns. The area becomes Difficult Terrain for the duration. When a creature moves into or within the area, it takes [[/damage 2d4 type=piercing]] damage for every 5 feet it travels.</p><p>The transformation of the ground is camouflaged to look natural. Any creature that can’t see the area when the spell is cast must take a Search action and succeed on a [[/check ability=wis skill=prc dc=@attributes.spelldc]] or [[/check ability=wis skill=sur dc=@attributes.spelldc]] check against your spell save DC to recognize the terrain as hazardous before entering it.</p>"
+      "description": "<p>以射程內一點為中心，半徑20呎球形區域內的地面長出堅硬的尖刺與荊棘。該區域在持續期間內成為困難地形。生物移動進入該區域或在其中移動時，每移動5呎就會受到[[/damage 2d4 type=piercing]]點傷害。</p><p>地面的變化經過偽裝，看起來像是自然形成。施放法術時看不到該區域的生物，必須採取搜索動作，並成功通過一次[[/check ability=wis skill=prc dc=@attributes.spell.dc]]或[[/check ability=wis skill=sur dc=@attributes.spell.dc]]檢定對抗你的法術豁免DC，才能在進入該區域前辨認出此地形有危險。</p>"
     },
     "Spirit Guardians": {
       "name": "靈體守衛",
@@ -3522,7 +3522,7 @@
     },
     "Stoneskin": {
       "name": "石膚術",
-      "description": "<p>直到法術結束前，一個你所觸碰的自願生物具有對鈍擊、穿刺、劈砍傷害的&amp;Reference[damageresistance]{抗性}。</p>",
+      "description": "<p>直到法術結束前，一個你所觸碰的自願生物具有對鈍擊、穿刺、劈砍傷害的&amp;Reference[damageresistance]{抗力}。</p>",
       "effects": {
         "Stoneskin": {
           "name": "Stoneskin"
@@ -3565,7 +3565,7 @@
     },
     "Suggestion": {
       "name": "暗示術",
-      "description": "<p>選擇射程內你所能看見、能聽到你、並聽懂你說話的生物，你向其建議一項活動——用不超過25個單字描述。建議必須聽起來可行，並且不能涉及任何明顯會傷害目標或其盟友的行為。例如，你可以說：「去拿邪教寶庫的鑰匙，並把鑰匙給我。」或者你可以說：「停止戰鬥，靜靜離開這座圖書館， 不要再回來了。」</p><p>目標必須通過一次感知豁免，否則陷入魅惑狀態，直到法術結束，或者你或你的盟友對目標造成傷害。被魅惑的目標會盡其所能地採取建議。建議的活動可以持續整個法術持續時間，但如果建議的活動可以在較短時間內完成，則在活動完成後，結束目標身上的法術。</p>",
+      "description": "<p>選擇射程內你所能看見、能聽到你、並聽懂你說話的生物，你向其建議一項活動——用不超過25個單字描述。建議必須聽起來可行，並且不能涉及任何明顯會傷害目標或其盟友的行為。例如，你可以說：「去拿邪教寶庫的鑰匙，並把鑰匙給我。」或者你可以說：「停止戰鬥，靜靜離開這座圖書館，不要再回來了。」</p><p>目標必須通過一次感知豁免，否則陷入魅惑狀態，直到法術結束，或者你或你的盟友對目標造成傷害。被魅惑的目標會盡其所能地採取建議。建議的活動可以持續整個法術持續時間，但如果建議的活動可以在較短時間內完成，則在活動完成後，結束目標身上的法術。</p>",
       "effects": {
         "Pursuing Suggestion": {
           "name": "追隨建議",
@@ -3578,8 +3578,8 @@
       "description": "<p>You call forth an aberrant spirit. It manifests in an unoccupied space that you can see within range and uses the <strong>@UUID[Compendium.dnd-players-handbook.actors.Actor.phbmobAberrantSp]{Aberrant Spirit}</strong> stat block. When you cast the spell, choose Beholderkin, Mind Flayer, or Slaad. The creature resembles an Aberration of that kind, which determines certain details in its stat block. The creature disappears when it drops to 0 Hit Points or when the spell ends.</p><p>The creature is an ally to you and your allies. In combat, it shares your Initiative count, but it takes its turn immediately after yours. It obeys your verbal commands (no action required by you). If you don’t issue any, it takes the &amp;Reference[Dodge] action and uses its movement to avoid danger.</p><p><strong>【升環法術效應】</strong> Use the spell slot’s level for the spell’s level in the stat block.</p><section class=\"fvtt advice\" style=\"margin:0.5rem;padding:0.5rem\"><article><p>In addition to the noted usage of the spell's level in the spirit's Traits and Actions, the following attributes are also affected.</p><table><caption>Aberrant Spirit</caption><tbody><tr><td><strong>AC</strong></td><td>11 + the spell’s level</td></tr><tr><td><strong>HP</strong></td><td>40 + 10 for each spell level above 4</td></tr><tr><td><strong>Speed</strong></td><td>30 ft.; Fly 30 ft. (hover; Beholderkin only)</td></tr><tr><td><strong>PB</strong></td><td>equals your Proficiency Bonus</td></tr></tbody></table></article></section>"
     },
     "Summon Beast": {
-      "name": "Summon Beast",
-      "description": "<p>You call forth a bestial spirit. It manifests in an unoccupied space that you can see within range and uses the <strong>@UUID[Compendium.dnd-players-handbook.actors.Actor.phbmobBestialSpi]{Bestial Spirit}</strong> stat block. When you cast the spell, choose an environment: Air, Land, or Water. The creature resembles an animal of your choice that is native to the chosen environment, which determines certain details in its stat block. The creature disappears when it drops to 0 Hit Points or when the spell ends.</p><p>The creature is an ally to you and your allies. In combat, the creature shares your Initiative count, but it takes its turn immediately after yours. It obeys your verbal commands (no action required by you). If you don’t issue any, it takes the Dodge action and uses its movement to avoid danger.</p><p><strong>【升環法術效應】</strong> Use the spell slot’s level for the spell’s level in the stat block.</p><section class=\"fvtt advice\" style=\"margin:0.5rem;padding:0.5rem\"><article><p>In addition to the noted usage of the spell's level in the spirit's Traits and Actions, the following attributes are also affected.</p><table><caption>Bestial Spirit</caption><tbody><tr><td><strong>AC</strong></td><td>11 + the spell’s level</td></tr><tr><td><strong>HP</strong></td><td>20 (Air only) or 30 (Land and Water only) + 5 for each spell level above 2</td></tr><tr><td><strong>Speed</strong></td><td>30 ft.; Climb 30 ft. (Land only); Fly 60 ft. (Air only); Swim 30 ft. (Water only)</td></tr><tr><td><strong>PB</strong></td><td>equals your Proficiency Bonus</td></tr></tbody></table></article></section>"
+      "name": "野獸召喚術",
+      "description": "<p>你喚來一個野獸靈魄。其會在射程內你所能看見的一處未被佔據的空間中顯現，並使用<strong>@UUID[Compendium.dnd-players-handbook.actors.Actor.phbmobBestialSpi]{野獸靈魄}</strong>的屬性值。施放法術時，從天空、大地與海洋中選擇一種環境。該生物會顯化為你所選、且原生於該環境的一種動物，其屬性值中的部分細節也受此影響。該生物會在生命值降為0或法術結束時消失。</p><p>該生物是你及你盟友的盟友。戰鬥中，該生物共用你的先攻值，但會在你的回合結束後立即進行其回合。其遵從你的口頭指令（你無需花費動作）。若你沒有下達指令，其會採取迴避動作，並利用移動力遠離危險。</p><p><strong>【升環法術效應】</strong>在屬性值中，以法術位的環階作為法術的環階。</p><section class=\"fvtt advice\" style=\"margin:0.5rem;padding:0.5rem\"><article><p>除了靈魄的特質與動作中已註明使用法術環階之外，下列屬性也會受到影響。</p><table><caption>野獸靈魄</caption><tbody><tr><td><strong>AC</strong></td><td>11 + 法術環階</td></tr><tr><td><strong>HP</strong></td><td>20（僅限天空）或30（僅限大地與海洋）+ 法術環階每高於2環一環加5</td></tr><tr><td><strong>速度</strong></td><td>30呎；攀爬30呎（僅限大地）；飛行60呎（僅限天空）；游泳30呎（僅限海洋）</td></tr><tr><td><strong>PB</strong></td><td>等同於你的熟練加值</td></tr></tbody></table></article></section>"
     },
     "Summon Construct": {
       "name": "Summon Construct",
@@ -4041,11 +4041,11 @@
     },
     "Warding Bond": {
       "name": "守護聯結",
-      "description": "<p>You touch another creature that is willing and create a mystic connection between you and the target until the spell ends. While the target is within 60 feet of you, it gains a +1 bonus to AC and saving throws, and it has &amp;Reference[damageresistance]{Resistance} to all damage. Also, each time it takes damage, you take the same amount of damage.</p><p>The spell ends if you drop to 0 Hit Points or if you and the target become separated by more than 60 feet. It also ends if the spell is cast again on either of the connected creatures.</p>",
+      "description": "<p>你觸碰另一個自願的生物，並在你與目標之間建立一道神祕的聯結，直到法術結束。當目標位於你60呎內時，其AC和豁免檢定獲得+1加值，且對所有傷害具有&amp;Reference[damageresistance]{抗力}。此外，每當其受到傷害時，你也會受到等量的傷害。</p><p>若你的生命值降至0，或你與目標相隔超過60呎，法術就會結束。若法術被再次施放在任一受聯結的生物身上，法術也會結束。</p>",
       "effects": {
         "Bonded": {
-          "name": "Bonded",
-          "description": "<p>While the target is within 60 feet of you, it gains a +1 bonus to AC and saving throws, and it has Resistance to all damage. Also, each time it takes damage, you take the same amount of damage.</p><p>The spell ends if you drop to 0 Hit Points or if you and the target become separated by more than 60 feet. It also ends if the spell is cast again on either of the connected creatures.</p>"
+          "name": "受聯結",
+          "description": "<p>當目標位於你60呎內時，其AC和豁免檢定獲得+1加值，且對所有傷害具有抗力。此外，每當其受到傷害時，你也會受到等量的傷害。</p><p>若你的生命值降至0，或你與目標相隔超過60呎，法術就會結束。若法術被再次施放在任一受聯結的生物身上，法術也會結束。</p>"
         }
       }
     },
@@ -4070,7 +4070,7 @@
     },
     "Web": {
       "name": "蛛網術",
-      "description": "<p>You conjure a mass of sticky webbing at a point within range. The webs fill a 20-foot Cube there for the duration. The webs are &amp;Reference[difficultterrain]{困難地形}, and the area within them is &amp;Reference[lightlyobscured].</p><p>If the webs aren’t anchored between two solid masses (such as walls or trees) or layered across a floor, wall, or ceiling, the web collapses on itself, and the spell ends at the start of your next turn. Webs layered over a flat surface have a depth of 5 feet.</p><p>The first time a creature enters the webs on a turn or starts its turn there, it must succeed on a Dexterity saving throw or have the &amp;Reference[restrained] condition while in the webs or until it breaks free.</p><p>A creature Restrained by the webs can take an action to make a [[/check ability=str skill=ath dc=@attributes.spelldc]] check against your spell save DC. If it succeeds, it is no longer Restrained.</p><p>The webs are flammable. Any 5-foot Cube of webs exposed to fire burns away in 1 round, dealing [[/damage 2d4 type=fire]] damage to any creature that starts its turn in the fire.</p>"
+      "description": "<p>你在射程內一點召喚出一大團黏稠的蛛網。蛛網會在持續期間內填滿該處一個20呎立方體區域。蛛網為&amp;Reference[difficultterrain]{困難地形}，且網內的區域為&amp;Reference[lightlyobscured]{輕度遮蔽}。</p><p>若蛛網未被固定在兩個固體（例如牆壁或樹木）之間，或未鋪設在地板、牆壁或天花板上，蛛網就會自行坍塌，法術在你的下一回合開始時結束。鋪設在平面上的蛛網深度為5呎。</p><p>生物在一回合內第一次進入蛛網，或在蛛網中開始其回合時，必須通過一次敏捷豁免，否則在蛛網中期間或直到掙脫前，陷入&amp;Reference[restrained]{束縛}狀態。</p><p>被蛛網束縛的生物可以採取一個動作，進行一次[[/check ability=str skill=ath dc=@attributes.spell.dc]]檢定對抗你的法術豁免DC。若成功，其不再受到束縛。</p><p>蛛網是易燃的。任何暴露在火焰中的5呎立方體蛛網會在1輪內燒盡，並對在火焰中開始其回合的生物造成[[/damage 2d4 type=fire]]點傷害。</p>"
     },
     "Weird": {
       "name": "怪影殺手",
@@ -4208,7 +4208,7 @@
     },
     "Cloud of Daggers": {
       "name": "匕首之雲",
-      "description": "<p>你在射程內以一點為中心，召喚出5立方呎的旋轉匕首。每個處於區域內的生物承受4d4點揮砍傷害。若生物進入這個立方體、在其內結束回合、或立方體移動至其所在位置時，也會承受傷害。一個生物每回合只會承受一次此傷害。</p><p>在你後續回合中，你可以採取一個魔法動作，將立方體傳送最多30呎。</p><p><strong>【升環法術效應】</strong>法術位每升一個環階，傷害就增加2d4。</p>"
+      "description": "<p>你在射程內一點為中心的5呎立方區域內召喚出旋轉的匕首。每個處於該區域內的生物承受4d4點揮砍傷害。若生物進入該立方體、在該處結束其回合，或該立方體移動至其所在空間時，同樣會承受此傷害。一個生物每回合只會承受一次此傷害。</p><p>在你後續回合中，你可以採取一個魔法動作，將立方體傳送最多30呎。</p><p><strong>【升環法術效應】</strong>法術位每升一個環階，傷害就增加2d4。</p>"
     },
     "Mage Hand": {
       "name": "法師之手",
