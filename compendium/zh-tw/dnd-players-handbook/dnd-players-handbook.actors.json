@@ -1,26 +1,26 @@
 {
   "label": "Actors",
   "folders": {
-    "Primal Companions": "Primal Companions",
-    "Example Characters": "Example Characters",
-    "Conjurations": "Conjurations",
-    "Summons": "Summons",
-    "Conjured Elementals": "Conjured Elementals",
-    "Vehicles": "Vehicles",
-    "Creatures": "Creatures",
-    "Companions": "Companions",
-    "Otherworldly Steeds": "Otherworldly Steeds",
-    "Fiendish Spirits": "Fiendish Spirits",
-    "Animated Objects": "Animated Objects",
-    "Aberrant Spirits": "Aberrant Spirits",
-    "Undead Spirits": "Undead Spirits",
-    "Summon Templates": "Summon Templates",
-    "Bestial Spirits": "Bestial Spirits",
-    "Construct Spirits": "Construct Spirits",
-    "Celestial Spirits": "Celestial Spirits",
-    "Fey Spirits": "Fey Spirits",
-    "Elemental Spirits": "Elemental Spirits",
-    "Giant Insects": "Giant Insects"
+    "Primal Companions": "原初行侶",
+    "Example Characters": "範例角色",
+    "Conjurations": "咒法召喚物",
+    "Summons": "召喚物",
+    "Conjured Elementals": "被召喚元素",
+    "Vehicles": "載具",
+    "Creatures": "生物",
+    "Companions": "同伴",
+    "Otherworldly Steeds": "異界坐騎",
+    "Fiendish Spirits": "邪魔精魄",
+    "Animated Objects": "活化物體",
+    "Aberrant Spirits": "異怪精魄",
+    "Undead Spirits": "不死生物精魄",
+    "Summon Templates": "召喚範本",
+    "Bestial Spirits": "野獸精魄",
+    "Construct Spirits": "構裝體精魄",
+    "Celestial Spirits": "天界生物精魄",
+    "Fey Spirits": "精類精魄",
+    "Elemental Spirits": "元素精魄",
+    "Giant Insects": "巨蟲"
   },
   "entries": {
     "Giant Insect": {
@@ -5117,7 +5117,7 @@
       "name": "Beast of the Land"
     },
     "Airship": {
-      "name": "Airship",
+      "name": "飛空艇",
       "description": "<p><strong>Speed:</strong> 8 mph</p><p><strong>Crew:</strong> 10</p><p><strong>Passengers:</strong> 20</p><p><strong>Cargo (Tons):</strong> 1</p><p><strong>AC:</strong> 13</p><p><strong>HP:</strong> 300</p><p><strong>Damage Threshold:</strong> —</p><p><strong>Cost:</strong> 40,000 GP</p>"
     },
     "Beast of the Sky": {
