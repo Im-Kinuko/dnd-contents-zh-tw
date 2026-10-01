@@ -5138,15 +5138,15 @@
     },
     "Unarmed Strike": {
       "name": "徒手打擊",
-      "description": "<p>@UUID[Compendium.dnd-players-handbook.content.JournalEntry.phbAppendixDRule.JournalEntryPage.xJjJ4lhymAYXAOvO]{徒手打擊規則}</p>",
+      "description": "<p><em>見&amp;Reference[unarmedstrike]{徒手打擊}</em>。</p>",
       "activities": {
         "Grapple/Shove": {
-          "name": "擒抱 / 推離"
+          "name": "擒抱／推動"
         }
       },
       "effects": {
         "Grappled": {
-          "name": "擒抱"
+          "name": "擒住"
         },
         "Prone": {
           "name": "伏地"
