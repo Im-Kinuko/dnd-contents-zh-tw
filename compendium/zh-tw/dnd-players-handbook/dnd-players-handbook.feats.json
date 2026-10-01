@@ -33,7 +33,7 @@
           "name": "中毒（智力）"
         }
       },
-      "description": "<p>你獲得下列好處</p><p><strong>【屬性值提升】</strong>你的敏捷或智力提升1點，上限為20。</p><p><strong>【強效毒藥】</strong>當你造成毒素傷害而擲傷害骰時，無視對毒素傷害的抗性。</p><p><strong>【釀造毒藥】</strong>你獲得製毒工具組的熟練。使用製毒工具組進行1小時的工作並消耗價值50金幣的材料，你可以製作出數量等同於你熟練加值的毒藥。作為附贈動作，你可以將一份毒藥塗抹到武器或彈藥上。塗抹後，毒藥的效力將維持1分鐘，或直到你用塗毒的物品造成傷害，以先發生者為準。當生物受到塗毒物品的傷害時，該生物必須成功通過一次體質豁免（DC = 8 + 此專長增加的屬性調整值 + 你的熟練加值），否則承受2d8毒素傷害，並直到你下一回合結束前陷入中毒狀態。</p><section id=\"secret-Z0hagCaxOGvVtkkm\" class=\"secret\"><p><strong>Foundry筆記</strong></p><p>The <strong>Create Poison Doses</strong> activity will restore a number of uses of this item according to your proficiency bonus.</p><p>The <strong>Apply Poison</strong> enchantment activity provides the option of a Dexterity or Intelligence save activity for the target item, which should be selected based on the ability score increased when this feat was chosen.</p><p>You may delete the <strong>Poison Save</strong> activity associated with the ability score <em>not</em> chosen for this feat.</p><p>Finally, the save DC for the enchantment activities is based on the weapon user's ability scores, but should always be compared to the save DC of this feature's owner.</p></section>",
+      "description": "<p>你獲得下列好處</p><p><strong>【屬性值提升】</strong>你的敏捷或智力提升1點，上限為20。</p><p><strong>【強效毒藥】</strong>當你造成毒素傷害而擲傷害骰時，無視對毒素傷害的抗力。</p><p><strong>【釀造毒藥】</strong>你獲得製毒工具組的熟練。使用製毒工具組進行1小時的工作並消耗價值50金幣的材料，你可以製作出數量等同於你熟練加值的毒藥。作為附贈動作，你可以將一份毒藥塗抹到武器或彈藥上。塗抹後，毒藥的效力將維持1分鐘，或直到你用塗毒的物品造成傷害，以先發生者為準。當生物受到塗毒物品的傷害時，該生物必須成功通過一次體質豁免（DC = 8 + 此專長增加的屬性調整值 + 你的熟練加值），否則承受2d8毒素傷害，並直到你下一回合結束前陷入中毒狀態。</p><section class=\"secret\" id=\"secret-Z0hagCaxOGvVtkkm\"><p><strong>Foundry筆記</strong></p><p>The <strong>Create Poison Doses</strong> activity will restore a number of uses of this item according to your proficiency bonus.</p><p>The <strong>Apply Poison</strong> enchantment activity provides the option of a Dexterity or Intelligence save activity for the target item, which should be selected based on the ability score increased when this feat was chosen.</p><p>You may delete the <strong>Poison Save</strong> activity associated with the ability score <em>not</em> chosen for this feat.</p><p>Finally, the save DC for the enchantment activities is based on the weapon user's ability scores, but should always be compared to the save DC of this feature's owner.</p></section>",
       "name": "毒師"
     },
     "Mage Slayer": {
@@ -104,7 +104,7 @@
           "name": "Merge with the Shadows"
         }
       },
-      "description": "<p>你獲得下列益處。</p><p><strong>屬性值提升。</strong>自選一項屬性值提升1點，上限為30。</p><p><strong>陰影融合。</strong>身處微光或黑暗時，你能以附贈動作使自身獲得&amp;參考[隱形]狀態。此狀態將在你執行動作、附贈動作或反應後立即結束。</p><p><strong>暗影型態。</strong>身處微光或黑暗時，你對所有傷害（心靈與光耀除外）具有抗性。</p><section id=\"secret-fpWHPSTNYUeGtg0w\" class=\"secret\"><p><strong>鑄造廠註記</strong></p><p>此特性的<strong>夜靈恩澤</strong>主動效果包含抗性，但需在角色欄的效果分頁手動啟用。</p><p><strong>與陰影融合</strong>行動包含會施加隱形狀態的主動效果。</p></section>"
+      "description": "<p>你獲得下列益處。</p><p><strong>屬性值提升。</strong>自選一項屬性值提升1點，上限為30。</p><p><strong>陰影融合。</strong>身處微光或黑暗時，你能以附贈動作使自身獲得&amp;參考[隱形]狀態。此狀態將在你執行動作、附贈動作或反應後立即結束。</p><p><strong>暗影型態。</strong>身處微光或黑暗時，你對所有傷害（心靈與光耀除外）具有抗力。</p><section id=\"secret-fpWHPSTNYUeGtg0w\" class=\"secret\"><p><strong>鑄造廠註記</strong></p><p>此特性的<strong>夜靈恩澤</strong>主動效果包含抗力，但需在角色欄的效果分頁手動啟用。</p><p><strong>與陰影融合</strong>行動包含會施加隱形狀態的主動效果。</p></section>"
     },
     "Moderately Armored": {
       "description": "<p>你獲得下列好處</p><p><strong>【屬性值提升】</strong> 你的力量或敏捷提升1點，上限為20。</p><p><strong>【護甲訓練】</strong>你獲得中甲的訓練。</p><section class=\"secret\" id=\"secret-Q1Odcq8OF5Y3cNci\"><p><strong>Foundry筆記</strong></p><p>This feature automatically grants training with Medium armor.</p></section>",
@@ -416,7 +416,7 @@
       "description": "<p>你獲得下列好處</p><p><strong>【屬性值提升】</strong> Increase one ability score of your choice by 1, to a maximum of 30.</p><p><strong>Escape Artist.</strong> As a Bonus Action, you can take the &amp;Reference[Disengage] action, which also ends the Grappled condition on you.</p><p><strong>Quickness.</strong> Your Speed increases by 30 feet.</p><section class=\"secret\" id=\"secret-BTieKWSqXALMO8oH\"><p><strong>Foundry Note</strong></p><p>This feat includes an Active Effect which automatically increases your Speed.</p></section>",
       "effects": {
         "Boon of Speed": {
-          "name": "Boon of Speed"
+          "name": "迅捷恩惠"
         }
       },
       "name": "迅捷恩惠"
@@ -457,7 +457,7 @@
     },
     "Elemental Adept": {
       "name": "元素行家",
-      "description": "<p>你獲得下列好處</p><p><strong>【屬性值提升】</strong>提升智力、感知或魅力1點，上限為20。</p><p><strong>【能量精通】</strong>選擇下列其中一種傷害類型：強酸、寒冷、火焰、閃電或雷鳴。你施放法術無視所選傷害類型的抗性。此外，當你為造成該類型傷害的法術擲傷害時，你可以將任何結果為1的傷害骰視為2。</p><p><strong>【可複選】</strong>你可以重複選擇此專長。但你每次必須為能量精通選擇不同的傷害類型。</p><section id=\"secret-9zhg6kpDIUc84DCG\" class=\"secret\"><p><strong>Foundry筆記</strong></p><p>The effects of this feat are not automated.</p></section>"
+      "description": "<p>你獲得下列好處</p><p><strong>【屬性值提升】</strong>提升智力、感知或魅力1點，上限為20。</p><p><strong>【能量精通】</strong>選擇下列其中一種傷害類型：強酸、寒冷、火焰、閃電或雷鳴。你施放法術無視所選傷害類型的抗力。此外，當你為造成該類型傷害的法術擲傷害時，你可以將任何結果為1的傷害骰視為2。</p><p><strong>【可複選】</strong>你可以重複選擇此專長。但你每次必須為能量精通選擇不同的傷害類型。</p><section id=\"secret-9zhg6kpDIUc84DCG\" class=\"secret\"><p><strong>Foundry筆記</strong></p><p>The effects of this feat are not automated.</p></section>"
     },
     "Great Weapon Master": {
       "name": "巨武大師",
@@ -631,7 +631,7 @@
     },
     "Boon of Irresistible Offense": {
       "name": "無敵攻勢恩惠",
-      "description": "<p>你獲得下列好處。</p><p><strong>【屬性值提升】</strong> 你的力量或敏捷提升1點，上限為30。</p><p><strong>【突破防禦】</strong> 你所造成的鈍擊、穿刺與揮砍傷害永遠無視抗性。</p><p><strong>【輾壓打擊】</strong> 當你在攻擊檢定的d20中骰出20時，你可以額外造成等同於此專長所提升屬性值的傷害。額外傷害類型與攻擊類型相同。</p><section id=\"secret-B9D2nT6vBjWr9JMV\" class=\"secret\"><p><strong>Foundry備註</strong></p><p>此專長效果未自動化執行。額外傷害可於傷害擲骰對話框的情境加值欄位手動添加。</p></section>"
+      "description": "<p>你獲得下列好處。</p><p><strong>【屬性值提升】</strong> 你的力量或敏捷提升1點，上限為30。</p><p><strong>【突破防禦】</strong> 你所造成的鈍擊、穿刺與揮砍傷害永遠無視抗力。</p><p><strong>【輾壓打擊】</strong> 當你在攻擊檢定的d20中骰出20時，你可以額外造成等同於此專長所提升屬性值的傷害。額外傷害類型與攻擊類型相同。</p><section id=\"secret-B9D2nT6vBjWr9JMV\" class=\"secret\"><p><strong>Foundry備註</strong></p><p>此專長效果未自動化執行。額外傷害可於傷害擲骰對話框的情境加值欄位手動添加。</p></section>"
     },
     "Crafter": {
       "description": "<p>你獲得下列好處</p><p><strong>【工具熟練】</strong>你獲得3種快速製作表中你所選擇的不同工匠工具的熟練。</p><p><strong>【折扣】</strong>每當你購買非魔法物品時，你獲得20%的折扣。</p><p><strong>【快速製作】</strong>當你完成一次長休後，你可以製作一件快速製作表中的裝備，前提是你必須擁有與該物品相關的工匠工具以及該工匠工具的熟練才能製作。製作的物品將保留到你完成下一次長休，隨後便會解體損壞。</p><table><caption>快速製作</caption><thead><tr><td>工匠工具</td><td>裝備製作</td></tr></thead><tbody><tr><td>@UUID[Compendium.dnd-players-handbook.equipment.Item.phbtulCarpenters]{木匠工具}</td><td>@UUID[Compendium.dnd-players-handbook.equipment.Item.phbagLadder00000]{長梯}、@UUID[Compendium.dnd-players-handbook.equipment.Item.phbagTorch000000]{火炬}</td></tr><tr><td>@UUID[Compendium.dnd-players-handbook.equipment.Item.phbtulLeatherwor]{皮匠工具}</td><td>小盒子、@UUID[Compendium.dnd-players-handbook.equipment.Item.phbagPouch000000]{囊袋}</td></tr><tr><td>@UUID[Compendium.dnd-players-handbook.equipment.Item.phbtulMasonsTool]{石匠工具}</td><td>@UUID[Compendium.dnd-players-handbook.equipment.Item.phbagBlockandTac]{滑輪組}</td></tr><tr><td>@UUID[Compendium.dnd-players-handbook.equipment.Item.phbtulPottersToo]{陶匠工具}</td><td>@UUID[Compendium.dnd-players-handbook.equipment.Item.phbagJug00000000]{壺}、@UUID[Compendium.dnd-players-handbook.equipment.Item.phbagLamp0000000]{油燈}</td></tr><tr><td>@UUID[Compendium.dnd-players-handbook.equipment.Item.phbtulSmithsTool]{鐵匠工具}</td><td>@UUID[Compendium.dnd-players-handbook.equipment.Item.phbagBallBearing]{滾珠}、@UUID[Compendium.dnd-players-handbook.equipment.Item.phbagBucket00000]{水桶}、@UUID[Compendium.dnd-players-handbook.equipment.Item.phbagCaltrops000]{鐵蒺藜}、@UUID[Compendium.dnd-players-handbook.equipment.Item.phbagGrapplingHo]{爪鉤}、@UUID[Compendium.dnd5e.items.Item.M8xM8BLK4tpUayEE]{鐵鍋}</td></tr><tr><td>@UUID[Compendium.dnd-players-handbook.equipment.Item.phbtulTinkersToo]{修補匠工具}</td><td>@UUID[Compendium.dnd-players-handbook.equipment.Item.phbagBell0000000]{鈴鐺}、@UUID[Compendium.dnd-players-handbook.equipment.Item.phbagShovel00000]{鏟子}、@UUID[Compendium.dnd-players-handbook.equipment.Item.phbagTinderbox00]{打火匣}</td></tr><tr><td>@UUID[Compendium.dnd-players-handbook.equipment.Item.phbtulWeaversToo]{織布工工具}</td><td>@UUID[Compendium.dnd-players-handbook.equipment.Item.phbagBasket00000]{籃子}、@UUID[Compendium.dnd-players-handbook.equipment.Item.phbagRope0000000]{繩索}、@UUID[Compendium.dnd-players-handbook.equipment.Item.phbagNet00000000]{捕網}、@UUID[Compendium.dnd-players-handbook.equipment.Item.phbagTent0000000]{帳篷}</td></tr><tr><td>@UUID[Compendium.dnd-players-handbook.equipment.Item.phbtulWoodcarver]{木匠工具}</td><td>@UUID[Compendium.dnd-players-handbook.equipment.Item.phbwepClub000000]{棍棒}、@UUID[Compendium.dnd-players-handbook.equipment.Item.phbwepGreatclub0]{巨棍}、@UUID[Compendium.dnd-players-handbook.equipment.Item.phbwepQuartersta]{長棍}</td></tr></tbody></table><section class=\"secret\" id=\"secret-0xMSDuPkDWUc959m\"><p><strong>Foundry Note</strong></p><p>This feature does not automatically grant the proficiency. You can toggle the \"Edit\" mode in the <strong>\"</strong>Details\" tab of your sheet and click on the cog next to \"Tools\" underneath your Skills to choose your tool proficiencies.</p></section>",
@@ -761,7 +761,7 @@
       "advancement": {
         "Skilled": {
           "hint": "You gain proficiency in any combination of three skills or tools of your choice.",
-          "title": "Skilled"
+          "title": "技巧嫻熟"
         }
       }
     },
@@ -802,7 +802,7 @@
   "folders": {
     "General Feats": "通用專長",
     "Fighting Style Feats": "戰鬥風格專長",
-    "Epic Boon Feats": "史詩恩惠專長",
+    "Epic Boon Feats": "傳奇恩惠專長",
     "Origin Feats": "起源專長"
   },
   "mapping": {
