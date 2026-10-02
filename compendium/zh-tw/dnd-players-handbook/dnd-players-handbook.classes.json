@@ -14,7 +14,7 @@
         },
         "Psychic Defenses": {
           "title": "心靈防禦",
-          "hint": "你擁有對心靈傷害的抗性"
+          "hint": "你擁有對心靈傷害的抗力"
         }
       }
     },
@@ -1514,7 +1514,7 @@
           "title": "子職業特性"
         },
         "8UnvG3X4TR3MpCGe": {
-          "hint": "你的龍族魔法表現出與某種巨龍的元素親和。選擇一種傷害類型：強酸、寒冷、火焰、閃電或毒素。\n                \n                你獲得該傷害類型的抗性。"
+          "hint": "你的龍族魔法表現出與某種巨龍的元素親和。選擇一種傷害類型：強酸、寒冷、火焰、閃電或毒素。\n                \n                你獲得該傷害類型的抗力。"
         }
       }
     },
@@ -1744,7 +1744,7 @@
     },
     "Elemental Affinity": {
       "name": "Elemental Affinity",
-      "description": "<p>你的龍族魔法表現出與某種巨龍的元素親和。選擇一種傷害類型：強酸、寒冷、火焰、閃電或毒素。</p><p>你獲得該傷害類型的抗性，且當你施放造成該傷害類型的法術時，你可以將你的魅力調整值添加在該法術的一次傷害擲骰中。</p><section class=\"secret\" id=\"secret-3vHUORtVzoP6V4xF\"><p><strong>Foundry Note</strong></p><p>當你升級時，系統會提示你選擇一種傷害類型。額外的傷害不會自動加上，但此特性會為每種傷害類型各包含一個行動。</p><p>你可以將所選的傷害類型移到最上方，來加快此特性的使用，這樣在使用此特性時會自動套用該傷害類型。</p></section>",
+      "description": "<p>你的龍族魔法表現出與某種巨龍的元素親和。選擇一種傷害類型：強酸、寒冷、火焰、閃電或毒素。</p><p>你獲得該傷害類型的抗力，且當你施放造成該傷害類型的法術時，你可以將你的魅力調整值添加在該法術的一次傷害擲骰中。</p><section class=\"secret\" id=\"secret-3vHUORtVzoP6V4xF\"><p><strong>Foundry Note</strong></p><p>當你升級時，系統會提示你選擇一種傷害類型。額外的傷害不會自動加上，但此特性會為每種傷害類型各包含一個行動。</p><p>你可以將所選的傷害類型移到最上方，來加快此特性的使用，這樣在使用此特性時會自動套用該傷害類型。</p></section>",
       "activities": {
         "Poison": {
           "name": "Poison",
@@ -2489,7 +2489,7 @@
     },
     "Hunter's Lore": {
       "name": "獵人學識",
-      "description": "<p>你可以召喚自然神力以顯露獵物的優勢和弱點。當生物被你的<em>獵人印記</em>標記時，你將知曉該生物是否擁有任何免疫、抗性或易傷，以及知曉分別是什麼。</p>"
+      "description": "<p>你可以召喚自然神力以顯露獵物的優勢和弱點。當生物被你的<em>獵人印記</em>標記時，你將知曉該生物是否擁有任何免疫、抗力或易傷，以及知曉分別是什麼。</p>"
     },
     "Hunter's Prey": {
       "name": "狩者獵物",
@@ -3976,7 +3976,7 @@
     },
     "Rage": {
       "name": "狂暴",
-      "description": "<p>你可以灌輸自己一種被稱作狂暴的原初之力，其為你帶來極致的力量與強韌。若你為穿戴重甲，作為一個附贈動作，你可以進入狂暴。</p><p>你可以進入狂暴的次數，如同你野蠻人等級在野蠻人特性表中狂暴次數（Rages）欄所示。（當前 [[lookup @scale.barbarian.rage]]）。當你完成一次短休時，你重獲一次已消耗的使用次數，並在你完成一次長休時，重獲所有已消耗使用次數。</p><p>在啟用狂暴時，你須遵守以下規則。</p><p><strong>【傷害抗性】</strong>你具有對鈍擊、穿刺、揮砍傷害的抗性。</p><p><strong>【狂暴傷害】</strong>當你以武器或徒手打擊使用力量對目標進行攻擊並造成傷害時，你造成的傷害獲得額外加值，且此加值會隨著你野蠻人等級提升而成長，如野蠻人特性表中的狂暴傷害（Rage Damage）欄所示。</p><p><strong>【力量優勢】</strong>你在力量檢定與力量豁免上具有優勢。</p><p><strong>【無專注或法術】</strong>你無法維持專注，並且你不能施放法術。</p><p><strong>【持續時間】</strong>狂暴持續到你下回合結束，且若你穿戴重甲或陷入無力狀態則提前終止。若在你啟用後的下回合仍處於狂暴，你可以執行下列其中一項以延長狂暴一輪：</p><ul><li>對敵人進行攻擊檢定。</li><li>迫使敵人進行豁免檢定。</li><li>以附贈動作延長你的狂暴。</li></ul><p>每次延長狂暴，將使其持續至你的下個回合結束。你可以維持狂暴至多10 分鐘。</p><section class=\"secret\" id=\"secret-o72MSFMdhSQC7kYa\"><p><strong>Foundry Note</strong></p><p>This feature includes an Active Effect which automates the Resistance and additional damage. This feature will also automatically recharge your Rage uses on a Short and Long Rest.</p></section>",
+      "description": "<p>你可以灌輸自己一種被稱作狂暴的原初之力，其為你帶來極致的力量與強韌。若你為穿戴重甲，作為一個附贈動作，你可以進入狂暴。</p><p>你可以進入狂暴的次數，如同你野蠻人等級在野蠻人特性表中狂暴次數（Rages）欄所示。（當前 [[lookup @scale.barbarian.rage]]）。當你完成一次短休時，你重獲一次已消耗的使用次數，並在你完成一次長休時，重獲所有已消耗使用次數。</p><p>在啟用狂暴時，你須遵守以下規則。</p><p><strong>【傷害抗力】</strong>你具有對鈍擊、穿刺、揮砍傷害的抗力。</p><p><strong>【狂暴傷害】</strong>當你以武器或徒手打擊使用力量對目標進行攻擊並造成傷害時，你造成的傷害獲得額外加值，且此加值會隨著你野蠻人等級提升而成長，如野蠻人特性表中的狂暴傷害（Rage Damage）欄所示。</p><p><strong>【力量優勢】</strong>你在力量檢定與力量豁免上具有優勢。</p><p><strong>【無專注或法術】</strong>你無法維持專注，並且你不能施放法術。</p><p><strong>【持續時間】</strong>狂暴持續到你下回合結束，且若你穿戴重甲或陷入無力狀態則提前終止。若在你啟用後的下回合仍處於狂暴，你可以執行下列其中一項以延長狂暴一輪：</p><ul><li>對敵人進行攻擊檢定。</li><li>迫使敵人進行豁免檢定。</li><li>以附贈動作延長你的狂暴。</li></ul><p>每次延長狂暴，將使其持續至你的下個回合結束。你可以維持狂暴至多10 分鐘。</p><section class=\"secret\" id=\"secret-o72MSFMdhSQC7kYa\"><p><strong>Foundry Note</strong></p><p>This feature includes an Active Effect which automates the Resistance and additional damage. This feature will also automatically recharge your Rage uses on a Short and Long Rest.</p></section>",
       "activities": {
         "Expend Rage": {
           "name": "消耗狂暴使用次數"
