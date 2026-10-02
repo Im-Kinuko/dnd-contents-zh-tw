@@ -16,7 +16,7 @@
           "title": "阿斯莫特質"
         }
       },
-      "description": "<p>阿斯莫是靈魂帶有上層位面星火的凡人，無論其源頭是來自於天使的血嗣，或是被灌注天界之力，他們都能激發這股星火，帶來光明、治療以及天怒。</p><p>阿斯莫可以在任何凡命族群中出現，他們與父母相似，但壽命可達160年且擁有代表其天界傳承的特徵。例如金屬色的雀斑、發光的眼睛、光環，或是類似天使的膚色（銀色、乳白綠色或銅紅色）。這些特徵一開始比較隱晦，但會隨著阿斯莫學會展現其完整的天界本質後，變得更加明顯。</p><h3 data-anchor=\"aasimar-traits\">阿斯莫特性</h3><p class=\"phb-meta\"><strong>生物類型：</strong>類人生物</p><p class=\"phb-meta\"><strong>體型：</strong>中型（約4~7呎高）或小型（約2~4呎高），當你選擇此種族時決定</p><p class=\"phb-meta\"><strong>速度：</strong>30呎</p><p>作為阿斯莫，你擁有這些額外特性</p><p><strong>【天界抗性】</strong>你擁有對黯蝕和光耀傷害的抗性。</p><p><strong>【黑暗視覺】</strong>你擁有60呎的黑暗視覺。</p><p><strong>【治癒之手】</strong>作為一個魔法動作，你可以觸碰一個生物並讓其恢復等同於你熟練加值數量的d4骰。一旦你使用此特性，直到你完成一次長休前無法再次使用。</p><p><strong>【光輝掌者】</strong>你知曉<em>光亮術</em>戲法，在該法術上你的施法屬性為魅力。</p><p><strong>【天啟】</strong>當你的角色等級達到3級時，作為一個附贈動作，你可以使用下列選項之一變身（每次你變身時決定選項），變身型態將持續1分鐘或直到你主動結束為止（無需動作）。一旦你變身，直到你完成一次長休前無法再次使用。</p><p>在變身型態結束前，每回合一次，當你以攻擊或法術對一個目標造成傷害時，你可以造成等同於你熟練加值的額外傷害，且額外傷害的類型在選擇死靈障幕時為黯蝕傷害；在選擇天堂羽翼或內蘊輝光時光耀傷害</p><p>變身型態選項：</p><p><strong>【天堂羽翼】</strong>你的背上暫時長出兩片靈體羽翼，直到變身型態結束前，你擁有等同於你速度的飛行速度。</p><p><strong>【內蘊輝光】</strong>你的雙眼與口中暫時綻放出炙熱的光芒，持續時間內，你散發出10呎半徑的明亮光照，以及再延伸10呎的微光光照。在你每個回合結束時，在你10呎內的每個生物將受到等同於你熟練加值的光耀傷害。</p><p><strong>【死靈障幕】</strong>你的雙眼暫時變得如同漆黑深潭般，而背上長出無法飛行的雙翼。除了你的同伴，在你10呎內的所有生物都必須通過一次魅力豁免（DC = 8 + 你的熟練加值 + 你的魅力調整值），否則直到你下回合結束時將陷入恐懼狀態。</p>",
+      "description": "<p>阿斯莫是靈魂帶有上層位面星火的凡人，無論其源頭是來自於天使的血嗣，或是被灌注天界之力，他們都能激發這股星火，帶來光明、治療以及天怒。</p><p>阿斯莫可以在任何凡命族群中出現，他們與父母相似，但壽命可達160年且擁有代表其天界傳承的特徵。例如金屬色的雀斑、發光的眼睛、光環，或是類似天使的膚色（銀色、乳白綠色或銅紅色）。這些特徵一開始比較隱晦，但會隨著阿斯莫學會展現其完整的天界本質後，變得更加明顯。</p><h3 data-anchor=\"aasimar-traits\">阿斯莫特性</h3><p class=\"phb-meta\"><strong>生物類型：</strong>類人生物</p><p class=\"phb-meta\"><strong>體型：</strong>中型（約4~7呎高）或小型（約2~4呎高），當你選擇此種族時決定</p><p class=\"phb-meta\"><strong>速度：</strong>30呎</p><p>作為阿斯莫，你擁有這些額外特性</p><p><strong>【天界抗性】</strong>你擁有對黯蝕和光耀傷害的抗力。</p><p><strong>【黑暗視覺】</strong>你擁有60呎的黑暗視覺。</p><p><strong>【治癒之手】</strong>作為一個魔法動作，你可以觸碰一個生物並讓其恢復等同於你熟練加值數量的d4骰。一旦你使用此特性，直到你完成一次長休前無法再次使用。</p><p><strong>【光輝掌者】</strong>你知曉<em>光亮術</em>戲法，在該法術上你的施法屬性為魅力。</p><p><strong>【天啟】</strong>當你的角色等級達到3級時，作為一個附贈動作，你可以使用下列選項之一變身（每次你變身時決定選項），變身型態將持續1分鐘或直到你主動結束為止（無需動作）。一旦你變身，直到你完成一次長休前無法再次使用。</p><p>在變身型態結束前，每回合一次，當你以攻擊或法術對一個目標造成傷害時，你可以造成等同於你熟練加值的額外傷害，且額外傷害的類型在選擇死靈障幕時為黯蝕傷害；在選擇天堂羽翼或內蘊輝光時光耀傷害</p><p>變身型態選項：</p><p><strong>【天堂羽翼】</strong>你的背上暫時長出兩片靈體羽翼，直到變身型態結束前，你擁有等同於你速度的飛行速度。</p><p><strong>【內蘊輝光】</strong>你的雙眼與口中暫時綻放出炙熱的光芒，持續時間內，你散發出10呎半徑的明亮光照，以及再延伸10呎的微光光照。在你每個回合結束時，在你10呎內的每個生物將受到等同於你熟練加值的光耀傷害。</p><p><strong>【死靈障幕】</strong>你的雙眼暫時變得如同漆黑深潭般，而背上長出無法飛行的雙翼。除了你的同伴，在你10呎內的所有生物都必須通過一次魅力豁免（DC = 8 + 你的熟練加值 + 你的魅力調整值），否則直到你下回合結束時將陷入恐懼狀態。</p>",
       "name": "阿斯莫"
     },
     "Sailor": {
@@ -83,7 +83,7 @@
           "hint": "智力、感知或魅力是你以此特性施放法術的施法屬性。"
         },
         "Chthonic Tiefling Traits": {
-          "hint": "你擁有對黯蝕傷害的抗性。",
+          "hint": "你擁有對黯蝕傷害的抗力。",
           "title": "幽冥提夫林特質"
         },
         "lskxIeib6rIreZ1h": {
@@ -96,7 +96,7 @@
           "title": "提夫林特質"
         }
       },
-      "description": "<p>提夫林不是一開始就出生在下層位面，就是其血脈被下層位面的邪魔浸汙。提夫林是與魔鬼、惡魔或其他邪魔有血緣關係的存在。這種與下層位面的連結帶給了提夫林某種邪魔遺贈，這是一種應許的力量，但不會影響提夫林自身的道德觀。</p><p>提夫林可能因這份邪魔遺贈而放任自流或是哀痛不安。</p><h3 data-anchor=\"chthonic\">幽冥血系</h3><p>擁有幽冥遺贈的提夫林不僅能感受到卡瑟利的牽引，還能感受到焦炎煉獄的貪婪和哈迪斯的晦暗。這些提夫林中有些看起來如同屍體，有些卻擁有魅魔的超凡脫俗之美，還有一部分提夫林的外貌特徵與夜鬼婆、尤格羅斯魔或其他中立邪惡的邪魔先祖相同。</p><h3 data-anchor=\"tiefling-traits\">提夫林特性</h3><p><strong>生物類型：</strong>類人生物</p><p><strong>體型：</strong>中型（約4~7呎高）或小型（約3~4呎高），當你選擇此種族時決定</p><p><strong>速度：</strong>30呎</p><p>作為一位提夫林，你擁有下列特性。</p><p><strong>【黑暗視覺】</strong>你擁有60呎的黑暗視覺。</p><p><strong>【邪魔遺贈】</strong>邪魔遺贈的傳承賦予你超自然的能力。</p><p>當你的角色等級達到3與5級時，你將習得更高環階的法術，如表中所示。你始終準備這些法術，你可以在不消耗法術位的情況下施放這些法術各一次，並在你完成一次長休時重獲以此方式施法的能力。你也可以使用相應環階的法術位來施展這些法術。智力、感知或魅力是你以此特性施放法術的施法屬性（當你選擇遺贈時你所選擇的屬性）。</p><p><strong>【異界姿態】</strong> 你知曉@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplThaumaturg]{奇術}戲法。當你以此特性施放時，該法術使用的施法屬性與你所使用的邪魔遺贈特性相同。</p><table><caption>【邪魔遺贈】</caption><thead><tr><td>等級1</td><td>等級3</td><td>等級5</td></tr></thead><tbody><tr><td>你具有對黯蝕傷害的抗性，此外你也知曉@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplChillTouch]戲法。</td><td>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplFalseLife0]</td><td>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplRayofEnfee]</td></tr></tbody></table>"
+      "description": "<p>提夫林不是一開始就出生在下層位面，就是其血脈被下層位面的邪魔浸汙。提夫林是與魔鬼、惡魔或其他邪魔有血緣關係的存在。這種與下層位面的連結帶給了提夫林某種邪魔遺贈，這是一種應許的力量，但不會影響提夫林自身的道德觀。</p><p>提夫林可能因這份邪魔遺贈而放任自流或是哀痛不安。</p><h3 data-anchor=\"chthonic\">幽冥血系</h3><p>擁有幽冥遺贈的提夫林不僅能感受到卡瑟利的牽引，還能感受到焦炎煉獄的貪婪和哈迪斯的晦暗。這些提夫林中有些看起來如同屍體，有些卻擁有魅魔的超凡脫俗之美，還有一部分提夫林的外貌特徵與夜鬼婆、尤格羅斯魔或其他中立邪惡的邪魔先祖相同。</p><h3 data-anchor=\"tiefling-traits\">提夫林特性</h3><p><strong>生物類型：</strong>類人生物</p><p><strong>體型：</strong>中型（約4~7呎高）或小型（約3~4呎高），當你選擇此種族時決定</p><p><strong>速度：</strong>30呎</p><p>作為一位提夫林，你擁有下列特性。</p><p><strong>【黑暗視覺】</strong>你擁有60呎的黑暗視覺。</p><p><strong>【邪魔遺贈】</strong>邪魔遺贈的傳承賦予你超自然的能力。</p><p>當你的角色等級達到3與5級時，你將習得更高環階的法術，如表中所示。你始終準備這些法術，你可以在不消耗法術位的情況下施放這些法術各一次，並在你完成一次長休時重獲以此方式施法的能力。你也可以使用相應環階的法術位來施展這些法術。智力、感知或魅力是你以此特性施放法術的施法屬性（當你選擇遺贈時你所選擇的屬性）。</p><p><strong>【異界姿態】</strong> 你知曉@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplThaumaturg]{奇術}戲法。當你以此特性施放時，該法術使用的施法屬性與你所使用的邪魔遺贈特性相同。</p><table><caption>【邪魔遺贈】</caption><thead><tr><td>等級1</td><td>等級3</td><td>等級5</td></tr></thead><tbody><tr><td>你具有對黯蝕傷害的抗力，此外你也知曉@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplChillTouch]戲法。</td><td>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplFalseLife0]</td><td>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplRayofEnfee]</td></tr></tbody></table>"
     },
     "Breath Weapon": {
       "activities": {
@@ -107,17 +107,17 @@
           "name": "噴吐武器（線性）"
         },
         "Exhale Cone": {
-          "name": "Exhale Cone"
+          "name": "扇形噴吐"
         },
         "Exhale Line": {
-          "name": "Exhale Line"
+          "name": "直線噴吐"
         }
       },
       "description": "<p>當你在自己回合採取攻擊動作時，你可以呼出魔法能量來替代其中一次攻擊，15呎錐形範圍或長30呎寬5呎的直線範圍（每次使用時選擇）。該區域內的每個生物必須進行敏捷豁免檢定（DC = 8 + 你的熟練加值 + 你的體質調整值）。豁免失敗的生物承受1d10被你的龍族血統特性所決定類型的傷害。豁免成功的生物僅承受一半傷害。此傷害在角色到達 5 級時增加到 2d10，11 級為 3d10，17 級為 4d10。你可以使用此噴吐武器的次數等同於你的熟練加值，並在你完成長休時重獲所有已消耗的使用次數。</p><section class=\"secret\" id=\"secret-iuhfGfxgl8GeYWBf\"><p><strong>Foundry Note</strong></p><p>The <strong>Breath Weapon (Cone)</strong> and <strong>Breath Weapon (Line)</strong> activities are both configured for their template type and include each type of damage. The damage also scales as you level up.</p><p>You can select the damage type in the damage roll's dialog box. It will remember your damage choice afterwards. You can edit the activities to remove the other damage types to skip this.</p></section>",
       "name": "噴吐武器",
       "advancement": {
         "Breath Weapon Damage": {
-          "title": "Breath Weapon Damage"
+          "title": "噴吐武器傷害"
         }
       }
     },
@@ -234,7 +234,7 @@
     "Tiefling, Abyssal": {
       "advancement": {
         "Abyssal Tiefling Traits": {
-          "hint": "你對毒素具有抗性。",
+          "hint": "你對毒素具有抗力。",
           "title": "深淵提夫林特質"
         },
         "KwcwntR3Ai0R5iPN": {
@@ -260,7 +260,7 @@
         }
       },
       "name": "深淵提夫林",
-      "description": "<p>提夫林不是一開始就出生在下層位面，就是其血脈被下層位面的邪魔浸汙。提夫林是與魔鬼、惡魔或其他邪魔有血緣關係的存在。這種與下層位面的連結帶給了提夫林某種邪魔遺贈，這是一種應許的力量，但不會影響提夫林自身的道德觀。</p><p>提夫林可能因這份邪魔遺贈而放任自流或是哀痛不安。</p><h3 data-anchor=\"abyssal\">深淵血系</h3><p>無底深淵的熵能，喧癲空隧的混亂，卡瑟利的絕望， 這一切的一切都在呼喚著擁有深淵遺贈的提夫林。犄角、皮毛、獠牙和奇特的氣味是這些提夫林常見的外貌特徵，其中大多數人的血管中都流淌著邪魔的血液。</p><h3 data-anchor=\"tiefling-traits\">提夫林特性</h3><p><strong>生物類型：</strong>類人生物</p><p><strong>體型：</strong>中型（約4~7呎高）或小型（約3~4呎高），當你選擇此種族時決定</p><p><strong>速度：</strong>30呎</p><p>作為提夫林，你這些額外特性。</p><p><strong>【黑暗視覺】</strong>你擁有60呎的黑暗視覺。</p><p><strong>Fiendish Legacy.</strong>邪魔遺贈的傳承賦予你超自然的能力。</p><p>當你的角色等級達到3與5級時，你將習得更高環階的法術，如表中所示。你始終準備這些法術，你可以在不消耗法術位的情況下施放這些法術各一次，並在你完成一次長休時重獲以此方式施法的能力。你也可以使用相應環階的法術位來施展這些法術。智力、感知或魅力是你以此特性施放法術的施法屬性（當你選擇遺贈時你所選擇的屬性）。</p><p><strong>【異界姿態】</strong> 你知曉@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplThaumaturg]{奇術}戲法。當你以此特性施放時，該法術使用的施法屬性與你所使用的邪魔遺贈特性相同。</p><table><caption>Abyssal Legacy Traits</caption><thead><tr><td>等級1</td><td>等級3</td><td>等級5</td></tr></thead><tbody><tr><td>你具有對毒素傷害的抗性。你也知曉@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplPoisonSpra]戲法。</td><td>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplRayofSickn]</td><td>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplHoldPerson]</td></tr></tbody></table>"
+      "description": "<p>提夫林不是一開始就出生在下層位面，就是其血脈被下層位面的邪魔浸汙。提夫林是與魔鬼、惡魔或其他邪魔有血緣關係的存在。這種與下層位面的連結帶給了提夫林某種邪魔遺贈，這是一種應許的力量，但不會影響提夫林自身的道德觀。</p><p>提夫林可能因這份邪魔遺贈而放任自流或是哀痛不安。</p><h3 data-anchor=\"abyssal\">深淵血系</h3><p>無底深淵的熵能，喧癲空隧的混亂，卡瑟利的絕望， 這一切的一切都在呼喚著擁有深淵遺贈的提夫林。犄角、皮毛、獠牙和奇特的氣味是這些提夫林常見的外貌特徵，其中大多數人的血管中都流淌著邪魔的血液。</p><h3 data-anchor=\"tiefling-traits\">提夫林特性</h3><p><strong>生物類型：</strong>類人生物</p><p><strong>體型：</strong>中型（約4~7呎高）或小型（約3~4呎高），當你選擇此種族時決定</p><p><strong>速度：</strong>30呎</p><p>作為提夫林，你這些額外特性。</p><p><strong>【黑暗視覺】</strong>你擁有60呎的黑暗視覺。</p><p><strong>Fiendish Legacy.</strong>邪魔遺贈的傳承賦予你超自然的能力。</p><p>當你的角色等級達到3與5級時，你將習得更高環階的法術，如表中所示。你始終準備這些法術，你可以在不消耗法術位的情況下施放這些法術各一次，並在你完成一次長休時重獲以此方式施法的能力。你也可以使用相應環階的法術位來施展這些法術。智力、感知或魅力是你以此特性施放法術的施法屬性（當你選擇遺贈時你所選擇的屬性）。</p><p><strong>【異界姿態】</strong> 你知曉@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplThaumaturg]{奇術}戲法。當你以此特性施放時，該法術使用的施法屬性與你所使用的邪魔遺贈特性相同。</p><table><caption>Abyssal Legacy Traits</caption><thead><tr><td>等級1</td><td>等級3</td><td>等級5</td></tr></thead><tbody><tr><td>你具有對毒素傷害的抗力。你也知曉@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplPoisonSpra]戲法。</td><td>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplRayofSickn]</td><td>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplHoldPerson]</td></tr></tbody></table>"
     },
     "Scribe": {
       "advancement": {
@@ -341,7 +341,7 @@
     "Tiefling, Infernal": {
       "advancement": {
         "Infernal Tiefling Traits": {
-          "hint": "你具有對火焰傷害的抗性",
+          "hint": "你具有對火焰傷害的抗力",
           "title": "煉獄提夫林特質"
         },
         "gMovXMwHeD9cCL99": {
@@ -367,7 +367,7 @@
         }
       },
       "name": "煉獄提夫林",
-      "description": "<p>提夫林不是一開始就出生在下層位面，就是其血脈被下層位面的邪魔浸汙。提夫林是與魔鬼、惡魔或其他邪魔有血緣關係的存在。這種與下層位面的連結帶給了提夫林某種邪魔遺贈，這是一種應許的力量，但不會影響提夫林自身的道德觀。</p><p>提夫林可能因這份邪魔遺贈而放任自流或是哀痛不安。</p><h3 data-anchor=\"infernal\">煉獄血系</h3><p>煉獄遺贈不僅將提夫林與焦炎煉獄相連，還將他們與九獄和修羅般的地獄戰場相連。犄角、尖刺、尾巴、金色的眼睛和淡淡的硫磺味或煙塵味是這些提夫林常見的生理特徵，其中大多數提夫林的先祖都是魔鬼。</p><h3 data-anchor=\"tiefling-traits\">提夫林特性</h3><p><strong>生物類型：</strong>類人生物</p><p><strong>體型：</strong>中型（約4~7呎高）或小型（約3~4呎高），當你選擇此種族時決定</p><p><strong>速度：</strong>30呎</p><p>作為一位提夫林，你擁有下列特性。</p><p><strong>【黑暗視覺】</strong>你擁有60呎的黑暗視覺。</p><p><strong>【邪魔遺贈】</strong>邪魔遺贈的傳承賦予你超自然的能力。</p><p>當你的角色等級達到3與5級時，你將習得更高環階的法術，如表中所示。你始終準備這些法術，你可以在不消耗法術位的情況下施放這些法術各一次，並在你完成一次長休時重獲以此方式施法的能力。你也可以使用相應環階的法術位來施展這些法術。智力、感知或魅力是你以此特性施放法術的施法屬性（當你選擇遺贈時你所選擇的屬性）。</p><p><strong>【異界姿態】</strong> 你知曉@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplThaumaturg]{奇術}戲法。當你以此特性施放時，該法術使用的施法屬性與你所使用的邪魔遺贈特性相同。</p><table><caption>【邪魔遺贈】</caption><thead><tr><td>等級1</td><td>等級3</td><td>等級5</td></tr></thead><tbody><tr><td>你具有對火焰傷害的抗性，此外你也知曉@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplFireBolt00]戲法。</td><td>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplHellishReb]</td><td>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplDarkness00]</td></tr></tbody></table>"
+      "description": "<p>提夫林不是一開始就出生在下層位面，就是其血脈被下層位面的邪魔浸汙。提夫林是與魔鬼、惡魔或其他邪魔有血緣關係的存在。這種與下層位面的連結帶給了提夫林某種邪魔遺贈，這是一種應許的力量，但不會影響提夫林自身的道德觀。</p><p>提夫林可能因這份邪魔遺贈而放任自流或是哀痛不安。</p><h3 data-anchor=\"infernal\">煉獄血系</h3><p>煉獄遺贈不僅將提夫林與焦炎煉獄相連，還將他們與九獄和修羅般的地獄戰場相連。犄角、尖刺、尾巴、金色的眼睛和淡淡的硫磺味或煙塵味是這些提夫林常見的生理特徵，其中大多數提夫林的先祖都是魔鬼。</p><h3 data-anchor=\"tiefling-traits\">提夫林特性</h3><p><strong>生物類型：</strong>類人生物</p><p><strong>體型：</strong>中型（約4~7呎高）或小型（約3~4呎高），當你選擇此種族時決定</p><p><strong>速度：</strong>30呎</p><p>作為一位提夫林，你擁有下列特性。</p><p><strong>【黑暗視覺】</strong>你擁有60呎的黑暗視覺。</p><p><strong>【邪魔遺贈】</strong>邪魔遺贈的傳承賦予你超自然的能力。</p><p>當你的角色等級達到3與5級時，你將習得更高環階的法術，如表中所示。你始終準備這些法術，你可以在不消耗法術位的情況下施放這些法術各一次，並在你完成一次長休時重獲以此方式施法的能力。你也可以使用相應環階的法術位來施展這些法術。智力、感知或魅力是你以此特性施放法術的施法屬性（當你選擇遺贈時你所選擇的屬性）。</p><p><strong>【異界姿態】</strong> 你知曉@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplThaumaturg]{奇術}戲法。當你以此特性施放時，該法術使用的施法屬性與你所使用的邪魔遺贈特性相同。</p><table><caption>【邪魔遺贈】</caption><thead><tr><td>等級1</td><td>等級3</td><td>等級5</td></tr></thead><tbody><tr><td>你具有對火焰傷害的抗力，此外你也知曉@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplFireBolt00]戲法。</td><td>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplHellishReb]</td><td>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplDarkness00]</td></tr></tbody></table>"
     },
     "Skillful": {
       "description": "<p>你獲得一項你所選擇的技能熟練。</p><section id=\"secret-lvP62g2xTxkz2VN3\" class=\"secret\"><p><strong>Foundry Note</strong></p><p>You will be prompted for this choice when you select this Species.</p></section>",
@@ -426,7 +426,7 @@
     },
     "Fiendish Legacy, Abyssal": {
       "name": "深淵邪魔遺贈",
-      "description": "<p>邪魔遺贈的傳承賦予你超自然的能力。</p><p>當你的角色等級達到3與5級時，你將習得更高環階的法術，如表中所示。你始終準備這些法術，你可以在不消耗法術位的情況下施放這些法術各一次，並在你完成一次長休時重獲以此方式施法的能力。你也可以使用相應環階的法術位來施展這些法術。智力、感知或魅力是你以此特性施放法術的施法屬性（當你選擇遺贈時你所選擇的屬性）。</p><h3 data-anchor=\"abyssal\">深淵</h3><p>無底深淵的熵能，喧癲空隧的混亂，卡瑟利的絕望， 這一切的一切都在呼喚著擁有深淵遺贈的提夫林。犄角、皮毛、獠牙和奇特的氣味是這些提夫林常見的外貌特徵，其中大多數人的血管中都流淌著邪魔的血液。</p><table><caption>深淵遺贈特性</caption><thead><tr><td>等級1</td><td>等級3</td><td>等級5</td></tr></thead><tbody><tr><td>你具有對毒素傷害的抗性，此外你也知曉 @UUID[Compendium.dnd-players-handbook.spells.Item.phbsplPoisonSpra]戲法。</td><td>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplRayofSickn]</td><td>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplHoldPerson]</td></tr></tbody></table><section class=\"secret\" id=\"secret-AZFLMUN7pgAxMG7Q\"><p><strong>Foundry Note</strong></p><p>The Resistance and spells are granted to you automatically and you will be prompted to choose the spellcasting ability during advancement.</p></section>"
+      "description": "<p>邪魔遺贈的傳承賦予你超自然的能力。</p><p>當你的角色等級達到3與5級時，你將習得更高環階的法術，如表中所示。你始終準備這些法術，你可以在不消耗法術位的情況下施放這些法術各一次，並在你完成一次長休時重獲以此方式施法的能力。你也可以使用相應環階的法術位來施展這些法術。智力、感知或魅力是你以此特性施放法術的施法屬性（當你選擇遺贈時你所選擇的屬性）。</p><h3 data-anchor=\"abyssal\">深淵</h3><p>無底深淵的熵能，喧癲空隧的混亂，卡瑟利的絕望， 這一切的一切都在呼喚著擁有深淵遺贈的提夫林。犄角、皮毛、獠牙和奇特的氣味是這些提夫林常見的外貌特徵，其中大多數人的血管中都流淌著邪魔的血液。</p><table><caption>深淵遺贈特性</caption><thead><tr><td>等級1</td><td>等級3</td><td>等級5</td></tr></thead><tbody><tr><td>你具有對毒素傷害的抗力，此外你也知曉 @UUID[Compendium.dnd-players-handbook.spells.Item.phbsplPoisonSpra]戲法。</td><td>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplRayofSickn]</td><td>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplHoldPerson]</td></tr></tbody></table><section class=\"secret\" id=\"secret-AZFLMUN7pgAxMG7Q\"><p><strong>Foundry Note</strong></p><p>The Resistance and spells are granted to you automatically and you will be prompted to choose the spellcasting ability during advancement.</p></section>"
     },
     "Gnomish Cunning": {
       "description": "<p>你在智力、感知、魅力的豁免檢定中具有優勢。</p>",
@@ -576,7 +576,7 @@
       "activities": {
         "Cloud's Jaunt": {
           "name": "雲步穿行",
-          "target": "Unoccupied space"
+          "target": "未被占據的空見"
         }
       }
     },
@@ -682,7 +682,7 @@
           "title": "傷害抗性"
         }
       },
-      "description": "<p>龍裔的祖先來自色彩龍與金屬龍的龍蛋。有一種說法認為，這些龍蛋曾受到龍神巴哈姆特與提亞馬特的祝福，祂們希望在多元宇宙中造就出以自己形象所創造的族群。另一種說法則主張，最初的龍裔是由巨龍親手創造，並未經神明允許。無論其起源為何，龍裔如今已在物質界開創出自己的棲居之地。</p><p>龍裔看起來像是沒有雙翼的雙足巨龍——牠們身披鱗甲，雙眼明亮，骨架粗壯，頭上長有角，體貌特徵與牠們的龍族祖先有著明顯的傳承與呼應。</p><h3 data-anchor=\"dragonborn-traits\">龍裔特性</h3><p><strong>生物類型：</strong>類人生物</p><p><strong>體型：</strong>中型（約5~7呎高）</p><p><strong>速度：</strong>30呎</p><p>做為龍裔，你擁有這些額外特性</p><p><strong>【龍族血統】</strong>你的血統源自某位龍族始祖。請從龍族血統表中選擇一種龍類。你的選擇會影響你的吐息武器與傷害抗性特徵，以及你的外貌特徵。</p><table><caption>龍族血統</caption><thead><tr><td>龍</td><td>傷害類型</td><td>龍</td><td>傷害類型</td></tr></thead><tbody><tr><td>黑</td><td>強酸</td><td>金</td><td>火焰</td></tr><tr><td>藍</td><td>閃電</td><td>綠</td><td>毒素</td></tr><tr><td>黃銅</td><td>火焰</td><td>紅</td><td>火焰</td></tr><tr><td>青銅</td><td>閃電</td><td>銀</td><td>寒冷</td></tr><tr><td>赤銅</td><td>強酸</td><td>白</td><td>寒冷</td></tr></tbody></table><p><strong>【噴吐武器】</strong> 當你在自己回合採取攻擊動作時，你可以呼出魔法能量來替代其中一次攻擊，15呎錐形範圍或長30呎寬5呎的直線範圍（每次使用時選擇）。該區域內的每個生物必須進行敏捷豁免檢定（DC = 8 + 你的熟練加值 + 你的體質調整值）。豁免失敗的生物承受1d10被你的龍族血統特性所決定類型的傷害。豁免成功的生物僅承受一半傷害。此傷害在角色到達 5 級時增加到 2d10，11 級為 3d10，17 級為 4d10。你可以使用此噴吐武器的次數等同於你的熟練加值，並在你完成長休時重獲所有已消耗的使用次數。</p><p><strong>【傷害抗性】 </strong>你擁有你龍族血統特性所決定的傷害類型的抗性。</p><p><strong>【黑暗視覺】</strong>你擁有60呎的黑暗視覺。</p><p><strong>【龍翔天際】</strong>當你的角色達到5級時，你可以引導龍族魔法讓自己短暫飛行。作為附贈動作，你的背上顯現持續 10 分鐘的幽靈之翼。你也可以主動收回翅膀（無需動作），或當你陷入失能狀態時翅膀將提前消失。在該期間， 你獲得等同於你速度的飛行速度。你的翅膀看起來與你的噴吐武器是相同類型的能量所構成的。一旦你使用此特性，直到你完成一次長休之前，你無法再次使用。</p>",
+      "description": "<p>龍裔的祖先來自色彩龍與金屬龍的龍蛋。有一種說法認為，這些龍蛋曾受到龍神巴哈姆特與提亞馬特的祝福，祂們希望在多元宇宙中造就出以自己形象所創造的族群。另一種說法則主張，最初的龍裔是由巨龍親手創造，並未經神明允許。無論其起源為何，龍裔如今已在物質界開創出自己的棲居之地。</p><p>龍裔看起來像是沒有雙翼的雙足巨龍——牠們身披鱗甲，雙眼明亮，骨架粗壯，頭上長有角，體貌特徵與牠們的龍族祖先有著明顯的傳承與呼應。</p><h3 data-anchor=\"dragonborn-traits\">龍裔特性</h3><p><strong>生物類型：</strong>類人生物</p><p><strong>體型：</strong>中型（約5~7呎高）</p><p><strong>速度：</strong>30呎</p><p>做為龍裔，你擁有這些額外特性</p><p><strong>【龍族血統】</strong>你的血統源自某位龍族始祖。請從龍族血統表中選擇一種龍類。你的選擇會影響你的吐息武器與傷害抗力特徵，以及你的外貌特徵。</p><table><caption>龍族血統</caption><thead><tr><td>龍</td><td>傷害類型</td><td>龍</td><td>傷害類型</td></tr></thead><tbody><tr><td>黑</td><td>強酸</td><td>金</td><td>火焰</td></tr><tr><td>藍</td><td>閃電</td><td>綠</td><td>毒素</td></tr><tr><td>黃銅</td><td>火焰</td><td>紅</td><td>火焰</td></tr><tr><td>青銅</td><td>閃電</td><td>銀</td><td>寒冷</td></tr><tr><td>赤銅</td><td>強酸</td><td>白</td><td>寒冷</td></tr></tbody></table><p><strong>【噴吐武器】</strong> 當你在自己回合採取攻擊動作時，你可以呼出魔法能量來替代其中一次攻擊，15呎錐形範圍或長30呎寬5呎的直線範圍（每次使用時選擇）。該區域內的每個生物必須進行敏捷豁免檢定（DC = 8 + 你的熟練加值 + 你的體質調整值）。豁免失敗的生物承受1d10被你的龍族血統特性所決定類型的傷害。豁免成功的生物僅承受一半傷害。此傷害在角色到達 5 級時增加到 2d10，11 級為 3d10，17 級為 4d10。你可以使用此噴吐武器的次數等同於你的熟練加值，並在你完成長休時重獲所有已消耗的使用次數。</p><p><strong>【傷害抗力】 </strong>你擁有你龍族血統特性所決定的傷害類型的抗力。</p><p><strong>【黑暗視覺】</strong>你擁有60呎的黑暗視覺。</p><p><strong>【龍翔天際】</strong>當你的角色達到5級時，你可以引導龍族魔法讓自己短暫飛行。作為附贈動作，你的背上顯現持續 10 分鐘的幽靈之翼。你也可以主動收回翅膀（無需動作），或當你陷入失能狀態時翅膀將提前消失。在該期間， 你獲得等同於你速度的飛行速度。你的翅膀看起來與你的噴吐武器是相同類型的能量所構成的。一旦你使用此特性，直到你完成一次長休之前，你無法再次使用。</p>",
       "name": "龍裔"
     },
     "Fey Ancestry": {
@@ -719,7 +719,7 @@
       "advancement": {
         "Dwarven Resilience": {
           "title": "矮人抗性",
-          "hint": "你對毒素具有抗性。"
+          "hint": "你對毒素具有抗力。"
         },
         "6HdONjMD4UozXSfC": {
           "hint": "中型（約 4 到 5 呎高）"
@@ -728,7 +728,7 @@
           "title": "矮人特質"
         }
       },
-      "description": "<p>矮人於太古時代由一位鍛造之神自大地中孕育而生。這位神祇在不同的世界有著不同的名號——莫拉丁、李奥克斯，或其他稱呼——祂賦予了矮人對岩石與金屬的親和，以及在地底生活的天性。這位神同時也讓矮人如山嶽般堅韌，其壽命約為 350 年。</p><p>身形矮壯、常蓄鬍鬚的遠古矮人，曾在山脈側壁與地底深處雕鑿出城市與要塞。他們最古老的傳說中，充滿了與高山怪物與幽暗地域邪物的衝突——不論是高聳的巨人，還是潛伏於地底的恐怖存在。受到這些故事的啟發，來自各地文化的矮人往往都會高唱英勇事蹟之歌——尤其是弱小戰勝強敵的傳奇。</p><p>在多元宇宙中的某些世界裡，矮人最初的聚落建立於丘陵或高山之中。而那些能追溯血統至這些聚落的家族，便自稱為丘陵矮人或高山矮人。灰鷹與龍槍的世界觀中就存在這類社群。</p><h3 data-anchor=\"dwarf-traits\">矮人特性</h3><p><strong>生物類型：</strong>類人生物</p><p><strong>體型：</strong>中型（約4~5呎高）</p><p><strong>速度：</strong>30呎</p><p>作為矮人，你擁有這些額外特性</p><p><strong>【黑暗視覺】</strong>你擁有120呎得黑暗視覺。</p><p><strong>【矮人抗性】</strong>你對毒素具有抗性。你在避免或結束中毒狀態時所進行的豁免檢定也具有優勢</p><p><strong>【矮人韌性】</strong>你的生命最大值提升1點，並且每當你獲得1級時再次提升1點。</p><p><strong>【石中精妙】</strong>作為附贈動作，你獲得持續 10 分鐘60呎範圍的震顫感知。你必須站在石質表面上，或與石質表面接觸才能使用此震顫感知。這些石質可以是天然形成的，也可以是人工打造的。你可以使用此附贈動作的次數等同於你的熟練加值，並在你完成一次長休時，重獲所有已消耗的使用次數。</p>",
+      "description": "<p>矮人於太古時代由一位鍛造之神自大地中孕育而生。這位神祇在不同的世界有著不同的名號——莫拉丁、李奥克斯，或其他稱呼——祂賦予了矮人對岩石與金屬的親和，以及在地底生活的天性。這位神同時也讓矮人如山嶽般堅韌，其壽命約為 350 年。</p><p>身形矮壯、常蓄鬍鬚的遠古矮人，曾在山脈側壁與地底深處雕鑿出城市與要塞。他們最古老的傳說中，充滿了與高山怪物與幽暗地域邪物的衝突——不論是高聳的巨人，還是潛伏於地底的恐怖存在。受到這些故事的啟發，來自各地文化的矮人往往都會高唱英勇事蹟之歌——尤其是弱小戰勝強敵的傳奇。</p><p>在多元宇宙中的某些世界裡，矮人最初的聚落建立於丘陵或高山之中。而那些能追溯血統至這些聚落的家族，便自稱為丘陵矮人或高山矮人。灰鷹與龍槍的世界觀中就存在這類社群。</p><h3 data-anchor=\"dwarf-traits\">矮人特性</h3><p><strong>生物類型：</strong>類人生物</p><p><strong>體型：</strong>中型（約4~5呎高）</p><p><strong>速度：</strong>30呎</p><p>作為矮人，你擁有這些額外特性</p><p><strong>【黑暗視覺】</strong>你擁有120呎得黑暗視覺。</p><p><strong>【矮人抗性】</strong>你對毒素具有抗力。你在避免或結束中毒狀態時所進行的豁免檢定也具有優勢</p><p><strong>【矮人韌性】</strong>你的生命最大值提升1點，並且每當你獲得1級時再次提升1點。</p><p><strong>【石中精妙】</strong>作為附贈動作，你獲得持續 10 分鐘60呎範圍的震顫感知。你必須站在石質表面上，或與石質表面接觸才能使用此震顫感知。這些石質可以是天然形成的，也可以是人工打造的。你可以使用此附贈動作的次數等同於你的熟練加值，並在你完成一次長休時，重獲所有已消耗的使用次數。</p>",
       "name": "矮人"
     },
     "Acolyte": {
@@ -955,7 +955,7 @@
       "name": "半身人"
     },
     "Fiendish Legacy, Chthonic": {
-      "description": "<p>邪魔遺贈的傳承賦予你超自然的能力。</p><p>當你的角色等級達到3與5級時，你將習得更高環階的法術，如表中所示。你始終準備這些法術，你可以在不消耗法術位的情況下施放這些法術各一次，並在你完成一次長休時重獲以此方式施法的能力。你也可以使用相應環階的法術位來施展這些法術。智力、感知或魅力是你以此特性施放法術的施法屬性（當你選擇遺贈時你所選擇的屬性）。</p><h3 data-anchor=\"chthonic\">幽冥血系</h3><p>擁有幽冥遺贈的提夫林不僅能感受到卡瑟利的牽引，還能感受到焦炎煉獄的貪婪和哈迪斯的晦暗。這些提夫林中有些看起來如同屍體，有些卻擁有魅魔的超凡脫俗之美，還有一部分提夫林的外貌特徵與夜鬼婆、尤格羅斯魔或其他中立邪惡的邪魔先祖相同。</p><table><caption>幽冥遺贈特性</caption><thead><tr><td>等級1</td><td>等級3</td><td>等級5</td></tr></thead><tbody><tr><td>你具有對黯蝕傷害的抗性，此外你也知曉@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplChillTouch]戲法。</td><td>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplFalseLife0]</td><td>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplRayofEnfee]</td></tr></tbody></table><section class=\"secret\" id=\"secret-GmBAOZVbkBYItbCL\"><p><strong>Foundry Note</strong></p><p>The Resistance and spells are granted to you automatically and you will be prompted to choose the spellcasting ability during advancement.</p></section>",
+      "description": "<p>邪魔遺贈的傳承賦予你超自然的能力。</p><p>當你的角色等級達到3與5級時，你將習得更高環階的法術，如表中所示。你始終準備這些法術，你可以在不消耗法術位的情況下施放這些法術各一次，並在你完成一次長休時重獲以此方式施法的能力。你也可以使用相應環階的法術位來施展這些法術。智力、感知或魅力是你以此特性施放法術的施法屬性（當你選擇遺贈時你所選擇的屬性）。</p><h3 data-anchor=\"chthonic\">幽冥血系</h3><p>擁有幽冥遺贈的提夫林不僅能感受到卡瑟利的牽引，還能感受到焦炎煉獄的貪婪和哈迪斯的晦暗。這些提夫林中有些看起來如同屍體，有些卻擁有魅魔的超凡脫俗之美，還有一部分提夫林的外貌特徵與夜鬼婆、尤格羅斯魔或其他中立邪惡的邪魔先祖相同。</p><table><caption>幽冥遺贈特性</caption><thead><tr><td>等級1</td><td>等級3</td><td>等級5</td></tr></thead><tbody><tr><td>你具有對黯蝕傷害的抗力，此外你也知曉@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplChillTouch]戲法。</td><td>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplFalseLife0]</td><td>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplRayofEnfee]</td></tr></tbody></table><section class=\"secret\" id=\"secret-GmBAOZVbkBYItbCL\"><p><strong>Foundry Note</strong></p><p>The Resistance and spells are granted to you automatically and you will be prompted to choose the spellcasting ability during advancement.</p></section>",
       "name": "幽冥邪魔遺贈"
     },
     "Halfling Nimbleness": {
@@ -972,7 +972,7 @@
       "description": "<p>每當你完成一次長休時，你獲得英雄激勵。</p>"
     },
     "Fiendish Legacy, Infernal": {
-      "description": "<p>邪魔遺贈的傳承賦予你超自然的能力。</p><p>當你的角色等級達到3與5級時，你將習得更高環階的法術，如表中所示。你始終準備這些法術，你可以在不消耗法術位的情況下施放這些法術各一次，並在你完成一次長休時重獲以此方式施法的能力。你也可以使用相應環階的法術位來施展這些法術。智力、感知或魅力是你以此特性施放法術的施法屬性（當你選擇遺贈時你所選擇的屬性）。</p><h3 data-anchor=\"infernal\">煉獄血系</h3><p>煉獄遺贈不僅將提夫林與焦炎煉獄相連，還將他們與九獄和修羅般的地獄戰場相連。犄角、尖刺、尾巴、金色的眼睛和淡淡的硫磺味或煙塵味是這些提夫林常見的生理特徵，其中大多數提夫林的先祖都是魔鬼。</p><table><caption>煉獄遺贈特性</caption><thead><tr><td>等級1</td><td>等級3</td><td>等級5</td></tr></thead><tbody><tr><td>你具有對毒素傷害的抗性，此外你也知曉@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplPoisonSpra]戲法。</td><td>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplRayofSickn]</td><td>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplHoldPerson]</td></tr></tbody></table><section class=\"secret\" id=\"secret-UpLnecebx3jeydEG\"><p><strong>Foundry Note</strong></p><p>The Resistance and spells are granted to you automatically and you will be prompted to choose the spellcasting ability during advancement.</p></section>",
+      "description": "<p>邪魔遺贈的傳承賦予你超自然的能力。</p><p>當你的角色等級達到3與5級時，你將習得更高環階的法術，如表中所示。你始終準備這些法術，你可以在不消耗法術位的情況下施放這些法術各一次，並在你完成一次長休時重獲以此方式施法的能力。你也可以使用相應環階的法術位來施展這些法術。智力、感知或魅力是你以此特性施放法術的施法屬性（當你選擇遺贈時你所選擇的屬性）。</p><h3 data-anchor=\"infernal\">煉獄血系</h3><p>煉獄遺贈不僅將提夫林與焦炎煉獄相連，還將他們與九獄和修羅般的地獄戰場相連。犄角、尖刺、尾巴、金色的眼睛和淡淡的硫磺味或煙塵味是這些提夫林常見的生理特徵，其中大多數提夫林的先祖都是魔鬼。</p><table><caption>煉獄遺贈特性</caption><thead><tr><td>等級1</td><td>等級3</td><td>等級5</td></tr></thead><tbody><tr><td>你具有對毒素傷害的抗力，此外你也知曉@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplPoisonSpra]戲法。</td><td>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplRayofSickn]</td><td>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplHoldPerson]</td></tr></tbody></table><section class=\"secret\" id=\"secret-UpLnecebx3jeydEG\"><p><strong>Foundry Note</strong></p><p>The Resistance and spells are granted to you automatically and you will be prompted to choose the spellcasting ability during advancement.</p></section>",
       "name": "煉獄邪魔遺贈"
     },
     "Frost's Chill": {
@@ -992,7 +992,7 @@
     },
     "Dwarven Resilience": {
       "name": "矮人抗性",
-      "description": "<p>你對毒素具有抗性。你在避免或結束中毒狀態時所進行的豁免檢定也具有優勢</p><section id=\"secret-EDaMIgklKLK2il2D\" class=\"secret\"><p><strong>Foundry Note</strong></p><p>You will automatically be granted Resistance to Poison damage but not Advantage on saving throws to avoid/end the Poisoned condition.</p></section>"
+      "description": "<p>你對毒素具有抗力。你在避免或結束中毒狀態時所進行的豁免檢定也具有優勢</p><section id=\"secret-EDaMIgklKLK2il2D\" class=\"secret\"><p><strong>Foundry Note</strong></p><p>You will automatically be granted Resistance to Poison damage but not Advantage on saving throws to avoid/end the Poisoned condition.</p></section>"
     },
     "Versatile": {
       "name": "多才多藝",
@@ -1009,87 +1009,87 @@
     "Poison Breath Weapon": {
       "activities": {
         "Exhale Line": {
-          "name": "Exhale Line"
+          "name": "直線噴吐"
         },
         "Exhale Cone": {
-          "name": "Exhale Cone"
+          "name": "扇形噴吐"
         }
       },
       "advancement": {
         "Breath Weapon Damage": {
-          "title": "Breath Weapon Damage"
+          "title": "噴吐武器傷害"
         }
       },
-      "name": "Poison Breath Weapon",
-      "description": "<p>When you take the Attack action on your turn, you can replace one of your attacks with an exhalation of magical energy in either a 15-foot Cone or a 30-foot Line that is 5 feet wide (choose the shape each time).</p><p>Each creature in that area must make a Dexterity saving throw (DC 8 plus your Constitution modifier and Proficiency Bonus). On a failed save, a creature takes 1d10 damage of the type determined by your Draconic Ancestry trait. On a successful save, a creature takes half as much damage.</p><p>This damage increases by 1d10 when you reach character levels 5 (2d10), 11 (3d10), and 17 (4d10).You can use this Breath Weapon a number of times equal to your Proficiency Bonus, and you regain all expended uses when you finish a Long Rest.</p>"
+      "name": "毒素噴吐武器",
+      "description": "<p>當你在自己回合採取攻擊動作時，你可以呼出魔法能量來替代其中一次攻擊，15呎錐形範圍或長30呎寬5呎的直線範圍（每次使用時選擇）。</p><p>該區域內的每個生物必須進行敏捷豁免檢定（DC = 8 + 你的熟練加值 + 你的體質調整值）。豁免失敗的生物承受1d10被你的龍族血統特性所決定類型的傷害。豁免成功的生物僅承受一半傷害。</p><p>此傷害在角色到達 5 級時增加到 2d10，11 級為 3d10，17 級為 4d10。你可以使用此噴吐武器的次數等同於你的熟練加值，並在你完成長休時重獲所有已消耗的使用次數。</p>"
     },
     "Acid Breath Weapon": {
       "activities": {
         "Exhale Cone": {
-          "name": "Exhale Cone"
+          "name": "扇形噴吐"
         },
         "Exhale Line": {
-          "name": "Exhale Line"
+          "name": "直線噴吐"
         }
       },
       "advancement": {
         "Breath Weapon Damage": {
-          "title": "Breath Weapon Damage"
+          "title": "噴吐武器傷害"
         }
       },
-      "name": "Acid Breath Weapon",
-      "description": "<p>When you take the Attack action on your turn, you can replace one of your attacks with an exhalation of magical energy in either a 15-foot Cone or a 30-foot Line that is 5 feet wide (choose the shape each time).</p><p>Each creature in that area must make a Dexterity saving throw (DC 8 plus your Constitution modifier and Proficiency Bonus). On a failed save, a creature takes 1d10 damage of the type determined by your Draconic Ancestry trait. On a successful save, a creature takes half as much damage.</p><p>This damage increases by 1d10 when you reach character levels 5 (2d10), 11 (3d10), and 17 (4d10).You can use this Breath Weapon a number of times equal to your Proficiency Bonus, and you regain all expended uses when you finish a Long Rest.</p>"
+      "name": "強酸噴吐武器",
+      "description": "<p>當你在自己回合採取攻擊動作時，你可以呼出魔法能量來替代其中一次攻擊，15呎錐形範圍或長30呎寬5呎的直線範圍（每次使用時選擇）。</p><p>該區域內的每個生物必須進行敏捷豁免檢定（DC = 8 + 你的熟練加值 + 你的體質調整值）。豁免失敗的生物承受1d10被你的龍族血統特性所決定類型的傷害。豁免成功的生物僅承受一半傷害。</p><p>此傷害在角色到達 5 級時增加到 2d10，11 級為 3d10，17 級為 4d10。你可以使用此噴吐武器的次數等同於你的熟練加值，並在你完成長休時重獲所有已消耗的使用次數。</p>"
     },
     "Cold Breath Weapon": {
-      "name": "Cold Breath Weapon",
-      "description": "<p>When you take the Attack action on your turn, you can replace one of your attacks with an exhalation of magical energy in either a 15-foot Cone or a 30-foot Line that is 5 feet wide (choose the shape each time).</p><p>Each creature in that area must make a Dexterity saving throw (DC 8 plus your Constitution modifier and Proficiency Bonus). On a failed save, a creature takes 1d10 damage of the type determined by your Draconic Ancestry trait. On a successful save, a creature takes half as much damage.</p><p>This damage increases by 1d10 when you reach character levels 5 (2d10), 11 (3d10), and 17 (4d10).You can use this Breath Weapon a number of times equal to your Proficiency Bonus, and you regain all expended uses when you finish a Long Rest.</p>",
+      "name": "寒冷噴吐武器",
+      "description": "<p>當你在自己回合採取攻擊動作時，你可以呼出魔法能量來替代其中一次攻擊，15呎錐形範圍或長30呎寬5呎的直線範圍（每次使用時選擇）。</p><p>該區域內的每個生物必須進行敏捷豁免檢定（DC = 8 + 你的熟練加值 + 你的體質調整值）。豁免失敗的生物承受1d10被你的龍族血統特性所決定類型的傷害。豁免成功的生物僅承受一半傷害。</p><p>此傷害在角色到達 5 級時增加到 2d10，11 級為 3d10，17 級為 4d10。你可以使用此噴吐武器的次數等同於你的熟練加值，並在你完成長休時重獲所有已消耗的使用次數。</p>",
       "activities": {
         "Exhale Cone": {
-          "name": "Exhale Cone"
+          "name": "扇形噴吐"
         },
         "Exhale Line": {
-          "name": "Exhale Line"
+          "name": "直線噴吐"
         }
       },
       "advancement": {
         "Breath Weapon Damage": {
-          "title": "Breath Weapon Damage"
+          "title": "噴吐武器傷害"
         }
       }
     },
     "Lightning Breath Weapon": {
-      "name": "Lightning Breath Weapon",
+      "name": "閃電噴吐武器",
       "activities": {
         "Exhale Line": {
-          "name": "Exhale Line"
+          "name": "直線噴吐"
         },
         "Exhale Cone": {
-          "name": "Exhale Cone"
+          "name": "扇形噴吐"
         }
       },
       "advancement": {
         "Breath Weapon Damage": {
-          "title": "Breath Weapon Damage"
+          "title": "噴吐武器傷害"
         }
       },
-      "description": "<p>When you take the Attack action on your turn, you can replace one of your attacks with an exhalation of magical energy in either a 15-foot Cone or a 30-foot Line that is 5 feet wide (choose the shape each time).</p><p>Each creature in that area must make a Dexterity saving throw (DC 8 plus your Constitution modifier and Proficiency Bonus). On a failed save, a creature takes 1d10 damage of the type determined by your Draconic Ancestry trait. On a successful save, a creature takes half as much damage.</p><p>This damage increases by 1d10 when you reach character levels 5 (2d10), 11 (3d10), and 17 (4d10).You can use this Breath Weapon a number of times equal to your Proficiency Bonus, and you regain all expended uses when you finish a Long Rest.</p>"
+      "description": "<p>當你在自己回合採取攻擊動作時，你可以呼出魔法能量來替代其中一次攻擊，15呎錐形範圍或長30呎寬5呎的直線範圍（每次使用時選擇）。</p><p>該區域內的每個生物必須進行敏捷豁免檢定（DC = 8 + 你的熟練加值 + 你的體質調整值）。豁免失敗的生物承受1d10被你的龍族血統特性所決定類型的傷害。豁免成功的生物僅承受一半傷害。</p><p>此傷害在角色到達 5 級時增加到 2d10，11 級為 3d10，17 級為 4d10。你可以使用此噴吐武器的次數等同於你的熟練加值，並在你完成長休時重獲所有已消耗的使用次數。</p>"
     },
     "Fire Breath Weapon": {
       "activities": {
         "Exhale Cone": {
-          "name": "Exhale Cone"
+          "name": "扇形噴吐"
         },
         "Exhale Line": {
-          "name": "Exhale Line"
+          "name": "直線噴吐"
         }
       },
       "advancement": {
         "Breath Weapon Damage": {
-          "title": "Breath Weapon Damage"
+          "title": "噴吐武器傷害"
         }
       },
-      "description": "<p>When you take the Attack action on your turn, you can replace one of your attacks with an exhalation of magical energy in either a 15-foot Cone or a 30-foot Line that is 5 feet wide (choose the shape each time).</p><p>Each creature in that area must make a Dexterity saving throw (DC 8 plus your Constitution modifier and Proficiency Bonus). On a failed save, a creature takes 1d10 damage of the type determined by your Draconic Ancestry trait. On a successful save, a creature takes half as much damage.</p><p>This damage increases by 1d10 when you reach character levels 5 (2d10), 11 (3d10), and 17 (4d10).You can use this Breath Weapon a number of times equal to your Proficiency Bonus, and you regain all expended uses when you finish a Long Rest.</p>",
-      "name": "Fire Breath Weapon"
+      "description": "<p>當你在自己回合採取攻擊動作時，你可以呼出魔法能量來替代其中一次攻擊，15呎錐形範圍或長30呎寬5呎的直線範圍（每次使用時選擇）。</p><p>該區域內的每個生物必須進行敏捷豁免檢定（DC = 8 + 你的熟練加值 + 你的體質調整值）。豁免失敗的生物承受1d10被你的龍族血統特性所決定類型的傷害。豁免成功的生物僅承受一半傷害。</p><p>此傷害在角色到達 5 級時增加到 2d10，11 級為 3d10，17 級為 4d10。你可以使用此噴吐武器的次數等同於你的熟練加值，並在你完成長休時重獲所有已消耗的使用次數。</p>",
+      "name": "火焰噴吐武器"
     }
   },
   "mapping": {
