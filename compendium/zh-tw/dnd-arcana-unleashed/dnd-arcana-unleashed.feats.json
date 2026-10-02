@@ -116,7 +116,7 @@
         }
       },
       "name": "異界魔寵",
-      "description": "<p>你獲得下列好處。</p><p><span class=\"inline-h4\">【屬性值提升】</span>提升一項你所選擇的屬性1點，上限為20。</p><p><span class=\"inline-h4\">【異界威能】</span>當你施放<em>尋獲魔寵</em>法術時，你可以賦予你的魔寵異界威能，持續至你再次施放<em>尋獲魔寵</em>。賦能期間，你的魔寵獲得下列好處：</p><p class=\"hanging\"><strong>能量抗性。</strong>選擇黯蝕、毒素、心靈、光耀或雷鳴傷害。你的魔寵具有對所選類型傷害的抗性。</p><p class=\"hanging\"><strong>相位行走。</strong>你的魔寵可以移動穿過其他生物和物件，如同穿過困難地形一般。若你的魔寵在其回合結束時仍處於物件內，其被轉移至其最後身處的未占據空間。</p><section id=\"secret-etgoPuAG3BUaxhzl\" class=\"secret hide-in-embed\"><p><strong>Foundry 註記</strong></p><p>使用你<em>尋獲魔寵</em>法術上的「附魔」活動，然後使用與你所選傷害抗性相符的召喚活動。</p><p>相位行走的移動請手動處理。</p></section>"
+      "description": "<p>你獲得下列好處。</p><p><span class=\"inline-h4\">【屬性值提升】</span>提升一項你所選擇的屬性1點，上限為20。</p><p><span class=\"inline-h4\">【異界威能】</span>當你施放<em>尋獲魔寵</em>法術時，你可以賦予你的魔寵異界威能，持續至你再次施放<em>尋獲魔寵</em>。賦能期間，你的魔寵獲得下列好處：</p><p class=\"hanging\"><strong>能量抗性。</strong>選擇黯蝕、毒素、心靈、光耀或雷鳴傷害。你的魔寵具有對所選類型傷害的抗力。</p><p class=\"hanging\"><strong>相位行走。</strong>你的魔寵可以移動穿過其他生物和物件，如同穿過困難地形一般。若你的魔寵在其回合結束時仍處於物件內，其被轉移至其最後身處的未占據空間。</p><section id=\"secret-etgoPuAG3BUaxhzl\" class=\"secret hide-in-embed\"><p><strong>Foundry 註記</strong></p><p>使用你<em>尋獲魔寵</em>法術上的「附魔」活動，然後使用與你所選傷害抗力相符的召喚活動。</p><p>相位行走的移動請手動處理。</p></section>"
     },
     "Boon of Erupting Spellpower": {
       "activities": {
@@ -182,7 +182,7 @@
           "name": "元素魔寵"
         }
       },
-      "description": "<p>你獲得下列好處。</p><p><span class=\"inline-h4\">【屬性值提升】</span>提升一項你所選擇的屬性1點，上限為20。</p><p><span class=\"inline-h4\">【元素賦能】</span>你學會了如何賦予你魔寵元素之力。當你施放<em>尋獲魔寵</em>法術時，選擇強酸、寒冷、火焰、閃電或雷鳴傷害。你的魔寵被賦予這種能量，持續至你再次施放<em>尋獲魔寵</em>，並令其獲得下列好處：</p><p class=\"hanging\"><strong>元素抗性。</strong>你的魔寵具有對所選類型傷害的抗性。</p><p class=\"hanging\"><strong>能量脈衝。</strong>你以附贈動作命令你的魔寵釋放元素能量爆發。你的魔寵必須位於你120呎內，並採取反應來釋放此爆發。位於源自你魔寵的5呎發散區域內的每名生物進行一次敏捷豁免（DC為8加上你施放<em>尋獲魔寵</em>法術的施法屬性調整值再加上你的熟練加值）。豁免失敗時，生物受到2d4所選類型的傷害；若該生物體型為中型或更小，則其陷入倒地狀態。</p><section id=\"secret-0nYy8XGqIfQgzoSv\" class=\"secret hide-in-embed\"><p><strong>Foundry 註記</strong></p><p>使用「元素賦能」活動為你的<em>尋獲魔寵</em>法術附魔，然後使用與你所選傷害類型相符的召喚活動。</p></section>",
+      "description": "<p>你獲得下列好處。</p><p><span class=\"inline-h4\">【屬性值提升】</span>提升一項你所選擇的屬性1點，上限為20。</p><p><span class=\"inline-h4\">【元素賦能】</span>你學會了如何賦予你魔寵元素之力。當你施放<em>尋獲魔寵</em>法術時，選擇強酸、寒冷、火焰、閃電或雷鳴傷害。你的魔寵被賦予這種能量，持續至你再次施放<em>尋獲魔寵</em>，並令其獲得下列好處：</p><p class=\"hanging\"><strong>元素抗性。</strong>你的魔寵具有對所選類型傷害的抗力。</p><p class=\"hanging\"><strong>能量脈衝。</strong>你以附贈動作命令你的魔寵釋放元素能量爆發。你的魔寵必須位於你120呎內，並採取反應來釋放此爆發。位於源自你魔寵的5呎發散區域內的每名生物進行一次敏捷豁免（DC為8加上你施放<em>尋獲魔寵</em>法術的施法屬性調整值再加上你的熟練加值）。豁免失敗時，生物受到2d4所選類型的傷害；若該生物體型為中型或更小，則其陷入倒地狀態。</p><section id=\"secret-0nYy8XGqIfQgzoSv\" class=\"secret hide-in-embed\"><p><strong>Foundry 註記</strong></p><p>使用「元素賦能」活動為你的<em>尋獲魔寵</em>法術附魔，然後使用與你所選傷害類型相符的召喚活動。</p></section>",
       "name": "元素魔寵"
     },
     "Divination Adept": {
@@ -207,7 +207,7 @@
           "target": "未被佔據"
         }
       },
-      "description": "<p>你獲得下列好處。</p><p><span class=\"inline-h4\">【異界抗性】</span>你具有下列其中一種傷害類型的抗性：黯蝕、心靈或光耀（在你選取此專長時選擇）。</p><p><span class=\"inline-h4\">【穿界步】</span>你能消耗15呎移動力傳送至一處位於你15呎內你所能看見的未占據空間。你能使用此好處的次數等同於你的熟練加值，但每回合限一次，當你完成長休時重獲所有已消耗的使用次數。</p>"
+      "description": "<p>你獲得下列好處。</p><p><span class=\"inline-h4\">【異界抗性】</span>你具有下列其中一種傷害類型的抗力：黯蝕、心靈或光耀（在你選取此專長時選擇）。</p><p><span class=\"inline-h4\">【穿界步】</span>你能消耗15呎移動力傳送至一處位於你15呎內你所能看見的未占據空間。你能使用此好處的次數等同於你的熟練加值，但每回合限一次，當你完成長休時重獲所有已消耗的使用次數。</p>"
     },
     "Arcane Eloquence": {
       "description": "<p>你獲得下列好處。</p><p><span class=\"inline-h4\">【戲法】</span>你習得<em>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplViciousMoc]{惡毒嘲笑}</em>戲法。你施放該法術的施法屬性是智力、感知或魅力（在你選取此專長時選擇）。</p><p><span class=\"inline-h4\">【巧舌如簧】</span>當你進行魅力（欺瞞、恐嚇或遊說）檢定時，你可以擲1d4並將骰值加入該屬性檢定。</p>",
@@ -295,11 +295,11 @@
       },
       "advancement": {
         "nclFjtxmrgatMcVQ": {
-          "hint": "<p>你具有下列其中一種傷害類型的抗性（在你獲得此專長時選擇）：黯蝕、心靈、光耀或雷鳴。</p>"
+          "hint": "<p>你具有下列其中一種傷害類型的抗力（在你獲得此專長時選擇）：黯蝕、心靈、光耀或雷鳴。</p>"
         }
       },
       "name": "法術抗性",
-      "description": "<p>你獲得下列好處。</p><p><span class=\"inline-h4\">【屬性值提升】</span>你的敏捷或體質提升1點，上限為20。</p><p><span class=\"inline-h4\">【魔法抗性】</span>你具有下列其中一種傷害類型的抗性（在你獲得此專長時選擇）：黯蝕、心靈、光耀或雷鳴。</p><p><span class=\"inline-h4\">【魔法抵抗】</span>當你對抗法術或魔法效應的豁免將要失敗時，你能擲[[/r 1d6]]並將骰出的數值加入該豁免總值，這可能使失敗改為成功。你能使用此好處的次數等同於你的熟練加值，當你完成長休時重獲所有已消耗的使用次數。</p><section id=\"secret-JvdRa1oDo9flpZxU\" class=\"secret hide-in-embed\"><p><strong>Foundry 註記</strong></p><p>「魔法抵抗」活動會擲出加值並消耗一次使用次數。請手動將結果加入失敗的豁免。</p></section>"
+      "description": "<p>你獲得下列好處。</p><p><span class=\"inline-h4\">【屬性值提升】</span>你的敏捷或體質提升1點，上限為20。</p><p><span class=\"inline-h4\">【魔法抗性】</span>你具有下列其中一種傷害類型的抗力（在你獲得此專長時選擇）：黯蝕、心靈、光耀或雷鳴。</p><p><span class=\"inline-h4\">【魔法抵抗】</span>當你對抗法術或魔法效應的豁免將要失敗時，你能擲[[/r 1d6]]並將骰出的數值加入該豁免總值，這可能使失敗改為成功。你能使用此好處的次數等同於你的熟練加值，當你完成長休時重獲所有已消耗的使用次數。</p><section id=\"secret-JvdRa1oDo9flpZxU\" class=\"secret hide-in-embed\"><p><strong>Foundry 註記</strong></p><p>「魔法抵抗」活動會擲出加值並消耗一次使用次數。請手動將結果加入失敗的豁免。</p></section>"
     },
     "Arcane Safeguard": {
       "effects": {
