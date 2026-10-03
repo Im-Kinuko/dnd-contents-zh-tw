@@ -19,7 +19,7 @@
       },
       "effects": {
         "Poisoned (Dex)": {
-          "description": "<p>當生物因毒物而承受傷害時，該生物必須通過一次[[/save ability=con]]豁免（DC = 8+ 此專長提升屬性的調整值 + 你的熟練加值），否則將承受2d8毒素傷害，並且直到你的下回合結束前，獲得&amp;Reference[Poisoned]狀態。</p>",
+          "description": "<p>當生物因毒物而承受傷害時，該生物必須成功通過一次[[/save ability=con]]豁免（DC = 8+ 此專長提升屬性的調整值 + 你的熟練加值），否則將承受2d8毒素傷害，並且直到你的下回合結束前，獲得&amp;Reference[Poisoned]狀態。</p>",
           "name": "中毒（敏捷）",
           "changes": {
             "name": "，中毒"
@@ -672,7 +672,7 @@
     },
     "Crusher": {
       "name": "粉碎者",
-      "description": "<p>你獲得下列好處</p><p><strong>【屬性值提升】</strong>你的力量或體質提升1點，上限為20。</p><p><strong>【推離】</strong>每回合一次，當你以會造成頓擊傷害的攻擊命中一個生物時，若目標的體型不超過你一級，你可以將其移動5呎到未被佔據的空間。</p><p><strong>【強化暴擊】</strong>當你以鈍擊傷害對一個生物造成暴擊時，直到你下回合開始前，對該生物進行的攻擊檢定具有優勢。</p><section id=\"secret-Jx3RkyhIRZ7QLlyM\" class=\"secret\"><p><strong>Foundry筆記</strong></p><p>This feature includes an Active Effect which can be used to track the Advantage though it does not automate it.</p></section>",
+      "description": "<p>你獲得下列好處</p><p><strong>【屬性值提升】</strong>你的力量或體質提升1點，上限為20。</p><p><strong>【推離】</strong>每回合一次，當你以會造成頓擊傷害的攻擊命中一個生物時，若目標的體型不超過你一級，你可以將其移動5呎到未佔據的空間。</p><p><strong>【強化暴擊】</strong>當你以鈍擊傷害對一個生物造成暴擊時，直到你下回合開始前，對該生物進行的攻擊檢定具有優勢。</p><section id=\"secret-Jx3RkyhIRZ7QLlyM\" class=\"secret\"><p><strong>Foundry筆記</strong></p><p>This feature includes an Active Effect which can be used to track the Advantage though it does not automate it.</p></section>",
       "effects": {
         "Crushed": {
           "name": "粉碎"
