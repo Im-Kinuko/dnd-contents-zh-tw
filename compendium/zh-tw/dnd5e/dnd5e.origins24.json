@@ -19,7 +19,7 @@
       "activities": {
         "Cloud's Jaunt": {
           "name": "雲步穿行",
-          "target": "Unoccupied space"
+          "target": "未被占據的空見"
         }
       },
       "description": "<p>作為一個附贈動作，你魔法般地傳送到最多30呎一處你所能看見且未被占據的空間。</p>",
