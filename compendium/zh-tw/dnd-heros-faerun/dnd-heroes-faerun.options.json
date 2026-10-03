@@ -320,25 +320,25 @@
       "description": "<p>你獲得下列好處。</p><p><em><strong>Ability Score Increase.</strong></em> Increase one ability score of your choice by 1, to a maximum of 30.</p><p><em><strong>Killer’s Fortune.</strong></em> When an enemy you can see is reduced to 0 Hit Points, you gain Advantage on the next attack roll you make before the end of your next turn.</p><p><em><strong>Power from Pain. </strong></em>Once per turn, when you make an attack roll while Bloodied, you can deal extra damage to the target equal to your Proficiency Bonus. The extra damage’s type is the same as the attack’s type.</p><section class=\"secret\" id=\"secret-WvuADIcjQEUm317J\"><p><strong>Foundry Note</strong></p><p>This feature includes a \"Killer's Fortune\" <strong>Active Effect (AE)</strong> that can be used as a reminder but does not automate the attack Advantage. Additionally, the \"Power from Pain\" <strong>AE</strong> grants an attack roll damage bonus only when bloodied and should be disabled after its first use per turn.</p></section>"
     },
     "Syluné's Viper": {
-      "name": "Syluné's Viper",
+      "name": "希倫劇毒靈蛇",
       "activities": {
         "Venomous Bite": {
-          "condition": "while the spell is active",
-          "name": "Venomous Bite"
+          "condition": "法術生效期間",
+          "name": "劇毒啃咬"
         },
         "Cast": {
-          "name": "Cast"
+          "name": "施放"
         }
       },
-      "description": "<p>A shimmering, spectral snake encircles your body for the duration. You gain 15 Temporary Hit Points; the spell ends early if you have no Temporary Hit Points left.</p><p>While the spell is active, you gain the following benefits:</p><p><strong>Climbing. </strong>You gain a Climb Speed equal to your Speed.</p><p><strong>Venomous Bite. </strong>As a Magic action, you can make a ranged spell attack using the snake against one creature within 50 feet. On a hit, the target takes 1d6 Force damage and has the Poisoned condition until the start of your next turn. While Poisoned, the target has the Incapacitated condition.</p><p><em><strong>Using a Higher-Level Spell Slot.</strong></em> For each spell slot level above 3, the number of Temporary Hit Points you gain from this spell increases by 5, and the damage of Venomous Bite increases by 1d6.</p>",
+      "description": "<p>一條閃爍的靈體之蛇在持續期間內盤繞你的身軀。你獲得15點臨時生命值；若你沒有剩餘的臨時生命值，此法術提前結束。</p><p>在法術生效期間，你獲得下列好處：</p><p><strong>【攀爬】</strong>你獲得等同於你速度的攀爬速度。</p><p><strong>【劇毒啃咬】</strong>以一個魔法動作，你可以用該蛇對位於你50呎內的一名生物進行一次遠程法術攻擊。命中時，目標承受1d6力場傷害，並陷入中毒狀態直到你的下個回合開始前。目標在中毒期間同時陷入失能狀態。</p><p><em><strong>【升環法術效應】</strong></em>法術位每升一個環階，你從此法術獲得的臨時生命值就增加5點，且劇毒啃咬的傷害增加1d6。</p>",
       "effects": {
         "Syluné's Viper": {
           "description": "<p>@Embed[Compendium.dnd-heroes-faerun.options.Item.hofSylunesViper0 inline]</p>",
-          "name": "Syluné's Viper"
+          "name": "希倫劇毒靈蛇"
         },
         "Venom": {
-          "description": "<p>The target has the &amp;Reference[Poisoned apply=false] condition until the start of your next turn. While Poisoned, the target has the &amp;Reference[Incapacitated apply=false] condition.</p>",
-          "name": "Venom"
+          "description": "<p>目標陷入&amp;Reference[Poisoned apply=false]{中毒}狀態直到你的下個回合開始前。目標在中毒期間同時陷入&amp;Reference[Incapacitated apply=false]{失能}狀態。</p>",
+          "name": "劇毒"
         }
       }
     },
@@ -393,17 +393,17 @@
       }
     },
     "Doomtide": {
-      "description": "<p>You create a 20-foot-radius Sphere of inky fog within range. The fog is magical Darkness and lasts for the duration or until a strong wind (such as the one created by the <em>Gust of Wind </em>spell) disperses it, ending the spell.</p><p>Each creature in the Sphere when it appears makes a Wisdom saving throw. On a failed save, a creature takes 5d6 Psychic damage and subtracts 1d6 from its saving throws until the end of its next turn. On a successful save, a creature takes half as much damage only. A creature also makes this save when the Sphere moves into its space, when it enters the Sphere, or when it ends its turn inside the Sphere. A creature makes this save only once per turn.</p><p>The Sphere moves 10 feet away from you at the start of each of your turns.</p><p><em><strong>Casting as a Circle Spell.</strong></em> Casting this as a Circle spell requires a minimum of five secondary casters. In addition to the spell’s usual components, you must provide a special component (a string of three black pearls from Pandemonium), which the spell consumes. The spell’s range increases to 1 mile, and its duration increases to until dispelled (no Concentration required). The spell ends early if any caster who participated in this casting contributes to another casting of <em>Doomtide</em> as a Circle spell.</p><p>When the spell is cast, each secondary caster must expend a level 3+ spell slot; otherwise, the spell fails.</p>",
+      "description": "<p>你在射程內創造一片半徑20呎的墨色霧氣球形區域。該霧氣為魔法黑暗，持續至法術結束，或直到強風（例如<em>造風術</em>所創造的強風）將其吹散為止，法術隨之結束。</p><p>球形區域出現時位於其中的每名生物都進行一次感知豁免。豁免失敗時，該生物承受5d6心靈傷害，且直到其下個回合結束前，其豁免都要減去1d6。豁免成功時，該生物僅承受一半傷害。當球形區域移動進入一名生物的空間、一名生物進入球形區域，或一名生物在球形區域內結束其回合時，該生物也要進行此豁免。生物每回合只會進行一次此豁免。</p><p>在你的每個回合開始時，球形區域會往遠離你的方向移動10呎。</p><p><em><strong>【結陣施法】</strong></em>以結陣法術施放此法術時，至少需要五名輔施法者。除了此法術的一般成分外，你還必須提供一項特殊成分（一串三顆來自喧癲空隧的黑珍珠），此法術會將其消耗。此法術的射程增加至1哩，持續時間增加為直到被解除為止（不需要專注）。若任何參與此次施法的施法者又參與另一次<em>厄難黑潮</em>的結陣施法，此法術便提前結束。</p><p>施放此法術時，每名輔施法者都必須消耗一個3環以上的法術位，否則法術失敗。</p>",
       "effects": {
         "Doomed": {
-          "description": "<p>On a failed save, a creature subtracts 1d6 from its saving throws until the end of its next turn.</p>",
-          "name": "Doomed"
+          "description": "<p>豁免失敗時，直到該生物的下個回合結束前，其豁免都要減去1d6。</p>",
+          "name": "厄難"
         }
       },
-      "name": "Doomtide",
+      "name": "厄難黑潮",
       "activities": {
         "Cast and Save": {
-          "name": "Cast and Save"
+          "name": "施放與豁免"
         }
       }
     },
@@ -606,18 +606,18 @@
       "name": "巨靈眷顧者"
     },
     "Backlash": {
-      "name": "Backlash",
+      "name": "反衝術",
       "activities": {
         "Creature Backlash": {
-          "condition": "triggering damage was from a creature within range",
-          "name": "Creature Backlash"
+          "condition": "觸發傷害來自射程內的生物",
+          "name": "生物反衝"
         },
         "Cast": {
-          "name": "Cast",
-          "roll": "Damage Reduction"
+          "name": "施放",
+          "roll": "傷害減免"
         }
       },
-      "description": "<p>You ward yourself against destructive energy, reducing the damage taken by 4d6 plus your spellcasting ability modifier.</p><p>If the triggering damage was from a creature within range, you can force the creature to make a Constitution saving throw. The creature takes 4d6 Force damage on a failed save or half as much damage on a successful one.</p><p><em><strong>Using a Higher-Level Spell Slot.</strong></em> The damage reduction and Force damage from this spell both increase by 1d6 for every spell slot level above 4.</p>"
+      "description": "<p>你保護自己抵禦破壞性的能量，使你承受的傷害減少4d6加上你的施法屬性調整值。</p><p>若觸發此法術的傷害來自射程內的一名生物，你可以迫使該生物進行一次體質豁免。該生物豁免失敗時承受4d6力場傷害，成功時傷害減半。</p><p><em><strong>【升環法術效應】</strong></em>法術位每升一個環階，此法術的傷害減免與力場傷害就各增加1d6。</p>"
     },
     "Bladesong": {
       "description": "<p>As a Bonus Action, you invoke an elven magic called the Bladesong, provided you aren’t wearing armor or using a Shield.</p><p>The Bladesong lasts for 1 minute and ends early if you have the Incapacitated condition, if you don armor or a Shield, or if you use two hands to make an attack with a weapon. You can dismiss the Bladesong at any time (no action required).</p><p>While the Bladesong is active, you gain the following benefits. You can invoke the Bladesong a number of times equal to your Intelligence modifier ([[lookup @abilities.int.mod]]{0}, minimum of once), and you regain all expended uses when you finish a Long Rest. You regain one expended use when you use Arcane Recovery.</p><p><em><strong>Agility.</strong></em> You gain a bonus to your AC equal to your Intelligence modifier (minimum of +1), and your Speed increases by 10 feet. In addition, you have Advantage on Dexterity (Acrobatics) checks.</p><p><em><strong>Bladework.</strong></em> Whenever you attack with a weapon with which you have proficiency, you can use your Intelligence modifier for the attack and damage rolls instead of using Strength or Dexterity.</p><p><em><strong>Focus.</strong></em> When you make a Constitution saving throw to maintain Concentration, you can add your Intelligence modifier to the total.</p><section id=\"secret-PYLkGuyEr8KoysnM\" class=\"secret\"><p><strong>Foundry Note</strong></p><p>The included Active Effect does not modify the ability used for attack and damage rolls. This change should be made in the <strong>Attack</strong> activity of the weapon in use.</p></section>",
@@ -664,16 +664,16 @@
       "effects": {
         "Elminster's Elusion": {
           "description": "<p>@Embed[Compendium.dnd-heroes-faerun.options.Item.hofElminstersElu inline]</p>",
-          "name": "Elminster's Elusion"
+          "name": "伊爾明斯特法術閃避"
         }
       },
       "activities": {
         "Cast": {
-          "name": "Cast"
+          "name": "施放"
         }
       },
-      "description": "<p>Arcane wards protect you against magic for the duration. You have Advantage on saving throws against spells and magical effects. Additionally, if you succeed on a saving throw against a spell or magical effect and would normally take half as much damage, you instead take no damage.</p>",
-      "name": "Elminster's Elusion"
+      "description": "<p>奧法護陣在持續期間內保護你免受魔法侵害。你對抗法術與魔法效應的豁免具有優勢。此外，若你在對抗法術或魔法效應的豁免中成功，原本會承受的一半傷害，改為你不承受任何傷害。</p>",
+      "name": "伊爾明斯特法術閃避"
     },
     "Shared Resilience": {
       "description": "<p>When an ally you can see within 60 feet of yourself fails a saving throw, you can take a Reaction to expend a use of your Indomitable feature. The ally can immediately reroll the saving throw with a bonus equal to your Fighter level (+[[lookup @classes.fighter.levels]]{15}); the ally must use the new roll.</p>",
@@ -728,11 +728,11 @@
       "description": "<p>When you use your Action Surge, you can choose allies within a 30-foot Emanation originating from yourself, up to a number of allies equal to your Charisma modifier (minimum of one). Each of those allies can immediately take a Reaction to use one of the following options.</p><p><em><strong>Attack.</strong></em> The ally makes one attack with a weapon or an Unarmed Strike.</p><p><em><strong>Move.</strong></em> The ally moves up to half its Speed without provoking Opportunity Attacks.</p>"
     },
     "Spellfire Flare": {
-      "description": "<p>You unleash a blast of brilliant fire. Make a ranged spell attack against a target within range; a target gains no benefit from Half Cover or Three-Quarters Cover for this attack roll. On a hit, the target takes 2d10 Radiant damage.</p><p><em><strong>Using a Higher-Level Spell Slot.</strong></em> You create an additional blast for each spell slot level above 1. You can direct the blasts at the same target or at different ones. Make a separate attack roll for each blast.</p><p>[[@item.level]]{Number of blasts}</p>",
-      "name": "Spellfire Flare",
+      "description": "<p>你釋放出一道耀眼的火焰衝擊。對射程內的一個目標進行一次遠程法術攻擊；目標在此攻擊檢定中不會獲得來自半身掩護或四分之三掩護的好處。命中時，目標承受2d10光耀傷害。</p><p><em><strong>【升環法術效應】</strong></em>法術位每升一個環階，你就額外創造一道衝擊。你可以讓這些衝擊瞄準同一個目標或不同目標，每道衝擊都要分別進行攻擊檢定。</p><p>[[@item.level]]{衝擊數量}</p>",
+      "name": "咒火閃焰",
       "activities": {
         "Cast": {
-          "name": "Cast"
+          "name": "施放"
         }
       }
     },
@@ -979,18 +979,18 @@
     "Death Armor": {
       "activities": {
         "Cast": {
-          "name": "Cast"
+          "name": "施放"
         },
         "Retaliate": {
-          "name": "Retaliate",
-          "condition": "once per turn, when hit by a target in range"
+          "name": "反擊",
+          "condition": "每回合一次，被範圍內的生物命中時"
         }
       },
-      "name": "Death Armor",
-      "description": "<p>For the duration, an inky aura surrounds one creature you touch. The target has Advantage on Death Saving Throws, and once per turn, when a creature within 5 feet of the target hits it with a melee attack roll, the attacker takes [[/damage]] damage.</p>",
+      "name": "死佑護甲",
+      "description": "<p>在持續期間內，一道墨色靈光環繞你所觸碰的一名生物。目標的死亡豁免具有優勢；此外，每回合一次，當位於目標5呎內的一名生物以近戰攻擊檢定命中目標時，該攻擊者承受[[/damage]]傷害。</p>",
       "effects": {
         "Death Armor": {
-          "name": "Death Armor",
+          "name": "死佑護甲",
           "description": "<p>@Embed[Compendium.dnd-heroes-faerun.options.Item.hofDeathArmor000 inline]</p>"
         }
       }
@@ -1097,19 +1097,19 @@
     "Cacophonic Shield": {
       "effects": {
         "Deafened": {
-          "description": "<p> The creature has the Deafened condition until the start of your next turn.</p>",
-          "name": "Deafened"
+          "description": "<p>該生物陷入耳聾狀態直到你的下個回合開始前。</p>",
+          "name": "耳聾"
         },
         "Shielded": {
-          "description": "<p>You have Resistance to Thunder damage, and ranged attack rolls against you are made with Disadvantage.</p>",
-          "name": "Shielded"
+          "description": "<p>你對雷鳴傷害具有抗力，且對你進行的遠程攻擊檢定具有劣勢。</p>",
+          "name": "受防護"
         }
       },
-      "description": "<p>Thunderous reverberations fill a 10-foot Emanation originating from you for the duration. Whenever the Emanation enters a creature’s space and whenever a creature enters the Emanation or ends its turn there, the creature makes a Constitution saving throw. On a failed save, the creature takes 3d6 Thunder damage and has the Deafened condition until the start of your next turn. On a successful save, the creature takes half as much damage only. A creature makes this save only once per turn. When you cast this spell, you can designate creatures to be unaffected by it.</p><p>In addition, you have Resistance to Thunder damage, and ranged attack rolls against you are made with Disadvantage.</p><p><em><strong>Using a Higher-Level Spell Slot.</strong></em> The damage increases by 1d6 for each spell slot level above 3.</p>",
-      "name": "Cacophonic Shield",
+      "description": "<p>雷鳴般的迴響在持續期間內充斥一片源自於你的10呎發散區域。每當該發散區域進入一名生物的空間，以及每當一名生物進入該發散區域或在其中結束其回合時，該生物都進行一次體質豁免。豁免失敗時，該生物承受3d6雷鳴傷害，並陷入耳聾狀態直到你的下個回合開始前。豁免成功時，該生物僅承受一半傷害。生物每回合只會進行一次此豁免。當你施放此法術時，你可以指定不受其影響的生物。</p><p>此外，你對雷鳴傷害具有抗力，且對你進行的遠程攻擊檢定具有劣勢。</p><p><em><strong>【升環法術效應】</strong></em>法術位每升一個環階，傷害就增加1d6。</p>",
+      "name": "噪鳴護盾",
       "activities": {
         "Cast and Save": {
-          "name": "Cast and Save"
+          "name": "施放與豁免"
         }
       }
     },
@@ -1331,16 +1331,16 @@
     "Laeral's Silver Lance": {
       "effects": {
         "Prone": {
-          "name": "Prone"
+          "name": "伏地"
         }
       },
-      "name": "Laeral's Silver Lance",
+      "name": "萊拉銀輝長槍",
       "activities": {
         "Cast": {
-          "name": "Cast"
+          "name": "施放"
         }
       },
-      "description": "<p>Silver energy bursts out from you in a 120-foot-long, 5-foot-wide Line. Each creature of your choice in the Line makes a Strength saving throw. On a failed save, a creature takes 3d10 Force damage and has the &amp;Reference[Prone apply=false] condition. On a successful save, a creature takes half as much damage only.</p><p><em><strong>Using a Higher-Level Spell Slot.</strong></em> The damage increases by 1d10 for every spell slot level above 3.</p>"
+      "description": "<p>銀色能量自你身上爆發，形成一道120呎長、5呎寬的直線。直線內每名由你選擇的生物都進行一次力量豁免。豁免失敗時，該生物承受3d10力場傷害，並陷入&amp;Reference[Prone apply=false]{伏地}狀態。豁免成功時，該生物僅承受一半傷害。</p><p><em><strong>【升環法術效應】</strong></em>法術位每升一個環階，傷害就增加1d10。</p>"
     },
     "Aura of Malevolence": {
       "name": "Aura of Malevolence",
@@ -1369,13 +1369,13 @@
       }
     },
     "Conjure Constructs": {
-      "name": "Conjure Constructs",
+      "name": "召喚構裝群",
       "activities": {
         "Cast": {
-          "name": "Cast"
+          "name": "施放"
         }
       },
-      "description": "<p>You conjure a group of intangible, orderly spirits that appear as a Medium group of modrons or other Constructs in an unoccupied space you can see within range. The spirits last for the duration.</p><p>When you cast this spell and as a Magic action on subsequent turns, you can command the spirits to target one creature or object you can see within 5 feet of the spirits and create one of the following effects:</p><p><strong>Clockwork Force.</strong> The target makes a Dexterity saving throw, taking 3d6 Force damage on a failed save or half as much damage on a successful one.</p><p><strong>Orderly Ward.</strong> The target gains Temporary Hit Points equal to 1d6 plus your spellcasting ability modifier.</p><p>When you move on your turn, you can also move the spirits up to 30 feet to an unoccupied space you can see.</p><p><em><strong>Using a Higher-Level Spell Slot.</strong></em> The damage and Temporary Hit Points both increase by 1d6 for each spell slot level above 3.</p>"
+      "description": "<p>你召喚一群無實體、井然有序的靈體，其以一群中型的魔冢或其他構裝體之姿，出現在射程內一處你所能看見的未佔據空間。這些靈體在持續期間內存在。</p><p>當你施放此法術時，以及在後續回合中採取一個魔法動作時，你可以命令這些靈體以其5呎內一個你所能看見的生物或物體為目標，並創造下列其中一種效應：</p><p><strong>【機關之力】</strong>目標進行一次敏捷豁免，豁免失敗時承受3d6力場傷害，成功時傷害減半。</p><p><strong>【秩序守護】</strong>目標獲得等同於1d6加上你施法屬性調整值的臨時生命值。</p><p>當你在自己的回合移動時，也可以將這些靈體移動至多30呎到一處你所能看見的未佔據空間。</p><p><em><strong>【升環法術效應】</strong></em>法術位每升一個環階，傷害與臨時生命值就各增加1d6。</p>"
     },
     "Moonwell Pilgrim": {
       "advancement": {
@@ -1706,17 +1706,17 @@
     "Deryan's Helpful Homunculi": {
       "effects": {
         "Helpful Homunculi": {
-          "description": "<p>If you are crafting an item, the spirits function as a single assistant for your crafting, halving the crafting time.</p>",
-          "name": "Helpful Homunculi"
+          "description": "<p>若你正在製作一件物品，這些靈體在你的製作過程中視為一名助手，使製作時間減半。</p>",
+          "name": "熱心小幫手"
         }
       },
-      "description": "<p>You summon a group of helpful spirits, which lasts for the duration. The spirits appear as homunculi or as another Construct of your choice but are intangible and invulnerable, and they are considered to have proficiency in the Arcana skill and with the set of Artisan’s Tools used in the spell’s casting.</p><p>If you are crafting an item, the spirits function as a single assistant for your crafting, halving the crafting time.</p>",
+      "description": "<p>你召喚一群熱心幫忙的靈體，其在持續期間內存在。這些靈體的外形為人工生命體或其他由你選擇的構裝體，但無實體且無法被傷害，並視為具備奧秘技能以及施放此法術所用的那套工匠工具的熟練。</p><p>若你正在製作一件物品，這些靈體在你的製作過程中視為一名助手，使製作時間減半。</p>",
       "activities": {
         "Cast": {
-          "name": "Cast"
+          "name": "施放"
         }
       },
-      "name": "Deryan's Helpful Homunculi"
+      "name": "德莉安人工生命小幫手"
     },
     "Genie Magic": {
       "advancement": {
@@ -1760,18 +1760,18 @@
     "Wardaway": {
       "activities": {
         "Cast": {
-          "chatFlavor": "Constructs and Undead automatically succeed on this save.",
-          "name": "Cast"
+          "chatFlavor": "構裝體與不死生物會自動通過此豁免。",
+          "name": "施放"
         }
       },
       "effects": {
         "Disoriented": {
-          "name": "Disoriented",
-          "description": "<p>On a failed save the target's Speed is halved until the start of your next turn, and on its next turn, it can take only an action or a Bonus Action (but not both).</p>"
+          "name": "暈頭轉向",
+          "description": "<p>豁免失敗時，目標的速度減半直到你的下個回合開始前，且目標在其下個回合中只能採取一個動作或一個附贈動作（不能兩者皆採取）。</p>"
         }
       },
-      "name": "Wardaway",
-      "description": "<p>You hurl a disorienting magical force toward one creature within range. The target makes a Constitution saving throw; Constructs and Undead automatically succeed on this save.</p><p>On a failed save, the target takes 2d4 Force damage, its Speed is halved until the start of your next turn, and on its next turn, it can take only an action or a Bonus Action (but not both). On a successful save, the target takes half as much damage only.</p><p><em><strong>Using a Higher-Level Spell Slot.</strong></em> The damage increases by 2d4 for every spell slot level above 1.</p>"
+      "name": "制敵術",
+      "description": "<p>你朝射程內的一名生物擲出一道令其暈頭轉向的魔法力場。目標進行一次體質豁免；構裝體與不死生物會自動通過此豁免。</p><p>豁免失敗時，目標承受2d4力場傷害，其速度減半直到你的下個回合開始前，且目標在其下個回合中只能採取一個動作或一個附贈動作（不能兩者皆採取）。豁免成功時，目標僅承受一半傷害。</p><p><em><strong>【升環法術效應】</strong></em>法術位每升一個環階，傷害就增加2d4。</p>"
     },
     "Team Tactics": {
       "effects": {
@@ -1897,25 +1897,25 @@
     "Alustriel’s Mooncloak": {
       "activities": {
         "Liberation": {
-          "name": "Liberation",
-          "condition": "you fail a saving throw to avoid or end the Frightened, Grappled, or Restrained condition"
+          "name": "解放",
+          "condition": "你在避免或結束恐慌、受擒或束縛狀態的豁免中失敗時"
         },
         "Respite": {
-          "target": "within the area",
-          "name": "Respite"
+          "target": "區域內",
+          "name": "回春"
         },
         "Cast": {
-          "name": "Cast"
+          "name": "施放"
         }
       },
-      "name": "Alustriel’s Mooncloak",
+      "name": "艾拉斯卓月輝之篷",
       "effects": {
         "Moonlight": {
-          "name": "Moonlight",
-          "description": "<p>While in that area, you and your allies have Half Cover and Resistance to Cold, Lightning, and Radiant damage.</p>"
+          "name": "月光",
+          "description": "<p>位於該區域內時，你和你的盟友具有半身掩護，並對寒冷、閃電與光耀傷害具有抗力。</p>"
         }
       },
-      "description": "<p>For the duration, moonlight fills a 20-foot Emanation originating from you with Dim Light. While in that area, you and your allies have Half Cover and Resistance to Cold, Lightning, and Radiant damage.</p><p>While the spell lasts, you can use one of the following options, ending the spell immediately:</p><p><strong>Liberation. </strong>When you fail a saving throw to avoid or end the Frightened, Grappled, or Restrained condition, you can take a Reaction to succeed on the save instead.</p><p><strong>Respite. </strong>As a Magic action, you or an ally within the area regains Hit Points equal to 4d10 plus your spellcasting ability modifier.</p>"
+      "description": "<p>在持續期間內，月光以微光光照充滿一片源自你的20呎發散區域。位於該區域內時，你和你的盟友具有半身掩護，並對寒冷、閃電與光耀傷害具有抗力。</p><p>在法術持續期間，你可以使用下列其中一個選項，並立即結束此法術：</p><p><strong>【解放】</strong>當你在避免或結束恐慌、受擒或束縛狀態的豁免中失敗時，你可以採取一個反應，改為使該豁免成功。</p><p><strong>【回春】</strong>你可以採取一個魔法動作，使你或區域內的一名盟友恢復等同於4d10加上你的施法屬性調整值的生命值。</p>"
     },
     "Knowledge Domain Spells": {
       "name": "Knowledge Domain Spells",
@@ -2016,7 +2016,7 @@
           "condition": "at the start of your turn while imbued"
         }
       },
-      "name": "Songal's Elemental Suffusion",
+      "name": "桑縞元靈顯聖",
       "description": "<p>You imbue yourself with the elemental power of genies. You gain the following benefits until the spell ends:</p><p><strong>Elemental Immunity. </strong>When you cast this spell, choose one of the following damage types: Acid, Cold, Fire, Lightning, or Thunder. You have Resistance to the chosen damage type.</p><p><strong>Elemental Pulse. </strong>When you cast this spell and at the start of each of your subsequent turns, you release a burst of elemental energy in a 15-foot Emanation originating from yourself. Each creature of your choice in that area makes a Dexterity saving throw. On a failed save, a creature takes 2d6 Acid, Cold, Fire, Lightning, or Thunder damage (your choice) and has the Prone condition. On a successful save, a creature takes half as much damage only.</p><p><strong>Flight.</strong> You gain a Fly Speed of 30 feet and can hover.</p><p><em><strong>Casting as a Circle Spell.</strong></em> If the spell is cast as a Circle spell, its casting time increases to 1 minute, and its duration increases to Concentration, up to 10 minutes. For each secondary caster who participates in the casting, you can choose one additional creature, to a maximum of nine additional creatures. The chosen creatures also gain the benefits of the spell for its duration.</p><p>When the spell is cast, each secondary caster must expend a level 2+ spell slot; otherwise, the spell fails.</p>"
     },
     "Ice Fisher": {
