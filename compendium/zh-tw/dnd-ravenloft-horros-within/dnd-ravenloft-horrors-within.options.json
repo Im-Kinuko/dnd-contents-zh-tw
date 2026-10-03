@@ -269,10 +269,10 @@
     },
     "Reborn": {
       "name": "重生者",
-      "description": "<p>重生者是指那些已經死去卻又莫名依然存活的個體。有些重生者的身上有著致命傷留下的疤痕，那死灰般的血肉和無血的血管無不表明著他們曾死裡逃生。有些重生者則是魔法或科學造就的奇蹟，他們或由迥然不同的生命縫合而成，或是在人造軀殼中承載著神秘的心智。無論起源如何，重生者都迎來了新生，並尋求屬於他們自己的經歷和答案。</p><h4 class=\"entry\">重生者特性</h4><p><strong>生物類型：</strong>類人生物</p><p><strong>體型：</strong>中型（約4-7呎高）或小型（約2-4呎高），當你選擇此種族時決定</p><p><strong>速度：</strong>30呎</p><p>作為重生者，你擁有這些特性</p><p><span class=\"inline-entry\"><strong>【死裡逃生】</strong></span>@Embed[Compendium.dnd-ravenloft-horrors-within.options.Item.rhwEscapedDeatXY inline]</p><p><span class=\"inline-entry\"><strong>【永固不朽】</strong></span>@Embed[Compendium.dnd-ravenloft-horrors-within.options.Item.rhwEverlasting7o inline]</p><p><span class=\"inline-entry\"><strong>【往昔知識】</strong></span> @Embed[Compendium.dnd-ravenloft-horrors-within.options.Item.rhwKnowledgefraL inline]</p><p><span class=\"inline-entry\"><strong>【奇異耐性】</strong></span>你具有下列一項你所選擇的傷害類型抗性：寒冷、黯蝕、毒素。</p>",
+      "description": "<p>重生者是指那些已經死去卻又莫名依然存活的個體。有些重生者的身上有著致命傷留下的疤痕，那死灰般的血肉和無血的血管無不表明著他們曾死裡逃生。有些重生者則是魔法或科學造就的奇蹟，他們或由迥然不同的生命縫合而成，或是在人造軀殼中承載著神秘的心智。無論起源如何，重生者都迎來了新生，並尋求屬於他們自己的經歷和答案。</p><h4 class=\"entry\">重生者特性</h4><p><strong>生物類型：</strong>類人生物</p><p><strong>體型：</strong>中型（約4-7呎高）或小型（約2-4呎高），當你選擇此種族時決定</p><p><strong>速度：</strong>30呎</p><p>作為重生者，你擁有這些特性</p><p><span class=\"inline-entry\"><strong>【死裡逃生】</strong></span>@Embed[Compendium.dnd-ravenloft-horrors-within.options.Item.rhwEscapedDeatXY inline]</p><p><span class=\"inline-entry\"><strong>【永固不朽】</strong></span>@Embed[Compendium.dnd-ravenloft-horrors-within.options.Item.rhwEverlasting7o inline]</p><p><span class=\"inline-entry\"><strong>【往昔知識】</strong></span> @Embed[Compendium.dnd-ravenloft-horrors-within.options.Item.rhwKnowledgefraL inline]</p><p><span class=\"inline-entry\"><strong>【奇異耐性】</strong></span>你具有下列一項你所選擇的傷害類型抗力：寒冷、黯蝕、毒素。</p>",
       "advancement": {
         "Strange Endurance": {
-          "hint": "<p>你具有下列一項你所選擇的傷害類型抗性：寒冷、黯蝕、毒素。</p>",
+          "hint": "<p>你具有下列一項你所選擇的傷害類型抗力：寒冷、黯蝕、毒素。</p>",
           "title": "奇異耐性"
         },
         "Umt70RQ304hjOibr": {
