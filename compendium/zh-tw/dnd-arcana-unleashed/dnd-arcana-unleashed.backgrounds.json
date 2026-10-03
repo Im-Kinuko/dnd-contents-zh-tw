@@ -1,52 +1,52 @@
 {
   "entries": {
     "Book (anatomy)": {
-      "name": "Book (anatomy)",
-      "description": "<p>A Book contains fiction or nonfiction. If you consult an accurate nonfiction Book about its topic, you gain a +5 bonus to Intelligence (Arcana, History, Nature, or Religion) checks you make about that topic.</p>"
+      "name": "書（解剖學）",
+      "description": "<p>書籍收錄小說或非小說作品。若你查閱一本內容準確、與某主題相關的非小說書籍，你在進行與該主題相關的智力（奧秘、歷史、自然或宗教）檢定時獲得+5加值。</p>"
     },
     "Crucible Storm Chaser": {
-      "name": "Crucible Storm Chaser",
-      "description": "<p><strong>Ability Scores:</strong> Strength, Constitution, Intelligence</p><p><strong>Feat:</strong> @UUID[Compendium.dnd-arcana-unleashed.feats.Item.aunArcaneOverlB1]{Arcane Overload}</p><p><strong>Skill Proficiencies:</strong> Athletics and Nature</p><p><strong>Tool Proficiency:</strong> Glassblower’s Tools</p><p><strong>Equipment:</strong> <em>Choose A or B:</em> (A) Glassblower’s Tools, Backpack, Rope, Traveler’s Clothes, 15 GP; or (B) 50 GP</p><p>Your daredevil tendencies and thirst for excitement led you to the @UUID[Compendium.dnd-arcana-unleashed.book.JournalEntry.aunCrucibleKeenY]{Crucible Keepers,} an organization dedicated to studying natural and magical catastrophes. From playing with molten glass to charging into a hurricane’s eye, you thrive when disaster is mere steps away.</p>"
+      "name": "熔爐逐風者",
+      "description": "<p><strong>屬性值：</strong>力量、體質、智力</p><p><strong>專長：</strong>@UUID[Compendium.dnd-arcana-unleashed.feats.Item.aunArcaneOverlB1]{奧法超負荷}</p><p><strong>技能熟練：</strong>運動和自然</p><p><strong>工具熟練：</strong>玻璃匠工具</p><p><strong>裝備：</strong> <em>選擇A或B：</em>（A）玻璃匠工具、背包、繩索、旅行者服裝、15 GP 或（B）50 GP</p><p>你天生的冒險精神與對刺激的渴望，使你加入了@UUID[Compendium.dnd-arcana-unleashed.book.JournalEntry.aunCrucibleKeenY]{熔爐司守}——一個致力於研究自然與魔法災害的組織。從把玩熔融的玻璃，到衝進颶風的風眼，災難近在咫尺時，正是你大放異彩的時刻。</p>"
     },
     "Familiar Trainer": {
-      "name": "Familiar Trainer",
-      "description": "<p><strong>Ability Scores:</strong> Constitution, Intelligence, Wisdom</p><p><strong>Feat:</strong> @UUID[Compendium.dnd-arcana-unleashed.feats.Item.aunFamiliarFri4q]{Familiar Friend}</p><p><strong>Skill Proficiencies:</strong> Animal Handling and Arcana</p><p><strong>Tool Proficiency:</strong> <em>Choose one kind of Gaming Set</em></p><p><strong>Equipment:</strong> <em>Choose A or B:</em> (A) Quarterstaff, Gaming Set (same as above), Bedroll, Bell, String, Tinderbox, Traveler’s Clothes, Waterskin, 44 GP; or (B) 50 GP</p><p>A magical familiar bonded with you when you were young, accompanying you throughout your adolescence. Now, you can’t imagine life without your furry—or feathery, scaly, or slimy—friend at your side. You’ve learned to work in tandem with your familiar, and when adventure presents its challenges, your familiar is quick to remind you of the small joys in life.</p>"
+      "name": "魔寵訓練家",
+      "description": "<p><strong>屬性值：</strong>體質、智力、感知</p><p><strong>專長：</strong>@UUID[Compendium.dnd-arcana-unleashed.feats.Item.aunFamiliarFri4q]{魔寵密友}</p><p><strong>技能熟練：</strong>馴獸和奧秘</p><p><strong>工具熟練：</strong> <em>選擇一種遊戲套組</em></p><p><strong>裝備：</strong> <em>選擇A或B：</em>（A）長棍、遊戲套組（與上述相同）、睡袋、鈴鐺、弦線、打火匣、旅行者服裝、水袋、44 GP 或（B）50 GP</p><p>一隻魔寵在你年幼時與你締結了羈絆，陪伴你度過整個青春歲月。如今，你已經無法想像生活中少了這位毛茸茸——或羽翼豐滿、覆滿鱗片、黏滑濕潤——的朋友陪在身旁。你學會了與你的魔寵協同行動，而每當冒險帶來挑戰，你的魔寵總會適時提醒你留意生活中的那些小確幸。</p>"
     },
     "Phantasmic Circus Trouper": {
-      "description": "<p><strong>Ability Scores:</strong> Dexterity, Constitution, Charisma</p><p><strong>Feat:</strong> @UUID[Compendium.dnd-arcana-unleashed.feats.Item.aunArcaneArtiss3]{Arcane Artist}</p><p><strong>Skill Proficiencies:</strong> Deception and Performance</p><p><strong>Tool Proficiency:</strong> Disguise Kit</p><p><strong>Equipment:</strong> <em>Choose A or B:</em> (A) Disguise Kit, Gaming Set (any), Costume, Mirror, Traveler’s Clothes, 12 GP; or (B) 50 GP</p><p>Whether as a performer or a circus hand, you found a home among the members of the @UUID[Compendium.dnd-arcana-unleashed.book.JournalEntry.aunPhantasmicC8Y]{Phantasmic Circus.} As you traveled across the world bringing magic and wonder to excited audiences, you learned some illusion magic and honed your talents for performance and misdirection.</p>",
-      "name": "Phantasmic Circus Trouper"
+      "description": "<p><strong>屬性值：</strong>敏捷、體質、魅力</p><p><strong>專長：</strong>@UUID[Compendium.dnd-arcana-unleashed.feats.Item.aunArcaneArtiss3]{奧法藝術家}</p><p><strong>技能熟練：</strong>欺瞞和表演</p><p><strong>工具熟練：</strong>易容工具組</p><p><strong>裝備：</strong> <em>選擇A或B：</em>（A）易容工具組、遊戲套組（任一）、戲服、鏡子、旅行者服裝、12 GP 或（B）50 GP</p><p>無論是作為表演者還是馬戲團的幫手，你都在@UUID[Compendium.dnd-arcana-unleashed.book.JournalEntry.aunPhantasmicC8Y]{幻影馬戲團}的成員之間找到了歸屬。在你周遊世界、為興奮的觀眾帶來魔法與奇觀的過程中，你學到了一些幻術學派魔法，並磨練了自己在表演與聲東擊西方面的天賦。</p>",
+      "name": "幻影馬戲團藝人"
     },
     "Agent of Ninth Quill": {
-      "name": "Agent of Ninth Quill",
-      "description": "<p><strong>Ability Scores:</strong> Dexterity, Intelligence, Charisma</p><p><strong>Feat:</strong> @UUID[Compendium.dnd-arcana-unleashed.feats.Item.ArcaneInfiltraQy]{Arcane Infiltrator}</p><p><strong>Skill Proficiencies:</strong> Arcana and Sleight of Hand</p><p><strong>Tool Proficiency:</strong> Thieves’ Tools</p><p><strong>Equipment:</strong> <em>Choose A or B:</em> (A) Dagger, Light Hammer, Thieves’ Tools, Iron Spikes, Rope, Traveler’s Clothes, 17 GP; or (B) 50 GP</p><p>Your sharp mind and keen burgling skills led you to fall in with the @UUID[Compendium.dnd-arcana-unleashed.book.JournalEntry.aunNinthQuill5Q9]{Ninth Quill,} a collective of thieves, saboteurs, and spies who steal magical lore and relics from others. Through your escapades—from purloining magic items and arcane tomes to sabotaging groups of mages—you’ve developed cunning skills and magical tricks to further your spy craft.</p>"
+      "name": "第九翎羽特工",
+      "description": "<p><strong>屬性值：</strong>敏捷、智力、魅力</p><p><strong>專長：</strong>@UUID[Compendium.dnd-arcana-unleashed.feats.Item.ArcaneInfiltraQy]{奧法滲透者}</p><p><strong>技能熟練：</strong>奧秘和巧手</p><p><strong>工具熟練：</strong>盜賊工具</p><p><strong>裝備：</strong> <em>選擇A或B：</em>（A）匕首、輕錘、盜賊工具、鐵釘、繩索、旅行者服裝、17 GP 或（B）50 GP</p><p>你敏銳的頭腦與高超的竊盜技巧，讓你結識並加入了@UUID[Compendium.dnd-arcana-unleashed.book.JournalEntry.aunNinthQuill5Q9]{第九翎羽}——一個由盜賊、破壞者與間諜組成的團體，專門從他人手中竊取魔法學識與聖物。在你的冒險生涯中，從盜取魔法物品與奧術典籍，到破壞法師團體的行動，你磨練出狡詐的技巧與魔法把戲，讓你的諜報手腕更上一層樓。</p>"
     },
     "Bejeweled Conclave Spy": {
-      "name": "Bejeweled Conclave Spy",
-      "description": "<p><strong>Ability Scores:</strong> Dexterity, Wisdom, Charisma</p><p><strong>Feat:</strong> @UUID[Compendium.dnd-arcana-unleashed.feats.Item.aunArcaneEloqum6]{Arcane Eloquence}</p><p><strong>Skill Proficiencies:</strong> Deception and Perception</p><p><strong>Tool Proficiency:</strong> Disguise Kit</p><p><strong>Equipment:</strong> <em>Choose A or B:</em> (A) Disguise Kit, Fine Clothes, Perfume, 5 GP; or (B) 50 GP</p><p>Publicly, you’re a courtier, a mediator, or an entertainer. But behind that glamorous visage is a mind honed for gathering secrets. Trained by the enchanters of the @UUID[Compendium.dnd-arcana-unleashed.book.JournalEntry.aunBejeweledCokS]{Bejeweled Conclave,} you know how to use your charm and wit (plus a little magic) to infiltrate organizations, uncover information, and broker deals.</p>"
+      "name": "瑰寶祕社間諜",
+      "description": "<p><strong>屬性值：</strong>敏捷、感知、魅力</p><p><strong>專長：</strong>@UUID[Compendium.dnd-arcana-unleashed.feats.Item.aunArcaneEloqum6]{奧法雄辯家}</p><p><strong>技能熟練：</strong>欺瞞和察覺</p><p><strong>工具熟練：</strong>易容工具組</p><p><strong>裝備：</strong> <em>選擇A或B：</em>（A）易容工具組、高級服裝、香水、5 GP 或（B）50 GP</p><p>在公開場合，你是一名朝臣、調停者或藝人。然而，在那光鮮亮麗的外表之下，隱藏著一顆專為蒐集祕密而千錘百鍊的心智。你受過@UUID[Compendium.dnd-arcana-unleashed.book.JournalEntry.aunBejeweledCokS]{瑰寶祕社}惑控師們的訓練，深諳如何運用自身的魅力與機智（再加上一點魔法）來滲透組織、發掘情報以及促成交易。</p>"
     },
     "Seer Apprentice": {
-      "name": "Seer Apprentice",
-      "description": "<p><strong>Ability Scores:</strong> Intelligence, Wisdom, Charisma</p><p><strong>Feat:</strong> @UUID[Compendium.dnd-arcana-unleashed.feats.Item.aunArcaneOmensJK]{Arcane Omens}</p><p><strong>Skill Proficiencies:</strong> History and Insight</p><p><strong>Tool Proficiency:</strong> Navigator’s Tools</p><p><strong>Equipment:</strong> <em>Choose A or B:</em> (A) Navigator’s Tools, 8 Candles, Ink, Ink Pen, Parchment (9 sheets), Pouch, Tinderbox, Traveler’s Clothes, 11 GP; or (B) 50 GP</p><p>As an apprentice among the @UUID[Compendium.dnd-arcana-unleashed.book.JournalEntry.aunSeersofSeaann]{Seers of Sea and Sky,} you learned to interpret minor omens from the clouds above and the fathoms below. The organization’s rich network of libraries furthered your education, and you now travel across the world, imparting advice and aid to others.</p>"
+      "name": "先知學徒",
+      "description": "<p><strong>屬性值：</strong>智力、感知、魅力</p><p><strong>專長：</strong>@UUID[Compendium.dnd-arcana-unleashed.feats.Item.aunArcaneOmensJK]{奧法預言家}</p><p><strong>技能熟練：</strong>歷史和洞悉</p><p><strong>工具熟練：</strong>領航員工具</p><p><strong>裝備：</strong> <em>選擇A或B：</em>（A）領航員工具、8根蠟燭、墨水、墨水筆、羊皮紙（9張）、囊袋、打火匣、旅行者服裝、11 GP 或（B）50 GP</p><p>身為@UUID[Compendium.dnd-arcana-unleashed.book.JournalEntry.aunSeersofSeaann]{滄穹先知會}的一名學徒，你學會了解讀天穹雲層與深邃滄海之中的細微預兆。該組織豐富的圖書館網絡進一步拓展了你的學識，如今你周遊世界，為他人提供建言與援助。</p>"
     },
     "Covenant of the Grave Recruit": {
-      "name": "Covenant of the Grave Recruit",
-      "description": "<p><strong>Ability Scores:</strong> Strength, Intelligence, Wisdom</p><p><strong>Feat:</strong> @UUID[Compendium.dnd-arcana-unleashed.feats.Item.aunArcaneUnder1Z]{Arcane Undertaker}</p><p><strong>Skill Proficiencies:</strong> History and Medicine</p><p><strong>Tool Proficiency:</strong> Herbalism Kit</p><p><strong>Equipment:</strong> <em>Choose A or B:</em> (A) Dagger, Herbalism Kit, Book (anatomy), Shovel, 16 GP; or (B) 50 GP</p><p>Death has always fascinated you. You’ve studied that morbid topic alongside members of the @UUID[Compendium.dnd-arcana-unleashed.book.JournalEntry.aunCovenantoftXQ]{Covenant of the Grave}, analyzing the macabre with scientific precision. Though these studies, you’ve amassed knowledge of medication, necromancy, and history.</p>"
+      "name": "亡陵誓盟新晉者",
+      "description": "<p><strong>屬性值：</strong>力量、智力、感知</p><p><strong>專長：</strong>@UUID[Compendium.dnd-arcana-unleashed.feats.Item.aunArcaneUnder1Z]{奧法送葬者}</p><p><strong>技能熟練：</strong>歷史和醫藥</p><p><strong>工具熟練：</strong>藥草師工具組</p><p><strong>裝備：</strong> <em>選擇A或B：</em>（A）匕首、藥草師工具組、書（解剖學）、鏟子、16 GP 或（B）50 GP</p><p>死亡始終令你深深著迷。你曾與@UUID[Compendium.dnd-arcana-unleashed.book.JournalEntry.aunCovenantoftXQ]{亡陵誓盟}的成員們一同鑽研這個陰鬱的課題，以科學般的嚴謹態度剖析那些駭人之物。藉由這些研究，你在藥物學、死靈學派與歷史方面累積了豐富的學識。</p>"
     },
     "Horizon Weaver Initiate": {
-      "description": "<p><strong>Ability Scores:</strong> Dexterity, Constitution, Wisdom</p><p><strong>Feat:</strong> @UUID[Compendium.dnd-arcana-unleashed.feats.Item.aunPortalJumpeRu]{Portal Jumper}</p><p><strong>Skill Proficiencies:</strong> Acrobatics and Survival</p><p><strong>Tool Proficiency:</strong> Weaver’s Tools</p><p><strong>Equipment:</strong> <em>Choose A or B:</em> (A) Shortbow, 20 Arrows, Weaver’s Tools, Map, Quiver, Rope, Traveler’s Clothes, 18 GP; or (B) 50 GP</p><p>Your adolescence was marked by unquenchable wanderlust. You left home and began your travels as soon as you were able. Along the way, you encountered the adventurous conjurers of the @UUID[Compendium.dnd-arcana-unleashed.book.JournalEntry.aunHorizonWeavEA]{Horizon Weavers,} who taught you some of their teleportation magic to further your explorations.</p>",
-      "name": "Horizon Weaver Initiate"
+      "description": "<p><strong>屬性值：</strong>敏捷、體質、感知</p><p><strong>專長：</strong>@UUID[Compendium.dnd-arcana-unleashed.feats.Item.aunPortalJumpeRu]{躍界者}</p><p><strong>技能熟練：</strong>特技和求生</p><p><strong>工具熟練：</strong>織布工工具</p><p><strong>裝備：</strong> <em>選擇A或B：</em>（A）短弓、20支箭矢、織布工工具、地圖、箭袋、繩索、旅行者服裝、18 GP 或（B）50 GP</p><p>難以抑制的遠行渴望，是你青春期最鮮明的特點。一有能力，你便離開家鄉踏上旅途。在旅途中，你遇到了@UUID[Compendium.dnd-arcana-unleashed.book.JournalEntry.aunHorizonWeavEA]{織界者}中那些富有冒險精神的咒法師，他們傳授了你部分傳送魔法，讓你的探索之路能延伸得更遠。</p>",
+      "name": "織界者門徒"
     },
     "Ward of the Sheltering Hands": {
-      "name": "Ward of the Sheltering Hands",
-      "description": "<p><strong>Ability Scores:</strong> Constitution, Wisdom, Charisma</p><p><strong>Feat:</strong> @UUID[Compendium.dnd-arcana-unleashed.feats.Item.aunArcaneSafegid]{Arcane Safeguard}</p><p><strong>Skill Proficiencies:</strong> Insight and Medicine</p><p><strong>Tool Proficiency:</strong> Cook’s Utensils</p><p><strong>Equipment:</strong> <em>Choose A or B:</em> (A) Cook’s Utensils, Blanket, Healer’s Kit, Lamp, Oil (3 flasks), Tinderbox, Traveler’s Clothes, Waterskin, 40 GP; or (B) 50 GP</p><p>A turn of ill luck led you to the @UUID[Compendium.dnd-arcana-unleashed.book.JournalEntry.aunShelteringHmM]{Sheltering Hands,} an altruistic organization dedicated to defending the downtrodden. The organization helped you regain your footing and taught you some of its protective magic—in the hope that one day you too would shelter the less fortunate in their time of need.</p>"
+      "name": "庇護之手受護者",
+      "description": "<p><strong>屬性值：</strong>體質、感知、魅力</p><p><strong>專長：</strong>@UUID[Compendium.dnd-arcana-unleashed.feats.Item.aunArcaneSafegid]{奧法護佑者}</p><p><strong>技能熟練：</strong>洞悉和醫藥</p><p><strong>工具熟練：</strong>廚師炊具</p><p><strong>裝備：</strong> <em>選擇A或B：</em>（A）廚師炊具、毛毯、醫療工具組、油燈、燃油（3扁瓶）、打火匣、旅行者服裝、水袋、40 GP 或（B）50 GP</p><p>一次厄運的轉折將你帶到了@UUID[Compendium.dnd-arcana-unleashed.book.JournalEntry.aunShelteringHmM]{庇護之手}——一個致力於保護弱勢者的無私組織。該組織幫助你重新站穩腳步，並傳授了你一些防護魔法，希望有朝一日，你也能在不幸之人需要幫助時為他們提供庇護。</p>"
     },
     "Cosmic Dawn Experiment": {
-      "name": "Cosmic Dawn Experiment",
-      "description": "<p><strong>Ability Scores:</strong> Strength, Dexterity, Constitution</p><p><strong>Feat:</strong> @UUID[Compendium.dnd-arcana-unleashed.feats.Item.aunTransmutedAqb]{Transmuted Anatomy}</p><p><strong>Skill Proficiencies:</strong> Athletics and Survival</p><p><strong>Tool Proficiency:</strong> <em>Choose one kind of Artisan’s Tools</em></p><p><strong>Equipment:</strong> <em>Choose A or B:</em> (A) Artisan’s Tools (same as above), Backpack, Robe, Traveler’s Clothes, 30 GP; or (B) 50 GP</p><p>Your body has been warped by the transmutation practices of the @UUID[Compendium.dnd-arcana-unleashed.book.JournalEntry.aunBringersofCfQ]{Bringers of the Cosmic Dawn.} Perhaps you were inadvertently caught up in one of the organization’s experiments, or maybe you were a member of the organization and sought to improve your physical form through magical might. Whatever the case, you use your strange anatomy to your benefit.</p>"
+      "name": "寰宇黎明實驗體",
+      "description": "<p><strong>屬性值：</strong>力量、敏捷、體質</p><p><strong>專長：</strong>@UUID[Compendium.dnd-arcana-unleashed.feats.Item.aunTransmutedAqb]{萬化本質}</p><p><strong>技能熟練：</strong>運動和求生</p><p><strong>工具熟練：</strong> <em>選擇一種工匠工具</em></p><p><strong>裝備：</strong> <em>選擇A或B：</em>（A）工匠工具（與上述相同）、背包、法袍、旅行者服裝、30 GP 或（B）50 GP</p><p>你的軀體因@UUID[Compendium.dnd-arcana-unleashed.book.JournalEntry.aunBringersofCfQ]{寰宇黎明使徒會}的變化學派魔法實踐而遭到扭曲。也許你是意外捲入了該組織的某場實驗，又或者你本就是該組織的一員，試圖藉由魔法偉力來改善自己的肉體形態。無論如何，你都能將這奇異的軀體化為自己的優勢。</p>"
     }
   },
-  "label": "Backgrounds",
+  "label": "背景",
   "folders": {
-    "Supplemental": "Supplemental"
+    "Supplemental": "補充內容"
   }
 }
