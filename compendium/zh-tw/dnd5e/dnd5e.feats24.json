@@ -32,11 +32,11 @@
       }
     },
     "Boon of Truesight": {
-      "name": "Boon of Truesight",
-      "description": "<p>You gain the following benefits.</p><p><strong>Ability Score Increase.</strong> Increase one ability score of your choice by 1, to a maximum of 30.</p><p><strong>Truesight.</strong> You have Truesight with a range of 60 feet.</p><section id=\"secret-MmPASAH8hA8METnP\" class=\"secret\"><p><strong>Foundry Note</strong></p><p>This feature includes an Active Effect which grants you Truesight with a range of 60 feet.</p></section>",
+      "name": "真視恩惠",
+      "description": "<p>你獲得下列益處。</p><p><strong>屬性值提升。</strong>自選一項屬性值提升1點，上限為30。</p><p><strong>真實視覺。</strong>你獲得60呎範圍的真實視覺。</p><section id=\"secret-MmPASAH8hA8METnP\" class=\"secret\"><p><strong>鑄造廠註記</strong></p><p>此特性包含會賦予你60呎範圍真實視覺的主動效果。</p></section>",
       "effects": {
         "Boon of Truesight": {
-          "name": "Boon of Truesight"
+          "name": "真視恩惠"
         }
       }
     },
