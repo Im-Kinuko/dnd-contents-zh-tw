@@ -4,7 +4,7 @@
     "Rings": "Rings",
     "Ammunition": "彈藥",
     "Simple Melee": "簡易近戰",
-    "Light": "光亮術",
+    "Light": "光源",
     "Other": "其他",
     "Scrolls": "Scrolls",
     "Bags of Tricks": "Bags of Tricks",
@@ -168,13 +168,13 @@
           "name": "被捕獲"
         }
       },
-      "description": "<p>As a Utilize action, you can set a Hunting Trap, which is a sawtooth steel ring that snaps shut when a creature steps on a pressure plate in the center. The trap is affixed by a heavy chain to an immobile object, such as a tree or a spike driven into the ground. A creature that steps on the plate must succeed on a DC 13 Dexterity saving throw or take 1d4 Piercing damage and have its Speed reduced to 0 until the start of its next turn. Thereafter, until the creature breaks free of the trap, its movement is limited by the length of the chain (typically 3 feet). A creature can use its action to make a DC 13 Strength (Athletics) check, freeing itself or another creature within its reach on a success. Each failed check deals [[/damage 1 type=piercing]] damage to the trapped creature.</p>",
+      "description": "<p>以一個利用動作，你可以設置一個狩獵陷阱。狩獵陷阱是一組帶有鋸齒的鋼環，當生物踩到中心的壓力板時，鋸齒會迅速合上。陷阱以沉重的鎖鏈固定在某個無法移動的物體上，例如大樹或打入地面的固定釘。踩到壓力板的生物必須成功通過一次DC13的敏捷豁免，否則受到1d4點穿刺傷害，且速度降至0，直到其下一回合開始為止。此後，在該生物掙脫陷阱之前，其移動範圍會受鎖鏈長度限制（通常為3呎）。生物可以使用其動作進行一次DC13的力量（運動）檢定，成功時能讓自己或自己觸及範圍內的另一個生物脫困。每次檢定失敗，被困生物就會受到[[/damage 1 type=piercing]]點傷害。</p>",
       "activities": {
         "Escape": {
-          "name": "Escape"
+          "name": "脫困"
         },
         "save": {
-          "condition": "踩上壓板"
+          "condition": "踩到壓力板時"
         }
       }
     },
@@ -331,8 +331,8 @@
       "description": "<p><em>Wondrous Item, Rare (Requires Attunement)</em></p><p>This robe is adorned with eyelike patterns. While you wear the robe, you gain the following benefits:</p><p><strong>All-Around Vision.</strong> The robe gives you Advantage on Wisdom (Perception) checks that rely on sight.</p><p><strong>Special Senses.</strong> You have Darkvision and Truesight, both with a range of 120 feet.</p><p><em><strong>Drawbacks.</strong></em> A<em> </em>@UUID[Compendium.dnd5e.spells24.Item.phbsplLight00000]{Light} spell cast on the robe or a @UUID[Compendium.dnd5e.spells24.Item.phbsplDaylight00]{Daylight} spell cast within 5 feet of the robe gives you the &amp;Reference[Blinded] condition for 1 minute. At the end of each of your turns, you make a Constitution saving throw (DC 11 for <em>Light</em> or DC 15 for <em>Daylight</em>), ending the condition on yourself on a success.</p>"
     },
     "Mirror": {
-      "name": "Mirror",
-      "description": "<p>A handheld steel Mirror is useful for personal cosmetics but also for peeking around corners and reflecting light as a signal.</p>"
+      "name": "鏡子",
+      "description": "<p>一面手持的鋼鏡不僅可用於個人梳妝打扮，也可以用來窺視轉角，或反射光線作為信號。</p>"
     },
     "Ioun Stone of Awareness": {
       "name": "艾恩石，警覺",
@@ -473,7 +473,7 @@
       "name": "Luck Blade"
     },
     "Shield": {
-      "description": "<p>You gain the Armor Class benefit of a Shield only if you have training with it.</p>",
+      "description": "<p>僅在你擁有盾牌訓練時，才能獲得其護甲等級的好處。</p>",
       "name": "護盾術"
     },
     "Energy Bow": {
@@ -611,8 +611,8 @@
           "name": "光亮術"
         }
       },
-      "name": "Lantern, Hooded",
-      "description": "<p>A Hooded Lantern burns Oil as fuel to cast Bright Light in a 30-foot radius and Dim Light for an additional 30 feet. As a Bonus Action, you can lower the hood, reducing the light to Dim Light in a 5-foot radius, or raise it again.</p>"
+      "name": "附蓋提燈",
+      "description": "<p>附蓋提燈以燃油作為燃料，點燃時能發出半徑30呎的明亮光照，以及額外30呎的微光光照。以一個附贈動作，你可以蓋上或掀開提燈的蓋子；蓋上時，提燈的光亮降至半徑5呎的微光光照。</p>"
     },
     "Nine Lives Stealer": {
       "effects": {
@@ -810,7 +810,7 @@
       "effects": {
         "Protected": {
           "description": "<p>You gain a +1 bonus to Armor Class and you have Advantage on saving throws against spells.</p>",
-          "name": "保護"
+          "name": "受防護"
         }
       },
       "description": "<p><em>Wondrous Item, Legendary (Requires Attunement)</em></p><p>This beetle-shaped medallion provides three benefits while it is on your person.</p><p><em><strong>Defense.</strong></em> You gain a +1 bonus to Armor Class.</p><p><em><strong>Preservation.</strong></em> The scarab has 12 charges. If you fail a saving throw against a Necromancy spell or a harmful effect originating from an Undead, you can take a Reaction to expend 1 charge and turn the failed save into a successful one. The scarab crumbles into powder and is destroyed when its last charge is expended.</p><p><em><strong>Spell Resistance.</strong></em> You have Advantage on saving throws against spells.</p>",
@@ -841,31 +841,31 @@
     },
     "Rations": {
       "name": "口糧",
-      "description": "<p>Rations consist of travel-ready food, including jerky, dried fruit, hardtack, and nuts. See &amp;Reference[Malnutrition] in the rules glossary for the risks of not eating.</p>"
+      "description": "<p>口糧由適合長途旅行攜帶的食物組成，包含肉乾、風乾水果、硬餅乾和堅果。不進食的風險詳見規則詞彙表中的&amp;Reference[Malnutrition]{飢餓}。</p>"
     },
     "Oil": {
-      "name": "油",
+      "name": "燃油",
       "description": "<p>You can douse a creature, object, or space with Oil or use it as fuel, as detailed below.</p><p><strong>Dousing a Creature or an Object.</strong> When you take the Attack action, you can replace one of your attacks with throwing an Oil flask. Target one creature or object within 20 feet of yourself. The target must succeed on a Dexterity saving throw (DC 8 plus your Dexterity modifier and Proficiency Bonus) or be covered in oil. If the target takes Fire damage before the oil dries (after 1 minute), the target takes an extra [[/damage 5 type=fire]] damage from burning oil.</p><p><strong>Dousing a Space.</strong> You can take the Utilize action to pour an Oil flask on level ground to cover a 5-foot-square area within 5 feet of yourself. If lit, the oil burns until the end of the turn 2 rounds from when the oil was lit (or 12 seconds) and deals 5 Fire damage to any creature that enters the area or ends its turn there. A creature can take this damage only once per turn.</p><p><strong>Fuel.</strong> Oil serves as fuel for Lamps and Lanterns. Once lit, a flask of Oil burns for 6 hours in a Lamp or Lantern. That duration doesn't need to be consecutive; you can extinguish the burning Oil (as a Utilize action) and rekindle it again until it has burned for a total of 6 hours.</p>",
       "activities": {
         "Throw": {
-          "name": "Throw"
+          "name": "投擲"
         },
         "Douse Space": {
-          "name": "Douse Space"
+          "name": "潑灑至空間"
         }
       }
     },
     "Paper": {
-      "name": "紙",
-      "description": "<p>One sheet of Paper can hold about 250 handwritten words.</p>"
+      "name": "紙張",
+      "description": "<p>一頁紙張可以寫下約250個手寫單詞。</p>"
     },
     "Pole": {
       "name": "長桿",
-      "description": "<p>A Pole is 10 feet long. You can use it to touch something up to 10 feet away. If you must make a Strength (Athletics) check as part of a High or Long Jump, you can use the Pole to vault, giving yourself Advantage on the check.</p>"
+      "description": "<p>一根長桿長10呎。你可以用其觸碰10呎外的東西。如果你需要為跳高或跳遠進行力量（運動）檢定，你可以使用長桿撐竿跳，讓該次檢定具有優勢。</p>"
     },
     "Pot, Iron": {
-      "description": "<p>An Iron Pot holds up to 1 gallon.</p>",
-      "name": "Pot, Iron"
+      "description": "<p>鐵鍋具有1加侖的容量。</p>",
+      "name": "鐵鍋"
     },
     "Bedroll": {
       "name": "睡袋",
@@ -873,18 +873,18 @@
     },
     "phbagPotionofHea": {
       "name": "治療藥水",
-      "description": "<p>This potion is a magic item. As a Bonus Action, you can drink it or administer it to another creature within 5 feet of yourself. The creature that drinks the magical red fluid in this vial regains 2d4 + 2 Hit Points.</p>"
+      "description": "<p>這瓶藥水是一種魔法物品。以一個附贈動作，你可以喝下此藥水，或將其餵給位於你5呎內的另一名生物。喝下這小瓶魔法紅色液體的生物能恢復2d4 + 2點生命值。</p>"
     },
     "Ball Bearings": {
       "activities": {
         "Recover Ball Bearings": {
-          "name": "收回滾珠"
+          "name": "回收滾珠"
         },
         "Spill Ball Bearings": {
           "name": "撒出滾珠"
         }
       },
-      "description": "<p>As a Utilize action, you can spill Ball Bearings from their pouch. They spread to cover a level, 10-foot-square area within 10 feet of yourself. A creature that enters this area for the first time on a turn must succeed on a DC 10 Dexterity saving throw or have the &amp;Reference[Prone] condition. It takes 10 minutes to recover the Ball Bearings.</p><section id=\"secret-bbcC5syRGw0PCZnG\" class=\"secret\"><p><strong>Foundry Note</strong></p><p>The <strong>Recover Ball Bearings</strong> activity grants another use of this item.</p></section>",
+      "description": "<p>以一個利用動作，你能將一小包滾珠撒至地面，並覆蓋你周圍10呎內的一處10呎方形區域。任何生物每回合首次進入這片區域時都必須成功通過一次DC10的敏捷豁免，否則陷入&amp;Reference[Prone]{伏地}狀態。重新收集這些滾珠需要花費10分鐘時間。</p><section id=\"secret-bbcC5syRGw0PCZnG\" class=\"secret\"><p><strong>Foundry 註記</strong></p><p>「<strong>回收滾珠」行動</strong>會賦予這件物品一次額外的使用次數。</p></section>",
       "effects": {
         "Tripped": {
           "name": "絆倒"
@@ -1005,7 +1005,7 @@
     },
     "Sack": {
       "name": "麻袋",
-      "description": "<p>A Sack holds up to 30 pounds within 1 cubic foot.</p>"
+      "description": "<p>麻袋至多能裝入30磅重、1立方呎大的東西。</p>"
     },
     "Spell Scroll, Level 1": {
       "name": "1環法術卷軸",
@@ -1179,8 +1179,8 @@
           "name": "光亮術"
         }
       },
-      "description": "<p>A Bullseye Lantern burns Oil as fuel to cast Bright Light in a 60-foot Cone and Dim Light for an additional 60 feet.</p>",
-      "name": "Lantern, Bullseye"
+      "description": "<p>牛眼提燈以燃油作為燃料，點燃時能發出60呎錐形的明亮光照，以及額外60呎的微光光照。</p>",
+      "name": "牛眼提燈"
     },
     "Studded Leather Armor": {
       "name": "鑲釘皮甲"
@@ -1391,7 +1391,7 @@
       "description": "<p><em>Wondrous Item, Uncommon</em></p><p>While holding this fan, you can cast @UUID[Compendium.dnd5e.spells24.Item.phbsplGustofWind]{Gust of Wind} (save DC 13) from it. Each subsequent time the fan is used before the next dawn, it has a cumulative 20 percent chance of not working; if the fan fails to work, it tears into useless, nonmagical tatters.</p><p><strong>Roll for Chance of Not Working:</strong> [[/r 1d5cs&gt;@item.uses.spent]]</p><section class=\"secret\" id=\"secret-hNmHToEJ6Gg4usEf\"><p><strong>Foundry Note</strong></p><p>Each of use of Gust of Wind expends a use of this item and is reset at dawn. The inline roll above rolls 1d5 and checks if the value is higher than the number of uses to handle the cumulative 20 percent chance of not working. It will return \"1\" if it's successful and \"0\" if it fails.</p></section>"
     },
     "Ladder": {
-      "description": "<p>A Ladder is 10 feet tall. You must climb to move up or down it.</p>",
+      "description": "<p>一把長梯有10呎高。你必須攀爬才能向上或向下移動。</p>",
       "name": "長梯"
     },
     "Winged Boots": {
@@ -1412,7 +1412,7 @@
     "Painter's Supplies": {
       "activities": {
         "Paint a Recognizable Image": {
-          "name": "Paint a Recognizable Image"
+          "name": "繪製一幅高辨識度的圖像"
         }
       },
       "description": "<p class=\"phb-meta\"><strong>Ability:</strong> Wisdom</p><p class=\"phb-meta\"><strong>Utilize:</strong> Paint a recognizable image of something you've seen (DC 10)</p><p class=\"phb-meta\"><strong>Craft:</strong> Druidic Focus, Holy Symbol</p>",
@@ -1443,20 +1443,20 @@
           "name": "緩速"
         }
       },
-      "description": "<p>As a Utilize action, you can spread Caltrops from their bag to cover a 5-foot-square area within 5 feet of yourself. A creature that enters this area for the first time on a turn must succeed on a DC 15 Dexterity saving throw or take 1 Piercing damage and have its Speed reduced to 0 until the start of its next turn. It takes 10 minutes to recover the Caltrops.</p>"
+      "description": "<p>以一個利用動作，你能將一包鐵蒺藜從袋中撒出，覆蓋你周圍5呎內的一處5呎方形區域。任何生物每回合首次進入這片區域時都必須成功通過一次DC15的敏捷豁免，否則受到1點穿刺傷害，且速度降至0，直到其下一回合開始為止。重新收集這些鐵蒺藜需要花費10分鐘時間。</p>"
     },
     "Holy Water": {
       "name": "聖水",
       "activities": {
         "Throw": {
-          "name": "Throw"
+          "name": "投擲"
         }
       },
-      "description": "<p>When you take the Attack action, you can replace one of your attacks with throwing a flask of Holy Water. Target one creature you can see within 20 feet of yourself. The target must succeed on a Dexterity saving throw (DC 8 plus your Dexterity modifier and Proficiency Bonus) or take 2d8 Radiant damage if it is a Fiend or an Undead.</p>"
+      "description": "<p>當你採取攻擊動作時，你可以將你的一次攻擊替換為丟出一扁瓶聖水。你可以選擇位於你20呎內一個你所能看見的生物作為目標。該目標必須成功通過一次敏捷豁免（DC = 8 + 你的敏捷調整值 + 你的熟練加值），若其為邪魔或不死生物，失敗時承受2d8點光耀傷害。</p>"
     },
     "Costume": {
       "name": "戲服",
-      "description": "<p>While wearing a Costume, you have Advantage on any ability check you make to impersonate the person or type of person it represents.</p>"
+      "description": "<p>穿著戲服時，你為了模仿其所代表的某人或某類人所做的任何屬性檢定都具有優勢。</p>"
     },
     "Rod": {
       "name": "權杖",
@@ -1467,10 +1467,10 @@
       "activities": {
         "Throw Acid": {
           "name": "投擲強酸",
-          "target": "You can see"
+          "target": "你所可看見"
         }
       },
-      "description": "<p>When you take the Attack action, you can replace one of your attacks with throwing a vial of Acid. Target one creature or object you can see within 20 feet of yourself. The target must succeed on a Dexterity saving throw (DC 8 plus your Dexterity modifier and Proficiency Bonus) or take 2d6 Acid damage.</p>"
+      "description": "<p>當你採取攻擊動作時，你可以將你的一次攻擊替換為丟出一小瓶強酸。你可以選擇位於你20呎內一個你所能看見的生物或物體作為目標。該目標必須成功通過一次敏捷豁免（DC = 8 + 你的敏捷調整值 + 你的熟練加值），否則承受2d6點強酸傷害。</p>"
     },
     "Viol": {
       "activities": {
@@ -1535,13 +1535,13 @@
       "name": "領航員工具",
       "activities": {
         "Determine Position by Stargazing": {
-          "name": "Determine Position by Stargazing"
+          "name": "以觀星確認位置"
         },
         "Plot a Course": {
-          "name": "Plot a Course"
+          "name": "標定方向"
         }
       },
-      "description": "<p class=\"phb-meta\"><strong>Ability:</strong> Wisdom</p><p class=\"phb-meta\"><strong>Utilize:</strong> Plot a course (DC 10), or determine position by stargazing (DC 15)</p>"
+      "description": "<p class=\"phb-meta\"><strong>屬性：</strong>感知</p><p class=\"phb-meta\"><strong>使用：</strong> Plot a course (DC 10), or determine position by stargazing (DC 15)</p>"
     },
     "Plate Armor": {
       "name": "全身板甲"
@@ -1549,7 +1549,7 @@
     "Staff of Thunder and Lightning": {
       "activities": {
         "Thunderclap": {
-          "name": "Thunderclap"
+          "name": "鳴雷破"
         },
         "Lightning Strike": {
           "name": "Lightning Strike"
@@ -2107,7 +2107,7 @@
       "name": "瓦解之錘",
       "effects": {
         "Frightened": {
-          "name": "Frightened",
+          "name": "恐懼",
           "description": "<p>On a successful save, the creature has the &amp;Reference[Frightened apply=false] condition until the end of your next turn.</p>"
         }
       },
@@ -2145,7 +2145,7 @@
       "name": "恐懼之錘",
       "effects": {
         "Frightened": {
-          "name": "Frightened"
+          "name": "恐懼"
         }
       }
     },
@@ -2317,7 +2317,7 @@
     },
     "Spyglass": {
       "name": "望遠鏡",
-      "description": "<p>Objects viewed through a Spyglass are magnified to twice their size.</p>"
+      "description": "<p>透過望遠鏡看到的物體會被放大為原本的兩倍大小。</p>"
     },
     "Dagger of Venom": {
       "activities": {
@@ -2423,14 +2423,14 @@
     "Chain": {
       "activities": {
         "Wrap Chain Check": {
-          "target": "Has the Grappled, Incapacitated, or Restrained condition",
-          "name": "纏鏈檢定"
+          "target": "具有受擒、失能或束縛狀態",
+          "name": "纏繞鎖鏈檢定"
         },
         "Escape Check": {
-          "name": "逃脫檢定"
+          "name": "掙脫檢定"
         },
         "Burst Chain Check": {
-          "name": "破壞鎖鏈檢定"
+          "name": "扯斷鎖鏈檢定"
         }
       },
       "name": "鎖鏈",
@@ -2655,14 +2655,14 @@
       "description": "<p class=\"phb-meta\"><strong>Ability:</strong> Strength</p><p class=\"phb-meta\"><strong>Utilize:</strong> Chisel a symbol or hole in stone (DC 10)</p><p class=\"phb-meta\"><strong>Craft:</strong> @UUID[Compendium.dnd5e.equipment24.Item.phbagBlockandTac]{Block and Tackle}</p>",
       "activities": {
         "Chisel a Symbol or Hole": {
-          "name": "Chisel a Symbol or Hole"
+          "name": "鑿出一個形狀或洞"
         }
       }
     },
     "Healer's Kit": {
       "activities": {
         "Stabilize": {
-          "target": "Unconscious",
+          "target": "昏迷",
           "name": "穩定傷勢"
         }
       },
@@ -2794,7 +2794,7 @@
       "description": "<p><em>Rod, Legendary (Requires Attunement)</em></p><p>This rod has a flanged head, and it functions as a magic Mace that grants a +3 bonus to attack rolls and damage rolls made with it. The rod has properties associated with six different buttons that are set in a row along the haft. It has three other properties as well, detailed below.</p><p><em><strong>Buttons</strong></em>. You can press one of the following buttons as a Bonus Action; a button's effect lasts until you push a different button or until you push the same button again, which causes the rod to revert to its normal form:</p><details><summary>Button Effects</summary><p><strong>Button 1.</strong> A fiery blade sprouts from the end opposite the rod's flanged head. The flames shed Bright Light in a 40-foot radius and Dim Light for an additional 40 feet, and the blade functions as a magic Longsword or Shortsword (your choice) that deals an extra 2d6 Fire damage on a hit.</p><p><strong>Button 2.</strong> The rod's flanged head folds down and two crescent-shaped blades spring out, transforming the rod into a magic Battleaxe that grants a +3 bonus to attack rolls and damage rolls made with it.</p><p><strong>Button 3.</strong> The rod's flanged head folds down, a spear point springs from the rod's tip, and the rod's handle lengthens into a 6-foot haft, transforming the rod into a magic Spear that grants a +3 bonus to attack rolls and damage rolls made with it.</p><p><strong>Button 4.</strong> The rod transforms into a climbing pole up to 50 feet long (you specify the length), though the rod's buttons remain within your reach. In surfaces as hard as granite, a spike at the bottom and three hooks at the top anchor the pole. Horizontal bars 3 inches long fold out from the sides, 1 foot apart, forming a ladder. The pole can bear up to 4,000 pounds. More weight or lack of solid anchoring causes the rod to revert to its normal form.</p><p><strong>Button 5.</strong> The rod transforms into a handheld battering ram and grants its user a +10 bonus to Strength (Athletics) checks made to break through doors, barricades, and other barriers.</p><p><strong>Button 6.</strong> The rod assumes or remains in its normal form and indicates magnetic north. (Nothing happens if this function of the rod is used in a location that has no magnetic north.) The rod also gives you knowledge of your approximate depth beneath the ground or your height above it.</p></details><p><strong>Drain Life.</strong> When you hit a creature with a melee attack using the rod, you can force the target to make a DC 17 Constitution saving throw. On a failed save, the target takes an extra 4d6 Necrotic damage, and you regain a number of Hit Points equal to half that Necrotic damage. Once used, this property can't be used again until the next dawn.</p><p><strong>Paralyze.</strong> When you hit a creature with a melee attack using the rod, you can force the target to make a DC 17 Constitution saving throw. On a failed save, the target has the &amp;Reference[Paralyzed apply=false] condition for 1 minute. The target repeats the save at the end of each of its turns, ending the effect on a success. Once used, this property can't be used again until the next dawn.</p><p><strong>Terrify.</strong> While holding the rod, you can take a Magic action to force each creature you can see within 30 feet of yourself to make a DC 17 Wisdom saving throw. On a failed save, a target has the &amp;Reference[Frightened apply=false] condition for 1 minute. A Frightened target repeats the save at the end of each of its turns, ending the effect on itself on a success. Once used, this property can't be used again until the next dawn.</p><section class=\"secret\" id=\"secret-o1BCgF1HX5lyWN4U\"><p><strong>Foundry Note</strong></p><p>An activity has been added for each usable button that implements the attack with the relevant bonuses.</p><p>The properties are also implemented as activities and track their own uses per dawn.</p><p>When using Button 5, you can manually add a +10 bonus in the Situational Bonus field when making the check.</p></section>",
       "effects": {
         "Frightened": {
-          "name": "Frightened"
+          "name": "恐懼"
         },
         "Paralyzed": {
           "name": "麻痺"
@@ -2934,7 +2934,7 @@
       "description": "<p class=\"phb-meta\"><strong>Ability:</strong> Dexterity</p><p class=\"phb-meta\"><strong>Utilize:</strong> Assemble a Tiny item composed of scrap, which falls apart in 1 minute (DC 20)</p><p class=\"phb-meta\"><strong>Craft:</strong> @UUID[Compendium.dnd5e.equipment24.Item.phbwepMusket0000]{Musket}, @UUID[Compendium.dnd5e.equipment24.Item.phbwepPistol0000]{Pistol}, @UUID[Compendium.dnd5e.equipment24.Item.phbagBell0000000]{Bell}, @UUID[Compendium.dnd5e.items.Item.UkWdyJYQTfVX2cJW]{Bullseye Lantern}, @UUID[Compendium.dnd5e.equipment24.Item.phbagFlask000000]{Flask}, @UUID[Compendium.dnd5e.items.Item.wjHtGnd05SPdURqE]{Hooded Lantern}, @UUID[Compendium.dnd5e.equipment24.Item.phbagHuntingTrap]{Hunting Trap}, @UUID[Compendium.dnd5e.equipment24.Item.phbagLock0000000]{Lock}, @UUID[Compendium.dnd5e.equipment24.Item.phbagManacles000]{Manacles}, @UUID[Compendium.dnd5e.equipment24.Item.phbagMirror00000]{Mirror}, @UUID[Compendium.dnd5e.equipment24.Item.phbagShovel00000]{Shovel}, @UUID[Compendium.dnd5e.equipment24.Item.phbagSignalWhist]{Signal Whistle}, @UUID[Compendium.dnd5e.equipment24.Item.phbagTinderbox00]{Tinderbox}</p>",
       "activities": {
         "Assemble a Tiny Item": {
-          "name": "Assemble a Tiny Item"
+          "name": "組裝微型物品"
         }
       }
     },
@@ -3025,7 +3025,7 @@
       }
     },
     "Quiver": {
-      "description": "<p>A Quiver holds up to 20 Arrows.</p>",
+      "description": "<p>箭袋至多能裝入20根箭矢。</p>",
       "name": "箭袋"
     },
     "Boots of Levitation": {
@@ -3039,7 +3039,7 @@
     "Woodcarver's Tools": {
       "activities": {
         "Carve Pattern": {
-          "name": "Carve Pattern"
+          "name": "雕刻圖案"
         }
       },
       "description": "<p class=\"phb-meta\"><strong>Ability:</strong> Dexterity</p><p class=\"phb-meta\"><strong>Utilize:</strong> Carve a pattern in wood (DC 10)</p><p class=\"phb-meta\"><strong>Craft:</strong> @UUID[Compendium.dnd5e.equipment24.Item.phbwepClub000000]{Club}, @UUID[Compendium.dnd5e.equipment24.Item.phbwepGreatclub0]{Greatclub}, @UUID[Compendium.dnd5e.equipment24.Item.phbwepQuartersta]{Quarterstaff}, Ranged weapons (except Pistol, Musket, and Sling), Arcane Focus, @UUID[Compendium.dnd5e.equipment24.Item.phbamoArrows0000]{Arrows}, @UUID[Compendium.dnd5e.equipment24.Item.phbamoBolts00000]{Bolts}, Druidic Focus, @UUID[Compendium.dnd5e.equipment24.Item.phbagInkPen00000]{Ink Pen}, @UUID[Compendium.dnd5e.equipment24.Item.phbamoNeedles000]{Needles}</p>",
@@ -3101,7 +3101,7 @@
       },
       "effects": {
         "Frightened": {
-          "name": "Frightened"
+          "name": "恐懼"
         }
       }
     },
@@ -3218,7 +3218,7 @@
       },
       "effects": {
         "Unconscious": {
-          "name": "Unconscious"
+          "name": "昏迷"
         },
         "Poisoned": {
           "name": "Poisoned"
@@ -3228,7 +3228,7 @@
     },
     "Book": {
       "name": "書",
-      "description": "<p>A Book contains fiction or nonfiction. If you consult an accurate nonfiction Book about its topic, you gain a +5 bonus to Intelligence (Arcana, History, Nature, or Religion) checks you make about that topic.</p>"
+      "description": "<p>一本書會記載虛構或非虛構的內容。如果你在某個主題上參考了一本內容準確的非虛構書籍，你對該主題所做的智力（奧秘、歷史、自然或宗教）檢定會獲得+5加值。</p>"
     },
     "Dragon Orb": {
       "effects": {
@@ -3335,8 +3335,8 @@
       "name": "木匠工具"
     },
     "Case, Map or Scroll": {
-      "description": "<p>A Map or Scroll Case holds up to 10 sheets of paper or 5 sheets of parchment.</p>",
-      "name": "Case, Map or Scroll"
+      "description": "<p>一個地圖或卷軸匣至多能存放10張紙張或5張羊皮紙。</p>",
+      "name": "地圖／卷軸匣"
     },
     "Mace": {
       "name": "硬頭錘"
@@ -3397,7 +3397,7 @@
         }
       },
       "description": "<p>If you don't drink sufficient water, you risk &amp;Reference[dehydration].</p>",
-      "name": "Water (Pint)"
+      "name": "1品脫的水"
     },
     "Cloak of the Manta Ray": {
       "effects": {
@@ -3671,7 +3671,7 @@
     "phbUnarmedStrike": {
       "effects": {
         "Grappled": {
-          "name": "擒抱"
+          "name": "擒住"
         },
         "Prone": {
           "name": "伏地"
@@ -3679,11 +3679,11 @@
       },
       "activities": {
         "Grapple/Shove": {
-          "name": "擒抱 / 推離",
-          "chatFlavor": "Grapple or Shove attempt"
+          "name": "擒抱／推動",
+          "chatFlavor": "嘗試擒抱或推動"
         }
       },
-      "description": "<p><em>See: &amp;Reference[unarmedstrike]</em></p>",
+      "description": "<p><em>見&amp;Reference[unarmedstrike]{徒手打擊}</em>。</p>",
       "name": "徒手打擊"
     },
     "Staff of the Python": {
@@ -3856,7 +3856,7 @@
       "description": "<p><em>Potion, Rare</em></p><p>This potion's container looks empty but feels as though it holds liquid. When you drink the potion, you have the &amp;Reference[Invisible apply=false] condition for 1 hour. The effect ends early if you make an attack roll, deal damage, or cast a spell.</p>",
       "effects": {
         "Invisible": {
-          "name": "Invisible"
+          "name": "隱形"
         }
       },
       "name": "隱形藥水"
@@ -3933,7 +3933,7 @@
       "name": "強健護符"
     },
     "Map or Scroll Case": {
-      "description": "這款圓柱形皮套最多可容納十捲紙或五卷羊皮紙。",
+      "description": "<p>這款圓柱形皮套最多可容納十捲紙或五卷羊皮紙。</p>",
       "name": "地圖或卷軸筒"
     },
     "Helm of Teleportation": {
@@ -3979,7 +3979,7 @@
     "Poisoner's Kit": {
       "activities": {
         "Detect Poisoned Object": {
-          "name": "Detect Poisoned Object"
+          "name": "偵測有毒物體"
         }
       },
       "description": "<p class=\"phb-meta\"><strong>Ability:</strong> Intelligence</p><p class=\"phb-meta\"><strong>Utilize:</strong> Detect a poisoned object (DC 10)</p><p class=\"phb-meta\"><strong>Craft:</strong> @UUID[Compendium.dnd5e.equipment24.Item.phbagPoisonBasic]{Basic Poison}</p>",
@@ -4085,7 +4085,7 @@
     "Dust of Disappearance": {
       "effects": {
         "Invisible": {
-          "name": "Invisible",
+          "name": "隱形",
           "description": "<p><em>Source: @UUID[Compendium.dnd5e.equipment24.Item.dmgDustOfDisappe]{Dust of Disappearance}</em></p><p>You have the &amp;Reference[Invisible] condition for 2d4 minutes or until you make an attack roll, deal damage, or cast a spell.</p>"
         }
       },
@@ -4192,7 +4192,7 @@
           "name": "Repair Rope"
         },
         "Escape": {
-          "name": "Escape"
+          "name": "脫困"
         },
         "Damage Rope": {
           "name": "Damage Rope"
@@ -4239,7 +4239,7 @@
     "Dwarven Thrower": {
       "activities": {
         "Throw": {
-          "name": "Throw",
+          "name": "投擲",
           "chatFlavor": "Bonus Damage: 1d8 Force vs Giant"
         },
         "Attack": {
@@ -4287,7 +4287,7 @@
     },
     "Map": {
       "name": "地圖",
-      "description": "<p>If you consult an accurate Map, you gain a +5 bonus to Wisdom (Survival) checks you make to find your way in the place represented on it.</p>"
+      "description": "<p>如果你參考一張準確的地圖，你在地圖所繪地點為辨認方位所做的感知（求生）檢定會獲得+5加值。</p>"
     },
     "Brewer's Supplies": {
       "activities": {
@@ -4308,7 +4308,7 @@
     "Rope of Climbing": {
       "activities": {
         "Command": {
-          "name": "命令術"
+          "name": "命令"
         },
         "Repair Rope": {
           "name": "Repair Rope"
@@ -4344,7 +4344,7 @@
     "Weaver's Tools": {
       "activities": {
         "Mend or Sew": {
-          "name": "Mend or Sew"
+          "name": "修補或縫紉"
         }
       },
       "name": "織布工工具",
@@ -4373,7 +4373,7 @@
       "description": "<p><em>Wondrous Item, Uncommon (Requires Attunement by a Spellcaster)</em></p><p>While this pearl is on your person, you can take a Magic action to regain one expended spell slot of level 3 or lower. Once you use the pearl, it can't be used again until the next dawn.</p>",
       "activities": {
         "Regain Spell Slot": {
-          "name": "重獲法術位"
+          "name": "Regain Spell Slot"
         }
       },
       "name": "法力再生珍珠"
@@ -4409,11 +4409,11 @@
       "name": "Sending Stones"
     },
     "Ink": {
-      "description": "<p>Ink comes in a 1-ounce bottle, which provides enough ink to write about 500 pages.</p>",
+      "description": "<p>墨水一般裝在1盎司的瓶子裡，足夠書寫約500頁的內容。</p>",
       "name": "墨水"
     },
     "phbagRations0000": {
-      "description": "<p>Rations consist of travel-ready food, including jerky, dried fruit, hardtack, and nuts. See &amp;Reference[Malnutrition] in the rules glossary for the risks of not eating.</p>",
+      "description": "<p>口糧由適合長途旅行攜帶的食物組成，包含肉乾、風乾水果、硬餅乾和堅果。不進食的風險詳見規則詞彙表中的&amp;Reference[Malnutrition]{飢餓}。</p>",
       "name": "口糧",
       "activities": {
         "Consume": {
@@ -4513,10 +4513,10 @@
     "Grappling Hook": {
       "activities": {
         "Throw": {
-          "name": "Throw"
+          "name": "投擲"
         }
       },
-      "description": "<p>As a Utilize action, you can throw the Grappling Hook at a railing, a ledge, or another catch within 50 feet of yourself, and the hook catches on if you succeed on a DC 13 Dexterity (Acrobatics) check. If you tied a Rope to the hook, you can then climb it.</p>",
+      "description": "<p>以一個利用動作，你能將爪鉤朝著位於自身50呎內的一處欄杆、突起的邊緣或其他可鉤住的位置扔出，若你通過一次DC13的敏捷（特技）檢定，爪鉤便會鉤住。如果你已將繩索綁在爪鉤上，就可以攀爬上去。</p>",
       "name": "爪鉤"
     },
     "Potion of Clairvoyance": {
@@ -4615,19 +4615,19 @@
     "Manacles": {
       "activities": {
         "Bind": {
-          "name": "Bind",
-          "target": "Grappled, Incapacitated, or Restrained"
+          "name": "捆綁",
+          "target": "受擒、失能或束縛"
         },
         "Burst Check": {
-          "name": "Burst Check"
+          "name": "扯斷檢定"
         },
         "Escape Check": {
-          "name": "逃脫檢定"
+          "name": "掙脫檢定"
         }
       },
       "effects": {
         "Manacled": {
-          "name": "Manacled"
+          "name": "被銬住"
         }
       },
       "description": "<p>As a Utilize action, you can use Manacles to bind an unwilling Small or Medium creature within 5 feet of yourself that has the &amp;Reference[Grappled], &amp;Reference[Incapacitated], or &amp;Reference[Restrained] condition if you succeed on a DC 13 Dexterity (Sleight of Hand) check. While bound, a creature has Disadvantage on attack rolls, and the creature is Restrained if the Manacles are attached to a chain or hook that is fixed in place. Escaping the Manacles requires a successful DC 20 Dexterity (Sleight of Hand) check as an action. Bursting them requires a successful DC 25 Strength (Athletics) check as an action.</p><p>Each set of Manacles comes with a key. Without the key, a creature can use Thieves' Tools to pick the Manacles' lock with a successful [[/tool thief dex 15]] check.</p>",
@@ -4675,7 +4675,7 @@
       "description": "<p><em>Wondrous Item, Uncommon (Requires Attunement)</em></p><p>If you're hit by an attack roll made with a Ranged or Thrown weapon while wearing these gloves, you can take a Reaction to reduce the damage by 1d10 plus your Dexterity modifier if you have a free hand. If you reduce the damage to 0, you can catch the ammunition or weapon if it is small enough for you to hold in that hand.</p>"
     },
     "Magnifying Glass": {
-      "description": "<p>A Magnifying Glass grants Advantage on any ability check made to appraise or inspect a highly detailed item. Lighting a fire with a Magnifying Glass requires light as bright as sunlight to focus, tinder to ignite, and about 5 minutes for the fire to ignite.</p>",
+      "description": "<p>使用放大鏡時，你為鑑定或檢查精密物品所進行的任何屬性檢定都具有優勢。想用放大鏡點火，需要一束如陽光般明亮的強光來聚焦、用於點燃的火絨，以及約5分鐘的時間來生火。</p>",
       "name": "放大鏡"
     },
     "Fool": {
@@ -4711,10 +4711,10 @@
       "description": "<p><strong>屬性：</strong> 魅力</p><p class=\"phb-meta\"><strong>使用：</strong> 演奏熟悉的旋律（DC 10）或即興演唱一曲（DC 15）</p>"
     },
     "Thieves' Tools": {
-      "description": "<p class=\"phb-meta\"><strong>Ability:</strong> Dexterity</p><p class=\"phb-meta\"><strong>Utilize:</strong> Pick a lock (DC 15), or disarm a trap (DC 15)</p>",
+      "description": "<p class=\"phb-meta\"><strong>屬性：</strong>敏捷</p><p class=\"phb-meta\"><strong>使用：</strong> Pick a lock (DC 15), or disarm a trap (DC 15)</p>",
       "activities": {
         "Pick a Lock/Disarm a Trap": {
-          "name": "Pick a Lock/Disarm a Trap"
+          "name": "開鎖／解除陷阱"
         }
       },
       "name": "盜賊工具"
@@ -4738,7 +4738,7 @@
           "name": "Unfold Portable Hole"
         },
         "Escape Check": {
-          "name": "逃脫檢定"
+          "name": "掙脫檢定"
         }
       },
       "description": "<p><em>Wondrous Item, Rare</em></p><p>This fine black cloth, soft as silk, is folded up to the dimensions of a handkerchief. It unfolds into a circular sheet 6 feet in diameter.</p><p>You can take a Magic action to unfold a <em>Portable Hole</em> and place it on or against a solid surface, whereupon the <em>Portable Hole</em> creates an extradimensional hole 10 feet deep. The cylindrical space within the hole exists on a different plane of existence, so it can't be used to create open passages. Any creature inside an open <em>Portable Hole</em> can exit the hole by climbing out of it.</p><p>You can take a Magic action to close a <em>Portable Hole</em> by taking hold of the edges of the cloth and folding it up. Folding the cloth closes the hole, and any creatures or objects within remain in the extradimensional space. No matter what's in it, the hole weighs next to nothing.</p><p>If the hole is folded up, a creature within the hole's extradimensional space can take an action to make a DC 10 Strength (Athletics) check. On a successful check, the creature forces its way out and appears within 5 feet of the <em>Portable Hole</em>. A closed <em>Portable Hole</em> holds enough air for 1 hour of breathing, divided by the number of breathing creatures inside.</p><p>Placing a <em>Portable Hole</em> inside an extradimensional space created by a <em>Bag of Holding</em>, <em>Handy Haversack</em>, or similar item instantly destroys both items and opens a gate to the Astral Plane. The gate originates where the one item was placed inside the other. Any creature within 10 feet of the gate and not behind &amp;Reference[Total Cover] is sucked through it and deposited in a random location on the Astral Plane. The gate then closes. The gate is one-way only and can't be reopened.</p>"
@@ -4762,7 +4762,7 @@
       "description": "<p><em>Ring, Uncommon (Requires Attunement)</em></p><p>While wearing this ring, you are immune to magic that allows other creatures to read your thoughts, determine whether you are lying, know your alignment, or know your creature type. Creatures can telepathically communicate with you only if you allow it.</p><p>You can take a Magic action to cause the ring to become imperceptible until you take another Magic action to make it perceptible, until you remove the ring, or until you die.</p><p>If you die while wearing the ring, your soul enters it, unless it already houses a soul. You can remain in the ring or depart for the afterlife. As long as your soul is in the ring, you can telepathically communicate with any creature wearing it. A wearer can't prevent this telepathic communication.</p>"
     },
     "Ink Pen": {
-      "description": "<p>Using Ink, an Ink Pen is used to write or draw.</p>",
+      "description": "<p>墨水筆使用墨水來書寫或繪畫。</p>",
       "name": "墨水筆"
     },
     "Oil of Etherealness": {
@@ -4908,7 +4908,7 @@
     },
     "Backpack": {
       "name": "背包",
-      "description": "<p>A Backpack holds up to 30 pounds within 1 cubic foot. It can also serve as a saddlebag.</p>"
+      "description": "<p>一個背包最多能裝入30磅重、1立方呎大的東西。背包也能當作鞍囊使用。</p>"
     },
     "Ioun Stone of Strength": {
       "effects": {
@@ -4948,13 +4948,13 @@
       "name": "鐵匠工具",
       "activities": {
         "Pry Open": {
-          "name": "Pry Open"
+          "name": "撬開"
         }
       },
       "description": "<p class=\"phb-meta\"><strong>Ability:</strong> Strength</p><p class=\"phb-meta\"><strong>Utilize:</strong> Pry open a door or container (DC 20)</p><p class=\"phb-meta\"><strong>Craft:</strong> Any Melee weapon (except Club, Greatclub, Quarterstaff, and Whip), Medium armor (except Hide), Heavy armor, @UUID[Compendium.dnd5e.equipment24.Item.phbagBallBearing]{Ball Bearings}, @UUID[Compendium.dnd5e.equipment24.Item.phbagBucket00000]{Bucket}, @UUID[Compendium.dnd5e.equipment24.Item.phbagCaltrops000]{Caltrops}, @UUID[Compendium.dnd5e.equipment24.Item.phbagChain000000]{Chain}, @UUID[Compendium.dnd5e.equipment24.Item.phbagCrowbar0000]{Crowbar}, @UUID[Compendium.dnd5e.equipment24.Item.phbamoBulletsFir]{Firearm Bullets}, @UUID[Compendium.dnd5e.equipment24.Item.phbagGrapplingHo]{Grappling Hook}, @UUID[Compendium.dnd5e.items.Item.M8xM8BLK4tpUayEE]{Iron Pot}, @UUID[Compendium.dnd5e.equipment24.Item.phbagSpikesIron0]{Iron Spikes}, @UUID[Compendium.dnd5e.equipment24.Item.phbamoBulletsSli]{Sling Bullets}</p>"
     },
     "Parchment": {
-      "description": "<p>One sheet of Parchment can hold about 250 handwritten words.</p>",
+      "description": "<p>一頁羊皮紙可以寫下約250個手寫單詞。</p>",
       "name": "羊皮紙"
     },
     "Bead of Nourishment": {
@@ -4981,7 +4981,7 @@
       "name": "攀爬藥水"
     },
     "Barrel": {
-      "description": "<p>A Barrel holds up to 40 gallons of liquid or up to 4 cubic feet of dry goods.</p>",
+      "description": "<p>一個木桶能夠至多裝入40加侖的液體或4立方呎的乾燥貨物。</p>",
       "name": "木桶"
     },
     "Feather Token (Swan Boat)": {
@@ -5019,7 +5019,7 @@
     "Alchemist's Fire": {
       "effects": {
         "Burning.": {
-          "description": "<p>規則參考：&amp;Reference[burning].</p>",
+          "description": "<p>規則參考：&amp;Reference[burning]{燃燒}。</p>",
           "name": "燃燒"
         }
       },
@@ -5077,11 +5077,11 @@
       "description": "<p><em>Wondrous Item, Rare</em></p><p>This necklace has 1d6 + 3 beads hanging from it. You can take a Magic action to detach a bead and throw it up to 60 feet away. When it reaches the end of its trajectory, the bead detonates as a level 3 @UUID[Compendium.dnd5e.spells24.Item.phbsplFireball00]{Fireball} (save DC 15).</p><p>You can hurl multiple beads, or even the whole necklace, at one time. When you do so, increase the damage of the <em>Fireball</em> by 1d6 for each bead after the first (maximum 12d6).</p><section class=\"secret\" id=\"secret-sVvONZCjIbxSR0Xs\"><p><strong>Foundry Note</strong></p><p>This item includes 9 limited uses. The <strong>Determine Number of Beads</strong> activity can be used to determine how many beads (equivalent to 1d6 + 3) are on the necklace.</p><p>The <strong>Throw Bead</strong> activity allows you to scale the Fireball up to a max of 12d6.</p></section>"
     },
     "Bullseye Lantern": {
-      "description": "<p>一盞牛眼提燈散發出60呎錐形的明亮光照以及再延伸60呎的微光光照。一旦被點亮，每一扁瓶（1品脫）的燈油都可以讓它燃燒持續6小時。</p>",
+      "description": "<p>一盞牛眼提燈散發出60呎錐形的明亮光照以及再延伸60呎的微光光照。一旦被點亮，每一扁瓶（1品脫）的燈油都可以讓其燃燒持續6小時。</p>",
       "name": "牛眼提燈"
     },
     "Poison, Basic": {
-      "description": "<p>As a Bonus Action, you can use a vial of Basic Poison to coat one weapon or up to three pieces of ammunition. A creature that takes Piercing or Slashing damage from the poisoned weapon or ammunition takes an extra 1d4 Poison damage. Once applied, the poison retains potency for 1 minute or until its damage is dealt, whichever comes first.</p><section id=\"secret-YwO5GX35V4XweNWL\" class=\"secret\"><p><strong>Foundry Note</strong></p><p>This feature includes a roll for the Poison damage.</p></section>",
+      "description": "<p>以一個附贈動作，你可以使用一小瓶基礎毒藥塗抹在一把武器或至多三枚彈藥上。當生物受到塗有毒藥的武器或彈藥造成的穿刺或揮砍傷害時，該生物會受到額外1d4點毒素傷害。毒藥一旦塗抹，效力只會持續1分鐘，或持續到造成其傷害為止，以先到者為準。</p><section id=\"secret-YwO5GX35V4XweNWL\" class=\"secret\"><p><strong>Foundry 註記</strong></p><p>此特性包含針對毒素傷害的擲骰。</p></section>",
       "name": "基礎毒藥"
     },
     "Horseshoes of Speed": {
@@ -5136,7 +5136,7 @@
     },
     "Candle": {
       "name": "蠟燭",
-      "description": "<p>For 1 hour, a lit Candle sheds Bright Light in a 5-foot radius and Dim Light for an additional 5 feet.</p>",
+      "description": "<p>一根蠟燭點燃後可以燃燒1小時，並發出半徑5呎的明亮光照，以及額外5呎的微光光照。</p>",
       "activities": {
         "Light": {
           "name": "光亮術"
@@ -5148,7 +5148,7 @@
       "name": "幸運石",
       "effects": {
         "Lucky": {
-          "name": "Lucky"
+          "name": "幸運"
         }
       }
     },
@@ -5175,7 +5175,7 @@
       "description": "<p><em>Weapon (@UUID[Compendium.dnd5e.equipment24.Item.phbwepMace000000]{Mace}), Rare</em></p><p>You gain a +1 bonus to attack rolls and damage rolls made with this magic weapon. The bonus increases to +3 when you use the weapon to attack a Construct.</p><p>When you roll a 20 on an attack roll made with this weapon, the target takes an extra 7 Bludgeoning damage, or 14 Bludgeoning damage if it's a Construct. If a Construct has 25 Hit Points or fewer after taking this damage, it is destroyed.</p><section class=\"secret\" id=\"secret-9gH19qmKr4AEgExV\"><p><strong>Foundry Note</strong></p><p>The <strong>Attack Construct</strong> activity automatically includes the additional bonuses.</p></section>"
     },
     "Antitoxin": {
-      "description": "<p>As a Bonus Action, you can drink a vial of Antitoxin to gain Advantage on saving throws to avoid or end the Poisoned condition for 1 hour.</p>",
+      "description": "<p>以一個附贈動作，你可以喝下一小瓶抗毒劑來使你在避免或結束中毒狀態的豁免中具有優勢，持續一小時。</p>",
       "effects": {
         "Antitoxin": {
           "name": "解毒劑"
@@ -5208,7 +5208,7 @@
     },
     "Shovel": {
       "name": "鏟子",
-      "description": "<p>Working for 1 hour, you can use a Shovel to dig a hole that is 5 feet on each side in soil or similar material.</p>"
+      "description": "<p>你可以使用鏟子，花費1小時在土壤或類似材質中挖出一個每邊5呎的洞。</p>"
     },
     "Malice": {
       "activities": {
@@ -5234,7 +5234,7 @@
           "name": "光亮術"
         }
       },
-      "description": "<p>A Tinderbox is a small container holding flint, fire steel, and tinder (usually dry cloth soaked in light oil) used to kindle a fire. Using it to light a Candle, Lamp, Lantern, or Torch—or anything else with exposed fuel—takes a Bonus Action. Lighting any other fire takes 1 minute.</p>",
+      "description": "<p>打火匣是一個小型容器，裡面裝有打火石、火鐮和火絨（通常是浸泡在輕油裡的乾布料），用來點火。使用其點燃蠟燭、油燈、提燈、火炬，或任何其他有外露燃料的東西，需要一個附贈動作。點燃其他任何火焰需要1分鐘。</p>",
       "name": "打火匣"
     },
     "Euryale": {
@@ -5355,7 +5355,7 @@
           "name": "Intelligent"
         }
       },
-      "description": "<p><em>奇物，非普通（需同調）</em></p><p>當你穿戴這條頭帶時，你的智力變為19。若你在未穿戴它時的智力就已經為19或更高，則這條頭帶對你將不會有任何效果。</p>",
+      "description": "<p><em>奇物，非普通（需同調）</em></p><p>當你穿戴這條頭帶時，你的智力變為19。若你在未穿戴其時的智力就已經為19或更高，則這條頭帶對你將不會有任何效果。</p>",
       "name": "智力頭帶"
     },
     "Eyes of Charming": {
@@ -5442,15 +5442,15 @@
       "description": "<p><strong>屬性：</strong>感知</p><p class=\"phb-meta\"><strong>使用：</strong>辨別某人是否作弊（DC 10），或贏得這場遊戲（DC 20）</p>"
     },
     "Block and Tackle": {
-      "description": "<p>A Block and Tackle allows you to hoist up to four times the weight you can normally lift.</p>",
+      "description": "<p>滑輪組允許你提起你平常能提動的四倍重量的物品。</p>",
       "name": "滑輪組"
     },
     "Signal Whistle": {
       "name": "訊號哨",
-      "description": "<p>When blown as a Utilize action, a Signal Whistle produces a sound that can be heard up to 600 feet away.</p>",
+      "description": "<p>以一個利用動作吹響訊號哨時，會發出600呎外都能聽到的聲音。</p>",
       "activities": {
         "Whistle": {
-          "name": "Whistle"
+          "name": "吹響"
         }
       }
     },
@@ -5476,7 +5476,7 @@
     "Robe of Useful Items": {
       "activities": {
         "Mirror": {
-          "name": "Mirror"
+          "name": "鏡子"
         },
         "Bullseye Lantern": {
           "name": "牛眼提燈"
@@ -5502,7 +5502,7 @@
       "name": "水晶"
     },
     "Pouch": {
-      "description": "<p>A Pouch holds up to 6 pounds within one-fifth of a cubic foot.</p>",
+      "description": "<p>一個囊袋最多能裝入6磅重、五分之一立方呎大的東西。</p>",
       "name": "囊袋"
     },
     "Right Pouch": {
@@ -5520,13 +5520,13 @@
     "Rope": {
       "activities": {
         "Burst Rope": {
-          "name": "Burst Rope"
+          "name": "扯斷繩索"
         },
         "Escape Check": {
-          "name": "逃脫檢定"
+          "name": "掙脫檢定"
         },
         "Tie Knot": {
-          "name": "Tie Knot"
+          "name": "打結"
         }
       },
       "description": "<p>As a Utilize action, you can tie a knot with Rope if you succeed on a DC 10 Dexterity (Sleight of Hand) check. The Rope can be burst with a successful DC 20 Strength (Athletics) check.</p><p>You can bind an unwilling creature with the Rope only if the creature has the &amp;Reference[Grappled], &amp;Reference[Incapacitated], or &amp;Reference[Restrained] condition. If the creature's legs are bound, the creature has the Restrained condition until it escapes. Escaping the Rope requires the creature to make a successful DC 15 Dexterity (Acrobatics) check as an action.</p>",
@@ -5614,10 +5614,10 @@
       }
     },
     "Net": {
-      "description": "<p>When you take the Attack action, you can replace one of your attacks with throwing a Net. Target a creature you can see within 15 feet of yourself. The target must succeed on a Dexterity saving throw (DC 8 plus your Dexterity modifier and Proficiency Bonus) or have the &amp;Reference[Restrained] condition until it escapes. The target succeeds automatically if it is Huge or larger.</p><p>To escape, the target or a creature within 5 feet of it must take an action to make a [[/skill ath 10]] check, freeing the Restrained creature on a success. Destroying the Net (AC 10; 5 HP; Immunity to Bludgeoning, Poison, and Psychic damage) also frees the target, ending the effect.</p>",
+      "description": "<p>當你採取攻擊動作時，你可以將你的一次攻擊替換為丟出一張捕網。你可以選擇位於你15呎內一個你所能看見的生物作為目標。該目標必須成功通過一次敏捷豁免（DC = 8 + 你的敏捷調整值 + 你的熟練加值），否則陷入&amp;Reference[Restrained]{束縛}狀態，直至掙脫為止。若目標的體型為巨型或更大，則自動通過豁免。</p><p>要掙脫，目標或位於其5呎內的生物必須使用一個動作進行一次[[/skill ath 10]]檢定，成功時即可解放被束縛的生物。摧毀捕網（AC 10；5 HP；對鈍擊、毒素和心靈傷害免疫）同樣能解放目標並結束效果。</p>",
       "effects": {
         "Caught in Net": {
-          "name": "Caught in Net"
+          "name": "被捕網纏住"
         }
       },
       "name": "捕網"
@@ -5632,7 +5632,7 @@
     },
     "Hooded Lantern": {
       "name": "附蓋提燈",
-      "description": "<p>一盞附蓋提燈散發出30呎半徑的明亮光照以及再延伸30呎的微光光照。一旦被點亮，每一扁瓶（1品脫）的燈油都可以讓它燃燒持續6小時。以一個動作，你可以降下燈蓋，將光照減弱為5呎半徑的微光光照。</p>"
+      "description": "<p>一盞附蓋提燈散發出30呎半徑的明亮光照以及再延伸30呎的微光光照。一旦被點亮，每一扁瓶（1品脫）的燈油都可以讓其燃燒持續6小時。以一個動作，你可以降下燈蓋，將光照減弱為5呎半徑的微光光照。</p>"
     },
     "Shield of Missile Attraction": {
       "description": "<p><em>Armor (Shield), Rare (Requires Attunement)</em></p><p>While holding this Shield, you have Resistance to damage from attacks made with Ranged weapons.</p><p><em><strong>Curse.</strong></em> This Shield is cursed. Attuning to it curses you until you are targeted by a @UUID[Compendium.dnd5e.spells24.Item.phbsplRemoveCurs]{Remove Curse} spell or similar magic. Removing the Shield fails to end the curse on you. Whenever an attack with a Ranged weapon targets a creature within 10 feet of you, the curse causes you to become the target instead.</p>",
@@ -5725,7 +5725,7 @@
       "name": "鎖"
     },
     "Bell": {
-      "description": "<p>When rung as a Utilize action, a Bell produces a sound that can be heard up to 60 feet away.</p>",
+      "description": "<p>以一個利用動作搖響鈴鐺，會發出60呎內都能聽到的聲音。</p>",
       "name": "鈴鐺"
     },
     "Tome of Leadership and Influence": {
@@ -5794,7 +5794,7 @@
     },
     "Fine Clothes": {
       "name": "高級服裝",
-      "description": "<p>Set of clothes designed specifically to be expensive and show it.</p>"
+      "description": "<p>一套專門設計成昂貴並用以展示的服裝。</p>"
     },
     "Potion of Giant Strength (Fire)": {
       "name": "Potion of Giant Strength (Fire)",
@@ -5937,7 +5937,7 @@
       "description": "<p>Each time you make an attack roll with this magic weapon and hit, you can have it deal Lightning damage instead of Piercing damage.</p><p><em><strong>Lightning Bolt.</strong></em> When you throw this weapon at a target no farther than 120 feet from you, you can forgo making a ranged attack roll and instead turn the weapon into a bolt of lightning. This bolt forms a 5-foot-wide Line between you and the target. The target and each other creature in the Line (excluding you) makes a DC 13 Dexterity saving throw, taking 4d6 Lightning damage on a failed save or half as much damage on a successful one. Immediately after dealing this damage, the weapon reappears in your hand. This property can't be used again until the next dawn.</p><section id=\"secret-606LeZVVMHWwmeln\" class=\"secret\"><p><strong>Foundry Note</strong></p><p>The <strong>Attack</strong> activity allows you to choose between Lightning and Piercing when rolling damage and will remember your last choice.</p></section>"
     },
     "Perfume": {
-      "description": "<p>Perfume comes in a 4-ounce vial. For 1 hour after applying Perfume to yourself, you have Advantage on Charisma (Persuasion) checks made to influence an Indifferent Humanoid within 5 feet of yourself.</p>",
+      "description": "<p>香水通常裝在4盎司的小瓶裡。為自己塗上香水後的1小時內，你對位於你5呎內、態度為冷漠的類人生物進行影響時所做的魅力（說服）檢定具有優勢。</p>",
       "name": "香水"
     },
     "Robe of Scintillating Colors": {
@@ -6003,8 +6003,8 @@
       "description": "<p>A Holy Symbol takes one of the forms in the Holy Symbol table and is bejeweled or painted to channel divine magic. A Cleric or Paladin can use a Holy Symbol as a Spellcasting Focus.</p><p>The table indicates whether a Holy Symbol needs to be held, worn, or borne on fabric (such as a tabard or banner) or a Shield.</p><table><caption>Holy Symbols</caption><thead><tr><td>Symbol</td><td>Weight</td><td>Cost</td></tr></thead><tbody><tr><td>@UUID[Compendium.dnd5e.equipment24.Item.phbhsyAmuletworn]{Amulet} (worn or held)</td><td>1 lb.</td><td>5 GP</td></tr><tr><td>@UUID[Compendium.dnd5e.equipment24.Item.phbhsyEmblemborn]{Emblem} (borne on fabric or a Shield)</td><td>—</td><td>5 GP</td></tr><tr><td>@UUID[Compendium.dnd5e.equipment24.Item.phbhsyReliquaryh]{Reliquary} (held)</td><td>2 lb.</td><td>5 GP</td></tr></tbody></table>"
     },
     "Ram, Portable": {
-      "description": "<p>You can use a Portable Ram to break down doors. When doing so, you gain a +4 bonus to the Strength check. One other character can help you use the ram, giving you Advantage on this check.</p>",
-      "name": "Ram, Portable"
+      "description": "<p>你可以使用便攜式攻城錘撞破門。這麼做時，你在力量檢定上獲得+4加值。另一名角色可以協助你使用攻城錘，讓你這次檢定具有優勢。</p>",
+      "name": "便攜式攻城錘"
     },
     "Ammunition (Varies)": {
       "name": "彈藥（多類）",
@@ -6085,7 +6085,7 @@
       "description": "<p><em>Ring, Legendary (Requires Attunement)</em></p><p>Each Ring of Elemental Command is linked to one of the four Elemental Planes. The DM chooses or randomly determines the linked plane. For example, a Ring of Elemental Command (air) is linked to the Elemental Plane of Air.</p><p>Every Ring of Elemental Command has the following two properties:</p><p><strong>Elemental Bane.</strong> While wearing the ring, you have Advantage on attack rolls against Elementals and they have Disadvantage on attack rolls against you.</p><p><strong>Elemental Compulsion.</strong> While wearing the ring, you can take a Magic action to try to compel an Elemental you see within 60 feet of yourself. The Elemental makes a DC 18 Wisdom saving throw. On a failed save, the Elemental has the Charmed condition until the start your next turn, and you determine what it does with its move and action on its next turn.</p><p><strong>Elemental Focus.</strong> While wearing the ring, you benefit from additional properties corresponding to the ring's linked Elemental Plane:</p><p><strong>Air.</strong> You know Auran, you have Resistance to Lightning damage, and you have a Fly Speed equal to your Speed and can hover.</p><p><strong>Earth.</strong> You know Terran, and you have Resistance to Acid damage. Terrain composed of rubble, rocks, or dirt isn't Difficult Terrain for you. In addition, you can move through solid earth or rock as if those areas were Difficult Terrain without disturbing the matter through which you pass. If you end your turn in solid earth or rock, you are shunted out to the nearest unoccupied space you last occupied.</p><p><strong>Fire.</strong> You know Ignan, and you have Immunity to Fire damage.</p><p><strong>Water.</strong> You know Aquan, you gain a Swim Speed of 60 feet, and you can breathe underwater.</p><p><strong>Spellcasting.</strong> The ring has 5 charges and regains 1d4 + 1 expended charges daily at dawn. While wearing the ring, you can cast a spell from it. Choose the spell from the list of available spells based on the Elemental Plane the ring is linked to, as shown in the following table. The table indicates how many charges you must expend to cast the spell, which has a save DC of 18.</p><table><thead><tr><td><p>Plane</p></td><td><p>Spells (Charges)</p></td></tr></thead><tbody><tr><td><p>@UUID[Compendium.dnd5e.equipment24.Item.dmgAirRingOfElem]{Air Ring}</p></td><td><p>@UUID[Compendium.dnd5e.spells24.Item.phbsplChainLight]{Chain Lightning} (3 charges), @UUID[Compendium.dnd5e.spells24.Item.phbsplFeatherFal]{Feather Fall} (0 charges), @UUID[Compendium.dnd5e.spells24.Item.phbsplGustofWind]{Gust of Wind} (2 charges), @UUID[Compendium.dnd5e.spells24.Item.phbsplWindWall00]{Wind Wall} (1 charge)</p></td></tr><tr><td><p>@UUID[Compendium.dnd5e.equipment24.Item.dmgEarthRingOfEl]{Earth Ring}</p></td><td><p>@UUID[Compendium.dnd5e.spells24.Item.phbsplEarthquake]{Earthquake} (5 charges), @UUID[Compendium.dnd5e.spells24.Item.phbsplStoneShape]{Stone Shape} (2 charges), @UUID[Compendium.dnd5e.spells24.Item.phbsplStoneskin0]{Stoneskin} (3 charges), @UUID[Compendium.dnd5e.spells24.Item.phbsplWallofSton]{Wall of Stone} (3 charges)</p></td></tr><tr><td><p>@UUID[Compendium.dnd5e.equipment24.Item.dmgFireRingOfEle]{Fire Ring}</p></td><td><p>@UUID[Compendium.dnd5e.spells24.Item.phbsplBurningHan]{Burning Hands} (1 charge), @UUID[Compendium.dnd5e.spells24.Item.phbsplFireball00]{Fireball} (2 charges), @UUID[Compendium.dnd5e.spells24.Item.phbsplFireStorm0]{Fire Storm} (4 charges), @UUID[Compendium.dnd5e.spells24.Item.phbsplWallofFire]{Wall of Fire} (3 charges)</p></td></tr><tr><td><p>@UUID[Compendium.dnd5e.equipment24.Item.dmgWaterRingOfEl]{Water Ring}</p></td><td><p>@UUID[Compendium.dnd5e.spells24.Item.phbsplCreateorDe]{Create or Destroy Water} (1 charge), @UUID[Compendium.dnd5e.spells24.Item.phbsplIceStorm00]{Ice Storm} (2 charges), @UUID[Compendium.dnd5e.spells24.Item.phbsplTsunami000]{Tsunami} (5 charges), @UUID[Compendium.dnd5e.spells24.Item.phbsplWallofIce0]{Wall of Ice} (3 charges), @UUID[Compendium.dnd5e.spells24.Item.phbsplWaterWalk0]{Water Walk} (2 charges)</p></td></tr></tbody></table>"
     },
     "Robe": {
-      "description": "<p>A Robe has vocational or ceremonial significance. Some events and locations admit only people wearing a Robe bearing certain colors or symbols.</p>",
+      "description": "<p>法袍通常具有職業或儀式上的特殊意義。有些活動和場合只允許穿著帶有特定顏色或符號的法袍的人參加。</p>",
       "name": "法袍"
     },
     "Horseshoes of a Zephyr": {
@@ -6139,7 +6139,7 @@
       }
     },
     "Jug": {
-      "description": "<p>A Jug holds up to 1 gallon.</p>",
+      "description": "<p>壺具有1加侖的容量。</p>",
       "name": "壺"
     },
     "Staff of Healing": {
@@ -6173,7 +6173,7 @@
     },
     "String": {
       "name": "弦線",
-      "description": "<p>String is 10 feet long. You can tie a knot in it as a Utilize action.</p>"
+      "description": "<p>弦線有10呎長。你可以用一個利用動作在弦線上打一個結。</p>"
     },
     "Flail": {
       "name": "連枷"
@@ -6260,7 +6260,7 @@
     },
     "Clothes, Fine": {
       "name": "高級服裝",
-      "description": "<p>Fine Clothes are made of expensive fabrics and adorned with expertly crafted details. Some events and locations admit only people wearing these clothes.</p>"
+      "description": "<p>高級服裝使用昂貴的布料製成，並綴有精心打造的細節。部分活動和場合只允許穿著高級服裝的人參加。</p>"
     },
     "Leatherworker's Tools": {
       "activities": {
@@ -6276,8 +6276,8 @@
       "name": "Spell Scroll"
     },
     "Spikes, Iron": {
-      "description": "<p>Iron Spikes come in bundles of ten. As a Utilize action, you can use a blunt object, such as a Light Hammer, to hammer a spike into wood, earth, or a similar material. You can do so to jam a door shut or to then tie a Rope or Chain to the Spike.</p>",
-      "name": "Spikes, Iron"
+      "description": "<p>鐵釘以十支為一組。以一個利用動作，你可以使用鈍器（例如輕錘）將鐵釘錘入木頭、土地或類似的材質。你可以藉此卡死一扇門，或是將繩索或鎖鏈綁在鐵釘上。</p>",
+      "name": "鐵釘"
     },
     "Light Crossbow": {
       "name": "輕弩"
