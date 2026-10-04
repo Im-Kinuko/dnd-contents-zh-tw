@@ -81,13 +81,13 @@
       "description": "<p>你獲得下列好處。</p><p><em><strong>Ability Score Increase.</strong></em> Increase your Dexterity or Charisma score by 1, to a maximum of 20.</p><p><em><strong>Retaliate.</strong></em> Immediately after a creature within 5 feet of you hits you with a melee attack, you can make an &amp;Reference[OpportunityAttacks] against that creature.</p><p><em><strong>Versatile Merc.</strong></em> When you finish a Long Rest, choose a skill in which you have proficiency. You have Expertise in that skill until you finish your next Long Rest.</p>"
     },
     "Blade of Disaster": {
-      "description": "<p>You create a 3-foot-long blade-shaped planar rift that lasts for the duration. The rift appears within range in a space of your choice, and you can immediately make up to two melee spell attacks, each one against a creature or object within 5 feet of the rift. On a hit, the target takes 10d6 Force damage. This attack scores a Critical Hit if the number on the d20 is 18 or higher.</p><p>As a Bonus Action on your later turns, you can move the rift up to 60 feet and repeat the two attacks against a creature or an object within 5 feet of it. You can direct the attacks at the same target or at different ones.</p><p>The blade can harmlessly pass through any barrier, including ones created by spells like <em>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplWallofForc]{Wall of Force}</em>.</p>",
+      "description": "<p>你創造一道長3呎、形如刀刃的位面裂隙，持續至法術結束。該裂隙出現在射程內一處由你選擇的空間，且你可以立即進行至多兩次近戰法術攻擊，每次攻擊都以裂隙5呎內的一個生物或物體為目標。命中時，目標承受10d6力場傷害。若d20的擲骰結果為18或更高，此攻擊造成暴擊。</p><p>在你後續的回合中，你可以採取一個附贈動作，將裂隙移動至多60呎，並對其5呎內的一個生物或物體重複進行這兩次攻擊。你可以讓這些攻擊瞄準同一個目標或不同目標。</p><p>此刃可以無害地穿過任何屏障，包括由<em>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplWallofForc]{力場牆}</em>等法術所創造的屏障。</p>",
       "activities": {
         "Cast": {
-          "name": "Cast"
+          "name": "施放"
         }
       },
-      "name": "Blade of Disaster"
+      "name": "災厄之刃"
     },
     "Boon of the Furious Storm": {
       "advancement": {
@@ -117,45 +117,45 @@
     "Elminster's Effulgent Spheres": {
       "effects": {
         "Cold Sphere": {
-          "name": "Cold Sphere",
-          "description": "<p>You have resistance to the triggering damage type until the start of your next turn.</p>"
+          "name": "寒冷光球",
+          "description": "<p>你對觸發此效應的傷害類型具有抗力，直到你的下個回合開始。</p>"
         },
         "Orbiting Spheres": {
-          "description": "<p>While the spheres are present, you can expend spheres to create the following effects: Absorb Energy and Energy Blast.</p>",
-          "name": "Orbiting Spheres"
+          "description": "<p>在這些光球存在期間，你可以消耗光球來創造下列效應：吸收能量與能量衝擊。</p>",
+          "name": "環繞光球"
         },
         "Acid Sphere": {
-          "description": "<p>You have resistance to the triggering damage type until the start of your next turn.</p>",
-          "name": "Acid Sphere"
+          "description": "<p>你對觸發此效應的傷害類型具有抗力，直到你的下個回合開始。</p>",
+          "name": "強酸光球"
         },
         "Thunder Sphere": {
-          "name": "Thunder Sphere",
-          "description": "<p>You have resistance to the triggering damage type until the start of your next turn.</p>"
+          "name": "雷鳴光球",
+          "description": "<p>你對觸發此效應的傷害類型具有抗力，直到你的下個回合開始。</p>"
         },
         "Lightning Sphere": {
-          "name": "Lightning Sphere",
-          "description": "<p>You have resistance to the triggering damage type until the start of your next turn.</p>"
+          "name": "閃電光球",
+          "description": "<p>你對觸發此效應的傷害類型具有抗力，直到你的下個回合開始。</p>"
         },
         "Fire Sphere": {
-          "name": "Fire Sphere",
-          "description": "<p>You have resistance to the triggering damage type until the start of your next turn.</p>"
+          "name": "火焰光球",
+          "description": "<p>你對觸發此效應的傷害類型具有抗力，直到你的下個回合開始。</p>"
         }
       },
       "activities": {
         "Absorb Energy": {
-          "name": "Absorb Energy",
-          "duration": "until the start of your next turn",
-          "condition": "when you take Acid, Cold, Fire, Lightning, or Thunder damage"
+          "name": "吸收能量",
+          "duration": "直到你的下個回合開始",
+          "condition": "當你承受強酸、寒冷、火焰、閃電或雷鳴傷害時"
         },
         "Cast": {
-          "name": "Cast"
+          "name": "施放"
         },
         "Energy Blast": {
-          "name": "Energy Blast"
+          "name": "能量衝擊"
         }
       },
-      "description": "<p>Six chromatic spheres orbit you for the duration.</p><p>While the spheres are present, you can expend spheres to create the following effects:</p><p><strong>Absorb Energy.</strong> When you take Acid, Cold, Fire, Lightning, or Thunder damage, you can take a Reaction to expend one sphere and give yourself Resistance to the triggering damage type until the start of your next turn.</p><p><strong>Energy Blast.</strong> As a Bonus Action, you send one sphere hurtling toward a target within 120 feet of yourself. Make a ranged spell attack. On a hit, the target takes 3d6 Acid, Cold, Fire, Lightning, or Thunder damage (your choice). Regardless of whether you hit, the sphere is expended.</p><p>The spell ends early if you have no more spheres remaining.</p><p><em><strong>Using a Higher-Level Spell Slot.</strong></em> The number of spheres increases by 1 for every spell slot level above 6.</p>",
-      "name": "Elminster's Effulgent Spheres"
+      "description": "<p>六顆色彩各異的光球在持續期間內環繞你運行。</p><p>在這些光球存在期間，你可以消耗光球來創造下列效應：</p><p><strong>【吸收能量】</strong>當你承受強酸、寒冷、火焰、閃電或雷鳴傷害時，你可以採取一個反應消耗一顆光球，使你對觸發此反應的傷害類型具有抗力，直到你的下個回合開始。</p><p><strong>【能量衝擊】</strong>你可以採取一個附贈動作，讓一顆光球朝位於你120呎內的一個目標疾飛而去。進行一次遠程法術攻擊。命中時，目標承受3d6強酸、寒冷、火焰、閃電或雷鳴傷害（由你選擇）。無論是否命中，該光球都會被消耗。</p><p>若你已沒有剩餘的光球，此法術提前結束。</p><p><em><strong>【升環法術效應】</strong></em>法術位每升一個環階，光球數量就增加1顆。</p>",
+      "name": "伊爾明斯特絢麗光球"
     },
     "Frozen Haunt": {
       "effects": {
@@ -271,11 +271,11 @@
       }
     },
     "Spellfire Storm": {
-      "description": "<p>You conjure a pillar of spellfire in a 20-foot-radius, 20-foot-high Cylinder centered on a point within range. The area of the Cylinder is Bright Light, and each creature in it when it appears makes a Constitution saving throw, taking 4d10 Radiant damage on a failed save or half as much damage on a successful one. A creature also makes this save when it enters the spell’s area for the first time on a turn or ends its turn there. A creature makes this save only once per turn.</p><p>In addition, whenever a creature in the Cylinder casts a spell, that creature makes a Constitution saving throw. On a failed save, the spell dissipates with no effect, and the action, Bonus Action, or Reaction used to cast it is wasted. If that spell was cast with a spell slot, the slot isn’t expended.</p><p>When you cast this spell, you can designate creatures to be unaffected by it.</p><p><em><strong>Casting as a Circle Spell.</strong></em> In addition to the spell’s usual components, you must provide a special component (a blue star sapphire worth 25,000+ GP), which the spell consumes. The spell’s range increases to 1 mile, and it no longer requires Concentration. When the spell is cast, each secondary caster must expend a level 3+ spell slot; otherwise, the spell fails.</p><p><em><strong>Using a Higher-Level Spell Slot.</strong></em> The damage increases by 1d10 for every spell slot level above 4.</p><p>The number of secondary casters determines the spell’s area of effect and duration, as shown in the table below. The spell ends early if any caster who participated in this casting contributes to another casting of <em>Spellfire Storm</em> as a Circle spell.</p><table><thead><tr><th scope=\"col\"><p>Secondary Casters</p></th><th scope=\"col\"><p>Area of Effect</p></th><th scope=\"col\"><p>Duration</p></th></tr></thead><tbody><tr><td><p>1–3</p></td><td><p>40-foot-radius, 40-foot-high Cylinder</p></td><td><p>1 hour</p></td></tr><tr><td><p>4–6</p></td><td><p>60-foot-radius, 60-foot-high Cylinder</p></td><td><p>8 hours</p></td></tr><tr><td><p>7+</p></td><td><p>100-foot-radius, 100-foot-high Cylinder</p></td><td><p>24 hours</p></td></tr></tbody></table>",
-      "name": "Spellfire Storm",
+      "description": "<p>你召喚一道咒火光柱，以射程內一點為中心，形成半徑20呎、高20呎的圓柱體。圓柱體區域內為明亮光照，且圓柱體出現時位於其中的每名生物都進行一次體質豁免，豁免失敗時承受4d10光耀傷害，成功時傷害減半。當一名生物在一回合中首次進入法術區域，或在其中結束其回合時，該生物也要進行此豁免。生物每回合只會進行一次此豁免。</p><p>此外，每當圓柱體內的一名生物施放法術時，該生物都進行一次體質豁免。豁免失敗時，該法術消散且沒有任何效果，用於施放該法術的動作、附贈動作或反應也隨之浪費。若該法術是以法術位施放的，則該法術位不會被消耗。</p><p>當你施放此法術時，你可以指定不受其影響的生物。</p><p><em><strong>【結陣施法】</strong></em>除了此法術的一般成分外，你還必須提供一項特殊成分（一顆價值25,000+ GP的藍色星彩藍寶石），此法術會將其消耗。此法術的射程增加至1哩，且不再需要專注。施放此法術時，每名輔施法者都必須消耗一個3環以上的法術位，否則法術失敗。</p><p><em><strong>【升環法術效應】</strong></em>法術位每升一個環階，傷害就增加1d10。</p><p>輔施法者的數量決定此法術的效應區域與持續時間，如下表所示。若任何參與此次施法的施法者又參與另一次<em>咒火風暴</em>的結陣施法，此法術便提前結束。</p><table><thead><tr><th scope=\"col\"><p>輔施法者</p></th><th scope=\"col\"><p>效應區域</p></th><th scope=\"col\"><p>持續時間</p></th></tr></thead><tbody><tr><td><p>1–3</p></td><td><p>半徑40呎、高40呎的圓柱體</p></td><td><p>1小時</p></td></tr><tr><td><p>4–6</p></td><td><p>半徑60呎、高60呎的圓柱體</p></td><td><p>8小時</p></td></tr><tr><td><p>7+</p></td><td><p>半徑100呎、高100呎的圓柱體</p></td><td><p>24小時</p></td></tr></tbody></table>",
+      "name": "咒火風暴",
       "activities": {
         "Cast and Save": {
-          "name": "Cast and Save"
+          "name": "施放與豁免"
         }
       }
     },
@@ -922,24 +922,24 @@
     "Dirge": {
       "effects": {
         "Dirge of Speed": {
-          "name": "Dirge of Speed",
-          "description": "<p>On a successful save, the creature takes half as much damage and its Speed is halved. A creature makes this save only once per turn.</p>"
+          "name": "輓歌：減速",
+          "description": "<p>豁免成功時，該生物承受一半傷害，且其速度減半。生物每回合只會進行一次此豁免。</p>"
         },
         "Dirge of Healing": {
-          "name": "Dirge of Healing",
-          "description": "<p>Any other creature can’t regain Hit Points while in the Emanation.</p>"
+          "name": "輓歌：阻斷治療",
+          "description": "<p>其他任何生物位於該發散區域內時都無法恢復生命值。</p>"
         },
         "Prone": {
-          "name": "Prone"
+          "name": "伏地"
         }
       },
       "activities": {
         "Cast and Save": {
-          "name": "Cast and Save"
+          "name": "施放與豁免"
         }
       },
-      "name": "Dirge",
-      "description": "<p>Deathly power fills a 60-foot Emanation originating from you for the duration.</p><p>When you cast this spell, you can designate creatures to be unaffected by it. Any other creature can’t regain Hit Points while in the Emanation. Whenever the Emanation enters a creature’s space and whenever a creature enters the Emanation or ends its turn there, the creature makes a Constitution saving throw. On a failed save, the creature takes 3d10 Necrotic damage and has the &amp;Reference[Prone apply=false] condition. On a successful save, the creature takes half as much damage and its Speed is halved. A creature makes this save only once per turn.</p><p><em><strong>Casting as a Circle Spell.</strong></em> Casting this as a Circle spell requires a minimum of two secondary casters. If the spell is cast as a Circle spell, its duration becomes Concentration, up to 10 minutes.</p><p>A creature that fails its save against the spell’s effect also gains 1 Exhaustion level. While the creature has Exhaustion levels, finishing a Long Rest neither restores lost Hit Points nor reduces the creature’s Exhaustion level.</p><p>When the spell is cast, each secondary caster must expend a level 4+ spell slot; otherwise, the spell fails.</p>"
+      "name": "悲慟輓歌",
+      "description": "<p>在持續期間內，致命的力量充斥一片源自你的60呎發散區域。</p><p>當你施放此法術時，你可以指定不受其影響的生物。其他任何生物位於該發散區域內時都無法恢復生命值。每當該發散區域進入一名生物的空間，以及每當一名生物進入該發散區域或在其中結束其回合時，該生物都進行一次體質豁免。豁免失敗時，該生物承受3d10黯蝕傷害，並陷入&amp;Reference[Prone apply=false]{伏地}狀態。豁免成功時，該生物承受一半傷害，且其速度減半。生物每回合只會進行一次此豁免。</p><p><em><strong>【結陣施法】</strong></em>以結陣法術施放此法術時，至少需要兩名輔施法者。若以結陣法術施放此法術，其持續時間變為專注，至多10分鐘。</p><p>對此法術效應豁免失敗的生物還會獲得1級力竭。只要該生物仍有力竭等級，完成長休既不會恢復其失去的生命值，也不會降低其力竭等級。</p><p>施放此法術時，每名輔施法者都必須消耗一個4環以上的法術位，否則法術失敗。</p>"
     },
     "Crown of Spellfire": {
       "activities": {
@@ -1014,17 +1014,17 @@
     "Holy Star of Mystra": {
       "effects": {
         "Holy Star of Mystra": {
-          "description": "<p>In addition, while the mote is present, you have Three-Quarters Cover, and if you succeed on a saving throw against a spell of level 7 or lower that targeted only you and didn’t create an area of effect, you can take a Reaction to deflect that spell back at the spell’s caster; the caster makes a saving throw against that spell using that caster’s own spell save DC.</p>",
-          "name": "Holy Star of Mystra"
+          "description": "<p>此外，在微粒存在期間，你具有四分之三掩護；且若你在對抗一道7環或更低環，只以你為目標且不會產生效應區域的法術中豁免成功，你可以採取一個反應將該法術反彈回其施法者；該施法者須以其自身的法術豁免DC，對該法術進行一次豁免。</p>",
+          "name": "密斯特拉聖星"
         }
       },
       "activities": {
         "Cast and Attack": {
-          "name": "Cast and Attack"
+          "name": "施放與攻擊"
         }
       },
-      "description": "<p>You create a glowing mote of energy that hovers above you for the duration. The mote sheds Bright Light in a 5-foot radius and Dim Light for an additional 5 feet.</p><p>When you cast this spell and as a Bonus Action on later turns, you can unleash a shining bolt from the mote, targeting one creature within 120 feet of yourself. Make a ranged spell attack. On a hit, the target takes Force or Radiant damage (your choice) equal to 4d10 plus your spellcasting ability modifier.</p><p>In addition, while the mote is present, you have Three-Quarters Cover, and if you succeed on a saving throw against a spell of level 7 or lower that targeted only you and didn’t create an area of effect, you can take a Reaction to deflect that spell back at the spell’s caster; the caster makes a saving throw against that spell using that caster’s own spell save DC.</p>",
-      "name": "Holy Star of Mystra"
+      "description": "<p>你創造一顆在持續期間內懸浮於你上方的發光能量微粒。該微粒散發5呎半徑的明亮光照，並再延伸5呎的微光光照。</p><p>當你施放此法術，以及在後續回合中採取一個附贈動作時，你可以從微粒釋放出一道閃耀的光束，以位於你120呎內的一名生物為目標。進行一次遠程法術攻擊。命中時，目標承受等同於4d10加上你的施法屬性調整值的力場或光耀傷害（由你選擇）。</p><p>此外，在微粒存在期間，你具有四分之三掩護；並且若你在對抗一道7環或更低環，只以你為目標且不會產生效應區域的法術中豁免成功，你可以採取一個反應將該法術反彈回其施法者；該施法者須以其自身的法術豁免DC，對該法術進行一次豁免。</p>",
+      "name": "密斯特拉聖星"
     },
     "Mind Magic": {
       "description": "<p>As a Magic action, you can expend one use of your @UUID[Compendium.dnd-players-handbook.classes.Item.phbclcChannelDiv]{Channel Divinity} to manifest your magical knowledge. Choose one spell from the Divination school on the Knowledge Domain Spells table that you have prepared. As part of that action, you cast that spell without expending a spell slot or needing Material components.</p>",
@@ -1880,19 +1880,19 @@
       }
     },
     "Simbul's Synostodweomer": {
-      "description": "<p>You imbue one creature you touch with magical healing energy for the duration. Whenever the target casts a spell using a spell slot, the target can immediately roll a number of unexpended Hit Point Dice equal to the spell slot’s level and regain Hit Points equal to the roll’s total plus your spellcasting ability modifier; those dice are then expended.</p>",
+      "description": "<p>你為你所觸碰的一名生物灌注魔法治療能量，持續至法術結束。每當目標使用法術位施放法術時，目標可以立即擲出數量等同於該法術位環階、且尚未消耗的生命骰，並恢復等同於擲骰總和加上你的施法屬性調整值的生命值；這些骰子隨後即被消耗。</p>",
       "effects": {
         "Simbul's Synostodweomer": {
           "description": "<p>@Embed[Compendium.dnd-heroes-faerun.options.Item.hofSimbulsSynost inline]</p>",
-          "name": "Simbul's Synostodweomer"
+          "name": "欣布法愈祕術"
         }
       },
       "activities": {
         "Cast": {
-          "name": "Cast"
+          "name": "施放"
         }
       },
-      "name": "Simbul's Synostodweomer"
+      "name": "欣布法愈祕術"
     },
     "Alustriel’s Mooncloak": {
       "activities": {
@@ -1984,40 +1984,40 @@
     "Songal's Elemental Suffusion": {
       "effects": {
         "Thunder Suffusion & Flight": {
-          "name": "Thunder Suffusion & Flight",
-          "description": "<p>You have &amp;Reference[damageresistance]{Resistance} to the chosen damage type.</p><p>You gain a &amp;Reference[flying]Fly Speed of 30 feet and can hover.</p>"
+          "name": "雷鳴充盈與飛行",
+          "description": "<p>你對所選的傷害類型具有&amp;Reference[damageresistance]{抗力}。</p><p>你獲得30呎&amp;Reference[flying]{飛行速度}，並且可以懸浮。</p>"
         },
         "Prone": {
-          "name": "Prone"
+          "name": "伏地"
         },
         "Acid Suffusion & Flight": {
-          "description": "<p>You have &amp;Reference[damageresistance]{Resistance} to the chosen damage type.</p><p>You gain a &amp;Reference[flying]Fly Speed of 30 feet and can hover.</p>",
-          "name": "Acid Suffusion & Flight"
+          "description": "<p>你對所選的傷害類型具有&amp;Reference[damageresistance]{抗力}。</p><p>你獲得30呎&amp;Reference[flying]{飛行速度}，並且可以懸浮。</p>",
+          "name": "強酸充盈與飛行"
         },
         "Cold Suffusion & Flight": {
-          "description": "<p>You have &amp;Reference[damageresistance]{Resistance} to the chosen damage type.</p><p>You gain a &amp;Reference[flying]Fly Speed of 30 feet and can hover.</p>",
-          "name": "Cold Suffusion & Flight"
+          "description": "<p>你對所選的傷害類型具有&amp;Reference[damageresistance]{抗力}。</p><p>你獲得30呎&amp;Reference[flying]{飛行速度}，並且可以懸浮。</p>",
+          "name": "寒冷充盈與飛行"
         },
         "Fire Suffusion & Flight": {
-          "description": "<p>You have &amp;Reference[damageresistance]{Resistance} to the chosen damage type.</p><p>You gain a &amp;Reference[flying]Fly Speed of 30 feet and can hover.</p>",
-          "name": "Fire Suffusion & Flight"
+          "description": "<p>你對所選的傷害類型具有&amp;Reference[damageresistance]{抗力}。</p><p>你獲得30呎&amp;Reference[flying]{飛行速度}，並且可以懸浮。</p>",
+          "name": "火焰充盈與飛行"
         },
         "Lightning Suffusion & Flight": {
-          "name": "Lightning Suffusion & Flight",
-          "description": "<p>You have &amp;Reference[damageresistance]{Resistance} to the chosen damage type.</p><p>You gain a &amp;Reference[flying]Fly Speed of 30 feet and can hover.</p>"
+          "name": "閃電充盈與飛行",
+          "description": "<p>你對所選的傷害類型具有&amp;Reference[damageresistance]{抗力}。</p><p>你獲得30呎&amp;Reference[flying]{飛行速度}，並且可以懸浮。</p>"
         }
       },
       "activities": {
         "Cast and Save": {
-          "name": "Cast and Save"
+          "name": "施放與豁免"
         },
         "Per Turn Save": {
-          "name": "Per Turn Save",
-          "condition": "at the start of your turn while imbued"
+          "name": "每回合豁免",
+          "condition": "灌注期間，在你的回合開始時"
         }
       },
-      "name": "桑縞元靈顯聖",
-      "description": "<p>You imbue yourself with the elemental power of genies. You gain the following benefits until the spell ends:</p><p><strong>Elemental Immunity. </strong>When you cast this spell, choose one of the following damage types: Acid, Cold, Fire, Lightning, or Thunder. You have Resistance to the chosen damage type.</p><p><strong>Elemental Pulse. </strong>When you cast this spell and at the start of each of your subsequent turns, you release a burst of elemental energy in a 15-foot Emanation originating from yourself. Each creature of your choice in that area makes a Dexterity saving throw. On a failed save, a creature takes 2d6 Acid, Cold, Fire, Lightning, or Thunder damage (your choice) and has the Prone condition. On a successful save, a creature takes half as much damage only.</p><p><strong>Flight.</strong> You gain a Fly Speed of 30 feet and can hover.</p><p><em><strong>Casting as a Circle Spell.</strong></em> If the spell is cast as a Circle spell, its casting time increases to 1 minute, and its duration increases to Concentration, up to 10 minutes. For each secondary caster who participates in the casting, you can choose one additional creature, to a maximum of nine additional creatures. The chosen creatures also gain the benefits of the spell for its duration.</p><p>When the spell is cast, each secondary caster must expend a level 2+ spell slot; otherwise, the spell fails.</p>"
+      "name": "桑縞元靈充盈",
+      "description": "<p>你為自身灌注巨靈的元素之力。直到法術結束前，你獲得下列好處：</p><p><strong>【元素減免】</strong>當你施放此法術時，從下列傷害類型中選擇一種：強酸、寒冷、火焰、閃電或雷鳴。你對所選的傷害類型具有抗力。</p><p><strong>【元素波動】</strong>當你施放此法術時，以及在你後續每個回合開始時，你會在一片源自自身的15呎發散區域中釋放一股元素能量爆發。該區域內每名由你選擇的生物都進行一次敏捷豁免。豁免失敗時，該生物承受2d6強酸、寒冷、火焰、閃電或雷鳴傷害（由你選擇），並陷入伏地狀態。豁免成功時，該生物僅承受一半傷害。</p><p><strong>【飛行】</strong>你獲得30呎飛行速度，並且可以懸浮。</p><p><em><strong>【結陣施法】</strong></em>若以結陣法術施放此法術，其施法時間增加為1分鐘，持續時間增加為專注，至多10分鐘。每有一名輔施法者參與施法，你就可以額外選擇一名生物，至多額外選擇九名生物。被選擇的生物在法術持續期間同樣獲得此法術的好處。</p><p>施放此法術時，每名輔施法者都必須消耗一個2環以上的法術位，否則法術失敗。</p>"
     },
     "Ice Fisher": {
       "advancement": {
