@@ -39,8 +39,8 @@
       }
     },
     "Song of Victory": {
-      "description": "<p>After you cast a spell that has a casting time of an action, you can make one attack with a weapon as a Bonus Action.</p>",
-      "name": "Song of Victory"
+      "description": "<p>在你施放一道施法時間為動作的法術之後，你可以採取附贈動作，以武器進行一次攻擊。</p>",
+      "name": "勝利之歌"
     },
     "Fortifying Soul": {
       "description": "<p>Your experience surviving harrowing environments allows you to bolster your allies in addition to yourself. As a Magic action, choose a number of creatures you can see equal to your Wisdom modifier ([[lookup @abilities.wis.mod]]{0}, minimum of one). Each chosen creature regains Hit Points equal to [[/heal]]{1d10 plus your Ranger level} and has Advantage on saving throws to avoid or end the Frightened condition for 1 hour.</p><p>Once you use this feature, you can’t use it again until you finish a Long Rest.</p>",
@@ -69,16 +69,16 @@
     "Zhentarim Tactics": {
       "advancement": {
         "Feat Ability Score Improvement": {
-          "hint": "Your feat allows you to increase your Strength or Dexterity score by 1, to a maximum of 20.",
-          "title": "Feat Ability Score Improvement"
+          "hint": "你的專長讓你能將敏捷或魅力提升1點，上限為20。",
+          "title": "專長屬性值提升"
         },
         "Versatile Merc (Long Rest)": {
-          "hint": "When you finish a Long Rest, choose a skill in which you have proficiency. You have Expertise in that skill until you finish your next Long Rest.",
-          "title": "Versatile Merc (Long Rest)"
+          "hint": "當你完成長休時，選擇一項你具有熟練的技能。直到你完成下一次長休前，你具有該技能的專精。",
+          "title": "萬能傭兵（長休）"
         }
       },
-      "name": "Zhentarim Tactics",
-      "description": "<p>你獲得下列好處。</p><p><em><strong>Ability Score Increase.</strong></em> Increase your Dexterity or Charisma score by 1, to a maximum of 20.</p><p><em><strong>Retaliate.</strong></em> Immediately after a creature within 5 feet of you hits you with a melee attack, you can make an &amp;Reference[OpportunityAttacks] against that creature.</p><p><em><strong>Versatile Merc.</strong></em> When you finish a Long Rest, choose a skill in which you have proficiency. You have Expertise in that skill until you finish your next Long Rest.</p>"
+      "name": "散塔林戰術",
+      "description": "<p>你獲得下列好處。</p><p><em><strong>【屬性值提升】</strong></em>你的敏捷或魅力提升1點，上限為20。</p><p><em><strong>【以血還血】</strong></em>緊接在一名位於你5呎內的生物以近戰攻擊命中你後，你可以對該生物進行一次&amp;Reference[OpportunityAttacks]{藉機攻擊}。</p><p><em><strong>【萬能傭兵】</strong></em>當你完成長休時，選擇一項你具有熟練的技能。直到你完成下一次長休前，你具有該技能的專精。</p>"
     },
     "Blade of Disaster": {
       "description": "<p>你創造一道長3呎、形如刀刃的位面裂隙，持續至法術結束。該裂隙出現在射程內一處由你選擇的空間，且你可以立即進行至多兩次近戰法術攻擊，每次攻擊都以裂隙5呎內的一個生物或物體為目標。命中時，目標承受10d6力場傷害。若d20的擲骰結果為18或更高，此攻擊造成暴擊。</p><p>在你後續的回合中，你可以採取一個附贈動作，將裂隙移動至多60呎，並對其5呎內的一個生物或物體重複進行這兩次攻擊。你可以讓這些攻擊瞄準同一個目標或不同目標。</p><p>此刃可以無害地穿過任何屏障，包括由<em>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplWallofForc]{力場牆}</em>等法術所創造的屏障。</p>",
@@ -220,24 +220,24 @@
     "Order’s Resilience": {
       "advancement": {
         "Feat Ability Score Improvement": {
-          "title": "Feat Ability Score Improvement",
-          "hint": "Your feat allows you to increase your Strength, Wisdom, or Charisma score by 1, to a maximum of 20."
+          "title": "專長屬性值提升",
+          "hint": "你的專長讓你能將力量、感知或魅力提升1點，上限為20。"
         }
       },
       "activities": {
         "Stronger Together": {
-          "name": "Stronger Together",
-          "condition": "within range of an ally"
+          "name": "團結就是力量",
+          "condition": "位於盟友的範圍內"
         }
       },
-      "name": "Order’s Resilience",
+      "name": "教團韌性",
       "effects": {
         "Stronger Together": {
-          "name": "Stronger Together",
-          "description": "<p>If you are within 5 feet of an ally that doesn’t have the Incapacitated condition, you and that ally have Advantage on Strength saving throws. You can’t use this benefit while you have the Incapacitated condition.</p>"
+          "name": "團結就是力量",
+          "description": "<p>若你與一名未陷入失能狀態的盟友相距不超過5呎，你和該盟友的力量豁免具有優勢。你陷入失能狀態期間無法使用此好處。</p>"
         }
       },
-      "description": "<p>你獲得下列好處。</p><p><em><strong>Ability Score Increase.</strong></em> Increase your Strength, Wisdom, or Charisma score by 1, to a maximum of 20.</p><p><em><strong>Resurge.</strong></em> When you have the Prone condition, you can right yourself with only 5 feet of movement.</p><p><em><strong>Stronger Together.</strong></em> If you are within 5 feet of an ally that doesn’t have the Incapacitated condition, you and that ally have Advantage on Strength saving throws. You can’t use this benefit while you have the Incapacitated condition.</p>"
+      "description": "<p>你獲得下列好處。</p><p><em><strong>【屬性值提升】</strong></em>你的力量、感知或魅力提升1點，上限為20。</p><p><em><strong>【再起】</strong></em>當你陷入伏地狀態時，你只需消耗5呎移動力即可起身。</p><p><em><strong>【團結就是力量】</strong></em>若你與一名未陷入失能狀態的盟友相距不超過5呎，你和該盟友的力量豁免具有優勢。你陷入失能狀態期間無法使用此好處。</p>"
     },
     "Chondathan Freebooter": {
       "advancement": {
@@ -522,22 +522,22 @@
     "Tyro of the Gauntlet": {
       "activities": {
         "Stand As One": {
-          "condition": "When an ally within 5 feet of you is subjected to an effect that would push or pull it",
-          "name": "Stand As One"
+          "condition": "當位於你5呎內的一名盟友受到會推動或拉動其的效應影響時",
+          "name": "比肩而立"
         },
         "Vigilant": {
-          "condition": "When you take the Ready action",
-          "name": "Vigilant"
+          "condition": "當你採取準備動作時",
+          "name": "警惕"
         }
       },
       "effects": {
         "Vigilant": {
-          "description": "<p>The next attack roll made against you has Disadvantage before the start of your next turn.</p>",
-          "name": "Vigilant"
+          "description": "<p>在你的下個回合開始前，對你進行的下一次攻擊檢定具有劣勢。</p>",
+          "name": "警惕"
         }
       },
-      "name": "Tyro of the Gauntlet",
-      "description": "<p>你獲得下列好處。</p><p><em><strong>Stand as One.</strong></em> When an ally within 5 feet of you is subjected to an effect that would push or pull it, you can take a Reaction to prevent that ally from being pushed or pulled. To receive this benefit, the ally can’t have the Incapacitated condition.</p><p><em><strong>Vigilant.</strong></em> When you take the &amp;Reference[Ready]action, the next attack roll made against you has Disadvantage before the start of your next turn.</p>"
+      "name": "鐵腕新兵",
+      "description": "<p>你獲得下列好處。</p><p><em><strong>【比肩而立】</strong></em>當位於你5呎內的一名盟友受到會推動或拉動其的效應影響時，你可以採取反應，防止該盟友被推動或拉動。該盟友必須未陷入失能狀態，才能獲得此好處。</p><p><em><strong>【警惕】</strong></em>當你採取&amp;Reference[Ready]{準備}動作時，在你的下個回合開始前，對你進行的下一次攻擊檢定具有劣勢。</p>"
     },
     "Knight of the Gauntlet": {
       "advancement": {
@@ -573,15 +573,15 @@
     "Enclave Magic": {
       "advancement": {
         "Feat Ability Score Improvement": {
-          "title": "Feat Ability Score Improvement",
-          "hint": "Your feat allows you to increase your Intelligence, Wisdom, or Charisma score by 1, to a maximum of 20."
+          "title": "專長屬性值提升",
+          "hint": "你的專長讓你能將智力、感知或魅力提升1點，上限為20。"
         },
         "v8L2aht8ThvZAW3r": {
-          "hint": "Your feat grants you Beast Sense spell, which is always prepared."
+          "hint": "你的專長賦予你野獸知覺法術，且該法術始終處於準備狀態。"
         }
       },
-      "name": "Enclave Magic",
-      "description": "<p>你獲得下列好處。</p><p><em><strong>Ability Score Increase.</strong></em> Increase your Intelligence, Wisdom, or Charisma score by 1, to a maximum of 20.</p><p><em><strong>Friend to Animals.</strong></em> You have Advantage on ability checks when taking the Influence action with Beasts.</p><p><em><strong>Two Hearts, One Mind.</strong></em> You always have the <em>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplBeastSense]{Beast Sense} </em>spell prepared. You can cast it once without a spell slot, and you regain the ability to cast it in that way when you finish a Long Rest. When you cast it without a spell slot using this feature, it doesn’t require Concentration. You can also cast the spell using any spell slots you have of the appropriate level. The spell’s spellcasting ability is the ability increased by this feat.</p>"
+      "name": "翠色魔法",
+      "description": "<p>你獲得下列好處。</p><p><em><strong>【屬性值提升】</strong></em>你的智力、感知或魅力提升1點，上限為20。</p><p><em><strong>【動物夥伴】</strong></em>當你對野獸採取影響動作時，你的屬性檢定具有優勢。</p><p><em><strong>【雙心一意】</strong></em>你始終準備著<em>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplBeastSense]{野獸知覺}</em>法術。你可以無需消耗法術位施放該法術一次，當你完成長休時，你重獲以此方式施放該法術的能力。當你使用此特性而無需法術位施放該法術時，該法術不需要專注。你也能以你擁有的任意合適環階的法術位施放該法術。該法術的施法屬性是你以此專長提升的屬性。</p>"
     },
     "Genie Touched": {
       "advancement": {
@@ -620,23 +620,23 @@
       "description": "<p>你保護自己抵禦破壞性的能量，使你承受的傷害減少4d6加上你的施法屬性調整值。</p><p>若觸發此法術的傷害來自射程內的一名生物，你可以迫使該生物進行一次體質豁免。該生物豁免失敗時承受4d6力場傷害，成功時傷害減半。</p><p><em><strong>【升環法術效應】</strong></em>法術位每升一個環階，此法術的傷害減免與力場傷害就各增加1d6。</p>"
     },
     "Bladesong": {
-      "description": "<p>As a Bonus Action, you invoke an elven magic called the Bladesong, provided you aren’t wearing armor or using a Shield.</p><p>The Bladesong lasts for 1 minute and ends early if you have the Incapacitated condition, if you don armor or a Shield, or if you use two hands to make an attack with a weapon. You can dismiss the Bladesong at any time (no action required).</p><p>While the Bladesong is active, you gain the following benefits. You can invoke the Bladesong a number of times equal to your Intelligence modifier ([[lookup @abilities.int.mod]]{0}, minimum of once), and you regain all expended uses when you finish a Long Rest. You regain one expended use when you use Arcane Recovery.</p><p><em><strong>Agility.</strong></em> You gain a bonus to your AC equal to your Intelligence modifier (minimum of +1), and your Speed increases by 10 feet. In addition, you have Advantage on Dexterity (Acrobatics) checks.</p><p><em><strong>Bladework.</strong></em> Whenever you attack with a weapon with which you have proficiency, you can use your Intelligence modifier for the attack and damage rolls instead of using Strength or Dexterity.</p><p><em><strong>Focus.</strong></em> When you make a Constitution saving throw to maintain Concentration, you can add your Intelligence modifier to the total.</p><section id=\"secret-PYLkGuyEr8KoysnM\" class=\"secret\"><p><strong>Foundry Note</strong></p><p>The included Active Effect does not modify the ability used for attack and damage rolls. This change should be made in the <strong>Attack</strong> activity of the weapon in use.</p></section>",
+      "description": "<p>你可以採取附贈動作，喚起一種名為劍歌的精靈魔法，前提是你沒有穿戴護甲或使用盾牌。</p><p>劍歌持續1分鐘，若你陷入失能狀態、穿戴護甲或盾牌，或以雙手使用武器進行攻擊，則劍歌提前結束。你可以隨時解除劍歌（無需動作）。</p><p>劍歌啟用期間，你獲得下列好處。你可以喚起劍歌的次數等同於你的智力調整值（[[lookup @abilities.int.mod]]{0}，至少1次），當你完成長休時重獲所有已消耗的使用次數。當你使用奧術恢復時，你重獲一次已消耗的使用次數。</p><p><em><strong>【靈動】</strong></em>你的AC獲得等同於你智力調整值的加值（最低+1），且你的速度增加10呎。此外，你進行敏捷（特技）檢定時具有優勢。</p><p><em><strong>【劍法】</strong></em>每當你使用你具有熟練的武器進行攻擊時，你可以使用你的智力調整值，取代力量或敏捷來進行攻擊檢定與傷害擲骰。</p><p><em><strong>【凝神】</strong></em>當你為維持專注而進行體質豁免時，你可以將你的智力調整值加入總值。</p><section id=\"secret-PYLkGuyEr8KoysnM\" class=\"secret\"><p><strong>Foundry 註記</strong></p><p>所含的Active Effect不會修改攻擊與傷害擲骰所使用的屬性。此變更應在所使用武器的<strong>攻擊</strong>行動中進行。</p></section>",
       "activities": {
         "Regain Use (Arcane Recovery)": {
-          "condition": "when you use Arcane Recovery",
-          "name": "Regain Use (Arcane Recovery)"
+          "condition": "當你使用奧術恢復時",
+          "name": "重獲使用次數（奧術恢復）"
         },
         "Invoke Bladesong": {
-          "name": "Invoke Bladesong"
+          "name": "喚起劍歌"
         }
       },
       "effects": {
         "Bladesong": {
-          "name": "Bladesong",
+          "name": "劍歌",
           "description": "<p>@Embed[Compendium.dnd-heroes-faerun.options.Item.hofBldBladesong0 inline]</p>"
         }
       },
-      "name": "Bladesong"
+      "name": "劍歌"
     },
     "Emerald Enclave Caretaker": {
       "advancement": {
@@ -758,17 +758,17 @@
     "Lords' Alliance Agent": {
       "effects": {
         "Adv. Next Attack": {
-          "description": "<p>You have Advantage on your next attack roll against that enemy before the end of your next turn.</p>",
-          "name": "Adv. Next Attack"
+          "description": "<p>直到你的下個回合結束前，你對該敵人進行的下一次攻擊檢定具有優勢。</p>",
+          "name": "下次攻擊優勢"
         }
       },
       "activities": {
         "Mark with Advantage": {
-          "name": "Mark with Advantage"
+          "name": "標記優勢"
         }
       },
-      "name": "Lords' Alliance Agent",
-      "description": "<p>你獲得下列好處。</p><p><em><strong>Inspiring Strike.</strong></em> Once per turn when you score a Critical Hit against a creature, you can choose an ally within 30 feet of yourself who can see or hear you and who lacks Heroic Inspiration. That ally gains Heroic Inspiration.</p><p><em><strong>Reassert Honor.</strong></em> When an enemy you can see deals damage to an ally of yours that is within 5 feet of you, you have Advantage on your next attack roll against that enemy before the end of your next turn.</p><section class=\"secret\" id=\"secret-mWiw16lJG04PHCaY\"><p><strong>Foundry Note</strong></p><p>This feature includes an <strong>Active Effect</strong> that serves as a reminder for your Advantage, though it does not automate the process.</p></section>"
+      "name": "領主聯盟特工",
+      "description": "<p>你獲得下列好處。</p><p><em><strong>【激勵打擊】</strong></em>每回合一次，當你對一名生物造成暴擊時，你可以選擇位於你30呎內一名能看見或聽見你、且沒有英雄激勵的盟友。該盟友獲得英雄激勵。</p><p><em><strong>【重獲榮譽】</strong></em>當一名你所能看見的敵人對位於你5呎內的盟友造成傷害時，直到你的下個回合結束前，你對該敵人進行的下一次攻擊檢定具有優勢。</p><section class=\"secret\" id=\"secret-mWiw16lJG04PHCaY\"><p><strong>Foundry 註記</strong></p><p>此特性包含一個<strong>Active Effect</strong>，用來提醒你具有優勢，但不會自動處理此流程。</p></section>"
     },
     "Frigid Explorer": {
       "description": "<p>你獲得下列好處。</p><p><em><strong>Biting Cold.</strong></em> Damage from your weapon attacks, Ranger spells, and Ranger features ignores Resistance to Cold damage.</p><p><em><strong>Frost Resistance.</strong></em> You have Resistance to Cold damage.</p><p><em><strong>Polar Strikes.</strong></em> When you hit a creature with an attack roll using a weapon, you can deal an extra 1d4 Cold damage to the target, which can take this extra damage only once per turn. When you reach Ranger level 11, this extra damage increases to 1d6.</p><section id=\"secret-bnYrR1lg9cK7jGHJ\" class=\"secret\"><p><strong>Foundry Note</strong></p><p>This feature's extra damage can either be rolled individually via the <strong>Polar Strike</strong> activity, or as a toggled bonus via the <strong>Polar Strikes Damage</strong> active effect applying to all weapon damage rolls.</p></section>",
@@ -910,12 +910,12 @@
       "name": "Elemental Smite"
     },
     "Song of Defense": {
-      "description": "<p>When you take damage while your Bladesong is active, you can take a Reaction to expend one spell slot and reduce the damage taken by an amount equal to five times the spell slot’s level.</p>",
-      "name": "Song of Defense",
+      "description": "<p>當你在劍歌啟用期間承受傷害時，你可以採取反應，消耗一個法術位，並將所承受的傷害減少等同於該法術位環階5倍的數值。</p>",
+      "name": "守禦之歌",
       "activities": {
         "utility": {
-          "condition": "When you take damage while your Bladesong is active",
-          "roll": "Damage Reduction"
+          "condition": "當你在劍歌啟用期間承受傷害時",
+          "roll": "傷害減免"
         }
       }
     },
@@ -998,18 +998,18 @@
     "Purple Dragon Rook": {
       "advancement": {
         "Feat Proficiencies": {
-          "title": "Feat Proficiencies",
-          "hint": "You gain proficiency in one of the following skills: Insight, Performance, or Persuasion."
+          "title": "專長熟練",
+          "hint": "你獲得下列其中一項技能的熟練：洞悉、表演或說服。"
         }
       },
       "activities": {
         "Rallying Cry": {
-          "name": "Rallying Cry",
-          "condition": "don't have the Incapacitated condition"
+          "name": "振軍戰吼",
+          "condition": "未陷入失能狀態"
         }
       },
-      "name": "Purple Dragon Rook",
-      "description": "<p>你獲得下列好處。</p><p><em><strong>Entreat.</strong></em> You gain proficiency in one of the following skills: Insight, Performance, or Persuasion.</p><p><em><strong>Rallying Cry.</strong></em> When you roll Initiative and don’t have the Incapacitated condition, you can choose a number of creatures equal to your Proficiency Bonus ([[lookup @prof]]{2}) that you can see within 30 feet of yourself. Those creatures gain Heroic Inspiration.</p><p>Once you use this benefit, you can’t do so again until you finish a Long Rest.</p>"
+      "name": "紫龍新兵",
+      "description": "<p>你獲得下列好處。</p><p><em><strong>【待人接物】</strong></em>你獲得下列其中一項技能的熟練：洞悉、表演或說服。</p><p><em><strong>【振軍戰吼】</strong></em>當你擲先攻且未陷入失能狀態時，你可以選擇數量等同於你熟練加值（[[lookup @prof]]{2}），且位於你30呎內你所能看見的生物。這些生物獲得英雄激勵。</p><p>此好處一經使用，直到完成長休前你都無法再次使用。</p>"
     },
     "Holy Star of Mystra": {
       "effects": {
@@ -1170,42 +1170,42 @@
       "description": "<p>你獲得下列好處。</p><p><em><strong>Cutthroat.</strong></em> You regain one expended use of Bloodthirst when you finish a Short Rest.</p><p><em><strong>Murderous Intent.</strong></em> When you roll for your Sneak Attack damage, you can treat a roll of a 1 or 2 on the die as a 3.</p><section class=\"secret\" id=\"secret-Xdh58rC9vQ95P7Mv\"><p><strong>Foundry Note</strong></p><p>An <strong>Active Effect</strong> is enabled that will treat a roll of a 1 or 2 on the <strong>Sneak Attack die</strong> as a 3.</p></section>"
     },
     "Harper Teamwork": {
-      "description": "<p>你獲得下列好處。</p><p><em><strong>Ability Score Increase.</strong></em> Increase your Dexterity or Charisma score by 1, to a maximum of 20.</p><p><em><strong>Withering Wordplay.</strong></em> When you take the &amp;Reference[Help] action to assist an ally’s attack roll against an enemy, that enemy also has Disadvantage on the first saving throw it makes before the start of your next turn.</p><p><em><strong>Inspiring Willpower. </strong></em>If you succeed on a saving throw to end the Frightened or Paralyzed condition on yourself, you can choose one ally you can see within 30 feet of yourself that has the same condition. That condition immediately ends for that ally.</p>",
+      "description": "<p>你獲得下列好處。</p><p><em><strong>【屬性值提升】</strong></em>你的敏捷或魅力提升1點，上限為20。</p><p><em><strong>【妙語連珠】</strong></em>當你採取&amp;Reference[Help]{協助}動作輔助盟友對一名敵人的攻擊檢定時，該敵人在你的下個回合開始前進行的第一次豁免檢定也具有劣勢。</p><p><em><strong>【激勵人心】</strong></em>若你在結束你身上恐慌或麻痺狀態的豁免檢定中成功，則你可以選擇位於你30呎內一名你所能看見且具有相同狀態的盟友。該盟友身上的該狀態立即結束。</p>",
       "advancement": {
         "Feat Ability Score Improvement": {
-          "title": "Feat Ability Score Improvement",
-          "hint": "Your feat allows you to increase your Dexterity or Charisma score by 1, to a maximum of 20."
+          "title": "專長屬性值提升",
+          "hint": "你的專長讓你能將敏捷或魅力提升1點，上限為20。"
         }
       },
       "effects": {
         "Withering Wordplay": {
-          "name": "Withering Wordplay",
-          "description": "<p>The target has Disadvantage on saving throws until the end of the start of your next next turn.</p>"
+          "name": "妙語連珠",
+          "description": "<p>直到你的下個回合開始前，目標進行的豁免檢定具有劣勢。</p>"
         }
       },
-      "name": "Harper Teamwork",
+      "name": "豎琴手合力",
       "activities": {
         "Withering Wordplay": {
-          "condition": "you take the Help action to assist an ally's attack roll",
-          "name": "Withering Wordplay"
+          "condition": "你採取協助動作輔助盟友的攻擊檢定",
+          "name": "妙語連珠"
         }
       }
     },
     "Spellfire Adept": {
       "advancement": {
         "Feat Ability Score Improvement": {
-          "hint": "Your feat allows you to increase your Intelligence, Wisdom, or Charisma score by 1, to a maximum of 20.",
-          "title": "Feat Ability Score Improvement"
+          "hint": "你的專長讓你能將智力、感知或魅力提升1點，上限為20。",
+          "title": "專長屬性值提升"
         }
       },
-      "name": "Spellfire Adept",
+      "name": "咒火專家",
       "activities": {
         "Fueled Spellfire": {
-          "name": "Fueled Spellfire",
-          "roll": "Roll Largest Hit Dice"
+          "name": "咒火燎原",
+          "roll": "擲最大生命骰"
         }
       },
-      "description": "<p>你獲得下列好處。</p><p><em><strong>Ability Score Increase.</strong></em> Increase your Intelligence, Wisdom, or Charisma score by 1, to a maximum of 20.</p><p><em><strong>Fueled Spellfire.</strong></em> Once per turn, when a spell you cast deals Radiant damage, you can expend up to two Hit Point Dice, roll them, and add the total rolled to one damage roll of the spell.</p><p><em><strong>Searing Spellfire.</strong></em> When you make a damage roll that deals Radiant damage, it ignores Resistance to Radiant damage.</p>"
+      "description": "<p>你獲得下列好處。</p><p><em><strong>【屬性值提升】</strong></em>你的智力、感知或魅力提升1點，上限為20。</p><p><em><strong>【咒火燎原】</strong></em>每回合一次，當你施放的法術造成光耀傷害時，你可以消耗至多兩枚生命骰並擲骰，將擲出的總和加入該法術的其中一次傷害擲骰。</p><p><em><strong>【焦灼咒火】</strong></em>當你擲出造成光耀傷害的傷害骰時，該傷害無視光耀傷害抗力。</p>"
     },
     "Unfettered Mind": {
       "advancement": {
@@ -1432,8 +1432,8 @@
       "name": "秘鎖守望者"
     },
     "Bladesinger": {
-      "name": "Bladesinger",
-      "description": "<blockquote><p>Wield Weapon and Wizardry in Elegant Tandem</p></blockquote><p>Bladesingers master a tradition of wizardry that incorporates swordplay and dance. In combat, a Bladesinger uses intricate, elegant maneuvers that fend off harm and allow the Bladesinger to channel magic into devastating attacks and a cunning defense. Many who have observed a Bladesinger at work remember the display as one of the more beautiful experiences in their lif­e—a glorious dance accompanied by a singing blade.</p><p>Bladesinging is associated with the ancient elven societies that first mastered the art and coined the term. Even today, most Bladesingers still hail from old elven realms, such as Myth Drannor, or from non-elven societies that share land and history with elves, such as the Silver Marches. Wherever they hail from, Bladesingers take their talents all across the Realms to help common people and perform heroic deeds. Most communities greet the arrival of a Bladesinger as a good omen.</p>",
+      "name": "劍詠者",
+      "description": "<blockquote><p>御劍喚法，靈動優雅</p></blockquote><p>劍詠者掌握著一種結合劍術與舞蹈的奧法傳承。在戰鬥中，劍詠者運用一系列錯綜複雜而優雅的招式來抵禦傷害，並將魔法導入毀滅性的攻擊與精妙的防禦之中。許多曾目睹劍詠者展露技藝的人，都將那番景象視為一生中最美妙的經歷之一——那是一場華麗之舞，伴隨著高歌的劍刃。</p><p>劍詠與最先掌握並命名這項技藝的古代精靈社會有著緊密的聯繫。即便時至今日，大多數劍詠者仍然出身於古老的精靈國度，如迷斯卓諾，或是出身於與精靈共享土地與歷史的非精靈社會，如銀月聯邦。無論出身何處，劍詠者都會將他們的天賦帶往國度各地，協助平民百姓並成就英雄偉業。大多數社群都將劍詠者的到來視為好兆頭。</p>",
       "advancement": {
         "Subclass Features": {
           "title": "子職業特性"
@@ -1443,27 +1443,27 @@
     "Dragonscarred": {
       "advancement": {
         "Feat Damage Resistance": {
-          "title": "Feat Damage Resistance",
-          "hint": "When you gain this feat, choose Acid, Cold, Fire, Lightning, or Poison. You have Resistance to the chosen damage type."
+          "title": "專長傷害抗力",
+          "hint": "當你獲得此專長時，從強酸、寒冷、火焰、閃電、毒素中選擇一種。你具有所選傷害類型的抗力。"
         },
         "Feat Ability Score Improvement": {
-          "title": "Feat Ability Score Improvement",
-          "hint": "Your feat allows you to increase your Constitution score by 1, to a maximum of 20."
+          "title": "專長屬性值提升",
+          "hint": "你的專長讓你能將體質或魅力提升1點，上限為20。"
         }
       },
-      "description": "<p>你獲得下列好處。</p><p><em><strong>屬性值提升</strong></em> Increase your Constitution or Charisma score by 1, to a maximum of 20.</p><p><em><strong>Damage Resistance.</strong></em> When you gain this feat, choose Acid, Cold, Fire, Lightning, or Poison. You have Resistance to the chosen damage type.</p><p><em><strong>Fearsome Power.</strong></em> When you deal damage to a creature as part of the Attack or Magic action on your turn, you can use the Dragon’s Terror benefit of the Cult of the Dragon Initiate feat as a Bonus Action this turn.</p>",
+      "description": "<p>你獲得下列好處。</p><p><em><strong>【屬性值提升】</strong></em>你的體質或魅力提升1點，上限為20。</p><p><em><strong>【傷害抗力】</strong></em>當你獲得此專長時，從強酸、寒冷、火焰、閃電、毒素中選擇一種。你擁有所選傷害類型的抗力。</p><p><em><strong>【可怖偉力】</strong></em>當你在你的回合中，以攻擊或魔法動作的一部分對一名生物造成傷害時，你可以在本回合以附贈動作使用新晉龍巫教徒專長的龍之威好處。</p>",
       "activities": {
         "Dragon's Terror (Bonus Action)": {
-          "target": "visible target",
-          "condition": "you deal damage to a creature as part of the Attack or Magic action on your turn",
-          "name": "Dragon's Terror (Bonus Action)"
+          "target": "可見目標",
+          "condition": "你在你的回合中，以攻擊或魔法動作的一部分對一名生物造成傷害",
+          "name": "龍之威（附贈動作）"
         }
       },
-      "name": "Dragonscarred",
+      "name": "龍之瘢",
       "effects": {
         "Frightened": {
-          "description": "<p>The target has the &amp;Reference[Frightened apply=false]{Frightened} condition until the end of your next turn. If the target succeeds on the save or when the effect ends for a target, the target is immune to this effect for 24 hours.</p>",
-          "name": "Frightened"
+          "description": "<p>目標陷入&amp;Reference[Frightened apply=false]{恐慌}狀態，直到你的下個回合結束前。若目標豁免成功，或當目標身上的此效應結束時，該目標在24小時內免疫此效應。</p>",
+          "name": "恐慌"
         }
       }
     },
@@ -1500,7 +1500,7 @@
     },
     "Harper Agent": {
       "name": "豎琴手特工",
-      "description": "<p>你獲得下列好處。</p><p><em><strong>盜賊黑話　</strong></em>你知曉盜賊黑話。</p><p><em><strong>樂器訓練　</strong></em>你獲得一項你所選擇樂器的熟練。</p><p><em><strong>分神旋律　</strong></em>當你採取&amp;Reference[Help]動作輔助盟友的攻擊檢定時，你可以分散位於你30呎內且非處於你5呎內敵人的注意力，只要該敵人能看見或聽見你。</p>",
+      "description": "<p>你獲得下列好處。</p><p><em><strong>【盜賊黑話】</strong></em>你知曉盜賊黑話。</p><p><em><strong>【樂器訓練】</strong></em>你獲得一項你所選擇樂器的熟練。</p><p><em><strong>【分神旋律】</strong></em>當你採取&amp;Reference[Help]{協助}動作輔助盟友的攻擊檢定時，你可以分散位於你30呎內敵人的注意力，而非處於你5呎內，只要該敵人能看見或聽見你。</p>",
       "advancement": {
         "Trait Language & Musical Instrument Proficiency": {
           "title": "特性語言＆樂器熟練",
@@ -1626,14 +1626,14 @@
       "name": "Group Recovery"
     },
     "Emerald Enclave Fledgling": {
-      "name": "Emerald Enclave Fledgling",
+      "name": "翠綠閒庭新羽",
       "advancement": {
         "Feat Spell": {
-          "title": "Feat Spell",
-          "hint": "You always have the Speak with Animals spell prepared and can cast it with any spell slots you have. Intelligence, Wisdom, or Charisma is your spellcasting ability for this spell (choose when you select this feat). When you cast this spell as a Ritual, its duration is 8 hours."
+          "title": "專長法術",
+          "hint": "你始終準備著動物交談術法術，且能使用你擁有的任意法術位施放該法術。你施放該法術的施法屬性是智力、感知或魅力（在你選取此專長時選擇）。當你以儀式施放該法術時，其持續時間為8小時。"
         }
       },
-      "description": "<p>你獲得下列好處。</p><p><em><strong>Speak with Animals.</strong></em> You always have the <em>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplSpeakwithA]{Speak with Animals} </em>spell prepared and can cast it with any spell slots you have. Intelligence, Wisdom, or Charisma is your spellcasting ability for this spell (choose when you select this feat). When you cast this spell as a Ritual, its duration is 8 hours.</p><p><em><strong>Tag Team.</strong></em> When you take the &amp;Reference[Help] action, you can switch places with a willing ally within 5 feet of yourself as part of that same action. This movement doesn’t provoke &amp;Reference[Opportunity Attacks]. You can’t use this benefit if the ally has the Incapacitated condition.</p>"
+      "description": "<p>你獲得下列好處。</p><p><em><strong>【動物交談】</strong></em>你始終準備著<em>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplSpeakwithA]{動物交談術}</em>法術，且能使用你擁有的任意法術位施放該法術。你施放該法術的施法屬性是智力、感知或魅力（在你選取此專長時選擇）。當你以儀式施放該法術時，其持續時間為8小時。</p><p><em><strong>【雙人輪打】</strong></em>當你採取&amp;Reference[Help]{協助}動作時，作為同一動作的一部分，你可以與位於你5呎內一名自願的盟友交換位置。此移動不會引發&amp;Reference[Opportunity Attacks]{藉機攻擊}。若該盟友陷入失能狀態，你無法使用此好處。</p>"
     },
     "Inspiring Commander": {
       "advancement": {
@@ -1645,8 +1645,8 @@
       "name": "Inspiring Commander"
     },
     "Training in War and Song": {
-      "description": "<p>You gain proficiency with all Melee Martial weapons that don’t have the Two-Handed or Heavy property. You can use a Melee weapon with which you have proficiency as a Spellcasting Focus for your Wizard spells.</p><p>You also gain proficiency in one of the following skills of your choice: Acrobatics, Athletics, Performance, or Persuasion.</p>",
-      "name": "Training in War and Song"
+      "description": "<p>你獲得所有不具有雙手或重型屬性的軍用近戰武器的熟練。你可以將你具有熟練的近戰武器用作你法師法術的施法法器。</p><p>你還獲得你所選擇下列其中一項技能的熟練：特技、運動、表演或說服。</p>",
+      "name": "戰歌訓練"
     },
     "Boon of the Bright Sun": {
       "effects": {
@@ -1721,41 +1721,41 @@
     "Genie Magic": {
       "advancement": {
         "Feat Ability Score Improvement": {
-          "hint": "Your feat allows you to increase your Intelligence, Wisdom, or Charisma score by 1, to a maximum of 20.",
-          "title": "Feat Ability Score Improvement"
+          "hint": "你的專長讓你能將智力、感知或魅力提升1點，上限為20。",
+          "title": "專長屬性值提升"
         }
       },
       "activities": {
         "Wish Magic": {
-          "name": "Wish Magic"
+          "name": "祈願魔法"
         }
       },
-      "name": "Genie Magic",
-      "description": "<p>你獲得下列好處。</p><p><em><strong>Ability Score Increase. </strong></em>Increase your Intelligence, Wisdom, or Charisma score by 1, to a maximum of 20.</p><p><em><strong>Wish Magic.</strong></em> As a Magic action, you can cast a level 1 spell of your choice from the Sorcerer spell list that has a casting time of an action. Once you use this benefit, you can’t do so again until you finish a Long Rest. The spell’s spellcasting ability is the ability increased by this feat.</p><p>When you reach level 11, the spell you cast with this feat is cast as though using a level 2 spell slot. When you reach level 17, the spell is cast as though using a level 3 spell slot.</p>"
+      "name": "巨靈魔法",
+      "description": "<p>你獲得下列好處。</p><p><em><strong>【屬性值提升】</strong></em>你的智力、感知或魅力提升1點，上限為20。</p><p><em><strong>【祈願魔法】</strong></em>你可以採取魔法動作，施放一道你從術士法術列表中所選擇、施法時間為一個動作的一環法術。此好處一經使用，直到完成長休前你都無法再次使用。該法術的施法屬性是你以此專長提升的屬性。</p><p>當你達到11級時，你以此專長施放的法術視為使用二環法術位施放。當你達到17級時，該法術視為使用三環法術位施放。</p>"
     },
     "Mythal Touched": {
       "activities": {
         "Save Using Wisdom": {
-          "condition": "If a spell attack hits you or you fail a saving throw against a spell",
-          "name": "Save Using Wisdom"
+          "condition": "若一次法術攻擊命中你，或你對抗法術的豁免檢定失敗",
+          "name": "使用感知豁免"
         },
         "Save Using Intellegence": {
-          "condition": "If a spell attack hits you or you fail a saving throw against a spell",
-          "name": "Save Using Intellegence"
+          "condition": "若一次法術攻擊命中你，或你對抗法術的豁免檢定失敗",
+          "name": "使用智力豁免"
         },
         "Save Using Charisma": {
-          "condition": "If a spell attack hits you or you fail a saving throw against a spell",
-          "name": "Save Using Charisma"
+          "condition": "若一次法術攻擊命中你，或你對抗法術的豁免檢定失敗",
+          "name": "使用魅力豁免"
         }
       },
       "advancement": {
         "Feat Ability Score Improvement": {
-          "title": "Feat Ability Score Improvement",
-          "hint": "Your feat allows you to increase your Intelligence, Wisdom, or Charisma score by 1, to a maximum of 20."
+          "title": "專長屬性值提升",
+          "hint": "你的專長讓你能將智力、感知或魅力提升1點，上限為20。"
         }
       },
-      "description": "<p>你獲得下列好處。</p><p><em><strong>Ability Score Increase. </strong></em>Increase your Intelligence, Wisdom, or Charisma score by 1, to a maximum of 20.</p><p><em><strong>Mythal Ward.</strong></em> If a spell attack hits you or you fail a saving throw against a spell, you can take a Reaction to roll on the Mythal-Touched Magic table to create a magical effect. If an effect requires a saving throw, the DC equals 8 plus the modifier of the ability increased by this feat and your Proficiency Bonus.</p><p>You can use this benefit a number of times equal to your Proficiency Bonus, and you regain all expended uses when you finish a Long Rest.</p><p>@Embed[Compendium.dnd-heroes-faerun.tables.RollTable.hofMythalTouched rollable classes=\"hof caption-top\" caption=false resultLabel=\"Effect\"]{Mythal-Touched Magic}</p>",
-      "name": "Mythal Touched"
+      "description": "<p>你獲得下列好處。</p><p><em><strong>【屬性值提升】</strong></em>你的智力、感知或魅力提升1點，上限為20。</p><p><em><strong>【迷鎖守護】</strong></em>若一次法術攻擊命中你，或你對抗法術的豁免檢定失敗，則你可以採取反應，擲一次迷鎖觸碰魔法表以創造一個魔法效應。若該效應需要豁免檢定，則其DC為8 + 你以此專長提升之屬性的調整值 + 你的熟練加值。</p><p>你能使用此好處的次數等同於你的熟練加值，當你完成長休時重獲所有已消耗的使用次數。</p><p>@Embed[Compendium.dnd-heroes-faerun.tables.RollTable.hofMythalTouched rollable classes=\"hof caption-top\" caption=false resultLabel=\"Effect\"]{迷鎖觸碰魔法}</p>",
+      "name": "迷鎖觸碰"
     },
     "Wardaway": {
       "activities": {
@@ -1822,33 +1822,33 @@
       "name": "Boon of Bountiful Health"
     },
     "Street Justice": {
-      "description": "<p>你獲得下列好處。</p><p><em><strong>Ability Score Increase. </strong></em>Increase your Strength or Dexterity score by 1, to a maximum of 20.</p><p><em><strong>Headlock.</strong></em> Your allies have Advantage on attack rolls against a creature Grappled by you.</p><p><em><strong>Sturdy Knot.</strong></em> When you use Chain, Manacles, or Rope to bind a creature, add your Proficiency Bonus to the DC to escape or burst the Chain, Manacles, or Rope.</p><p><em><strong>Tough Talk.</strong></em> A creature’s Hostile attitude doesn’t impose Disadvantage on your Charisma (Intimidation) checks to influence that creature.</p>",
+      "description": "<p>你獲得下列好處。</p><p><em><strong>【屬性值提升】</strong></em>你的力量或敏捷提升1點，上限為20。</p><p><em><strong>【鎖頭技】</strong></em>你的盟友對被你擒抱的生物所進行的攻擊檢定具有優勢。</p><p><em><strong>【堅固鎖結】</strong></em>當你使用鎖鏈、鐐銬或繩索捆綁一名生物時，將你的熟練加值加入掙脫或掙斷該鎖鏈、鐐銬或繩索的DC中。</p><p><em><strong>【強硬言辭】</strong></em>生物的敵對態度不會使你為影響該生物而進行的魅力（威嚇）檢定具有劣勢。</p>",
       "advancement": {
         "Feat Ability Score Improvement": {
-          "hint": "Your feat allows you to increase your Strength or Dexterity score by 1, to a maximum of 20.",
-          "title": "Feat Ability Score Improvement"
+          "hint": "你的專長讓你能將力量或敏捷提升1點，上限為20。",
+          "title": "專長屬性值提升"
         }
       },
-      "name": "Street Justice"
+      "name": "街頭正義"
     },
     "Cold Caster": {
-      "description": "<p>你獲得下列好處。</p><p><em><strong>Ability Score Increase.</strong></em><strong> </strong>Increase your Intelligence, Wisdom, or Charisma score by 1, to a maximum of 20.</p><p><em><strong>Cantrip.</strong></em><strong> </strong>You learn the <em>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplRayofFrost]{Ray of Frost}</em> cantrip. If you already know it, you learn a different Wizard cantrip of your choice. The spell’s spellcasting ability is the ability increased by this feat.</p><p><em><strong>Frostbite. </strong></em>Once per turn when you hit a creature with an attack roll and deal Cold damage, you can temporarily negate the creature’s defenses. The creature subtracts [[/r 1d4]] from the next saving throw it makes before the end of your next turn.</p>",
+      "description": "<p>你獲得下列好處。</p><p><em><strong>【屬性值提升】</strong></em><strong> </strong>你的智力、感知或魅力提升1點，上限為20。</p><p><em><strong>【戲法】</strong></em><strong> </strong>你習得<em>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplRayofFrost]{冷凍射線}</em>戲法。若你已知曉該戲法，則你改為習得另一道你所選擇的法師戲法。該法術的施法屬性是你以此專長提升的屬性。</p><p><em><strong>【霜噬】</strong></em>每回合一次，當你以攻擊檢定命中一名生物並造成寒冷傷害時，你可以暫時削弱該生物的防禦。該生物在你的下個回合結束前所進行的下一次豁免檢定，須減去[[/r 1d4]]。</p>",
       "advancement": {
         "Feat Spell": {
-          "hint": "You learn the Ray of Frost cantrip. If you already know it, you learn a different Wizard cantrip of your choice.",
-          "title": "Feat Spell"
+          "hint": "你習得冷凍射線戲法。若你已知曉該戲法，則你改為習得另一道你所選擇的法師戲法。",
+          "title": "專長法術"
         },
         "Feat Ability Score Improvement": {
-          "title": "Feat Ability Score Improvement",
-          "hint": "Your feat allows you to increase your Intelligence, Wisdom, or Charisma score by 1, to a maximum of 20."
+          "title": "專長屬性值提升",
+          "hint": "你的專長讓你能將智力、感知或魅力提升1點，上限為20。"
         }
       },
       "activities": {
         "Negate Creature’s Defense": {
-          "name": "Negate Creature’s Defense"
+          "name": "削弱生物防禦"
         }
       },
-      "name": "Cold Caster"
+      "name": "寒地施法者"
     },
     "Boon of Revelry": {
       "advancement": {
@@ -1938,48 +1938,48 @@
     "Fairy Trickster": {
       "effects": {
         "Flustered": {
-          "name": "Flustered",
-          "description": "<p>The target has Disadvantage on saving throws until the end of the attacking creature's next turn.</p>"
+          "name": "驚惶失措",
+          "description": "<p>直到攻擊者的下個回合結束前，目標的豁免檢定具有劣勢。</p>"
         }
       },
       "advancement": {
         "Feat Ability Score Improvement": {
-          "hint": "Your feat allows you to increase your Dexterity or Charisma score by 1, to a maximum of 20.",
-          "title": "Feat Ability Score Improvement"
+          "hint": "你的專長讓你能將敏捷或魅力提升1點，上限為20。",
+          "title": "專長屬性值提升"
         }
       },
       "activities": {
         "Save Using Charisma": {
-          "name": "Save Using Charisma"
+          "name": "使用魅力豁免"
         },
         "Save Using Dexterity": {
-          "name": "Save Using Dexterity"
+          "name": "使用敏捷豁免"
         }
       },
-      "name": "Fairy Trickster",
-      "description": "<p>你獲得下列好處。</p><p><em><strong>Ability Score Increase. </strong></em>Increase your Dexterity or Charisma ability score by 1, to a maximum of 20.</p><p><em><strong>Faerie Trod Trotter. </strong></em>When you take the &amp;Reference[Disengage] action on your turn, &amp;Reference[Difficult Terrain] doesn’t cost you extra movement for the rest of that turn.</p><p><em><strong>Flustering Strike. </strong></em>When you hit a creature with an attack roll, you can attempt to fluster the target. The target must succeed on a Wisdom saving throw (DC 8 plus the ability modifier of the <span style=\"text-decoration:underline\"><span style=\"text-decoration:underline\">score increased by this feat</span></span> and your Proficiency Bonus) or have Disadvantage on saving throws until the end of your next turn.</p><p>You can use this benefit a number of times equal to your Proficiency Bonus, and you regain all expended uses when you finish a Long Rest.</p><section class=\"secret\" id=\"secret-jfkJVv5bRBSmGMbu\"><p><strong>Foundry Note</strong></p><p>This feature includes an <strong>Active Effect (AE)</strong> that can be used as a reminder by the target but does not automate the above benefits.</p></section>"
+      "name": "妖精詭術",
+      "description": "<p>你獲得下列好處。</p><p><em><strong>【屬性值提升】</strong></em>你的敏捷或魅力提升1點，上限為20。</p><p><em><strong>【妖精輕步】</strong></em>當你在你的回合中採取&amp;Reference[Disengage]{撤離}動作時，本回合剩餘的時間內，&amp;Reference[Difficult Terrain]{困難地形}不會使你消耗額外的移動力。</p><p><em><strong>【驚惶打擊】</strong></em>當你以攻擊檢定命中一名生物時，你可以嘗試使目標驚惶失措。目標必須成功通過一次感知豁免（DC為8 + <span style=\"text-decoration:underline\"><span style=\"text-decoration:underline\">你以此專長提升之屬性</span></span>的調整值 + 你的熟練加值），否則直到你的下個回合結束前，該目標的豁免檢定具有劣勢。</p><p>你能使用此好處的次數等同於你的熟練加值，當你完成長休時重獲所有已消耗的使用次數。</p><section class=\"secret\" id=\"secret-jfkJVv5bRBSmGMbu\"><p><strong>Foundry 註記</strong></p><p>此特性包含一個<strong>Active Effect（AE）</strong>，可供目標用來提醒，但不會自動處理上述好處。</p></section>"
     },
     "Spellfire Spark": {
       "activities": {
         "Magic Absorption": {
-          "name": "Magic Absorption"
+          "name": "魔法吸收"
         },
         "Sacred Flame (Bonus Action)": {
-          "name": "Sacred Flame (Bonus Action)"
+          "name": "聖焰（附贈動作）"
         }
       },
-      "name": "Spellfire Spark",
+      "name": "咒火火花",
       "advancement": {
         "Feat Spell": {
-          "title": "Feat Spell",
-          "hint": "You learn the Sacred Flame cantrip. Intelligence, Wisdom, or Charisma is your spellcasting ability for this spell (choose when you select this feat)."
+          "title": "專長法術",
+          "hint": "你習得聖焰戲法。你施放該法術的施法屬性是智力、感知或魅力（在你選取此專長時選擇）。"
         }
       },
-      "description": "<p>你獲得下列好處。</p><p><em><strong>Magic Absorption. </strong></em>Once per turn, when you take damage from a spell or magical effect, you reduce the total damage taken by [[/heal]]{1d4}. You can’t use this benefit if you have the Incapacitated condition.</p><p><em><strong>Spellfire Flame.</strong></em> You learn the <em>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplSacredFlam]{Sacred Flame}</em> cantrip. Intelligence, Wisdom, or Charisma is your spellcasting ability for this spell (choose when you select this feat). You can also cast this cantrip as a Bonus Action a number of times equal to your Proficiency Bonus, and you regain all expended uses when you finish a Long Rest.</p><section class=\"secret\" id=\"secret-7EfzHVUyBSzr0gKt\"><p><strong>Foundry Note</strong></p><p>Magic Absorption is a healing activity that can be used after taking damage from a spell or magical effect.</p><p><em>Sacred Flame</em> is automatically granted as part of the feat. This feat also allows you to cast <em>Sacred Flame</em> as a bonus action.</p></section>"
+      "description": "<p>你獲得下列好處。</p><p><em><strong>【魔法吸收】</strong></em>每回合一次，當你承受來自法術或魔法效應的傷害時，你令你承受的總傷害減少[[/heal]]{1d4}。若你陷入失能狀態，你無法使用此好處。</p><p><em><strong>【咒火之焰】</strong></em>你習得<em>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplSacredFlam]{聖焰}</em>戲法。你施放該法術的施法屬性是智力、感知或魅力（當你選取此專長時選擇）。你也能以附贈動作施放此戲法，次數等同於你的熟練加值，當你完成長休時重獲所有已消耗的使用次數。</p><section class=\"secret\" id=\"secret-7EfzHVUyBSzr0gKt\"><p><strong>Foundry 註記</strong></p><p>「魔法吸收」是一個治療行動，可在你受到法術或魔法效應的傷害後使用。</p><p><em>聖焰</em>會隨此專長自動獲得。此專長也讓你能以附贈動作施放<em>聖焰</em>戲法。</p></section>"
     },
     "Extra Attack": {
-      "name": "Extra Attack",
-      "description": "<p>You can attack twice, instead of once, whenever you take the Attack action on your turn. Moreover, you can cast one of your Wizard cantrips that has a casting time of an action in place of one of those attacks.</p>"
+      "name": "額外攻擊",
+      "description": "<p>每當你在你的回合採取攻擊動作時，你可以攻擊兩次，而非一次。此外，你可以施放你的一道施法時間為動作的法師戲法，以取代其中一次攻擊。</p>"
     },
     "Songal's Elemental Suffusion": {
       "effects": {
@@ -2094,20 +2094,20 @@
     "Purple Dragon Commandant": {
       "activities": {
         "Encourage Ally (Dexterity)": {
-          "name": "Encourage Ally (Dexterity)"
+          "name": "鼓勵盟友（敏捷）"
         },
         "Encourage Ally (Strength)": {
-          "name": "Encourage Ally (Strength)"
+          "name": "鼓勵盟友（力量）"
         }
       },
       "advancement": {
         "Feat Ability Score Improvement": {
-          "title": "Feat Ability Score Improvement",
-          "hint": "Your feat allows you to increase your Strength or Dexterity score by 1, to a maximum of 20."
+          "title": "專長屬性值提升",
+          "hint": "你的專長讓你能將力量或敏捷提升1點，上限為20。"
         }
       },
-      "description": "<p>你獲得下列好處。</p><p><em><strong>Ability Score Increase.</strong></em> Increase your Strength or Dexterity score by 1, to a maximum of 20.</p><p><em><strong>Encourage Ally.</strong></em> As a Bonus Action, you bolster one ally you can see within 30 feet. The ally gains Temporary Hit Points equal to 2d6 plus the modifier of the ability score increased by this feat. You can take this Bonus Action a number of times equal to your Proficiency Bonus, and you regain all uses when you finish a Long Rest.</p><p><em><strong>Last Stand.</strong></em> You have Advantage on attack rolls while Bloodied.</p>",
-      "name": "Purple Dragon Commandant"
+      "description": "<p>你獲得下列好處。</p><p><em><strong>【屬性值提升】</strong></em>你的力量或敏捷提升1點，上限為20。</p><p><em><strong>【鼓勵盟友】</strong></em>你可以採取附贈動作，增強位於你30呎內一名你所能看見的盟友。該盟友獲得等同於2d6 + 你以此專長提升之屬性調整值的臨時生命值。你可以採取此附贈動作的次數等同於你的熟練加值，當你完成長休時重獲所有使用次數。</p><p><em><strong>【背水一戰】</strong></em>當你處於重傷狀態時，你的攻擊檢定具有優勢。</p>",
+      "name": "紫龍指揮官"
     },
     "Spellfire Initiate": {
       "advancement": {
@@ -2132,8 +2132,8 @@
       "name": "咒火學徒"
     },
     "Zhentarim Ruffian": {
-      "description": "<p>你獲得下列好處。</p><p><em><strong>Exploit Opening.</strong></em> When you roll damage for an &amp;Reference[Opportunity Attacks]{Opportunity Attack}, you can roll the damage dice twice and use either roll against the target.</p><p><em><strong>Family First.</strong></em> If you have Heroic Inspiration when you roll Initiative, you can expend it to give yourself and your allies Advantage on that Initiative roll.</p>",
-      "name": "Zhentarim Ruffian"
+      "description": "<p>你獲得下列好處。</p><p><em><strong>【見縫插針】</strong></em>當你為&amp;Reference[Opportunity Attacks]{藉機攻擊}擲傷害時，你可以擲兩次傷害骰，並選擇其中一次結果用於目標。</p><p><em><strong>【家人至上】</strong></em>若你在擲先攻時具有英雄激勵，你可以消耗英雄激勵，令你與你的盟友在該次先攻擲骰上具有優勢。</p>",
+      "name": "散塔林暴徒"
     },
     "Red Wizard Necropolis": {
       "description": "<p>Level 5 Bastion Facility</p><p><strong>Prerequisite:</strong> Membership in the Red Wizards, ability to use a Spellcasting Focus</p><p><strong>Space:</strong> Roomy</p><p><strong>Hirelings:</strong> 1</p><p><strong>Order:</strong> Recruit</p><p>Red Wizards defend their strongholds with Undead minions. A Red Wizard Necropolis can accommodate up to eight Bastion Defenders.</p><p><em><strong>Recruit: Undead Defenders.</strong></em> Each time you issue the Recruit action to this facility, up to four Undead Bastion Defenders are created and take shelter in the crypts and burial chambers of your Red Wizard Necropolis. You can’t issue the Recruit order to this facility if it’s fully occupied.</p><p>Keep track of Undead Bastion Defenders you lose and deduct them from your Bastion Defenders roster. An Undead Bastion Defender returns to your Red Wizard Necropolis 14 days after being destroyed. Undead Bastion Defenders can’t return from being killed if the facility is shut down or fully occupied.</p>",
@@ -2142,23 +2142,23 @@
     "Lordly Resolve": {
       "effects": {
         "Bolstered": {
-          "name": "Bolstered",
-          "description": "<p>While bolstered, you can’t be possessed or gain the Charmed or Frightened condition; if you are already possessed, Charmed, or Frightened, you have Advantage on any new saving throw against the relevant effect.</p>"
+          "name": "信念增強",
+          "description": "<p>信念增強期間，你無法被附身，也無法陷入魅惑或恐慌狀態；若你已被附身、陷入魅惑或恐慌狀態，你對抗相關效應的任何新豁免檢定具有優勢。</p>"
         }
       },
       "advancement": {
         "Feat Ability Score Improvement": {
-          "hint": "Your feat allows you to increase your Strength or Charisma  score by 1, to a maximum of 20.",
-          "title": "Feat Ability Score Improvement"
+          "hint": "你的專長讓你能將力量或魅力提升1點，上限為20。",
+          "title": "專長屬性值提升"
         }
       },
-      "name": "Lordly Resolve",
+      "name": "貴族信念",
       "activities": {
         "Standard Bearer": {
-          "name": "Standard Bearer"
+          "name": "執旗者"
         }
       },
-      "description": "<p>你獲得下列好處。</p><p><em><strong>Ability Score Increase.</strong></em> Increase your Strength or Charisma score by 1, to a maximum of 20.</p><p><em><strong>Standard Bearer. </strong></em>As a Bonus Action, choose up to three creatures within 60 feet of yourself that can see you. Each target can immediately take a &amp;Reference[Reaction] to right itself and end the &amp;Reference[Prone] condition, provided its Speed isn’t 0.</p><p>Additionally, you bolster the targets’ resolve, which lasts for 1 minute or until you have the Incapacitated condition. While bolstered, a target can’t be possessed or gain the Charmed or Frightened condition; if a target is already possessed, Charmed, or Frightened, the target has Advantage on any new saving throw against the relevant effect.</p><p>Once you use this benefit, you can’t do so again until you finish a Long Rest.</p><section class=\"secret\" id=\"secret-WhklBhewbGv7bSKI\"><p><strong>Foundry Note</strong></p><p>This feature includes an Active Effect (AE) that can be used as a reminder by the target but does not automate the above benefits.</p></section>"
+      "description": "<p>你獲得下列好處。</p><p><em><strong>【屬性值提升】</strong></em>你的力量或魅力提升1點，上限為20。</p><p><em><strong>【執旗者】</strong></em>你可以採取附贈動作，選擇位於你60呎內至多三名能看見你的生物。只要目標的速度不為0，每名目標都可以立即採取&amp;Reference[Reaction]{反應}起身，並結束&amp;Reference[Prone]{伏地}狀態。</p><p>此外，你增強目標的信念，持續1分鐘，或直到你陷入失能狀態。信念增強期間，目標無法被附身，也無法陷入魅惑或恐慌狀態；若目標已被附身、陷入魅惑或恐慌狀態，該目標對抗相關效應的任何新豁免檢定具有優勢。</p><p>此好處一經使用，直到完成長休前你都無法再次使用。</p><section class=\"secret\" id=\"secret-WhklBhewbGv7bSKI\"><p><strong>Foundry 註記</strong></p><p>此特性包含一個 Active Effect（AE），可供目標用來提醒，但不會自動處理上述好處。</p></section>"
     },
     "Zhentarim Mercenary": {
       "advancement": {
@@ -2219,18 +2219,18 @@
       },
       "advancement": {
         "Dragon’s Tongue": {
-          "hint": "你知曉龍語。若你已經知曉龍語，則當你選擇此專長時，你可以習得一門你所選擇的語言作為替代。",
+          "hint": "你知曉龍語。若你選擇此專長時已知曉龍語，你改為習得一門你所選擇的語言。",
           "title": "龍之舌"
         }
       },
       "name": "新晉龍巫教徒",
       "effects": {
         "Frightened": {
-          "name": "恐懼",
-          "description": "<p>目標陷入&amp;Reference[Frightened apply=false]{恐懼}狀態，直到你的下個回合結束。若目標豁免成功或當其身上的此效應結束時，目標在24小時內免疫此效應。</p>"
+          "name": "恐慌",
+          "description": "<p>目標陷入&amp;Reference[Frightened apply=false]{恐慌}狀態，直到你的下個回合結束前。若目標豁免成功，或當目標身上的此效應結束時，該目標在24小時內免疫此效應。</p>"
         }
       },
-      "description": "<p>你獲得下列好處。</p><p><em><strong>龍之舌 </strong></em>你知曉龍語。若你選擇此專長時已知曉龍語，你可以從<em>玩家手冊</em>或此書第二章的語言表中習得一門語言，以替代龍語。</p><p><em><strong>龍之威 </strong></em>你可以採取魔法動作將恐懼灌輸給位於你30呎內你所能看見的一名生物。目標必須成功通過一次感知豁免（DC等於8+你的感知調整值+你的熟練加值），否則陷入&amp;Reference[Frightened apply=false]{恐懼}狀態，直到你的下個回合結束。若目標豁免成功或當其身上的此效應結束時，目標在24小時內免疫此效應。</p><p><em><strong>飲懼為勵 </strong></em>當你造成一名生物陷入恐懼狀態且恐懼源為你時，若你沒有英雄激勵，你可以獲得之。一旦你使用此好處，直到你完成短休或長休前都無法再次使用。</p>"
+      "description": "<p>你獲得下列好處。</p><p><em><strong>【龍之舌】</strong></em>你知曉龍語。若你選擇此專長時已知曉龍語，你改為從<em>玩家手冊</em>或本書第二章的語言表中，習得一門你所選擇的語言。</p><p><em><strong>【龍之威】</strong></em>你可以採取魔法動作，將恐懼灌輸給位於你30呎內一名你所能看見的生物。目標必須成功通過一次感知豁免（DC為8 + 你的感知調整值再 + 你的熟練加值），否則陷入&amp;Reference[Frightened apply=false]{恐慌}狀態，直到你的下個回合結束前。若目標豁免成功，或當目標身上的此效應結束時，該目標在24小時內免疫此效應。</p><p><em><strong>【飲懼為勵】</strong></em>當你使一名生物陷入恐慌狀態，且你是其恐懼源時，若你沒有英雄激勵，你可以獲得英雄激勵。此好處一經使用，直到完成短休或長休前你都無法再次使用。</p>"
     }
   },
   "mapping": {
