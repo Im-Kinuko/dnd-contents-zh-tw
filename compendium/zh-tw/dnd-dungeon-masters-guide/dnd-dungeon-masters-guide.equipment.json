@@ -740,25 +740,25 @@
     "Cloak of the Bat": {
       "activities": {
         "baY1WKtwieimGXWd": {
-          "condition": "in an area of Dim Light or Darkness"
+          "condition": "身處微光或黑暗的區域"
         },
         "Grip Edges": {
-          "condition": "in an area of Dim Light or Darkness",
-          "name": "Grip Edges",
-          "target": "edges of the cloak",
-          "duration": "fail to grip the cloak’s edges while flying in this way, or if you are no longer in Dim Light or Darkness"
+          "condition": "身處微光或黑暗的區域",
+          "name": "抓住邊沿",
+          "target": "斗篷邊沿",
+          "duration": "以此方式飛行時未能抓住斗篷邊沿，或你不再處於微光或黑暗中"
         }
       },
       "name": "蝙蝠斗篷",
       "effects": {
         "Fly Speed": {
-          "name": "Fly Speed"
+          "name": "飛行速度"
         },
         "Stealth Advantage": {
-          "name": "Stealth Advantage"
+          "name": "隱匿優勢"
         }
       },
-      "description": "<div><p><em>奇物，珍稀（需同調）</em></p></div><p>While wearing this cloak, you have Advantage on Dexterity (Stealth) checks. In an area of Dim Light or Darkness, you can grip the edges of the cloak and use it to gain a Fly Speed of 40 feet. If you ever fail to grip the cloak’s edges while flying in this way, or if you are no longer in &amp;Reference[DimLight] or &amp;Reference[Darkness], you lose this Fly Speed.</p><p>While wearing the cloak in an area of Dim Light or Darkness, you can cast <em>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplPolymorph0]{Polymorph}</em> on yourself, shape-shifting into a <strong>@UUID[Compendium.dnd-players-handbook.actors.Actor.phbmobBat0000000]{Bat}</strong>. While in that form, you retain your Intelligence, Wisdom, and Charisma scores. The cloak can’t be used this way again until the next dawn.</p>"
+      "description": "<div><p><em>奇物，珍稀（需同調）</em></p></div><p>穿戴這件斗篷期間，你進行敏捷（隱匿）檢定時具有優勢。身處微光或黑暗的區域時，你可以抓住斗篷的邊沿，藉此獲得40呎的飛行速度。若你以此方式飛行時未能抓住斗篷邊沿，或你不再處於&amp;Reference[DimLight]{微光}或&amp;Reference[Darkness]{黑暗}中，你就會失去此飛行速度。</p><p>穿戴這件斗篷且身處微光或黑暗的區域期間，你可以對自己施放<em>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplPolymorph0]{變形術}</em>，變形為一隻<strong>@UUID[Compendium.dnd-players-handbook.actors.Actor.phbmobBat0000000]{蝙蝠}</strong>。處於該形態時，你保留自己的智力、感知與魅力屬性值。直到下個黎明前，你無法再次以此方式使用斗篷。</p>"
     },
     "Armor of Resistance": {
       "effects": {
@@ -1108,7 +1108,7 @@
     },
     "Alchemy Jug": {
       "name": "煉金壺",
-      "description": "<p><em>奇物，非普通</em></p><p>This ceramic jug appears to be able to hold a gallon of liquid and weighs 12 pounds whether full or empty. The jug sloshes when it is shaken, even if the jug is empty.</p><p>You can take a Magic action and name one liquid from the Alchemy Jug Liquids table to cause the jug to produce the chosen liquid. Afterward, you can uncork the jug as a Utilize action and pour that liquid out, up to 2 gallons per minute. The maximum amount of liquid the jug can produce depends on the liquid you named.</p><p>Once the jug starts producing a liquid, it can’t produce a different one, or more of one that has reached its maximum, until the next dawn.</p><table><caption>Alchemy Jug Liquids</caption><thead><tr><td>Liquid</td><td>Max. Amount</td><td>Liquid</td><td>Max. Amount</td></tr></thead><tbody><tr><td>Acid</td><td>8 ounces</td><td>Oil</td><td>1 quart</td></tr><tr><td>Basic Poison</td><td>4 ounces</td><td>Vinegar</td><td>2 gallons</td></tr><tr><td>Beer</td><td>4 gallons</td><td>Water, fresh</td><td>8 gallons</td></tr><tr><td>Honey</td><td>1 gallon</td><td>Water, salt</td><td>12 gallons</td></tr><tr><td>Mayonnaise</td><td>2 gallons</td><td>Wine</td><td>1 gallon</td></tr></tbody></table><section class=\"secret\" id=\"secret-chVDR5A8BYbySfox\"><p><strong>Foundry Note</strong></p><p>The included [[/item Activate Alchemy Jug]] equipment item is intended for daily usage tracking and includes a modified <em>Alchemy Jug Liquids</em> table with links to the consumable liquid items and quantity produced.</p></section>"
+      "description": "<p><em>奇物，非普通</em></p><p>這個陶壺看起來能容納1加侖的液體，無論盛滿或是空的，重量都是12磅。即使壺是空的，搖晃時也會發出液體晃動的聲音。</p><p>你可以採取魔法動作，從煉金壺液體表中指名一種液體，使壺產出所選的液體。之後，你可以採取利用動作拔開壺塞並倒出該液體，每分鐘最多2加侖。壺所能產出的液體最大量取決於你所指名的液體。</p><p>壺一旦開始產出某種液體，直到下個黎明前，便無法產出另一種液體，也無法產出超過已達最大量的該種液體。</p><table><caption>煉金壺液體表</caption><thead><tr><td>液體</td><td>最大量</td><td>液體</td><td>最大量</td></tr></thead><tbody><tr><td>強酸</td><td>8盎司</td><td>油</td><td>1夸脫</td></tr><tr><td>基礎毒藥</td><td>4盎司</td><td>醋</td><td>2加侖</td></tr><tr><td>啤酒</td><td>4加侖</td><td>淡水</td><td>8加侖</td></tr><tr><td>蜂蜜</td><td>1加侖</td><td>鹽水</td><td>12加侖</td></tr><tr><td>美乃滋</td><td>2加侖</td><td>葡萄酒</td><td>1加侖</td></tr></tbody></table><section class=\"secret\" id=\"secret-chVDR5A8BYbySfox\"><p><strong>Foundry 註記</strong></p><p>此物品隨附的[[/item Activate Alchemy Jug]]裝備物品用於追蹤每日使用，並包含一份修改過的<em>煉金壺液體表</em>，其中附有可消耗的液體物品連結及產出量。</p></section>"
     },
     "Oil of Sharpness": {
       "effects": {
@@ -1315,11 +1315,11 @@
       "description": "<p><em>藥水，珍稀</em></p><p>當你飲用這瓶藥水時，你獲得@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplEnlargeRed]{變巨/縮小術}法術的「縮小」效應，持續1d4小時（無需專注）。</p><p>藥水液體中的紅色不斷收縮成一顆小珠，然後再擴張，染紅周圍的透明液體。搖晃瓶子也無法打斷這個過程。</p>"
     },
     "Periapt of Proof against Poison": {
-      "description": "<p><em>奇物，珍稀（需同調）</em></p><p>This delicate silver chain has a brilliant-cut black gem pendant. While you wear it, you have Immunity to the &amp;Reference[Poisoned apply=false] condition and Poison damage.</p>",
+      "description": "<p><em>奇物，珍稀（需同調）</em></p><p>這條精緻的銀鍊子上掛著一顆明亮式切割的黑色寶石吊墜。佩戴期間，你具有對&amp;Reference[Poisoned apply=false]{中毒}狀態與毒素傷害的免疫。</p>",
       "name": "辟毒護身符",
       "effects": {
         "Protected Against Poison": {
-          "name": "Protected Against Poison"
+          "name": "免受毒害"
         }
       }
     },
@@ -1942,19 +1942,19 @@
     "Robe of Eyes": {
       "effects": {
         "Special Senses": {
-          "name": "Special Senses"
+          "name": "特殊感官"
         }
       },
       "activities": {
         "Light Save": {
-          "name": "Light Save"
+          "name": "光亮術豁免"
         },
         "Daylight Save": {
-          "name": "Daylight Save"
+          "name": "晝明術豁免"
         }
       },
       "name": "百眼法袍",
-      "description": "<p><em>奇物，珍稀（需同調）</em></p><p>This robe is adorned with eyelike patterns. While you wear the robe, you gain the following benefits:</p><p><strong>All-Around Vision.</strong> The robe gives you Advantage on Wisdom (Perception) checks that rely on sight.</p><p><strong>Special Senses.</strong> You have Darkvision and Truesight, both with a range of 120 feet.</p><p><em><strong>Drawbacks.</strong></em> A<em> </em>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplLight00000]{Light} spell cast on the robe or a @UUID[Compendium.dnd-players-handbook.spells.Item.phbsplDaylight00]{Daylight} spell cast within 5 feet of the robe gives you the &amp;Reference[Blinded] condition for 1 minute. At the end of each of your turns, you make a Constitution saving throw (DC 11 for <em>Light</em> or DC 15 for <em>Daylight</em>), ending the condition on yourself on a success.</p>"
+      "description": "<p><em>奇物，珍稀（需同調）</em></p><p>這件法袍上繪滿了眼睛般的圖案。穿戴這件法袍期間，你獲得下列好處。</p><p><strong>【全方位視野】</strong>法袍使你在依賴視覺的感知（察覺）檢定中具有優勢。</p><p><strong>【特殊感官】</strong>你具有黑暗視覺與真視，範圍皆為120呎。</p><p><em><strong>【缺點】</strong></em>當<em> </em>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplLight00000]{光亮術}施放於法袍上，或@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplDaylight00]{晝明術}施放於法袍5呎內時，你會陷入&amp;Reference[Blinded]{目盲}狀態，持續1分鐘。在你的每個回合結束時，你進行一次體質豁免（對<em>光亮術</em>時DC為11，對<em>晝明術</em>時DC為15），成功時結束你身上的狀態。</p>"
     },
     "Demonomicon of Iggwilv": {
       "activities": {
@@ -3396,11 +3396,11 @@
     "Goggles of Night": {
       "effects": {
         "Goggles On": {
-          "name": "Goggles On"
+          "name": "佩戴護目鏡"
         }
       },
       "name": "夜視護目鏡",
-      "description": "<p><em>奇物，非普通</em></p><p>While wearing these dark lenses, you have Darkvision out to 60 feet. If you already have Darkvision, wearing the goggles increases its range by 60 feet.</p>"
+      "description": "<p><em>奇物，非普通</em></p><p>佩戴這副暗色鏡片期間，你具有60呎的黑暗視覺。若你原本就有黑暗視覺，佩戴護目鏡會使其範圍增加60呎。</p>"
     },
     "Potion of Giant Strength (Storm)": {
       "activities": {
@@ -3627,15 +3627,15 @@
     "Wings of Flying": {
       "effects": {
         "Winged": {
-          "name": "Winged",
-          "description": "<p>The wings lasts for 1 hour or until you end the effect early as a Magic action. The wings give you a Fly Speed of 60 feet.</p>"
+          "name": "飛翼",
+          "description": "<p>翅膀持續1小時，或直到你以魔法動作提前結束此效應。翅膀使你獲得60呎的飛行速度。</p>"
         }
       },
       "name": "飛行之翼",
-      "description": "<p><em>奇物，珍稀（需同調）</em></p><p>While wearing this cloak, you can take a Magic action to turn the cloak into a pair of wings on your back. The wings lasts for 1 hour or until you end the effect early as a Magic action. The wings give you a Fly Speed of 60 feet. If you are aloft when the wings disappear, you fall. When the wings disappear, you can’t use them again for [[/r 1d12]] hours.</p>",
+      "description": "<p><em>奇物，珍稀（需同調）</em></p><p>穿戴這件斗篷期間，你可以採取魔法動作將斗篷變成你背上的一對翅膀。翅膀持續1小時，或直到你以魔法動作提前結束此效應。翅膀使你獲得60呎的飛行速度。若翅膀消失時你身在空中，你會墜落。翅膀消失後，你在[[/r 1d12]]小時內無法再次使用。</p>",
       "activities": {
         "Open Wings": {
-          "name": "Open Wings"
+          "name": "展開羽翼"
         }
       }
     },
@@ -4478,7 +4478,7 @@
       "name": "延壽藥水"
     },
     "Circlet of Blasting": {
-      "description": "<div><p><em>奇物，非普通</em></p></div><p>While wearing this circlet, you can cast <em>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplScorchingR]{Scorching Ray}</em> with it (+5 to hit). The circlet can’t cast this spell again until the next dawn.</p>",
+      "description": "<div><p><em>奇物，非普通</em></p></div><p>佩戴這頂頭飾期間，你可以透過頭飾施放<em>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplScorchingR]{灼熱射線}</em>（命中+5）。直到下個黎明前，頭飾無法再次施放此法術。</p>",
       "name": "爆裂頭飾"
     },
     "Boots of Speed": {
@@ -4583,11 +4583,11 @@
       "name": "位移斗篷",
       "effects": {
         "Displacement Suppressed": {
-          "description": "<p>If you take damage, the property ceases to function until the start of your next turn. This property is suppressed while your Speed is 0.</p>",
-          "name": "Displacement Suppressed"
+          "description": "<p>若你承受傷害，此屬性會失效，直到你下個回合開始。當你的速度為0時，此屬性受到壓制。</p>",
+          "name": "移位壓制"
         }
       },
-      "description": "<div><p><em>奇物，珍稀（需同調）</em></p></div><p>While you wear this cloak, it magically projects an illusion that makes you appear to be standing in a place near your actual location, causing any creature to have Disadvantage on attack rolls against you. If you take damage, the property ceases to function until the start of your next turn. This property is suppressed while your Speed is 0.</p><section class=\"secret\" id=\"secret-KZyJxkDneNgXCh7U\"><p><strong>Foundry Note</strong></p><p>The <strong>Displacement Suppressed</strong> effect is optionally provided to toggle as an indicator of the cloak's temporarily ceased functionality.</p></section>"
+      "description": "<div><p><em>奇物，珍稀（需同調）</em></p></div><p>穿戴這件斗篷期間，斗篷會以魔法投射出一個幻影，使你看起來站在接近你實際位置的某處，令任何生物對你進行的攻擊檢定都具有劣勢。若你承受傷害，此屬性會失效，直到你下個回合開始。當你的速度為0時，此屬性受到壓制。</p><section class=\"secret\" id=\"secret-KZyJxkDneNgXCh7U\"><p><strong>Foundry 註記</strong></p><p>此物品的<strong>位移被壓制</strong>效果提供選用的切換，用來標示斗篷暫時停止運作。</p></section>"
     },
     "Mariner's Armor": {
       "activities": {
@@ -4853,7 +4853,7 @@
     },
     "Helm of Teleportation": {
       "name": "傳送頭盔",
-      "description": "<p><em>奇物，珍稀（需同調）</em></p><p>This helm has 3 charges. While wearing it, you can expend 1 charge to cast @UUID[Compendium.dnd-players-handbook.spells.Item.phbsplTeleport00]{Teleport} from it. The helm regains 1d3 expended charges daily at dawn.</p>"
+      "description": "<p><em>奇物，珍稀（需同調）</em></p><p>這頂頭盔具有3點充能。穿戴這頂頭盔期間，你可以消耗1點充能，透過頭盔施放@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplTeleport00]{傳送術}。頭盔每日黎明時恢復1d3已消耗的充能。</p>"
     },
     "Pole of Collapsing": {
       "name": "摺疊長桿",
@@ -5025,7 +5025,7 @@
     },
     "Periapt of Health": {
       "name": "健康護身符",
-      "description": "<p><em>奇物，非普通（需同調）</em></p><p>While wearing this pendant, you can take a Magic action to regain 2d4 + 2 Hit Points. Once used, this property can’t be used again until the next dawn.</p><p>In addition, you have Advantage on saving throws to avoid or end the &amp;Reference[Poisoned apply=false] condition while you wear this pendant.</p>"
+      "description": "<p><em>奇物，非普通（需同調）</em></p><p>佩戴這枚吊墜期間，你可以採取魔法動作恢復2d4 + 2點生命值。此屬性一經使用，直到下個黎明前都無法再次使用。</p><p>此外，佩戴這枚吊墜期間，你在為避免或結束&amp;Reference[Poisoned apply=false]{中毒}狀態而進行的豁免具有優勢。</p>"
     },
     "Fire Ring of Elemental Command": {
       "description": "<p>Ring, Legendary（需同調）</p><p>Each <em>Ring of Elemental Command</em> is linked to one of the four Elemental Planes. The DM chooses or randomly determines the linked plane. For example, a <em>Ring of Elemental Command</em> (air) is linked to the Elemental Plane of Air.</p><p>Every <em>Ring of Elemental Command</em> has the following two properties:</p><p><strong>Elemental Bane.</strong> While wearing the ring, you have Advantage on attack rolls against Elementals and they have Disadvantage on attack rolls against you.</p><p><strong>Elemental Compulsion.</strong> While wearing the ring, you can take a Magic action to try to compel an Elemental you see within 60 feet of yourself. The Elemental makes a DC 18 Wisdom saving throw. On a failed save, the Elemental has the &amp;Reference[Charmed apply=false] condition until the start your next turn, and you determine what it does with its move and action on its next turn.</p><p><em><strong>Elemental Focus.</strong></em> While wearing the ring, you benefit from additional properties corresponding to the ring’s linked Elemental Plane:</p><p><strong>Fire.</strong> You know Ignan, and you have Immunity to Fire damage.</p><p><em><strong>Spellcasting.</strong></em> The ring has 5 charges and regains 1d4 + 1 expended charges daily at dawn. While wearing the ring, you can cast a spell from it. Choose the spell from the list of available spells based on the Elemental Plane the ring is linked to, as shown in the following table. The table indicates how many charges you must expend to cast the spell, which has a save DC of 18.</p><table><thead><tr><th style=\"min-width:50px\"><p>Plane</p></th><th><p>Spells (Charges)</p></th></tr></thead><tbody><tr><td><p>Fire</p></td><td><p>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplBurningHan]{Burning Hands} (1 charge), @UUID[Compendium.dnd-players-handbook.spells.Item.phbsplFireball00]{Fireball} (2 charges), @UUID[Compendium.dnd-players-handbook.spells.Item.phbsplFireStorm0]{Fire Storm} (4 charges), @UUID[Compendium.dnd-players-handbook.spells.Item.phbsplWallofFire]{Wall of Fire} (3 charges)</p></td></tr></tbody></table>",
@@ -5482,7 +5482,7 @@
     },
     "Eyes of the Eagle": {
       "name": "鷹眼鏡片",
-      "description": "<div><p><em>奇物，非普通</em></p></div><p>These crystal lenses fit over the eyes. While wearing them, you have Advantage on Wisdom (Perception) checks that rely on sight. In conditions of clear visibility, you can make out details of even extremely distant creatures and objects as small as 2 feet across.</p>"
+      "description": "<div><p><em>奇物，非普通</em></p></div><p>這副水晶鏡片適合戴在眼前。佩戴鏡片期間，你進行依賴視覺的感知（察覺）檢定時具有優勢。在視野清晰的情況下，你可以看清極遠處小至2呎寬的生物與物件的細節。</p>"
     },
     "Portable Hole": {
       "activities": {
@@ -5603,11 +5603,11 @@
       "name": "護盾胸針",
       "effects": {
         "Resistance: Force": {
-          "description": "<p>Additionally, you have Immunity to damage from the <em>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplMagicMissi]{Magic Missile}</em> spell.</p>",
-          "name": "Resistance: Force"
+          "description": "<p>此外，你免疫由<em>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplMagicMissi]{魔法飛彈}</em>所造成的傷害。</p>",
+          "name": "抗力：力場"
         }
       },
-      "description": "<div><p><em>奇物，非普通（需同調）</em></p></div><p>While wearing this brooch, you have Resistance to Force damage, and you have Immunity to damage from the <em>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplMagicMissi]{Magic Missile}</em> spell.</p>"
+      "description": "<div><p><em>奇物，非普通（需同調）</em></p></div><p>佩戴這枚胸針期間，你對力場傷害具有抗力，且你免疫由<em>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplMagicMissi]{魔法飛彈}</em>所造成的傷害。</p>"
     },
     "Shield of Expression": {
       "name": "表情之盾",
@@ -5834,10 +5834,10 @@
     },
     "Amulet of Health": {
       "name": "強健護符",
-      "description": "<p><em>奇物，珍稀（需同調）</em></p><p>Your Constitution is 19 while you wear this amulet. It has no effect on you if your Constitution is 19 or higher without it.</p>",
+      "description": "<p><em>奇物，珍稀（需同調）</em></p><p>佩戴這枚護符期間，你的體質為19。若你未佩戴護符時的體質已達19或更高，護符對你沒有效果。</p>",
       "effects": {
         "Upgraded Constitution": {
-          "name": "Upgraded Constitution"
+          "name": "強化體質"
         }
       }
     },
@@ -6378,18 +6378,18 @@
     "Baba Yaga's Dancing Broom": {
       "activities": {
         "Animate": {
-          "name": "Animate",
-          "duration": "If the broom is reduced to 0 HP before reverting to its inanimate form.",
-          "target": "An unoccupied space",
-          "range": "As close to you as possible."
+          "name": "活化",
+          "duration": "若掃帚在恢復為無生命形態前生命值降至0。",
+          "target": "未佔據空間",
+          "range": "盡可能靠近你。"
         },
         "Render Broom Inanimate": {
-          "chatFlavor": "Renders broom inanimate",
-          "name": "Render Broom Inanimate"
+          "chatFlavor": "使掃帚恢復為無生命狀態",
+          "name": "恢復原狀"
         }
       },
-      "name": "Baba Yaga's Dancing Broom",
-      "description": "<p><em>奇物，非普通（需同調）</em></p><p>The archfey Baba Yaga crafted many of these magic brooms. No two appear exactly alike. While holding the broom, you can take a Magic action to transform it into an <strong>@UUID[Compendium.dnd-dungeon-masters-guide.actors.Actor.dmgnpcAnimatedBr]{Animated Broom}</strong> under your control. The broom then moves into an unoccupied space as close to you as possible. The broom acts immediately after you on your Initiative count and remains animate until you take a Bonus Action and use a command word to render it inanimate.</p><p>On your turn, you can mentally command the animated broom if it is within 30 feet of you and you don’t have the Incapacitated condition (no action required). You decide what action the broom takes and where it moves during its next turn, or you can issue it a general command, such as to attack your enemies or guard a location.</p><p>If the broom is reduced to 0 Hit Points, it shatters and is destroyed. If the broom reverts to its inanimate form before losing all its Hit Points, it regains all of them.</p>"
+      "name": "芭芭·雅嘎的舞空帚",
+      "description": "<p><em>奇物，非普通（需同調）</em></p><p>至高妖精芭芭·雅嘎製作了許多這類魔法掃帚，沒有任何兩把看起來完全相同。持握掃帚期間，你可以採取魔法動作，將其變形為一把受你控制的<strong>@UUID[Compendium.dnd-dungeon-masters-guide.actors.Actor.dmgnpcAnimatedBr]{活化掃帚}</strong>。掃帚接著會移動到離你最近的一處未佔據空間。掃帚在你的先攻值上緊接於你之後行動，並保持活化，直到你採取附贈動作並以命令詞使其恢復為無生命狀態。</p><p>在你的回合中，若掃帚位於你30呎內且你未陷入失能狀態，你可以在心中命令活化掃帚（無需動作）。你決定掃帚在其下個回合採取什麼動作及移動到何處，或者你可以對其下達一般性的命令，例如攻擊你的敵人或守衛某個地點。</p><p>若掃帚的生命值降至0，掃帚會碎裂並被摧毀。若掃帚在失去所有生命值前恢復為無生命形態，便會恢復所有生命值。</p>"
     },
     "Quaal's Feather Token (Bird)": {
       "name": "Quaal's Feather Token (Bird)",
@@ -6516,7 +6516,7 @@
     },
     "Eyes of Minute Seeing": {
       "name": "微視鏡片",
-      "description": "<div><p><em>奇物，非普通</em></p></div><p>These crystal lenses fit over the eyes. While wearing them, your vision improves significantly out to a range of 1 foot, granting you Darkvision within that range and Advantage on Intelligence (Investigation) checks made to examine something within that range.</p>"
+      "description": "<div><p><em>奇物，非普通</em></p></div><p>這副水晶鏡片適合戴在眼前。佩戴鏡片期間，你在1呎範圍內的視力會大幅提升，使你在該範圍內具有黑暗視覺，且你在檢視該範圍內的事物時，進行的智力（調查）檢定具有優勢。</p>"
     },
     "Trebuchet": {
       "activities": {
@@ -6687,7 +6687,7 @@
     },
     "Mantle of Spell Resistance": {
       "name": "法術抗性披肩",
-      "description": "<p><em>奇物，珍稀（需同調）</em></p><p>You have Advantage on saving throws against spells while you wear this cloak.</p>"
+      "description": "<p><em>奇物，珍稀（需同調）</em></p><p>穿戴這件斗篷期間，你在對抗法術的豁免中具有優勢。</p>"
     },
     "Silver Raven": {
       "activities": {
@@ -6832,7 +6832,7 @@
       "name": "火球魔杖"
     },
     "Periapt of Wound Closure": {
-      "description": "<p><em>奇物，非普通（需同調）</em></p><p>While wearing this pendant, you gain the following benefits.</p><p><em><strong>Life Preservation.</strong></em> Whenever you make a Death Saving Throw, you can change a roll of 9 or lower to a 10, turning a failed save into a successful one.</p><p><em><strong>Natural Healing Boost.</strong></em> Whenever you roll a Hit Point Die to regain Hit Points, double the number of Hit Points it restores.</p>",
+      "description": "<p><em>奇物，非普通（需同調）</em></p><p>佩戴這枚吊墜期間，你獲得下列好處。</p><p><em><strong>【維持生命】</strong></em>每當你進行死亡豁免時，你可以將9或更低的擲骰結果改為10，使失敗的豁免變為成功。</p><p><em><strong>【加速自癒】</strong></em>每當你擲生命骰來恢復生命值時，該生命骰所恢復的生命值加倍。</p>",
       "name": "辟毒護身符"
     },
     "Potion of Mind Reading": {
@@ -7037,13 +7037,13 @@
       "name": "火球項鍊",
       "activities": {
         "Determine Number of Beads": {
-          "name": "Determine Number of Beads"
+          "name": "決定珠子數量"
         },
         "Throw Bead": {
-          "name": "Throw Bead"
+          "name": "投擲珠子"
         }
       },
-      "description": "<p><em>奇物，珍稀</em></p><p>This necklace has 1d6 + 3 beads hanging from it. You can take a Magic action to detach a bead and throw it up to 60 feet away. When it reaches the end of its trajectory, the bead detonates as a level 3 @UUID[Compendium.dnd-players-handbook.spells.Item.phbsplFireball00]{Fireball} (save DC 15).</p><p>You can hurl multiple beads, or even the whole necklace, at one time. When you do so, increase the damage of the <em>Fireball</em> by 1d6 for each bead after the first (maximum 12d6).</p><section class=\"secret\" id=\"secret-sVvONZCjIbxSR0Xs\"><p><strong>Foundry Note</strong></p><p>This item includes 9 limited uses. The <strong>Determine Number of Beads</strong> activity can be used to determine how many beads (equivalent to 1d6 + 3) are on the necklace.</p><p>The <strong>Throw Bead</strong> activity allows you to scale the Fireball up to a max of 12d6.</p></section>"
+      "description": "<p><em>奇物，珍稀</em></p><p>這條項鍊上掛著1d6 + 3顆珠子。你可以採取魔法動作取下一顆珠子，並將其投擲至多60呎遠。當珠子抵達其軌跡終點時，會引爆為3環的@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplFireball00]{火球術}（豁免DC 15）。</p><p>你可以一次擲出多顆珠子，甚至整條項鍊。這麼做時，第一顆之後每多一顆珠子，就使<em>火球術</em>的傷害增加1d6（上限為12d6）。</p><section class=\"secret\" id=\"secret-sVvONZCjIbxSR0Xs\"><p><strong>Foundry 註記</strong></p><p>此物品包含9次有限使用次數。可使用<strong>判定珠子數量</strong>行動來判定項鍊上有多少顆珠子（等同於1d6 + 3）。</p><p>也可使用<strong>投擲珠子</strong>行動，將火球術的威力提升至最多12d6。</p></section>"
     },
     "Horseshoes of Speed": {
       "activities": {
@@ -7061,14 +7061,14 @@
     },
     "Medallion of Thoughts": {
       "name": "讀心勳章",
-      "description": "<p><em>奇物，非普通（需同調）</em></p><p>The medallion has 5 charges. While wearing it, you can expend 1 charge to cast @UUID[Compendium.dnd-players-handbook.spells.Item.phbsplDetectThou]{Detect Thoughts} (save DC 13) from it. The medallion regains 1d4 expended charges daily at dawn.</p>"
+      "description": "<p><em>奇物，非普通（需同調）</em></p><p>這枚勳章具有5點充能。佩戴勳章期間，你可以消耗1點充能，透過勳章施放@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplDetectThou]{偵測思想}（豁免DC 13）。勳章每日黎明時恢復1d4已消耗的充能。</p>"
     },
     "Figurine of Wondrous Power": {
       "description": "<div><p><em>奇物, Rarity Varies</em></p></div><p>A <em>Figurine of Wondrous Power</em> is a statuette small enough to fit in a pocket. If you take a Magic action to throw the figurine to a point on the ground within 60 feet of yourself, the figurine becomes a living creature specified in the figurine’s description below. If the space where the creature would appear is occupied by other creatures or objects, or if there isn’t enough space for the creature, the figurine doesn’t become a creature.</p><p>The creature is Friendly to you and your allies. It understands your languages, obeys your commands, and takes its turn immediately after you on your Initiative count. If you issue no commands, the creature defends itself but takes no other actions.</p><p>The creature exists for a duration specific to each figurine. At the end of the duration, the creature reverts to its figurine form. It reverts to a figurine early if its creature form drops to 0 Hit Points or if you take a Magic action while touching the creature to make it revert to figurine form. When the creature becomes a figurine again, its property can’t be used again until a certain amount of time has passed, as specified in the figurine’s description.</p><p>@UUID[Compendium.dnd-dungeon-masters-guide.equipment.Item.dmgFwpBronzeGrif]{Bronze Griffon (Rare)}</p><p>@UUID[Compendium.dnd-dungeon-masters-guide.equipment.Item.dmgFwpEbonyFlyRa]{Ebony Fly (Rare)}</p><p>@UUID[Compendium.dnd-dungeon-masters-guide.equipment.Item.dmgFwpGoldenLion]{Golden Lions (Rare)}</p><p>@UUID[Compendium.dnd-dungeon-masters-guide.equipment.Item.dmgFwpIvoryGoats]{Ivory Goats (Rare)}</p><p>@UUID[Compendium.dnd-dungeon-masters-guide.equipment.Item.dmgFwpMarbleElep]{Marble Elephant (Rare)}</p><p>@UUID[Compendium.dnd-dungeon-masters-guide.equipment.Item.dmgFwpObsidianSt]{Obsidian Steed (Very Rare)}</p><p>@UUID[Compendium.dnd-dungeon-masters-guide.equipment.Item.dmgFwpOnyxDogRar]{Onyx Dog (Rare)}</p><p>@UUID[Compendium.dnd-dungeon-masters-guide.equipment.Item.dmgFwpSerpentine]{Serpentine Owl (Rare)}</p><p>@UUID[Compendium.dnd-dungeon-masters-guide.equipment.Item.dmgFwpSilverRave]{Silver Raven (Uncommon)}</p>",
       "name": "Figurine of Wondrous Power"
     },
     "Necklace of Prayer Beads": {
-      "description": "<p><em>奇物，珍稀 (Requires Attunement by a Cleric, Druid, or Paladin)</em></p><p>This necklace has [[/r 1d4 + 2#Magic beads]] magic beads made from aquamarine, black pearl, or topaz. It also has many nonmagical beads made from stones such as amber, bloodstone, citrine, coral, jade, pearl, or quartz. If a magic bead is removed from the necklace, that bead loses its magic.</p><p>Six types of magic beads exist. The DM decides the type of each bead on the necklace or determines it randomly by rolling on the table below. A necklace can have more than one bead of the same type. To use one, you must be wearing the necklace. Each bead contains a spell that you can cast from it as a Bonus Action (using your spell save DC if a save is necessary). Once a magic bead’s spell is cast, that bead can’t be used again until the next dawn.</p><p>@Embed[Compendium.dnd-dungeon-masters-guide.tables.RollTable.dmgNecklaceOfPra caption=false rollable]</p><section class=\"secret\" id=\"secret-T9EktTumIxEuAXft\"><p><strong>Foundry Note</strong></p><p>This item includes an activity for each spell with a limited use per dawn. You can remove the activities for the beads that aren't available on this necklace and duplicate ones that are included multiple times before giving it to a player.</p></section>",
+      "description": "<p><em>奇物，珍稀（需由牧師、德魯伊或聖騎士同調）</em></p><p>這條項鍊上有[[/r 1d4 + 2#Magic beads]]顆由海藍寶石、黑珍珠或黃玉製成的魔法念珠。項鍊上還有許多由琥珀、血石、黃水晶、珊瑚、翡翠、珍珠或石英等石材製成的非魔法念珠。若魔法念珠被從項鍊上取下，該念珠便失去其魔法。</p><p>魔法念珠共有六種。DM決定項鍊上每顆念珠的種類，或透過在下表擲骰隨機決定。一條項鍊可以有多顆同種類的念珠。要使用念珠，你必須佩戴著這條項鍊。每顆念珠蘊含一道法術，你可以採取附贈動作透過念珠施放該法術（若需要豁免，則使用你的法術豁免DC）。魔法念珠的法術一經施放，直到下個黎明前，該念珠都無法再次使用。</p><p>@Embed[Compendium.dnd-dungeon-masters-guide.tables.RollTable.dmgNecklaceOfPra caption=false rollable]</p><section class=\"secret\" id=\"secret-T9EktTumIxEuAXft\"><p><strong>Foundry 註記</strong></p><p>此物品為每道每黎明有使用次數限制的法術各包含一個行動。在將項鍊交給玩家之前，你可以移除這條項鍊上不存在的念珠所對應的行動，並複製出現多次的念珠所對應的行動。</p></section>",
       "name": "念珠項鍊"
     },
     "Cli Lyre Instrument of the Bards": {
@@ -7195,7 +7195,7 @@
       "description": "<p><em>奇物，非普通</em></p><p>This gem contains a mote of elemental energy. When you take a Utilize action to break the gem, an elemental is summoned, and the gem ceases to be magical. The elemental appears in an unoccupied space as close to the broken gem as possible, understands your languages, obeys your commands, and takes its turn immediately after you on your Initiative count. The elemental disappears after 1 hour, when it dies, or when you dismiss it as a Bonus Action. The type of gem determines the elemental, as shown in the following table.</p><table><thead><tr><td>Gem</td><td>Summoned Elemental</td></tr></thead><tbody><tr><td>@UUID[Compendium.dnd-dungeon-masters-guide.equipment.Item.dmgBlueElemental]{Blue sapphire}</td><td>@UUID[Compendium.dnd-dungeon-masters-guide.actors.Actor.banHjKDMCegbUwYE]{Air Elemental}</td></tr><tr><td>@UUID[Compendium.dnd-dungeon-masters-guide.equipment.Item.dmgEmeraldElemen]{Emerald}</td><td>@UUID[Compendium.dnd-dungeon-masters-guide.actors.Actor.namJz755U1EhvEJa]{Water Elemental}</td></tr><tr><td>@UUID[Compendium.dnd-dungeon-masters-guide.equipment.Item.dmgRedElementalG]{Red corundum}</td><td>@UUID[Compendium.dnd-dungeon-masters-guide.actors.Actor.8SMQl75HLjhuSeau]{Fire Elemental}</td></tr><tr><td>@UUID[Compendium.dnd-dungeon-masters-guide.equipment.Item.dmgYellowElement]{Yellow diamond}</td><td>@UUID[Compendium.dnd-dungeon-masters-guide.actors.Actor.sApYLZj9PTZ40wJr]{Earth Elemental}</td></tr></tbody></table>"
     },
     "Eyes of Charming": {
-      "description": "<div><p><em>奇物，非普通（需同調）</em></p></div><p>These crystal lenses fit over the eyes. They have 3 charges. While wearing them, you can expend 1 or more charges to cast <em>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplCharmPerso]{Charm Person}</em> (save DC 13). For 1 charge, you cast the level 1 version of the spell. You increase the spell’s level by one for each additional charge you expend. The lenses regain all expended charges daily at dawn.</p>",
+      "description": "<div><p><em>奇物，非普通（需同調）</em></p></div><p>這副水晶鏡片適合戴在眼前。鏡片具有3點充能。佩戴鏡片期間，你可以消耗1點或更多充能來施放<em>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplCharmPerso]{魅惑人類}</em>（豁免DC 13）。消耗1點充能時，你施放該法術的1環版本；每多消耗1點充能，法術的環階就提升1環。鏡片每日黎明時恢復所有已消耗的充能。</p>",
       "name": "魅惑鏡片"
     },
     "Bomb": {
@@ -7234,7 +7234,7 @@
       "description": "<p><em>奇物，普通</em></p><p>這顆法球可用作奧術法器。</p><p>持握這顆法球期間，你可以採取魔法動作，確認現在是早晨、下午、傍晚還是夜晚。此屬性僅在物質位面中有效。</p>"
     },
     "Amulet of Proof against Detection and Location": {
-      "description": "<p><em>奇物，非普通（需同調）</em></p><p>While wearing this amulet, you can’t be targeted by &amp;Reference[schoolsofmagic]{Divination} spells or perceived through magical scrying sensors unless you allow it.</p>",
+      "description": "<p><em>奇物，非普通（需同調）</em></p><p>佩戴這枚護符期間，除非你允許，否則你無法被&amp;Reference[schoolsofmagic]{預言學派}法術選為目標，也無法被魔法探知感應器感知。</p>",
       "name": "反偵測定位護符"
     },
     "Ring of Jumping": {
@@ -7291,10 +7291,10 @@
       "description": "<p><em>奇物，普通</em></p><p>此帽有3次充能。持握此帽期間，你可以採取魔法動作，消耗1充能，召喚你所選擇的下列生物之一：一隻<strong>@UUID[Compendium.dnd-dungeon-masters-guide.actors.Actor.qav2dvMIUiMQCCsy]{蝙蝠}</strong>、一隻<strong>@UUID[Compendium.dnd-dungeon-masters-guide.actors.Actor.EZgiprHXA2D7Uyb3]{青蛙}</strong>或一隻<strong>@UUID[Compendium.dnd-dungeon-masters-guide.actors.Actor.pozQUPTnLZW8epox]{老鼠}</strong>。被召喚出的生物會魔法般地出現在帽子中，並試圖盡快遠離你。該生物對你和其他生物的態度為冷漠，且不受你控制。其行為如同同類的普通生物，並在1小時後或生命值降至0時消失。此帽每日黎明時恢復所有已消耗的充能。</p>"
     },
     "Cape of the Mountebank": {
-      "description": "<div><p><em>奇物，珍稀</em></p></div><p>This cape smells faintly of brimstone. While wearing it, you can use it to cast <em>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplDimensionD]{Dimension Door}</em> as a Magic action. This property can’t be used again until the next dawn.</p><p>When you teleport with that spell, you leave behind a cloud of smoke. The space you left is &amp;Reference[LightlyObscured] by that smoke until the end of your next turn.</p>",
+      "description": "<div><p><em>奇物，珍稀</em></p></div><p>這件披肩帶有淡淡的硫磺氣味。穿戴這件披肩期間，你可以透過披肩，以魔法動作施放<em>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplDimensionD]{次元門}</em>。此屬性一經使用，直到下個黎明前都無法再次使用。</p><p>當你以該法術傳送時，你會留下一團煙霧。你離開的空間會因該煙霧而處於&amp;Reference[LightlyObscured]{輕度遮蔽}，直到你下個回合結束。</p>",
       "activities": {
         "qsuojT0nn8ZkAY19": {
-          "chatFlavor": " The space you left is &Reference[LightlyObscured] by smoke until the end of your next turn."
+          "chatFlavor": "你離開的空間因煙霧而處於&Reference[LightlyObscured]{輕度遮蔽}，直到你下個回合結束。"
         }
       },
       "name": "郎中披肩"
@@ -7402,7 +7402,7 @@
       }
     },
     "Necklace of Adaptation": {
-      "description": "<p><em>奇物，非普通（需同調）</em></p><p>While wearing this necklace, you can breathe normally in any environment, and you have Advantage on saving throws made to avoid or end the &amp;Reference[Poisoned apply=false] condition.</p>",
+      "description": "<p><em>奇物，非普通（需同調）</em></p><p>佩戴這條項鍊期間，你能在任何環境中正常呼吸，且你在為避免或結束&amp;Reference[Poisoned apply=false]{中毒}狀態而進行的豁免中具有優勢。</p>",
       "name": "適應項鍊"
     },
     "Nature's Mantle": {
