@@ -43,7 +43,7 @@
     },
     "Helm of Comprehending Languages": {
       "name": "通曉語言頭盔",
-      "description": "<p><em>奇物，非普通</em></p><p>While wearing this helm, you can cast @UUID[Compendium.dnd-players-handbook.spells.Item.phbsplComprehend]{Comprehend Languages} from it.</p>"
+      "description": "<p><em>奇物，非普通</em></p><p>穿戴這頂頭盔期間，你可以透過頭盔施放@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplComprehend]{通曉語言}。</p>"
     },
     "Quaal's Feather Token (Anchor)": {
       "effects": {
@@ -311,13 +311,13 @@
       "name": "統治權杖",
       "effects": {
         "Obedient": {
-          "name": "Obedient"
+          "name": "服從"
         }
       },
-      "description": "<p><em>Rod，珍稀（需同調）</em></p><p>You can take a Magic action to present the rod and command obedience from each creature of your choice that you can see within 120 feet of yourself. Each target must succeed on a DC 15 Wisdom saving throw or have the &amp;Reference[Charmed apply=false] condition for 8 hours. While Charmed in this way, the creature regards you as its trusted leader. If harmed by you or your allies or commanded to do something contrary to its nature, a target ceases to be Charmed in this way. Once used, this property can’t be used again until the next dawn.</p>",
+      "description": "<p><em>權杖，珍稀（需同調）</em></p><p>你可以採取魔法動作展示這根權杖，並命令位於你120呎內每個你所能看見且由你所選擇的生物服從於你。每個目標必須成功通過一次DC 15的感知豁免，否則陷入&amp;Reference[Charmed apply=false]{魅惑}狀態，持續8小時。以此法陷入魅惑狀態期間，該生物將你視為其信賴的領袖。若目標受到你或你的盟友傷害，或被命令去做違反其本性的事，目標便不再以此法陷入魅惑狀態。此屬性一經使用，直到下個黎明前都無法再次使用。</p>",
       "activities": {
         "Command Obedience": {
-          "name": "Command Obedience"
+          "name": "命令服從"
         }
       }
     },
@@ -1302,11 +1302,11 @@
     },
     "Boots of the Winterlands": {
       "name": "雪地之靴",
-      "description": "<div><p><em>奇物，非普通（需同調）</em></p></div><p>These furred boots are snug and feel warm. While wearing them, you gain the following benefits.</p><p><strong>Cold Resistance.</strong> You have Resistance to Cold damage and can tolerate temperatures of 0 degrees Fahrenheit or lower without any additional protection.</p><p><strong>Winter Strider.</strong> You ignore Difficult Terrain created by ice or snow.</p>",
+      "description": "<div><p><em>奇物，非普通（需同調）</em></p></div><p>這雙毛皮靴子貼腳又溫暖。穿戴這雙靴子期間，你獲得下列好處。</p><p><strong>【寒冷抗力】</strong>你對寒冷傷害具有抗力，並能在沒有任何額外防護的情況下忍受華氏0度或更低的溫度。</p><p><strong>【冬行者】</strong>你無視由冰或雪造成的困難地形。</p>",
       "effects": {
         "Cold Resistance": {
-          "description": "<p>You have Resistance to Cold damage and can tolerate temperatures of 0 degrees Fahrenheit or lower without any additional protection.</p>",
-          "name": "Cold Resistance"
+          "description": "<p>你對寒冷傷害具有抗力，並能在沒有任何額外防護的情況下忍受華氏0度或更低的溫度。</p>",
+          "name": "寒冷抗力"
         }
       }
     },
@@ -1575,7 +1575,7 @@
           "name": "鈍擊、穿刺、揮砍抗力"
         }
       },
-      "description": "<p><em>護甲（@UUID[Compendium.dnd-players-handbook.equipment.Item.phbarmPlateArmor]{全身板甲}），傳說（需同調）</em></p><p>穿戴這套護甲期間，你對鈍擊、穿刺、揮砍傷害具有抗力。</p><p><strong>【金屬外殼】</strong>你可以採取魔法動作，使你對鈍擊、穿刺、揮砍傷害具有免疫，持續10分鐘，或直到你不再穿戴該護甲。此特性一經使用，直到下個黎明前，你都無法再次使用。</p>",
+      "description": "<p><em>護甲（@UUID[Compendium.dnd-players-handbook.equipment.Item.phbarmPlateArmor]{全身板甲}），傳說（需同調）</em></p><p>穿戴這套護甲期間，你對鈍擊、穿刺、揮砍傷害具有抗力。</p><p><strong>【金屬外殼】</strong>你可以採取魔法動作，使你對鈍擊、穿刺、揮砍傷害具有免疫，持續10分鐘，或直到你不再穿戴該護甲。此屬性一經使用，直到下個黎明前，你都無法再次使用。</p>",
       "name": "堅不可摧護甲",
       "activities": {
         "Metal Shell": {
@@ -1669,7 +1669,7 @@
     "Robe of Useful Items": {
       "activities": {
         "Mirror": {
-          "name": "Mirror"
+          "name": "鏡子"
         },
         "Dagger": {
           "name": "匕首"
@@ -1681,13 +1681,13 @@
           "name": "長桿"
         },
         "Rope (Coiled)": {
-          "name": "Rope (Coiled)"
+          "name": "繩索（盤繞）"
         },
         "Sack": {
           "name": "麻袋"
         }
       },
-      "description": "<p><em>奇物，非普通</em></p><p>This robe has cloth patches of various shapes and colors covering it. While wearing the robe, you can take a Magic action to detach one of the patches, causing it to become the object or creature it represents. Once the last patch is removed, the robe becomes an ordinary garment.</p><p>The robe has two of each of the following patches:</p><ul><li class=\"Core-Styles_Core-Bulleted\">@UUID[Compendium.dnd-players-handbook.equipment.Item.KZUoiZrigDbovEu7]{Bullseye Lantern} (filled and lit)</li><li class=\"Core-Styles_Core-Bulleted\">@UUID[Compendium.dnd-players-handbook.equipment.Item.phbwepDagger0000]{Dagger}</li><li class=\"Core-Styles_Core-Bulleted\">@UUID[Compendium.dnd-players-handbook.equipment.Item.phbagMirror00000]{Mirror}</li><li class=\"Core-Styles_Core-Bulleted\">@UUID[Compendium.dnd-players-handbook.equipment.Item.phbagPole0000000]{Pole}</li><li class=\"Core-Styles_Core-Bulleted\">@UUID[Compendium.dnd-players-handbook.equipment.Item.x8jC9e00t4cUYiKR]{Rope} (coiled)</li><li class=\"Core-Styles_Core-Bulleted\">@UUID[Compendium.dnd-players-handbook.equipment.Item.phbagSack0000000]{Sack}</li></ul><p>In addition, the robe has [[/r 4d4]] other patches. The DM chooses the patches or determines them randomly by rolling on the following table.</p><details><summary>Table</summary><p>@Embed[Compendium.dnd-dungeon-masters-guide.tables.RollTable.dmgRobeOfUsefulI rollable]</p></details><section class=\"secret\" id=\"secret-xQk1DSLrx4a4jmWy\"><p><strong>Foundry Note</strong></p><p>This item includes activities for each of the always present patches above which include limited uses for tracking how many are left. They can be duplicated and renamed for the additional patches after rolling for the results.</p></section>",
+      "description": "<p><em>奇物，非普通</em></p><p>這件法袍上縫著各種形狀與顏色的布補丁。穿戴這件法袍期間，你可以採取魔法動作拆下其中一塊補丁，使其變成其所代表的物件或生物。最後一塊補丁被拆下後，法袍便成為一件普通的衣物。</p><p>法袍上有下列每種補丁各兩塊：</p><ul><li class=\"Core-Styles_Core-Bulleted\">@UUID[Compendium.dnd-players-handbook.equipment.Item.KZUoiZrigDbovEu7]{牛眼提燈}（裝滿燃料並已點燃）</li><li class=\"Core-Styles_Core-Bulleted\">@UUID[Compendium.dnd-players-handbook.equipment.Item.phbwepDagger0000]{匕首}</li><li class=\"Core-Styles_Core-Bulleted\">@UUID[Compendium.dnd-players-handbook.equipment.Item.phbagMirror00000]{鏡子}</li><li class=\"Core-Styles_Core-Bulleted\">@UUID[Compendium.dnd-players-handbook.equipment.Item.phbagPole0000000]{長桿}</li><li class=\"Core-Styles_Core-Bulleted\">@UUID[Compendium.dnd-players-handbook.equipment.Item.x8jC9e00t4cUYiKR]{繩索}（盤繞）</li><li class=\"Core-Styles_Core-Bulleted\">@UUID[Compendium.dnd-players-handbook.equipment.Item.phbagSack0000000]{麻袋}</li></ul><p>此外，法袍上還有[[/r 4d4]]塊其他補丁。由DM選擇補丁，或透過在下表擲骰隨機決定。</p><details><summary>表格</summary><p>@Embed[Compendium.dnd-dungeon-masters-guide.tables.RollTable.dmgRobeOfUsefulI rollable]</p></details><section class=\"secret\" id=\"secret-xQk1DSLrx4a4jmWy\"><p><strong>Foundry 註記</strong></p><p>此物品為上述每種固定存在的補丁都包含一個行動，並附有有限使用次數，用來追蹤剩餘數量。擲骰決定其他補丁後，可複製這些行動並重新命名，供額外的補丁使用。</p></section>",
       "name": "雜貨法袍"
     },
     "Efreeti Chain": {
@@ -2183,13 +2183,13 @@
           "name": "盾牌 +3"
         }
       },
-      "name": "Shield, +1, +2, or +3",
+      "name": "盾牌 +1、+2、+3",
       "activities": {
         "Shield, +1, +2, or +3": {
-          "name": "Shield, +1, +2, or +3"
+          "name": "盾牌 +1、+2、+3"
         }
       },
-      "description": "<p><em>Armor (@UUID[Compendium.dnd-players-handbook.equipment.Item.phbarmShield0000]{Shield})，非常見（+1）、珍稀（+2）、非常珍稀（+3）</em></p><p>While holding this Shield, you have a bonus to Armor Class determined by the Shield’s rarity, in addition to the Shield’s normal bonus to AC.</p><p>@Embed[Compendium.dnd-dungeon-masters-guide.content.JournalEntry.dmgFoundryRefere.JournalEntryPage.Ok4iCgD25ENgoRxE cite=false caption=false classes=\"hide-in-embed\"]</p>"
+      "description": "<p><em>護甲（@UUID[Compendium.dnd-players-handbook.equipment.Item.phbarmShield0000]{盾牌}），非普通（+1）、珍稀（+2）、極珍稀（+3）</em></p><p>持握這面盾牌期間，你的AC獲得加值，加值取決於盾牌的稀有度。此加值額外加在盾牌通常提供的AC加值上。</p><p>@Embed[Compendium.dnd-dungeon-masters-guide.content.JournalEntry.dmgFoundryRefere.JournalEntryPage.Ok4iCgD25ENgoRxE cite=false caption=false classes=\"hide-in-embed\"]</p>"
     },
     "Lightning Cannon": {
       "name": "Lightning Cannon",
@@ -2351,7 +2351,7 @@
       "description": "<p><em>@UUID[Compendium.dnd-players-handbook.equipment.Item.phbafcStaffalsoa]{Staff}, Rarity Varies （需由施法者同調）</em></p><p>Bound into this staff is a spell of level 8 or lower. The spell is determined when the staff is created and can be of any school of magic. The staff has 6 charges and regains 1d6 expended charges daily at dawn. While holding the staff, you can expend 1 charge to cast its spell. If you expend the staff’s last charge, roll 1d20. On a 1, the staff loses its properties and becomes a nonmagical Quarterstaff.</p><p>The level of the spell bound into the staff determines the spell’s saving throw DC and attack bonus, as well as the staff’s rarity, as shown in the following table.</p><details><summary>Spell Level Table</summary><table><thead><tr><td>Spell Level</td><td>Rarity</td><td>Save DC</td><td>Attack Bonus</td></tr></thead><tbody><tr><td>Cantrip</td><td>Uncommon</td><td>13</td><td>+5</td></tr><tr><td>1</td><td>Uncommon</td><td>13</td><td>+5</td></tr><tr><td>2</td><td>Rare</td><td>13</td><td>+5</td></tr><tr><td>3</td><td>Rare</td><td>15</td><td>+7</td></tr><tr><td>4</td><td>Very Rare</td><td>15</td><td>+7</td></tr><tr><td>5</td><td>Very Rare</td><td>17</td><td>+9</td></tr><tr><td>6</td><td>Legendary</td><td>17</td><td>+9</td></tr><tr><td>7</td><td>Legendary</td><td>18</td><td>+10</td></tr><tr><td>8</td><td>Legendary</td><td>18</td><td>+10</td></tr></tbody></table></details><p> @Embed[Compendium.dnd-dungeon-masters-guide.content.JournalEntry.dmgFoundryRefere.JournalEntryPage.Ok4iCgD25ENgoRxE cite=false caption=false classes=\"hide-in-embed\"]</p>"
     },
     "Wand of Magic Missiles": {
-      "description": "<p><em>Wand，非普通</em></p><p>This wand has 7 charges. While holding it, you can expend no more than 3 charges to cast @UUID[Compendium.dnd-players-handbook.spells.Item.phbsplMagicMissi]{Magic Missile} from it. For 1 charge, you cast the level 1 version of the spell. You can increase the spell’s level by 1 for each additional charge you expend.</p><p><em><strong>Regaining Charges.</strong></em> The wand regains 1d6 + 1 expended charges daily at dawn. If you expend the wand’s last charge, roll [[/r 1d20]]. On a 1, the wand crumbles into ashes and is destroyed.</p>",
+      "description": "<p><em>魔杖，非普通</em></p><p>這根魔杖具有7點充能。持握魔杖期間，你可以消耗至多3點充能，透過魔杖施放@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplMagicMissi]{魔法飛彈}。消耗1點充能時，你施放該法術的1環版本；每多消耗1點充能，法術的環階就提升1環。</p><p><em><strong>【恢復充能】</strong></em>此魔杖每日黎明時恢復1d6 + 1已消耗的充能。若你消耗了魔杖的最後1點充能，擲[[/r 1d20]]。若結果為1，魔杖會化為灰燼並被摧毀。</p>",
       "name": "魔法飛彈魔杖"
     },
     "Lantern of Revealing": {
@@ -2459,7 +2459,7 @@
         }
       },
       "name": "騎士之盾",
-      "description": "<p><em>護甲（盾牌），極珍稀（需同調）</em></p><p>持握這面盾牌期間，你的AC獲得+2加值。此加值額外加在盾牌通常提供的AC加值上。</p><p>持握這面盾牌期間，你可以使用下列額外特性。</p><p><em><strong>【強力猛擊】</strong></em><strong></strong>當你採取攻擊動作時，你可以使用這面盾牌，對位於你5呎內的一個目標進行其中一次攻擊檢定。將你的熟練加值與力量調整值加到該攻擊檢定上。命中時，盾牌對目標造成等同於2d6+2加上你力量調整值的力場傷害，若目標為生物，你可以將其直接推離你至多10呎。若該生物的體型與你相同或更小，你也可以將其擊倒，使其陷入伏地狀態。</p><p><em><strong>【庇護領域】</strong></em>當你或位於你5呎內一名你所能看見的盟友成為一次攻擊的目標，或對抗一個效應區域進行豁免時，以一個反應，你可以使用這面盾牌創造一道以你為原點且無法移動的5呎發散區域。當發散區域出現時，任何未完全位於其中的生物或物件都會被推至該區域外最近的未佔據空間。觸發此反應的攻擊或效應區域對發散區域內的生物與物件不產生效應。只要你維持專注，發散區域便持續存在，至多1分鐘。任何東西都無法進出該發散區域。區域內的生物或物件不會受到來自區域外的攻擊或效應傷害，區域內的生物也無法對區域外的任何東西造成傷害。此特性一經使用，直到下個黎明前，你都無法再次使用。</p>"
+      "description": "<p><em>護甲（盾牌），極珍稀（需同調）</em></p><p>持握這面盾牌期間，你的AC獲得+2加值。此加值額外加在盾牌通常提供的AC加值上。</p><p>持握這面盾牌期間，你可以使用下列額外屬性。</p><p><em><strong>【強力猛擊】</strong></em><strong></strong>當你採取攻擊動作時，你可以使用這面盾牌，對位於你5呎內的一個目標進行其中一次攻擊檢定。將你的熟練加值與力量調整值加到該攻擊檢定上。命中時，盾牌對目標造成等同於2d6+2加上你力量調整值的力場傷害，若目標為生物，你可以將其直接推離你至多10呎。若該生物的體型與你相同或更小，你也可以將其擊倒，使其陷入伏地狀態。</p><p><em><strong>【庇護領域】</strong></em>當你或位於你5呎內一名你所能看見的盟友成為一次攻擊的目標，或對抗一個效應區域進行豁免時，以一個反應，你可以使用這面盾牌創造一道以你為原點且無法移動的5呎發散區域。當發散區域出現時，任何未完全位於其中的生物或物件都會被推至該區域外最近的未佔據空間。觸發此反應的攻擊或效應區域對發散區域內的生物與物件不產生效應。只要你維持專注，發散區域便持續存在，至多1分鐘。任何東西都無法進出該發散區域。區域內的生物或物件不會受到來自區域外的攻擊或效應傷害，區域內的生物也無法對區域外的任何東西造成傷害。此屬性一經使用，直到下個黎明前，你都無法再次使用。</p>"
     },
     "Armor, +1, +2, or +3": {
       "effects": {
@@ -2780,16 +2780,16 @@
       "name": "不動權杖",
       "activities": {
         "Make Immovable": {
-          "name": "Make Immovable"
+          "name": "固定權杖"
         },
         "Attempt to Move": {
-          "name": "Attempt to Move"
+          "name": "嘗試移動"
         }
       },
-      "description": "<p><em>Rod，非普通</em></p><p>This iron rod has a button on one end. You can take a Utilize action to press the button, which causes the rod to become magically fixed in place. Until you or another creature takes a Utilize action to push the button again, the rod doesn’t move, even if it defies gravity. The rod can hold up to 8,000 pounds of weight. More weight causes the rod to deactivate and fall. A creature can take a Utilize action to make a DC 30 Strength (Athletics) check, moving the fixed rod up to 10 feet on a successful check.</p>"
+      "description": "<p><em>權杖，非普通</em></p><p>這根鐵製權杖的一端有一枚按鈕。你可以採取利用動作按下按鈕，使權杖以魔法固定在原處。直到你或另一名生物採取利用動作再次按下按鈕前，權杖都不會移動，即使這違反重力亦然。權杖最多能承受8,000磅的重量，超過此重量會使權杖失效並掉落。一名生物可以採取利用動作進行一次DC 30的力量（運動）檢定，檢定成功時可將固定的權杖移動至多10呎。</p>"
     },
     "Javelin of Lightning": {
-      "description": "<p><em>武器（@UUID[Compendium.dnd-players-handbook.equipment.Item.phbwepJavelin000]{標槍}），非普通</em></p><p>每次你以這把魔法武器進行攻擊檢定並命中時，你可以使其造成閃電傷害，取代穿刺傷害。</p><p><em><strong>【閃電束】</strong></em>當你向位於你120呎內的一個目標投擲這把武器時，你可以放棄進行遠程攻擊檢定，改為將武器變為一道閃電束。這道閃電束在你與目標之間形成一道寬5呎的直線區域。目標與該區域內每個其他生物（不包括你）都進行一次DC 13的敏捷豁免，失敗時承受4d6閃電傷害，成功時則傷害減半。緊接在你造成此傷害後，武器重新出現在你手中。直到下個黎明前，你無法再次使用此特性。</p><section class=\"secret\" id=\"secret-606LeZVVMHWwmeln\"><p><strong>【Foundry 註記】</strong></p><p>使用<strong>攻擊</strong>行動擲傷害時，你可以在閃電與穿刺之間選擇，該行動也會記住你上次的選擇。</p></section>",
+      "description": "<p><em>武器（@UUID[Compendium.dnd-players-handbook.equipment.Item.phbwepJavelin000]{標槍}），非普通</em></p><p>每次你以這把魔法武器進行攻擊檢定並命中時，你可以使其造成閃電傷害，取代穿刺傷害。</p><p><em><strong>【閃電束】</strong></em>當你向位於你120呎內的一個目標投擲這把武器時，你可以放棄進行遠程攻擊檢定，改為將武器變為一道閃電束。這道閃電束在你與目標之間形成一道寬5呎的直線區域。目標與該區域內每個其他生物（不包括你）都進行一次DC 13的敏捷豁免，失敗時承受4d6閃電傷害，成功時則傷害減半。緊接在你造成此傷害後，武器重新出現在你手中。直到下個黎明前，你無法再次使用此屬性。</p><section class=\"secret\" id=\"secret-606LeZVVMHWwmeln\"><p><strong>【Foundry 註記】</strong></p><p>使用<strong>攻擊</strong>行動擲傷害時，你可以在閃電與穿刺之間選擇，該行動也會記住你上次的選擇。</p></section>",
       "name": "閃電標槍",
       "activities": {
         "Lightning Bolt": {
@@ -3010,14 +3010,14 @@
     "Winged Boots": {
       "activities": {
         "Fly": {
-          "name": "Fly"
+          "name": "飛行"
         }
       },
-      "description": "<p><em>奇物，非普通（需同調）</em></p><p>These boots have 4 charges and regain 1d4 expended charges daily at dawn. While wearing the boots, you can take a Magic action to expend 1 charge, gaining a Fly Speed of 30 feet for 1 hour. If you are flying when the duration expires, you descend at a rate of 30 feet per round until you land.</p>",
+      "description": "<p><em>奇物，非普通（需同調）</em></p><p>這雙靴子具有4點充能，並在每日黎明時恢復1d4已消耗的充能。穿戴這雙靴子期間，你可以採取魔法動作消耗1點充能，獲得30呎的飛行速度，持續1小時。若持續時間結束時你正在飛行，你會以每輪30呎的速度下降，直到著陸。</p>",
       "effects": {
         "Winged": {
-          "description": "<p>The wings lasts for 1 hour or until you end the effect early as a Magic action. The wings give you a Fly Speed of 60 feet.</p>",
-          "name": "Winged"
+          "description": "<p>羽翼持續1小時，或直到你以魔法動作提前結束此效應。羽翼使你獲得30呎的飛行速度。</p>",
+          "name": "飛翼"
         }
       },
       "name": "飛翼之靴"
@@ -3305,36 +3305,36 @@
       "description": "<p><em>奇物，非常珍稀（需同調）</em></p><p>This robe has 3 charges, and it regains 1d3 expended charges daily at dawn. While you wear it, you can take a Magic action and expend 1 charge to cause the garment to display a shifting pattern of dazzling hues until the end of your next turn. During this time, the robe sheds Bright Light in a 30-foot radius and Dim Light for an additional 30 feet, and creatures that can see you have Disadvantage on attack rolls against you. Any creature in the Bright Light that can see you when the robe’s power is activated must succeed on a DC 15 Wisdom saving throw or have the Stunned condition until the effect ends.</p><section id=\"secret-fHn9nt3cSF0lOwcT\" class=\"secret\"><p><strong>Foundry Note</strong></p><p>The <strong>Display Dazzling Hues</strong> activity includes a measured template which can be used for tracking the area of Bright Light.</p></section>"
     },
     "Wand of Paralysis": {
-      "description": "<p><em>Wand，珍稀 （需由施法者同調）</em></p><p>This wand has 7 charges. While holding it, you can take a Magic action to expend 1 charge to cause a thin blue ray to streak from the tip toward a creature you can see within 60 feet of yourself. The target must succeed on a DC 15 Constitution saving throw or have the &amp;Reference[Paralyzed apply=false] condition for 1 minute. At the end of each of the target’s turns, it repeats the save, ending the effect on itself on a success.</p><p><em><strong>Regaining Charges.</strong></em> The wand regains 1d6 + 1 expended charges daily at dawn. If you expend the wand’s last charge, roll [[/r 1d20]]. On a 1, the wand crumbles into ashes and is destroyed.</p>",
+      "description": "<p><em>魔杖，珍稀（需由施法者同調）</em></p><p>這根魔杖具有7點充能。持握魔杖期間，你可以採取魔法動作消耗1點充能，使一道細長的藍色射線從魔杖尖端射向位於你60呎內一名你所能看見的生物。目標必須成功通過一次DC 15的體質豁免，否則陷入&amp;Reference[Paralyzed apply=false]{麻痺}狀態，持續1分鐘。在其每個回合結束時，目標重複此豁免，成功時結束其身上的效應。</p><p><em><strong>【恢復充能】</strong></em>此魔杖每日黎明時恢復1d6 + 1已消耗的充能。若你消耗了魔杖的最後1點充能，擲[[/r 1d20]]。若結果為1，魔杖會化為灰燼並被摧毀。</p>",
       "name": "麻痺魔杖",
       "effects": {
         "Paralyzed": {
-          "name": "Paralyzed"
+          "name": "麻痺"
         }
       },
       "activities": {
         "Paralyze": {
-          "name": "Paralyze"
+          "name": "麻痺"
         }
       }
     },
     "Sword of Life Stealing": {
       "effects": {
         "Sword of Life Stealing": {
-          "name": "Sword of Life Stealing",
+          "name": "竊命之劍",
           "changes": {
             "system.description.value": "{}<p>@Embed[Compendium.dnd-dungeon-masters-guide.equipment.Item.dmgSwordOfLifeSt caption=false]</p>",
-            "name": "{} of Life Stealing"
+            "name": "竊命{}"
           }
         }
       },
-      "name": "Sword of Life Stealing",
+      "name": "竊命之劍",
       "activities": {
         "Sword of Life Stealing": {
-          "name": "Sword of Life Stealing"
+          "name": "竊命之劍"
         }
       },
-      "description": "<p><em>Weapon (@UUID[Compendium.dnd-players-handbook.equipment.Item.phbwepGlaive0000]{Glaive}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbwepGreatsword]{Greatsword}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbwepLongsword0]{Longsword}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbwepRapier0000]{Rapier}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbwepScimitar00]{Scimitar}, or @UUID[Compendium.dnd-players-handbook.equipment.Item.phbwepShortsword]{Shortsword})，珍稀（需同調）</em></p><p>When you attack a creature with this magic weapon and roll a 20 on the d20 for the attack roll, that target takes an extra 15 Necrotic damage if it isn’t a Construct or an Undead, and you gain Temporary Hit Points equal to the amount of Necrotic damage taken.</p><p>@Embed[Compendium.dnd-dungeon-masters-guide.content.JournalEntry.dmgFoundryRefere.JournalEntryPage.Ok4iCgD25ENgoRxE cite=false caption=false classes=\"hide-in-embed\"]</p>"
+      "description": "<p><em>武器（@UUID[Compendium.dnd-players-handbook.equipment.Item.phbwepGlaive0000]{長柄刀}、@UUID[Compendium.dnd-players-handbook.equipment.Item.phbwepGreatsword]{巨劍}、@UUID[Compendium.dnd-players-handbook.equipment.Item.phbwepLongsword0]{長劍}、@UUID[Compendium.dnd-players-handbook.equipment.Item.phbwepRapier0000]{刺劍}、@UUID[Compendium.dnd-players-handbook.equipment.Item.phbwepScimitar00]{彎刀}、@UUID[Compendium.dnd-players-handbook.equipment.Item.phbwepShortsword]{短劍}），珍稀（需同調）</em></p><p>當你以這把魔法武器攻擊一名生物，且攻擊檢定的d20擲出20時，若該目標不是構裝體或不死生物，則額外承受15黯蝕傷害，且你獲得等同於目標所承受黯蝕傷害的臨時生命值。</p><p>@Embed[Compendium.dnd-dungeon-masters-guide.content.JournalEntry.dmgFoundryRefere.JournalEntryPage.Ok4iCgD25ENgoRxE cite=false caption=false classes=\"hide-in-embed\"]</p>"
     },
     "Smoldering Armor": {
       "effects": {
@@ -3541,18 +3541,18 @@
       "name": "Ring"
     },
     "Cap of Water Breathing": {
-      "description": "<div><p><em>奇物，非普通</em></p></div><p>While wearing this cap underwater, you can take a Magic action to create a bubble of air around your head. This bubble allows you to breathe normally underwater. This bubble stays with you until the cap is removed or you are no longer underwater.</p>",
-      "name": "Cap of Water Breathing",
+      "description": "<div><p><em>奇物，非普通</em></p></div><p>在水下穿戴這頂帽子期間，你可以採取魔法動作，在你的頭部周圍創造一個空氣泡。這個氣泡讓你能在水下正常呼吸。直到你摘下帽子或不再位於水下前，氣泡都會跟隨著你。</p>",
+      "name": "水下呼吸帽",
       "effects": {
         "Air Bubble": {
-          "description": "<p> This bubble allows you to breathe normally underwater. This bubble stays with you until the cap is removed or you are no longer underwater.</p>",
-          "name": "Air Bubble"
+          "description": "<p>這個氣泡讓你能在水下正常呼吸。直到你摘下帽子或不再位於水下前，氣泡都會跟隨著你。</p>",
+          "name": "空氣泡"
         }
       },
       "activities": {
         "Create Air Bubble": {
-          "condition": "user is under water",
-          "name": "Create Air Bubble"
+          "condition": "使用者位於水下",
+          "name": "創造空氣泡"
         }
       }
     },
@@ -3708,11 +3708,11 @@
     },
     "Belt of Dwarvenkind": {
       "name": "矮人腰帶",
-      "description": "<div><p><em>奇物，珍稀（需同調）</em></p></div><p>While wearing this belt, you gain the following benefits:</p><div class=\"def-block\"><p><strong>Dwarvish.</strong> You know Dwarvish.</p><p><strong>Friend of Dwarvenkind.</strong> You have Advantage on Charisma (Persuasion) checks made to interact with dwarves and duergar.</p><p><strong>Toughness.</strong> Your Constitution increases by 2, to a maximum of 20.</p></div><p>In addition, while attuned to the belt, you have a 50 percent chance each day at dawn of growing a full beard if you can grow one, or a thicker beard if you already have one.</p><p>If you aren’t a dwarf or duergar, you gain the following additional benefits while wearing the belt:</p><div class=\"def-block\"><p><strong>Darkvision.</strong> You have Darkvision with a range of 60 feet.</p><p><strong>Resilience.</strong> You have Resistance to Poison damage. You also have Advantage on saving throws you make to avoid or end the Poisoned condition.</p></div>",
+      "description": "<div><p><em>奇物，珍稀（需同調）</em></p></div><p>穿戴這條腰帶期間，你獲得下列好處。</p><div class=\"def-block\"><p><strong>【矮人語】</strong>你知曉矮人語。</p><p><strong>【矮人之友】</strong>你與矮人和灰矮人互動所進行的魅力（說服）檢定具有優勢。</p><p><strong>【堅韌】</strong>你的體質提升2點，上限為20。</p></div><p>此外，與腰帶同調期間，你每天黎明時有50%的機率長出一大把鬍鬚（若你能長鬍鬚）；或者若你已有鬍鬚，則會變得更濃密。</p><p>若你不是矮人或灰矮人，穿戴這條腰帶期間，你還會獲得下列額外好處。</p><div class=\"def-block\"><p><strong>【黑暗視覺】</strong>你具有60呎的黑暗視覺。</p><p><strong>【堅毅】</strong>你具有對毒素傷害的抗力。你在為避免或結束中毒狀態而進行的豁免中也具有優勢。</p></div>",
       "effects": {
         "Dwarvenkind Benefits": {
-          "description": "<div class=\"def-block\"><p><strong>Dwarvish.</strong> You know Dwarvish.</p><p><strong>Friend of Dwarvenkind.</strong> You have Advantage on Charisma (Persuasion) checks made to interact with dwarves and duergar.</p><p><strong>Toughness.</strong> Your Constitution increases by 2, to a maximum of 20.</p><p>If you aren’t a dwarf or duergar, you gain the following additional benefits while wearing the belt:</p><div class=\"def-block\"><p><strong>Darkvision.</strong> You have Darkvision with a range of 60 feet.</p><p><strong>Resilience.</strong> You have Resistance to Poison damage. You also have Advantage on saving throws you make to avoid or end the Poisoned condition.</p></div></div>",
-          "name": "Dwarvenkind Benefits"
+          "description": "<div class=\"def-block\"><p><strong>【矮人語】</strong>你知曉矮人語。</p><p><strong>【矮人之友】</strong>你與矮人和灰矮人互動所進行的魅力（說服）檢定具有優勢。</p><p><strong>【堅韌】</strong>你的體質提升2點，上限為20。</p><p>若你不是矮人或灰矮人，穿戴這條腰帶期間，你還會獲得下列額外好處：</p><div class=\"def-block\"><p><strong>【黑暗視覺】</strong>你具有60呎的黑暗視覺。</p><p><strong>【堅毅】</strong>你具有對毒素傷害的抗力。你在為避免或結束中毒狀態而進行的豁免中也具有優勢。</p></div></div>",
+          "name": "矮人族好處"
         }
       }
     },
@@ -3756,7 +3756,7 @@
         }
       },
       "name": "發條護符",
-      "description": "<div><p><em>奇物，普通</em></p></div><blockquote><p>這枚銅製護符內有微小的咬合齒輪，由機械境（一個秩序井然、萬物皆可預測的位面）的魔法所驅動。護符內隱約傳出滴答與嗡嗡聲。</p></blockquote><p>佩戴此護符期間，當你進行攻擊檢定時，你可以放棄擲d20，改為直接將骰值視為10。此特性一旦使用，直到下個黎明前無法再次使用。</p>"
+      "description": "<div><p><em>奇物，普通</em></p></div><blockquote><p>這枚銅製護符內有微小的咬合齒輪，由機械境（一個秩序井然、萬物皆可預測的位面）的魔法所驅動。護符內隱約傳出滴答與嗡嗡聲。</p></blockquote><p>佩戴此護符期間，當你進行攻擊檢定時，你可以放棄擲d20，改為直接將骰值視為10。此屬性一旦使用，直到下個黎明前無法再次使用。</p>"
     },
     "Rod of Security": {
       "description": "<p><em>Rod，非常珍稀</em></p><p>While holding this rod, you can take a Magic action to activate it. The rod then instantly transports you and up to 199 other willing creatures you can see to a demiplane. You choose the form the demiplane takes. It could be a tranquil garden, a cheery tavern, an immense palace, a tropical island, a fantastic carnival, or whatever else you can imagine. Regardless of its nature, the demiplane contains enough water and food to sustain its visitors, and the demiplane's environment can't harm its occupants. Everything else that can be interacted with there can exist only there. For example, a flower picked from a garden there disappears if it is taken outside the demiplane.</p><p>For each hour spent in the demiplane, a visitor regains Hit Points as if it had spent 1 Hit Point Die. Also, creatures don't age while there, although time passes normally. Visitors can remain there for up to 200 days divided by the number of creatures present (round down).</p><p>When the time runs out or you take a Magic action to end the effect, all visitors reappear in the location they occupied when you activated the rod or an unoccupied space nearest that location. Once used, this property can't be used again until 10 days have passed.</p><section class=\"secret\" id=\"secret-Z6J3bMzIgyeF3UkP\"><p><strong>Foundry Note</strong></p><p>The <strong>Transport to Demiplane</strong> activity will consume a use of this item but the ten day recovery period must be tracked manually.</p></section>",
@@ -3797,7 +3797,7 @@
     },
     "Wand of Magic Detection": {
       "name": "偵測魔法魔杖",
-      "description": "<p><em>Wand，非普通</em></p><p>This wand has 3 charges. While holding it, you can expend 1 charge to cast @UUID[Compendium.dnd-players-handbook.spells.Item.phbsplDetectMagi]{Detect Magic} from it. The wand regains 1d3 expended charges daily at dawn.</p>"
+      "description": "<p><em>魔杖，非普通</em></p><p>這根魔杖具有3點充能。持握魔杖期間，你可以消耗1點充能，透過魔杖施放@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplDetectMagi]{偵測魔法}。此魔杖每日黎明時恢復1d3已消耗的充能。</p>"
     },
     "Dimensional Shackles": {
       "name": "次元鐐銬",
@@ -3953,7 +3953,7 @@
           "name": "木族利爪"
         }
       },
-      "description": "<p><em>武器（@UUID[Compendium.dnd-players-handbook.equipment.Item.phbwepDagger0000]{匕首}、@UUID[Compendium.dnd-players-handbook.equipment.Item.phbwepRapier0000]{刺劍}、@UUID[Compendium.dnd-players-handbook.equipment.Item.phbwepScimitar00]{彎刀}、@UUID[Compendium.dnd-players-handbook.equipment.Item.phbwepShortsword]{短劍}、@UUID[Compendium.dnd-players-handbook.equipment.Item.phbwepSickle0000]{鐮刀}或@UUID[Compendium.dnd-players-handbook.equipment.Item.phbwepSpear00000]{矛}），普通（需同調）</em></p><p>這把武器在你身上期間，你能理解所有精類的非書面溝通，而牠們也能理解你的非書面溝通。</p><p><em><strong>【密語】</strong></em>你可以採取魔法動作，用這把武器施放@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplMessage000]{傳訊術}。此特性一旦使用，直到下個黎明前無法再次使用。</p><p>@Embed[Compendium.dnd-dungeon-masters-guide.content.JournalEntry.dmgFoundryRefere.JournalEntryPage.Ok4iCgD25ENgoRxE cite=false caption=false classes=\"hide-in-embed\"]</p>"
+      "description": "<p><em>武器（@UUID[Compendium.dnd-players-handbook.equipment.Item.phbwepDagger0000]{匕首}、@UUID[Compendium.dnd-players-handbook.equipment.Item.phbwepRapier0000]{刺劍}、@UUID[Compendium.dnd-players-handbook.equipment.Item.phbwepScimitar00]{彎刀}、@UUID[Compendium.dnd-players-handbook.equipment.Item.phbwepShortsword]{短劍}、@UUID[Compendium.dnd-players-handbook.equipment.Item.phbwepSickle0000]{鐮刀}或@UUID[Compendium.dnd-players-handbook.equipment.Item.phbwepSpear00000]{矛}），普通（需同調）</em></p><p>這把武器在你身上期間，你能理解所有精類的非書面溝通，而牠們也能理解你的非書面溝通。</p><p><em><strong>【密語】</strong></em>你可以採取魔法動作，用這把武器施放@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplMessage000]{傳訊術}。此屬性一旦使用，直到下個黎明前無法再次使用。</p><p>@Embed[Compendium.dnd-dungeon-masters-guide.content.JournalEntry.dmgFoundryRefere.JournalEntryPage.Ok4iCgD25ENgoRxE cite=false caption=false classes=\"hide-in-embed\"]</p>"
     },
     "Water Ring of Elemental Command": {
       "activities": {
@@ -4091,10 +4091,10 @@
       "name": "營養珠"
     },
     "Trident of Fish Command": {
-      "description": "<p><em>Weapon (@UUID[Compendium.dnd-players-handbook.equipment.Item.phbwepTrident000]{Trident})，非普通（需同調）</em></p><p>This magic weapon has 3 charges, and it regains 1d3 expended charges daily at dawn. While you carry it, you can expend 1 charge to cast @UUID[Compendium.dnd-players-handbook.spells.Item.phbsplDominateBe]{Dominate Beast} (save DC 15) from it on a Beast that has a Swim Speed.</p>",
+      "description": "<p><em>武器（@UUID[Compendium.dnd-players-handbook.equipment.Item.phbwepTrident000]{三叉戟}），非普通（需同調）</em></p><p>這把魔法武器具有3點充能，並在每日黎明時恢復1d3點已消耗的充能。攜帶這把武器期間，你可以消耗1點充能，透過武器對一隻具有游泳速度的野獸施放@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplDominateBe]{支配野獸}法術（豁免DC 15）。</p>",
       "activities": {
         "Dominate Beast": {
-          "name": "Dominate Beast"
+          "name": "支配野獸"
         }
       },
       "name": "命令魚類三叉戟"
@@ -4283,10 +4283,10 @@
     },
     "Boots of Elvenkind": {
       "name": "精靈之靴",
-      "description": "<div><p><em>奇物，非普通</em></p></div><p>While you wear these boots, your steps make no sound, regardless of the surface you are moving across. You also have Advantage on Dexterity (Stealth) checks.</p>",
+      "description": "<div><p><em>奇物，非普通</em></p></div><p>穿戴這雙靴子期間，無論你在何種表面上移動，你的腳步都不會發出聲音。你進行敏捷（隱匿）檢定時也具有優勢。</p>",
       "effects": {
         "Stealth Advantage": {
-          "name": "Stealth Advantage"
+          "name": "隱匿優勢"
         }
       }
     },
@@ -4332,10 +4332,10 @@
     },
     "Cloak of Elvenkind": {
       "name": "精靈斗篷",
-      "description": "<div><p><em>奇物，非普通（需同調）</em></p></div><p>While you wear this cloak, Wisdom (Perception) checks made to perceive you have Disadvantage, and you have Advantage on Dexterity (Stealth) checks.</p>",
+      "description": "<div><p><em>奇物，非普通（需同調）</em></p></div><p>穿戴這件斗篷期間，為了察覺你而進行的感知（察覺）檢定具有劣勢，且你進行敏捷（隱匿）檢定時具有優勢。</p>",
       "effects": {
         "Stealth Advantage": {
-          "name": "Stealth Advantage"
+          "name": "隱匿優勢"
         }
       }
     },
@@ -4352,14 +4352,14 @@
     "Bracers of Archery": {
       "effects": {
         "Bonus Damage: Bows": {
-          "name": "Bonus Damage: Bows",
-          "description": "<p>you gain a +2 bonus to damage rolls on ranged attacks made with a Longbow or Shortbow</p>"
+          "name": "額外傷害：弓",
+          "description": "<p>你以長弓或短弓進行的遠程攻擊，其傷害擲骰獲得+2加值</p>"
         },
         "Bow Proficiencies": {
-          "name": "Bow Proficiencies"
+          "name": "弓類熟練"
         }
       },
-      "description": "<div><p><em>奇物，非普通（需同調）</em></p></div><p>While wearing these bracers, you have proficiency with the Longbow and Shortbow, and you gain a +2 bonus to damage rolls made with such weapons.</p><section class=\"secret\" id=\"secret-l1W6lw8WR2ku4qP2\"><p><strong>Foundry Note</strong></p><p>The <strong>Bonus Damage: Bows</strong> passive effect applies the damage bonus to <em>all</em> ranged weapon damage rolls and should be disabled before rolling damage for weapons other than a Longbow or Shortbow.</p></section>",
+      "description": "<div><p><em>奇物，非普通（需同調）</em></p></div><p>穿戴這對護腕期間，你具有長弓與短弓的熟練，且你以這些武器進行的傷害擲骰獲得+2加值。</p><section class=\"secret\" id=\"secret-l1W6lw8WR2ku4qP2\"><p><strong>Foundry 註記</strong></p><p>此物品的<strong>額外傷害：弓</strong>被動效果會將傷害加值套用到<em>所有</em>遠程武器傷害擲骰上，因此以長弓或短弓以外的武器擲傷害前，應先停用此效果。</p></section>",
       "name": "射手護腕"
     },
     "Vicious Vine": {
@@ -4406,7 +4406,7 @@
       "description": "<p>Your soul is drawn from your body and contained in an object in a place of the DM’s choice. One or more powerful beings guard the place. While your soul is trapped in this way, your body is inert, ceases aging, and requires no food, air, or water. A <em>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplWish000000]{Wish}</em> spell can’t return your soul to your body, but the spell reveals the location of the object that holds your soul. You draw no more cards.</p>"
     },
     "Spellguard Shield": {
-      "description": "<p><em>護甲（盾牌），非常珍稀（需同調）</em></p><p>While holding this Shield, you have Advantage on saving throws against spells and other magical effects, and spell attack rolls have Disadvantage against you.</p>",
+      "description": "<p><em>護甲（盾牌），極珍稀（需同調）</em></p><p>持握這面盾牌期間，你對抗法術與其他魔法效應所進行的豁免具有優勢，且對你進行的法術攻擊檢定具有劣勢。</p>",
       "name": "抗法盾牌"
     },
     "Sword of Vengeance": {
@@ -4414,21 +4414,21 @@
         "Sword of Vengeance": {
           "changes": {
             "system.description.value": "{}<p>@Embed[Compendium.dnd-dungeon-masters-guide.equipment.Item.dmgSwordOfVengea caption=false]</p>",
-            "name": "{} of Vengeance"
+            "name": "復仇{}"
           },
-          "name": "Sword of Vengeance"
+          "name": "復仇之劍"
         }
       },
       "activities": {
         "Call to Vengeance": {
-          "name": "Call to Vengeance"
+          "name": "復仇呼喚"
         },
         "Sword of Vengeance": {
-          "name": "Sword of Vengeance"
+          "name": "復仇之劍"
         }
       },
-      "name": "Sword of Vengeance",
-      "description": "<p><em>Weapon (@UUID[Compendium.dnd-players-handbook.equipment.Item.phbwepGlaive0000]{Glaive}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbwepGreatsword]{Greatsword}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbwepLongsword0]{Longsword}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbwepRapier0000]{Rapier}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbwepScimitar00]{Scimitar}, or @UUID[Compendium.dnd-players-handbook.equipment.Item.phbwepShortsword]{Shortsword})，非普通（需同調）</em></p><p>You gain a +1 bonus to attack rolls and damage rolls made with this magic weapon.</p><section class=\"secret\" id=\"secret-hu61F3XDHe1eXb3m\"><p><em><strong>Curse.</strong></em> This weapon is cursed and possessed by a vengeful spirit. Becoming attuned to it extends the curse to you. As long as you remain cursed, you are unwilling to part with the weapon, keeping it on your person at all times. While attuned to this weapon, you have Disadvantage on attack rolls made with weapons other than this one.</p><p>In addition, while the weapon is on your person, you must succeed on a DC 15 Wisdom saving throw (<strong>Call to Vengeance</strong> activity) whenever you take damage from another creature in combat. On a failed save, you must attack the creature that damaged you until you drop to 0 Hit Points or it does or until you can’t reach the creature to make a melee attack against it.</p><p>You can break the curse in the usual ways. Alternatively, casting @UUID[Compendium.dnd-players-handbook.spells.Item.phbsplBanishment]{Banishment} on the weapon forces the vengeful spirit to leave it. The weapon then becomes a <em>+1 Weapon</em> with no other properties.</p></section><p> @Embed[Compendium.dnd-dungeon-masters-guide.content.JournalEntry.dmgFoundryRefere.JournalEntryPage.Ok4iCgD25ENgoRxE cite=false caption=false classes=\"hide-in-embed\"]</p>"
+      "name": "復仇之劍",
+      "description": "<p><em>武器（@UUID[Compendium.dnd-players-handbook.equipment.Item.phbwepGlaive0000]{長柄刀}、@UUID[Compendium.dnd-players-handbook.equipment.Item.phbwepGreatsword]{巨劍}、@UUID[Compendium.dnd-players-handbook.equipment.Item.phbwepLongsword0]{長劍}、@UUID[Compendium.dnd-players-handbook.equipment.Item.phbwepRapier0000]{刺劍}、@UUID[Compendium.dnd-players-handbook.equipment.Item.phbwepScimitar00]{彎刀}、@UUID[Compendium.dnd-players-handbook.equipment.Item.phbwepShortsword]{短劍}），非普通（需同調）</em></p><p>你以這把魔法武器進行的攻擊檢定與傷害擲骰獲得+1加值。</p><section class=\"secret\" id=\"secret-hu61F3XDHe1eXb3m\"><p><em><strong>【詛咒】</strong></em>這把武器被詛咒了，且有一道渴望復仇的魂靈寄宿其中。與其同調會使你也受到詛咒。只要你仍受到詛咒，你就不願與這把武器分開，總是將其帶在身上。與這把武器同調期間，你以其他武器進行的攻擊檢定具有劣勢。</p><p>此外，攜帶這把武器期間，每當你在戰鬥中承受另一名生物所造成的傷害時，你都必須成功通過一次DC 15的感知豁免（<strong>復仇呼喚</strong>行動）。豁免失敗時，你必須持續攻擊對你造成傷害的生物，直到你或該生物的生命值降至0，或你無法接近該生物並對其進行近戰攻擊為止。</p><p>你可以用一般方式解除詛咒。作為替代，對這把武器施放@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplBanishment]{放逐術}法術，會迫使寄宿其中的復仇魂靈離開。此後，該武器會變成一把<em>+1武器</em>，沒有其他屬性。</p></section><p> @Embed[Compendium.dnd-dungeon-masters-guide.content.JournalEntry.dmgFoundryRefere.JournalEntryPage.Ok4iCgD25ENgoRxE cite=false caption=false classes=\"hide-in-embed\"]</p>"
     },
     "Armor of Gleaming": {
       "name": "閃爍護甲",
@@ -4485,14 +4485,14 @@
       "name": "速度之靴",
       "effects": {
         "Boots of Speed Active": {
-          "name": "Boots of Speed Active",
-          "description": "<p>The boots double your Speed, and any creature that makes an Opportunity Attack against you has Disadvantage on the attack roll. If you click your heels together again, you end the effect.</p>"
+          "name": "速度之靴啟動中",
+          "description": "<p>靴子使你的速度加倍，且任何對你進行藉機攻擊的生物，其攻擊檢定具有劣勢。若你再次敲擊靴跟，便會結束此效應。</p>"
         }
       },
-      "description": "<div><p><em>奇物，珍稀（需同調）</em></p></div><p>While you wear these boots, you can take a Bonus Action to click the boots’ heels together. If you do, the boots double your Speed, and any creature that makes an Opportunity Attack against you has Disadvantage on the attack roll. If you click your heels together again, you end the effect.</p><p>When you’ve used the boots’ property for a total of 10 minutes, the magic ceases to function for you until you finish a Long Rest.</p><section class=\"secret\" id=\"secret-KMziCIYbAAst6X5k\"><p><strong>Foundry Note</strong></p><p>This item's Limited Uses are provided to manually track the number of <em>seconds</em> the item has been in use.</p></section>",
+      "description": "<div><p><em>奇物，珍稀（需同調）</em></p></div><p>穿戴這雙靴子期間，你可以採取附贈動作互相敲擊靴跟。若這麼做，靴子會使你的速度加倍，且任何對你進行藉機攻擊的生物，在攻擊檢定上具有劣勢。若你再次敲擊靴跟，便會結束此效應。</p><p>當你使用靴子的屬性累計達10分鐘後，直到你完成一次長休前，魔法對你不再起作用。</p><section class=\"secret\" id=\"secret-KMziCIYbAAst6X5k\"><p><strong>Foundry 註記</strong></p><p>此物品的有限使用次數用於手動追蹤該物品已使用的<em>秒數</em>。</p></section>",
       "activities": {
         "Click Heels": {
-          "name": "Click Heels"
+          "name": "敲擊靴跟"
         }
       }
     },
@@ -4519,7 +4519,7 @@
     },
     "Wand of Lightning Bolts": {
       "name": "閃電束魔杖",
-      "description": "<p><em>Wand，珍稀 （需由施法者同調）</em></p><p>This wand has 7 charges. While holding it, you can expend no more than 3 charges to cast @UUID[Compendium.dnd-players-handbook.spells.Item.phbsplLightningB]{Lightning Bolt} (save DC 15) from it. For 1 charge, you cast the level 3 version of the spell. You can increase the spell’s level by 1 for each additional charge you expend.</p><p><em><strong>Regaining Charges.</strong></em> The wand regains 1d6 + 1 expended charges daily at dawn. If you expend the wand’s last charge, roll [[/r 1d20]]. On a 1, the wand crumbles into ashes and is destroyed.</p>"
+      "description": "<p><em>魔杖，珍稀（需由施法者同調）</em></p><p>這根魔杖具有7點充能。持握魔杖期間，你可以消耗至多3點充能，透過魔杖施放@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplLightningB]{閃電束}（豁免DC 15）。消耗1點充能時，你施放該法術的3環版本；每多消耗1點充能，法術的環階就提升1環。</p><p><em><strong>【恢復充能】</strong></em>此魔杖每日黎明時恢復1d6 + 1已消耗的充能。若你消耗了魔杖的最後1點充能，擲[[/r 1d20]]。若結果為1，魔杖會化為灰燼並被摧毀。</p>"
     },
     "Pipes of the Sewers": {
       "description": "<p><em>奇物，非普通（需同調）</em></p><p>While these pipes are on your person, ordinary rats and giant rats are Indifferent toward you and won’t attack you unless you threaten or harm them.</p><p>The pipes have 3 charges and regain 1d3 expended charges daily at dawn. If you play the pipes as a Magic action, you can take a Bonus Action to expend 1 to 3 charges, calling forth one <strong>@UUID[Compendium.dnd-dungeon-masters-guide.actors.Actor.8ihbbjkaOFTPbI73]{Swarm of Rats}</strong> with each expended charge if enough rats are within half a mile of you to be called in this fashion (as determined by the DM). If there aren’t enough rats to form a swarm, the charge is wasted. Called swarms move toward the music by the shortest available route but aren’t under your control otherwise.</p><p>Whenever a <strong>Swarm of Rats</strong> that isn’t under another creature’s control comes within 30 feet of you while you are playing the pipes, the swarm makes a DC 15 Wisdom saving throw. On a successful save, the swarm behaves as it normally would and can’t be swayed by the pipes’ music for the next 24 hours. On a failed save, the swarm is swayed by the pipes’ music and becomes Friendly to you and your allies for as long as you continue to play the pipes each round as a Magic action. A Friendly swarm obeys your commands. If you issue no commands to a Friendly swarm, it defends itself but otherwise takes no actions. If a Friendly swarm starts its turn more than 30 feet away from you, your control over that swarm ends, and the swarm behaves as it normally would and can’t be swayed by the pipes’ music for the next 24 hours.</p>",
@@ -4551,24 +4551,24 @@
     "Weapon of Warning": {
       "activities": {
         "Weapon of Warning": {
-          "name": "Weapon of Warning"
+          "name": "警戒武器"
         }
       },
       "effects": {
         "Supernatural Readiness: Initiative Advantage": {
-          "description": "<p>Each ally (including you) has Advantage on its Initiative rolls when within 30 feet.</p>",
-          "name": "Supernatural Readiness: Initiative Advantage"
+          "description": "<p>位於30呎內的每名盟友（包括你）的先攻擲骰具有優勢。</p>",
+          "name": "超然備戰：先攻優勢"
         },
         "Weapon of Warning": {
-          "name": "Weapon of Warning",
+          "name": "警戒武器",
           "changes": {
-            "name": "{} of Warning",
+            "name": "警戒{}",
             "system.description.value": "{}<p>@Embed[Compendium.dnd-dungeon-masters-guide.equipment.Item.dmgWeaponOfWarni caption=false]</p>"
           }
         }
       },
-      "name": "Weapon of Warning",
-      "description": "<p><em>武器（任意簡易或軍用），非普通（需同調）</em></p><p>As long as this weapon is within your reach and you are attuned to it, you and allies within 30 feet of you gain the following benefits.</p><p><strong>Alarm.</strong> The weapon magically awakens each subject who is sleeping naturally when combat begins. This benefit doesn’t wake a subject from magically induced sleep.</p><p><strong>Supernatural Readiness.</strong> Each subject has Advantage on its Initiative rolls.</p><p>@Embed[Compendium.dnd-dungeon-masters-guide.content.JournalEntry.dmgFoundryRefere.JournalEntryPage.Ok4iCgD25ENgoRxE cite=false caption=false classes=\"hide-in-embed\"]</p>"
+      "name": "警戒武器",
+      "description": "<p><em>武器（任意簡易或軍用），非普通（需同調）</em></p><p>只要這把武器位於你的觸及範圍內，且你已與其同調，你與位於你30呎內的盟友獲得下列好處。</p><p><strong>【警報】</strong>當戰鬥開始時，這把武器會以魔法喚醒每名處於自然睡眠中的受益者。此好處無法喚醒因魔法而陷入睡眠的受益者。</p><p><strong>【超然備戰】</strong>每名受益者的先攻擲骰具有優勢。</p><p>@Embed[Compendium.dnd-dungeon-masters-guide.content.JournalEntry.dmgFoundryRefere.JournalEntryPage.Ok4iCgD25ENgoRxE cite=false caption=false classes=\"hide-in-embed\"]</p>"
     },
     "Stone of Controlling Earth Elementals": {
       "name": "控制土元素之石",
@@ -4924,7 +4924,7 @@
           "target": "萬眾時尚斗篷"
         }
       },
-      "description": "<div><p><em>奇物，普通</em></p></div><p>穿著這件斗篷期間，你可以採取附贈動作，改變這件衣物的樣式、顏色與外觀品質。斗篷的重量不會改變。無論外觀如何，這件斗篷都只能是斗篷。雖然其可以複製其他魔法斗篷的外觀，但不會因此獲得那些斗篷的魔法特性。</p>"
+      "description": "<div><p><em>奇物，普通</em></p></div><p>穿著這件斗篷期間，你可以採取附贈動作，改變這件衣物的樣式、顏色與外觀品質。斗篷的重量不會改變。無論外觀如何，這件斗篷都只能是斗篷。雖然其可以複製其他魔法斗篷的外觀，但不會因此獲得那些斗篷的魔法屬性。</p>"
     },
     "Rogue": {
       "description": "<p> An NPC of the DM’s choice becomes Hostile toward you. You don’t know the identity of this NPC until they or someone else reveals it. Nothing less than a <em>Wish</em> spell or divine intervention can end the NPC’s hostility toward you.</p>",
@@ -4944,10 +4944,10 @@
       "name": "遊蕩者"
     },
     "Sun Blade": {
-      "description": "<p><em>Weapon (@UUID[Compendium.dnd-players-handbook.equipment.Item.phbwepLongsword0]{Longsword})，珍稀（需同調）</em></p><p>This item appears to be a sword hilt.</p><p><em><strong>Blade of Radiance.</strong></em> While grasping the hilt, you can take a Bonus Action to cause a blade of pure radiance to spring into existence or make the blade disappear. While the blade exists, this magic weapon functions as a Longsword with the Finesse property. If you are proficient with Longswords or Shortswords, you are proficient with the <em>Sun Blade</em>.</p><p>You gain a +2 bonus to attack rolls and damage rolls made with this weapon, which deals Radiant damage instead of Slashing damage. When you hit an Undead with it, that target takes an extra 1d8 Radiant damage.</p><p><em><strong>Sunlight.</strong></em> The sword’s luminous blade emits Bright Light in a 15-foot radius and Dim Light for an additional 15 feet. The light is sunlight. While the blade persists, you can take a Magic action to expand or reduce its radius of Bright Light and Dim Light by 5 feet each, to a maximum of 30 feet each or a minimum of 10 feet each.</p><section class=\"secret\" id=\"secret-DDIn6fZIjHvPnfKS\"><p><strong>Foundry Note</strong></p><p>If you are proficient with Shortswords you can manually set the item as proficient.</p></section>",
+      "description": "<p><em>武器（@UUID[Compendium.dnd-players-handbook.equipment.Item.phbwepLongsword0]{長劍}），珍稀（需同調）</em></p><p>這件物品看起來像一把劍柄。</p><p><em><strong>【耀光劍刃】</strong></em>握住劍柄期間，你可以採取附贈動作，使一道純粹光芒構成的劍刃出現或消失。劍刃存在期間，這把魔法武器視為一把具有靈巧屬性的長劍。若你具有長劍或短劍的熟練，則你也具有<em>陽炎劍</em>的熟練。</p><p>你以這把武器所進行的攻擊檢定與傷害擲骰獲得+2加值，且該武器造成光耀傷害，取代揮砍傷害。當你以該武器命中一名不死生物時，該目標額外承受1d8光耀傷害。</p><p><em><strong>【日光】</strong></em>這把劍的發光劍刃散發出15呎半徑的明亮光照，以及額外15呎的微光光照。此光照為日光。劍刃存在期間，你可以採取魔法動作，將明亮光照與微光光照的半徑各擴大或縮小5呎，各自上限為30呎、下限為10呎。</p><section class=\"secret\" id=\"secret-DDIn6fZIjHvPnfKS\"><p><strong>【Foundry 註記】</strong></p><p>若你具有短劍的熟練，你可以手動將此物品設為具有熟練。</p></section>",
       "activities": {
         "attack": {
-          "chatFlavor": "Bonus Damage: 1d8 Radiant vs Undead"
+          "chatFlavor": "額外傷害：對不死生物造成1d8光耀傷害"
         }
       },
       "name": "陽炎劍"
@@ -5094,36 +5094,36 @@
       "name": "林地法杖",
       "activities": {
         "Speak with Animals": {
-          "name": "Speak with Animals"
+          "name": "動物交談術"
         },
         "Tree Form": {
-          "name": "Tree Form"
+          "name": "樹木形態"
         },
         "Speak with Plants": {
-          "name": "Speak with Plants"
+          "name": "植物交談術"
         },
         "Locate Animals or Plants": {
-          "name": "Locate Animals or Plants"
+          "name": "動植物定位術"
         },
         "Animal Friendship": {
-          "name": "Animal Friendship"
+          "name": "化獸為友"
         },
         "Awaken": {
-          "name": "Awaken"
+          "name": "啟蒙術"
         },
         "Barkskin": {
-          "name": "Barkskin"
+          "name": "樹膚術"
         },
         "Pass without Trace": {
-          "name": "Pass without Trace"
+          "name": "行蹤無跡"
         }
       },
       "effects": {
         "Spell Attack Bonus": {
-          "name": "Spell Attack Bonus"
+          "name": "法術攻擊加值"
         }
       },
-      "description": "<p><em>@UUID[Compendium.dnd-players-handbook.equipment.Item.phbafcStaffalsoa]{Staff}，珍稀 (Requires Attunement by a Druid)</em></p><p>This staff has 6 charges and can be wielded as a magic Quarterstaff that grants a +2 bonus to attack rolls and damage rolls made with it. While holding it, you have a +2 bonus to spell attack rolls.</p><p><em><strong>Spells.</strong></em> While holding the staff, you can cast one of the spells on the following table from it, using your spell save DC. The table indicates how many charges you must expend to cast the spell.</p><table><thead><tr><th><p>Spell</p></th><th><p>Charge Cost</p></th><th></th></tr></thead><tbody><tr><td><p><em>Animal Friendship</em></p></td><td><p>1</p></td><td></td></tr><tr><td><p><em>Awaken</em></p></td><td><p>5</p></td><td></td></tr><tr><td><p><em>Barkskin</em></p></td><td><p>2</p></td><td></td></tr><tr><td><p><em>Locate Animals or Plants</em></p></td><td><p>2</p></td><td></td></tr><tr><td><p><em>Pass without Trace</em></p></td><td><p>2</p></td><td></td></tr><tr><td><p><em>Speak with Animals</em></p></td><td><p>1</p></td><td></td></tr><tr><td><p><em>Speak with Plants</em></p></td><td><p>3</p></td><td></td></tr><tr><td><p><em>Wall of Thorns</em></p></td><td><p>6</p></td><td></td></tr></tbody></table><p><em><strong>Tree Form.</strong></em> You can take a Magic action to plant one end of the staff in earth in an unoccupied space and expend 1 charge to transform the staff into a healthy tree. The tree is 60 feet tall and has a 5-foot-diameter trunk, and its branches at the top spread out in a 20-foot radius. The tree appears ordinary but radiates a faint aura of Transmutation magic that can be discerned with the <em>Detect Magic</em> spell. While touching the tree and using a Magic action, you return the staff to its normal form. Any creature in the tree falls when the tree reverts to a staff.</p><p><em><strong>Regaining Charges.</strong></em> The staff regains 1d6 expended charges daily at dawn. If you expend the last charge, roll [[/r 1d20]]. On a 1, the staff loses its properties and becomes a nonmagical Quarterstaff.</p>"
+      "description": "<p><em>@UUID[Compendium.dnd-players-handbook.equipment.Item.phbafcStaffalsoa]{法杖}，珍稀（需由德魯伊同調）</em></p><p>這根法杖具有6點充能，並可作為一把魔法長棍使用，以其進行的攻擊檢定與傷害擲骰獲得+2加值。持握法杖期間，你的法術攻擊檢定獲得+2加值。</p><p><em><strong>【法術】</strong></em>持握法杖期間，你可以透過法杖施放下表中的一道法術，使用你的法術豁免DC。下表列出施放各法術所需消耗的充能。</p><table><thead><tr><th><p>法術</p></th><th><p>充能消耗</p></th><th></th></tr></thead><tbody><tr><td><p><em>化獸為友</em></p></td><td><p>1</p></td><td></td></tr><tr><td><p><em>啟蒙術</em></p></td><td><p>5</p></td><td></td></tr><tr><td><p><em>樹膚術</em></p></td><td><p>2</p></td><td></td></tr><tr><td><p><em>動植物定位術</em></p></td><td><p>2</p></td><td></td></tr><tr><td><p><em>行蹤無跡</em></p></td><td><p>2</p></td><td></td></tr><tr><td><p><em>動物交談術</em></p></td><td><p>1</p></td><td></td></tr><tr><td><p><em>植物交談術</em></p></td><td><p>3</p></td><td></td></tr><tr><td><p><em>棘牆術</em></p></td><td><p>6</p></td><td></td></tr></tbody></table><p><em><strong>【樹木形態】</strong></em>你可以採取魔法動作，將法杖的一端插入一處未佔據空間的土地中，並消耗1點充能使法杖化為一棵健壯的樹。這棵樹高60呎，樹幹直徑5呎，頂端的枝枒向外延展半徑20呎。這棵樹外觀平凡，但散發出微弱的變化學派魔法靈光，可透過<em>偵測魔法</em>法術察覺。觸碰這棵樹時，你可以採取魔法動作使法杖恢復原本的形態。當樹恢復為法杖時，任何位於樹上的生物都會墜落。</p><p><em><strong>【恢復充能】</strong></em>此法杖每日黎明時恢復1d6已消耗的充能。若你消耗了最後1點充能，擲[[/r 1d20]]。若結果為1，法杖會失去其所有屬性，變成一把非魔法的長棍。</p>"
     },
     "Staff of Birdcalls": {
       "activities": {
@@ -5192,26 +5192,26 @@
     "Sword of Wounding": {
       "activities": {
         "Sword of Wounding Save": {
-          "name": "Sword of Wounding Save"
+          "name": "重創之劍豁免"
         },
         "Sword of Wounding": {
-          "name": "Sword of Wounding"
+          "name": "重創之劍"
         }
       },
       "effects": {
         "Sword of Wounding": {
           "changes": {
             "system.description.value": "{}<p>@Embed[Compendium.dnd-dungeon-masters-guide.equipment.Item.dmgSwordOfWoundi caption=false]</p>",
-            "name": "{} of Wounding"
+            "name": "重創{}"
           },
-          "name": "Sword of Wounding"
+          "name": "重創之劍"
         },
         "Wounded and Cannot Heal": {
-          "name": "Wounded and Cannot Heal"
+          "name": "受創且無法治療"
         }
       },
-      "description": "<p><em>Weapon (@UUID[Compendium.dnd-players-handbook.equipment.Item.phbwepGlaive0000]{Glaive}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbwepGreatsword]{Greatsword}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbwepLongsword0]{Longsword}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbwepRapier0000]{Rapier}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbwepScimitar00]{Scimitar}, or @UUID[Compendium.dnd-players-handbook.equipment.Item.phbwepShortsword]{Shortsword})，珍稀（需同調）</em></p><p>When you hit a creature with an attack using this magic weapon, the target takes an extra 2d6 Necrotic damage and must succeed on a DC 15 Constitution saving throw or be unable to regain Hit Points for 1 hour. The target repeats the save at the end of each of its turns, ending the effect on itself on a success.</p><p>@Embed[Compendium.dnd-dungeon-masters-guide.content.JournalEntry.dmgFoundryRefere.JournalEntryPage.Ok4iCgD25ENgoRxE cite=false caption=false classes=\"hide-in-embed\"]</p>",
-      "name": "Sword of Wounding"
+      "description": "<p><em>武器（@UUID[Compendium.dnd-players-handbook.equipment.Item.phbwepGlaive0000]{長柄刀}、@UUID[Compendium.dnd-players-handbook.equipment.Item.phbwepGreatsword]{巨劍}、@UUID[Compendium.dnd-players-handbook.equipment.Item.phbwepLongsword0]{長劍}、@UUID[Compendium.dnd-players-handbook.equipment.Item.phbwepRapier0000]{刺劍}、@UUID[Compendium.dnd-players-handbook.equipment.Item.phbwepScimitar00]{彎刀}、@UUID[Compendium.dnd-players-handbook.equipment.Item.phbwepShortsword]{短劍}），珍稀（需同調）</em></p><p>當你使用這把魔法武器以攻擊命中一名生物時，目標額外承受2d6黯蝕傷害，且必須成功通過一次DC 15的體質豁免，否則無法恢復生命值，持續1小時。在其每個回合結束時，目標重複此豁免，成功時結束其身上的效應。</p><p>@Embed[Compendium.dnd-dungeon-masters-guide.content.JournalEntry.dmgFoundryRefere.JournalEntryPage.Ok4iCgD25ENgoRxE cite=false caption=false classes=\"hide-in-embed\"]</p>",
+      "name": "重創之劍"
     },
     "Poisoned Darts": {
       "description": "<div id=\"_idContainer405\" class=\"_idGenObjectStyleOverride-1\"><p class=\"Core-Styles_Core-Metadata\"><em>Deadly Trap (Levels 1–4)</em></p><p class=\"Game_Objects_Game_Object_Data\"><strong>Trigger:</strong> A creature moves onto a pressure plate</p><p class=\"Game_Objects_Game_Object_Data\"><strong>Duration:</strong> Instantaneous, and the trap resets at the start of the next turn if it has activated fewer than three times</p><p>When a creature moves onto this trap’s pressure plate for the first time on a turn, poisoned darts shoot from tubes embedded in the surrounding walls. The holes that house these tubes are obscured by dust and cobwebs or skillfully hidden amid bas-reliefs, murals, or frescoes.</p><p>Each creature in the darts’ path must succeed on a DC 13 Dexterity saving throw or be struck by [[/r 1d3]] darts, taking 3 (1d6) Poison damage per dart.</p><p><em><strong>Detect and Disarm.</strong></em> As a Search action, a creature can examine the walls and make a [[/check prc 15]] check, detecting the holes on a successful check. Plugging all the holes with wax, cloth, or detritus prevents the darts from firing.</p><p>As a Search action, a creature can examine the section of floor that forms the pressure plate and make a [[/check prc 15]] check, detecting the pressure plate on a successful check. Wedging an Iron Spike or a similar object under the pressure plate prevents the trap from triggering.</p><p><em><strong>At Higher Levels.</strong></em> You can scale the trap for higher levels by increasing each dart’s Poison damage as follows: 7 (2d6) at levels 5–10, 14 (4d6) at levels 11–16, or 24 (7d6) at levels 17–20.</p></div>",
@@ -5262,14 +5262,14 @@
     "Staff of Withering": {
       "effects": {
         "Withered": {
-          "name": "Withered",
-          "description": "<p>The target has Disadvantage for 1 hour on any ability check or saving throw that uses Strength or Constitution.</p>"
+          "name": "凋零",
+          "description": "<p>目標在1小時內進行任何使用力量或體質的屬性檢定或豁免時具有劣勢。</p>"
         }
       },
-      "description": "<p><em>@UUID[Compendium.dnd-players-handbook.equipment.Item.phbafcStaffalsoa]{Staff}，珍稀（需同調）</em></p><p>This staff has 3 charges and regains 1d3 expended charges daily at dawn.</p><p>The staff can be wielded as a magic Quarterstaff. On a hit, it deals damage as a normal Quarterstaff, and you can expend 1 charge to deal an extra 2d10 Necrotic damage to the target and force it to make a DC 15 Constitution saving throw. On a failed save, the target has Disadvantage for 1 hour on any ability check or saving throw that uses Strength or Constitution.</p><section class=\"secret\" id=\"secret-XLCxThjwbGtdndsQ\"><p><strong>Foundry Note</strong></p><p>The <strong>Save</strong> activity includes an Active Effect for tracking the disadvantage.</p></section>",
+      "description": "<p><em>@UUID[Compendium.dnd-players-handbook.equipment.Item.phbafcStaffalsoa]{法杖}，珍稀（需同調）</em></p><p>這根法杖具有3點充能，並在每日黎明時恢復1d3已消耗的充能。</p><p>這根法杖可作為一把魔法長棍使用。命中時，其造成與一般長棍相同的傷害，且你可以消耗1點充能，對目標造成額外2d10黯蝕傷害，並迫使目標進行一次DC 15的體質豁免。豁免失敗時，目標在1小時內進行任何使用力量或體質的屬性檢定或豁免時具有劣勢。</p><section class=\"secret\" id=\"secret-XLCxThjwbGtdndsQ\"><p><strong>Foundry 註記</strong></p><p>此物品的<strong>傷害並豁免</strong>行動包含一個用於追蹤劣勢的 Active Effect。</p></section>",
       "activities": {
         "Damage & Save": {
-          "name": "Damage & Save"
+          "name": "傷害並豁免"
         }
       },
       "name": "凋零法杖"
@@ -5311,26 +5311,26 @@
     "Wand of Wonder": {
       "activities": {
         "Cloud of Oversized Butterflies (41-45)": {
-          "name": "Cloud of Oversized Butterflies (41-45)"
+          "name": "巨型蝴蝶群（41-45）"
         },
         "Grass Cover (61-64": {
-          "name": "Grass Cover (61-64"
+          "name": "草地覆蓋（61-64）"
         },
         "Heavy Rain (36-40)": {
-          "name": "Heavy Rain (36-40)"
+          "name": "暴雨（36-40）"
         },
         "Burst of Colorful Light (78-82)": {
-          "name": "Burst of Colorful Light (78-82)"
+          "name": "多彩光芒爆發（78-82）"
         },
         "Stream of Gems (88-92)": {
-          "name": "Stream of Gems (88-92)"
+          "name": "寶石激流（88-92）"
         }
       },
       "name": "驚奇魔杖",
-      "description": "<p><em>Wand，珍稀（需同調）</em></p><p>This wand has 7 charges. While holding it, you can take a Magic action to expend 1 charge while choosing a point within 120 feet of yourself. That location becomes the point of origin of a spell or other magical effect determined by rolling on the Wand of Wonder Effects table. Spells cast from the wand have a save DC of 15. If a spell’s maximum range is normally less than 120 feet, it becomes 120 feet when cast from the wand. If an effect has multiple possible subjects, the DM determines randomly which among them are affected.</p><p><em><strong>Regaining Charges.</strong></em> The wand regains 1d6 + 1 expended charges daily at dawn. If you expend the wand’s last charge, roll [[/r 1d20]]. On a 1, the wand crumbles into dust and is destroyed.</p><details><summary>Wand of Wonder Effects Table</summary><p>@Embed[Compendium.dnd-dungeon-masters-guide.tables.RollTable.dmgWandOfWonderE rollable caption=false]</p></details><section id=\"secret-cRW0AfZNJaYwjQa0\" class=\"secret\"><p><strong>Foundry Note</strong></p><p>The actionable effects of the table are included as activities and implemented as much as possible in the table to provide flexibility in how you'd like to use them.</p><p>The <strong>Expend</strong> activity should be used for any effect which isn't implemented as an activity for tracking charge uses.</p></section>",
+      "description": "<p><em>魔杖，珍稀（需同調）</em></p><p>這根魔杖具有7點充能。持握魔杖期間，你可以採取魔法動作消耗1點充能，並選擇位於你120呎內的一點。該位置成為一道法術或其他魔法效應的原點，效應由擲驚奇魔杖效應表決定。透過魔杖施放的法術，其豁免DC為15。若某法術的最大射程規則上不足120呎，透過魔杖施放時其射程變為120呎。若某效應有多個可能的對象，由DM隨機決定其中哪些受到影響。</p><p><em><strong>【恢復充能】</strong></em>此魔杖每日黎明時恢復1d6 + 1已消耗的充能。若你消耗了魔杖的最後1點充能，擲[[/r 1d20]]。若結果為1，魔杖會化為塵土並被摧毀。</p><details><summary>驚奇魔杖效應表</summary><p>@Embed[Compendium.dnd-dungeon-masters-guide.tables.RollTable.dmgWandOfWonderE rollable caption=false]</p></details><section id=\"secret-cRW0AfZNJaYwjQa0\" class=\"secret\"><p><strong>Foundry 註記</strong></p><p>此表中可操作的效應已收錄為行動，並盡可能在表格中實作，讓你能依需求彈性運用。</p><p>請以<strong>消耗</strong>行動追蹤未實作為行動之效應的充能使用次數。</p></section>",
       "effects": {
         "Blinded": {
-          "name": "Blinded"
+          "name": "目盲"
         }
       }
     },
@@ -5405,11 +5405,11 @@
       "description": "<p>The long compartment holds up to 6 long objects, such as bows, Quarterstaffs, or Spears.</p>"
     },
     "Cloak of the Manta Ray": {
-      "description": "<div><p><em>奇物，非普通（需同調）</em></p></div><p>While wearing this cloak, you can breathe underwater, and you have a Swim Speed of 60 feet.</p>",
+      "description": "<div><p><em>奇物，非普通（需同調）</em></p></div><p>穿戴這件斗篷期間，你能在水下呼吸，且具有60呎的游泳速度。</p>",
       "effects": {
         "Aquatic Bonuses: Swimming and Breathing": {
-          "name": "Aquatic Bonuses: Swimming and Breathing",
-          "description": "<p>You can breathe underwater, and you have a Swim Speed of 60 feet.</p>"
+          "name": "水中加成：游泳與呼吸",
+          "description": "<p>你能在水下呼吸，且具有60呎的游泳速度。</p>"
         }
       },
       "name": "魟魚斗篷"
@@ -5516,7 +5516,7 @@
     "Walloping Ammunition": {
       "activities": {
         "Walloping Save": {
-          "condition": "以這此彈藥命中時",
+          "condition": "以這枚彈藥命中時",
           "name": "衝擊豁免",
           "chatFlavor": "目標生物在豁免失敗時陷入&Reference[prone]{伏地}狀態。"
         },
@@ -5677,10 +5677,10 @@
       "name": "打擊之錘",
       "activities": {
         "Attack Construct": {
-          "name": "Attack Construct"
+          "name": "攻擊構裝體"
         }
       },
-      "description": "<p><em>Weapon (@UUID[Compendium.dnd-players-handbook.equipment.Item.phbwepMace000000]{Mace})，珍稀</em></p><p>You gain a +1 bonus to attack rolls and damage rolls made with this magic weapon. The bonus increases to +3 when you use the weapon to attack a Construct.</p><p>When you roll a 20 on an attack roll made with this weapon, the target takes an extra 7 Bludgeoning damage, or 14 Bludgeoning damage if it’s a Construct. If a Construct has 25 Hit Points or fewer after taking this damage, it is destroyed.</p><section class=\"secret\" id=\"secret-9gH19qmKr4AEgExV\"><p><strong>Foundry Note</strong></p><p>The <strong>Attack Construct</strong> activity automatically includes the additional bonuses.</p></section>"
+      "description": "<p><em>武器（@UUID[Compendium.dnd-players-handbook.equipment.Item.phbwepMace000000]{硬頭錘}），珍稀</em></p><p>你以這把魔法武器所進行的攻擊檢定與傷害擲骰獲得+1加值。當你以這把武器攻擊構裝體時，加值提升為+3。</p><p>當你以這把武器進行攻擊檢定並擲出20時，目標額外承受7鈍擊傷害；若目標為構裝體，則額外承受14鈍擊傷害。若構裝體承受此傷害後的生命值為25或更少，則被摧毀。</p><section class=\"secret\" id=\"secret-9gH19qmKr4AEgExV\"><p><strong>【Foundry 註記】</strong></p><p>「<strong>攻擊構裝體</strong>」行動會自動計入額外加值。</p></section>"
     },
     "Elemental Gem (Red Corundum)": {
       "activities": {
@@ -5704,10 +5704,10 @@
       "name": "心靈感應頭盔",
       "effects": {
         "Telepathy": {
-          "name": "Telepathy"
+          "name": "心靈感應"
         }
       },
-      "description": "<p><em>奇物，非普通（需同調）</em></p><p>While wearing this helm, you have telepathy with a range of 30 feet, and you can cast @UUID[Compendium.dnd-players-handbook.spells.Item.phbsplDetectThou]{Detect Thoughts} or @UUID[Compendium.dnd-players-handbook.spells.Item.phbsplSuggestion]{Suggestion} (save DC 13) from the helm. Once either spell is cast from the helm, that spell can’t be cast from it again until the next dawn.</p>"
+      "description": "<p><em>奇物，非普通（需同調）</em></p><p>穿戴這頂頭盔期間，你具有30呎的心靈感應，且你可以透過頭盔施放@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplDetectThou]{偵測思想}或@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplSuggestion]{暗示術}（豁免DC 13）。一旦透過頭盔施放其中任一法術，直到下個黎明前，你都無法再次透過頭盔施放該法術。</p>"
     },
     "Cloak of Arachnida": {
       "effects": {
@@ -5768,20 +5768,20 @@
     "Staff of Swarming Insects": {
       "activities": {
         "Insect Cloud": {
-          "name": "Insect Cloud"
+          "name": "蟲雲"
         }
       },
-      "description": "<p><em>@UUID[Compendium.dnd-players-handbook.equipment.Item.phbafcStaffalsoa]{Staff}，珍稀 (Requires Attunement by a Bard, Cleric, Druid, Sorcerer, Warlock, or Wizard)</em></p><p>This staff has 10 charges.</p><p><em><strong>Insect Cloud.</strong></em> While holding the staff, you can take a Magic action and expend 1 charge to cause a swarm of harmless flying insects to fill a 30-foot Emanation originating from you. The insects remain for 10 minutes, making the area &amp;Reference[Heavily Obscured] for creatures other than you. A strong wind (like that created by @UUID[Compendium.dnd-players-handbook.spells.Item.phbsplGustofWind]{Gust of Wind}) disperses the swarm and ends the effect.</p><p><em><strong>Spells.</strong></em> While holding the staff, you can cast one of the spells on the following table from it, using your spell save DC and spell attack modifier. The table indicates how many charges you must expend to cast the spell.</p><table><thead><tr><th><p>Spell</p></th><th><p>Charge Cost</p></th><th></th></tr></thead><tbody><tr><td><p>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplGiantInsec]{Giant Insect}</p></td><td><p>4</p></td><td></td></tr><tr><td><p>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplInsectPlag]{Insect Plague}</p></td><td><p>5</p></td><td></td></tr></tbody></table><p><em><strong>Regaining Charges.</strong></em> The staff regains 1d6 + 4 expended charges daily at dawn. If you expend the last charge, roll [[/r 1d20]]. On a 1, a swarm of insects consumes and destroys the staff, then disperses.</p>",
+      "description": "<p><em>@UUID[Compendium.dnd-players-handbook.equipment.Item.phbafcStaffalsoa]{法杖}，珍稀（需由吟遊詩人、牧師、德魯伊、術士、契術師或法師同調）</em></p><p>這根法杖具有10點充能。</p><p><em><strong>【蟲雲】</strong></em>持握法杖期間，你可以採取魔法動作消耗1點充能，使一群無害的飛蟲充滿你自身30呎的發散區域。這些昆蟲持續存在10分鐘，使該區域對你以外的生物而言成為&amp;Reference[Heavily Obscured]{重度遮蔽}區域。強風（例如@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplGustofWind]{造風術}所創造的風）會驅散蟲群並結束此效應。</p><p><em><strong>【法術】</strong></em>持握法杖期間，你可以透過法杖施放下表中的一道法術，使用你的法術豁免DC與法術攻擊調整值。下表列出施放各法術所需消耗的充能。</p><table><thead><tr><th><p>法術</p></th><th><p>充能消耗</p></th><th></th></tr></thead><tbody><tr><td><p>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplGiantInsec]{巨蟲術}</p></td><td><p>4</p></td><td></td></tr><tr><td><p>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplInsectPlag]{疫病蟲群}</p></td><td><p>5</p></td><td></td></tr></tbody></table><p><em><strong>【恢復充能】</strong></em>此法杖每日黎明時恢復1d6 + 4已消耗的充能。若你消耗了最後1點充能，擲[[/r 1d20]]。若結果為1，一群昆蟲會吞噬並摧毀法杖，隨後散去。</p>",
       "name": "蟲群法杖"
     },
     "Staff of the Python": {
       "activities": {
         "Transform into Snake": {
-          "name": "Transform into Snake",
-          "target": "Unoccupied"
+          "name": "化為巨型蟒蛇",
+          "target": "未佔據空間"
         }
       },
-      "description": "<p><em>@UUID[Compendium.dnd-players-handbook.equipment.Item.phbafcStaffalsoa]{Staff}，非普通（需同調）</em></p><p>As a Magic action, you can throw this staff so that it lands in an unoccupied space within 10 feet of you, causing the staff to become a <strong>Giant Constrictor Snake</strong> in that space. The snake is under your control and shares your Initiative count, taking its turn immediately after yours.</p><p>On your turn, you can mentally command the snake (no action required) if it is within 60 feet of you and you don’t have the Incapacitated condition. You decide what action the snake takes and where it moves during its turn, or you can issue it a general command, such as to attack your enemies or guard a location. Absent commands from you, the snake defends itself.</p><p>As a Bonus Action, you can command the snake to revert to staff form in its current space, and you can’t use the staff’s property again for 1 hour. If the snake is reduced to 0 Hit Points, it dies and reverts to its staff form; the staff then shatters and is destroyed. If the snake reverts to staff form before losing all its Hit Points, it regains all of them.</p>",
+      "description": "<p><em>@UUID[Compendium.dnd-players-handbook.equipment.Item.phbafcStaffalsoa]{法杖}，非普通（需同調）</em></p><p>你可以採取魔法動作投擲這根法杖，使其落在位於你10呎內的一處未佔據空間，並令法杖在該空間化為一條<strong>巨型蟒蛇</strong>。這條蛇受你控制，與你共用先攻值，並緊接在你的回合結束後進行其回合。</p><p>在你的回合中，若蛇位於你60呎內且你未陷入失能狀態，你可以在心中命令這條蛇（無需動作）。你決定蛇在其回合中採取什麼動作及移動到何處，或者你可以對其下達一般性的命令，例如攻擊你的敵人或守衛某個地點。若你未下達命令，蛇會自我防衛。</p><p>你可以採取附贈動作，命令蛇在其目前所在的空間恢復為法杖形態，之後1小時內你無法再次使用法杖的此屬性。若蛇的生命值降至0，蛇會死亡並恢復為法杖形態，接著法杖碎裂並被摧毀。若蛇在失去所有生命值前恢復為法杖形態，蛇會恢復所有生命值。</p>",
       "name": "巨蟒法杖"
     },
     "Ioun Stone of Intellect": {
@@ -5806,16 +5806,16 @@
     "Tentacle Rod": {
       "activities": {
         "Tentacle Attack": {
-          "name": "Tentacle Attack"
+          "name": "觸手攻擊"
         }
       },
-      "name": "Tentacle Rod",
+      "name": "觸手權杖",
       "effects": {
         "Held by Tentacles": {
-          "name": "Held by Tentacles"
+          "name": "受觸手束縛"
         }
       },
-      "description": "<p><em>Rod，珍稀（需同調）</em></p><p>This rod ends in three rubbery tentacles. While holding the rod, you can take a Magic action to direct the tentacles to stretch outward, each one attacking a creature you can see within 15 feet of yourself. For each tentacle, make a melee attack roll with a +9 bonus. A tentacle deals 1d6 Psychic damage on a hit. If you hit the same target with all three tentacles, the target must succeed on a DC 15 Dexterity saving throw or have the &amp;Reference[Restrained apply=false] condition until you have the &amp;Reference[Incapacitated apply=false] condition, until you take a Bonus Action to release the target, or until the target is no longer within 15 feet of you. While Restrained in this way, the target takes 3d6 Psychic damage at the start of each of its turns. At the end of each of its turns, the target repeats the save, ending the effect on itself on a success.</p>"
+      "description": "<p><em>權杖，珍稀（需同調）</em></p><p>這根權杖的末端長著三條富有彈性的觸手。持握這根權杖期間，你可以採取魔法動作指揮觸手向外伸展，每條觸手各攻擊位於你15呎內一名你所能看見的生物。為每條觸手各進行一次加值為+9的近戰攻擊檢定。觸手命中時造成1d6心靈傷害。若你以三條觸手都命中同一個目標，該目標必須成功通過一次DC 15的敏捷豁免，否則陷入&amp;Reference[Restrained apply=false]{束縛}狀態，直到你陷入&amp;Reference[Incapacitated apply=false]{失能}狀態、或採取附贈動作釋放目標，抑或目標不再位於你15呎內。以此方式陷入束縛狀態期間，目標在其每個回合開始時承受3d6心靈傷害。在其每個回合結束時，目標重複此豁免，成功時結束其身上的效應。</p>"
     },
     "Cannon": {
       "name": "Cannon",
@@ -6045,14 +6045,14 @@
     "Staff of the Adder": {
       "activities": {
         "Awaken Snake Head": {
-          "name": "Awaken Snake Head"
+          "name": "喚醒蛇頭"
         },
         "Attack with Snake": {
-          "name": "Attack with Snake"
+          "name": "以蛇攻擊"
         }
       },
-      "name": "Staff of the Adder",
-      "description": "<p>@UUID[Compendium.dnd-players-handbook.equipment.Item.phbafcStaffalsoa]{Staff}，非普通（需同調）</p><p>As a Bonus Action, you can turn the head of this staff into that of an animate, venomous snake for 1 minute or revert the staff to its inanimate form.</p><p>When you take the Attack action, you can make one of the attack rolls using the animated snake head, which has a reach of 5 feet. Apply your Proficiency Bonus and Wisdom modifier to the attack roll. On a hit, the target takes 1d6 Piercing damage and 3d6 Poison damage.</p><p>The snake head can be attacked while it is animate. It has AC 15, HP 20, and Immunity to Poison and Psychic damage. If the head drops to 0 Hit Points, the staff is destroyed. As long as it’s not destroyed, the staff regains all lost Hit Points when it reverts to its inanimate form.</p><section class=\"secret\" id=\"secret-od0MFRzXjtPGX4pI\"><p><strong>Foundry Note</strong></p><p>This item includes 20 limited uses which can be used for tracking the snake's HP. The <strong>Awaken Snake Head</strong> activity restores all 20 uses so the snake will be at full HP whenever it is activated.</p></section>"
+      "name": "蝰蛇法杖",
+      "description": "<p>@UUID[Compendium.dnd-players-handbook.equipment.Item.phbafcStaffalsoa]{法杖}，非普通（需同調）</p><p>你可以採取附贈動作，使這根法杖的杖頭化為一顆活生生的毒蛇頭，持續1分鐘；或使法杖恢復為無生命的形態。</p><p>當你採取攻擊動作時，你可以用活化的蛇頭進行其中一次攻擊檢定，蛇頭的觸及為5呎。該次攻擊檢定使用你的熟練加值與感知調整值。命中時，目標承受1d6穿刺傷害與3d6毒素傷害。</p><p>蛇頭在活化期間可以被攻擊。蛇頭的AC為15、HP為20，並對毒素與心靈傷害具有免疫。若蛇頭的生命值降至0，法杖便被摧毀。只要法杖未被摧毀，其在恢復為無生命形態時就會恢復所有失去的生命值。</p><section class=\"secret\" id=\"secret-od0MFRzXjtPGX4pI\"><p><strong>Foundry 註記</strong></p><p>此物品包含20次有限使用次數，可用來追蹤蛇頭的HP。<strong>喚醒蛇頭</strong>行動會恢復全部20次使用次數，因此每次啟動蛇頭時，蛇頭都會處於滿HP。</p></section>"
     },
     "Ivory Goats": {
       "activities": {
@@ -6127,7 +6127,7 @@
     },
     "Staff of Healing": {
       "name": "治癒法杖",
-      "description": "<p><em>@UUID[Compendium.dnd-players-handbook.equipment.Item.phbafcStaffalsoa]{Staff}，珍稀 (Requires Attunement by a Bard, Cleric, or Druid)</em></p><p>This staff has 10 charges. While holding the staff, you can cast one of the spells on the following table from it, using your spellcasting ability modifier. The table indicates how many charges you must expend to cast the spell.</p><table><thead><tr><th><p>Spell</p></th><th><p>Charge Cost</p></th><th></th></tr></thead><tbody><tr><td><p>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplCureWounds]{Cure Wounds}</p></td><td><p>1 charge per spell level (maximum 4 for a <span>level 4</span> spell)</p></td><td></td></tr><tr><td><p>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplLesserRest]{Lesser Restoration}</p></td><td><p>2</p></td><td></td></tr><tr><td><p>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplMassCureWo]{Mass Cure Wounds}</p></td><td><p>5</p></td><td></td></tr></tbody></table><p><em><strong>Regaining Charges.</strong></em> The staff regains 1d6 + 4 expended charges daily at dawn. If you expend the last charge, roll [[/r 1d20]]. On a 1, the staff vanishes in a flash of light, lost forever.</p>"
+      "description": "<p><em>@UUID[Compendium.dnd-players-handbook.equipment.Item.phbafcStaffalsoa]{法杖}，珍稀（需由吟遊詩人、牧師或德魯伊同調）</em></p><p>這根法杖具有10點充能。持握法杖期間，你可以透過法杖施放下表中的一道法術，使用你的施法屬性調整值。下表列出施放各法術所需消耗的充能。</p><table><thead><tr><th><p>法術</p></th><th><p>充能消耗</p></th><th></th></tr></thead><tbody><tr><td><p>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplCureWounds]{治療傷勢}</p></td><td><p>每環1點充能（<span>4環</span>法術最多4點）</p></td><td></td></tr><tr><td><p>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplLesserRest]{次級復原術}</p></td><td><p>2</p></td><td></td></tr><tr><td><p>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplMassCureWo]{群體治療傷勢}</p></td><td><p>5</p></td><td></td></tr></tbody></table><p><em><strong>【恢復充能】</strong></em>此法杖每日黎明時恢復1d6 + 4已消耗的充能。若你消耗了最後1點充能，擲[[/r 1d20]]。若結果為1，法杖會在一道閃光中消失，永遠失落。</p>"
     },
     "Oil of Slipperiness": {
       "name": "滑溜之油",
@@ -6150,7 +6150,7 @@
           }
         }
       },
-      "description": "<p><em>奇物，普通（需由施法者同調）</em></p><p>這顆直徑1吋的紅寶石刻有異界符文，讓你能將一把簡易或軍用武器當作你法術的施法法器。要使此特性生效，你必須將紅寶石壓在武器上至少10分鐘，使其附著。此後，除非你以魔法動作將其卸下、該武器被摧毀，或你與該紅寶石的同調結束，否則紅寶石無法被移除。</p><section class=\"secret\" id=\"secret-7HuDc1Pk8WvCut5V\"><p><strong>Foundry 註記</strong></p><p>名為<strong>附著紅石</strong>的行動可讓你選擇單一一把簡易或軍用武器，將其標記為法器，並在其名稱前加上「戰法師」以便追蹤。你可以再次使用<em>戰法師紅石</em>，以查看被附魔的物品，並可選擇將其移除。</p></section>",
+      "description": "<p><em>奇物，普通（需由施法者同調）</em></p><p>這顆直徑1吋的紅寶石刻有異界符文，讓你能將一把簡易或軍用武器當作你法術的施法法器。要使此屬性生效，你必須將紅寶石壓在武器上至少10分鐘，使其附著。此後，除非你以魔法動作將其卸下、該武器被摧毀，或你與該紅寶石的同調結束，否則紅寶石無法被移除。</p><section class=\"secret\" id=\"secret-7HuDc1Pk8WvCut5V\"><p><strong>Foundry 註記</strong></p><p>名為<strong>附著紅石</strong>的行動可讓你選擇單一一把簡易或軍用武器，將其標記為法器，並在其名稱前加上「戰法師」以便追蹤。你可以再次使用<em>戰法師紅石</em>，以查看被附魔的物品，並可選擇將其移除。</p></section>",
       "name": "戰法師紅石",
       "activities": {
         "Attach Ruby": {
@@ -6178,10 +6178,10 @@
       "name": "防禦護腕",
       "effects": {
         "Bonus AC (Unarmored)": {
-          "name": "Bonus AC (Unarmored)"
+          "name": "AC加值（未穿護甲）"
         }
       },
-      "description": "<div><p><em>奇物，珍稀（需同調）</em></p></div><p>While wearing these bracers, you gain a +2 bonus to Armor Class if you are wearing no armor and using no Shield.</p>"
+      "description": "<div><p><em>奇物，珍稀（需同調）</em></p></div><p>穿戴這對護腕期間，若你未穿著護甲且未使用盾牌，你的護甲等級獲得+2加值。</p>"
     },
     "Cubic Gate": {
       "name": "界門魔方",
@@ -6197,7 +6197,7 @@
           "name": "施放所選戲法"
         }
       },
-      "description": "<div><p><em>奇物，普通（需由契術師同調）</em></p></div><p>這枚護符由一塊源自異界、極具韌性的材料碎片製成。你佩戴此護符期間，你獲得下列好處。</p><p><strong>【施法法器】</strong>你可以將此護符作為你的契術師法術的施法法器。</p><p><strong>【未知法術】</strong>你可以採取魔法動作，嘗試施放一道你尚未習得的戲法。該戲法必須位於契術師法術列表中，且施法時間為一個動作，並且你要進行一次DC 10的智力（奧秘）檢定。檢定成功時，你施放該法術；檢定失敗時，該法術施放失敗，且用於施法的動作被浪費。無論成功與否，直到你完成一次長休前，你都無法再次使用此特性。</p><section class=\"secret\" id=\"secret-SB0WtYF6NBSdZhyr\"><p><strong>Foundry 註記</strong></p><p>名為<strong>施放所選戲法</strong>的行動僅供選用，啟用前必須編輯並設定為所選的契術師戲法。</p></section>"
+      "description": "<div><p><em>奇物，普通（需由契術師同調）</em></p></div><p>這枚護符由一塊源自異界、極具韌性的材料碎片製成。你佩戴此護符期間，你獲得下列好處。</p><p><strong>【施法法器】</strong>你可以將此護符作為你的契術師法術的施法法器。</p><p><strong>【未知法術】</strong>你可以採取魔法動作，嘗試施放一道你尚未習得的戲法。該戲法必須位於契術師法術列表中，且施法時間為一個動作，並且你要進行一次DC 10的智力（奧秘）檢定。檢定成功時，你施放該法術；檢定失敗時，該法術施放失敗，且用於施法的動作被浪費。無論成功與否，直到你完成一次長休前，你都無法再次使用此屬性。</p><section class=\"secret\" id=\"secret-SB0WtYF6NBSdZhyr\"><p><strong>Foundry 註記</strong></p><p>名為<strong>施放所選戲法</strong>的行動僅供選用，啟用前必須編輯並設定為所選的契術師戲法。</p></section>"
     },
     "Ebony Fly": {
       "name": "Ebony Fly",
@@ -6229,10 +6229,10 @@
     "Gauntlets of Ogre Power": {
       "effects": {
         "Ogre Strength": {
-          "name": "Ogre Strength"
+          "name": "食人魔之力"
         }
       },
-      "description": "<p><em>奇物，非普通（需同調）</em></p><p>Your Strength is 19 while you wear these gauntlets. They have no effect on you if your Strength is 19 or higher without them.</p>",
+      "description": "<p><em>奇物，非普通（需同調）</em></p><p>穿戴這雙護手期間，你的力量為19。若你未穿戴護手時的力量已達19或更高，護手對你沒有效果。</p>",
       "name": "食人魔力量護手"
     },
     "Universal Solvent": {
@@ -6302,11 +6302,11 @@
     },
     "Wand of Secrets": {
       "name": "探秘魔杖",
-      "description": "<p><em>Wand，非普通</em></p><p>This wand has 3 charges and regains 1d3 expended charges daily at dawn. While holding it, you can take a Magic action to expend 1 charge, and if a secret door or trap is within 60 feet of you, the wand pulses and points at the one nearest to you.</p>",
+      "description": "<p><em>魔杖，非普通</em></p><p>這根魔杖具有3點充能，並在每日黎明時恢復1d3已消耗的充能。持握魔杖期間，你可以採取魔法動作消耗1點充能；若有密門或陷阱位於你60呎內，魔杖會發出脈動並指向離你最近的一處。</p>",
       "activities": {
         "Detect Secret Door/Trap": {
-          "name": "Detect Secret Door/Trap",
-          "target": "secret doors/traps"
+          "name": "偵測密門／陷阱",
+          "target": "密門／陷阱"
         }
       }
     },
@@ -6484,7 +6484,7 @@
     },
     "Boots of Levitation": {
       "name": "浮空之靴",
-      "description": "<p><em>奇物，珍稀（需同調）</em></p><p>While you wear these boots, you can cast <em>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplLevitate00]{Levitate}</em> on yourself.</p>"
+      "description": "<p><em>奇物，珍稀（需同調）</em></p><p>穿戴這雙靴子期間，你可以對自己施放<em>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplLevitate00]{浮空術}</em>。</p>"
     },
     "Potion of Invulnerability": {
       "effects": {
@@ -6545,11 +6545,11 @@
     "Gloves of Swimming and Climbing": {
       "effects": {
         "Gloves On": {
-          "name": "Gloves On",
-          "description": "<p>You have a Climb Speed and a Swim Speed equal to your Speed, and you gain a +5 bonus to Strength (Athletics) checks made to climb or swim.</p>"
+          "name": "穿戴手套",
+          "description": "<p>你具有等同於你速度的攀爬速度與游泳速度，且你為攀爬或游泳而進行的力量（運動）檢定獲得+5加值。</p>"
         }
       },
-      "description": "<p><em>奇物，非普通（需同調）</em></p><p>While wearing these gloves, you have a Climb Speed and a Swim Speed equal to your Speed, and you gain a +5 bonus to Strength (Athletics) checks made to climb or swim.</p><section class=\"secret\" id=\"secret-9sClXeq4AMq44GSR\"><p><strong>Foundry Note</strong></p><p>The <strong>Gloves On</strong> Active Effect increases your Climb and Swim speed by 1 to indicate its equivalence to your Speed.  The +5 bonus to checks made to climb or swim should be added as a situational bonus when applicable.</p></section>",
+      "description": "<p><em>奇物，非普通（需同調）</em></p><p>穿戴這雙手套期間，你具有等同於你速度的攀爬速度與游泳速度，且你為攀爬或游泳而進行的力量（運動）檢定獲得+5加值。</p><section class=\"secret\" id=\"secret-9sClXeq4AMq44GSR\"><p><strong>Foundry 註記</strong></p><p>此物品的<strong>穿戴手套</strong> Active Effect 會將你的攀爬速度與游泳速度提升1，以表示其等同於你的速度。為攀爬或游泳而進行的檢定所獲得的+5加值，應在適用時作為情境加值加入。</p></section>",
       "name": "游泳攀爬手套"
     },
     "Mangonel": {
@@ -6610,20 +6610,20 @@
     "Vicious Weapon": {
       "effects": {
         "Vicious Weapon": {
-          "name": "Vicious Weapon",
+          "name": "惡毒武器",
           "changes": {
             "system.description.value": "{}<p>@Embed[Compendium.dnd-dungeon-masters-guide.equipment.Item.dmgViciousWeapon caption=false]</p>",
-            "name": "Vicious {}"
+            "name": "惡毒{}"
           }
         }
       },
-      "description": "<p><em>武器（任意簡易或軍用），珍稀</em></p><p>This magic weapon deals an extra 2d6 damage to any creature it hits. This extra damage is of the same type as the weapon’s normal damage.</p><p>@Embed[Compendium.dnd-dungeon-masters-guide.content.JournalEntry.dmgFoundryRefere.JournalEntryPage.Ok4iCgD25ENgoRxE cite=false caption=false classes=\"hide-in-embed\"]</p>",
+      "description": "<p><em>武器（任意簡易或軍用），珍稀</em></p><p>這把魔法武器命中任何生物時，額外造成2d6傷害。此額外傷害的類型與武器的一般傷害類型相同。</p><p>@Embed[Compendium.dnd-dungeon-masters-guide.content.JournalEntry.dmgFoundryRefere.JournalEntryPage.Ok4iCgD25ENgoRxE cite=false caption=false classes=\"hide-in-embed\"]</p>",
       "activities": {
         "Vicious Weapon": {
-          "name": "Vicious Weapon"
+          "name": "惡毒武器"
         }
       },
-      "name": "Vicious Weapon"
+      "name": "惡毒武器"
     },
     "Blessing of Valhalla": {
       "name": "Blessing of Valhalla",
@@ -6770,14 +6770,14 @@
     "Mace of Terror": {
       "activities": {
         "Wave of Terror": {
-          "name": "Wave of Terror"
+          "name": "恐懼波動"
         }
       },
-      "description": "<p><em>Weapon (@UUID[Compendium.dnd-players-handbook.equipment.Item.phbwepMace000000]{Mace}). Rare（需同調）</em></p><p>This magic weapon has 3 charges and regains 1d3 expended charges daily at dawn. While holding the weapon, you can take a Magic action and expend 1 charge to release a wave of terror from it. Each creature of your choice within 30 feet of you must succeed on a DC 15 Wisdom saving throw or have the &amp;Reference[Frightened apply=false] condition for 1 minute. While Frightened in this way, a creature must spend its turns trying to move as far away from you as it can, and it can’t make Opportunity Attacks. For its action, it can use only the Dash action or try to escape from an effect that prevents it from moving. If it has nowhere it can move, the creature can take the Dodge action. At the end of each of its turns, a creature repeats the save, ending the effect on itself on a success.</p>",
+      "description": "<p><em>武器（@UUID[Compendium.dnd-players-handbook.equipment.Item.phbwepMace000000]{硬頭錘}），珍稀（需同調）</em></p><p>這把魔法武器具有3點充能，並在每日黎明時恢復1d3點已消耗的充能。持握這把武器期間，你可以採取魔法動作並消耗1點充能，從武器中釋放一股恐懼波動。位於你30呎內每名你所選擇的生物都必須成功通過一次DC 15的感知豁免，否則陷入&amp;Reference[Frightened apply=false]{恐慌}狀態，持續1分鐘。以此方式陷入恐慌的生物必須在其回合盡可能遠離你，且無法進行藉機攻擊。該生物只能採取疾走動作，或嘗試擺脫阻止其移動的效應。若無處可移動，該生物可以採取迴避動作。在其每個回合結束時，該生物重複此豁免，成功時結束其身上的效應。</p>",
       "name": "恐懼之錘",
       "effects": {
         "Frightened": {
-          "name": "Frightened"
+          "name": "恐慌"
         }
       }
     },
@@ -6811,13 +6811,13 @@
     "Gloves of Missile Snaring": {
       "activities": {
         "Snare Missile": {
-          "condition": "Hit by an attack roll with a Ranged or Thrown weapon",
-          "name": "Snare Missile",
-          "roll": "Snare Missile"
+          "condition": "被遠程武器或投擲武器的攻擊檢定命中",
+          "name": "奪箭",
+          "roll": "奪箭"
         }
       },
       "name": "避矢奪箭手套",
-      "description": "<p><em>奇物，非普通（需同調）</em></p><p>If you’re hit by an attack roll made with a Ranged or Thrown weapon while wearing these gloves, you can take a Reaction to reduce the damage by 1d10 plus your Dexterity modifier if you have a free hand. If you reduce the damage to 0, you can catch the ammunition or weapon if it is small enough for you to hold in that hand.</p>"
+      "description": "<p><em>奇物，非普通（需同調）</em></p><p>穿戴這雙手套期間，若你被以遠程武器或投擲武器所進行的攻擊檢定命中，且你有一隻空出的手，你可以採取反應將傷害減少1d10 + 你的敏捷調整值。若你將傷害減少至0，且該彈藥或武器小到足以讓你用那隻手握持，你可以接住該彈藥或武器。</p>"
     },
     "Crystal Ball": {
       "description": "<p><em>奇物，非常珍稀（需同調）</em></p><p>While touching this crystal orb, you can cast @UUID[Compendium.dnd-players-handbook.spells.Item.phbsplScrying000]{Scrying} (save DC 17) with it.</p>",
@@ -6828,7 +6828,7 @@
       "name": "Fireball Fungus"
     },
     "Wand of Fireballs": {
-      "description": "<p><em>Wand，珍稀 （需由施法者同調）</em></p><p>This wand has 7 charges. While holding it, you can expend no more than 3 charges to cast @UUID[Compendium.dnd-players-handbook.spells.Item.phbsplFireball00]{Fireball} (save DC 15) from it. For 1 charge, you cast the level 3 version of the spell. You can increase the spell’s level by 1 for each additional charge you expend.</p><p><em><strong>Regaining Charges.</strong></em> The wand regains 1d6 + 1 expended charges daily at dawn. If you expend the wand’s last charge, roll [[/r 1d20]]. On a 1, the wand crumbles into ashes and is destroyed.</p>",
+      "description": "<p><em>魔杖，珍稀（需由施法者同調）</em></p><p>這根魔杖具有7點充能。持握魔杖期間，你可以消耗至多3點充能，透過魔杖施放@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplFireball00]{火球術}（豁免DC 15）。消耗1點充能時，你施放該法術的3環版本；每多消耗1點充能，法術的環階就提升1環。</p><p><em><strong>【恢復充能】</strong></em>該魔杖每日黎明時恢復1d6 + 1已消耗的充能。若你消耗了魔杖的最後1點充能，擲[[/r 1d20]]。若結果為1，魔杖會化為灰燼並被摧毀。</p>",
       "name": "火球魔杖"
     },
     "Periapt of Wound Closure": {
@@ -6929,11 +6929,11 @@
     "Gloves of Thievery": {
       "effects": {
         "Gloves On": {
-          "name": "Gloves On"
+          "name": "穿戴手套"
         }
       },
-      "name": "Gloves of Thievery",
-      "description": "<p><em>奇物，非普通</em></p><p>These gloves are imperceptible while worn. While wearing them, you gain a +5 bonus to Dexterity (Sleight of Hand) checks.</p><section id=\"secret-MTbVEJqcHy1oERli\" class=\"secret\"><p><strong>Foundry Note</strong></p><p>The <strong>Gloves On</strong> Active Effect automates the +5 to your Sleight of Hand checks.</p></section>"
+      "name": "竊賊手套",
+      "description": "<p><em>奇物，非普通</em></p><p>這雙手套穿戴時無法被察覺。穿戴這雙手套期間，你進行敏捷（巧手）檢定時獲得+5加值。</p><section id=\"secret-MTbVEJqcHy1oERli\" class=\"secret\"><p><strong>Foundry 註記</strong></p><p>此物品的<strong>穿戴手套</strong> Active Effect 會自動為你的巧手檢定加上+5。</p></section>"
     },
     "Onyx Dog": {
       "name": "Onyx Dog",
@@ -6956,15 +6956,15 @@
           "name": "乙太化板甲"
         },
         "4dRHNHbVFlWq34Ow": {
-          "duration": "8 hours or if you remove the armor or take a Magic action to repeat the command word."
+          "duration": "8小時；若你脫下該護甲，或採取魔法動作再次說出命令詞。"
         }
       },
-      "description": "<p><em>Armor (@UUID[Compendium.dnd-players-handbook.equipment.Item.phbarmHalfPlateA]{Half Plate Armor} or @UUID[Compendium.dnd-players-handbook.equipment.Item.phbarmPlateArmor]{Plate Armor}), Legendary（需同調）</em></p><p>While you’re wearing this armor, you can take a Magic action and use a command word to gain the effect of the <em>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplEtherealne]{Etherealness}</em> spell. The spell ends immediately if you remove the armor or take a Magic action to repeat the command word. This property of the armor can’t be used again until the next dawn.</p><p>@Embed[Compendium.dnd-dungeon-masters-guide.content.JournalEntry.dmgFoundryRefere.JournalEntryPage.Ok4iCgD25ENgoRxE cite=false caption=false classes=\"hide-in-embed\"]</p>",
+      "description": "<p><em>護甲（@UUID[Compendium.dnd-players-handbook.equipment.Item.phbarmHalfPlateA]{半身板甲}或@UUID[Compendium.dnd-players-handbook.equipment.Item.phbarmPlateArmor]{全身板甲}），傳說（需同調）</em></p><p>穿戴這套護甲期間，你可以採取魔法動作並說出命令詞，獲得<em>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplEtherealne]{跨入乙太界}</em>法術的效應。若你脫下該護甲，或採取魔法動作再次說出命令詞，法術立即結束。直到下個黎明前，你無法再次使用該護甲的此屬性。</p><p>@Embed[Compendium.dnd-dungeon-masters-guide.content.JournalEntry.dmgFoundryRefere.JournalEntryPage.Ok4iCgD25ENgoRxE cite=false caption=false classes=\"hide-in-embed\"]</p>",
       "effects": {
         "Plate Armor of Etherealness": {
           "changes": {
             "system.description.value": "{}<p>@Embed[Compendium.dnd-dungeon-masters-guide.equipment.Item.dmgPlateArmorOfE caption=false]</p>",
-            "name": "{} of Etherealness"
+            "name": "乙太化{}"
           },
           "name": "乙太化板甲"
         }
@@ -6973,7 +6973,7 @@
     },
     "Wand of Web": {
       "name": "蛛網魔杖",
-      "description": "<p><em>Wand，非普通 （需由施法者同調）</em></p><p>This wand has 7 charges. While holding it, you can expend 1 charge to cast @UUID[Compendium.dnd-players-handbook.spells.Item.phbsplWeb0000000]{Web} (save DC 13) from it.</p><p><em><strong>Regaining Charges.</strong></em> The wand regains 1d6 + 1 expended charges daily at dawn. If you expend the wand’s last charge, roll [[/r 1d20]]. On a 1, the wand crumbles into ashes and is destroyed.</p>"
+      "description": "<p><em>魔杖，非普通（需由施法者同調）</em></p><p>這根魔杖具有7點充能。持握魔杖期間，你可以消耗1點充能，透過魔杖施放@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplWeb0000000]{蛛網術}（豁免DC 13）。</p><p><em><strong>【恢復充能】</strong></em>此魔杖每日黎明時恢復1d6 + 1已消耗的充能。若你消耗了魔杖的最後1點充能，擲[[/r 1d20]]。若結果為1，魔杖會化為灰燼並被摧毀。</p>"
     },
     "Potion of Comprehension": {
       "name": "通曉藥水",
@@ -7001,14 +7001,14 @@
     "Staff of Charming": {
       "activities": {
         "Resist Enchantment": {
-          "name": "Resist Enchantment"
+          "name": "抵抗惑控"
         },
         "Reflect Enchantment": {
-          "name": "Reflect Enchantment"
+          "name": "反射惑控"
         }
       },
       "name": "魅惑法杖",
-      "description": "<p><em>@UUID[Compendium.dnd-players-handbook.equipment.Item.phbafcStaffalsoa]{Staff}，珍稀 (Requires Attunement by a Bard, Cleric, Druid, Sorcerer, Warlock, or Wizard)</em></p><p>This staff has 10 charges. While holding the staff, you can use any of its properties:</p><p><strong>Cast Spell.</strong> You can expend 1 of the staff’s charges to cast @UUID[Compendium.dnd-players-handbook.spells.Item.phbsplCharmPerso]{Charm Person}, @UUID[Compendium.dnd-players-handbook.spells.Item.phbsplCommand000]{Command}, or @UUID[Compendium.dnd-players-handbook.spells.Item.phbsplComprehend]{Comprehend Languages} from it using your spell save DC.</p><p><strong>Reflect Enchantment.</strong> If you succeed on a saving throw against an Enchantment spell that targets only you, you can take a Reaction to expend 1 charge from the staff and turn the spell back on its caster as if you had cast the spell.</p><p><strong>Resist Enchantment.</strong> If you fail a saving throw against an Enchantment spell that targets only you, you can turn your failed save into a successful one. You can’t use this property of the staff again until the next dawn.</p><p><em><strong>Regaining Charges.</strong></em> The staff regains 1d8 + 2 expended charges daily at dawn. If you expend the last charge, roll 1d20. On a 1, the staff crumbles to dust and is destroyed.</p>"
+      "description": "<p><em>@UUID[Compendium.dnd-players-handbook.equipment.Item.phbafcStaffalsoa]{法杖}，珍稀（需由吟遊詩人、牧師、德魯伊、術士、契術師或法師同調）</em></p><p>這根法杖具有10點充能。持握法杖期間，你可以使用其下列任一屬性：</p><p><strong>【施放法術】</strong>你可以消耗法杖的1點充能，透過法杖施放@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplCharmPerso]{魅惑人類}、@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplCommand000]{命令術}或@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplComprehend]{通曉語言}，使用你的法術豁免DC。</p><p><strong>【反射惑控】</strong>若你在對抗一道只以你為目標的惑控學派法術中豁免成功，你可以採取反應消耗法杖的1點充能，將該法術反射回其施法者，如同該法術由你施放一般。</p><p><strong>【抵抗惑控】</strong>若你在對抗一道只以你為目標的惑控學派法術的豁免中失敗，你可以將失敗的豁免改為成功。直到下個黎明前，你無法再次使用法杖的此屬性。</p><p><em><strong>【恢復充能】</strong></em>此法杖每日黎明時恢復1d8 + 2已消耗的充能。若你消耗了最後1點充能，擲1d20。若結果為1，法杖會化為塵土並被摧毀。</p>"
     },
     "Potion of Animal Friendship": {
       "name": "化獸為友藥水",
@@ -7025,7 +7025,7 @@
       "description": "<p><em>奇物，普通</em></p><p>這把鑰匙的頭部刻有一個問號。此鑰匙有5%的機率能打開任何被其插入的鎖。一旦打開了某物，這把鑰匙就會消失。</p><section id=\"secret-DRu4HEbtEOCAWiHf\" class=\"secret\"><p><strong>Foundry 註記</strong></p><p>名為<strong>機率擲骰</strong>的行動在成功時會回傳「1」，否則回傳「0」。</p></section>"
     },
     "Hat of Wizardry": {
-      "description": "<p><em>奇物，普通（需由法師同調）</em></p><p>這頂錐形帽上點綴著月亮與星辰。你穿戴此帽期間，你獲得下列好處。</p><p><em><strong>【施法法器】</strong></em>你可以將此帽作為你的法師法術的施法法器。</p><p><em><strong>【未知法術】</strong></em>以一個魔法動作，你可以嘗試施放一道你尚未習得的戲法。該戲法必須位於法師法術列表中，且施法時間為一個動作，並且你要進行一次DC 10的智力（奧秘）檢定。檢定成功時，你施放該法術；檢定失敗時，該法術施放失敗，且用於施法的動作被浪費。無論成功與否，直到你完成一次長休前，你都無法再次使用此特性。</p>",
+      "description": "<p><em>奇物，普通（需由法師同調）</em></p><p>這頂錐形帽上點綴著月亮與星辰。你穿戴此帽期間，你獲得下列好處。</p><p><em><strong>【施法法器】</strong></em>你可以將此帽作為你的法師法術的施法法器。</p><p><em><strong>【未知法術】</strong></em>以一個魔法動作，你可以嘗試施放一道你尚未習得的戲法。該戲法必須位於法師法術列表中，且施法時間為一個動作，並且你要進行一次DC 10的智力（奧秘）檢定。檢定成功時，你施放該法術；檢定失敗時，該法術施放失敗，且用於施法的動作被浪費。無論成功與否，直到你完成一次長休前，你都無法再次使用此屬性。</p>",
       "activities": {
         "Attempt to Cast Spell": {
           "name": "嘗試施放法術"
@@ -7231,7 +7231,7 @@
     },
     "Orb of Time": {
       "name": "時間法球",
-      "description": "<p><em>奇物，普通</em></p><p>這顆法球可用作奧術法器。</p><p>持握這顆法球期間，你可以採取魔法動作，確認現在是早晨、下午、傍晚還是夜晚。此特性僅在物質位面中有效。</p>"
+      "description": "<p><em>奇物，普通</em></p><p>這顆法球可用作奧術法器。</p><p>持握這顆法球期間，你可以採取魔法動作，確認現在是早晨、下午、傍晚還是夜晚。此屬性僅在物質位面中有效。</p>"
     },
     "Amulet of Proof against Detection and Location": {
       "description": "<p><em>奇物，非普通（需同調）</em></p><p>While wearing this amulet, you can’t be targeted by &amp;Reference[schoolsofmagic]{Divination} spells or perceived through magical scrying sensors unless you allow it.</p>",
@@ -7242,7 +7242,7 @@
       "name": "跳躍戒指"
     },
     "Wand of Binding": {
-      "description": "<p><em>Wand，珍稀（需同調）</em></p><p>This wand has 7 charges.</p><p><em><strong>Spells.</strong></em> While holding the wand, you can cast one of the spells (save DC 17) on the following table from it. The table indicates how many charges you must expend to cast the spell.</p><table><thead><tr><th><p>Spell</p></th><th><p>Charge Cost</p></th><th></th></tr></thead><tbody><tr><td><p>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplHoldMonste]{Hold Monster}</p></td><td><p>5</p></td><td></td></tr><tr><td><p>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplHoldPerson]{Hold Person}</p></td><td><p>2</p></td><td></td></tr></tbody></table><p><em><strong>Regaining Charges.</strong></em> The wand regains 1d6 + 1 expended charges daily at dawn. If you expend the wand’s last charge, roll [[/r 1d20]]. On a 1, the wand crumbles into ashes and is destroyed.</p>",
+      "description": "<p><em>魔杖，珍稀（需同調）</em></p><p>這根魔杖具有7點充能。</p><p><em><strong>【法術】</strong></em>持握魔杖期間，你可以透過魔杖施放下表中的一道法術（豁免DC 17）。下表列出施放各法術所需消耗的充能。</p><table><thead><tr><th><p>法術</p></th><th><p>充能消耗</p></th><th></th></tr></thead><tbody><tr><td><p>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplHoldMonste]{怪物定身術}</p></td><td><p>5</p></td><td></td></tr><tr><td><p>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplHoldPerson]{人類定身術}</p></td><td><p>2</p></td><td></td></tr></tbody></table><p><em><strong>【恢復充能】</strong></em>此魔杖每日黎明時恢復1d6 + 1已消耗的充能。若你消耗了魔杖的最後1點充能，擲[[/r 1d20]]。若結果為1，魔杖會化為灰燼並被摧毀。</p>",
       "name": "定身魔杖"
     },
     "Candle of the Deep": {
@@ -7301,7 +7301,7 @@
     },
     "Hat of Disguise": {
       "name": "易容帽",
-      "description": "<p><em>奇物，非普通（需同調）</em></p><p>While wearing this hat, you can cast the @UUID[Compendium.dnd-players-handbook.spells.Item.phbsplDisguiseSe]{Disguise Self} spell. The spell ends if the hat is removed.</p>"
+      "description": "<p><em>奇物，非普通（需同調）</em></p><p>穿戴這頂帽子期間，你可以施放@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplDisguiseSe]{易容術}法術。若帽子被摘下，法術便結束。</p>"
     },
     "Pot of Awakening": {
       "description": "<p><em>奇物，普通</em></p><p>若你在這個重10磅的陶盆中種下一株普通灌木，並讓其生長30天，時間一到，該灌木就會魔法般地轉變為一株<strong>@UUID[Compendium.dnd-dungeon-masters-guide.actors.Actor.gaSTr7DFZJLmgI2J]{啟蒙灌木}</strong>。灌木被啟蒙時，其根系會撐破花盆，使其毀壞。</p><p>這株啟蒙灌木對你友善，並服從你的命令。若你未下達命令，其什麼也不會做。</p>",
@@ -7312,10 +7312,10 @@
       "name": "法術儲存戒指"
     },
     "Headband of Intellect": {
-      "description": "<p><em>奇物，非普通（需同調）</em></p><p>當你穿戴這條頭帶時，你的智力變為19。若你在未穿戴它時的智力就已經為19或更高，則這條頭帶對你將不會有任何效果。</p>",
+      "description": "<p><em>奇物，非普通（需同調）</em></p><p>穿戴這條頭帶期間，你的智力變為19。若你在未穿戴它時的智力就已經為19或更高，則這條頭帶對你將不會有任何效果。</p>",
       "effects": {
         "Intelligent": {
-          "name": "Intelligent"
+          "name": "睿智"
         }
       },
       "name": "智力頭帶"
@@ -7342,10 +7342,10 @@
       "name": "搜敵魔杖",
       "activities": {
         "Detect Hostile Creature": {
-          "name": "Detect Hostile Creature"
+          "name": "偵測敵對生物"
         }
       },
-      "description": "<p><em>Wand，珍稀（需同調）</em></p><p>This wand has 7 charges. While holding it, you can take a Magic action to expend 1 charge. For 1 minute, you know the direction of the nearest creature Hostile to you within 60 feet, but not its distance from you. The wand can sense the presence of Hostile creatures that are Invisible, ethereal, disguised, or hidden, as well as those in plain sight. The effect ends if you stop holding the wand.</p><p><em><strong>Regaining Charges.</strong></em> The wand regains 1d6 + 1 expended charges daily at dawn. If you expend the wand’s last charge, roll [[/r 1d20]]. On a 1, the wand crumbles into ashes and is destroyed.</p>"
+      "description": "<p><em>魔杖，珍稀（需同調）</em></p><p>這根魔杖具有7點充能。持握魔杖期間，你可以採取魔法動作消耗1點充能。在1分鐘內，你能得知位於你60呎內、離你最近的敵對生物所在方向，但無法得知你與其的距離。魔杖能感知處於隱形、乙太化、偽裝或躲藏狀態的敵對生物，以及明顯可見的敵對生物。若你不再持握魔杖，效應便結束。</p><p><em><strong>【恢復充能】</strong></em>該魔杖每日黎明時恢復1d6 + 1已消耗的充能。若你消耗了魔杖的最後1點充能，擲[[/r 1d20]]。若結果為1，魔杖會化為灰燼並被摧毀。</p>"
     },
     "Ioun Stone of Reserve": {
       "description": "<p><em>See: @UUID[Compendium.dnd-dungeon-masters-guide.equipment.Item.dmgIounStone0000]{Ioun Stone}</em></p><p>When you take a Magic action to toss an <em>Ioun Stone</em> into the air, the stone orbits your head at a distance of 1d3 feet, conferring its benefit to you while doing so. You can have up to three <em>Ioun Stones</em> orbiting your head at the same time.</p><p>As a Utilize action, you can seize and stow any number of <em>Ioun Stones</em> orbiting your head. If your Attunement to an <em>Ioun Stone</em> ends while it’s orbiting your head, the stone falls as though you had dropped it.</p><p>This vibrant purple prism stores spells cast into it, holding them until you use them. The stone can store up to 4 levels of spells at a time. When found, it contains [[/r 1d4#Spell Levels]] levels of stored spells chosen by the DM.</p><p>Any creature can cast a spell of level 1 through 4 into the stone by touching it as the spell is cast. The spell has no effect, other than to be stored in the stone. If the stone can’t hold the spell, the spell is expended without effect. The level of the slot used to cast the spell determines how much space it uses.</p><p>While this stone orbits your head, you can cast any spell stored in it. The spell uses the slot level, spell save DC, spell attack bonus, and spellcasting ability of the original caster but is otherwise treated as if you cast the spell. The spell cast from the stone is no longer stored in it, freeing up space.</p>",
@@ -7406,8 +7406,8 @@
       "name": "適應項鍊"
     },
     "Nature's Mantle": {
-      "description": "<p><em>奇物，非普通 (Requires Attunement by a Druid or Ranger)</em></p><p>This cloak shifts color and texture to blend with the terrain surrounding you. While wearing the cloak, you can use it as a Spellcasting Focus for your Druid and Ranger spells.</p><p>While you are in an area that is &amp;Reference[Lightly Obscured], you can Hide as a Bonus Action even if you are being directly observed.</p>",
-      "name": "Nature's Mantle"
+      "description": "<p><em>奇物，非普通（需由德魯伊或遊俠同調）</em></p><p>這件斗篷的顏色與質地會隨你周遭的地形而變化，與之融為一體。穿戴這件斗篷期間，你可以將其作為你的德魯伊與遊俠法術的施法法器。</p><p>當你身處&amp;Reference[Lightly Obscured]{輕度遮蔽}的區域時，即使你正被直接觀察，也可以採取附贈動作來躲藏。</p>",
+      "name": "自然斗篷"
     },
     "Boots of False Tracks": {
       "name": "偽跡之靴",
@@ -7415,7 +7415,7 @@
     },
     "Glamoured Studded Leather": {
       "name": "幻惑鑲釘皮甲",
-      "description": "<p><em>護甲（鑲釘皮甲），珍稀</em></p><p>穿戴這套護甲期間，你的AC獲得+1加值。你也可以採取附贈動作，使這套護甲呈現一套普通衣物或其他種類護甲的外觀。你決定該外觀，包括顏色、樣式和配飾，但護甲保持其原本的體積和重量。幻化外觀持續到你再次使用此特性或脫下該護甲為止。</p>"
+      "description": "<p><em>護甲（鑲釘皮甲），珍稀</em></p><p>穿戴這套護甲期間，你的AC獲得+1加值。你也可以採取附贈動作，使這套護甲呈現一套普通衣物或其他種類護甲的外觀。你決定該外觀，包括顏色、樣式和配飾，但護甲保持其原本的體積和重量。幻化外觀持續到你再次使用此屬性或脫下該護甲為止。</p>"
     },
     "Ioun Stone of Protection": {
       "effects": {
@@ -7448,7 +7448,7 @@
     },
     "Wand of Fear": {
       "name": "恐懼魔杖",
-      "description": "<p><em>Wand，珍稀（需同調）</em></p><p>This wand has 7 charges.</p><p><em><strong>Spells.</strong></em> While holding the wand, you can cast one of the spells (save DC 15) on the following table from it. The table indicates how many charges you must expend to cast the spell.</p><table><thead><tr><th><p>Spell</p></th><th><p>Charge Cost</p></th><th></th></tr></thead><tbody><tr><td><p>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplCommand000]{Command} (“flee” or “grovel” only)</p></td><td><p>1</p></td><td></td></tr><tr><td><p>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplFear000000]{Fear} (60-foot Cone)</p></td><td><p>3</p></td><td></td></tr></tbody></table><p><em><strong>Regaining Charges.</strong></em> The wand regains 1d6 + 1 expended charges daily at dawn. If you expend the wand’s last charge, roll [[/r 1d20]]. On a 1, the wand crumbles into ashes and is destroyed.</p>"
+      "description": "<p><em>魔杖，珍稀（需同調）</em></p><p>這根魔杖具有7點充能。</p><p><em><strong>【法術】</strong></em>持握魔杖期間，你可以透過魔杖施放下表中的一道法術（豁免DC 15）。下表列出施放各法術所需消耗的充能。</p><table><thead><tr><th><p>法術</p></th><th><p>充能消耗</p></th><th></th></tr></thead><tbody><tr><td><p>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplCommand000]{命令術}（僅限「滾」或「趴下」）</p></td><td><p>1</p></td><td></td></tr><tr><td><p>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplFear000000]{恐懼術}（60呎錐形）</p></td><td><p>3</p></td><td></td></tr></tbody></table><p><em><strong>【恢復充能】</strong></em>該魔杖每日黎明時恢復1d6 + 1已消耗的充能。若你消耗了魔杖的最後1點充能，擲[[/r 1d20]]。若結果為1，魔杖會化為灰燼並被摧毀。</p>"
     },
     "Grenade Launcher": {
       "description": "<p>As an action, you can use a Grenade Launcher to propel a grenade to a point up to 1,000 feet away. The grenade explodes at that point, creating a particular effect in a 20-foot-radius Sphere.</p><p><em><strong>Fragmentation Grenade.</strong></em> Each creature in the Sphere makes a DC 15 Dexterity saving throw, taking 17 (5d6) Piercing damage on a failed save or half as much damage on a successful one.</p><p><em><strong>Smoke Grenade.</strong></em> The area of the Sphere is Heavily Obscured by smoke for 1 minute. A strong wind (such as the @UUID[Compendium.dnd-players-handbook.spells.Item.phbsplGustofWind]{Gust of Wind} spell) disperses the smoke.</p>",
@@ -7463,11 +7463,11 @@
       "name": "Grenade Launcher"
     },
     "Cloak of Protection": {
-      "description": "<div><p><em>奇物，非普通（需同調）</em></p></div><p>You gain a +1 bonus to Armor Class and saving throws while you wear this cloak.</p>",
+      "description": "<div><p><em>奇物，非普通（需同調）</em></p></div><p>穿戴這件斗篷期間，你的護甲等級與豁免檢定獲得+1加值。</p>",
       "name": "防護斗篷",
       "effects": {
         "Bonus AC/Saves: +1": {
-          "name": "Bonus AC/Saves: +1"
+          "name": "AC／豁免加值：+1"
         }
       }
     },
@@ -7496,7 +7496,7 @@
       "description": "<p><em>魔杖，非常珍稀（需由施法者同調）</em></p><p>This wand has 7 charges. While holding it, you can expend 1 charge to cast @UUID[Compendium.dnd-players-handbook.spells.Item.phbsplPolymorph0]{Polymorph} (save DC 15) from it.</p><p><em><strong>Regaining Charges.</strong></em> The wand regains 1d6 + 1 expended charges daily at dawn. If you expend the wand’s last charge, roll [[/r 1d20]]. On a 1, the wand crumbles into ashes and is destroyed.</p>"
     },
     "Slippers of Spider Climbing": {
-      "description": "<p><em>奇物，非普通（需同調）</em></p><p>While you wear these light shoes, you can move up, down, and across vertical surfaces and along ceilings, while leaving your hands free. You have a Climb Speed equal to your Speed. However, the slippers don’t allow you to move this way on a slippery surface, such as one covered by ice or oil.</p>",
+      "description": "<p><em>奇物，非普通（需同調）</em></p><p>穿戴這雙輕便鞋期間，你能在垂直表面上上下左右移動，也能沿著天花板移動，同時雙手保持空閒。你具有等同於你速度的攀爬速度。然而，在滑溜的表面上，例如覆蓋著冰或油的表面，拖鞋無法讓你以這種方式移動。</p>",
       "name": "蛛行拖鞋"
     },
     "Crystal Ball of True Seeing": {
