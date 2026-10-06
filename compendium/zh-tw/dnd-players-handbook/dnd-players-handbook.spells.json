@@ -1531,7 +1531,7 @@
     },
     "Find Steed": {
       "name": "尋獲坐騎",
-      "description": "<p>你召喚一個異界存在，其以忠誠坐騎的樣貌出現在射程內你所選的未佔據的空間中。此生物使用<strong>@UUID[Compendium.dnd-players-handbook.actors.Actor.phbmobOtherworld]{異界坐騎}</strong>的數值面板。若你已經擁有以此法術獲得的坐騎，該坐騎會被新的坐騎取代。</p><p>該坐騎的外觀像是一隻由你選擇的大型、可騎乘的動物，例如馬、駱駝、恐狼或赤鹿。每當你施放該法術時，選擇坐騎的生物類型——天界、精類或邪魔——這會決定其數值面板中的某些特質。</p><p><strong>【戰鬥】</strong>坐騎是你和你盟友的盟友。在戰鬥中，其與你共用先攻值，並在你騎乘期間視同&amp;Reference[controllingamount]{受控坐騎}（如騎乘戰鬥規則所定義）。若你處於失能狀態，坐騎會在你的回合之後立即進行其回合，並獨立行動，專注於保護你。</p><p><strong>【坐騎消失】</strong>坐騎在生命值降至0或你死亡時會消失。當其消失時，其會留下自身穿著或攜帶的任何物品。若你再次施放此法術，由你決定是召喚先前消失的坐騎，還是召喚不同的坐騎。</p><p><strong>【升環法術效應】</strong>在數值面板中，以法術位的環階作為法術的環階。</p><section class=\"fvtt advice\" style=\"margin:0.5rem;padding:0.5rem\"><article><p>除了坐騎的特質與動作中已註明使用法術環階之外，下列屬性也會受到影響。</p><table><caption>異界坐騎</caption><tbody><tr><td><strong>AC</strong></td><td>10 + 每法術環階1點</td></tr><tr><td><strong>HP</strong></td><td>5 + 每法術環階10點（坐騎擁有等同於法術環階的生命骰［d10］）</td></tr><tr><td><strong>速度</strong></td><td>60呎，飛行60呎（需要4環以上的法術）</td></tr><tr><td><strong>PB</strong></td><td>等同於你的熟練加值</td></tr></tbody></table></article></section><section class=\"secret\" id=\"secret-SI4qlfj05o21BBGg\"><p><strong>Foundry 註記</strong></p><p>「<strong>召喚飛行坐騎</strong>」行動應在消耗四環或更高環階的法術位時使用，並已設定為賦予飛行速度。</p><p>當使用二環或三環法術位時，應改用「<strong>召喚坐騎</strong>」行動。</p></section>",
+      "description": "<p>你召喚一個異界存在，其以忠誠坐騎的樣貌出現在射程內你所選的未佔據的空間中。此生物使用<strong>@UUID[Compendium.dnd-players-handbook.actors.Actor.phbmobOtherworld]{異界坐騎}</strong>的數值面板。若你已經擁有以此法術獲得的坐騎，該坐騎會被新的坐騎取代。</p><p>該坐騎的外觀像是一隻由你選擇的大型、可騎乘的動物，例如馬、駱駝、恐狼或赤鹿。每當你施放該法術時，選擇坐騎的生物類型——天界、精類或邪魔——這會決定其數值面板中的某些特質。</p><p><strong>【戰鬥】</strong>坐騎是你和你盟友的盟友。在戰鬥中，其與你共用先攻值，並在你騎乘期間視同&amp;Reference[controllingamount]{受控坐騎}（如騎乘戰鬥規則所定義）。若你處於失能狀態，坐騎會在你的回合之後立即進行其回合，並獨立行動，專注於保護你。</p><p><strong>【坐騎消失】</strong>坐騎在生命值降至0或你死亡時會消失。當其消失時，其會留下自身穿著或攜帶的任何物品。若你再次施放此法術，由你決定是召喚先前消失的坐騎，還是召喚不同的坐騎。</p><p><strong>【升環法術效應】</strong>該生物的數值面板使用新的法術環階。</p><section class=\"fvtt advice\" style=\"margin:0.5rem;padding:0.5rem\"><article><p>除了坐騎的特質與動作中已註明使用法術環階之外，下列屬性也會受到影響。</p><table><caption>異界坐騎</caption><tbody><tr><td><strong>AC</strong></td><td>10 + 每法術環階1點</td></tr><tr><td><strong>HP</strong></td><td>5 + 每法術環階10點（坐騎擁有等同於法術環階的生命骰［d10］）</td></tr><tr><td><strong>速度</strong></td><td>60呎，飛行60呎（需要4環以上的法術）</td></tr><tr><td><strong>PB</strong></td><td>等同於你的熟練加值</td></tr></tbody></table></article></section><section class=\"secret\" id=\"secret-SI4qlfj05o21BBGg\"><p><strong>Foundry 註記</strong></p><p>「<strong>召喚飛行坐騎</strong>」行動應在消耗四環或更高環階的法術位時使用，並已設定為賦予飛行速度。</p><p>當使用二環或三環法術位時，應改用「<strong>召喚坐騎</strong>」行動。</p></section>",
       "activities": {
         "Summon Steed": {
           "name": "召喚坐騎"
@@ -1775,7 +1775,7 @@
     },
     "Giant Insect": {
       "name": "巨蟲術",
-      "description": "<p>你召喚一隻巨型蜈蚣、蜘蛛或黃蜂（施放法術時選擇）。其會在射程內你所能看見的一處未佔據空間中顯現，並使用<strong>@UUID[Compendium.dnd-players-handbook.actors.Actor.phbmobGiantInsec]{巨蟲}</strong>的數值面板。你所選擇的形態會決定其數值面板中的部分細節。該生物會在生命值降為0或法術結束時消失。</p><p>該生物是你及你盟友的盟友。戰鬥中，該生物共用你的先攻值，但會緊接在你的回合結束後進行其回合。其遵從你的口頭指令（你無需花費動作）。若你沒有下達指令，其會採取&amp;Reference[Dodge]{迴避}動作，並利用移動力遠離危險。</p><p><strong>【升環法術效應】</strong>在數值面板中，以法術位的環階作為法術環階。</p><section class=\"fvtt advice\" style=\"margin:0.5rem;padding:0.5rem\"><article><p>除了巨蟲的特質與動作中已註明使用法術環階之外，下列屬性也會受到影響。</p><table><caption>巨蟲</caption><tbody><tr><td><strong>AC</strong></td><td>11 + 法術環階</td></tr><tr><td><strong>HP</strong></td><td>30 + 法術環階每高於4環一環加10</td></tr><tr><td><strong>速度</strong></td><td>40呎，攀爬40呎，飛行40呎（僅限黃蜂）</td></tr><tr><td><strong>PB</strong></td><td>等同於你的熟練加值</td></tr></tbody></table></article></section>"
+      "description": "<p>你召喚一隻巨型蜈蚣、蜘蛛或黃蜂（施放法術時選擇）。其會在射程內你所能看見的一處未佔據空間中顯現，並使用<strong>@UUID[Compendium.dnd-players-handbook.actors.Actor.phbmobGiantInsec]{巨蟲}</strong>的數值面板。你所選擇的形態會決定其數值面板中的部分細節。該生物會在生命值降為0或法術結束時消失。</p><p>該生物是你及你盟友的盟友。戰鬥中，該生物共用你的先攻值，但會緊接在你的回合結束後進行其回合。其遵從你的口頭指令（你無需花費動作）。若你沒有下達指令，其會採取&amp;Reference[Dodge]{迴避}動作，並利用移動力遠離危險。</p><p><strong>【升環法術效應】</strong>該生物的數值面板使用新的法術環階。</p><section class=\"fvtt advice\" style=\"margin:0.5rem;padding:0.5rem\"><article><p>除了巨蟲的特質與動作中已註明使用法術環階之外，下列屬性也會受到影響。</p><table><caption>巨蟲</caption><tbody><tr><td><strong>AC</strong></td><td>11 + 法術環階</td></tr><tr><td><strong>HP</strong></td><td>30 + 法術環階每高於4環一環加10</td></tr><tr><td><strong>速度</strong></td><td>40呎，攀爬40呎，飛行40呎（僅限黃蜂）</td></tr><tr><td><strong>PB</strong></td><td>等同於你的熟練加值</td></tr></tbody></table></article></section>"
     },
     "Glibness": {
       "name": "花言巧語",
@@ -2220,7 +2220,7 @@
     },
     "Leomund's Secret Chest": {
       "name": "李歐蒙祕藏箱",
-      "description": "<p>你將一個箱子及其所有內容物藏在乙太位面。你必須同時觸碰作為此法術材料成分的箱子與微縮複製品。箱子最多可容納12立方呎的非生物材料（3呎×2呎×2呎）。</p><p>當箱子留在乙太位面期間，你可以採取魔法動作並觸碰複製品來召回箱子。箱子會出現在你5呎內地面上的一處未佔據空間。你可以採取魔法動作，觸碰箱子與複製品，將箱子送回乙太位面。</p><p>60日後，每日結束時法術有累計5%的機率結束。若你再次施放此法術，或超小型複製箱被摧毀，法術也會結束。若法術結束時較大的箱子位於乙太位面，箱子會留在那裡，等待你或他人發現。</p><section class=\"secret\" id=\"secret-FLbvXAg0bRRjYr2v\"><p><strong>【Foundry 註記】</strong></p><p>「<strong>召回箱子</strong>」行動會召喚一個與此特定法術物品相連結的角色，來充當該箱子。</p></section>",
+      "description": "<p>你將一個箱子及其所有內容物藏在乙太位面。你必須同時觸碰作為此法術材料構材的箱子與微縮複製品。箱子最多可容納12立方呎的非生物材料（3呎×2呎×2呎）。</p><p>當箱子留在乙太位面期間，你可以採取魔法動作並觸碰複製品來召回箱子。箱子會出現在你5呎內地面上的一處未佔據空間。你可以採取魔法動作，觸碰箱子與複製品，將箱子送回乙太位面。</p><p>60日後，每日結束時法術有累計5%的機率結束。若你再次施放此法術，或超小型複製箱被摧毀，法術也會結束。若法術結束時較大的箱子位於乙太位面，箱子會留在那裡，等待你或他人發現。</p><section class=\"secret\" id=\"secret-FLbvXAg0bRRjYr2v\"><p><strong>【Foundry 註記】</strong></p><p>「<strong>召回箱子</strong>」行動會召喚一個與此特定法術物品相連結的角色，來充當該箱子。</p></section>",
       "activities": {
         "Recall Chest": {
           "name": "召回箱子"
@@ -2643,11 +2643,11 @@
     },
     "Otiluke's Resilient Sphere": {
       "name": "歐提路克魔封法球",
-      "description": "<p>A shimmering sphere encloses a Large or smaller creature or object within range. An unwilling creature must succeed on a Dexterity saving throw or be enclosed for the duration.</p><p>Nothing—not physical objects, energy, or other spell effects—can pass through the barrier, in or out, though a creature in the sphere can breathe there. The sphere is immune to all damage, and a creature or object inside can’t be damaged by attacks or effects originating from outside, nor can a creature inside the sphere damage anything outside it.</p><p>The sphere is weightless and just large enough to contain the creature or object inside. An enclosed creature can take an action to push against the sphere’s walls and thus roll the sphere at up to half the creature’s Speed. Similarly, the globe can be picked up and moved by other creatures.</p><p>A <em>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplDisintegra]{Disintegrate}</em> spell targeting the globe destroys it without harming anything inside.</p>",
+      "description": "<p>一顆微光閃爍的球體封住射程內一名大型或更小的生物或物件。非自願的生物必須成功通過一次敏捷豁免，否則在持續期間內被封在球體中。</p><p>任何事物，無論是實體物件、能量或其他法術效應，都無法穿過屏障進出，不過球內的生物仍可呼吸。球體免疫一切傷害，球內的生物或物件不會受到來自球外的攻擊或效應傷害，球內的生物同樣無法傷害球外的任何事物。</p><p>球體沒有重量，大小恰好足以容納球內的生物或物件。被封住的生物可以採取動作推動球壁，使該生物以至多一半的速度滾動球體。同樣地，其他生物也可以拿起並移動這顆球體。</p><p>以球體為目標的<em>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplDisintegra]{解離術}</em>法術會摧毀球體，且不會傷害球內的任何事物。</p>",
       "effects": {
         "Enclosed in Sphere": {
-          "name": "Enclosed in Sphere",
-          "description": "<p>An enclosed creature can take an action to push against the sphere’s walls and thus roll the sphere at up to half the creature’s Speed.</p>"
+          "name": "封入球體",
+          "description": "<p>被封住的生物可以採取動作推動球壁，使該生物以至多一半的速度滾動球體。</p>"
         }
       }
     },
@@ -2703,11 +2703,11 @@
     },
     "Phantasmal Killer": {
       "name": "魅影殺手",
-      "description": "<p>You tap into the nightmares of a creature you can see within range and create an illusion of its deepest fears, visible only to that creature. The target makes a Wisdom saving throw. On a failed save, the target takes 4d10 Psychic damage and has Disadvantage on ability checks and attack rolls for the duration. On a successful save, the target takes half as much damage, and the spell ends.</p><p>For the duration, the target makes a [[/save ability=wis dc=@attributes.spelldc]] saving throw at the end of each of its turns. On a failed save, it takes the Psychic damage again. On a successful save, the spell ends.</p><p><strong>【升環法術效應】</strong>The damage increases by 1d10 for each spell slot level above 4.</p><section id=\"secret-mEqeb4gkG1Itpvh3\" class=\"secret\"><p><strong>Foundry Note</strong></p><p>The associated Active Effect does not include changes to provide Disadvantage on attack rolls and should be handled manually.</p></section>",
+      "description": "<p>你窺探射程內一名你所能看見的生物的噩夢，創造出一道只有該生物能看見且為其最深恐懼的幻象。目標進行一次感知豁免。豁免失敗時，目標承受4d10心靈傷害，並且在持續期間內，其屬性檢定與攻擊檢定具有劣勢；豁免成功時，目標只承受一半傷害，且法術結束。</p><p>在持續期間內，目標於其每個回合結束時進行一次[[/save ability=wis dc=@attributes.spell.dc]]豁免。豁免失敗時，其再次承受心靈傷害；豁免成功時，法術結束。</p><p><strong>【升環法術效應】</strong>法術位每比4環高一環，傷害就增加1d10。</p><section id=\"secret-mEqeb4gkG1Itpvh3\" class=\"secret\"><p><strong>【Foundry 註記】</strong></p><p>相關聯的 Active Effect 並未包含賦予攻擊檢定劣勢的變更，應手動處理。</p></section>",
       "effects": {
         "Fears Manifested": {
-          "description": "<p>The target has Disadvantage on ability checks and attack rolls for the duration.</p><p>For the duration, the target makes a [[/save ability=wis]] saving throw at the end of each of its turns. On a failed save, it takes the Psychic damage again. On a successful save, the spell ends.</p>",
-          "name": "Fears Manifested"
+          "description": "<p>在持續期間內，目標的屬性檢定與攻擊檢定具有劣勢。</p><p>在持續期間內，目標於其每個回合結束時進行一次[[/save ability=wis]]豁免。豁免失敗時，其再次承受心靈傷害；豁免成功時，法術結束。</p>",
+          "name": "恐懼顯現"
         }
       }
     },
@@ -2761,12 +2761,12 @@
     },
     "Polymorph": {
       "name": "變形術",
-      "description": "<p>You attempt to transform a creature that you can see within range into a Beast. The target must succeed on a Wisdom saving throw or shape-shift into a Beast form for the duration. That form can be any Beast you choose that has a Challenge Rating equal to or less than the target’s (or the target’s level if it doesn’t have a Challenge Rating). The target’s game statistics are replaced by the stat block of the chosen Beast, but the target retains its alignment, personality, creature type, Hit Points, and Hit Point Dice. See appendix B for a sample of Beast stat blocks.</p><p>The target gains a number of Temporary Hit Points equal to the Hit Points of the Beast form. The spell ends early on the target if it has no Temporary Hit Points left.</p><p>The target is limited in the actions it can perform by the anatomy of its new form, and it can’t speak or cast spells.</p><p>The target’s gear melds into the new form. The creature can’t use or otherwise benefit from any of that equipment.</p>",
+      "description": "<p>你嘗試將射程內一名你所能看見的生物變形為野獸。目標必須成功通過一次感知豁免，否則在持續期間內變形為野獸形態。該形態可以是你所選擇的任何野獸，其挑戰等級須等於或低於目標的挑戰等級（若目標沒有挑戰等級，則以目標的等級為準）。目標的遊戲數據被所選野獸的數值面板取代，但目標保留其陣營、個性、生物類型、生命值與生命骰。參見附錄B中的野獸數值面板範例。</p><p>目標獲得等同於野獸形態生命值的臨時生命值。法術結束時若仍有任何臨時生命值，則這些臨時生命值將消失。若目標已無剩餘臨時生命值，則目標身上的法術提前結束。</p><p>目標可進行的動作受限於其新形態的生理結構，且其無法說話或施放法術。</p><p>目標的裝備融入新形態。該生物無法使用其中任何裝備，也無法以其他方式從中受益。</p>",
       "activities": {
         "transform": {
           "profiles": {
             "Creature into Creature": {
-              "name": "Creature into Creature"
+              "name": "變形"
             }
           }
         }
@@ -3478,8 +3478,8 @@
       "description": "<p>你創造出一個漂浮的幽靈力場，呈現出你所選擇的武器形狀，並持續到法術結束。這股力場會出現在射程內你所選擇的空間，你可以立即對該力場5呎內的一個生物發動一次近戰法術攻擊。命中時，目標承受1d8 + 你的施法屬性調整值的力場傷害。</p><p>在你後續回合中作為一個附贈動作，你可以將這股力場移動至多20呎，並對其5呎內的生物再次攻擊。</p><p><strong>【升環法術效應】</strong>法術位每升一個環階，傷害就增加1d8。</p>"
     },
     "Staggering Smite": {
-      "name": "Staggering Smite",
-      "description": "<p>The target takes an extra 4d6 Psychic damage from the attack, and the target must succeed on a Wisdom saving throw or have the &amp;Reference[Stunned] condition until the end of your next turn.</p><p><strong>【升環法術效應】</strong> The extra damage increases by 1d6 for each spell slot level above 4.</p>"
+      "name": "驚震斬",
+      "description": "<p>目標會從該次攻擊中承受額外的4d6心靈傷害，且必須成功通過一次感知豁免，否則陷入&amp;Reference[Stunned]{震懾}狀態，直到你的下一個回合結束。</p><p><strong>【升環法術效應】</strong>法術位每比4環高一環，額外傷害就增加1d6。</p>"
     },
     "Starry Wisp": {
       "name": "點點星芒",
@@ -3518,14 +3518,14 @@
     },
     "Stone Shape": {
       "name": "塑石術",
-      "description": "<p>You touch a stone object of Medium size or smaller or a section of stone no more than 5 feet in any dimension and form it into any shape you like. For example, you could shape a large rock into a weapon, statue, or coffer, or you could make a small passage through a wall that is 5 feet thick. You could also shape a stone door or its frame to seal the door shut. The object you create can have up to two hinges and a latch, but finer mechanical detail isn’t possible.</p>"
+      "description": "<p>你觸碰一個體積為中型或更小的石質物件或某塊岩石在任何方向都不超過 5 呎的一部分，並將其塑造成你想要的任意形狀。例如你可以將一塊大石頭塑造成一件武器、一尊塑像、或一個保險箱，也可以在石牆上開出一條小通道，前提是牆的厚度不能超過 5 呎。你也可以使一扇石門或石質門框變形來將門封死。你創造的物件最多可以有兩條鉸鏈和一道閂，除此之外不能以該法術塑造出更複雜的機械結構。</p>"
     },
     "Stoneskin": {
       "name": "石膚術",
       "description": "<p>直到法術結束前，一個你所觸碰的自願生物具有對鈍擊、穿刺、劈砍傷害的&amp;Reference[damageresistance]{抗力}。</p>",
       "effects": {
         "Stoneskin": {
-          "name": "Stoneskin"
+          "name": "石膚"
         }
       }
     },
@@ -3574,27 +3574,27 @@
       }
     },
     "Summon Aberration": {
-      "name": "Summon Aberration",
-      "description": "<p>You call forth an aberrant spirit. It manifests in an unoccupied space that you can see within range and uses the <strong>@UUID[Compendium.dnd-players-handbook.actors.Actor.phbmobAberrantSp]{Aberrant Spirit}</strong> stat block. When you cast the spell, choose Beholderkin, Mind Flayer, or Slaad. The creature resembles an Aberration of that kind, which determines certain details in its stat block. The creature disappears when it drops to 0 Hit Points or when the spell ends.</p><p>The creature is an ally to you and your allies. In combat, it shares your Initiative count, but it takes its turn immediately after yours. It obeys your verbal commands (no action required by you). If you don’t issue any, it takes the &amp;Reference[Dodge] action and uses its movement to avoid danger.</p><p><strong>【升環法術效應】</strong> Use the spell slot’s level for the spell’s level in the stat block.</p><section class=\"fvtt advice\" style=\"margin:0.5rem;padding:0.5rem\"><article><p>In addition to the noted usage of the spell's level in the spirit's Traits and Actions, the following attributes are also affected.</p><table><caption>Aberrant Spirit</caption><tbody><tr><td><strong>AC</strong></td><td>11 + the spell’s level</td></tr><tr><td><strong>HP</strong></td><td>40 + 10 for each spell level above 4</td></tr><tr><td><strong>Speed</strong></td><td>30 ft.; Fly 30 ft. (hover; Beholderkin only)</td></tr><tr><td><strong>PB</strong></td><td>equals your Proficiency Bonus</td></tr></tbody></table></article></section>"
+      "name": "異怪召喚術",
+      "description": "<p>你喚來一個異怪靈魄。其會在射程內一處你所能看見的未佔據空間中顯現，並使用<strong>@UUID[Compendium.dnd-players-handbook.actors.Actor.phbmobAberrantSp]{異怪靈魄}</strong>的數值面板。當你施放法術時，從類眼魔、奪心魔或史拉蟾中選擇一種。該生物會呈現為該類異怪，其數值面板中的部分細節也受此影響。該生物會在生命值降為0或法術結束時消失。</p><p>該生物是你及你盟友的盟友。戰鬥中，其共用你的先攻值，但會緊接在你的回合結束後進行其回合。其遵從你的口頭指令（你無需花費動作）。若你沒有下達指令，其會採取&amp;Reference[Dodge]{迴避}動作，並利用移動力遠離危險。</p><p><strong>【升環法術效應】</strong>該生物的數值面板使用新的法術環階。</p><section class=\"fvtt advice\" style=\"margin:0.5rem;padding:0.5rem\"><article><p>除了靈魄的特質與動作中已註明使用法術環階之外，下列屬性也會受到影響。</p><table><caption>異怪靈魄</caption><tbody><tr><td><strong>AC</strong></td><td>11 + 法術環階</td></tr><tr><td><strong>HP</strong></td><td>40 + 法術環階每高於4環一環加10</td></tr><tr><td><strong>速度</strong></td><td>30呎；飛行30呎（懸浮；僅限類眼魔）</td></tr><tr><td><strong>PB</strong></td><td>等同於你的熟練加值</td></tr></tbody></table></article></section>"
     },
     "Summon Beast": {
       "name": "野獸召喚術",
-      "description": "<p>你喚來一個野獸靈魄。其會在射程內你所能看見的一處未佔據的空間中顯現，並使用<strong>@UUID[Compendium.dnd-players-handbook.actors.Actor.phbmobBestialSpi]{野獸靈魄}</strong>的數值面板。當你施放法術時，從天空、大地與海洋中選擇一種環境。該生物會顯化為你所選、且原生於該環境的一種動物，其數值面板中的部分細節也受此影響。該生物會在生命值降為0或法術結束時消失。</p><p>該生物是你及你盟友的盟友。戰鬥中，該生物共用你的先攻值，但會在你的回合結束後立即進行其回合。其遵從你的口頭指令（你無需花費動作）。若你沒有下達指令，其會採取迴避動作，並利用移動力遠離危險。</p><p><strong>【升環法術效應】</strong>在數值面板中，以法術位的環階作為法術的環階。</p><section class=\"fvtt advice\" style=\"margin:0.5rem;padding:0.5rem\"><article><p>除了靈魄的特質與動作中已註明使用法術環階之外，下列屬性也會受到影響。</p><table><caption>野獸靈魄</caption><tbody><tr><td><strong>AC</strong></td><td>11 + 法術環階</td></tr><tr><td><strong>HP</strong></td><td>20（僅限天空）或30（僅限大地與海洋）+ 法術環階每高於2環一環加5</td></tr><tr><td><strong>速度</strong></td><td>30呎；攀爬30呎（僅限大地）；飛行60呎（僅限天空）；游泳30呎（僅限海洋）</td></tr><tr><td><strong>PB</strong></td><td>等同於你的熟練加值</td></tr></tbody></table></article></section>"
+      "description": "<p>你喚來一個野獸靈魄。其會在射程內你所能看見的一處未佔據的空間中顯現，並使用<strong>@UUID[Compendium.dnd-players-handbook.actors.Actor.phbmobBestialSpi]{野獸靈魄}</strong>的數值面板。當你施放法術時，從天空、大地與海洋中選擇一種環境。該生物會顯化為你所選、且原生於該環境的一種動物，其數值面板中的部分細節也受此影響。該生物會在生命值降為0或法術結束時消失。</p><p>該生物是你及你盟友的盟友。戰鬥中，該生物共用你的先攻值，但會在你的回合結束後立即進行其回合。其遵從你的口頭指令（你無需花費動作）。若你沒有下達指令，其會採取迴避動作，並利用移動力遠離危險。</p><p><strong>【升環法術效應】</strong>該生物的數值面板使用新的法術環階。</p><section class=\"fvtt advice\" style=\"margin:0.5rem;padding:0.5rem\"><article><p>除了靈魄的特質與動作中已註明使用法術環階之外，下列屬性也會受到影響。</p><table><caption>野獸靈魄</caption><tbody><tr><td><strong>AC</strong></td><td>11 + 法術環階</td></tr><tr><td><strong>HP</strong></td><td>20（僅限天空）或30（僅限大地與海洋）+ 法術環階每高於2環一環加5</td></tr><tr><td><strong>速度</strong></td><td>30呎；攀爬30呎（僅限大地）；飛行60呎（僅限天空）；游泳30呎（僅限海洋）</td></tr><tr><td><strong>PB</strong></td><td>等同於你的熟練加值</td></tr></tbody></table></article></section>"
     },
     "Summon Construct": {
-      "name": "Summon Construct",
-      "description": "<p>You call forth the spirit of a Construct. It manifests in an unoccupied space that you can see within range and uses the <strong>@UUID[Compendium.dnd-players-handbook.actors.Actor.phbmobConstructS]{Construct Spirit}</strong> stat block. When you cast the spell, choose a material: Clay, Metal, or Stone. The creature resembles an animate statue (you determine the appearance) made of the chosen material, which determines certain details in its stat block. The creature disappears when it drops to 0 Hit Points or when the spell ends.</p><p>The creature is an ally to you and your allies. In combat, the creature shares your Initiative count, but it takes its turn immediately after yours. It obeys your verbal commands (no action required by you). If you don’t issue any, it takes the &amp;Reference[Dodge] action and uses its movement to avoid danger.</p><p><strong>【升環法術效應】</strong> Use the spell slot’s level for the spell’s level in the stat block.</p><section class=\"fvtt advice\" style=\"margin:0.5rem;padding:0.5rem\"><article><p>In addition to the noted usage of the spell's level in the spirit's Traits and Actions, the following attributes are also affected.</p><table><caption>Construct Spirit</caption><tbody><tr><td><strong>AC</strong></td><td>13 + the spell’s level</td></tr><tr><td><strong>HP</strong></td><td>40 + 15 for each spell level above 4</td></tr><tr><td><strong>PB</strong></td><td>equals your Proficiency Bonus</td></tr></tbody></table></article></section>",
+      "name": "構裝體召喚術",
+      "description": "<p>你喚來一個構裝體靈魄。其會在射程內你所能看見的一處未佔據空間中顯現，並使用<strong>@UUID[Compendium.dnd-players-handbook.actors.Actor.phbmobConstructS]{構裝體靈魄}</strong>的數值面板。當你施放法術時，選擇一種材料：黏土、金屬或岩石。該生物會呈現為以所選材料製成的活化雕像（外觀由你決定），其數值面板中的部分細節也受此影響。該生物會在生命值降為0或法術結束時消失。</p><p>該生物是你及你盟友的盟友。戰鬥中，該生物共用你的先攻值，但會在你的回合結束後立即進行其回合。其遵從你的口頭指令（你無需花費動作）。若你沒有下達指令，其會採取&amp;Reference[Dodge]{迴避}動作，並利用移動力遠離危險。</p><p><strong>【升環法術效應】</strong>該生物的數值面板使用新的法術環階。</p><section class=\"fvtt advice\" style=\"margin:0.5rem;padding:0.5rem\"><article><p>除了靈魄的特質與動作中已註明使用法術環階之外，下列屬性也會受到影響。</p><table><caption>構裝體靈魄</caption><tbody><tr><td><strong>AC</strong></td><td>13 + 法術環階</td></tr><tr><td><strong>HP</strong></td><td>40 + 法術環階每升一環加15</td></tr><tr><td><strong>PB</strong></td><td>等同於你的熟練加值</td></tr></tbody></table></article></section>",
       "activities": {
         "summon": {
           "profiles": {
             "Clay": {
-              "name": "Clay"
+              "name": "黏土"
             },
             "Stone": {
-              "name": "Stone"
+              "name": "岩石"
             },
             "Metal": {
-              "name": "Metal"
+              "name": "金屬"
             }
           }
         }
@@ -3605,22 +3605,22 @@
       "description": "<p>You call forth a Dragon spirit. It manifests in an unoccupied space that you can see within range and uses the <strong>@UUID[Compendium.dnd-players-handbook.actors.Actor.phbmobDraconicSp]{Draconic Spirit}</strong> stat block. The creature disappears when it drops to 0 Hit Points or when the spell ends.</p><p>The creature is an ally to you and your allies. In combat, the creature shares your Initiative count, but it takes its turn immediately after yours. It obeys your verbal commands (no action required by you). If you don’t issue any, it takes the Dodge action and uses its movement to avoid danger.</p><p><strong>【升環法術效應】 </strong>Use the spell slot’s level for the spell’s level in the stat block.</p><section class=\"fvtt advice\" style=\"margin:0.5rem;padding:0.5rem\"><article><p>In addition to the noted usage of the spell's level in the spirit's Traits and Actions, the following attributes are also affected.</p><table><caption>Draconic Spirit</caption><tbody><tr><td><strong>AC</strong></td><td>14 + the spell’s level</td></tr><tr><td><strong>HP</strong></td><td>50 + 10 for each spell level above 5</td></tr><tr><td><strong>PB</strong></td><td>equals your Proficiency Bonus</td></tr></tbody></table></article></section>"
     },
     "Summon Elemental": {
-      "name": "Summon Elemental",
-      "description": "<p>You call forth an Elemental spirit. It manifests in an unoccupied space that you can see within range and uses the <strong>@UUID[Compendium.dnd-players-handbook.actors.Actor.phbmobElementalS]{Elemental Spirit}</strong> stat block. When you cast the spell, choose an element: Air, Earth, Fire, or Water. The creature resembles a bipedal form wreathed in the chosen element, which determines certain details in its stat block. The creature disappears when it drops to 0 Hit Points or when the spell ends.</p><p>The creature is an ally to you and your allies. In combat, the creature shares your Initiative count, but it takes its turn immediately after yours. It obeys your verbal commands (no action required by you). If you don’t issue any, it takes the &amp;Reference[Dodge] action and uses its movement to avoid danger.</p><p><strong>【升環法術效應】</strong> Use the spell slot’s level for the spell’s level in the stat block.</p><section class=\"fvtt advice\" style=\"margin:0.5rem;padding:0.5rem\"><article><p>In addition to the noted usage of the spell's level in the spirit's Traits and Actions, the following attributes are also affected.</p><table><caption>Elemental Spirit</caption><tbody><tr><td><strong>AC</strong></td><td>11 + the spell’s level</td></tr><tr><td><strong>HP</strong></td><td>50 + 10 for each spell level above 4</td></tr><tr><td><strong>Speed</strong></td><td>40 ft.; Burrow 40 ft. (Earth only); Fly 40 ft. (hover; Air only); Swim 40 ft. (Water only)</td></tr><tr><td><strong>PB</strong></td><td>equals your Proficiency Bonus</td></tr></tbody></table></article></section>",
+      "name": "元素召喚術",
+      "description": "<p>你喚來一個元素靈魄。其會在射程內你所能看見的一處未佔據空間中顯現，並使用<strong>@UUID[Compendium.dnd-players-handbook.actors.Actor.phbmobElementalS]{元素靈魄}</strong>的數值面板。當你施放法術時，選擇一種元素：氣、土、火或水。該生物會顯現為由你所選元素組成的二足模糊人影，其數值面板中的部分細節也受此影響。該生物會在生命值降為0或法術結束時消失。</p><p>該生物是你及你盟友的盟友。戰鬥中，該生物共用你的先攻值，並緊接在你的回合結束後進行其回合。其遵從你的口頭指令（你無需花費動作）。若你沒有下達指令，其會採取&amp;Reference[Dodge]{迴避}動作，並利用移動力遠離危險。</p><p><strong>【升環法術效應】</strong>該生物的數值面板使用新的法術環階。</p><section class=\"fvtt advice\" style=\"margin:0.5rem;padding:0.5rem\"><article><p>除了靈魄的特質與動作中已註明使用法術環階之外，下列屬性也會受到影響。</p><table><caption>元素靈魄</caption><tbody><tr><td><strong>AC</strong></td><td>11 + 法術環階</td></tr><tr><td><strong>HP</strong></td><td>50 + 法術環階每高於4環一環加10</td></tr><tr><td><strong>速度</strong></td><td>40呎；掘地40呎（僅限土）；飛行40呎（懸浮；僅限氣）；游泳40呎（僅限水）</td></tr><tr><td><strong>PB</strong></td><td>等同於你的熟練加值</td></tr></tbody></table></article></section>",
       "activities": {
         "summon": {
           "profiles": {
             "Air": {
-              "name": "Air"
+              "name": "氣"
             },
             "Fire": {
-              "name": "Fire"
+              "name": "火"
             },
             "Water": {
-              "name": "Water"
+              "name": "水"
             },
             "Earth": {
-              "name": "Earth"
+              "name": "土"
             }
           }
         }
@@ -3628,7 +3628,7 @@
     },
     "Summon Fey": {
       "name": "精類召喚術",
-      "description": "<p>你喚來一個精類靈魄。其會在射程內你所能看見的一處未佔據的空間中顯現，並使用<strong>@UUID[Compendium.dnd-players-handbook.actors.Actor.phbmobFeySpirit0]{精類靈魄}</strong>的數值面板。當你施放法術時，從憤怒、歡欣與詭詐中選擇一種情緒。該生物會顯化為你所選的一種精類生物，並帶有所選情緒的特徵，其數值面板中的部分細節也受此影響。該生物會在生命值降為0或法術結束時消失。</p><p>該生物是你及你盟友的盟友。戰鬥中，該生物共用你的先攻值，但會在你的回合結束後立即進行其回合。其遵從你的口頭指令（你無需花費動作）。若你沒有下達指令，其會採取&amp;Reference[dodge]{迴避}動作，並利用移動力遠離危險。</p><p><strong>【升環法術效應】</strong>在數值面板中，以法術位的環階作為法術的環階。</p><section class=\"fvtt advice\" style=\"margin:0.5rem;padding:0.5rem\"><article><p>除了靈魄的特質與動作中已註明使用法術環階之外，下列屬性也會受到影響。</p><table><caption>精類靈魄</caption><tbody><tr><td><strong>AC</strong></td><td>12 + 法術環階</td></tr><tr><td><strong>HP</strong></td><td>30 + 法術環階每高於3環一環加10</td></tr><tr><td><strong>PB</strong></td><td>等同於你的熟練加值</td></tr></tbody></table></article></section>"
+      "description": "<p>你喚來一個精類靈魄。其會在射程內你所能看見的一處未佔據的空間中顯現，並使用<strong>@UUID[Compendium.dnd-players-handbook.actors.Actor.phbmobFeySpirit0]{精類靈魄}</strong>的數值面板。當你施放法術時，從憤怒、歡欣與詭詐中選擇一種情緒。該生物會顯化為你所選的一種精類生物，並帶有所選情緒的特徵，其數值面板中的部分細節也受此影響。該生物會在生命值降為0或法術結束時消失。</p><p>該生物是你及你盟友的盟友。戰鬥中，該生物共用你的先攻值，但會在你的回合結束後立即進行其回合。其遵從你的口頭指令（你無需花費動作）。若你沒有下達指令，其會採取&amp;Reference[dodge]{迴避}動作，並利用移動力遠離危險。</p><p><strong>【升環法術效應】</strong>該生物的數值面板使用新的法術環階。</p><section class=\"fvtt advice\" style=\"margin:0.5rem;padding:0.5rem\"><article><p>除了靈魄的特質與動作中已註明使用法術環階之外，下列屬性也會受到影響。</p><table><caption>精類靈魄</caption><tbody><tr><td><strong>AC</strong></td><td>12 + 法術環階</td></tr><tr><td><strong>HP</strong></td><td>30 + 法術環階每高於3環一環加10</td></tr><tr><td><strong>PB</strong></td><td>等同於你的熟練加值</td></tr></tbody></table></article></section>"
     },
     "Summon Fiend": {
       "name": "Summon Fiend",
@@ -3651,7 +3651,7 @@
     },
     "Summon Undead": {
       "name": "不死生物召喚術",
-      "description": "<p>你喚來一個不死靈魄。其會在射程內你所能看見的一處未佔據的空間中顯現，並使用<strong>@UUID[Compendium.dnd-players-handbook.actors.Actor.phbmobUndeadSpir]{不死靈魄}</strong>的數值面板。當你施放法術時，選擇該生物的形態：幽體、腐屍或骸骨。該靈魄會顯化為具有所選形態的不死生物，其數值面板中的部分細節也受此影響。該生物會在生命值降為0或法術結束時消失。</p><p>該生物是你及你盟友的盟友。戰鬥中，該生物共用你的先攻值，但會在你的回合結束後立即進行其回合。其遵從你的口頭指令（你無需花費動作）。若你沒有下達指令，其會採取迴避動作，並利用移動力遠離危險。</p><p><strong>【升環法術效應】</strong>在數值面板中，以法術位的環階作為法術的環階。</p><section class=\"fvtt advice\" style=\"margin:0.5rem;padding:0.5rem\"><article><p>除了靈魄的特質與動作中已註明使用法術環階之外，下列屬性也會受到影響。</p><table><caption>不死靈魄</caption><tbody><tr><td><strong>AC</strong></td><td>11 + 法術環階</td></tr><tr><td><strong>HP</strong></td><td>30（僅限幽體與腐屍）或20（僅限骸骨）+ 法術環階每高於3環一環加10</td></tr><tr><td><strong>速度</strong></td><td>30呎；飛行40呎（懸浮；僅限幽體）</td></tr><tr><td><strong>PB</strong></td><td>等同於你的熟練加值</td></tr></tbody></table></article></section>"
+      "description": "<p>你喚來一個不死靈魄。其會在射程內你所能看見的一處未佔據的空間中顯現，並使用<strong>@UUID[Compendium.dnd-players-handbook.actors.Actor.phbmobUndeadSpir]{不死靈魄}</strong>的數值面板。當你施放法術時，選擇該生物的形態：幽體、腐屍或骸骨。該靈魄會顯化為具有所選形態的不死生物，其數值面板中的部分細節也受此影響。該生物會在生命值降為0或法術結束時消失。</p><p>該生物是你及你盟友的盟友。戰鬥中，該生物共用你的先攻值，但會在你的回合結束後立即進行其回合。其遵從你的口頭指令（你無需花費動作）。若你沒有下達指令，其會採取迴避動作，並利用移動力遠離危險。</p><p><strong>【升環法術效應】</strong>該生物的數值面板使用新的法術環階。</p><section class=\"fvtt advice\" style=\"margin:0.5rem;padding:0.5rem\"><article><p>除了靈魄的特質與動作中已註明使用法術環階之外，下列屬性也會受到影響。</p><table><caption>不死靈魄</caption><tbody><tr><td><strong>AC</strong></td><td>11 + 法術環階</td></tr><tr><td><strong>HP</strong></td><td>30（僅限幽體與腐屍）或20（僅限骸骨）+ 法術環階每高於3環一環加10</td></tr><tr><td><strong>速度</strong></td><td>30呎；飛行40呎（懸浮；僅限幽體）</td></tr><tr><td><strong>PB</strong></td><td>等同於你的熟練加值</td></tr></tbody></table></article></section>"
     },
     "Sunbeam": {
       "name": "烈日光束",
@@ -3969,34 +3969,34 @@
       }
     },
     "Vitriolic Sphere": {
-      "name": "Vitriolic Sphere",
-      "description": "<p>You point at a location within range, and a glowing, 1-foot-diameter ball of acid streaks there and explodes in a 20-foot-radius Sphere. Each creature in that area makes a Dexterity saving throw. On a failed save, a creature takes 10d4 Acid damage and another [[/damage 5d4 type=acid]] damage at the end of its next turn. On a successful save, a creature takes half the initial damage only.</p><p><strong>【升環法術效應】 </strong>The initial damage increases by 2d4 for each spell slot level above 4.</p>",
+      "name": "濃酸球",
+      "description": "<p>你指向射程內一處地點，一顆直徑1呎的發光強酸球飛射至該處並爆炸，形成半徑20呎的球形區域。該區域內的每個生物進行一次敏捷豁免。豁免失敗時，生物承受10d4強酸傷害，並在其下個回合結束時再承受[[/damage 5d4 type=acid]]傷害；豁免成功時，生物只承受初始傷害的一半傷害。</p><p><strong>【升環法術效應】</strong>法術位每升一環，初始傷害就增加2d4。</p>",
       "activities": {
         "End of Turn Damage": {
-          "name": "End of Turn Damage"
+          "name": "回合結束的傷害"
         }
       },
       "effects": {
         "Lingering Acid": {
-          "description": "<p>The creature takes [[/damage <span style=\"font-family:Signika, sans-serif\">5d4 type=acid]] damage at the end of its next turn</span></p>",
-          "name": "Lingering Acid"
+          "description": "<p>該生物於其下個回合結束時承受[[/damage <span style=\"font-family:Signika, sans-serif\">5d4 type=acid]]傷害</span></p>",
+          "name": "殘留強酸"
         }
       }
     },
     "Wall of Fire": {
       "name": "火牆術",
-      "description": "<p>You create a wall of fire on a solid surface within range. You can make the wall up to 60 feet long, 20 feet high, and 1 foot thick, or a ringed wall up to 20 feet in diameter, 20 feet high, and 1 foot thick. The wall is opaque and lasts for the duration.</p><p>When the wall appears, each creature in its area makes a Dexterity saving throw, taking 5d8 Fire damage on a failed save or half as much damage on a successful one.</p><p>One side of the wall, selected by you when you cast this spell, deals 5d8 Fire damage to each creature that ends its turn within 10 feet of that side or inside the wall. A creature takes the same damage when it enters the wall for the first time on a turn or ends its turn there. The other side of the wall deals no damage.</p><p><strong>【升環法術效應】</strong> The damage increases by 1d8 for each spell slot level above 4.</p>",
+      "description": "<p>你在射程內一處堅固表面上創造一面火牆。你可以創造一面至多長60呎、高20呎、1呎厚的火牆，或至多直徑20呎、高20呎、1呎厚的環形牆。火牆不透明，並持續存在至法術結束。</p><p>當火牆出現時，其區域內的每個生物進行一次敏捷豁免，豁免失敗時承受5d8火焰傷害，成功時傷害減半。</p><p>當你施放此法術時選擇，火牆的其中一側會對每個在該側10呎內或在火牆內結束其回合的生物造成5d8火焰傷害。生物在一個回合內首次進入火牆，或在火牆內結束其回合時，也會承受相同傷害。火牆的另一側則不造成傷害。</p><p><strong>【升環法術效應】</strong>法術位每升一環，傷害就增加1d8。</p>",
       "activities": {
         "Create Wall": {
-          "name": "Create Wall"
+          "name": "創造火牆"
         },
         "Create Ring": {
-          "name": "Create Ring"
+          "name": "創造環形火牆"
         }
       }
     },
     "Wall of Force": {
-      "name": "力牆術",
+      "name": "力場牆",
       "description": "<p>An Invisible wall of force springs into existence at a point you choose within range. The wall appears in any orientation you choose, as a horizontal or vertical barrier or at an angle. It can be free floating or resting on a solid surface. You can form it into a hemispherical dome or a globe with a radius of up to 10 feet, or you can shape a flat surface made up of ten 10-foot-by-10-foot panels. Each panel must be contiguous with another panel. In any form, the wall is 1/4 inch thick and lasts for the duration. If the wall cuts through a creature’s space when it appears, the creature is pushed to one side of the wall (you choose which side).</p><p>Nothing can physically pass through the wall. It is immune to all damage and can’t be dispelled by <em>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplDispelMagi]{Dispel Magic}.</em> A <em>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplDisintegra]{Disintegrate}</em> spell destroys the wall instantly, however. The wall also extends into the Ethereal Plane and blocks ethereal travel through the wall.</p>",
       "activities": {
         "Panels": {
