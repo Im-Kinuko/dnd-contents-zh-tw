@@ -345,31 +345,31 @@
     "Moon's Inspiration": {
       "activities": {
         "Inspired Eclipse": {
-          "target": "self and Bardic Inspiration target",
-          "condition": "When you take a Bonus Action to give a creature a Bardic Inspiration die",
-          "name": "Inspired Eclipse"
+          "target": "你自己與吟遊激勵的目標",
+          "condition": "當你採取附贈動作賦予一名生物吟遊激勵骰時",
+          "name": "月隱啟迪"
         },
         "Lunar Vitality": {
-          "condition": "when you restore hit points to a target with a spell",
-          "name": "Lunar Vitality"
+          "condition": "當你使用法術恢復目標的生命值時",
+          "name": "月輝活力"
         }
       },
-      "description": "<p>The primal and ever-changing power of the moon flows through you, granting you the following benefits.</p><p><em><strong>Inspired Eclipse.</strong></em> When you take a Bonus Action to give a creature a Bardic Inspiration die, you can have the Invisible condition and teleport up to 30 feet to an unoccupied space you can see as part of that Bonus Action. This invisibility lasts until the start of your next turn and ends early immediately after you make an attack roll, deal damage, or cast a spell.</p><p><em><strong>Lunar Vitality.</strong></em> Once per turn when you restore Hit Points to a creature with a spell, you can expend a Bardic Inspiration die and increase the amount of Hit Points restored by a number equal to a roll of the Bardic Inspiration die. The creature’s Speed also increases by 10 feet until the end of its next turn.</p>",
+      "description": "<p>月亮那原初而瞬息萬變的力量在你體內流動，賦予你下列好處。</p><p><em><strong>【月隱啟迪】</strong></em>當你採取附贈動作賦予一名生物吟遊激勵骰時，作為該附贈動作的一部分，你可以進入隱形狀態，並傳送到至多30呎一處你所能看見的未佔據空間。此隱形狀態持續到你的下個回合開始，並在你進行攻擊檢定、造成傷害或施放法術之後立即提前結束。</p><p><em><strong>【月輝活力】</strong></em>每回合一次，當你使用法術恢復一名生物的生命值時，你可以消耗一枚吟遊激勵骰，使恢復的生命值增加等同於該吟遊激勵骰擲出的數值。直到其下個回合結束前，該生物的速度也會增加10呎。</p>",
       "effects": {
         "Lunar Vitality": {
-          "description": "<p>The creature’s Speed also increases by 10 feet until the end of its next turn.</p>",
-          "name": "Lunar Vitality"
+          "description": "<p>直到其下個回合結束前，該生物的速度也會增加10呎。</p>",
+          "name": "月輝活力"
         },
         "Invisible": {
-          "description": "<p>This &amp;Reference[invisible apply=false]{invisibility} lasts until the start of your next turn and ends early immediately after you make an attack roll, deal damage, or cast a spell.</p>",
-          "name": "Invisible"
+          "description": "<p>此&amp;Reference[invisible apply=false]{隱形}狀態持續到你的下個回合開始，並在你進行攻擊檢定、造成傷害或施放法術之後立即提前結束。</p>",
+          "name": "隱形"
         }
       },
-      "name": "Moon's Inspiration"
+      "name": "明月激勵"
     },
     "College of the Moon": {
-      "description": "<blockquote><p>Inspire Allies with Primal Tales</p></blockquote><p>The College of the Moon traces its origins to the ancient druidic circles of the Moonshae Isles, who entrusted the first Bards of this tradition with chronicling the stories of the islands and their people. Bards of this college draw from the isles’ fey magic and the primal power of the moonwells to bolster their allies, protect the natural world, and inspire their bardic works.</p>",
-      "name": "College of the Moon",
+      "description": "<blockquote><p>以原初故事激勵盟友</p></blockquote><p>皓月學院的起源可追溯至月影群島的古代德魯伊結社，他們託付此傳承的首批吟遊詩人記錄群島及其人民的故事。此學院的吟遊詩人汲取群島的妖精魔法與月井的原初偉力，以激勵盟友、保護自然世界，並為其吟遊創作帶來靈感。</p>",
+      "name": "皓月學院",
       "advancement": {
         "Subclass Features": {
           "title": "子職業特性"
@@ -441,31 +441,31 @@
     "Eventide's Splendor": {
       "activities": {
         "Lunar Vitality": {
-          "condition": "when you restore hit points to a target with a spell",
-          "name": "Lunar Vitality"
+          "condition": "當你使用法術恢復目標的生命值時",
+          "name": "月輝活力"
         },
         "Shadow of the New Moon": {
-          "condition": "When you take a Bonus Action to give a creature a Bardic Inspiration die",
-          "target": "self and Bardic Inspiration target",
-          "name": "Shadow of the New Moon"
+          "condition": "當你採取附贈動作賦予一名生物吟遊激勵骰時",
+          "target": "你自己與吟遊激勵的目標",
+          "name": "新月之影"
         },
         "Vibrance of the Full Moon": {
-          "condition": "when you restore hit points to a target with a spell",
-          "name": "Vibrance of the Full Moon"
+          "condition": "當你使用法術恢復目標的生命值時",
+          "name": "滿月之輝"
         }
       },
-      "description": "<p>You become suffused with the might of the moon, improving your @UUID[Compendium.dnd-heroes-faerun.options.Item.hofComMoonsInspi]{Moon's Inspiration} in the following ways.</p><p><em><strong>Shadow of the New Moon.</strong></em> When you use Inspired Eclipse, the creature who received the Bardic Inspiration die can also have the Invisible condition and immediately take a Reaction to teleport up to 30 feet to an unoccupied space it can see. The creature remains Invisible until the start of its next turn.</p><p><em><strong>Vibrance of the Full Moon.</strong></em> When you use Lunar Vitality, you can roll 1d6 and use the number rolled in place of expending a Bardic Inspiration die.</p><section class=\"secret\" id=\"secret-JfT8CJzewCSuU5Gu\"><p><strong>Foundry Note</strong></p><p>When this feature is acquired, it can be used in place of <strong>Moon's Inspiration</strong>. The <strong>Lunar Vitality</strong> activity will consume and roll an Inspiration die and the <strong>Vibrance of the Full Moon</strong> activity will instead roll 1d6.</p></section>",
+      "description": "<p>月亮的力量充盈你全身，以下列方式強化你的@UUID[Compendium.dnd-heroes-faerun.options.Item.hofComMoonsInspi]{明月激勵}。</p><p><em><strong>【新月之影】</strong></em>當你使用月隱啟迪時，獲得吟遊激勵骰的生物也可以陷入隱形狀態，並立即採取反應，傳送到最多30呎外一處其所能看見的未佔據空間。該生物保持隱形狀態，直到其下個回合開始。</p><p><em><strong>【滿月之輝】</strong></em>當你使用月輝活力時，你可以擲1d6，並以擲出的數值取代將消耗的一枚吟遊激勵骰。</p><section class=\"secret\" id=\"secret-JfT8CJzewCSuU5Gu\"><p><strong>Foundry 註記</strong></p><p>獲得此特性後，可改用其取代<strong>明月激勵</strong>。<strong>月輝活力</strong>行動會消耗並擲出一枚激勵骰，而<strong>滿月之輝</strong>行動則改為擲1d6。</p></section>",
       "effects": {
         "Lunar Vitality": {
-          "description": "<p>The creature’s Speed also increases by 10 feet until the end of its next turn.</p>",
-          "name": "Lunar Vitality"
+          "description": "<p>該生物的速度也會增加10呎，直到其下個回合結束前。</p>",
+          "name": "月輝活力"
         },
         "Invisible": {
-          "description": "<p>This &amp;Reference[invisible apply=false]{invisibility} lasts until the start of your next turn and ends early immediately after you make an attack roll, deal damage, or cast a spell.</p>",
-          "name": "Invisible"
+          "description": "<p>此&amp;Reference[invisible apply=false]{隱形}狀態持續到你的下個回合開始前，並在你進行攻擊檢定、造成傷害或施放法術之後立即提前結束。</p>",
+          "name": "隱形"
         }
       },
-      "name": "Eventide's Splendor"
+      "name": "暮色輝光"
     },
     "Genie's Splendor": {
       "advancement": {
@@ -508,14 +508,14 @@
       "name": "Order of the Gauntlet Tournament Field"
     },
     "Honed Spellfire": {
-      "description": "<p>Your Spellfire Burst improves. You add your Sorcerer level to the Temporary Hit Points gained from Bolstering Flames, and the damage of your Radiant Fire increases to 1d8.</p><section id=\"secret-yJzX9hXHGjmnt7vB\" class=\"secret\"><p><strong>Foundry Note</strong></p><p>With the addition of this feature at 14th level, you will no longer need to use Spellfire Burst.</p></section>",
-      "name": "Honed Spellfire",
+      "description": "<p>你的咒火迸發得到精進。你將術士等級加入熾焰鼓舞所獲得的臨時生命值，且輝耀之火的傷害提升為1d8。</p><section id=\"secret-yJzX9hXHGjmnt7vB\" class=\"secret\"><p><strong>Foundry 註記</strong></p><p>隨著此特性在14級加入，你將不再需要使用咒火迸發。</p></section>",
+      "name": "砥礪咒火",
       "activities": {
         "Improved Bolstering Flames": {
-          "name": "Improved Bolstering Flames"
+          "name": "強化熾焰鼓舞"
         },
         "Improved Radiant Fire": {
-          "name": "Improved Radiant Fire"
+          "name": "強化輝耀之火"
         }
       }
     },
@@ -676,15 +676,15 @@
       "name": "伊爾明斯特法術閃避"
     },
     "Shared Resilience": {
-      "description": "<p>When an ally you can see within 60 feet of yourself fails a saving throw, you can take a Reaction to expend a use of your Indomitable feature. The ally can immediately reroll the saving throw with a bonus equal to your Fighter level (+[[lookup @classes.fighter.levels]]{15}); the ally must use the new roll.</p>",
+      "description": "<p>當一名位於你60呎內你所能看見的盟友豁免檢定失敗時，你可以採取反應，消耗一次你的不屈特性。該盟友可以立即重擲該豁免檢定，並獲得等同於你戰士等級的加值（+[[lookup @classes.fighter.levels]]{15}）；該盟友必須使用新的擲骰結果。</p>",
       "activities": {
         "utility": {
-          "condition": "When a target within range fails a saving throw",
-          "target": "ally you can see",
-          "roll": "Reroll Bonus"
+          "condition": "當範圍內的目標豁免檢定失敗時",
+          "target": "你所能看見的盟友",
+          "roll": "重骰加值"
         }
       },
-      "name": "Shared Resilience"
+      "name": "同築堅城"
     },
     "Oath of the Noble Genies": {
       "advancement": {
@@ -720,12 +720,12 @@
     "Rallying Surge": {
       "activities": {
         "Rallying Surge": {
-          "name": "Rallying Surge",
-          "condition": "When you use your Action Surge"
+          "name": "集結如潮",
+          "condition": "當你使用你的動作如潮時"
         }
       },
-      "name": "Rallying Surge",
-      "description": "<p>When you use your Action Surge, you can choose allies within a 30-foot Emanation originating from yourself, up to a number of allies equal to your Charisma modifier (minimum of one). Each of those allies can immediately take a Reaction to use one of the following options.</p><p><em><strong>Attack.</strong></em> The ally makes one attack with a weapon or an Unarmed Strike.</p><p><em><strong>Move.</strong></em> The ally moves up to half its Speed without provoking Opportunity Attacks.</p>"
+      "name": "集結如潮",
+      "description": "<p>當你使用你的動作如潮時，你可以選擇位於以你自己為中心30呎發散區域內的盟友，數量至多等同於你的魅力調整值（最少為1）。每個所選擇的盟友都可以立即採取反應，使用下列其中一個選項。</p><p><em><strong>【攻擊】</strong></em>該盟友以武器或徒手打擊進行一次攻擊。</p><p><em><strong>【移動】</strong></em>該盟友移動至多等同於其速度一半的距離，且不會引發藉機攻擊。</p>"
     },
     "Spellfire Flare": {
       "description": "<p>你釋放出一道耀眼的火焰衝擊。對射程內的一個目標進行一次遠程法術攻擊；目標在此攻擊檢定中不會獲得來自半身掩護或四分之三掩護的好處。命中時，目標承受2d10光耀傷害。</p><p><em><strong>【升環法術效應】</strong></em>法術位每升一個環階，你就額外創造一道衝擊。你可以讓這些衝擊瞄準同一個目標或不同目標，每道衝擊都要分別進行攻擊檢定。</p><p>[[@item.level]]{衝擊數量}</p>",
@@ -739,17 +739,17 @@
     "Absorb Spells": {
       "activities": {
         "Recover 1d4 Sorcery Points": {
-          "name": "Recover 1d4 Sorcery Points"
+          "name": "重獲1d4術法點"
         }
       },
-      "description": "<p>You always have the <em>Counterspell</em> spell prepared.</p><p>Additionally, whenever a target fails the saving throw against a <em>Counterspell</em> you cast, you regain 1d4 Sorcery Points.</p>",
+      "description": "<p>你始終準備著<em>反制法術</em>法術。</p><p>此外，每當目標對抗你所施放的<em>反制法術</em>豁免失敗時，你重獲1d4術法點。</p>",
       "advancement": {
         "Subclass Feature Spell": {
-          "hint": "You always have the Counterspell spell prepared.",
-          "title": "Subclass Feature Spell"
+          "hint": "你始終準備反制法術法術。",
+          "title": "子職業特性法術"
         }
       },
-      "name": "Absorb Spells"
+      "name": "汲納法術"
     },
     "Emerald Enclave Grove": {
       "description": "<p>Level 9 Bastion Facility</p><p><strong>Prerequisite:</strong> Membership in the Emerald Enclave</p><p><strong>Space:</strong> Vast</p><p><strong>Hirelings:</strong> 2</p><p><strong>Order:</strong> Recruit</p><p>Veteran agents of the Emerald Enclave create safe havens with trees, grass, and flowing water, where magical creatures that embody the power of nature live in peace and safety. The Emerald Enclave Grove can house one Huge creature or two Large creatures; four Small or Medium creatures or eight Tiny creatures can occupy the same space as one Large creature there.</p><p><em><strong>Recruit: Creature of Nature.</strong></em> When you issue the Recruit order to this facility, you invite a creature from the Emerald Enclave Grove Creatures table to your Emerald Enclave Grove. Roll any [[/r 1d2]]{die}. If the number rolled is odd, the creature doesn’t accept your invitation and you gain no benefit from having issued the order. If the number rolled is even, a creature accepts your invitation and moves into your Emerald Enclave Grove after 7 days. Your hirelings care for the creature and perform upkeep in the facility.</p><p>Creatures in your Emerald Enclave Grove count as Bastion Defenders. Deduct any you lose from your Bastion Defenders roster. You can choose not to count one or more of these creatures as Bastion Defenders, in which case they can’t be called on to defend the Bastion. Instead, they act in accordance with their nature and use their stat blocks in the <em>Monster Manual</em>.</p><table><caption>Emerald Enclave Grove Creatures</caption><thead><tr><th scope=\"col\"><p>Creature</p></th><th scope=\"col\"><p>Size</p></th></tr></thead><tbody><tr><td><p>@UUID[Compendium.dnd-monster-manual.actors.Actor.mmAwakenedShrub0]{Awakened Shrub}</p></td><td><p>Small</p></td></tr><tr><td><p>@UUID[Compendium.dnd-monster-manual.actors.Actor.mmAwakenedTree00]{Awakened Tree}</p></td><td><p>Huge</p></td></tr><tr><td><p>@UUID[Compendium.dnd-monster-manual.actors.Actor.mmBlinkDog000000]{Blink Dog}</p></td><td><p>Medium</p></td></tr><tr><td><p>@UUID[Compendium.dnd-monster-manual.actors.Actor.mmCentaurTrooper]{Centaur Trooper}</p></td><td><p>Large</p></td></tr><tr><td><p>@UUID[Compendium.dnd-monster-manual.actors.Actor.mmDryad000000000]{Dryad}</p></td><td><p>Medium</p></td></tr><tr><td><p>@UUID[Compendium.dnd-monster-manual.actors.Actor.mmMyconidAdult00]{Myconid Adult}</p></td><td><p>Medium</p></td></tr><tr><td><p>@UUID[Compendium.dnd-monster-manual.actors.Actor.mmMyconidSprout0]{Myconid Sprout}</p></td><td><p>Small</p></td></tr><tr><td><p>@UUID[Compendium.dnd-monster-manual.actors.Actor.mmPixie000000000]{Pixie}</p></td><td><p>Tiny</p></td></tr><tr><td><p>@UUID[Compendium.dnd-monster-manual.actors.Actor.mmSatyr000000000]{Satyr}</p></td><td><p>Medium</p></td></tr><tr><td><p>@UUID[Compendium.dnd-monster-manual.actors.Actor.mmSprite00000000]{Sprite}</p></td><td><p>Tiny</p></td></tr><tr><td><p>@UUID[Compendium.dnd-monster-manual.actors.Actor.mmTreant00000000]{Treant}</p></td><td><p>Large</p></td></tr><tr><td><p>@UUID[Compendium.dnd-monster-manual.actors.Actor.mmUnicorn0000000]{Unicorn}</p></td><td><p>Large</p></td></tr></tbody></table>",
@@ -944,37 +944,37 @@
     "Crown of Spellfire": {
       "activities": {
         "Burning Life Force (d6)": {
-          "name": "Burning Life Force (d6)",
-          "condition": "You are hit by an attack roll",
-          "roll": "Damage Reduction"
+          "name": "燃盡生命力（d6）",
+          "condition": "你被一次攻擊檢定命中",
+          "roll": "傷害減免"
         },
         "Spell Avoidance": {
-          "name": "Spell Avoidance",
-          "condition": "When you’re subjected to a spell or magical effect that allows you to make a saving throw"
+          "name": "法術閃避",
+          "condition": "當你受到允許你進行豁免檢定的法術或魔法效應影響時"
         },
         "Activate Spellfire": {
-          "name": "Activate Spellfire",
-          "condition": "When you use Innate Sorcery"
+          "name": "啟用咒火",
+          "condition": "當你使用天生術法時"
         },
         "Recover Use": {
-          "name": "Recover Use"
+          "name": "重獲使用次數"
         }
       },
       "effects": {
         "Fly 60 ft.": {
-          "description": "<p>The spell save DC of your Sorcerer spells increases by 1. (Automated)</p><p>You have Advantage on the attack rolls of Sorcerer spells you cast. (Not automated)</p>",
-          "name": "Fly 60 ft."
+          "description": "<p>你的術士法術的法術豁免DC增加1。（已自動化）</p><p>你施放的術士法術的攻擊檢定具有優勢。（未自動化）</p>",
+          "name": "飛行60呎"
         },
         "Crown of Spellfire": {
           "changes": {
-            "activities[enchant].name": "Disable Spellfire",
-            "name": "{} (Active)"
+            "activities[enchant].name": "關閉咒火",
+            "name": "{}（啟用中）"
           },
-          "name": "Crown of Spellfire"
+          "name": "咒火冠冕"
         }
       },
-      "name": "Crown of Spellfire",
-      "description": "<p>When you use Innate Sorcery, you can alter it and infuse yourself with the essence of spellfire, gaining the following benefits while this use of Innate Sorcery is active. Once you use this feature to alter Innate Sorcery, you can’t use it again until you finish a Long Rest unless you spend 5 Sorcery Points (no action required) to restore your use of it.</p><p><em><strong>Burning Life Force.</strong></em> Once per turn when you are hit by an attack roll, you can expend a number of Hit Point Dice, up to a maximum equal to your Charisma modifier (minimum of one). Roll the expended dice, and reduce the amount of damage from that attack equal to the total rolled.</p><p><em><strong>Flight.</strong></em> You gain a Fly Speed of 60 feet and can hover.</p><p><em><strong>Spell Avoidance.</strong></em> When you’re subjected to a spell or magical effect that allows you to make a saving throw to take only half damage, you instead take no damage if you succeed on the save and only half damage if you fail. You can’t use this benefit if you have the Incapacitated condition.</p><section class=\"secret\" id=\"secret-2dbSB5SQFmvO1ZHQ\"><p><strong>Foundry Note</strong></p><p>The <strong>Activate Spellfire</strong> activity has several effects when used:</p><ol><li><p>It <strong>consumes</strong> one use of the feature.</p></li><li><p>It changes the name of the activity from \"Activate Spellfire\" to \"<strong>Disable Spellfire.</strong>\"</p></li><li><p>It reveals the \"<strong>Burning Lifeforce (d6)</strong>\" activity in feature, allowing you to roll for damage reduction based on the number of hit dice (HD) you choose to consume, up to your Charisma modifier.</p></li><li><p>It reveals the \"<strong>Spell Avoidance</strong>\" activity in the feature, which you can use while Crown of Spellfire is active. This sub-feature as no automation and requires manual adjudication to resolve.</p></li></ol><p>Clicking on \"<strong>Disable Spellfire\"</strong> will hide the \"Burning Lifeforce (d6)\" and \"Spell Avoidance\" activities, and revert the name back to \"Activate Spellfire.\"</p><p>Please note that the \"Burning Lifeforce\" activity will deduct <strong>Sorcerer denomination hit dice (d6)</strong>. It will not consume hit dice of different denominations if you multiclass into a subclass that does not use d6.</p></section>"
+      "name": "咒火冠冕",
+      "description": "<p>當你使用天生術法時，你可以對其進行變化，讓自己灌注咒火的精華，並在此次天生術法啟用期間獲得下列好處。一旦你使用此特性改變天生術法，直到完成長休前你都無法再次使用此特性，除非你消耗5術法點（無需動作）來恢復此特性的使用次數。</p><p><em><strong>【燃盡生命力】</strong></em>每回合一次，當你被一次攻擊檢定命中時，你可以消耗生命骰，數量至多等同於你的魅力調整值（最少為1）。擲出所消耗的骰子，並使該次攻擊的傷害減少等同於擲出總和的數值。</p><p><em><strong>【飛行】</strong></em>你獲得60呎飛行速度，且可以懸浮。</p><p><em><strong>【法術閃避】</strong></em>當你受到一個允許你進行豁免檢定以僅承受一半傷害的法術或魔法效應影響時，若你豁免成功則改為不承受傷害，若豁免失敗則僅承受一半傷害。若你陷入失能狀態，你無法使用此好處。</p><section class=\"secret\" id=\"secret-2dbSB5SQFmvO1ZHQ\"><p><strong>Foundry 註記</strong></p><p>使用<strong>啟用咒火</strong>行動時有數個效果：</p><ol><li><p>該行動會<strong>消耗</strong>此特性的一次使用次數。</p></li><li><p>該行動會將行動名稱從「啟用咒火」改為「<strong>關閉咒火</strong>」。</p></li><li><p>該行動會顯示「<strong>燃盡生命力（d6）</strong>」行動，讓你能依據你選擇消耗的生命骰（HD）數量擲骰以減少傷害，數量至多為你的魅力調整值。</p></li><li><p>該行動會顯示「<strong>法術閃避</strong>」行動，你可以在咒火冠冕啟用期間使用。此子特性沒有自動化，需要手動裁定來結算。</p></li></ol><p>點擊「<strong>關閉咒火」</strong>會隱藏「燃盡生命力（d6）」與「法術閃避」行動，並將名稱還原為「啟用咒火」。</p><p>請注意，「燃盡生命力」行動會扣除<strong>術士骰型的生命骰（d6）</strong>。若你兼職不使用d6的子職業，其不會消耗其他骰型的生命骰。</p></section>"
     },
     "Death Armor": {
       "activities": {
@@ -1134,8 +1134,8 @@
       "description": "<p>你獲得下列好處。</p><p><em><strong>Ability Score Increase.</strong></em> Increase one ability score of your choice by 1, to a maximum of 30.</p><p><em><strong>Antitoxic.</strong></em> You have Immunity to Poison damage and the Poisoned condition.</p><p><em><strong>Perfect Poisoner.</strong></em> Once per turn, when you roll dice to determine Poison damage a creature takes from your attack, spell, or feature, you can instead use the highest number possible for each die.</p>"
     },
     "Spellfire Sorcery": {
-      "description": "<blockquote><p>Wield Raw Magic</p></blockquote><p>Your innate power stems from the source of magic itself: the Weave. This connection manifests as a rare ability known as spellfire, and you surge with radiant bursts of this raw magic. Your talent with spellfire allows you to heal allies, sear enemies, and absorb powerful spells.</p><p>Wielders of spellfire tend to have a penchant for wandering. Many travel between cosmopolitan settlements, such as those along the Sword Coast, and wield their magic in service of the common good. Others realize their own strange powers by roaming equally strange lands, from the magic-blasted wastes of the desert of Anauroch to the god-touched wilds of the Old Empires.<br />Wherever they go in the Realms, spellfire Sorcerers are courted by factions with interests in the arcane arts, such as the Harpers, Cult of the Dragon, and Red Wizards.</p>",
-      "name": "Spellfire Sorcery",
+      "description": "<blockquote><p>掌控原始魔法</p></blockquote><p>你的天生力量源自魔法本身的源頭：魔網。這種連結顯現為一種稱為咒火的稀有能力，你周身湧動著這種原始魔法的光耀迸發。你的咒火天賦讓你可以治療盟友、灼燒敵人，並吸收強大的法術。</p><p>掌握咒火者往往熱衷於四處漫遊。許多人遊走於劍灣等繁華的聚居地之間，運用他們的魔法為公共利益服務。另一些人則是在同樣奇異的土地上漫遊時覺醒了自身的奇異力量，從被魔法摧殘的埃諾奧克沙漠荒原，到受諸神觸及的古老帝國荒野。<br />無論身在國度何處，咒火術士都會受到對奧術技藝感興趣的派系爭相延攬，例如豎琴手、龍巫教與紅袍法師。</p>",
+      "name": "咒火術法",
       "advancement": {
         "Subclass Features": {
           "title": "子職業特性"
@@ -1145,14 +1145,14 @@
     "Spellfire Burst": {
       "activities": {
         "Radiant Fire": {
-          "name": "Radiant Fire"
+          "name": "輝耀之火"
         },
         "Bolstering Flames": {
-          "name": "Bolstering Flames"
+          "name": "熾焰鼓舞"
         }
       },
-      "description": "<p>When you spend at least 1 Sorcery Point as part of a Magic action or a Bonus Action on your turn, you can unleash one of the following magical effects of your choice. You can do so only once per turn.</p><p><em><strong>Bolstering Flames.</strong></em> You or one creature you can see within 30 feet of yourself gains Temporary Hit Points equal to 1d4 plus your Charisma modifier.</p><p><em><strong>Radiant Fire.</strong></em> One creature you can see within 30 feet of yourself takes 1d4 Fire or Radiant damage (your choice).</p>",
-      "name": "Spellfire Burst"
+      "description": "<p>當你在你的回合中，作為魔法動作或附贈動作的一部分消耗至少1術法點時，你可以釋放下列其中一種你所選擇的魔法效應。你每回合只能這麼做一次。</p><p><em><strong>【熾焰鼓舞】</strong></em>你或一名位於你30呎內你所能看見的生物獲得等同於1d4 + 你魅力調整值的臨時生命值。</p><p><em><strong>【輝耀之火】</strong></em>一名位於你30呎內你所能看見的生物承受1d4火焰或光耀傷害（由你選擇）。</p>",
+      "name": "咒火迸發"
     },
     "Dread Incarnate": {
       "activities": {
@@ -1289,30 +1289,30 @@
     "Blessing of Moonlight": {
       "activities": {
         "Moonlight Healing": {
-          "name": "Moonlight Healing",
-          "condition": "whenever a creature fails its saving throw against the effects of this modified casting of Moonbeam"
+          "name": "月光治療",
+          "condition": "每當有生物對抗這道經調整的月華之光豁免失敗時"
         },
         "Modified Save (Blessing of Moonlight)": {
-          "name": "Modified Save (Blessing of Moonlight)"
+          "name": "調整後的豁免（月光祝福）"
         },
         "Modify Moonbeam": {
-          "name": "Modify Moonbeam"
+          "name": "調整月華之光"
         }
       },
       "effects": {
         "Blessed by Moonlight": {
           "description": "<p>@Embed[Compendium.dnd-heroes-faerun.options.Item.hofComBlessingof inline]</p>",
-          "name": "Blessed by Moonlight"
+          "name": "受月光祝福"
         },
         "Blessing of Moonlight": {
-          "name": "Blessing of Moonlight"
+          "name": "月光祝福"
         }
       },
-      "description": "<p>You always have the <em>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplMoonbeam00]{Moonbeam}</em> spell prepared.</p><p>When you cast <em>Moonbeam</em>, you can modify the spell so that you glow faintly while the spell is active. While glowing, you shed Dim Light out to 5 feet, and whenever a creature fails its saving throw against the effects of this <em>Moonbeam</em>, another creature of your choice that you can see within 60 feet of yourself regains [[/heal]]{2d4} Hit Points.</p><p>Once you use this feature to modify a casting of <em>Moonbeam</em>, you can’t use it again until you finish a Long Rest.</p>",
-      "name": "Blessing of Moonlight",
+      "description": "<p>你始終準備著<em>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplMoonbeam00]{月華之光}</em>法術。</p><p>當你施放<em>月華之光</em>時，你可以調整該法術，使你在法術啟用期間微微發光。發光期間，你散發出範圍5呎的微光光照，且每當有生物對抗這道<em>月華之光</em>效應的豁免失敗時，位於你60呎內一名你所能看見、由你選擇的另一名生物恢復[[/heal]]{2d4}點生命值。</p><p>一旦你使用此特性調整<em>月華之光</em>的施放，直到完成長休前你都無法再次使用此特性。</p>",
+      "name": "月光祝福",
       "advancement": {
         "Blessing of Moonlight": {
-          "title": "Blessing of Moonlight"
+          "title": "月光祝福"
         }
       }
     },
@@ -1400,14 +1400,14 @@
       "description": "<p><strong>屬性值：</strong>體質、感知、魅力</p><p><strong>專長：</strong>@UUID[Compendium.dnd-players-handbook.feats.Item.phbftMagicInitia]（德魯伊）</p><p><strong>技能熟練：</strong>自然與表演</p><p><strong>工具熟練：</strong>畫家設備</p><p><strong>裝備：</strong><em>選擇</em> (A) @UUID[Compendium.dnd-players-handbook.equipment.Item.phbwepQuartersta]、@UUID[Compendium.dnd-players-handbook.equipment.Item.phbtulPaintersSu]、@UUID[Compendium.dnd-players-handbook.equipment.Item.phbagBedroll0000]、@UUID[Compendium.dnd-players-handbook.equipment.Item.phbagBell0000000]、@UUID[Compendium.dnd-players-handbook.equipment.Item.phbagPouch000000]、@UUID[Compendium.dnd-players-handbook.equipment.Item.phbagRobe0000000]、@UUID[Compendium.dnd-players-handbook.equipment.Item.phbagString00000]、@UUID[Compendium.dnd-players-handbook.equipment.Item.phbagClothesTrav]、@UUID[Compendium.dnd-players-handbook.equipment.Item.phbagWaterskin00]、[[/award 34GP]]或 (B) [[/award 50GP]]</p><p>與許多來自月影群島的人一樣，你從小便崇對這片聖潔的島嶼，島上獨一無二的神明，以及被稱作月井的神秘聖壇充滿了敬畏。作為一位月井朝聖者，你踏上了探訪地圖上（或地圖外）每座月井並透過它們來與神明對話的旅途。在你如田園牧歌一般的旅途當中，你收集了許多月影群島人的民歌，畫出了許多曾見過的迷人風景，甚至學會了如何支配一些原初魔法。</p>"
     },
     "Primal Lore": {
-      "name": "Primal Lore",
+      "name": "原初學識",
       "advancement": {
         "Druid Cantrip": {
-          "hint": "You learn one cantrip from the Druid spell list. Whenever you gain a Bard level, you can replace this cantrip with another cantrip of your choice from the Druid spell list.",
-          "title": "Druid Cantrip"
+          "hint": "你習得一個德魯伊法術列表中的戲法。每當你獲得一個吟遊詩人等級時，你可以將此戲法替換為德魯伊法術列表中你所選擇的另一個戲法。",
+          "title": "德魯伊戲法"
         }
       },
-      "description": "<p>You learn Druidic and one cantrip from the Druid spell list. It counts as a Bard spell for you but doesn’t count against the number of cantrips you know. Whenever you gain a Bard level, you can replace this cantrip with another cantrip of your choice from the Druid spell list.</p><p>Additionally, choose one of the following skills: Animal Handling, Insight, Medicine, Nature, Perception, or Survival. You have proficiency in that skill.</p>"
+      "description": "<p>你習得德魯伊語，並從德魯伊法術列表中習得一個戲法。該戲法對你而言視為吟遊詩人法術，但不計入你已知的戲法數量。每當你獲得一個吟遊詩人等級時，你可以將此戲法替換為德魯伊法術列表中你所選擇的另一個戲法。</p><p>此外，從下列技能中選擇一項：馴獸、洞悉、醫藥、自然、察覺或求生。你具有該技能的熟練。</p>"
     },
     "Mythalkeeper": {
       "description": "<p><strong>屬性值：</strong>智力、感知、魅力</p><p><strong>專長：</strong>@UUID[Compendium.dnd-players-handbook.feats.Item.phbftCrafter0000]</p><p><strong>技能熟練：</strong>奧秘與歷史</p><p><strong>工具熟練：</strong>珠寶匠工具</p><p><strong>裝備：</strong><em>選擇</em> (A) @UUID[Compendium.dnd-players-handbook.equipment.Item.phbwepQuartersta]、@UUID[Compendium.dnd-players-handbook.equipment.Item.phbtulJewelersTo]、@UUID[Compendium.dnd-players-handbook.equipment.Item.yoRKNd2QddQp1XuX]、@UUID[Compendium.dnd-players-handbook.equipment.Item.phbagPouch000000]、@UUID[Compendium.dnd-players-handbook.equipment.Item.phbagRobe0000000]、@UUID[Compendium.dnd-players-handbook.equipment.Item.phbagShovel00000]、@UUID[Compendium.dnd-players-handbook.equipment.Item.phbagString00000]、@UUID[Compendium.dnd-players-handbook.equipment.Item.phbagWaterskin00]、[[/award 16GP]]或 (B) [[/award 50GP]]</p><p>迷鎖是能夠改造魔網甚至改變現實本源的強大魔法力量之源。大部分迷鎖都建立在古代，其中很多都已損毀或進入休眠狀態。作為一位來自谷地的謎鎖守衛者，你第一次接觸迷鎖可能是在迷斯卓諾Myth Drannor的廢墟中。你為了尋找其他迷鎖力量的遺跡而漫遊於費倫大陸，希望能夠對迷鎖的歷史以及迷鎖的力量有更多的了解——乃至於足以修復發生故障的謎鎖。</p>",
@@ -1490,13 +1490,13 @@
       "description": "<p><strong>屬性值：</strong>敏捷、智力、魅力</p><p><strong>專長：</strong>@UUID[Compendium.dnd-heroes-faerun.options.Item.hofHarperAgent00]（見本章後面所述「@UUID[Compendium.dnd-heroes-faerun.book.JournalEntry.hofFeats00000000]」）</p><p><strong>技能熟練：</strong>表演與巧手</p><p><strong>工具熟練：</strong>易容工具組</p><p><strong>裝備：</strong><em>選擇 </em> (A) @UUID[Compendium.dnd-players-handbook.equipment.Item.phbtulDisguiseKi]、@UUID[Compendium.dnd-players-handbook.equipment.Item.phbagBedroll0000]、@UUID[Compendium.dnd-players-handbook.equipment.Item.phbagCostume0000]、@UUID[Compendium.dnd-players-handbook.equipment.Item.phbagGrapplingHo]、@UUID[Compendium.dnd-players-handbook.equipment.Item.x8jC9e00t4cUYiKR]、@UUID[Compendium.dnd-players-handbook.equipment.Item.phbagClothesTrav]、[[/award 14GP]]或 (B) [[/award 50GP]]</p><p>你收到一封加入豎琴手同盟的邀請函，從此立下誓言擁護豎琴手的行為準則並為服務公共利益而行動。與所有豎琴手一樣，你理解團隊協作的價值，也明白什麼時候獨自行動最為合適。資歷豐富的豎琴手向你傳授了豎琴手同盟的秘密—那些魔法旋律，特殊暗號，以及一些花招詐術—並將利用這些知識以監視並削弱邪惡力量的重任託付給了你。</p>"
     },
     "Banneret": {
-      "name": "Banneret",
+      "name": "旗將",
       "advancement": {
         "Subclass Features": {
           "title": "子職業特性"
         }
       },
-      "description": "<blockquote><p>Rally Fellow Heroes with Inspiring Leadership</p></blockquote><p>Bannerets are paragons of valor and leadership who protect the innocent and rally fellow adventurers to the causes of justice and freedom. Many are knights serving in Cormyr, the Silver Marches, Damara, Chessenta, or other lands across Faerûn. They wander the realms as knights errant, taking the fight against evil beyond their kingdom’s borders.</p><p>A Banneret relies on judgment, bravery, and fidelity to the code of chivalry to guide them in defeating evildoers. A lone Banneret is a skilled warrior, but when leading a band of allies one of these warriors can transform even a poorly equipped militia into a ferocious war band.</p>"
+      "description": "<blockquote><p>以鼓舞人心的領導力集結同道英雄</p></blockquote><p>旗將是勇氣與領導力的典範，他們保護無辜者，並集結冒險者投身於正義與自由的事業。許多旗將是服役於科米爾、銀月聯邦、達馬拉、闕森塔或費倫大陸其他地區的騎士。他們以流浪騎士的身分漫遊國度各地，在王國邊境之外與邪惡作戰。</p><p>旗將憑藉判斷力、勇氣與對騎士精神準則的忠誠，引導自己擊敗惡徒。孤身一人的旗將是技藝高超的戰士，但當他們帶領一群盟友時，一位旗將就能把一支裝備簡陋的民兵隊伍轉變為兇猛的戰團。</p>"
     },
     "Harper Agent": {
       "name": "豎琴手特工",
@@ -1613,17 +1613,17 @@
     "Group Recovery": {
       "activities": {
         "Group Recovery": {
-          "name": "Group Recovery",
-          "condition": "When you use your Second Wind to regain Hit Points"
+          "name": "群體恢復",
+          "condition": "當你使用回氣恢復生命值時"
         }
       },
       "advancement": {
         "Bolstered Range": {
-          "title": "Bolstered Range"
+          "title": "增強範圍"
         }
       },
-      "description": "<p>When you use your Second Wind to regain Hit Points, you can choose a number of allies within a 30-foot Emanation originating from yourself, up to a number of allies equal to your Charisma modifier (minimum of one). Each of those allies regains Hit Points equal to [[/heal]]{1d4 plus your Fighter level}. Once you use this ability, you can’t use it again until you finish a Short or Long Rest.</p>",
-      "name": "Group Recovery"
+      "description": "<p>當你使用你的回氣恢復生命值時，你可以選擇位於以你自己為中心30呎發散區域內的盟友，數量至多等同於你的魅力調整值（最少為1）。每個盟友恢復[[/heal]]{1d4 + 你的戰士等級}點生命值。一旦你使用此能力，直到完成短休或長休前你都無法再次使用。</p>",
+      "name": "群體恢復"
     },
     "Emerald Enclave Fledgling": {
       "name": "翠綠閒庭新羽",
@@ -1638,11 +1638,11 @@
     "Inspiring Commander": {
       "advancement": {
         "Unshakable Bravery": {
-          "title": "Unshakable Bravery"
+          "title": "不撓之勇"
         }
       },
-      "description": "<p>你獲得下列好處。</p><p><em><strong>Bolstered Rally.</strong></em> The area of effect for both Group Recovery and Rallying Surge is now a 60-foot Emanation.</p><p><em><strong>Unshakable Bravery.</strong></em> You have Immunity to the Charmed and Frightened conditions.</p><section class=\"secret\" id=\"secret-ahuZEMzUqPlh4Kd0\"><p><strong>Foundry Note</strong></p><p>The area of effect increase for Group Recovery and Rallying Surge is provided by the scale value on Group Recovery.</p></section>",
-      "name": "Inspiring Commander"
+      "description": "<p>你獲得下列好處。</p><p><em><strong>【眾志成城】</strong></em>群體恢復與集結如潮兩者的效應範圍現在都是60呎發散區域。</p><p><em><strong>【不撓之勇】</strong></em>你具有對魅惑與恐慌狀態的免疫。</p><section class=\"secret\" id=\"secret-ahuZEMzUqPlh4Kd0\"><p><strong>Foundry 註記</strong></p><p>群體恢復與集結如潮的效應範圍增幅，由群體恢復上的比例值提供。</p></section>",
+      "name": "振軍將帥"
     },
     "Training in War and Song": {
       "description": "<p>你獲得所有不具有雙手或重型屬性的軍用近戰武器的熟練。你可以將你具有熟練的近戰武器用作你法師法術的施法法器。</p><p>你還獲得你所選擇下列其中一項技能的熟練：特技、運動、表演或說服。</p>",
@@ -1777,17 +1777,17 @@
       "effects": {
         "Team Tactics": {
           "description": "<p>@Embed[Compendium.dnd-heroes-faerun.options.Item.hofPdkTeamTactic inline]</p>",
-          "name": "Team Tactics"
+          "name": "團體戰術"
         }
       },
-      "description": "<p>When you use Group Recovery, each chosen ally has Advantage on D20 Tests until the start of your next turn.</p><section class=\"secret\" id=\"secret-cZIxzXzVaOiSfG5i\"><p><strong>Foundry Note</strong></p><p>When this feature is acquired, it can be used in place of <strong>Group Recovery</strong> and will consume its uses.</p></section>",
+      "description": "<p>當你使用群體恢復時，每名所選擇的盟友在進行D20檢定時具有優勢，直到你的下個回合開始。</p><section class=\"secret\" id=\"secret-cZIxzXzVaOiSfG5i\"><p><strong>Foundry 註記</strong></p><p>獲得此特性後，可改用其取代<strong>群體恢復</strong>，並會消耗其使用次數。</p></section>",
       "activities": {
         "Group Recovery (Team Tactics)": {
-          "name": "Group Recovery (Team Tactics)",
-          "condition": "When you use your Second Wind to regain Hit Points"
+          "name": "群體恢復（團體戰術）",
+          "condition": "當你使用回氣恢復生命值時"
         }
       },
-      "name": "Team Tactics"
+      "name": "團體戰術"
     },
     "Boon of Bountiful Health": {
       "advancement": {
@@ -1865,17 +1865,17 @@
       "name": "Boon of Revelry"
     },
     "Knightly Envoy": {
-      "name": "Knightly Envoy",
-      "description": "<p>You know how to conduct yourself with grace as a noble ambassador. 你獲得下列好處。</p><p><em><strong>Comprehension. </strong></em>You can cast the <em>@UUID[Compendium.dnd5e.spells24.Item.phbsplComprehend]{Comprehend Languages}</em> spell but only as a Ritual. Charisma is your spellcasting ability for it.</p><p><em><strong>Polyglot. </strong></em>You learn one language from the language tables in the <em>Player’s Handbook</em> or chapter 2 of this book. When you finish a Long Rest, you can replace a language learned from this benefit with another language you have heard, seen signed, or read in the past 24 hours.</p><p><em><strong>Well Spoken. </strong></em>You gain proficiency in one of the following skills of your choice: Insight, Intimidation, Persuasion, or Performance.</p>",
+      "name": "騎士使節",
+      "description": "<p>身為一名貴族使節，你懂得如何舉止優雅得體。你獲得下列好處。</p><p><em><strong>【理解】</strong></em>你可以施放<em>@UUID[Compendium.dnd5e.spells24.Item.phbsplComprehend]{通曉語言}</em>法術，但只能作為儀式施放。魅力是你施放該法術的施法屬性。</p><p><em><strong>【悟性】</strong></em>你從<em>玩家手冊</em>或本書第二章的語言表中習得一門語言。當你完成長休時，你可以將以此好處習得的語言，替換為你在過去24小時內聽過、看人以手語表達過或讀過的另一門語言。</p><p><em><strong>【善言】</strong></em>你獲得你所選擇下列其中一項技能的熟練：洞悉、威嚇、說服或表演。</p>",
       "advancement": {
         "Well Spoken": {
-          "title": "Well Spoken"
+          "title": "善言"
         },
         "Polyglot": {
-          "title": "Polyglot"
+          "title": "悟性"
         },
         "Comprehension": {
-          "title": "Comprehension"
+          "title": "理解"
         }
       }
     },
@@ -2082,14 +2082,14 @@
       "description": "<p>Level 5 Bastion Facility</p><p><strong>Prerequisite:</strong> Membership in the Harpers</p><p><strong>Space:</strong> Roomy</p><p><strong>Hirelings:</strong> 1</p><p><strong>Order:</strong> Empower</p><p>You have a safe house hidden near your Bastion and connected to it by a tunnel no more than a quarter mile in length. Your hireling maintains the hideout, using a cover identity that doesn’t link them to your Bastion. You can change the location of your Harper Hideout each time you gain a level.</p><p><em><strong>Hideout Defenses.</strong></em> Your Harper Hideout is constantly protected by the <em>@UUID[Compendium.dnd5e.spells24.Item.phbsplAlarm00000]{Alarm}</em> spell. At level 9, your Harper Hideout can be connected to your Bastion by a magic doorway instead of a tunnel; anyone passing through the door from the Harper Hideout emerges from a specific door in your Bastion or vice versa, and your Harper Hideout can be located anywhere within 100 miles of your Bastion. At level 13, the facility can be located anywhere in Faerûn. At level 17, the magic doorway works across planes, and the facility can be anywhere in the multiverse.</p><p><em><strong>Empower: Harper Training. </strong></em>When you issue the Empower order to this facility, the facility’s hireling extends an invitation to another Harper agent nearby. Roll any die. If the number is odd, no Harper needs your facility and you gain no benefit from having issued the order. If the number rolled is even, a Friendly Harper takes up temporary residence in your hideout.</p><p>The Harper stays for 7 days. While at your Bastion, the Harper can share their knowledge. Any character who trains with the Harper here for at least 8 hours on each of those days gains proficiency in one of the following skills of their choice: Deception, Investigation, or Performance. This benefit lasts for 7 days.</p><p>The Harper won’t defend your Bastion and departs immediately if the Bastion is attacked.</p>"
     },
     "Spellfire Spells": {
-      "description": "<p>When you reach a Sorcerer level specified in the Spellfire Spells table, you thereafter always have the listed spells prepared.</p><table><caption>Spellfire Spells</caption><thead><tr><th scope=\"col\"><p>Sorcerer Level</p></th><th scope=\"col\"><p>Spells</p></th></tr></thead><tbody><tr><td><p>3</p></td><td><p><em>Cure Wounds</em>, <em>Guiding Bolt</em>, <em>Lesser Restoration</em>, <em>Scorching Ray</em></p></td></tr><tr><td><p>5</p></td><td><p><em>Aura of Vitality</em>, <em>Dispel Magic</em></p></td></tr><tr><td><p>7</p></td><td><p><em>Fire Shield, Wall of Fire</em></p></td></tr><tr><td><p>9</p></td><td><p><em>Greater Restoration</em>, <em>Flame Strike</em></p></td></tr></tbody></table>",
+      "description": "<p>當你達到咒火法術表中指定的術士等級時，你視為始終準備表中所列的法術。</p><table><caption>咒火法術</caption><thead><tr><th scope=\"col\"><p>術士等級</p></th><th scope=\"col\"><p>法術</p></th></tr></thead><tbody><tr><td><p>3</p></td><td><p><em>治療傷勢</em>、<em>光導箭</em>、<em>次級復原術</em>、<em>灼熱射線</em></p></td></tr><tr><td><p>5</p></td><td><p><em>活力靈光</em>、<em>解除魔法</em></p></td></tr><tr><td><p>7</p></td><td><p><em>火焰護盾、火牆術</em></p></td></tr><tr><td><p>9</p></td><td><p><em>高等復原術</em>、<em>焰擊術</em></p></td></tr></tbody></table>",
       "advancement": {
         "Spellfire Spells": {
-          "hint": "When you reach a Sorcerer level specified in the Spellfire Spells table, you thereafter always have the listed spells prepared.",
-          "title": "Spellfire Spells"
+          "hint": "當你達到咒火法術表中指定的術士等級時，你視為始終準備表中所列的法術。",
+          "title": "咒火法術"
         }
       },
-      "name": "Spellfire Spells"
+      "name": "咒火法術"
     },
     "Purple Dragon Commandant": {
       "activities": {
