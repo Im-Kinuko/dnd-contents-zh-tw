@@ -29,27 +29,27 @@
   "entries": {
     "Bag of Holding": {
       "name": "次元袋",
-      "description": "<p>這個袋子具有一個比它外部尺寸要大上許多的內部空間，它的袋口直徑約莫2呎，且深約4呎。這個袋子可以容納最多500磅的重量，且體積不能超過64立方呎。無論它裝了什麼，這個袋子的重量皆為15磅。將一個物品從袋中取出需要花費一個動作。</p><p>若這個袋子超載、被戳破、或撕裂，則它將因此破裂並被摧毀，且它裝載的東西將散落在星界位面。若這個袋子被裡外翻轉，則它裝載的東西將無傷地掉落而出，但這個袋子必須被恢復原狀才能夠被再次使用。需要呼吸的生物在袋中可以存活的時間最多等同於10除以生物數量的分鐘數（最少1分鐘），在這之後它們將開始窒息。</p><p>將次元袋放入由@霍華德的便利袋、便攜式次元洞、或類似物品所創造的異次元空間中，將會立刻摧毀這兩件物品，並打開一道通往星界位面的傳送門。這道傳送門將產生載這兩件物品被放入彼此的位置。任何距離這道傳送門10呎內的生物將被吸進門內，並被送往星界位面中的一處隨機地點。這道傳送門接著將會關閉。這道傳送門僅限單向傳送，且無法再次被開啟。</p><div><p>此袋子具有一個比它外部尺寸要大上許多的內部空間，它的袋口直徑約莫2呎，且深約4呎。這個袋子可以容納最多500磅的重量，且體積不能超過64<span class=\"no-break\">立方</span>呎。無論它裝了什麼，袋子的重量皆為5磅。將一個物品從袋中取出需要一個使用動作。</p><p>若這個袋子超載、被戳破、或撕裂，則其將被摧毀，且其裝載的內容物將散落在星界位面。若袋子被裡外翻轉，則其裝載的內容物將無傷地掉落而出，但必須將袋子恢復原狀才能夠再次使用。袋子內部儲存的空氣足夠呼吸 10 分鐘，並依照袋中呼吸的生物數量平均分配。</p><p>將 <em>次元袋</em>放入由<em>@UUID[Compendium.dnd-dungeon-masters-guide.equipment.Item.dmgHewardsHandyH]</em>、<em>@UUID[Compendium.dnd-dungeon-masters-guide.equipment.Item.dmgPortableHole0]</em>或類似物品所創造的異次元空間中，將會立刻摧毀這兩件物品，並打開一道通往星界位面的傳送門。傳送門將產生在這兩件物品被放入彼此的位置。任何距離傳送門10呎半徑內的生物將被吸進門內，並被送往星界位面中隨機一處地點，接著傳送門將會關閉。傳送門僅限單向傳送，且無法再次被開啟。</p></div>",
+      "description": "<p>@Embed[Compendium.dnd-dungeon-masters-guide.equipment.Item.dmgBagOfHolding0 caption=false classes=\"hide-secrets\"]</p>",
       "effects": {
         "Bag of Holding": {
-          "name": "Bag of Holding"
+          "name": "次元袋"
         }
       },
       "activities": {
         "Replicate Magic Item": {
-          "name": "Replicate Magic Item"
+          "name": "仿製魔法物品"
         }
       }
     },
     "Replicate Magic Item": {
-      "name": "Replicate Magic Item",
+      "name": "仿製魔法物品",
       "advancement": {
         "Magic Item Plans": {
-          "hint": "Whenever you gain an Artificer level, you can replace one of the plans you know with a new plan for which you qualify.",
-          "title": "Magic Item Plans"
+          "hint": "每當你獲得一個奇械師等級時，你可以將你所知的其中一個方案，替換為另一個你符合條件的新方案。",
+          "title": "魔法物品方案"
         }
       },
-      "description": "<p>You have learned arcane plans that you use to make magic items.</p><p><em><strong>Plans Known.</strong></em> When you gain this feature, choose four plans to learn from the @UUID[Compendium.dnd-forge-artificer.book.JournalEntry.efaTheArtificer0.JournalEntryPage.9vdV0UPcsgH6GqRj]{Magic Item Plans} (Artificer Level 2+) table (see the <em>Dungeon Master’s Guide</em> for the items’ descriptions). <em>@UUID[Compendium.dnd-forge-artificer.options.Item.efaP2BagofHoldin]{Bag of Holding},</em> <em>@UUID[Compendium.dnd-forge-artificer.options.Item.efaP2CapofWaterB]{Cap of Water Breathing}</em>, <em>@UUID[Compendium.dnd-forge-artificer.options.Item.efaP2SendingSton]{Sending Stones}</em>, and <em>@UUID[Compendium.dnd-forge-artificer.options.Item.efaP2WandoftheWa]{Wand of the War Mage}</em> are recommended. Whenever you gain an Artificer level, you can replace one of the plans you know with a new plan for which you qualify.</p><p>You learn another plan of your choice when you reach certain Artificer levels, as shown in the Plans Known column of the Artificer Features table. When you choose a plan to learn, you choose it from any Magic Item Plans table for which you qualify; your qualification is based on your Artificer level.</p><p><em><strong>Creating an Item.</strong></em> When you finish a Long Rest, you can create one or two different magic items if you have Tinker’s Tools in hand. Each item is based on one of the plans you know for this feature.</p><p>If a created item requires Attunement, you can attune yourself to it the instant you create it. If you decide to attune to the item later, you must do so using the normal process for Attunement.</p><p>When you reach certain Artificer levels specified in the Magic Items column of the Artificer Features table, the number of magic items you can create at the end of a Long Rest increases. Each item you create must be based on a different plan you know.</p><p>You can’t have more magic items from this feature than the number shown in the Magic Items column of the Artificer Features table for your level. If you try to exceed your maximum number of magic items for this feature, the oldest item vanishes, and then the new item appears.</p><section class=\"notable\"><h4>Crafting More Magic Items</h4><p>The Replicate Magic Item feature isn’t the only way for an Artificer to make magic items. The <em>Dungeon Master’s Guide</em> provides rules for characters—not just Artificers—who want to make magic items of all sorts. Though many different characters can make magic items, Artificers can do it faster than others; each Artificer subclass improves a character’s speed at making items of a certain category.</p><p>When an Artificer crafts a magic item using the normal rules in the <em>Dungeon Master’s Guide</em>, the character gains no special connection to that item. Class features that refer to items created by your Replicate Magic Item feature don’t apply to items you craft by other means.</p></section><p><em><strong>Duration.</strong></em> A magic item created by this feature functions as the normal magic item, except its magic isn’t permanent; when you die, the magic item vanishes after 1d4 days. If you replace a plan you know with a new plan, any magic item created with the replaced plan immediately vanishes.</p><p>If an item that you created with this feature is a container, such as a <em>Bag of Holding</em>, and it vanishes, its contents harmlessly appear in and around its space.</p><p><em><strong>Spellcasting Focus.</strong></em> You can use any Wand or Weapon created by this feature as a Spellcasting Focus in lieu of using a set of Artisan’s Tools.</p>"
+      "description": "<p>你已習得用以製作魔法物品的奧術方案。</p><p><em><strong>【已知方案】</strong></em>當你獲得此特性時，從@UUID[Compendium.dnd-forge-artificer.book.JournalEntry.efaTheArtificer0.JournalEntryPage.9vdV0UPcsgH6GqRj]{魔法物品方案}（奇械師等級2+）表中選擇四個方案習得（物品描述請見<em>城主指南</em>）。推薦選擇<em>@UUID[Compendium.dnd-forge-artificer.options.Item.efaP2BagofHoldin]{次元袋}、</em><em>@UUID[Compendium.dnd-forge-artificer.options.Item.efaP2CapofWaterB]{水下呼吸帽}</em>、<em>@UUID[Compendium.dnd-forge-artificer.options.Item.efaP2SendingSton]{傳訊石}</em>與<em>@UUID[Compendium.dnd-forge-artificer.options.Item.efaP2WandoftheWa]{戰法師魔杖}</em>。每當你提升一個奇械師等級時，你可以將你所知的其中一個方案，替換為另一個你符合條件的新方案。</p><p>當你達到特定奇械師等級時，你可以另外習得一個你所選擇的方案，如奇械師特性表中已知方案一欄所示。當你選擇習得方案時，可以從任何你符合條件的魔法物品方案表中選擇；你是否符合條件取決於你的奇械師等級。</p><p><em><strong>【創造物品】</strong></em>當你完成長休時，若你手持修補匠工具，你可以創造一件或兩件不同的魔法物品。每件物品都基於你以此特性所知的其中一個方案。</p><p>若所創造的物品需要同調，你可以在創造該物品的當下立即與其同調。若你決定之後再與該物品同調，就必須依照一般的同調程序進行。</p><p>當你達到奇械師特性表中魔法物品一欄所列的特定奇械師等級時，你在長休結束時可以創造的魔法物品數量會增加。你所創造的每件物品都必須基於不同的已知方案。</p><p>你以此特性擁有的魔法物品數量，不能超過奇械師特性表中魔法物品一欄所示的你當前等級的數量。若你嘗試超出此特性的魔法物品數量上限，最舊的物品會消失，隨後新物品出現。</p><section class=\"notable\"><h4>製作更多魔法物品</h4><p>仿製魔法物品特性並非奇械師製作魔法物品的唯一方式。<em>城主指南</em>為所有想製作各類魔法物品的角色（不僅限於奇械師）提供了規則。雖然許多不同的角色都能製作魔法物品，但奇械師能比其他人更快完成；每個奇械師子職都會提升角色製作特定類別物品的速度。</p><p>當奇械師使用<em>城主指南</em>中的一般規則製作魔法物品時，該角色不會與該物品產生特別的聯繫。提及以仿製魔法物品特性所創造物品的職業特性，不適用於你以其他方式製作的物品。</p></section><p><em><strong>【持續時間】</strong></em>以此特性創造的魔法物品如同一般魔法物品運作，只是其魔法並非永久；當你死亡時，該魔法物品會在1d4天後消失。若你將已知方案替換為新方案，以被替換方案所創造的任何魔法物品會立即消失。</p><p>若你以此特性創造的物品是容器，例如<em>次元袋</em>消失時，其內容物會無害地出現在其所在空間內及周圍。</p><p><em><strong>【施法法器】</strong></em>你可以使用以此特性創造的任何魔杖或武器作為施法法器，以取代使用一套工匠工具。</p>"
     },
     "Rope of Climbing": {
       "name": "攀爬繩",
@@ -64,13 +64,13 @@
           "name": "Damage Rope"
         },
         "Replicate Magic Item": {
-          "name": "Replicate Magic Item"
+          "name": "仿製魔法物品"
         }
       },
-      "description": "<p><em>奇物，非普通</em></p><p>This 60-foot length of rope can hold up to 3,000 pounds. While holding one end of the rope, you can take a Magic action to command the other end of the rope to animate and move toward a destination you choose, up to the rope’s length away from you. That end moves 10 feet on your turn when you first command it and 10 feet at the start of each of your subsequent turns until reaching its destination or until you tell it to stop. You can also tell the rope to fasten itself securely to an object or to unfasten itself, to knot or unknot itself, or to coil itself for carrying.</p><p>If you tell the rope to knot, large knots appear at 1-foot intervals along the rope. While knotted, the rope shortens to a 50-foot length and grants Advantage on ability checks made to climb using the rope.</p><p>The rope has AC 20, HP 20, and Immunity to Poison and Psychic damage. It regains 1 Hit Point every 5 minutes as long as it has at least 1 Hit Point. If the rope drops to 0 Hit Points, it is destroyed.</p><section class=\"secret\" id=\"secret-S4xxCILbyoIPQL7g\"><p><strong>Foundry Note</strong></p><p>The item includes 20 uses for tracking its HP. The <strong>Damage Rope</strong> activity can be used to apply damage and the <strong>Repair Rope</strong> activity can be used to restore its HP.</p></section>",
+      "description": "<p>@Embed[Compendium.dnd-dungeon-masters-guide.equipment.Item.dmgRopeOfClimbin caption=false classes=\"hide-secrets\"]</p>",
       "effects": {
         "Rope of Climbing": {
-          "name": "Rope of Climbing"
+          "name": "攀爬繩"
         }
       }
     },
@@ -100,15 +100,15 @@
     },
     "Wand of Magic Detection": {
       "name": "偵測魔法魔杖",
-      "description": "<p><em>Wand，非普通</em></p><p>This wand has 3 charges. While holding it, you can expend 1 charge to cast @UUID[Compendium.dnd-players-handbook.spells.Item.phbsplDetectMagi]{Detect Magic} from it. The wand regains 1d3 expended charges daily at dawn.</p>",
+      "description": "<p>@Embed[Compendium.dnd-dungeon-masters-guide.equipment.Item.dmgWandOfMagicDe caption=false classes=\"hide-secrets\"]</p>",
       "activities": {
         "Replicate Magic Item": {
-          "name": "Replicate Magic Item"
+          "name": "仿製魔法物品"
         }
       },
       "effects": {
         "Wand of Magic Detection": {
-          "name": "Wand of Magic Detection"
+          "name": "偵測魔法魔杖"
         }
       }
     },
@@ -149,16 +149,16 @@
       "name": "Greater Mark of Shadow"
     },
     "Ring of Jumping": {
-      "description": "<p><em>Ring，非普通（需同調）</em></p><p>While wearing this ring, you can cast @UUID[Compendium.dnd-players-handbook.spells.Item.phbsplJump000000]{Jump} from it, but can target only yourself when you do so.</p>",
+      "description": "<p>@Embed[Compendium.dnd-dungeon-masters-guide.equipment.Item.dmgRingOfJumping caption=false classes=\"hide-secrets\"]</p>",
       "name": "跳躍戒指",
       "effects": {
         "Ring of Jumping": {
-          "name": "Ring of Jumping"
+          "name": "跳躍戒指"
         }
       },
       "activities": {
         "Replicate Magic Item": {
-          "name": "Replicate Magic Item"
+          "name": "仿製魔法物品"
         }
       }
     },
@@ -212,18 +212,18 @@
         "Unarmed Strike +2": {
           "changes": {
             "system.description.value": "{}<p>@Embed[Compendium.dnd-dungeon-masters-guide.equipment.Item.dmgWrapsOfUnarme caption=false]</p>",
-            "name": "Wrapped {} +2"
+            "name": "綁帶{}+2"
           },
-          "name": "Unarmed Strike +2"
+          "name": "徒手打擊+2"
         }
       },
-      "description": "<p>@Embed[Compendium.dnd-dungeon-masters-guide.equipment.Item.dmgWrapsOfUnarme caption=false classes=\"hide-secrets\"]</p><p>@Embed[Compendium.dnd-forge-artificer.book.JournalEntry.efaAppendixFound.JournalEntryPage.2uGa93dXu7RhlZq9 caption=false cite=false classes=\"hide-in-embed\"]{Using Template Plans}</p>",
+      "description": "<p>@Embed[Compendium.dnd-dungeon-masters-guide.equipment.Item.dmgWrapsOfUnarme caption=false classes=\"hide-secrets\"]</p><p>@Embed[Compendium.dnd-forge-artificer.book.JournalEntry.efaAppendixFound.JournalEntryPage.2uGa93dXu7RhlZq9 caption=false cite=false classes=\"hide-in-embed\"]{使用範本方案}</p>",
       "activities": {
         "Replicate Magic Item": {
-          "name": "Replicate Magic Item"
+          "name": "仿製魔法物品"
         }
       },
-      "name": "Wraps of Unarmed Power, +2"
+      "name": "神威綁帶+2"
     },
     "Greater Mark of Hospitality": {
       "effects": {
@@ -246,15 +246,15 @@
     },
     "Eyes of Minute Seeing": {
       "name": "微視鏡片",
-      "description": "<div><p><em>奇物，非普通</em></p></div><p>These crystal lenses fit over the eyes. While wearing them, your vision improves significantly out to a range of 1 foot, granting you Darkvision within that range and Advantage on Intelligence (Investigation) checks made to examine something within that range.</p>",
+      "description": "<p>@Embed[Compendium.dnd-dungeon-masters-guide.equipment.Item.dmgEyesOfMinuteS caption=false classes=\"hide-secrets\"]</p>",
       "effects": {
         "Eyes of Minute Seeing": {
-          "name": "Eyes of Minute Seeing"
+          "name": "微視鏡片"
         }
       },
       "activities": {
         "Replicate Magic Item": {
-          "name": "Replicate Magic Item"
+          "name": "仿製魔法物品"
         }
       }
     },
@@ -266,10 +266,10 @@
           "chatFlavor": "You become the target of the ranged attack."
         },
         "Replicate Magic Item": {
-          "name": "Replicate Magic Item"
+          "name": "仿製魔法物品"
         }
       },
-      "description": "<p><em>護甲（盾牌），珍稀（需同調）</em></p><p>You gain a +2 bonus to Armor Class against ranged attack rolls while you wield this Shield. This bonus is in addition to the Shield’s normal bonus to AC.</p><p>Whenever an attacker makes a ranged attack roll against a target within 5 feet of you, you can take a Reaction to become the target of the attack instead.</p><section class=\"secret\" id=\"secret-n4z3GTIVyxRRS17N\"><p><strong>Foundry Note</strong></p><p>The <strong>Ranged Attack AC Bonus</strong> effect is provided for optional use and may be toggled active before a ranged attack roll is made against the wearer.</p></section>",
+      "description": "<p>@Embed[Compendium.dnd-dungeon-masters-guide.equipment.Item.dmgArrowcatching caption=false classes=\"hide-secrets\"]</p>",
       "name": "捕箭盾",
       "effects": {
         "Ranged Attack AC Bonus": {
@@ -277,7 +277,7 @@
           "name": "Ranged Attack AC Bonus"
         },
         "Arrow-Catching Shield": {
-          "name": "Arrow-Catching Shield"
+          "name": "捕箭盾"
         }
       }
     },
@@ -336,14 +336,14 @@
     "Common magic item that isn’t a Potion, a Scroll, or cursed": {
       "activities": {
         "Replicate Magic Item": {
-          "name": "Replicate Magic Item"
+          "name": "仿製魔法物品"
         }
       },
-      "description": "<p>You can learn this option multiple times and must select a different item each time; each item selected counts as a different plan.</p><p>@Embed[Compendium.dnd-forge-artificer.book.JournalEntry.efaAppendixFound.JournalEntryPage.mF1U5S8M2t81ZF2Y classes=\"hide-in-embed\" caption=false cite=false]{Using Category Plans}</p>",
-      "name": "Common magic item that isn’t a Potion, a Scroll, or cursed",
+      "description": "<p>你可以多次習得此選項，且每次必須選擇不同的物品；每件所選的物品都算作一個不同的方案。</p><p>@Embed[Compendium.dnd-forge-artificer.book.JournalEntry.efaAppendixFound.JournalEntryPage.mF1U5S8M2t81ZF2Y classes=\"hide-in-embed\" caption=false cite=false]{使用類別方案}</p>",
+      "name": "非藥水、卷軸，且未受詛咒的普通魔法物品",
       "effects": {
         "Common magic item that isn’t a Potion, a Scroll, or cursed": {
-          "name": "Common magic item that isn’t a Potion, a Scroll, or cursed"
+          "name": "非藥水、卷軸，且未受詛咒的普通魔法物品"
         }
       }
     },
@@ -487,16 +487,16 @@
       "description": "<p><em>Dragonmark Feat (Prerequisite: Eberron Campaign, Can’t Have Another Dragonmark Feat)</em></p><p>You gain the following benefits.</p><p><em><strong>Sentinel’s Intuition.</strong></em> When you make a Wisdom (Insight or Perception) check, you can roll [[/r 1d4]] and add the number rolled to the ability check.</p><p><em><strong>Guardian’s Shield.</strong></em> You always have the <em>@UUID[Compendium.dnd5e.spells24.Item.phbsplShield0000]</em> spell prepared. You can cast it once without a spell slot, and you regain the ability to cast it in that way when you finish a Long Rest. You can also cast it using any spell slots you have. Intelligence, Wisdom, or Charisma is your spellcasting ability for this spell (choose when you select this feat).</p><p><em><strong>Vigilant Guardian.</strong></em> When a creature you can see within 5 feet of you is hit by an attack roll, you can take a Reaction to swap places with that creature, and you are hit by the attack instead. You can use this feature a number of times equal to your Proficiency Bonus and regain all expended uses when you finish a Long Rest.</p><p><em><strong>Spells of the Mark.</strong></em> If you have the Spellcasting or Pact Magic class feature, the spells on the Mark of Sentinel Spells table are added to that feature’s spell list.</p><p>@Embed[Compendium.dnd-forge-artificer.book.JournalEntry.efaAppendixSpell.JournalEntryPage.e4XhG1OSYugCLLfN table caption=false cite=false]</p>"
     },
     "Repulsion Shield": {
-      "name": "Repulsion Shield",
+      "name": "斥力之盾",
       "activities": {
         "Replicate Magic Item": {
-          "name": "Replicate Magic Item"
+          "name": "仿製魔法物品"
         }
       },
-      "description": "<p>@Embed[Compendium.dnd-forge-artificer.items.Item.efaRepulsionShie caption=false classes=\"hide-secrets\"]</p><p>@Embed[Compendium.dnd-forge-artificer.book.JournalEntry.efaAppendixFound.JournalEntryPage.2uGa93dXu7RhlZq9 caption=false cite=false classes=\"hide-in-embed\"]{Using Template Plans}</p>",
+      "description": "<p>@Embed[Compendium.dnd-forge-artificer.items.Item.efaRepulsionShie caption=false classes=\"hide-secrets\"]</p><p>@Embed[Compendium.dnd-forge-artificer.book.JournalEntry.efaAppendixFound.JournalEntryPage.2uGa93dXu7RhlZq9 caption=false cite=false classes=\"hide-in-embed\"]{使用範本方案}</p>",
       "effects": {
         "Repulsion Shield": {
-          "name": "Repulsion Shield"
+          "name": "斥力之盾"
         }
       }
     },
@@ -518,26 +518,26 @@
     "Dazzling Weapon": {
       "activities": {
         "Summon Light": {
-          "name": "Summon Light"
+          "name": "召喚光芒"
         },
         "Replicate Magic Item": {
-          "name": "Replicate Magic Item"
+          "name": "仿製魔法物品"
         }
       },
       "effects": {
         "Blinded": {
-          "name": "Blinded"
+          "name": "目盲"
         },
         "Dazzling Weapon": {
           "changes": {
-            "name": "Dazzling {}",
+            "name": "炫目{}",
             "system.description.value": "{}<p>@Embed[Compendium.dnd-forge-artificer.items.Item.efaDazzlingWeapo caption=false cite=false]</p>"
           },
-          "name": "Dazzling Weapon"
+          "name": "炫目武器"
         }
       },
-      "name": "Dazzling Weapon",
-      "description": "<p>@Embed[Compendium.dnd-forge-artificer.items.Item.efaDazzlingWeapo caption=false classes=\"hide-secrets\"]</p><p>@Embed[Compendium.dnd-forge-artificer.book.JournalEntry.efaAppendixFound.JournalEntryPage.2uGa93dXu7RhlZq9 caption=false cite=false classes=\"hide-in-embed\"]{Using Template Plans}</p>"
+      "name": "炫目武器",
+      "description": "<p>@Embed[Compendium.dnd-forge-artificer.items.Item.efaDazzlingWeapo caption=false classes=\"hide-secrets\"]</p><p>@Embed[Compendium.dnd-forge-artificer.book.JournalEntry.efaAppendixFound.JournalEntryPage.2uGa93dXu7RhlZq9 caption=false cite=false classes=\"hide-in-embed\"]{使用範本方案}</p>"
     },
     "House Agent": {
       "advancement": {
@@ -562,20 +562,20 @@
       "description": "<p><strong>Ability Scores:</strong> Strength, Intelligence, Charisma</p><p><strong>Feat:</strong> @UUID[Compendium.dnd-players-handbook.feats.Item.phbftLucky000000]{Lucky}</p><p><strong>Skill Proficiencies:</strong> Investigation and Persuasion</p><p><strong>Tool Proficiency:</strong> <em>Choose one kind of Artisan’s Tools</em></p><p><strong>Equipment:</strong> <em>Choose A or B:</em> (A) Artisan’s Tools (same as above), @UUID[Compendium.dnd5e.equipment24.Item.phbagClothesFine]{Fine Clothes}, [[/award 20GP]]; or (B) [[/award 50GP]]</p><p>You are connected to one of the dragonmarked houses, but you haven’t (yet) manifested a dragonmark. You might be a member of the family by birth or an employee of the house with no familial connection. You’ve earned your living by doing the business of the house, serving as the hands, feet, and eyes of house leadership in the world. You might have many old friends, mentors, and rivals in the house you serve, plus allies or enemies in other houses.</p>"
     },
     "Returning Weapon": {
-      "name": "Returning Weapon",
+      "name": "回力武器",
       "effects": {
         "Returning Weapon": {
-          "name": "Returning Weapon",
+          "name": "回力武器",
           "changes": {
             "system.description.value": "{}<p>@Embed[Compendium.dnd-forge-artificer.items.Item.efaReturningWeap caption=false cite=false]</p>",
-            "name": "Returning {}"
+            "name": "回力{}"
           }
         }
       },
-      "description": "<p>@Embed[Compendium.dnd-forge-artificer.items.Item.efaReturningWeap caption=false classes=\"hide-secrets\"]</p><p>@Embed[Compendium.dnd-forge-artificer.book.JournalEntry.efaAppendixFound.JournalEntryPage.2uGa93dXu7RhlZq9 caption=false cite=false classes=\"hide-in-embed\"]{Using Template Plans}</p>",
+      "description": "<p>@Embed[Compendium.dnd-forge-artificer.items.Item.efaReturningWeap caption=false classes=\"hide-secrets\"]</p><p>@Embed[Compendium.dnd-forge-artificer.book.JournalEntry.efaAppendixFound.JournalEntryPage.2uGa93dXu7RhlZq9 caption=false cite=false classes=\"hide-in-embed\"]{使用範本方案}</p>",
       "activities": {
         "Replicate Magic Item": {
-          "name": "Replicate Magic Item"
+          "name": "仿製魔法物品"
         }
       }
     },
@@ -660,17 +660,17 @@
           "name": "Frightened"
         },
         "Pipes of Haunting": {
-          "name": "Pipes of Haunting"
+          "name": "顫慄之笛"
         }
       },
-      "description": "<p><em>奇物，非普通</em></p><p>These pipes have 3 charges and regain 1d3 expended charges daily at dawn. You can take a Magic action to play them and expend 1 charge to create an eerie, spellbinding tune. Each creature of your choice within 30 feet of you must succeed on a DC 15 Wisdom saving throw or have the &amp;Reference[Frightened apply=false] condition for 1 minute. A creature that fails the save repeats it at the end of each of its turns, ending the effect on itself on a success. A creature that succeeds on its save is immune to the effect of these pipes for 24 hours.</p>",
+      "description": "<p>@Embed[Compendium.dnd-dungeon-masters-guide.equipment.Item.dmgPipesOfHaunti caption=false classes=\"hide-secrets\"]</p>",
       "name": "顫慄之笛",
       "activities": {
         "Play Pipes": {
           "name": "Play Pipes"
         },
         "Replicate Magic Item": {
-          "name": "Replicate Magic Item"
+          "name": "仿製魔法物品"
         }
       }
     },
@@ -715,19 +715,19 @@
       "description": "<p>Kalashtar (pronounced kal-ASH-tar) are created from the union of humanity and renegade spirits called quori from the plane of dreams. Kalashtar appear human, but their spiritual connection affects them in a variety of ways. They have symmetrical, slightly angular features, and their eyes often glow when they are concentrating or expressing strong emotions.</p><p>Kalashtar can’t communicate directly with their quori spirits. Rather, kalashtar might experience them as a source of instinct and inspiration, drawing on the spirits’ memories when the kalashtar sleep. This connection grants kalashtar minor psionic abilities, as well as protection from psionic attacks.</p><hr /><h3>Kalashtar Traits</h3><p><strong>Creature Type:</strong> Aberration</p><p><strong>Size:</strong> Medium (about 6–7 feet tall)</p><p><strong>Speed:</strong> 30 feet</p><p>As a Kalashtar, you have these special traits.</p><p><em><strong>Dual Mind.</strong></em> You have Advantage on Wisdom and Charisma saving throws.</p><p><em><strong>Mental Discipline.</strong></em> You have Resistance to Psychic damage.</p><p><em><strong>Mind Link.</strong></em> You have telepathy with a range in feet equal to 10 times your level. When you’re using this trait to speak telepathically to a creature, you can take a Magic action to give that creature the ability to speak telepathically with you for 1 hour or until you take another Magic action to end this effect.</p><p><em><strong>Severed from Dreams.</strong></em> You can’t be the target of the <em>Dream</em> spell. In addition, when you finish a Long Rest, you gain proficiency in one skill of your choice. This proficiency lasts until you finish another Long Rest.</p>"
     },
     "Ring of Swimming": {
-      "description": "<p><em>Ring，非普通</em></p><p>You have a Swim Speed of 40 feet while wearing this ring.</p>",
+      "description": "<p>@Embed[Compendium.dnd-dungeon-masters-guide.equipment.Item.dmgRingOfSwimmin caption=false classes=\"hide-secrets\"]</p>",
       "name": "游泳戒指",
       "effects": {
         "Swimmer": {
           "name": "Swimmer"
         },
         "Ring of Swimming": {
-          "name": "Ring of Swimming"
+          "name": "游泳戒指"
         }
       },
       "activities": {
         "Replicate Magic Item": {
-          "name": "Replicate Magic Item"
+          "name": "仿製魔法物品"
         }
       }
     },
@@ -790,16 +790,16 @@
       "name": "Purify Food and Drink (Greater Mark)"
     },
     "Spell-Refueling Ring": {
-      "name": "Spell-Refueling Ring",
+      "name": "法力恢復戒指",
       "effects": {
         "Spell-Refueling Ring": {
-          "name": "Spell-Refueling Ring"
+          "name": "法力恢復戒指"
         }
       },
       "description": "<p>@Embed[Compendium.dnd-forge-artificer.items.Item.efaSpellRefuelin caption=false classes=\"hide-secrets\"]</p>",
       "activities": {
         "Replicate Magic Item": {
-          "name": "Replicate Magic Item"
+          "name": "仿製魔法物品"
         }
       }
     },
@@ -813,67 +813,67 @@
     },
     "Wand of Secrets": {
       "name": "探秘魔杖",
-      "description": "<p><em>Wand，非普通</em></p><p>This wand has 3 charges and regains 1d3 expended charges daily at dawn. While holding it, you can take a Magic action to expend 1 charge, and if a secret door or trap is within 60 feet of you, the wand pulses and points at the one nearest to you.</p>",
+      "description": "<p>@Embed[Compendium.dnd-dungeon-masters-guide.equipment.Item.dmgWandOfSecrets caption=false classes=\"hide-secrets\"]</p>",
       "activities": {
         "Detect Secret Door/Trap": {
           "name": "Detect Secret Door/Trap"
         },
         "Replicate Magic Item": {
-          "name": "Replicate Magic Item"
+          "name": "仿製魔法物品"
         }
       },
       "effects": {
         "Wand of Secrets": {
-          "name": "Wand of Secrets"
+          "name": "探秘魔杖"
         }
       }
     },
     "Manifold Tool": {
       "effects": {
         "Manifold Tool": {
-          "name": "Manifold Tool"
+          "name": "百變工具"
         }
       },
       "activities": {
         "Replicate Magic Item": {
-          "name": "Replicate Magic Item"
+          "name": "仿製魔法物品"
         }
       },
-      "name": "Manifold Tool",
+      "name": "百變工具",
       "description": "<p>@Embed[Compendium.dnd-forge-artificer.items.Item.efaManifoldTool0 caption=false classes=\"hide-secrets\"]</p>"
     },
     "Wand of Magic Missiles": {
-      "description": "<p><em>Wand，非普通</em></p><p>This wand has 7 charges. While holding it, you can expend no more than 3 charges to cast @UUID[Compendium.dnd-players-handbook.spells.Item.phbsplMagicMissi]{Magic Missile} from it. For 1 charge, you cast the level 1 version of the spell. You can increase the spell’s level by 1 for each additional charge you expend.</p><p><em><strong>Regaining Charges.</strong></em> The wand regains 1d6 + 1 expended charges daily at dawn. If you expend the wand’s last charge, roll [[/r 1d20]]. On a 1, the wand crumbles into ashes and is destroyed.</p>",
+      "description": "<p>@Embed[Compendium.dnd-dungeon-masters-guide.equipment.Item.dmgWandOfMagicMi caption=false classes=\"hide-secrets\"]</p>",
       "name": "魔法飛彈魔杖",
       "effects": {
         "Wand of Magic Missiles": {
-          "name": "Wand of Magic Missiles"
+          "name": "魔法飛彈魔杖"
         }
       },
       "activities": {
         "Replicate Magic Item": {
-          "name": "Replicate Magic Item"
+          "name": "仿製魔法物品"
         }
       }
     },
     "Spell-Storing Item": {
-      "description": "<p>Whenever you finish a Long Rest, you can touch one Simple or Martial weapon or one item that you can use as a Spellcasting Focus, and you store a spell in it, choosing a level 1, 2, or 3 Artificer spell that has a casting time of an action and doesn’t require a Material component that is consumed by the spell (you needn’t have the spell prepared).</p><p>While holding the object, a creature can take a Magic action to produce the spell’s effect from it, using your spellcasting ability modifier. If the spell requires Concentration, the creature must concentrate. Once a creature has used the object to produce the spell’s effect, the object can’t be used this way again until the start of the creature’s next turn.</p><p>The spell stays in the object until it’s been used a number of times equal to twice your Intelligence modifier (minimum of twice) or until you use this feature again to store a spell in an object.</p><section class=\"secret\" id=\"secret-qbkdg7BMZ3Ou2rIT\"><p><strong>Foundry Note</strong></p><p>The <strong>Enchant</strong> activity will add a <strong>Cast</strong> activity to the item. To add the spell, open the <strong>Cast</strong> activity, change to the Spell tab, and drag/drop the spell. You will also need to change to the Activation tab and then the Consumption sub-tab of the activity to set the maximum number of uses.</p></section>",
+      "description": "<p>每當你完成長休時，你可以觸碰一件簡易或軍用武器，或一件你能用作施法法器的物品，並在其中儲存一道法術：選擇一道施法時間為一個動作、且無需會被該法術消耗之材料成分的1環、2環或3環奇械師法術（你不必已準備該法術）。</p><p>在持握該物體期間，一個生物可以採取魔法動作，從中產生該法術的效應，並使用你的施法屬性調整值。若該法術需要專注，則該生物必須維持專注。一旦一個生物使用該物體產生該法術的效應，直到該生物下個回合開始前，該物體無法再以此方式使用。</p><p>該法術會留存在該物體中，直到其使用次數達到你智力調整值的兩倍（至少兩次），或直到你再次使用此特性將法術儲存於物體中。</p><section class=\"secret\" id=\"secret-qbkdg7BMZ3Ou2rIT\"><p><strong>Foundry 註記</strong></p><p>「<strong>附魔</strong>」行動會為該物品新增一個「<strong>施放</strong>」行動。要加入法術，請開啟「<strong>施放</strong>」行動，切換至「法術」分頁，並將法術拖放進去。你還需要切換到該行動的「行動」分頁，再切換到「消耗」子分頁，以設定最大使用次數。</p></section>",
       "activities": {
         "Store Spell": {
-          "target": "Simple or Martial weapon or Spellcasting Focus",
-          "name": "Store Spell"
+          "target": "簡易或軍用武器，或施法法器",
+          "name": "儲存法術"
         }
       },
       "effects": {
         "Spell-Storing Item": {
           "changes": {
-            "name": "Spell-Stored {}",
-            "system.description.value": "{}<p>This item has had a spell stored within it.</p>"
+            "name": "儲法{}",
+            "system.description.value": "{}<p>這件物品內已儲存了一道法術。</p>"
           },
-          "name": "Spell-Storing Item"
+          "name": "儲法物品"
         }
       },
-      "name": "Spell-Storing Item"
+      "name": "儲法物品"
     },
     "Guardian: Defensive Field": {
       "name": "Guardian: Defensive Field",
@@ -885,18 +885,18 @@
     },
     "Lantern of Revealing": {
       "name": "顯像提燈",
-      "description": "<p><em>奇物，非普通</em></p><p>While lit, this hooded lantern burns for 6 hours on 1 pint of oil, shedding Bright Light in a 30-foot radius and Dim Light for an additional 30 feet. &amp;Reference[Invisible apply=false]{隱形} creatures and objects are visible as long as they are in the lantern’s Bright Light. You can take a Utilize action to lower the hood, reducing the lantern’s light to Dim Light in a 5-foot radius.</p>",
+      "description": "<p>@Embed[Compendium.dnd-dungeon-masters-guide.equipment.Item.dmgLanternOfReve caption=false classes=\"hide-secrets\"]</p>",
       "activities": {
         "Consume Oil": {
           "name": "Consume Oil"
         },
         "Replicate Magic Item": {
-          "name": "Replicate Magic Item"
+          "name": "仿製魔法物品"
         }
       },
       "effects": {
         "Lantern of Revealing": {
-          "name": "Lantern of Revealing"
+          "name": "顯像提燈"
         }
       }
     },
@@ -910,20 +910,20 @@
       "name": "Artillerist Spells"
     },
     "Weapon, +1": {
-      "name": "Weapon, +1",
-      "description": "<p>@Embed[Compendium.dnd-dungeon-masters-guide.equipment.Item.dmgWeapon12or300 caption=false classes=\"hide-secrets\"]</p><p>@Embed[Compendium.dnd-forge-artificer.book.JournalEntry.efaAppendixFound.JournalEntryPage.2uGa93dXu7RhlZq9 caption=false cite=false classes=\"hide-in-embed\"]{Using Template Plans}</p>",
+      "name": "武器+1",
+      "description": "<p>@Embed[Compendium.dnd-dungeon-masters-guide.equipment.Item.dmgWeapon12or300 caption=false classes=\"hide-secrets\"]</p><p>@Embed[Compendium.dnd-forge-artificer.book.JournalEntry.efaAppendixFound.JournalEntryPage.2uGa93dXu7RhlZq9 caption=false cite=false classes=\"hide-in-embed\"]{使用範本方案}</p>",
       "effects": {
         "Weapon +1": {
-          "name": "Weapon +1",
+          "name": "武器+1",
           "changes": {
-            "name": "{} +1",
+            "name": "{}+1",
             "system.description.value": "{}<p>@Embed[Compendium.dnd-dungeon-masters-guide.equipment.Item.dmgWeapon12or300 caption=false]</p>"
           }
         }
       },
       "activities": {
         "Replicate Magic Item": {
-          "name": "Replicate Magic Item"
+          "name": "仿製魔法物品"
         }
       }
     },
@@ -1007,15 +1007,15 @@
     },
     "Alchemy Jug": {
       "name": "煉金壺",
-      "description": "<p><em>奇物，非普通</em></p><p>This ceramic jug appears to be able to hold a gallon of liquid and weighs 12 pounds whether full or empty. The jug sloshes when it is shaken, even if the jug is empty.</p><p>You can take a Magic action and name one liquid from the Alchemy Jug Liquids table to cause the jug to produce the chosen liquid. Afterward, you can uncork the jug as a Utilize action and pour that liquid out, up to 2 gallons per minute. The maximum amount of liquid the jug can produce depends on the liquid you named.</p><p>Once the jug starts producing a liquid, it can’t produce a different one, or more of one that has reached its maximum, until the next dawn.</p><table><caption>Alchemy Jug Liquids</caption><thead><tr><td>Liquid</td><td>Max. Amount</td><td>Liquid</td><td>Max. Amount</td></tr></thead><tbody><tr><td>Acid</td><td>8 ounces</td><td>Oil</td><td>1 quart</td></tr><tr><td>Basic Poison</td><td>4 ounces</td><td>Vinegar</td><td>2 gallons</td></tr><tr><td>Beer</td><td>4 gallons</td><td>Water, fresh</td><td>8 gallons</td></tr><tr><td>Honey</td><td>1 gallon</td><td>Water, salt</td><td>12 gallons</td></tr><tr><td>Mayonnaise</td><td>2 gallons</td><td>Wine</td><td>1 gallon</td></tr></tbody></table><section class=\"secret\" id=\"secret-chVDR5A8BYbySfox\"><p><strong>Foundry Note</strong></p><p>The included [[/item Activate Alchemy Jug]] equipment item is intended for daily usage tracking and includes a modified <em>Alchemy Jug Liquids</em> table with links to the consumable liquid items and quantity produced.</p></section>",
+      "description": "<p>@Embed[Compendium.dnd-dungeon-masters-guide.equipment.Item.dmgAlchemyJugCon caption=false classes=\"hide-secrets\"]{煉金壺}</p>",
       "activities": {
         "Replicate Magic Item": {
-          "name": "Replicate Magic Item"
+          "name": "仿製魔法物品"
         }
       },
       "effects": {
         "Alchemy Jug": {
-          "name": "Alchemy Jug"
+          "name": "煉金壺"
         }
       }
     },
@@ -1034,61 +1034,61 @@
       "name": "Longtooth"
     },
     "Armor, +2": {
-      "name": "Armor, +2",
+      "name": "護甲+2",
       "activities": {
         "Replicate Magic Item": {
-          "name": "Replicate Magic Item"
+          "name": "仿製魔法物品"
         }
       },
-      "description": "<p>@Embed[Compendium.dnd-dungeon-masters-guide.equipment.Item.dmgArmor12or3000 caption=false classes=\"hide-secrets\"]</p><p>@Embed[Compendium.dnd-forge-artificer.book.JournalEntry.efaAppendixFound.JournalEntryPage.2uGa93dXu7RhlZq9 caption=false cite=false classes=\"hide-in-embed\"]{Using Template Plans}</p>",
+      "description": "<p>@Embed[Compendium.dnd-dungeon-masters-guide.equipment.Item.dmgArmor12or3000 caption=false classes=\"hide-secrets\"]</p><p>@Embed[Compendium.dnd-forge-artificer.book.JournalEntry.efaAppendixFound.JournalEntryPage.2uGa93dXu7RhlZq9 caption=false cite=false classes=\"hide-in-embed\"]{使用範本方案}</p>",
       "effects": {
         "Armor +2": {
           "changes": {
             "system.description.value": "{}<p>@Embed[Compendium.dnd-dungeon-masters-guide.equipment.Item.dmgArmor12or3000 caption=false]</p>",
-            "name": "{} +2"
+            "name": "{}+2"
           },
-          "name": "Armor +2"
+          "name": "護甲+2"
         }
       }
     },
     "Magic Item Tinker": {
       "activities": {
         "Drain Magic Item": {
-          "name": "Drain Magic Item",
-          "target": "magic item created with Replicate Magic Item",
-          "roll": "Gained Spell Slot Level"
+          "name": "汲取魔法物品",
+          "target": "以仿製魔法物品創造的魔法物品",
+          "roll": "獲得的法術位環階"
         },
         "Charge Magic Item": {
-          "target": "magic item with charges created via Replicate Magic Item",
-          "roll": "Charges Restored",
-          "name": "Charge Magic Item"
+          "target": "以仿製魔法物品創造且使用充能的魔法物品",
+          "roll": "重獲的充能數量",
+          "name": "充能魔法物品"
         },
         "Transmute Magic Item": {
-          "name": "Transmute Magic Item",
-          "target": "magic item created with Replicate Magic Item",
-          "roll": "Gained Spell Slot Level"
+          "name": "轉變魔法物品",
+          "target": "以仿製魔法物品創造的魔法物品",
+          "roll": "獲得的法術位環階"
         }
       },
-      "name": "Magic Item Tinker",
-      "description": "<p>Your Replicate Magic Item feature gains the following options.</p><p><em><strong>Charge Magic Item.</strong></em> As a Bonus Action, you can touch a magic item within 5 feet of yourself that you created with Replicate Magic Item and that uses charges. You expend a level 1+ spell slot and recharge the item. The number of charges the item regains is equal to the level of spell slot expended.</p><p><em><strong>Drain Magic Item.</strong></em> As a Bonus Action, you can touch a magic item within 5 feet of yourself that you created with Replicate Magic Item and cause the item to vanish, converting its magical energy into a spell slot. The slot is level 1 if the item is Common or level 2 if the item is Uncommon or Rare. Once you use this feature, you can’t do so again until you finish a Long Rest. Any spell slot you create with this feature vanishes when you finish a Long Rest.</p><p><em><strong>Transmute Magic Item.</strong></em> As a Magic action, you can touch one magic item within 5 feet of yourself that you created with Replicate Magic Item and transform it into a different magic item. The resulting item must be based on a magic item plan you know. Once you use this feature, you can’t do so again until you finish a Long Rest.</p><h4></h4>"
+      "name": "魔法物品工藝師",
+      "description": "<p>你的仿製魔法物品特性獲得下列選項。</p><p><em><strong>【充能魔法物品】</strong></em>你能以一個附贈動作觸碰你自身5呎內一件你以仿製魔法物品所創造且使用充能的魔法物品。你消耗一個1環以上的法術位，為該物品充能。該物品重獲的充能數量等同於所消耗法術位的環階。</p><p><em><strong>【汲取魔法物品】</strong></em>你能以一個附贈動作觸碰你自身5呎內一件你以仿製魔法物品所創造的魔法物品，使該物品消失，將其魔法能量轉化為一個法術位。若該物品為普通，則法術位為1環；若該物品為非普通或珍稀，則法術位為2環。一旦你使用此特性，直到完成長休前，你無法再這麼做。你以此特性創造的任何法術位，會在你完成長休時消失。</p><p><em><strong>【轉變魔法物品】</strong></em>你能以一個魔法動作觸碰你自身5呎內一件你以仿製魔法物品所創造的魔法物品，並將其轉變為另一件不同的魔法物品。轉變後的物品必須基於你所知的魔法物品方案。一旦你使用此特性，直到完成長休前，你無法再這麼做。</p><h4></h4>"
     },
     "Repeating Shot": {
       "effects": {
         "Repeating Shot": {
           "changes": {
             "system.description.value": "{}<p>@Embed[Compendium.dnd-forge-artificer.items.Item.efaRepeatingShot cite=false caption=false]</p>",
-            "name": "Repeating Shot {}"
+            "name": "連射{}"
           },
-          "name": "Repeating Shot"
+          "name": "連射武器"
         }
       },
-      "name": "Repeating Shot",
+      "name": "連射武器",
       "activities": {
         "Replicate Magic Item": {
-          "name": "Replicate Magic Item"
+          "name": "仿製魔法物品"
         }
       },
-      "description": "<p>@Embed[Compendium.dnd-forge-artificer.items.Item.efaRepeatingShot caption=false classes=\"hide-secrets\"]</p><p>@Embed[Compendium.dnd-forge-artificer.book.JournalEntry.efaAppendixFound.JournalEntryPage.2uGa93dXu7RhlZq9 caption=false cite=false classes=\"hide-in-embed\"]{Using Template Plans}</p>"
+      "description": "<p>@Embed[Compendium.dnd-forge-artificer.items.Item.efaRepeatingShot caption=false classes=\"hide-secrets\"]</p><p>@Embed[Compendium.dnd-forge-artificer.book.JournalEntry.efaAppendixFound.JournalEntryPage.2uGa93dXu7RhlZq9 caption=false cite=false classes=\"hide-in-embed\"]{使用範本方案}</p>"
     },
     "House Deneith Heir": {
       "advancement": {
@@ -1113,130 +1113,130 @@
       "description": "<p><strong>Ability Scores:</strong> Strength, Constitution, Wisdom</p><p><strong>Feat:</strong> @UUID[Compendium.dnd-forge-artificer.options.Item.efaMarkSentinel0]{Mark of Sentinel} (see @UUID[Compendium.dnd-forge-artificer.book.JournalEntry.efaFeats00000000]{Dragonmark Feats})</p><p><strong>Skill Proficiencies:</strong> Insight and Perception</p><p><strong>Tool Proficiency:</strong> <em>Choose one kind of Gaming Set</em></p><p><strong>Equipment:</strong> <em>Choose A or B:</em> (A) @UUID[Compendium.dnd5e.equipment24.Item.phbwepSpear00000]{Spear}, @UUID[Compendium.dnd5e.equipment24.Item.phbwepShortbow00]{Shortbow}, 20 @UUID[Compendium.dnd5e.equipment24.Item.phbamoArrows0000]{Arrows}, Gaming Set (same as above), @UUID[Compendium.dnd5e.equipment24.Item.phbagClothesFine]{Fine Clothes}, @UUID[Compendium.dnd5e.equipment24.Item.phbagHealersKit0]{Healer’s Kit}, @UUID[Compendium.dnd5e.equipment24.Item.phbagQuiver00000]{Quiver}, [[/award 1GP]]; or (B) [[/award 50GP]]</p><p>As an heir of House Deneith, you’ve been trained for combat—not to seek it out, but not to shy from it either. You’ve learned the importance of duty, honor, and the laws used to govern society when duty and honor fail. As you established your name in the house, you might have worked as a bodyguard for some minor dignitary, as a mercenary, or as a marshal hunting fugitives. Now you’re prepared to claim your rightful standing in the mightiest of the dragonmarked houses.</p>"
     },
     "Tinker's Magic": {
-      "name": "Tinker's Magic",
+      "name": "工藝魔法",
       "activities": {
         "Create Item": {
-          "condition": "while holding Tinker's Tools",
-          "duration": "until you finish a Long Rest",
-          "name": "Create Item",
-          "target": "unoccupied"
+          "condition": "持握修補匠工具期間",
+          "duration": "直到完成長休前",
+          "name": "創造物品",
+          "target": "未佔據空間"
         }
       },
       "effects": {
         "Tinkered Oil": {
-          "name": "Tinkered Oil"
+          "name": "工藝燃油"
         },
         "Tinkered Bell": {
-          "name": "Tinkered Bell"
+          "name": "工藝鈴鐺"
         },
         "Tinkered Caltrops": {
-          "name": "Tinkered Caltrops"
+          "name": "工藝鐵蒺藜"
         },
         "Tinkered Bucket": {
-          "name": "Tinkered Bucket"
+          "name": "工藝水桶"
         },
         "Tinkered Jug": {
-          "name": "Tinkered Jug"
+          "name": "工藝壺"
         },
         "Tinkered Crowbar": {
-          "name": "Tinkered Crowbar"
+          "name": "工藝撬棍"
         },
         "Tinkered Basket": {
-          "name": "Tinkered Basket"
+          "name": "工藝籃子"
         },
         "Tinkered Flask": {
-          "name": "Tinkered Flask"
+          "name": "工藝扁瓶"
         },
         "Tinkered Blanket": {
-          "name": "Tinkered Blanket"
+          "name": "工藝毛毯"
         },
         "Tinkered Pole": {
-          "name": "Tinkered Pole"
+          "name": "工藝長桿"
         },
         "Tinkered Spikes, Iron": {
-          "name": "Tinkered Spikes, Iron"
+          "name": "工藝鐵釘"
         },
         "Tinkered Pouch": {
-          "name": "Tinkered Pouch"
+          "name": "工藝囊袋"
         },
         "Tinkered Rope": {
-          "name": "Tinkered Rope"
+          "name": "工藝繩索"
         },
         "Tinkered Sack": {
-          "name": "Tinkered Sack"
+          "name": "工藝麻袋"
         },
         "Tinkered Block and Tackle": {
-          "name": "Tinkered Block and Tackle"
+          "name": "工藝滑輪組"
         },
         "Tinkered Bedroll": {
-          "name": "Tinkered Bedroll"
+          "name": "工藝睡袋"
         },
         "Tinkered Hunting Trap": {
-          "name": "Tinkered Hunting Trap"
+          "name": "工藝狩獵陷阱"
         },
         "Tinkered Grappling Hook": {
-          "name": "Tinkered Grappling Hook"
+          "name": "工藝爪鉤"
         },
         "Tinkered Bottle, Glass": {
-          "name": "Tinkered Bottle, Glass"
+          "name": "工藝玻璃瓶"
         },
         "Tinkered Tinderbox": {
-          "name": "Tinkered Tinderbox"
+          "name": "工藝打火匣"
         },
         "Tinkered Parchment": {
-          "name": "Tinkered Parchment"
+          "name": "工藝羊皮紙"
         },
         "Tinkered Lamp": {
-          "name": "Tinkered Lamp"
+          "name": "工藝油燈"
         },
         "Tinkered Vial": {
-          "name": "Tinkered Vial"
+          "name": "工藝小瓶"
         },
         "Tinkered Paper": {
-          "name": "Tinkered Paper"
+          "name": "工藝紙張"
         },
         "Tinkered String": {
-          "name": "Tinkered String"
+          "name": "工藝弦線"
         },
         "Tinkered Shovel": {
-          "name": "Tinkered Shovel"
+          "name": "工藝鏟子"
         },
         "Tinkered Manacles": {
-          "name": "Tinkered Manacles"
+          "name": "工藝鐐銬"
         },
         "Tinkered Net": {
-          "name": "Tinkered Net"
+          "name": "工藝捕網"
         },
         "Tinkered Candle": {
-          "name": "Tinkered Candle"
+          "name": "工藝蠟燭"
         },
         "Tinkered Torch": {
-          "name": "Tinkered Torch"
+          "name": "工藝火炬"
         },
         "Tinkered Ball Bearings": {
-          "name": "Tinkered Ball Bearings"
+          "name": "工藝滾珠"
         }
       },
       "advancement": {
         "Mending": {
-          "title": "Mending",
-          "hint": "You know the Mending cantrip."
+          "title": "修復術",
+          "hint": "你習得修復術戲法。"
         }
       },
-      "description": "<p>You know the <em>@UUID[Compendium.dnd5e.spells24.Item.phbsplMending000]{Mending}</em> cantrip.</p><p>As a Magic action while holding Tinker’s Tools, you can create one item in an unoccupied space within 5 feet of yourself, choosing the item from the following list:</p><details><summary><strong>Item Options</strong></summary><div class=\"align-start\" style=\"columns:2\"><p>@UUID[Compendium.dnd5e.equipment24.Item.phbagBallBearing]{Ball Bearings}</p><p>@UUID[Compendium.dnd5e.equipment24.Item.phbagBasket00000]{Basket}</p><p>@UUID[Compendium.dnd5e.equipment24.Item.phbagBedroll0000]{Bedroll}</p><p>@UUID[Compendium.dnd5e.equipment24.Item.phbagBell0000000]{Bell}</p><p>@UUID[Compendium.dnd5e.equipment24.Item.phbagBlanket0000]{Blanket}</p><p>@UUID[Compendium.dnd5e.equipment24.Item.phbagBlockandTac]{Block and Tackle}</p><p>@UUID[Compendium.dnd5e.equipment24.Item.phbagBottleGlass]{Bottle, Glass}</p><p>@UUID[Compendium.dnd5e.equipment24.Item.phbagBucket00000]{Bucket}</p><p>@UUID[Compendium.dnd5e.equipment24.Item.phbagCaltrops000]{Caltrops}</p><p>@UUID[Compendium.dnd5e.equipment24.Item.phbagCandle00000]{Candle}</p><p>@UUID[Compendium.dnd5e.equipment24.Item.phbagCrowbar0000]{Crowbar}</p><p>@UUID[Compendium.dnd5e.equipment24.Item.phbagFlask000000]{Flask}</p><p>@UUID[Compendium.dnd5e.equipment24.Item.phbagGrapplingHo]{Grappling Hook}</p><p>@UUID[Compendium.dnd5e.equipment24.Item.phbagHuntingTrap]{Hunting Trap}</p><p>@UUID[Compendium.dnd5e.equipment24.Item.phbagJug00000000]{Jug}</p><p>@UUID[Compendium.dnd5e.equipment24.Item.phbagLamp0000000]{Lamp}</p><p>@UUID[Compendium.dnd5e.equipment24.Item.phbagManacles000]{Manacles}</p><p>@UUID[Compendium.dnd5e.equipment24.Item.phbagNet00000000]{Net}</p><p>@UUID[Compendium.dnd5e.equipment24.Item.phbagOil00000000]{Oil}</p><p>@UUID[Compendium.dnd5e.equipment24.Item.phbagPaper000000]{Paper}</p><p>@UUID[Compendium.dnd5e.equipment24.Item.phbagParchment00]{Parchment}</p><p>@UUID[Compendium.dnd5e.equipment24.Item.phbagPole0000000]{Pole}</p><p>@UUID[Compendium.dnd5e.equipment24.Item.phbagPouch000000]{Pouch}</p><p>@UUID[Compendium.dnd5e.equipment24.Item.phbagRope0000000]{Rope}</p><p>@UUID[Compendium.dnd5e.equipment24.Item.phbagSack0000000]{Sack}</p><p>@UUID[Compendium.dnd5e.equipment24.Item.phbagShovel00000]{Shovel}</p><p>@UUID[Compendium.dnd5e.equipment24.Item.phbagSpikesIron0]{Spikes, Iron}</p><p>@UUID[Compendium.dnd5e.equipment24.Item.phbagString00000]{String}</p><p>@UUID[Compendium.dnd5e.equipment24.Item.phbagTinderbox00]{Tinderbox}</p><p>@UUID[Compendium.dnd5e.equipment24.Item.phbagTorch000000]{Torch}</p><p>@UUID[Compendium.dnd5e.equipment24.Item.phbagVial0000000]{Vial}</p></div></details><p>See the rules for the item in the<em> Player’s Handbook</em>. The item lasts until you finish a Long Rest, at which point it vanishes.</p><p>You can use this feature a number of times equal to your Intelligence modifier (minimum of once), and you regain all expended uses when you finish a Long Rest.</p>"
+      "description": "<p>你習得<em>@UUID[Compendium.dnd5e.spells24.Item.phbsplMending000]{修復術}</em>戲法。</p><p>你可以在持握修補匠工具期間，以一個魔法動作在你自身5呎內的一處未佔據空間創造一件物品，並從下列清單中選擇該物品：</p><details><summary><strong>物品選項</strong></summary><div class=\"align-start\" style=\"columns:2\"><p>@UUID[Compendium.dnd5e.equipment24.Item.phbagBallBearing]{滾珠}</p><p>@UUID[Compendium.dnd5e.equipment24.Item.phbagBasket00000]{籃子}</p><p>@UUID[Compendium.dnd5e.equipment24.Item.phbagBedroll0000]{睡袋}</p><p>@UUID[Compendium.dnd5e.equipment24.Item.phbagBell0000000]{鈴鐺}</p><p>@UUID[Compendium.dnd5e.equipment24.Item.phbagBlanket0000]{毛毯}</p><p>@UUID[Compendium.dnd5e.equipment24.Item.phbagBlockandTac]{滑輪組}</p><p>@UUID[Compendium.dnd5e.equipment24.Item.phbagBottleGlass]{玻璃瓶}</p><p>@UUID[Compendium.dnd5e.equipment24.Item.phbagBucket00000]{水桶}</p><p>@UUID[Compendium.dnd5e.equipment24.Item.phbagCaltrops000]{鐵蒺藜}</p><p>@UUID[Compendium.dnd5e.equipment24.Item.phbagCandle00000]{蠟燭}</p><p>@UUID[Compendium.dnd5e.equipment24.Item.phbagCrowbar0000]{撬棍}</p><p>@UUID[Compendium.dnd5e.equipment24.Item.phbagFlask000000]{扁瓶}</p><p>@UUID[Compendium.dnd5e.equipment24.Item.phbagGrapplingHo]{爪鉤}</p><p>@UUID[Compendium.dnd5e.equipment24.Item.phbagHuntingTrap]{狩獵陷阱}</p><p>@UUID[Compendium.dnd5e.equipment24.Item.phbagJug00000000]{壺}</p><p>@UUID[Compendium.dnd5e.equipment24.Item.phbagLamp0000000]{油燈}</p><p>@UUID[Compendium.dnd5e.equipment24.Item.phbagManacles000]{鐐銬}</p><p>@UUID[Compendium.dnd5e.equipment24.Item.phbagNet00000000]{捕網}</p><p>@UUID[Compendium.dnd5e.equipment24.Item.phbagOil00000000]{燃油}</p><p>@UUID[Compendium.dnd5e.equipment24.Item.phbagPaper000000]{紙張}</p><p>@UUID[Compendium.dnd5e.equipment24.Item.phbagParchment00]{羊皮紙}</p><p>@UUID[Compendium.dnd5e.equipment24.Item.phbagPole0000000]{長桿}</p><p>@UUID[Compendium.dnd5e.equipment24.Item.phbagPouch000000]{囊袋}</p><p>@UUID[Compendium.dnd5e.equipment24.Item.phbagRope0000000]{繩索}</p><p>@UUID[Compendium.dnd5e.equipment24.Item.phbagSack0000000]{麻袋}</p><p>@UUID[Compendium.dnd5e.equipment24.Item.phbagShovel00000]{鏟子}</p><p>@UUID[Compendium.dnd5e.equipment24.Item.phbagSpikesIron0]{鐵釘}</p><p>@UUID[Compendium.dnd5e.equipment24.Item.phbagString00000]{弦線}</p><p>@UUID[Compendium.dnd5e.equipment24.Item.phbagTinderbox00]{打火匣}</p><p>@UUID[Compendium.dnd5e.equipment24.Item.phbagTorch000000]{火炬}</p><p>@UUID[Compendium.dnd5e.equipment24.Item.phbagVial0000000]{小瓶}</p></div></details><p>該物品的規則請見<em>《玩家手冊》</em>。該物品會在你完成長休時消失。</p><p>你可以使用此特性的次數等同於你的智力調整值（至少一次），並於完成長休時重獲所有已消耗的使用次數。</p>"
     },
     "Cap of Water Breathing": {
       "effects": {
         "Cap of Water Breathing": {
-          "name": "Cap of Water Breathing"
+          "name": "水下呼吸帽"
         }
       },
       "activities": {
         "Replicate Magic Item": {
-          "name": "Replicate Magic Item"
+          "name": "仿製魔法物品"
         }
       },
-      "name": "Cap of Water Breathing",
+      "name": "水下呼吸帽",
       "description": "<p>@Embed[Compendium.dnd-dungeon-masters-guide.equipment.Item.dmgCapOfWaterBre caption=false classes=\"hide-secrets\"]</p>"
     },
     "Alchemist Spells": {
@@ -1249,16 +1249,16 @@
       "description": "<p>When you reach an Artificer level specified in the Alchemist Spells table, you thereafter always have the listed spells prepared.</p><table><caption>Alchemist Spells</caption><thead><tr><th scope=\"col\"><p>Artificer Level</p></th><th scope=\"col\"><p>Spells</p></th></tr></thead><tbody><tr><td><p>3</p></td><td><p><em>@UUID[Compendium.dnd5e.spells24.Item.phbsplHealingWor]{Healing Word}, @UUID[Compendium.dnd5e.spells24.Item.phbsplRayofSickn]{Ray of Sickness}</em></p></td></tr><tr><td><p>5</p></td><td><p><em>@UUID[Compendium.dnd5e.spells24.Item.phbsplFlamingSph]{Flaming Sphere}, @UUID[Compendium.dnd5e.spells24.Item.phbsplMelfsAcidA]{Melf’s Acid Arrow}</em></p></td></tr><tr><td><p>9</p></td><td><p><em>@UUID[Compendium.dnd5e.spells24.Item.phbsplGaseousFor]{Gaseous Form}, @UUID[Compendium.dnd5e.spells24.Item.phbsplMassHealin]{Mass Healing Word}</em></p></td></tr><tr><td><p>13</p></td><td><p><em>@UUID[Compendium.dnd5e.spells24.Item.phbsplDeathWard0]{Death Ward}, @UUID[Compendium.dnd5e.spells24.Item.phbsplVitriolicS]{Vitriolic Sphere}</em></p></td></tr><tr><td><p>17</p></td><td><p><em>@UUID[Compendium.dnd5e.spells24.Item.phbsplCloudkill0]{Cloudkill}, @UUID[Compendium.dnd5e.spells24.Item.phbsplRaiseDead0]{Raise Dead}</em></p></td></tr></tbody></table>"
     },
     "Advanced Artifice": {
-      "name": "Advanced Artifice",
+      "name": "進階奇械術",
       "effects": {
         "Magic Item Savant": {
-          "name": "Magic Item Savant"
+          "name": "魔法物品專家"
         }
       },
-      "description": "<p>You gain the following benefits.</p><p><em><strong>Magic Item Savant.</strong></em> You can now attune to up to five magic items at once.</p><p><em><strong>Refreshed Genius.</strong></em> When you finish a Short Rest, you regain one expended use of your Flash of Genius feature.</p>",
+      "description": "<p>你獲得下列好處。</p><p><em><strong>【魔法物品專家】</strong></em>你現在可以同時與至多五件魔法物品同調。</p><p><em><strong>【重獲靈感】</strong></em>當你完成短休時，你的靈光一閃特性重獲一次已消耗的使用次數。</p>",
       "activities": {
         "Refreshed Genius": {
-          "name": "Refreshed Genius"
+          "name": "重獲靈感"
         }
       }
     },
@@ -1335,13 +1335,13 @@
     "Helm of Awareness": {
       "activities": {
         "Replicate Magic Item": {
-          "name": "Replicate Magic Item"
+          "name": "仿製魔法物品"
         }
       },
-      "name": "Helm of Awareness",
+      "name": "警覺之盔",
       "effects": {
         "Helm of Awareness": {
-          "name": "Helm of Awareness"
+          "name": "警覺之盔"
         }
       },
       "description": "<p>@Embed[Compendium.dnd-forge-artificer.items.Item.efaHelmofAwarene caption=false classes=\"hide-secrets\"]</p>"
@@ -1440,23 +1440,23 @@
     "Wand of the War Mage, +1": {
       "activities": {
         "Replicate Magic Item": {
-          "name": "Replicate Magic Item"
+          "name": "仿製魔法物品"
         }
       },
       "effects": {
         "War Mage +1": {
-          "name": "War Mage +1"
+          "name": "戰法師+1"
         },
         "Wand of the War Mage, +1": {
-          "name": "Wand of the War Mage, +1",
+          "name": "戰法師魔杖+1",
           "changes": {
             "system.description.value": "{}<p>@Embed[Compendium.dnd-dungeon-masters-guide.equipment.Item.dmg1WandOfTheWar caption=false]</p>",
-            "name": "{} of the War Mage, +1"
+            "name": "戰法師{}+1"
           }
         }
       },
-      "description": "<p>@Embed[Compendium.dnd-dungeon-masters-guide.equipment.Item.dmg1WandOfTheWar caption=false classes=\"hide-secrets\"]</p><p>@Embed[Compendium.dnd-forge-artificer.book.JournalEntry.efaAppendixFound.JournalEntryPage.2uGa93dXu7RhlZq9 caption=false cite=false classes=\"hide-in-embed\"]{Using Template Plans}</p>",
-      "name": "Wand of the War Mage, +1"
+      "description": "<p>@Embed[Compendium.dnd-dungeon-masters-guide.equipment.Item.dmg1WandOfTheWar caption=false classes=\"hide-secrets\"]</p><p>@Embed[Compendium.dnd-forge-artificer.book.JournalEntry.efaAppendixFound.JournalEntryPage.2uGa93dXu7RhlZq9 caption=false cite=false classes=\"hide-in-embed\"]{使用範本方案}</p>",
+      "name": "戰法師魔杖+1"
     },
     "Battle Smith Spells": {
       "description": "<p>When you reach an Artificer level specified in the Battle Smith Spells table, you thereafter always have the listed spells prepared.</p><table><caption>Battle Smith Spells</caption><thead><tr><td>Artificer Level</td><td>Spells</td></tr></thead><tbody><tr><td>3</td><td><p><em>@UUID[Compendium.dnd5e.spells24.Item.phbsplHeroism000]{Heroism}, @UUID[Compendium.dnd5e.spells24.Item.phbsplShield0000]{Shield}</em></p></td></tr><tr><td>5</td><td><em>@UUID[Compendium.dnd5e.spells24.Item.phbsplShiningSmi]{Shining Smite}, @UUID[Compendium.dnd5e.spells24.Item.phbsplWardingBon]{Warding Bond}</em></td></tr><tr><td>9</td><td><em>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplAuraofVita]{Aura of Vitality}, @UUID[Compendium.dnd-players-handbook.spells.Item.phbsplConjureBar]{Conjure Barrage}</em></td></tr><tr><td>13</td><td><em>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplAuraofPuri]{Aura of Purity}, @UUID[Compendium.dnd5e.spells24.Item.phbsplFireShield]{Fire Shield}</em></td></tr><tr><td>17</td><td><em>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplBanishingS]{Banishing Smite}, @UUID[Compendium.dnd5e.spells24.Item.phbsplMassCureWo]{Mass Cure Wounds}</em></td></tr></tbody></table><section class=\"secret\" id=\"secret-Z9pAhvumQlf7onuP\"><p><strong>Foundry Note</strong></p><p>These spells are granted automatically as you advance.</p></section>",
@@ -1494,15 +1494,15 @@
     },
     "Ring of Water Walking": {
       "name": "水行戒指",
-      "description": "<p class=\"Core-Styles_Core-Metadata\"><em>Ring，非普通</em></p><p>While wearing this ring, you cast @UUID[Compendium.dnd-players-handbook.spells.Item.phbsplWaterWalk0]{Water Walk} from it, targeting only yourself.</p>",
+      "description": "<p>@Embed[Compendium.dnd-dungeon-masters-guide.equipment.Item.dmgRingOfWaterWa caption=false classes=\"hide-secrets\"]</p>",
       "effects": {
         "Ring of Water Walking": {
-          "name": "Ring of Water Walking"
+          "name": "水行戒指"
         }
       },
       "activities": {
         "Replicate Magic Item": {
-          "name": "Replicate Magic Item"
+          "name": "仿製魔法物品"
         }
       }
     },
@@ -1516,10 +1516,10 @@
           "name": "Poison Coat"
         },
         "Dagger of Venom": {
-          "name": "Dagger of Venom"
+          "name": "淬毒匕首"
         }
       },
-      "description": "<div><p><em>Weapon (Dagger)，珍稀</em></p></div><p>You gain a +1 bonus to attack rolls and damage rolls made with this magic weapon.</p><p>You can take a Bonus Action to magically coat the blade with poison. The poison remains for 1 minute or until an attack using this weapon hits a creature. That creature must succeed on a DC 15 Constitution saving throw or take 2d10 Poison damage and have the &amp;Reference[Poisoned apply=false] condition for 1 minute. The weapon can’t be used this way again until the next dawn.</p>",
+      "description": "<p>@Embed[Compendium.dnd-dungeon-masters-guide.equipment.Item.dmgDaggerOfVenom caption=false classes=\"hide-secrets\"]</p>",
       "activities": {
         "Coat Blade with Poison": {
           "name": "Coat Blade with Poison"
@@ -1528,7 +1528,7 @@
           "name": "Poison Save"
         },
         "Replicate Magic Item": {
-          "name": "Replicate Magic Item"
+          "name": "仿製魔法物品"
         }
       },
       "name": "淬毒匕首"
@@ -1569,13 +1569,13 @@
       }
     },
     "Magic Item Master": {
-      "name": "Magic Item Master",
+      "name": "魔法物品大師",
       "effects": {
         "Magic Item Master": {
-          "name": "Magic Item Master"
+          "name": "魔法物品大師"
         }
       },
-      "description": "<p>You can now attune to up to six magic items at once.</p>"
+      "description": "<p>你現在可以同時與至多六件魔法物品同調。</p>"
     },
     "Superior Atlas": {
       "activities": {
@@ -1610,23 +1610,23 @@
     "Wand of the War Mage, +2": {
       "activities": {
         "Replicate Magic Item": {
-          "name": "Replicate Magic Item"
+          "name": "仿製魔法物品"
         }
       },
       "effects": {
         "Wand of the War Mage, +2": {
           "changes": {
             "system.description.value": "{}<p>@Embed[Compendium.dnd-dungeon-masters-guide.equipment.Item.dmg1WandOfTheWar caption=false]</p>",
-            "name": "{} of the War Mage, +2"
+            "name": "戰法師{}+2"
           },
-          "name": "Wand of the War Mage, +2"
+          "name": "戰法師魔杖+2"
         },
         "War Mage +2": {
-          "name": "War Mage +2"
+          "name": "戰法師+2"
         }
       },
-      "name": "Wand of the War Mage, +2",
-      "description": "<p>@Embed[Compendium.dnd-dungeon-masters-guide.equipment.Item.dmg1WandOfTheWar caption=false classes=\"hide-secrets\"]</p><p>@Embed[Compendium.dnd-forge-artificer.book.JournalEntry.efaAppendixFound.JournalEntryPage.2uGa93dXu7RhlZq9 caption=false cite=false classes=\"hide-in-embed\"]{Using Template Plans}</p>"
+      "name": "戰法師魔杖+2",
+      "description": "<p>@Embed[Compendium.dnd-dungeon-masters-guide.equipment.Item.dmg1WandOfTheWar caption=false classes=\"hide-secrets\"]</p><p>@Embed[Compendium.dnd-forge-artificer.book.JournalEntry.efaAppendixFound.JournalEntryPage.2uGa93dXu7RhlZq9 caption=false cite=false classes=\"hide-in-embed\"]{使用範本方案}</p>"
     },
     "Improved Defender": {
       "name": "Improved Defender",
@@ -1642,20 +1642,20 @@
     "Shield, +1": {
       "activities": {
         "Replicate Magic Item": {
-          "name": "Replicate Magic Item"
+          "name": "仿製魔法物品"
         }
       },
       "effects": {
         "Shield +1": {
           "changes": {
-            "name": "{} +1",
+            "name": "{}+1",
             "system.description.value": "{}<p>@Embed[Compendium.dnd-dungeon-masters-guide.equipment.Item.dmgShield12or300 caption=false]</p>"
           },
-          "name": "Shield +1"
+          "name": "盾牌+1"
         }
       },
-      "description": "<p>@Embed[Compendium.dnd-dungeon-masters-guide.equipment.Item.dmgShield12or300 caption=false classes=\"hide-secrets\"]</p><p>@Embed[Compendium.dnd-forge-artificer.book.JournalEntry.efaAppendixFound.JournalEntryPage.2uGa93dXu7RhlZq9 caption=false cite=false classes=\"hide-in-embed\"]{Using Template Plans}</p>",
-      "name": "Shield, +1"
+      "description": "<p>@Embed[Compendium.dnd-dungeon-masters-guide.equipment.Item.dmgShield12or300 caption=false classes=\"hide-secrets\"]</p><p>@Embed[Compendium.dnd-forge-artificer.book.JournalEntry.efaAppendixFound.JournalEntryPage.2uGa93dXu7RhlZq9 caption=false cite=false classes=\"hide-in-embed\"]{使用範本方案}</p>",
+      "name": "盾牌+1"
     },
     "Warforged": {
       "description": "<p>Warforged are mechanical beings built as weapons to fight in the Last War. An unexpected breakthrough produced sentient beings made from wood and metal that nevertheless can feel pain and emotion.</p><p>Warforged comprise a blend of organic and inorganic materials. Rootlike cords infused with alchemical fluids serve as their muscles, wrapped around a framework of steel, darkwood, or stone. Armored plates form a protective outer shell and reinforce joints. The more a warforged cultivates their individuality, the more likely they are to modify their body, seeking out an artificer to customize the look of their face, limbs, and plating.</p><hr /><h3>Warforged Traits</h3><p><strong>Creature Type:</strong> Construct</p><p><strong>Size:</strong> Medium (about 6–8 feet tall) or Small (about 3–4 feet tall), chosen when you select this species</p><p><strong>Speed:</strong> 30 feet</p><p>As a Warforged, you have these special traits.</p><p><em><strong>Construct Resilience.</strong></em> You have Resistance to Poison damage. You also have Advantage on saving throws to avoid or end the &amp;Reference[Poisoned apply=false] condition.</p><p><em><strong>Integrated Protection.</strong></em> You gain a +1 bonus to your Armor Class. In addition, armor you have donned can’t be removed against your will while you’re alive.</p><p><em><strong>Sentry’s Rest.</strong></em> You don’t need to sleep, and magic can’t put you to sleep. You can finish a Long Rest in 6 hours if you spend those hours in an inactive, motionless state. During this time, you appear inert but remain conscious.</p><p><em><strong>Specialized Design.</strong></em> You gain one skill proficiency and one tool proficiency of your choice.</p><p><em><strong>Tireless.</strong></em> You don’t gain &amp;Reference[Exhaustion apply=false] levels from dehydration, malnutrition, or suffocation.</p>",
@@ -1672,16 +1672,16 @@
     "Uncommon Wondrous Item that isn’t cursed": {
       "effects": {
         "Uncommon Wondrous Item that isn’t cursed": {
-          "name": "Uncommon Wondrous Item that isn’t cursed"
+          "name": "未受詛咒的非普通奇物"
         }
       },
-      "description": "<p>You can learn this option multiple times and must select a different item each time; each item selected counts as a different plan.</p><p>@Embed[Compendium.dnd-forge-artificer.book.JournalEntry.efaAppendixFound.JournalEntryPage.mF1U5S8M2t81ZF2Y classes=\"hide-in-embed\" caption=false cite=false]{Using Category Plans}</p>",
+      "description": "<p>你可以多次習得此選項，且每次必須選擇不同的物品；每件所選的物品都算作一個不同的方案。</p><p>@Embed[Compendium.dnd-forge-artificer.book.JournalEntry.efaAppendixFound.JournalEntryPage.mF1U5S8M2t81ZF2Y classes=\"hide-in-embed\" caption=false cite=false]{使用類別方案}</p>",
       "activities": {
         "Replicate Magic Item": {
-          "name": "Replicate Magic Item"
+          "name": "仿製魔法物品"
         }
       },
-      "name": "Uncommon Wondrous Item that isn’t cursed"
+      "name": "未受詛咒的非普通奇物"
     },
     "Explosive Cannon": {
       "description": "<p>Every [[/item Eldritch Cannon]] you create is now more destructive. You gain the following benefits.</p><p><em><strong>Detonate</strong></em>. When your cannon takes damage, you can take a Reaction to command the cannon to detonate if you are within 60 feet of it. Doing so destroys the cannon and forces each creature within 20 feet of it to make a Dexterity saving throw against your spell save DC, taking 3d10 Force damage on a failed save or half as much damage on a successful one.</p><p><em><strong>Firepower</strong></em>. The cannon’s damage rolls and the number of Temporary Hit Points granted by Protector increase by 1d8.</p><section class=\"secret\" id=\"secret-gXu3BZvjDiwHBGD6\"><p><strong>Foundry Note</strong></p><p>The benefits of this feature are implemented in the <strong>[[/item Eldritch Cannon]]</strong> feature as your level advances. The <strong>Craft Cannon</strong> activity will automatically update to begin summoning the <strong>Explosive</strong> version of your Cannon which also has the improvements integrated in its sheet.</p></section>",
@@ -1759,38 +1759,38 @@
     "Shield, +2": {
       "effects": {
         "Shield +2": {
-          "name": "Shield +2",
+          "name": "盾牌+2",
           "changes": {
             "system.description.value": "{}<p>@Embed[Compendium.dnd-dungeon-masters-guide.equipment.Item.dmgShield12or300 caption=false]</p>",
-            "name": "{} +2"
+            "name": "{}+2"
           }
         }
       },
-      "name": "Shield, +2",
-      "description": "<p>@Embed[Compendium.dnd-dungeon-masters-guide.equipment.Item.dmgShield12or300 caption=false classes=\"hide-secrets\"]</p><p>@Embed[Compendium.dnd-forge-artificer.book.JournalEntry.efaAppendixFound.JournalEntryPage.2uGa93dXu7RhlZq9 caption=false cite=false classes=\"hide-in-embed\"]{Using Template Plans}</p>",
+      "name": "盾牌+2",
+      "description": "<p>@Embed[Compendium.dnd-dungeon-masters-guide.equipment.Item.dmgShield12or300 caption=false classes=\"hide-secrets\"]</p><p>@Embed[Compendium.dnd-forge-artificer.book.JournalEntry.efaAppendixFound.JournalEntryPage.2uGa93dXu7RhlZq9 caption=false cite=false classes=\"hide-in-embed\"]{使用範本方案}</p>",
       "activities": {
         "Replicate Magic Item": {
-          "name": "Replicate Magic Item"
+          "name": "仿製魔法物品"
         }
       }
     },
     "Wraps of Unarmed Power, +1": {
       "activities": {
         "Replicate Magic Item": {
-          "name": "Replicate Magic Item"
+          "name": "仿製魔法物品"
         }
       },
-      "name": "Wraps of Unarmed Power, +1",
+      "name": "神威綁帶+1",
       "effects": {
         "Unarmed Strike +1": {
           "changes": {
-            "name": "Wrapped {}",
+            "name": "綁帶{}",
             "system.description.value": "{}<p>@Embed[Compendium.dnd-dungeon-masters-guide.equipment.Item.dmgWrapsOfUnarme cite=false caption=false]</p>"
           },
-          "name": "Unarmed Strike +1"
+          "name": "徒手打擊+1"
         }
       },
-      "description": "<p>@Embed[Compendium.dnd-dungeon-masters-guide.equipment.Item.dmgWrapsOfUnarme caption=false classes=\"hide-secrets\"]</p><p>@Embed[Compendium.dnd-forge-artificer.book.JournalEntry.efaAppendixFound.JournalEntryPage.2uGa93dXu7RhlZq9 caption=false cite=false classes=\"hide-in-embed\"]{Using Template Plans}</p>"
+      "description": "<p>@Embed[Compendium.dnd-dungeon-masters-guide.equipment.Item.dmgWrapsOfUnarme caption=false classes=\"hide-secrets\"]</p><p>@Embed[Compendium.dnd-forge-artificer.book.JournalEntry.efaAppendixFound.JournalEntryPage.2uGa93dXu7RhlZq9 caption=false cite=false classes=\"hide-in-embed\"]{使用範本方案}</p>"
     },
     "Artillerist": {
       "advancement": {
@@ -1829,13 +1829,13 @@
     "Flash of Genius": {
       "activities": {
         "utility": {
-          "condition": "creature within range fails a check or save",
-          "target": "visible creature",
-          "roll": "Failed Roll Bonus"
+          "condition": "範圍內的生物在屬性檢定或豁免檢定中失敗",
+          "target": "你所能看見的生物",
+          "roll": "失敗擲骰的加值"
         }
       },
-      "description": "<p>When you or a creature you can see within 30 feet of you fails an ability check or a saving throw, you can take a Reaction to add a bonus to the roll, potentially causing it to succeed. The bonus equals your Intelligence modifier (minimum of +1).</p><p>You can take this Reaction a number of times equal to your Intelligence modifier (minimum of once). You regain all expended uses when you finish a Long Rest.</p>",
-      "name": "Flash of Genius"
+      "description": "<p>當你或位於你30呎內一名你所能看見的生物在屬性檢定或豁免檢定中失敗時，你可以採取反應，為該擲骰結果加上一個加值，這可能使失敗轉為成功。該加值等同於你的智力調整值（至少+1）。</p><p>你可以採取此反應的次數等同於你的智力調整值（至少一次）。你在完成長休時重獲所有已消耗的使用次數。</p>",
+      "name": "靈光一閃"
     },
     "Resilience Elixir": {
       "name": "Resilience Elixir",
@@ -1859,29 +1859,29 @@
     },
     "Wand of Web": {
       "name": "蛛網魔杖",
-      "description": "<p><em>Wand，非普通 (Requires Attunement by a Spellcaster)</em></p><p>This wand has 7 charges. While holding it, you can expend 1 charge to cast @UUID[Compendium.dnd-players-handbook.spells.Item.phbsplWeb0000000]{Web} (save DC 13) from it.</p><p><em><strong>Regaining Charges.</strong></em> The wand regains 1d6 + 1 expended charges daily at dawn. If you expend the wand’s last charge, roll [[/r 1d20]]. On a 1, the wand crumbles into ashes and is destroyed.</p>",
+      "description": "<p>@Embed[Compendium.dnd-dungeon-masters-guide.equipment.Item.dmgWandOfWeb0000 caption=false classes=\"hide-secrets\"]</p>",
       "effects": {
         "Wand of Web": {
-          "name": "Wand of Web"
+          "name": "蛛網魔杖"
         }
       },
       "activities": {
         "Replicate Magic Item": {
-          "name": "Replicate Magic Item"
+          "name": "仿製魔法物品"
         }
       }
     },
     "Eyes of Charming": {
-      "description": "<div><p><em>奇物，非普通（需同調）</em></p></div><p>These crystal lenses fit over the eyes. They have 3 charges. While wearing them, you can expend 1 or more charges to cast <em>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplCharmPerso]{Charm Person}</em> (save DC 13). For 1 charge, you cast the level 1 version of the spell. You increase the spell’s level by one for each additional charge you expend. The lenses regain all expended charges daily at dawn.</p>",
+      "description": "<p>@Embed[Compendium.dnd-dungeon-masters-guide.equipment.Item.dmgEyesOfCharmin caption=false classes=\"hide-secrets\"]</p>",
       "name": "魅惑鏡片",
       "effects": {
         "Eyes of Charming": {
-          "name": "Eyes of Charming"
+          "name": "魅惑鏡片"
         }
       },
       "activities": {
         "Replicate Magic Item": {
-          "name": "Replicate Magic Item"
+          "name": "仿製魔法物品"
         }
       }
     },
@@ -1968,15 +1968,15 @@
       "description": "<p>@Embed[Compendium.dnd-dungeon-masters-guide.equipment.Item.dmgSendingStones caption=false classes=\"hide-secrets\"]</p>",
       "activities": {
         "Replicate Magic Item": {
-          "name": "Replicate Magic Item"
+          "name": "仿製魔法物品"
         }
       },
       "effects": {
         "Sending Stones": {
-          "name": "Sending Stones"
+          "name": "傳訊石"
         }
       },
-      "name": "Sending Stones"
+      "name": "傳訊石"
     },
     "Wildhunt": {
       "name": "Wildhunt",
@@ -2055,13 +2055,13 @@
     },
     "Elven Chain": {
       "name": "精靈鏈甲",
-      "description": "<p><em>Armor (@UUID[Compendium.dnd-players-handbook.equipment.Item.phbarmChainMail0]{Chain Mail} or @UUID[Compendium.dnd-players-handbook.equipment.Item.phbarmChainShirt]{Chain Shirt})，珍稀</em></p><p>You gain a +1 bonus to Armor Class while you wear this armor. You are considered trained with this armor even if you lack training with Medium or Heavy armor.</p><p>@Embed[Compendium.dnd-dungeon-masters-guide.content.JournalEntry.dmgFoundryRefere.JournalEntryPage.Ok4iCgD25ENgoRxE cite=false caption=false classes=\"hide-in-embed\"]</p>",
+      "description": "<p>@Embed[Compendium.dnd-dungeon-masters-guide.equipment.Item.dmgElvenChain000 caption=false classes=\"hide-secrets\"]</p><p>@Embed[Compendium.dnd-forge-artificer.book.JournalEntry.efaAppendixFound.JournalEntryPage.2uGa93dXu7RhlZq9 caption=false cite=false classes=\"hide-in-embed\"]{使用範本方案}</p>",
       "activities": {
         "Elven Chain": {
           "name": "精靈鏈甲"
         },
         "Replicate Magic Item": {
-          "name": "Replicate Magic Item"
+          "name": "仿製魔法物品"
         }
       },
       "effects": {
@@ -2098,22 +2098,22 @@
     "Weapon of Warning": {
       "effects": {
         "Weapon of Warning": {
-          "name": "Weapon of Warning",
+          "name": "警戒武器",
           "changes": {
-            "name": "{} of Warning",
+            "name": "警戒{}",
             "system.description.value": "{}<p>@Embed[Compendium.dnd-dungeon-masters-guide.equipment.Item.dmgWeaponOfWarni caption=false]</p>"
           }
         },
         "Supernatural Readiness: Initiative Advantage": {
-          "name": "Supernatural Readiness: Initiative Advantage",
-          "description": "<p>Each ally (including you) has Advantage on its Initiative rolls when within 30 feet.</p>"
+          "name": "超自然戒備：先攻優勢",
+          "description": "<p>每名盟友（包括你）在30呎內時，其先攻骰具有優勢。</p>"
         }
       },
-      "name": "Weapon of Warning",
-      "description": "<p>@Embed[Compendium.dnd-dungeon-masters-guide.equipment.Item.dmgWeaponOfWarni caption=false classes=\"hide-secrets\"]</p><p>@Embed[Compendium.dnd-forge-artificer.book.JournalEntry.efaAppendixFound.JournalEntryPage.2uGa93dXu7RhlZq9 caption=false cite=false classes=\"hide-in-embed\"]{Using Template Plans}</p>",
+      "name": "警戒武器",
+      "description": "<p>@Embed[Compendium.dnd-dungeon-masters-guide.equipment.Item.dmgWeaponOfWarni caption=false classes=\"hide-secrets\"]</p><p>@Embed[Compendium.dnd-forge-artificer.book.JournalEntry.efaAppendixFound.JournalEntryPage.2uGa93dXu7RhlZq9 caption=false cite=false classes=\"hide-in-embed\"]{使用範本方案}</p>",
       "activities": {
         "Replicate Magic Item": {
-          "name": "Replicate Magic Item"
+          "name": "仿製魔法物品"
         }
       }
     },
@@ -2136,22 +2136,22 @@
       "description": "<p>You gain proficiency in one skill or with one tool of your choice. Whenever you finish a Long Rest, you can replace it with another skill or tool proficiency.</p><section class=\"secret\" id=\"secret-gFTgZHI8vGGu2fgI\"><p><strong>Foundry Note</strong></p><p>Refer to @UUID[Compendium.dnd-forge-artificer.book.JournalEntry.efaAppendixFound.JournalEntryPage.V2entjsFRymITxop]{How to Modify Your Choices} to learn how to select another skill or proficiency.</p></section>"
     },
     "Weapon, +2": {
-      "name": "Weapon, +2",
+      "name": "武器+2",
       "effects": {
         "Weapon +2": {
-          "name": "Weapon +2",
+          "name": "武器+2",
           "changes": {
-            "name": "{} +2",
+            "name": "{}+2",
             "system.description.value": "{}<p>@Embed[Compendium.dnd-dungeon-masters-guide.equipment.Item.dmgWeapon12or300 caption=false]</p>"
           }
         }
       },
       "activities": {
         "Replicate Magic Item": {
-          "name": "Replicate Magic Item"
+          "name": "仿製魔法物品"
         }
       },
-      "description": "<p>@Embed[Compendium.dnd-dungeon-masters-guide.equipment.Item.dmgWeapon12or300 caption=false classes=\"hide-secrets\"]</p><p>@Embed[Compendium.dnd-forge-artificer.book.JournalEntry.efaAppendixFound.JournalEntryPage.2uGa93dXu7RhlZq9 caption=false cite=false classes=\"hide-in-embed\"]{Using Template Plans}</p>"
+      "description": "<p>@Embed[Compendium.dnd-dungeon-masters-guide.equipment.Item.dmgWeapon12or300 caption=false classes=\"hide-secrets\"]</p><p>@Embed[Compendium.dnd-forge-artificer.book.JournalEntry.efaAppendixFound.JournalEntryPage.2uGa93dXu7RhlZq9 caption=false cite=false classes=\"hide-in-embed\"]{使用範本方案}</p>"
     },
     "Dreadnaught: Giant Stature": {
       "effects": {
@@ -2231,13 +2231,13 @@
     "Sentinel Shield": {
       "effects": {
         "Sentinel Shield": {
-          "name": "Sentinel Shield"
+          "name": "哨衛之盾"
         }
       },
-      "name": "Sentinel Shield",
+      "name": "哨衛之盾",
       "activities": {
         "Replicate Magic Item": {
-          "name": "Replicate Magic Item"
+          "name": "仿製魔法物品"
         }
       },
       "description": "<p>@Embed[Compendium.dnd-dungeon-masters-guide.equipment.Item.dmgSentinelShiel caption=false classes=\"hide-secrets\"]</p>"
@@ -2269,15 +2269,15 @@
     },
     "Ring of Mind Shielding": {
       "name": "心靈護盾戒指",
-      "description": "<p><em>Ring，非普通（需同調）</em></p><p>While wearing this ring, you are immune to magic that allows other creatures to read your thoughts, determine whether you are lying, know your alignment, or know your creature type. Creatures can telepathically communicate with you only if you allow it.</p><p>You can take a Magic action to cause the ring to become imperceptible until you take another Magic action to make it perceptible, until you remove the ring, or until you die.</p><p>If you die while wearing the ring, your soul enters it, unless it already houses a soul. You can remain in the ring or depart for the afterlife. As long as your soul is in the ring, you can telepathically communicate with any creature wearing it. A wearer can’t prevent this telepathic communication.</p>",
+      "description": "<p>@Embed[Compendium.dnd-dungeon-masters-guide.equipment.Item.dmgRingOfMindShi caption=false classes=\"hide-secrets\"]</p>",
       "activities": {
         "Replicate Magic Item": {
-          "name": "Replicate Magic Item"
+          "name": "仿製魔法物品"
         }
       },
       "effects": {
         "Ring of Mind Shielding": {
-          "name": "Ring of Mind Shielding"
+          "name": "心靈護盾戒指"
         }
       }
     },
@@ -2306,43 +2306,43 @@
     },
     "Cloak of Elvenkind": {
       "name": "精靈斗篷",
-      "description": "<div><p><em>奇物，非普通（需同調）</em></p></div><p>While you wear this cloak, Wisdom (Perception) checks made to perceive you have Disadvantage, and you have Advantage on Dexterity (Stealth) checks.</p>",
+      "description": "<p>@Embed[Compendium.dnd-dungeon-masters-guide.equipment.Item.dmgCloakOfElvenk caption=false classes=\"hide-secrets\"]</p>",
       "activities": {
         "Replicate Magic Item": {
-          "name": "Replicate Magic Item"
+          "name": "仿製魔法物品"
         }
       },
       "effects": {
         "Cloak of Elvenkind": {
-          "name": "Cloak of Elvenkind"
+          "name": "精靈斗篷"
         }
       }
     },
     "Boots of the Winding Path": {
       "activities": {
         "Replicate Magic Item": {
-          "name": "Replicate Magic Item"
+          "name": "仿製魔法物品"
         }
       },
-      "name": "Boots of the Winding Path",
+      "name": "折返之靴",
       "effects": {
         "Boots of the Winding Path": {
-          "name": "Boots of the Winding Path"
+          "name": "折返之靴"
         }
       },
       "description": "<p>@Embed[Compendium.dnd-forge-artificer.items.Item.efaBootsoftheWin caption=false classes=\"hide-secrets\"]</p>"
     },
     "Boots of Elvenkind": {
       "name": "精靈之靴",
-      "description": "<div><p><em>奇物，非普通</em></p></div><p>While you wear these boots, your steps make no sound, regardless of the surface you are moving across. You also have Advantage on Dexterity (Stealth) checks.</p>",
+      "description": "<p>@Embed[Compendium.dnd-dungeon-masters-guide.equipment.Item.dmgBootsOfElvenk caption=false classes=\"hide-secrets\"]</p>",
       "effects": {
         "Boots of Elvenkind": {
-          "name": "Boots of Elvenkind"
+          "name": "精靈之靴"
         }
       },
       "activities": {
         "Replicate Magic Item": {
-          "name": "Replicate Magic Item"
+          "name": "仿製魔法物品"
         }
       }
     },
@@ -2379,16 +2379,16 @@
       }
     },
     "Ring of Feather Falling": {
-      "description": "<p><em>Ring，珍稀（需同調）</em></p><p>When you fall while wearing this ring, you descend 60 feet per round and take no damage from falling.</p>",
+      "description": "<p>@Embed[Compendium.dnd-dungeon-masters-guide.equipment.Item.dmgRingOfFeather caption=false classes=\"hide-secrets\"]</p>",
       "name": "羽落戒指",
       "effects": {
         "Ring of Feather Falling": {
-          "name": "Ring of Feather Falling"
+          "name": "羽落戒指"
         }
       },
       "activities": {
         "Replicate Magic Item": {
-          "name": "Replicate Magic Item"
+          "name": "仿製魔法物品"
         }
       }
     },
@@ -2440,16 +2440,16 @@
       "name": "Mark of Hospitality"
     },
     "Necklace of Adaptation": {
-      "description": "<p><em>奇物，非普通（需同調）</em></p><p>While wearing this necklace, you can breathe normally in any environment, and you have Advantage on saving throws made to avoid or end the &amp;Reference[Poisoned apply=false] condition.</p>",
+      "description": "<p>@Embed[Compendium.dnd-dungeon-masters-guide.equipment.Item.dmgNecklaceOfAda caption=false classes=\"hide-secrets\"]</p>",
       "name": "適應項鍊",
       "activities": {
         "Replicate Magic Item": {
-          "name": "Replicate Magic Item"
+          "name": "仿製魔法物品"
         }
       },
       "effects": {
         "Necklace of Adaptation": {
-          "name": "Necklace of Adaptation"
+          "name": "適應項鍊"
         }
       }
     },
@@ -2494,31 +2494,31 @@
       "name": "Tools of the Trade"
     },
     "Flame Tongue": {
-      "description": "<p>@Embed[Compendium.dnd-dungeon-masters-guide.equipment.Item.dmgFlameTongue00 caption=false classes=\"hide-secrets\"]</p><p>@Embed[Compendium.dnd-forge-artificer.book.JournalEntry.efaAppendixFound.JournalEntryPage.2uGa93dXu7RhlZq9 caption=false cite=false classes=\"hide-in-embed\"]{Using Template Plans}</p>",
+      "description": "<p>@Embed[Compendium.dnd-dungeon-masters-guide.equipment.Item.dmgFlameTongue00 caption=false classes=\"hide-secrets\"]</p><p>@Embed[Compendium.dnd-forge-artificer.book.JournalEntry.efaAppendixFound.JournalEntryPage.2uGa93dXu7RhlZq9 caption=false cite=false classes=\"hide-in-embed\"]{使用範本方案}</p>",
       "effects": {
         "Ablaze": {
           "changes": {
-            "name": "{} (Ablaze)"
+            "name": "{}（燃燒）"
           },
-          "name": "Ablaze"
+          "name": "燃燒"
         },
         "Flame Tongue": {
           "changes": {
             "system.description.value": "{}<p>@Embed[Compendium.dnd-dungeon-masters-guide.equipment.Item.dmgFlameTongue00 caption=false]</p>",
-            "name": "Flame Tongue {}"
+            "name": "焰舌{}"
           },
-          "name": "Flame Tongue"
+          "name": "焰舌"
         }
       },
       "activities": {
         "Engulf in Flames": {
-          "name": "Engulf in Flames"
+          "name": "烈焰纏刃"
         },
         "Replicate Magic Item": {
-          "name": "Replicate Magic Item"
+          "name": "仿製魔法物品"
         }
       },
-      "name": "Flame Tongue"
+      "name": "焰舌"
     },
     "Mark of Detection": {
       "effects": {
@@ -2594,16 +2594,16 @@
       "description": "<p>每當你在你的回合採取攻擊動作時，你可以攻擊兩次，而非一次。</p>"
     },
     "Ring of Free Action": {
-      "description": "<p><em>Ring，珍稀（需同調）</em></p><p>While you wear this ring, &amp;Reference[Difficult Terrain] doesn’t cost you extra movement. In addition, magic can neither reduce any of your Speeds nor cause you to have the &amp;Reference[Paralyzed apply=false] or &amp;Reference[Restrained apply=false] condition.</p>",
+      "description": "<p>@Embed[Compendium.dnd-dungeon-masters-guide.equipment.Item.dmgRingOfFreeAct caption=false classes=\"hide-secrets\"]</p>",
       "name": "自由行動戒指",
       "activities": {
         "Replicate Magic Item": {
-          "name": "Replicate Magic Item"
+          "name": "仿製魔法物品"
         }
       },
       "effects": {
         "Ring of Free Action": {
-          "name": "Ring of Free Action"
+          "name": "自由行動戒指"
         }
       }
     },
@@ -2620,15 +2620,15 @@
     "Soul of Artifice": {
       "activities": {
         "Cheat Death": {
-          "name": "Cheat Death",
-          "condition": "reduced to 0 Hit Points but not killed outright"
+          "name": "幸免於難",
+          "condition": "生命值降至0點但沒有被當場殺死"
         },
         "Magical Guidance": {
-          "name": "Magical Guidance"
+          "name": "魔法指引"
         }
       },
-      "description": "<p>You have developed a mystical connection to your magic items, which you can draw on for aid. You gain the following benefits.</p><p><em><strong>Cheat Death.</strong></em> If you’re reduced to 0 Hit Points but not killed outright, you can disintegrate any number of Uncommon or Rare magic items created by your Replicate Magic Item feature. If you do so, your Hit Points instead change to a number equal to 20 times the number of magic items disintegrated.</p><p><em><strong>Magical Guidance.</strong></em> When you finish a Short Rest, you regain all expended uses of your Flash of Genius if you have Attunement to at least one magic item.</p>",
-      "name": "Soul of Artifice"
+      "description": "<p>你與你的魔法物品建立了一種神祕的聯繫，並能借助這種聯繫獲得協助。你獲得下列好處。</p><p><em><strong>【幸免於難】</strong></em>當你的生命值降至0點但沒有被當場殺死時，你可以瓦解任意數量由你的仿製魔法物品特性所創造的非普通或珍稀魔法物品。若你這麼做，你的生命值改為被瓦解魔法物品數量的20倍。</p><p><em><strong>【魔法指引】</strong></em>當你完成短休時，若你與至少一件魔法物品同調，你的靈光一閃特性重獲所有已消耗的使用次數。</p>",
+      "name": "奇械之魂"
     },
     "Goggles of Night": {
       "effects": {
@@ -2636,27 +2636,27 @@
           "name": "Goggles On"
         },
         "Goggles of Night": {
-          "name": "Goggles of Night"
+          "name": "夜視護目鏡"
         }
       },
       "name": "夜視護目鏡",
-      "description": "<p><em>奇物，非普通</em></p><p>While wearing these dark lenses, you have Darkvision out to 60 feet. If you already have Darkvision, wearing the goggles increases its range by 60 feet.</p>",
+      "description": "<p>@Embed[Compendium.dnd-dungeon-masters-guide.equipment.Item.dmgGogglesOfNigh caption=false classes=\"hide-secrets\"]</p>",
       "activities": {
         "Replicate Magic Item": {
-          "name": "Replicate Magic Item"
+          "name": "仿製魔法物品"
         }
       }
     },
     "Artificer Subclass": {
-      "description": "<p>You gain an Artificer subclass of your choice. The @UUID[Compendium.dnd-forge-artificer.options.Item.efaAlchemist0000]{Alchemist}, @UUID[Compendium.dnd-forge-artificer.options.Item.efaArmorer000000]{Armorer}, @UUID[Compendium.dnd-forge-artificer.options.Item.efaArtillerist00]{Artillerist}, @UUID[Compendium.dnd-forge-artificer.options.Item.efaBattleSmith00]{Battle Smith}, and @UUID[Compendium.dnd-forge-artificer.options.Item.efaCartographer0]{Cartographer} subclasses are detailed after this class’s description. A subclass is a specialization that grants you features at certain Artificer levels. For the rest of your career, you gain each of your subclass’s features that are of your Artificer level or lower.</p>",
-      "name": "Artificer Subclass"
+      "description": "<p>你獲得一項你所選擇的奇械師子職。@UUID[Compendium.dnd-forge-artificer.options.Item.efaAlchemist0000]{煉金師}、@UUID[Compendium.dnd-forge-artificer.options.Item.efaArmorer000000]{裝甲師}、@UUID[Compendium.dnd-forge-artificer.options.Item.efaArtillerist00]{魔炮師}、@UUID[Compendium.dnd-forge-artificer.options.Item.efaBattleSmith00]{戰地匠師}與@UUID[Compendium.dnd-forge-artificer.options.Item.efaCartographer0]{製圖師}子職，會在本職業描述之後詳述。子職是一種專精，會在特定的奇械師等級賦予你特性。在你往後的生涯中，只要你的奇械師等級等於或高於其所需等級，你就會獲得該子職的每一項特性。</p>",
+      "name": "奇械師子職"
     },
     "Magic Item Adept": {
-      "description": "<p>You can now attune to up to four magic items at once.</p>",
-      "name": "Magic Item Adept",
+      "description": "<p>你現在可以同時與至多四件魔法物品同調。</p>",
+      "name": "魔法物品巧匠",
       "effects": {
         "Magic Item Adept": {
-          "name": "Magic Item Adept"
+          "name": "魔法物品巧匠"
         }
       }
     },
@@ -2695,7 +2695,7 @@
           "title": "史詩恩惠"
         },
         "Plans Known": {
-          "title": "Plans Known"
+          "title": "已知方案"
         },
         "Saving Throw Proficiencies": {
           "title": "豁免檢定熟練"
@@ -2704,20 +2704,20 @@
           "title": "武器熟練"
         },
         "Cantrips": {
-          "title": "Cantrips"
+          "title": "戲法"
         },
         "Class Features": {
           "title": "職業特性"
         },
         "Magic Items": {
-          "title": "Magic Items"
+          "title": "魔法物品"
         },
         "Prepared Spells": {
-          "title": "Prepared Spells"
+          "title": "準備法術"
         }
       },
-      "description": "<p>Masters of invention, Artificers use ingenuity and magic to unlock extraordinary capabilities in objects. They see magic as a complex system waiting to be decoded and then harnessed in their spells and inventions. You can find everything you need to play one of these inventors in this chapter (@UUID[Compendium.dnd-forge-artificer.book.JournalEntry.efaTheArtificer0]{The Artificer}).</p>",
-      "name": "Artificer"
+      "description": "<p>身為發明大師的奇械師，運用巧思與魔法解開物品中的非凡能力。他們視魔法為待解碼的複雜系統，進而將其運用於自己的法術與發明之中。你可以在本章（@UUID[Compendium.dnd-forge-artificer.book.JournalEntry.efaTheArtificer0]{奇械師}）找到扮演這類發明家所需的一切。</p>",
+      "name": "奇械師"
     },
     "Dual Mind": {
       "description": "<p>You have Advantage on Wisdom and Charisma saving throws.</p><section id=\"secret-f00479yITv8TsOhg\" class=\"secret\"><p><strong>Foundry Note</strong></p><p>This feature includes an Active Effect which automatically grants you Advantage.</p></section>",
@@ -2849,16 +2849,16 @@
       "name": "Mark of Passage"
     },
     "Gloves of Thievery": {
-      "name": "Gloves of Thievery",
+      "name": "竊賊手套",
       "description": "<p>@Embed[Compendium.dnd-dungeon-masters-guide.equipment.Item.dmgGlovesOfThiev caption=false classes=\"hide-secrets\"]</p>",
       "activities": {
         "Replicate Magic Item": {
-          "name": "Replicate Magic Item"
+          "name": "仿製魔法物品"
         }
       },
       "effects": {
         "Gloves of Thievery": {
-          "name": "Gloves of Thievery"
+          "name": "竊賊手套"
         }
       }
     },
@@ -2866,116 +2866,116 @@
       "effects": {
         "Armor of Poison Resistance": {
           "changes": {
-            "name": "{} of Poison Resistance",
+            "name": "毒素抗力{}",
             "system.description.value": "{}<p>@Embed[Compendium.dnd-dungeon-masters-guide.equipment.Item.dmgArmorOfResist caption=false]</p>"
           },
-          "name": "Armor of Poison Resistance"
+          "name": "毒素抗力護甲"
         },
         "Necrotic Resistance": {
-          "name": "Necrotic Resistance"
+          "name": "黯蝕抗力"
         },
         "Armor of Thunder Resistance": {
           "changes": {
-            "name": "{} of Thunder Resistance",
+            "name": "雷鳴抗力{}",
             "system.description.value": "{}<p>@Embed[Compendium.dnd-dungeon-masters-guide.equipment.Item.dmgArmorOfResist caption=false]</p>"
           },
-          "name": "Armor of Thunder Resistance"
+          "name": "雷鳴抗力護甲"
         },
         "Armor of Acid Resistance": {
           "changes": {
-            "name": "{} of Acid Resistance",
+            "name": "強酸抗力{}",
             "system.description.value": "{}<p>@Embed[Compendium.dnd-dungeon-masters-guide.equipment.Item.dmgArmorOfResist caption=false]</p>"
           },
-          "name": "Armor of Acid Resistance"
+          "name": "強酸抗力護甲"
         },
         "Armor of Fire Resistance": {
-          "name": "Armor of Fire Resistance",
+          "name": "火焰抗力護甲",
           "changes": {
             "system.description.value": "{}<p>@Embed[Compendium.dnd-dungeon-masters-guide.equipment.Item.dmgArmorOfResist caption=false]</p>",
-            "name": "{} of Fire Resistance"
+            "name": "火焰抗力{}"
           }
         },
         "Armor of Necrotic Resistance": {
           "changes": {
             "system.description.value": "{}<p>@Embed[Compendium.dnd-dungeon-masters-guide.equipment.Item.dmgArmorOfResist caption=false]</p>",
-            "name": "{} of Necrotic Resistance"
+            "name": "黯蝕抗力{}"
           },
-          "name": "Armor of Necrotic Resistance"
+          "name": "黯蝕抗力護甲"
         },
         "Cold Resistance": {
-          "name": "Cold Resistance"
+          "name": "寒冷抗力"
         },
         "Armor of Cold Resistance": {
           "changes": {
             "system.description.value": "{}<p>@Embed[Compendium.dnd-dungeon-masters-guide.equipment.Item.dmgArmorOfResist caption=false]</p>",
-            "name": "{} of Cold Resistance"
+            "name": "寒冷抗力{}"
           },
-          "name": "Armor of Cold Resistance"
+          "name": "寒冷抗力護甲"
         },
         "Armor of Psychic Resistance": {
-          "name": "Armor of Psychic Resistance",
+          "name": "心靈抗力護甲",
           "changes": {
             "system.description.value": "{}<p>@Embed[Compendium.dnd-dungeon-masters-guide.equipment.Item.dmgArmorOfResist caption=false]</p>",
-            "name": "{} of Psychic Resistance"
+            "name": "心靈抗力{}"
           }
         },
         "Force Resistance": {
-          "name": "Force Resistance"
+          "name": "力場抗力"
         },
         "Armor of Force Resistance": {
           "changes": {
-            "name": "{} of Force Resistance",
+            "name": "力場抗力{}",
             "system.description.value": "{}<p>@Embed[Compendium.dnd-dungeon-masters-guide.equipment.Item.dmgArmorOfResist caption=false]</p>"
           },
-          "name": "Armor of Force Resistance"
+          "name": "力場抗力護甲"
         },
         "Armor of Radiant Resistance": {
-          "name": "Armor of Radiant Resistance",
+          "name": "光耀抗力護甲",
           "changes": {
             "system.description.value": "{}<p>@Embed[Compendium.dnd-dungeon-masters-guide.equipment.Item.dmgArmorOfResist caption=false]</p>",
-            "name": "{} of Radiant Resistance"
+            "name": "光耀抗力{}"
           }
         },
         "Poison Resistance": {
-          "name": "Poison Resistance"
+          "name": "毒素抗力"
         },
         "Fire Resistance": {
-          "name": "Fire Resistance"
+          "name": "火焰抗力"
         },
         "Armor of Lightning Resistance": {
-          "name": "Armor of Lightning Resistance",
+          "name": "閃電抗力護甲",
           "changes": {
             "system.description.value": "{}<p>@Embed[Compendium.dnd-dungeon-masters-guide.equipment.Item.dmgArmorOfResist caption=false]</p>",
-            "name": "{} of Lightning Resistance"
+            "name": "閃電抗力{}"
           }
         },
         "Psychic Resistance": {
-          "name": "Psychic Resistance"
+          "name": "心靈抗力"
         },
         "Acid Resistance": {
-          "name": "Acid Resistance"
+          "name": "強酸抗力"
         },
         "Radiant Resistance": {
-          "name": "Radiant Resistance"
+          "name": "光耀抗力"
         },
         "Thunder Resistance": {
-          "name": "Thunder Resistance"
+          "name": "雷鳴抗力"
         },
         "Lightning Resistance": {
-          "name": "Lightning Resistance"
+          "name": "閃電抗力"
         }
       },
-      "description": "<p>@Embed[Compendium.dnd-dungeon-masters-guide.equipment.Item.dmgArmorOfResist caption=false classes=\"hide-secrets\"]</p><p>@Embed[Compendium.dnd-forge-artificer.book.JournalEntry.efaAppendixFound.JournalEntryPage.2uGa93dXu7RhlZq9 caption=false cite=false classes=\"hide-in-embed\"]{Using Template Plans}</p>",
+      "description": "<p>@Embed[Compendium.dnd-dungeon-masters-guide.equipment.Item.dmgArmorOfResist caption=false classes=\"hide-secrets\"]</p><p>@Embed[Compendium.dnd-forge-artificer.book.JournalEntry.efaAppendixFound.JournalEntryPage.2uGa93dXu7RhlZq9 caption=false cite=false classes=\"hide-in-embed\"]{使用範本方案}</p>",
       "activities": {
         "Replicate Magic Item": {
-          "name": "Replicate Magic Item"
+          "name": "仿製魔法物品"
         }
       },
-      "name": "Armor of Resistance"
+      "name": "抗力護甲"
     },
     "Ring of Protection": {
       "name": "防護戒指",
-      "description": "<p><em>Ring，珍稀（需同調）</em></p><p>You gain a +1 bonus to Armor Class and saving throws while wearing this ring.</p>",
+      "description": "<p>@Embed[Compendium.dnd-dungeon-masters-guide.equipment.Item.dmgRingOfProtect caption=false classes=\"hide-secrets\"]</p>",
       "effects": {
         "Ring of Protection": {
           "name": "防護戒指"
@@ -2983,7 +2983,7 @@
       },
       "activities": {
         "Replicate Magic Item": {
-          "name": "Replicate Magic Item"
+          "name": "仿製魔法物品"
         }
       }
     },
@@ -3039,19 +3039,19 @@
     },
     "Ring of the Ram": {
       "name": "公羊戒指",
-      "description": "<p><em>Ring，珍稀（需同調）</em></p><p>This ring has 3 charges and regains 1d3 expended charges daily at dawn. While wearing the ring, you can take a Magic action to expend 1 to 3 charges to make a ranged spell attack against one creature you can see within 60 feet of yourself. The ring produces a spectral ram’s head and makes its attack roll with a +7 bonus. On a hit, for each charge you spend, the target takes 2d10 Force damage and is pushed 5 feet away from you.</p><p>Alternatively, you can expend 1 to 3 of the ring’s charges as a Magic action to try to break a nonmagical object you can see within 60 feet of yourself that isn’t being worn or carried. The ring makes a Strength check with a +5 bonus for each charge you spend.</p>",
+      "description": "<p>@Embed[Compendium.dnd-dungeon-masters-guide.equipment.Item.dmgRingOfTheRam0 caption=false classes=\"hide-secrets\"]</p>",
       "activities": {
         "Break Item": {
           "name": "Break Item",
           "roll": "Strength Roll"
         },
         "Replicate Magic Item": {
-          "name": "Replicate Magic Item"
+          "name": "仿製魔法物品"
         }
       },
       "effects": {
         "Ring of the Ram": {
-          "name": "Ring of the Ram"
+          "name": "公羊戒指"
         }
       }
     },
@@ -3060,30 +3060,30 @@
         "Armor +1": {
           "changes": {
             "system.description.value": "{}<p>@Embed[Compendium.dnd-dungeon-masters-guide.equipment.Item.dmgArmor12or3000 caption=false]</p>",
-            "name": "{} +1"
+            "name": "{}+1"
           },
-          "name": "Armor +1"
+          "name": "護甲+1"
         }
       },
       "activities": {
         "Replicate Magic Item": {
-          "name": "Replicate Magic Item"
+          "name": "仿製魔法物品"
         }
       },
-      "name": "Armor, +1",
-      "description": "<p>@Embed[Compendium.dnd-dungeon-masters-guide.equipment.Item.dmgArmor12or3000 caption=false classes=\"hide-secrets\"]</p><p>@Embed[Compendium.dnd-forge-artificer.book.JournalEntry.efaAppendixFound.JournalEntryPage.2uGa93dXu7RhlZq9 caption=false cite=false classes=\"hide-in-embed\"]{Using Template Plans}</p>"
+      "name": "護甲+1",
+      "description": "<p>@Embed[Compendium.dnd-dungeon-masters-guide.equipment.Item.dmgArmor12or3000 caption=false classes=\"hide-secrets\"]</p><p>@Embed[Compendium.dnd-forge-artificer.book.JournalEntry.efaAppendixFound.JournalEntryPage.2uGa93dXu7RhlZq9 caption=false cite=false classes=\"hide-in-embed\"]{使用範本方案}</p>"
     },
     "Rare Wondrous Item that isn’t cursed": {
-      "name": "Rare Wondrous Item that isn’t cursed",
-      "description": "<p>You can learn this option multiple times and must select a different item each time; each item selected counts as a different plan.</p><p>@Embed[Compendium.dnd-forge-artificer.book.JournalEntry.efaAppendixFound.JournalEntryPage.mF1U5S8M2t81ZF2Y classes=\"hide-in-embed\" caption=false cite=false]{Using Category Plans}</p>",
+      "name": "未受詛咒的珍稀奇物",
+      "description": "<p>你可以多次習得此選項，且每次必須選擇不同的物品；每件所選的物品都算作一個不同的方案。</p><p>@Embed[Compendium.dnd-forge-artificer.book.JournalEntry.efaAppendixFound.JournalEntryPage.mF1U5S8M2t81ZF2Y classes=\"hide-in-embed\" caption=false cite=false]{使用類別方案}</p>",
       "activities": {
         "Replicate Magic Item": {
-          "name": "Replicate Magic Item"
+          "name": "仿製魔法物品"
         }
       },
       "effects": {
         "Rare Wondrous Item that isn’t cursed": {
-          "name": "Rare Wondrous Item that isn’t cursed"
+          "name": "未受詛咒的珍稀奇物"
         }
       }
     },
@@ -3100,32 +3100,32 @@
     "Mind Sharpener": {
       "effects": {
         "Mind Sharpener": {
-          "name": "Mind Sharpener"
+          "name": "思維砥戒"
         }
       },
-      "name": "Mind Sharpener",
+      "name": "思維砥戒",
       "description": "<p>@Embed[Compendium.dnd-forge-artificer.items.Item.efaMindSharpener caption=false classes=\"hide-secrets\"]</p>",
       "activities": {
         "Replicate Magic Item": {
-          "name": "Replicate Magic Item"
+          "name": "仿製魔法物品"
         }
       }
     },
     "Cloak of the Manta Ray": {
-      "description": "<div><p><em>奇物，非普通（需同調）</em></p></div><p>While wearing this cloak, you can breathe underwater, and you have a Swim Speed of 60 feet.</p>",
+      "description": "<p>@Embed[Compendium.dnd-dungeon-masters-guide.equipment.Item.dmgCloakOfTheMan caption=false classes=\"hide-secrets\"]</p>",
       "effects": {
         "Aquatic Bonuses: Swimming and Breathing": {
           "name": "Aquatic Bonuses: Swimming and Breathing",
           "description": "<p>You can breathe underwater, and you have a Swim Speed of 60 feet.</p>"
         },
         "Cloak of the Manta Ray": {
-          "name": "Cloak of the Manta Ray"
+          "name": "魟魚斗篷"
         }
       },
       "name": "魟魚斗篷",
       "activities": {
         "Replicate Magic Item": {
-          "name": "Replicate Magic Item"
+          "name": "仿製魔法物品"
         }
       }
     },
@@ -3149,7 +3149,7 @@
     },
     "Spellcasting": {
       "name": "施法",
-      "description": "<p>你透過鑽研詩人技藝而學會了施法。有關施法的規則請參見@UUID[Compendium.dnd-players-handbook.content.JournalEntry.phbSpells0000000.JournalEntryPage.mh3akteBDiLegqFK]{chapter 7} 。以下資訊詳細說明了如何將這些規則與吟遊詩人法術結合使用。吟遊詩人法術即該職業描述後的@UUID[Compendium.dnd-players-handbook.content.JournalEntry.phbSpells0000000.JournalEntryPage.wwia6Wwo4BgE9GSI]{吟遊詩人法術列表}中羅列的法術。</p><p><strong>【戲法】</strong>你知曉兩個從吟遊詩人法術列表中你所選擇的戲法。推薦選擇<em>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplDancingLig]</em>和<em>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplViciousMoc]</em> 。</p><p>每當你獲得吟遊詩人等級時，你可以將一個戲法替換為另一個吟遊詩人法術列表中你所選擇的戲法。</p><p>當你達到吟遊詩人 4 級和 10 級時，你可以從吟遊詩人法術列表中學習一個新的戲法，正如@UUID[Compendium.dnd-players-handbook.content.JournalEntry.phbBard000000000.JournalEntryPage.V8pqIWlaL9GhY61t#class-features]{吟遊詩人特性}表中戲法一欄所示。</p><p><strong>【法術位】</strong>吟遊詩人特性表記錄了你有多少法術位用以施放 1+環階的法術。當你完成長休時，你會重獲所有消耗的法術位。</p><p><strong>【準備1環以上的法術】</strong>通過該特性施法前，你需要選擇數個可用的1環以上的法術構成準備列表。首先，從吟遊詩人法術列表中選擇四個 1 環法術。推薦選擇<em>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplCharmPerso]</em>、<em>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplColorSpray]</em>、<em>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplDissonantW]</em>、<em>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplHealingWor]</em>。</p><p>準備列表上的法術數量將隨著你的吟遊詩人等級而增加，正如吟遊詩人特性表中準備法術一欄所示。每當該數量增加時，從吟遊詩人法術列表中選擇額外的法術來新增到你的準備列表中，直到你準備列表上的法術數量與吟遊詩人特性表中的數量相匹配。你只能準備已經獲得相應環階法術位的法術。例如，作為 3 級吟遊詩人，你的準備法術列表應該包括六個任意組合的1環或2環法術。</p><p>若另一個吟遊詩人特性給予你額外的準備法術，這些法術不會計入你在該特性中的準備法術數量，但是這些法術對你而言仍算作吟遊詩人法術。</p><p><strong>【更改準備法術】</strong>每當你獲得一個吟遊詩人等級時， 你可以將準備列表中的一個法術，替換為另一個你擁有法術位的吟遊詩人法術。</p><p><strong>【施法屬性】</strong>魅力是你施放吟遊詩人法術的施法屬性。</p><p><strong>【師法法器】</strong>你可以使用樂器作為吟遊詩人法術的施法法器。</p>"
+      "description": "<p>你已學會如何透過物品引導魔法能量。請參見<em>玩家手冊</em>中有關@UUID[Compendium.dnd5e.content24.JournalEntry.phbSpells0000000]{施法}的規則。以下資訊詳述如何將這些規則運用於奇械師法術；奇械師法術列於該職業描述後文的奇械師法術列表中。</p><p><em><strong>【所需工具】</strong></em>你透過工具施放奇械師法術。你可以使用盜賊工具、修補匠工具，或其他你具有熟練的工匠工具作為@UUID[Compendium.dnd5e.content24.JournalEntry.phbSpells0000000.JournalEntryPage.9gz1xBZF5YsMScrk#material-(m)]{施法法器}，且當你施放奇械師法術時，手中必須持有其中一件法器（意即該法術在施放時具有<em>M</em>&amp;Reference[components]{成分}）。</p><p><em><strong>【戲法】</strong></em>你知曉兩個你所選擇的奇械師戲法。推薦選擇<em>@UUID[Compendium.dnd5e.spells24.Item.phbsplAcidSplash]{酸液濺爆}</em>和<em>@UUID[Compendium.dnd5e.spells24.Item.phbsplPrestidigi]{魔法技倆}</em>。</p><p>每當你完成&amp;Reference[Long Rest]{長休}時，你可以將此特性所提供的其中一個戲法，替換為另一個你所選擇的奇械師戲法。</p><p>當你達到奇械師10級和14級時，你可以另外習得一個你所選擇的奇械師戲法，如奇械師特性表中戲法一欄所示。</p><p><em><strong>【法術位】</strong></em>奇械師特性表顯示了你有多少法術位可用以施放1環以上的法術。當你完成長休時，你會重獲所有已消耗的法術位。</p><p><em><strong>【準備1環以上的法術】</strong></em>你準備可透過此特性施放的1環以上法術列表。起初，選擇兩個1環奇械師法術。推薦選擇<em>@UUID[Compendium.dnd5e.spells24.Item.phbsplCureWounds]{治療傷勢}</em>和<em>@UUID[Compendium.dnd5e.spells24.Item.phbsplGrease0000]{油膩術}</em>。</p><p>你列表上的法術數量會隨著你獲得奇械師等級而增加，如奇械師特性表中準備法術一欄所示。每當該數量增加時，選擇額外的奇械師法術，直到你列表上的法術數量與表格上的數字相符。所選法術的環階必須是你擁有對應法術位的環階。例如，若你是5級奇械師，你的準備法術列表可包含任意組合的六個1環和2環奇械師法術。</p><p>若其他奇械師特性賦予你始終準備的法術，這些法術不計入你能以此特性準備的法術數量，但對你而言仍視為奇械師法術。</p><p><em><strong>【更改準備法術】</strong></em>每當你完成長休時，你可以更改你的準備法術列表，將其中任何法術替換為你擁有對應法術位的其他奇械師法術。</p><p><em><strong>【施法屬性】</strong></em>智力是你施放奇械師法術的施法屬性。</p>"
     }
   },
   "mapping": {
