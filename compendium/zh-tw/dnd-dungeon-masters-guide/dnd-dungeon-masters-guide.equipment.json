@@ -84,10 +84,10 @@
             "name": "{} +3",
             "system.description.value": "{}<p>@Embed[Compendium.dnd-dungeon-masters-guide.equipment.Item.dmgWeapon12or300 caption=false]</p>"
           },
-          "name": "武器 +3"
+          "name": "武器+3"
         },
         "Weapon +2": {
-          "name": "武器 +2",
+          "name": "武器+2",
           "changes": {
             "system.description.value": "{}<p>@Embed[Compendium.dnd-dungeon-masters-guide.equipment.Item.dmgWeapon12or300 caption=false]</p>",
             "name": "{} +2"
@@ -101,7 +101,7 @@
           }
         }
       },
-      "description": "<p><em>武器（任意簡易或軍用），非常見（+1）、珍稀（+2）、非常珍稀（+3）</em></p><p>你使用這把魔法武器進行的攻擊檢定和傷害骰都會獲得加值。該加值取決於武器的稀有度。</p><p>@Embed[Compendium.dnd-dungeon-masters-guide.content.JournalEntry.dmgFoundryRefere.JournalEntryPage.Ok4iCgD25ENgoRxE cite=false caption=false classes=\"hide-in-embed\"]</p>",
+      "description": "<p><em>武器（任意簡易或軍用），非普通（+1）／珍稀（+2）／極珍稀（+3）</em></p><p>你使用這把魔法武器進行的攻擊檢定和傷害擲骰具有加值，該加值的大小取決於該武器的稀有度。</p><p>@Embed[Compendium.dnd-dungeon-masters-guide.content.JournalEntry.dmgFoundryRefere.JournalEntryPage.Ok4iCgD25ENgoRxE cite=false caption=false classes=\"hide-in-embed\"]</p>",
       "name": "武器+1、+2、+3",
       "activities": {
         "Weapon, +1, +2, or +3": {
@@ -122,103 +122,103 @@
     "Enspelled Weapon": {
       "activities": {
         "7trhDxAAI7D3MGf5": {
-          "name": "Cast Bound Spell"
+          "name": "施放銘刻法術"
         },
         "YrZqPZj4QuKEhycT": {
-          "name": "Cast Bound Spell"
+          "name": "施放銘刻法術"
         },
         "TVB46dAUr3wJPYGy": {
-          "name": "Cast Bound Spell"
+          "name": "施放銘刻法術"
         },
         "Cast Bound Spell": {
-          "name": "Cast Bound Spell"
+          "name": "施放銘刻法術"
         },
         "c9wxLOG8pe1KZPtJ": {
-          "name": "Cast Bound Spell"
+          "name": "施放銘刻法術"
         },
         "Enspelled Weapon": {
-          "name": "Enspelled Weapon"
+          "name": "魔咒武器"
         },
         "Cast Bound Cantrip": {
-          "name": "Cast Bound Cantrip"
+          "name": "施放銘刻戲法"
         },
         "XQcxrqa83k11tycD": {
-          "name": "Cast Bound Spell"
+          "name": "施放銘刻法術"
         },
         "eBL8LVWHzKrD6Akr": {
-          "name": "Cast Bound Spell"
+          "name": "施放銘刻法術"
         },
         "eFZVVEl8bjQdU8ip": {
-          "name": "Cast Bound Spell"
+          "name": "施放銘刻法術"
         }
       },
       "effects": {
         "Cantrip Enspelled Weapon": {
           "changes": {
             "system.description.value": "{}<p>@Embed[Compendium.dnd-dungeon-masters-guide.equipment.Item.dmgEnspelledWeap caption=false]</p>",
-            "name": "Enspelled {}"
+            "name": "魔咒{}"
           },
-          "name": "Cantrip Enspelled Weapon"
+          "name": "戲法魔咒武器"
         },
         "4th Level Enspelled Weapon": {
-          "name": "4th Level Enspelled Weapon",
+          "name": "4環魔咒武器",
           "changes": {
             "system.description.value": "{}<p>@Embed[Compendium.dnd-dungeon-masters-guide.equipment.Item.dmgEnspelledWeap caption=false]</p>",
-            "name": "Enspelled {}"
+            "name": "魔咒{}"
           }
         },
         "2nd Level Enspelled Weapon": {
           "changes": {
             "system.description.value": "{}<p>@Embed[Compendium.dnd-dungeon-masters-guide.equipment.Item.dmgEnspelledWeap caption=false]</p>",
-            "name": "Enspelled {}"
+            "name": "魔咒{}"
           },
-          "name": "2nd Level Enspelled Weapon"
+          "name": "2環魔咒武器"
         },
         "7th Level Enspelled Weapon": {
-          "name": "7th Level Enspelled Weapon",
+          "name": "7環魔咒武器",
           "changes": {
-            "name": "Enspelled {}",
+            "name": "魔咒{}",
             "system.description.value": "{}<p>@Embed[Compendium.dnd-dungeon-masters-guide.equipment.Item.dmgEnspelledWeap caption=false]</p>"
           }
         },
         "1st Level Enspelled Weapon": {
-          "name": "1st Level Enspelled Weapon",
+          "name": "1環魔咒武器",
           "changes": {
             "system.description.value": "{}<p>@Embed[Compendium.dnd-dungeon-masters-guide.equipment.Item.dmgEnspelledWeap caption=false]</p>",
-            "name": "Enspelled {}"
+            "name": "魔咒{}"
           }
         },
         "6th Level Enspelled Weapon": {
           "changes": {
-            "name": "Enspelled {}",
+            "name": "魔咒{}",
             "system.description.value": "{}<p>@Embed[Compendium.dnd-dungeon-masters-guide.equipment.Item.dmgEnspelledWeap caption=false]</p>"
           },
-          "name": "6th Level Enspelled Weapon"
+          "name": "6環魔咒武器"
         },
         "8th Level Enspelled Weapon": {
           "changes": {
             "system.description.value": "{}<p>@Embed[Compendium.dnd-dungeon-masters-guide.equipment.Item.dmgEnspelledWeap caption=false]</p>",
-            "name": "Enspelled {}"
+            "name": "魔咒{}"
           },
-          "name": "8th Level Enspelled Weapon"
+          "name": "8環魔咒武器"
         },
         "5th Level Enspelled Weapon": {
           "changes": {
             "system.description.value": "{}<p>@Embed[Compendium.dnd-dungeon-masters-guide.equipment.Item.dmgEnspelledWeap caption=false]</p>",
-            "name": "Enspelled {}"
+            "name": "魔咒{}"
           },
-          "name": "5th Level Enspelled Weapon"
+          "name": "5環魔咒武器"
         },
         "3rd Level Enspelled Weapon": {
           "changes": {
-            "name": "Enspelled {}",
+            "name": "魔咒{}",
             "system.description.value": "{}<p>@Embed[Compendium.dnd-dungeon-masters-guide.equipment.Item.dmgEnspelledWeap caption=false]</p>"
           },
-          "name": "3rd Level Enspelled Weapon"
+          "name": "3環魔咒武器"
         }
       },
-      "name": "Enspelled Weapon",
-      "description": "<p><em>武器（任意簡易或軍用）, Rarity Varies（需同調）</em></p><p>Bound into this weapon is a spell of level 8 or lower. The spell is determined when the weapon is created and must belong to the Conjuration, Divination, Evocation, Necromancy, or Transmutation school of magic. The weapon has 6 charges and regains 1d6 expended charges daily at dawn. While holding the weapon, you can expend 1 charge to cast its spell.</p><p>The level of the spell bound into the weapon determines the spell’s saving throw DC and attack bonus, as well as the weapon’s rarity, as shown in the following table.</p><details><summary>Spell Level Table</summary><table><thead><tr><td>Spell Level</td><td>Rarity</td><td>Save DC</td><td>Attack Bonus</td></tr></thead><tbody><tr><td>Cantrip</td><td>Uncommon</td><td>13</td><td>+5</td></tr><tr><td>1</td><td>Uncommon</td><td>13</td><td>+5</td></tr><tr><td>2</td><td>Rare</td><td>13</td><td>+5</td></tr><tr><td>3</td><td>Rare</td><td>15</td><td>+7</td></tr><tr><td>4</td><td>Very Rare</td><td>15</td><td>+7</td></tr><tr><td>5</td><td>Very Rare</td><td>17</td><td>+9</td></tr><tr><td>6</td><td>Legendary</td><td>17</td><td>+9</td></tr><tr><td>7</td><td>Legendary</td><td>18</td><td>+10</td></tr><tr><td>8</td><td>Legendary</td><td>18</td><td>+10</td></tr></tbody></table></details><p> @Embed[Compendium.dnd-dungeon-masters-guide.content.JournalEntry.dmgFoundryRefere.JournalEntryPage.Ok4iCgD25ENgoRxE cite=false caption=false classes=\"hide-in-embed\"]</p>"
+      "name": "魔咒武器",
+      "description": "<p><em>武器（任意簡易或軍用），多種稀有度（需同調）</em></p><p>這把武器中銘刻了一道環階為8環或更低的法術。該法術於製造這把武器時決定，且必須屬於咒法、預言、塑能、死靈或變化學派。這把武器具有6點充能，並在每日黎明時恢復1d6點已消耗的充能。持握這把武器期間，你可以消耗1點充能以施放其法術。</p><p>武器中銘刻之法術的環階，決定了該法術的豁免DC與攻擊加值，以及這把武器的稀有度，如下列表格所示。</p><details><summary>法術環階表</summary><table><thead><tr><td>法術環階</td><td>稀有度</td><td>豁免DC</td><td>攻擊加值</td></tr></thead><tbody><tr><td>戲法</td><td>非普通</td><td>13</td><td>+5</td></tr><tr><td>1環</td><td>非普通</td><td>13</td><td>+5</td></tr><tr><td>2環</td><td>珍稀</td><td>13</td><td>+5</td></tr><tr><td>3環</td><td>珍稀</td><td>15</td><td>+7</td></tr><tr><td>4環</td><td>極珍稀</td><td>15</td><td>+7</td></tr><tr><td>5環</td><td>極珍稀</td><td>17</td><td>+9</td></tr><tr><td>6環</td><td>傳說</td><td>17</td><td>+9</td></tr><tr><td>7環</td><td>傳說</td><td>18</td><td>+10</td></tr><tr><td>8環</td><td>傳說</td><td>18</td><td>+10</td></tr></tbody></table></details><p> @Embed[Compendium.dnd-dungeon-masters-guide.content.JournalEntry.dmgFoundryRefere.JournalEntryPage.Ok4iCgD25ENgoRxE cite=false caption=false classes=\"hide-in-embed\"]</p>"
     },
     "Fire-Casting Statue": {
       "name": "Fire-Casting Statue",
@@ -512,7 +512,7 @@
       "description": "<p><em>武器（任意近戰武器），珍稀（需同調）</em></p><p>持握這把魔法武器期間，你可以採取附贈動作並說出命令詞，使火焰包覆武器用來造成<span class=\"no-break\">傷害</span>的部位。火焰散發出40呎半徑的明亮光照，以及額外40呎的微光光照。武器燃燒期間，命中時額外造成2d6火焰傷害。火焰持續燃燒，直到你採取附贈動作再次說出命令詞，或你丟下、收起或將這把武器入鞘為止。</p><p>@Embed[Compendium.dnd-dungeon-masters-guide.content.JournalEntry.dmgFoundryRefere.JournalEntryPage.Ok4iCgD25ENgoRxE cite=false caption=false classes=\"hide-in-embed\"]</p>",
       "activities": {
         "Engulf in Flames": {
-          "name": "烈焰包覆"
+          "name": "烈焰纏刃"
         },
         "Flame Tongue": {
           "name": "焰舌"
@@ -629,18 +629,18 @@
       "effects": {
         "Invisible": {
           "name": "隱形",
-          "description": "<p><em>Source: @UUID[Compendium.dnd-dungeon-masters-guide.equipment.Item.dmgDustOfDisappe]{Dust of Disappearance}</em></p><p>You have the &amp;Reference[Invisible] condition for 2d4 minutes or until you make an attack roll, deal damage, or cast a spell.</p>"
+          "description": "<p><em>來源：@UUID[Compendium.dnd-dungeon-masters-guide.equipment.Item.dmgDustOfDisappe]{無蹤塵}</em></p><p>你陷入&amp;Reference[Invisible]{隱形}狀態，持續2d4分鐘，或直到你進行攻擊檢定、造成傷害或施放法術。</p>"
         }
       },
       "activities": {
         "Utilize": {
-          "name": "Utilize",
-          "roll": "Duration (Minutes)",
-          "duration": "up to 2d4 minutes"
+          "name": "利用",
+          "roll": "持續時間（分鐘）",
+          "duration": "至多2d4分鐘"
         }
       },
       "name": "無蹤塵",
-      "description": "<p><em>奇物，非普通</em></p><p>This powder resembles fine sand. There is enough of it for one use. When you take a Utilize action to throw the dust into the air, you and each creature and object within a 10-foot Emanation originating from you have the Invisible condition for 2d4 minutes. The duration is the same for all subjects, and the dust is consumed when its magic takes effect. Immediately after an affected creature makes an attack roll, deals damage, or casts a spell, the Invisible condition ends for that creature.</p>"
+      "description": "<p><em>奇物，非普通</em></p><p>這些粉末形同細沙，其分量足夠使用一次。當你採取利用動作將粉末灑向空中時，你和以你為中心10呎發散區域內的每個生物和物件進入隱形狀態，持續2d4分鐘。每個目標的隱形時長相同，一旦粉末的魔法生效，其即被消耗。緊接在受影響的生物進行攻擊檢定、造成傷害或施放法術後，該生物的隱形狀態結束。</p>"
     },
     "Deck of Many Things": {
       "activities": {
@@ -1108,7 +1108,7 @@
     },
     "Alchemy Jug": {
       "name": "煉金壺",
-      "description": "<p><em>奇物，非普通</em></p><p>這個陶壺看起來能容納1加侖的液體，無論盛滿或是空的，重量都是12磅。即使壺是空的，搖晃時也會發出液體晃動的聲音。</p><p>你可以採取魔法動作，從煉金壺液體表中指名一種液體，使壺產出所選的液體。之後，你可以採取利用動作拔開壺塞並倒出該液體，每分鐘最多2加侖。壺所能產出的液體最大量取決於你所指名的液體。</p><p>壺一旦開始產出某種液體，直到下個黎明前，便無法產出另一種液體，也無法產出超過已達最大量的該種液體。</p><table><caption>煉金壺液體表</caption><thead><tr><td>液體</td><td>最大量</td><td>液體</td><td>最大量</td></tr></thead><tbody><tr><td>強酸</td><td>8盎司</td><td>油</td><td>1夸脫</td></tr><tr><td>基礎毒藥</td><td>4盎司</td><td>醋</td><td>2加侖</td></tr><tr><td>啤酒</td><td>4加侖</td><td>淡水</td><td>8加侖</td></tr><tr><td>蜂蜜</td><td>1加侖</td><td>鹽水</td><td>12加侖</td></tr><tr><td>美乃滋</td><td>2加侖</td><td>葡萄酒</td><td>1加侖</td></tr></tbody></table><section class=\"secret\" id=\"secret-chVDR5A8BYbySfox\"><p><strong>Foundry 註記</strong></p><p>此物品隨附的[[/item Activate Alchemy Jug]]裝備物品用於追蹤每日使用，並包含一份修改過的<em>煉金壺液體表</em>，其中附有可消耗的液體物品連結及產出量。</p></section>"
+      "description": "<p><em>奇物，非普通</em></p><p>這種陶製壺看起來可以承裝1加侖的液體，但無論壺中是空還是滿，其重量都是12磅。不論壺內有沒有液體，搖動時也依然會發出液體晃動的聲音。</p><p>你可以採取魔法動作，從煉金壺液體表中選擇並說出一種液體的名稱，這個壺將立刻開始產出你指定的液體。然後，你可以採取利用動作打開煉金壺，並以每分鐘至多2加侖的速度倒出液體。壺中最多可以產出的液體量取決於你指定的液體種類。</p><p>一旦此壺開始產出某種液體，直到下個黎明前，其便無法產出另一種液體，也無法產出超過其對應最大產量的液體。</p><table><caption>煉金壺液體表</caption><thead><tr><td>液體名稱</td><td>最大產量</td><td>液體名稱</td><td>最大產量</td></tr></thead><tbody><tr><td>強酸</td><td>8盎司</td><td>油</td><td>1夸脫</td></tr><tr><td>基礎毒藥</td><td>4盎司</td><td>醋</td><td>2加侖</td></tr><tr><td>啤酒</td><td>4加侖</td><td>淡水</td><td>8加侖</td></tr><tr><td>蜂蜜</td><td>1加侖</td><td>鹽水</td><td>12加侖</td></tr><tr><td>美乃滋</td><td>2加侖</td><td>葡萄酒</td><td>1加侖</td></tr></tbody></table><section class=\"secret\" id=\"secret-chVDR5A8BYbySfox\"><p><strong>Foundry 註記</strong></p><p>此物品隨附的[[/item Activate Alchemy Jug]]裝備物品用於追蹤每日使用次數，並附有一份經修改的<em>煉金壺液體表</em>，表中連結至可消耗的液體物品及其產出量。</p></section>"
     },
     "Oil of Sharpness": {
       "effects": {
@@ -1167,16 +1167,16 @@
     "Driftglobe": {
       "activities": {
         "Hover as Daylight": {
-          "name": "Hover as Daylight",
-          "target": "The Driftglobe"
+          "name": "以晝明術漂浮",
+          "target": "漂浮光球"
         },
         "Hover as Light": {
-          "name": "Hover as Light",
-          "target": "The Driftglobe"
+          "name": "以光亮術漂浮",
+          "target": "漂浮光球"
         }
       },
-      "name": "Driftglobe",
-      "description": "<div><p><em>奇物，非普通</em></p></div><p>This small sphere of thick glass weighs 1 pound. If you are within 60 feet of it, you can command it to emanate light equivalent to that of the <em>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplLight00000]{Light}</em> or <em>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplDaylight00]{Daylight}</em> spell (your choice). Once used, the <em>Daylight</em> effect can’t be used again until the next dawn.</p><p>You can issue another command as a Magic action to make the illuminated globe rise into the air and float no more than 5 feet off the ground. The globe hovers in this way until you or another creature grasps it. If you move more than 60 feet from the hovering globe, it follows you until it is within 60 feet of you. It takes the shortest route to do so. If prevented from moving, the globe sinks gently to the ground and becomes inactive, and its light winks out.</p>"
+      "name": "漂浮光球",
+      "description": "<div><p><em>奇物，非普通</em></p></div><p>這顆厚玻璃製成的小球重1磅。在其周圍60呎內，你可以命令其發出相當於<em>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplLight00000]{光亮術}</em>或<em>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplDaylight00]{晝明術}</em>（由你選擇）的光芒。使用一次後，直到下個黎明前，<em>晝明術</em>效應將無法再次使用。</p><p>你可以採取魔法動作下達另一個命令，使發光的球體飛到空中，漂浮在離地面不超過5呎的地方。球體將持續漂浮在空中，直到你或另一生物將其抓住。若你離開球體周圍60呎範圍，則其將沿最短路徑跟隨你移動，直到距離你60呎為止。若其移動遭到妨礙，球體將輕輕沉落地面並進入停用狀態，其發出的光芒也會熄滅。</p>"
     },
     "Art Object (25 GP)": {
       "description": "<p>Idols cast of solid gold, necklaces studded with precious stones, paintings of ancient kings, bejeweled dishes—art objects include all these and more.</p>",
@@ -1326,22 +1326,22 @@
     "Decanter of Endless Water": {
       "activities": {
         "Geyser": {
-          "name": "Geyser",
-          "chatFlavor": "30 gallons; save vs &Reference[prone]",
-          "target": "One creature or object of your choice in the Line"
+          "name": "井噴",
+          "chatFlavor": "30加侖；對抗&Reference[prone]{伏地}的豁免",
+          "target": "直線內一個你所選擇的生物或物件"
         },
         "Fountain": {
-          "chatFlavor": "5 gallon of water",
-          "name": "Fountain",
-          "target": "The Decanter of Endless Water"
+          "chatFlavor": "5加侖的水",
+          "name": "落泉",
+          "target": "無盡水瓶"
         },
         "Splash": {
-          "chatFlavor": "1 gallon of water",
-          "name": "Splash",
-          "target": "The Decanter of Endless Water"
+          "chatFlavor": "1加侖的水",
+          "name": "水花",
+          "target": "無盡水瓶"
         }
       },
-      "description": "<div><p><em>奇物，非普通</em></p></div><p>This stoppered flask sloshes when shaken, as if it contains water. The decanter weighs 2 pounds.</p><p>You can take a Magic action to remove the stopper and issue one of three command words, whereupon an amount of @UUID[Compendium.dnd-dungeon-masters-guide.equipment.Item.dmgspWaterfresh0]{fresh water} or @UUID[Compendium.dnd-dungeon-masters-guide.equipment.Item.dmgspWatersalt00]{salt water} (your choice) pours out of the flask. The water stops pouring out at the start of your next turn. Choose from the following command words:</p><div class=\"def-block\"><p><strong>Splash.</strong> The decanter produces 1 gallon of water.</p><p><strong>Fountain.</strong> The decanter produces 5 gallons of water.</p><p><strong>Geyser.</strong> The decanter produces 30 gallons of water that gushes forth in a Line 30 feet long and 1 foot wide. If you’re holding the decanter, you can aim the geyser in one direction (no action required). One creature of your choice in the Line must succeed on a DC 13 Strength saving throw or take 1d4 Bludgeoning damage and have the &amp;Reference[Prone] condition. Instead of a creature, you can target one object in the Line that isn’t being worn or carried and that weighs no more than 200 pounds. The object is knocked over by the geyser.</p></div>",
+      "description": "<div><p><em>奇物，非普通</em></p></div><p>這個帶瓶塞的瓶子在搖晃時會發出液體晃動的聲音，彷彿其中有水一般。此瓶重2磅。</p><p>你可以採取魔法動作拔出瓶塞並說出其三個命令詞之一，使瓶中湧出@UUID[Compendium.dnd-dungeon-masters-guide.equipment.Item.dmgspWaterfresh0]{淡水}或@UUID[Compendium.dnd-dungeon-masters-guide.equipment.Item.dmgspWatersalt00]{鹽水}（由你選擇）。水將在你的下個回合開始時停止湧出。從下列命令詞中選擇：</p><div class=\"def-block\"><p><strong>【水花】</strong>此瓶產生1加侖的水。</p><p><strong>【落泉】</strong>此瓶產生5加侖的水。</p><p><strong>【井噴】</strong>此瓶產生30加侖的水，以一道長30呎、寬1呎的直線水柱的形式噴湧而出。若你正握持著此瓶，你可以將瓶口對準一個方向（無需動作）。該直線範圍內你所選擇的一名生物必須成功通過一次DC 13的力量豁免，否則承受1d4鈍擊傷害並陷入&amp;Reference[Prone]{伏地}狀態。除瞄準生物以外，你也可以用瓶口瞄準直線範圍內一個不超過200磅，且未被穿戴或攜帶的物件。該物件將被水柱打翻。</p></div>",
       "name": "無盡水瓶"
     },
     "Enspelled Armor": {
@@ -1478,7 +1478,7 @@
       }
     },
     "Cube of Force": {
-      "description": "<div><p><em>奇物，珍稀（需同調）</em></p></div><p>This cube is about an inch across. Each face has a distinct marking on it. You can press one of those faces, expend the number of charges required for it, and thereby cast the spell associated with it (save DC 17), as shown in the Cube of Force Faces table.</p><p>The cube starts with 10 charges, and it regains 1d6 <span class=\"no-break\">expended</span> charges daily at dawn.</p><table><caption>Cube of Force Faces</caption><thead><tr><td>Spell</td><td>Charge Cost</td></tr></thead><tbody><tr><td><em>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplMageArmor0]{Mage Armor}</em></td><td>1</td></tr><tr><td><em>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplShield0000]{Shield}</em></td><td>1</td></tr><tr><td><em>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplLeomundsTi]{Leomund’s Tiny Hut}</em></td><td>3</td></tr><tr><td><em>@UUID[Compendium.dnd-players-handbook.spells.Item.phbPrivateSanctu]{Mordenkainen’s Private Sanctum}</em></td><td>4</td></tr><tr><td><em>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplOtilukesRe]{Otiluke’s Resilient Sphere}</em></td><td>4</td></tr><tr><td><em>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplWallofForc]{Wall of Force}</em></td><td>5</td></tr></tbody></table>",
+      "description": "<div><p><em>奇物，珍稀（需同調）</em></p></div><p>這個立方體邊長約1吋，每個面上都有不同的標記。你可以按下立方體的其中一面，並消耗該面所需的充能以施放對應的法術（豁免DC 17），如力場魔方各面表所示。</p><p>該立方體共有10點充能，每天黎明時會恢復1d6點<span class=\"no-break\">已消耗</span>的充能。</p><table><caption>力場魔方各面</caption><thead><tr><td>法術</td><td>消耗充能</td></tr></thead><tbody><tr><td><em>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplMageArmor0]{法師護甲}</em></td><td>1</td></tr><tr><td><em>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplShield0000]{護盾術}</em></td><td>1</td></tr><tr><td><em>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplLeomundsTi]{李歐蒙小屋}</em></td><td>3</td></tr><tr><td><em>@UUID[Compendium.dnd-players-handbook.spells.Item.phbPrivateSanctu]{魔鄧肯私人密室}</em></td><td>4</td></tr><tr><td><em>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplOtilukesRe]{歐提路克魔封法球}</em></td><td>4</td></tr><tr><td><em>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplWallofForc]{力場牆}</em></td><td>5</td></tr></tbody></table>",
       "name": "力場魔方"
     },
     "Ioun Stone of Absorption": {
@@ -1746,7 +1746,7 @@
         }
       },
       "name": "戰法師魔杖+1、+2、+3",
-      "description": "<p><em>@UUID[Compendium.dnd-players-handbook.equipment.Item.phbafcWand000000]{魔杖}，非普通（+1）、珍稀（+2）、非常珍稀（+3）（需由施法者同調）</em></p><p>當你持握此魔杖時，你的法術攻擊檢定獲得加值，加值取決於魔杖稀有度。此外，你在進行法術攻擊時忽視&amp;Reference[HalfCover]{半掩護}。</p><p>@Embed[Compendium.dnd-dungeon-masters-guide.content.JournalEntry.dmgFoundryRefere.JournalEntryPage.Ok4iCgD25ENgoRxE cite=false caption=false classes=\"hide-in-embed\"]</p>",
+      "description": "<p><em>@UUID[Compendium.dnd-players-handbook.equipment.Item.phbafcWand000000]{魔杖}，非普通（+1）／珍稀（+2）／極珍稀（+3）（需由施法者同調）</em></p><p>持握這根魔杖期間，你的法術攻擊檢定獲得加值，該加值的大小取決於該魔杖的稀有度。此外，你進行法術攻擊檢定時無視&amp;Reference[HalfCover]{半掩蔽}。</p><p>@Embed[Compendium.dnd-dungeon-masters-guide.content.JournalEntry.dmgFoundryRefere.JournalEntryPage.Ok4iCgD25ENgoRxE cite=false caption=false classes=\"hide-in-embed\"]</p>",
       "activities": {
         "Wand of the War Mage, +1, +2, or +3": {
           "name": "戰法師魔杖+1、+2、+3"
@@ -1756,14 +1756,14 @@
     "Pipes of Haunting": {
       "effects": {
         "Frightened": {
-          "name": "Frightened"
+          "name": "恐慌"
         }
       },
-      "description": "<p><em>奇物，非普通</em></p><p>These pipes have 3 charges and regain 1d3 expended charges daily at dawn. You can take a Magic action to play them and expend 1 charge to create an eerie, spellbinding tune. Each creature of your choice within 30 feet of you must succeed on a DC 15 Wisdom saving throw or have the &amp;Reference[Frightened apply=false] condition for 1 minute. A creature that fails the save repeats it at the end of each of its turns, ending the effect on itself on a success. A creature that succeeds on its save is immune to the effect of these pipes for 24 hours.</p>",
+      "description": "<p><em>奇物，非普通</em></p><p>顫慄之笛具有3點充能，並在每日黎明時重獲1d3點已消耗的充能。你可以採取魔法動作演奏該笛，並消耗1點充能來創作一首怪誕且令人著迷的曲調。位於你30呎內每個你所選擇的生物，都必須成功通過一次DC 15的感知豁免，否則陷入&amp;Reference[Frightened apply=false]{恐慌}狀態，持續1分鐘。豁免失敗的生物可以在其每個回合結束時重複該豁免，豁免成功則結束其身上的效應。豁免成功的生物將在24小時內免疫該笛的效應。</p>",
       "name": "顫慄之笛",
       "activities": {
         "Play Pipes": {
-          "name": "Play Pipes"
+          "name": "演奏笛子"
         }
       }
     },
@@ -1821,26 +1821,26 @@
     "Cube of Summoning": {
       "activities": {
         "Beast (2)": {
-          "name": "Beast (2)"
+          "name": "野獸（2）"
         },
         "Dragon (4)": {
-          "name": "Dragon (4)"
+          "name": "龍類（4）"
         },
         "Construct (3)": {
-          "name": "Construct (3)"
+          "name": "構裝體（3）"
         },
         "Aberration (1)": {
-          "name": "Aberration (1)"
+          "name": "異怪（1）"
         },
         "Elemental (5)": {
-          "name": "Elemental (5)"
+          "name": "元素（5）"
         },
         "Fey (6)": {
-          "name": "Fey (6)"
+          "name": "精類（6）"
         }
       },
-      "name": "Cube of Summoning",
-      "description": "<div><p><em>奇物，珍稀</em></p></div><p>This Tiny cube looks like a jack-in-the-box. When you wind its crank as a Magic action, a merry tune emits from the box, the lid pops open, a creature appears in the nearest unoccupied space, and the lid closes. The lid can’t otherwise be opened.</p><p>Roll on the Cube of Summoning table to determine which spell the cube casts to summon the creature. The spell is cast at level 5 (save DC 17, +9 attack bonus) and doesn’t require Concentration, but you otherwise function as the spell’s caster.</p><p>Once the cube summons a creature, the cube can’t do so again until the next dawn.</p><p>@Embed[Compendium.dnd-dungeon-masters-guide.tables.RollTable.dmgCubeOfSummoni rollable]</p>"
+      "name": "召喚魔方",
+      "description": "<div><p><em>奇物，珍稀</em></p></div><p>這個微型立方體如同一個玩偶盒。當你採取魔法動作轉動立方體的曲柄時，盒子會發出歡快的曲調，蓋子隨之彈開，一個生物出現在距離盒子最近的未佔據空間，而後蓋子再次關閉。該蓋子無法被其他手段開啟。</p><p>在召喚魔方表中擲骰，以確定魔方施放了哪種法術來召喚生物。該法術以5環施放（豁免DC 17，攻擊加值+9）且無需維持專注，但你在其他方面視為該法術的施法者。</p><p>一旦該立方體召喚了一個生物，直到下個黎明前，該立方體都無法再次召喚生物。</p><p>@Embed[Compendium.dnd-dungeon-masters-guide.tables.RollTable.dmgCubeOfSummoni rollable]</p>"
     },
     "Staff of Fire": {
       "name": "火焰法杖",
@@ -2183,7 +2183,7 @@
           "name": "盾牌 +3"
         }
       },
-      "name": "盾牌 +1、+2、+3",
+      "name": "盾牌+1、+2、+3",
       "activities": {
         "Shield, +1, +2, or +3": {
           "name": "盾牌 +1、+2、+3"
@@ -2252,103 +2252,103 @@
     "Enspelled Staff": {
       "effects": {
         "1st Level Enspelled Staff": {
-          "name": "1st Level Enspelled Staff",
+          "name": "1環魔咒法杖",
           "changes": {
             "system.description.value": "{}<p>@Embed[Compendium.dnd-dungeon-masters-guide.equipment.Item.dmgEnspelledStaf caption=false]</p>",
-            "name": "Enspelled {}"
+            "name": "魔咒{}"
           }
         },
         "4th Level Enspelled Staff": {
           "changes": {
             "system.description.value": "{}<p>@Embed[Compendium.dnd-dungeon-masters-guide.equipment.Item.dmgEnspelledStaf caption=false]</p>",
-            "name": "Enspelled {}"
+            "name": "魔咒{}"
           },
-          "name": "4th Level Enspelled Staff"
+          "name": "4環魔咒法杖"
         },
         "2nd Level Enspelled Staff": {
           "changes": {
             "system.description.value": "{}<p>@Embed[Compendium.dnd-dungeon-masters-guide.equipment.Item.dmgEnspelledStaf caption=false]</p>",
-            "name": "Enspelled {}"
+            "name": "魔咒{}"
           },
-          "name": "2nd Level Enspelled Staff"
+          "name": "2環魔咒法杖"
         },
         "3rd Level Enspelled Staff": {
           "changes": {
-            "name": "Enspelled {}",
+            "name": "魔咒{}",
             "system.description.value": "{}<p>@Embed[Compendium.dnd-dungeon-masters-guide.equipment.Item.dmgEnspelledStaf caption=false]</p>"
           },
-          "name": "3rd Level Enspelled Staff"
+          "name": "3環魔咒法杖"
         },
         "6th Level Enspelled Staff": {
-          "name": "6th Level Enspelled Staff",
+          "name": "6環魔咒法杖",
           "changes": {
             "system.description.value": "{}<p>@Embed[Compendium.dnd-dungeon-masters-guide.equipment.Item.dmgEnspelledStaf caption=false]</p>",
-            "name": "Enspelled {}"
+            "name": "魔咒{}"
           }
         },
         "5th Level Enspelled Staff": {
           "changes": {
-            "name": "Enspelled {}",
+            "name": "魔咒{}",
             "system.description.value": "{}<p>@Embed[Compendium.dnd-dungeon-masters-guide.equipment.Item.dmgEnspelledStaf caption=false]</p>"
           },
-          "name": "5th Level Enspelled Staff"
+          "name": "5環魔咒法杖"
         },
         "7th Level Enspelled Staff": {
           "changes": {
-            "name": "Enspelled {}",
+            "name": "魔咒{}",
             "system.description.value": "{}<p>@Embed[Compendium.dnd-dungeon-masters-guide.equipment.Item.dmgEnspelledStaf caption=false]</p>"
           },
-          "name": "7th Level Enspelled Staff"
+          "name": "7環魔咒法杖"
         },
         "8th Level Enspelled Staff": {
           "changes": {
-            "name": "Enspelled {}",
+            "name": "魔咒{}",
             "system.description.value": "{}<p>@Embed[Compendium.dnd-dungeon-masters-guide.equipment.Item.dmgEnspelledStaf caption=false]</p>"
           },
-          "name": "8th Level Enspelled Staff"
+          "name": "8環魔咒法杖"
         },
         "Cantrip Enspelled Staff": {
-          "name": "Cantrip Enspelled Staff",
+          "name": "戲法魔咒法杖",
           "changes": {
-            "name": "Enspelled {}",
+            "name": "魔咒{}",
             "system.description.value": "{}<p>@Embed[Compendium.dnd-dungeon-masters-guide.equipment.Item.dmgEnspelledStaf caption=false]</p>"
           }
         }
       },
       "activities": {
         "XQcxrqa83k11tycD": {
-          "name": "Cast Bound Spell"
+          "name": "施放銘刻法術"
         },
         "Enspelled Staff": {
-          "name": "Enspelled Staff"
+          "name": "魔咒法杖"
         },
         "c9wxLOG8pe1KZPtJ": {
-          "name": "Cast Bound Spell"
+          "name": "施放銘刻法術"
         },
         "TVB46dAUr3wJPYGy": {
-          "name": "Cast Bound Spell"
+          "name": "施放銘刻法術"
         },
         "eBL8LVWHzKrD6Akr": {
-          "name": "Cast Bound Spell"
+          "name": "施放銘刻法術"
         },
         "Cast Bound Cantrip": {
-          "name": "Cast Bound Cantrip"
+          "name": "施放銘刻戲法"
         },
         "YrZqPZj4QuKEhycT": {
-          "name": "Cast Bound Spell"
+          "name": "施放銘刻法術"
         },
         "Cast Bound Spell": {
-          "name": "Cast Bound Spell"
+          "name": "施放銘刻法術"
         },
         "7trhDxAAI7D3MGf5": {
-          "name": "Cast Bound Spell"
+          "name": "施放銘刻法術"
         },
         "eFZVVEl8bjQdU8ip": {
-          "name": "Cast Bound Spell"
+          "name": "施放銘刻法術"
         }
       },
-      "name": "Enspelled Staff",
-      "description": "<p><em>@UUID[Compendium.dnd-players-handbook.equipment.Item.phbafcStaffalsoa]{Staff}, Rarity Varies （需由施法者同調）</em></p><p>Bound into this staff is a spell of level 8 or lower. The spell is determined when the staff is created and can be of any school of magic. The staff has 6 charges and regains 1d6 expended charges daily at dawn. While holding the staff, you can expend 1 charge to cast its spell. If you expend the staff’s last charge, roll 1d20. On a 1, the staff loses its properties and becomes a nonmagical Quarterstaff.</p><p>The level of the spell bound into the staff determines the spell’s saving throw DC and attack bonus, as well as the staff’s rarity, as shown in the following table.</p><details><summary>Spell Level Table</summary><table><thead><tr><td>Spell Level</td><td>Rarity</td><td>Save DC</td><td>Attack Bonus</td></tr></thead><tbody><tr><td>Cantrip</td><td>Uncommon</td><td>13</td><td>+5</td></tr><tr><td>1</td><td>Uncommon</td><td>13</td><td>+5</td></tr><tr><td>2</td><td>Rare</td><td>13</td><td>+5</td></tr><tr><td>3</td><td>Rare</td><td>15</td><td>+7</td></tr><tr><td>4</td><td>Very Rare</td><td>15</td><td>+7</td></tr><tr><td>5</td><td>Very Rare</td><td>17</td><td>+9</td></tr><tr><td>6</td><td>Legendary</td><td>17</td><td>+9</td></tr><tr><td>7</td><td>Legendary</td><td>18</td><td>+10</td></tr><tr><td>8</td><td>Legendary</td><td>18</td><td>+10</td></tr></tbody></table></details><p> @Embed[Compendium.dnd-dungeon-masters-guide.content.JournalEntry.dmgFoundryRefere.JournalEntryPage.Ok4iCgD25ENgoRxE cite=false caption=false classes=\"hide-in-embed\"]</p>"
+      "name": "魔咒法杖",
+      "description": "<p><em>@UUID[Compendium.dnd-players-handbook.equipment.Item.phbafcStaffalsoa]{法杖}，多種稀有度（需由施法者同調）</em></p><p>這根法杖中銘刻了一道環階為8環或更低的法術。該法術於製造該法杖時決定，可以屬於任一魔法學派。該法杖具有6點充能，並在每日黎明時恢復1d6點已消耗的充能。持握該法杖期間，你可以消耗1點充能以施放其法術。若你消耗了該法杖的最後1點充能，則擲1d20；若結果為1，該法杖就會失去其所有屬性，並變為一根非魔法長棍。</p><p>法杖中銘刻之法術的環階，決定了該法術的豁免DC與攻擊加值，以及該法杖的稀有度，如下列表格所示。</p><details><summary>法術環階表</summary><table><thead><tr><td>法術環階</td><td>稀有度</td><td>豁免DC</td><td>攻擊加值</td></tr></thead><tbody><tr><td>戲法</td><td>非普通</td><td>13</td><td>+5</td></tr><tr><td>1環</td><td>非普通</td><td>13</td><td>+5</td></tr><tr><td>2環</td><td>珍稀</td><td>13</td><td>+5</td></tr><tr><td>3環</td><td>珍稀</td><td>15</td><td>+7</td></tr><tr><td>4環</td><td>極珍稀</td><td>15</td><td>+7</td></tr><tr><td>5環</td><td>極珍稀</td><td>17</td><td>+9</td></tr><tr><td>6環</td><td>傳說</td><td>17</td><td>+9</td></tr><tr><td>7環</td><td>傳說</td><td>18</td><td>+10</td></tr><tr><td>8環</td><td>傳說</td><td>18</td><td>+10</td></tr></tbody></table></details><p> @Embed[Compendium.dnd-dungeon-masters-guide.content.JournalEntry.dmgFoundryRefere.JournalEntryPage.Ok4iCgD25ENgoRxE cite=false caption=false classes=\"hide-in-embed\"]</p>"
     },
     "Wand of Magic Missiles": {
       "description": "<p><em>魔杖，非普通</em></p><p>這根魔杖具有7點充能。持握魔杖期間，你可以消耗至多3點充能，透過魔杖施放@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplMagicMissi]{魔法飛彈}。消耗1點充能時，你施放該法術的1環版本；每多消耗1點充能，法術的環階就提升1環。</p><p><em><strong>【恢復充能】</strong></em>此魔杖每日黎明時恢復1d6 + 1已消耗的充能。若你消耗了魔杖的最後1點充能，擲[[/r 1d20]]。若結果為1，魔杖會化為灰燼並被摧毀。</p>",
@@ -2356,10 +2356,10 @@
     },
     "Lantern of Revealing": {
       "name": "顯像提燈",
-      "description": "<p><em>奇物，非普通</em></p><p>While lit, this hooded lantern burns for 6 hours on 1 pint of oil, shedding Bright Light in a 30-foot radius and Dim Light for an additional 30 feet. &amp;Reference[Invisible apply=false]{隱形} creatures and objects are visible as long as they are in the lantern’s Bright Light. You can take a Utilize action to lower the hood, reducing the lantern’s light to Dim Light in a 5-foot radius.</p>",
+      "description": "<p><em>奇物，非普通</em></p><p>這盞附蓋提燈在點亮期間會發出半徑30呎的明亮光照以及額外30呎的微光光照，並且僅需1品脫油即可燃燒6小時。位於提燈明亮光照範圍內的&amp;Reference[Invisible apply=false]{隱形}生物或物件將被其顯形。你可以採取利用動作放下附蓋，讓提燈僅提供半徑5呎的微光光照。</p>",
       "activities": {
         "Consume Oil": {
-          "name": "Consume Oil"
+          "name": "添油"
         }
       }
     },
@@ -2427,22 +2427,22 @@
         "1st and 2nd Command": {
           "profiles": {
             "First Command Word (Rowboat)": {
-              "name": "First Command Word (Rowboat)"
+              "name": "第一命令詞（划艇）"
             },
             "Second Command Word (Keelboat)": {
-              "name": "Second Command Word (Keelboat)"
+              "name": "第二命令詞（龍骨船）"
             }
           },
-          "name": "1st and 2nd Command",
-          "target": "folded boat"
+          "name": "第一與第二命令詞",
+          "target": "摺疊狀態的船"
         },
         "3rd Command": {
-          "name": "3rd Command",
-          "target": "unfolded Rowboat or Keelboat"
+          "name": "第三命令詞",
+          "target": "展開的划艇或龍骨船"
         }
       },
-      "name": "Activate Folding Boat",
-      "description": "<p><strong>First Command Word.</strong> The box unfolds into a @UUID[Compendium.dnd-players-handbook.actors.Actor.phbmobRowboat000]{Rowboat}.</p><p><strong>Second Command Word.</strong> The box unfolds into a @UUID[Compendium.dnd-players-handbook.actors.Actor.phbmobKeelboat00]{Keelboat}.</p><p><strong>Third Command Word.</strong> The <em>Folding Boat</em> folds back into a box if no creatures are aboard. Any objects in the vessel that can’t fit inside the box remain outside the box as it folds. Any objects in the vessel that can fit inside the box do so.</p><p>When the box becomes a vessel, its weight becomes that of a normal vessel its size, and anything that was stored in the box remains in the boat.</p><p>Statistics for the Rowboat and Keelboat appear in the <em>Player’s Handbook</em>. If either vessel is reduced to 0 Hit Points, the <em>Folding Boat</em> is destroyed.</p>"
+      "name": "啟動摺疊船",
+      "description": "<p><strong>【第一命令詞】</strong>盒子展開為一艘@UUID[Compendium.dnd-players-handbook.actors.Actor.phbmobRowboat000]{划艇}。</p><p><strong>【第二命令詞】</strong>盒子展開為一艘@UUID[Compendium.dnd-players-handbook.actors.Actor.phbmobKeelboat00]{龍骨船}。</p><p><strong>【第三命令詞】</strong>若船上沒有生物，展開的<em>摺疊船</em>則摺疊回木盒形態。此時船內任何無法裝入木盒的物體會在摺疊時留在外面，船內任何可以裝入木盒的物體則會留在盒內。</p><p>木盒展開成船隻時，其重量也變為對應船隻應有的重量。原本存放在木盒中的東西將留在船內。</p><p>划艇與龍骨船的數據見<em>玩家手冊</em>。若任一船隻的生命值降至0，則<em>摺疊船</em>被摧毀。</p>"
     },
     "Shield of the Cavalier": {
       "effects": {
@@ -2490,7 +2490,7 @@
           "name": "護甲 +1、+2、+3"
         }
       },
-      "name": "護甲 +1、+2、+3",
+      "name": "護甲+1、+2、+3",
       "description": "<p><em>護甲（任意輕甲、中甲或重甲），珍稀（+1）、極珍稀（+2）、傳說（+3）</em></p><p>穿戴這套護甲期間，你的AC獲得加值。加值取決於護甲的稀有度。</p><p>@Embed[Compendium.dnd-dungeon-masters-guide.content.JournalEntry.dmgFoundryRefere.JournalEntryPage.Ok4iCgD25ENgoRxE cite=false caption=false classes=\"hide-in-embed\"]</p>"
     },
     "Burnt Othur Fumes": {
@@ -2621,35 +2621,35 @@
     },
     "Bag of Holding": {
       "name": "次元袋",
-      "description": "<p>這個袋子具有一個比它外部尺寸要大上許多的內部空間，它的袋口直徑約莫2呎，且深約4呎。這個袋子可以容納最多500磅的重量，且體積不能超過64立方呎。無論它裝了什麼，這個袋子的重量皆為15磅。將一個物品從袋中取出需要花費一個動作。</p><p>若這個袋子超載、被戳破、或撕裂，則它將因此破裂並被摧毀，且它裝載的東西將散落在星界位面。若這個袋子被裡外翻轉，則它裝載的東西將無傷地掉落而出，但這個袋子必須被恢復原狀才能夠被再次使用。需要呼吸的生物在袋中可以存活的時間最多等同於10除以生物數量的分鐘數（最少1分鐘），在這之後它們將開始窒息。</p><p>將次元袋放入由@霍華德的便利袋、便攜式次元洞、或類似物品所創造的異次元空間中，將會立刻摧毀這兩件物品，並打開一道通往星界位面的傳送門。這道傳送門將產生載這兩件物品被放入彼此的位置。任何距離這道傳送門10呎內的生物將被吸進門內，並被送往星界位面中的一處隨機地點。這道傳送門接著將會關閉。這道傳送門僅限單向傳送，且無法再次被開啟。</p><div><p>此袋子具有一個比它外部尺寸要大上許多的內部空間，它的袋口直徑約莫2呎，且深約4呎。這個袋子可以容納最多500磅的重量，且體積不能超過64<span class=\"no-break\">立方</span>呎。無論它裝了什麼，袋子的重量皆為5磅。將一個物品從袋中取出需要一個使用動作。</p><p>若這個袋子超載、被戳破、或撕裂，則其將被摧毀，且其裝載的內容物將散落在星界位面。若袋子被裡外翻轉，則其裝載的內容物將無傷地掉落而出，但必須將袋子恢復原狀才能夠再次使用。袋子內部儲存的空氣足夠呼吸 10 分鐘，並依照袋中呼吸的生物數量平均分配。</p><p>將 <em>次元袋</em>放入由<em>@UUID[Compendium.dnd-dungeon-masters-guide.equipment.Item.dmgHewardsHandyH]</em>、<em>@UUID[Compendium.dnd-dungeon-masters-guide.equipment.Item.dmgPortableHole0]</em>或類似物品所創造的異次元空間中，將會立刻摧毀這兩件物品，並打開一道通往星界位面的傳送門。傳送門將產生在這兩件物品被放入彼此的位置。任何距離傳送門10呎半徑內的生物將被吸進門內，並被送往星界位面中隨機一處地點，接著傳送門將會關閉。傳送門僅限單向傳送，且無法再次被開啟。</p></div>"
+      "description": "<div><p>這個袋子的內部空間比其外表尺寸看起來更大，內部大約是2呎見方、4呎深，可以容納至多500磅、體積不超過64<span class=\"no-break\">立方</span>呎的東西。無論裝了什麼，這個袋子總是重5磅。從袋子裡取出東西需要採取利用動作。</p><p>若次元袋超載，或是袋子被戳破、撕裂，其將因此被摧毀，所裝載的東西將散落到星界位面各處。若袋子被內外翻轉，則其所裝載的東西將完好無損地掉落出來，但再次使用袋子之前必須將其恢復原狀。次元袋內所容納的空氣量足以維持呼吸10分鐘，並由其中所有需要呼吸的生物均分。</p><p>把<em>次元袋</em>放入由<em>@UUID[Compendium.dnd-dungeon-masters-guide.equipment.Item.dmgHewardsHandyH]{霍華德的便利袋}</em>、<em>@UUID[Compendium.dnd-dungeon-masters-guide.equipment.Item.dmgPortableHole0]{便攜式次元洞}</em>或其他類似物品所創造的異次元空間內時，將會立即同時摧毀兩件物品並開啟一道通往星界位面的傳送門。傳送門產生於其中一件物品被放入另一件物品之處。任何位於以傳送門為中心10呎半徑球形區域內的生物將被吸入門內，並送往星界位面中的隨機地點。然後傳送門即時關閉，傳送門是單向的且無法被再次開啟。</p></div>"
     },
     "Dust of Sneezing and Choking": {
       "name": "噴嚏窒息塵",
-      "description": "<p><em>奇物，非普通</em></p><p>Found in a small container, this powder resembles @UUID[Compendium.dnd-dungeon-masters-guide.equipment.Item.dmgDustOfDisappe]{Dust of Disappearance}, and <em>Identify</em> reveals it to be such. There is enough of it for one use.</p><p>As a Utilize action, you can throw the dust into the air, forcing yourself and every creature in a 30-foot Emanation originating from you to make a DC 15 Constitution saving throw. Constructs, Elementals, Oozes, Plants, and Undead succeed on the save automatically.</p><p>On a failed save, a creature begins sneezing uncontrollably; it has the Incapacitated condition and is suffocating. The creature [[/save ability=con dc=15]]{repeats the save} at the end of each of its turns, ending the effect on itself on a success. The effect also ends on any creature targeted by a <em>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplLesserRest]{Lesser Restoration}</em> spell.</p>",
+      "description": "<p><em>奇物，非普通</em></p><p>這種粉末通常被裝在小盒子裡，其分量足夠使用一次。這種粉末看起來像是@UUID[Compendium.dnd-dungeon-masters-guide.equipment.Item.dmgDustOfDisappe]{無蹤塵}，對其施放<em>鑑定術</em>也會顯示出這樣的結果。</p><p>你可以採取利用動作把這種粉末灑向空中，迫使你自己以及位於以你為中心30呎發散區域內的每個生物進行一次DC 15的體質豁免。構裝體、元素、軟泥、植物和不死生物在豁免中自動成功。</p><p>豁免失敗的生物會不停打噴嚏，陷入失能狀態並窒息。受影響的生物能在每次自己的回合結束時[[/save ability=con dc=15]]{再次進行該豁免}，一旦豁免成功，其身上的效應也將隨之終止。任何成為<em>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplLesserRest]{次級復原術}</em>法術目標的生物，其身上的該效應也會終止。</p>",
       "effects": {
         "Incapacitated and Suffocating (Sneezing)": {
-          "name": "Incapacitated and Suffocating (Sneezing)",
-          "description": "<p><em>Source: @UUID[Compendium.dnd-dungeon-masters-guide.equipment.Item.dmgDustOfSneezin]<br /></em>The creature has the Incapacitated condition and is suffocating. The creature [[/save ability=con dc=15]]{repeats the save} at the end of each of its turns, ending the effect on itself on a success. The effect also ends on any creature targeted by a <em>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplLesserRest]{Lesser Restoration}</em> spell.</p>"
+          "name": "失能且窒息（打噴嚏）",
+          "description": "<p><em>來源：@UUID[Compendium.dnd-dungeon-masters-guide.equipment.Item.dmgDustOfSneezin]<br></em>該生物陷入失能狀態並窒息。該生物能在每次自己的回合結束時[[/save ability=con dc=15]]{再次進行該豁免}，一旦豁免成功，其身上的效應也將隨之終止。任何成為<em>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplLesserRest]{次級復原術}</em>法術目標的生物，其身上的該效應也會終止。</p>"
         }
       }
     },
     "Gem of Brightness": {
       "activities": {
         "Third Command Word": {
-          "name": "Third Command Word"
+          "name": "第三命令詞"
         },
         "Second Command Word": {
-          "name": "Second Command Word"
+          "name": "第二命令詞"
         },
         "First Command Word": {
-          "name": "First Command Word"
+          "name": "第一命令詞"
         }
       },
       "name": "光彩奪目寶石",
-      "description": "<p><em>奇物，非普通</em></p><p>This prism has 50 charges. While you are holding it, you can take a Magic action and use one of three command words to cause one of the following effects:</p><p><strong>First Command Word.</strong> The gem sheds Bright Light in a 30-foot radius and Dim Light for an additional 30 feet. This effect doesn’t expend a charge. It lasts until you take a Bonus Action to repeat the command word or until you use another function of the gem.</p><p><strong>Second Command Word.</strong> You expend 1 charge and cause the gem to fire a brilliant beam of light at one creature you can see within 60 feet of yourself. The creature must succeed on a DC 15 Constitution saving throw or have the &amp;Reference[Blinded apply=false] condition for 1 minute. The creature repeats the save at the end of each of its turns, ending the effect on itself on a success.</p><p><strong>Third Command Word.</strong> You expend 5 charges and cause the gem to flare with intense light in a 30-foot Cone. Each creature in the Cone makes a saving throw as if struck by the beam created with the second command word.</p><p>When all of the gem’s charges are expended, the gem becomes a nonmagical jewel worth 50 GP.</p>",
+      "description": "<p><em>奇物，非普通</em></p><p>這塊稜形寶石具有50點充能。持握該寶石期間，你可以採取魔法動作並使用寶石的三道命令詞之一，造成下列其中一項效應：</p><p><strong>【第一命令詞】</strong>寶石發出亮光，提供半徑30呎的明亮光照，並再延伸30呎的微光光照。此效應不會消耗充能。其將持續到你採取附贈動作再次說出該命令詞，或你使用寶石的另一項功能為止。</p><p><strong>【第二命令詞】</strong>你消耗1點充能，令寶石向位於你60呎內一名你所能看見的生物發出一道耀眼的光束。該生物必須成功通過一次DC 15的體質豁免，否則陷入&amp;Reference[Blinded apply=false]{目盲}狀態，持續1分鐘。該生物可以在其每個回合結束時重複豁免，豁免成功則結束其身上的效應。</p><p><strong>【第三命令詞】</strong>你消耗5點充能，令寶石向30呎錐形區域放出刺眼的光芒。該錐形區域內的每個生物必須進行豁免，如同被第二命令詞所創造的光束擊中一般。</p><p>耗盡充能後，此寶石變為價值50gp的非魔法寶石。</p>",
       "effects": {
         "Blinded by Brilliance": {
-          "name": "Blinded by Brilliance"
+          "name": "因耀眼而目盲"
         }
       }
     },
@@ -3188,8 +3188,8 @@
       "name": "水下呼吸藥水"
     },
     "Saddle of the Cavalier": {
-      "description": "<p><em>奇物，非普通</em></p><p>This saddle confers the following benefits while you are seated in it and astride a mount.</p><p><em><strong>Protected Mount.</strong></em> Attack rolls against the mount have Disadvantage.</p><p><em><strong>Secure Rider.</strong></em> You can’t be dismounted against your will. This property is suppressed while you have the &amp;Reference[Incapacitated apply=false] condition.</p>",
-      "name": "Saddle of the Cavalier"
+      "description": "<p><em>奇物，非普通</em></p><p>在你坐於這副鞍座上並跨騎坐騎期間，這副鞍座會提供下列好處。</p><p><em><strong>【坐騎保護】</strong></em>對坐騎進行的攻擊檢定具有劣勢。</p><p><em><strong>【穩固騎手】</strong></em>你不會在違背你意願的情況下被迫離開坐騎。此屬性在你處於&amp;Reference[Incapacitated apply=false]{失能}狀態期間失效。</p>",
+      "name": "騎兵鞍座"
     },
     "Wand of Pyrotechnics": {
       "name": "煙火魔杖",
@@ -3221,14 +3221,14 @@
     "Gem of Seeing": {
       "activities": {
         "Gain Truesight": {
-          "name": "Gain Truesight"
+          "name": "獲得真視"
         }
       },
       "name": "真視寶石",
-      "description": "<p><em>奇物，珍稀（需同調）</em></p><p>This gem has 3 charges. As a Magic action, you can expend 1 charge. For the next 10 minutes, you have &amp;Reference[Truesight] out to 120 feet when you peer through the gem.</p><p>The gem regains 1d3 expended charges daily at dawn.</p>",
+      "description": "<p><em>奇物，珍稀（需同調）</em></p><p>這塊寶石具有3點充能。以魔法動作，你可以消耗1點充能。接下來的10分鐘內，你在透過寶石觀察周圍時具有120呎的&amp;Reference[Truesight]{真視}。</p><p>該寶石在每天黎明時恢復1d3點已消耗的充能。</p>",
       "effects": {
         "Seeing": {
-          "name": "Seeing"
+          "name": "真視"
         }
       }
     },
@@ -3421,18 +3421,18 @@
       "description": "<p>Gemstones are small, lightweight, and easily secured compared to their same value in coins.</p>"
     },
     "Daern's Instant Fortress": {
-      "description": "<div><p><em>奇物，珍稀（需同調）</em></p></div><p>As a Magic action, you can place this 1-inch adamantine statuette on the ground and, using a command word, cause it to grow rapidly into a square adamantine tower. Repeating the command word causes the tower to revert to statuette form, which works only if the tower is empty. Each creature in the area where the tower appears is pushed to an unoccupied space outside but next to the tower. Objects in the area that aren’t being worn or carried are also pushed clear of the tower.</p><p>The tower is 20 feet on a side and 30 feet high, with arrow slits on all sides and a battlement atop it. Its interior is divided into two floors, with a ladder, staircase, or ramp (your choice) connecting them. This ladder, staircase, or ramp ends at a trapdoor leading to the roof. When created, the tower has a single door at ground level on the side facing you. The door opens only at your command, which you can issue as a Bonus Action. It is immune to the <em>Knock</em> spell and similar magic.</p><p>Magic prevents the tower from being tipped over. The roof, the door, and the walls each have AC 20; HP 100; Immunity to Bludgeoning, Piercing, and Slashing damage except that which is dealt by siege equipment; and Resistance to all other damage. Shrinking the tower back down to statuette form doesn’t repair damage to the tower. Only a <em>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplWish000000]{Wish}</em> spell can repair the tower (this use of the spell counts as replicating a spell of level 8 or lower). Each casting of <em>Wish</em> causes the tower to regain all its Hit Points.</p>",
+      "description": "<div><p><em>奇物，珍稀（需同調）</em></p></div><p>你可以採取魔法動作，把這個1吋高的精金小雕像放在地上並說出其命令詞，使其迅速長成一座方形的精金高塔。若塔內空間未被佔據，再說一遍命令詞會使其變回雕像形態。高塔出現時，其佔據的區域內每個生物都會被推到緊鄰高塔外的未佔據空間裡。該區域內未被穿戴或攜帶的物體也會被推出塔外。</p><p>高塔長寬各20呎，高30呎，各面牆上都有箭孔，頂端則為城垛。其內部分為兩層，其間由梯子、樓梯或斜坡（由你選擇）連通。該梯子、樓梯或斜坡止於一扇通向屋頂的活板門。高塔生成時，其底層面向你的那一面會出現一扇門。只有你用附贈動作向其下達命令時，此門才會開啟。這扇門免疫<em>敲擊術</em>以及類似的魔法。</p><p>魔法保護著高塔，使其無法被推倒。高塔的屋頂、門和每面牆都分別具有AC 20與HP 100，免疫除攻城器械以外所造成的鈍擊、穿刺、揮砍傷害，且對其他所有類型的傷害都具有抗力。將高塔變回雕像形態不會修復其受到的傷害。只有<em>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplWish000000]{祈願術}</em>法術能夠修復高塔（這種用法視為複製一個8環或更低環階的法術）。每次施放<em>祈願術</em>都能讓高塔恢復所有生命值。</p>",
       "activities": {
         "Open Fortress Door": {
-          "name": "Open Fortress Door",
-          "target": "The tower's door"
+          "name": "開啟要塞門",
+          "target": "高塔的門"
         },
         "Grow Tower": {
-          "name": "Grow Tower",
-          "target": "The adamantine"
+          "name": "展開高塔",
+          "target": "精金小雕像"
         }
       },
-      "name": "Daern's Instant Fortress"
+      "name": "戴恩的瞬間要塞"
     },
     "Ring of Three Wishes": {
       "name": "三願戒指",
@@ -3489,24 +3489,24 @@
     "Rope of Entanglement": {
       "effects": {
         "Entangled": {
-          "name": "Entangled"
+          "name": "受繩索纏繞"
         }
       },
       "activities": {
         "Entangle": {
-          "name": "Entangle"
+          "name": "纏繞"
         },
         "Repair Rope": {
-          "name": "Repair Rope"
+          "name": "修復繩索"
         },
         "Escape": {
-          "name": "Escape"
+          "name": "脫逃"
         },
         "Damage Rope": {
-          "name": "Damage Rope"
+          "name": "損傷繩索"
         }
       },
-      "description": "<p><em>奇物，珍稀</em></p><p>This rope is 30 feet long. While holding one end of the rope, you can take a Magic action to command the other end to dart forward and entangle one creature you can see within 20 feet of yourself. The target must succeed on a DC 15 Dexterity saving throw or have the &amp;Reference[Restrained apply=false] condition. You can release the target by letting go of your end of the rope (causing the rope to coil up in the target’s space) or by using a Bonus Action to repeat the command (causing the rope to coil up in your hand).</p><p>A target Restrained by the rope can take an action to make its choice of a DC 15 Strength (Athletics) or Dexterity (Acrobatics) check. On a successful check, the target is no longer Restrained by the rope. If you’re still holding onto the rope when a target escapes from it, you can take a Reaction to command the rope to coil up in your hand; otherwise, the rope coils up in the target’s space.</p><p>The rope has AC 20, HP 20, and Immunity to Poison and Psychic damage. It regains 1 Hit Point every 5 minutes as long as it has at least 1 Hit Point. If the rope drops to 0 Hit Points, it is destroyed.</p><section class=\"secret\" id=\"secret-7RGkmfY1bTmeeb5L\"><p><strong>Foundry Note</strong></p><p>The item includes 20 uses for tracking its HP. The <strong>Damage Rope</strong> activity can be used to apply damage and the <strong>Repair Rope</strong> activity can be used to restore its HP.</p><p>The <strong>Escape</strong> activity can be used to send an Athletics and Dexterity check to the chat for the target to roll for their escape.</p></section>",
+      "description": "<p><em>奇物，珍稀</em></p><p>這根繩索長30呎。當你持握這根繩索的一端時，你可以採取魔法動作命令其另一端向前疾衝並纏住位於你20呎內一名你所能看見的生物。目標必須成功通過一次DC 15的敏捷豁免，否則陷入&amp;Reference[Restrained apply=false]{束縛}狀態。你可以透過鬆開你所持握的繩索一端（使繩索盤繞著掉落在目標的空間），或採取附贈動作重複命令（使繩索回到你手中並盤繞起來）來釋放目標。</p><p>一個被繩索束縛的目標可以採取動作，自行選擇進行一次DC 15的力量（運動）或敏捷（特技）檢定。若檢定成功，目標不再被繩索束縛。若目標逃脫時你仍然持握著繩索，則你可以採取反應命令繩索回到你手中並盤繞起來；否則，繩索會盤繞著掉落在目標的空間中。</p><p>該繩索AC 20、HP 20，並具有對毒素與心靈傷害的免疫。只要繩索還剩至少1點生命值，其就能每5分鐘恢復1點生命值。若繩索的生命值降至0，則其被摧毀。</p><section class=\"secret\" id=\"secret-7RGkmfY1bTmeeb5L\"><p><strong>Foundry 註記</strong></p><p>該物品附有20次使用次數，用於追蹤其HP。<strong>損傷繩索</strong>行動可用於施加傷害，<strong>修復繩索</strong>行動可用於恢復其HP。</p><p><strong>脫逃</strong>行動可用於將運動與敏捷檢定傳送到聊天室，供目標擲骰以嘗試脫逃。</p></section>",
       "name": "糾纏繩"
     },
     "Grenade, Fragmentation": {
@@ -3803,23 +3803,23 @@
       "name": "次元鐐銬",
       "effects": {
         "Dimensionally Bound": {
-          "description": "<p>The shackles prevent a creature bound by them from using any method of extradimensional movement, including teleportation or travel to a different plane of existence. They don’t prevent the creature from passing through an interdimensional portal.</p><p>Once every 30 days, the bound creature can make a [[/check ability=str skill=ath dc=30 format=long]]. On a successful check, the creature breaks free and destroys the shackles.</p>",
-          "name": "Dimensionally Bound"
+          "description": "<p>鐐銬會阻止被其約束的生物進行異次元移動，包括傳送和異位面旅行。不過鐐銬並不能阻止生物穿過一道連接異位面的傳送門。</p><p>每隔30日，被約束的生物可以進行一次[[/check ability=str skill=ath dc=30 format=long]]。若檢定成功，該生物會掙脫並破壞鐐銬。</p>",
+          "name": "次元束縛"
         }
       },
       "activities": {
         "Place Shackles": {
-          "name": "Place Shackles",
-          "target": "Small to Large creature with the Incapacitated condition"
+          "name": "戴上鐐銬",
+          "target": "處於失能狀態的小型到大型生物"
         },
         "Attempt Escape": {
-          "condition": "is bound by Dimensional Shackles",
-          "chatFlavor": "Can be attempted once every 30 days",
-          "name": "Attempt Escape",
-          "target": "Dimensional Shackles binding self"
+          "condition": "被次元鐐銬束縛",
+          "chatFlavor": "每30日可嘗試一次",
+          "name": "嘗試脫逃",
+          "target": "束縛自身的次元鐐銬"
         }
       },
-      "description": "<div><p><em>奇物，珍稀</em></p></div><p>You can take a Utilize action to place these shackles on a creature that has the &amp;Reference[Incapacitated apply=false] condition. The shackles adjust to fit a creature of Small to Large size. The shackles prevent a creature bound by them from using any method of extradimensional movement, including teleportation or travel to a different plane of existence. They don’t prevent the creature from passing through an interdimensional portal.</p><p>You and any creature you designate when you use the shackles can take a Utilize action to remove them. Once every 30 days, the bound creature can make a [[/check ability=str skill=ath dc=30 format=long]]. On a successful check, the creature breaks free and destroys the shackles.</p>"
+      "description": "<div><p><em>奇物，珍稀</em></p></div><p>你可以採取利用動作，將這副鐐銬戴在一個處於&amp;Reference[Incapacitated apply=false]{失能}狀態的生物身上。鐐銬可以自行調整，以適應小型到大型體型的生物。次元鐐銬能夠阻止被其約束的生物進行異次元移動，包括傳送和異位面旅行。不過鐐銬並不能阻止生物穿過一道連接異位面的傳送門。</p><p>你以及你在使用鐐銬時所指定的任何生物，都可以採取利用動作將鐐銬解除。每隔30日，被約束的生物可以進行一次[[/check ability=str skill=ath dc=30 format=long]]。若檢定成功，該生物會掙脫並破壞鐐銬。</p>"
     },
     "Water, fresh (Pint)": {
       "description": "<p>If you don’t drink sufficient water, you risk &amp;Reference[dehydration].</p>",
@@ -4062,13 +4062,13 @@
       }
     },
     "Tan Bag of Tricks": {
-      "description": "<div><p><em>奇物，非普通</em></p><p>This bag made from gray, rust, or tan cloth appears empty. Reaching inside the bag, however, reveals the presence of a small, fuzzy object.</p><p>You can take a Magic action to pull the fuzzy object from the bag and throw it up to 20 feet. When the object lands, it transforms into a creature you determine by rolling on the table that corresponds to the bag’s color. See the <em>Monster Manual</em> for the creature’s stat block. The creature vanishes at the next dawn or when it is reduced to 0 Hit Points.</p><p>The creature is Friendly to you and your allies, and it acts immediately after you on your Initiative count. You can take a Bonus Action to command how the creature moves and what action it takes on its next turn, such as attacking an enemy. In the absence of such orders, the creature acts in a fashion appropriate to its nature.</p><p>Once three fuzzy objects have been pulled from the bag, the bag can’t be used again until the next dawn.</p><p>@Embed[Compendium.dnd-dungeon-masters-guide.tables.RollTable.dmgTanBagOfTrick rollable]</p></div>",
-      "name": "Tan Bag of Tricks",
+      "description": "<div><p><em>奇物，非普通</em></p><p>這種布袋有三種不同顏色的版本：灰色、鐵鏽色、棕褐色。布袋看起來空無一物，但把手伸進去會摸到一個小小的毛絨物體。</p><p>你可以採取魔法動作取出布袋裡的毛絨物體，並將其扔出至多20呎遠。當物體落地時，投骰參考對應顏色布袋的表格決定物體變成的生物。該生物的數值面板見<em>《怪物圖鑑》</em>。該生物在下個黎明時分或其生命值降至0時消失。</p><p>該生物對你和你的盟友態度友好，並緊接在你的先攻順位後行動。你可以採取附贈動作命令該生物在其下個回合如何移動、採取什麼動作，例如攻擊你的敵人。沒接到命令時，該生物會依其本性行動。</p><p>一旦袋子抽出三件毛絨物體後，直到下個黎明前都無法再次使用。</p><p>@Embed[Compendium.dnd-dungeon-masters-guide.tables.RollTable.dmgTanBagOfTrick rollable]</p></div>",
+      "name": "棕褐色魔術袋",
       "activities": {
         "Pull and Throw": {
-          "name": "Pull and Throw",
-          "chatFlavor": "Transformed creature determined by DM or table roll",
-          "duration": "Until the next dawn or when creature is reduced to 0 Hit Points."
+          "name": "取出並扔出",
+          "chatFlavor": "由DM決定或擲表決定變成的生物",
+          "duration": "直到下個黎明，或該生物的生命值降至0時。"
         }
       }
     },
@@ -4159,19 +4159,19 @@
     "Gray Bag of Tricks": {
       "activities": {
         "Pull and Throw": {
-          "name": "Pull and Throw",
-          "chatFlavor": "Transformed creature determined by DM or table roll",
-          "duration": "Until the next dawn or when creature is reduced to 0 Hit Points."
+          "name": "取出並扔出",
+          "chatFlavor": "由DM決定或擲表決定變成的生物",
+          "duration": "直到下個黎明，或該生物的生命值降至0時。"
         }
       },
-      "name": "Gray Bag of Tricks",
-      "description": "<div><p><em>奇物，非普通</em></p><p>This bag made from gray, rust, or tan cloth appears empty. Reaching inside the bag, however, reveals the presence of a small, fuzzy object.</p><p>You can take a Magic action to pull the fuzzy object from the bag and throw it up to 20 feet. When the object lands, it transforms into a creature you determine by rolling on the table that corresponds to the bag’s color. See the <em>Monster Manual</em> for the creature’s stat block. The creature vanishes at the next dawn or when it is reduced to 0 Hit Points.</p><p>The creature is Friendly to you and your allies, and it acts immediately after you on your Initiative count. You can take a Bonus Action to command how the creature moves and what action it takes on its next turn, such as attacking an enemy. In the absence of such orders, the creature acts in a fashion appropriate to its nature.</p><p>Once three fuzzy objects have been pulled from the bag, the bag can’t be used again until the next dawn.</p><p>@Embed[Compendium.dnd-dungeon-masters-guide.tables.RollTable.dmgGrayBagOfTric rollable]</p></div>"
+      "name": "灰色魔術袋",
+      "description": "<div><p><em>奇物，非普通</em></p><p>這種布袋有三種不同顏色的版本：灰色、鐵鏽色、棕褐色。布袋看起來空無一物，但把手伸進去會摸到一個小小的毛絨物體。</p><p>你可以採取魔法動作取出布袋裡的毛絨物體，並將其扔出至多20呎遠。當物體落地時，擲骰參考對應顏色布袋的表格決定物體變成的生物。該生物的數值面板見<em>《怪物圖鑑》</em>。該生物在下個黎明時分或其生命值降至0時消失。</p><p>該生物對你和你的盟友態度友好，並緊接在你的先攻順位後行動。你可以採取附贈動作命令該生物在其下個回合如何移動、採取什麼動作，例如攻擊你的敵人。沒接到命令時，該生物會依其本性行動。</p><p>一旦袋子抽出三件毛絨物體後，直到下個黎明前都無法再次使用。</p><p>@Embed[Compendium.dnd-dungeon-masters-guide.tables.RollTable.dmgGrayBagOfTric rollable]</p></div>"
     },
     "Bead of Force": {
-      "description": "<p><em>奇物，珍稀</em></p><p>This small black sphere measures 3/4 of an inch in diameter and weighs an ounce. Typically, [[/r 1d4 + 4#Beads of Force]] <em>Beads of Force</em> are found together.</p><p>You can take a Magic action to throw the bead up to 60 feet. The bead explodes in a 10-foot-radius Sphere on impact and is destroyed. Each creature in the Sphere must succeed on a DC 15 Dexterity saving throw or take 5d4 Force damage. A sphere of transparent force then encloses the area for 1 minute. Any creature that failed the save and is completely within the area is trapped inside this sphere. Creatures that succeeded on the save or are partially within the area are pushed away from the center of the sphere until they are no longer inside it. Only breathable air can pass through the sphere’s wall. No attack or other effect can pass through.</p><p>An enclosed creature can take a Utilize action to push against the sphere’s wall, moving the sphere up to half the creature’s Speed. The sphere can be picked up, and its magic causes it to weigh only 1 pound, regardless of the weight of creatures inside.</p>",
+      "description": "<p><em>奇物，珍稀</em></p><p>這個小型黑色球體直徑3/4吋，重1盎司。被發現時通常會有[[/r 1d4 + 4#Beads of Force]]顆<em>力場珠</em>放在一起。</p><p>你可以採取魔法動作把珠子扔出至多60呎遠。珠子在落點處引發爆炸並因此被摧毀，其周圍半徑10呎的球形區域內每個生物必須成功通過一次DC 15的敏捷豁免，否則承受5d4力場傷害。此外，一個隱形的球形力場會封閉該區域1分鐘。任何豁免失敗且完全處於範圍中的生物會被困在這個球體裡面。豁免成功或部分處於範圍中的生物會沿著遠離球體中心的方向被推出範圍。只有空氣能穿過力場障壁，任何攻擊或其他效應皆無法穿過。</p><p>被困在內部的生物可以採取利用動作推動力場障壁，使球體移動至多相當於該生物速度一半的距離。該球體可以被拿起，且無論內部生物的重量為何，力場珠整體都只重1磅。</p>",
       "activities": {
         "Throw Bead": {
-          "name": "Throw Bead"
+          "name": "投擲珠子"
         }
       },
       "name": "力場珠"
@@ -4229,8 +4229,8 @@
       "name": "勁敵硬幣"
     },
     "Sending Stones": {
-      "name": "Sending Stones",
-      "description": "<p><em>奇物，非普通</em></p><p><em>Sending Stones</em> come in pairs, with each stone carved to match the other so the pairing is easily recognized. While you touch one stone, you can cast @UUID[Compendium.dnd-players-handbook.spells.Item.phbsplSending000]{Sending} from it. The target is the bearer of the other stone. If no creature bears the other stone, you know that fact as soon as you use the stone, and you don’t cast the spell.</p><p>Once <em>Sending</em> is cast using either stone, the stones can’t be used again until the next dawn. If one of the stones in a pair is destroyed, the other one becomes nonmagical.</p>"
+      "name": "傳訊石",
+      "description": "<p><em>奇物，非普通</em></p><p><em>傳訊石</em>兩顆一對，這兩塊石頭經過雕刻而相互匹配，因此兩塊石頭的配對非常容易辨認。觸摸其中一塊石頭期間，你可以用該石頭施放@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplSending000]{短訊術}，目標為另一塊石頭的攜帶者。若沒有任何生物攜帶另一塊石頭，則你在使用該石頭時會得知這一情況，而你不會施放該法術。</p><p>一旦使用其中任一塊石頭施放了<em>短訊術</em>，則兩塊石頭直到下個黎明前都無法再次使用。若一對石頭中的一塊被摧毀，則另一塊石頭會失去其魔法。</p>"
     },
     "Staff of Frost": {
       "effects": {
@@ -4522,14 +4522,14 @@
       "description": "<p><em>魔杖，珍稀（需由施法者同調）</em></p><p>這根魔杖具有7點充能。持握魔杖期間，你可以消耗至多3點充能，透過魔杖施放@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplLightningB]{閃電束}（豁免DC 15）。消耗1點充能時，你施放該法術的3環版本；每多消耗1點充能，法術的環階就提升1環。</p><p><em><strong>【恢復充能】</strong></em>此魔杖每日黎明時恢復1d6 + 1已消耗的充能。若你消耗了魔杖的最後1點充能，擲[[/r 1d20]]。若結果為1，魔杖會化為灰燼並被摧毀。</p>"
     },
     "Pipes of the Sewers": {
-      "description": "<p><em>奇物，非普通（需同調）</em></p><p>While these pipes are on your person, ordinary rats and giant rats are Indifferent toward you and won’t attack you unless you threaten or harm them.</p><p>The pipes have 3 charges and regain 1d3 expended charges daily at dawn. If you play the pipes as a Magic action, you can take a Bonus Action to expend 1 to 3 charges, calling forth one <strong>@UUID[Compendium.dnd-dungeon-masters-guide.actors.Actor.8ihbbjkaOFTPbI73]{Swarm of Rats}</strong> with each expended charge if enough rats are within half a mile of you to be called in this fashion (as determined by the DM). If there aren’t enough rats to form a swarm, the charge is wasted. Called swarms move toward the music by the shortest available route but aren’t under your control otherwise.</p><p>Whenever a <strong>Swarm of Rats</strong> that isn’t under another creature’s control comes within 30 feet of you while you are playing the pipes, the swarm makes a DC 15 Wisdom saving throw. On a successful save, the swarm behaves as it normally would and can’t be swayed by the pipes’ music for the next 24 hours. On a failed save, the swarm is swayed by the pipes’ music and becomes Friendly to you and your allies for as long as you continue to play the pipes each round as a Magic action. A Friendly swarm obeys your commands. If you issue no commands to a Friendly swarm, it defends itself but otherwise takes no actions. If a Friendly swarm starts its turn more than 30 feet away from you, your control over that swarm ends, and the swarm behaves as it normally would and can’t be swayed by the pipes’ music for the next 24 hours.</p>",
+      "description": "<p><em>奇物，非普通（需同調）</em></p><p>在你隨身攜帶這支排笛期間，普通老鼠和巨鼠對你的態度為冷漠。除非你威脅或傷害老鼠，否則老鼠不會主動攻擊你。</p><p>喚鼠排笛具有3點充能，並在每日黎明時重獲1d3點已消耗的充能。你可以採取魔法動作演奏該排笛，並採取附贈動作消耗1至3點充能。若你周圍半哩內有足夠可供召喚的老鼠（由DM決定），則每消耗1點充能就能召喚一個<strong>@UUID[Compendium.dnd-dungeon-masters-guide.actors.Actor.8ihbbjkaOFTPbI73]{老鼠群}</strong>。若範圍內老鼠的數量不足以形成老鼠群，則該次充能被浪費。被召喚的老鼠群會沿著最短的可用路線向音樂移動，但除此之外不受你的控制。</p><p>在你演奏排笛期間，每當一個未被其他生物控制的<strong>老鼠群</strong>進入你周邊30呎範圍內時，該老鼠群就必須進行一次DC 15的感知豁免。若豁免成功，該老鼠群就會像平常一樣行動，並在接下來的24小時內不再受到排笛音樂的影響。若豁免失敗，該老鼠群就會受到排笛音樂的影響，並且只要你每輪繼續以魔法動作演奏排笛，該老鼠群就會對你和你的盟友保持友好態度。一個友好的老鼠群會遵從你的命令。當你沒有對一個友好的老鼠群下達命令時，該老鼠群會盡力保護自己，但不會採取其他動作。若一個友好的老鼠群在距離你30呎以外的地方開始其回合，則你對該老鼠群的控制就會終止，該老鼠群會像平常一樣行動，並在接下來的24小時內不再受到排笛音樂的影響。</p>",
       "activities": {
         "Sway Rats": {
-          "name": "Sway Rats"
+          "name": "影響老鼠"
         },
         "Call Swarm of Rats": {
-          "name": "Call Swarm of Rats",
-          "target": "rats"
+          "name": "呼喚老鼠群",
+          "target": "老鼠"
         }
       },
       "name": "喚鼠排笛"
@@ -4537,15 +4537,15 @@
     "Deck of Illusions": {
       "activities": {
         "Draw Card": {
-          "name": "Draw Card"
+          "name": "抽牌"
         },
         "Count Number of Cards": {
-          "chatFlavor": "You find the deck missing some cards.",
-          "name": "Count Number of Cards",
-          "target": "The Deck of Illusions"
+          "chatFlavor": "你發現牌組缺少了一些卡牌。",
+          "name": "清點牌數",
+          "target": "幻象牌組"
         }
       },
-      "description": "<div><p><em>奇物，非普通</em></p></div><p>This box contains a set of cards. A full deck has 34 cards: 32 depicting specific creatures and two with a mirrored surface. A deck found as treasure is usually missing [[/r 1d20 − 1#Missing cards]] cards.</p><p>The magic of the deck functions only if its cards are drawn at random. You can take a Magic action to draw a card at random from the deck and throw it to the ground at a point within 30 feet of yourself. An illusion of a creature, determined by rolling on the Deck of Illusions table, forms over the thrown card and remains until dispelled. The illusory creature created by the card looks and behaves like a real creature of its kind, except that it can do no harm. While you are within 120 feet of the illusory creature and can see it, you can take a Magic action to move it anywhere within 30 feet of its card.</p><p>Any physical interaction with the illusory creature reveals it to be false, because objects pass through it. A creature that takes a Study action to visually inspect the illusory creature identifies it as an illusion with a successful [[/check ability=int skill=inv dc=15 format=long]]. The illusion lasts until its card is moved or the illusion is dispelled (using a <em>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplDispelMagi]{Dispel Magic}</em> spell or a similar effect). When the illusion ends, the image on its card disappears, and that card can’t be used again.</p><p>@Embed[Compendium.dnd-dungeon-masters-guide.tables.RollTable.dmgDeckOfIllusio rollable]</p><section class=\"secret\" id=\"secret-dg7rbpSc8GfB0AXm\"><p><strong>Foundry Note</strong></p><p>Due to the single-use nature of each card, it is recommended to import a copy of the @UUID[Compendium.dnd-dungeon-masters-guide.tables.RollTable.dmgDeckOfIllusio]{table} and insert its UUID into the @Embed enricher, above.</p><p>Additionally, when first obtained, the DM or player should use the <strong>Count Number of Cards</strong> activity to randomly determine the total number of cards remaining in the deck. After one use, it may be deleted.</p></section><p></p>",
+      "description": "<div><p><em>奇物，非普通</em></p></div><p>這個盒子裡裝著一套卡牌。一套完整的牌組有34張卡牌：32張描繪著特定的生物，2張則是鏡面牌。作為寶藏找到的牌組通常會缺失[[/r 1d20 − 1#Missing cards]]張卡牌。</p><p>牌組的魔法只有在隨機抽出時才會生效。你可以採取魔法動作從牌組中隨機抽出一張卡牌，並將其扔到距離你30呎範圍內的一處地面上。某一生物（根據幻象牌組表擲骰來確定）的幻象會從被扔出的卡牌中顯現，並將持續存在直到被解除。由卡牌創造出的幻象生物看起來活靈活現，和真實生物行為相仿，但無法造成傷害。若你位於幻象生物120呎範圍內，且你能看見該幻象生物，你就可以採取魔法動作令其移動到卡牌周圍30呎內的任何地方。</p><p>由於物件可以穿透幻象，因此與幻象生物進行的任何物理互動都將揭示其幻象本質。任一生物都可以採取研究動作對幻象生物進行視覺性的觀察，此時若成功通過一次[[/check ability=int skill=inv dc=15 format=long]]，即可發現幻象的本質。幻象將持續存在，直到其卡牌被移動或幻象被解除（使用<em>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplDispelMagi]{解除魔法}</em>法術或類似的效應）。當幻象終止時，其卡牌上的圖像也隨之消失，該卡牌也無法再次使用。</p><p>@Embed[Compendium.dnd-dungeon-masters-guide.tables.RollTable.dmgDeckOfIllusio rollable]</p><section class=\"secret\" id=\"secret-dg7rbpSc8GfB0AXm\"><p><strong>Foundry 註記</strong></p><p>由於每張卡牌都是一次性的，建議匯入一份@UUID[Compendium.dnd-dungeon-masters-guide.tables.RollTable.dmgDeckOfIllusio]{表格}的副本，並將其UUID填入上方的@Embed擴充格式中。</p><p>此外，首次取得牌組時，DM或玩家應使用<strong>清點牌數</strong>行動，隨機決定牌組中剩餘的牌數。使用一次後即可刪除。</p></section><p></p>",
       "name": "幻象牌組"
     },
     "Weapon of Warning": {
@@ -4574,10 +4574,10 @@
       "name": "控制土元素之石",
       "activities": {
         "Summon Elemental": {
-          "name": "Summon Elemental"
+          "name": "召喚元素"
         }
       },
-      "description": "<p><em>奇物，珍稀</em></p><p>While touching this 5-pound stone to the ground, you can take a Magic action to summon an <strong>Earth Elemental</strong>. The elemental appears in an unoccupied space you choose within 30 feet of yourself, obeys your commands, and takes its turn immediately after you on your Initiative count. The elemental disappears after 1 hour, when it dies, or when you dismiss it as a Bonus Action. The stone can’t be used this way again until the next dawn.</p>"
+      "description": "<p><em>奇物，珍稀</em></p><p>當你將這塊重5磅的石頭觸碰地面期間，你可以採取魔法動作召喚一個<strong>土元素</strong>。該土元素會出現在位於你30呎內一處你所選擇的未佔據空間，服從你的命令，並緊接在你的先攻順位後進行其回合。該土元素會在1小時後、其死亡時，或你採取附贈動作解除召喚時消失。直到下個黎明前，石頭都無法再以此方式使用。</p>"
     },
     "Cloak of Displacement": {
       "name": "位移斗篷",
@@ -4657,49 +4657,49 @@
     "Rod of the Pact Keeper": {
       "effects": {
         "Pact Keeper Bonus: +2": {
-          "name": "Pact Keeper Bonus: +2",
-          "description": "<p>While holding this rod, you gain a bonus to spell attack rolls and to the saving throw DCs of your Warlock spells. The bonus is determined by the rod’s rarity.</p>"
+          "name": "契約掌控者加值：+2",
+          "description": "<p>持握這根權杖期間，你的契術師法術的法術攻擊檢定和豁免DC獲得加值。該加值取決於該權杖的稀有度。</p>"
         },
         "Pact Keeper Bonus: +1": {
-          "description": "<p>While holding this rod, you gain a bonus to spell attack rolls and to the saving throw DCs of your Warlock spells. The bonus is determined by the rod’s rarity.</p>",
-          "name": "Pact Keeper Bonus: +1"
+          "description": "<p>持握這根權杖期間，你的契術師法術的法術攻擊檢定和豁免DC獲得加值。該加值取決於該權杖的稀有度。</p>",
+          "name": "契約掌控者加值：+1"
         },
         "Rod of the Pact Keeper +3": {
-          "name": "Rod of the Pact Keeper +3",
+          "name": "契約掌控者權杖 +3",
           "changes": {
             "system.description.value": "{}<p>@Embed[Compendium.dnd-dungeon-masters-guide.equipment.Item.dmgRodOfThePactK caption=false]</p>",
-            "name": "Rod of the Pact Keeper +3"
+            "name": "契約掌控者權杖 +3"
           }
         },
         "Rod of the Pact Keeper +2": {
-          "name": "Rod of the Pact Keeper +2",
+          "name": "契約掌控者權杖 +2",
           "changes": {
-            "name": "Rod of the Pact Keeper +2",
+            "name": "契約掌控者權杖 +2",
             "system.description.value": "{}<p>@Embed[Compendium.dnd-dungeon-masters-guide.equipment.Item.dmgRodOfThePactK caption=false]</p>"
           }
         },
         "Rod of the Pact Keeper +1": {
-          "name": "Rod of the Pact Keeper +1",
+          "name": "契約掌控者權杖 +1",
           "changes": {
             "system.description.value": "{}<p>@Embed[Compendium.dnd-dungeon-masters-guide.equipment.Item.dmgRodOfThePactK caption=false]</p>",
-            "name": "Rod of the Pact Keeper +1"
+            "name": "契約掌控者權杖 +1"
           }
         },
         "Pact Keeper Bonus: +3": {
-          "description": "<p>While holding this rod, you gain a bonus to spell attack rolls and to the saving throw DCs of your Warlock spells. The bonus is determined by the rod’s rarity.</p>",
-          "name": "Pact Keeper Bonus: +3"
+          "description": "<p>持握這根權杖期間，你的契術師法術的法術攻擊檢定和豁免DC獲得加值。該加值取決於該權杖的稀有度。</p>",
+          "name": "契約掌控者加值：+3"
         }
       },
-      "name": "Rod of the Pact Keeper",
+      "name": "契約掌控者權杖",
       "activities": {
         "Regain Spell Slot": {
-          "name": "Regain Spell Slot"
+          "name": "恢復法術位"
         },
         "Rod of the Pact Keeper": {
-          "name": "Rod of the Pact Keeper"
+          "name": "契約掌控者權杖"
         }
       },
-      "description": "<p><em>@UUID[Compendium.dnd-players-handbook.equipment.Item.phbafcRod0000000]{Rod}, 非普通（+1），珍稀（+2）、非常珍稀（+3）(Requires Attunement by a Warlock)</em></p><p>While holding this rod, you gain a bonus to spell attack rolls and to the saving throw DCs of your Warlock spells. The bonus is determined by the rod’s rarity.</p><p>In addition, you can regain one spell slot as a Magic action while holding the rod. You can’t use this property again until you finish a Long Rest.</p><p>@Embed[Compendium.dnd-dungeon-masters-guide.content.JournalEntry.dmgFoundryRefere.JournalEntryPage.Ok4iCgD25ENgoRxE cite=false caption=false classes=\"hide-in-embed\"]</p>"
+      "description": "<p><em>@UUID[Compendium.dnd-players-handbook.equipment.Item.phbafcRod0000000]{權杖}，非普通（+1）／珍稀（+2）／極珍稀（+3）（需由契術師同調）</em></p><p>持握這根權杖期間，你的契術師法術的法術攻擊檢定和豁免DC獲得加值。該加值取決於該權杖的稀有度。</p><p>此外，持握該權杖期間，你能夠以魔法動作恢復一個法術位。直到完成長休前，你無法再使用此屬性。</p><p>@Embed[Compendium.dnd-dungeon-masters-guide.content.JournalEntry.dmgFoundryRefere.JournalEntryPage.Ok4iCgD25ENgoRxE cite=false caption=false classes=\"hide-in-embed\"]</p>"
     },
     "Dragon Slayer": {
       "effects": {
@@ -4743,17 +4743,17 @@
       "description": "<div><p><em>奇物, Legendary（需同調）</em></p></div><p>While touching this crystal orb, you can cast <em>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplScrying000]{Scrying}</em> (save DC 17) with it. In addition, you can cast <em>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplDetectThou]{Detect Thoughts}</em> (save DC 17) targeting creatures you can see within 30 feet of the spell’s sensor. You don’t need to concentrate on this <em>Detect Thoughts</em> spell to maintain it during its duration, but it ends if the <em>Scrying</em> spell ends.</p>"
     },
     "Chime of Opening": {
-      "description": "<div><p><em>奇物，珍稀</em></p></div><p>This hollow metal tube measures about 1 foot long and weighs 1 pound. As a Magic action, you can strike the chime to cast <em>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplKnock00000]{Knock}</em>. The spell’s customary knocking sound is replaced by the clear, ringing tone of the chime, which is audible out to 300 feet.</p><p>The chime can be used 10 times. After the tenth time, it cracks and becomes useless.</p>",
+      "description": "<div><p><em>奇物，珍稀</em></p></div><p>這根空心金屬管長約1呎，重1磅。你可以採取魔法動作敲擊鐘琴以施放法術<em>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplKnock00000]{敲擊術}</em>。此時，該法術中響亮的敲擊聲將被鐘琴清晰的聲音所取代，其聲響最遠300呎內都能聽見。</p><p>開門鐘琴可使用10次。使用10次後，其將碎裂並失去其能力。</p>",
       "name": "開門鐘琴"
     },
     "Eversmoking Bottle": {
       "name": "無盡煙壺",
       "activities": {
         "Open Bottle": {
-          "name": "Open Bottle"
+          "name": "開啟瓶子"
         }
       },
-      "description": "<div><p><em>奇物，非普通</em></p></div><p>As a Magic action, you can open or close this bottle.</p><p>Opening the bottle causes thick smoke to billow out, forming a cloud that fills a 60-foot Emanation originating from the bottle. The area within the smoke is &amp;Reference[HeavilyObscured].</p><p>Each minute the bottle remains open, the size of the Emanation increases by 10 feet until it reaches its maximum size of 120 feet.</p><p>Closing the bottle causes the cloud to become fixed in place until it disperses after 10 minutes. A strong wind (such as that created by the <em>Gust of Wind</em> spell) disperses the cloud after 1 minute.</p><section class=\"secret\" id=\"secret-O7B8LCiiU4CnDjQw\"><p><strong>Foundry Note</strong></p><p>The scaling slider of the <strong>Open Bottle</strong> activity controls the size of the created Emanation from 60 feet at scaling value 1 to 120 feet at scaling value 7 (increments of 10 feet).</p></section>"
+      "description": "<div><p><em>奇物，非普通</em></p></div><p>以魔法動作，你可以開關這個瓶子。</p><p>開啟此瓶會使濃重的煙霧從中湧出，形成一團濃厚的煙雲。煙雲會充滿以此瓶為中心的60呎發散區域。被煙雲籠罩的區域處於&amp;Reference[HeavilyObscured]{重度遮蔽}。</p><p>只要瓶子保持開啟，每1分鐘該發散區域就會擴大10呎，最大達到120呎。</p><p>關閉此瓶會使煙雲固定在原地，直至10分鐘後消散。一陣強風（例如<em>造風術</em>法術所創造的）可以在1分鐘後將其吹散。</p><section class=\"secret\" id=\"secret-O7B8LCiiU4CnDjQw\"><p><strong>Foundry 註記</strong></p><p><strong>開啟瓶子</strong>行動的縮放滑桿可控制所產生發散區域的大小，範圍從比例值1時的60呎，到比例值7時的120呎（每級增加10呎）。</p></section>"
     },
     "Nolzur's Marvelous Pigments": {
       "activities": {
@@ -4962,8 +4962,8 @@
       "description": "<p><em>See: @UUID[Compendium.dnd-dungeon-masters-guide.equipment.Item.dmgInstrumentOfT]{Instrument of the Bards}</em></p><p>An <em>Instrument of the Bards</em> is superior to an ordinary instrument in every way.</p><p>A creature that attempts to play the instrument without being attuned to it must succeed on a [[/save ability=wis dc=15 format=long]] or take [[/damage 2d4 type=psychic]] damage.</p><p>You can play the instrument to cast one of its spells. Once the instrument has been used to cast a spell, it can’t be used to cast that spell again until the next dawn. The spells use your spellcasting ability and spell save DC.</p>"
     },
     "Heward's Handy Haversack": {
-      "name": "Heward's Handy Haversack",
-      "description": "<p><em>奇物，珍稀</em></p><p>This backpack has a central pouch and two side pouches, each of which is an extradimensional space. Each side pouch can hold up to 200 pounds of material, not exceeding a volume of 25 cubic feet. The central pouch can hold up to 500 pounds of material, not exceeding a volume of 64 cubic feet. The haversack always weighs 5 pounds, regardless of its contents.</p><p>Retrieving an item from the haversack requires a Utilize action or a Bonus Action (your choice). When you reach into the haversack for a specific item, the item is always magically on top.</p><p>If any of its pouches is overloaded, pierced, or torn, the haversack ruptures and is destroyed. If the haversack is destroyed, its contents are lost forever, although an Artifact always turns up again somewhere. If the haversack is turned inside out, its contents spill forth unharmed, and the haversack must be put right before it can be used again.</p><p>Each pouch of the haversack holds enough air for 10 minutes of breathing, divided by the number of breathing creatures inside.</p><p>Placing the haversack inside an extradimensional space created by a @UUID[Compendium.dnd-dungeon-masters-guide.equipment.Item.dmgBagOfHolding0]{Bag of Holding}, @UUID[Compendium.dnd-dungeon-masters-guide.equipment.Item.dmgPortableHole0]{Portable Hole}, or similar item instantly destroys both items and opens a gate to the Astral Plane. The gate originates where the one item was placed inside the other. Any creature within 10 feet of the gate and not behind Total Cover is sucked through it and deposited in a random location on the Astral Plane. The gate then closes. The gate is one-way only and can’t be reopened.</p>"
+      "name": "霍華德的便利袋",
+      "description": "<p><em>奇物，珍稀</em></p><p>這個背包有一個中袋和兩個側袋，每個袋子都是一個異次元空間。每個側袋最多可容納200磅、體積不超過25立方呎的物體。中袋最多可容納500磅、體積不超過64立方呎的物體。無論裝了多少東西，背包總是重5磅。</p><p>從背包中取出一件物品需要採取利用動作或附贈動作（由你選擇）。當你伸進背包中尋找一件特定物品時，該物品總會以魔法方式出現在最上面。</p><p>若背包中的任何一個袋子超過其負載、被戳破或撕裂，背包就會破裂並被摧毀。若背包被摧毀，其裝載的東西將永遠消失，不過一件神器總會在某個地方重新出現。若背包被內外翻轉，則其所裝載的東西也將安全地掉落出來，但再次使用背包之前必須將其恢復原狀。</p><p>背包的每個袋子所容納的空氣量足以維持呼吸10分鐘，並由其中所有需要呼吸的生物均分。</p><p>將背包放入由@UUID[Compendium.dnd-dungeon-masters-guide.equipment.Item.dmgBagOfHolding0]{次元袋}、@UUID[Compendium.dnd-dungeon-masters-guide.equipment.Item.dmgPortableHole0]{便攜式次元洞}或其他類似物品所創造的異次元空間內時，將立即摧毀這兩件物品並開啟一道通往星界位面的傳送門。傳送門會產生在其中一件物品被放入另一件物品之處。任何位於傳送門10呎內且不處於全掩蔽後的生物將被吸入門內並送到星界位面的隨機位置，隨後該門關閉。這道傳送門只能單向通過且無法被再次開啟。</p>"
     },
     "Carpet of Flying": {
       "activities": {
@@ -5048,7 +5048,7 @@
     "Ammunition, +1, +2, or +3": {
       "effects": {
         "Ammunition +1": {
-          "name": "Ammunition +1",
+          "name": "彈藥+1",
           "changes": {
             "system.description.value": "{}<p>@Embed[Compendium.dnd-dungeon-masters-guide.equipment.Item.dmgAmmunition12o caption=false]</p>",
             "name": "{} +1"
@@ -5059,23 +5059,23 @@
             "name": "{} +2",
             "system.description.value": "{}<p>@Embed[Compendium.dnd-dungeon-masters-guide.equipment.Item.dmgAmmunition12o caption=false]</p>"
           },
-          "name": "Ammunition +2"
+          "name": "彈藥+2"
         },
         "Ammunition +3": {
           "changes": {
             "name": "{} +3",
             "system.description.value": "{}<p>@Embed[Compendium.dnd-dungeon-masters-guide.equipment.Item.dmgAmmunition12o caption=false]</p>"
           },
-          "name": "Ammunition +3"
+          "name": "彈藥+3"
         }
       },
-      "name": "Ammunition, +1, +2, or +3",
+      "name": "彈藥+1、+2、+3",
       "activities": {
         "Ammunition, +1, +2, or +3": {
-          "name": "Ammunition, +1, +2, or +3"
+          "name": "彈藥+1、+2、+3"
         }
       },
-      "description": "<p><em>武器（任意彈藥），非常見（+1）、珍稀（+2）、非常珍稀（+3）</em></p><p>你使用此魔法彈藥發動攻擊檢定和傷害擲骰時具有加值，該加值取決於彈藥的稀有度。此彈藥一旦命中目標即不再具有魔法效果。</p><p>此類彈藥一般以10或20枚為一組被發現或售賣。10枚此類彈藥的價值等同於一瓶稀有度相同的藥水。</p><p>@Embed[Compendium.dnd-dungeon-masters-guide.content.JournalEntry.dmgFoundryRefere.JournalEntryPage.Ok4iCgD25ENgoRxE cite=false caption=false classes=\"hide-in-embed\"]</p>"
+      "description": "<p><em>武器（任意彈藥），非普通（+1）／珍稀（+2）／極珍稀（+3）</em></p><p>你使用這枚魔法彈藥進行的攻擊檢定和傷害擲骰具有加值，該加值取決於彈藥的稀有度。該彈藥一旦擊中目標，即不再具有魔法效果。</p><p>此類彈藥通常以10枚或20枚為一組被發現或販售。10枚此類彈藥的價值等同於一瓶稀有度相同的藥水。</p><p>@Embed[Compendium.dnd-dungeon-masters-guide.content.JournalEntry.dmgFoundryRefere.JournalEntryPage.Ok4iCgD25ENgoRxE cite=false caption=false classes=\"hide-in-embed\"]</p>"
     },
     "Sentinel Shield": {
       "name": "哨衛之盾",
@@ -5148,25 +5148,25 @@
       }
     },
     "Horn of Blasting": {
-      "description": "<p><em>奇物，珍稀</em></p><p>You can take a Magic action to blow the horn, which emits a thunderous blast in a 30-foot Cone that is audible out to 600 feet. Each creature in the Cone makes a DC 15 Constitution saving throw. On a failed save, a creature takes 5d8 Thunder damage and has the &amp;Reference[Deafened apply=false] condition for 1 minute. On a successful save, a creature takes half as much damage only. Glass or crystal objects in the Cone that aren’t being worn or carried take 10d8 Thunder damage.</p><p>Each use of the horn’s magic has a 20 percent chance of causing the horn to explode. The explosion deals 10d6 Force damage to the user and destroys the horn.</p><section class=\"secret\" id=\"secret-rkHeC2mFJBKqNOh0\"><p><strong>Foundry Note</strong></p><p>The <strong>Roll for Explosion Chance</strong> activity will return 1 if it explodes otherwise it will return 0.</p></section>",
+      "description": "<p><em>奇物，珍稀</em></p><p>你可以採取魔法動作吹響號角，號角會在30呎錐形區域內發出雷鳴般的巨響，其聲音可傳播遠達600呎。該錐形區域內的每個生物都要進行一次DC 15的體質豁免。豁免失敗時，該生物承受5d8雷鳴傷害並陷入&amp;Reference[Deafened apply=false]{耳聾}狀態，持續1分鐘，豁免成功則只承受一半傷害。該錐形區域內由玻璃或晶體構成且未被攜帶或穿戴的物體會承受10d8雷鳴傷害。</p><p>每次使用號角的魔法都有20%的機率導致其爆炸。爆炸會對吹響號角者造成10d6力場傷害並摧毀號角。</p><section class=\"secret\" id=\"secret-rkHeC2mFJBKqNOh0\"><p><strong>Foundry 註記</strong></p><p><strong>判定爆炸機率</strong>行動在爆炸時會回傳1，否則回傳0。</p></section>",
       "activities": {
         "Roll for Explosion Chance": {
-          "roll": "Roll for Explosion Chance",
-          "name": "Roll for Explosion Chance"
+          "roll": "判定爆炸機率",
+          "name": "判定爆炸機率"
         },
         "Blow Horn": {
-          "name": "Blow Horn"
+          "name": "吹響號角"
         },
         "Explosion Damage": {
-          "name": "Explosion Damage"
+          "name": "爆炸傷害"
         },
         "Object Damage": {
-          "name": "Object Damage"
+          "name": "物體傷害"
         }
       },
       "effects": {
         "Deafened": {
-          "name": "Deafened"
+          "name": "耳聾"
         }
       },
       "name": "音爆號角"
@@ -5363,14 +5363,14 @@
     "Keoghtom's Ointment": {
       "activities": {
         "Use Ointment": {
-          "name": "Use Ointment"
+          "name": "使用軟膏"
         },
         "Determine Doses": {
-          "name": "Determine Doses"
+          "name": "決定劑量"
         }
       },
-      "description": "<p><em>奇物，非普通</em></p><p>This glass jar, 3 inches in diameter, contains 1d4 + 1 doses of a thick mixture that smells faintly of aloe. The jar and its contents weigh 1/2 pound.</p><p>As a Utilize action, you can swallow one dose of the ointment or apply it to a creature within 5 feet of yourself. The creature that receives it regains 2d8 + 2 Hit Points and ceases to have the &amp;Reference[Poisoned apply=false] condition.</p><section class=\"secret\" id=\"secret-dQFdZt0BB5kmHlZU\"><p><strong>Foundry Note</strong></p><p>The <strong>Determine Doses</strong> activity is provided for optional use and will consume item uses to produce a total of 1d4 + 1 remaining uses as described above. Once the number of doses has been determined, that activity may be deleted.</p><p>The <strong>Use Ointment</strong> activity can be used for the healing roll but it does not automatically end the Poisoned condition.</p></section>",
-      "name": "Keoghtom's Ointment"
+      "description": "<p><em>奇物，非普通</em></p><p>這個直徑3吋的玻璃瓶中裝著1d4 + 1劑聞起來隱約有蘆薈氣味的混合劑。瓶子和混合劑共重1/2磅。</p><p>你可以採取利用動作，自己吞下一劑軟膏，或將一劑軟膏塗在位於你5呎內的一名生物身上。受用者會恢復2d8 + 2點生命值，並解除其&amp;Reference[Poisoned apply=false]{中毒}狀態。</p><section class=\"secret\" id=\"secret-dQFdZt0BB5kmHlZU\"><p><strong>Foundry 註記</strong></p><p><strong>決定劑量</strong>行動供選擇性使用，會消耗物品使用次數，以產生如上所述總計1d4 + 1的剩餘使用次數。一旦確定劑數，即可刪除該行動。</p><p><strong>使用軟膏</strong>行動可用於治療擲骰，但不會自動結束中毒狀態。</p></section>",
+      "name": "卡夫統靈藥"
     },
     "Elemental Gem (Blue Sapphire)": {
       "name": "Elemental Gem (Blue Sapphire)",
@@ -5487,31 +5487,31 @@
     "Portable Hole": {
       "activities": {
         "Escape Check": {
-          "name": "Escape Check"
+          "name": "脫逃檢定"
         },
         "Unfold  Portable Hole": {
-          "name": "Unfold  Portable Hole"
+          "name": "展開便攜式次元洞"
         }
       },
       "name": "便攜式次元洞",
-      "description": "<p><em>奇物，珍稀</em></p><p>This fine black cloth, soft as silk, is folded up to the dimensions of a handkerchief. It unfolds into a circular sheet 6 feet in diameter.</p><p>You can take a Magic action to unfold a <em>Portable Hole</em> and place it on or against a solid surface, whereupon the <em>Portable Hole</em> creates an extradimensional hole 10 feet deep. The cylindrical space within the hole exists on a different plane of existence, so it can’t be used to create open passages. Any creature inside an open <em>Portable Hole</em> can exit the hole by climbing out of it.</p><p>You can take a Magic action to close a <em>Portable Hole</em> by taking hold of the edges of the cloth and folding it up. Folding the cloth closes the hole, and any creatures or objects within remain in the extradimensional space. No matter what’s in it, the hole weighs next to nothing.</p><p>If the hole is folded up, a creature within the hole’s extradimensional space can take an action to make a DC 10 Strength (Athletics) check. On a successful check, the creature forces its way out and appears within 5 feet of the <em>Portable Hole</em>. A closed <em>Portable Hole</em> holds enough air for 1 hour of breathing, divided by the number of breathing creatures inside.</p><p>Placing a <em>Portable Hole</em> inside an extradimensional space created by a <em>Bag of Holding</em>, <em>Heward’s Handy Haversack</em>, or similar item instantly destroys both items and opens a gate to the Astral Plane. The gate originates where the one item was placed inside the other. Any creature within 10 feet of the gate and not behind &amp;Reference[Total Cover] is sucked through it and deposited in a random location on the Astral Plane. The gate then closes. The gate is one-way only and can’t be reopened.</p>"
+      "description": "<p><em>奇物，珍稀</em></p><p>這塊如絲綢般順滑的精緻黑色布料，折疊起來只有手帕大小。布料展開後為直徑6呎的圓形蓋布。</p><p>你可以採取魔法動作展開<em>便攜式次元洞</em>，並將其放置在或靠著一處堅固表面。<em>便攜式次元洞</em>會隨即打開一個10呎深的異次元孔洞。洞內的圓柱形空間存在於異位面，因此無法用於創造開放通道。任何位於一個打開的<em>便攜式次元洞</em>內的生物都可以透過攀爬從洞口離開。</p><p>你可以採取魔法動作，抓住布料的邊緣將其折疊起來，以關閉<em>便攜式次元洞</em>。折疊布料會關閉洞口，裡面的任何生物或物體都會留在異次元空間中。無論內部裝了什麼，該洞的重量都可以忽略不計。</p><p>若該洞被折疊起來，一個位於洞內異次元空間的生物可以採取動作進行一次DC 10的力量（運動）檢定。若檢定成功，該生物就會強行離開，並出現在<em>便攜式次元洞</em>周邊5呎範圍內。一個關閉的<em>便攜式次元洞</em>所容納的空氣量足以維持呼吸1小時，並由其中所有需要呼吸的生物均分。</p><p>將<em>便攜式次元洞</em>放入由<em>次元袋</em>、<em>霍華德的便利袋</em>或其他類似物品所創造的異次元空間內時，將立即摧毀這兩件物品並開啟一道通往星界位面的傳送門。傳送門會產生在其中一件物品被放入另一件物品之處。任何位於傳送門10呎內且不處於&amp;Reference[Total Cover]{全掩蔽}後的生物將被吸入門內並送到星界位面的隨機位置，隨後該門關閉。這道傳送門只能單向通過且無法被再次開啟。</p>"
     },
     "Dust of Dryness": {
       "activities": {
         "Sprinkle over Water": {
-          "name": "Sprinkle over Water",
-          "target": "water"
+          "name": "灑在水上",
+          "target": "水"
         },
         "Determine Number of Pinches": {
-          "name": "Determine Number of Pinches"
+          "name": "決定粉末把數"
         },
         "Sprinkle on Elemental": {
-          "name": "Sprinkle on Elemental",
-          "target": "Elemental composed mostly of water"
+          "name": "灑在元素身上",
+          "target": "身體大部分由水組成的元素"
         }
       },
       "name": "乾燥塵",
-      "description": "<p><em>奇物，非普通</em></p><p>This small packet contains 1d6 + 4 pinches of dust. As a Utilize action, you can sprinkle a pinch of the dust over <span class=\"no-break\">water</span>, turning up to a 15-foot Cube of water into one marble-sized pellet, which floats or rests near where the dust was sprinkled. The pellet’s weight is negligible. A creature can take a Utilize action to smash the pellet against a hard surface, causing the pellet to shatter and release the water the dust absorbed. <span class=\"no-break\">Doing</span> so destroys the pellet and ends its magic.</p><p>As a Utilize action, you can sprinkle a pinch of the dust on an Elemental within 5 feet of yourself that is composed mostly of water (such as a <strong>Water Elemental</strong> or a <strong>Water Weird</strong> ). Such a creature exposed to a pinch of the dust makes a DC 13 Constitution saving throw, taking 10d6 Necrotic damage on a failed save or half as much damage on a <span class=\"no-break\">successful one</span>.</p><section class=\"secret\" id=\"secret-sKauzfT7TYNuqK0B\"><p><strong>Foundry Note</strong></p><p>The <strong>Determine Number of Pinches</strong> activity is provided for optional use and will consume item uses to produce a total of 1d6 + 4 remaining uses. Once the number of pinches in the packet has been determined, that activity may be deleted.</p></section>"
+      "description": "<p><em>奇物，非普通</em></p><p>這個小包裡共裝著1d6 + 4把粉末。你可以採取利用動作將一把粉末灑在<span class=\"no-break\">水</span>上。粉末會把至多15呎立方體區域的水變成一個彈珠大小的小球，漂浮或停留在粉末被灑下的位置附近。小球的重量可以忽略不計。生物可以採取利用動作將小球摔在某個堅硬的表面上，使小球破碎並釋放其中的水分。<span class=\"no-break\">這樣做</span>會摧毀小球並使其失去魔力。</p><p>你可以採取利用動作，將一把粉末灑在位於你5呎內、身體大部分由水組成的元素（例如<strong>水元素</strong>或<strong>水詭</strong>）身上。此時該生物須進行一次DC 13的體質豁免，豁免失敗時承受10d6黯蝕傷害，<span class=\"no-break\">豁免成功則傷害減半</span>。</p><section class=\"secret\" id=\"secret-sKauzfT7TYNuqK0B\"><p><strong>Foundry 註記</strong></p><p><strong>決定粉末把數</strong>行動供選擇性使用，會消耗物品使用次數，以產生總計1d6 + 4的剩餘使用次數。一旦確定包裝內的粉末把數，即可刪除該行動。</p></section>"
     },
     "Walloping Ammunition": {
       "activities": {
@@ -5556,16 +5556,16 @@
       "name": "攀爬繩",
       "activities": {
         "Command": {
-          "name": "Command"
+          "name": "命令"
         },
         "Repair Rope": {
-          "name": "Repair Rope"
+          "name": "修復繩索"
         },
         "Damage Rope": {
-          "name": "Damage Rope"
+          "name": "損傷繩索"
         }
       },
-      "description": "<p><em>奇物，非普通</em></p><p>This 60-foot length of rope can hold up to 3,000 pounds. While holding one end of the rope, you can take a Magic action to command the other end of the rope to animate and move toward a destination you choose, up to the rope’s length away from you. That end moves 10 feet on your turn when you first command it and 10 feet at the start of each of your subsequent turns until reaching its destination or until you tell it to stop. You can also tell the rope to fasten itself securely to an object or to unfasten itself, to knot or unknot itself, or to coil itself for carrying.</p><p>If you tell the rope to knot, large knots appear at 1-foot intervals along the rope. While knotted, the rope shortens to a 50-foot length and grants Advantage on ability checks made to climb using the rope.</p><p>The rope has AC 20, HP 20, and Immunity to Poison and Psychic damage. It regains 1 Hit Point every 5 minutes as long as it has at least 1 Hit Point. If the rope drops to 0 Hit Points, it is destroyed.</p><section class=\"secret\" id=\"secret-S4xxCILbyoIPQL7g\"><p><strong>Foundry Note</strong></p><p>The item includes 20 uses for tracking its HP. The <strong>Damage Rope</strong> activity can be used to apply damage and the <strong>Repair Rope</strong> activity can be used to restore its HP.</p></section>"
+      "description": "<p><em>奇物，非普通</em></p><p>這根60呎長的繩索可承受3000磅的重量。當你持握該繩索的一端時，你可以採取魔法動作命令繩索的另一端活化並向你指定的目的地移動，目的地與你的距離不能超過繩索的長度。在你第一次命令時，繩索末端會在你的回合內移動10呎，並在隨後每個你的回合開始時移動10呎，直到抵達目的地或直到你命令其停止。你也可以命令繩索將自身牢固地繫在一個物體上或鬆開，將自身打結或鬆開，或將自身盤捲以便攜帶。</p><p>若你命令繩索打結，繩索將每隔1呎出現一個大結。打結期間，繩索的長度縮短至50呎，且使用該繩索攀爬所進行的屬性檢定具有優勢。</p><p>該繩索具有AC 20、HP 20，並具有對毒素與心靈傷害的免疫。只要繩索還剩至少1點生命值，其就能每5分鐘恢復1點生命值。若繩索的生命值降至0，則其被摧毀。</p><section class=\"secret\" id=\"secret-S4xxCILbyoIPQL7g\"><p><strong>Foundry 註記</strong></p><p>該物品附有20次使用次數，用於追蹤其HP。<strong>損傷繩索</strong>行動可用於施加傷害，<strong>修復繩索</strong>行動可用於恢復其HP。</p></section>"
     },
     "Potion of Pugilism": {
       "name": "重拳藥水",
@@ -5640,10 +5640,10 @@
     },
     "Censer of Controlling Air Elementals": {
       "name": "控制氣元素香爐",
-      "description": "<div><p><em>奇物，珍稀</em></p></div><p>While gently swinging this censer, you can take a Magic action to summon an <strong>@UUID[Compendium.dnd-dungeon-masters-guide.actors.Actor.banHjKDMCegbUwYE]{Air Elemental}</strong>. The elemental appears in an unoccupied space as close to the censer as possible, understands your languages, obeys your commands, and takes its turn immediately after you on your Initiative count. The elemental disappears after 1 hour, when it dies, or when you dismiss it as a Bonus Action. The censer can’t be used this way again until the next dawn.</p>",
+      "description": "<div><p><em>奇物，珍稀</em></p></div><p>當你輕輕揮動這件香爐期間，你可以採取魔法動作召喚一個<strong>@UUID[Compendium.dnd-dungeon-masters-guide.actors.Actor.banHjKDMCegbUwYE]{氣元素}</strong>。氣元素會出現在距離香爐最近的未佔據空間，理解你所說的語言、服從你的命令，並緊接在你的先攻順位後進行其回合。該氣元素會在1小時後、其死亡時，或你採取附贈動作解除召喚時消失。直到下個黎明前，香爐都無法再以此方式使用。</p>",
       "activities": {
         "summon": {
-          "target": "unoccupied space as close to the brazier as possible"
+          "target": "距離香爐最近的未佔據空間"
         }
       }
     },
@@ -5844,20 +5844,20 @@
     "Iron Bands of Bilarro": {
       "activities": {
         "Throw Bands": {
-          "name": "Throw Bands",
-          "target": "Huge or smaller you can see"
+          "name": "投擲鐵索",
+          "target": "你所能看見的巨型或更小體型的生物"
         },
         "Break Check": {
-          "name": "Break Check"
+          "name": "破壞檢定"
         }
       },
-      "name": "Iron Bands of Bilarro",
+      "name": "比拉羅的鐵索",
       "effects": {
         "Restrained by Iron": {
-          "name": "Restrained by Iron"
+          "name": "受鐵索束縛"
         }
       },
-      "description": "<p><em>奇物，珍稀</em></p><p>This rusty iron sphere measures 3 inches in diameter and weighs 1 pound. You can take a Magic action to throw the sphere at a Huge or smaller creature you can see within 60 feet of yourself. As the sphere moves through the air, it opens into a tangle of metal bands.</p><p>Make a ranged attack roll with an attack bonus equal to your Dexterity modifier plus your Proficiency Bonus. On a hit, the target has the &amp;Reference[Restrained apply=false] condition until you take a Bonus Action to issue a command that releases it. Doing so or missing with the attack causes the bands to contract and become a sphere once more.</p><p>A creature that can touch the bands, including the one Restrained, can take an action to make a DC 20 Strength (Athletics) check to break the iron bands. On a successful check, the item is destroyed, and the Restrained creature is freed. On a failed check, any further attempts made by that creature automatically fail until 24 hours have elapsed.</p><p>Once the bands are used, they can’t be used again until the next dawn.</p>"
+      "description": "<p><em>奇物，珍稀</em></p><p>這顆鏽跡斑斑的鐵球直徑3吋，重1磅。你可以採取魔法動作將鐵球扔向位於你60呎內一名你所能看見的巨型或更小體型的生物。鐵球會在空中飛行時展開成為一團鐵索。</p><p>進行一次遠程攻擊檢定，將你的熟練加值和敏捷調整值加到這次攻擊檢定中。若攻擊命中，目標會陷入&amp;Reference[Restrained apply=false]{束縛}狀態，直到你採取附贈動作下令釋放該目標。若攻擊未命中，或是你下達了釋放命令，鐵索會重新收縮為鐵球。</p><p>一個能觸及到鐵索的生物（包括被鐵索束縛的生物）可以採取動作進行一次DC 20的力量（運動）檢定來嘗試打破鐵索。若檢定成功，該物品將被摧毀，被束縛的生物將被釋放。若檢定失敗，進行此次檢定的生物在隨後的24小時內進行的任何進一步嘗試都會自動失敗。</p><p>鐵索一經使用，直到下個黎明前都無法再次使用。</p>"
     },
     "Horseshoes of a Zephyr": {
       "activities": {
@@ -5895,8 +5895,8 @@
       "description": "<p>An <strong>@UUID[Compendium.dnd-dungeon-masters-guide.actors.Actor.dmgAvatarofDeath]{Avatar of Death}</strong> appears in an unoccupied space as close to you as possible. The avatar targets only you with its attacks, appearing as a ghostly skeleton clad in a tattered black robe and carrying a spectral scythe. The avatar disappears when it drops to 0 Hit Points or you die. If an ally of yours deals damage to the avatar, that ally summons another <strong>Avatar of Death</strong> . The new avatar appears in an unoccupied space as close to that ally as possible and targets only that ally with its attacks. You and your allies can each summon only one avatar as a consequence of this draw. A creature slain by an avatar can’t be restored to life.</p>"
     },
     "Hag Eye": {
-      "name": "Hag Eye",
-      "description": "<p><em>奇物，非普通</em></p><p>A <em>Hag Eye</em> has 3 charges. While wearing or holding this item, you can expend 1 charge to cast @UUID[Compendium.dnd-players-handbook.spells.Item.phbsplDarkvision]{Darkvision} (targeting yourself only) or @UUID[Compendium.dnd-players-handbook.spells.Item.phbsplSeeInvisib]{See Invisibility}. The Hag Eye regains all expended charges daily at dawn.</p><p><em><strong>Coven Sensor.</strong></em> The <em>Hag Eye</em> is usually entrusted to a hag’s minion for safekeeping and transport. As a Magic action, a hag who belongs to the coven that created the <em>Hag Eye</em> can see what the <em>Hag Eye</em> sees if the hag and the <em>Hag Eye</em> are on the same plane of existence. This effect lasts as long as the hag maintains Concentration. Multiple hags in the coven can see through the <em>Hag Eye</em> simultaneously.</p><p><em><strong>Creating a Hag Eye.</strong></em> Only a hag coven can craft this item, which is made from a real eye coated in varnish and often fitted to a pendant or another wearable item. A hag coven can have only one <em>Hag Eye</em> at a time, and creating a new one requires all three members of the coven to perform a special rite. This rite takes 1 hour, and the hags can’t perform it if one or more of them has the &amp;Reference[Incapacitated apply=false] condition. If the hags take any other actions during this rite, the rite fails and ends.</p>"
+      "name": "鬼婆之眼",
+      "description": "<p><em>奇物，非普通</em></p><p>一顆<em>鬼婆之眼</em>具有3點充能。你佩戴或持握這件物品期間，可以消耗1點充能以施放法術@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplDarkvision]{黑暗視覺}（只能以自身為目標）或@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplSeeInvisib]{識破隱形}。鬼婆之眼在每日黎明時恢復全部已消耗的充能。</p><p><em><strong>【集會感測器】</strong></em><em>鬼婆之眼</em>通常會被託付給鬼婆的僕從，以進行保護與轉移。隸屬於創造該<em>鬼婆之眼</em>集會的鬼婆，若與<em>鬼婆之眼</em>處於同一存在位面上，則可以採取魔法動作透過<em>鬼婆之眼</em>視物。只要該鬼婆維持專注，則該效應將會一直持續。同一集會中的多個鬼婆可以同時透過該<em>鬼婆之眼</em>視物。</p><p><em><strong>【創造鬼婆之眼】</strong></em>只有鬼婆集會才能夠製造此物品，其成品由裹在清漆中的真實眼球製成，並通常鑲在吊墜或其他可佩戴的物品之上。一個鬼婆集會在同一時間只能擁有一顆<em>鬼婆之眼</em>，製作新的則需全部三位集會成員進行一場特殊儀式。這場儀式耗時1小時，且若一名或多名鬼婆陷入&amp;Reference[Incapacitated apply=false]{失能}狀態，則儀式無法進行。若鬼婆們在儀式期間採取任何其他動作，則儀式失敗並終止。</p>"
     },
     "Sword of Sharpness": {
       "description": "<p><em>Weapon (@UUID[Compendium.dnd-players-handbook.equipment.Item.phbwepGlaive0000]{Glaive}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbwepGreatsword]{Greatsword}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbwepLongsword0]{Longsword}, or @UUID[Compendium.dnd-players-handbook.equipment.Item.phbwepScimitar00]{Scimitar})，非常珍稀（需同調）</em></p><p>When you attack an object with this magic weapon and hit, maximize your weapon damage dice against the target.</p><p>When you attack a creature with this weapon and roll a 20 on the d20 for the attack roll, that target takes an extra 14 Slashing damage and gains <span class=\"no-break\">1 &amp;Reference[Exhaustion]</span> level.</p><p>@Embed[Compendium.dnd-dungeon-masters-guide.content.JournalEntry.dmgFoundryRefere.JournalEntryPage.Ok4iCgD25ENgoRxE cite=false caption=false classes=\"hide-in-embed\"]</p>",
@@ -5999,30 +5999,30 @@
     "Broom of Flying": {
       "effects": {
         "Riding Broom (High Weight)": {
-          "description": "<p>The broom can carry up to 400 pounds, but its Fly Speed becomes 30 feet while carrying over 200 pounds.</p>",
-          "name": "Riding Broom (High Weight)"
+          "description": "<p>掃帚最多可載重400磅，但載重超過200磅時，其飛行速度會降低到30呎。</p>",
+          "name": "騎乘掃帚（重載）"
         },
         "Riding Broom (Low Weight)": {
-          "name": "Riding Broom (Low Weight)",
-          "description": "<p>The broom can carry up to 400 pounds, but its Fly Speed becomes 30 feet while carrying over 200 pounds.</p>"
+          "name": "騎乘掃帚（輕載）",
+          "description": "<p>掃帚最多可載重400磅，但載重超過200磅時，其飛行速度會降低到30呎。</p>"
         }
       },
       "activities": {
         "Send Alone or Recall": {
-          "name": "Send Alone or Recall",
-          "target": "the Broom of Flying",
-          "range": "a familiar destination you have named"
+          "name": "獨自派遣或召回",
+          "target": "飛天掃帚",
+          "range": "你所指名且熟悉的目的地"
         },
         "Activate Broom": {
-          "name": "Activate Broom"
+          "name": "啟動掃帚"
         }
       },
-      "description": "<div><p><em>奇物，非普通（需同調）</em></p></div><p>This wooden broom functions like a mundane broom until you stand astride it and take a Magic action to make it hover beneath you, at which time it can be ridden in the air. It has a Fly Speed of 50 feet. It can carry up to 400 pounds, but its Fly Speed becomes 30 feet while carrying over 200 pounds. The broom stops hovering when you land or when you’re no longer riding it.</p><p>As a Magic action, you can send the broom to travel alone to a destination within 1 mile of you if you name the location and are familiar with it. The broom comes back to you when you take a Magic action and use a command word if the broom is still within 1 mile of you.</p>",
+      "description": "<div><p><em>奇物，非普通（需同調）</em></p></div><p>這把掃帚在平時如同一把普通的掃帚，你可以騎在其上並採取魔法動作，使其懸浮在你身下，此時其可以載著你在空中飛行。其飛行速度為50呎，最多可載重400磅，但載重超過200磅時，其飛行速度會降低到30呎。掃帚在你著陸或不再騎乘時便會停止懸浮。</p><p>以魔法動作，你可以指名1哩內一個你熟悉的地點，並令掃帚自行飛往該處。而若掃帚在你周圍1哩以內，你也能夠採取魔法動作並說出命令詞，讓其自行回到你的身邊。</p>",
       "name": "飛天掃帚"
     },
     "Quiver of Ehlonna": {
-      "name": "Quiver of Ehlonna",
-      "description": "<p><em>奇物，非普通</em></p><p>Each of the quiver’s three compartments connects to an extradimensional space that allows the quiver to hold numerous items while never weighing more than 2 pounds. The shortest compartment can hold up to 60 Arrows, Bolts, or similar objects. The midsize compartment holds up to 18 Javelins or similar objects. The longest compartment holds up to 6 long objects, such as bows, Quarterstaffs, or Spears.</p><p>You can draw any item the quiver contains as if doing so from a regular quiver or scabbard.</p>"
+      "name": "艾羅娜的箭袋",
+      "description": "<p><em>奇物，非普通</em></p><p>這個箭袋有三個大小不一的隔層，每個隔層都連接著一個異次元空間。無論其中存放著多少東西，箭袋的總重量都永遠不會超過2磅。最小的隔層可以容納至多60支箭矢、弩矢或類似的物體；中等大小的隔層可以容納至多18支標槍或類似的物體；最大的隔層可以容納至多6件長條形的物體，例如弓、長棍、矛等。</p><p>你可以如同從普通的箭袋或劍鞘中抽出物品一般，抽出箭袋中所裝的任何物品。</p>"
     },
     "Moon-Touched Sword": {
       "effects": {
@@ -6379,17 +6379,17 @@
       "activities": {
         "Animate": {
           "name": "活化",
-          "duration": "若掃帚在恢復為無生命形態前生命值降至0。",
-          "target": "未佔據空間",
+          "duration": "若掃帚在變回非活化形態前生命值降至0。",
+          "target": "一處未佔據空間",
           "range": "盡可能靠近你。"
         },
         "Render Broom Inanimate": {
-          "chatFlavor": "使掃帚恢復為無生命狀態",
-          "name": "恢復原狀"
+          "chatFlavor": "使掃帚恢復為非活化狀態",
+          "name": "恢復非活化"
         }
       },
       "name": "芭芭·雅嘎的舞空帚",
-      "description": "<p><em>奇物，非普通（需同調）</em></p><p>至高妖精芭芭·雅嘎製作了許多這類魔法掃帚，沒有任何兩把看起來完全相同。持握掃帚期間，你可以採取魔法動作，將其變形為一把受你控制的<strong>@UUID[Compendium.dnd-dungeon-masters-guide.actors.Actor.dmgnpcAnimatedBr]{活化掃帚}</strong>。掃帚接著會移動到離你最近的一處未佔據空間。掃帚在你的先攻值上緊接於你之後行動，並保持活化，直到你採取附贈動作並以命令詞使其恢復為無生命狀態。</p><p>在你的回合中，若掃帚位於你30呎內且你未陷入失能狀態，你可以在心中命令活化掃帚（無需動作）。你決定掃帚在其下個回合採取什麼動作及移動到何處，或者你可以對其下達一般性的命令，例如攻擊你的敵人或守衛某個地點。</p><p>若掃帚的生命值降至0，掃帚會碎裂並被摧毀。若掃帚在失去所有生命值前恢復為無生命形態，便會恢復所有生命值。</p>"
+      "description": "<p><em>奇物，非普通（需同調）</em></p><p>至高妖精芭芭·雅嘎精心製作了許多此類魔法掃帚，每把看起來都不盡相同。當你持握該掃帚時，你可以採取魔法動作，將其變形為一把受你控制的<strong>@UUID[Compendium.dnd-dungeon-masters-guide.actors.Actor.dmgnpcAnimatedBr]{活化掃帚}</strong>。然後，該掃帚將移動至距離你最近的一處未佔據空間。該掃帚緊接在你的先攻順位後行動，並保持活化，直到你採取附贈動作說出命令詞，使其變回非活化狀態。</p><p>在你的回合中，只要你未陷入失能狀態，且掃帚位於你30呎範圍內，你便可以在心中指揮該掃帚（無需動作）。你決定掃帚在其回合中的移動和動作，或者你也可以給出籠統的指令，例如攻擊你的敵人或守衛某個地點。</p><p>若掃帚的生命值降至0，則其將粉碎並被摧毀。若掃帚在生命值未降至0時恢復非活化狀態，則其將恢復失去的所有生命值。</p>"
     },
     "Quaal's Feather Token (Bird)": {
       "name": "Quaal's Feather Token (Bird)",
@@ -6406,10 +6406,10 @@
       "name": "Charm of Vitality"
     },
     "Pearl of Power": {
-      "description": "<p><em>奇物，非普通 （需由施法者同調）</em></p><p>While this pearl is on your person, you can take a Magic action to regain one expended spell slot of level 3 or lower. Once you use the pearl, it can’t be used again until the next dawn.</p>",
+      "description": "<p><em>奇物，非普通（需由施法者同調）</em></p><p>在你隨身攜帶這顆珍珠期間，你可以採取魔法動作來恢復一枚已消耗的三環或更低環階的法術位。這顆珍珠一經使用，直到下個黎明前都無法再次使用。</p>",
       "activities": {
         "Regain Spell Slot": {
-          "name": "Regain Spell Slot"
+          "name": "恢復法術位"
         }
       },
       "name": "法力再生珍珠"
@@ -6464,23 +6464,23 @@
     "Bag of Beans": {
       "activities": {
         "Dump Beans": {
-          "name": "Dump Beans",
-          "condition": "Object interaction"
+          "name": "倒出豆子",
+          "condition": "物體互動"
         },
         "Plant Bean": {
-          "name": "Plant Bean",
-          "condition": "Object interaction",
-          "target": "Dirt or sand"
+          "name": "種下豆子",
+          "condition": "物體互動",
+          "target": "泥土或沙子"
         },
         "Count Beans": {
-          "name": "Count Beans",
-          "condition": "Upon discovering the bag.",
-          "chatFlavor": "3d4 dry beans found in bag.",
-          "target": "Held Bag of Beans"
+          "name": "清點豆子",
+          "condition": "發現布袋時。",
+          "chatFlavor": "在布袋中發現3d4顆乾燥的豆子。",
+          "target": "手持的魔豆之袋"
         }
       },
       "name": "魔豆之袋",
-      "description": "<p><em>奇物，珍稀</em></p><p>This heavy cloth bag contains 3d4 dry beans when found. The bag weighs half a pound regardless of how many beans it contains and becomes a @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagPouch000000]{nonmagical item} when it no longer contains any beans.</p><p>If you dump one or more beans out of the bag, they explode in a 10-foot-radius Sphere centered on them. All the dumped beans are destroyed in the explosion, and each creature in the Sphere, including you, makes a DC 15 Dexterity saving throw, taking 5d4 Force damage on a failed save or half as much damage on a successful one.</p><p>If you remove a bean from the bag, plant it in dirt or sand, and then water it, the bean disappears as it produces an effect 1 minute later from the ground where it was planted. The DM can choose an effect from the following table or determine it randomly.</p><details><summary>Bag of Beans Effect (click to expand)</summary><p>@Embed[Compendium.dnd-dungeon-masters-guide.tables.RollTable.dmgBagOfBeansEff rollable caption=false]</p></details><p></p><section class=\"secret\" id=\"secret-Ksf2KyYXOK1HhLmm\"><p><strong>Foundry Note</strong></p><p>Upon obtaining this item, the <strong>Count Beans</strong> activity can be used to determine the number of dry beans contained within and set this item's number of uses accordingly.</p></section>"
+      "description": "<p><em>奇物，珍稀</em></p><p>這個沉重的布袋被找到時裝著3d4顆乾燥的豆子。不論布袋中裝了多少顆豆子，布袋都重半磅，並在其內部不再包含豆子時變為@UUID[Compendium.dnd-players-handbook.equipment.Item.phbagPouch000000]{非魔法物品}。</p><p>若你把一顆或更多豆子倒出，這些豆子會在以其自身為中心、半徑10呎的球形區域內爆炸，該球形區域內包括你在內的每個生物都要進行一次DC 15的敏捷豁免。豁免失敗時承受5d4力場傷害，豁免成功則傷害減半。所有被倒出的豆子都會在爆炸中被摧毀。</p><p>若你從布袋中取出1顆豆子，將其種入泥土或沙子中並澆上水，1分鐘後，豆子會消失，並從其被種下的地面產生一種效應。DM可以從下表中選擇一種效應，或隨機決定。</p><details><summary>魔豆之袋效應（點擊展開）</summary><p>@Embed[Compendium.dnd-dungeon-masters-guide.tables.RollTable.dmgBagOfBeansEff rollable caption=false]</p></details><p></p><section class=\"secret\" id=\"secret-Ksf2KyYXOK1HhLmm\"><p><strong>Foundry 註記</strong></p><p>取得這件物品後，可以使用<strong>清點豆子</strong>行動來決定其中所含乾燥豆子的數量，並據此設定這件物品的使用次數。</p></section>"
     },
     "Boots of Levitation": {
       "name": "浮空之靴",
@@ -6786,11 +6786,11 @@
       "name": "怪物煙斗"
     },
     "Bowl of Commanding Water Elementals": {
-      "description": "<div><p><em>奇物，珍稀</em></p></div><p>While this bowl is filled with water and you are within 5 feet of it, you can take a Magic action to summon a <strong>@UUID[Compendium.dnd-dungeon-masters-guide.actors.Actor.namJz755U1EhvEJa]{Water Elemental}</strong>. The elemental appears in an unoccupied space as close to the bowl as possible, understands your languages, obeys your commands, and takes its turn immediately after you on your Initiative count. The elemental disappears after 1 hour, when it dies, or when you dismiss it as a Bonus Action. The bowl can’t be used this way again until the next dawn.</p><p>The bowl is about 1 foot in diameter and half as deep. It holds about 3 gallons.</p>",
+      "description": "<div><p><em>奇物，珍稀</em></p></div><p>當這個水缽盛滿水且你位於其5呎內時，你可以採取魔法動作召喚一個<strong>@UUID[Compendium.dnd-dungeon-masters-guide.actors.Actor.namJz755U1EhvEJa]{水元素}</strong>。該水元素會出現在距離水缽最近的未佔據空間，理解你所說的語言、服從你的命令，並緊接在你的先攻順位後進行其回合。水元素會在1小時後、其死亡時，或你採取附贈動作解除召喚時消失。直到下個黎明前，水缽都無法再以此方式使用。</p><p>水缽直徑約1呎，深約半呎，可容納約3加侖的水。</p>",
       "name": "命令水元素水缽",
       "activities": {
         "summon": {
-          "target": "unoccupied space as close to the bowl as possible"
+          "target": "距離水缽最近的未佔據空間"
         }
       }
     },
@@ -6988,15 +6988,15 @@
       "name": "吞噬袋"
     },
     "Rust Bag of Tricks": {
-      "description": "<div><p><em>奇物，非普通</em></p><p>This bag made from gray, rust, or tan cloth appears empty. Reaching inside the bag, however, reveals the presence of a small, fuzzy object.</p><p>You can take a Magic action to pull the fuzzy object from the bag and throw it up to 20 feet. When the object lands, it transforms into a creature you determine by rolling on the table that corresponds to the bag’s color. See the <em>Monster Manual</em> for the creature’s stat block. The creature vanishes at the next dawn or when it is reduced to 0 Hit Points.</p><p>The creature is Friendly to you and your allies, and it acts immediately after you on your Initiative count. You can take a Bonus Action to command how the creature moves and what action it takes on its next turn, such as attacking an enemy. In the absence of such orders, the creature acts in a fashion appropriate to its nature.</p><p>Once three fuzzy objects have been pulled from the bag, the bag can’t be used again until the next dawn.</p><p>@Embed[Compendium.dnd-dungeon-masters-guide.tables.RollTable.dmgRustBagOfTric rollable]</p></div>",
+      "description": "<div><p><em>奇物，非普通</em></p><p>這種布袋有三種不同顏色的版本：灰色、鐵鏽色、棕褐色。布袋看起來空無一物，但把手伸進去會摸到一個小小的毛絨物體。</p><p>你可以採取魔法動作取出布袋裡的毛絨物體，並將其扔出至多20呎遠。當物體落地時，投骰參考對應顏色布袋的表格決定物體變成的生物。該生物的數值面板見<em>《怪物圖鑑》</em>。該生物在下個黎明時分或其生命值降至0時消失。</p><p>該生物對你和你的盟友態度友好，並緊接在你的先攻順位後行動。你可以採取附贈動作命令該生物在其下個回合如何移動、採取什麼動作，例如攻擊你的敵人。沒接到命令時，該生物會依其本性行動。</p><p>一旦袋子抽出三件毛絨物體後，直到下個黎明前都無法再次使用。</p><p>@Embed[Compendium.dnd-dungeon-masters-guide.tables.RollTable.dmgRustBagOfTric rollable]</p></div>",
       "activities": {
         "Pull and Throw": {
-          "chatFlavor": "Transformed creature determined by DM or table roll",
-          "name": "Pull and Throw",
-          "duration": "Until the next dawn or when creature is reduced to 0 Hit Points."
+          "chatFlavor": "由DM決定或擲表決定變成的生物",
+          "name": "取出並扔出",
+          "duration": "直到下個黎明，或該生物的生命值降至0時。"
         }
       },
-      "name": "Rust Bag of Tricks"
+      "name": "鐵鏽色魔術袋"
     },
     "Staff of Charming": {
       "activities": {
@@ -7048,14 +7048,14 @@
     "Horseshoes of Speed": {
       "activities": {
         "Attach Horseshoes": {
-          "name": "Attach Horseshoes"
+          "name": "安裝馬蹄鐵"
         }
       },
-      "description": "<p><em>奇物，珍稀</em></p><p>These horseshoes come in a set of four. As a Magic action, you can touch one of the horseshoes to the hoof of a horse or similar creature, whereupon the horseshoe affixes itself to the hoof. Removing a horseshoe also takes a Magic action.</p><p>While all four horseshoes are attached to the same creature, its Speed is increased by 30 feet.</p>",
+      "description": "<p><em>奇物，珍稀</em></p><p>這些馬蹄鐵四個為一套。你可以採取魔法動作將其中一個馬蹄鐵與一匹馬或類似生物的蹄子接觸，隨後馬蹄鐵就會附著在蹄子上。移除一個馬蹄鐵也需要採取魔法動作。</p><p>當四個馬蹄鐵都附著在同一生物身上期間，其速度增加30呎。</p>",
       "name": "加速馬蹄鐵",
       "effects": {
         "Faster": {
-          "name": "Faster"
+          "name": "加速"
         }
       }
     },
@@ -7098,11 +7098,11 @@
       "description": "<p>Gemstones are small, lightweight, and easily secured compared to their same value in coins.</p>"
     },
     "Stone of Good Luck (Luckstone)": {
-      "description": "<p><em>奇物，非普通（需同調）</em></p><p>While this polished agate is on your person, you gain a +1 bonus to ability checks and saving throws.</p><section id=\"secret-nh2ZHIcUKEYwoYE9\" class=\"secret\"><p><strong>Foundry Note</strong></p><p>This item includes an Active Effect that automates the bonus.</p></section>",
+      "description": "<p><em>奇物，非普通（需同調）</em></p><p>在你隨身攜帶這塊光亮的瑪瑙期間，你在屬性檢定和豁免上獲得+1加值。</p><section id=\"secret-nh2ZHIcUKEYwoYE9\" class=\"secret\"><p><strong>Foundry 註記</strong></p><p>這件物品包含一個Active Effect，用於自動套用該加值。</p></section>",
       "name": "幸運石",
       "effects": {
         "Lucky": {
-          "name": "Lucky"
+          "name": "幸運"
         }
       }
     },
@@ -7175,24 +7175,24 @@
     "Elemental Gem": {
       "activities": {
         "Red Corundum": {
-          "name": "Red Corundum",
-          "target": "unoccupied space as close to the broken gem as possible"
+          "name": "紅寶石",
+          "target": "距離被打破的寶石最近的未佔據空間"
         },
         "Yellow Diamond": {
-          "name": "Yellow Diamond",
-          "target": "unoccupied space as close to the broken gem as possible"
+          "name": "黃鑽",
+          "target": "距離被打破的寶石最近的未佔據空間"
         },
         "Emerald": {
-          "name": "Emerald",
-          "target": "unoccupied space as close to the broken gem as possible"
+          "name": "綠寶石",
+          "target": "距離被打破的寶石最近的未佔據空間"
         },
         "Blue Sapphire": {
-          "name": "Blue Sapphire",
-          "target": "unoccupied space as close to the broken gem as possible"
+          "name": "藍寶石",
+          "target": "距離被打破寶石最近的未佔據空間"
         }
       },
-      "name": "Elemental Gem",
-      "description": "<p><em>奇物，非普通</em></p><p>This gem contains a mote of elemental energy. When you take a Utilize action to break the gem, an elemental is summoned, and the gem ceases to be magical. The elemental appears in an unoccupied space as close to the broken gem as possible, understands your languages, obeys your commands, and takes its turn immediately after you on your Initiative count. The elemental disappears after 1 hour, when it dies, or when you dismiss it as a Bonus Action. The type of gem determines the elemental, as shown in the following table.</p><table><thead><tr><td>Gem</td><td>Summoned Elemental</td></tr></thead><tbody><tr><td>@UUID[Compendium.dnd-dungeon-masters-guide.equipment.Item.dmgBlueElemental]{Blue sapphire}</td><td>@UUID[Compendium.dnd-dungeon-masters-guide.actors.Actor.banHjKDMCegbUwYE]{Air Elemental}</td></tr><tr><td>@UUID[Compendium.dnd-dungeon-masters-guide.equipment.Item.dmgEmeraldElemen]{Emerald}</td><td>@UUID[Compendium.dnd-dungeon-masters-guide.actors.Actor.namJz755U1EhvEJa]{Water Elemental}</td></tr><tr><td>@UUID[Compendium.dnd-dungeon-masters-guide.equipment.Item.dmgRedElementalG]{Red corundum}</td><td>@UUID[Compendium.dnd-dungeon-masters-guide.actors.Actor.8SMQl75HLjhuSeau]{Fire Elemental}</td></tr><tr><td>@UUID[Compendium.dnd-dungeon-masters-guide.equipment.Item.dmgYellowElement]{Yellow diamond}</td><td>@UUID[Compendium.dnd-dungeon-masters-guide.actors.Actor.sApYLZj9PTZ40wJr]{Earth Elemental}</td></tr></tbody></table>"
+      "name": "元素寶石",
+      "description": "<p><em>奇物，非普通</em></p><p>這枚寶石蘊含了一道元素能量的微塵。當你採取利用動作打破寶石時，會召喚出一隻元素，且寶石失去魔法。元素會出現在距離被打破的寶石最近的未佔據空間，理解你所說的語言、服從你的命令，並在你的先攻順位上緊接在你之後進行其回合。元素會在1小時後、其死亡時，或你採取附贈動作解除召喚時消失。寶石的種類決定了其能召喚哪種元素，如下表所示：</p><table><thead><tr><td>寶石</td><td>召喚的元素</td></tr></thead><tbody><tr><td>@UUID[Compendium.dnd-dungeon-masters-guide.equipment.Item.dmgBlueElemental]{藍寶石}</td><td>@UUID[Compendium.dnd-dungeon-masters-guide.actors.Actor.banHjKDMCegbUwYE]{氣元素}</td></tr><tr><td>@UUID[Compendium.dnd-dungeon-masters-guide.equipment.Item.dmgEmeraldElemen]{綠寶石}</td><td>@UUID[Compendium.dnd-dungeon-masters-guide.actors.Actor.namJz755U1EhvEJa]{水元素}</td></tr><tr><td>@UUID[Compendium.dnd-dungeon-masters-guide.equipment.Item.dmgRedElementalG]{紅寶石}</td><td>@UUID[Compendium.dnd-dungeon-masters-guide.actors.Actor.8SMQl75HLjhuSeau]{火元素}</td></tr><tr><td>@UUID[Compendium.dnd-dungeon-masters-guide.equipment.Item.dmgYellowElement]{黃鑽}</td><td>@UUID[Compendium.dnd-dungeon-masters-guide.actors.Actor.sApYLZj9PTZ40wJr]{土元素}</td></tr></tbody></table>"
     },
     "Eyes of Charming": {
       "description": "<div><p><em>奇物，非普通（需同調）</em></p></div><p>這副水晶鏡片適合戴在眼前。鏡片具有3點充能。佩戴鏡片期間，你可以消耗1點或更多充能來施放<em>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplCharmPerso]{魅惑人類}</em>（豁免DC 13）。消耗1點充能時，你施放該法術的1環版本；每多消耗1點充能，法術的環階就提升1環。鏡片每日黎明時恢復所有已消耗的充能。</p>",
@@ -7215,17 +7215,17 @@
       "name": "造風之扇",
       "activities": {
         "Gust of Wind": {
-          "name": "Gust of Wind"
+          "name": "造風術"
         }
       },
-      "description": "<p><em>奇物，非普通</em></p><p>While holding this fan, you can cast @UUID[Compendium.dnd-players-handbook.spells.Item.phbsplGustofWind]{Gust of Wind} (save DC 13) from it. Each subsequent time the fan is used before the next dawn, it has a cumulative 20 percent chance of not working; if the fan fails to work, it tears into useless, nonmagical tatters.</p><p><strong>Roll for Chance of Not Working:</strong> [[/r 1d5cs&gt;@item.uses.spent]]</p><section class=\"secret\" id=\"secret-hNmHToEJ6Gg4usEf\"><p><strong>Foundry Note</strong></p><p>Each of use of Gust of Wind expends a use of this item and is reset at dawn. The inline roll above rolls 1d5 and checks if the value is higher than the number of uses to handle the cumulative 20 percent chance of not working. It will return \"1\" if it's successful and \"0\" if it fails.</p></section>"
+      "description": "<p><em>奇物，非普通</em></p><p>持握這把扇子時，你可以用該扇子施放@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplGustofWind]{造風術}（豁免DC 13）。在下個黎明之前，隨後每一次使用這把扇子都會累積20%的機率失效；若扇子失效，則其會被撕裂成無用的非魔法碎片。</p><p><strong>擲骰判定失效機率：</strong> [[/r 1d5cs&gt;@item.uses.spent]]</p><section class=\"secret\" id=\"secret-hNmHToEJ6Gg4usEf\"><p><strong>Foundry 註記</strong></p><p>每次施放造風術都會消耗這件物品的一次使用次數，並在黎明時重置。上方的行內擲骰會擲1d5，並檢查結果是否高於已使用次數，以處理累積20%的失效機率。成功時回傳「1」，失敗時回傳「0」。</p></section>"
     },
     "Brazier of Commanding Fire Elementals": {
       "name": "命令火元素火盆",
-      "description": "<div><p><em>奇物，珍稀</em></p></div><p>While you are within 5 feet of this brazier, you can take a Magic action to summon a <strong>@UUID[Compendium.dnd-dungeon-masters-guide.actors.Actor.8SMQl75HLjhuSeau]{Fire Elemental}</strong>. The elemental appears in an unoccupied space as close to the brazier as possible, understands your languages, obeys your commands, and takes its turn immediately after you on your Initiative count. The elemental disappears after 1 hour, when it dies, or when you dismiss it as a Bonus Action. The brazier can’t be used this way again until the next dawn.</p>",
+      "description": "<div><p><em>奇物，珍稀</em></p></div><p>當你位於這座火盆5呎內時，你可以採取魔法動作召喚一個<strong>@UUID[Compendium.dnd-dungeon-masters-guide.actors.Actor.8SMQl75HLjhuSeau]{火元素}</strong>。火元素會出現在距離火盆最近的未佔據空間，理解你所說的語言、服從你的命令，並緊接在你的先攻順位後進行其回合。該火元素會在1小時後、其死亡時，或你採取附贈動作解除召喚時消失。直到下個黎明前，火盆都無法再以此方式使用。</p>",
       "activities": {
         "summon": {
-          "target": "unoccupied space as close to the brazier as possible"
+          "target": "距離火盆最近的未佔據空間"
         }
       }
     },
@@ -7429,7 +7429,7 @@
     },
     "Folding Boat": {
       "name": "摺疊船",
-      "description": "<div><p><em>奇物，珍稀</em></p></div><p>This object appears as a wooden box that measures 12 inches long, 6 inches wide, and 6 inches deep. It weighs 4 pounds and floats. It can be opened to store items inside. This item also has three command words, each requiring a Magic action to use:</p><p>@Embed[Compendium.dnd-dungeon-masters-guide.equipment.Item.dmgBoatUtility00 caption=false]</p>"
+      "description": "<div><p><em>奇物，珍稀</em></p></div><p>這個物體外觀看起來是個長12吋、寬6吋、深6吋的木盒。其重4磅且能在水面上漂浮，也可以像普通木盒一樣裝東西。這件物品有三個命令詞，使用每個命令詞都需要採取魔法動作：</p><p>@Embed[Compendium.dnd-dungeon-masters-guide.equipment.Item.dmgBoatUtility00 caption=false]</p>"
     },
     "Clawed Gauntlet": {
       "name": "Clawed Gauntlet",
