@@ -1,9 +1,9 @@
 {
-  "label": "Roll Tables",
+  "label": "擲骰表",
   "folders": {
-    "Magic Item Attributes": "Magic Item Attributes",
-    "Gemstones": "Gemstones",
-    "Encounters": "Encounters",
+    "Magic Item Attributes": "魔法物品屬性",
+    "Gemstones": "寶石",
+    "Encounters": "遭遇",
     "Deck of Many Things": "Deck of Many Things",
     "Item-Specific Tables": "Item-Specific Tables",
     "Implements": "Implements",
@@ -53,15 +53,15 @@
           "name": "Fey (6)"
         }
       },
-      "name": "Cube of Summoning",
+      "name": "召喚魔方",
       "description": "<div><p><em>奇物，珍稀</em></p></div><p>This Tiny cube looks like a jack-in-the-box. When you wind its crank as a Magic action, a merry tune emits from the box, the lid pops open, a creature appears in the nearest unoccupied space, and the lid closes. The lid can’t otherwise be opened.</p><p>Roll on the Cube of Summoning table to determine which spell the cube casts to summon the creature. The spell is cast at level 5 (save DC 17, +9 attack bonus) and doesn’t require Concentration, but you otherwise function as the spell’s caster.</p><p>Once the cube summons a creature, the cube can’t do so again until the next dawn.</p><p>@Embed[Compendium.dnd-dungeon-masters-guide.tables.RollTable.dmgCubeOfSummoni rollable]</p>",
       "results": {
-        "5-5": "@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplSummonElem]{Summon Elemental}",
-        "2-2": "@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplSummonBeas]{Summon Beast}",
-        "3-3": "@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplSummonCons]{Summon Construct}",
-        "6-6": "@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplSummonFey0]{Summon Fey}",
-        "1-1": "@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplSummonAber]{Summon Aberration}",
-        "4-4": "@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplSummonDrag]{Summon Dragon}"
+        "5-5": "@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplSummonElem]{元素召喚術}",
+        "2-2": "@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplSummonBeas]{野獸召喚術}",
+        "3-3": "@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplSummonCons]{構裝體召喚術}",
+        "6-6": "@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplSummonFey0]{精類召喚術}",
+        "1-1": "@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplSummonAber]{異怪召喚術}",
+        "4-4": "@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplSummonDrag]{龍類召喚術}"
       }
     },
     "Deck of Illusions": {
@@ -74,43 +74,43 @@
           "name": "Count Number of Cards"
         }
       },
-      "description": "<div><p><em>奇物，非普通</em></p></div><p>This box contains a set of cards. A full deck has 34 cards: 32 depicting specific creatures and two with a mirrored surface. A deck found as treasure is usually missing [[/r 1d20 − 1#Missing cards]] cards.</p><p>The magic of the deck functions only if its cards are drawn at random. You can take a Magic action to draw a card at random from the deck and throw it to the ground at a point within 30 feet of yourself. An illusion of a creature, determined by rolling on the Deck of Illusions table, forms over the thrown card and remains until dispelled. The illusory creature created by the card looks and behaves like a real creature of its kind, except that it can do no harm. While you are within 120 feet of the illusory creature and can see it, you can take a Magic action to move it anywhere within 30 feet of its card.</p><p>Any physical interaction with the illusory creature reveals it to be false, because objects pass through it. A creature that takes a Study action to visually inspect the illusory creature identifies it as an illusion with a successful [[/check ability=int skill=inv dc=15 format=long]]. The illusion lasts until its card is moved or the illusion is dispelled (using a <em>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplDispelMagi]{Dispel Magic}</em> spell or a similar effect). When the illusion ends, the image on its card disappears, and that card can’t be used again.</p><p>@Embed[Compendium.dnd-dungeon-masters-guide.tables.RollTable.dmgDeckOfIllusio rollable]</p><section class=\"secret\" id=\"secret-dg7rbpSc8GfB0AXm\"><p><strong>Foundry Note</strong></p><p>Due to the single-use nature of each card, it is recommended to import a copy of the @UUID[Compendium.dnd-dungeon-masters-guide.tables.RollTable.dmgDeckOfIllusio]{table} and insert its UUID into the @Embed enricher, above.</p><p>Additionally, when first obtained, the DM or player should use the <strong>Count Number of Cards</strong> activity to randomly determine the total number of cards remaining in the deck. After one use, it may be deleted.</p></section><p></p>",
+      "description": "<p>這些生物（抽牌者除外）的數值面板見<em>《怪物圖鑑》</em>。</p>",
       "name": "幻象牌組",
       "results": {
-        "29-29": "@UUID[Compendium.dnd-dungeon-masters-guide.actors.Actor.VmdyZDjqAc8vdncY]{Succubus}",
-        "30-30": "@UUID[Compendium.dnd-dungeon-masters-guide.actors.Actor.ZHAFrnCwCz17dmLc]{Troll}",
-        "31-31": "Veteran Warrior",
-        "32-32": "@UUID[Compendium.dnd-dungeon-masters-guide.actors.Actor.7198siHjPJf8g0cG]{Wyvern}",
-        "34-34": "The card drawer",
-        "33-33": "The card drawer",
-        "24-24": "@UUID[Compendium.dnd-dungeon-masters-guide.actors.Actor.eiifqZwYGi71r2Yl]{Medusa}",
-        "25-25": "@UUID[Compendium.dnd-dungeon-masters-guide.actors.Actor.xvh2UOKv1bh03Gih]{Night Hag}",
-        "8-8": "@UUID[Compendium.dnd-dungeon-masters-guide.actors.Actor.Aw2wmqGIatxe2ImI]{Cloud Giant}",
-        "27-27": "@UUID[Compendium.dnd-dungeon-masters-guide.actors.Actor.L1w8yBkInMscfJ3F]{Oni}",
-        "7-7": "Bugbear Warrior",
-        "12-12": "@UUID[Compendium.dnd-dungeon-masters-guide.actors.Actor.45Z5kogZEhawX1Ey]{Fire Giant}",
-        "26-26": "@UUID[Compendium.dnd-dungeon-masters-guide.actors.Actor.eIGowKTkEBC9gUzx]{Ogre}",
-        "3-3": "@UUID[Compendium.dnd-dungeon-masters-guide.actors.Actor.EMvcuOpu7ABCmBWi]{Assassin}",
-        "20-20": "@UUID[Compendium.dnd-dungeon-masters-guide.actors.Actor.h98AuPfomEPcCibP]{Iron Golem}",
-        "6-6": "@UUID[Compendium.dnd-dungeon-masters-guide.actors.Actor.kz1t6xeXVwODpYb2]{Berserker}",
-        "1-1": "@UUID[Compendium.dnd-dungeon-masters-guide.actors.Actor.ZyIBOoZZD0nDaO2s]{Adult Red Dragon}",
-        "16-16": "@UUID[Compendium.dnd-dungeon-masters-guide.actors.Actor.8ExSFCar5Lbhdo7u]{Guardian Naga}",
-        "13-13": "@UUID[Compendium.dnd-dungeon-masters-guide.actors.Actor.Buxe6dDK5Mw7kxe6]{Frost Giant}",
-        "17-17": "@UUID[Compendium.dnd-dungeon-masters-guide.actors.Actor.9g4N9sjyh8Ql46to]{Hill Giant}",
-        "23-23": "@UUID[Compendium.dnd-dungeon-masters-guide.actors.Actor.bfh29vIEoGzI240e]{Lich}",
-        "11-11": "@UUID[Compendium.dnd-dungeon-masters-guide.actors.Actor.KLCkHep28HBfdsky]{Ettin}",
-        "5-5": "Beholder",
-        "15-15": "Goblin Warrior",
-        "28-28": "@UUID[Compendium.dnd-dungeon-masters-guide.actors.Actor.PVD5wRdyO7iCJPs1]{Priest}",
-        "2-2": "@UUID[Compendium.dnd-dungeon-masters-guide.actors.Actor.B7lBOr1AahNZs4a6]{Archmage}",
-        "21-21": "@UUID[Compendium.dnd-dungeon-masters-guide.actors.Actor.D5UqYD1EnTrJaMTO]{Knight}",
-        "22-22": "Kobold Warrior",
-        "10-10": "@UUID[Compendium.dnd-dungeon-masters-guide.actors.Actor.3o2rQBqpzjIHmrBW]{Erinyes}",
-        "9-9": "@UUID[Compendium.dnd-dungeon-masters-guide.actors.Actor.K15Yl8JmB5iPircc]{Druid}",
-        "18-18": "Hobgoblin Warrior",
-        "14-14": "Gnoll Warrior",
-        "19-19": "@UUID[Compendium.dnd-dungeon-masters-guide.actors.Actor.VmdyZDjqAc8vdncY]{Incubus}",
-        "4-4": "@UUID[Compendium.dnd-dungeon-masters-guide.actors.Actor.rb7OJt822wIO52qY]{Bandit Captain}"
+        "29-29": "@UUID[Compendium.dnd-dungeon-masters-guide.actors.Actor.VmdyZDjqAc8vdncY]{魅魔}",
+        "30-30": "@UUID[Compendium.dnd-dungeon-masters-guide.actors.Actor.ZHAFrnCwCz17dmLc]{巨魔}",
+        "31-31": "歷戰武者",
+        "32-32": "@UUID[Compendium.dnd-dungeon-masters-guide.actors.Actor.7198siHjPJf8g0cG]{飛龍}",
+        "34-34": "抽牌者",
+        "33-33": "抽牌者",
+        "24-24": "@UUID[Compendium.dnd-dungeon-masters-guide.actors.Actor.eiifqZwYGi71r2Yl]{梅杜莎}",
+        "25-25": "@UUID[Compendium.dnd-dungeon-masters-guide.actors.Actor.xvh2UOKv1bh03Gih]{夜鬼婆}",
+        "8-8": "@UUID[Compendium.dnd-dungeon-masters-guide.actors.Actor.Aw2wmqGIatxe2ImI]{雲巨人}",
+        "27-27": "@UUID[Compendium.dnd-dungeon-masters-guide.actors.Actor.L1w8yBkInMscfJ3F]{惡鬼}",
+        "7-7": "熊地精武者",
+        "12-12": "@UUID[Compendium.dnd-dungeon-masters-guide.actors.Actor.45Z5kogZEhawX1Ey]{火巨人}",
+        "26-26": "@UUID[Compendium.dnd-dungeon-masters-guide.actors.Actor.eIGowKTkEBC9gUzx]{食人魔}",
+        "3-3": "@UUID[Compendium.dnd-dungeon-masters-guide.actors.Actor.EMvcuOpu7ABCmBWi]{刺客}",
+        "20-20": "@UUID[Compendium.dnd-dungeon-masters-guide.actors.Actor.h98AuPfomEPcCibP]{鋼鐵魔像}",
+        "6-6": "@UUID[Compendium.dnd-dungeon-masters-guide.actors.Actor.kz1t6xeXVwODpYb2]{狂戰士}",
+        "1-1": "@UUID[Compendium.dnd-dungeon-masters-guide.actors.Actor.ZyIBOoZZD0nDaO2s]{成年紅龍}",
+        "16-16": "@UUID[Compendium.dnd-dungeon-masters-guide.actors.Actor.8ExSFCar5Lbhdo7u]{守護者納迦}",
+        "13-13": "@UUID[Compendium.dnd-dungeon-masters-guide.actors.Actor.Buxe6dDK5Mw7kxe6]{霜巨人}",
+        "17-17": "@UUID[Compendium.dnd-dungeon-masters-guide.actors.Actor.9g4N9sjyh8Ql46to]{山丘巨人}",
+        "23-23": "@UUID[Compendium.dnd-dungeon-masters-guide.actors.Actor.bfh29vIEoGzI240e]{巫妖}",
+        "11-11": "@UUID[Compendium.dnd-dungeon-masters-guide.actors.Actor.KLCkHep28HBfdsky]{雙頭巨人}",
+        "5-5": "眼魔",
+        "15-15": "哥布林武者",
+        "28-28": "@UUID[Compendium.dnd-dungeon-masters-guide.actors.Actor.PVD5wRdyO7iCJPs1]{祭司}",
+        "2-2": "@UUID[Compendium.dnd-dungeon-masters-guide.actors.Actor.B7lBOr1AahNZs4a6]{大法師}",
+        "21-21": "@UUID[Compendium.dnd-dungeon-masters-guide.actors.Actor.D5UqYD1EnTrJaMTO]{騎士}",
+        "22-22": "狗頭人武者",
+        "10-10": "@UUID[Compendium.dnd-dungeon-masters-guide.actors.Actor.3o2rQBqpzjIHmrBW]{欲魔}",
+        "9-9": "@UUID[Compendium.dnd-dungeon-masters-guide.actors.Actor.K15Yl8JmB5iPircc]{德魯伊}",
+        "18-18": "大哥布林武者",
+        "14-14": "鬣狗人武者",
+        "19-19": "@UUID[Compendium.dnd-dungeon-masters-guide.actors.Actor.VmdyZDjqAc8vdncY]{夢魔}",
+        "4-4": "@UUID[Compendium.dnd-dungeon-masters-guide.actors.Actor.rb7OJt822wIO52qY]{強盜首領}"
       }
     },
     "Efreeti Bottle": {
@@ -145,7 +145,7 @@
           "chatFlavor": "Transformed creature determined by DM or table roll"
         }
       },
-      "name": "Gray Bag of Tricks",
+      "name": "灰色魔術袋",
       "description": "<div><p><em>奇物，非普通</em></p><p>This bag made from gray, rust, or tan cloth appears empty. Reaching inside the bag, however, reveals the presence of a small, fuzzy object.</p><p>You can take a Magic action to pull the fuzzy object from the bag and throw it up to 20 feet. When the object lands, it transforms into a creature you determine by rolling on the table that corresponds to the bag’s color. See the <em>Monster Manual</em> for the creature’s stat block. The creature vanishes at the next dawn or when it is reduced to 0 Hit Points.</p><p>The creature is Friendly to you and your allies, and it acts immediately after you on your Initiative count. You can take a Bonus Action to command how the creature moves and what action it takes on its next turn, such as attacking an enemy. In the absence of such orders, the creature acts in a fashion appropriate to its nature.</p><p>Once three fuzzy objects have been pulled from the bag, the bag can’t be used again until the next dawn.</p><p>@Embed[Compendium.dnd-dungeon-masters-guide.tables.RollTable.dmgGrayBagOfTric rollable]</p></div>"
     },
     "Hat of Many Spells": {
@@ -194,19 +194,19 @@
       "description": "<p><em>奇物，非普通</em></p><p>This robe has cloth patches of various shapes and colors covering it. While wearing the robe, you can take a Magic action to detach one of the patches, causing it to become the object or creature it represents. Once the last patch is removed, the robe becomes an ordinary garment.</p><p>The robe has two of each of the following patches:</p><ul><li class=\"Core-Styles_Core-Bulleted\">@UUID[Compendium.dnd-players-handbook.equipment.Item.KZUoiZrigDbovEu7]{Bullseye Lantern} (filled and lit)</li><li class=\"Core-Styles_Core-Bulleted\">@UUID[Compendium.dnd-players-handbook.equipment.Item.phbwepDagger0000]{Dagger}</li><li class=\"Core-Styles_Core-Bulleted\">@UUID[Compendium.dnd-players-handbook.equipment.Item.phbagMirror00000]{Mirror}</li><li class=\"Core-Styles_Core-Bulleted\">@UUID[Compendium.dnd-players-handbook.equipment.Item.phbagPole0000000]{Pole}</li><li class=\"Core-Styles_Core-Bulleted\">@UUID[Compendium.dnd-players-handbook.equipment.Item.x8jC9e00t4cUYiKR]{Rope} (coiled)</li><li class=\"Core-Styles_Core-Bulleted\">@UUID[Compendium.dnd-players-handbook.equipment.Item.phbagSack0000000]{Sack}</li></ul><p>In addition, the robe has [[/r 4d4]] other patches. The DM chooses the patches or determines them randomly by rolling on the following table.</p><details><summary>Table</summary><p>@Embed[Compendium.dnd-dungeon-masters-guide.tables.RollTable.dmgRobeOfUsefulI rollable]</p></details><section class=\"secret\" id=\"secret-xQk1DSLrx4a4jmWy\"><p><strong>Foundry Note</strong></p><p>This item includes activities for each of the always present patches above which include limited uses for tracking how many are left. They can be duplicated and renamed for the additional patches after rolling for the results.</p></section>",
       "name": "雜貨法袍",
       "results": {
-        "31-44": "Wooden ladder (24 feet long)",
-        "23-30": "10 gems worth 100 GP each",
-        "76-83": "Spell Scroll containing one spell of level 1, 2, or 3 (your choice)",
-        "69-75": "@UUID[Compendium.dnd-players-handbook.actors.Actor.phbmobRowboat000]{Rowboat} (12 feet long)",
-        "16-22": "Iron door (up to 10 feet wide and 10 feet high, barred on one side of your choice), which you can place in an opening you can reach; it conforms to fit the opening, attaching and hinging itself",
-        "1-8": "Bag of [[/award 100GP]]",
-        "52-59": "Open pit (a 10-foot Cube), which you can place on the ground within 10 feet of yourself",
-        "45-51": "@UUID[Compendium.dnd-players-handbook.actors.Actor.phbmobRidingHors]{Riding Horse} with a Riding Saddle",
-        "84-90": "2 @UUID[Compendium.dnd-players-handbook.actors.Actor.phbmobMastiff000]{Mastiffs}",
-        "9-15": "Silver coffer (1 foot long, 6 inches wide and deep) worth 500 GP",
-        "60-68": "4 @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagPotionofHea]{Potions of Healing}",
-        "97-100": "@UUID[Compendium.dnd-players-handbook.equipment.Item.phbagRamPortable]",
-        "91-96": "Window (2 feet by 4 feet, up to 2 feet deep), which you can place on a vertical surface you can reach"
+        "31-44": "木梯（24呎長）",
+        "23-30": "10顆各價值100 GP的寶石",
+        "76-83": "記載有一道1環、2環或3環法術（由你選擇）的法術卷軸",
+        "69-75": "@UUID[Compendium.dnd-players-handbook.actors.Actor.phbmobRowboat000]{划艇}（12呎長）",
+        "16-22": "鐵門（寬最多10呎、高最多10呎，你所選擇的一側設有門閂），你可以將其安置在你伸手可及的開口處；該鐵門會自動調整形狀以貼合開口，並自行固定與裝上鉸鏈",
+        "1-8": "一袋[[/award 100GP]]",
+        "52-59": "開放式坑洞（10呎立方體），你可以將其設置在你周圍10呎內的地面上",
+        "45-51": "一匹@UUID[Compendium.dnd-players-handbook.actors.Actor.phbmobRidingHors]{騎用馬}，配有騎乘鞍座",
+        "84-90": "2隻@UUID[Compendium.dnd-players-handbook.actors.Actor.phbmobMastiff000]{獒犬}",
+        "9-15": "價值500 GP的銀製寶箱（長1呎，寬與深各6吋）",
+        "60-68": "4瓶@UUID[Compendium.dnd-players-handbook.equipment.Item.phbagPotionofHea]{治療藥水}",
+        "97-100": "@UUID[Compendium.dnd-players-handbook.equipment.Item.phbagRamPortable]{便攜型攻城鎚}",
+        "91-96": "窗戶（2呎乘4呎，深度至多2呎），你可以將其設置在你伸手可及的垂直表面上"
       }
     },
     "Rust Bag of Tricks": {
@@ -217,11 +217,11 @@
           "name": "Pull and Throw"
         }
       },
-      "name": "Rust Bag of Tricks"
+      "name": "鐵鏽色魔術袋"
     },
     "Tan Bag of Tricks": {
       "description": "<div><p><em>奇物，非普通</em></p><p>This bag made from gray, rust, or tan cloth appears empty. Reaching inside the bag, however, reveals the presence of a small, fuzzy object.</p><p>You can take a Magic action to pull the fuzzy object from the bag and throw it up to 20 feet. When the object lands, it transforms into a creature you determine by rolling on the table that corresponds to the bag’s color. See the <em>Monster Manual</em> for the creature’s stat block. The creature vanishes at the next dawn or when it is reduced to 0 Hit Points.</p><p>The creature is Friendly to you and your allies, and it acts immediately after you on your Initiative count. You can take a Bonus Action to command how the creature moves and what action it takes on its next turn, such as attacking an enemy. In the absence of such orders, the creature acts in a fashion appropriate to its nature.</p><p>Once three fuzzy objects have been pulled from the bag, the bag can’t be used again until the next dawn.</p><p>@Embed[Compendium.dnd-dungeon-masters-guide.tables.RollTable.dmgTanBagOfTrick rollable]</p></div>",
-      "name": "Tan Bag of Tricks",
+      "name": "棕褐色魔術袋",
       "activities": {
         "Pull and Throw": {
           "name": "Pull and Throw",
@@ -440,30 +440,30 @@
       "name": "Armaments - Legendary"
     },
     "750 GP Art Objects": {
-      "description": "<p><em>See: @UUID[Compendium.dnd-dungeon-masters-guide.equipment.Item.dmgJewelry750GP0]{Art Object (750 GP)}</em></p>",
+      "description": "<p><em>參見：@UUID[Compendium.dnd-dungeon-masters-guide.equipment.Item.dmgJewelry750GP0]{藝術品（750 GP）}</em></p>",
       "results": {
-        "8-8": "Silver and gold brooch",
-        "2-2": "Bundle of sheet music representing the lost dirges of a famous composer",
-        "1-1": "Silver chalice set with moonstones",
-        "7-7": "Detailed, life-sized dragonborn skull cast in electrum",
-        "10-10": "Painted gold war mask",
-        "3-3": "Carved wooden harp with ivory inlay and zircon gems",
-        "5-5": "Gold comb shaped like a dragon with red garnets as eyes",
-        "4-4": "Gold idol",
-        "6-6": "Bottle stopper cork embossed with gold leaf and set with amethysts",
-        "9-9": "Obsidian statuette with gold fittings and inlay"
+        "8-8": "金銀胸針",
+        "2-2": "一紮樂譜，記載著某位著名作曲家失傳的輓歌",
+        "1-1": "鑲有月光石的銀聖杯",
+        "7-7": "細節精緻、真人大小的琥珀金龍裔顱骨",
+        "10-10": "金製彩繪戰爭面具",
+        "3-3": "木雕豎琴，鑲嵌著象牙和鋯石",
+        "5-5": "形狀像一條龍的金梳子，眼睛嵌有紅色石榴石",
+        "4-4": "金製偶像",
+        "6-6": "貼有金箔且鑲嵌紫水晶的軟木瓶塞浮雕",
+        "9-9": "金飾黑曜石小雕像"
       },
-      "name": "750 GP Art Objects"
+      "name": "750 GP藝術品"
     },
     "5,000 GP Gemstones": {
       "results": {
-        "3-3": "Jacinth (fiery orange)",
-        "4-4": "Ruby (clear red to deep crimson)",
-        "1-1": "Black sapphire (lustrous black with glowing highlights)",
-        "2-2": "Diamond (blue white, canary, pink, brown, or blue)"
+        "3-3": "紅鋯石（熾橙色）",
+        "4-4": "紅寶石（從亮紅至深紅）",
+        "1-1": "黑色藍寶石（有光澤的黑色並帶有發光的亮點）",
+        "2-2": "鑽石（藍白色、淡黃色、粉色、棕色或藍色）"
       },
-      "name": "5,000 GP Gemstones",
-      "description": "<p><em>See: @UUID[Compendium.dnd-dungeon-masters-guide.equipment.Item.dmgGemstone5000G]{Gemstone (5,000 GP)}</em></p>"
+      "name": "5,000 GP寶石",
+      "description": "<p><em>參見：@UUID[Compendium.dnd-dungeon-masters-guide.equipment.Item.dmgGemstone5000G]{寶石（5,000 GP）}</em></p>"
     },
     "Claims to Fame": {
       "results": {
@@ -662,20 +662,20 @@
       "name": "Astral Color Pools"
     },
     "Bag of Beans Effect": {
-      "name": "Bag of Beans Effect",
+      "name": "魔豆之袋效應",
       "results": {
-        "71-80": "A fruit tree grows. It has [[/r 1d10 + 20#Pieces of fruit]] fruit, [[/gmr 1d8#Fruits acting as Potions]] of which act as randomly determined potions. The tree vanishes after 1 hour. Picked fruit remains, retaining any magic for 30 days.",
-        "41-50": "Three @UUID[Compendium.dnd-dungeon-masters-guide.actors.Actor.TaK6nQMGqZ0y8gt7]{Shrieker Fungi} sprout.",
-        "51-60": "[[/r 1d4 + 4#Bright-pink toads]] bright-pink @UUID[Compendium.dnd-players-handbook.actors.Actor.phbmobFrog000000]{toads} crawl forth. Whenever a toad is touched, it transforms into a Large or smaller monster of the DM’s choice that acts in accordance with its alignment and nature. The monster remains for 1 minute, then disappears in a puff of bright-pink smoke.",
-        "21-30": "An animate but immobile stone statue in your likeness rises and makes verbal threats against you. If you leave it and others come near, it describes you as the most heinous of villains and directs the newcomers to find and attack you. If you are on the same plane of existence as the statue, it knows where you are. The statue becomes inanimate after 24 hours.",
-        "91-95": "A pyramid with a 60-foot-square base bursts upward. Inside is a burial chamber containing a @UUID[Compendium.dnd-dungeon-masters-guide.actors.Actor.t8WYD7ak07X7xpx8]{Mummy} , a @UUID[Compendium.dnd-dungeon-masters-guide.actors.Actor.UFW8M3JHzHkxUEGM]{Mummy Lord} , or some other Undead of the DM’s choice. Its sarcophagus contains treasure of the DM’s choice.",
-        "81-90": "A nest of [[/r 1d4 + 3#Rainbow-colored eggs]] rainbow-colored eggs springs up. Any creature that eats an egg makes a [[/save ability=con dc=20 format=long]]. On a successful save, a creature permanently increases its lowest ability score by 1, randomly choosing among equally low scores. On a failed save, the creature takes [[/damage 10d6 type=force]] damage from an internal explosion.",
-        "1-1": "[[/r 5d4#Toadstools]] toadstools sprout. If a creature eats a toadstool, roll [[/r 1d2#Toadstool side-effect]]{any die}. On an odd roll, the eater must succeed on a [[/save ability=con dc=15 format=long]] or take [[/damage 5d6 type=poison]] damage and have the &amp;Reference[Poisoned] condition for 1 hour. On an even roll, the eater gains [[/healing 5d6 type=temphp]] for 1 hour.",
-        "96-100": "A giant beanstalk sprouts, growing to a height of the DM’s choice. The top leads where the DM chooses, such as to a great view, a cloud giant’s castle, or another plane of existence.",
-        "61-70": "A hungry @UUID[Compendium.dnd-dungeon-masters-guide.actors.Actor.1ES45ODWg3pCrkzv]{Bulette} burrows up and attacks.",
-        "2-10": "A geyser erupts and spouts water, beer, mayonnaise, tea, vinegar, wine, or oil (DM’s choice) 30 feet into the air for [[/r 1d4#Geyser duration (minutes)]] minutes.",
-        "31-40": "A campfire with green flames springs forth and burns for 24 hours or until it is extinguished.",
-        "11-20": "A @UUID[Compendium.dnd-dungeon-masters-guide.actors.Actor.NB6wUgVqeOQtsQKu]{Treant} sprouts. Roll [[/r 1d2#Treant alignment]]{any die}. On an odd roll, the treant is Chaotic Evil. On an even roll, the treant is Chaotic Good."
+        "71-80": "長出一棵果樹。樹上有[[/r 1d10 + 20#Pieces of fruit]]顆果實，其中[[/gmr 1d8#Fruits acting as Potions]]顆的作用等同於隨機決定的藥水。果樹會在1小時後消失；被摘下的果實則會留下，並保有其魔法30天。",
+        "41-50": "長出三株@UUID[Compendium.dnd-dungeon-masters-guide.actors.Actor.TaK6nQMGqZ0y8gt7]{尖叫蕈}。",
+        "51-60": "爬出[[/r 1d4 + 4#Bright-pink toads]]隻亮粉紅色的@UUID[Compendium.dnd-players-handbook.actors.Actor.phbmobFrog000000]{蟾蜍}。每當有蟾蜍被觸碰，就會變成一隻由DM選擇、體型為大型或更小的怪物，並依其陣營與本性行動。該怪物會停留1分鐘，然後在一陣亮粉紅色的煙霧中消失。",
+        "21-30": "升起一尊與你容貌相同、已活化但無法移動的石像，並對你口出威脅。若你離開而其他人靠近石像，石像會把你描述成最窮凶惡極的惡棍，並指引這些新來者找出並攻擊你。只要你與石像位於同一位面，石像就知道你在哪裡。石像會在24小時後恢復為無生命狀態。",
+        "91-95": "一座底面為60呎平方的金字塔破土而出。其內有一間墓室，裡面有一隻@UUID[Compendium.dnd-dungeon-masters-guide.actors.Actor.t8WYD7ak07X7xpx8]{木乃伊}、一隻@UUID[Compendium.dnd-dungeon-masters-guide.actors.Actor.UFW8M3JHzHkxUEGM]{木乃伊領主}，或DM選擇的其他不死生物。其石棺中存放著由DM選擇的寶藏。",
+        "81-90": "冒出一窩[[/r 1d4 + 3#Rainbow-colored eggs]]顆彩虹色的蛋。吃下蛋的生物要進行一次[[/save ability=con dc=20 format=long]]。豁免成功時，該生物的最低屬性值永久提升1點，若有多項同為最低則隨機選擇其中一項；豁免失敗時，該生物會因體內爆炸而承受[[/damage 10d6 type=force]]傷害。",
+        "1-1": "長出[[/r 5d4#Toadstools]]朵毒蕈。若有生物吃下毒蕈，擲[[/r 1d2#Toadstool side-effect]]{任意面數的骰子}。骰出奇數時，食用者必須成功通過一次[[/save ability=con dc=15 format=long]]，否則承受[[/damage 5d6 type=poison]]傷害，並陷入&amp;Reference[Poisoned]{中毒}狀態1小時。骰出偶數時，食用者獲得[[/healing 5d6 type=temphp]]，持續1小時。",
+        "96-100": "長出一株巨大的豆莖，高度由DM決定。其頂端通往DM所選之處，例如絕佳的景致、雲巨人的城堡，或另一個存在位面。",
+        "61-70": "一隻飢餓的@UUID[Compendium.dnd-dungeon-masters-guide.actors.Actor.1ES45ODWg3pCrkzv]{鯊蜥獸}從地下鑽出並發動攻擊。",
+        "2-10": "噴出一股間歇泉，將水、啤酒、美乃滋、茶、醋、葡萄酒或油（由DM選擇）噴向30呎高的空中，持續[[/r 1d4#Geyser duration (minutes)]]分鐘。",
+        "31-40": "冒出一堆燃著綠色火焰的營火，燃燒24小時，或直到被熄滅。",
+        "11-20": "長出一隻@UUID[Compendium.dnd-dungeon-masters-guide.actors.Actor.NB6wUgVqeOQtsQKu]{樹人}。擲[[/r 1d2#Treant alignment]]{任意面數的骰子}。骰出奇數時，該樹人為混亂邪惡；骰出偶數時，該樹人為混亂善良。"
       }
     },
     "Armaments - Very Rare": {
@@ -718,17 +718,17 @@
     },
     "Major Beneficial Properties": {
       "results": {
-        "51-60": "<p>While attuned to the Artifact, you can cast one level 4 spell (chosen by the DM) from it. After you cast the spell, roll 1d6. On a roll of 1–5, you can’t cast it again in this way until the next dawn.</p>",
-        "91-100": "<p>While attuned to the Artifact, you have Immunity to the Blinded, Deafened, Petrified, and Stunned conditions.</p>",
-        "61-70": "<p>As 51–60 above, except the spell is level 5.</p>",
-        "1-20": "<p>While attuned to the Artifact, one of your ability scores (DM’s choice) increases by 2, to a maximum of 24.</p>",
-        "21-30": "<p>While attuned to the Artifact, you regain 1d6 Hit Points at the start of each of your turns if you have at least 1 Hit Point.</p>",
-        "31-40": "<p>When you hit with an attack roll while attuned to the Artifact, the target takes an extra 1d6 Force damage.</p>",
-        "81-90": "<p>As 51–60 above, except the spell is level 7.</p>",
-        "71-80": "<p>As 51–60 above, except the spell is level 6.</p>",
-        "41-50": "<p>While you’re attuned to the Artifact, your Speed increases by 10 feet.</p>"
+        "51-60": "<p>與該神器同調期間，你可以從該神器施放一道4環法術（由DM選擇）。施放該法術後，擲1d6。若骰出1–5，則在下個黎明前你無法再以此方式施放該法術。</p>",
+        "91-100": "<p>與該神器同調期間，你對目盲、耳聾、石化與震懾狀態具有免疫。</p>",
+        "61-70": "<p>如同上述51–60，但法術為5環。</p>",
+        "1-20": "<p>與該神器同調期間，你的一項屬性值（由DM選擇）提升2，上限為24。</p>",
+        "21-30": "<p>與該神器同調期間，若你至少有1點生命值，則在你每個回合開始時，你恢復1d6點生命值。</p>",
+        "31-40": "<p>當你在與該神器同調期間以攻擊檢定命中時，目標額外承受1d6力場傷害。</p>",
+        "81-90": "<p>如同上述51–60，但法術為7環。</p>",
+        "71-80": "<p>如同上述51–60，但法術為6環。</p>",
+        "41-50": "<p>與該神器同調期間，你的速度提升10呎。</p>"
       },
-      "name": "Major Beneficial Properties"
+      "name": "主要增益屬性"
     },
     "Implements - Uncommon": {
       "results": {
@@ -780,23 +780,23 @@
     },
     "Minor Property": {
       "results": {
-        "9-9": "<p><strong>Key.</strong> The item is used to unlock a container, chamber, vault, or door.</p>",
-        "3-3": "<p><strong>Compass.</strong> You can take a Magic action to learn which way is magnetic north. Nothing happens if this property is used in a location that has no magnetic north.</p>",
-        "1-2": "<p><strong>Beacon.</strong> You can take a Bonus Action to cause the item to shed Bright Light in a 10-foot radius and Dim Light for an additional 10 feet, or to extinguish the light.</p>",
-        "7-8": "<p><strong>Harmonious.</strong> Attuning to this item takes only 1 minute.</p>",
-        "14-15": "<p><strong>Strange Material.</strong> The item was created from a material that is bizarre given its purpose. Its <span>durability</span> is unaffected.</p>",
-        "16-16": "<p><strong>Temperate.</strong> You are unharmed by temperatures of 0 degrees Fahrenheit or lower, and 100 degrees Fahrenheit or higher.</p>",
-        "4-4": "<p><strong>Delver.</strong> While underground, you always know the item’s depth below the surface and the direction to the nearest staircase, ramp, or other path leading upward.</p>",
-        "11-12": "<p><strong>Sentinel.</strong> The DM chooses a kind of creature, such as mind flayers or trolls. This item glows faintly when such creatures are within 120 feet of it.</p>",
-        "20-20": "<p>Roll twice, rerolling any additional 20s.</p>",
-        "18-18": "<p><strong>War Leader.</strong> You can take a Magic <span>action</span> to cause your voice or signal to carry clearly for up to 600 feet until the end of your next turn.</p>",
-        "19-19": "<p><strong>Waterborne.</strong> This item floats on water and other liquids. You have Advantage on Strength (Athletics) checks to swim.</p>",
-        "17-17": "<p><strong>Unbreakable.</strong> The item can’t be broken. Special means must be used to destroy it.</p>",
-        "5-6": "<p><strong>Guardian.</strong> The item warns you, granting a +2 bonus to your Initiative rolls if you don’t have the Incapacitated condition.</p>",
-        "13-13": "<p><strong>Songcraft.</strong> Whenever this item is struck or is used to strike a foe, you hear a fragment of an ancient song.</p>",
-        "10-10": "<p><strong>Secret Message.</strong> A message is hidden somewhere on the item. It might be visible only at a certain time, under the light of one phase of the moon, or in a specific location.</p>"
+        "9-9": "<p><strong>【鑰匙】</strong>該物品可用來開啟容器、房間、金庫或門。</p>",
+        "3-3": "<p><strong>【羅盤】</strong>你可以用魔法動作得知磁北的方向。若在沒有磁北的地點使用此屬性，則不會發生任何事。</p>",
+        "1-2": "<p><strong>【燈火】</strong>你可以用附贈動作使該物品散發半徑10呎的明亮光照與額外10呎的微光光照，或熄滅該光芒。</p>",
+        "7-8": "<p><strong>【和諧】</strong>與該物品同調只需1分鐘。</p>",
+        "14-15": "<p><strong>【奇材】</strong>該物品以一種就其用途而言十分怪異的材料製成。其<span>耐久度</span>不受影響。</p>",
+        "16-16": "<p><strong>【宜溫】</strong>你不會受到華氏0度以下，或華氏100度以上的溫度傷害。</p>",
+        "4-4": "<p><strong>【掘進者】</strong>在地底時，你始終知道該物品所處的地表以下深度，以及通往上方的最近階梯、斜坡或其他通路的方向。</p>",
+        "11-12": "<p><strong>【哨兵】</strong>DM選擇一種生物，例如奪心魔或巨魔。當此類生物位於該物品120呎內時，該物品會發出微弱的光芒。</p>",
+        "20-20": "<p>擲兩次，額外擲出的20都要重擲。</p>",
+        "18-18": "<p><strong>【戰爭領袖】</strong>你可以用魔法<span>動作</span>使你的聲音或訊號清晰傳達至多600呎，持續到你的下個回合結束。</p>",
+        "19-19": "<p><strong>【浮水】</strong>該物品能漂浮在水或其他液體上。你進行游泳的力量（運動）檢定具有優勢。</p>",
+        "17-17": "<p><strong>【堅不可摧】</strong>該物品無法被破壞。必須使用特殊手段才能將其摧毀。</p>",
+        "5-6": "<p><strong>【守護者】</strong>該物品會對你發出警示；若你未陷入失能狀態，則使你的先攻擲骰獲得+2加值。</p>",
+        "13-13": "<p><strong>【譜曲】</strong>每當該物品被敲擊，或被用來擊打敵人時，你會聽見一段古老歌曲的片段。</p>",
+        "10-10": "<p><strong>【密訊】</strong>某則訊息隱藏在該物品的某處。這則訊息可能只在特定時間、某個月相的月光下，或特定地點才看得見。</p>"
       },
-      "name": "Minor Property"
+      "name": "魔法物品的次要屬性"
     },
     "Implements - Rare": {
       "results": {
@@ -828,12 +828,12 @@
       "name": "Implements - Rare"
     },
     "Senses": {
-      "name": "Senses",
+      "name": "智能物品的感官",
       "results": {
-        "1-1": "Hearing and standard vision out to 30 feet",
-        "2-2": "Hearing and standard vision out to 60 feet",
-        "4-4": "Hearing and Darkvision out to 120 feet",
-        "3-3": "Hearing and standard vision out to 120 feet"
+        "1-1": "聽覺與一般視覺，範圍達30呎",
+        "2-2": "聽覺與一般視覺，範圍達60呎",
+        "4-4": "聽覺與黑暗視覺，範圍達120呎",
+        "3-3": "聽覺與一般視覺，範圍達120呎"
       }
     },
     "Meditation Chamber Saving Throw Advantage": {
@@ -906,71 +906,71 @@
     },
     "Wand of Wonder Effects": {
       "results": {
-        "41-45": "A cloud of 600 oversized butterflies fills a 60-foot-high, 30-foot-radius Cylinder centered on the chosen point of origin. The butterflies remain for 10 minutes, during which time the area of effect is &amp;Reference[Heavily Obscured].",
-        "83-87": "Nothing happens at the chosen point of origin. Instead, you cast @UUID[Compendium.dnd-players-handbook.spells.Item.phbsplInvisibili]{Invisibility} on yourself.",
-        "78-82": "Nothing happens at the chosen point of origin. Instead, a burst of colorful, shimmering light extends from you in a 30-foot Emanation. Each creature in the area must succeed on a [[/save con 15]] saving throw or have the &amp;Reference[Blinded] condition for 1 minute. A creature repeats the save at the end of each of its turns, ending the effect on itself on a success.",
-        "36-40": "Heavy rain falls for 1 minute in a 120-foot-high, 60-foot-radius Cylinder centered on the chosen point of origin. During that time, the area of effect is &amp;Reference[Lightly Obscured].",
-        "73-77": "Leaves grow from the creature nearest to the chosen point of origin. Unless they are picked off, the leaves turn brown and fall off after 24 hours.",
-        "51-55": "The creature closest to the chosen point of origin is enlarged as if you had cast @UUID[Compendium.dnd-players-handbook.spells.Item.phbsplEnlargeRed]{Enlarge/Reduce} on it. If the target isn’t you and can’t be affected by that spell, you become the target instead.",
-        "88-92": "Nothing happens at the chosen point of origin. Instead, a stream of [[/r 1d4*10 #Gems]] gems, each worth 1 GP, shoots from the wand’s tip in a Line 30 feet long and 5 feet wide toward the chosen point of origin. Each gem deals [[/damage 1 type=bludgeoning]] damage, and the total damage of the gems is divided equally among all creatures in the Line.",
-        "1-20": "You cast a spell originating from the chosen point. Roll 1d10 to determine the spell: on a 1–2, @UUID[Compendium.dnd-players-handbook.spells.Item.phbsplDarkness00]{Darkness}; on a 3–4, @UUID[Compendium.dnd-players-handbook.spells.Item.phbsplFaerieFire]{Faerie Fire}; on a 5–6, @UUID[Compendium.dnd-players-handbook.spells.Item.phbsplFireball00]{Fireball}; on a 7–8, @UUID[Compendium.dnd-players-handbook.spells.Item.phbsplSlow000000]{Slow}; on a 9–10, @UUID[Compendium.dnd-players-handbook.spells.Item.phbsplStinkingCl]{Stinking Cloud}.",
-        "31-35": "Nothing happens at the chosen point of origin. Instead, you take [[/damage 1d6 type=psychic]] damage.",
-        "61-64": "Grass covers a 60-foot-radius circle of ground, with the center of that circle as close to the chosen point of origin as possible. Grass that’s already there grows to ten times its normal size and remains overgrown for 1 minute.",
-        "26-30": "You cast @UUID[Compendium.dnd-players-handbook.spells.Item.phbsplGustofWind]{Gust of Wind}. The Line created by the spell extends from you to the chosen point of origin.",
-        "69-72": "Nothing happens at the chosen point of origin. Instead, you shrink as if you had cast @UUID[Compendium.dnd-players-handbook.spells.Item.phbsplEnlargeRed]{Enlarge/Reduce} on yourself and remain in that state for 1 minute.",
-        "98-100": "The creature closest to the chosen point of origin makes a [[/save con 15]] saving throw. On a failed save, the creature has the &amp;Reference[Restrained] condition and begins to turn to stone. While Restrained in this way, the creature repeats the save at the end of its next turn. On a successful save, the effect ends. On a failed save, the creature has the &amp;Reference[Petrified] condition instead of the Restrained condition. The petrification lasts until the creature is freed by the @UUID[Compendium.dnd-players-handbook.spells.Item.phbsplGreaterRes]{Greater Restoration} spell or similar magic.",
-        "56-60": "A magically formed creature appears in an unoccupied space as close to the chosen point of origin as possible. The creature isn’t under your control, acts as it normally would, and disappears after 1 hour or when it drops to 0 Hit Points. Roll [[/r 1d4]] to determine which creature appears. On a 1, a Rhinoceros appears; on a 2, an Elephant appears; and on a 3–4, a Rat appears.",
-        "93-97": "You cast @UUID[Compendium.dnd-players-handbook.spells.Item.phbsplPolymorph0]{Polymorph}, targeting the creature closest to the chosen point of origin. Roll [[/r 1d4]] to determine the target’s new form. On a 1, the new form is a Black Bear; on a 2, the new form is a Giant Wasp; on a 3–4, the new form is a Frog.",
-        "46-50": "You cast @UUID[Compendium.dnd-players-handbook.spells.Item.phbsplLightningB]{Lightning Bolt}. The Line created by the spell extends from you to the chosen point of origin.",
-        "21-25": "Nothing happens at the chosen point of origin. Instead, you have the &amp;Reference[Stunned] condition until the start of your next turn, believing something awesome just happened.",
-        "65-68": "An object of the DM’s choice disappears into the Ethereal Plane. The object must be neither worn nor carried, within 120 feet of the chosen point of origin, and no larger than 10 feet in any dimension. If there are no such objects in range, nothing happens."
+        "41-45": "一大團共600隻的超大蝴蝶充滿以所選源點為中心、高60呎、半徑30呎的圓柱體。蝴蝶停留10分鐘，在此期間，該效應區域處於&amp;Reference[Heavily Obscured]{重度遮蔽}。",
+        "83-87": "所選的源點處什麼也沒發生。取而代之的是，你對自己施放@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplInvisibili]{隱形術}。",
+        "78-82": "所選的源點處什麼也沒發生。取而代之的是，一道繽紛閃爍的光芒從你向外迸發，形成30呎發散區域。區域內的每個生物都必須成功通過一次[[/save con 15]]豁免，否則陷入&amp;Reference[Blinded]{目盲}狀態1分鐘。生物在其每個回合結束時重複進行豁免，豁免成功則結束其身上的效應。",
+        "36-40": "一場大雨在以所選源點為中心、高120呎、半徑60呎的圓柱體區域內下1分鐘。在此期間，該效應區域處於&amp;Reference[Lightly Obscured]{輕度遮蔽}。",
+        "73-77": "距離所選源點最近的生物身上長出樹葉。除非被摘下，否則樹葉會在24小時後變成褐色並掉落。",
+        "51-55": "距離所選源點最近的生物被放大，如同你對其施放了@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplEnlargeRed]{變巨/縮小術}。若目標不是你，且無法受到該法術影響，則改以你為目標。",
+        "88-92": "所選的源點處什麼也沒發生。取而代之的是，一股共[[/r 1d4*10 #Gems]]顆的寶石（每顆價值1 GP）從魔杖尖端射出，朝所選的源點形成一條長30呎、寬5呎的直線。每顆寶石造成[[/damage 1 type=bludgeoning]]傷害，寶石的總傷害由直線內的所有生物均分。",
+        "1-20": "你在所選的源點施放一道法術。擲1d10決定法術：骰出1–2為@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplDarkness00]{黑暗術}；3–4為@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplFaerieFire]{妖火術}；5–6為@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplFireball00]{火球術}；7–8為@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplSlow000000]{緩速術}；9–10為@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplStinkingCl]{臭雲術}。",
+        "31-35": "所選的源點處什麼也沒發生。取而代之的是，你承受[[/damage 1d6 type=psychic]]傷害。",
+        "61-64": "草地覆蓋一塊半徑60呎的圓形地面，圓心盡可能靠近所選的源點。原本就在該處的草會長到平常的十倍大，並維持過度生長的狀態1分鐘。",
+        "26-30": "你施放@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplGustofWind]{造風術}。該法術產生的直線從你延伸至所選的源點。",
+        "69-72": "所選的源點處什麼也沒發生。取而代之的是，你縮小了，如同你對自己施放了@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplEnlargeRed]{變巨/縮小術}，並維持該狀態1分鐘。",
+        "98-100": "距離所選源點最近的生物進行一次[[/save con 15]]豁免。豁免失敗時，該生物陷入&amp;Reference[Restrained]{束縛}狀態，並開始化為石頭。以此方式處於束縛狀態期間，該生物在其下個回合結束時重複進行豁免。豁免成功則效應結束；豁免失敗則該生物改為陷入&amp;Reference[Petrified]{石化}狀態，取代束縛狀態。石化會持續到該生物被@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplGreaterRes]{高等復原術}法術或類似魔法解除為止。",
+        "56-60": "一個以魔法形成的生物出現在盡可能靠近所選源點的未佔據空間。該生物不受你控制，依其常態行動，並在1小時後或生命值降至0時消失。擲[[/r 1d4]]決定出現哪種生物。骰出1時，出現犀牛；骰出2時，出現象；骰出3–4時，出現老鼠。",
+        "93-97": "你對距離所選源點最近的生物施放@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplPolymorph0]{變形術}。擲[[/r 1d4]]決定目標的新形態：骰出1時，新形態為黑熊；骰出2時，新形態為巨黃蜂；骰出3–4時，新形態為青蛙。",
+        "46-50": "你施放@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplLightningB]{閃電束}。該法術產生的直線從你延伸至所選的源點。",
+        "21-25": "所選的源點處什麼也沒發生。取而代之的是，你陷入&amp;Reference[Stunned]{震懾}狀態，直到你的下個回合開始前，並相信剛剛發生了某件令人驚嘆的事。",
+        "65-68": "DM選擇的一個物體消失並進入乙太位面。該物體必須既未被穿戴也未被攜帶，位於所選源點120呎內，且任一維度皆不超過10呎。若範圍內沒有這樣的物體，則什麼也沒發生。"
       },
-      "name": "Wand of Wonder Effects",
-      "description": "<p>A roll table of effects for the @UUID[Compendium.dnd-dungeon-masters-guide.equipment.Item.dmgWandOfWonder0]{Wand of Wonder} which implements the effects as activities where possible.</p>"
+      "name": "驚奇魔杖效應",
+      "description": "<p>@UUID[Compendium.dnd-dungeon-masters-guide.equipment.Item.dmgWandOfWonder0]{驚奇魔杖}效應的擲骰表，並盡可能以行動實作各項效應。</p>"
     },
     "100 GP Gemstones": {
       "results": {
-        "3-3": "Chrysoberyl (yellow green to pale green)",
-        "5-5": "Garnet (red, brown green, or violet)",
-        "8-8": "Pearl (lustrous white, yellow, or pink)",
-        "1-1": "Amber (watery gold to rich gold)",
-        "9-9": "Spinel (red, red brown, or deep green)",
-        "2-2": "Amethyst (deep purple)",
-        "10-10": "Tourmaline (pale green, blue, brown, or red)",
-        "6-6": "Jade (light green, deep green, or white)",
-        "4-4": "Coral (crimson)",
-        "7-7": "Jet (deep black)"
+        "3-3": "金綠寶石（黃綠色至淡綠色）",
+        "5-5": "石榴石（紅色、棕綠色或紫色）",
+        "8-8": "珍珠（有光澤的白色、黃色或粉紅色）",
+        "1-1": "琥珀（淡金色至赤金色）",
+        "9-9": "尖晶石（紅色、紅棕色或深綠色）",
+        "2-2": "紫水晶（深紫色）",
+        "10-10": "電氣石（淡綠色、藍色、棕色或紅色）",
+        "6-6": "玉石（淺綠色、深綠色或白色）",
+        "4-4": "珊瑚（深紅色）",
+        "7-7": "黑玉（深黑色）"
       },
-      "name": "100 GP Gemstones",
-      "description": "<p><em>See: @UUID[Compendium.dnd-dungeon-masters-guide.equipment.Item.dmgGemstone100GP]{Gemstone (100 GP)}</em></p>"
+      "name": "100 GP寶石",
+      "description": "<p><em>參見：@UUID[Compendium.dnd-dungeon-masters-guide.equipment.Item.dmgGemstone100GP]{寶石（100 GP）}</em></p>"
     },
     "250 GP Art Objects": {
       "results": {
-        "7-7": "Well-made tapestry that is 10 feet by 10 feet",
-        "5-5": "Bronze crown",
-        "10-10": "Gold birdcage with electrum filigree",
-        "3-3": "Bejeweled gold bracelet",
-        "6-6": "Silk vestments with gold embroidery",
-        "9-9": "Box of turquoise animal figurines",
-        "8-8": "Brass mug with jade inlay",
-        "4-4": "Silver necklace with a gemstone pendant",
-        "2-2": "Carved ivory statuette",
-        "1-1": "Gold ring set with bloodstones"
+        "7-7": "製作精良的掛毯，長寬各10呎",
+        "5-5": "青銅王冠",
+        "10-10": "飾有琥珀金絲的金鳥籠",
+        "3-3": "鑲滿寶石的金手鐲",
+        "6-6": "帶有金絲繡花的絲綢祭袍",
+        "9-9": "一盒綠松石製的動物小雕像",
+        "8-8": "鑲玉黃銅馬克杯",
+        "4-4": "飾有寶石吊墜的銀項鍊",
+        "2-2": "象牙雕像",
+        "1-1": "鑲有血石的金戒指"
       },
-      "description": "<p><em>See: @UUID[Compendium.dnd-dungeon-masters-guide.equipment.Item.dmgJewelry250GP0]{Art Object (250 GP)}</em></p>",
-      "name": "250 GP Art Objects"
+      "description": "<p><em>參見：@UUID[Compendium.dnd-dungeon-masters-guide.equipment.Item.dmgJewelry250GP0]{藝術品（250 GP）}</em></p>",
+      "name": "250 GP藝術品"
     },
     "500 GP Gemstones": {
       "results": {
-        "2-2": "Aquamarine (pale blue green)",
-        "1-1": "Alexandrite (dark green)",
-        "6-6": "Topaz (golden yellow)",
-        "5-5": "Peridot (rich olive green)",
-        "3-3": "Black pearl (pure black)",
-        "4-4": "Blue spinel (deep blue)"
+        "2-2": "海藍寶石（淡藍綠色）",
+        "1-1": "亞歷山大綠石（深綠色）",
+        "6-6": "黃玉（金黃色）",
+        "5-5": "橄欖石（濃郁的橄欖綠）",
+        "3-3": "黑珍珠（純黑色）",
+        "4-4": "藍色尖晶石（深藍色）"
       },
-      "description": "<p><em>See: @UUID[Compendium.dnd-dungeon-masters-guide.equipment.Item.dmgGemstone500GP]{Gemstone (500 GP)}</em></p>",
-      "name": "500 GP Gemstones"
+      "description": "<p><em>參見：@UUID[Compendium.dnd-dungeon-masters-guide.equipment.Item.dmgGemstone500GP]{寶石（500 GP）}</em></p>",
+      "name": "500 GP寶石"
     },
     "Guest": {
       "results": {
@@ -993,15 +993,15 @@
       "name": "Feywild Time Warp"
     },
     "Wilderness Chase Complications": {
-      "name": "Wilderness Chase Complications",
+      "name": "荒野追逐複雜狀況",
       "results": {
-        "4-4": "A sudden drop catches you by surprise. Make a [[/save dex dc=10]] saving throw to navigate the impediment. On a failed save, you fall 10 feet.",
-        "2-2": "A stream or ravine blocks your path. Make a [[/save str dc=10]] or [[/save dex dc=10]] saving throw (your choice) to cross the impediment. On a failed save, the impediment counts as 10 feet of &amp;Reference[Difficult Terrain] for you.",
-        "5-5": "Your path takes you near a patch of @UUID[Compendium.dnd-dungeon-masters-guide.content.JournalEntry.dmgDmsToolbox000.JournalEntryPage.lVkdQivhFHqVmxg7#razorvine]{Razorvine}. Make a [[/save dex dc=15]] saving throw or use 10 feet of movement (your choice) to avoid the razorvine. On a failed save, you take [[/damage 1d10 type=slashing]] damage.",
-        "1-1": "You pass through a Swarm of Insects (see the Monster Manual, with the DM choosing whichever kind of insects makes the most sense). The swarm uses one of its actions, targeting you.",
-        "7-7": "There is no complication.",
-        "6-6": "A creature native to the area notices you. (The DM chooses a creature appropriate for the terrain.) Make a [[/save wis dc=10]] or [[/save cha dc=10]] saving throw (your choice). On a failed save, the creature joins the chase, with you as its quarry.",
-        "3-3": "Make a [[/save con dc=10]] saving throw. On a failed save, blowing sand, dirt, ash, snow, or pollen causes you to have the &amp;Reference[Blinded] condition until the end of your turn. While you are Blinded in this way, your Speed is halved."
+        "4-4": "一處突然的落差讓你措手不及。進行一次[[/save dex dc=10]]豁免以通過該阻礙。豁免失敗時，你墜落10呎。",
+        "2-2": "一條溪流或峽谷擋住了你的去路。進行一次[[/save str dc=10]]或[[/save dex dc=10]]豁免（由你選擇）以越過阻礙。豁免失敗時，該阻礙對你而言視為10呎的&amp;Reference[Difficult Terrain]{困難地形}。",
+        "5-5": "你的路徑經過一叢@UUID[Compendium.dnd-dungeon-masters-guide.content.JournalEntry.dmgDmsToolbox000.JournalEntryPage.lVkdQivhFHqVmxg7#razorvine]{刃藤}。進行一次[[/save dex dc=15]]豁免，或消耗10呎移動（由你選擇）以避開刃藤。豁免失敗時，你承受[[/damage 1d10 type=slashing]]傷害。",
+        "1-1": "你闖進一個昆蟲群（見《怪物圖鑑》，由DM選擇最合理的昆蟲種類）。該昆蟲群用掉其一個動作，並以你為目標。",
+        "7-7": "沒有發生複雜狀況。",
+        "6-6": "該區域的原生生物注意到了你。（DM選擇適合該地形的生物。）進行一次[[/save wis dc=10]]或[[/save cha dc=10]]豁免（由你選擇）。豁免失敗時，該生物加入追逐，並以你為獵物。",
+        "3-3": "進行一次[[/save con dc=10]]豁免。豁免失敗時，吹來的沙、泥土、灰燼、雪或花粉會使你陷入&amp;Reference[Blinded]{目盲}狀態，直到你的回合結束。你以此方式目盲期間，你的速度減半。"
       }
     },
     "Relics - Rare": {
@@ -1041,21 +1041,21 @@
     },
     "10 GP Gemstones": {
       "results": {
-        "3-3": "Blue quartz (pale blue)",
-        "4-4": "Eye agate (circles of gray, white, brown, blue, or green)",
-        "5-5": "Hematite (gray black)",
-        "8-8": "Moss agate (pink or yellow white with mossy gray or green markings)",
-        "2-2": "Banded agate (striped brown, blue, white, or red)",
-        "10-10": "Rhodochrosite (light pink)",
-        "12-12": "Turquoise (light blue green)",
-        "11-11": "Tiger eye (brown with golden center)",
-        "9-9": "Obsidian (black)",
-        "1-1": "Azurite (mottled deep blue)",
-        "6-6": "Lapis lazuli (light and dark blue with yellow flecks)",
-        "7-7": "Malachite (striated light and dark green)"
+        "3-3": "藍石英（淡藍色）",
+        "4-4": "眼瑪瑙（灰色、白色、棕色、藍色或綠色的圓環）",
+        "5-5": "赤鐵礦石（灰黑色）",
+        "8-8": "苔蘚瑪瑙（粉色或黃白色，帶有苔灰色或綠色斑紋）",
+        "2-2": "帶狀瑪瑙（棕色、藍色、白色或紅色的條紋）",
+        "10-10": "菱錳礦石（淡粉色）",
+        "12-12": "綠松石（淺藍綠色）",
+        "11-11": "虎眼石（棕色，中心金色）",
+        "9-9": "黑曜石（黑色）",
+        "1-1": "藍銅礦石（斑駁的深藍色）",
+        "6-6": "青金石（淺藍色與深藍色，帶黃色斑點）",
+        "7-7": "孔雀石（淺綠色與深綠色的條紋）"
       },
-      "name": "10 GP Gemstones",
-      "description": "<p><em>See: @UUID[Compendium.dnd-dungeon-masters-guide.equipment.Item.dmgGemstone10GP0]{Gemstone (10 GP)}</em></p>"
+      "name": "10 GP寶石",
+      "description": "<p><em>參見：@UUID[Compendium.dnd-dungeon-masters-guide.equipment.Item.dmgGemstone10GP0]{寶石（10 GP）}</em></p>"
     },
     "Level 17-20 Adventure Situations": {
       "results": {
@@ -1074,19 +1074,19 @@
     },
     "25 GP Art Objects": {
       "results": {
-        "8-8": "Handheld mirror set in a painted wooden frame",
-        "7-7": "Pair of engraved bone dice",
-        "10-10": "Gold locket with a painted portrait inside",
-        "2-2": "Carved bone statuette",
-        "6-6": "Copper chalice with silver filigree",
-        "9-9": "Embroidered silk handkerchief",
-        "3-3": "Gold bracelet",
-        "4-4": "Cloth-of-gold vestments",
-        "5-5": "Black velvet mask stitched with silver thread",
-        "1-1": "Silver ewer"
+        "8-8": "彩繪木製框架的手鏡",
+        "7-7": "一對雕刻的骨骰子",
+        "10-10": "其中藏有彩繪畫像的金吊墜",
+        "2-2": "雕刻的骨製小雕像",
+        "6-6": "飾銀鑲邊的銅聖杯",
+        "9-9": "繡花絲綢手帕",
+        "3-3": "金手鐲",
+        "4-4": "金絲祭袍",
+        "5-5": "由銀線縫製的黑色絲絨面具",
+        "1-1": "銀水壺"
       },
-      "description": "<p><em>See: @UUID[Compendium.dnd-dungeon-masters-guide.equipment.Item.dmgJewelry25GP00]{Art Object (25 GP)}</em></p>",
-      "name": "25 GP Art Objects"
+      "description": "<p><em>參見：@UUID[Compendium.dnd-dungeon-masters-guide.equipment.Item.dmgJewelry25GP00]{藝術品（25 GP）}</em></p>",
+      "name": "25 GP藝術品"
     },
     "Dungeon Quirks": {
       "results": {
@@ -1220,19 +1220,19 @@
     },
     "7,500 GP Art Objects": {
       "results": {
-        "1-1": "Jeweled gold crown",
-        "7-7": "Jade game board with gold playing pieces",
-        "5-5": "Gold jewelry box with platinum filigree",
-        "2-2": "Jeweled platinum ring",
-        "10-10": "Ceremonial gold armor with black pearls",
-        "9-9": "Gilded royal coach or funeral barge",
-        "4-4": "Gold cup set with emeralds",
-        "8-8": "Bejeweled ivory drinking horn with gold filigree",
-        "3-3": "Gold statuette set with rubies",
-        "6-6": "Set of gold nesting dolls"
+        "1-1": "寶石金製王冠",
+        "7-7": "玉製棋盤和黃金棋子",
+        "5-5": "金首飾盒綴有鉑金細絲",
+        "2-2": "寶石鉑金戒指",
+        "10-10": "飾有黑珍珠的黃金儀仗甲",
+        "9-9": "鍍金的皇家馬車或送葬船",
+        "4-4": "鑲有翡翠的金杯",
+        "8-8": "鑲有金絲與寶石的象牙角杯",
+        "3-3": "鑲有紅寶石的金雕像",
+        "6-6": "一套黃金套娃"
       },
-      "description": "<p><em>See: @UUID[Compendium.dnd-dungeon-masters-guide.equipment.Item.dmgJewelry7500GP]{Art Object (7,500 GP)}</em></p>",
-      "name": "7,500 GP Art Objects"
+      "description": "<p><em>參見：@UUID[Compendium.dnd-dungeon-masters-guide.equipment.Item.dmgJewelry7500GP]{藝術品（7,500 GP）}</em></p>",
+      "name": "7,500 GP藝術品"
     },
     "Arcana - Uncommon": {
       "results": {
@@ -1417,21 +1417,21 @@
     },
     "50 GP Gemstones": {
       "results": {
-        "7-7": "Moonstone (white with pale-blue glow)",
-        "8-8": "Onyx (bands of black and white, or pure black or white)",
-        "4-4": "Chrysoprase (green)",
-        "11-11": "Star rose quartz (rosy stone with white star-shaped center)",
-        "6-6": "Jasper (blue, black, or brown)",
-        "10-10": "Sardonyx (bands of red and white)",
-        "12-12": "Zircon (pale blue green)",
-        "2-2": "Carnelian (orange to red brown)",
-        "5-5": "Citrine (pale yellow brown)",
-        "3-3": "Chalcedony (white)",
-        "1-1": "Bloodstone (dark gray with red flecks)",
-        "9-9": "Quartz (white, smoky gray, or yellow)"
+        "7-7": "月光石（白色帶淡藍色光暈）",
+        "8-8": "縞瑪瑙（純黑、純白或黑白條紋）",
+        "4-4": "綠玉髓（綠色）",
+        "11-11": "星光玫瑰石英（中心為白色星形的玫瑰色石頭）",
+        "6-6": "碧玉（藍色、黑色或棕色）",
+        "10-10": "纏絲瑪瑙（紅白條紋）",
+        "12-12": "鋯石（淡藍綠色）",
+        "2-2": "紅玉髓（橘黃至紅棕色）",
+        "5-5": "黃水晶（淺黃棕色）",
+        "3-3": "玉髓（白色）",
+        "1-1": "血石（深灰色帶紅色斑點）",
+        "9-9": "石英（白色、煙灰色或黃色）"
       },
-      "name": "50 GP Gemstones",
-      "description": "<p><em>See: @UUID[Compendium.dnd-dungeon-masters-guide.equipment.Item.dmgGemstone50GP0]{Gemstone (50 GP)}</em></p>"
+      "name": "50 GP寶石",
+      "description": "<p><em>參見：@UUID[Compendium.dnd-dungeon-masters-guide.equipment.Item.dmgGemstone50GP0]{寶石（50 GP）}</em></p>"
     },
     "Bastion Events": {
       "results": {
@@ -1492,16 +1492,16 @@
     },
     "History": {
       "results": {
-        "8-8": "<p><strong>Symbol of Power.</strong> This item was once used as part of royal regalia or as a badge of high office.</p>",
-        "6-6": "<p><strong>Religious.</strong> This item was used in religious ceremonies dedicated to a particular deity. It has religious symbols worked into it.</p>",
-        "7-7": "<p><strong>Sinister.</strong> This item is linked to a deed of great evil, such as a massacre or an assassination. It might have a name or be closely associated with a villain who used it.</p>",
-        "5-5": "<p><strong>Prophecy.</strong> The item features in a prophecy: its bearer is destined to play a key role in future events.</p>",
-        "4-4": "<p><strong>Ornament.</strong> The item honors a special event. Inset gemstones, gold or platinum inlays, and gold or silver filigree adorn its surface.</p>",
-        "2-2": "<p><strong>Bane.</strong> This item was created to oppose creatures of a particular type, such as <span>Aberrations</span> or Dragons.</p>",
-        "3-3": "<p><strong>Heroic.</strong> A great hero once wielded this item. Anyone who knows the item’s history expects great deeds from the new owner.</p>",
-        "1-1": "<p><strong>Arcane.</strong> This item was created for an ancient order of spellcasters and bears the order’s symbol.</p>"
+        "8-8": "<p><strong>【權力象徵】</strong>該物品曾是王室儀仗的一部分，或是高位官職的徽記。</p>",
+        "6-6": "<p><strong>【宗教】</strong>這件物品曾用於供奉某位特定神祇的宗教儀式，上面帶有宗教符號。</p>",
+        "7-7": "<p><strong>【不祥】</strong>這件物品與某樁重大惡行有關，例如大屠殺或暗殺。其可能有名字，或與曾使用過該物品的惡人緊密相連。</p>",
+        "5-5": "<p><strong>【預言】</strong>該物品是某個預言的一部分：其持有者註定要在未來的事件中扮演關鍵角色。</p>",
+        "4-4": "<p><strong>【裝飾】</strong>該物品是為了紀念某個特殊事件。其表面以鑲嵌的寶石、金或鉑金鑲嵌物，以及金或銀的細絲工藝裝飾。</p>",
+        "2-2": "<p><strong>【破滅】</strong>該物品是為對抗某種特定類型的生物所製，例如<span>異怪</span>或龍類。</p>",
+        "3-3": "<p><strong>【英雄】</strong>某位偉大的英雄曾使用過這件物品。任何了解該物品歷史的人，都期待新的持有者能再續偉業。</p>",
+        "1-1": "<p><strong>【神秘】</strong>該物品是為某個古老的施法者結社所製，並帶有該結社的標誌。</p>"
       },
-      "name": "History"
+      "name": "魔法物品的過往歷史"
     },
     "Lyrical Names": {
       "name": "Lyrical Names",
@@ -1521,16 +1521,16 @@
       }
     },
     "Quirk": {
-      "name": "Quirk",
+      "name": "魔法物品的影響",
       "results": {
-        "1-1": "<p><strong>Blissful.</strong> You feel fortunate and optimistic about what the future holds. Butterflies and other harmless creatures might frolic in the item’s presence.</p>",
-        "2-2": "<p><strong>Confident.</strong> The item helps you feel self-<span>assured</span>.</p>",
-        "7-7": "<p><strong>Painful.</strong> You experience a harmless flash of pain when using the item.</p>",
-        "4-4": "<p><strong>Fragile.</strong> The item crumbles, frays, chips, or cracks slightly when wielded, worn, or activated. This quirk has no effect on its properties.</p>",
-        "6-6": "<p><strong>Metamorphic.</strong> The item periodically alters its appearance in slight ways. You have no control over these minor alterations, which have no effect on the item’s use.</p>",
-        "8-8": "<p><strong>Repulsive.</strong> You feel a sense of distaste when in contact with the item and continue to experience discomfort while bearing it.</p>",
-        "5-5": "<p><strong>Loud.</strong> The item makes a loud noise—such as a clang, a shout, or a resonating gong—when used.</p>",
-        "3-3": "<p><strong>Covetous.</strong> You become obsessed with material wealth.</p>"
+        "1-1": "<p><strong>【幸福】</strong>你對未來感到幸運且樂觀。蝴蝶與其他無害的生物可能會在該物品附近嬉戲。</p>",
+        "2-2": "<p><strong>【自信】</strong>該物品讓你感到<span>自信</span>滿滿。</p>",
+        "7-7": "<p><strong>【疼痛】</strong>使用該物品時，你會經歷一陣無害的痛楚。</p>",
+        "4-4": "<p><strong>【易碎】</strong>當該物品被持用、穿戴或啟動時，會微微碎裂、磨損、缺角或裂開。此影響不會影響其屬性。</p>",
+        "6-6": "<p><strong>【變形】</strong>該物品會週期性地以細微方式改變外觀。你無法控制這些細微的改變，且這些改變不影響該物品的使用。</p>",
+        "8-8": "<p><strong>【嫌惡】</strong>接觸該物品時你會感到厭惡，且在持有期間會持續感到不適。</p>",
+        "5-5": "<p><strong>【喧鬧】</strong>該物品使用時會發出巨響，例如鏗鏘聲、吼叫聲或迴盪的鑼聲。</p>",
+        "3-3": "<p><strong>【貪婪】</strong>你變得迷戀物質財富。</p>"
       }
     },
     "Monster Personality": {
@@ -1672,17 +1672,17 @@
     },
     "Minor Beneficial Properties": {
       "results": {
-        "41-50": "<p>While attuned to the Artifact, you have Resistance to one damage type of the DM’s choice.</p>",
-        "61-70": "<p>While attuned to the Artifact, you can cast one level 1 spell (chosen by the DM) from it. After you cast the spell, roll 1d6. On a roll of 1–5, you can’t cast it again in this way until the next dawn.</p>",
-        "91-100": "<p>While attuned to the Artifact, you gain a +1 <span>bonus</span> to Armor Class.</p>",
-        "71-80": "<p>As 61–70 above, except the spell is level 2.</p>",
-        "1-20": "<p>While attuned to the Artifact, you gain proficiency in one skill of the DM’s choice.</p>",
-        "31-40": "<p>While attuned to the Artifact, you have Immunity to the Charmed and Frightened conditions.</p>",
-        "81-90": "<p>As 61–70 above, except the spell is level 3.</p>",
-        "21-30": "<p>While attuned to the Artifact, you have <span>Immunity</span> to the Poisoned condition.</p>",
-        "51-60": "<p>While attuned to the Artifact, you can cast one cantrip (chosen by the DM) from it.</p>"
+        "41-50": "<p>與該神器同調期間，你對一種由DM選擇的傷害類型具有抗力。</p>",
+        "61-70": "<p>與該神器同調期間，你可以從該神器施放一道1環法術（由DM選擇）。施放該法術後，擲1d6。若骰出1–5，則在下個黎明前你無法再以此方式施放該法術。</p>",
+        "91-100": "<p>與該神器同調期間，你的護甲等級獲得+1<span>加值</span>。</p>",
+        "71-80": "<p>如同上述61–70，但法術為2環。</p>",
+        "1-20": "<p>與該神器同調期間，你獲得一項由DM選擇的技能熟練。</p>",
+        "31-40": "<p>與該神器同調期間，你對魅惑與恐慌狀態具有免疫。</p>",
+        "81-90": "<p>如同上述61–70，但法術為3環。</p>",
+        "21-30": "<p>與該神器同調期間，你對中毒狀態具有<span>免疫</span>。</p>",
+        "51-60": "<p>與該神器同調期間，你可以從該神器施放一道戲法（由DM選擇）。</p>"
       },
-      "name": "Minor Beneficial Properties"
+      "name": "次要增益屬性"
     },
     "Whimsical Names": {
       "name": "Whimsical Names",
@@ -1788,17 +1788,17 @@
     },
     "Alignment": {
       "results": {
-        "51-63": "Lawful Neutral",
-        "1-15": "Lawful Good",
-        "97-100": "Chaotic Evil",
-        "16-35": "Neutral Good",
-        "36-50": "Chaotic Good",
-        "90-96": "Neutral Evil",
-        "86-89": "Lawful Evil",
-        "64-73": "Neutral",
-        "74-85": "Chaotic Neutral"
+        "51-63": "守序中立",
+        "1-15": "守序善良",
+        "97-100": "混亂邪惡",
+        "16-35": "中立善良",
+        "36-50": "混亂善良",
+        "90-96": "中立邪惡",
+        "86-89": "守序邪惡",
+        "64-73": "絕對中立",
+        "74-85": "混亂中立"
       },
-      "name": "Alignment"
+      "name": "智能物品的陣營"
     },
     "Quaal's Feather Tokens": {
       "results": {
@@ -1821,15 +1821,15 @@
     },
     "Urban Chase Complications": {
       "results": {
-        "4-4": "The ground is slippery with rain, spilled oil, or some other liquid. Make a [[/save dex dc=10]] saving throw. On a failed save, you have the &amp;Reference[Prone] condition.",
-        "2-2": "A crowd blocks your way. Make a [[/save str dc=10]], [[/save dex dc=10]], or [[/save cha dc=10]] saving throw (your choice) to navigate through the crowd. On a failed save, the crowd counts as 10 feet of &amp;Reference[Difficult Terrain] for you.",
-        "6-6": "You must make a sharp turn to avoid colliding with something impassable. Make a [[/save dex dc=10]] saving throw to navigate the turn. On a failed save, you collide with something hard and take [[/damage 1d4 type=bludgeoning]] damage.",
-        "3-3": "A maze of barrels, crates, or similar obstacles stands in your way. Make a [[/save dex dc=10]] or [[/save int dc=10]] saving throw (your choice) to navigate the maze. On a failed save, the maze counts as 10 feet of &amp;Reference[Difficult Terrain] for you.",
-        "1-1": "A cart or another large obstacle blocks your way. Make a [[/save dex dc=10]] saving throw to get past the obstacle. On a failed save, the obstacle counts as 10 feet of &amp;Reference[Difficult Terrain] for you.",
-        "7-12": "There is no complication.",
-        "5-5": "You encounter a brawl in progress. Make a [[/save str dc=15]], [[/save dex dc=15]], or [[/save cha dc=15]] saving throw (your choice) to get past the brawlers unimpeded. On a failed save, you take [[/damage 2d4 type=bludgeoning]] damage, and the brawlers count as 10 feet of &amp;Reference[Difficult Terrain] for you."
+        "4-4": "地面因雨水、打翻的油或其他液體而濕滑。進行一次[[/save dex dc=10]]豁免。豁免失敗時，你陷入&amp;Reference[Prone]{伏地}狀態。",
+        "2-2": "人群擋住了你的去路。進行一次[[/save str dc=10]]、[[/save dex dc=10]]或[[/save cha dc=10]]豁免（由你選擇）以穿越人群。豁免失敗時，該人群對你而言視為10呎的&amp;Reference[Difficult Terrain]{困難地形}。",
+        "6-6": "你必須急轉彎以避免撞上無法通行的東西。進行一次[[/save dex dc=10]]豁免以完成轉彎。豁免失敗時，你撞上堅硬的東西，並承受[[/damage 1d4 type=bludgeoning]]傷害。",
+        "3-3": "一片由木桶、板條箱或類似障礙物組成的迷陣擋在你的路上。進行一次[[/save dex dc=10]]或[[/save int dc=10]]豁免（由你選擇）以穿過迷陣。豁免失敗時，該迷陣對你而言視為10呎的&amp;Reference[Difficult Terrain]{困難地形}。",
+        "1-1": "一輛推車或其他大型障礙物擋住了你的去路。進行一次[[/save dex dc=10]]豁免以越過障礙物。豁免失敗時，該障礙物對你而言視為10呎的&amp;Reference[Difficult Terrain]{困難地形}。",
+        "7-12": "沒有發生複雜狀況。",
+        "5-5": "你遇上一場正在進行的鬥毆。進行一次[[/save str dc=15]]、[[/save dex dc=15]]或[[/save cha dc=15]]豁免（由你選擇）以不受阻礙地通過鬥毆者。豁免失敗時，你承受[[/damage 2d4 type=bludgeoning]]傷害，且該鬥毆者對你而言視為10呎的&amp;Reference[Difficult Terrain]{困難地形}。"
       },
-      "name": "Urban Chase Complications"
+      "name": "城市追逐複雜狀況"
     },
     "Ether Cyclone": {
       "name": "Ether Cyclone",
@@ -1841,11 +1841,11 @@
     },
     "Communication": {
       "results": {
-        "7-9": "The item speaks one or more languages.",
-        "1-6": "<p>The item communicates by transmitting emotion to the creature carrying or wielding it.</p>",
-        "10-10": "The item speaks one or more languages. In addition, the item can communicate telepathically with any creature that carries or wields it."
+        "7-9": "該物品能說一種或多種語言。",
+        "1-6": "<p>該物品透過向攜帶或持用該物品的生物傳遞情緒來溝通。</p>",
+        "10-10": "該物品能說一種或多種語言。此外，該物品還能與任何攜帶或持用該物品的生物以心靈感應溝通。"
       },
-      "name": "Communication"
+      "name": "智能物品的溝通方式"
     },
     "Ethereal Curtains": {
       "results": {
@@ -1935,44 +1935,44 @@
       "name": "Local Leaders"
     },
     "Creator or Intended User": {
-      "name": "Creator or Intended User",
+      "name": "魔法物品的製作者或預設使用者",
       "results": {
-        "11-12": "<p><strong>Elf.</strong> The item is half the normal weight. It is adorned with symbols of nature: leaves, vines, stars, and the like.</p>",
-        "8-8": "<p><strong>Elemental Earth.</strong> This item might be crafted from stone. Any cloth or leather elements are studded with finely polished rock.</p>",
-        "7-7": "<p><strong>Elemental Air.</strong> The item is half the normal weight and feels hollow. If it’s made of fabric, it is <span>diaphanous</span>.</p>",
-        "15-15": "<p><strong>Giant.</strong> The item is larger than normal and was crafted by Giants for use by their smaller allies.</p>",
-        "5-6": "<p><strong>Dwarf.</strong> The item is durable and has Dwarvish runes worked into its design. It might be associated with a clan that would like to see it returned to their ancestral halls.</p>",
-        "2-2": "<p><strong>Celestial.</strong> The item is half the normal weight and inscribed with feathered wings, suns, and stars. Fiends find it repulsive.</p>",
-        "13-13": "<p><strong>Fey.</strong> The item is exquisitely crafted from the finest materials and glows with a pale radiance in moonlight, shedding Dim Light in a 5-foot radius. Any metal in the item is silver or mithral rather than iron or steel.</p>",
-        "17-19": "<p><strong>Human.</strong> The item was created during the heyday of a fallen human kingdom, or it is tied to a <span>human</span> of legend. It might hold writing in a forgotten language or symbols whose significance is lost to the ages.</p>",
-        "9-9": "<p><strong>Elemental Fire.</strong> This item is warm to the touch, and any metal parts are crafted from black iron. Flame imagery covers its surface.</p>",
-        "1-1": "<p><strong>Aberration.</strong> The item is ancient. At a glance, it seems to be covered with mucus.</p>",
-        "10-10": "<p><strong>Elemental Water.</strong> Lustrous fish scales replace leather or cloth on this item, and seashells and worked coral (as hard as any metal) replace metal portions.</p>",
-        "4-4": "<p><strong>Dragon.</strong> This item incorporates precious metals and gems from a dragon’s hoard. It grows warm when within 120 feet of a Dragon.</p>",
-        "16-16": "<p><strong>Gnome.</strong> The item is crafted to appear ordinary and well used. It could also incorporate gears and mechanical components, even if these aren’t essential to its function.</p>",
-        "20-20": "<p><strong>Undead.</strong> The item incorporates symbols of death, such as bones and skulls, and it might be crafted from parts of corpses. It feels cold to the touch.</p>",
-        "14-14": "<p><strong>Fiend.</strong> The item is made of iron or horn, and any cloth or leather components are crafted from the hide of Fiends. Leering faces or vile runes are engraved on its surface. <span>Celestials</span> find it repulsive.</p>",
-        "3-3": "<p><strong>Devotees of Lolth.</strong> The item is half the normal weight. It is inscribed with spiders and webs in honor of Lolth.</p>"
+        "11-12": "<p><strong>【精靈】</strong>該物品重量為正常的一半，上面點綴著象徵自然的符號：樹葉、藤蔓、星辰等。</p>",
+        "8-8": "<p><strong>【土元素】</strong>這件物品可能以石頭製成。其上的任何布料或皮革部分都嵌滿了精細打磨的小石粒。</p>",
+        "7-7": "<p><strong>【氣元素】</strong>該物品重量為正常的一半，摸起來像是空心的。若其以布料製成，則<span>輕薄透明</span>。</p>",
+        "15-15": "<p><strong>【巨人】</strong>該物品比正常尺寸更大，是由巨人製作給體型較小的盟友使用。</p>",
+        "5-6": "<p><strong>【矮人】</strong>該物品堅固耐用，設計中融入了矮人符文。其可能與某個希望將其歸還祖傳大廳的氏族有關。</p>",
+        "2-2": "<p><strong>【天界生物】</strong>該物品重量為正常的一半，上面刻有羽翼、太陽與星辰的圖案。邪魔會對其感到厭惡。</p>",
+        "13-13": "<p><strong>【精類】</strong>該物品以最上等的材料精巧製成，在月光下散發蒼白的光輝，並在半徑5呎內投下微光光照。該物品上的任何金屬皆為銀或秘銀，而非鐵或鋼。</p>",
+        "17-19": "<p><strong>【人類】</strong>該物品創造於某個覆滅的人類王國的全盛時期，或與傳說中的某位<span>人類</span>有緊密關聯。其上可能刻有失傳語言的文字，或意義已隨歲月消逝的符號。</p>",
+        "9-9": "<p><strong>【火元素】</strong>該物品摸起來溫熱，任何金屬部分均以黑鐵打造。火焰圖樣覆蓋其表面。</p>",
+        "1-1": "<p><strong>【異怪】</strong>該物品年代久遠，乍看之下像是被黏液覆蓋。</p>",
+        "10-10": "<p><strong>【水元素】</strong>這件物品上的皮革或布料由有光澤的魚鱗取代，金屬部分則由貝殼與加工過的珊瑚（硬度不輸任何金屬）取代。</p>",
+        "4-4": "<p><strong>【龍類】</strong>這件物品鑲有取自龍之寶藏的貴金屬與寶石。當位於一隻龍類120呎內時，其會變熱。</p>",
+        "16-16": "<p><strong>【侏儒】</strong>該物品被製作得看似平凡且用舊了。其可能還包含齒輪與機械零件，即使這些並非其功能所必需。</p>",
+        "20-20": "<p><strong>【不死生物】</strong>該物品帶有象徵死亡的標誌，例如骨頭與骷髏，且可能以屍體的部位製成。摸起來冰冷。</p>",
+        "14-14": "<p><strong>【邪魔】</strong>該物品以鐵或角製成，任何布料或皮革部分皆以邪魔的皮製成。其表面刻有奸笑的臉孔或邪惡的符文。<span>天界生物</span>會對其感到厭惡。</p>",
+        "3-3": "<p><strong>【蘿絲信徒】</strong>該物品重量為正常的一半，上面刻有蜘蛛與蛛網的圖案，以表達對蘿絲的敬意。</p>"
       }
     },
     "Minor Detrimental Properties": {
       "results": {
-        "85-88": "<p>While you’re attuned to the Artifact, other creatures can’t take Short or Long Rests while within 300 feet of you.</p>",
-        "89-92": "<p>While attuned to the Artifact, you kill any nonmagical vegetation you touch that isn’t a creature.</p>",
-        "77-80": "<p>While you’re attuned to the Artifact, all Holy <span>Water</span> within 10 feet of you is destroyed.</p>",
-        "25-32": "<p>While attuned to the Artifact, you have the Blinded condition when you’re more than 10 feet away from it.</p>",
-        "17-24": "<p>While attuned to the Artifact, you have Vulnerability to Poison damage.</p>",
-        "93-100": "<p>While you’re attuned to the Artifact, Beasts within 30 feet of you that have a Challenge Rating of 6 or lower are Hostile toward you.</p>",
-        "49-66": "<p>While you’re attuned to the Artifact, your appearance changes as the DM decides.</p>",
-        "81-84": "<p>While you’re attuned to the Artifact, nonmagical flames are extinguished within 30 feet of you.</p>",
-        "73-76": "<p>Whenever you touch a nonmagical gem or an art object while attuned to this Artifact, the value of the gem or art object is reduced by half. This affects a particular object only once.</p>",
-        "41-48": "<p>While attuned to the Artifact, you lose all sense of smell.</p>",
-        "67-72": "<p>While attuned to the Artifact, you emit a sour stench noticeable from up to 10 feet away.</p>",
-        "1-8": "<p>While attuned to the Artifact, you have Disadvantage on any ability check or saving throw that uses Strength or Constitution.</p>",
-        "33-40": "<p>While attuned to the Artifact, you have the Deafened condition when you’re more than 10 feet away from it.</p>",
-        "9-16": "<p>While attuned to the Artifact, you have Disadvantage on Intelligence, Wisdom, and Charisma saving throws.</p>"
+        "85-88": "<p>與該神器同調期間，其他生物位於你300呎內時，無法進行短休或長休。</p>",
+        "89-92": "<p>與該神器同調期間，你會殺死你所觸碰的任何非魔法且非生物的植物。</p>",
+        "77-80": "<p>與該神器同調期間，所有位於你10呎內的<span>聖水</span>都會被摧毀。</p>",
+        "25-32": "<p>與該神器同調期間，當你與該神器相距超過10呎時，你陷入目盲狀態。</p>",
+        "17-24": "<p>與該神器同調期間，你對毒素傷害具有易傷。</p>",
+        "93-100": "<p>與該神器同調期間，位於你30呎內、挑戰等級為6或以下的野獸對你敵對。</p>",
+        "49-66": "<p>與該神器同調期間，你的外貌會依DM的決定而改變。</p>",
+        "81-84": "<p>與該神器同調期間，位於你30呎內的非魔法火焰會被熄滅。</p>",
+        "73-76": "<p>每當你在與該神器同調期間觸碰非魔法的寶石或藝術品時，該寶石或藝術品的價值減半。每件物品只會受此影響一次。</p>",
+        "41-48": "<p>與該神器同調期間，你失去所有嗅覺。</p>",
+        "67-72": "<p>與該神器同調期間，你會散發出10呎內都能察覺的酸臭味。</p>",
+        "1-8": "<p>與該神器同調期間，你進行任何使用力量或體質的屬性檢定或豁免時具有劣勢。</p>",
+        "33-40": "<p>與該神器同調期間，當你與該神器相距超過10呎時，你陷入耳聾狀態。</p>",
+        "9-16": "<p>與該神器同調期間，你進行智力、感知與魅力豁免時具有劣勢。</p>"
       },
-      "name": "Minor Detrimental Properties"
+      "name": "次要負面屬性"
     },
     "Ring of Resistance: Damage Type and Gemstone": {
       "name": "Ring of Resistance: Damage Type and Gemstone",
@@ -1999,18 +1999,18 @@
     },
     "Special Purpose": {
       "results": {
-        "10-10": "<strong>Templar.</strong> The item seeks to defend the servants and interests of a particular deity.",
-        "1-1": "<strong>Aligned.</strong> The item seeks to defeat or destroy those of a diametrically opposed alignment. Such an item is never Neutral.",
-        "5-5": "<strong>Destroyer.</strong> The item craves destruction and goads its user to fight arbitrarily.",
-        "2-2": "<strong>Bane.</strong> The item seeks to thwart or destroy creatures of a particular type, such as Constructs, Fiends, or Undead.",
-        "6-6": "<strong>Glory Seeker.</strong> The item seeks renown as the greatest magic item in the world by winning fame or notoriety for its user.",
-        "4-4": "<strong>Destiny Seeker.</strong> The item believes it and its bearer have key roles to play in future events.",
-        "9-9": "<strong>Soulmate Seeker.</strong> The item seeks another sentient magic item, perhaps one that is similar to itself.",
-        "8-8": "<strong>Protector.</strong> The item seeks to defend a particular kind of creature, such as elves or werewolves.",
-        "7-7": "<strong>Lore Seeker.</strong> The item craves knowledge or is determined to solve a mystery, learn a secret, or unravel a cryptic prophecy.",
-        "3-3": "<strong>Creator Seeker.</strong> The item seeks its creator and wants to understand why it was created."
+        "10-10": "<strong>【聖殿騎士】</strong>該物品試圖保衛某位特定神祇的僕從與利益。",
+        "1-1": "<strong>【排異】</strong>該物品試圖擊敗或摧毀陣營與其完全相反者。這類物品絕不會是中立。",
+        "5-5": "<strong>【破壞者】</strong>該物品渴望破壞，並慫恿其使用者隨意爭鬥。",
+        "2-2": "<strong>【制造災禍】</strong>該物品試圖阻撓或摧毀某種特定類型的生物，例如構裝體、邪魔或不死生物。",
+        "6-6": "<strong>【尋求榮耀】</strong>該物品試圖為其使用者贏得名聲或惡名，藉此成為世上最偉大的魔法物品。",
+        "4-4": "<strong>【尋求天命】</strong>該物品相信自己與其持有者在未來的事件中將扮演關鍵角色。",
+        "9-9": "<strong>【尋求知己】</strong>該物品尋找另一件智能魔法物品，或許是與其自身相似的物品。",
+        "8-8": "<strong>【保護者】</strong>該物品試圖保衛某種特定的生物，例如精靈或狼人。",
+        "7-7": "<strong>【尋求知識】</strong>該物品渴求知識，或決心解開謎團、探知秘密，或破解晦澀的預言。",
+        "3-3": "<strong>【尋找創造者】</strong>該物品尋找其創造者，並想了解自己為何被製造。"
       },
-      "name": "Special Purpose"
+      "name": "智能物品的特殊目標"
     },
     "Random Shops": {
       "results": {
@@ -2028,18 +2028,18 @@
       "name": "Random Shops"
     },
     "Potion of Resistance Type": {
-      "name": "Potion of Resistance Type",
+      "name": "抗力藥水類型",
       "results": {
-        "7-7": "Poison",
-        "5-5": "Lightning",
-        "10-10": "Thunder",
-        "1-1": "Acid",
-        "4-4": "Force",
-        "6-6": "Necrotic",
-        "3-3": "Fire",
-        "2-2": "Cold",
-        "8-8": "Psychic",
-        "9-9": "Radiant"
+        "7-7": "毒素",
+        "5-5": "閃電",
+        "10-10": "雷鳴",
+        "1-1": "強酸",
+        "4-4": "力場",
+        "6-6": "黯蝕",
+        "3-3": "火焰",
+        "2-2": "寒冷",
+        "8-8": "心靈",
+        "9-9": "光耀"
       }
     },
     "Adventure Connection": {
@@ -2064,30 +2064,30 @@
     },
     "Major Detrimental Properties": {
       "results": {
-        "19-27": "<p>When you <span>become</span> attuned to the Artifact, you take 8d10 Psychic damage.</p>",
-        "91-96": "<p>The Artifact imprisons a <strong>Death Slaad</strong>. Each time you become attuned to the Artifact, the slaad has a 10 percent chance of escaping, whereupon it appears in an unoccupied space as close to you as possible and <span>attacks</span> you.</p>",
-        "97-100": "<p>While attuned to the Artifact, you can’t spend Hit Point Dice or regain Hit Points.</p>",
-        "10-18": "<p>When you become attuned to the Artifact, a random one of your ability scores is reduced by 2, to a minimum of 3. A <em>Greater Restoration</em> spell restores the ability.</p>",
-        "55-63": "<p>The Artifact dilutes potions within 10 feet of itself, rendering them nonmagical.</p>",
-        "1-9": "<p>You can’t attune to other magic items while you’re attuned to the Artifact. When you become attuned to the Artifact, your Attunement to other magic items ends immediately.</p>",
-        "73-81": "<p>While you’re attuned to the Artifact, creatures of a particular type other than Humanoid (chosen by the DM) are always Hostile toward you.</p>",
-        "28-36": "<p>The first time you become attuned to the Artifact, it gives you a quest determined by the DM. You can’t use any of the Artifact’s properties until you complete the quest.</p>",
-        "82-90": "<p>While attuned to the Artifact, you have <span>Vulnerability</span> to all damage.</p>",
-        "64-72": "<p>The Artifact erases scrolls within 10 feet of itself, rendering them nonmagical.</p>",
-        "37-45": "<p>Each time you become attuned to the Artifact, there is a 10 percent chance that you attract the attention of a god who sends an avatar to wrest the Artifact from you. The avatar has the same alignment as its creator and uses the <strong>Empyrean</strong> stat block. Once it obtains the Artifact, the avatar vanishes.</p>",
-        "46-54": "<p>Each time you become attuned to the Artifact, you must succeed on a DC 10 Constitution saving throw or die from the shock. If you die, you’re instantly transformed into a <strong>Wight</strong> under the DM’s control that must protect the Artifact.</p>"
+        "19-27": "<p>當你與該神器<span>同調</span>時，你承受8d10心靈傷害。</p>",
+        "91-96": "<p>該神器囚禁著一隻<strong>死亡史拉蟾</strong>。每次你與該神器同調時，該史拉蟾有10%的機率逃脫，隨後出現在盡可能靠近你的未佔據空間，並<span>攻擊</span>你。</p>",
+        "97-100": "<p>與該神器同調期間，你無法花費生命骰或恢復生命值。</p>",
+        "10-18": "<p>當你與該神器同調時，你隨機一項屬性值降低2，最低為3。<em>高等復原術</em>法術可以恢復該屬性值。</p>",
+        "55-63": "<p>該神器會稀釋位於其10呎內的藥水，使這些藥水失去魔法。</p>",
+        "1-9": "<p>與該神器同調期間，你無法與其他魔法物品同調。當你與該神器同調時，你與其他魔法物品的同調會立即結束。</p>",
+        "73-81": "<p>與該神器同調期間，由DM選擇的某一類型生物（類人生物除外）始終對你敵對。</p>",
+        "28-36": "<p>當你首次與該神器同調時，該神器會給予你一項由DM決定的任務。在你完成該任務之前，你無法使用該神器的任何屬性。</p>",
+        "82-90": "<p>與該神器同調期間，你對所有傷害具有<span>易傷</span>。</p>",
+        "64-72": "<p>該神器會抹去位於其10呎內的卷軸，使這些卷軸失去魔法。</p>",
+        "37-45": "<p>每次你與該神器同調時，都有10%的機率引起某位神祇的注意，該神祇會派遣化身來從你手中奪走該神器。該化身的陣營與其創造者相同，並使用<strong>至高天</strong>的數值面板。化身一旦取得該神器便會消失。</p>",
+        "46-54": "<p>每次你與該神器同調時，你必須成功通過一次DC 10的體質豁免，否則會因衝擊而死亡。若你死亡，你會立即轉變為一隻受DM控制的<strong>屍妖</strong>，並必須保護該神器。</p>"
       },
-      "name": "Major Detrimental Properties"
+      "name": "主要負面屬性"
     },
     "Necklace of Prayer Beads Type": {
-      "name": "Necklace of Prayer Beads Type",
+      "name": "念珠項鍊的念珠類型",
       "results": {
-        "7-12": "Bead of Curing: @UUID[Compendium.dnd-players-handbook.spells.Item.phbsplCureWounds]{Cure Wounds} (level 2 version)",
-        "1-6": "Bead of Blessing: @UUID[Compendium.dnd-players-handbook.spells.Item.phbsplBless00000]{Bless}",
-        "19-19": "Bead of Summons: @UUID[Compendium.dnd-players-handbook.spells.Item.phbsplGuardianof]{Guardian of Faith}",
-        "13-16": "Bead of Favor: @UUID[Compendium.dnd-players-handbook.spells.Item.phbsplGreaterRes]{Greater Restoration}",
-        "17-18": "Bead of Smiting: @UUID[Compendium.dnd-players-handbook.spells.Item.phbsplShiningSmi]{Shining Smite}",
-        "20-20": "Bead of Wind Walking: @UUID[Compendium.dnd-players-handbook.spells.Item.phbsplWindWalk00]{Wind Walk}"
+        "7-12": "療癒之珠：@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplCureWounds]{治療傷勢}（2環版本）",
+        "1-6": "祝福之珠：@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplBless00000]{祝福術}",
+        "19-19": "召喚之珠：@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplGuardianof]{虔誠守衛}",
+        "13-16": "恩賜之珠：@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplGreaterRes]{高等復原術}",
+        "17-18": "打擊之珠：@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplShiningSmi]{閃耀斬}",
+        "20-20": "風行之珠：@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplWindWalk00]{御風而行}"
       }
     },
     "NPC Secrets": {
@@ -2119,20 +2119,20 @@
       "name": "Potion Miscibility"
     },
     "2,500 GP Art Objects": {
-      "name": "2,500 GP Art Objects",
+      "name": "2,500 GP藝術品",
       "results": {
-        "8-8": "Gold circlet set with four aquamarines",
-        "2-2": "Old masterpiece painting",
-        "9-9": "Eye patch decorated with tiny blue sapphires and moonstones",
-        "1-1": "Fine gold chain set with a fire opal",
-        "4-4": "Platinum bracelet set with an emerald",
-        "6-6": "Jeweled anklet",
-        "10-10": "A necklace string of small pink pearls",
-        "3-3": "Embroidered silk and velvet mantle set with numerous moonstones",
-        "5-5": "Embroidered glove set with jewel chips",
-        "7-7": "Gold music box"
+        "8-8": "鑲有四顆海藍寶石的金頭環",
+        "2-2": "古老的名畫",
+        "9-9": "用藍寶石和月光石裝飾的眼罩",
+        "1-1": "鑲有火蛋白石的純金鏈",
+        "4-4": "嵌著一顆翡翠的鉑金手鐲",
+        "6-6": "寶石腳環",
+        "10-10": "一串粉紅色的小珍珠項鍊",
+        "3-3": "附帶刺繡的絲綢天鵝絨斗篷，鑲有許多月光石",
+        "5-5": "鑲有寶石片的繡花手套",
+        "7-7": "金製八音盒"
       },
-      "description": "<p><em>See: @UUID[Compendium.dnd-dungeon-masters-guide.equipment.Item.dmgJewelry2500GP]{Art Object (2,500 GP)}</em></p>"
+      "description": "<p><em>參見：@UUID[Compendium.dnd-dungeon-masters-guide.equipment.Item.dmgJewelry2500GP]{藝術品（2,500 GP）}</em></p>"
     },
     "Carpet of Flying: Size, Capacity, and Speed": {
       "results": {
@@ -2203,18 +2203,18 @@
       "name": "Common Names"
     },
     "1,000 GP Gemstones": {
-      "name": "1,000 GP Gemstones",
+      "name": "1,000 GP寶石",
       "results": {
-        "4-4": "Fire opal (fiery red)",
-        "3-3": "Emerald (deep bright green)",
-        "5-5": "Opal (pale blue with green and golden mottling)",
-        "7-7": "Star sapphire (blue sapphire with white star-shaped center)",
-        "1-1": "Black opal (dark green with black <span>mottling</span> and golden flecks)",
-        "2-2": "Blue sapphire (medium blue)",
-        "8-8": "Yellow sapphire (fiery yellow or <span>yellow</span> green)",
-        "6-6": "Star ruby (ruby with white star-shaped center)"
+        "4-4": "火蛋白石（火紅色）",
+        "3-3": "翡翠（深而明亮的綠色）",
+        "5-5": "蛋白石（淡藍色，帶有綠色與金色斑紋）",
+        "7-7": "星光藍寶石（中心為白色星形的藍寶石）",
+        "1-1": "黑蛋白石（深綠色，帶有黑色<span>雜色</span>陰影與金色斑點）",
+        "2-2": "藍寶石（中藍色）",
+        "8-8": "黃寶石（火黃色或<span>黃</span>綠色）",
+        "6-6": "星光紅寶石（中心為白色星形的紅寶石）"
       },
-      "description": "<p><em>See: @UUID[Compendium.dnd-dungeon-masters-guide.equipment.Item.dmgGemstone1000G]{Gemstone (1,000 GP)}</em></p>"
+      "description": "<p><em>參見：@UUID[Compendium.dnd-dungeon-masters-guide.equipment.Item.dmgGemstone1000G]{寶石（1,000 GP）}</em></p>"
     },
     "Deck of Many Things: 13 Cards": {
       "name": "Deck of Many Things: 13 Cards"
