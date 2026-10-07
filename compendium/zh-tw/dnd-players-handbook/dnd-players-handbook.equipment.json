@@ -742,7 +742,7 @@
     },
     "Spell Scroll, Level 1": {
       "name": "1環法術卷軸",
-      "description": "<p>一個@UUID[Compendium.dnd-players-handbook.equipment.Item.phbagCantripScro]{戲法法術卷軸}或<em>1環法術卷軸</em>是一種記載了戲法或1環法術的魔法物品，具體是哪一種由卷軸的創造者決定。如果該法術在你的職業法術列表中，你就可以閱讀這卷卷軸，並以法術的正常施法時間施放該法術，且無需提供任何材料成分。</p><p>如果法術要求豁免檢定或攻擊檢定，法術豁免DC為13，攻擊加值為+5。施法完成後，卷軸會煙消雲散。</p>"
+      "description": "<p>一個@UUID[Compendium.dnd-players-handbook.equipment.Item.phbagCantripScro]{戲法法術卷軸}或<em>1環法術卷軸</em>是一種記載了戲法或1環法術的魔法物品，具體是哪一種由卷軸的創造者決定。如果該法術在你的職業法術列表中，你就可以閱讀這卷卷軸，並以法術的正常施法時間施放該法術，且無需提供任何材料構材。</p><p>如果法術要求豁免檢定或攻擊檢定，法術豁免DC為13，攻擊加值為+5。施法完成後，卷軸會煙消雲散。</p>"
     },
     "Scimitar": {
       "name": "彎刀"
@@ -969,7 +969,7 @@
     },
     "Spell Scroll, Cantrip": {
       "name": "戲法法術卷軸",
-      "description": "<p>一個<em>戲法法術卷軸</em>或@UUID[Compendium.dnd-players-handbook.equipment.Item.phbagSpellScroll]{1環法術卷軸}是一種記載了戲法或1環法術的魔法物品，具體是哪一種由卷軸的創造者決定。如果該法術在你的職業法術列表中，你就可以閱讀這卷卷軸，並以法術的正常施法時間施放該法術，且無需提供任何材料成分。</p><p>如果法術要求豁免檢定或攻擊檢定，法術豁免DC為13，攻擊加值為+5。施法完成後，卷軸會煙消雲散。</p>"
+      "description": "<p>一個<em>戲法法術卷軸</em>或@UUID[Compendium.dnd-players-handbook.equipment.Item.phbagSpellScroll]{1環法術卷軸}是一種記載了戲法或1環法術的魔法物品，具體是哪一種由卷軸的創造者決定。如果該法術在你的職業法術列表中，你就可以閱讀這卷卷軸，並以法術的正常施法時間施放該法術，且無需提供任何材料構材。</p><p>如果法術要求豁免檢定或攻擊檢定，法術豁免DC為13，攻擊加值為+5。施法完成後，卷軸會煙消雲散。</p>"
     },
     "Explorer's Pack": {
       "name": "探索者套裝",
