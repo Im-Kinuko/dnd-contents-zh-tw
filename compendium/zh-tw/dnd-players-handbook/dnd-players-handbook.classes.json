@@ -14,7 +14,7 @@
         },
         "Psychic Defenses": {
           "title": "心靈防禦",
-          "hint": "你擁有對心靈傷害的抗力"
+          "hint": "你擁有對心靈傷害的抗力。"
         }
       }
     },
@@ -249,7 +249,7 @@
         },
         "Assassin's Tools": {
           "title": "刺客工具",
-          "hint": "你獲得易容工具組和一套製毒工具組"
+          "hint": "你獲得易容工具組和一套製毒工具組。"
         },
         "rvg1VPVkuaZrsvIx": {
           "title": "刺客工具",
@@ -425,7 +425,7 @@
     },
     "Barbarian": {
       "name": "野蠻人",
-      "description": "<blockquote><p>原始狂怒的兇猛戰士</p></blockquote><h3>野蠻人核心特性</h3><table class=\"core-class-traits\"><tbody><tr><th scope=\"row\"><p>關鍵屬性</p></th><td><p>力量</p></td></tr><tr><th><p><strong>生命骰</strong></p></th><td><p>每野蠻人等級D12</p></td></tr><tr><th><p><strong>豁免熟練</strong></p></th><td><p>力量和體質</p></td></tr><tr><th><p><strong>技能熟練</strong></p></th><td><p><em>選擇2個：</em>馴獸、運動、威嚇、自然、察覺或求生</p></td></tr><tr><th><p><strong>武器熟練</strong></p></th><td><p>簡易武器和軍用武器</p></td></tr><tr><th><p><strong>護甲訓練</strong></p></th><td><p>輕甲、中甲、盾牌</p></td></tr><tr><th><p><strong>起始裝備</strong></p></th><td><p><em>選擇A或B：</em> (A) @UUID[Compendium.dnd-players-handbook.equipment.Item.phbwepGreataxe00]、4個@UUID[Compendium.dnd-players-handbook.equipment.Item.phbwepHandaxe000]、@UUID[Compendium.dnd-players-handbook.equipment.Item.phbagExplorersPa]、[[/award 15GP]]; or (B) [[/award 75GP]]</p></td></tr></tbody></table><p>野蠻人是強大的戰士，他們由多元宇宙的原初力量所驅動，而這股力量便是「狂暴」。野蠻人的狂暴不只是一種情感，而且是獵食者在絕境中激發的兇暴，是暴風雨般不顧一切的猛襲，也是大海中翻滾不息的波濤。</p><p>有些野蠻人將「狂暴」具象為兇蠻的靈體，或敬仰的先祖；有些野蠻人卻認為狂暴與世界的痛苦悲傷皆有聯繫，還有人認為狂暴是來自狂野魔法的無情糾纏；更有些人認為，狂暴是他們內心最深處的一種自我表達。對所有野蠻人來說，這股狂暴不僅為他們點燃了戰鬥狂熱，更是他們靈活閃避、抵禦傷害和增強力量的源泉。</p><p>野蠻人通常扮演著社群的保護者和領導者。他們往往隻身衝向危險，只為保護他人。敢於面對任何危險的勇氣使野蠻人非常適合冒險。</p><h2>成為野蠻人...</h2><h3>作為首級角色</h3><ul><li>獲得野蠻人核心特徵表中的所有特徵。</li><li>獲得野蠻人特性表中列出的1級特性。</li></ul><h3>作為兼職角色</h3><ul><li>獲得野蠻人核心特徵表中的以下特徵：生命骰、熟練軍用武器、盾牌訓練。</li><li>獲得野蠻人特性表中列出的 1 級特性。</li></ul>",
+      "description": "<blockquote><p>原始狂怒的兇猛戰士</p></blockquote><h3>野蠻人核心特性</h3><table class=\"core-class-traits\"><tbody><tr><th scope=\"row\"><p>主屬性</p></th><td><p>力量</p></td></tr><tr><th><p><strong>生命骰</strong></p></th><td><p>每野蠻人等級D12</p></td></tr><tr><th><p><strong>豁免熟練</strong></p></th><td><p>力量和體質</p></td></tr><tr><th><p><strong>技能熟練</strong></p></th><td><p><em>選擇2個：</em>馴獸、運動、威嚇、自然、察覺或求生</p></td></tr><tr><th><p><strong>武器熟練</strong></p></th><td><p>簡易武器和軍用武器</p></td></tr><tr><th><p><strong>護甲訓練</strong></p></th><td><p>輕甲、中甲、盾牌</p></td></tr><tr><th><p><strong>起始裝備</strong></p></th><td><p><em>選擇A或B：</em>（A）@UUID[Compendium.dnd-players-handbook.equipment.Item.phbwepGreataxe00]{巨斧}、4把@UUID[Compendium.dnd-players-handbook.equipment.Item.phbwepHandaxe000]{手斧}、@UUID[Compendium.dnd-players-handbook.equipment.Item.phbagExplorersPa]{探索者套裝}，以及[[/award 15GP]]；或（B）[[/award 75GP]]</p></td></tr></tbody></table><p>野蠻人是強大的戰士，他們由多元宇宙的原初力量所驅動，而這股力量便是「狂暴」。野蠻人的狂暴不只是一種情感，而且是獵食者在絕境中激發的兇暴，是暴風雨般不顧一切的猛襲，也是大海中翻滾不息的波濤。</p><p>有些野蠻人將「狂暴」具象為兇蠻的靈體，或敬仰的先祖；有些野蠻人卻認為狂暴與世界的痛苦悲傷皆有聯繫，還有人認為狂暴是來自狂野魔法的無情糾纏；更有些人認為，狂暴是他們內心最深處的一種自我表達。對所有野蠻人來說，這股狂暴不僅為他們點燃了戰鬥狂熱，更是他們靈活閃避、抵禦傷害和增強力量的源泉。</p><p>野蠻人通常扮演著社群的保護者和領導者。他們往往隻身衝向危險，只為保護他人。敢於面對任何危險的勇氣使野蠻人非常適合冒險。</p><h2>成為野蠻人...</h2><h3>作為首級角色</h3><ul><li>獲得野蠻人核心特徵表中的所有特徵。</li><li>獲得野蠻人特性表中列出的1級特性。</li></ul><h3>作為兼職角色</h3><ul><li>獲得野蠻人核心特徵表中的以下特徵：生命骰、熟練軍用武器、盾牌訓練。</li><li>獲得野蠻人特性表中列出的 1 級特性。</li></ul>",
       "advancement": {
         "Rage Damage": {
           "title": "狂暴傷害"
@@ -488,7 +488,7 @@
           "title": "專精"
         },
         "Epic Boon": {
-          "title": "史詩恩惠"
+          "title": "傳奇恩惠"
         },
         "Words of Creation": {
           "title": "創世真言"
@@ -723,17 +723,17 @@
       }
     },
     "Brutal Strike": {
-      "name": "Brutal Strike",
-      "description": "<p>If you use [[/item Reckless Attack]], you can forgo any Advantage on one Strength-based attack roll of your choice on your turn. The chosen attack roll mustn't have Disadvantage. If the chosen attack roll hits, the target takes an extra [[lookup @scale.barbarian.brutal-strike]] damage of the same type dealt by the weapon or Unarmed Strike, and you can cause one Brutal Strike effect of your choice. You have the following effect options.</p><p><strong>Forceful Blow. </strong>The target is pushed 15 feet straight away from you. You can then move up to half your Speed straight toward the target without provoking &amp;Reference[Opportunity Attacks].</p><p><strong>Hamstring Blow. </strong>The target's Speed is reduced by 15 feet until the start of your next turn. A target can be affected by only one Hamstring Blow at a time - the most recent one.</p><section class=\"secret\" id=\"secret-vLb1SoKHWW2796Ko\"><p><strong>Foundry Note</strong></p><p>This feature includes an Active Effect for the Hamstring Blow which can be applied to a target.</p><p>The <strong>damage</strong> activity automatically scales when you gain Improved Brutal Strike (2).</p></section>",
+      "name": "殘暴打擊",
+      "description": "<p>若你使用[[/item Reckless Attack]]{魯莽攻擊}，則可以放棄本回合中你所選擇的一次基於力量攻擊檢定所具有的任何優勢。所選的攻擊檢定不能具有劣勢。若所選的攻擊檢定命中，則目標將承受額外[[lookup @scale.barbarian.brutal-strike]]傷害，傷害類型與武器或徒手打擊造成的傷害類型相同，並且你可以造成一種你所選擇的殘暴打擊效應。你具有下列效應選項。</p><p><strong>【巨力猛擊】</strong>目標被你直線推開15呎。隨後你可以朝該目標直線移動至多等同於你速度一半的距離，並且不會引發&amp;Reference[Opportunity Attacks]{藉機攻擊}。</p><p><strong>【斷筋猛擊】</strong>直到你的下個回合開始，目標的速度降低15呎。一個目標同一時間只會受到最近一次斷筋猛擊的影響。</p><section class=\"secret\" id=\"secret-vLb1SoKHWW2796Ko\"><p><strong>【Foundry註記】</strong></p><p>此特性包含一項斷筋猛擊的Active Effect，可以套用到一個目標身上。</p><p>當你獲得強化殘暴打擊（2）時，<strong>傷害</strong>行動會自動調整比例值。</p></section>",
       "activities": {
         "Brutal Strike": {
-          "name": "Brutal Strike"
+          "name": "殘暴打擊"
         }
       },
       "effects": {
         "Hamstrung": {
-          "name": "Hamstrung",
-          "description": "<p>Hit by a hamstring blow, this character's Speed has been reduced by 15 feet until the start of the attacker's next turn.</p>"
+          "name": "斷筋",
+          "description": "<p>遭到斷筋猛擊後，此角色的速度降低15呎，直到攻擊者的下個回合開始。</p>"
         }
       }
     },
@@ -950,7 +950,7 @@
       "description": "<blockquote><p>以神力降下奇蹟的教士</p></blockquote><h3>牧師核心特徵</h3><table class=\"core-class-traits\"><tbody><tr><th scope=\"row\"><p>關鍵屬性</p></th><td><p>感知</p></td></tr><tr><th scope=\"row\"><p>生命骰</p></th><td><p>每牧師等級D8</p></td></tr><tr><th scope=\"row\"><p>豁免熟練</p></th><td><p>感知與魅力</p></td></tr><tr><th scope=\"row\"><p>技能熟練</p></th><td><p>從歷史、洞悉、醫藥、說服、宗教中<em>選擇兩項</em></p></td></tr><tr><th scope=\"row\"><p>武器熟練</p></th><td><p>簡易武器</p></td></tr><tr><th scope=\"row\"><p>護甲訓練</p></th><td><p>輕甲、中甲、盾牌</p></td></tr><tr><th scope=\"row\"><p>起始裝備</p></th><td><p><em>選擇A或B：</em> (A) @UUID[Compendium.dnd-players-handbook.equipment.Item.phbarmChainShirt]、@UUID[Compendium.dnd-players-handbook.equipment.Item.phbarmShield0000]、@UUID[Compendium.dnd-players-handbook.equipment.Item.phbwepMace000000]、@UUID[Compendium.dnd-players-handbook.equipment.Item.phbagHolySymbolV]、@UUID[Compendium.dnd-players-handbook.equipment.Item.phbagPriestsPack]、[[/award 7GP]]； (B) [[/award 110GP]]</p></td></tr></tbody></table><p>牧師們從諸神領域中汲取力量，以之展現奇蹟。受到神祇、神系或其他非凡存在的祝福，牧師得以感應到神明所在的外層位面之力，並將那神聖的魔法用於普渡眾生，懲擊敵寇。</p><p>牧師們的力量即是神明的恩賜，因此他們常常侍奉於那些賦予自身魔法的神祇或非凡之力的神廟中。掌控對神聖魔法的運用並非依賴專項訓練，而需要牧師們從祈禱和儀式中學會如何獲取外層位面的神力。</p><p>當然，並非所有神廟或神社的成員都是牧師。還有一些祭司被召至神廟中，僅僅過著簡單的侍僧生活，透過祈禱和儀式而非魔法來實現他們對神明的獻身。許多凡人都聲稱自己能為諸神代言，但很少有人能像牧師那樣真正調動諸神的力量。</p><h2>成為牧師…</h2><h3>作為首級角色</h3><ul><li>獲得牧師核心特徵表中的所有特徵。</li><li>獲得牧師特性表中列出的1級特性。</li></ul><h3>作為兼職角色</h3><ul><li>獲得下列牧師核心特徵表中的特徵：生命骰以及輕甲、中甲和盾牌的訓練。</li><li>獲得牧師特性表中列出的1級特性。請參閱第 2 章中的兼職規則以確定你的可用法術位。</li></ul>",
       "advancement": {
         "Epic Boon": {
-          "title": "史詩恩惠"
+          "title": "傳奇恩惠"
         },
         "Class Features": {
           "title": "職業特性"
@@ -969,7 +969,7 @@
         },
         "Divine Order Choice": {
           "title": "神聖使命選擇",
-          "hint": "你已將自己奉獻給下列一種神聖使命："
+          "hint": "你已將自己奉獻給下列一種神聖使命。"
         },
         "Blessed Strikes Choice": {
           "title": "神祐打擊選擇",
@@ -1237,17 +1237,17 @@
         "Cut with Words": {
           "name": "語出驚人",
           "roll": "吟遊激勵",
-          "condition": "60呎內你所能看見的生物進行傷害骰或是通過屬性檢定或攻擊檢定。"
+          "condition": "60呎內你所能看見的生物進行傷害骰或是通過屬性檢定或攻擊檢定"
         }
       }
     },
     "Danger Sense": {
       "name": "危險感知",
-      "description": "<p>你獲得對周遭異常情況超乎尋常的感測力，讓你能先一步脫離危險。除非你陷入無力&amp;Reference[Incapacitated]狀態，你在敏捷豁免上具有優勢。</p>",
+      "description": "<p>當異常情況發生時，一種不可思議的感覺降臨你的心頭，指引你更好地躲避危險。只要你未陷入&amp;Reference[Incapacitated]{失能}狀態，你的敏捷豁免檢定就具有優勢。</p><section id=\"secret-gIJELszWrIqRFCxF\" class=\"secret\"><p><strong>【Foundry註記】</strong></p><p>此特性會自動套用敏捷豁免檢定的優勢，但在你失能時不會自動停用。你可以在效果分頁中暫時停用此特性。</p></section>",
       "effects": {
         "Danger Sense": {
-          "name": "Danger Sense",
-          "description": "<p>You have Advantage on Dexterity saving throws unless you have the &amp;Reference[Incapacitated] condition.</p>"
+          "name": "危險感知",
+          "description": "<p>只要你未陷入&amp;Reference[Incapacitated]{失能}狀態，你的敏捷豁免檢定就具有優勢。</p>"
         }
       }
     },
@@ -1585,7 +1585,7 @@
       "description": "<blockquote><p>擁有原初力量的自然祭司</p></blockquote><h3>核心德魯伊特徵</h3><table class=\"core-class-traits\"><tbody><tr><th scope=\"row\"><p><strong>關鍵屬性</strong></p></th><td><p>感知</p></td></tr><tr><th scope=\"row\"><p><strong>生命骰</strong></p></th><td><p>每德魯伊等級D8 </p></td></tr><tr><th scope=\"row\"><p><strong>豁免熟練</strong></p></th><td><p>智力與感知</p></td></tr><tr><th scope=\"row\"><p><strong>技能熟練</strong></p></th><td><p>從奧秘、馴獸、洞悉、醫藥、自然、察覺、宗教、求生中<em>選擇兩項</em></p></td></tr><tr><th scope=\"row\"><p><strong>武器熟練</strong></p></th><td><p>簡易武器</p></td></tr><tr><th scope=\"row\"><p><strong>工具熟練</strong></p></th><td><p>草藥師工具組</p></td></tr><tr><th scope=\"row\"><p><strong>護甲訓練</strong></p></th><td><p>輕甲和盾牌</p></td></tr><tr><th scope=\"row\"><p><strong>起始裝備</strong></p></th><td><p><em>選擇A或B：</em> (A) @UUID[Compendium.dnd-players-handbook.equipment.Item.phbarmLeatherArm]、@UUID[Compendium.dnd-players-handbook.equipment.Item.phbarmShield0000]、@UUID[Compendium.dnd-players-handbook.equipment.Item.phbwepSickle0000]、@UUID[Compendium.dnd-players-handbook.equipment.Item.phbagDruidicFocu]（@UUID[Compendium.dnd-players-handbook.equipment.Item.phbwepQuartersta]）、@UUID[Compendium.dnd-players-handbook.equipment.Item.phbagExplorersPa]、@UUID[Compendium.dnd-players-handbook.equipment.Item.phbtulHerbalismK]、[[/award 9GP]]; or (B) [[/award 50GP]]</p></td></tr></tbody></table><p>德魯伊屬於呼喚自然之力的古老教派。利用動物、植物和四大元素的魔力，德魯伊們可以治癒疾病、變身動物，乃至駕馭元素施加毀滅。</p><p>德魯伊崇敬自然至上，他們的魔法來自自然、自然神祇，或兩者兼有。通常，德魯伊會與其他德魯伊一起進行儀式，以記錄季節和自然週期的變化。</p><p>德魯伊不僅關注並維持著動植物間微妙的生態平衡，更注重人類與自然的和諧相處。通常，德魯伊們守護著聖地或看顧未受破壞的自然區域，但當世界出現重大危險之時，德魯伊亦將作為冒險者主動出擊，與之抗衡。</p><h2>成為德魯伊…</h2><h3>作為首級角色</h3><ul><li>獲得德魯伊核心特徵表中的所有特徵。</li><li>獲得德魯伊特性表中列出的 1 級特性。</li></ul><h3>作為兼職角色</h3><ul><li>獲得下列德魯伊核心特徵表中的特徵：生命骰以及輕甲和盾牌的訓練。</li><li>獲得德魯伊特性表中列出的 1 級特性。請參閱第 2 章中的兼職規則來確定你的可用法術位。</li></ul>",
       "advancement": {
         "Epic Boon": {
-          "title": "史詩恩惠"
+          "title": "傳奇恩惠"
         },
         "Class Features": {
           "title": "職業特性"
@@ -1610,11 +1610,11 @@
         },
         "Primal Order": {
           "title": "原初誓約",
-          "hint": "你已將自己奉獻給下列一種神聖使命"
+          "hint": "你已將自己奉獻給下列一種神聖使命。"
         },
         "Elemental Fury": {
           "title": "元素怒火",
-          "hint": "元素的力量在你身上流淌。你獲得下列你所選擇的其中一種效果"
+          "hint": "元素的力量在你身上流淌。你獲得下列你所選擇的其中一種效果。"
         },
         "W0d3c6X31SgnFFYM": {
           "title": "元素怒火"
@@ -1912,8 +1912,8 @@
       }
     },
     "Epic Boon": {
-      "name": "史詩恩惠",
-      "description": "<p>You gain an @UUID[Compendium.dnd-players-handbook.content.JournalEntry.phbFeats00000000.JournalEntryPage.GxfrwkJbrIvn7reC]{Epic Boon feat} or another feat of your choice for which you qualify. @UUID[Compendium.dnd-players-handbook.feats.Item.phbBoonofSpellRe]{Boon of Spell Recall} is recommended.</p><section class=\"secret\" id=\"secret-L2SpZgJc0oDT7wWU\"><p><strong>Foundry Note</strong></p><p>You will be prompted for a choice while leveling up.</p></section>"
+      "name": "傳奇恩惠",
+      "description": "<p>你獲得一項@UUID[Compendium.dnd-players-handbook.content.JournalEntry.phbFeats00000000.JournalEntryPage.GxfrwkJbrIvn7reC]{傳奇恩惠專長}，或另一項你所選擇且符合先決條件的專長。推薦選擇@UUID[Compendium.dnd-players-handbook.feats.Item.phbBoonofIrresis]{無敵攻勢恩惠}。</p>"
     },
     "Evasion": {
       "name": "反射閃避",
@@ -1994,7 +1994,7 @@
     },
     "Extra Attack": {
       "name": "額外攻擊",
-      "description": "<p>每當你在你的回合採取攻擊動作時，你可以攻擊兩次，而非一次。</p>"
+      "description": "<p>每當你在自己的回合採取攻擊動作時，你可以發動兩次攻擊而非一次。</p>"
     },
     "Faithful Steed": {
       "name": "Faithful Steed",
@@ -2021,7 +2021,7 @@
     },
     "Fast Movement": {
       "name": "快速移動",
-      "description": "<p>若你為穿戴重甲，你的速度提升10呎。</p><section id=\"secret-6cmMiIJhUk5cpOGz\" class=\"secret\"><p><strong>Foundry Note</strong></p><p>This feature includes an Active Effect which will automatically increase your movement speed. Disable the Fast Movement Active Effect if you're wearing Heavy armor.</p></section>",
+      "description": "<p>當你未穿戴重甲時，你的速度提升10呎。</p><section id=\"secret-6cmMiIJhUk5cpOGz\" class=\"secret\"><p><strong>【Foundry註記】</strong></p><p>此特性包含一項Active Effect，會自動提升你的移動速度。若你穿戴重甲，請停用快速移動的Active Effect。</p></section>",
       "effects": {
         "Fast Movement": {
           "name": "快速移動"
@@ -2042,11 +2042,11 @@
       }
     },
     "Feral Instinct": {
-      "name": "Feral Instinct",
-      "description": "<p>Your instincts are so honed that you have Advantage on Initiative rolls.</p>",
+      "name": "野性直覺",
+      "description": "<p>你的直覺變得格外敏銳。你的先攻檢定具有優勢。</p>",
       "effects": {
         "Feral Instinct": {
-          "name": "Feral Instinct"
+          "name": "野性直覺"
         }
       }
     },
@@ -2169,7 +2169,7 @@
           "title": "動作如潮"
         },
         "Epic Boon": {
-          "title": "史詩恩惠"
+          "title": "傳奇恩惠"
         },
         "Indomitable": {
           "title": "不屈"
@@ -2496,7 +2496,7 @@
       "description": "<p>你獲得下列一項你所選擇的特性。每當你完成短休或長休時，你可以用另一項特性來替換所選特性。</p><p><strong>【斬殺者】</strong>你強而有力的攻擊可以擊倒最強壯的對手。當你以武器命中生物時，若目標失去過任何生命值，則武器額外造成1d8傷害。你每回合只能造成一次此額外傷害。</p><p><strong>【破陣者】</strong>你每回合一次，當你以武器進行攻擊時，你可以用同一武器對武器範圍內位於原目標5呎內的另一個此回合尚未被你攻擊過的不同生物發動一次攻擊。</p><section class=\"secret\" id=\"secret-I2q5Nm7g6mkLjH5Y\"><p><strong>Foundry Note</strong></p><p>This feature includes a <strong>Colossus Slayer</strong> activity for the additional damage. You can select the correct damage type in the roll dialog.</p><p>For the <strong>Horde Breaker</strong> option simply make another attack.</p></section>",
       "activities": {
         "damage": {
-          "condition": "每回合一次當你以武器命中一個生物時 "
+          "condition": "每回合一次當你以武器命中一個生物時"
         }
       }
     },
@@ -2570,30 +2570,30 @@
       }
     },
     "Improved Brutal Strike": {
-      "name": "Improved Brutal Strike",
-      "description": "<p>You have honed new ways to attack furiously. The following effects are now among your Brutal Strike options.</p><p><strong>Staggering Blow.</strong> The target has Disadvantage on the next saving throw it makes, and it can't make Opportunity Attacks until the start of your next turn.</p><p><strong>Sundering Blow.</strong> Before the start of your next turn, the next attack roll made by another creature against the target gains a +5 bonus to the roll. An attack roll can gain only one Sundering Blow bonus.</p><section class=\"secret\" id=\"secret-5KFPx8fyh5NldmJp\"><p><strong>Foundry Note</strong></p><p>This feature includes an activity for each option which includes an Active Effect for tracking the Staggering and Sundering Blows but does not automate their effects.</p></section>",
+      "name": "強化殘暴打擊",
+      "description": "<p>你訓練出了更多種狂猛的攻擊方式。下列效應加入到你的殘暴打擊選項中。</p><p><strong>【震撼猛擊】</strong>目標進行的下一次豁免檢定具有劣勢，並且直到你的下個回合開始，該目標都不能發動藉機攻擊。</p><p><strong>【破勢猛擊】</strong>在你的下個回合開始前，另一名生物下一次對該目標進行的攻擊檢定獲得+5加值。一次攻擊檢定只能獲得一次破勢猛擊的加值。</p><section class=\"secret\" id=\"secret-5KFPx8fyh5NldmJp\"><p><strong>【Foundry註記】</strong></p><p>此特性為每個選項各提供一個行動，各行動皆包含一項Active Effect，用來追蹤震撼猛擊與破勢猛擊，但不會自動套用其效應。</p></section>",
       "activities": {
         "Sundering Blow": {
-          "name": "Sundering Blow"
+          "name": "破勢猛擊"
         },
         "Staggering Blow": {
-          "name": "Staggering Blow"
+          "name": "震撼猛擊"
         }
       },
       "effects": {
         "Staggered": {
-          "name": "Staggered",
-          "description": "<p>Hit by a staggering blow, this character has Disadvantage on the next Saving Throw it makes, and it can't make Opportunity Attacks until the start of the attacker's next turn.</p>"
+          "name": "震撼",
+          "description": "<p>遭到震撼猛擊後，此角色進行的下一次豁免檢定具有劣勢，並且直到攻擊者的下個回合開始，此角色都不能發動藉機攻擊。</p>"
         },
         "Sundered": {
-          "name": "Sundered",
-          "description": "<p>Hit by a sundering blow, the next attack roll made by another creature against the target gains a +5 bonus to the roll.</p>"
+          "name": "破勢",
+          "description": "<p>遭到破勢猛擊後，另一名生物下一次對該目標進行的攻擊檢定獲得+5加值。</p>"
         }
       }
     },
     "Improved Brutal Strike (2)": {
-      "name": "Improved Brutal Strike (2)",
-      "description": "<p>The extra damage of your Brutal Strike increases to 2d10. In addition, you can use two different Brutal Strike effects whenever you use your Brutal Strike feature.</p><section id=\"secret-XCUecJBPB6amtvj9\" class=\"secret\"><p><strong>Foundry Note</strong></p><p>The damage roll in Brutal Strike will automatically scale to use this new value.</p></section>"
+      "name": "強化殘暴打擊（2）",
+      "description": "<p>你殘暴打擊的額外傷害提升至2d10。此外，每當你使用殘暴打擊特性時，你可以使用兩種不同的殘暴打擊效應。</p><section id=\"secret-XCUecJBPB6amtvj9\" class=\"secret\"><p><strong>【Foundry註記】</strong></p><p>殘暴打擊中的傷害骰會自動調整比例值，使用這個新數值。</p></section>"
     },
     "Improved Circle Forms": {
       "name": "Improved Circle Forms",
@@ -2673,8 +2673,8 @@
       }
     },
     "Indomitable Might": {
-      "name": "Indomitable Might",
-      "description": "<p>If your total for a Strength check or Strength saving throw is less than your Strength score, you can use that score in place of the total.</p>"
+      "name": "不屈勇武",
+      "description": "<p>若你進行的力量檢定或力量豁免檢定的總值低於你的力量屬性值，則你可以使用該屬性值取代檢定總值。</p>"
     },
     "Infiltration Expertise": {
       "name": "Infiltration Expertise",
@@ -2715,8 +2715,8 @@
       }
     },
     "Instinctive Pounce": {
-      "name": "Instinctive Pounce",
-      "description": "<p>As part of the Bonus Action you take to enter your Rage, you can move up to half your Speed.</p>"
+      "name": "莽馳",
+      "description": "<p>以你進入狂暴的附贈動作的一部分，你可以移動至多等同於你速度一半的距離。</p>"
     },
     "Intimidating Presence": {
       "name": "Intimidating Presence",
@@ -3184,7 +3184,7 @@
           "title": "物我合一"
         },
         "Epic Boon": {
-          "title": "史詩恩惠"
+          "title": "傳奇恩惠"
         },
         "Saving Throw Proficiencies": {
           "title": "豁免檢定熟練"
@@ -3561,7 +3561,7 @@
           "title": "引導神力使用次數"
         },
         "Epic Boon": {
-          "title": "史詩恩惠"
+          "title": "傳奇恩惠"
         },
         "Armor Training": {
           "title": "護甲訓練"
@@ -3658,12 +3658,12 @@
       "description": "<p>When you roll Initiative and don't use Uncanny Metabolism, you regain expended Focus Points until you have 4 if you have 3 or fewer.</p><section id=\"secret-BCqdmLkKRacPf9tr\" class=\"secret\"><p><strong>Foundry Note</strong></p><p>This feature does not automatically regain the expended Focus Points.</p></section>"
     },
     "Persistent Rage": {
-      "name": "Persistent Rage",
-      "description": "<p>When you roll Initiative, you can regain all expended uses of Rage. After you regain uses of Rage in this way, you can't do so again until you finish a Long Rest.</p><p>In addition, your Rage is so fierce that it now lasts for 10 minutes without you needing to do anything to extend it from round to round. Your Rage ends early if you have the &amp;Reference[Unconscious] condition (not just the &amp;Reference[Incapacitated] condition) or don Heavy armor.</p><section class=\"secret\" id=\"secret-3IS0iUbWZ04tp74k\"><p><strong>Foundry Note</strong></p><p>This feature includes an activity which can be used when you roll Initiative which will recharge all of your Rage uses.</p></section>",
+      "name": "持久狂暴",
+      "description": "<p>當你進行先攻檢定時，你可以重獲所有已消耗的狂暴使用次數。你以此方式重獲狂暴使用次數後，直到完成一次長休前，你都不能再這麼做。</p><p>此外，你的狂暴是如此凶悍，現在會持續10分鐘，無需你逐輪延長狂暴。若你陷入&amp;Reference[Unconscious]{昏迷}狀態（而不只是&amp;Reference[Incapacitated]{失能}狀態）或穿戴重甲，狂暴就會提前結束。</p><section class=\"secret\" id=\"secret-3IS0iUbWZ04tp74k\"><p><strong>【Foundry註記】</strong></p><p>此特性包含一個行動，可以在你進行先攻檢定時使用，以恢復你的所有狂暴使用次數。</p></section>",
       "activities": {
         "Recharge Rage on Initiative": {
-          "name": "Recharge Rage on Initiative",
-          "condition": "When you roll initiative"
+          "name": "先攻時恢復狂暴",
+          "condition": "當你進行先攻檢定時"
         }
       }
     },
@@ -3751,8 +3751,8 @@
       }
     },
     "Primal Champion": {
-      "name": "Primal Champion",
-      "description": "<p>You embody primal power. Your Strength and Constitution scores increase by 4, to a maximum of 25.</p>"
+      "name": "原初勇士",
+      "description": "<p>你本身便是原初之力的象徵。你的力量與體質各提升4點，上限為25。</p>"
     },
     "Primal Companion": {
       "name": "元出夥伴",
@@ -3780,10 +3780,10 @@
     },
     "Primal Knowledge": {
       "name": "原初知識",
-      "description": "<p>你獲得1級野蠻人級能列表上可用的另一項技能熟練。</p><p>此外，在你啟用狂暴時，你在嘗試完成特定任務時可以引導原初之力。每當你使用下列其中一項技能進行能力檢定時，即時其通常使用不同屬性，你可以使其作為力量檢定：特技、威嚇、察覺、隱匿、生存。當你使用此能力時，你的力量表現出流淌於你體內的原始之力，其強化了你的敏捷、氣勢與感官。</p><section class=\"secret\" id=\"secret-himIRZuFGInNkZgU\"><p><strong>Foundry Note</strong></p><p>This feature includes an Active Effect which will cause those skills to automatically use your Strength modifier if it is higher than the normal Ability Score associated with the Skill.</p></section>",
+      "description": "<p>你獲得1級野蠻人級能列表上可用的另一項技能熟練。</p><p>此外，在你啟用狂暴時，你在嘗試完成特定任務時可以引導原初之力。每當你使用下列其中一項技能進行能力檢定時，即時其通常使用不同屬性，你可以使其作為力量檢定：特技、威嚇、察覺、隱匿、生存。當你使用此能力時，你的力量表現出流淌於你體內的原始之力，其強化了你的敏捷、氣勢與感官。</p><section class=\"secret\" id=\"secret-himIRZuFGInNkZgU\"><p><strong>Foundry Note</strong></p><p>此特性包含一項Active Effect；若你的力量調整值高於該技能通常使用的屬性值，該效果會讓這些技能自動使用你的力量調整值。</p></section>",
       "effects": {
         "Primal Knowledge": {
-          "name": "Primal Knowledge"
+          "name": "原初知識"
         }
       }
     },
@@ -3976,7 +3976,7 @@
     },
     "Rage": {
       "name": "狂暴",
-      "description": "<p>你可以灌輸自己一種被稱作狂暴的原初之力，其為你帶來極致的力量與強韌。若你為穿戴重甲，作為一個附贈動作，你可以進入狂暴。</p><p>你可以進入狂暴的次數，如同你野蠻人等級在野蠻人特性表中狂暴次數（Rages）欄所示。（當前 [[lookup @scale.barbarian.rage]]）。當你完成一次短休時，你重獲一次已消耗的使用次數，並在你完成一次長休時，重獲所有已消耗使用次數。</p><p>在啟用狂暴時，你須遵守以下規則。</p><p><strong>【傷害抗力】</strong>你具有對鈍擊、穿刺、揮砍傷害的抗力。</p><p><strong>【狂暴傷害】</strong>當你以武器或徒手打擊使用力量對目標進行攻擊並造成傷害時，你造成的傷害獲得額外加值，且此加值會隨著你野蠻人等級提升而成長，如野蠻人特性表中的狂暴傷害（Rage Damage）欄所示。</p><p><strong>【力量優勢】</strong>你在力量檢定與力量豁免上具有優勢。</p><p><strong>【無專注或法術】</strong>你無法維持專注，並且你不能施放法術。</p><p><strong>【持續時間】</strong>狂暴持續到你下回合結束，且若你穿戴重甲或陷入無力狀態則提前終止。若在你啟用後的下回合仍處於狂暴，你可以執行下列其中一項以延長狂暴一輪：</p><ul><li>對敵人進行攻擊檢定。</li><li>迫使敵人進行豁免檢定。</li><li>以附贈動作延長你的狂暴。</li></ul><p>每次延長狂暴，將使其持續至你的下個回合結束。你可以維持狂暴至多10 分鐘。</p><section class=\"secret\" id=\"secret-o72MSFMdhSQC7kYa\"><p><strong>Foundry Note</strong></p><p>This feature includes an Active Effect which automates the Resistance and additional damage. This feature will also automatically recharge your Rage uses on a Short and Long Rest.</p></section>",
+      "description": "<p>你可以將名為狂暴的原初之力賦予己身，為你帶來超越常規的偉力和韌性。若你未穿戴重甲，則可以採取一個附贈動作進入狂暴。</p><p>你可以進入狂暴的次數，依你的野蠻人等級，見野蠻人特性表中狂暴一欄（目前[[lookup @scale.barbarian.rages]]）。當你完成一次短休時，你重獲一次已消耗的使用次數；當你完成一次長休時，你重獲所有已消耗的使用次數。</p><p>狂暴啟用期間，你將遵循下列規則。</p><p><strong>【傷害抗力】</strong>你具有對鈍擊、穿刺、揮砍傷害的抗力。</p><p><strong>【狂暴傷害】</strong>當你使用力量以武器或徒手打擊發動一次攻擊，並對目標造成傷害時，你造成的傷害獲得額外加值。這個加值隨著你的野蠻人等級提升，見野蠻人特性表中狂暴傷害一欄。</p><p><strong>【力量優勢】</strong>你的力量檢定和力量豁免檢定具有優勢。</p><p><strong>【無法專注或施放法術】</strong>你無法保持專注，也不能施放法術。</p><p><strong>【持續時間】</strong>狂暴持續到你的下個回合結束前；若你穿戴重甲或陷入失能狀態，狂暴就會提前結束。若在你的下個回合狂暴仍處於啟用狀態，則你可以透過下列其中一種方式令狂暴延長一輪：</p><ul><li>對一名敵人進行一次攻擊檢定。</li><li>迫使一名敵人進行一次豁免檢定。</li><li>採取一個附贈動作延長你的狂暴。</li></ul><p>每次狂暴被延長，都會持續到你的下個回合結束。你至多可以維持狂暴10分鐘。</p><section class=\"secret\" id=\"secret-o72MSFMdhSQC7kYa\"><p><strong>【Foundry註記】</strong></p><p>此特性包含一項Active Effect，會自動套用抗力、額外傷害，以及力量檢定和力量豁免的優勢。此特性也會在短休和長休時自動恢復你的狂暴使用次數。</p></section>",
       "activities": {
         "Expend Rage": {
           "name": "消耗狂暴使用次數"
@@ -3985,7 +3985,7 @@
       "effects": {
         "Rage": {
           "name": "狂暴",
-          "description": "<p><strong>Damage Resistance.</strong> You have Resistance to Bludgeoning, Piercing, and Slashing damage.</p><p><strong>Rage Damage.</strong> When you make an attack using Strength—with either a weapon or an Unarmed Strike—and deal damage to the target, you gain a bonus to the damage that increases as you gain levels as a Barbarian, as shown in the Rage Damage column of the Barbarian Features table.</p><p><strong>Strength Advantage.</strong> You have Advantage on Strength checks and Strength saving throws.</p>"
+          "description": "<p><strong>【傷害抗力】</strong>你具有對鈍擊、穿刺、揮砍傷害的抗力。</p><p><strong>【狂暴傷害】</strong>當你使用力量以武器或徒手打擊發動一次攻擊，並對目標造成傷害時，你造成的傷害獲得額外加值。這個加值隨著你的野蠻人等級提升，見野蠻人特性表中狂暴傷害一欄。</p><p><strong>【力量優勢】</strong>你的力量檢定和力量豁免檢定具有優勢。</p>"
         }
       }
     },
@@ -4063,7 +4063,7 @@
           "title": "熟練探險家"
         },
         "Epic Boon": {
-          "title": "史詩恩惠"
+          "title": "傳奇恩惠"
         },
         "Hunter's Mark Damage": {
           "title": "獵人印記傷害"
@@ -4090,7 +4090,7 @@
     },
     "Reckless Attack": {
       "name": "魯莽攻擊",
-      "description": "<p>你可以拋下防禦以展開不顧一切的猛烈攻擊。當你在自己回合進行第一次攻擊時，你可以選擇魯莽地攻擊。這麼做直到你下回合開始時，會讓你使用力量的攻擊檢定具有優勢，但在該持續時間內對你的攻擊檢定也具有優勢。</p><section id=\"secret-W7MI2ZVKsMQcSW6d\" class=\"secret\"><p><strong>Foundry Note</strong></p><p>This feature includes an Active Effect for tracking whether you are reckless or not but it does not automate Advantage on your attacks or attacks against you.</p></section>",
+      "description": "<p>你可以拋棄一切對防禦的顧慮，來發起更加狂猛的攻擊。當你在自己的回合中進行第一次攻擊檢定時，可以決定魯莽地發起攻勢。這麼做會讓你使用力量進行的攻擊檢定具有優勢，直到你的下個回合開始，但在此期間，所有以你為目標的攻擊檢定也具有優勢。</p><section id=\"secret-W7MI2ZVKsMQcSW6d\" class=\"secret\"><p><strong>【Foundry註記】</strong></p><p>此特性包含一項Active Effect，用來追蹤你是否處於魯莽狀態，但不會自動套用你的攻擊或以你為目標的攻擊所具有的優勢。</p></section>",
       "effects": {
         "Reckless": {
           "name": "魯莽"
@@ -4120,8 +4120,8 @@
       "description": "<p>Taking damage can’t break your Concentration on Hunter’s Mark.</p>"
     },
     "Relentless Rage": {
-      "name": "Relentless Rage",
-      "description": "<p>狂暴的力量讓你即使身受重傷也能持續戰鬥。在你狂暴啟用且未立即死亡時，若你的生命值被降至0，你可以進行DC10體質豁免檢定。若你豁免成功，則你的生命值變為等同於你野蠻人等級的兩倍。</p><p>在第一次使用後，每次你使用此特性，DC提升5。當你完成一次短休或長休時，DC重設為10。</p><section class=\"secret\" id=\"secret-GTpuSHXh1ZobcQYd\"><p><strong>Foundry Note</strong></p><p>This feature will automatically increase the DC by 5 if you consume the resource when activating it. It will also automatically reset to 10 after a Short or Long Rest.</p></section>"
+      "name": "堅韌狂暴",
+      "description": "<p>你狂暴的力量讓你即使身受重傷也能持續戰鬥。狂暴啟用期間，若你的生命值降至0且並未立即死亡，則你可以進行一次DC10的體質豁免檢定。若成功，則你的生命值會改為等同於你野蠻人等級兩倍的數值。</p><p>第一次使用此特性後，每次你再次使用此特性時，其DC提升5。當你完成一次短休或長休時，其DC重置為10。</p><section class=\"secret\" id=\"secret-GTpuSHXh1ZobcQYd\"><p><strong>【Foundry註記】</strong></p><p>若你在啟用此特性時消耗該資源，其DC會自動提升5。完成一次短休或長休後，DC也會自動重置為10。</p></section>"
     },
     "Reliable Talent": {
       "name": "Reliable Talent",
@@ -4247,7 +4247,7 @@
     },
     "Rogue": {
       "name": "遊蕩者",
-      "description": "<table class=\"core-class-traits\"><blockquote><p>精於隱匿和潛行的敏捷大師</p></blockquote><h3>遊蕩者核心特徵</h3><table class=\"core-class-traits\"><tbody><tr><th scope=\"row\"><p>關鍵屬性</p></th><td><p>敏捷</p></td></tr><tr><th scope=\"row\"><p>生命骰</p></th><td><p>每遊蕩者等級D8</p></td></tr><tr><th scope=\"row\"><p>豁免熟練</p></th><td><p>敏捷與智力</p></td></tr><tr><th scope=\"row\"><p>技能熟練</p></th><td><p>從特技、運動、欺瞞、洞悉、威嚇、調查、察覺、遊說、巧手、隱匿中<em>選擇4項</em></p></td></tr><tr><th scope=\"row\"><p>武器熟練</p></th><td><p>簡易武器與具有靈巧或輕型屬性的軍用武器</p></td></tr><tr><th scope=\"row\"><p>工具熟練</p></th><td><p>盜賊工具</p></td></tr><tr><th scope=\"row\"><p>護甲訓練</p></th><td><p>輕甲</p></td></tr><tr><th scope=\"row\"><p>起始裝備</p></th><td><p><em>選擇A或B：</em> (A) @UUID[Compendium.dnd-players-handbook.equipment.Item.phbarmLeatherArm]、2 @UUID[Compendium.dnd-players-handbook.equipment.Item.phbwepDagger0000]、@UUID[Compendium.dnd-players-handbook.equipment.Item.phbwepShortsword]、@UUID[Compendium.dnd-players-handbook.equipment.Item.phbwepShortbow00]、20支@UUID[Compendium.dnd-players-handbook.equipment.Item.phbamoArrows0000]、@UUID[Compendium.dnd-players-handbook.equipment.Item.phbagQuiver00000]、@UUID[Compendium.dnd-players-handbook.equipment.Item.phbtulThievesToo]、@UUID[Compendium.dnd-players-handbook.equipment.Item.phbagBurglarsPac]、[[/award 8GP]]； (B) [[/award 100GP]]</p></td></tr></tbody></table><p>遊蕩者們靠著靈巧的變通和隱匿的身法，針對敵人的弱點獲得優勢。他們總有解決問題的訣竅。其中少數還會學習運用詭術魔法來作為其能力的補充。很多遊蕩者專注於潛行和騙術，而另一些則精於針對地下城環境的有效技能，諸如攀爬、搜索、解除裝置和開鎖。</p><p>戰鬥中的遊蕩者更偏愛狡猾的策略而非蠻橫行事。與其用密集的攻擊放倒敵人，他們更喜歡進行精準打擊。</p><p>有些遊蕩者以犯罪為生，但也有些使用其技巧打擊犯罪。而每當遊蕩者涉及法律時，那些尋常罪犯或執法官員通常都無法匹敵遊蕩者們高超的才智。</p><h2>作為遊蕩者…</h2><h3>作為首級角色</h3><ul><li>獲得遊蕩者核心特徵表中的所有特徵。</li><li>獲得遊蕩者特性表中列出的1級特性。</li></ul><h3>作為兼職角色</h3><ul><li>獲得遊蕩者核心特徵表中的以下特徵：生命骰，遊蕩者技能熟練中選擇其一，盜賊工具熟練，以及輕甲訓練。</li><li>獲得@UUID[Compendium.dnd-players-handbook.content.JournalEntry.phbRogue00000000.JournalEntryPage.gJV8iDqdNhRMLi5r#class-features]{遊蕩者特性表}中列出的1級特性。</li></ul>",
+      "description": "<blockquote><p>精於隱匿和潛行的敏捷大師</p></blockquote><h3>遊蕩者核心特徵</h3><table class=\"core-class-traits\"><tbody><tr><th scope=\"row\"><p>關鍵屬性</p></th><td><p>敏捷</p></td></tr><tr><th scope=\"row\"><p>生命骰</p></th><td><p>每遊蕩者等級D8</p></td></tr><tr><th scope=\"row\"><p>豁免熟練</p></th><td><p>敏捷與智力</p></td></tr><tr><th scope=\"row\"><p>技能熟練</p></th><td><p>從特技、運動、欺瞞、洞悉、威嚇、調查、察覺、遊說、巧手、隱匿中<em>選擇4項</em></p></td></tr><tr><th scope=\"row\"><p>武器熟練</p></th><td><p>簡易武器與具有靈巧或輕型屬性的軍用武器</p></td></tr><tr><th scope=\"row\"><p>工具熟練</p></th><td><p>盜賊工具</p></td></tr><tr><th scope=\"row\"><p>護甲訓練</p></th><td><p>輕甲</p></td></tr><tr><th scope=\"row\"><p>起始裝備</p></th><td><p><em>選擇A或B：</em> (A) @UUID[Compendium.dnd-players-handbook.equipment.Item.phbarmLeatherArm]、2 @UUID[Compendium.dnd-players-handbook.equipment.Item.phbwepDagger0000]、@UUID[Compendium.dnd-players-handbook.equipment.Item.phbwepShortsword]、@UUID[Compendium.dnd-players-handbook.equipment.Item.phbwepShortbow00]、20支@UUID[Compendium.dnd-players-handbook.equipment.Item.phbamoArrows0000]、@UUID[Compendium.dnd-players-handbook.equipment.Item.phbagQuiver00000]、@UUID[Compendium.dnd-players-handbook.equipment.Item.phbtulThievesToo]、@UUID[Compendium.dnd-players-handbook.equipment.Item.phbagBurglarsPac]、[[/award 8GP]]； (B) [[/award 100GP]]</p></td></tr></tbody></table><p>遊蕩者們靠著靈巧的變通和隱匿的身法，針對敵人的弱點獲得優勢。他們總有解決問題的訣竅。其中少數還會學習運用詭術魔法來作為其能力的補充。很多遊蕩者專注於潛行和騙術，而另一些則精於針對地下城環境的有效技能，諸如攀爬、搜索、解除裝置和開鎖。</p><p>戰鬥中的遊蕩者更偏愛狡猾的策略而非蠻橫行事。與其用密集的攻擊放倒敵人，他們更喜歡進行精準打擊。</p><p>有些遊蕩者以犯罪為生，但也有些使用其技巧打擊犯罪。而每當遊蕩者涉及法律時，那些尋常罪犯或執法官員通常都無法匹敵遊蕩者們高超的才智。</p><h2>作為遊蕩者…</h2><h3>作為首級角色</h3><ul><li>獲得遊蕩者核心特徵表中的所有特徵。</li><li>獲得遊蕩者特性表中列出的1級特性。</li></ul><h3>作為兼職角色</h3><ul><li>獲得遊蕩者核心特徵表中的以下特徵：生命骰，遊蕩者技能熟練中選擇其一，盜賊工具熟練，以及輕甲訓練。</li><li>獲得@UUID[Compendium.dnd-players-handbook.content.JournalEntry.phbRogue00000000.JournalEntryPage.gJV8iDqdNhRMLi5r#class-features]{遊蕩者特性表}中列出的1級特性。</li></ul>",
       "advancement": {
         "Class Features": {
           "title": "職業特性"
@@ -4270,7 +4270,7 @@
           "hint": "你的心理素質獲得了非凡的增強。你獲得感知和魅力豁免熟練。"
         },
         "Epic Boon": {
-          "title": "史詩恩惠",
+          "title": "傳奇恩惠",
           "hint": "你獲得一項史詩恩惠專長或另一個符合先決條件的自選專長。推薦選擇暗夜精魂恩惠。"
         },
         "Weapon Mastery": {
@@ -4481,7 +4481,7 @@
           "title": "已知戲法"
         },
         "Epic Boon": {
-          "title": "史詩恩惠"
+          "title": "傳奇恩惠"
         },
         "Saving Throw Proficiencies": {
           "title": "豁免檢定熟練"
@@ -5155,7 +5155,7 @@
     },
     "Unarmored Defense": {
       "name": "無甲防禦",
-      "description": "<p>當你未穿戴任何護甲時，你的護甲等級（AC）等同於10 + 你的敏捷調整值 + 你的感知調整值。你使用盾牌仍可以獲得此好處。</p>",
+      "description": "<p>若你未穿戴任何護甲，你的基礎護甲等級等同於10 + 你的敏捷調整值 + 你的體質調整值。你可以使用盾牌，並仍從此好處受益。</p>",
       "effects": {
         "Unarmored Defense": {
           "name": "無甲防禦"
@@ -5380,7 +5380,7 @@
           "hint": "在過往，想聯絡你的宗主都需要一些中間手段，但今時不同往日，你可以直接與他對話了。你始終準備著法術異界探知。"
         },
         "Epic Boon": {
-          "title": "史詩恩惠",
+          "title": "傳奇恩惠",
           "hint": "你獲得一個史詩恩惠專長或另一個符合條件你所選擇的專長。推薦選擇扭曲命運恩惠。"
         },
         "Weapon Proficiencies": {
@@ -5462,7 +5462,7 @@
     },
     "Weapon Mastery": {
       "name": "武器精通",
-      "description": "<p>你對武器的訓練使你能夠使用兩種你所選擇且擁有熟練的武器精通屬性，例如長弓與短劍。</p><p>每當你完成一次長休時，你可以更換你所選擇的武器種類，例如你可以改為使用彎刀和長劍的精通屬性。</p>"
+      "description": "<p>你對武器的訓練使你能夠運用兩種自選的簡易或軍用近戰武器的精通屬性，例如巨斧和手斧。每當你完成一次長休時，你可以重新演練武器技巧，來更換所選擇的其中一種武器。</p><p>當你到達特定的野蠻人等級時，你還可以使用更多種武器的精通屬性，詳見野蠻人特性表中武器精通一欄。</p>"
     },
     "Whispers of the Grave": {
       "name": "Whispers of the Grave",
@@ -5565,7 +5565,7 @@
           "hint": "學習法術之餘，你也在鑽研其他的學術領域。選擇下列一項你具有熟練的技能。你獲得所選技能的專精。"
         },
         "Epic Boon": {
-          "title": "史詩恩惠",
+          "title": "傳奇恩惠",
           "hint": "你獲得一項史詩恩惠專長或另一個符合條件你所選擇的專長。推薦選擇咒法回流恩惠。"
         },
         "Saving Throw Proficiencies": {
@@ -5628,15 +5628,15 @@
       }
     },
     "phbbrdEpicBoon00": {
-      "name": "史詩恩惠",
+      "name": "傳奇恩惠",
       "description": "<p>You gain an @UUID[Compendium.dnd-players-handbook.content.JournalEntry.phbFeats00000000.JournalEntryPage.GxfrwkJbrIvn7reC]{Epic Boon} feat or another feat of your choice for which you qualify. Boon of Spell Recall is recommended.</p>"
     },
     "phbclcEpicBoon00": {
-      "name": "史詩恩惠",
+      "name": "傳奇恩惠",
       "description": "<p>You gain an @UUID[Compendium.dnd-players-handbook.content.JournalEntry.phbFeats00000000.JournalEntryPage.GxfrwkJbrIvn7reC]{Epic Boon feat} or another feat of your choice for which you qualify. @UUID[Compendium.dnd-players-handbook.feats.Item.phbBoonofFate000]{Boon of Fate} is recommended.</p>"
     },
     "phbdrdEpicBoon00": {
-      "name": "史詩恩惠",
+      "name": "傳奇恩惠",
       "description": "<p>You gain an @UUID[Compendium.dnd-players-handbook.content.JournalEntry.phbFeats00000000.JournalEntryPage.GxfrwkJbrIvn7reC]{Epic Boon feat} or another feat of your choice for which you qualify. @UUID[Compendium.dnd-players-handbook.feats.Item.phbBoonofDimensi]{Boon of Dimensional Travel} is recommended.</p>"
     },
     "phbrgePsionicPow": {
@@ -5714,36 +5714,36 @@
       }
     },
     "phbftrEpicBoon00": {
-      "name": "史詩恩惠",
+      "name": "傳奇恩惠",
       "description": "<p>You gain an @UUID[Compendium.dnd-players-handbook.content.JournalEntry.phbFeats00000000.JournalEntryPage.GxfrwkJbrIvn7reC]{Epic Boon feat} or another feat of your choice for which you qualify. @UUID[Compendium.dnd-players-handbook.feats.Item.phbBoonofCombatP]{Boon of Combat Prowess} is recommended.</p>"
     },
     "phbmnkEpicBoon00": {
-      "name": "史詩恩惠",
+      "name": "傳奇恩惠",
       "description": "<p>You gain an @UUID[Compendium.dnd-players-handbook.content.JournalEntry.phbFeats00000000.JournalEntryPage.GxfrwkJbrIvn7reC]{Epic Boon feat} or another feat of your choice for which you qualify. @UUID[Compendium.dnd-players-handbook.content.JournalEntry.phbFeats00000000.JournalEntryPage.GxfrwkJbrIvn7reC#boon-of-irresistible-offense]{Boon of Irresistible Offense} is recommended.</p><section id=\"secret-jF1SP5ddqgocevbp\" class=\"secret\"><p><strong>Foundry Note</strong></p><p>You will be prompted for a choice while leveling up.</p></section>"
     },
     "phbpdnEpicBoon00": {
-      "name": "史詩恩惠",
+      "name": "傳奇恩惠",
       "description": "<p>You gain an @UUID[Compendium.dnd-players-handbook.content.JournalEntry.phbFeats00000000.JournalEntryPage.GxfrwkJbrIvn7reC]{Epic Boon feat} or another feat of your choice for which you qualify. @UUID[Compendium.dnd-players-handbook.feats.Item.phbBoonofTruesig]{Boon of Truesight} is recommended.</p><section class=\"secret\" id=\"secret-KoLcW2QoxzD8LnAY\"><p><strong>Foundry Note</strong></p><p>You will be prompted for a choice while leveling up.</p></section>"
     },
     "phbrgeEpicBoon00": {
-      "name": "史詩恩惠",
+      "name": "傳奇恩惠",
       "description": "<p>You gain an @UUID[Compendium.dnd-players-handbook.content.JournalEntry.phbFeats00000000.JournalEntryPage.GxfrwkJbrIvn7reC]{Epic Boon feat} or another feat of your choice for which you qualify. @UUID[Compendium.dnd-players-handbook.feats.Item.phbBoonoftheNigh]{Boon of the Night Spirit} is recommended.</p><section class=\"secret\" id=\"secret-Wpt1OtuMYQJ7BwK8\"><p><strong>Foundry Note</strong></p><p>You will be prompted for a choice while leveling up.</p></section>"
     },
     "phbrgrEpicBoon00": {
-      "name": "史詩恩惠",
+      "name": "傳奇恩惠",
       "description": "<p>You gain an @UUID[Compendium.dnd-players-handbook.content.JournalEntry.phbFeats00000000.JournalEntryPage.GxfrwkJbrIvn7reC]{Epic Boon feat} or another feat of your choice for which you qualify. @UUID[Compendium.dnd-players-handbook.feats.Item.phbBoonofDimensi]{Boon of Dimensional Travel} is recommended.</p><section id=\"secret-YoYODjOrhZ9UwOVg\" class=\"secret\"><p><strong>Foundry Note</strong></p><p>You will be prompted for a choice while leveling up.</p></section>"
     },
     "phbscrEpicBoon00": {
-      "name": "史詩恩惠",
+      "name": "傳奇恩惠",
       "description": "<p>You gain an @UUID[Compendium.dnd-players-handbook.content.JournalEntry.phbFeats00000000.JournalEntryPage.GxfrwkJbrIvn7reC]{Epic Boon} feat or another feat of your choice for which you qualify. @UUID[Compendium.dnd-players-handbook.feats.Item.phbBoonofDimensi]{Boon of Dimensional Travel} is recommended.</p><section class=\"secret\" id=\"secret-CmWMt903bQgV5LwE\"><p><strong>Foundry Note</strong></p><p>You will be prompted for a choice while leveling up.</p></section>"
     },
     "phbwlkEpicBoon00": {
-      "name": "史詩恩惠",
+      "name": "傳奇恩惠",
       "description": "<p>You gain an @UUID[Compendium.dnd-players-handbook.content.JournalEntry.phbFeats00000000.JournalEntryPage.GxfrwkJbrIvn7reC]{Epic Boon feat} or another feat of your choice for which you qualify. @UUID[Compendium.dnd-players-handbook.feats.Item.phbBoonofFate000]{Boon of Fate} is recommended.</p><section class=\"secret\" id=\"secret-3jLCwJ5kXU8LAeU2\"><p><strong>Foundry Note</strong></p><p>You will be prompted for a choice while leveling up.</p></section>"
     },
     "phbwzdEpicBoon00": {
       "description": "<p>You gain an @UUID[Compendium.dnd-players-handbook.content.JournalEntry.phbFeats00000000.JournalEntryPage.GxfrwkJbrIvn7reC]{Epic Boon feat} or another feat of your choice for which you qualify. @UUID[Compendium.dnd-players-handbook.feats.Item.phbBoonofSpellRe]{Boon of Spell Recall} is recommended.</p><section class=\"secret\" id=\"secret-L2SpZgJc0oDT7wWU\"><p><strong>Foundry Note</strong></p><p>You will be prompted for a choice while leveling up.</p></section>",
-      "name": "史詩恩惠"
+      "name": "傳奇恩惠"
     },
     "phbrgeEvasion000": {
       "name": "Evasion",
