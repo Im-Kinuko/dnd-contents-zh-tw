@@ -45,11 +45,11 @@
       "name": "仿製魔法物品",
       "advancement": {
         "Magic Item Plans": {
-          "hint": "每當你獲得一個奇械師等級時，你可以將你所知的其中一個方案，替換為另一個你符合條件的新方案。",
+          "hint": "每當你提升一個奇械師等級時，你可以將你已知的其中一個方案，替換為一個你符合條件的新方案。",
           "title": "魔法物品方案"
         }
       },
-      "description": "<p>你已習得用以製作魔法物品的奧術方案。</p><p><em><strong>【已知方案】</strong></em>當你獲得此特性時，從@UUID[Compendium.dnd-forge-artificer.book.JournalEntry.efaTheArtificer0.JournalEntryPage.9vdV0UPcsgH6GqRj]{魔法物品方案}（奇械師等級2+）表中選擇四個方案習得（物品描述請見<em>城主指南</em>）。推薦選擇<em>@UUID[Compendium.dnd-forge-artificer.options.Item.efaP2BagofHoldin]{次元袋}、</em><em>@UUID[Compendium.dnd-forge-artificer.options.Item.efaP2CapofWaterB]{水下呼吸帽}</em>、<em>@UUID[Compendium.dnd-forge-artificer.options.Item.efaP2SendingSton]{傳訊石}</em>與<em>@UUID[Compendium.dnd-forge-artificer.options.Item.efaP2WandoftheWa]{戰法師魔杖}</em>。每當你提升一個奇械師等級時，你可以將你所知的其中一個方案，替換為另一個你符合條件的新方案。</p><p>當你達到特定奇械師等級時，你可以另外習得一個你所選擇的方案，如奇械師特性表中已知方案一欄所示。當你選擇習得方案時，可以從任何你符合條件的魔法物品方案表中選擇；你是否符合條件取決於你的奇械師等級。</p><p><em><strong>【創造物品】</strong></em>當你完成長休時，若你手持修補匠工具，你可以創造一件或兩件不同的魔法物品。每件物品都基於你以此特性所知的其中一個方案。</p><p>若所創造的物品需要同調，你可以在創造該物品的當下立即與其同調。若你決定之後再與該物品同調，就必須依照一般的同調程序進行。</p><p>當你達到奇械師特性表中魔法物品一欄所列的特定奇械師等級時，你在長休結束時可以創造的魔法物品數量會增加。你所創造的每件物品都必須基於不同的已知方案。</p><p>你以此特性擁有的魔法物品數量，不能超過奇械師特性表中魔法物品一欄所示的你當前等級的數量。若你嘗試超出此特性的魔法物品數量上限，最舊的物品會消失，隨後新物品出現。</p><section class=\"notable\"><h4>製作更多魔法物品</h4><p>仿製魔法物品特性並非奇械師製作魔法物品的唯一方式。<em>城主指南</em>為所有想製作各類魔法物品的角色（不僅限於奇械師）提供了規則。雖然許多不同的角色都能製作魔法物品，但奇械師能比其他人更快完成；每個奇械師子職都會提升角色製作特定類別物品的速度。</p><p>當奇械師使用<em>城主指南</em>中的一般規則製作魔法物品時，該角色不會與該物品產生特別的聯繫。提及以仿製魔法物品特性所創造物品的職業特性，不適用於你以其他方式製作的物品。</p></section><p><em><strong>【持續時間】</strong></em>以此特性創造的魔法物品如同一般魔法物品運作，只是其魔法並非永久；當你死亡時，該魔法物品會在1d4天後消失。若你將已知方案替換為新方案，以被替換方案所創造的任何魔法物品會立即消失。</p><p>若你以此特性創造的物品是容器，例如<em>次元袋</em>消失時，其內容物會無害地出現在其所在空間內及周圍。</p><p><em><strong>【施法法器】</strong></em>你可以使用以此特性創造的任何魔杖或武器作為施法法器，以取代使用一套工匠工具。</p>"
+      "description": "<p>你知曉一些用來製造魔法物品的奧術方案。</p><p><em><strong>【已知方案】</strong></em>當你獲得此特性時，從@UUID[Compendium.dnd-forge-artificer.book.JournalEntry.efaTheArtificer0.JournalEntryPage.9vdV0UPcsgH6GqRj]{魔法物品方案}表（奇械師等級2+）中選擇四個方案習得（物品描述請見<em>《城主指南》</em>）。推薦選擇<em>@UUID[Compendium.dnd-forge-artificer.options.Item.efaP2BagofHoldin]{次元袋}</em>、<em>@UUID[Compendium.dnd-forge-artificer.options.Item.efaP2CapofWaterB]{水下呼吸帽}</em>、<em>@UUID[Compendium.dnd-forge-artificer.options.Item.efaP2SendingSton]{傳訊石}</em>和<em>@UUID[Compendium.dnd-forge-artificer.options.Item.efaP2WandoftheWa]{戰法師魔杖}</em>。每當你提升一個奇械師等級時，你可以將你已知的其中一個方案，替換為一個你符合條件的新方案。</p><p>當你達到特定奇械師等級時，你可以另外習得一個你所選擇的方案，如奇械師特性表中已知方案一欄所示。當你選擇習得方案時，可從任何你符合條件的魔法物品方案表中選擇；你是否符合條件取決於你的奇械師等級。</p><p><em><strong>【創造物品】</strong></em>當你完成長休時，若你持握修補匠工具，你可以創造一件或兩件不同的魔法物品。每件物品都基於你以此特性已知的其中一個方案。</p><p>若一件創造出來的物品需要同調，你可以在創造該物品的瞬間立即與其同調。若你決定之後再與該物品同調，就必須依照一般的同調程序進行。</p><p>當你達到奇械師特性表中魔法物品一欄所列的特定奇械師等級時，你在長休結束時可以創造的魔法物品數量會增加。每件你創造的物品都必須基於你已知的不同方案。</p><p>你以此特性擁有的魔法物品數量，不能超過奇械師特性表中魔法物品一欄所示的你當前等級的數量。若你嘗試超過此特性的魔法物品數量上限，最舊的物品會消失，隨後新物品出現。</p><section class=\"notable\"><h4>製作更多的魔法物品</h4><p>仿製魔法物品特性並不是奇械師唯一的製作魔法物品的方式。<em>《城主指南》</em>為想製作各種類魔法物品的角色——不只是奇械師——提供了規則。儘管許多不同的角色都能製作魔法物品，奇械師能做得比其他人更快；每個奇械師子職業都會提升角色製作特定類別物品的速度。</p><p>當奇械師使用<em>《城主指南》</em>的通用規則製作一件魔法物品時，該角色和該魔法物品不會有特別的聯繫。提及以你的仿製魔法物品特性所創造之物品的職業特性，不適用於你以其他方式製作的物品。</p></section><p><em><strong>【持續時間】</strong></em>以此特性創造的魔法物品作用如同正常的魔法物品，只是其魔法並非永久；當你死亡時，該魔法物品會在1d4天後消失。若你將已知的方案替換為新方案，以被替換方案創造的任何魔法物品會立即消失。</p><p>若你以此特性創造的物品是容器，例如<em>次元袋</em>，其消失時，其中的物品將無害地出現在其所在空間內及周圍。</p><p><em><strong>【施法法器】</strong></em>你可以使用任何以此法創造的魔杖或武器作為施法法器，代替使用一套工匠工具。</p>"
     },
     "Rope of Climbing": {
       "name": "攀爬繩",
@@ -857,7 +857,7 @@
       }
     },
     "Spell-Storing Item": {
-      "description": "<p>每當你完成長休時，你可以觸碰一件簡易或軍用武器，或一件你能用作施法法器的物品，並在其中儲存一道法術：選擇一道施法時間為一個動作、且無需會被該法術消耗之材料成分的1環、2環或3環奇械師法術（你不必已準備該法術）。</p><p>在持握該物體期間，一個生物可以採取魔法動作，從中產生該法術的效應，並使用你的施法屬性調整值。若該法術需要專注，則該生物必須維持專注。一旦一個生物使用該物體產生該法術的效應，直到該生物下個回合開始前，該物體無法再以此方式使用。</p><p>該法術會留存在該物體中，直到其使用次數達到你智力調整值的兩倍（至少兩次），或直到你再次使用此特性將法術儲存於物體中。</p><section class=\"secret\" id=\"secret-qbkdg7BMZ3Ou2rIT\"><p><strong>Foundry 註記</strong></p><p>「<strong>附魔</strong>」行動會為該物品新增一個「<strong>施放</strong>」行動。要加入法術，請開啟「<strong>施放</strong>」行動，切換至「法術」分頁，並將法術拖放進去。你還需要切換到該行動的「行動」分頁，再切換到「消耗」子分頁，以設定最大使用次數。</p></section>",
+      "description": "<p>每當你完成長休時，你可以觸碰一件簡易或軍用武器，或一件你能用作施法法器的物品，並在其中儲存一道法術：選擇一道施法時間為一個動作、且無需會被該法術消耗之材料構材的1環、2環或3環奇械師法術（你不必已準備該法術）。</p><p>在持握該物體期間，一個生物可以採取魔法動作，從中產生該法術的效應，並使用你的施法屬性調整值。若該法術需要專注，則該生物必須維持專注。一旦一個生物使用該物體產生該法術的效應，直到該生物下個回合開始前，該物體無法再以此方式使用。</p><p>該法術會留存在該物體中，直到其使用次數達到你智力調整值的兩倍（至少兩次），或直到你再次使用此特性將法術儲存於物體中。</p><section class=\"secret\" id=\"secret-qbkdg7BMZ3Ou2rIT\"><p><strong>Foundry 註記</strong></p><p>「<strong>附魔</strong>」行動會為該物品新增一個「<strong>施放</strong>」行動。要加入法術，請開啟「<strong>施放</strong>」行動，切換至「法術」分頁，並將法術拖放進去。你還需要切換到該行動的「行動」分頁，再切換到「消耗」子分頁，以設定最大使用次數。</p></section>",
       "activities": {
         "Store Spell": {
           "target": "簡易或軍用武器，或施法法器",
@@ -2648,8 +2648,8 @@
       }
     },
     "Artificer Subclass": {
-      "description": "<p>你獲得一項你所選擇的奇械師子職。@UUID[Compendium.dnd-forge-artificer.options.Item.efaAlchemist0000]{煉金師}、@UUID[Compendium.dnd-forge-artificer.options.Item.efaArmorer000000]{裝甲師}、@UUID[Compendium.dnd-forge-artificer.options.Item.efaArtillerist00]{魔炮師}、@UUID[Compendium.dnd-forge-artificer.options.Item.efaBattleSmith00]{戰地匠師}與@UUID[Compendium.dnd-forge-artificer.options.Item.efaCartographer0]{製圖師}子職，會在本職業描述之後詳述。子職是一種專精，會在特定的奇械師等級賦予你特性。在你往後的生涯中，只要你的奇械師等級等於或高於其所需等級，你就會獲得該子職的每一項特性。</p>",
-      "name": "奇械師子職"
+      "description": "<p>你獲得一項你所選擇的奇械師子職業。@UUID[Compendium.dnd-forge-artificer.options.Item.efaAlchemist0000]{煉金師}、@UUID[Compendium.dnd-forge-artificer.options.Item.efaArmorer000000]{裝甲師}、@UUID[Compendium.dnd-forge-artificer.options.Item.efaArtillerist00]{魔炮師}、@UUID[Compendium.dnd-forge-artificer.options.Item.efaBattleSmith00]{戰地匠師}和@UUID[Compendium.dnd-forge-artificer.options.Item.efaCartographer0]{製圖師}子職業會在此職業之後詳細描述。子職業是一種特化，在特定的奇械師等級賦予你對應的特性。此後你將獲得你所選子職業中，所需等級等於或低於你的奇械師等級的每一項特性。</p>",
+      "name": "奇械師子職業"
     },
     "Magic Item Adept": {
       "description": "<p>你現在可以同時與至多四件魔法物品同調。</p>",
@@ -2692,7 +2692,7 @@
           "title": "工具熟練"
         },
         "Epic Boon": {
-          "title": "史詩恩惠"
+          "title": "傳奇恩惠"
         },
         "Plans Known": {
           "title": "已知方案"
@@ -2716,7 +2716,7 @@
           "title": "準備法術"
         }
       },
-      "description": "<p>身為發明大師的奇械師，運用巧思與魔法解開物品中的非凡能力。他們視魔法為待解碼的複雜系統，進而將其運用於自己的法術與發明之中。你可以在本章（@UUID[Compendium.dnd-forge-artificer.book.JournalEntry.efaTheArtificer0]{奇械師}）找到扮演這類發明家所需的一切。</p>",
+      "description": "<p>作為發明大師，奇械師們運用精湛工藝與魔法揭開物品內的非凡能力。他們將魔法視作待解譯的複雜系統，進而將其運用於他們的法術與發明之中。在本章（@UUID[Compendium.dnd-forge-artificer.book.JournalEntry.efaTheArtificer0]{奇械師}）中，你可以找到扮演這類發明家所需的一切。</p>",
       "name": "奇械師"
     },
     "Dual Mind": {
@@ -3149,7 +3149,7 @@
     },
     "Spellcasting": {
       "name": "施法",
-      "description": "<p>你已學會如何透過物品引導魔法能量。請參見<em>玩家手冊</em>中有關@UUID[Compendium.dnd5e.content24.JournalEntry.phbSpells0000000]{施法}的規則。以下資訊詳述如何將這些規則運用於奇械師法術；奇械師法術列於該職業描述後文的奇械師法術列表中。</p><p><em><strong>【所需工具】</strong></em>你透過工具施放奇械師法術。你可以使用盜賊工具、修補匠工具，或其他你具有熟練的工匠工具作為@UUID[Compendium.dnd5e.content24.JournalEntry.phbSpells0000000.JournalEntryPage.9gz1xBZF5YsMScrk#material-(m)]{施法法器}，且當你施放奇械師法術時，手中必須持有其中一件法器（意即該法術在施放時具有<em>M</em>&amp;Reference[components]{成分}）。</p><p><em><strong>【戲法】</strong></em>你知曉兩個你所選擇的奇械師戲法。推薦選擇<em>@UUID[Compendium.dnd5e.spells24.Item.phbsplAcidSplash]{酸液濺爆}</em>和<em>@UUID[Compendium.dnd5e.spells24.Item.phbsplPrestidigi]{魔法技倆}</em>。</p><p>每當你完成&amp;Reference[Long Rest]{長休}時，你可以將此特性所提供的其中一個戲法，替換為另一個你所選擇的奇械師戲法。</p><p>當你達到奇械師10級和14級時，你可以另外習得一個你所選擇的奇械師戲法，如奇械師特性表中戲法一欄所示。</p><p><em><strong>【法術位】</strong></em>奇械師特性表顯示了你有多少法術位可用以施放1環以上的法術。當你完成長休時，你會重獲所有已消耗的法術位。</p><p><em><strong>【準備1環以上的法術】</strong></em>你準備可透過此特性施放的1環以上法術列表。起初，選擇兩個1環奇械師法術。推薦選擇<em>@UUID[Compendium.dnd5e.spells24.Item.phbsplCureWounds]{治療傷勢}</em>和<em>@UUID[Compendium.dnd5e.spells24.Item.phbsplGrease0000]{油膩術}</em>。</p><p>你列表上的法術數量會隨著你獲得奇械師等級而增加，如奇械師特性表中準備法術一欄所示。每當該數量增加時，選擇額外的奇械師法術，直到你列表上的法術數量與表格上的數字相符。所選法術的環階必須是你擁有對應法術位的環階。例如，若你是5級奇械師，你的準備法術列表可包含任意組合的六個1環和2環奇械師法術。</p><p>若其他奇械師特性賦予你始終準備的法術，這些法術不計入你能以此特性準備的法術數量，但對你而言仍視為奇械師法術。</p><p><em><strong>【更改準備法術】</strong></em>每當你完成長休時，你可以更改你的準備法術列表，將其中任何法術替換為你擁有對應法術位的其他奇械師法術。</p><p><em><strong>【施法屬性】</strong></em>智力是你施放奇械師法術的施法屬性。</p>"
+      "description": "<p>你已學會如何透過物品引導魔法能量。有關@UUID[Compendium.dnd5e.content24.JournalEntry.phbSpells0000000]{施法}的規則，請參見<em>《玩家手冊》</em>。下述資訊詳述如何將這些規則應用於奇械師法術，奇械師法術詳見該職業描述後文的奇械師法術列表。</p><p><em><strong>【必備工具】</strong></em>你透過工具來施放奇械師法術。你可以使用盜賊工具、修補匠工具，或其他你具有熟練的工匠工具作為@UUID[Compendium.dnd5e.content24.JournalEntry.phbSpells0000000.JournalEntryPage.9gz1xBZF5YsMScrk#material-(m)]{施法法器}，且當你施放奇械師法術時，必須持握其中一件法器（意即該法術在你施放時具有材料<em>M</em>&amp;Reference[components]{構材}）。</p><p><em><strong>【戲法】</strong></em>你知曉兩道你所選擇的奇械師戲法。推薦選擇<em>@UUID[Compendium.dnd5e.spells24.Item.phbsplAcidSplash]{酸液濺爆}</em>和<em>@UUID[Compendium.dnd5e.spells24.Item.phbsplPrestidigi]{魔法技倆}</em>。</p><p>每當你完成&amp;Reference[Long Rest]{長休}時，你可以將此特性所提供的其中一個戲法，替換為另一道你所選擇的奇械師戲法。</p><p>當你的奇械師等級達到10級和14級時，你可以另外選擇並習得一道奇械師戲法，如奇械師特性表中戲法一欄所示。</p><p><em><strong>【法術位】</strong></em>奇械師特性表顯示了你可用於施放1環以上法術的法術位數量。你在完成長休時重獲所有已消耗的法術位。</p><p><em><strong>【準備1環以上的法術】</strong></em>你準備可供你以此特性施放的1環以上法術列表。起初，選擇兩個1環奇械師法術。推薦選擇<em>@UUID[Compendium.dnd5e.spells24.Item.phbsplCureWounds]{治療傷勢}</em>和<em>@UUID[Compendium.dnd5e.spells24.Item.phbsplGrease0000]{油膩術}</em>。</p><p>你列表上的法術數量會隨你的奇械師等級提升而增加，如奇械師特性表中準備法術一欄所示。每當該數量增加時，從奇械師法術列表中選擇額外的奇械師法術，直到你列表上的法術數量與表中的數字一致。所選擇法術的環階必須是你擁有法術位的環階。例如，若你是5級奇械師，你的準備法術列表可包含六道任意組合的1環或2環奇械師法術。</p><p>若其他奇械師特性賦予你始終準備的法術，這些法術不計入你以此特性所準備的法術數量，但這些法術對你而言仍視為奇械師法術。</p><p><em><strong>【更改準備法術】</strong></em>每當你完成長休時，你可以更改你的準備法術列表，將其中任何法術替換為你擁有對應環階法術位的其他奇械師法術。</p><p><em><strong>【施法屬性】</strong></em>你的奇械師法術的施法屬性是智力。</p>"
     }
   },
   "mapping": {
