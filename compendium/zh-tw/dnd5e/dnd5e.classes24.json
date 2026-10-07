@@ -180,7 +180,7 @@
       }
     },
     "phbwlkEpicBoon00": {
-      "name": "史詩恩惠",
+      "name": "傳奇恩惠",
       "description": "<p>You gain an @UUID[Compendium.dnd-players-handbook.content.JournalEntry.phbFeats00000000.JournalEntryPage.GxfrwkJbrIvn7reC]{Epic Boon feat} or another feat of your choice for which you qualify. @UUID[Compendium.dnd-players-handbook.feats.Item.phbBoonofFate000]{Boon of Fate} is recommended.</p><section class=\"secret\" id=\"secret-3jLCwJ5kXU8LAeU2\"><p><strong>Foundry Note</strong></p><p>You will be prompted for a choice while leveling up.</p></section>"
     },
     "Divine Order": {
@@ -282,7 +282,7 @@
     },
     "phbwzdEpicBoon00": {
       "description": "<p>You gain an @UUID[Compendium.dnd-players-handbook.content.JournalEntry.phbFeats00000000.JournalEntryPage.GxfrwkJbrIvn7reC]{Epic Boon feat} or another feat of your choice for which you qualify. @UUID[Compendium.dnd-players-handbook.feats.Item.phbBoonofSpellRe]{Boon of Spell Recall} is recommended.</p><section class=\"secret\" id=\"secret-L2SpZgJc0oDT7wWU\"><p><strong>Foundry Note</strong></p><p>You will be prompted for a choice while leveling up.</p></section>",
-      "name": "史詩恩惠"
+      "name": "傳奇恩惠"
     },
     "Visions of Distant Realms": {
       "name": "Visions of Distant Realms",
@@ -866,7 +866,7 @@
       }
     },
     "phbftrEpicBoon00": {
-      "name": "史詩恩惠",
+      "name": "傳奇恩惠",
       "description": "<p>You gain an @UUID[Compendium.dnd-players-handbook.content.JournalEntry.phbFeats00000000.JournalEntryPage.GxfrwkJbrIvn7reC]{Epic Boon feat} or another feat of your choice for which you qualify. @UUID[Compendium.dnd-players-handbook.feats.Item.phbBoonofCombatP]{Boon of Combat Prowess} is recommended.</p>"
     },
     "Otherworldly Leap": {
@@ -1022,7 +1022,7 @@
       }
     },
     "Epic Boon": {
-      "name": "史詩恩惠",
+      "name": "傳奇恩惠",
       "description": "<p>You gain an @UUID[Compendium.dnd-players-handbook.content.JournalEntry.phbFeats00000000.JournalEntryPage.GxfrwkJbrIvn7reC]{Epic Boon feat} or another feat of your choice for which you qualify. @UUID[Compendium.dnd-players-handbook.feats.Item.phbBoonofSpellRe]{Boon of Spell Recall} is recommended.</p><section class=\"secret\" id=\"secret-L2SpZgJc0oDT7wWU\"><p><strong>Foundry Note</strong></p><p>You will be prompted for a choice while leveling up.</p></section>"
     },
     "Overchannel": {
@@ -1061,7 +1061,7 @@
       }
     },
     "phbclcEpicBoon00": {
-      "name": "史詩恩惠",
+      "name": "傳奇恩惠",
       "description": "<p>You gain an @UUID[Compendium.dnd-players-handbook.content.JournalEntry.phbFeats00000000.JournalEntryPage.GxfrwkJbrIvn7reC]{Epic Boon feat} or another feat of your choice for which you qualify. @UUID[Compendium.dnd-players-handbook.feats.Item.phbBoonofFate000]{Boon of Fate} is recommended.</p>"
     },
     "Fiendish Vigor": {
@@ -1147,7 +1147,7 @@
       "description": "<blockquote><p>先決條件：契術師等級15以上</p></blockquote><p>你擁有30呎的真實視野。</p><section id=\"secret-yUE0N1X1QX3kZHcx\" class=\"secret\"><p><strong>Foundry Note</strong></p><p>This feature includes an Active Effect which automatically grants you Truesight.</p></section>"
     },
     "phbrgrEpicBoon00": {
-      "name": "史詩恩惠",
+      "name": "傳奇恩惠",
       "description": "<p>You gain an @UUID[Compendium.dnd-players-handbook.content.JournalEntry.phbFeats00000000.JournalEntryPage.GxfrwkJbrIvn7reC]{Epic Boon feat} or another feat of your choice for which you qualify. @UUID[Compendium.dnd-players-handbook.feats.Item.phbBoonofDimensi]{Boon of Dimensional Travel} is recommended.</p><section id=\"secret-YoYODjOrhZ9UwOVg\" class=\"secret\"><p><strong>Foundry Note</strong></p><p>You will be prompted for a choice while leveling up.</p></section>"
     },
     "Improved Blessed Strikes": {
@@ -1389,7 +1389,7 @@
       }
     },
     "phbscrEpicBoon00": {
-      "name": "史詩恩惠",
+      "name": "傳奇恩惠",
       "description": "<p>You gain an @UUID[Compendium.dnd-players-handbook.content.JournalEntry.phbFeats00000000.JournalEntryPage.GxfrwkJbrIvn7reC]{Epic Boon} feat or another feat of your choice for which you qualify. @UUID[Compendium.dnd-players-handbook.feats.Item.phbBoonofDimensi]{Boon of Dimensional Travel} is recommended.</p><section class=\"secret\" id=\"secret-CmWMt903bQgV5LwE\"><p><strong>Foundry Note</strong></p><p>You will be prompted for a choice while leveling up.</p></section>"
     },
     "Thief's Reflexes": {
@@ -2316,7 +2316,7 @@
       }
     },
     "phbmnkEpicBoon00": {
-      "name": "史詩恩惠",
+      "name": "傳奇恩惠",
       "description": "<p>You gain an @UUID[Compendium.dnd-players-handbook.content.JournalEntry.phbFeats00000000.JournalEntryPage.GxfrwkJbrIvn7reC]{Epic Boon feat} or another feat of your choice for which you qualify. @UUID[Compendium.dnd-players-handbook.content.JournalEntry.phbFeats00000000.JournalEntryPage.GxfrwkJbrIvn7reC#boon-of-irresistible-offense]{Boon of Irresistible Offense} is recommended.</p><section id=\"secret-jF1SP5ddqgocevbp\" class=\"secret\"><p><strong>Foundry Note</strong></p><p>You will be prompted for a choice while leveling up.</p></section>"
     },
     "Contact Patron": {
@@ -2473,7 +2473,7 @@
       "description": "<blockquote><p>Prerequisite: Level 5+ Warlock</p></blockquote><p>You can breathe underwater, and you gain a Swim Speed equal to your Speed.</p><p>You can also cast @UUID[Compendium.dnd5e.spells24.Item.phbsplWaterBreat]{Water Breathing} once without expending a spell slot. You regain the ability to cast it in this way again when you finish a Long Rest.</p><section id=\"secret-aH09PLbY0nXMKypM\" class=\"secret\"><p><strong>Foundry Note</strong></p><p>The <strong>Gift Water Breathing</strong> activity consumes a limited use and includes an Active Effect for tracking the chosen creatures.</p></section>"
     },
     "phbbrdEpicBoon00": {
-      "name": "史詩恩惠",
+      "name": "傳奇恩惠",
       "description": "<p>You gain an @UUID[Compendium.dnd-players-handbook.content.JournalEntry.phbFeats00000000.JournalEntryPage.GxfrwkJbrIvn7reC]{Epic Boon} feat or another feat of your choice for which you qualify. Boon of Spell Recall is recommended.</p>"
     },
     "Tactical Master": {
@@ -2879,7 +2879,7 @@
       "description": "<p>You can call on even more powerful divine intervention. When you use your Divine Intervention feature, you can choose @UUID[Compendium.dnd5e.spells24.Item.phbsplWish000000]{Wish} when you select a spell. If you do so, you can't use Divine Intervention again until you finish [[/r 2d4]] Long Rests.</p><section class=\"secret\" id=\"secret-LP9WqNdaJevppYeM\"><p><strong>Foundry Note</strong></p><p>This feature will consume a use of your Divine Intervention but it can not automatically recharge the usage after the rolled number of Long Rests.</p></section>"
     },
     "phbpdnEpicBoon00": {
-      "name": "史詩恩惠",
+      "name": "傳奇恩惠",
       "description": "<p>You gain an @UUID[Compendium.dnd-players-handbook.content.JournalEntry.phbFeats00000000.JournalEntryPage.GxfrwkJbrIvn7reC]{Epic Boon feat} or another feat of your choice for which you qualify. @UUID[Compendium.dnd-players-handbook.feats.Item.phbBoonofTruesig]{Boon of Truesight} is recommended.</p><section class=\"secret\" id=\"secret-KoLcW2QoxzD8LnAY\"><p><strong>Foundry Note</strong></p><p>You will be prompted for a choice while leveling up.</p></section>"
     },
     "Bardic Inspiration": {
@@ -2920,7 +2920,7 @@
       "description": "<p>You have achieved such mastery over certain spells that you can cast them at will. Choose a level 1 and a level 2 spell in your spellbook that have a casting time of an action. You always have those spells prepared, and you can cast them at their lowest level without expending a spell slot. To cast either spell at a higher level, you must expend a spell slot.</p><p>Whenever you finish a Long Rest, you can study your spellbook and replace one of those spells with an eligible spell of the same level from the book.</p><section class=\"secret\" id=\"secret-OhEjtOfrcVMJh1qk\"><p><strong>Foundry Note</strong></p><p>The <strong>Master</strong> activity includes an enchantment that marks the spells as \"Always Prepared\" and adds \", Mastered\" to their name for easy identification.</p><p>Uncheck the \"Consumption\" box when casting at the lowest level. You can drag multiple spells to the same chat card.</p></section>"
     },
     "phbdrdEpicBoon00": {
-      "name": "史詩恩惠",
+      "name": "傳奇恩惠",
       "description": "<p>You gain an @UUID[Compendium.dnd-players-handbook.content.JournalEntry.phbFeats00000000.JournalEntryPage.GxfrwkJbrIvn7reC]{Epic Boon feat} or another feat of your choice for which you qualify. @UUID[Compendium.dnd-players-handbook.feats.Item.phbBoonofDimensi]{Boon of Dimensional Travel} is recommended.</p>"
     },
     "Armor of Shadows": {
@@ -2985,7 +2985,7 @@
       }
     },
     "phbrgeEpicBoon00": {
-      "name": "史詩恩惠",
+      "name": "傳奇恩惠",
       "description": "<p>You gain an @UUID[Compendium.dnd-players-handbook.content.JournalEntry.phbFeats00000000.JournalEntryPage.GxfrwkJbrIvn7reC]{Epic Boon feat} or another feat of your choice for which you qualify. @UUID[Compendium.dnd-players-handbook.feats.Item.phbBoonoftheNigh]{Boon of the Night Spirit} is recommended.</p><section class=\"secret\" id=\"secret-Wpt1OtuMYQJ7BwK8\"><p><strong>Foundry Note</strong></p><p>You will be prompted for a choice while leveling up.</p></section>"
     },
     "Primal Champion": {
