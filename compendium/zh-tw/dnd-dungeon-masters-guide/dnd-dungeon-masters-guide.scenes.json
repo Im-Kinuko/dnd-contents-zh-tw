@@ -1,10 +1,10 @@
 {
-  "label": "Scenes",
+  "label": "場景",
   "folders": {
-    "Greyhawk": "Greyhawk",
-    "Greyhawk World": "Greyhawk World",
-    "Greyhawk and Environs": "Greyhawk and Environs",
-    "Encounter Maps": "Encounter Maps"
+    "Greyhawk": "灰鷹",
+    "Greyhawk World": "灰鷹世界",
+    "Greyhawk and Environs": "灰鷹周遭地區",
+    "Encounter Maps": "遭遇地圖"
   },
   "entries": {
     "Ship": {
