@@ -1,0 +1,46 @@
+{
+  "label": "角色選項",
+  "folders": {
+    "Subclass Features": "子職業特性",
+    "Oath of Glory": "榮耀之誓",
+    "Soulknife": "魂刃",
+    "Circle of Stars": "星辰結社",
+    "Fighting Styles": "戰鬥風格",
+    "Psi Warrior": "靈能武士",
+    "Feats": "專長",
+    "Fey Wanderer": "妖精漫遊者",
+    "Class Features": "職業特性",
+    "Spells": "法術",
+    "Paladin": "聖騎士",
+    "Ranger": "遊俠",
+    "Rogue": "遊蕩者",
+    "Druid": "德魯伊",
+    "Barbarian": "野蠻人",
+    "Warlock": "契術師",
+    "Fighter": "戰士",
+    "Monk": "武僧",
+    "Bard": "吟遊詩人",
+    "Sorcerer": "術士",
+    "Cleric": "牧師",
+    "Wizard": "法師"
+  },
+  "entries": {},
+  "mapping": {
+    "activities": {
+      "path": "system.activities",
+      "converter": "activities"
+    },
+    "rangeActivities": {
+      "path": "system.activities",
+      "converter": "rangeActivities"
+    },
+    "effects": {
+      "path": "effects",
+      "converter": "effects"
+    },
+    "advancement": {
+      "path": "system.advancement",
+      "converter": "advancement"
+    }
+  }
+}
