@@ -68,20 +68,20 @@
     },
     "Agonizing Blast": {
       "name": "痛苦衝擊",
-      "description": "<blockquote><p>先決條件：契術師等級2以上，具有可造成傷害的契術師戲法</p></blockquote><p>選擇一個你知曉可以造成傷害的契術師戲法，你可以將你的魅力調整值加到該法術的傷害骰上。</p><p><strong>【可複選】</strong>你可以重複選擇此祈喚，但每次你都必須選擇不同且符合條件的戲法。</p><section class=\"secret\" id=\"secret-e2JfbLoZ7SLiWlcU\"><p><strong>Foundry Note</strong></p><p>The change to your cantrip will have to be made manually by adding \"@abilties.cha.mod\" to the \"Bonus\" field of your spell's damage.</p></section>",
+      "description": "<blockquote><p>先決條件：契術師等級2以上，具有可造成傷害的契術師戲法</p></blockquote><p>選擇一個你知曉可以造成傷害的契術師戲法，你可以將你的魅力調整值加到該法術的傷害骰上。</p><p><strong>【可複選】</strong>你可以重複選擇此祈喚，但每次你都必須選擇不同且符合條件的戲法。</p><section class=\"secret\" id=\"secret-e2JfbLoZ7SLiWlcU\"><p><strong>【Foundry註記】</strong></p><p><strong>附加痛苦</strong>行動可用來為一個戲法附魔，在其名稱前加上「苦痛．」並包含傷害加值。</p></section>",
       "activities": {
         "Make Agonizing": {
-          "name": "Make Agonizing"
+          "name": "附加痛苦"
         }
       },
       "effects": {
         "Agonizing Blast": {
           "changes": {
             "name": ", Agonizing",
-            "0": ", Agonizing"
+            "0": "苦痛．"
           },
-          "name": "Agonizing Blast",
-          "description": "<p>Choose one of your known Warlock cantrips that deals damage. You can add your Charisma modifier to that spell’s damage rolls.</p>"
+          "name": "痛苦衝擊",
+          "description": "<p>選擇一道你知曉可以造成傷害的契術師戲法，你可以將你的魅力調整值加到該法術的傷害骰上。</p>"
         }
       }
     },
@@ -206,7 +206,7 @@
     },
     "Armor of Shadows": {
       "name": "暗影護甲",
-      "description": "<p>你可以不消耗任何法術位對自己施放@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplMageArmor0]{法師護甲}。</p><section id=\"secret-G6Bmiw5YEqEfBh2e\" class=\"secret\"><p><strong>Foundry Note</strong></p><p>The <strong>Mage Armor</strong> activity is configured with the spell's effect and duration, including an Active Effect to set the spell's provided AC formula.</p></section>",
+      "description": "<p>你可以不消耗任何法術位對自己施放@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplMageArmor0]{法師護甲}。</p><hr /><p>@Embed[Compendium.dnd-players-handbook.spells.Item.phbsplMageArmor0 inline]</p>",
       "activities": {
         "Mage Armor": {
           "name": "Mage Armor"
@@ -221,7 +221,7 @@
     },
     "Ascendant Step": {
       "name": "躍升步伐",
-      "description": "<blockquote><p>先決條件：契術師等級5以上</p></blockquote><p>你可以不消耗任何法術位對自己施放@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplLevitate00]{浮空術}。</p>",
+      "description": "<blockquote><p>先決條件：契術師等級5以上</p></blockquote><p>你可以不消耗任何法術位對自己施放@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplLevitate00]{浮空術}。</p><hr /><p>@Embed[Compendium.dnd-players-handbook.spells.Item.phbsplLevitate00 inline]</p>",
       "effects": {
         "Levitating": {
           "name": "Levitating",
@@ -616,11 +616,11 @@
       }
     },
     "Battering Roots": {
-      "name": "Battering Roots",
-      "description": "<p>During your turn, your reach is 10 feet greater with any Melee weapon that has the Heavy or Versatile property, as tendrils of the World Tree extend from you. When you hit with such a weapon on your turn, you can activate the Push or Topple mastery property in addition to a different mastery property you're using with that weapon.</p><section id=\"secret-2uKFL0ICeFFIOlns\" class=\"secret\"><p><strong>Foundry Note</strong></p><p>This feature includes an Active Effect which grants you the Push and Topple mastery property.</p></section>",
+      "name": "根擊千鈞",
+      "description": "<p>世界樹的卷鬚將你的武器延長。你的回合內，你持用的任何具有重型或多用屬性的近戰武器的觸及增加10呎。當你在你的回合內以該武器命中時，除了你正以該武器使用的一種不同精通屬性外，你還可以啟用推離或失衡精通屬性。</p><section id=\"secret-2uKFL0ICeFFIOlns\" class=\"secret\"><p><strong>【Foundry註記】</strong></p><p>此特性包含一項Active Effect，會賦予你推離與失衡精通屬性。</p></section>",
       "effects": {
         "Battering Roots": {
-          "name": "Battering Roots"
+          "name": "根擊千鈞"
         }
       }
     },
@@ -726,12 +726,12 @@
       "description": "<p>The healing spells you cast on others heal you as well. Immediately after you cast a spell with a spell slot that restores Hit Points to one or more creatures other than yourself, you regain Hit Points equal to 2 plus the spell slot's level.</p><section class=\"secret\" id=\"secret-B3oOPhBUFT9dOwUQ\"><p><strong>Foundry Note</strong></p><p>This feature includes a healing activity. Set the scale to the spell slot level you cast and it will provide a healing roll for you.</p></section>"
     },
     "Blessed Strikes": {
-      "name": "Blessed Strikes",
-      "description": "<p>Divine power infuses you in battle. You gain one of the following options of your choice (if you get either option from a Cleric subclass in an older book, use only the option you choose for this feature).</p><p><strong>Divine Strike.</strong> Once on each of your turns when you hit a creature with an attack roll using a weapon, you can cause the target to take an extra 1d8 Necrotic or Radiant damage (your choice).</p><p><strong>Potent Spellcasting.</strong> Add your Wisdom modifier to the damage you deal with any Cleric cantrip.</p><section id=\"secret-1YTjpzZamslVlTTM\" class=\"secret\"><p><strong>Foundry Note</strong></p><p>During advancement you will be able to choose which option you prefer.</p></section>"
+      "name": "受祝擊",
+      "description": "<p>神聖的力量在戰鬥中注入你。你從下列選項中選擇其一獲得（若你因舊書中的牧師子職業而再次獲得了任一選項，則你也只能使用你在此特性中所選的那個選項）。</p><p><strong>【神聖打擊】</strong>每個自己回合一次，當你使用武器進行攻擊檢定並命中一名生物時，你可以使目標額外承受1d8點黯蝕傷害或光耀傷害（由你選擇）。</p><p><strong>【強力施法】</strong>你以任何牧師戲法所造成的傷害加上你的感知調整值。</p><section id=\"secret-1YTjpzZamslVlTTM\" class=\"secret\"><p><strong>【Foundry註記】</strong></p><p>升級時，你可以選擇你偏好的選項。</p></section>"
     },
     "Blessed Strikes: Divine Strike": {
-      "name": "Blessed Strikes: Divine Strike",
-      "description": "<p>Once on each of your turns when you hit a creature with an attack roll using a weapon, you can cause the target to take an extra 1d8 Necrotic or Radiant damage (your choice).</p><section id=\"secret-iZHQe1DZBrtcFZCk\" class=\"secret\"><p><strong>Foundry Note</strong></p><p>This feature's damage will automatically increase when you gain @UUID[Compendium.dnd-players-handbook.classes.Item.phbclcImprovedBl]{Improved Blessed Strikes}.</p></section>",
+      "name": "受祝擊：神聖打擊",
+      "description": "<p>每個自己回合一次，當你使用武器進行攻擊檢定並命中一名生物時，你可以使目標額外承受1d8點黯蝕傷害或光耀傷害（由你選擇）。</p><section id=\"secret-iZHQe1DZBrtcFZCk\" class=\"secret\"><p><strong>【Foundry註記】</strong></p><p>當你獲得@UUID[Compendium.dnd-players-handbook.classes.Item.phbclcImprovedBl]{精通受祝擊}時，此特性的傷害會自動提升。</p></section>",
       "activities": {
         "Radiant Divine Strike": {
           "name": "Radiant Divine Strike",
@@ -742,17 +742,17 @@
           "target": "When you a hit a creature with an attack roll using a weapon once per turn"
         },
         "Divine Strike": {
-          "target": "When you a hit a creature with an attack roll using a weapon once per turn",
-          "name": "Divine Strike"
+          "target": "每回合一次，當你使用武器進行攻擊檢定並命中一名生物時",
+          "name": "神聖打擊"
         }
       }
     },
     "Blessed Strikes: Potent Spellcasting": {
-      "name": "Blessed Strikes: Potent Spellcasting",
-      "description": "<p>Add your Wisdom modifier to the damage you deal with any Cleric cantrip.</p><section class=\"secret\" id=\"secret-bDHa7ClHZ3YPWKvs\"><p><strong>Foundry Note</strong></p><p>This bonus damage is not automatically included.</p><p>The <strong>Damage</strong> activity includes your Wisdom modifier and allows you to choose the damage type in the roll's dialog box.</p><p>You can also instead add [[lookup @abilties.wis.mod]] to the Situational Bonus field of your cantrip's damage roll's dialog box.</p></section>",
+      "name": "受祝擊：強力施法",
+      "description": "<p>你以任何牧師戲法所造成的傷害加上你的感知調整值。</p><section class=\"secret\" id=\"secret-bDHa7ClHZ3YPWKvs\"><p><strong>【Foundry註記】</strong></p><p>此額外傷害不會自動包含在你的戲法中。</p><p>你可以將[[lookup @abilities.wis.mod]]加入你戲法傷害擲骰的環境加值欄位，或在加值欄位中加入\"@abilities.wis.mod\"（不含引號），將其永久加到你的戲法上。</p><p>或者，此特性的<strong>傷害</strong>行動已包含你的感知調整值，並讓你能在擲骰對話框中選擇傷害類型。</p></section>",
       "activities": {
         "damage": {
-          "condition": "Deal damage with any Cleric cantrip"
+          "condition": "以任何牧師戲法造成傷害"
         }
       }
     },
@@ -784,17 +784,17 @@
       "description": ""
     },
     "Branches of the Tree": {
-      "name": "Branches of the Tree",
-      "description": "<p>Whenever a creature you can see starts its turn within 30 feet of you while your Rage is active, you can take a Reaction to summon spectral branches of the World Tree around it. The target must succeed on a Strength saving throw (DC 8 plus your Strength modifier and Proficiency Bonus) or be teleported to an unoccupied space you can see within 5 feet of yourself or in the nearest unoccupied space you can see. After the target teleports, you can reduce its Speed to 0 until the end of the current turn.</p><section id=\"secret-iHFpYS3WUCeaQIVP\" class=\"secret\"><p><strong>Foundry Note</strong></p><p>This feature includes an Active Effect which can be applied to the target and will reduce their Speed.</p></section>",
+      "name": "靈樹枝杈",
+      "description": "<p>你的狂暴啟用期間，每當一名位於你30呎內你所能看見的生物的回合開始時，你可以採取反應在其周圍召喚世界樹的靈體枝條。目標必須成功通過一次力量豁免（DC等於8+你的力量調整值+你的熟練加值），否則將被傳送到位於你5呎內你所能看見的未佔據空間內或距離你最近你所能看見的未佔據空間內。目標被你傳送後，你可以令其速度降為0，持續至當前回合結束。</p><section id=\"secret-iHFpYS3WUCeaQIVP\" class=\"secret\"><p><strong>【Foundry註記】</strong></p><p>此特性包含一項Active Effect，可套用於目標並降低其速度。</p></section>",
       "activities": {
         "save": {
-          "condition": "Whenever a creature you can see starts its turn within 30 feet of you while your Raging"
+          "condition": "你的狂暴啟用期間，每當一名位於你30呎內你所能看見的生物的回合開始時"
         }
       },
       "effects": {
         "Branches of the Tree": {
-          "name": "Branches of the Tree",
-          "description": "<p>A creature moved by Branches of the Tree's Speed can be reduced to until the end of its current turn.</p>"
+          "name": "靈樹枝杈",
+          "description": "<p>被靈樹枝杈傳送的生物，其速度可以降為0，持續至其當前回合結束。</p>"
         }
       }
     },
@@ -1463,10 +1463,10 @@
     },
     "Devil's Sight": {
       "name": "魔鬼視覺",
-      "description": "<blockquote><p>先決條件：契術師等級2以上</p></blockquote><p>你可以在微光或黑暗中正常看見距離你120呎範圍內的事物，無論該黑暗是有魔力或無魔力的。</p><section class=\"secret\" id=\"secret-RVsijULbRFU2b9ZU\"><p><strong>Foundry Note</strong></p><p>This feature includes an Active Effect that grants you darkvision to 120 feet.</p></section>",
+      "description": "<blockquote><p>先決條件：契術師等級2以上</p></blockquote><p>你可以在微光或黑暗中正常看見距離你120呎範圍內的事物，無論該黑暗是有魔力或無魔力的。</p><section class=\"secret\" id=\"secret-RVsijULbRFU2b9ZU\"><p><strong>【Foundry註記】</strong></p><p>此特性包含一項 Active Effect，會賦予你120呎的黑暗視覺。</p></section>",
       "effects": {
         "Devil's Sight": {
-          "name": "Devil's Sight"
+          "name": "魔鬼視覺"
         }
       }
     },
@@ -1504,7 +1504,7 @@
     },
     "Devouring Blade": {
       "name": "滅世魔刃",
-      "description": "<blockquote><p>先決條件：契術師等級12以上，@UUID[Compendium.dnd-players-handbook.classes.Item.phbinvThirstingB]祈喚</p></blockquote><p>你的飢渴之刃額外攻擊賦予兩次額外攻擊而非一次</p>"
+      "description": "<blockquote><p>先決條件：契術師等級12以上，@UUID[Compendium.dnd-players-handbook.classes.Item.phbinvThirstingB]{飢渴魔刃}祈喚</p></blockquote><p>你的飢渴魔刃額外攻擊賦予兩次額外攻擊而非一次。</p>"
     },
     "Disarming Attack": {
       "name": "Disarming Attack",
@@ -1570,8 +1570,8 @@
       "description": "<p>從@UUID[Compendium.dnd-players-handbook.content.JournalEntry.phbSpells0000000.JournalEntryPage.6AnqLUowgdsqMFvz]{預言學派}中選擇兩個不高於2環的法師法術（調整分組模式以便於選擇），並將其免費抄入你的法術書。</p><p>此外，每當你在此職業獲得新環階的法術位時，你可以從預言學派中選擇一個法師法術免費抄入你法術書。所選法術必須是你擁有的法術位環階。</p>"
     },
     "Divine Fury": {
-      "name": "Divine Fury",
-      "description": "<p>你可以引導神性之力到你的打擊中。在你狂暴啟用時的每一回合，你以武器或徒手打擊命中的第一個生物承受等同於1d6 + 你野蠻人等級的一半（向下取整）的額外傷害。該額外傷類型害為黯蝕或光耀，每次你造成傷害時選擇類型。</p><section class=\"secret\" id=\"secret-qDE2QhFtf1aiHWmx\"><p><strong>Foundry Note</strong></p><p>This feature includes an activity for each type of damage.</p></section>",
+      "name": "神性之怒",
+      "description": "<p>你可以引導神性之力到你的打擊中。在你狂暴啟用時，你的每一回合中，你以武器或徒手打擊命中的第一個生物承受等同於1d6 + 你野蠻人等級的一半（向下取整）的額外傷害。該額外傷害類型為黯蝕或光耀，每次你造成傷害時選擇類型。</p>",
       "activities": {
         "Necrotic Divine Fury": {
           "name": "Necrotic Divine Fury",
@@ -1582,15 +1582,15 @@
           "target": "First creature you hit with a weapon or an Unarmed Strike"
         },
         "Divine Fury": {
-          "name": "Divine Fury",
-          "condition": "you hit a creature on your turn while Rage is active",
-          "target": "First creature you hit with a weapon or an Unarmed Strike"
+          "name": "神性之怒",
+          "condition": "你的狂暴啟用期間，當你在你的回合內命中一名生物時",
+          "target": "你以武器或徒手打擊命中的第一個生物"
         }
       }
     },
     "Divine Intervention": {
-      "name": "Divine Intervention",
-      "description": "<p>You can call on your deity or pantheon to intervene on your behalf. As a Magic action, choose any @UUID[Compendium.dnd-players-handbook.content.JournalEntry.phbSpells0000000.JournalEntryPage.SkHptN2PTzFGDaEj]{Cleric spell} of level 5 or lower that doesn't require a Reaction to cast. As part of the same action, you cast that spell without expending a spell slot or needing Material components. You can't use this feature again until you finish a Long Rest.</p><section id=\"secret-LP7yqqobTjOqeswv\" class=\"secret\"><p><strong>Foundry Note</strong></p><p>Uncheck the \"Consumption\" box when casting the spell for the free use. This feature can be used to track available uses.</p></section>"
+      "name": "神聖干預",
+      "description": "<p>你能呼喚你所信奉的神祇或神系來代你降下干預。作為魔法動作，你選擇一道五環或更低的@UUID[Compendium.dnd-players-handbook.content.JournalEntry.phbSpells0000000.JournalEntryPage.SkHptN2PTzFGDaEj]{牧師法術}（施法時間不能為反應），並將該法術作為執行此動作的一部分施放，無需消耗法術位也無需材料構材。直到你完成長休前，你都無法再次使用此特性。</p><section id=\"secret-LP7yqqobTjOqeswv\" class=\"secret\"><p><strong>【Foundry註記】</strong></p><p>免費施放該法術時，請取消勾選「消耗」方塊。此特性可用來追蹤可用次數。</p></section>"
     },
     "Divine Order": {
       "name": "神聖使命",
@@ -1868,35 +1868,35 @@
       "description": "<p>你在保持專注的體質豁免檢定上具有優勢。</p>",
       "effects": {
         "Concentration Advantage": {
-          "name": "Concentration Advantage"
+          "name": "專注優勢"
         }
       }
     },
     "Eldritch Smite": {
       "name": "魔能重斬",
-      "description": "<blockquote><p>先決條件：契術師等級5以上，具有@UUID[Compendium.dnd-players-handbook.classes.Item.phbinvPactBlade0]{鋒刃魔契}祈喚</p></blockquote><p>每回合一次，當你使用你的契約武器命中一個生物時，你可以消耗一個契約魔法法術位對目標造成額外的1d8 + 每法術位環階1d8的力場傷害，並且若目標體型在巨型以下，則可以使其陷入&amp;Reference[Prone]狀態</p><section class=\"secret\" id=\"secret-AoE71IXdo0xg5OKe\"><p><strong>Foundry Note</strong></p><p>The <strong>Smite</strong> activity consumes a Pact Magic spell slot and increases the damage based on your pact spell level.</p></section>",
+      "description": "<blockquote><p>先決條件：契術師等級5以上，具有@UUID[Compendium.dnd-players-handbook.classes.Item.phbinvPactBlade0]{鋒刃魔契}祈喚</p></blockquote><p>每回合一次，當你使用你的契約武器命中一個生物時，你可以消耗一個契約魔法法術位對目標造成額外的1d8 + 每法術位環階1d8的力場傷害，並且若目標體型在巨型以下，則可以使其陷入&amp;Reference[Prone]{伏地}狀態。</p><section class=\"secret\" id=\"secret-AoE71IXdo0xg5OKe\"><p><strong>【Foundry註記】</strong></p><p><strong>重斬</strong>行動會消耗一個契約魔法法術位，並依據你的契約法術環階提高傷害。</p></section>",
       "activities": {
         "Smite": {
-          "name": "Smite",
-          "condition": "Hit a creature with your pact weapon"
+          "name": "重斬",
+          "condition": "以契約武器命中一個生物"
         }
       }
     },
     "Eldritch Spear": {
       "name": "魔能之矛",
-      "description": "<blockquote><p>先決條件：契術師等級2以上，具有可造成傷害的契術師戲法</p></blockquote><p>選擇一個你知曉可以造成傷害且範圍10呎以上的契術師戲法。當你施放該法數時，其範圍增加等同於你契術師等級的30倍。</p><p><strong>【可複選】</strong>你可以重複選擇此祈喚，但每次你都必須選擇不同且符合條件的戲法。</p><section id=\"secret-7hr3xIfya7IOq7pj\" class=\"secret\"><p><strong>Foundry Note</strong></p><p>Use the <strong>Increase Range</strong> enchantment activity and drag your chosen cantrip to the chat card to increase its range and append \", Eldritch Spear\" for easier identification.</p></section>",
+      "description": "<blockquote><p>先決條件：契術師等級2以上，具有可造成傷害的契術師戲法</p></blockquote><p>選擇一個你知曉可以造成傷害且射程10呎以上的契術師戲法。當你施放該法術時，其射程增加的呎數等同於你契術師等級的30倍。</p><p><strong>【可複選】</strong>你可以重複選擇此祈喚，但每次你都必須選擇不同且符合條件的戲法。</p><section id=\"secret-7hr3xIfya7IOq7pj\" class=\"secret\"><p><strong>【Foundry註記】</strong></p><p>使用<strong>增加射程</strong>附魔行動並將你所選擇的戲法拖曳到聊天卡片上，即可增加其射程，並在其名稱前附加「魔能之矛．」以便辨識。</p></section>",
       "effects": {
         "Eldritch Spear": {
-          "name": "Eldritch Spear",
+          "name": "魔能之矛",
           "changes": {
             "name": ", Eldritch Spear",
-            "1": ", Eldritch Spear"
+            "1": "魔能之矛．"
           }
         }
       },
       "activities": {
         "Increase Range": {
-          "name": "Increase Range"
+          "name": "增加射程"
         }
       }
     },
@@ -2185,8 +2185,8 @@
       "description": "<p>You can call on the aid of an otherworldly steed. You always have the @UUID[Compendium.dnd-players-handbook.spells.Item.phbsplFindSteed0]{Find Steed} spell prepared.</p><p>You can also cast the spell once without expending a spell slot, and you regain the ability to do so when you finish a Long Rest.</p><section class=\"secret\" id=\"secret-XC2S9ToogFr41act\"><p><strong>Foundry Note</strong></p><p>The Find Steed spell is added to your spell list as always prepared and with a free use per Long Rest when you reach this level.</p></section>"
     },
     "Fanatical Focus": {
-      "name": "Fanatical Focus",
-      "description": "<p>每次啟用狂暴一次，若你豁免失敗，則你可以重骰，在結果加上等同於你狂暴傷害的加（當前 [[/r @scale.barbarian.rage-damage]]）並且你必須使用新的結果。</p>"
+      "name": "專心熾志",
+      "description": "<p>每次啟用狂暴一次，若你豁免失敗，則你可以重骰，在結果加上等同於你狂暴傷害的加值<span class=\"hide-in-embed\">（當前[[@scale.barbarian.rage-damage]]）</span>，並且你必須使用新的結果。</p>"
     },
     "Fast Hands": {
       "name": "Fast Hands",
@@ -2350,10 +2350,10 @@
     },
     "Fiendish Vigor": {
       "name": "邪魔精力",
-      "description": "<blockquote><p>先決條件：契術師等級2以上</p></blockquote><p>你可以不消耗任何法術位對自己施放@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplFalseLife0]{摹造生命}。當你以此特性施放法術時，你不用為臨時生命值擲骰，而是將每個骰子自動取滿。</p><section class=\"secret\" id=\"secret-9kRkRSKEmbOaga6L\"><p><strong>Foundry Note</strong></p><p>The <strong>False Life</strong> activity provides a healing roll that includes the maximum die roll and the additional Hit Points for being cast at a higher level based on your current Pact Magic Level.</p></section>",
+      "description": "<blockquote><p>先決條件：契術師等級2以上</p></blockquote><p>你可以不消耗任何法術位對自己施放@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplFalseLife0]{摹造生命}。當你以此特性施放法術時，你不用為臨時生命值擲骰，而是將每個骰子自動取滿。</p><section class=\"secret\" id=\"secret-9kRkRSKEmbOaga6L\"><p><strong>【Foundry註記】</strong></p><p><strong>摹造生命</strong>行動包含最大治療量。</p></section>",
       "activities": {
         "False Life": {
-          "name": "False Life"
+          "name": "摹造生命"
         }
       }
     },
@@ -2494,24 +2494,24 @@
           "name": "Water Breathing"
         },
         "Water Breathing & Swim Speed": {
-          "description": "<p>你可以在水下呼吸，且你具有等於你速度的游泳速度。</p>",
+          "description": "<p>你可以在水下呼吸，且你具有等同於你速度的游泳速度。</p>",
           "name": "水下呼吸與游泳速度"
         }
       }
     },
     "Gift of the Protectors": {
-      "name": "Gift of the Protectors",
-      "description": "<blockquote><p>先決條件：Level 9+ Warlock, @UUID[Compendium.dnd-players-handbook.classes.Item.phbinvPactTome00]{Pact of the Tome} Invocation</p></blockquote><p>A new page appears in your @UUID[Compendium.dnd5e.items.Item.CwWbeQ6XyqFzbMYw]{Book of Shadows} when you conjure it. With your permission, a creature can take an action to write its name on that page, which can contain a number of names equal to your Charisma modifier (minimum of one name).</p><p>When any creature whose name is on the page is reduced to 0 Hit Points but not killed outright, the creature magically drops to 1 Hit Point instead. Once this magic is triggered, no creature can benefit from it until you finish a Long Rest.</p><p>As a Magic action, you can erase a name on the page by touching it.</p><section id=\"secret-VzLQ7nRPLs0fIkvE\" class=\"secret\"><p><strong>Foundry Note</strong></p><p>The <strong>Protect</strong> activity consumes a use of its activity which refreshes every Long Rest.</p><p>The <strong>Write Name</strong> activity consumes a use of the item which can be used for tracking how many names you've written down.</p><p>The <strong>Erase Name</strong> activity will restore a use of the item and allows you to add another name.</p></section>",
+      "name": "守護饋贈",
+      "description": "<blockquote><p>先決條件：契術師等級9以上，具有@UUID[Compendium.dnd-players-handbook.classes.Item.phbinvPactTome00]{書卷魔契}祈喚</p></blockquote><p>當你召喚@UUID[Compendium.dnd5e.items.Item.CwWbeQ6XyqFzbMYw]{影之書}時，一張新的書頁會在其中出現。在你的允許之下，一個生物可以採取一個動作，將他的名字寫在該頁上，該頁能包括的名字數量等同於你的魅力調整值（至少為1個）。</p><p>當任何名字在該頁上的生物生命值降為0，但是還沒有立刻死亡時，該生物的生命值魔法地變為1點。此魔法一旦被觸發，直到你完成長休前，沒有生物能再受益於該魔法。</p><p>作為魔法動作，你可以透過觸摸消除該頁上的一個名字。</p><section id=\"secret-VzLQ7nRPLs0fIkvE\" class=\"secret\"><p><strong>【Foundry註記】</strong></p><p><strong>保護</strong>行動會消耗該行動的一次使用次數，每次長休後恢復。</p><p><strong>寫下名字</strong>行動會消耗此物品的一次使用次數，可用來追蹤你已寫下多少個名字。</p><p><strong>抹除名字</strong>行動會恢復此物品的一次使用次數，讓你能再添加一個名字。</p></section>",
       "activities": {
         "Protect": {
-          "name": "Protect",
-          "condition": "When any creature whose name is on the page is reduced to 0 Hit Points but not killed outright"
+          "name": "保護",
+          "condition": "當任何名字在該頁上的生物生命值降為0，但是還沒有立刻死亡時"
         },
         "Write Name": {
-          "name": "Write Name"
+          "name": "寫下名字"
         },
         "Erase Name": {
-          "name": "Erase Name"
+          "name": "抹除名字"
         }
       }
     },
@@ -2603,8 +2603,8 @@
       "description": "<p>你宗主的魔法確保你始終準備特定的法術，當你達到舊日支配者法術表所提及的契術師等級時，你視為始終準備法術表上的法術。</p><table><caption>舊日支配者法術</caption><thead><tr><td>契術師等級</td><td>法術</td></tr></thead><tbody><tr><td>3</td><td>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplDetectThou]{偵測思想}、@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplDissonantW]{噪音暗語}、@UUID[Compendium.dnd-players-handbook.spells.Item.phbPhantasmalFor]{魅影之力}、@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplTashasHide]{塔莎狂笑術}</td></tr><tr><td>5</td><td>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplClairvoyan]{銳眼術}、@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplHungerofHa]{哈達之慾}</td></tr><tr><td>7</td><td>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplConfusion0]{困惑術}、@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplSummonAber]{異怪召喚術}</td></tr><tr><td>9</td><td>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplModifyMemo]{修改記憶}、@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplTelekinesi]{心靈遙控}</td></tr></tbody></table><section class=\"secret\" id=\"secret-QxQv9Rk17KWpR4Ur\"><p><strong>Foundry Note</strong></p><p>As you level up these spells will be granted to you automatically.</p></section>"
     },
     "Greater Divine Intervention": {
-      "name": "Greater Divine Intervention",
-      "description": "<p>You can call on even more powerful divine intervention. When you use your Divine Intervention feature, you can choose @UUID[Compendium.dnd-players-handbook.spells.Item.phbsplWish000000]{Wish} when you select a spell. If you do so, you can't use Divine Intervention again until you finish [[/r 2d4]] Long Rests.</p><section class=\"secret\" id=\"secret-LP9WqNdaJevppYeM\"><p><strong>Foundry Note</strong></p><p>This feature will consume a use of your Divine Intervention but it can not automatically recharge the usage after the rolled number of Long Rests.</p></section>"
+      "name": "進階神聖干預",
+      "description": "<p>你能夠呼喚更加強大的神聖干預。當你使用神聖干預時，你可以在選擇法術時選擇@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplWish000000]{祈願術}。若你這樣做，你只有在完成[[/r 2d4]]次長休後才能再次使用神聖干預。</p><section class=\"secret\" id=\"secret-LP9WqNdaJevppYeM\"><p><strong>【Foundry註記】</strong></p><p>此特性會消耗你的一次神聖干預使用次數，但無法在擲出的長休次數過後自動恢復該次數。</p></section>"
     },
     "Greater Portent": {
       "name": "高等預兆",
@@ -2794,12 +2794,12 @@
       "description": "<p>你獲得洞悉和醫藥技能的熟練，以及草藥工具的熟練。</p><section id=\"secret-3C0ZGx08eY2w3N9d\" class=\"secret\"><p><strong>Foundry Note</strong></p><p>These proficiencies are granted automatically as you level up.</p></section>"
     },
     "Improved Blessed Strikes": {
-      "name": "Improved Blessed Strikes",
-      "description": "<p>The option you chose for Blessed Strikes grows more powerful.</p><p><strong>Divine Strike.</strong> The extra damage of your Divine Strike increases to 2d8.</p><p><strong>Potent Spellcasting.</strong> When you cast a Cleric cantrip and deal damage to a creature with it, you can give vitality to yourself or another creature within 60 feet of yourself, granting a number of Temporary Hit Points equal to twice your Wisdom modifier.</p><section class=\"secret\" id=\"secret-UW0So7XcJyHUaivE\"><p><strong>Foundry Note</strong></p><p>If you chose <strong>Divine Strike</strong> the damage is automatically increased. If you chose <strong>Potent Spellcasting</strong> you can use the Potent Spellcasting activity on this feature.</p></section>",
+      "name": "精通受祝擊",
+      "description": "<p>你所選擇的受祝擊變得更加強大。</p><p><strong>【神聖打擊】</strong>你的神聖打擊額外傷害提升至2d8。</p><p><strong>【強力施法】</strong>當你施放一道牧師戲法並用該戲法對一個生物造成傷害時，你可以為你自己或位於你60呎內的另一個生物注入活力，使其獲得等同於你感知調整值兩倍的臨時生命值。</p><section class=\"secret\" id=\"secret-UW0So7XcJyHUaivE\"><p><strong>【Foundry註記】</strong></p><p>若你選擇了<strong>神聖打擊</strong>，傷害會自動提升。若你選擇了<strong>強力施法</strong>，你可以使用此特性上的強力施法行動。</p></section>",
       "activities": {
         "Potent Spellcasting: Heal": {
-          "name": "Potent Spellcasting: Heal",
-          "condition": "When you cast a Cleric cantrip and deal damage to a creature with it"
+          "name": "強力施法：治療",
+          "condition": "當你施放一道牧師戲法並用該戲法對一個生物造成傷害時"
         }
       }
     },
@@ -2967,17 +2967,17 @@
       }
     },
     "Investment of the Chain Master": {
-      "name": "Investment of the Chain Master",
-      "description": "<blockquote><p>先決條件：Level 5+ Warlock, @UUID[Compendium.dnd-players-handbook.classes.Item.phbinvPactChain0]{Pact of the Chain} Invocation</p></blockquote><p>When you cast @UUID[Compendium.dnd-players-handbook.spells.Item.phbsplFindFamili]{Find Familiar}, you infuse the summoned familiar with a measure of your eldritch power, granting the creature the following benefits.</p><p><strong>Aerial or Aquatic.</strong> The familiar gains either a Fly Speed or a Swim Speed (your choice) of 40 feet.</p><p><strong>Quick Attack.</strong> As a Bonus Action, you can command the familiar to take the Attack action.</p><p><strong>Necrotic or Radiant Damage.</strong> Whenever the familiar deals Bludgeoning, Piercing, or Slashing damage, you can make it deal Necrotic or Radiant damage instead.</p><p><strong>Your Save DC.</strong> If the familiar forces a creature to make a saving throw, it uses your spell save DC.</p><p><strong>Resistance.</strong> When the familiar takes damage, you can take a Reaction to grant it Resistance against that damage.</p><section class=\"secret\" id=\"secret-D3vSCo0uEG4Kp1X6\"><p><strong>Foundry Note</strong></p><p>The <strong>Find Familiar with Flight</strong> and <strong>with Swimming</strong> activities both allow you to summon a familiar with the relevant movement bonus. Both activities consume a Pact Magic spell slot.</p><p>The <strong>Invest with Resistance</strong> activity includes an Active Effect for resisting each type of damage which can be applied to get the relevant resistance. Be sure you disable/delete the previous Active Effect in the \"Effects\" tab of your sheet when you change Resistances.</p><p>The familiar automatically uses your Save DC.</p></section>",
+      "name": "鏈主賦能",
+      "description": "<blockquote><p>先決條件：契術師等級5以上，具有@UUID[Compendium.dnd-players-handbook.classes.Item.phbinvPactChain0]{鎖鏈魔契}祈喚</p></blockquote><p>當你施放@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplFindFamili]{尋獲魔寵}時，你將一定程度的魔能力量灌注給被召喚的魔寵，給予這個生物下列好處。</p><p><strong>【翔空／潛淵】</strong>該魔寵獲得40呎的飛行速度或游泳速度（由你選擇）。</p><p><strong>【迅捷打擊】</strong>作為附贈動作，你可以指揮你的魔寵採取攻擊動作。</p><p><strong>【光影注能】</strong>每當該魔寵造成鈍擊、穿刺或揮砍傷害時，你可以改為令其造成光耀或黯蝕傷害。</p><p><strong>【你的豁免DC】</strong>若該魔寵強迫一個生物進行豁免檢定，則其改為使用你的法術豁免DC。</p><p><strong>【抗力】</strong>當該魔寵承受傷害時，你可以採取反應，賦予其對該次傷害的抗力。</p><section class=\"secret\" id=\"secret-D3vSCo0uEG4Kp1X6\"><p><strong>【Foundry註記】</strong></p><p><strong>尋獲魔寵</strong>行動會為被召喚的生物同時套用<strong>翔空</strong>與<strong>潛淵</strong>效果。生物身上未使用的效果可以刪除。</p><p><strong>抗力</strong>行動包含可選用的 Active Effect，可對每種傷害類型提供抗力。</p></section>",
       "effects": {
         "Resist Poison": {
-          "name": "Resist Poison"
+          "name": "毒素抗力"
         },
         "Resist Psychic": {
-          "name": "Resist Psychic"
+          "name": "心靈抗力"
         },
         "Resist Radiant": {
-          "name": "Resist Radiant"
+          "name": "光耀抗力"
         },
         "Investment of Flight": {
           "name": "Investment of Flight"
@@ -2986,42 +2986,42 @@
           "name": "Investment of Swimming"
         },
         "Resist Acid": {
-          "name": "Resist Acid"
+          "name": "強酸抗力"
         },
         "Resist Bludgeoning": {
-          "name": "Resist Bludgeoning"
+          "name": "鈍擊抗力"
         },
         "Resist Cold": {
-          "name": "Resist Cold"
+          "name": "寒冷抗力"
         },
         "Resist Fire": {
-          "name": "Resist Fire"
+          "name": "火焰抗力"
         },
         "Resist Force": {
-          "name": "Resist Force"
+          "name": "力場抗力"
         },
         "Resist Lightning": {
-          "name": "Resist Lightning"
+          "name": "閃電抗力"
         },
         "Resist Necrotic": {
-          "name": "Resist Necrotic"
+          "name": "黯蝕抗力"
         },
         "Resist Piercing": {
-          "name": "Resist Piercing"
+          "name": "穿刺抗力"
         },
         "Resist Slashing": {
-          "name": "Resist Slashing"
+          "name": "揮砍抗力"
         },
         "Resist Thunder": {
-          "name": "Resist Thunder"
+          "name": "雷鳴抗力"
         },
         "Aquatic": {
-          "name": "Aquatic",
-          "description": "<p><strong>Aerial or Aquatic.</strong> The familiar gains either a Fly Speed or a Swim Speed (your choice) of 40 feet.</p>"
+          "name": "潛淵",
+          "description": "<p><strong>【翔空／潛淵】</strong>該魔寵獲得40呎的飛行速度或游泳速度（由你選擇）。</p>"
         },
         "Aerial": {
-          "description": "<p><strong>Aerial or Aquatic.</strong> The familiar gains either a Fly Speed or a Swim Speed (your choice) of 40 feet.</p>",
-          "name": "Aerial"
+          "description": "<p><strong>【翔空／潛淵】</strong>該魔寵獲得40呎的飛行速度或游泳速度（由你選擇）。</p>",
+          "name": "翔空"
         }
       },
       "activities": {
@@ -3046,22 +3046,22 @@
           "target": "Your familiar"
         },
         "Resistance": {
-          "name": "Resistance",
-          "target": "Your familiar"
+          "name": "抗力",
+          "target": "你的魔寵"
         },
         "Quick Attack": {
-          "target": "the familiar",
-          "chatFlavor": "The familiar takes the Attack action",
-          "name": "Quick Attack"
+          "target": "魔寵",
+          "chatFlavor": "魔寵採取攻擊動作",
+          "name": "迅捷打擊"
         },
         "Find Familiar": {
           "profiles": {
-            "CR 0 Beast": "CR 0 Beast"
+            "CR 0 Beast": "CR 0 野獸"
           },
-          "name": "Find Familiar"
+          "name": "尋獲魔寵"
         },
         "Find Familiar (Expanded Options)": {
-          "name": "Find Familiar (Expanded Options)"
+          "name": "尋獲魔寵（擴充選項）"
         }
       }
     },
@@ -3120,11 +3120,11 @@
     },
     "Lessons of the First Ones": {
       "name": "初代的教誨",
-      "description": "<blockquote><p>先決條件：契術師等級2以上</p></blockquote><p>你獲得來自多元宇宙中一位古老存在的知識，令你獲得一個你所選擇的@UUID[Compendium.dnd-players-handbook.content.JournalEntry.phbFeats00000000.JournalEntryPage.otAeQs0TLHYIBNuj]{起源專長}</p><p><strong>【可複選】</strong>你可以重複選擇此祈喚，但每次你都必須選擇不同的起源專長。</p>",
+      "description": "<blockquote><p>先決條件：契術師等級2以上</p></blockquote><p>你獲得來自多元宇宙中一位古老存在的知識，令你獲得一個你所選擇的@UUID[Compendium.dnd-players-handbook.content.JournalEntry.phbFeats00000000.JournalEntryPage.otAeQs0TLHYIBNuj]{起源專長}。</p><p><strong>【可複選】</strong>你可以重複選擇此祈喚，但每次你都必須選擇不同的起源專長。</p>",
       "advancement": {
         "Choose Origin Feat": {
           "title": "Choose Origin Feat",
-          "name": "Choose Origin Feat"
+          "name": "選擇起源專長"
         }
       }
     },
@@ -3147,19 +3147,19 @@
       "description": "<p>你與此神聖領域的連結保證你始終準備特定法術。當你達到生命領域法術列表上指定的牧師等級時，你視為始終準備法術表上的法術。</p><table><caption>生命領域法術</caption><thead><tr><td>牧師等級</td><td>準備法術</td></tr></thead><tbody><tr><td>3</td><td><p>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplAid0000000]{援助術}、@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplBless00000]{祝福術}、@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplCureWounds]{治療傷勢},<br />@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplLesserRest]{次級復原術}</p></td></tr><tr><td>5</td><td>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplMassHealin]{Mass Healing Word}、@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplRevivify00]{回生術}</td></tr><tr><td>7</td><td>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplAuraofLife]{Aura of Life}、@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplDeathWard0]{Death Ward}</td></tr><tr><td>9</td><td>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplGreaterRes]{高等復原術}、@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplMassCureWo]{群體治療傷勢}</td></tr></tbody></table><section class=\"secret\" id=\"secret-Z9pAhvumQlf7onuP\"><p><strong>Foundry Note</strong></p><p>These spells are granted automatically as you advance.</p></section>"
     },
     "Lifedrinker": {
-      "name": "Lifedrinker",
-      "description": "<blockquote><p>先決條件：Level 9+ Warlock, @UUID[Compendium.dnd-players-handbook.classes.Item.phbinvPactBlade0]{Pact of the Blade} Invocation</p></blockquote><p>Once per turn when you hit a creature with your pact weapon, you can deal an extra 1d6 Necrotic, Psychic, or Radiant damage (your choice) to the creature, and you can expend one of your Hit Point Dice to roll it and regain a number of Hit Points equal to the roll plus your Constitution modifier (minimum of 1 Hit Point).</p><section class=\"secret\" id=\"secret-1Hta9I4donszrwIQ\"><p><strong>Foundry Note</strong></p><p>The <strong>Damage</strong> activity allows you to choose the type of damage in the roll's dialog. It will remember your choice going forward.</p><p>The <strong>Heal (Largest Hit Die)</strong> and <strong>Smallest Hit Die</strong> activities expends the relevant Hit Die and provides a healing roll with your Constitution modifier included. Which you choose only matters if you are multi-classed with multiple hit die types.</p></section>",
+      "name": "飲命者",
+      "description": "<blockquote><p>先決條件：契術師等級9以上，具有@UUID[Compendium.dnd-players-handbook.classes.Item.phbinvPactBlade0]{鋒刃魔契}祈喚</p></blockquote><p>每回合一次，當你用契約武器命中一個生物時，你可以對其額外造成1d6的黯蝕、心靈或光耀傷害（由你選擇），且你可以投擲並消耗一顆你的生命骰，恢復等同於其骰值再加上你的體質調整值（最小為1）的生命值。</p><section class=\"secret\" id=\"secret-1Hta9I4donszrwIQ\"><p><strong>【Foundry註記】</strong></p><p><strong>傷害</strong>行動讓你能在擲骰對話框中選擇傷害類型，之後會記住你的選擇。</p><p><strong>治療（最大生命骰）</strong>與<strong>治療（最小生命骰）</strong>行動會消耗相應的生命骰，並提供已包含你體質調整值的治療擲骰。只有在你兼任多個職業、擁有多種生命骰類型時，你選擇哪一個才會有差別。</p></section>",
       "activities": {
         "damage": {
-          "condition": "Once per turn when you hit a creature with your pact weapon"
+          "condition": "每回合一次，當你用契約武器命中一個生物時"
         },
         "Heal (Largest Hit Die)": {
-          "name": "Heal (Largest Hit Die)",
-          "condition": "Once per turn when you hit a creature with your pact weapon"
+          "name": "治療（最大生命骰）",
+          "condition": "每回合一次，當你用契約武器命中一個生物時"
         },
         "Heal (Smallest Hit Die)": {
-          "name": "Heal (Smallest Hit Die)",
-          "condition": "Once per turn when you hit a creature with your pact weapon"
+          "name": "治療（最小生命骰）",
+          "condition": "每回合一次，當你用契約武器命中一個生物時"
         }
       }
     },
@@ -3318,7 +3318,7 @@
     },
     "Mask of Many Faces": {
       "name": "千面之臉",
-      "description": "<blockquote><p>先決條件：契術師等級2以上</p></blockquote><p>你可以不消耗任何法術位施放@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplDisguiseSe]{易容術}。</p><section class=\"secret\" id=\"secret-vIzXrLvsSDtyMciU\"><p><strong>Foundry Note</strong></p><p>The <strong>Cast</strong> activity can be used in-place of Disguise Self and includes an Active Effect for tracking when you are disguised.</p></section>",
+      "description": "<blockquote><p>先決條件：契術師等級2以上</p></blockquote><p>你可以不消耗任何法術位施放@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplDisguiseSe]{易容術}。</p><hr /><p>@Embed[Compendium.dnd-players-handbook.spells.Item.phbsplDisguiseSe inline]</p>",
       "effects": {
         "Disguised": {
           "name": "Disguised",
@@ -3327,8 +3327,8 @@
       }
     },
     "Master of Myriad Forms": {
-      "name": "Master of Myriad Forms",
-      "description": "<blockquote><p>先決條件：Level 5+ Warlock</p></blockquote><p>You can cast @UUID[Compendium.dnd-players-handbook.spells.Item.phbsplAlterSelf0]{Alter Self} without expending a spell slot.</p><section class=\"secret\" id=\"secret-x7wmXuFqGaXQspxB\"><p><strong>Foundry Note</strong></p><p>This feature includes Alter Self's activities.</p><p>The <strong>Aquatic Adaptation</strong>, <strong>Change Appearance</strong>, and <strong>Natural Weapons</strong> activities include Active Effects for tracking your choice and require Concentration.</p><p>The <strong>Attack</strong> activities can be used for your attack/damage rolls when you choose the <strong>Natural Weapons</strong> option.</p></section>",
+      "name": "萬形之主",
+      "description": "<blockquote><p>先決條件：契術師等級5以上</p></blockquote><p>你能無需消耗法術位地施放@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplAlterSelf0]{變造自身}。</p><hr /><p>@Embed[Compendium.dnd-players-handbook.spells.Item.phbsplAlterSelf0 inline]</p>",
       "effects": {
         "Natural Weapon": {
           "name": "Natural Weapon",
@@ -3430,7 +3430,7 @@
     },
     "Misty Visions": {
       "name": "迷霧幻影",
-      "description": "<blockquote><p>先決條件：契術師等級2以上</p></blockquote><p>你可以不消耗法術位施放@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplSilentImag]{無聲幻影}。</p><section class=\"secret\" id=\"secret-zbni49FP84e1UILg\"><p><strong>Foundry Note</strong></p><p>This feature includes Silent Image's activities and can be used in its place.</p></section>"
+      "description": "<blockquote><p>先決條件：契術師等級2以上</p></blockquote><p>你可以不消耗法術位施放@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplSilentImag]{無聲幻影}。</p><hr /><p>@Embed[Compendium.dnd-players-handbook.spells.Item.phbsplSilentImag inline]</p>"
     },
     "Misty Wanderer": {
       "name": "Misty Wanderer",
@@ -3725,8 +3725,8 @@
       }
     },
     "One with Shadows": {
-      "name": "One with Shadows",
-      "description": "<blockquote><p>先決條件：Level 5+ Warlock</p></blockquote><p>While you’re in an area of &amp;Reference[Dim Light] or &amp;Reference[Darkness]{黑暗}, you can cast @UUID[Compendium.dnd-players-handbook.spells.Item.phbsplInvisibili]{Invisibility} on yourself without expending a spell slot.</p><section class=\"secret\" id=\"secret-SvwkLQLYzHCKzuss\"><p><strong>Foundry Note</strong></p><p>The <strong>Cast</strong> activity can be used in place of the Invisibility spell and includes an Active Effect that sets the Invisible status effect.</p></section>",
+      "name": "融身入影",
+      "description": "<blockquote><p>先決條件：契術師等級5以上</p></blockquote><p>當你位於&amp;Reference[Dim Light]{微光}或&amp;Reference[Darkness]{黑暗}區域時，你能對自身無需消耗法術位地施放@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplInvisibili]{隱形術}。</p><hr /><p>@Embed[Compendium.dnd-players-handbook.spells.Item.phbsplInvisibili inline]</p>",
       "effects": {
         "Invisible": {
           "name": "Invisible",
@@ -3771,7 +3771,7 @@
     },
     "Otherworldly Leap": {
       "name": "超凡跳躍",
-      "description": "<blockquote><p>先決條件：契術師等級2以上</p></blockquote><p>你可以不消耗任何法術位對自己施放@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplJump000000]{跳躍術}</p><section id=\"secret-JpQyXOJAkEKVXxff\" class=\"secret\"><p><strong>Foundry Note</strong></p><p>This feature can be used in place of the Jump spell and includes an Active Effect for tracking.</p></section>",
+      "description": "<blockquote><p>先決條件：契術師等級2以上</p></blockquote><p>你可以不消耗任何法術位對自己施放@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplJump000000]{跳躍術}。</p><hr /><p>@Embed[Compendium.dnd-players-handbook.spells.Item.phbsplJump000000 inline]</p>",
       "effects": {
         "Jump": {
           "name": "Jump",
@@ -3802,34 +3802,34 @@
       "description": "<p>作為附贈動作，你可以從手中召喚一把你所選擇的簡易或軍用武器—該武器即為與你聯結的契約武器，或是與你所觸碰的魔法武器建立聯結。你無法與已被其他契術師聯結或已被他人同調的魔法武器建立聯結。直到聯結終止前，你擁有該武器的熟練，並可以將其作為施法法器。</p><p>每當你以聯結武器進行攻擊，你可以使用魅力調整值代替力量或敏捷進行攻擊和傷害擲骰，並且你可以使武器造成黯蝕、心靈、光耀傷害，或是武器原本的傷害類型。</p><p>若你再次使用此特性的附贈動作，或武器距離你5呎以上超過1分鐘，或你死亡時，則你與武器的聯結終止。召喚的武器在聯結終止時消失。</p>",
       "activities": {
         "Spellcasting Attack": {
-          "name": "Spellcasting Attack"
+          "name": "施法攻擊"
         },
         "Forge Pact Weapon": {
-          "name": "Forge Pact Weapon"
+          "name": "咒喚契約武器"
         }
       },
       "effects": {
         "Pact Weapon": {
-          "name": "Pact Weapon",
+          "name": "契約武器",
           "changes": {
             "name": ", Pact Weapon",
-            "0": ", Pact Weapon"
+            "0": "契約"
           }
         }
       }
     },
     "Pact of the Chain": {
       "name": "鎖鏈魔契",
-      "description": "<p>你習得@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplFindFamili]法術，且可以不消耗任何法術位以魔法動作施放該法術。</p><p>當你施放該法術，你為魔寵選擇一種正常型態或是下列一種特殊形態：@UUID[Compendium.dnd-players-handbook.actors.Actor.phbmobImp0000000]{小魔鬼}、@UUID[Compendium.dnd-players-handbook.actors.Actor.phbmobPseudodrag]{偽龍}、@UUID[Compendium.dnd-players-handbook.actors.Actor.phbmobQuasit0000]{誇塞魔}、@UUID[Compendium.dnd-players-handbook.actors.Actor.phbmobSkeleton00]{骷髏}、@UUID[Compendium.dnd-players-handbook.actors.Actor.phbmobSlaadTadpo]{史拉蟾蝌蚪}、@UUID[Compendium.dnd-players-handbook.actors.Actor.phbmobSphinxofWo]{神奇斯芬克斯}、@UUID[Compendium.dnd-players-handbook.actors.Actor.phbmobSprite0000]{小妖精}或@UUID[Compendium.dnd-players-handbook.actors.Actor.phbmobVenomousSn]{毒蛇}.</p><p>此外，當你採取攻擊動作時，你可以放棄你自己攻擊中的其中一次，轉而讓你的魔寵以其反應進行一次攻擊。</p><section id=\"secret-aKbhLPfPD3R9Y1KL\" class=\"secret\"><p><strong>Foundry Note</strong></p><p>The <strong>Summon Familiar</strong> activity includes the normal summoning options and the <strong>Summon Familiar (Expanded Options)</strong> activity includes the additional options.</p></section>",
+      "description": "<p>你習得@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplFindFamili]{尋獲魔寵}法術，且可以不消耗任何法術位以魔法動作施放該法術。</p><p>當你施放該法術，你為魔寵選擇一種正常型態或是下列一種特殊形態：@UUID[Compendium.dnd-players-handbook.actors.Actor.phbmobImp0000000]{小魔鬼}、@UUID[Compendium.dnd-players-handbook.actors.Actor.phbmobPseudodrag]{偽龍}、@UUID[Compendium.dnd-players-handbook.actors.Actor.phbmobQuasit0000]{誇塞魔}、@UUID[Compendium.dnd-players-handbook.actors.Actor.phbmobSkeleton00]{骷髏}、@UUID[Compendium.dnd-players-handbook.actors.Actor.phbmobSlaadTadpo]{史拉蟾蝌蚪}、@UUID[Compendium.dnd-players-handbook.actors.Actor.phbmobSphinxofWo]{神奇斯芬克斯}、@UUID[Compendium.dnd-players-handbook.actors.Actor.phbmobSprite0000]{小妖精}或@UUID[Compendium.dnd-players-handbook.actors.Actor.phbmobVenomousSn]{毒蛇}。</p><p>此外，當你採取攻擊動作時，你可以放棄你自己攻擊中的其中一次，轉而讓你的魔寵以其反應進行一次攻擊。</p><section id=\"secret-aKbhLPfPD3R9Y1KL\" class=\"secret\"><p><strong>【Foundry註記】</strong></p><p><strong>召喚魔寵</strong>行動包含一般的召喚選項，<strong>召喚魔寵（擴充選項）</strong>行動則包含額外選項。</p></section>",
       "activities": {
         "Find Familiar": {
-          "name": "Find Familiar",
+          "name": "尋獲魔寵",
           "profiles": {
-            "CR 0 Beast": "CR 0 Beast"
+            "CR 0 Beast": "CR 0 野獸"
           }
         },
         "Find Familiar (Expanded Options)": {
-          "name": "Find Familiar (Expanded Options)"
+          "name": "尋獲魔寵（擴充選項）"
         }
       }
     },
@@ -3935,7 +3935,7 @@
       "advancement": {
         "Subclass Features": {
           "title": "子職業特性",
-          "name": "Subclass Features"
+          "name": "子職業特性"
         }
       }
     },
@@ -3945,7 +3945,7 @@
       "advancement": {
         "Subclass Features": {
           "title": "子職業特性",
-          "name": "Subclass Features"
+          "name": "子職業特性"
         },
         "Warrior of the Gods: Pool Size": {
           "title": "Warrior of the Gods: Pool Size"
@@ -4329,22 +4329,22 @@
     },
     "Rage of the Gods": {
       "name": "眾神之怒",
-      "description": "<p>When you activate your Rage, you can assume the form of a divine warrior. This form lasts for 1 minute or until you drop to 0 Hit Points. Once you use this feature, you can't do so again until you finish a Long Rest.</p><p>While in this form, you gain the benefits below.</p><p><strong>Flight.</strong> You have a Fly Speed equal to your Speed and can hover.</p><p><strong>Resistance.</strong> You have Resistance to Necrotic, Psychic, and Radiant damage.</p><p><strong>Revivification.</strong> When a creature within 30 feet of you would drop to 0 Hit Points, you can take a Reaction to expend a use of your Rage to instead change the target's Hit Points to a number equal to your Barbarian level (currently [[lookup @classes.barbarian.levels]]).</p><section class=\"secret\" id=\"secret-gWvozli4SOlo3KxS\"><p><strong>Foundry Note</strong></p><p>The <strong>Rage of the Gods</strong> activity includes an Active Effect for automatically adding the resistances and hover but does not provide the fly speed.</p><p>The <strong>Revivification</strong> activity includes a healing roll of your Barbarian level.</p></section>",
+      "description": "<p>當你啟用狂暴時，你可以呈現出聖鬥士姿態。聖鬥士姿態持續1分鐘，或在你生命值降至0時提前結束。此特性一經使用，直到完成長休前你都無法再次使用。</p><p>處於聖鬥士姿態期間，你獲得下列好處。</p><p><strong>【飛翔】</strong>你具有等同於你速度的飛行速度，並且可以懸浮。</p><p><strong>【抗力】</strong>你具有對黯蝕、心靈和光耀傷害的抗力。</p><p><strong>【回春】</strong>當位於你30呎內的一名生物的生命值將要降至0時，你可以採取反應消耗一次狂暴使用次數，改為令目標的生命值變為等同於你野蠻人的等級（當前[[lookup @classes.barbarian.levels]]）。</p><section class=\"secret\" id=\"secret-gWvozli4SOlo3KxS\"><p><strong>【Foundry註記】</strong></p><p><strong>眾神之怒</strong>行動包含一項Active Effect，可自動加入抗力、懸浮和飛行速度。</p><p><strong>回春</strong>行動包含等於你野蠻人等級的治療擲骰。</p></section>",
       "activities": {
         "Revivification": {
-          "name": "Revivification",
+          "name": "回春",
           "roll": "野蠻人等級",
-          "condition": "When a creature within 30 feet of you would drop to 0 Hit Points"
+          "condition": "當位於你30呎內的一名生物的生命值將要降至0時"
         },
         "Rage of the Gods": {
-          "name": "Rage of the Gods",
-          "condition": "When you activate your Rage"
+          "name": "眾神之怒",
+          "condition": "當你啟用狂暴時"
         }
       },
       "effects": {
         "Rage of the Gods": {
-          "name": "Rage of the Gods",
-          "description": "<p>While in this form, you gain the benefits below.</p><p><strong>Flight.</strong> You have a Fly Speed equal to your Speed and can hover.</p><p><strong>Resistance.</strong> You have Resistance to Necrotic, Psychic, and Radiant damage.</p><p><strong>Revivification.</strong> When a creature within 30 feet of you would drop to 0 Hit Points, you can take a Reaction to expend a use of your Rage to instead change the target's Hit Points to a number equal to your Barbarian level.</p>"
+          "name": "眾神之怒",
+          "description": "<p>處於聖鬥士姿態期間，你獲得下列好處。</p><p><strong>【飛翔】</strong>你具有等於你速度的飛行速度，並且可以懸浮。</p><p><strong>【抗力】</strong>你具有對黯蝕、心靈和光耀傷害的抗力。</p>"
         }
       }
     },
@@ -4518,19 +4518,19 @@
     },
     "Repelling Blast": {
       "name": "斥力衝擊",
-      "description": "<blockquote><p>先決條件：契術師等級2以上，具有經過攻擊檢定而造成傷害的契術師戲法。</p></blockquote><p>選擇一個你知曉需要攻擊檢定的契術師戲法。當你以該戲法命中大型以下的生物時，你可以將其推離至多10呎。</p><p><strong>【可複選】</strong>你可以重複選擇此祈喚，但每次你都必須選擇不同且符合條件的戲法。</p><section class=\"secret\" id=\"secret-5xV7SaKI7sGaeKvq\"><p><strong>Foundry Note</strong></p><p>The <strong>Make Repelling</strong> activity can be used to enchant a cantrip which adds \", Repelling\" as a reminder.</p></section>",
+      "description": "<blockquote><p>先決條件：契術師等級2以上，具有經過攻擊檢定而造成傷害的契術師戲法。</p></blockquote><p>選擇一個你知曉需要攻擊檢定的契術師戲法。當你以該戲法命中大型以下的生物時，你可以將其推離至多10呎。</p><p><strong>【可複選】</strong>你可以重複選擇此祈喚，但每次你都必須選擇不同且符合條件的戲法。</p><section class=\"secret\" id=\"secret-5xV7SaKI7sGaeKvq\"><p><strong>【Foundry註記】</strong></p><p><strong>附加斥力</strong>行動可用來為一個戲法附魔，在其名稱前加上「斥力．」作為提醒。</p></section>",
       "activities": {
         "Make Repelling": {
-          "name": "Make Repelling"
+          "name": "附加斥力"
         }
       },
       "effects": {
         "Repelling Blast": {
-          "name": "Repelling Blast",
+          "name": "斥力衝擊",
           "description": "<p>選擇一個你知曉需要攻擊檢定的契術師戲法。當你以該戲法命中大型以下的生物時，你可以將其推離至多10呎。</p>",
           "changes": {
             "name": ", Repelling",
-            "0": ", Repelling"
+            "0": "斥力．"
           }
         }
       }
@@ -4688,17 +4688,17 @@
       "description": "<p>You can create pockets of relative safety within the effects of your evocations. When you cast an Evocation spell that affects other creatures that you can see, you can choose a number of them equal to 1 plus the spell’s level. The chosen creatures automatically succeed on their saving throws against the spell, and they take no damage if they would normally take half damage on a successful save.</p>"
     },
     "Sear Undead": {
-      "name": "Sear Undead",
-      "description": "<p>Whenever you use Turn Undead, you can roll a number of d8s equal to your Wisdom modifier (minimum of 1d8, currently [[lookup @abilities.wis.mod]]) and add the rolls together. Each Undead that fails its saving throw against that use of Turn Undead takes Radiant damage equal to the roll's total. This damage doesn't end the turn effect.</p><section class=\"secret\" id=\"secret-VJPPRFTlu1fFg8XB\"><p><strong>Foundry Note</strong></p><p>This feature can be used in place of Turn Undead. It consumes a use of Channel Divinity, includes the Save, Active Effects for the conditions, and this feature's damage roll.</p></section>",
+      "name": "灼淨不死",
+      "description": "<p>每當你使用驅散不死時，你都可以投擲等同於你感知調整值數量的d8（最少1d8，目前為[[lookup @abilities.wis.mod]]），而每個在對抗該次驅散不死中豁免檢定失敗的不死生物都將承受等同於骰值之和的光耀傷害。此傷害不會終止驅散效應。</p><section class=\"secret\" id=\"secret-VJPPRFTlu1fFg8XB\"><p><strong>【Foundry註記】</strong></p><p>此特性可用來取代驅散不死，會消耗一次引導神力使用次數，並包含豁免檢定、用於各狀態的 Active Effect，以及此特性的傷害擲骰。</p></section>",
       "activities": {
         "Channel Divinity: Turn Undead": {
           "name": "引導神力：驅散不死",
-          "target": "Undead"
+          "target": "不死生物"
         }
       },
       "effects": {
         "Turn Undead": {
-          "name": "Turn Undead"
+          "name": "驅散不死"
         }
       }
     },
@@ -5394,8 +5394,8 @@
       "description": "<p>你在街頭巷尾中學會了多種語言，並在此掌握了盜賊間的黑話。你學會了盜賊黑話和另一門從@UUID[Compendium.dnd-players-handbook.content.JournalEntry.phbCreatingAChar.JournalEntryPage.t1WP9VEevo4TOTXw#choose-languages]{第二章}語言表中自選的語言。</p><section id=\"secret-xG1Y223QZRsrOTCZ\" class=\"secret\"><p><strong>Foundry Note</strong></p><p>Thieves' Cant will be added to your sheet automatically and you will be prompted to choose the additional language.</p></section>"
     },
     "Thirsting Blade": {
-      "name": "Thirsting Blade",
-      "description": "<blockquote><p>先決條件：Level 5+ Warlock, @UUID[Compendium.dnd-players-handbook.classes.Item.phbinvPactBlade0]{Pact of the Blade} Invocation.</p></blockquote><p>You gain the Extra Attack feature for your pact weapon only. With that feature, you can attack twice with the weapon instead of once when you take the Attack action on your turn.</p>"
+      "name": "飢渴魔刃",
+      "description": "<blockquote><p>先決條件：契術師等級5以上，具有@UUID[Compendium.dnd-players-handbook.classes.Item.phbinvPactBlade0]{鋒刃魔契}祈喚。</p></blockquote><p>你獲得額外攻擊特性（僅可使用你的契約武器）。此特性令你在自己的回合內採取攻擊動作時可以用該武器攻擊兩次而非一次。</p>"
     },
     "Thought Shield": {
       "name": "Thought Shield",
@@ -5465,15 +5465,15 @@
       }
     },
     "Travel Along the Tree": {
-      "name": "Travel Along the Tree",
-      "description": "<p>When you activate your Rage and as a Bonus Action while your Rage is active, you can teleport up to 60 feet to an unoccupied space you can see.</p><p>In addition, once per Rage, you can increase the range of that teleport to 150 feet. When you do so, you can also bring up to six willing creatures who are within 10 feet of you. Each creature teleports to an unoccupied space of your choice within 10 feet of your destination space.</p>",
+      "name": "世界樹之奇旅",
+      "description": "<p>當你啟用狂暴時，你可以傳送至多60呎的距離，到一處你所能看見的未佔據空間中。在你的狂暴啟用期間，你也能夠以一個附贈動作來進行傳送。</p><p>此外，每次狂暴一次，你可以使傳送的距離提升至150呎，並可以選擇帶上至多6個位於你10呎內的自願生物與你一起傳送。每個其他生物都將被傳送至位於你目的地10呎內的你選擇的未佔據空間中。</p>",
       "activities": {
         "Teleport": {
-          "name": "Teleport"
+          "name": "傳送"
         },
         "Extended Teleport": {
-          "name": "Extended Teleport",
-          "target": "within 10 feet of you"
+          "name": "延伸傳送",
+          "target": "位於你10呎內"
         }
       }
     },
@@ -5660,20 +5660,20 @@
       "description": "<p>You gain the ability to distract targets with your <em>Mage Hand</em>. When you use the [[/item Cunning Strike activity=\"Trip\"]]{Trip} option of your Cunning Strike on a creature, you can also use that option on another creature within 5 feet of the spectral hand.</p>"
     },
     "Visions of Distant Realms": {
-      "name": "Visions of Distant Realms",
-      "description": "<blockquote><p>先決條件：Level 9+ Warlock</p></blockquote><p>You can cast @UUID[Compendium.dnd-players-handbook.spells.Item.phbsplArcaneEye0]{Arcane Eye} without expending a spell slot.</p><section class=\"secret\" id=\"secret-yVljO3Op1LVKKBRZ\"><p><strong>Foundry Note</strong></p><p>This feature can be used in place of Arcane Eye and includes a <strong>Summon</strong> activity.</p></section>"
+      "name": "穹宇盡視",
+      "description": "<blockquote><p>先決條件：契術師等級9以上</p></blockquote><p>你能無需消耗法術位地施放@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplArcaneEye0]{祕法眼}。</p><hr /><p>@Embed[Compendium.dnd-players-handbook.spells.Item.phbsplArcaneEye0 inline]</p>"
     },
     "Vitality of the Tree": {
-      "name": "Vitality of the Tree",
-      "description": "<p>你的狂暴會汲取世界之樹的生命力。你獲得下列好處。</p><p><strong>【活力如潮】</strong>當你啟用狂暴時，你獲得等同於你野蠻人等級的臨時生命值。</p><p><strong>【生命賦予】</strong>狂暴啟用期間，在你每一回合開始時，你可以選擇自身10呎內另一個生物獲得臨時生命值。擲數量等同於你狂暴傷害加值的d6，並將他們加在一起，以決定臨時生命值的數值。當你的狂暴結束，若這些臨時生命值尚有剩餘，將會消失。</p><section class=\"secret\" id=\"secret-6DP7OmiyG1ibcVqP\"><p><strong>Foundry Note</strong></p><p>This feature includes an activity for <strong>Vitality Surge</strong> and <strong>Life-Giving Force</strong> which can be used to roll the Temporary HP. It does not automatically remove Life-Giving Force's Temporary Hit Points when your Rage ends.</p></section>",
+      "name": "聖樹活力",
+      "description": "<p>你的狂暴會汲取世界之樹的生命力。你獲得下列好處。</p><p><strong>【活力如潮】</strong>當你啟用狂暴時，你獲得等同於你野蠻人等級的臨時生命值。</p><p><strong>【生命賦予】</strong>狂暴啟用期間，在你每一回合開始時，你可以選擇自身10呎內另一個生物獲得臨時生命值。擲數量等同於你狂暴傷害加值的d6，並將他們加在一起，以決定臨時生命值的數值。當你的狂暴結束，若這些臨時生命值尚有剩餘，將會消失。</p><section class=\"secret\" id=\"secret-6DP7OmiyG1ibcVqP\"><p><strong>【Foundry註記】</strong></p><p>此特性包含<strong>活力如潮</strong>與<strong>生命賦予</strong>的行動，可用來擲出臨時生命值。狂暴結束時，生命賦予的臨時生命值不會自動移除。</p></section>",
       "activities": {
         "Vitality Surge": {
-          "name": "Vitality Surge",
-          "condition": "When you activate your Rage"
+          "name": "活力如潮",
+          "condition": "當你啟用狂暴時"
         },
         "Life-Giving Force": {
-          "condition": "Start of each of your turns while your Rage is active",
-          "name": "Life-Giving Force"
+          "condition": "狂暴啟用期間，在你每一回合開始時",
+          "name": "生命賦予"
         }
       }
     },
@@ -5886,12 +5886,12 @@
       }
     },
     "Warrior of the Gods": {
-      "name": "Warrior of the Gods",
-      "description": "<p>某個神聖的存在總能使你持續不斷地戰鬥。你擁有4枚d12所構成的治療池，可以消耗以治療自己。作為一個附贈動作，從治療池中消耗並擲出任意數量的骰子，恢復結果總數的生命值。</p><p>當你完成一次長休時，你的治療池重獲所有已消耗的骰子。</p><p>治療池中骰子的數量將會在你達到特定野蠻人等級時增加，分別為6級時5枚，12級時6枚，17級時7枚。</p><section class=\"secret\" id=\"secret-er80mQOJaHK8ww7M\"><p><strong>Foundry Note</strong></p><p>The pool's increase is automatically handled in this feature. This feature also allows scaling up the number of dice you would like to expend for healing.</p></section>",
+      "name": "神之勇者",
+      "description": "<p>某個神聖的存在總能使你持續不斷地戰鬥。你擁有4枚d12所構成的治療池，可以消耗以治療自己。作為一個附贈動作，從治療池中消耗並擲出任意數量的骰子，恢復結果總值的生命值。</p><p>當你完成一次長休時，你的治療池重獲所有已消耗的骰子。</p><p>治療池中骰子的最大數量將會在你達到特定野蠻人等級時增加，分別為6級時5枚，12級時6枚，17級時7枚。</p>",
       "advancement": {
         "Pool Size": {
           "title": "Pool Size",
-          "name": "Pool Size"
+          "name": "治療池骰數"
         }
       }
     },
@@ -5910,8 +5910,8 @@
       "description": "<p>你對武器的訓練使你能夠運用兩種自選的簡易或軍用近戰武器的精通屬性，例如巨斧和手斧。每當你完成一次長休時，你可以重新演練武器技巧，來更換所選擇的其中一種武器。</p><p>當你到達特定的野蠻人等級時，你還可以使用更多種武器的精通屬性，詳見野蠻人特性表中武器精通一欄。</p>"
     },
     "Whispers of the Grave": {
-      "name": "Whispers of the Grave",
-      "description": "<blockquote><p>先決條件：契術師等級7以上</p></blockquote><p>你可以不消耗任何法術位施放@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplSpeakwithD]。</p>",
+      "name": "墳塋歿語",
+      "description": "<blockquote><p>先決條件：契術師等級7以上</p></blockquote><p>你可以不消耗任何法術位施放@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplSpeakwithD]{死者交談術}。</p><hr /><p>@Embed[Compendium.dnd-players-handbook.spells.Item.phbsplSpeakwithD inline]</p>",
       "activities": {
         "Whisper": {
           "name": "Whisper"
@@ -5979,14 +5979,14 @@
       }
     },
     "Witch Sight": {
-      "name": "Witch Sight",
-      "description": "<blockquote><p>先決條件：契術師等級15以上</p></blockquote><p>你擁有30呎的真實視野。</p><section id=\"secret-yUE0N1X1QX3kZHcx\" class=\"secret\"><p><strong>Foundry Note</strong></p><p>This feature includes an Active Effect which automatically grants you Truesight.</p></section>",
+      "name": "巫術視界",
+      "description": "<blockquote><p>先決條件：契術師等級15以上</p></blockquote><p>你擁有30呎的真視。</p><section id=\"secret-yUE0N1X1QX3kZHcx\" class=\"secret\"><p><strong>【Foundry註記】</strong></p><p>此特性包含一項 Active Effect，會自動賦予你真視。</p></section>",
       "effects": {
         "Witch Sight": {
           "name": "Witch Sight"
         },
         "Truesight (30 ft)": {
-          "name": "Truesight (30 ft)"
+          "name": "真視（30呎）"
         }
       }
     },
@@ -6059,20 +6059,20 @@
       }
     },
     "Zealous Presence": {
-      "name": "Zealous Presence",
-      "description": "<p>As a Bonus Action, you unleash a battle cry infused with divine energy. Up to ten other creatures of your choice within 60 feet of you gain Advantage on attack rolls and saving throws until the start of your next turn.</p><p>Once you use this feature, you can't use it again until you finish a Long Rest unless you expend a use of your Rage (no action required) to restore your use of it.</p><section class=\"secret\" id=\"secret-jLt4ZN8yZicBocd7\"><p><strong>Foundry Note</strong></p><p>This <strong>Battle Cry</strong> activity includes an Active Effect for tracking impacted creatures but does not automate the advantage on attack rolls and saving throws.</p><p>The <strong>Recharge with Rage</strong> expends a Rage and restores a use of this feature.</p></section>",
+      "name": "狂熱威儀",
+      "description": "<p>以一個附贈動作，你以滿腔神聖能量發出戰吼。選擇至多十名位於你60呎內的其他生物，直到你的下個回合開始前，這些生物的攻擊檢定和豁免檢定具有優勢。</p><p>此特性一經使用，直到完成長休前你都無法再次使用。你也可以消耗一次狂暴使用次數（無需動作）來重置此特性的使用權。</p><section class=\"secret\" id=\"secret-jLt4ZN8yZicBocd7\"><p><strong>【Foundry註記】</strong></p><p><strong>戰吼</strong>行動包含一項Active Effect，用來追蹤受影響的生物，但不會自動套用攻擊檢定和豁免檢定的優勢。</p><p><strong>以狂暴充能</strong>會消耗一次狂暴使用次數，並恢復此特性的使用次數。</p></section>",
       "activities": {
         "Battle Cry": {
-          "name": "Battle Cry"
+          "name": "戰吼"
         },
         "Recharge with Rage": {
-          "name": "Recharge with Rage"
+          "name": "以狂暴充能"
         }
       },
       "effects": {
         "Zealous Presence": {
-          "name": "Zealous Presence",
-          "description": "<p>You gain Advantage on attack rolls and saving throws until the start of Zealots next turn.</p>"
+          "name": "狂熱威儀",
+          "description": "<p>你在攻擊檢定和豁免檢定中具有優勢，直到被賦予此效果的狂熱者下個回合開始。</p>"
         }
       }
     },
@@ -6082,7 +6082,7 @@
     },
     "phbclcEpicBoon00": {
       "name": "傳奇恩惠",
-      "description": "<p>You gain an @UUID[Compendium.dnd-players-handbook.content.JournalEntry.phbFeats00000000.JournalEntryPage.GxfrwkJbrIvn7reC]{Epic Boon feat} or another feat of your choice for which you qualify. @UUID[Compendium.dnd-players-handbook.feats.Item.phbBoonofFate000]{Boon of Fate} is recommended.</p>"
+      "description": "<p>你獲得一項@UUID[Compendium.dnd-players-handbook.content.JournalEntry.phbFeats00000000.JournalEntryPage.GxfrwkJbrIvn7reC]{傳奇恩惠專長}，或另一項你所選擇且符合先決條件的專長。推薦選擇@UUID[Compendium.dnd-players-handbook.feats.Item.phbBoonofFate000]{命運恩惠}。</p>"
     },
     "phbdrdEpicBoon00": {
       "name": "傳奇恩惠",
