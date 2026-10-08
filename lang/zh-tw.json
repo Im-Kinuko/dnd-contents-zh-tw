@@ -147,20 +147,20 @@
       "Attack": {
         "AdvantageMode": "{name}攻擊優勢模式",
         "Bonus": "{name}攻擊加值",
-        "最大值": "最大{name}攻擊檢定",
+        "Maximum": "最大{name}攻擊檢定",
         "Minimum": "最小{name}攻擊檢定"
       },
       "Check": {
         "AdvantageMode": "{name}檢定優勢模式",
         "Bonus": "{name}檢定加值",
-        "最大值": "最大{name}檢定擲骰",
+        "Maximum": "最大{name}檢定擲骰",
         "Minimum": "最小{name}檢定擲骰"
       },
-      "最大值": "最大{name}",
+      "Maximum": "最大{name}",
       "Save": {
         "AdvantageMode": "{name}豁免優勢模式",
         "Bonus": "{name}豁免加值",
-        "最大值": "最大{name}豁免檢定",
+        "Maximum": "最大{name}豁免檢定",
         "Minimum": "最小{name}豁免檢定",
         "Proficiency": "{name}豁免熟練"
       },
@@ -828,7 +828,7 @@
           "Identifier": "此等級的比例值可透過以下公式存取：<br><copyable-text>@scale.{class}.{identifier}</copyable-text>",
           "Label": "其他"
         },
-        "使用方式": {
+        "Usage": {
           "FIELDS": {
             "period": {
               "label": "期間"
@@ -1023,9 +1023,9 @@
       "Thickness": "厚",
       "Width": "寬"
     },
-    "標籤": "範圍效果",
+    "Label": "範圍效果",
     "Size": {
-      "標籤": "尺寸",
+      "Label": "尺寸",
       "Height": "高度",
       "Length": "長度",
       "Radius": "半徑",
@@ -1040,14 +1040,14 @@
       "CreateFormula": "建立自訂公式",
       "DeleteFormula": "刪除自訂公式"
     },
-    "計算方式": {
-      "穿著護甲": "已裝備護甲",
-      "自訂": "自訂",
+    "Calculation": {
+      "Armored": "已裝備護甲",
+      "Custom": "自訂",
       "Draconic": "龍族韌性",
-      "標籤": "計算方式",
+      "Label": "計算方式",
       "Mage": "法師護甲",
       "Natural": "天生護甲",
-      "無甲": "無甲",
+      "Unarmored": "無甲",
       "UnarmoredBarbarian": "無甲防禦（野蠻人）",
       "UnarmoredBard": "無甲防禦（吟遊詩人）",
       "UnarmoredMonk": "無甲防禦（武僧）"
@@ -1056,7 +1056,7 @@
       "Positive": "必須有{type}",
       "Negative": "必須沒有{type}"
     },
-    "調整": "調整",
+    "Configuration": "調整",
     "CurrentFormula": "目前公式",
     "CustomFormulas": {
       "Empty": "沒有自訂公式。請使用上方的 <i class=\"fas fa-plus\"></i> 按鈕來建立。"
@@ -1125,8 +1125,8 @@
         }
       }
     },
-    "固定值": "固定值",
-    "公式": "公式"
+    "Flat": "固定值",
+    "Formula": "公式"
   },
   "DND5E.ArmorClass": "AC",
   "DND5E.ArmorHeavyProficiency": "重甲",
@@ -1135,7 +1135,7 @@
   "DND5E.ArmorValue": "護甲數值",
   "DND5E.AC": "AC",
   "DND5E.ATTACK": {
-    "攻擊": {
+    "Attack": {
       "mwak": "近戰攻擊",
       "rwak": "遠程攻擊"
     },
@@ -1204,7 +1204,7 @@
     },
     "Hint": "進行攻擊檢定並擲傷害骰。",
     "Mode": {
-      "標籤": "攻擊模式",
+      "Label": "攻擊模式",
       "Offhand": "副手",
       "OneHanded": "單手",
       "Ranged": "遠程",
@@ -1233,7 +1233,7 @@
   "DND5E.AttackRoll": "攻擊骰",
   "DND5E.Attributes": "屬性",
   "DND5E.AttrConcentration": {
-    "上限": "上限"
+    "Limit": "上限"
   },
   "DND5E.Automatic": "自動",
   "DND5E.AutomaticValue": "自動({value})",
@@ -1255,8 +1255,8 @@
   "DND5E.BackgroundName": "背景名稱",
   "DND5E.BaseItem": "基礎物品",
   "DND5E.BASE": {
-    "圖片": "圖片",
-    "名稱": "名稱"
+    "Image": "圖片",
+    "Name": "名稱"
   },
   "DND5E.Bastion": {
     "Action": {
@@ -1264,9 +1264,9 @@
       "Maintain": "維護堡壘",
       "BastionTurn": "推進堡壘回合"
     },
-    "攻擊": {
+    "Attack": {
       "Automatic": "自動解決",
-      "公式": "攻擊公式",
+      "Formula": "攻擊公式",
       "NoActorWarning": "尚未選擇作為攻擊目標的角色。請選擇一個角色的指示物，或打開其角色卡。",
       "Resolve": "解決攻擊",
       "Result": {
@@ -1280,9 +1280,9 @@
       },
       "Title": "堡壘攻擊"
     },
-    "調整": {
-      "名稱": "堡壘",
-      "標籤": "配置堡壘",
+    "Configuration": {
+      "Name": "堡壘",
+      "Label": "配置堡壘",
       "Hint": "針對DMG 2024中所述的堡壘系統進行各項設定。"
     },
     "Confirm": "要推進一個堡壘回合嗎？",
@@ -1308,7 +1308,7 @@
       "Claimed": "已領取",
       "Unclaimed": "未領取"
     },
-    "標籤": "堡壘",
+    "Label": "堡壘",
     "Reminder": {
       "Elapsed": "距離上一次堡壘回合已經過了{time}。",
       "Triggered": "發生一次堡壘回合。",
@@ -1325,14 +1325,14 @@
       "Pending": "待處理交易"
     },
     "Button": {
-      "標籤": "顯示堡壘回合按鈕",
+      "Label": "顯示堡壘回合按鈕",
       "Hint": "在主遊戲介面中顯示一個用於推進堡壘回合的按鈕。"
     },
     "Duration": {
-      "標籤": "堡壘回合持續時間（天）"
+      "Label": "堡壘回合持續時間（天）"
     },
-    "啟用": {
-      "標籤": "啟用堡壘功能",
+    "Enabled": {
+      "Label": "啟用堡壘功能",
       "Hint": "啟用後，玩家角色在達到 5 級時將在角色卡上解鎖新的堡壘分頁，並能建造設施與下達指令。"
     }
   },
@@ -1343,7 +1343,7 @@
     },
     "Empty": "沒有關聯的行為。請使用上方的 <i class=\"fas fa-plus\"></i> 按鈕來建立。",
     "Hint": "這些行為將會應用於此行動所放置的任何效果範圍（Area of Effect）。",
-    "標籤": "行為"
+    "Label": "行為"
   },
   "DND5E.Biography": "傳記",
   "DND5E.BiographyPublic": "公開傳記",
@@ -1427,15 +1427,15 @@
       "SetDate": "設定日期"
     },
     "Component": {
-      "天": "天",
-      "月": "月",
-      "年": "年"
+      "Day": "天",
+      "Month": "月",
+      "Year": "年"
     },
-    "調整": {
+    "Configuration": {
       "DisabledMessage": "DM 必須先啟用日曆介面，玩家才能使用它。",
       "Hint": "控制是否顯示日曆 HUD 以及其運作方式。",
-      "標籤": "設定日曆",
-      "名稱": "日曆",
+      "Label": "設定日曆",
+      "Name": "日曆",
       "Preferences": "日曆偏好設定",
       "UnavailableMessage": "預設日曆介面無法使用，因為已被模組停用。"
     },
@@ -1471,86 +1471,86 @@
       "Date": "日期格式器",
       "ApproximateDate": {
         "EarlySeason": "{season}初",
-        "標籤": "大概日期",
+        "Label": "大概日期",
         "LateSeason": "{season}末",
         "MidSeason": "仲{season}"
       },
       "ApproximateTime": {
-        "下午": "下午",
-        "黎明": "黎明",
-        "黃昏": "黃昏",
-        "傍晚": "傍晚",
-        "標籤": "大概時間",
-        "午夜": "午夜",
-        "早晨": "早晨",
-        "夜晚": "夜晚",
-        "中午": "中午",
-        "日出": "日出",
-        "日落": "日落"
+        "Afternoon": "下午",
+        "Dawn": "黎明",
+        "Dusk": "黃昏",
+        "Evening": "傍晚",
+        "Label": "大概時間",
+        "Midnight": "午夜",
+        "Morning": "早晨",
+        "Night": "夜晚",
+        "Noon": "中午",
+        "Sunrise": "日出",
+        "Sunset": "日落"
       },
       "HoursMinutes": {
         "Format": "{H}:{M}",
-        "標籤": "時 & 分"
+        "Label": "時 & 分"
       },
       "HoursMinutesSeconds": {
         "Format": "{H}:{M}:{S}",
-        "標籤": "時、分、秒"
+        "Label": "時、分、秒"
       },
       "MonthDay": {
         "Format": "{B} {D}",
-        "標籤": "月 & 日"
+        "Label": "月 & 日"
       },
       "MonthDayYear": {
         "Format": "{B} {D}, {y}",
-        "標籤": "月、日、年"
+        "Label": "月、日、年"
       },
       "Time": "時間格式器"
     },
     "Gregorian": "公曆（格里曆）",
     "Greyhawk": {
-      "天": {
-        "星群日 (Starday)": "星群日 (Starday)",
-        "太陽日 (Sunday)": "太陽日 (Sunday)",
-        "明月日 (Moonday)": "明月日 (Moonday)",
-        "諸神日 (Godsday)": "諸神日 (Godsday)",
-        "海潮日 (Waterday)": "海潮日 (Waterday)",
-        "大地日 (Earthday)": "大地日 (Earthday)",
-        "自由日 (Freeday)": "自由日 (Freeday)"
+      "Day": {
+        "Starday": "星群日 (Starday)",
+        "Sunday": "太陽日 (Sunday)",
+        "Moonday": "明月日 (Moonday)",
+        "Godsday": "諸神日 (Godsday)",
+        "Waterday": "海潮日 (Waterday)",
+        "Earthday": "大地日 (Earthday)",
+        "Freeday": "自由日 (Freeday)"
       },
       "Festival": {
-        "祈願節 (Needfest)": "祈願節 (Needfest)",
-        "春華節 (Growfest)": "春華節 (Growfest)",
-        "豐收節 (Richfest)": "豐收節 (Richfest)",
-        "釀酒節 (Brewfest)": "釀酒節 (Brewfest)"
+        "Needfest": "祈願節 (Needfest)",
+        "Growfest": "春華節 (Growfest)",
+        "Richfest": "豐收節 (Richfest)",
+        "Brewfest": "釀酒節 (Brewfest)"
       },
       "Formatters": {
         "MonthDay": "{B} {d}",
         "MonthDayYear": "{B} {d}, {y}"
       },
-      "月": {
-        "尋火月 (Fireseek)": "尋火月 (Fireseek)",
-        "備耕月 (Readying)": "備耕月 (Readying)",
-        "冷風月 (Coldeven)": "冷風月 (Coldeven)",
-        "播種月 (Planting)": "播種月 (Planting)",
-        "牧群月 (Flocktime)": "牧群月 (Flocktime)",
-        "福陽月 (Wealsun)": "福陽月 (Wealsun)",
-        "收割月 (Reaping)": "收割月 (Reaping)",
-        "神之月 (Godmonth)": "神之月 (Godmonth)",
-        "收成月 (Harvester)": "收成月 (Harvester)",
-        "補牆月 (Patchwall)": "補牆月 (Patchwall)",
+      "Month": {
+        "Fireseek": "尋火月 (Fireseek)",
+        "Readying": "備耕月 (Readying)",
+        "Coldeven": "冷風月 (Coldeven)",
+        "Planting": "播種月 (Planting)",
+        "Flocktime": "牧群月 (Flocktime)",
+        "Wealsun": "福陽月 (Wealsun)",
+        "Reaping": "收割月 (Reaping)",
+        "Godmonth": "神之月 (Godmonth)",
+        "Harvester": "收成月 (Harvester)",
+        "Patchwall": "補牆月 (Patchwall)",
         "Readyreat": "備冬月 (Ready’reat)",
-        "日暮月 (Sunsebb)": "日暮月 (Sunsebb)"
+        "Sunsebb": "日暮月 (Sunsebb)"
       },
-      "名稱": "灰鷹曆 (Calendar of Greyhawk)",
+      "Name": "灰鷹曆 (Calendar of Greyhawk)",
       "Season": {
-        "春": "春",
-        "夏": "夏",
-        "秋": "秋",
-        "冬": "冬"
+        "Spring": "春",
+        "Summer": "夏",
+        "Autumn": "秋",
+        "Winter": "冬"
       }
     },
     "Harptos": {
-      "天": {
+      "Day": {
         "One": "一之日 (one-day)",
         "Two": "二之日 (two-day)",
         "Three": "三之日 (three-day)",
@@ -1563,11 +1563,11 @@
         "Ten": "十之日 (ten-day)"
       },
       "Festival": {
-        "仲冬節 (Midwinter)": "仲冬節 (Midwinter)",
-        "綠草節 (Greengrass)": "綠草節 (Greengrass)",
-        "仲夏節 (Midsummer)": "仲夏節 (Midsummer)",
-        "盾會節 (Shieldmeet)": "盾會節 (Shieldmeet)",
-        "豐收節 (Highharvestide)": "豐收節 (Highharvestide)",
+        "Midwinter": "仲冬節 (Midwinter)",
+        "Greengrass": "綠草節 (Greengrass)",
+        "Midsummer": "仲夏節 (Midsummer)",
+        "Shieldmeet": "盾會節 (Shieldmeet)",
+        "Highharvestide": "豐收節 (Highharvestide)",
         "FeastOfTheMoon": "月之盛宴 (The Feast of the Moon)"
       },
       "Formatters": {
@@ -1575,80 +1575,80 @@
         "DayMonthYear": "谷地曆{y}年{B}{d}日",
         "FestivalDayYear": "谷地曆{y}年{day}"
       },
-      "月": {
-        "哈莫月 (Hammer)": "哈莫月 (Hammer)",
+      "Month": {
+        "Hammer": "哈莫月 (Hammer)",
         "HammerCommon": "深冬 (Deepwinter)",
-        "魯里月 (Alturiak)": "魯里月 (Alturiak)",
+        "Alturiak": "魯里月 (Alturiak)",
         "AlturiakCommon": "冬爪 (The Claw of Winter)",
-        "徹斯月 (Ches)": "徹斯月 (Ches)",
+        "Ches": "徹斯月 (Ches)",
         "ChesCommon": "暮爪 (The Claw of the Sunsets)",
-        "塔司月 (Tarsakh)": "塔司月 (Tarsakh)",
+        "Tarsakh": "塔司月 (Tarsakh)",
         "TarsakhCommon": "風爪 (The Claw of the Storms)",
-        "莫多月 (Mirtul)": "莫多月 (Mirtul)",
+        "Mirtul": "莫多月 (Mirtul)",
         "MirtulCommon": "融雪 (The Melting)",
-        "凱索月 (Kythorn)": "凱索月 (Kythorn)",
+        "Kythorn": "凱索月 (Kythorn)",
         "KythornCommon": "花期 (The Time of Flowers)",
-        "菲路月 (Flamerule)": "菲路月 (Flamerule)",
+        "Flamerule": "菲路月 (Flamerule)",
         "FlameruleCommon": "夏潮 (Summertide)",
-        "莉西月 (Eleasis)": "莉西月 (Eleasis)",
+        "Eleasis": "莉西月 (Eleasis)",
         "EleasisCommon": "烈日 (Highsun)",
-        "伊萊月 (Eleint)": "伊萊月 (Eleint)",
+        "Eleint": "伊萊月 (Eleint)",
         "EleintCommon": "凋零 (The Fading)",
-        "瑪諾月 (Marpenoth)": "瑪諾月 (Marpenoth)",
+        "Marpenoth": "瑪諾月 (Marpenoth)",
         "MarpenothCommon": "落葉 (Leaffall)",
-        "烏塔月 (Uktar)": "烏塔月 (Uktar)",
+        "Uktar": "烏塔月 (Uktar)",
         "UktarCommon": "腐朽 (The Rotting)",
-        "奈托月 (Nightal)": "奈托月 (Nightal)",
+        "Nightal": "奈托月 (Nightal)",
         "NightalCommon": "沉暮 (The Drawing Down)"
       },
-      "名稱": "哈普托斯曆法（被遺忘的國度）",
+      "Name": "哈普托斯曆法（被遺忘的國度）",
       "Season": {
-        "春": "春",
-        "夏": "夏",
-        "秋": "秋",
-        "冬": "冬"
+        "Spring": "春",
+        "Summer": "夏",
+        "Autumn": "秋",
+        "Winter": "冬"
       }
     },
     "Khorvaire": {
-      "天": {
-        "蘇爾日 (Sul)": "蘇爾日 (Sul)",
-        "莫爾日 (Mol)": "莫爾日 (Mol)",
-        "佐爾日 (Zol)": "佐爾日 (Zol)",
-        "威爾日 (Wir)": "威爾日 (Wir)",
-        "佐爾日 (Zor)": "佐爾日 (Zor)",
-        "法爾日 (Far)": "法爾日 (Far)",
-        "薩爾日 (Sar)": "薩爾日 (Sar)"
+      "Day": {
+        "Sul": "蘇爾日 (Sul)",
+        "Mol": "莫爾日 (Mol)",
+        "Zol": "佐爾日 (Zol)",
+        "Wir": "威爾日 (Wir)",
+        "Zor": "佐爾日 (Zor)",
+        "Far": "法爾日 (Far)",
+        "Sar": "薩爾日 (Sar)"
       },
       "Formatters": {
         "DayMonth": "{d} {B}",
         "DayMonthYear": "科瓦雷曆{y}年{B}{d}日"
       },
-      "月": {
-        "札蘭提爾月 (Zarantyr)": "札蘭提爾月 (Zarantyr)",
-        "歐拉倫月 (Olarune)": "歐拉倫月 (Olarune)",
-        "瑟瑞多月 (Therendor)": "瑟瑞多月 (Therendor)",
-        "艾爾月 (Eyre)": "艾爾月 (Eyre)",
-        "卓瓦戈月 (Dravago)": "卓瓦戈月 (Dravago)",
-        "寧姆月 (Nymm)": "寧姆月 (Nymm)",
-        "拉維昂月 (Lharvion)": "拉維昂月 (Lharvion)",
-        "巴拉卡斯月 (Barrakas)": "巴拉卡斯月 (Barrakas)",
-        "拉恩月 (Rhaan)": "拉恩月 (Rhaan)",
-        "賽斐洛斯月 (Sypheros)": "賽斐洛斯月 (Sypheros)",
-        "阿瑞斯月 (Aryth)": "阿瑞斯月 (Aryth)",
-        "瓦爾特月 (Vult)": "瓦爾特月 (Vult)"
+      "Month": {
+        "Zarantyr": "札蘭提爾月 (Zarantyr)",
+        "Olarune": "歐拉倫月 (Olarune)",
+        "Therendor": "瑟瑞多月 (Therendor)",
+        "Eyre": "艾爾月 (Eyre)",
+        "Dravago": "卓瓦戈月 (Dravago)",
+        "Nymm": "寧姆月 (Nymm)",
+        "Lharvion": "拉維昂月 (Lharvion)",
+        "Barrakas": "巴拉卡斯月 (Barrakas)",
+        "Rhaan": "拉恩月 (Rhaan)",
+        "Sypheros": "賽斐洛斯月 (Sypheros)",
+        "Aryth": "阿瑞斯月 (Aryth)",
+        "Vult": "瓦爾特月 (Vult)"
       },
-      "名稱": "科瓦雷曆法（艾伯倫）",
+      "Name": "科瓦雷曆法（艾伯倫）",
       "Season": {
-        "春": "春",
-        "夏": "夏",
-        "秋": "秋",
-        "冬": "冬"
+        "Spring": "春",
+        "Summer": "夏",
+        "Autumn": "秋",
+        "Winter": "冬"
       }
     },
     "TimePassage": {
-      "午夜": "新的一天開始了。",
-      "日出": "太陽升起了。",
-      "日落": "太陽下山了。",
+      "Midnight": "新的一天開始了。",
+      "Sunrise": "太陽升起了。",
+      "Sunset": "太陽下山了。",
       "SunsetSunrise": "太陽落下，新的一天黎明已經到來。",
       "TimePassed": {
         "one": "已經過了{number}。",
@@ -1663,7 +1663,7 @@
       "RemoveSpell": "移除法術"
     },
     "Enchantment": {
-      "名稱": "法術變更"
+      "Name": "法術變更"
     },
     "FIELDS": {
       "spell": {
@@ -1753,7 +1753,7 @@
     "LeftClick": "點擊左鍵",
     "LockHint": "點擊中鍵鎖定頁面",
     "MiddleClick": "點擊中鍵",
-    "名稱": "啟用操作提示",
+    "Name": "啟用操作提示",
     "Activity": {
       "FastForwardHint": "<kbd>Shift</kbd> + <left-click> 此物品以略過此對話框"
     }
@@ -1817,14 +1817,14 @@
     },
     "Row": {
       "Actions": "物品動作",
-      "物品": "物品",
+      "Item": "物品",
       "Properties": "物品屬性",
       "Roll": "擲骰",
       "rollCheck": "屬性檢定",
       "rollSave": "豁免檢定",
-      "目標": "目標"
+      "Target": "目標"
     },
-    "目標": {
+    "Target": {
       "Count": "{number} × {name}"
     },
     "TURN": {
@@ -1930,19 +1930,19 @@
     },
     "Column": {
       "Icon": "圖示",
-      "名稱": "名稱",
+      "Name": "名稱",
       "Results": "結果",
       "Source": "資源"
     },
     "Filters": {
-      "標籤": "篩選",
+      "Label": "篩選",
       "Grouped": "{type}({group})",
       "HasDarkvision": "擁有黑暗視覺",
       "HasSpellcasting": "可施法",
       "SearchResults": "搜尋結果"
     },
     "Selection": {
-      "標籤": "已選擇：{summary}",
+      "Label": "已選擇：{summary}",
       "Select": "選擇",
       "Summary": {
         "Max": "<span class=\"value\">{value}</span>（上限{max}）",
@@ -1962,8 +1962,8 @@
       }
     },
     "Sources": {
-      "名稱": "合集包瀏覽器資源",
-      "標籤": "設定資源",
+      "Name": "合集包瀏覽器資源",
+      "Label": "設定資源",
       "FilterPackages": "篩選資料包",
       "Hint": "設定哪些合集包的內容可以在合集包瀏覽器中顯示。"
     },
@@ -1973,7 +1973,7 @@
       "Monster.other": "怪物"
     },
     "Types": {
-      "標籤": "類型"
+      "Label": "類型"
     },
     "Locked": "已鎖定"
   },
@@ -2011,13 +2011,13 @@
   "DND5E.ConDiseased": "疾病",
   "DND5E.ConExhaustion": "力竭",
   "DND5E.ConFrightened": "恐慌",
-  "DND5E.ConGrappled": "被擒",
+  "DND5E.ConGrappled": "受擒",
   "DND5E.ConIncapacitated": "失能",
   "DND5E.ConInvisible": "隱形",
   "DND5E.ConParalyzed": "麻痺",
   "DND5E.ConPetrified": "石化",
   "DND5E.ConPoisoned": "中毒",
-  "DND5E.ConProne": "倒地",
+  "DND5E.ConProne": "伏地",
   "DND5E.ConRestrained": "束縛",
   "DND5E.ConStunned": "震懾",
   "DND5E.ConUnconscious": "昏迷",
@@ -2155,9 +2155,9 @@
       }
     },
     "Category": {
-      "毒素": "彈藥"
+      "Poison": "彈藥"
     },
-    "類型": {
+    "Type": {
       "Ammunition": {
         "Label": "彈藥",
         "Arrow": "箭矢",
@@ -2170,7 +2170,7 @@
       "Food": {
         "Label": "食物"
       },
-      "毒素": {
+      "Poison": {
         "Label": "毒藥",
         "Contact": "接觸",
         "Ingested": "攝入",
@@ -2266,11 +2266,11 @@
       "None": "無增長",
       "SlotLevel": "環位等級"
     },
-    "目標": {
+    "Target": {
       "ThisItem": "此物品",
       "UnknownItem": "未知物品"
     },
-    "類型": {
+    "Type": {
       "Action": {
         "Prompt": "要消耗{type}嗎?",
         "PromptHint": "消耗{cost}（當前可用：{available}）。"
@@ -2393,8 +2393,8 @@
   "DND5E.CreatureTypeConfig": "配置生物類型",
   "DND5E.CreatureTypeSelectorCustom": "自定義類型",
   "DND5E.CreatureTypeSelectorSubtype": "亞種",
-  "DND5E.CreatureUndead": "亡靈",
-  "DND5E.CreatureUndeadPl": "亡靈",
+  "DND5E.CreatureUndead": "不死生物",
+  "DND5E.CreatureUndeadPl": "不死生物",
   "DND5E.Crewed": "成員",
   "DND5E.Critical": "重擊",
   "DND5E.CriticalHit": "重擊命中",
@@ -2513,7 +2513,7 @@
     "PhysicalBypass": {
       "Description": "來自非{bypassTypes}攻擊的{damageTypes}",
       "DescriptionShort": "被{type}來源繞過",
-      "Hint": "這些武器屬性將無視物理傷害的抗性。",
+      "Hint": "這些武器屬性將無視物理傷害的抗力。",
       "Label": "物理傷害無視"
     },
     "Scaling": {
@@ -2524,38 +2524,38 @@
       "WholeCantrip": "在等級5、11、17時成長"
     },
     "Title": "傷害",
-    "類型": {
-      "強酸": "強酸",
-      "鈍擊": "鈍擊",
-      "寒冷": "寒冷",
-      "火焰": "火焰",
-      "力場": "力場",
-      "閃電": "閃電",
-      "黯蝕": "黯蝕",
-      "穿刺": "穿刺",
-      "毒素": "毒素",
-      "心靈": "心靈",
-      "光耀": "光耀",
-      "揮砍": "揮砍",
-      "雷鳴": "雷鳴"
+    "Type": {
+      "Acid": "強酸",
+      "Bludgeoning": "鈍擊",
+      "Cold": "寒冷",
+      "Fire": "火焰",
+      "Force": "力場",
+      "Lightning": "閃電",
+      "Necrotic": "黯蝕",
+      "Piercing": "穿刺",
+      "Poison": "毒素",
+      "Psychic": "心靈",
+      "Radiant": "光耀",
+      "Slashing": "揮砍",
+      "Thunder": "雷鳴"
     }
   },
   "DND5E.Damage": "傷害",
   "DND5E.DamageApplication": {
     "Back": "回到上一頁",
-    "變更": {
+    "Change": {
       "Modification": "{type}調整",
       "Immunity": "{type}免疫",
-      "Resistance": "{type}抗性",
+      "Resistance": "{type}抗力",
       "Threshold": "傷害閾值",
       "Vulnerability": "{type}易傷"
     },
-    "Downgrading": "將{source}降為抗性",
+    "Downgrading": "將{source}降為抗力",
     "Ignoring": "無視{source}",
     "Multiplier": "傷害倍率",
     "Section": {
       "Changes": "套用至此目標",
-      "倍率": "倍率",
+      "Multiplier": "倍率",
       "Targets": "此群組中的目標"
     },
     "State": {
@@ -2692,7 +2692,7 @@
   "DND5E.EFFECT": {
     "Action": {
       "AddChange": "新增變更",
-      "套用": "套用",
+      "Apply": "套用",
       "CreateEffect": "建立效果",
       "DeleteEffect": "刪除效果",
       "DeleteChange": "刪除變更",
@@ -2768,16 +2768,16 @@
       "Inactive": "未啟用效果",
       "Unavailable": "不可用效果"
     },
-    "變更": {
+    "Change": {
       "Configuration": "變更設定",
       "Group": {
-        "自訂": "自訂",
-        "規則": "規則",
-        "標準": "標準"
+        "Custom": "自訂",
+        "Rules": "規則",
+        "Standard": "標準"
       },
       "Label": "變更",
       "Title": "{effect}變更 #{number}",
-      "類型": {
+      "Type": {
         "Advantage": {
           "Label": "優勢模式"
         },
@@ -2798,17 +2798,17 @@
     },
     "DropHint": "將 Active Effect 拖曳至此處",
     "Empty": "尚未連結任何效果。請點擊上方的<i class=\"fas fa-plus\"></i>按鈕創建，或從下拉選單中選擇一個現有效果。",
-    "已到期": "已到期",
+    "Expired": "已到期",
     "Expiry": {
       "Abbreviation": {
-        "結束": "結束",
-        "開始": "開始"
+        "End": "結束",
+        "Start": "開始"
       },
       "Group": {
-        "一般": "一般",
-        "特定": "特定"
+        "General": "一般",
+        "Specific": "特定"
       },
-      "類型": {
+      "Type": {
         "LongRest": "長休結束時",
         "ShortRest": "短休結束時",
         "SourceEnd": "來源的下個回合結束時",
@@ -2827,10 +2827,10 @@
     },
     "Label": "可用效果",
     "New": "新效果",
-    "替換": {
+    "Replacement": {
       "NoChange": "無變更",
-      "來源": "來源",
-      "目標": "目標"
+      "Source": "來源",
+      "Target": "目標"
     },
     "RIDER": {
       "Activity": "附魔附加行動",
@@ -2851,10 +2851,10 @@
         "hint": "你正受到來自多個來源的此條件影響。請選擇要結束哪個效果。",
         "title": "移除效果"
       },
-      "未啟用": "未啟用",
-      "被動": "被動",
-      "暫時": "暫時",
-      "不可用": "不可用"
+      "Inactive": "未啟用",
+      "Passive": "被動",
+      "Temporary": "暫時",
+      "Unavailable": "不可用"
     },
     "Suppressed": {
       "Hint": "來源物品必須被裝備或同調才能啟動這些效果"
@@ -2956,7 +2956,7 @@
   },
   "DND5E.ENCHANTMENT": {
     "Action": {
-      "套用": "套用附魔",
+      "Apply": "套用附魔",
       "Disable": "禁用附魔",
       "Edit": "編輯附魔",
       "Enable": "啟用附魔",
@@ -2964,8 +2964,8 @@
     },
     "Category": {
       "Active": "啟用中的附魔",
-      "一般": "附魔清單",
-      "未啟用": "未啟用的附魔"
+      "General": "附魔清單",
+      "Inactive": "未啟用的附魔"
     },
     "FIELDS": {
       "magical": {
@@ -3017,9 +3017,9 @@
       "moderate": "中等難度"
     },
     "Tab": {
-      "描述": "描述",
-      "戰利品": "戰利品",
-      "成員": "成員"
+      "Description": "描述",
+      "Loot": "戰利品",
+      "Members": "成員"
     }
   },
   "DND5E.Encumbrance": "負重",
@@ -3061,7 +3061,7 @@
   },
   "DND5E.Environment": "環境",
   "DND5E.EQUIPMENT": {
-    "類型": {
+    "Type": {
       "Clothing": {
         "Label": "服裝"
       },
@@ -3074,7 +3074,7 @@
       "Trinket": {
         "Label": "小飾品"
       },
-      "載具": {
+      "Vehicle": {
         "Label": "載具裝備"
       },
       "Wand": {
@@ -3107,10 +3107,10 @@
     "Pool": "XP 池",
     "Progress": "距離下個等級的進度",
     "StatBlock": {
-      "標準": "XP {value}",
+      "Standard": "XP {value}",
       "Lair": "XP {value}, 在巢穴中為 {lair}"
     },
-    "數值": "XP 值"
+    "Value": "XP 值"
   },
   "DND5E.Expertise": "專長",
   "DND5E.Eyes": "眼睛",
@@ -3148,7 +3148,7 @@
       "DropHint": "將物品拖曳至此處",
       "Hint": "此設施目前正在製作或收成的物品（如有）。"
     },
-    "描述": "描述",
+    "Description": "描述",
     "FIELDS": {
       "building": {
         "built": {
@@ -3366,7 +3366,7 @@
       }
     },
     "Use": {
-      "描述": "已向{link} {facilityType}下達<strong>{order}</strong>命令。"
+      "Description": "已向{link} {facilityType}下達<strong>{order}</strong>命令。"
     }
   },
   "DND5E.FALLING": {
@@ -3417,7 +3417,7 @@
       "Label": "職業特性",
       "ArcaneShot": "祕法射擊",
       "ArtificerInfusion": "奇械師注法",
-      "ArtificerPlan": "奇械師藍圖",
+      "ArtificerPlan": "奇械師方案",
       "ChannelDivinity": "引導神力",
       "DefensiveTactic": "防禦性戰術",
       "EldritchInvocation": "魔能祈喚",
@@ -3435,10 +3435,10 @@
     },
     "Feat": {
       "Label": "專長",
-      "EpicBoon": "史詩恩惠專長",
+      "EpicBoon": "傳奇恩惠專長",
       "FightingStyle": "戰鬥風格",
-      "一般": "一般專長",
-      "來源": "起源專長"
+      "General": "一般專長",
+      "Source": "起源專長"
     },
     "Monster": "怪物特性",
     "PietyTrait": "虔誠特徵",
@@ -3448,9 +3448,9 @@
       "Label": "超自然贈禮",
       "Blessing": "祝福",
       "Charm": "護咒",
-      "EpicBoon": "恩賜"
+      "EpicBoon": "傳奇恩惠"
     },
-    "載具": {
+    "Vehicle": {
       "Label": "載具特性"
     }
   },
@@ -3608,11 +3608,11 @@
       "Remove": "取消主隊伍",
       "Set": "設為主隊伍"
     },
-    "類型": "團體類型",
+    "Type": "團體類型",
     "TypeEncounter": "遭遇",
     "TypeGeneric": "團體",
     "TypeParty": "隊伍",
-    "載具": {
+    "Vehicle": {
       "Count": {
         "one": "載具",
         "other": "載具"
@@ -3645,7 +3645,7 @@
       "Urban": "城市"
     },
     "Configuration": {
-      "自訂": "自定義",
+      "Custom": "自定義",
       "Label": "棲地",
       "Legend": "分類",
       "Subtype": "{type} 子類型",
@@ -3707,12 +3707,12 @@
     "HealingRoll": "治療擲骰",
     "Hint": "治療一個生物",
     "Title": "治療",
-    "類型": {
-      "治療": "Hit Points",
+    "Type": {
+      "Healing": "Hit Points",
       "HealingShort": "治療",
       "Maximum": "最大生命值",
       "MaximumShort": "最大生命值",
-      "暫時": "Temporary Hit Points",
+      "Temporary": "Temporary Hit Points",
       "TemporaryShort": "臨時生命"
     }
   },
@@ -3896,17 +3896,17 @@
       "Finesse": "靈巧",
       "Firearm": "火器",
       "Focus": "法器",
-      "裝備": "裝備",
+      "Gear": "裝備",
       "Heavy": "重型",
       "Light": "輕型",
       "Loading": "裝填",
       "Material": "材料",
-      "魔法": "魔法",
+      "Magical": "魔法",
       "Reach": "觸及",
       "Reload": "裝填",
       "Returning": "返回",
       "Ritual": "儀式",
-      "助手": "助手",
+      "Sidekick": "助手",
       "Silvered": "銀製",
       "Somatic": "姿勢",
       "Special": "特殊",
@@ -3920,22 +3920,22 @@
       "WeightlessContents": "無重量內容"
     },
     "Rarity": {
-      "神器": "神器",
-      "普通": "普通",
-      "傳說": "傳說",
-      "平凡": "平凡",
-      "珍稀": "珍稀",
-      "非普通": "非普通",
-      "可變": "可變",
+      "Artifact": "神器",
+      "Common": "普通",
+      "Legendary": "傳說",
+      "Mundane": "平凡",
+      "Rare": "珍稀",
+      "Uncommon": "非普通",
+      "Varies": "可變",
       "VeryRare": "極珍稀"
     },
     "SECTIONS": {
       "Activities": "行動",
       "Advancement": "成長",
       "Contents": "內容物",
-      "描述": "描述",
+      "Description": "描述",
       "Details": "詳情",
-      "效果": "效果"
+      "Effects": "效果"
     }
   },
   "DND5E.JackOfAllTrades": "全能高手",
@@ -3943,11 +3943,11 @@
     "Action": {
       "ConfigureNavigation": "設定導覽"
     },
-    "導覽": {
+    "Navigation": {
       "Next": "下一頁",
       "Previous": "上一頁",
       "Title": "導覽",
-      "上": "上"
+      "Up": "上"
     }
   },
   "DND5E.LAIR": {
@@ -3965,8 +3965,8 @@
     "Label": "語言",
     "Category": {
       "Exotic": "罕見語言",
-      "珍稀": "珍稀語言",
-      "標準": "標準語言"
+      "Rare": "珍稀語言",
+      "Standard": "標準語言"
     },
     "Communication": {
       "Label": "遠距溝通",
@@ -3978,7 +3978,7 @@
       "Aquan": "水族語",
       "Auran": "氣族語",
       "Celestial": "天界語",
-      "普通": "通用語",
+      "Common": "通用語",
       "CommonSign": "通用手語",
       "DeepSpeech": "深潛語",
       "Draconic": "龍語",
@@ -3987,7 +3987,7 @@
       "Elvish": "精靈語",
       "Giant": "巨人語",
       "Gith": "吉斯語",
-      "Gnoll": "豺狼人語",
+      "Gnoll": "鬣狗人語",
       "Gnomish": "侏儒語",
       "Goblin": "哥布林語",
       "Halfling": "半身人語",
@@ -4054,7 +4054,7 @@
   "DND5E.LimitedUsesMax": "最大次數",
   "DND5E.LimitedUsesPer": "使用恢復模式",
   "DND5E.LimitedUsesPrompt": "使用提示",
-  "DND5E.LimitedUsesPromptTooltip": "如果未勾選，則將抑制消耗可用用途的提示。",
+  "DND5E.LimitedUsesPromptTooltip": "如果未勾選，則消耗可用用途的提示將失效。",
   "DND5E.Long": "長距離",
   "DND5E.Loyalty": "忠誠值",
   "DND5E.MagicalBonus": "魔法加值",
@@ -4857,14 +4857,14 @@
   "DND5E.ScalingMode": "升環模式",
   "DND5E.ScalingValue": "升環數值",
   "DND5E.School": "學派",
-  "DND5E.SchoolAbj": "防護系",
-  "DND5E.SchoolCon": "咒法系",
-  "DND5E.SchoolDiv": "預言系",
-  "DND5E.SchoolEnc": "惑控系",
-  "DND5E.SchoolEvo": "塑能系",
-  "DND5E.SchoolIll": "幻術系",
-  "DND5E.SchoolNec": "死靈系",
-  "DND5E.SchoolTrs": "變化系",
+  "DND5E.SchoolAbj": "防護學派",
+  "DND5E.SchoolCon": "咒法學派",
+  "DND5E.SchoolDiv": "預言學派",
+  "DND5E.SchoolEnc": "惑控學派",
+  "DND5E.SchoolEvo": "塑能學派",
+  "DND5E.SchoolIll": "幻術學派",
+  "DND5E.SchoolNec": "死靈學派",
+  "DND5E.SchoolTrs": "變化學派",
   "DND5E.Size": "體型",
   "DND5E.SizeGargantuan": "超巨型",
   "DND5E.SizeGargantuanAbbr": "超巨型",
@@ -4927,7 +4927,7 @@
   "DND5E.SkillIns": "洞悉",
   "DND5E.SkillInv": "調查",
   "DND5E.SkillItm": "威嚇",
-  "DND5E.SkillMed": "醫療",
+  "DND5E.SkillMed": "醫藥",
   "DND5E.SkillNat": "自然",
   "DND5E.SkillPer": "說服",
   "DND5E.SkillPrc": "察覺",
@@ -5018,7 +5018,7 @@
       }
     }
   },
-  "DND5E.SpellAbility": "施法能力",
+  "DND5E.SpellAbility": "施法屬性",
   "DND5E.SpellAbilitySet": "設定施法關鍵屬性",
   "DND5E.SpellAdd": "增加法術",
   "DND5E.SpellAttackBonus": "法術攻擊加值",
@@ -5375,7 +5375,7 @@
     "Label": "召喚"
   },
   "DND5E.Supply": "供應",
-  "DND5E.Suppressed": "被抑制",
+  "DND5E.Suppressed": "失效",
   "DND5E.TABLEOFCONTENTS": {
     "Action": {
       "Configure": "配置目錄"
@@ -5564,10 +5564,10 @@
         }
       },
       "Emanation": {
-        "Label": "擴散",
+        "Label": "發散",
         "Counted": {
-          "one": "{number} 個擴散區域",
-          "other": "{number} 個擴散區域",
+          "one": "{number} 個發散區域",
+          "other": "{number} 個發散區域",
           "oneSized": "{sizes}發散",
           "otherSized": "{number}個{sizes}發散"
         }
@@ -5666,15 +5666,15 @@
           "any": "任意目標",
           "each": "每個目標",
           "every": "所有目標",
-          "one": "{number} 個目標",
-          "other": "{number} 個目標"
+          "one": "個目標",
+          "other": "個目標"
         }
       },
       "Wall": {
         "Label": "牆面",
         "Counted": {
-          "one": "{number} 面牆",
-          "other": "{number} 面牆",
+          "one": "面牆",
+          "other": "面牆",
           "oneSized": "{sizes}牆形",
           "otherSized": "{number}個{sizes}牆形"
         }
@@ -5685,8 +5685,8 @@
           "any": "任意自願生物",
           "each": "每個自願生物",
           "every": "所有自願生物",
-          "one": "{number} 個自願生物",
-          "other": "{number} 個自願生物"
+          "one": "個自願生物",
+          "other": "個自願生物"
         }
       }
     },
@@ -5732,7 +5732,7 @@
   "DND5E.TargetValue": "目標長度或數量",
   "DND5E.TargetWidth": "線寬",
   "DND5E.TemplatePrompt": "模板提示",
-  "DND5E.TemplatePromptTooltip": "如果沒有勾選，則放置測量模板的提示將不顯示。",
+  "DND5E.TemplatePromptTooltip": "如果沒有勾選，則放置測量模板的提示將失效。",
   "DND5E.Temp": "臨時",
   "DND5E.Threshold": "閾值",
   "DND5E.TimeDay": "天",
@@ -6790,8 +6790,8 @@
     "CheckUsing": "使用{tool}進行{check}",
     "DamageAverage": "{average} <span class=\"formula-group\">({formula})</span> {type}",
     "DamageDouble": "{first} 加上 {second}",
-    "DamageExtended": "<em>命中：</em> {damage} 傷害",
-    "DamageLong": "{average} ({formula}) {type}",
+    "DamageExtended": "<em>命中：</em> {damage}",
+    "DamageLong": "{damage} 傷害",
     "DamageShort": "{formula} {type}",
     "DC": "DC {dc} {check}",
     "DCPassiveShort": "DC {dc}被動{check}",
@@ -6845,15 +6845,15 @@
     "StatusDehydration": "脫水",
     "StatusDodging": "閃避",
     "StatusEncumbered": "重載",
-    "StatusEthereal": "以太",
+    "StatusEthereal": "乙太",
     "StatusExceedingCarryingCapacity": "超過負重上限",
     "StatusFalling": "墜落",
     "StatusFlying": "飛行",
-    "StatusHalfCover": "半掩護",
+    "StatusHalfCover": "半掩蔽",
     "StatusHeavilyEncumbered": "超載",
     "StatusHiding": "躲藏",
     "StatusHovering": "浮空",
-    "StatusMalnutrition": "營養不良",
+    "StatusMalnutrition": "飢餓",
     "StatusMarked": "被標記",
     "StatusSilenced": "沉默",
     "StatusSleeping": "睡眠",
@@ -6861,7 +6861,7 @@
     "StatusSuffocation": "窒息",
     "StatusSurprised": "被突襲",
     "StatusThreeQuartersCover": "四分之三掩護",
-    "StatusTotalCover": "完全掩護",
+    "StatusTotalCover": "全掩蔽",
     "StatusTransformed": "變形"
   },
   "TYPES.JournalEntryPage.class": "職業摘要",
@@ -7232,7 +7232,7 @@
         "Name": "升級模式",
         "NoXP": "無經驗值升級",
         "XP": "經驗值制",
-        "XPBoons": "經驗值加史詩恩惠制"
+        "XPBoons": "經驗值加傳奇恩惠制"
       },
       "ProficiencyModifier": {
         "Bonus": "PHB：固定加值 (+2, +3, +4, +5, +6)",

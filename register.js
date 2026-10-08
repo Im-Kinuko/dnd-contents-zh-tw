@@ -2,6 +2,15 @@ const MODULE_ID = 'dnd-contents-zh-tw'; // Change this ID!
 
 
 Hooks.on('init', () => {
+  if (game.system.id === 'dnd5e') {
+    // Run before schema validation, including when loading existing world items.
+    libWrapper.register(MODULE_ID, 'CONFIG.Item.documentClass.prototype._initializeSource', function (wrapped, data, options = {}) {
+      const source = data instanceof foundry.abstract.DataModel ? data.toObject() : data;
+      prepareItemIdentifiers(source, options.parent?._source);
+      return wrapped(source, options);
+    }, 'WRAPPER');
+  }
+
   game.settings.register(MODULE_ID, 'autoRegisterBabel', {
     name: '自動實作 Babele 翻譯',
     hint: '自動實作 Babele 翻譯，無需指向包含翻譯的目錄。',
@@ -28,6 +37,46 @@ Hooks.on('init', () => {
     autoRegisterBabel();
   }
 });
+
+/**
+ * Keep rule identifiers independent of translated display names. A custom item
+ * with only a Chinese name can otherwise produce an empty strict identifier.
+ */
+function identifierForSource(source) {
+  if (source.system?.identifier) return source.system.identifier;
+  for (const name of [source.flags?.babele?.originalName, source.name]) {
+    if (typeof name !== 'string') continue;
+    const identifier = dnd5e.utils.formatIdentifier(name);
+    if (identifier) return identifier;
+  }
+  if (/^[a-z0-9_-]+$/i.test(source._id ?? '')) return `item-${source._id.toLowerCase()}`;
+  return '';
+}
+
+/**
+ * Repair an empty identifier and a cached spell's dangling typed source link.
+ * Only cachedFor supplies an unambiguous source; never infer it from names.
+ * This prepares in-memory source data and does not write to the world database.
+ */
+export function prepareItemIdentifiers(source, actorSource) {
+  if (!source?.system) return source;
+  if (Object.hasOwn(source.system, 'identifier') && !source.system.identifier) {
+    const identifier = identifierForSource(source);
+    if (identifier) source.system.identifier = identifier;
+  }
+
+  if (source.type !== 'spell' || !/^[a-z0-9_-]+:$/i.test(source.system.sourceItem ?? '')) return source;
+  const cachedFor = source.flags?.dnd5e?.cachedFor;
+  if (typeof cachedFor !== 'string') return source;
+  const match = /^\.Item\.([a-z0-9]{16})\.Activity\.([a-z0-9]{16})$/i.exec(cachedFor);
+  if (!match || !Array.isArray(actorSource?.items)) return source;
+  const grantingItem = actorSource.items.find(item => item._id === match[1]);
+  if (!grantingItem || `${grantingItem.type}:` !== source.system.sourceItem
+    || grantingItem.system?.activities?.[match[2]]?.type !== 'cast') return source;
+  const identifier = identifierForSource(grantingItem);
+  if (identifier) source.system.sourceItem = `${grantingItem.type}:${identifier}`;
+  return source;
+}
 
 
 
@@ -192,5 +241,4 @@ export class Converters {
     return data;
   }
 }
-
 

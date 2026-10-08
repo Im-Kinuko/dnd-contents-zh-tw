@@ -1342,3 +1342,73 @@
 | `{number} 個球形` | `球形` |
 | `{number} 個方格` | `方格` |
 | `{number} 個方格` | `方格` |
+
+## 2026-10-07 suppressed 統一為「失效」
+
+| 原始英文 | 翻譯結果 |
+| :--- | :--- |
+| `"DND5E.Suppressed": "Suppressed"` | `"DND5E.Suppressed": "失效"`（原「被抑制」） |
+| `"If unchecked, the prompt to consume an available use will be suppressed."` | `"如果未勾選，則消耗可用用途的提示將失效。"`（原「將抑制…提示」） |
+| `"If unchecked, the prompt for placing a Measured Template will be suppressed."` | `"如果沒有勾選，則放置測量模板的提示將失效。"`（原「將不顯示」） |
+
+## 2026-10-07 Total Cover 統一為「全掩蔽」
+
+| 原始英文 | 翻譯結果 |
+| :--- | :--- |
+| `"StatusTotalCover": "Total Cover"` | `"StatusTotalCover": "全掩蔽"`（原「完全掩護」） |
+
+## 2026-10-07 SpellAbility 統一為「施法屬性」
+
+| 原始英文 | 翻譯結果 |
+| :--- | :--- |
+| `"DND5E.SpellAbility": "Spellcasting Ability"` | `"DND5E.SpellAbility": "施法屬性"`（原「施法能力」；與 PHB 既有「施法屬性」一致，使用者 2026-10-07 裁定） |
+
+## 2026-10-07 Epic Boon 統一為「傳奇恩惠」
+
+| 原始英文 | 翻譯結果 |
+| :--- | :--- |
+| `"EpicBoon": "Epic Boon Feat"`（Feature.Feat） | `"EpicBoon": "傳奇恩惠專長"`（原「史詩恩惠專長」） |
+| `"XPBoons": "XP + Epic Boons"` | `"XPBoons": "經驗值加傳奇恩惠制"`（原「經驗值加史詩恩惠制」） |
+
+Weblate 同步：PHB classes 23、dnd5e classes24 12 個字串（名稱、advancement 標題與說明）已以建議送出；材料成分→材料構材另涉及 PHB spells／equipment、Arcana Unleashed feats、Forge Artificer options 共 7 個字串。
+
+## 2026-10-08 Epic Boon 介面漏項補正
+
+| 原始英文 | 翻譯結果 |
+| :--- | :--- |
+| `"DND5E.Feature.SupernaturalGift.EpicBoon": "Epic Boon"` | `"DND5E.Feature.SupernaturalGift.EpicBoon": "傳奇恩惠"`（原「恩賜」；野蠻人第二批三方術語比對時發現，依 2026-10-07 全面採用「傳奇恩惠」的裁定補正） |
+
+## 2026-10-08 Half Cover 統一為「半掩蔽」
+
+| 原始英文 | 翻譯結果 |
+| :--- | :--- |
+| `"StatusHalfCover": "Half Cover"` | `"StatusHalfCover": "半掩蔽"`（原「半掩護」；wand variety 批次裁定，與 `DND5E.CoverHalf`、全掩蔽一致；`StatusThreeQuartersCover` 仍為「四分之三掩護」，待決定） |
+
+## 2026-10-08 Undead 統一為「不死生物」、Ethereal 統一為「乙太」
+
+| 原始英文 | 翻譯結果 |
+| :--- | :--- |
+| `"DND5E.CreatureUndead": "Undead"` | `"DND5E.CreatureUndead": "不死生物"`（原「亡靈」；使用者裁定全面用不死生物，與 terms、怪物資料一致） |
+| `"DND5E.CreatureUndeadPl": "Undead"` | `"DND5E.CreatureUndeadPl": "不死生物"`（同上） |
+| `"StatusEthereal": "Ethereal"` | `"StatusEthereal": "乙太"`（原「以太」；使用者裁定全面用乙太，Ethereal Plane＝乙太位面） |
+
+## 2026-10-08 Gnoll 統一為「鬣狗人」
+| 原始英文 | 翻譯結果 |
+| :--- | :--- |
+| `"Gnoll": "Gnoll"`（Language.Gnoll） | `"Gnoll": "鬣狗人語"`（原「豺狼人語」；使用者裁定 Gnoll＝鬣狗人，與 Hyena＝鬣狗、Jackal＝豺狼區分；Weblate 怪物 `Gnoll` 現為「豺狼人」，待改） |
+
+## 2026-10-08 Goblin 統一為「哥布林」
+| 原始英文 | 翻譯結果 |
+| :--- | :--- |
+| `"Goblin": "Goblin"`（Language.Goblin） | `"Goblin": "哥布林語"`（本來已是；使用者裁定 Goblin＝哥布林，Weblate 怪物 `Goblin`「地精」待改，幻象牌組第 15 列已上傳「地精武者」不重傳） |
+
+## 2026-10-08 Bugbear／Hobgoblin 連動哥布林
+| 原始英文 | 翻譯結果 |
+| :--- | :--- |
+| Bugbear | 熊哥布林（Weblate 現為熊地精，待改） |
+| Hobgoblin | 大哥布林（Weblate 現為大地精，待改） |
+
+## 2026-10-08 魔法學派統一為「X學派」
+| 原始英文 | 翻譯結果 |
+| :--- | :--- |
+| `DND5E.SchoolAbj`／`SchoolCon`／`SchoolDiv`／`SchoolEnc`／`SchoolEvo`／`SchoolIll`／`SchoolNec`／`SchoolTrs` | 防護學派／咒法學派／預言學派／惑控學派／塑能學派／幻術學派／死靈學派／變化學派（原「X系」；使用者裁定，與 PHB 現行寫法一致） |

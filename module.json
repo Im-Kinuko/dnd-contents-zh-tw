@@ -21,7 +21,7 @@
     {
       "lang": "zh-tw",
       "name": "正體中文",
-      "path": "compendium",
+      "path": "lang/zh-tw.json",
       "flags": {}
     }
   ],
@@ -29,6 +29,11 @@
     "requires": [
       {
         "id": "babele",
+        "type": "module",
+        "compatibility": {}
+      },
+      {
+        "id": "lib-wrapper",
         "type": "module",
         "compatibility": {}
       }

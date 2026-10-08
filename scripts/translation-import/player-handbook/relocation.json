@@ -1,0 +1,74 @@
+{
+ "scripts": [
+  {
+   "from": "D:\\TRPG\\D&D\\Service\\dnd-contents-zh-tw\\_incoming\\player-handbook\\archive-barbarian-1.py",
+   "to": "D:\\TRPG\\D&D\\Service\\dnd-contents-zh-tw\\scripts\\translation-import\\player-handbook\\archive-barbarian-1.py"
+  },
+  {
+   "from": "D:\\TRPG\\D&D\\Service\\dnd-contents-zh-tw\\_incoming\\player-handbook\\archive-barbarian-2.py",
+   "to": "D:\\TRPG\\D&D\\Service\\dnd-contents-zh-tw\\scripts\\translation-import\\player-handbook\\archive-barbarian-2.py"
+  },
+  {
+   "from": "D:\\TRPG\\D&D\\Service\\dnd-contents-zh-tw\\_incoming\\player-handbook\\archive-barbarian-3.py",
+   "to": "D:\\TRPG\\D&D\\Service\\dnd-contents-zh-tw\\scripts\\translation-import\\player-handbook\\archive-barbarian-3.py"
+  },
+  {
+   "from": "D:\\TRPG\\D&D\\Service\\dnd-contents-zh-tw\\_incoming\\player-handbook\\map-barbarian-2-from-draft.py",
+   "to": "D:\\TRPG\\D&D\\Service\\dnd-contents-zh-tw\\scripts\\translation-import\\player-handbook\\map-barbarian-2-from-draft.py"
+  },
+  {
+   "from": "D:\\TRPG\\D&D\\Service\\dnd-contents-zh-tw\\_incoming\\player-handbook\\map-barbarian-3-from-draft.py",
+   "to": "D:\\TRPG\\D&D\\Service\\dnd-contents-zh-tw\\scripts\\translation-import\\player-handbook\\map-barbarian-3-from-draft.py"
+  },
+  {
+   "from": "D:\\TRPG\\D&D\\Service\\dnd-contents-zh-tw\\_incoming\\player-handbook\\prepare-barbarian-3.py",
+   "to": "D:\\TRPG\\D&D\\Service\\dnd-contents-zh-tw\\scripts\\translation-import\\player-handbook\\prepare-barbarian-3.py"
+  },
+  {
+   "from": "D:\\TRPG\\D&D\\Service\\dnd-contents-zh-tw\\_incoming\\player-handbook\\prepare-barbarian.py",
+   "to": "D:\\TRPG\\D&D\\Service\\dnd-contents-zh-tw\\scripts\\translation-import\\player-handbook\\prepare-barbarian.py"
+  },
+  {
+   "from": "D:\\TRPG\\D&D\\Service\\dnd-contents-zh-tw\\_incoming\\player-handbook\\preview-barbarian.py",
+   "to": "D:\\TRPG\\D&D\\Service\\dnd-contents-zh-tw\\scripts\\translation-import\\player-handbook\\preview-barbarian.py"
+  },
+  {
+   "from": "D:\\TRPG\\D&D\\Service\\dnd-contents-zh-tw\\_incoming\\player-handbook\\read-barbarian-2.py",
+   "to": "D:\\TRPG\\D&D\\Service\\dnd-contents-zh-tw\\scripts\\translation-import\\player-handbook\\read-barbarian-2.py"
+  },
+  {
+   "from": "D:\\TRPG\\D&D\\Service\\dnd-contents-zh-tw\\_incoming\\player-handbook\\read-barbarian-3.py",
+   "to": "D:\\TRPG\\D&D\\Service\\dnd-contents-zh-tw\\scripts\\translation-import\\player-handbook\\read-barbarian-3.py"
+  },
+  {
+   "from": "D:\\TRPG\\D&D\\Service\\dnd-contents-zh-tw\\_incoming\\player-handbook\\read-equipment-names.py",
+   "to": "D:\\TRPG\\D&D\\Service\\dnd-contents-zh-tw\\scripts\\translation-import\\player-handbook\\read-equipment-names.py"
+  },
+  {
+   "from": "D:\\TRPG\\D&D\\Service\\dnd-contents-zh-tw\\_incoming\\player-handbook\\review-barbarian-2.py",
+   "to": "D:\\TRPG\\D&D\\Service\\dnd-contents-zh-tw\\scripts\\translation-import\\player-handbook\\review-barbarian-2.py"
+  },
+  {
+   "from": "D:\\TRPG\\D&D\\Service\\dnd-contents-zh-tw\\_incoming\\player-handbook\\review-barbarian-3.py",
+   "to": "D:\\TRPG\\D&D\\Service\\dnd-contents-zh-tw\\scripts\\translation-import\\player-handbook\\review-barbarian-3.py"
+  },
+  {
+   "from": "D:\\TRPG\\D&D\\Service\\dnd-contents-zh-tw\\_incoming\\player-handbook\\revise-barbarian-2.py",
+   "to": "D:\\TRPG\\D&D\\Service\\dnd-contents-zh-tw\\scripts\\translation-import\\player-handbook\\revise-barbarian-2.py"
+  },
+  {
+   "from": "D:\\TRPG\\D&D\\Service\\dnd-contents-zh-tw\\_incoming\\player-handbook\\upload-barbarian-1.py",
+   "to": "D:\\TRPG\\D&D\\Service\\dnd-contents-zh-tw\\scripts\\translation-import\\player-handbook\\upload-barbarian-1.py"
+  },
+  {
+   "from": "D:\\TRPG\\D&D\\Service\\dnd-contents-zh-tw\\_incoming\\player-handbook\\upload-barbarian-2.py",
+   "to": "D:\\TRPG\\D&D\\Service\\dnd-contents-zh-tw\\scripts\\translation-import\\player-handbook\\upload-barbarian-2.py"
+  },
+  {
+   "from": "D:\\TRPG\\D&D\\Service\\dnd-contents-zh-tw\\_incoming\\player-handbook\\upload-barbarian-3.py",
+   "to": "D:\\TRPG\\D&D\\Service\\dnd-contents-zh-tw\\scripts\\translation-import\\player-handbook\\upload-barbarian-3.py"
+  }
+ ],
+ "syntax_check": "passed without executing historical scripts",
+ "source_directory_has_no_python_scripts": true
+}
