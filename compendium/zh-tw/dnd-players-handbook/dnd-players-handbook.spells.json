@@ -130,12 +130,8 @@
       "activities": {
         "summon": {
           "profiles": {
-            "Zombie (corpse)": {
-              "name": "喪屍（屍體）"
-            },
-            "Skeleton (bones)": {
-              "name": "骷髏（骨頭）"
-            }
+            "Zombie (corpse)": "Zombie (corpse)",
+            "Skeleton (bones)": "Skeleton (bones)"
           }
         }
       }
@@ -146,21 +142,11 @@
       "activities": {
         "summon": {
           "profiles": {
-            "Tiny Object": {
-              "name": "微型物體"
-            },
-            "Medium Object": {
-              "name": "中型物體"
-            },
-            "Huge Object (costs 3)": {
-              "name": "巨型物體（花費3）"
-            },
-            "Small Object": {
-              "name": "小型物體"
-            },
-            "Large Object (costs 2)": {
-              "name": "大型物體（花費2）"
-            }
+            "Tiny Object": "Tiny Object",
+            "Medium Object": "Medium Object",
+            "Huge Object (costs 3)": "Huge Object (costs 3)",
+            "Small Object": "Small Object",
+            "Large Object (costs 2)": "Large Object (costs 2)"
           }
         }
       }
@@ -172,7 +158,8 @@
         "Antilife Shell": {
           "name": "Antilife Shell"
         }
-      }
+      },
+      "target": "Constructs and Undead are unaffected"
     },
     "Antimagic Field": {
       "name": "反魔法結界",
@@ -207,7 +194,8 @@
         "Antipathy Save": {
           "name": "嫌惡豁免"
         }
-      }
+      },
+      "target": "huge or smaller"
     },
     "Arcane Eye": {
       "name": "祕法眼",
@@ -220,7 +208,8 @@
         "utility": {
           "target": "Large, unoccupied spaces"
         }
-      }
+      },
+      "target": "Large, unoccupied spaces"
     },
     "Arcane Lock": {
       "name": "祕法鎖",
@@ -257,7 +246,8 @@
           "name": "Suspended Animation",
           "description": "<p>Each target’s body is left behind in a state of suspended animation; it has the &amp;Reference[Unconscious apply=false] condition, doesn’t need food or air, and doesn’t age.</p>"
         }
-      }
+      },
+      "target": "you and up to eight willing creatures"
     },
     "Augury": {
       "name": "卜筮",
@@ -326,6 +316,12 @@
       "activities": {
         "Damage and Banish": {
           "name": "傷害與放逐"
+        },
+        "Banishment Save": {
+          "name": "Banishment Save"
+        },
+        "Damage": {
+          "name": "Damage"
         }
       },
       "effects": {
@@ -595,7 +591,8 @@
     },
     "Chain Lightning": {
       "name": "連環閃電",
-      "description": "<p>You launch a lightning bolt toward a target you can see within range. Three bolts then leap from that target to as many as three other targets of your choice, each of which must be within 30 feet of the first target. A target can be a creature or an object and can be targeted by only one of the bolts.</p><p>Each target makes a Dexterity saving throw, taking 10d8 Lightning damage on a failed save or half as much damage on a successful one.</p><p><strong>【升環法術效應】</strong> One additional bolt leaps from the first target to another target for each spell slot level above 6.</p>"
+      "description": "<p>You launch a lightning bolt toward a target you can see within range. Three bolts then leap from that target to as many as three other targets of your choice, each of which must be within 30 feet of the first target. A target can be a creature or an object and can be targeted by only one of the bolts.</p><p>Each target makes a Dexterity saving throw, taking 10d8 Lightning damage on a failed save or half as much damage on a successful one.</p><p><strong>【升環法術效應】</strong> One additional bolt leaps from the first target to another target for each spell slot level above 6.</p>",
+      "target": "secondary targets must be within 30 feet of initial target"
     },
     "Charm Monster": {
       "name": "魅惑怪物",
@@ -676,7 +673,8 @@
     },
     "Commune": {
       "name": "通神術",
-      "description": "<p>You contact a deity or a divine proxy and ask up to three questions that can be answered with yes or no. You must ask your questions before the spell ends. You receive a correct answer for each question.</p><p>Divine beings aren’t necessarily omniscient, so you might receive “unclear” as an answer if a question pertains to information that lies beyond the deity’s knowledge. In a case where a one-word answer could be misleading or contrary to the deity’s interests, the DM might offer a short phrase as an answer instead.</p><p>If you cast the spell more than once before finishing a Long Rest, there is a cumulative 25 percent chance for each casting after the first that you get no answer.</p>"
+      "description": "<p>You contact a deity or a divine proxy and ask up to three questions that can be answered with yes or no. You must ask your questions before the spell ends. You receive a correct answer for each question.</p><p>Divine beings aren’t necessarily omniscient, so you might receive “unclear” as an answer if a question pertains to information that lies beyond the deity’s knowledge. In a case where a one-word answer could be misleading or contrary to the deity’s interests, the DM might offer a short phrase as an answer instead.</p><p>If you cast the spell more than once before finishing a Long Rest, there is a cumulative 25 percent chance for each casting after the first that you get no answer.</p>",
+      "target": "diety or divine proxy"
     },
     "Commune with Nature": {
       "name": "問道自然",
@@ -838,7 +836,8 @@
       "effects": {
         "Contingency Spell": {
           "changes": {
-            "name": "Contengency: {}"
+            "name": "Contengency: {}",
+            "0": "Contengency: {}"
           },
           "name": "Contingency Spell"
         }
@@ -878,7 +877,8 @@
           "roll": "Weather Change Delay",
           "name": "Change Conditions"
         }
-      }
+      },
+      "target": "weather within 5 miles"
     },
     "Holy Aura": {
       "description": "<p>For the duration, you emit an aura in a 30-foot Emanation. While in the aura, creatures of your choice have Advantage on all saving throws, and other creatures have Disadvantage on attack rolls against them. In addition, when a Fiend or an Undead hits an affected creature with a melee attack roll, the attacker must succeed on a Constitution saving throw or have the &amp;Reference[Blinded apply=false]{目盲} condition until the end of its next turn.</p>",
@@ -950,7 +950,8 @@
         "Reassert Control": {
           "name": "Reassert Control"
         }
-      }
+      },
+      "target": "corpse of Medium or Small Humanoid or previously created undead"
     },
     "Creation": {
       "name": "造物術",
@@ -1042,7 +1043,8 @@
     },
     "Demiplane": {
       "name": "半位面",
-      "description": "<p>You create a shadowy Medium door on a flat solid surface that you can see within range. This door can be opened and closed, and it leads to a demiplane that is an empty room 30 feet in each dimension, made of wood or stone (your choice).</p><p>When the spell ends, the door vanishes, and any objects inside the demiplane remain there. Any creatures inside also remain unless they opt to be shunted through the door as it vanishes, landing with the &amp;Reference[Prone] condition in the unoccupied spaces closest to the door’s former space.</p><p>Each time you cast this spell, you can create a new demiplane or connect the shadowy door to a demiplane you created with a previous casting of this spell. Additionally, if you know the nature and contents of a demiplane created by a casting of this spell by another creature, you can connect the shadowy door to that demiplane instead.</p>"
+      "description": "<p>You create a shadowy Medium door on a flat solid surface that you can see within range. This door can be opened and closed, and it leads to a demiplane that is an empty room 30 feet in each dimension, made of wood or stone (your choice).</p><p>When the spell ends, the door vanishes, and any objects inside the demiplane remain there. Any creatures inside also remain unless they opt to be shunted through the door as it vanishes, landing with the &amp;Reference[Prone] condition in the unoccupied spaces closest to the door’s former space.</p><p>Each time you cast this spell, you can create a new demiplane or connect the shadowy door to a demiplane you created with a previous casting of this spell. Additionally, if you know the nature and contents of a demiplane created by a casting of this spell by another creature, you can connect the shadowy door to that demiplane instead.</p>",
+      "target": "flat surface"
     },
     "Destructive Wave": {
       "name": "湮滅波",
@@ -1114,7 +1116,8 @@
     },
     "Disintegrate": {
       "name": "解離術",
-      "description": "<p>You launch a green ray at a target you can see within range. The target can be a creature, a nonmagical object, or a creation of magical force, such as the wall created by <em>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplWallofForc]{Wall of Force}.</em></p><p>A creature targeted by this spell makes a Dexterity saving throw. On a failed save, the target takes 10d6 + 40 Force damage. If this damage reduces it to 0 Hit Points, it and everything nonmagical it is wearing and carrying are disintegrated into gray dust. The target can be revived only by a <em>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplTrueResurr]{True Resurrection}</em> or a <em>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplWish000000]{Wish}</em> spell.</p><p>This spell automatically disintegrates a Large or smaller nonmagical object or a creation of magical force. If such a target is Huge or larger, this spell disintegrates a 10-foot-Cube portion of it.</p><p><strong>【升環法術效應】</strong> The damage increases by 3d6 for each spell slot level above 6.</p>"
+      "description": "<p>You launch a green ray at a target you can see within range. The target can be a creature, a nonmagical object, or a creation of magical force, such as the wall created by <em>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplWallofForc]{Wall of Force}.</em></p><p>A creature targeted by this spell makes a Dexterity saving throw. On a failed save, the target takes 10d6 + 40 Force damage. If this damage reduces it to 0 Hit Points, it and everything nonmagical it is wearing and carrying are disintegrated into gray dust. The target can be revived only by a <em>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplTrueResurr]{True Resurrection}</em> or a <em>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplWish000000]{Wish}</em> spell.</p><p>This spell automatically disintegrates a Large or smaller nonmagical object or a creation of magical force. If such a target is Huge or larger, this spell disintegrates a 10-foot-Cube portion of it.</p><p><strong>【升環法術效應】</strong> The damage increases by 3d6 for each spell slot level above 6.</p>",
+      "target": "a creature, a nonmagical object, or a creation of magical force,"
     },
     "Dispel Evil and Good": {
       "name": "反制善惡",
@@ -1137,7 +1140,8 @@
           "name": "Break Enchantment",
           "target": "Celestial, Elemental, Fey, Fiend, or Undead"
         }
-      }
+      },
+      "target": "Celestials, Elementals, Fey, Fiends, and Undead only"
     },
     "Dispel Magic": {
       "name": "解除魔法",
@@ -1188,7 +1192,8 @@
         "Blinded, Deafened": {
           "name": "Blinded, Deafened"
         }
-      }
+      },
+      "target": "each creature of your choice within range"
     },
     "Dominate Monster": {
       "name": "支配怪物",
@@ -1468,7 +1473,8 @@
         "While Concentrating": {
           "name": "While Concentrating"
         }
-      }
+      },
+      "target": "cannot target a creature that has succeeded on a save against this casting"
     },
     "Fabricate": {
       "name": "鬼斧神工",
@@ -1522,9 +1528,7 @@
       "activities": {
         "summon": {
           "profiles": {
-            "CR 0 Beast": {
-              "name": "CR 0 野獸"
-            }
+            "CR 0 Beast": "CR 0 Beast"
           }
         }
       }
@@ -1549,7 +1553,8 @@
     },
     "Find the Path": {
       "name": "尋找捷徑",
-      "description": "<p>You magically sense the most direct physical route to a location you name. You must be familiar with the location, and the spell fails if you name a destination on another plane of existence, a moving destination (such as a mobile fortress), or an unspecific destination (such as “a green dragon’s lair”).</p><p>For the duration, as long as you are on the same plane of existence as the destination, you know how far it is and in what direction it lies. Whenever you face a choice of paths along the way there, you know which path is the most direct.</p>"
+      "description": "<p>You magically sense the most direct physical route to a location you name. You must be familiar with the location, and the spell fails if you name a destination on another plane of existence, a moving destination (such as a mobile fortress), or an unspecific destination (such as “a green dragon’s lair”).</p><p>For the duration, as long as you are on the same plane of existence as the destination, you know how far it is and in what direction it lies. Whenever you face a choice of paths along the way there, you know which path is the most direct.</p>",
+      "target": "must be familiar with the location"
     },
     "Find Traps": {
       "name": "尋找陷阱",
@@ -1661,7 +1666,8 @@
         "Create Ward": {
           "name": "Create Ward"
         }
-      }
+      },
+      "target": "40,000 square feet to a height of 30 feet"
     },
     "Forcecage": {
       "name": "力場監牢",
@@ -1838,7 +1844,8 @@
     },
     "Guards and Wards": {
       "name": "銅牆鐵壁",
-      "description": "<p>You create a ward that protects up to 2,500 square feet of floor space. The warded area can be up to 20 feet tall, and you shape it as one 50-foot square, one hundred 5-foot squares that are contiguous, or twenty-five 10-foot squares that are contiguous.</p><p>When you cast this spell, you can specify individuals that are unaffected by the spell’s effects. You can also specify a password that, when spoken aloud within 5 feet of the warded area, makes the speaker immune to its effects.</p><p>The spell creates the effects below within the warded area. <em>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplDispelMagi]{Dispel Magic}</em> has no effect on <em>Guards and Wards</em> itself, but each of the following effects can be dispelled. If all four are dispelled, <em>Guards and Wards</em> ends. If you cast the spell every day for 365 days on the same area, the spell thereafter lasts until all its effects are dispelled.</p><p><strong>Corridors.</strong> Fog fills all the warded corridors, making them &amp;Reference[HeavilyObscured]. In addition, at each intersection or branching passage offering a choice of direction, there is a 50 percent chance that a creature other than you believes it is going in the opposite direction from the one it chooses.</p><p><strong>Doors.</strong> All doors in the warded area are magically locked, as if sealed by the <em>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplArcaneLock]{Arcane Lock}</em> spell. In addition, you can cover up to ten doors with an illusion to make them appear as plain sections of wall.</p><p><strong>Stairs.</strong> Webs fill all stairs in the warded area from top to bottom, as in the <em>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplWeb0000000]{Web}</em> spell. These strands regrow in 10 minutes if they are destroyed while <em>Guards and Wards</em> lasts.</p><p><strong>Other Spell Effect. </strong>Place one of the following magical effects within the warded area:</p><ul><li><em>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplDancingLig]{Dancing Lights}</em> in four corridors, with a simple program that the lights repeat as long as <em>Guards and Wards</em> lasts</li><li><em>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplMagicMouth]{Magic Mouth}</em> in two locations</li><li><em>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplStinkingCl]{Stinking Cloud}</em> in two locations (the vapors return within 10 minutes if dispersed while <em>Guards and Wards</em> lasts)</li><li><em>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplGustofWind]{Gust of Wind}</em> in one corridor or room (the wind blows continuously while the spell lasts)</li><li><em>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplSuggestion]{Suggestion}</em> in one 5-foot square; any creature that enters that square receives the suggestion mentally</li></ul>"
+      "description": "<p>You create a ward that protects up to 2,500 square feet of floor space. The warded area can be up to 20 feet tall, and you shape it as one 50-foot square, one hundred 5-foot squares that are contiguous, or twenty-five 10-foot squares that are contiguous.</p><p>When you cast this spell, you can specify individuals that are unaffected by the spell’s effects. You can also specify a password that, when spoken aloud within 5 feet of the warded area, makes the speaker immune to its effects.</p><p>The spell creates the effects below within the warded area. <em>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplDispelMagi]{Dispel Magic}</em> has no effect on <em>Guards and Wards</em> itself, but each of the following effects can be dispelled. If all four are dispelled, <em>Guards and Wards</em> ends. If you cast the spell every day for 365 days on the same area, the spell thereafter lasts until all its effects are dispelled.</p><p><strong>Corridors.</strong> Fog fills all the warded corridors, making them &amp;Reference[HeavilyObscured]. In addition, at each intersection or branching passage offering a choice of direction, there is a 50 percent chance that a creature other than you believes it is going in the opposite direction from the one it chooses.</p><p><strong>Doors.</strong> All doors in the warded area are magically locked, as if sealed by the <em>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplArcaneLock]{Arcane Lock}</em> spell. In addition, you can cover up to ten doors with an illusion to make them appear as plain sections of wall.</p><p><strong>Stairs.</strong> Webs fill all stairs in the warded area from top to bottom, as in the <em>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplWeb0000000]{Web}</em> spell. These strands regrow in 10 minutes if they are destroyed while <em>Guards and Wards</em> lasts.</p><p><strong>Other Spell Effect. </strong>Place one of the following magical effects within the warded area:</p><ul><li><em>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplDancingLig]{Dancing Lights}</em> in four corridors, with a simple program that the lights repeat as long as <em>Guards and Wards</em> lasts</li><li><em>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplMagicMouth]{Magic Mouth}</em> in two locations</li><li><em>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplStinkingCl]{Stinking Cloud}</em> in two locations (the vapors return within 10 minutes if dispersed while <em>Guards and Wards</em> lasts)</li><li><em>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplGustofWind]{Gust of Wind}</em> in one corridor or room (the wind blows continuously while the spell lasts)</li><li><em>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplSuggestion]{Suggestion}</em> in one 5-foot square; any creature that enters that square receives the suggestion mentally</li></ul>",
+      "target": "up to 2,500 square feet of floor space"
     },
     "Guidance": {
       "name": "指導術",
@@ -2004,7 +2011,8 @@
           "description": "<p>The creature has &amp;Reference[damageResistance]{Resistance} to Poison damage, and it has Immunity to the &amp;Reference[Frightened] and &amp;Reference[Poisoned] conditions. Its Hit Point maximum also increases by 2d10, and it gains the same number of Hit Points.</p>",
           "name": "Feast's Benefits"
         }
-      }
+      },
+      "target": "unoccupied"
     },
     "Heroism": {
       "name": "英雄氣概",
@@ -2324,7 +2332,8 @@
         "Cast and Transfer Soul": {
           "name": "Cast and Transfer Soul"
         }
-      }
+      },
+      "target": "and the container used as the Material component"
     },
     "Magic Mouth": {
       "name": "魔嘴術",
@@ -2338,19 +2347,22 @@
           "description": "<p>直到法術結束前，該武器成為魔法武器，在攻擊檢定與傷害擲骰上具有+1加值。</p>",
           "name": "魔化武器 +1",
           "changes": {
-            "name": "Magic {} +1"
+            "name": "Magic {} +1",
+            "2": "Magic {} +1"
           }
         },
         "Magic Weapon +2": {
           "description": "<p>直到法術結束前，該武器成為魔法武器，在攻擊檢定與傷害擲骰上具有+2加值。</p>",
           "changes": {
-            "name": "Magic {} +2"
+            "name": "Magic {} +2",
+            "2": "Magic {} +2"
           },
           "name": "魔化武器 +2"
         },
         "Magic Weapon +3": {
           "changes": {
-            "name": "Magic {} +3"
+            "name": "Magic {} +3",
+            "2": "Magic {} +3"
           },
           "name": "魔化武器 +3",
           "description": "<p>直到法術結束前，該武器成為魔法武器，在攻擊檢定與傷害擲骰上具有+3加值。</p>"
@@ -2481,12 +2493,8 @@
         "Create Illusion": {
           "name": "創造幻象",
           "profiles": {
-            "Sound": {
-              "name": "聲音"
-            },
-            "Image": {
-              "name": "圖像"
-            }
+            "Sound": "Sound",
+            "Image": "Image"
           }
         },
         "Study": {
@@ -2502,7 +2510,9 @@
         "Alter Terrain": {
           "name": "Alter Terrain"
         }
-      }
+      },
+      "target": "up to 1 square mile",
+      "range": "within sight"
     },
     "Mirror Image": {
       "name": "鏡影術",
@@ -2649,7 +2659,8 @@
           "name": "封入球體",
           "description": "<p>被封住的生物可以採取動作推動球壁，使該生物以至多一半的速度滾動球體。</p>"
         }
-      }
+      },
+      "target": "Large or smaller"
     },
     "Otto's Irresistible Dance": {
       "name": "Otto's Irresistible Dance",
@@ -2741,7 +2752,8 @@
         "Transport": {
           "name": "Transport"
         }
-      }
+      },
+      "target": "you and up to eight willing creatures"
     },
     "Plant Growth": {
       "name": "植物滋長",
@@ -2765,9 +2777,7 @@
       "activities": {
         "transform": {
           "profiles": {
-            "Creature into Creature": {
-              "name": "變形"
-            }
+            "Creature into Creature": "Creature into Creature"
           }
         }
       }
@@ -2988,7 +2998,8 @@
         "Revive": {
           "name": "Revive"
         }
-      }
+      },
+      "target": "a dead creature"
     },
     "Rary's Telepathic Bond": {
       "name": "Rary's Telepathic Bond",
@@ -3030,7 +3041,12 @@
     },
     "Ray of Sickness": {
       "name": "致病射線",
-      "description": "<p>你向射程內的一個生物射出一道微綠色射線。對目標進行一次遠程法術攻擊。命中時，目標會承受2d8毒素傷害，且直到你下回合結束前陷入&amp;Reference[poisoned]{中毒}狀態。</p><p><strong>【升環法術效應】</strong>法術位每升一個環階，傷害就增加1d8。</p>"
+      "description": "<p>你向射程內的一個生物射出一道微綠色射線。對目標進行一次遠程法術攻擊。命中時，目標會承受2d8毒素傷害，且直到你下回合結束前陷入&amp;Reference[poisoned]{中毒}狀態。</p><p><strong>【升環法術效應】</strong>法術位每升一個環階，傷害就增加1d8。</p>",
+      "effects": {
+        "Poisoned": {
+          "name": "Poisoned"
+        }
+      }
     },
     "Regenerate": {
       "name": "再生術",
@@ -3044,7 +3060,8 @@
     },
     "Reincarnate": {
       "name": "轉生術",
-      "description": "<p>You touch a dead Humanoid or a piece of one. If the creature has been dead no longer than 10 days, the spell forms a new body for it and calls the soul to enter that body. @Embed[Compendium.dnd-players-handbook.tables.RollTable.phbsplReincarnat rollable classes=\"caption-top\"]</p><p>The reincarnated creature makes any choices that a species’ description offers, and the creature recalls its former life. It retains the capabilities it had in its original form, except it loses the traits of its previous species and gains the traits of its new one.</p>"
+      "description": "<p>You touch a dead Humanoid or a piece of one. If the creature has been dead no longer than 10 days, the spell forms a new body for it and calls the soul to enter that body. @Embed[Compendium.dnd-players-handbook.tables.RollTable.phbsplReincarnat rollable classes=\"caption-top\"]</p><p>The reincarnated creature makes any choices that a species’ description offers, and the creature recalls its former life. It retains the capabilities it had in its original form, except it loses the traits of its previous species and gains the traits of its new one.</p>",
+      "target": "dead Humanoid or a piece of one"
     },
     "Remove Curse": {
       "name": "移除詛咒",
@@ -3212,7 +3229,8 @@
           "name": "Create Sensor",
           "target": "at target location or within 10 feet of target creature"
         }
-      }
+      },
+      "target": "creature on same plane of existence or a location you have seen"
     },
     "Searing Smite": {
       "name": "熾焰斬",
@@ -3237,7 +3255,11 @@
       "description": "<p>在法術持續時間內，你可以看見處於&amp;Reference[invisible apply=false]{隱形}狀態的生物和物體，就像其為可見一般，而且你還可以看到乙太位面。那裡的生物和物體看起來像幽靈一樣。</p>",
       "effects": {
         "See Invisibility": {
-          "name": "識破隱形"
+          "name": "識破隱形",
+          "changes": {
+            "1": ";Ethereal Plane",
+            "0": ";Invisible creatures"
+          }
         }
       }
     },
@@ -3261,7 +3283,8 @@
           "condition": "Study Action taken by other creature",
           "name": "Study"
         }
-      }
+      },
+      "target": "visible creature"
     },
     "Sending": {
       "name": "短訊術",
@@ -3320,24 +3343,28 @@
         "Shillelagh (1d8)": {
           "name": "橡棍術（1d8）",
           "changes": {
-            "name": "{}（橡棍術）"
+            "name": "{}（橡棍術）",
+            "3": "{} Shillelagh"
           }
         },
         "Shillelagh (1d12)": {
           "changes": {
-            "name": "{}（橡棍術）"
+            "name": "{}（橡棍術）",
+            "3": "{} (Shillelagh)"
           },
           "name": "橡棍術（1d12）"
         },
         "Shillelagh (2d6)": {
           "name": "橡棍術（2d6）",
           "changes": {
-            "name": "{}（橡棍術）"
+            "name": "{}（橡棍術）",
+            "3": "{} (Shillelagh)"
           }
         },
         "Shillelagh (1d10)": {
           "changes": {
-            "name": "{}（橡棍術）"
+            "name": "{}（橡棍術）",
+            "3": "{} (Shillelagh)"
           },
           "name": "橡棍術（1d10）"
         }
@@ -3346,7 +3373,8 @@
         "Imbue Weapon": {
           "name": "灌注武器"
         }
-      }
+      },
+      "target": "held Club or Quarterstaff"
     },
     "Shining Smite": {
       "name": "閃耀斬",
@@ -3388,7 +3416,8 @@
         "Create Simulacrum": {
           "name": "Create Simulacrum"
         }
-      }
+      },
+      "target": "and a pile of ice or snow"
     },
     "Sleet Storm": {
       "name": "雪雨暴",
@@ -3415,7 +3444,8 @@
         "Stabilized": {
           "name": "拯救瀕死"
         }
-      }
+      },
+      "target": "0 Hit Points and isn't dead"
     },
     "Speak with Animals": {
       "name": "動物交談術",
@@ -3437,7 +3467,8 @@
         "Speaking with Plants": {
           "name": "與植物交談"
         }
-      }
+      },
+      "target": "plants"
     },
     "Spider Climb": {
       "name": "蛛行術",
@@ -3479,7 +3510,15 @@
     },
     "Staggering Smite": {
       "name": "驚震斬",
-      "description": "<p>目標會從該次攻擊中承受額外的4d6心靈傷害，且必須成功通過一次感知豁免，否則陷入&amp;Reference[Stunned]{震懾}狀態，直到你的下一個回合結束。</p><p><strong>【升環法術效應】</strong>法術位每比4環高一環，額外傷害就增加1d6。</p>"
+      "description": "<p>目標會從該次攻擊中承受額外的4d6心靈傷害，且必須成功通過一次感知豁免，否則陷入&amp;Reference[Stunned]{震懾}狀態，直到你的下一個回合結束。</p><p><strong>【升環法術效應】</strong>法術位每比4環高一環，額外傷害就增加1d6。</p>",
+      "activities": {
+        "Stun Save": {
+          "name": "Stun Save"
+        },
+        "Damage": {
+          "name": "Damage"
+        }
+      }
     },
     "Starry Wisp": {
       "name": "點點星芒",
@@ -3587,15 +3626,9 @@
       "activities": {
         "summon": {
           "profiles": {
-            "Clay": {
-              "name": "黏土"
-            },
-            "Stone": {
-              "name": "岩石"
-            },
-            "Metal": {
-              "name": "金屬"
-            }
+            "Clay": "Clay",
+            "Stone": "Stone",
+            "Metal": "Metal"
           }
         }
       }
@@ -3610,18 +3643,10 @@
       "activities": {
         "summon": {
           "profiles": {
-            "Air": {
-              "name": "氣"
-            },
-            "Fire": {
-              "name": "火"
-            },
-            "Water": {
-              "name": "水"
-            },
-            "Earth": {
-              "name": "土"
-            }
+            "Air": "Air",
+            "Fire": "Fire",
+            "Water": "Water",
+            "Earth": "Earth"
           }
         }
       }
@@ -3636,15 +3661,9 @@
       "activities": {
         "summon": {
           "profiles": {
-            "Demon": {
-              "name": "Demon"
-            },
-            "Devil": {
-              "name": "Devil"
-            },
-            "Yugoloth": {
-              "name": "Yugoloth"
-            }
+            "Demon": "Demon",
+            "Devil": "Devil",
+            "Yugoloth": "Yugoloth"
           }
         }
       }
@@ -3685,7 +3704,8 @@
       "effects": {
         "Endless Ammunition": {
           "changes": {
-            "name": "Swift {}"
+            "name": "Swift {}",
+            "1": "Swift {}"
           },
           "name": "Endless Ammunition"
         }
@@ -3787,11 +3807,13 @@
         "Create Telepathic Link": {
           "name": "Create Telepathic Link"
         }
-      }
+      },
+      "target": "yourself and another willing creature"
     },
     "Teleport": {
       "name": "傳送術",
-      "description": "<p>This spell instantly transports you and up to eight willing creatures that you can see within range, or a single object that you can see within range, to a destination you select. If you target an object, it must be Large or smaller, and it can’t be held or carried by an unwilling creature.</p><p>The destination you choose must be known to you, and it must be on the same plane of existence as you. Your familiarity with the destination determines whether you arrive there successfully. The DM rolls [[/gmr 1d100]] and consults the Teleportation Outcome table and the explanations after it.</p><details><summary><strong>@UUID[Compendium.dnd-players-handbook.tables.RollTable.phbsplTeleportMi]{Teleportation Outcome}</strong></summary><table><thead><tr><td>Familiarity</td><td>Mishap</td><td>Similar Area</td><td>Off Target</td><td>On Target</td></tr></thead><tbody><tr><td>Permanent circle</td><td>—</td><td>—</td><td>—</td><td>01–00</td></tr><tr><td>Linked object</td><td>—</td><td>—</td><td>—</td><td>01–00</td></tr><tr><td>Very familiar</td><td>01–05</td><td>06–13</td><td>14–24</td><td>25–00</td></tr><tr><td>Seen casually</td><td>01–33</td><td>34–43</td><td>44–53</td><td>54–00</td></tr><tr><td>Viewed once or described</td><td>01–43</td><td>44–53</td><td>54–73</td><td>74–00</td></tr><tr><td>False destination</td><td>01–50</td><td>51–00</td><td>—</td><td>—</td></tr></tbody></table></details><p><strong>Familiarity.</strong> Here are the meanings of the terms in the table’s Familiarity column:</p><ul><li>“Permanent circle” means a permanent teleportation circle whose sigil sequence you know.</li><li>“Linked object” means you possess an object taken from the desired destination within the last six months, such as a book from a wizard’s library.</li><li>“Very familiar” is a place you have visited often, a place you have carefully studied, or a place you can see when you cast the spell.</li><li>“Seen casually” is a place you have seen more than once but with which you aren’t very familiar.</li><li>“Viewed once or described” is a place you have seen once, possibly using magic, or a place you know through someone else’s description, perhaps from a map.</li><li>“False destination” is a place that doesn’t exist. Perhaps you tried to scry an enemy’s sanctum but instead viewed an illusion, or you are attempting to teleport to a location that no longer exists.</li></ul><p><strong>Mishap.</strong> The spell’s unpredictable magic results in a difficult journey. Each teleporting creature (or the target object) takes [[/damage 3d10 type=force]] damage, and the DM rerolls on the table to see where you wind up (multiple mishaps can occur, dealing damage each time).</p><p><strong>Similar Area.</strong> You and your group (or the target object) appear in a different area that’s visually or thematically similar to the target area. You appear in the closest similar place. If you are heading for your home laboratory, for example, you might appear in another person’s laboratory in the same city.</p><p><strong>Off Target.</strong> You and your group (or the target object) appear [[/r 2d12]] miles away from the destination in a random direction. Roll [[/r 1d8]] for the direction: 1, east; 2, southeast; 3, south; 4, southwest; 5, west; 6, northwest; 7, north; or 8, northeast.</p><p><strong>On Target.</strong> You and your group (or the target object) appear where you intended.</p>"
+      "description": "<p>This spell instantly transports you and up to eight willing creatures that you can see within range, or a single object that you can see within range, to a destination you select. If you target an object, it must be Large or smaller, and it can’t be held or carried by an unwilling creature.</p><p>The destination you choose must be known to you, and it must be on the same plane of existence as you. Your familiarity with the destination determines whether you arrive there successfully. The DM rolls [[/gmr 1d100]] and consults the Teleportation Outcome table and the explanations after it.</p><details><summary><strong>@UUID[Compendium.dnd-players-handbook.tables.RollTable.phbsplTeleportMi]{Teleportation Outcome}</strong></summary><table><thead><tr><td>Familiarity</td><td>Mishap</td><td>Similar Area</td><td>Off Target</td><td>On Target</td></tr></thead><tbody><tr><td>Permanent circle</td><td>—</td><td>—</td><td>—</td><td>01–00</td></tr><tr><td>Linked object</td><td>—</td><td>—</td><td>—</td><td>01–00</td></tr><tr><td>Very familiar</td><td>01–05</td><td>06–13</td><td>14–24</td><td>25–00</td></tr><tr><td>Seen casually</td><td>01–33</td><td>34–43</td><td>44–53</td><td>54–00</td></tr><tr><td>Viewed once or described</td><td>01–43</td><td>44–53</td><td>54–73</td><td>74–00</td></tr><tr><td>False destination</td><td>01–50</td><td>51–00</td><td>—</td><td>—</td></tr></tbody></table></details><p><strong>Familiarity.</strong> Here are the meanings of the terms in the table’s Familiarity column:</p><ul><li>“Permanent circle” means a permanent teleportation circle whose sigil sequence you know.</li><li>“Linked object” means you possess an object taken from the desired destination within the last six months, such as a book from a wizard’s library.</li><li>“Very familiar” is a place you have visited often, a place you have carefully studied, or a place you can see when you cast the spell.</li><li>“Seen casually” is a place you have seen more than once but with which you aren’t very familiar.</li><li>“Viewed once or described” is a place you have seen once, possibly using magic, or a place you know through someone else’s description, perhaps from a map.</li><li>“False destination” is a place that doesn’t exist. Perhaps you tried to scry an enemy’s sanctum but instead viewed an illusion, or you are attempting to teleport to a location that no longer exists.</li></ul><p><strong>Mishap.</strong> The spell’s unpredictable magic results in a difficult journey. Each teleporting creature (or the target object) takes [[/damage 3d10 type=force]] damage, and the DM rerolls on the table to see where you wind up (multiple mishaps can occur, dealing damage each time).</p><p><strong>Similar Area.</strong> You and your group (or the target object) appear in a different area that’s visually or thematically similar to the target area. You appear in the closest similar place. If you are heading for your home laboratory, for example, you might appear in another person’s laboratory in the same city.</p><p><strong>Off Target.</strong> You and your group (or the target object) appear [[/r 2d12]] miles away from the destination in a random direction. Roll [[/r 1d8]] for the direction: 1, east; 2, southeast; 3, south; 4, southwest; 5, west; 6, northwest; 7, north; or 8, northeast.</p><p><strong>On Target.</strong> You and your group (or the target object) appear where you intended.</p>",
+      "target": "you and up to eight creatures or one object"
     },
     "Teleportation Circle": {
       "name": "傳送法陣",
@@ -3852,7 +3874,8 @@
         "utility": {
           "roll": "Consecutive Turns"
         }
-      }
+      },
+      "target": "all creatures but yourself"
     },
     "Toll the Dead": {
       "name": "亡者喪鐘",
@@ -3879,7 +3902,8 @@
     },
     "Transport via Plants": {
       "name": "植物遁走術",
-      "description": "<p>此法術將在一個射程內，體型為大型或更大的非活化植物與另一個處於相同存在位面，位於任意距離外的植物之間創造一道魔法連結。你必須曾經見過或碰觸過做為目的地的植物至少一次。在法術持續期間，任何生物都可以走進目標植物，並使用5呎移動速度從目的地植物走出。</p>"
+      "description": "<p>此法術將在一個射程內，體型為大型或更大的非活化植物與另一個處於相同存在位面，位於任意距離外的植物之間創造一道魔法連結。你必須曾經見過或碰觸過做為目的地的植物至少一次。在法術持續期間，任何生物都可以走進目標植物，並使用5呎移動速度從目的地植物走出。</p>",
+      "target": "Large or larger inanimate plant"
     },
     "Tree Stride": {
       "name": "樹躍術",
@@ -3891,19 +3915,16 @@
       "activities": {
         "transform": {
           "profiles": {
-            "Creature into Creature": {
-              "name": "Creature into Creature"
-            },
-            "Object into Creature": {
-              "name": "Object into Creature"
-            }
+            "Creature into Creature": "Creature into Creature",
+            "Object into Creature": "Object into Creature"
           }
         }
       }
     },
     "True Resurrection": {
       "name": "完全復活術",
-      "description": "<p>You touch a creature that has been dead for no longer than 200 years and that died for any reason except old age. The creature is revived with all its Hit Points.</p><p>This spell closes all wounds, neutralizes any poison, cures all magical contagions, and lifts any curses affecting the creature when it died. The spell replaces damaged or missing organs and limbs. If the creature was Undead, it is restored to its non-Undead form.</p><p>The spell can provide a new body if the original no longer exists, in which case you must speak the creature’s name. The creature then appears in an unoccupied space you choose within 10 feet of you.</p>"
+      "description": "<p>You touch a creature that has been dead for no longer than 200 years and that died for any reason except old age. The creature is revived with all its Hit Points.</p><p>This spell closes all wounds, neutralizes any poison, cures all magical contagions, and lifts any curses affecting the creature when it died. The spell replaces damaged or missing organs and limbs. If the creature was Undead, it is restored to its non-Undead form.</p><p>The spell can provide a new body if the original no longer exists, in which case you must speak the creature’s name. The creature then appears in an unoccupied space you choose within 10 feet of you.</p>",
+      "target": "creature that has been dead for no longer than 200 years and that died for any reason except old age."
     },
     "True Seeing": {
       "name": "真知術",
@@ -3925,7 +3946,8 @@
       "effects": {
         "True Strike": {
           "changes": {
-            "name": "{}（克敵機先）"
+            "name": "{}（克敵機先）",
+            "1": "{} (True Strike)"
           },
           "name": "克敵機先"
         }
@@ -4021,7 +4043,8 @@
         "Create Globe": {
           "name": "Create Globe"
         }
-      }
+      },
+      "target": "solid surface"
     },
     "Wall of Thorns": {
       "name": "棘牆術",
@@ -4101,7 +4124,8 @@
         "Transform to Cloud": {
           "name": "Transform to Cloud"
         }
-      }
+      },
+      "target": "you and up to ten other creatures"
     },
     "Wind Wall": {
       "name": "風牆術",
@@ -4160,7 +4184,8 @@
         "Teleport to Sanctuary": {
           "name": "Teleport to Sanctuary"
         }
-      }
+      },
+      "target": "you and five other creatures"
     },
     "Wrathful Smite": {
       "name": "激憤斬",
@@ -4169,6 +4194,14 @@
         "Frightened": {
           "description": "<p>目標直到法術結束前陷入&amp;Reference[frightened apply=false]{恐懼}狀態。受恐懼的目標每個回合結束時，其重複[[/save ability=wis]]豁免，若豁免成功則結束此法術對自身的影響。</p>",
           "name": "恐懼"
+        }
+      },
+      "activities": {
+        "Damage": {
+          "name": "Damage"
+        },
+        "Frightened Save": {
+          "name": "Frightened Save"
         }
       }
     },
@@ -4238,12 +4271,8 @@
       "activities": {
         "summon": {
           "profiles": {
-            "Defender": {
-              "name": "Defender"
-            },
-            "Avenger": {
-              "name": "Avenger"
-            }
+            "Defender": "Defender",
+            "Avenger": "Avenger"
           }
         }
       }
