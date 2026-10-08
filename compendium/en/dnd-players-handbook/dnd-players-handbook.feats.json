@@ -1,5 +1,23 @@
 {
   "label": "Feats",
+  "mapping": {
+    "rangeActivities": {
+      "path": "system.activities",
+      "converter": "rangeActivities"
+    },
+    "activities": {
+      "path": "system.activities",
+      "converter": "activities"
+    },
+    "effects": {
+      "path": "effects",
+      "converter": "effects"
+    },
+    "advancement": {
+      "path": "system.advancement",
+      "converter": "advancement"
+    }
+  },
   "folders": {
     "Epic Boon Feats": "Epic Boon Feats",
     "Fighting Style Feats": "Fighting Style Feats",
@@ -111,15 +129,24 @@
     "Boon of Skill": {
       "name": "Boon of Skill",
       "description": "<p>You gain the following benefits.</p><p><strong>Ability Score Increase.</strong> Increase one ability score of your choice by 1, to a maximum of 30.</p><p><strong>All-Around Adept.</strong> You gain proficiency in all skills.</p><p><strong>Expertise.</strong> Choose one skill in which you lack Expertise. You gain Expertise in that skill.</p>",
-      "effects": {
+      "advancement": {
         "All-Around Adept": {
           "name": "All-Around Adept"
+        },
+        "Expertise": {
+          "name": "Expertise"
         }
       }
     },
     "Boon of Speed": {
       "name": "Boon of Speed",
-      "description": "<p>You gain the following benefits.</p><p><strong>Ability Score Increase.</strong> Increase one ability score of your choice by 1, to a maximum of 30.</p><p><strong>Escape Artist.</strong> As a Bonus Action, you can take the &amp;Reference[Disengage] action, which also ends the Grappled condition on you.</p><p><strong>Quickness.</strong> Your Speed increases by 30 feet.</p><section class=\"secret\" id=\"secret-BTieKWSqXALMO8oH\"><p><strong>Foundry Note</strong></p><p>This feat includes an Active Effect which automatically increases your Speed.</p></section>",
+      "description": "<p>You gain the following benefits.</p><p><strong>Ability Score Increase.</strong> Increase one ability score of your choice by 1, to a maximum of 30.</p><p><strong>Escape Artist.</strong> As a Bonus Action, you can take the &amp;Reference[Disengage] action, which also ends the Grappled condition on you.</p><p><strong>Quickness.</strong> Your Speed increases by 30 feet.</p>",
+      "activities": {
+        "Escape Artist": {
+          "name": "Escape Artist",
+          "chatFlavor": "Disengage and end Grapple"
+        }
+      },
       "effects": {
         "Boon of Speed": {
           "name": "Boon of Speed"
@@ -177,7 +204,7 @@
       "description": "<p>You learn two @UUID[Compendium.dnd-players-handbook.content.JournalEntry.phbSpells0000000.JournalEntryPage.SkHptN2PTzFGDaEj#cantrip]{Cleric cantrips} of your choice. <em>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplGuidance00]{Guidance}</em> and <em>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplSacredFlam]{Sacred Flame}</em> are recommended. The chosen cantrips count as Paladin spells for you, and Charisma is your spellcasting ability for them. Whenever you gain a Paladin level, you can replace one of these cantrips with another Cleric cantrip.</p>",
       "advancement": {
         "Choose Cantrips": {
-          "title": "Choose Cantrips",
+          "name": "Choose Cantrips",
           "hint": "You learn two Cleric cantrips of your choice. Guidance and Sacred Flame are recommended. The chosen cantrips count as Paladin spells for you, and Charisma is your spellcasting ability for them. Whenever you gain a Paladin level, you can replace one of these cantrips with another Cleric cantrip."
         }
       }
@@ -205,7 +232,7 @@
       "description": "<p>You learn two @UUID[Compendium.dnd-players-handbook.content.JournalEntry.phbSpells0000000.JournalEntryPage.LhvuDQEyrCdg5EfU]{Druid cantrips} of your choice. @UUID[Compendium.dnd-players-handbook.spells.Item.phbsplGuidance00]{Guidance} and @UUID[Compendium.dnd-players-handbook.spells.Item.phbsplStarryWisp]{Starry Wisp} are recommended. The chosen cantrips count as Ranger spells for you, and Wisdom is your spellcasting ability for them. Whenever you gain a Ranger level, you can replace one of these cantrips with another Druid cantrip.</p>",
       "advancement": {
         "Choose Cantrips": {
-          "title": "Choose Cantrips",
+          "name": "Choose Cantrips",
           "hint": "You learn two Druid cantrips of your choice. Guidance and Starry Wisp are recommended. The chosen cantrips count as Ranger spells for you, and Wisdom is your spellcasting ability for them. Whenever you gain a Ranger level, you can replace one of these cantrips with another Druid cantrip."
         }
       }
@@ -280,7 +307,7 @@
     },
     "Actor": {
       "name": "Actor",
-      "description": "<p>You gain the following benefits.</p><p><strong>Ability Score Increase.</strong> Increase your Charisma score by 1, to a maximum of 20.</p><p><strong>Impersonation.</strong>While you’re disguised as a real or fictional person, you have Advantage on Charisma (Deception or Performance) checks to convince others that you are that person.</p><p><strong>Mimicry.</strong> You can mimic the sounds of other creatures, including speech. A creature that hears the mimicry must succeed on a Wisdom (Insight) check to determine the effect is faked (DC 8 plus your Charisma modifier and Proficiency Bonus).</p><section class=\"secret\" id=\"secret-tOhwF8l7gqyVJOOB\"><p><strong>Foundry Note</strong></p><p>The <strong>Mimicry</strong> activity includes a check with the correct DC.</p><p>This feat does not automate the Advantage on checks.</p></section>",
+      "description": "<p>You gain the following benefits.</p><p><strong>Ability Score Increase.</strong> Increase your Charisma score by 1, to a maximum of 20.</p><p><strong>Impersonation. </strong>While you’re disguised as a real or fictional person, you have Advantage on Charisma (Deception or Performance) checks to convince others that you are that person.</p><p><strong>Mimicry.</strong> You can mimic the sounds of other creatures, including speech. A creature that hears the mimicry must succeed on a Wisdom (Insight) check to determine the effect is faked (DC 8 plus your Charisma modifier and Proficiency Bonus).</p><section class=\"secret\" id=\"secret-tOhwF8l7gqyVJOOB\"><p><strong>Foundry Note</strong></p><p>The <strong>Mimicry</strong> activity includes a check with the correct DC.</p><p>This feat does not automate the Advantage on checks.</p></section>",
       "activities": {
         "Mimicry": {
           "name": "Mimicry"
@@ -332,7 +359,7 @@
       "description": "<p>You gain the following benefits.</p><p><strong>Tool Proficiency.</strong> You gain proficiency with three different Artisan’s Tools of your choice from the Fast Crafting table.</p><p><strong>Discount.</strong> Whenever you buy a nonmagical item, you receive a 20 percent discount on it.</p><p><strong>Fast Crafting.</strong> When you finish a Long Rest, you can craft one piece of gear from the Fast Crafting table, provided you have the Artisan’s Tools associated with that item and have proficiency with those tools. The item lasts until you finish another Long Rest, at which point the item falls apart.</p><table><caption>Fast Crafting</caption><thead><tr><td>Artisan’s Tools</td><td>Crafted Gear</td></tr></thead><tbody><tr><td>@UUID[Compendium.dnd-players-handbook.equipment.Item.phbtulCarpenters]{Carpenter’s Tools}</td><td>@UUID[Compendium.dnd-players-handbook.equipment.Item.phbagLadder00000]{Ladder}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagTorch000000]{Torch}</td></tr><tr><td>@UUID[Compendium.dnd-players-handbook.equipment.Item.phbtulLeatherwor]{Leatherworker’s Tools}</td><td>Case, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagPouch000000]{Pouch}</td></tr><tr><td>@UUID[Compendium.dnd-players-handbook.equipment.Item.phbtulMasonsTool]{Mason’s Tools}</td><td>@UUID[Compendium.dnd-players-handbook.equipment.Item.phbagBlockandTac]{Block and Tackle}</td></tr><tr><td>@UUID[Compendium.dnd-players-handbook.equipment.Item.phbtulPottersToo]{Potter’s Tools}</td><td>@UUID[Compendium.dnd-players-handbook.equipment.Item.phbagJug00000000]{Jug}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagLamp0000000]{Lamp}</td></tr><tr><td>@UUID[Compendium.dnd-players-handbook.equipment.Item.phbtulSmithsTool]{Smith’s Tools}</td><td>@UUID[Compendium.dnd-players-handbook.equipment.Item.phbagBallBearing]{Ball Bearings}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagBucket00000]{Bucket}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagCaltrops000]{Caltrops}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagGrapplingHo]{Grappling Hook}, @UUID[Compendium.dnd5e.items.Item.M8xM8BLK4tpUayEE]{Iron Pot}</td></tr><tr><td>@UUID[Compendium.dnd-players-handbook.equipment.Item.phbtulTinkersToo]{Tinker’s Tools}</td><td>@UUID[Compendium.dnd-players-handbook.equipment.Item.phbagBell0000000]{Bell}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagShovel00000]{Shovel}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagTinderbox00]{Tinderbox}</td></tr><tr><td>@UUID[Compendium.dnd-players-handbook.equipment.Item.phbtulWeaversToo]{Weaver’s Tools}</td><td>@UUID[Compendium.dnd-players-handbook.equipment.Item.phbagBasket00000]{Basket}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagRope0000000]{Rope}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagNet00000000]{Net}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagTent0000000]{Tent}</td></tr><tr><td>@UUID[Compendium.dnd-players-handbook.equipment.Item.phbtulWoodcarver]{Woodcarver’s Tools}</td><td>@UUID[Compendium.dnd-players-handbook.equipment.Item.phbwepClub000000]{Club}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbwepGreatclub0]{Greatclub}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbwepQuartersta]{Quarterstaff}</td></tr></tbody></table>",
       "advancement": {
         "Tool Proficiency": {
-          "title": "Tool Proficiency",
+          "name": "Tool Proficiency",
           "hint": "You gain proficiency with three different Artisan’s Tools of your choice from the Fast Crafting table."
         }
       }
@@ -366,7 +393,12 @@
     },
     "Dual Wielder": {
       "name": "Dual Wielder",
-      "description": "<p>You gain the following benefits.</p><p><strong>Ability Score Increase.</strong> Increase your Strength or Dexterity score by 1, to a maximum of 20.</p><p><strong>Enhanced Dual Wielding.</strong> When you take the Attack action on your turn and attack with a weapon that has the Light property, you can make one extra attack as a Bonus Action later on the same turn with a different weapon, which must be a Melee weapon that lacks the Two-Handed property. You don’t add your ability modifier to the extra attack’s damage unless that modifier is negative.</p><p><strong>Quick Draw.</strong> You can draw or stow two weapons that lack the Two-Handed property when you would normally be able to draw or stow only one.</p><section id=\"secret-EJIyTsTmMlxQDh6V\" class=\"secret\"><p><strong>Foundry Note</strong></p><p>The removal of your ability modifier is not automated. You can subtract it in the Situational Bonus field of the damage roll's dialog box.</p></section>"
+      "description": "<p>You gain the following benefits.</p><p><strong>Ability Score Increase.</strong> Increase your Strength or Dexterity score by 1, to a maximum of 20.</p><p><strong>Enhanced Dual Wielding.</strong> When you take the Attack action on your turn and attack with a weapon that has the Light property, you can make one extra attack as a Bonus Action later on the same turn with a different weapon, which must be a Melee weapon that lacks the Two-Handed property. You don’t add your ability modifier to the extra attack’s damage unless that modifier is negative.</p><p><strong>Quick Draw.</strong> You can draw or stow two weapons that lack the Two-Handed property when you would normally be able to draw or stow only one.</p>",
+      "effects": {
+        "Enhanced Dual Wielding": {
+          "name": "Enhanced Dual Wielding"
+        }
+      }
     },
     "Durable": {
       "name": "Durable",
@@ -392,7 +424,17 @@
     },
     "Fey-Touched": {
       "name": "Fey-Touched",
-      "description": "<p>Your exposure to the Feywild’s magic grants you the following benefits.</p><p><strong>Ability Score Increase.</strong> Increase your Intelligence, Wisdom, or Charisma score by 1, to a maximum of 20.</p><p><strong>Fey Magic.</strong> Choose one level 1 @UUID[Compendium.dnd-players-handbook.content.JournalEntry.phbSpells0000000.JournalEntryPage.dWVioXxEGjcPsI9Y]{spell} from the Divination or Enchantment school of magic. You always have that spell and the @UUID[Compendium.dnd-players-handbook.spells.Item.phbsplMistyStep0]{Misty Step} spell prepared. You can cast each of these spells without expending a spell slot. Once you cast either spell in this way, you can’t cast that spell in this way again until you finish a Long Rest. You can also cast these spells using spell slots you have of the appropriate level. The spells’ spellcasting ability is the ability increased by this feat.</p><section class=\"secret\" id=\"secret-O8kxBQYKdt4eFJIV\"><p><strong>Foundry Note</strong></p><p>The spells will have to be manually edited after being added to your sheet to configure the spellcasting ability and add the free use.</p></section>"
+      "description": "<p>Your exposure to the Feywild’s magic grants you the following benefits.</p><p><strong>Ability Score Increase.</strong> Increase your Intelligence, Wisdom, or Charisma score by 1, to a maximum of 20.</p><p><strong>Fey Magic.</strong> Choose one level 1 @UUID[Compendium.dnd-players-handbook.content.JournalEntry.phbSpells0000000.JournalEntryPage.dWVioXxEGjcPsI9Y]{spell} from the Divination or Enchantment school of magic. You always have that spell and the @UUID[Compendium.dnd-players-handbook.spells.Item.phbsplMistyStep0]{Misty Step} spell prepared. You can cast each of these spells without expending a spell slot. Once you cast either spell in this way, you can’t cast that spell in this way again until you finish a Long Rest. You can also cast these spells using spell slots you have of the appropriate level. The spells’ spellcasting ability is the ability increased by this feat.</p>",
+      "advancement": {
+        "Fey Magic": {
+          "name": "Fey Magic",
+          "hint": "<p>Choose one level 1 spell from the <strong>Divination</strong> or <strong>Enchantment</strong> school of magic.</p><p>Note: select the same spellcasting ability as the ability increased by this feat.</p>"
+        },
+        "ZRKPkQ5ax9etQ1rH": {
+          "name": "Fey Magic",
+          "hint": "<p>Note: select the same spellcasting ability as the ability increased by this feat.</p>"
+        }
+      }
     },
     "Grappler": {
       "name": "Grappler",
@@ -428,10 +470,10 @@
     },
     "Heavily Armored": {
       "name": "Heavily Armored",
-      "description": "<p>You gain the following benefits.</p><p><strong>Ability Score Increase.</strong>Increase your Constitution or Strength score by 1, to a maximum of 20.</p><p><strong>Armor Training.</strong> You gain training with Heavy armor.</p><section id=\"secret-XrTFBiTrscuZUyTK\" class=\"secret\"><p><strong>Foundry Note</strong></p><p>This feature automatically grants training with Heavy Armor.</p></section>",
-      "effects": {
-        "Heavily Armored": {
-          "name": "Heavily Armored"
+      "description": "<p>You gain the following benefits.</p><p><strong>Ability Score Increase.</strong>Increase your Constitution or Strength score by 1, to a maximum of 20.</p><p><strong>Armor Training.</strong> You gain training with Heavy armor.</p>",
+      "advancement": {
+        "Armor Training": {
+          "name": "Armor Training"
         }
       }
     },
@@ -463,17 +505,17 @@
       "description": "<p>You gain the following benefits.</p><p><strong>Ability Score Increase.</strong> Increase your Intelligence score by 1, to a maximum of 20.</p><p><strong>Lore Knowledge.</strong> Choose one of the following skills: Arcana, History, Investigation, Nature, or Religion. If you lack proficiency in the chosen skill, you gain proficiency in it, and if you already have proficiency in it, you gain Expertise in it.</p><p><strong>Quick Study.</strong> You can take the Study action as a Bonus Action.</p>",
       "advancement": {
         "Lore Knowledge": {
-          "title": "Lore Knowledge",
+          "name": "Lore Knowledge",
           "hint": "Choose one of the following skills: Arcana, History, Investigation, Nature, or Religion. If you lack proficiency in the chosen skill, you gain proficiency in it, and if you already have proficiency in it, you gain Expertise in it."
         }
       }
     },
     "Lightly Armored": {
       "name": "Lightly Armored",
-      "description": "<p>You gain the following benefits.</p><p><strong>Ability Score Increase.</strong> Increase your Strength or Dexterity score by 1, to a maximum of 20.</p><p><strong>Armor Training.</strong> You gain training with Light armor and Shields.</p><section class=\"secret\" id=\"secret-NpiwUDsdtqRVqwYX\"><p><strong>Foundry Note</strong></p><p>This feature automatically provides training with Light armor and Shields.</p></section>",
-      "effects": {
-        "Lightly Armored": {
-          "name": "Lightly Armored"
+      "description": "<p>You gain the following benefits.</p><p><strong>Ability Score Increase.</strong> Increase your Strength or Dexterity score by 1, to a maximum of 20.</p><p><strong>Armor Training.</strong> You gain training with Light armor and Shields.</p>",
+      "advancement": {
+        "Armor Training": {
+          "name": "Armor Training"
         }
       }
     },
@@ -503,14 +545,23 @@
     },
     "Magic Initiate": {
       "name": "Magic Initiate",
-      "description": "<p>You gain the following benefits.</p><p><strong>Two Cantrips.</strong> You learn two cantrips of your choice from the @UUID[Compendium.dnd-players-handbook.content.JournalEntry.phbSpells0000000.JournalEntryPage.SkHptN2PTzFGDaEj]{Cleric}, @UUID[Compendium.dnd-players-handbook.content.JournalEntry.phbSpells0000000.JournalEntryPage.LhvuDQEyrCdg5EfU]{Druid}, or @UUID[Compendium.dnd-players-handbook.content.JournalEntry.phbSpells0000000.JournalEntryPage.6AnqLUowgdsqMFvz]{Wizard} spell list. Intelligence, Wisdom, or Charisma is your spellcasting ability for this feat’s spells (choose when you select this feat).</p><p><strong>Level 1 Spell.</strong> Choose a level 1 spell from the same list you selected for this feat’s cantrips. You always have that spell prepared. You can cast it once without a spell slot, and you regain the ability to cast it in that way when you finish a Long Rest. You can also cast the spell using any spell slots you have.</p><p><strong>Spell Change.</strong> Whenever you gain a new level, you can replace one of the spells you chose for this feat with a different spell of the same level from the chosen spell list.</p><p><strong>Repeatable.</strong> You can take this feat more than once, but you must choose a different spell list each time.</p><section id=\"secret-7JQCSgnGrtu9huzf\" class=\"secret\"><p><strong>Foundry Note</strong></p><p>The spells have to be added to your sheet with the above changes manually.</p></section>"
+      "description": "<p>You gain the following benefits.</p><p><strong>Two Cantrips.</strong> You learn two cantrips of your choice from the @UUID[Compendium.dnd-players-handbook.content.JournalEntry.phbSpells0000000.JournalEntryPage.SkHptN2PTzFGDaEj]{Cleric}, @UUID[Compendium.dnd-players-handbook.content.JournalEntry.phbSpells0000000.JournalEntryPage.LhvuDQEyrCdg5EfU]{Druid}, or @UUID[Compendium.dnd-players-handbook.content.JournalEntry.phbSpells0000000.JournalEntryPage.6AnqLUowgdsqMFvz]{Wizard} spell list. Intelligence, Wisdom, or Charisma is your spellcasting ability for this feat’s spells (choose when you select this feat).</p><p><strong>Level 1 Spell.</strong> Choose a level 1 spell from the same list you selected for this feat’s cantrips. You always have that spell prepared. You can cast it once without a spell slot, and you regain the ability to cast it in that way when you finish a Long Rest. You can also cast the spell using any spell slots you have.</p><p><strong>Spell Change.</strong> Whenever you gain a new level, you can replace one of the spells you chose for this feat with a different spell of the same level from the chosen spell list.</p><p><strong>Repeatable.</strong> You can take this feat more than once, but you must choose a different spell list each time.</p>",
+      "advancement": {
+        "Learn Two Cantrips": {
+          "name": "Learn Two Cantrips"
+        },
+        "Level 1 Spell": {
+          "name": "Level 1 Spell",
+          "hint": "<p>Choose a level 1 spell from the same spell list as the chosen cantrips and select the same spellcasting ability.</p>"
+        }
+      }
     },
     "Martial Weapon Training": {
       "name": "Martial Weapon Training",
-      "description": "<p>You gain the following benefits.</p><p><strong>Ability Score Increase.</strong> Increase your Strength or Dexterity score by 1, to a maximum of 20.</p><p><strong>Weapon Proficiency.</strong> You gain proficiency with Martial weapons.</p><section class=\"secret\" id=\"secret-D09BeCa8lfTgpJ6h\"><p><strong>Foundry Note</strong></p><p>This feature automatically grants you proficiency with Martial weapons.</p></section>",
-      "effects": {
-        "Martial Weapon Training": {
-          "name": "Martial Weapon Training"
+      "description": "<p>You gain the following benefits.</p><p><strong>Ability Score Increase.</strong> Increase your Strength or Dexterity score by 1, to a maximum of 20.</p><p><strong>Weapon Proficiency.</strong> You gain proficiency with Martial weapons.</p>",
+      "advancement": {
+        "Weapon Proficiency": {
+          "name": "Weapon Proficiency"
         }
       }
     },
@@ -525,10 +576,10 @@
     },
     "Moderately Armored": {
       "name": "Moderately Armored",
-      "description": "<p>You gain the following benefits.</p><p><strong>Ability Score Increase.</strong> Increase your Strength or Dexterity score by 1, to a maximum of 20.</p><p><strong>Armor Training.</strong> You gain training with Medium armor.</p><section class=\"secret\" id=\"secret-Q1Odcq8OF5Y3cNci\"><p><strong>Foundry Note</strong></p><p>This feature automatically grants training with Medium armor.</p></section>",
-      "effects": {
-        "Moderately Armored": {
-          "name": "Moderately Armored"
+      "description": "<p>You gain the following benefits.</p><p><strong>Ability Score Increase.</strong> Increase your Strength or Dexterity score by 1, to a maximum of 20.</p><p><strong>Armor Training.</strong> You gain training with Medium armor.</p>",
+      "advancement": {
+        "Armor Training": {
+          "name": "Armor Training"
         }
       }
     },
@@ -541,7 +592,7 @@
       "description": "<p>You gain the following benefits.</p><p><strong>Instrument Training.</strong> You gain proficiency with three Musical Instruments of your choice.</p><p><strong>Encouraging Song.</strong> As you finish a Short or Long Rest, you can play a song on a Musical Instrument with which you have proficiency and give Heroic Inspiration to allies who hear the song. The number of allies you can affect in this way equals your Proficiency Bonus (currently [[lookup @prof]]).</p>",
       "advancement": {
         "Instrument Training": {
-          "title": "Instrument Training",
+          "name": "Instrument Training",
           "hint": "You gain proficiency with three Musical Instruments of your choice."
         }
       }
@@ -551,7 +602,7 @@
       "description": "<p>You gain the following benefits.</p><p><strong>Ability Score Increase.</strong> Increase your Intelligence or Wisdom score by 1, to a maximum of 20.</p><p><strong>Keen Observer.</strong> Choose one of the following skills: Insight, Investigation, or Perception. If you lack proficiency with the chosen skill, you gain proficiency in it, and if you already have proficiency in it, you gain Expertise in it.</p><p><strong>Quick Search.</strong> You can take the Search action as a Bonus Action.</p>",
       "advancement": {
         "Keen Observer": {
-          "title": "Keen Observer",
+          "name": "Keen Observer",
           "hint": "Choose one of the following skills: Insight, Investigation, or Perception. If you lack proficiency with the chosen skill, you gain proficiency in it, and if you already have proficiency in it, you gain Expertise in it."
         }
       }
@@ -584,14 +635,14 @@
           "name": "Poisoned (Dex)",
           "description": "<p>When a creature takes damage from the poisoned item, that creature must succeed on a [[/save ability=con]] saving throw (DC 8 plus the modifier of the ability increased by this feat and your Proficiency Bonus) or take 2d8 Poison damage and have the &amp;Reference[Poisoned] condition until the end of your next turn.</p>",
           "changes": {
-            "name": ", Poisoned"
+            "0": ", Poisoned"
           }
         },
         "Poisoned (Int)": {
           "name": "Poisoned (Int)",
           "description": "<p>When a creature takes damage from the poisoned item, that creature must succeed on a [[/save ability=con]] saving throw (DC 8 plus the modifier of the ability increased by this feat and your Proficiency Bonus) or take 2d8 Poison damage and have the &amp;Reference[Poisoned] condition until the end of your next turn.</p>",
           "changes": {
-            "name": ", Poisoned"
+            "0": ", Poisoned"
           }
         }
       }
@@ -616,17 +667,22 @@
           "hint": "Choose one ability in which you lack saving throw proficiency. Increase the chosen ability score by 1, to a maximum of 20."
         },
         "Saving Throw Proficiency": {
-          "title": "Saving Throw Proficiency",
+          "name": "Saving Throw Proficiency",
           "hint": "You gain saving throw proficiency with the ability you chose to increase."
         }
       }
     },
     "Ritual Caster": {
       "name": "Ritual Caster",
-      "description": "<p>You gain the following benefits.</p><p><strong>Ability Score Increase.</strong> Increase your Intelligence, Wisdom, or Charisma score by 1, to a maximum of 20.</p><p><strong>Ritual Spells.</strong> Choose a number of level 1 spells equal to your Proficiency Bonus (currently [[lookup @prof]]) that have the Ritual tag. You always have those spells prepared, and you can cast them with any spell slots you have. The spells’ spellcasting ability is the ability increased by this feat. Whenever your Proficiency Bonus increases thereafter, you can add an additional level 1 spell with the Ritual tag to the spells always prepared with this feature.</p><p><strong>Quick Ritual.</strong> With this benefit, you can cast a Ritual spell that you have prepared using its regular casting time rather than the extended time for a Ritual. Doing so doesn’t require a spell slot. Once you cast the spell in this way, you can’t use this benefit again until you finish a Long Rest.</p><section id=\"secret-k6S1sYFzUtw0k3RK\" class=\"secret\"><p><strong>Foundry Note</strong></p><p>The spells must be added manually with the changes.</p><p>The <strong>Quick Ritual</strong> activity can be used for tracking the limited use between Long Rests.</p></section>",
+      "description": "<p>You gain the following benefits.</p><p><strong>Ability Score Increase.</strong> Increase your Intelligence, Wisdom, or Charisma score by 1, to a maximum of 20.</p><p><strong>Ritual Spells.</strong> Choose a number of level 1 spells equal to your Proficiency Bonus (currently [[lookup @prof]]) that have the Ritual tag. You always have those spells prepared, and you can cast them with any spell slots you have. The spells’ spellcasting ability is the ability increased by this feat. Whenever your Proficiency Bonus increases thereafter, you can add an additional level 1 spell with the Ritual tag to the spells always prepared with this feature.</p><p><strong>Quick Ritual.</strong> With this benefit, you can cast a Ritual spell that you have prepared using its regular casting time rather than the extended time for a Ritual. Doing so doesn’t require a spell slot. Once you cast the spell in this way, you can’t use this benefit again until you finish a Long Rest.</p><section class=\"secret\" id=\"secret-k6S1sYFzUtw0k3RK\"><p><strong>Foundry Note</strong></p><p>The <strong>Quick Ritual</strong> activity can be used for tracking the limited use between Long Rests.</p></section>",
       "activities": {
         "Fast Ritual Cast": {
           "name": "Fast Ritual Cast"
+        }
+      },
+      "advancement": {
+        "Ritual Spells": {
+          "name": "Ritual Spells"
         }
       }
     },
@@ -645,13 +701,15 @@
     },
     "Shadow-Touched": {
       "name": "Shadow-Touched",
-      "description": "<p><em>General Feat (Prerequisite: Level 4+)</em></p><p>Your exposure to the Shadowfell’s magic grants you the following benefits.</p><p><strong>Ability Score Increase.</strong> Increase your Intelligence, Wisdom, or Charisma score by 1, to a maximum of 20.</p><p><strong>Shadow Magic.</strong> Choose one level 1 spell from the Illusion or Necromancy school of magic. You always have that spell and the @UUID[Compendium.dnd-players-handbook.spells.Item.phbsplInvisibili]{Invisibility} spell prepared. You can cast each of these spells without expending a spell slot. Once you cast either spell in this way, you can’t cast that spell in this way again until you finish a Long Rest. You can also cast these spells using spell slots you have of the appropriate level. The spells’ spellcasting ability is the ability increased by this feat.</p><section class=\"secret\" id=\"secret-MHCfb0RA6g4rzo6K\"><p><strong>Foundry Note</strong></p><p>The spells will have to be added to your sheet with those changes manually.</p><p>The <strong>Expend Chosen Spell's Use</strong> and <strong>Expend Invisibility Use</strong> can be used for tracking your free uses.</p></section>",
-      "activities": {
-        "Expend Chosen Spell's Use": {
-          "name": "Expend Chosen Spell's Use"
+      "description": "<p>Your exposure to the Shadowfell’s magic grants you the following benefits.</p><p><strong>Ability Score Increase.</strong> Increase your Intelligence, Wisdom, or Charisma score by 1, to a maximum of 20.</p><p><strong>Shadow Magic.</strong> Choose one level 1 spell from the Illusion or Necromancy school of magic. You always have that spell and the @UUID[Compendium.dnd-players-handbook.spells.Item.phbsplInvisibili]{Invisibility} spell prepared. You can cast each of these spells without expending a spell slot. Once you cast either spell in this way, you can’t cast that spell in this way again until you finish a Long Rest. You can also cast these spells using spell slots you have of the appropriate level. The spells’ spellcasting ability is the ability increased by this feat.</p><section class=\"secret\" id=\"secret-MHCfb0RA6g4rzo6K\"><p><strong>Foundry Note</strong></p><p>The spells will have to be added to your sheet with those changes manually.</p><p>The <strong>Expend Chosen Spell's Use</strong> and <strong>Expend Invisibility Use</strong> can be used for tracking your free uses.</p></section>",
+      "advancement": {
+        "Shadow Magic": {
+          "name": "Shadow Magic",
+          "hint": "<p>Note: select the same spellcasting ability as the ability increased by this feat.</p>"
         },
-        "Expend Invisibility's Use": {
-          "name": "Expend Invisibility's Use"
+        "zNWhwvlkJN4NAGL1": {
+          "name": "Shadow Magic",
+          "hint": "<p>Choose one level 1 spell from the <strong>Illusion</strong> or <strong>Necromancy </strong>school of magic.</p><p>Note: select the same spellcasting ability as the ability increased by this feat.</p>"
         }
       }
     },
@@ -679,11 +737,11 @@
       "description": "<p>You gain the following benefits.</p><p><strong>Ability Score Increase.</strong> Increase one ability score of your choice by 1, to a maximum of 20.</p><p><strong>Skill Proficiency.</strong> You gain proficiency in one skill of your choice.</p><p><strong>Expertise.</strong> Choose one skill in which you have proficiency but lack Expertise. You gain Expertise with that skill.</p>",
       "advancement": {
         "Skill Proficiency": {
-          "title": "Skill Proficiency",
+          "name": "Skill Proficiency",
           "hint": "You gain proficiency in one skill of your choice."
         },
         "Expertise": {
-          "title": "Expertise",
+          "name": "Expertise",
           "hint": "Choose one skill in which you have proficiency but lack Expertise. You gain Expertise with that skill."
         }
       }
@@ -693,7 +751,7 @@
       "description": "<p>You gain proficiency in any combination of three skills or tools of your choice.</p><p><strong>Repeatable.</strong> You can take this feat more than once.</p>",
       "advancement": {
         "Skilled": {
-          "title": "Skilled",
+          "name": "Skilled",
           "hint": "You gain proficiency in any combination of three skills or tools of your choice."
         }
       }
@@ -722,7 +780,7 @@
     },
     "Speedy": {
       "name": "Speedy",
-      "description": "<p>You gain the following benefits.</p><p><strong>Ability Score Increase.</strong> Increase your Dexterity or Constitution score by 1, to a maximum of 20.</p><p><strong>Speed Increase.</strong> Your &amp;Reference[Speed] increases by 10 feet.</p><p><strong>Dash over Difficult Terrain.</strong> When you take the Dash action on your turn, Difficult Terrain doesn’t cost you extra movement for the rest of that turn.</p><p><strong>Agile Movement.</strong> Opportunity Attacks have Disadvantage against you.</p><section class=\"secret\" id=\"secret-mmDZHieZYuvYT5LG\"><p><strong>Foundry Note</strong></p><p>This feature automatically increases your walk movement Speed by 10 feet. If you have other movement types you will need to update them manually.</p></section>",
+      "description": "<p>You gain the following benefits.</p><p><strong>Ability Score Increase.</strong> Increase your Dexterity or Constitution score by 1, to a maximum of 20.</p><p><strong>Speed Increase.</strong> Your &amp;Reference[Speed] increases by 10 feet.</p><p><strong>Dash over Difficult Terrain.</strong> When you take the Dash action on your turn, Difficult Terrain doesn’t cost you extra movement for the rest of that turn.</p><p><strong>Agile Movement.</strong> Opportunity Attacks have Disadvantage against you.</p>",
       "effects": {
         "Speedy": {
           "name": "Speedy"
@@ -767,13 +825,16 @@
     },
     "Telepathic": {
       "name": "Telepathic",
-      "description": "<p>You gain the following benefits.</p><p><strong>Ability Score Increase.</strong> Increase your Intelligence, Wisdom, or Charisma score by 1, to a maximum of 20.</p><p><strong>Telepathic Utterance.</strong> You can speak telepathically to any creature you can see within 60 feet of yourself. Your telepathic utterances are in a language you know, and the creature understands you only if it knows that language. Your communication doesn’t give the creature the ability to respond to you telepathically.</p><p><strong>Detect Thoughts.</strong> You always have the @UUID[Compendium.dnd-players-handbook.spells.Item.phbsplDetectThou]{Detect Thoughts} spell prepared. You can cast it without a spell slot or spell components, and you must finish a Long Rest before you can cast it in this way again. You can also cast it using spell slots you have of the appropriate level. Your spellcasting ability for the spell is the ability increased by this feat.</p><section id=\"secret-unoZ1rgJPaBmd1Dn\" class=\"secret\"><p><strong>Foundry Note</strong></p><p>The <strong>Detect Thoughts</strong> activity can be used for tracking your free use per Long Rest. The spell will have to be added to your sheet manually though.</p></section>",
-      "activities": {
+      "description": "<p>You gain the following benefits.</p><p><strong>Ability Score Increase.</strong> Increase your Intelligence, Wisdom, or Charisma score by 1, to a maximum of 20.</p><p><strong>Telepathic Utterance.</strong> You can speak telepathically to any creature you can see within 60 feet of yourself. Your telepathic utterances are in a language you know, and the creature understands you only if it knows that language. Your communication doesn’t give the creature the ability to respond to you telepathically.</p><p><strong>Detect Thoughts.</strong> You always have the @UUID[Compendium.dnd-players-handbook.spells.Item.phbsplDetectThou]{Detect Thoughts} spell prepared. You can cast it without a spell slot or spell components, and you must finish a Long Rest before you can cast it in this way again. You can also cast it using spell slots you have of the appropriate level. Your spellcasting ability for the spell is the ability increased by this feat.</p><section class=\"secret\" id=\"secret-unoZ1rgJPaBmd1Dn\"><p><strong>Foundry Note</strong></p><p>The granted spell allows a free casting per Long Rest, but does not remove the spell components.</p></section>",
+      "effects": {
         "Telepathic Utterance": {
           "name": "Telepathic Utterance"
-        },
-        "Expend Use": {
-          "name": "Expend Use"
+        }
+      },
+      "advancement": {
+        "Detect Thoughts": {
+          "name": "Detect Thoughts",
+          "hint": "<p>Your spellcasting ability for the spell is the ability increased by this feat.</p>"
         }
       }
     },
@@ -788,7 +849,7 @@
     },
     "War Caster": {
       "name": "War Caster",
-      "description": "<p>You gain the following benefits.</p><p><strong>Ability Score Increase.</strong> Increase your Intelligence, Wisdom, or Charisma score by 1, to a maximum of 20.</p><p><strong>Concentration.</strong> You have Advantage on Constitution saving throws that you make to maintain Concentration.</p><p><strong>Reactive Spell.</strong> When a creature provokes an Opportunity Attack from you by leaving your reach, you can take a Reaction to cast a spell at the creature rather than making an Opportunity Attack. The spell must have a casting time of one action and must target only that creature.</p><p><strong>Somatic Components.</strong> You can perform the Somatic components of spells even when you have weapons or a Shield in one or both hands.</p><section class=\"secret\" id=\"secret-jGAKlXdMPlzHFjTa\"><p><strong>Foundry Note</strong></p><p>This feat will automate the advantage on Concentration checks.</p></section>",
+      "description": "<p>You gain the following benefits.</p><p><strong>Ability Score Increase.</strong> Increase your Intelligence, Wisdom, or Charisma score by 1, to a maximum of 20.</p><p><strong>Concentration.</strong> You have Advantage on Constitution saving throws that you make to maintain Concentration.</p><p><strong>Reactive Spell.</strong> When a creature provokes an Opportunity Attack from you by leaving your reach, you can take a Reaction to cast a spell at the creature rather than making an Opportunity Attack. The spell must have a casting time of one action and must target only that creature.</p><p><strong>Somatic Components.</strong> You can perform the Somatic components of spells even when you have weapons or a Shield in one or both hands.</p>",
       "effects": {
         "War Caster": {
           "name": "War Caster"
@@ -800,7 +861,7 @@
       "description": "<p>You gain the following benefits.</p><p><strong>Ability Score Increase.</strong> Increase your Strength or Dexterity score by 1, to a maximum of 20.</p><p><strong>Mastery Property.</strong> Your training with weapons allows you to use the mastery property of one kind of Simple or Martial weapon of your choice, provided you have proficiency with it. Whenever you finish a Long Rest, you can change the kind of weapon to another eligible kind.</p>",
       "advancement": {
         "Mastery Property": {
-          "title": "Mastery Property",
+          "name": "Mastery Property",
           "hint": "Your training with weapons allows you to use the mastery property of one kind of Simple or Martial weapon of your choice, provided you have proficiency with it. Whenever you finish a Long Rest, you can change the kind of weapon to another eligible kind."
         }
       }

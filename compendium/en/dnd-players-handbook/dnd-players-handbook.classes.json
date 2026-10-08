@@ -1,5 +1,31 @@
 {
   "label": "Character Classes",
+  "mapping": {
+    "range": {
+      "path": "system.range",
+      "converter": "range"
+    },
+    "activities": {
+      "path": "system.activities",
+      "converter": "activities"
+    },
+    "effects": {
+      "path": "effects",
+      "converter": "effects"
+    },
+    "advancement": {
+      "path": "system.advancement",
+      "converter": "advancement"
+    },
+    "rangeActivities": {
+      "path": "system.activities",
+      "converter": "rangeActivities"
+    },
+    "distanceAdvancement": {
+      "path": "system.advancement",
+      "converter": "distanceAdvancement"
+    }
+  },
   "folders": {
     "Clockwork Sorcery": "Clockwork Sorcery",
     "Subclass Features": "Subclass Features",
@@ -68,6 +94,48 @@
     "Bard": "Bard"
   },
   "entries": {
+    "Hex (Powerful)": {
+      "name": "Hex (Powerful)",
+      "description": "<p>You place a curse on a creature that you can see within range. Until the spell ends, you deal an extra 1d6 Necrotic damage to the target whenever you hit it with an attack roll. Also, choose one ability when you cast the spell. The target has Disadvantage on ability checks made with the chosen ability.</p><p>If the target drops to 0 Hit Points before this spell ends, you can take a Bonus Action on a later turn to curse a new creature.</p><p><strong>Using a Higher-Level Spell Slot.</strong> Your Concentration can last longer with a spell slot of level 2 (up to 4 hours), 3–4 (up to 8 hours), or 5+ (24 hours).</p><hr /><p>@Embed[Compendium.dnd-players-handbook.classes.Item.phbwlkEldritchHe classes=\"caption-top\" cite=false]{Eldritch Hex (Great Old One Patron)}</p>",
+      "activities": {
+        "Bonus Hex Damage": {
+          "name": "Bonus Hex Damage",
+          "condition": "whenever you hit the target with an attack roll"
+        },
+        "Place Curse": {
+          "name": "Place Curse"
+        },
+        "Curse New Creature": {
+          "name": "Curse New Creature"
+        }
+      },
+      "effects": {
+        "Hexed Strength": {
+          "name": "Hexed Strength",
+          "description": "<p>The target has Disadvantage on ability checks made with the chosen ability.</p>"
+        },
+        "Hexed Dexterity": {
+          "name": "Hexed Dexterity",
+          "description": "<p>The target has Disadvantage on ability checks and saves made with the chosen ability.</p>"
+        },
+        "Hexed Constitution": {
+          "name": "Hexed Constitution",
+          "description": "<p>The target has Disadvantage on ability checks and saves made with the chosen ability.</p>"
+        },
+        "Hexed Intelligence": {
+          "name": "Hexed Intelligence",
+          "description": "<p>The target has Disadvantage on ability checks made with the chosen ability.</p>"
+        },
+        "Hexed Wisdom": {
+          "name": "Hexed Wisdom",
+          "description": "<p>The target has Disadvantage on ability checks and saves made with the chosen ability.</p>"
+        },
+        "Hexed Charisma": {
+          "name": "Hexed Charisma",
+          "description": "<p>The target has Disadvantage on ability checks and saves made with the chosen ability.</p>"
+        }
+      }
+    },
     "Blessed Strikes: Potent Spellcasting": {
       "name": "Blessed Strikes: Potent Spellcasting",
       "description": "<p>Add your Wisdom modifier to the damage you deal with any Cleric cantrip.</p><section class=\"secret\" id=\"secret-bDHa7ClHZ3YPWKvs\"><p><strong>Foundry Note</strong></p><p>This bonus damage is not automatically included in your cantrips.</p><p>You can add [[lookup @abilities.wis.mod]] to the Situational Bonus field of your cantrip's damage rolls or you can permanently add it to your cantrips by adding \"@abilities.wis.mod\" (minus the quotes) in the Bonus field.</p><p>Alternatively, the <strong>Damage</strong> activity on this feature includes your Wisdom modifier and allows you to choose the damage type in the roll's dialog box.</p></section>",
@@ -79,10 +147,10 @@
     },
     "Divine Order: Protector": {
       "name": "Divine Order: Protector",
-      "description": "<p>You have dedicated yourself to the following sacred role:</p><p><strong>Protector.</strong> Trained for battle, you gain proficiency with Martial weapons and training with Heavy armor.</p><section id=\"secret-Tsm148wTyiFWlMFv\" class=\"secret\"><p><strong>Foundry Note</strong></p><p>This feature includes an Active Effect which grants the proficiency and training.</p></section>",
-      "effects": {
-        "Divine Order: Protector": {
-          "name": "Divine Order: Protector"
+      "description": "<p>You have dedicated yourself to the following sacred role:</p><p><strong>Protector.</strong> Trained for battle, you gain proficiency with Martial weapons and training with Heavy armor.</p>",
+      "advancement": {
+        "Protector": {
+          "name": "Protector"
         }
       }
     },
@@ -99,12 +167,8 @@
       "name": "Blessed Strikes: Divine Strike",
       "description": "<p>Once on each of your turns when you hit a creature with an attack roll using a weapon, you can cause the target to take an extra 1d8 Necrotic or Radiant damage (your choice).</p><section id=\"secret-iZHQe1DZBrtcFZCk\" class=\"secret\"><p><strong>Foundry Note</strong></p><p>This feature's damage will automatically increase when you gain @UUID[Compendium.dnd-players-handbook.classes.Item.phbclcImprovedBl]{Improved Blessed Strikes}.</p></section>",
       "activities": {
-        "Necrotic Divine Strike": {
-          "name": "Necrotic Divine Strike",
-          "target": "When you a hit a creature with an attack roll using a weapon once per turn"
-        },
-        "Radiant Divine Strike": {
-          "name": "Radiant Divine Strike",
+        "Divine Strike": {
+          "name": "Divine Strike",
           "target": "When you a hit a creature with an attack roll using a weapon once per turn"
         }
       }
@@ -134,10 +198,10 @@
     },
     "Primal Order: Warden": {
       "name": "Primal Order: Warden",
-      "description": "<p>Trained for battle, you gain proficiency with Martial weapons and training with Medium armor.</p><section id=\"secret-hVQSjHcU93Zpf54G\" class=\"secret\"><p><strong>Foundry Note</strong></p><p>This feature includes an Active Effect which automates the addition of your Martial weapons proficiency and Medium armor training.</p></section>",
-      "effects": {
-        "Martial Weapon & Medium Armor Training": {
-          "name": "Martial Weapon & Medium Armor Training"
+      "description": "<p>Trained for battle, you gain proficiency with Martial weapons and training with Medium armor.</p>",
+      "advancement": {
+        "Trained for Battle": {
+          "name": "Trained for Battle"
         }
       }
     },
@@ -147,22 +211,24 @@
     },
     "Aspect of the Wilds": {
       "name": "Aspect of the Wilds",
-      "description": "<p>You gain one of the following options of your choice. Whenever you finish a Long Rest, you can change your choice.</p><p><strong>Owl.</strong> You have Darkvision with a range of 60 feet. If you already have Darkvision, its range increases by 60 feet.</p><p><strong>Panther. </strong>You have a Climb Speed equal to your Speed.</p><p><strong>Salmon.</strong> You have a Swim Speed equal to your Speed.</p><section class=\"secret\" id=\"secret-CKbkC1Dm8i7Nz9TV\"><p><strong>Foundry Note</strong></p><p>This feature includes an activity with an Active Effect which automates the Darkvision changes from the <strong>Owl</strong> option. The Speed changes are not automatically applied.</p></section>",
+      "description": "<p>You gain one of the following options of your choice. Whenever you finish a Long Rest, you can change your choice.</p><p><strong>Owl.</strong> You have Darkvision with a range of 60 feet. If you already have Darkvision, its range increases by 60 feet.</p><p><strong>Panther. </strong>You have a Climb Speed equal to your Speed.</p><p><strong>Salmon.</strong> You have a Swim Speed equal to your Speed.</p>",
       "activities": {
-        "Owl": {
-          "name": "Owl"
-        },
-        "Panther": {
-          "name": "Panther"
-        },
-        "Salmon": {
-          "name": "Salmon"
+        "Choose Aspect": {
+          "name": "Choose Aspect"
         }
       },
       "effects": {
         "Aspect of the Owl": {
           "name": "Aspect of the Owl",
           "description": "<p>You have Darkvision with a range of 60 feet. If you already have Darkvision, its range increases by 60 feet.</p>"
+        },
+        "Aspect of the Panther": {
+          "name": "Aspect of the Panther",
+          "description": "<p>You have a Climb Speed equal to your Speed.</p>"
+        },
+        "Aspect of the Salmon": {
+          "name": "Aspect of the Salmon",
+          "description": "<p>You have a Swim Speed equal to your Speed.</p>"
         }
       }
     },
@@ -171,39 +237,39 @@
       "description": "<blockquote><p>A Fierce Warrior of Primal Rage</p></blockquote><h3>Core Barbarian Traits</h3><table class=\"core-class-traits\"><tbody><tr><th scope=\"row\"><p>Primary Ability</p></th><td><p>Strength</p></td></tr><tr><th><p><strong>Hit Point Die</strong></p></th><td><p>D12 per Barbarian level</p></td></tr><tr><th><p><strong>Saving Throw Proficiencies</strong></p></th><td><p>Strength and Constitution</p></td></tr><tr><th><p><strong>Skill Proficiencies</strong></p></th><td><p><em>Choose 2:</em> Animal Handling, Athletics, Intimidation, Nature, Perception, or Survival</p></td></tr><tr><th><p><strong>Weapon Proficiencies</strong></p></th><td><p>Simple and Martial weapons</p></td></tr><tr><th><p><strong>Armor Training</strong></p></th><td><p>Light and Medium armor and Shields</p></td></tr><tr><th><p><strong>Starting Equipment</strong></p></th><td><p><em>Choose A or B:</em> (A) @UUID[Compendium.dnd-players-handbook.equipment.Item.phbwepGreataxe00]{Greataxe}, 4 @UUID[Compendium.dnd-players-handbook.equipment.Item.phbwepHandaxe000]{Handaxes}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagExplorersPa]{Explorer’s Pack}, and [[/award 15GP]]; or (B) [[/award 75GP]]</p></td></tr></tbody></table><p>Barbarians are mighty warriors who are powered by primal forces of the multiverse that manifest as a Rage. More than a mere emotion—and not limited to anger—this Rage is an incarnation of a predator’s ferocity, a storm’s fury, and a sea’s turmoil.</p><p>Some Barbarians personify their Rage as a fierce spirit or revered forebear. Others see it as a connection to the pain and anguish of the world, as an impersonal tangle of wild magic, or as an expression of their own deepest self. For every Barbarian, their Rage is a power that fuels not just battle prowess, but also uncanny reflexes and heightened senses.</p><p>Barbarians often serve as protectors and leaders in their communities. They charge headlong into danger so those under their protection don’t have to. Their courage in the face of danger makes Barbarians perfectly suited for adventure.</p><h2>Becoming a Barbarian …</h2><h3>As a Level 1 Character</h3><ul><li>Gain all the traits in the Core Barbarian Traits table.</li><li>Gain the Barbarian’s level 1 features, which are listed in the Barbarian Features table.</li></ul><h3>As a Multiclass Character</h3><ul><li>Gain the following traits from the Core Barbarian Traits table: Hit Point Die, proficiency with Martial weapons, and training with Shields.</li><li>Gain the Barbarian’s level 1 features, which are listed in the Barbarian Features table.</li></ul>",
       "advancement": {
         "Rage Damage": {
-          "title": "Rage Damage"
+          "name": "Rage Damage"
         },
         "Weapon Masteries Known": {
-          "title": "Weapon Masteries Known"
+          "name": "Weapon Masteries Known"
         },
         "Class Features": {
-          "title": "Class Features"
+          "name": "Class Features"
         },
         "Primal Knowledge": {
-          "title": "Primal Knowledge",
+          "name": "Primal Knowledge",
           "hint": "You gain proficiency in another skill of your choice from the skill list available to Barbarians at level 1."
         },
         "Brutal Strike": {
-          "title": "Brutal Strike"
+          "name": "Brutal Strike"
         },
         "Saving Throws Proficiencies": {
-          "title": "Saving Throws Proficiencies"
+          "name": "Saving Throws Proficiencies"
         },
         "Skill Proficiencies": {
-          "title": "Skill Proficiencies"
+          "name": "Skill Proficiencies"
         },
         "Weapon Proficiencies": {
-          "title": "Weapon Proficiencies"
+          "name": "Weapon Proficiencies"
         },
         "Armor Training": {
-          "title": "Armor Training"
+          "name": "Armor Training"
         },
         "Weapon Mastery": {
-          "title": "Weapon Mastery",
+          "name": "Weapon Mastery",
           "hint": "Your training with weapons allows you to use the mastery properties of additional weapons."
         },
         "Rages": {
-          "title": "Rages"
+          "name": "Rages"
         }
       }
     },
@@ -221,7 +287,7 @@
       "description": "<blockquote><p>Channel Rage into Violent Fury</p></blockquote><p>Barbarians who walk the Path of the Berserker direct their Rage primarily toward violence. Their path is one of untrammeled fury, and they thrill in the chaos of battle as they allow their Rage to seize and empower them.</p>",
       "advancement": {
         "Subclass Features": {
-          "title": "Subclass Features"
+          "name": "Subclass Features"
         }
       }
     },
@@ -267,14 +333,11 @@
     },
     "Divine Fury": {
       "name": "Divine Fury",
-      "description": "<p>You can channel divine power into your strikes. On each of your turns while your Rage is active, the first creature you hit with a weapon or an Unarmed Strike takes extra damage equal to 1d6 plus half your Barbarian level (round down). The extra damage is Necrotic or Radiant; you choose the type each time you deal the damage.</p><section class=\"secret\" id=\"secret-qDE2QhFtf1aiHWmx\"><p><strong>Foundry Note</strong></p><p>This feature includes an activity for each type of damage.</p></section>",
+      "description": "<p>You can channel divine power into your strikes. On each of your turns while your Rage is active, the first creature you hit with a weapon or an Unarmed Strike takes extra damage equal to 1d6 plus half your Barbarian level (round down). The extra damage is Necrotic or Radiant; you choose the type each time you deal the damage.</p>",
       "activities": {
-        "Necrotic Divine Fury": {
-          "name": "Necrotic Divine Fury",
-          "target": "First creature you hit with a weapon or an Unarmed Strike"
-        },
-        "Radiant Divine Fury": {
-          "name": "Radiant Divine Fury",
+        "Divine Fury": {
+          "name": "Divine Fury",
+          "condition": "you hit a creature on your turn while Rage is active",
           "target": "First creature you hit with a weapon or an Unarmed Strike"
         }
       }
@@ -289,7 +352,7 @@
     },
     "Fanatical Focus": {
       "name": "Fanatical Focus",
-      "description": "<p>Once per active Rage, if you fail a saving throw, you can reroll it with a bonus equal to your Rage Damage bonus (currently [[/r @scale.barbarian.rage-damage]]), and you must use the new roll.</p>"
+      "description": "<p>Once per active Rage, if you fail a saving throw, you can reroll it with a bonus equal to your Rage Damage bonus <span class=\"hide-in-embed\">(currently [[@scale.barbarian.rage-damage]])</span>, and you must use the new roll.</p>"
     },
     "Fast Movement": {
       "name": "Fast Movement",
@@ -311,7 +374,7 @@
     },
     "Frenzy": {
       "name": "Frenzy",
-      "description": "<p>If you use Reckless Attack while your Rage is active, you deal extra damage to the first target you hit on your turn with a Strength-based attack. To determine the extra damage, roll a number of d6s equal to your Rage Damage bonus, and add them together. The damage has the same type as the weapon or Unarmed Strike used for the attack.</p><section id=\"secret-EsDSGWYhmnmiS9Cu\" class=\"secret\"><p><strong>Foundry Note</strong></p><p>The <strong>Damage</strong> activity scales automatically as you level up and allows you to select the type of damage to use in the damage roll's dialog box. It will then remember your choice going forward.</p></section>"
+      "description": "<p>If you use Reckless Attack while your Rage is active, you deal extra damage to the first target you hit on your turn with a Strength-based attack. To determine the extra damage, roll a number of d6s equal to your Rage Damage bonus, and add them together. The damage has the same type as the weapon or Unarmed Strike used for the attack.</p>"
     },
     "Improved Brutal Strike (2)": {
       "name": "Improved Brutal Strike (2)",
@@ -436,7 +499,7 @@
     },
     "Rage of the Gods": {
       "name": "Rage of the Gods",
-      "description": "<p>When you activate your Rage, you can assume the form of a divine warrior. This form lasts for 1 minute or until you drop to 0 Hit Points. Once you use this feature, you can't do so again until you finish a Long Rest.</p><p>While in this form, you gain the benefits below.</p><p><strong>Flight.</strong> You have a Fly Speed equal to your Speed and can hover.</p><p><strong>Resistance.</strong> You have Resistance to Necrotic, Psychic, and Radiant damage.</p><p><strong>Revivification.</strong> When a creature within 30 feet of you would drop to 0 Hit Points, you can take a Reaction to expend a use of your Rage to instead change the target's Hit Points to a number equal to your Barbarian level (currently [[lookup @classes.barbarian.levels]]).</p><section class=\"secret\" id=\"secret-gWvozli4SOlo3KxS\"><p><strong>Foundry Note</strong></p><p>The <strong>Rage of the Gods</strong> activity includes an Active Effect for automatically adding the resistances and hover but does not provide the fly speed.</p><p>The <strong>Revivification</strong> activity includes a healing roll of your Barbarian level.</p></section>",
+      "description": "<p>When you activate your Rage, you can assume the form of a divine warrior. This form lasts for 1 minute or until you drop to 0 Hit Points. Once you use this feature, you can't do so again until you finish a Long Rest.</p><p>While in this form, you gain the benefits below.</p><p><strong>Flight.</strong> You have a Fly Speed equal to your Speed and can hover.</p><p><strong>Resistance.</strong> You have Resistance to Necrotic, Psychic, and Radiant damage.</p><p><strong>Revivification.</strong> When a creature within 30 feet of you would drop to 0 Hit Points, you can take a Reaction to expend a use of your Rage to instead change the target's Hit Points to a number equal to your Barbarian level (currently [[lookup @classes.barbarian.levels]]).</p><section class=\"secret\" id=\"secret-gWvozli4SOlo3KxS\"><p><strong>Foundry Note</strong></p><p>The <strong>Rage of the Gods</strong> activity includes an Active Effect for automatically adding the resistances, hover, and fly speed.</p><p>The <strong>Revivification</strong> activity includes a healing roll of your Barbarian level.</p></section>",
       "activities": {
         "Revivification": {
           "name": "Revivification",
@@ -451,7 +514,7 @@
       "effects": {
         "Rage of the Gods": {
           "name": "Rage of the Gods",
-          "description": "<p>While in this form, you gain the benefits below.</p><p><strong>Flight.</strong> You have a Fly Speed equal to your Speed and can hover.</p><p><strong>Resistance.</strong> You have Resistance to Necrotic, Psychic, and Radiant damage.</p><p><strong>Revivification.</strong> When a creature within 30 feet of you would drop to 0 Hit Points, you can take a Reaction to expend a use of your Rage to instead change the target's Hit Points to a number equal to your Barbarian level.</p>"
+          "description": "<p>While in this form, you gain the benefits below.</p><p><strong>Flight.</strong> You have a Fly Speed equal to your Speed and can hover.</p><p><strong>Resistance.</strong> You have Resistance to Necrotic, Psychic, and Radiant damage.</p>"
         }
       }
     },
@@ -557,10 +620,10 @@
     },
     "Warrior of the Gods": {
       "name": "Warrior of the Gods",
-      "description": "<p>A divine entity helps ensure you can continue the fight. You have a pool of four d12s that you can spend to heal yourself. As a Bonus Action, you can expend dice from the pool, roll them, and regain a number of Hit Points equal to the roll's total.</p><p>Your pool regains all expended dice when you finish a Long Rest.</p><p>The pool's maximum number of dice increases by one when you reach Barbarian levels 6 (5 dice), 12 (6 dice), and 17 (7 dice).</p><section class=\"secret\" id=\"secret-er80mQOJaHK8ww7M\"><p><strong>Foundry Note</strong></p><p>The pool size is automatically handled in this feature's scale value advancement.</p></section>",
+      "description": "<p>A divine entity helps ensure you can continue the fight. You have a pool of four d12s that you can spend to heal yourself. As a Bonus Action, you can expend dice from the pool, roll them, and regain a number of Hit Points equal to the roll's total.</p><p>Your pool regains all expended dice when you finish a Long Rest.</p><p>The pool's maximum number of dice increases by one when you reach Barbarian levels 6 (5 dice), 12 (6 dice), and 17 (7 dice).</p>",
       "advancement": {
         "Pool Size": {
-          "title": "Pool Size"
+          "name": "Pool Size"
         }
       }
     },
@@ -573,14 +636,14 @@
       "description": "<blockquote><p>Walk in Community with the Animal World</p></blockquote><p>Barbarians who follow the Path of the Wild Heart view themselves as kin to animals. These Barbarians learn magical means to communicate with animals, and their Rage heightens their connection to animals as it fills them with supernatural might.</p>",
       "advancement": {
         "Subclass Features": {
-          "title": "Subclass Features"
+          "name": "Subclass Features"
         },
         "Animal Speaker": {
-          "title": "Animal Speaker",
+          "name": "Animal Speaker",
           "hint": "The Animal Speaker feature grants you the Beast Sense and Speak with Animals spells but only as Rituals. Wisdom is your spellcasting ability for them."
         },
         "Nature Speaker": {
-          "title": "Nature Speaker"
+          "name": "Nature Speaker"
         }
       }
     },
@@ -589,7 +652,7 @@
       "description": "<blockquote><p>Trace the Roots and Branches of the Multiverse</p></blockquote><p>Barbarians who follow the Path of the World Tree connect with the cosmic tree Yggdrasil through their Rage. This tree grows among the Outer Planes, connecting them to each other and the Material Plane. These Barbarians draw on the tree's magic for vitality and as a means of dimensional travel.</p>",
       "advancement": {
         "Subclass Features": {
-          "title": "Subclass Features"
+          "name": "Subclass Features"
         }
       }
     },
@@ -598,7 +661,7 @@
       "description": "<blockquote><p>Rage in Ecstatic Union with a God</p></blockquote><p>Barbarians who walk the Path of the Zealot receive boons from a god or pantheon. These Barbarians experience their Rage as an ecstatic episode of divine union that infuses them with power. They are often allies to the priests and other followers of their god or pantheon.</p>",
       "advancement": {
         "Subclass Features": {
-          "title": "Subclass Features"
+          "name": "Subclass Features"
         }
       }
     },
@@ -625,37 +688,37 @@
       "description": "<blockquote><p>An Inspiring Performer of Music, Dance, and Magic</p></blockquote><h3>Core Bard Traits</h3><table class=\"core-class-traits\"><tbody><tr><th><p><strong>Primary Ability</strong></p></th><td><p>Charisma</p></td></tr><tr><th><p><strong>Hit Point Die</strong></p></th><td><p>D8 per Bard level</p></td></tr><tr><th><p><strong>Saving Throw Proficiencies</strong></p></th><td><p>Dexterity and Charisma</p></td></tr><tr><th><p><strong>Skill Proficiencies</strong></p></th><td><p><em>Choose any 3 skills</em></p></td></tr><tr><th><p><strong>Weapon Proficiencies</strong></p></th><td><p>Simple weapons</p></td></tr><tr><th><p><strong>Tool Proficiencies</strong></p></th><td><p><em>Choose 3 Musical Instruments</em></p></td></tr><tr><th><p><strong>Armor Training</strong></p></th><td><p>Light armor</p></td></tr><tr><th><p><strong>Starting Equipment</strong></p></th><td><p><em>Choose A or B:</em> (A) @UUID[Compendium.dnd-players-handbook.equipment.Item.phbarmLeatherArm]{Leather Armor}, 2 @UUID[Compendium.dnd-players-handbook.equipment.Item.phbwepDagger0000]{Daggers}, Musical Instrument of your choice, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagEntertainer]{Entertainer's Pack}, and [[/award 19gp]]; or (B) [[/award 90GP]]</p></td></tr></tbody></table><p><strong>Invoking magic through music, dance,</strong> and verse, Bards are expert at inspiring others, soothing hurts, disheartening foes, and creating illusions. Bards believe the multiverse was spoken into existence and that remnants of its Words of Creation still resound and glimmer on every plane of existence. Bardic magic attempts to harness those words, which transcend any language.</p><p>Anything can inspire a new song or tale, so Bards are fascinated by almost everything. They become masters of many things, including performing music, working magic, and making jests.</p><p>A Bard's life is spent traveling, gathering lore, telling stories, and living on the gratitude of audiences, much like any other entertainer. But Bards' depth of knowledge and mastery of magic sets them apart.</p><aside class=\"notable\"><h3>A Bard's Repertoire</h3><p>Does your Bard beat a drum while chanting the deeds of ancient heroes? Strum a lute while crooning romantic tunes? Perform arias of stirring power? Recite dramatic monologues from classic tragedies? Use the rhythm of a folk dance to coordinate the movement of allies in battle? Compose naughty limericks?</p><p>When you play a Bard, consider the style of artistic performance you favor, the moods you might invoke, and the themes that inspire your own creations. Are your poems inspired by moments of natural beauty, or are they brooding reflections on loss? Do you prefer lofty hymns or rowdy tavern songs? Are you drawn to laments for the fallen or celebrations of joy? Do you dance merry jigs or perform elaborate interpretive choreography? Do you focus on one style of performance or strive to master them all?</p></aside><h2>Becoming a Bard …</h2><h3>As a Level 1 Character</h3><ul><li>Gain all the traits in the Core Bard Traits table.</li><li>Gain the Bard's level 1 features, which are listed in the Bard Features table.</li></ul><h3>As a Multiclass Character</h3><ul><li>Gain the following traits from the Core Bard Traits table: Hit Point Die, proficiency in one skill of your choice, proficiency with one Musical Instrument of your choice, and training with Light armor.</li><li>Gain the Bard's level 1 features, which are listed in the Bard Features table. See the multiclassing rules in chapter 2 to determine your available spell slots.</li></ul>",
       "advancement": {
         "Class Features": {
-          "title": "Class Features"
+          "name": "Class Features"
         },
         "Max Prepared Spells": {
-          "title": "Max Prepared Spells"
+          "name": "Max Prepared Spells"
         },
         "Cantrips Known": {
-          "title": "Cantrips Known"
+          "name": "Cantrips Known"
         },
         "Inspiration Die": {
-          "title": "Inspiration Die"
+          "name": "Inspiration Die"
         },
         "Expertise": {
-          "title": "Expertise"
+          "name": "Expertise"
         },
         "Saving Throw Proficiencies": {
-          "title": "Saving Throw Proficiencies"
+          "name": "Saving Throw Proficiencies"
         },
         "Skill Proficiencies": {
-          "title": "Skill Proficiencies"
+          "name": "Skill Proficiencies"
         },
         "Weapon Proficiencies": {
-          "title": "Weapon Proficiencies"
+          "name": "Weapon Proficiencies"
         },
         "Tool Proficiencies": {
-          "title": "Tool Proficiencies"
+          "name": "Tool Proficiencies"
         },
         "Armor Training": {
-          "title": "Armor Training"
+          "name": "Armor Training"
         },
         "Epic Boon": {
-          "title": "Epic Boon"
+          "name": "Epic Boon"
         }
       }
     },
@@ -732,10 +795,10 @@
       "description": "<blockquote><p>Move in Harmony with the Cosmos</p></blockquote><p>Bards of the College of Dance know that the Words of Creation can't be contained within speech or song; the words are uttered by the movements of celestial bodies and flow through the motions of the smallest creatures. These Bards practice a way of being in harmony with the whirling cosmos that emphasizes agility, speed, and grace.</p>",
       "advancement": {
         "Subclass Features": {
-          "title": "Subclass Features"
+          "name": "Subclass Features"
         },
         "Dazzling Footwork": {
-          "title": "Dazzling Footwork",
+          "name": "Dazzling Footwork",
           "hint": "This Unarmed Strike item uses Dexterity or Strength (whichever is higher) and uses your Bardic Inspiration die for damage rather than the normal damage."
         }
       }
@@ -780,19 +843,19 @@
       "description": "<blockquote><p>Weave Beguiling Fey Magic</p></blockquote><p>The College of Glamour traces its origins to the beguiling magic of the Feywild. Bards who study this magic weave threads of beauty and terror into their songs and stories, and the mightiest among them can cloak themselves in otherworldly majesty. Their performances stir up wistful longing for forgotten innocence, evoke unconscious memories of long-held fears, and tug at the emotions of even the most hard-hearted listeners.</p>",
       "advancement": {
         "Subclass Features": {
-          "title": "Subclass Features"
+          "name": "Subclass Features"
         },
         "Beguiling Magic": {
-          "title": "Beguiling Magic"
+          "name": "Beguiling Magic"
         },
         "Mantle of Majesty": {
-          "title": "Mantle of Majesty"
+          "name": "Mantle of Majesty"
         }
       }
     },
     "Inspiring Movement": {
       "name": "Inspiring Movement",
-      "description": "<p>When an enemy you can see ends its turn within 5 feet of you, you can take a Reaction and expend one use of your Bardic Inspiration to move up to half your Speed (currently [[lookup @attributes.movement.walk]]). Then one ally of your choice within 30 feet of you can also move up to half their Speed using their Reaction.</p><p>None of this feature's movement provokes Opportunity Attacks.</p>",
+      "description": "<p>When an enemy you can see ends its turn within 5 feet of you, you can take a Reaction and expend one use of your Bardic Inspiration to move up to half your Speed<span class=\"hide-in-embed\"> (currently [[lookup @attributes.movement.speed]])</span>. Then one ally of your choice within 30 feet of you can also move up to half their Speed using their Reaction.</p><p>None of this feature's movement provokes Opportunity Attacks.</p>",
       "activities": {
         "Move": {
           "name": "Move",
@@ -818,10 +881,10 @@
       "description": "<blockquote><p>Plumb the Depths of Magical Knowledge</p></blockquote><p>Bards of the College of Lore collect spells and secrets from diverse sources, such as scholarly tomes, mystical rites, and peasant tales. The college's members gather in libraries and universities to share their lore with one another. They also meet at festivals or affairs of state, where they can expose corruption, unravel lies, and poke fun at self-important figures of authority.</p>",
       "advancement": {
         "Subclass Features": {
-          "title": "Subclass Features"
+          "name": "Subclass Features"
         },
         "Bonus Proficiencies": {
-          "title": "Bonus Proficiencies"
+          "name": "Bonus Proficiencies"
         }
       }
     },
@@ -878,7 +941,7 @@
     },
     "Tandem Footwork": {
       "name": "Tandem Footwork",
-      "description": "<p>When you roll Initiative, you can expend one use of your Bardic Inspiration if you don't have the &amp;Reference[Incapacitated] condition. When you do so, roll your Bardic Inspiration die; you and each ally within 30 feet of you who can see or hear you gains a bonus to Initiative equal to the number rolled.</p><section class=\"secret\" id=\"secret-nQrxfDcx2JC1jNO2\"><p><strong>Foundry Note</strong></p><p>Using this feature will consume a usage of your Bardic Inspiration.</p></section>",
+      "description": "<p>When you roll Initiative, you can expend one use of your Bardic Inspiration if you don't have the &amp;Reference[Incapacitated] condition. When you do so, roll your Bardic Inspiration die; you and each ally within 30 feet of you who can see or hear you gains a bonus to Initiative equal to the number rolled.</p>",
       "activities": {
         "Initiative Bonus": {
           "name": "Initiative Bonus",
@@ -928,10 +991,10 @@
       "description": "<blockquote><p>Sing the Deeds of Ancient Heroes</p></blockquote><p>Bards of the College of Valor are daring storytellers whose tales preserve the memory of the great heroes of the past. These Bards sing the deeds of the mighty in vaulted halls or to crowds gathered around great bonfires. They travel to witness great events firsthand and to ensure that the memory of these events doesn't pass away. With their songs, they inspire new generations to reach the same heights of accomplishment as the heroes of old.</p>",
       "advancement": {
         "Subclass Features": {
-          "title": "Subclass Features"
+          "name": "Subclass Features"
         },
         "Martial Training": {
-          "title": "Martial Training"
+          "name": "Martial Training"
         }
       }
     },
@@ -940,16 +1003,16 @@
       "description": "<p>You have mastered two of the Words of Creation: the words of life and death. You therefore always have the @UUID[Compendium.dnd-players-handbook.spells.Item.phbsplPowerWordH]{Power Word Heal} and @UUID[Compendium.dnd-players-handbook.spells.Item.phbsplPowerWordK]{Power Word Kill} spells prepared. When you cast either spell, you can target a second creature with it if that creature is within 10 feet of the first target.</p><section id=\"secret-aHHp3ZnTrWPHHB7j\" class=\"secret\"><p><strong>Foundry Note</strong></p><p>You are automatically granted these spells as you level up.</p></section>",
       "advancement": {
         "Words of Life and Death": {
-          "title": "Words of Life and Death"
+          "name": "Words of Life and Death"
         }
       }
     },
     "Avatar of Battle": {
       "name": "Avatar of Battle",
-      "description": "<p>You gain Resistance to Bludgeoning, Piercing, and Slashing damage.</p><section id=\"secret-6TJyGok1Gf1bVLme\" class=\"secret\"><p><strong>Foundry Note</strong></p><p>This feature includes an Active Effect which automates the damage resistance.</p></section>",
-      "effects": {
-        "Avatar of Battle": {
-          "name": "Avatar of Battle"
+      "description": "<p>You gain Resistance to Bludgeoning, Piercing, and Slashing damage.</p>",
+      "advancement": {
+        "Damage Resistance": {
+          "name": "Damage Resistance"
         }
       }
     },
@@ -963,7 +1026,7 @@
     },
     "Blessing of the Trickster": {
       "name": "Blessing of the Trickster",
-      "description": "<p>As a Magic action, you can choose yourself or a willing creature within 30 feet of yourself to have Advantage on Dexterity (Stealth) checks. This blessing lasts until you finish a Long Rest or you use this feature again.</p><section class=\"secret\" id=\"secret-HR9knJJry8NACRET\"><p><strong>Foundry Note</strong></p><p>This feature includes an Active Effect for tracking the blessing but it does not automate the advantage on Stealth checks or automatically end when you use this feature again.</p></section>",
+      "description": "<p>As a Magic action, you can choose yourself or a willing creature within 30 feet of yourself to have Advantage on Dexterity (Stealth) checks. This blessing lasts until you finish a Long Rest or you use this feature again.</p>",
       "activities": {
         "Blessing": {
           "name": "Blessing"
@@ -999,7 +1062,7 @@
       },
       "advancement": {
         "Divine Spark Die Count": {
-          "title": "Divine Spark Die Count"
+          "name": "Divine Spark Die Count"
         }
       }
     },
@@ -1008,45 +1071,45 @@
       "description": "<blockquote><p>A Miraculous Priest of Divine Power</p></blockquote><h3>Core Cleric Traits</h3><table class=\"core-class-traits\"><tbody><tr><th scope=\"row\"><p>Primary Ability</p></th><td><p>Wisdom</p></td></tr><tr><th scope=\"row\"><p>Hit Point Die</p></th><td><p>D8 per Cleric level</p></td></tr><tr><th scope=\"row\"><p>Saving Throw Proficiencies</p></th><td><p>Wisdom and Charisma</p></td></tr><tr><th scope=\"row\"><p>Skill Proficiencies</p></th><td><p><em>Choose 2: </em>History, Insight, Medicine, Persuasion, or Religion</p></td></tr><tr><th scope=\"row\"><p>Weapon Proficiencies</p></th><td><p>Simple weapons</p></td></tr><tr><th scope=\"row\"><p>Armor Training</p></th><td><p>Light and Medium armor and Shields</p></td></tr><tr><th scope=\"row\"><p>Starting Equipment</p></th><td><p><em>Choose A or B:</em> (A) @UUID[Compendium.dnd-players-handbook.equipment.Item.phbarmChainShirt]{Chain Shirt}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbarmShield0000]{Shield}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbwepMace000000]{Mace}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagHolySymbolV]{Holy Symbol}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagPriestsPack]{Priest's Pack}, and [[/award 7GP]]; or (B) [[/award 110GP]]</p></td></tr></tbody></table><p>Clerics draw power from the realms of the gods and harness it to work miracles. Blessed by a deity, a pantheon, or another immortal entity, a Cleric can reach out to the divine magic of the Outer Planes—where gods dwell—and channel it to bolster people and battle foes.</p><p>Because their power is a divine gift, Clerics typically associate themselves with temples dedicated to the deity or other immortal force that unlocked their magic. Harnessing divine magic doesn't rely on specific training, yet Clerics might learn prayers and rites that help them draw on power from the Outer Planes.</p><p>Not every member of a temple or shrine is a Cleric. Some priests are called to a simple life of temple service, carrying out their devotion through prayer and rituals, not through magic. Many mortals claim to speak for the gods, but few can marshal the power of those gods the way a Cleric can.</p><h2>Becoming a Cleric …</h2><h3>As a Level 1 Character</h3><ul><li>Gain all the traits in the Core Cleric Traits table.</li><li>Gain the Cleric's level 1 features, which are listed in the Cleric Features table.</li></ul><h3>As a Multiclass Character</h3><ul><li>Gain the following traits from the Core Cleric Traits table: Hit Point Die and training with Light and Medium armor and Shields.</li><li>Gain the Cleric's level 1 features, which are listed in the Cleric Features table. See the multiclassing rules in chapter 2 to determine your available spell slots.</li></ul>",
       "advancement": {
         "Class Features": {
-          "title": "Class Features"
+          "name": "Class Features"
         },
         "Channel Divinity Uses": {
-          "title": "Channel Divinity Uses"
+          "name": "Channel Divinity Uses"
         },
         "Max Prepared Spells": {
-          "title": "Max Prepared Spells"
+          "name": "Max Prepared Spells"
         },
         "Cantrips Known": {
-          "title": "Cantrips Known"
+          "name": "Cantrips Known"
         },
         "Blessed Strikes": {
-          "title": "Blessed Strikes"
+          "name": "Blessed Strikes"
         },
         "Divine Order Choice": {
-          "title": "Divine Order Choice",
+          "name": "Divine Order Choice",
           "hint": "You have dedicated yourself to one of the following sacred roles of your choice."
         },
         "Blessed Strikes Choice": {
-          "title": "Blessed Strikes Choice",
+          "name": "Blessed Strikes Choice",
           "hint": "Divine power infuses you in battle. You gain one of the following options of your choice (if you get either option from a Cleric subclass in an older book, use only the option you choose for this feature)."
         },
         "Divine Strike": {
-          "title": "Divine Strike"
+          "name": "Divine Strike"
         },
         "Saving Throw Proficiencies": {
-          "title": "Saving Throw Proficiencies"
+          "name": "Saving Throw Proficiencies"
         },
         "Skill Proficiencies": {
-          "title": "Skill Proficiencies"
+          "name": "Skill Proficiencies"
         },
         "Weapon Proficiencies": {
-          "title": "Weapon Proficiencies"
+          "name": "Weapon Proficiencies"
         },
         "Armor Training": {
-          "title": "Armor Training"
+          "name": "Armor Training"
         },
         "Epic Boon": {
-          "title": "Epic Boon"
+          "name": "Epic Boon"
         }
       }
     },
@@ -1148,10 +1211,10 @@
       "description": "<blockquote><p>Soothe the Hurts of the World</p></blockquote><p>The Life Domain focuses on the positive energy that helps sustain all life in the multiverse. Clerics who tap into this domain are masters of healing, using that life force to cure many hurts.</p><p>Existence itself relies on the positive energy associated with this domain, so a Cleric of almost any religious tradition might choose it. This domain is particularly associated with agricultural deities, gods of healing or endurance, and gods of home and community. Religious orders of healing also seek the magic of this domain.</p>",
       "advancement": {
         "Subclass Features": {
-          "title": "Subclass Features"
+          "name": "Subclass Features"
         },
         "Life Domain Spells": {
-          "title": "Life Domain Spells"
+          "name": "Life Domain Spells"
         }
       }
     },
@@ -1164,10 +1227,10 @@
       "description": "<blockquote><p>Bring Light to Banish Darkness</p></blockquote><p>The Light Domain emphasizes the divine power to bring about blazing fire and revelation. Clerics who wield this power are enlightened souls infused with radiance and the power of their deities' discerning vision, charged with chasing away lies and burning away darkness.</p><p>The Light Domain is associated with gods of truth, vigilance, beauty, insight, and renewal. Some of these gods are identified with the sun or as charioteers who guide the sun across the sky. Others are sentinels who pierce deception. Some are deities of beauty and artistry who teach that art is a vehicle for the soul's improvement.</p>",
       "advancement": {
         "Subclass Features": {
-          "title": "Subclass Features"
+          "name": "Subclass Features"
         },
         "Light Domain Spells": {
-          "title": "Light Domain Spells"
+          "name": "Light Domain Spells"
         }
       }
     },
@@ -1216,10 +1279,10 @@
       "description": "<blockquote><p>Make Mischief and Challenge Authority</p></blockquote><p>The Trickery Domain offers magic of deception, illusion, and stealth. Clerics who wield this magic are a disruptive force in the world, puncturing pride, mocking tyrants, freeing captives, and flouting hollow traditions. They prefer subterfuge and pranks to direct confrontation.</p><p>Gods of trickery are mischief-makers and instigators who stand as a constant challenge to the accepted order among both gods and mortals. They embody the forces of change and social upheaval, and they're patrons of thieves, scoundrels, gamblers, rebels, and liberators. Religious orders that operate in secret, especially those that seek to undermine oppressive governments or hierarchies, also draw on the power of the Trickery Domain.</p>",
       "advancement": {
         "Subclass Features": {
-          "title": "Subclass Features"
+          "name": "Subclass Features"
         },
         "Trickery Domain Spells": {
-          "title": "Trickery Domain Spells"
+          "name": "Trickery Domain Spells"
         }
       }
     },
@@ -1242,21 +1305,16 @@
       "description": "<blockquote><p>Inspire Valor and Smite Foes</p></blockquote><p>War has many manifestations. It can make heroes of ordinary people. It can be desperate and horrific, with acts of cruelty and cowardice eclipsing instances of excellence and courage. Clerics who tap into the magic of the War Domain excel in battle, inspiring others to fight the good fight or offering acts of violence as prayers.</p><p>Gods of the War Domain watch over warriors and reward them for their great deeds. They include champions of honor and chivalry as well as gods of destruction and pillage. Other war gods take a more neutral stance, promoting war in all its manifestations and supporting warriors in any circumstance.</p>",
       "advancement": {
         "Subclass Features": {
-          "title": "Subclass Features"
+          "name": "Subclass Features"
         },
         "War Domain Spells": {
-          "title": "War Domain Spells"
+          "name": "War Domain Spells"
         }
       }
     },
     "War God's Blessing": {
       "name": "War God's Blessing",
-      "description": "<p>You can expend a use of your Channel Divinity to cast @UUID[Compendium.dnd-players-handbook.spells.Item.phbsplShieldofFa]{Shield of Faith} or @UUID[Compendium.dnd-players-handbook.spells.Item.phbsplSpiritualW]{Spiritual Weapon} rather than expending a spell slot. When you cast either spell in this way, the spell doesn't require Concentration. Instead the spell lasts for 1 minute, but it ends early if you cast that spell again, have the Incapacitated condition, or die.</p><section id=\"secret-Aj9Z4ttMu8G9e9Li\" class=\"secret\"><p><strong>Foundry Note</strong></p><p>When casting the spell uncheck the \"Consumption\" checkbox and the \"Concentration\" checkbox.</p></section>",
-      "activities": {
-        "Expend Channel Divinity": {
-          "name": "Expend Channel Divinity"
-        }
-      }
+      "description": "<p>You can expend a use of your Channel Divinity to cast @UUID[Compendium.dnd-players-handbook.spells.Item.phbsplShieldofFa]{Shield of Faith} or @UUID[Compendium.dnd-players-handbook.spells.Item.phbsplSpiritualW]{Spiritual Weapon} rather than expending a spell slot. When you cast either spell in this way, the spell doesn't require Concentration. Instead the spell lasts for 1 minute, but it ends early if you cast that spell again, have the Incapacitated condition, or die.</p>"
     },
     "War Priest": {
       "name": "War Priest",
@@ -1269,7 +1327,7 @@
     },
     "War Domain Spells": {
       "name": "War Domain Spells",
-      "description": "<p>Your connection to this divine domain ensures you always have certain spells ready. When you reach a Cleric level specified in the War Domain Spells table, you thereafter always have the listed spells prepared.</p><table><caption>War Domain Spells</caption><thead><tr><td>Cleric Level</td><td>Prepared Spells</td></tr></thead><tbody><tr><td>3</td><td>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplGuidingBol]{Guiding Bolt}, @UUID[Compendium.dnd-players-handbook.spells.Item.phbsplMagicWeapo]{Magic Weapon}, @UUID[Compendium.dnd-players-handbook.spells.Item.phbsplShieldofFa]{Shield of Faith}, @UUID[Compendium.dnd-players-handbook.spells.Item.phbsplSpiritualW]{Spiritual Weapon}</td></tr><tr><td>5</td><td>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplCrusadersM]{Crusader's Mantle}, @UUID[Compendium.dnd-players-handbook.spells.Item.phbsplSpiritGuar]{Spirit Guardians}</td></tr><tr><td>7</td><td>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplFireShield]{Fire Shield}, @UUID[Compendium.dnd-players-handbook.spells.Item.phbsplFreedomofM]{Freedom of Movement}</td></tr><tr><td>9</td><td>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplHoldMonste]{Hold Monster}, @UUID[Compendium.dnd-players-handbook.spells.Item.phbsplSteelWindS]{Steel Wind Strike}</td></tr></tbody></table><section class=\"secret\" id=\"secret-Qu99GvyNrwjfGfHE\"><p><strong>Foundry Note</strong></p><p>These spells are granted automatically as you advance.</p></section>"
+      "description": "<p>Your connection to this divine domain ensures you always have certain spells ready. When you reach a Cleric level specified in the War Domain Spells table, you thereafter always have the listed spells prepared.</p><table><caption>War Domain Spells</caption><thead><tr><td>Cleric Level</td><td>Prepared Spells</td></tr></thead><tbody><tr><td>3</td><td>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplGuidingBol]{Guiding Bolt}, @UUID[Compendium.dnd-players-handbook.spells.Item.phbsplMagicWeapo]{Magic Weapon}, @UUID[Compendium.dnd-players-handbook.spells.Item.phbsplShieldofFa]{Shield of Faith}, @UUID[Compendium.dnd-players-handbook.spells.Item.phbsplSpiritualW]{Spiritual Weapon}</td></tr><tr><td>5</td><td>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplCrusadersM]{Crusader's Mantle}, @UUID[Compendium.dnd-players-handbook.spells.Item.phbsplSpiritGuar]{Spirit Guardians}</td></tr><tr><td>7</td><td>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplFireShield]{Fire Shield}, @UUID[Compendium.dnd-players-handbook.spells.Item.phbsplFreedomofM]{Freedom of Movement}</td></tr><tr><td>9</td><td>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplHoldMonste]{Hold Monster}, @UUID[Compendium.dnd-players-handbook.spells.Item.phbsplSteelWindS]{Steel Wind Strike}</td></tr></tbody></table>"
     },
     "Warding Flare": {
       "name": "Warding Flare",
@@ -1283,7 +1341,13 @@
     },
     "Aquatic Affinity": {
       "name": "Aquatic Affinity",
-      "description": "<p>The size of the Emanation created by your Wrath of the Sea increases to 10 feet.</p><p>In addition, you gain a Swim Speed equal to your Speed.</p><section id=\"secret-LWG2vV8HTOk84VXW\" class=\"secret\"><p><strong>Foundry Note</strong></p><p>The size of the emanation increases automatically but this feature does not automatically add the Swim Speed.</p></section>"
+      "description": "<p>The size of the Emanation created by your Wrath of the Sea increases to 10 feet.</p><p>In addition, you gain a Swim Speed equal to your Speed.</p>",
+      "effects": {
+        "Aquatic Affinity": {
+          "name": "Aquatic Affinity",
+          "description": "<p>You gain a Swim Speed equal to your Speed.</p>"
+        }
+      }
     },
     "Archdruid": {
       "name": "Archdruid",
@@ -1307,9 +1371,7 @@
       "activities": {
         "transform": {
           "profiles": {
-            "Circle Form Options": {
-              "name": "Circle Form Options"
-            }
+            "Circle Form Options": "Circle Form Options"
           }
         }
       }
@@ -1319,10 +1381,10 @@
       "description": "<blockquote><p>Celebrate Connection to the Natural World</p></blockquote><p>The Circle of the Land comprises mystics and sages who safeguard ancient knowledge and rites. These Druids meet within sacred circles of trees or standing stones to whisper primal secrets in Druidic. The circle's wisest members preside as the chief priests of their communities.</p>",
       "advancement": {
         "Subclass Features": {
-          "title": "Subclass Features"
+          "name": "Subclass Features"
         },
         "Lands Aid Damage": {
-          "title": "Lands Aid Damage"
+          "name": "Lands Aid Damage"
         }
       }
     },
@@ -1331,10 +1393,10 @@
       "description": "<blockquote><p>Adopt Animal Forms to Guard the Wilds</p></blockquote><p>Druids of the Circle of the Moon draw on lunar magic to transform themselves. Their order gathers under the moon to share news and perform rituals.</p><p>Changeable as the moon, a Druid of this circle might prowl as a great cat one night, soar over the treetops as an eagle the next day, and then crash through undergrowth as a bear to drive off a trespassing monster. The wild is in the Druid's blood.</p>",
       "advancement": {
         "Subclass Features": {
-          "title": "Subclass Features"
+          "name": "Subclass Features"
         },
         "Circle of the Moon Spells": {
-          "title": "Circle of the Moon Spells"
+          "name": "Circle of the Moon Spells"
         }
       }
     },
@@ -1343,13 +1405,13 @@
       "description": "<blockquote><p>Become One with Tides and Storms</p></blockquote><p>Druids of the Circle of the Sea draw on the tempestuous forces of oceans and storms. Some view themselves as embodiments of nature's wrath, seeking vengeance against those who despoil nature. Others seek mystical unity with nature by attuning themselves to the ebb and flow of the tides, following the rush of currents and waves and listening to the inscrutable whispers and roars of the winds.</p>",
       "advancement": {
         "Subclass Features": {
-          "title": "Subclass Features"
+          "name": "Subclass Features"
         },
         "Circle of the Sea Spells": {
-          "title": "Circle of the Sea Spells"
+          "name": "Circle of the Sea Spells"
         },
         "Wrath of the Sea Range": {
-          "title": "Wrath of the Sea Range"
+          "name": "Wrath of the Sea Range"
         }
       }
     },
@@ -1358,18 +1420,18 @@
       "description": "<blockquote><p>Harness Secrets Hidden in Constellations</p></blockquote><p>The Circle of the Stars has tracked heavenly patterns since time immemorial, discovering secrets hidden amid the constellations. By understanding these secrets, the Druids of this circle seek to harness the powers of the cosmos.</p>",
       "advancement": {
         "Subclass Features": {
-          "title": "Subclass Features"
+          "name": "Subclass Features"
         },
         "Star Map: Guidance": {
-          "title": "Star Map: Guidance",
+          "name": "Star Map: Guidance",
           "hint": "This spell can only be used when you have a Star Map."
         },
         "Star Map: Guiding Bolt": {
-          "title": "Star Map: Guiding Bolt",
+          "name": "Star Map: Guiding Bolt",
           "hint": "This spell can only be used when you have a Star Map."
         },
         "Starry Form Die": {
-          "title": "Starry Form Die"
+          "name": "Starry Form Die"
         }
       }
     },
@@ -1394,58 +1456,58 @@
       "description": "<blockquote><p>A Nature Priest of Primal Power</p></blockquote><h3>Core Druid Traits</h3><table class=\"core-class-traits\"><tbody><tr><th scope=\"row\"><p><strong>Primary Ability</strong></p></th><td><p>Wisdom</p></td></tr><tr><th scope=\"row\"><p><strong>Hit Point Die</strong></p></th><td><p>D8 per Druid level</p></td></tr><tr><th scope=\"row\"><p><strong>Saving Throw Proficiencies</strong></p></th><td><p>Intelligence and Wisdom</p></td></tr><tr><th scope=\"row\"><p><strong>Skill Proficiencies</strong></p></th><td><p><em>Choose 2:</em> Animal Handling, Arcana, Insight, Medicine, Nature, Perception, Religion, or Survival</p></td></tr><tr><th scope=\"row\"><p><strong>Weapon Proficiencies</strong></p></th><td><p>Simple weapons</p></td></tr><tr><th scope=\"row\"><p><strong>Tool Proficiencies</strong></p></th><td><p>Herbalism Kit</p></td></tr><tr><th scope=\"row\"><p><strong>Armor Training</strong></p></th><td><p>Light armor and Shields</p></td></tr><tr><th scope=\"row\"><p><strong>Starting Equipment</strong></p></th><td><p><em>Choose A or B:</em> (A) @UUID[Compendium.dnd-players-handbook.equipment.Item.phbarmLeatherArm]{Leather Armor}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbarmShield0000]{Shield}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbwepSickle0000]{Sickle}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagDruidicFocu]{Druidic Focus} (@UUID[Compendium.dnd-players-handbook.equipment.Item.phbwepQuartersta]{Quarterstaff}), @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagExplorersPa]{Explorer's Pack}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbtulHerbalismK]{Herbalism Kit}, and [[/award 9GP]]; or (B) [[/award 50GP]]</p></td></tr></tbody></table><p>Druids belong to ancient orders that call on the forces of nature. Harnessing the magic of animals, plants, and the four elements, Druids heal, transform into animals, and wield elemental destruction.</p><p>Revering nature above all, individual Druids gain their magic from nature, a nature deity, or both, and they typically unite with other Druids to perform rites that mark the passage of the seasons and other natural cycles.</p><p>Druids are concerned with the delicate ecological balance that sustains plant and animal life and with the need for people to live in harmony with nature. Druids often guard sacred sites or watch over regions of unspoiled nature, but when a significant danger arises, Druids take a more active role as adventurers who combat the threat.</p><h2>Becoming a Druid …</h2><h3>As a Level 1 Character</h3><ul><li>Gain all the traits in the Core Druid Traits table.</li><li>Gain the Druid's level 1 features, which are listed in the Druid Features table.</li></ul><h3>As a Multiclass Character</h3><ul><li>Gain the following traits from the Core Druid Traits table: Hit Point Die and training with Light armor and Shields.</li><li>Gain the Druid's level 1 features, which are listed in the Druid Features table. See the multiclassing rules in chapter 2 to determine your available spell slots.</li></ul>",
       "advancement": {
         "Class Features": {
-          "title": "Class Features"
+          "name": "Class Features"
         },
         "Cantrips Known": {
-          "title": "Cantrips Known"
+          "name": "Cantrips Known"
         },
         "Max Prepared Spells": {
-          "title": "Max Prepared Spells"
+          "name": "Max Prepared Spells"
         },
         "Wild Shape CR": {
-          "title": "Wild Shape CR"
+          "name": "Wild Shape CR"
         },
         "Wild Shape Uses": {
-          "title": "Wild Shape Uses"
+          "name": "Wild Shape Uses"
         },
         "Known Forms": {
-          "title": "Known Forms"
+          "name": "Known Forms"
         },
         "Druidic Spells": {
-          "title": "Druidic Spells"
+          "name": "Druidic Spells"
         },
         "Primal Order": {
-          "title": "Primal Order",
+          "name": "Primal Order",
           "hint": "You have dedicated yourself to one of the following sacred roles of your choice."
         },
         "Elemental Fury": {
-          "title": "Elemental Fury",
+          "name": "Elemental Fury",
           "hint": "The might of the elements flows through you. You gain one of the following options of your choice."
         },
         "W0d3c6X31SgnFFYM": {
-          "title": "Elemental Fury"
+          "name": "Elemental Fury"
         },
         "Saving Throw Proficiencies": {
-          "title": "Saving Throw Proficiencies"
+          "name": "Saving Throw Proficiencies"
         },
         "Skill Proficiencies": {
-          "title": "Skill Proficiencies"
+          "name": "Skill Proficiencies"
         },
         "Weapon Proficiencies": {
-          "title": "Weapon Proficiencies"
+          "name": "Weapon Proficiencies"
         },
         "Tool Proficiencies": {
-          "title": "Tool Proficiencies"
+          "name": "Tool Proficiencies"
         },
         "Armor Training": {
-          "title": "Armor Training"
+          "name": "Armor Training"
         },
         "Druidic": {
-          "title": "Druidic",
+          "name": "Druidic",
           "hint": "You know Druidic, the secret language of Druids."
         },
         "Epic Boon": {
-          "title": "Epic Boon"
+          "name": "Epic Boon"
         }
       }
     },
@@ -1489,7 +1551,7 @@
     },
     "Land's Aid": {
       "name": "Land's Aid",
-      "description": "<p>As a Magic action, you can expend a use of your Wild Shape and choose a point within 60 feet of yourself. Vitality-giving flowers and life-draining thorns appear for a moment in a 10-foot-radius Sphere centered on that point. Each creature of your choice in the Sphere must make a Constitution saving throw against your spell save DC, taking 2d6 Necrotic damage on a failed save or half as much damage on a successful one. One creature of your choice in that area regains [[/healing @scale.land.lands-aid]]{[[lookup @scale.land.lands-aid]] Hit Points}.</p><p>The damage and healing increase by 1d6 when you reach Druid levels 10 (3d6) and 14 (4d6).</p><section class=\"secret\" id=\"secret-T1DFK6QJjzeJsysz\"><p><strong>Foundry Note</strong></p><p>This feature includes an activity for the saving throw and the healing.</p><p>The healing/damage values automatically scale as you level up.</p></section>"
+      "description": "<p>As a Magic action, you can expend a use of your Wild Shape and choose a point within 60 feet of yourself. Vitality-giving flowers and life-draining thorns appear for a moment in a 10-foot-radius Sphere centered on that point. Each creature of your choice in the Sphere must make a Constitution saving throw against your spell save DC, taking 2d6 Necrotic damage on a failed save or half as much damage on a successful one. One creature of your choice in that area regains [[/heal]]{2d6 Hit Points}.</p><p>The damage and healing increase by 1d6 when you reach Druid levels 10 (3d6) and 14 (4d6).</p><section class=\"secret\" id=\"secret-T1DFK6QJjzeJsysz\"><p><strong>Foundry Note</strong></p><p>This feature includes an activity for the saving throw and the healing.</p><p>The healing/damage values automatically scale as you level up.</p></section>"
     },
     "Lunar Form": {
       "name": "Lunar Form",
@@ -1563,11 +1625,8 @@
     },
     "Nature's Ward": {
       "name": "Nature's Ward",
-      "description": "<p>You are immune to the Poisoned condition, and you have Resistance to a damage type associated with your current land choice in the Circle Spells feature, as shown in the Nature's Ward table.</p><table><caption>Nature's Ward</caption><thead><tr><td>Land Type</td><td>Resistance</td></tr></thead><tbody><tr><td>Arid</td><td>Fire</td></tr><tr><td>Polar</td><td>Cold</td></tr><tr><td>Temperate</td><td>Lightning</td></tr><tr><td>Tropical</td><td>Poison</td></tr></tbody></table><section class=\"secret\" id=\"secret-0muLLDjt1zqXptme\"><p><strong>Foundry Note</strong></p><p>This feature includes an Active Effect for the Poison condition immunity and an Active Effect for each land type. You can activate the Active Effect for your chosen land type.</p></section>",
+      "description": "<p>You are immune to the Poisoned condition, and you have Resistance to a damage type associated with your current land choice in the Circle Spells feature, as shown in the Nature's Ward table.</p><table><caption>Nature's Ward</caption><thead><tr><td>Land Type</td><td>Resistance</td></tr></thead><tbody><tr><td>Arid</td><td>Fire</td></tr><tr><td>Polar</td><td>Cold</td></tr><tr><td>Temperate</td><td>Lightning</td></tr><tr><td>Tropical</td><td>Poison</td></tr></tbody></table><section class=\"secret\" id=\"secret-0muLLDjt1zqXptme\"><p><strong>Foundry Note</strong></p><p>This feature includes an Active Effect for each land type. You can activate the Active Effect for your chosen land type.</p></section>",
       "effects": {
-        "Nature's Ward": {
-          "name": "Nature's Ward"
-        },
         "Nature's Ward: Arid": {
           "name": "Nature's Ward: Arid"
         },
@@ -1579,6 +1638,11 @@
         },
         "Nature's Ward: Tropical": {
           "name": "Nature's Ward: Tropical"
+        }
+      },
+      "advancement": {
+        "Poisoned Immunity": {
+          "name": "Poisoned Immunity"
         }
       }
     },
@@ -1647,12 +1711,16 @@
         },
         "Starry Form": {
           "name": "Starry Form"
+        },
+        "Dragon Form (Twinkling)": {
+          "name": "Dragon Form (Twinkling)",
+          "description": "<p>A constellation of a wise dragon appears on you. When you make an Intelligence or a Wisdom check or a Constitution saving throw to maintain Concentration, you can treat a roll of 9 or lower on the d20 as a 10.</p><p>You have a Fly Speed of 20 feet and can hover.</p>"
         }
       }
     },
     "Stormborn": {
       "name": "Stormborn",
-      "description": "<p>Your Wrath of the Sea confers two more benefits while active, as detailed below.</p><p><strong>Flight.</strong> You gain a Fly Speed equal to your Speed.</p><p><strong>Resistance.</strong> You have Resistance to Cold, Lightning, and Thunder damage.</p><section class=\"secret\" id=\"secret-gM39tGMfj0IPiND0\"><p><strong>Foundry Note</strong></p><p>You can use this feature in place of Wrath of the Sea. It includes an Active Effect which will automate the addition of the Resistances. It does not add the Fly Speed though.</p></section>",
+      "description": "<p>Your Wrath of the Sea confers two more benefits while active, as detailed below.</p><p><strong>Flight.</strong> You gain a Fly Speed equal to your Speed.</p><p><strong>Resistance.</strong> You have Resistance to Cold, Lightning, and Thunder damage.</p><section class=\"secret\" id=\"secret-gM39tGMfj0IPiND0\"><p><strong>Foundry Note</strong></p><p>You can use this feature in place of Wrath of the Sea. It includes an Active Effect which will automate the addition of the Resistances and Fly Speed.</p></section>",
       "effects": {
         "Stormborn": {
           "name": "Stormborn"
@@ -1695,15 +1763,9 @@
       "activities": {
         "transform": {
           "profiles": {
-            "CR ¼": {
-              "name": "CR ¼"
-            },
-            "CR ½": {
-              "name": "CR ½"
-            },
-            "CR 1": {
-              "name": "CR 1"
-            }
+            "CR ¼": "CR ¼",
+            "CR ½": "CR ½",
+            "CR 1": "CR 1"
           }
         }
       }
@@ -1743,19 +1805,19 @@
       "description": "<blockquote><p>Master Sophisticated Battle Maneuvers</p></blockquote><p>Battle Masters are students of the art of battle, learning martial techniques passed down through generations. The most accomplished Battle Masters are well-rounded figures who combine their carefully honed combat skills with academic study in the fields of history, theory, and the arts.</p>",
       "advancement": {
         "Subclass Features": {
-          "title": "Subclass Features"
+          "name": "Subclass Features"
         },
         "Superiority Dice": {
-          "title": "Superiority Dice"
+          "name": "Superiority Dice"
         },
         "Student of War: Skills": {
-          "title": "Student of War: Skills"
+          "name": "Student of War: Skills"
         },
         "Student of War: Tools": {
-          "title": "Student of War: Tools"
+          "name": "Student of War: Tools"
         },
         "Combat Superiority: Maneuvers": {
-          "title": "Combat Superiority: Maneuvers"
+          "name": "Combat Superiority: Maneuvers"
         }
       }
     },
@@ -1781,10 +1843,10 @@
       "description": "<blockquote><p>Pursue Physical Excellence in Combat</p></blockquote><p>A Champion focuses on the development of martial prowess in a relentless pursuit of victory. Champions combine rigorous training with physical excellence to deal devastating blows, withstand peril, and garner glory. Whether in athletic contests or bloody battle, Champions strive for the crown of the victor.</p>",
       "advancement": {
         "Subclass Features": {
-          "title": "Subclass Features"
+          "name": "Subclass Features"
         },
         "Fighting Style": {
-          "title": "Fighting Style"
+          "name": "Fighting Style"
         }
       }
     },
@@ -1797,13 +1859,13 @@
       "description": "<blockquote><p>Support Combat Skills with Arcane Magic</p></blockquote><p>Eldritch Knights combine the martial mastery common to all Fighters with a careful study of magic. Their spells both complement and extend their combat skills, providing additional protection to shore up their armor and also allowing them to engage many foes at once with explosive magic.</p>",
       "advancement": {
         "Subclass Features": {
-          "title": "Subclass Features"
+          "name": "Subclass Features"
         },
         "Cantrips": {
-          "title": "Cantrips"
+          "name": "Cantrips"
         },
         "Prepared Spells": {
-          "title": "Prepared Spells"
+          "name": "Prepared Spells"
         }
       }
     },
@@ -1825,40 +1887,40 @@
       "description": "<blockquote><p>A Master of All Arms and Armor</p></blockquote><h3>Core Fighter Traits</h3><table class=\"core-class-traits\"><tbody><tr><th scope=\"row\"><p><strong>Primary Ability</strong></p></th><td><p>Strength or Dexterity</p></td></tr><tr><th scope=\"row\"><p><strong>Hit Point Die</strong></p></th><td><p>D10 per Fighter level</p></td></tr><tr><th scope=\"row\"><p><strong>Saving Throw Proficiencies</strong></p></th><td><p>Strength and Constitution</p></td></tr><tr><th scope=\"row\"><p><strong>Skill Proficiencies</strong></p></th><td><p><em>Choose 2:</em> Acrobatics, Animal Handling, Athletics, History, Insight, Intimidation, Persuasion, Perception, or Survival</p></td></tr><tr><th scope=\"row\"><p><strong>Weapon Proficiencies</strong></p></th><td><p>Simple and Martial weapons</p></td></tr><tr><th scope=\"row\"><p><strong>Armor Training</strong></p></th><td><p>Light, Medium, and Heavy armor and Shields</p></td></tr><tr><th scope=\"row\"><p><strong>Starting Equipment</strong></p></th><td><p><em>Choose A, B, or C:</em> (A) @UUID[Compendium.dnd-players-handbook.equipment.Item.phbarmChainMail0]{Chain Mail}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbwepGreatsword]{Greatsword}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbwepFlail00000]{Flail}, 8 @UUID[Compendium.dnd-players-handbook.equipment.Item.phbwepJavelin000]{Javelins}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagDungeoneers]{Dungeoneer's Pack}, and 4 GP; (B) @UUID[Compendium.dnd-players-handbook.equipment.Item.phbarmStuddedLea]{Studded Leather Armor}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbwepScimitar00]{Scimitar}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbwepShortsword]{Short­sword}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbwepLongbow000]{Longbow}, 20 @UUID[Compendium.dnd-players-handbook.equipment.Item.phbamoArrows0000]{Arrows}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagQuiver00000]{Quiver}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagDungeoneers]{Dungeoneer's Pack}, and [[/award 11GP]]; or (C) [[/award 155GP]]</p></td></tr></tbody></table><p>Fighters rule many battlefields. Questing knights, royal champions, elite soldiers, and hardened mercenaries—as Fighters, they all share an unparalleled prowess with weapons and armor. And they are well acquainted with death, both meting it out and defying it.</p><p>Fighters master various weapon techniques, and a well-equipped Fighter always has the right tool at hand for any combat situation. Likewise, a Fighter is adept with every form of armor. Beyond that basic degree of familiarity, each Fighter specializes in certain styles of combat. Some concentrate on archery, some on fighting with two weapons at once, and some on augmenting their martial skills with magic. This combination of broad ability and extensive specialization makes Fighters superior combatants.</p><h2>Becoming a Fighter …</h2><h3>As a Level 1 Character</h3><ul><li>Gain all the traits in the Core Fighter Traits table.</li><li>Gain the Fighter's level 1 features, which are listed in the Fighter Features table.</li></ul><h3>As a Multiclass Character</h3><ul><li>Gain the following traits from the Core Fighter Traits table: Hit Point Die, proficiency with Martial weapons, and training with Light and Medium armor and Shields.</li><li>Gain the Fighter's level 1 features, which are listed in the Fighter Features table.</li></ul>",
       "advancement": {
         "Class Features": {
-          "title": "Class Features"
+          "name": "Class Features"
         },
         "Action Surge": {
-          "title": "Action Surge"
+          "name": "Action Surge"
         },
         "Indomitable": {
-          "title": "Indomitable"
+          "name": "Indomitable"
         },
         "Second Wind": {
-          "title": "Second Wind"
+          "name": "Second Wind"
         },
         "Saving Throw Proficiencies": {
-          "title": "Saving Throw Proficiencies"
+          "name": "Saving Throw Proficiencies"
         },
         "Skill Proficiencies": {
-          "title": "Skill Proficiencies"
+          "name": "Skill Proficiencies"
         },
         "Weapon Proficiencies": {
-          "title": "Weapon Proficiencies"
+          "name": "Weapon Proficiencies"
         },
         "Armor Training": {
-          "title": "Armor Training"
+          "name": "Armor Training"
         },
         "Weapon Mastery": {
-          "title": "Weapon Mastery"
+          "name": "Weapon Mastery"
         },
         "Fighting Style": {
-          "title": "Fighting Style"
+          "name": "Fighting Style"
         },
         "Weapon Masteries Known": {
-          "title": "Weapon Masteries Known"
+          "name": "Weapon Masteries Known"
         },
         "Epic Boon": {
-          "title": "Epic Boon"
+          "name": "Epic Boon"
         }
       }
     },
@@ -1927,16 +1989,16 @@
       "description": "<blockquote><p>Augment Physical Might with Psionic Power</p></blockquote><p>Psi Warriors awaken the power of their minds to augment their physical might. They harness this psionic power to infuse their weapon strikes, lash out with telekinetic energy, and create barriers of mental force.</p>",
       "advancement": {
         "Subclass Features": {
-          "title": "Subclass Features"
+          "name": "Subclass Features"
         },
         "Psionic Energy Die": {
-          "title": "Psionic Energy Die"
+          "name": "Psionic Energy Die"
         },
         "Telekinetic Master": {
-          "title": "Telekinetic Master"
+          "name": "Telekinetic Master"
         },
         "Guarded Mind": {
-          "title": "Guarded Mind",
+          "name": "Guarded Mind",
           "hint": "You have Resistance to Psychic damage."
         }
       }
@@ -2043,7 +2105,7 @@
     },
     "Telekinetic Adept": {
       "name": "Telekinetic Adept",
-      "description": "<p>You have mastered new ways to use your telekinetic abilities, detailed below.</p><p><strong>Psi-Powered Leap.</strong> As a Bonus Action, you gain a Fly Speed equal to twice your Speed until the end of the current turn. Once you take this Bonus Action, you can't do so again until you finish a Short or Long Rest unless you expend a Psionic Energy Die (no action required) to restore your use of it.</p><p><strong>Telekinetic Thrust.</strong> When you deal damage to a target with your Psionic Strike, you can force the target to make a Strength saving throw (DC 8 plus your Intelligence modifier and Proficiency Bonus). On a failed save, you can give the target the Prone condition or transport it up to 10 feet horizontally.</p><section id=\"secret-3FJveOZHh3M7CaKV\" class=\"secret\"><p><strong>Foundry Note</strong></p><p>The <strong>Psi-Powered Leap</strong> activity includes a free use and you can use the <strong>Psi-Powered Leap Using Psionic Energy</strong> activity to use it again with a Psionic Energy Die. It does not automate the addition of the Fly Speed.</p><p>The <strong>Telekinetic Thrust</strong> activity includes an Active Effect which will can apply the Prone condition.</p></section>",
+      "description": "<p>You have mastered new ways to use your telekinetic abilities, detailed below.</p><p><strong>Psi-Powered Leap.</strong> As a Bonus Action, you gain a Fly Speed equal to twice your Speed until the end of the current turn. Once you take this Bonus Action, you can't do so again until you finish a Short or Long Rest unless you expend a Psionic Energy Die (no action required) to restore your use of it.</p><p><strong>Telekinetic Thrust.</strong> When you deal damage to a target with your Psionic Strike, you can force the target to make a Strength saving throw (DC 8 plus your Intelligence modifier and Proficiency Bonus). On a failed save, you can give the target the Prone condition or transport it up to 10 feet horizontally.</p><section class=\"secret\" id=\"secret-3FJveOZHh3M7CaKV\"><p><strong>Foundry Note</strong></p><p>The <strong>Psi-Powered Leap</strong> activity includes a free use and you can use the <strong>Psi-Powered Leap Using Psionic Energy</strong> activity to use it again with a Psionic Energy Die.</p><p>The <strong>Telekinetic Thrust</strong> activity includes an Active Effect which will can apply the Prone condition.</p></section>",
       "activities": {
         "Psi-Powered Leap": {
           "name": "Psi-Powered Leap"
@@ -2057,8 +2119,11 @@
         }
       },
       "effects": {
-        "Telekinetic Thrust": {
-          "name": "Telekinetic Thrust"
+        "Prone": {
+          "name": "Prone"
+        },
+        "Psi-Powered Leap": {
+          "name": "Psi-Powered Leap"
         }
       }
     },
@@ -2094,7 +2159,7 @@
           "name": "War Bond",
           "description": "<p>Once you have bonded a weapon to yourself, you can't be disarmed of that weapon unless you have the Incapacitated condition. If it is on the same plane of existence, you can summon that weapon as a Bonus Action, causing it to teleport instantly to your hand.</p>",
           "changes": {
-            "name": ", War Bonded"
+            "0": ", War Bonded"
           }
         }
       }
@@ -2120,7 +2185,7 @@
           "name": "Agonizing Blast",
           "description": "<p>Choose one of your known Warlock cantrips that deals damage. You can add your Charisma modifier to that spell’s damage rolls.</p>",
           "changes": {
-            "name": ", Agonizing"
+            "0": ", Agonizing"
           }
         }
       }
@@ -2177,7 +2242,7 @@
         "Eldritch Spear": {
           "name": "Eldritch Spear",
           "changes": {
-            "name": ", Eldritch Spear"
+            "1": ", Eldritch Spear"
           }
         }
       }
@@ -2229,35 +2294,35 @@
     },
     "Investment of the Chain Master": {
       "name": "Investment of the Chain Master",
-      "description": "<blockquote><p>Prerequisite: Level 5+ Warlock, @UUID[Compendium.dnd-players-handbook.classes.Item.phbinvPactChain0]{Pact of the Chain} Invocation</p></blockquote><p>When you cast @UUID[Compendium.dnd-players-handbook.spells.Item.phbsplFindFamili]{Find Familiar}, you infuse the summoned familiar with a measure of your eldritch power, granting the creature the following benefits.</p><p><strong>Aerial or Aquatic.</strong> The familiar gains either a Fly Speed or a Swim Speed (your choice) of 40 feet.</p><p><strong>Quick Attack.</strong> As a Bonus Action, you can command the familiar to take the Attack action.</p><p><strong>Necrotic or Radiant Damage.</strong> Whenever the familiar deals Bludgeoning, Piercing, or Slashing damage, you can make it deal Necrotic or Radiant damage instead.</p><p><strong>Your Save DC.</strong> If the familiar forces a creature to make a saving throw, it uses your spell save DC.</p><p><strong>Resistance.</strong> When the familiar takes damage, you can take a Reaction to grant it Resistance against that damage.</p><section class=\"secret\" id=\"secret-D3vSCo0uEG4Kp1X6\"><p><strong>Foundry Note</strong></p><p>The <strong>Find Familiar with Flight</strong> and <strong>with Swimming</strong> activities both allow you to summon a familiar with the relevant movement bonus. Both activities consume a Pact Magic spell slot.</p><p>The <strong>Invest with Resistance</strong> activity includes an Active Effect for resisting each type of damage which can be applied to get the relevant resistance. Be sure you disable/delete the previous Active Effect in the \"Effects\" tab of your sheet when you change Resistances.</p><p>The familiar automatically uses your Save DC.</p></section>",
+      "description": "<blockquote><p>Prerequisite: Level 5+ Warlock, @UUID[Compendium.dnd-players-handbook.classes.Item.phbinvPactChain0]{Pact of the Chain} Invocation</p></blockquote><p>When you cast @UUID[Compendium.dnd-players-handbook.spells.Item.phbsplFindFamili]{Find Familiar}, you infuse the summoned familiar with a measure of your eldritch power, granting the creature the following benefits.</p><p><strong>Aerial or Aquatic.</strong> The familiar gains either a Fly Speed or a Swim Speed (your choice) of 40 feet.</p><p><strong>Quick Attack.</strong> As a Bonus Action, you can command the familiar to take the Attack action.</p><p><strong>Necrotic or Radiant Damage.</strong> Whenever the familiar deals Bludgeoning, Piercing, or Slashing damage, you can make it deal Necrotic or Radiant damage instead.</p><p><strong>Your Save DC.</strong> If the familiar forces a creature to make a saving throw, it uses your spell save DC.</p><p><strong>Resistance.</strong> When the familiar takes damage, you can take a Reaction to grant it Resistance against that damage.</p><section class=\"secret\" id=\"secret-D3vSCo0uEG4Kp1X6\"><p><strong>Foundry Note</strong></p><p>The <strong>Find Familiar</strong> activities will apply both <strong>Aerial</strong> and <strong>Aquatic</strong> effects to the summoned creature. The unused effect on the creature may be deleted.</p><p>The <strong>Resistance</strong> activity includes optional Active Effect for resisting each type of damage.</p></section>",
       "activities": {
-        "Find Familiar with Flight": {
-          "name": "Find Familiar with Flight",
-          "profiles": {
-            "CR 0 Beast": {
-              "name": "CR 0 Beast"
-            }
-          }
-        },
-        "Find Familiar with Swimming": {
-          "name": "Find Familiar with Swimming",
-          "profiles": {
-            "CR 0 Beast": {
-              "name": "CR 0 Beast"
-            }
-          }
-        },
-        "Invest with Resistance": {
-          "name": "Invest with Resistance",
+        "Resistance": {
+          "name": "Resistance",
           "target": "Your familiar"
+        },
+        "Find Familiar": {
+          "name": "Find Familiar",
+          "profiles": {
+            "CR 0 Beast": "CR 0 Beast"
+          }
+        },
+        "Find Familiar (Expanded Options)": {
+          "name": "Find Familiar (Expanded Options)"
+        },
+        "Quick Attack": {
+          "name": "Quick Attack",
+          "chatFlavor": "The familiar takes the Attack action",
+          "target": "the familiar"
         }
       },
       "effects": {
-        "Investment of Flight": {
-          "name": "Investment of Flight"
+        "Aerial": {
+          "name": "Aerial",
+          "description": "<p><strong>Aerial or Aquatic.</strong> The familiar gains either a Fly Speed or a Swim Speed (your choice) of 40 feet.</p>"
         },
-        "Investment of Swimming": {
-          "name": "Investment of Swimming"
+        "Aquatic": {
+          "name": "Aquatic",
+          "description": "<p><strong>Aerial or Aquatic.</strong> The familiar gains either a Fly Speed or a Swim Speed (your choice) of 40 feet.</p>"
         },
         "Resist Acid": {
           "name": "Resist Acid"
@@ -2305,7 +2370,7 @@
       "description": "<blockquote><p>Prerequisite: Level 2+ Warlock</p></blockquote><p>You have received knowledge from an elder entity of the multiverse, allowing you to gain one @UUID[Compendium.dnd-players-handbook.content.JournalEntry.phbFeats00000000.JournalEntryPage.otAeQs0TLHYIBNuj]{Origin feat} of your choice.</p><p><strong>Repeatable. </strong>You can gain this invocation more than once. Each time you do so, choose a different Origin feat.</p>",
       "advancement": {
         "Choose Origin Feat": {
-          "title": "Choose Origin Feat"
+          "name": "Choose Origin Feat"
         }
       }
     },
@@ -2361,7 +2426,7 @@
         "Pact Weapon": {
           "name": "Pact Weapon",
           "changes": {
-            "name": ", Pact Weapon"
+            "0": ", Pact Weapon"
           }
         }
       }
@@ -2373,9 +2438,7 @@
         "Find Familiar": {
           "name": "Find Familiar",
           "profiles": {
-            "CR 0 Beast": {
-              "name": "CR 0 Beast"
-            }
+            "CR 0 Beast": "CR 0 Beast"
           }
         },
         "Find Familiar (Expanded Options)": {
@@ -2400,7 +2463,7 @@
           "name": "Repelling Blast",
           "description": "<p>Choose one of your known Warlock cantrips that requires an attack roll. When you hit a Large or smaller creature with that cantrip, you can push the creature up to 10 feet straight away from you.</p>",
           "changes": {
-            "name": ", Repelling"
+            "0": ", Repelling"
           }
         }
       }
@@ -2583,10 +2646,15 @@
     },
     "Disciplined Survivor": {
       "name": "Disciplined Survivor",
-      "description": "<p>Your physical and mental discipline grant you proficiency in all saving throws.</p><p>Additionally, whenever you make a saving throw and fail, you can expend 1 Focus Point to reroll it, and you must use the new roll.</p><section class=\"secret\" id=\"secret-VLGTfBDBcfExjSXG\"><p><strong>Foundry Note</strong></p><p>You will automatically be granted the additional Saving Throw proficiencies as you level up.</p><p>Use this feature to expend 1 Focus Point.</p></section>",
+      "description": "<p>Your physical and mental discipline grant you proficiency in all saving throws.</p><p>Additionally, whenever you make a saving throw and fail, you can expend 1 Focus Point to reroll it, and you must use the new roll.</p><section class=\"secret\" id=\"secret-VLGTfBDBcfExjSXG\"><p><strong>Foundry Note</strong></p><p>Use this feature to expend 1 Focus Point.</p></section>",
       "activities": {
         "Consume Focus Point": {
           "name": "Consume Focus Point"
+        }
+      },
+      "effects": {
+        "Disciplined Survivor": {
+          "name": "Disciplined Survivor"
         }
       }
     },
@@ -2611,10 +2679,23 @@
         "Active Attunement": {
           "name": "Active Attunement",
           "changes": {
-            "name": "{} (Active)",
-            "activities[enchant].activation.condition": "at end of duration",
-            "activities[enchant].name": "End Attunement"
+            "0": "{} (Active)",
+            "2": "at end of duration",
+            "3": "End Attunement"
           }
+        },
+        "Active Attunement (Stride)": {
+          "name": "Active Attunement (Stride)",
+          "description": "<p><em>See  @UUID[Compendium.dnd-players-handbook.classes.Item.phbmnkStrideOfTh]</em></p>",
+          "changes": {
+            "0": "{} (Active)",
+            "2": "at end of duration",
+            "3": "End Attunement"
+          }
+        },
+        "Stride of the Elements": {
+          "name": "Stride of the Elements",
+          "description": "<p><em>See @UUID[Compendium.dnd-players-handbook.classes.Item.phbmnkStrideOfTh]</em></p>"
         }
       }
     },
@@ -2670,10 +2751,10 @@
       "description": "<blockquote><p>Wield Strikes and Bursts of Elemental Power</p></blockquote><p>Warriors of the Elements tap into the power of the Elemental Planes. Harnessing their supernatural focus, these Monks momentarily tame the energy of the Elemental Chaos to empower themselves in and out of battle.</p>",
       "advancement": {
         "Subclass Features": {
-          "title": "Subclass Features"
+          "name": "Subclass Features"
         },
         "Manipulate Elements": {
-          "title": "Manipulate Elements"
+          "name": "Manipulate Elements"
         }
       }
     },
@@ -2700,7 +2781,12 @@
     },
     "Flurry of Healing and Harm": {
       "name": "Flurry of Healing and Harm",
-      "description": "<p>When you use Flurry of Blows, you can replace each of the Unarmed Strikes with a use of Hand of Healing without expending Focus Points for the healing.</p><p>In addition, when you make an Unarmed Strike with Flurry of Blows and deal damage, you can use Hand of Harm with that strike without expending a Focus Point for Hand of Harm. You can still use Hand of Harm only once per turn.</p><p>You can use these benefits a total number of times equal to your Wisdom modifier (minimum of once). You regain all expended uses when you finish a Long Rest.</p><section id=\"secret-FnxdUfwVso4SoAFQ\" class=\"secret\"><p><strong>Foundry Note</strong></p><p>This feature can be used for tracking your available uses.</p></section>"
+      "description": "<p>When you use Flurry of Blows, you can replace each of the Unarmed Strikes with a use of Hand of Healing without expending Focus Points for the healing.</p><p>In addition, when you make an Unarmed Strike with Flurry of Blows and deal damage, you can use Hand of Harm with that strike without expending a Focus Point for Hand of Harm. You can still use Hand of Harm only once per turn.</p><p>You can use these benefits a total number of times equal to your Wisdom modifier (minimum of once). You regain all expended uses when you finish a Long Rest.</p><section id=\"secret-FnxdUfwVso4SoAFQ\" class=\"secret\"><p><strong>Foundry Note</strong></p><p>This feature can be used for tracking your available uses.</p></section>",
+      "activities": {
+        "Expend Use": {
+          "name": "Expend Use"
+        }
+      }
     },
     "Hand of Harm": {
       "name": "Hand of Harm",
@@ -2776,7 +2862,7 @@
           "name": "Dexterous Attacks & Martial Arts Damage",
           "description": "<p><strong>Martial Arts Die.</strong> You can roll [[lookup @scale.monk.die]] in place of the normal damage of your Unarmed Strike or Monk weapons. This die changes as you gain Monk levels, as shown in the Martial Arts column of the Monk Features table.</p><p><strong>Dexterous Attacks.</strong> You can use your Dexterity modifier instead of your Strength modifier for the attack and damage rolls of your Unarmed Strikes and Monk weapons. In addition, when you use the Grapple or Shove option of your Unarmed Strike, you can use your Dexterity modifier instead of your Strength modifier to determine the save DC.</p><p></p>",
           "changes": {
-            "name": "{} (Martial Arts)"
+            "3": "{} (Martial Arts)"
           }
         }
       }
@@ -2786,10 +2872,10 @@
       "description": "<blockquote><p>Manipulate Forces of Life and Death</p></blockquote><p>Warriors of Mercy manipulate the life force of others. These Monks are wandering physicians, but they bring a swift end to their enemies. They often wear masks, presenting themselves as faceless bringers of life and death.</p>",
       "advancement": {
         "Subclass Features": {
-          "title": "Subclass Features"
+          "name": "Subclass Features"
         },
         "Implements of Mercy": {
-          "title": "Implements of Mercy"
+          "name": "Implements of Mercy"
         }
       }
     },
@@ -2798,34 +2884,31 @@
       "description": "<blockquote><p>A Martial Artist of Supernatural Focus</p></blockquote><h3>Core Monk Traits</h3><table class=\"core-class-traits\"><tbody><tr><th scope=\"row\"><p>Primary Ability</p></th><td><p>Dexterity and Wisdom</p></td></tr><tr><th scope=\"row\"><p>Hit Point Die</p></th><td><p>D8 per Monk level</p></td></tr><tr><th scope=\"row\"><p>Saving Throw Proficiencies</p></th><td><p>Strength and Dexterity</p></td></tr><tr><th scope=\"row\"><p>Skill Proficiencies</p></th><td><p><em>Choose 2:</em> Acrobatics, Athletics, History, Insight, Religion, or Stealth</p></td></tr><tr><th scope=\"row\"><p>Weapon Proficiencies</p></th><td><p>Simple weapons and Martial weapons that have the Light property</p></td></tr><tr><th scope=\"row\"><p>Tool Proficiencies</p></th><td><p><em>Choose one type of Artisan's Tools or Musical Instrument</em></p></td></tr><tr><th scope=\"row\"><p>Armor Training</p></th><td><p>None</p></td></tr><tr><th scope=\"row\"><p>Starting Equipment</p></th><td><p><em>Choose A or B:</em> (A) @UUID[Compendium.dnd-players-handbook.equipment.Item.phbwepSpear00000]{Spear}, 5 @UUID[Compendium.dnd-players-handbook.equipment.Item.phbwepDagger0000]{Daggers}, Artisan's Tools or Musical Instrument chosen for the tool proficiency above, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagExplorersPa]{Explorer's Pack}, and [[/award 11GP]]; or (B) [[/award 50GP]]</p></td></tr></tbody></table><p>Monks use rigorous combat training and mental discipline to align themselves with the multiverse and focus their internal reservoirs of power. Different Monks conceptualize this power in various ways: as breath, energy, life force, essence, or self, for example. Whether channeled as a striking display of martial prowess or as a subtler manifestation of defense and speed, this power infuses all that a Monk does.</p><p>Monks focus their internal power to create extraordinary, even supernatural, effects. They channel uncanny speed and strength into their attacks, with or without the use of weapons. In a Monk's hands, even the most basic weapons can become sophisticated implements of combat mastery.</p><p>Many Monks find that a structured life of ascetic withdrawal helps them cultivate the physical and mental focus they need to harness their power. Other Monks believe that immersing themselves in the vibrant confusion of life helps to fuel their determination and discipline.</p><p>Monks generally view adventures as tests of their physical and mental development. They are driven by a desire to accomplish a greater mission than merely slaying monsters and plundering treasure; they strive to turn themselves into living weapons.</p><h2>Becoming a Monk …</h2><h3>As a Level 1 Character</h3><ul><li>Gain all the traits in the Core Monk Traits table.</li><li>Gain the Monk's level 1 features, which are listed in the Monk Features table.</li></ul><h3>As a Multiclass Character</h3><ul><li>Gain the Hit Point Die trait from the Core Monk Traits table.</li><li>Gain the Monk's level 1 features, which are listed in the Monk Features table.</li></ul>",
       "advancement": {
         "Class Features": {
-          "title": "Class Features"
+          "name": "Class Features"
         },
         "Martial Arts Die": {
-          "title": "Martial Arts Die"
+          "name": "Martial Arts Die"
         },
         "Unarmored Movement": {
-          "title": "Unarmored Movement"
-        },
-        "Disciplined Survivor": {
-          "title": "Disciplined Survivor"
+          "name": "Unarmored Movement"
         },
         "Saving Throw Proficiencies": {
-          "title": "Saving Throw Proficiencies"
+          "name": "Saving Throw Proficiencies"
         },
         "Skill Proficiencies": {
-          "title": "Skill Proficiencies"
+          "name": "Skill Proficiencies"
         },
         "Weapon Proficiencies": {
-          "title": "Weapon Proficiencies"
+          "name": "Weapon Proficiencies"
         },
         "Tool Proficiencies": {
-          "title": "Tool Proficiencies"
+          "name": "Tool Proficiencies"
         },
         "Focus Points": {
-          "title": "Focus Points"
+          "name": "Focus Points"
         },
         "Epic Boon": {
-          "title": "Epic Boon"
+          "name": "Epic Boon"
         }
       }
     },
@@ -2834,7 +2917,8 @@
       "description": "<p>Your focus and martial training allow you to harness a well of extraordinary energy within yourself. This energy is represented by Focus Points. Your Monk level determines the number of points you have, as shown in the Focus Points column of the Monk Features table.</p><p>You can expend these points to enhance or fuel certain Monk features. You start knowing three such features: Flurry of Blows, Patient Defense, and Step of the Wind, each of which is detailed below.</p><p>When you expend a Focus Point, it is unavailable until you finish a Short or Long Rest, at the end of which you regain all your expended points.</p><p>Some features that use Focus Points require your target to make a saving throw. The save DC equals 8 plus your Wisdom modifier and Proficiency Bonus.</p><p><strong>Flurry of Blows.</strong> You can expend 1 Focus Point to make two Unarmed Strikes as a Bonus Action.</p><p><strong>Patient Defense.</strong> You can take the Disengage action as a Bonus Action. Alternatively, you can expend 1 Focus Point to take both the Disengage and the Dodge actions as a Bonus Action.</p><p><strong>Step of the Wind.</strong> You can take the Dash action as a Bonus Action. Alternatively, you can expend 1 Focus Point to take both the Disengage and Dash actions as a Bonus Action, and your jump distance is doubled for the turn.</p><section class=\"secret\" id=\"secret-Kb8gEVefEUz6IHer\"><p><strong>Foundry Note</strong></p><p>The <strong>Flurry of Blows</strong> activity is a Bonus Action which expends a Focus Point and includes the Attack Roll and Damage for an Unarmored Strike using your Martial Arts Die which automatically scales as you level up. If your [[/item Unarmed Strike]] is impacted by other magic items, you can use the <strong>Expend Focus Point</strong> activity and then use your Unarmed Strike as usual.</p><p>The <strong>Patient Defense</strong> Bonus Action activity includes an Active Effect for tracking that you're Disengaged. The <strong>Patient Defense (Focus Point)</strong> activity expends a Focus Point and includes an Active Effect that adds the Dodging status.</p><p>The <strong>Step of the Wind</strong> Bonus Action activity expends 1 Focus Point and includes an Active Effect for tracking that you're Disengaged.</p></section>",
       "activities": {
         "Flurry of Blows": {
-          "name": "Flurry of Blows"
+          "name": "Flurry of Blows",
+          "chatFlavor": "Make two [[/item Unarmed Strike]]{Unarmed Strikes}"
         },
         "Patient Defense (Focus Point)": {
           "name": "Patient Defense (Focus Point)"
@@ -2844,9 +2928,6 @@
         },
         "Step of the Wind": {
           "name": "Step of the Wind"
-        },
-        "Expend Focus Point": {
-          "name": "Expend Focus Point"
         }
       },
       "effects": {
@@ -2889,7 +2970,7 @@
       "description": "<blockquote><p>Master Unarmed Combat Techniques</p></blockquote><p>Warriors of the Open Hand are masters of unarmed combat. They learn techniques to push and trip their opponents and manipulate their own energy to protect themselves from harm.</p>",
       "advancement": {
         "Subclass Features": {
-          "title": "Subclass Features"
+          "name": "Subclass Features"
         }
       }
     },
@@ -2899,7 +2980,7 @@
     },
     "Physician's Touch": {
       "name": "Physician's Touch",
-      "description": "<p>Your Hand of Harm and Hand of Healing improve, as detailed below.</p><p><strong>Hand of Harm.</strong> When you use Hand of Harm on a creature, you can also give that creature the Poisoned condition until the end of your next turn.</p><p><strong>Hand of Healing.</strong> When you use Hand of Healing, you can also end one of the following conditions on the creature you heal: Blinded, Deafened, Paralyzed, Poisoned, or Stunned.</p><section id=\"secret-0OzKGSx4PSkIO5se\" class=\"secret\"><p><strong>Foundry Note</strong></p><p>You can use the <strong>Hand of Harm</strong> and <strong>Hand of Healing</strong> activities on this feature going forward. <strong>Hand of Harm</strong> includes an Active Effect which will apply the Poisoned status.</p></section>",
+      "description": "<p>Your Hand of Harm and Hand of Healing improve, as detailed below.</p><p><strong>Hand of Harm.</strong> When you use Hand of Harm on a creature, you can also give that creature the &amp;Reference[Poisoned apply=false] condition until the end of your next turn.</p><p><strong>Hand of Healing.</strong> When you use Hand of Healing, you can also end one of the following conditions on the creature you heal: Blinded, Deafened, Paralyzed, Poisoned, or Stunned.</p><section class=\"secret\" id=\"secret-0OzKGSx4PSkIO5se\"><p><strong>Foundry Note</strong></p><p>You can use the <strong>Hand of Harm</strong> and <strong>Hand of Healing</strong> activities on this feature going forward. <strong>Hand of Harm</strong> includes an Active Effect which will apply the Poisoned status.</p></section>",
       "activities": {
         "Hand of Harm": {
           "name": "Hand of Harm",
@@ -2910,8 +2991,8 @@
         }
       },
       "effects": {
-        "Physician's Touch: Hand of Harm": {
-          "name": "Physician's Touch: Hand of Harm"
+        "Poisoned (Hand of Harm)": {
+          "name": "Poisoned (Hand of Harm)"
         }
       }
     },
@@ -2940,15 +3021,15 @@
     },
     "Shadow Arts": {
       "name": "Shadow Arts",
-      "description": "<p>You have learned to draw on the power of the Shadow­fell, gaining the following benefits.</p><p><strong>Darkness.</strong> You can expend 1 Focus Point to cast the @UUID[Compendium.dnd-players-handbook.spells.Item.phbsplDarkness00]{Darkness} spell without spell components. You can see within the spell's area when you cast it with this feature. While the spell persists, you can move its area of Darkness to a space within 60 feet of yourself at the start of each of your turns.</p><p><strong>Darkvision.</strong> You gain Darkvision with a range of 60 feet. If you already have Darkvision, its range increases by 60 feet.</p><p><strong>Shadowy Figments.</strong> You know the Minor Illusion spell. Wisdom is your spellcasting ability for it.</p><section class=\"secret\" id=\"secret-wd4smhB7uw8Awq0x\"><p><strong>Foundry Note</strong></p><p>The <strong>Expend Focus Point</strong> activity expends a use and you can then use the [[/item Darkness]] spell which is granted to you at this level.</p><p>This feature includes an Active Effect that increases your Darkvision.</p><p>You are granted the Minor Illusion spell when you reach this level.</p></section>",
-      "activities": {
-        "Expend Focus Point": {
-          "name": "Expend Focus Point"
-        }
-      },
+      "description": "<p>You have learned to draw on the power of the Shadow­fell, gaining the following benefits.</p><p><strong>Darkness.</strong> You can expend 1 Focus Point to cast the @UUID[Compendium.dnd-players-handbook.spells.Item.phbsplDarkness00]{Darkness} spell without spell components. You can see within the spell's area when you cast it with this feature. While the spell persists, you can move its area of Darkness to a space within 60 feet of yourself at the start of each of your turns.</p><p><strong>Darkvision.</strong> You gain Darkvision with a range of 60 feet. If you already have Darkvision, its range increases by 60 feet.</p><p><strong>Shadowy Figments.</strong> You know the @UUID[Compendium.dnd-players-handbook.spells.Item.phbsplMinorIllus]{Minor Illusion} spell. Wisdom is your spellcasting ability for it.</p>",
       "effects": {
         "Shadow Art Vision": {
           "name": "Shadow Art Vision"
+        }
+      },
+      "advancement": {
+        "Shadowy Figments": {
+          "name": "Shadowy Figments"
         }
       }
     },
@@ -2968,10 +3049,7 @@
       "description": "<blockquote><p>Harness Shadow Power for Stealth and Subterfuge</p></blockquote><p>Warriors of Shadow practice stealth and subterfuge, harnessing the power of the Shadowfell. They are at home in darkness, able to draw gloom around themselves to hide, leap from shadow to shadow, and take on a wraithlike form.</p>",
       "advancement": {
         "Subclass Features": {
-          "title": "Subclass Features"
-        },
-        "Shadow Arts": {
-          "title": "Shadow Arts"
+          "name": "Subclass Features"
         }
       }
     },
@@ -2986,11 +3064,11 @@
     },
     "Stride of the Elements": {
       "name": "Stride of the Elements",
-      "description": "<p>While your Elemental Attunement is active, you also have a Fly Speed and a Swim Speed equal to your Speed.</p><section id=\"secret-2VpFYVEuPixaVTaH\" class=\"secret\"><p><strong>Foundry Note</strong></p><p>This feature does not automatically grant the Fly and Swim Speed.</p></section>"
+      "description": "<p>While your Elemental Attunement is active, you also have a Fly Speed and a Swim Speed equal to your Speed.</p><section class=\"secret\" id=\"secret-2VpFYVEuPixaVTaH\"><p><strong>Foundry Note</strong></p><p>These changes are handled by your <strong>Elemental Attunement</strong> feature.</p></section>"
     },
     "Stunning Strike": {
       "name": "Stunning Strike",
-      "description": "<p>Once per turn when you hit a creature with a Monk weapon or an Unarmed Strike, you can expend 1 Focus Point to attempt a stunning strike. The target must make a Constitution saving throw. On a failed save, the target has the Stunned condition until the start of your next turn. On a successful save, the target's Speed is halved until the start of your next turn, and the next attack roll made against the target before then has Advantage.</p><section class=\"secret\" id=\"secret-bfJBOqZfcoIiBtoP\"><p><strong>Foundry Note</strong></p><p>This feature includes the Saving Throw and a Stunned Active Effect which applies the Stunned status if they fail and a Slowed Active Effect for tracking that their Speed is halved and that the next attack roll made against them has Advantage if they succeed.</p></section>",
+      "description": "<p>Once per turn when you hit a creature with a Monk weapon or an Unarmed Strike, you can expend 1 Focus Point to attempt a stunning strike. The target must make a Constitution saving throw. On a failed save, the target has the &amp;Reference[Stunned apply=false] condition until the start of your next turn. On a successful save, the target's Speed is halved until the start of your next turn, and the next attack roll made against the target before then has Advantage.</p><section class=\"secret\" id=\"secret-bfJBOqZfcoIiBtoP\"><p><strong>Foundry Note</strong></p><p>This feature includes the Saving Throw and a Stunned Active Effect which applies the Stunned status if they fail and a Slowed Active Effect for tracking that their Speed is halved and that the next attack roll made against them has Advantage if they succeed.</p></section>",
       "activities": {
         "save": {
           "condition": "Once per turn when you hit a creature with a Monk weapon or an Unarmed Strike"
@@ -3048,7 +3126,7 @@
     },
     "Unarmored Movement": {
       "name": "Unarmored Movement",
-      "description": "<p>Your speed increases by 10 feet while you aren't wearing armor or wielding a Shield. This bonus increases when you reach certain Monk levels, as shown on the Monk Features table.</p><p><strong>Current Increase:</strong> [[lookup @scale.monk.unarmored-movement]]</p><section id=\"secret-2fH97uVacHRVqDCo\" class=\"secret\"><p><strong>Foundry Note</strong></p><p>This feature includes an Unarmored Movement Active Effect which adds 10 feet to your Movement. It can not automatically update as you level up though. You can edit the value to match your current increase.</p></section>",
+      "description": "<p>Your speed increases by 10 feet while you aren't wearing armor or wielding a Shield. This bonus increases when you reach certain Monk levels, as shown on the Monk Features table.</p><p class=\"hide-in-embed\"><strong>Current Increase:</strong> [[lookup @scale.monk.unarmored-movement]]</p>",
       "effects": {
         "Unarmored Movement": {
           "name": "Unarmored Movement"
@@ -3162,9 +3240,13 @@
     },
     "Disarming Attack": {
       "name": "Disarming Attack",
-      "description": "<p>When you hit a creature with an attack roll, you can expend one Superiority Die to attempt to disarm the target. Add the Superiority Die roll to the attack's damage roll. The target must succeed on a Strength saving throw or drop one object of your choice that it's holding, with the object landing in its space.</p><section class=\"secret\" id=\"secret-OIeqhDE1w3MxjygU\"><p><strong>Foundry Note</strong></p><p>This feature will automatically use the higher of your Strength/Dexterity for the save.</p><p>The Damage included in the save allows you to select the type of damage it should deal in the roll dialog. It will remember your choice going forwards.</p></section>",
+      "description": "<p>When you hit a creature with an attack roll, you can expend one Superiority Die to attempt to disarm the target. Add the Superiority Die roll to the attack's damage roll. The target must succeed on a Strength saving throw or drop one object of your choice that it's holding, with the object landing in its space.</p>",
       "activities": {
-        "save": {
+        "Strength Save": {
+          "name": "Strength Save"
+        },
+        "Superiority Die": {
+          "name": "Superiority Die",
           "condition": "When you hit a creature with an attack roll"
         }
       }
@@ -3174,7 +3256,8 @@
       "description": "<p>When you hit a creature with an attack roll, you can expend one Superiority Die to distract the target. Add the Superiority Die roll to the attack's damage roll. The next attack roll against the target by an attacker other than you has Advantage if the attack is made before the start of your next turn.</p><section class=\"secret\" id=\"secret-IbvdKkHFBNOThkil\"><p><strong>Foundry Note</strong></p><p>This feature includes an Active Effect which can be used for tracking the distracted target but does not automate the Advantage.</p><p>The <strong>Damage</strong> activity allows you to select the type of damage it should deal in the roll dialog.</p></section>",
       "effects": {
         "Distracted": {
-          "name": "Distracted"
+          "name": "Distracted",
+          "description": "<p>@Embed[Compendium.dnd-players-handbook.classes.Item.phbmnvDistractin]</p>"
         }
       }
     },
@@ -3198,16 +3281,21 @@
       "name": "Feinting Attack",
       "description": "<p>As a Bonus Action, you can expend one Superiority Die to feint, choosing one creature within 5 feet of yourself as your target. You have Advantage on your next attack roll against that target this turn. If that attack hits, add the Superiority Die to the attack's damage roll.</p><section class=\"secret\" id=\"secret-SPgOlwvOGiFCmygG\"><p><strong>Foundry Note</strong></p><p>This feature includes an Active Effect for tracking the target but it does not automate the Advantage.</p><p>The <strong>Damage</strong> activity allows you to select the type of damage it should deal in the roll dialog.</p></section>",
       "effects": {
-        "Feinted": {
-          "name": "Feinted"
+        "Feinting Attack": {
+          "name": "Feinting Attack",
+          "description": "<p>@Embed[Compendium.dnd-players-handbook.classes.Item.phbmnvFeintingAt]</p>"
         }
       }
     },
     "Goading Attack": {
       "name": "Goading Attack",
-      "description": "<p>When you hit a creature with an attack roll, you can expend one Superiority Die to attempt to goad the target into attacking you. Add the [[/damage @scale.battle-master.superiority.die]]{Superiority Die} to the attack's damage roll. The target must succeed on a Wisdom saving throw or have Disadvantage on attack rolls against targets other than you until the end of your next turn.</p><section class=\"secret\" id=\"secret-BS37R5kndzjT5lCr\"><p><strong>Foundry Note</strong></p><p>This feature includes activities for saving against your <strong>Strength</strong> or <strong>Dexterity</strong>. You can use the inline damage roll for the extra damage or the <strong>Damage</strong> activity.</p><p>The <strong>Damage</strong> activity allows you to select the type of damage it should deal in the roll dialog.</p></section>",
+      "description": "<p>When you hit a creature with an attack roll, you can expend one Superiority Die to attempt to goad the target into attacking you. Add the [[/damage @scale.battle-master.superiority.die]]{Superiority Die} to the attack's damage roll. The target must succeed on a Wisdom saving throw or have Disadvantage on attack rolls against targets other than you until the end of your next turn.</p>",
       "activities": {
-        "save": {
+        "Wisdom Save": {
+          "name": "Wisdom Save"
+        },
+        "Superiority Die": {
+          "name": "Superiority Die",
           "condition": "When you hit a creature with an attack roll"
         }
       },
@@ -3226,25 +3314,27 @@
       "name": "Maneuvering Attack",
       "description": "<p>When you hit a creature with an attack roll, you can expend one Superiority Die to maneuver one of your comrades into another position. Add the Superiority Die roll to the attack's damage roll, and choose a willing creature who can see or hear you. That creature can use its Reaction to move up to half its Speed without provoking an Opportunity Attack from the target of your attack.</p>",
       "activities": {
-        "Maneuver": {
-          "name": "Maneuver",
-          "roll": "Attack Bonus",
-          "condition": "When you hit a creature with an attack roll",
-          "target": "Can see or hear you"
+        "Superiority Die": {
+          "name": "Superiority Die",
+          "condition": "When you hit a creature with an attack roll"
         }
       }
     },
     "Menacing Attack": {
       "name": "Menacing Attack",
-      "description": "<p>When you hit a creature with an attack roll, you can expend one Superiority Die to attempt to frighten the target. Add the Superiority Die to the attack's damage roll. The target must succeed on a Wisdom saving throw or have the Frightened condition until the end of your next turn.</p><section class=\"secret\" id=\"secret-sPNAs2sYsogCvvxn\"><p><strong>Foundry Note</strong></p><p>This feature includes a <strong>Strength Save</strong> activity and a <strong>Dexterity Save</strong> activity which will consume a use of your Superiority Die.</p><p>The <strong>Damage</strong> activity allows you to select the type of damage it should deal in the roll dialog.</p></section>",
+      "description": "<p>When you hit a creature with an attack roll, you can expend one Superiority Die to attempt to frighten the target. Add the Superiority Die to the attack's damage roll. The target must succeed on a Wisdom saving throw or have the Frightened condition until the end of your next turn.</p>",
       "activities": {
-        "save": {
+        "Wisdom Save": {
+          "name": "Wisdom Save"
+        },
+        "Superiority Die": {
+          "name": "Superiority Die",
           "condition": "When you hit a creature with an attack roll"
         }
       },
       "effects": {
-        "Menaced": {
-          "name": "Menaced"
+        "Frightened": {
+          "name": "Frightened"
         }
       }
     },
@@ -3269,9 +3359,13 @@
     },
     "Pushing Attack": {
       "name": "Pushing Attack",
-      "description": "<p>When you hit a creature with an attack roll using a weapon or an Unarmed Strike, you can expend one Superiority Die to attempt to drive the target back. Add the Superiority Die to the attack's damage roll. If the target is Large or smaller, it must succeed on a Strength saving throw or be pushed up to 15 feet directly away from you.</p><section id=\"secret-S6d1XbWlRjPp1t0t\" class=\"secret\"><p><strong>Foundry Note</strong></p><p>This feature includes a <strong>Strength Save</strong> activity and a <strong>Dexterity Save</strong> activity which will consume a use of your Superiority Die.</p><p>The <strong>Damage</strong> activity allows you to select the type of damage it should deal in the roll dialog.</p></section>",
+      "description": "<p>When you hit a creature with an attack roll using a weapon or an Unarmed Strike, you can expend one Superiority Die to attempt to drive the target back. Add the Superiority Die to the attack's damage roll. If the target is Large or smaller, it must succeed on a Strength saving throw or be pushed up to 15 feet directly away from you.</p>",
       "activities": {
-        "save": {
+        "Strength Save": {
+          "name": "Strength Save"
+        },
+        "Superiority Die": {
+          "name": "Superiority Die",
           "condition": "When you hit a creature with an attack roll"
         }
       }
@@ -3316,15 +3410,19 @@
     },
     "Trip Attack": {
       "name": "Trip Attack",
-      "description": "<p>When you hit a creature with an attack roll using a weapon or an Unarmed Strike, you can expend one Superiority Die and add the die to the attack's damage roll. If the target is Large or smaller, it must succeed on a Strength saving throw or have the &amp;Reference[Prone] condition.</p><section class=\"secret\" id=\"secret-QeXYRpr665AxyLvo\"><p><strong>Foundry Note</strong></p><p>This feature will automatically use the higher of your Strength/Dexterity for the save.</p><p>The Damage included in the save allows you to select the type of damage it should deal in the roll dialog. It will remember your choice going forwards.</p></section>",
+      "description": "<p>When you hit a creature with an attack roll using a weapon or an Unarmed Strike, you can expend one Superiority Die and add the die to the attack's damage roll. If the target is Large or smaller, it must succeed on a Strength saving throw or have the &amp;Reference[Prone] condition.</p>",
       "activities": {
-        "save": {
+        "Strength Save": {
+          "name": "Strength Save"
+        },
+        "Superiority Die": {
+          "name": "Superiority Die",
           "condition": "When you hit a creature with an attack roll"
         }
       },
       "effects": {
-        "Tripped": {
-          "name": "Tripped"
+        "Prone": {
+          "name": "Prone"
         }
       }
     },
@@ -3541,10 +3639,10 @@
       "description": "<blockquote><p>Uphold the Ideals of Justice and Order</p></blockquote><p>The Oath of Devotion binds Paladins to the ideals of justice and order. These Paladins meet the archetype of the knight in shining armor. They hold themselves to the highest standards of conduct, and some—for better or worse—hold the rest of the world to the same standards.</p><p>Many who swear this oath are devoted to gods of law and good and use their gods’ tenets as the measure of personal devotion. Others hold angels as their ideals and incorporate images of angelic wings into their helmets or coats of arms.</p><p>These paladins share the following tenets:</p><ul><li>Let your word be your promise.</li><li>Protect the weak and never fear to act.</li><li>Let your honorable deeds be an example.</li></ul>",
       "advancement": {
         "Subclass Features": {
-          "title": "Subclass Features"
+          "name": "Subclass Features"
         },
         "Oath of Devotion Spells": {
-          "title": "Oath of Devotion Spells"
+          "name": "Oath of Devotion Spells"
         }
       }
     },
@@ -3553,10 +3651,10 @@
       "description": "<blockquote><p>Strive for the Heights of Heroism</p></blockquote><p>Paladins who take the Oath of Glory believe they and their companions are destined to achieve glory through deeds of heroism. They train diligently and encourage their companions, so they’re all ready when destiny calls.</p><p>These paladins share the following tenets:</p><ul><li>Endeavor to be known by your deeds.</li><li>Face hardships with courage.</li><li>Inspire others to strive for glory.</li></ul>",
       "advancement": {
         "Subclass Features": {
-          "title": "Subclass Features"
+          "name": "Subclass Features"
         },
         "Oath of Glory Spells": {
-          "title": "Oath of Glory Spells"
+          "name": "Oath of Glory Spells"
         }
       }
     },
@@ -3565,10 +3663,10 @@
       "description": "<blockquote><p>Preserve Life and Light in the World</p></blockquote><p>The Oath of the Ancients is as old as the first elves. Paladins who swear this oath cherish the light; they love the beautiful and life-giving things of the world more than any principles of honor, courage, and justice. They often adorn their armor and clothing with images of growing things—leaves, antlers, or flowers—to reflect their commitment to preserving life and light.</p><p>These paladins share the following tenets:</p><ul><li>Kindle the light of hope.</li><li>Shelter life.</li><li>Delight in art and laughter.</li></ul>",
       "advancement": {
         "Subclass Features": {
-          "title": "Subclass Features"
+          "name": "Subclass Features"
         },
         "Oath of the Ancients Spells": {
-          "title": "Oath of the Ancients Spells"
+          "name": "Oath of the Ancients Spells"
         }
       }
     },
@@ -3577,10 +3675,10 @@
       "description": "<blockquote><p>Punish Evildoers at Any Cost</p></blockquote><p>The Oath of Vengeance is a solemn commitment to punish those who have committed grievously evil acts. When evil armies slaughter helpless villagers, when a tyrant defies the will of the gods, when a thieves’ guild grows too violent, when a dragon rampages through the countryside—at times like these, paladins arise and swear an Oath of Vengeance to set right what has gone wrong.</p><p>These paladins share the following tenets:</p><ul><li>Show the wicked no mercy.</li><li>Fight injustice and its causes.</li><li>Aid those harmed by injustice.</li></ul>",
       "advancement": {
         "Subclass Features": {
-          "title": "Subclass Features"
+          "name": "Subclass Features"
         },
         "Oath of Vengeance Spells": {
-          "title": "Oath of Vengeance Spells"
+          "name": "Oath of Vengeance Spells"
         }
       }
     },
@@ -3589,37 +3687,37 @@
       "description": "<blockquote><p>A Devout Warrior of Sacred Oaths</p></blockquote><h3>Core Paladin Traits</h3><table class=\"core-class-traits\"><tbody><tr><th scope=\"row\"><p><strong>Primary Ability</strong></p></th><td><p>Strength and Charisma</p></td></tr><tr><th scope=\"row\"><p><strong>Hit Point Die</strong></p></th><td><p>D10 per Paladin level</p></td></tr><tr><th scope=\"row\"><p><strong>Saving Throw Proficiencies</strong></p></th><td><p>Wisdom and Charisma</p></td></tr><tr><th scope=\"row\"><p><strong>Skill Proficiencies</strong></p></th><td><p><em>Choose 2: </em>Athletics, Insight, Intimidation, Medicine, Persuasion, or Religion</p></td></tr><tr><th scope=\"row\"><p><strong>Weapon Proficiencies</strong></p></th><td><p>Simple and Martial weapons</p></td></tr><tr><th scope=\"row\"><p><strong>Armor Training</strong></p></th><td><p>Light, Medium, and Heavy armor and Shields</p></td></tr><tr><th scope=\"row\"><p><strong>Starting Equipment</strong></p></th><td><p><em>Choose A or B:</em> (A) @UUID[Compendium.dnd-players-handbook.equipment.Item.phbarmChainMail0]{Chain Mail}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbarmShield0000]{Shield}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbwepLongsword0]{Longsword}, 6 @UUID[Compendium.dnd-players-handbook.equipment.Item.phbwepJavelin000]{Javelins}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagHolySymbolV]{Holy Symbol}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagPriestsPack]{Priest’s Pack}, and [[/award 9GP]]; or (B) [[/award 150GP]]</p></td></tr></tbody></table><p>Paladins are united by their oaths to stand against the forces of annihilation and corruption. Whether sworn before a god’s altar, in a sacred glade before nature spirits, or in a moment of desperation and grief with the dead as the only witnesses, a Paladin’s oath is a powerful bond. It is a source of power that turns a devout warrior into a blessed champion.</p><p>Paladins train to learn the skills of combat, mastering a variety of weapons and armor. Even so, their martial skills are secondary to the magical power they wield: power to heal the injured, smite their foes, and protect the helpless and those who fight at their side.</p><p>Almost by definition, the life of a Paladin is an adventuring life, for every Paladin lives on the front lines of the cosmic struggle against annihilation. Fighters are rare enough among the ranks of a world’s armies, but even fewer people can claim the calling of a Paladin. When they do receive the call, these blessed folk turn from their former occupations and take up arms and magic.</p><h2>Becoming a Paladin …</h2><h3>As a Level 1 Character</h3><ul><li>Gain all the traits in the Core Paladin Traits table.</li><li>Gain the Paladin’s level 1 features, which are listed in the Paladin Features table.</li></ul><h3>As a Multiclass Character</h3><ul><li>Gain the following traits from the Core Paladin Traits table: Hit Point Die, proficiency with Martial weapons, and training with Light and Medium armor and Shields.</li><li>Gain the Paladin’s level 1 features, which are listed in the Paladin Features table. See the multiclassing rules in chapter 2 to determine your available spell slots.</li></ul><blockquote><p><strong>Breaking Your Oath</strong></p><p>A Paladin tries to hold to the highest standards of conduct, but even the most dedicated are fallible. Sometimes a Paladin transgresses their oath.</p><p>A Paladin who has broken a vow typically seeks absolution, spending an all-night vigil as a sign of penitence or undertaking a fast. After a rite of forgiveness, the Paladin starts fresh.</p><p>If your Paladin unrepentantly violates their oath, talk to your DM. Your Paladin should probably take a more appropriate subclass or even abandon the class and adopt another one.</p></blockquote>",
       "advancement": {
         "Class Features": {
-          "title": "Class Features"
+          "name": "Class Features"
         },
         "Aura Distance": {
-          "title": "Aura Distance"
+          "name": "Aura Distance"
         },
         "Max Prepared Spells": {
-          "title": "Max Prepared Spells"
+          "name": "Max Prepared Spells"
         },
         "Channel Divinity Uses": {
-          "title": "Channel Divinity Uses"
+          "name": "Channel Divinity Uses"
         },
         "Saving Throw Proficiencies": {
-          "title": "Saving Throw Proficiencies"
+          "name": "Saving Throw Proficiencies"
         },
         "Skill Proficiencies": {
-          "title": "Skill Proficiencies"
+          "name": "Skill Proficiencies"
         },
         "Weapon Proficiencies": {
-          "title": "Weapon Proficiencies"
+          "name": "Weapon Proficiencies"
         },
         "Armor Training": {
-          "title": "Armor Training"
+          "name": "Armor Training"
         },
         "Fighting Style": {
-          "title": "Fighting Style"
+          "name": "Fighting Style"
         },
         "Weapon Mastery": {
-          "title": "Weapon Mastery"
+          "name": "Weapon Mastery"
         },
         "Epic Boon": {
-          "title": "Epic Boon"
+          "name": "Epic Boon"
         }
       }
     },
@@ -3680,7 +3778,7 @@
         "Sacred Weapon": {
           "name": "Sacred Weapon",
           "changes": {
-            "name": ", Sacred Weapon"
+            "0": ", Sacred Weapon"
           }
         }
       }
@@ -3752,18 +3850,18 @@
       "description": "<blockquote><p>Enhance Stealth with Arcane Spells</p></blockquote><p>Some Rogues enhance their fine-honed skills of stealth and agility with spells, learning magical tricks to aid them in their trade. Some Arcane Tricksters use their talents as pickpockets and burglars, while others are pranksters.</p>",
       "advancement": {
         "Subclass Features": {
-          "title": "Subclass Features"
+          "name": "Subclass Features"
         },
         "Max Prepared Spells": {
-          "title": "Max Prepared Spells"
+          "name": "Max Prepared Spells"
         },
         "Spellcasting": {
-          "title": "Spellcasting"
+          "name": "Spellcasting"
         }
       }
     },
-    "Assasinate": {
-      "name": "Assasinate",
+    "Assassinate": {
+      "name": "Assassinate",
       "description": "<p>You’re adept at ambushing a target, granting you the following benefits.</p><p><strong>Initiative.</strong> You have Advantage on Initiative rolls.</p><p><strong>Surprising Strikes.</strong> During the first round of each combat, you have Advantage on attack rolls against any creature that hasn’t taken a turn. If your Sneak Attack hits any target during that round, the target takes extra damage of the weapon’s type equal to your Rogue level.</p><section class=\"secret\" id=\"secret-roKwXDEMg8PmZo8U\"><p><strong>Foundry Note</strong></p><p>This feature includes an Active Effect which automates the advantage on Initiative rolls.</p><p>The <strong>Damage</strong> activity can be used to apply extra damage equal to your level. You can choose the damage type in the roll's dialog box. Alternatively, you could add your level ([[lookup @classes.rogue.levels]]) as a situational bonus to your normal damage roll.</p></section>",
       "activities": {
         "damage": {
@@ -3782,14 +3880,14 @@
       "description": "<blockquote><p>Practice the Grim Art of Death</p></blockquote><p>An Assassin’s training focuses on using stealth, poison, and disguise to eliminate foes with deadly efficiency. While some Rogues who follow this path are hired killers, spies, or bounty hunters, the capabilities of this subclass are equally useful for adventurers facing a variety of monstrous enemies.</p>",
       "advancement": {
         "Subclass Features": {
-          "title": "Subclass Features"
+          "name": "Subclass Features"
         },
         "Assassin's Tools": {
-          "title": "Assassin's Tools",
+          "name": "Assassin's Tools",
           "hint": "You gain a Disguise Kit and a Poisoner’s Kit."
         },
         "rvg1VPVkuaZrsvIx": {
-          "title": "Assassin's Tools",
+          "name": "Assassin's Tools",
           "hint": "You have proficiency with your Assassin's Tools."
         }
       }
@@ -4041,51 +4139,56 @@
       "description": "<blockquote><p>A Dexterous Expert in Stealth and Subterfuge</p></blockquote><h3>Core Rogue Traits</h3><table class=\"core-class-traits\"><tbody><tr><th scope=\"row\"><p>Primary Ability</p></th><td><p>Dexterity</p></td></tr><tr><th scope=\"row\"><p>Hit Point Die</p></th><td><p>D8 per Rogue level</p></td></tr><tr><th scope=\"row\"><p>Saving Throw Proficiencies</p></th><td><p>Dexterity and Intelligence</p></td></tr><tr><th scope=\"row\"><p>Skill Proficiencies</p></th><td><p><em>Choose 4: </em>Acrobatics, Athletics, Deception, Insight, Intimidation, Investigation, Perception, Persuasion, Sleight of Hand, or Stealth</p></td></tr><tr><th scope=\"row\"><p>Weapon Proficiencies</p></th><td><p>Simple weapons and Martial weapons that have the Finesse or Light property</p></td></tr><tr><th scope=\"row\"><p>Tool Proficiencies</p></th><td><p>Thieves’ Tools</p></td></tr><tr><th scope=\"row\"><p>Armor Training</p></th><td><p>Light armor</p></td></tr><tr><th scope=\"row\"><p>Starting Equipment</p></th><td><p><em>Choose A or B:</em> (A) @UUID[Compendium.dnd-players-handbook.equipment.Item.phbarmLeatherArm]{Leather Armor}, 2 @UUID[Compendium.dnd-players-handbook.equipment.Item.phbwepDagger0000]{Daggers}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbwepShortsword]{Short­sword}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbwepShortbow00]{Shortbow}, 20 @UUID[Compendium.dnd-players-handbook.equipment.Item.phbamoArrows0000]{Arrows}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagQuiver00000]{Quiver}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbtulThievesToo]{Thieves’ Tools}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagBurglarsPac]{Burglar’s Pack}, and [[/award 8GP]]; or (B) [[/award 100GP]]</p></td></tr></tbody></table><p>Rogues rely on cunning, stealth, and their foes’ vulnerabilities to get the upper hand in any situation. They have a knack for finding the solution to just about any problem. A few even learn magical tricks to supplement their other abilities. Many Rogues focus on stealth and deception, while others refine skills that help them in a dungeon environment, such as climbing, finding and disarming traps, and opening locks.</p><p>In combat, Rogues prioritize subtle strikes over brute strength. They would rather make one precise strike than wear an opponent down with a barrage of blows.</p><p>Some Rogues began their careers as criminals, while others used their cunning to fight crime. Whatever a Rogue’s relation to the law, no common criminal or officer of the law can match the subtle brilliance of the greatest Rogues.</p><h2>Becoming a Rogue …</h2><h3>As a Level 1 Character</h3><ul><li>Gain all the traits in the Core Rogue Traits table.</li><li>Gain the Rogue’s level 1 features, which are listed in the Rogue Features table.</li></ul><h3>As a Multiclass Character</h3><ul><li>Gain the following traits from the Core Rogue Traits table: Hit Point Die, proficiency in one skill of your choice from the Rogue’s skill list, proficiency with Thieves’ Tools, and training with Light armor.</li><li>Gain the Rogue’s level 1 features, which are listed in the @UUID[Compendium.dnd-players-handbook.content.JournalEntry.phbRogue00000000.JournalEntryPage.gJV8iDqdNhRMLi5r#class-features]{Rogue Features table}.</li></ul>",
       "advancement": {
         "Class Features": {
-          "title": "Class Features"
+          "name": "Class Features"
         },
         "Expertise": {
-          "title": "Expertise",
+          "name": "Expertise",
           "hint": "You gain Expertise in two of your skill proficiencies of your choice. Sleight of Hand and Stealth are recommended if you have proficiency in them."
         },
         "sqWH6tnUg7jiGaEj": {
-          "title": "Expertise"
+          "name": "Expertise"
         },
         "Sneak Attack": {
-          "title": "Sneak Attack"
+          "name": "Sneak Attack"
         },
         "Thieves' Cant": {
-          "title": "Thieves' Cant",
+          "name": "Thieves' Cant",
           "hint": "You picked up various languages in the communities where you plied your roguish talents. You know Thieves’ Cant and one other language of your choice, which you can choose from the languages below."
         },
         "FiaNLovfP6tnY4tD": {
           "hint": "Your cunning mind is exceptionally difficult to control. You gain proficiency in Wisdom and Charisma saving throws."
         },
         "Weapon Mastery": {
-          "title": "Weapon Mastery"
+          "name": "Weapon Mastery"
         },
         "Saving Throw Proficiencies": {
-          "title": "Saving Throw Proficiencies"
+          "name": "Saving Throw Proficiencies"
         },
         "Skill Proficiencies": {
-          "title": "Skill Proficiencies"
+          "name": "Skill Proficiencies"
         },
         "Weapon Proficiencies": {
-          "title": "Weapon Proficiencies"
+          "name": "Weapon Proficiencies"
         },
         "Tool Proficiencies": {
-          "title": "Tool Proficiencies"
+          "name": "Tool Proficiencies"
         },
         "Armor Training": {
-          "title": "Armor Training"
+          "name": "Armor Training"
         },
         "Epic Boon": {
-          "title": "Epic Boon"
+          "name": "Epic Boon"
         }
       }
     },
     "Second-Story Work": {
       "name": "Second-Story Work",
-      "description": "<p>You’ve trained to get into especially hard-to-reach places, granting you these benefits.</p><p><strong>Climber.</strong> You gain a Climb Speed equal to your Speed.</p><p><strong>Jumper.</strong> You can determine your &amp;Reference[Jumping]{jump} distance using your Dexterity rather than your Strength.</p><section class=\"secret\" id=\"secret-7BCLTkAFUjinYhJw\"><p><strong>Foundry Note</strong></p><p>This feature does not automatically add the Climb Speed and will have to be added manually.</p></section>"
+      "description": "<p>You’ve trained to get into especially hard-to-reach places, granting you these benefits.</p><p><strong>Climber.</strong> You gain a Climb Speed equal to your Speed.</p><p><strong>Jumper.</strong> You can determine your &amp;Reference[Jumping]{jump} distance using your Dexterity rather than your Strength.</p><section class=\"secret\" id=\"secret-7BCLTkAFUjinYhJw\"><p><strong>Foundry Note</strong></p><p>This feature does not automatically add the Climb Speed and will have to be added manually.</p></section>",
+      "effects": {
+        "Second-Story Work": {
+          "name": "Second-Story Work"
+        }
+      }
     },
     "Slippery Mind": {
       "name": "Slippery Mind",
@@ -4116,14 +4219,14 @@
       "description": "<blockquote><p>Strike Foes with Psionic Blades</p></blockquote><p>A Soulknife strikes with the mind, cutting through barriers both physical and psychic. These Rogues discover psionic power within themselves and channel it to do their roguish work. As a Soulknife, your psionic abilities might have haunted you since childhood, revealing their full potential only as you experienced the stress of adventure. Or you might have sought out an order of psychic adepts and spent years learning how to manifest your power.</p>",
       "advancement": {
         "Subclass Features": {
-          "title": "Subclass Features"
+          "name": "Subclass Features"
         },
         "Psionic Power": {
-          "title": "Psionic Power",
+          "name": "Psionic Power",
           "hint": "You harbor a wellspring of psionic energy within yourself. It is represented by your Psionic Energy Dice, which fuel certain powers you have from this subclass."
         },
         "Psychic Blade": {
-          "title": "Psychic Blade",
+          "name": "Psychic Blade",
           "hint": "You are granted a Psychic Blade which can be used for your Psychic Blades features."
         }
       }
@@ -4176,7 +4279,7 @@
       "description": "<blockquote><p>Hunt for Treasure as a Classic Adventurer</p></blockquote><p>A mix of burglar, treasure hunter, and explorer, you are the epitome of an adventurer. In addition to improving your agility and stealth, you gain abilities useful for delving into ruins and getting maximum benefit from the magic items you find there.</p>",
       "advancement": {
         "Subclass Features": {
-          "title": "Subclass Features"
+          "name": "Subclass Features"
         }
       }
     },
@@ -4221,7 +4324,7 @@
       "description": "<blockquote><p>Bond with a Primal Beast</p></blockquote><p>A Beast Master forms a mystical bond with a special animal, drawing on primal magic and a deep connection to the natural world.</p>",
       "advancement": {
         "Subclass Features": {
-          "title": "Subclass Features"
+          "name": "Subclass Features"
         }
       }
     },
@@ -4276,7 +4379,7 @@
     },
     "Dreadful Strikes": {
       "name": "Dreadful Strikes",
-      "description": "<p>You can augment your weapon strikes with mind-scarring magic drawn from the murky hollows of the Feywild. When you hit a creature with a weapon, you can deal an extra 1d4 Psychic damage to the target, which can take this extra damage only once per turn. The extra damage increases to 1d6 when you reach Ranger level 11.</p><section id=\"secret-4bJV0nAffRomytFv\" class=\"secret\"><p><strong>Foundry Note</strong></p><p>The <strong>Damage</strong> activity includes the extra damage. It automatically scales as you level up.</p></section>",
+      "description": "<p>You can augment your weapon strikes with mind-scarring magic drawn from the murky hollows of the Feywild. When you hit a creature with a weapon, you can deal an extra 1d4 Psychic damage to the target, which can take this extra damage only once per turn. The extra damage increases to 1d6 when you reach Ranger level 11.</p>",
       "activities": {
         "damage": {
           "condition": "When you hit a creature with a weapon"
@@ -4314,7 +4417,12 @@
     },
     "Favored Enemy": {
       "name": "Favored Enemy",
-      "description": "<p>You always have the @UUID[Compendium.dnd-players-handbook.spells.Item.phbsplHuntersMar]{Hunter’s Mark} spell prepared. You can cast it twice without expending a spell slot, and you regain all expended uses of this ability when you finish a Long Rest.</p><p>The number of times you can cast the spell without a spell slot increases when you reach certain Ranger levels, as shown in the Favored Enemy column of the Ranger Features table.</p><section id=\"secret-cyuZuzwxsQg01vVN\" class=\"secret\"><p><strong>Foundry Note</strong></p><p>The spell is granted to you at this level and will increase the number of free uses available automatically as you level up.</p></section>"
+      "description": "<p>You always have the @UUID[Compendium.dnd-players-handbook.spells.Item.phbsplHuntersMar]{Hunter’s Mark} spell prepared. You can cast it twice without expending a spell slot, and you regain all expended uses of this ability when you finish a Long Rest.</p><p>The number of times you can cast the spell without a spell slot increases when you reach certain Ranger levels, as shown in the Favored Enemy column of the Ranger Features table.</p>",
+      "advancement": {
+        "Favored Enemy": {
+          "name": "Favored Enemy"
+        }
+      }
     },
     "Feral Senses": {
       "name": "Feral Senses",
@@ -4339,16 +4447,16 @@
       "description": "<blockquote><p>Wield Fey Mirth and Fury</p></blockquote><p>A fey mystique surrounds you, thanks to the boon of an archfey or a location in the Feywild that transformed you. However you gained fey magic, you are now a Fey Wanderer. Your joyful laughter brightens the hearts of the downtrodden, and your martial prowess strikes terror in your foes, for great is the mirth of the fey and dreadful is their fury.</p>",
       "advancement": {
         "Subclass Features": {
-          "title": "Subclass Features"
+          "name": "Subclass Features"
         },
         "Dreadful Strike Damage": {
-          "title": "Dreadful Strike Damage"
+          "name": "Dreadful Strike Damage"
         },
         "Fey Wanderer Spells": {
-          "title": "Fey Wanderer Spells"
+          "name": "Fey Wanderer Spells"
         },
         "Otherworldly Glamour": {
-          "title": "Otherworldly Glamour"
+          "name": "Otherworldly Glamour"
         }
       }
     },
@@ -4374,17 +4482,17 @@
       "description": "<blockquote><p>Draw on Shadow Magic to Fight Your Foes</p></blockquote><p>Gloom Stalkers are at home in the darkest places, wielding magic drawn from the Shadowfell to combat enemies that lurk in darkness.</p>",
       "advancement": {
         "Subclass Features": {
-          "title": "Subclass Features"
+          "name": "Subclass Features"
         },
         "Gloom Stalker Spells": {
-          "title": "Gloom Stalker Spells"
+          "name": "Gloom Stalker Spells"
         },
         "Iron Mind": {
-          "title": "Iron Mind",
+          "name": "Iron Mind",
           "hint": "You gain proficiency in Wisdom saving throws. If you already have this proficiency, you instead gain proficiency in Intelligence or Charisma saving throws (your choice)."
         },
         "Dreadful Strike Damage": {
-          "title": "Dreadful Strike Damage"
+          "name": "Dreadful Strike Damage"
         }
       }
     },
@@ -4393,7 +4501,7 @@
       "description": "<blockquote><p>Protect Nature and People from Destruction</p></blockquote><p>You stalk prey in the wilds and elsewhere, using your abilities as a Hunter to protect nature and people everywhere from forces that would destroy them.</p>",
       "advancement": {
         "Subclass Features": {
-          "title": "Subclass Features"
+          "name": "Subclass Features"
         }
       }
     },
@@ -4473,43 +4581,43 @@
       "description": "<blockquote><p>A Wandering Warrior Imbued with Primal Magic</p></blockquote><h3>Core Ranger Traits</h3><table class=\"core-class-traits\"><tbody><tr><th scope=\"row\"><p><strong>Primary Ability</strong></p></th><td><p>Dexterity and Wisdom</p></td></tr><tr><th scope=\"row\"><p><strong>Hit Point Die</strong></p></th><td><p>D10 per Ranger level</p></td></tr><tr><th scope=\"row\"><p><strong>Saving Throw Proficiencies</strong></p></th><td><p>Strength and Dexterity</p></td></tr><tr><th scope=\"row\"><p><strong>Skill Proficiencies</strong></p></th><td><p><em>Choose 3:</em> Animal Handling, Athletics, Insight, Investigation, Nature, Perception, Stealth, or Survival</p></td></tr><tr><th scope=\"row\"><p><strong>Weapon Proficiencies</strong></p></th><td><p>Simple and Martial weapons</p></td></tr><tr><th scope=\"row\"><p><strong>Armor Training</strong></p></th><td><p>Light and Medium armor and Shields</p></td></tr><tr><th scope=\"row\"><p><strong>Starting Equipment</strong></p></th><td><p><em>Choose A or B: </em>(A) @UUID[Compendium.dnd-players-handbook.equipment.Item.phbarmStuddedLea]{Studded Leather Armor}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbwepScimitar00]{Scimitar}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbwepShortsword]{Shortsword}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbwepLongbow000]{Longbow}, 20 @UUID[Compendium.dnd-players-handbook.equipment.Item.phbamoArrows0000]{Arrows}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagQuiver00000]{Quiver}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagDruidicFocu]{Druidic Focus} (@UUID[Compendium.dnd-players-handbook.equipment.Item.phbdfcSprigofmis]{sprig of mistletoe}), @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagExplorersPa]{Explorer’s Pack}, and [[/award 7GP]]; or (B) [[/award 150GP]]</p></td></tr></tbody></table><p>Far from bustling cities, amid the trees of trackless forests and across wide plains, Rangers keep their unending watch in the wilderness. Rangers learn to track their quarry as a predator does, moving stealthily through the wilds and hiding themselves in brush and rubble.</p><p>Thanks to their connection with nature, Rangers can also cast spells that harness primal powers of the wilderness. A Ranger’s talents and magic are honed with deadly focus to protect the world from the ravages of monsters and tyrants.</p><h2>Becoming a Ranger …</h2><h3>As a Level 1 Character</h3><ul><li>Gain all the traits in the Core Ranger Traits table.</li><li>Gain the Ranger’s level 1 features, which are listed in the Ranger Features table.</li></ul><h3>As a Multiclass Character</h3><ul><li>Gain the following traits from the Core Ranger Traits table: Hit Point Die, proficiency with Martial weapons, proficiency in one skill of your choice from the Ranger’s skill list, and training with Light and Medium armor and Shields.</li><li>Gain the Ranger’s level 1 features, which are listed in the Ranger Features table. See the multiclassing rules in chapter 2 to determine your available spell slots.</li></ul>",
       "advancement": {
         "Class Features": {
-          "title": "Class Features"
+          "name": "Class Features"
         },
         "Expertise": {
-          "title": "Expertise"
+          "name": "Expertise"
         },
         "Favored Enemy": {
-          "title": "Favored Enemy"
+          "name": "Favored Enemy"
         },
         "Deft Explorer": {
-          "title": "Deft Explorer"
+          "name": "Deft Explorer"
         },
         "Hunter's Mark Damage": {
-          "title": "Hunter's Mark Damage"
+          "name": "Hunter's Mark Damage"
         },
         "Max Prepared Spells": {
-          "title": "Max Prepared Spells"
+          "name": "Max Prepared Spells"
         },
         "Saving Throw Proficiencies": {
-          "title": "Saving Throw Proficiencies"
+          "name": "Saving Throw Proficiencies"
         },
         "Skill Proficiencies": {
-          "title": "Skill Proficiencies"
+          "name": "Skill Proficiencies"
         },
         "Weapon Proficiencies": {
-          "title": "Weapon Proficiencies"
+          "name": "Weapon Proficiencies"
         },
         "Armor Training": {
-          "title": "Armor Training"
+          "name": "Armor Training"
         },
         "Fighting Style": {
-          "title": "Fighting Style"
+          "name": "Fighting Style"
         },
         "Weapon Mastery": {
-          "title": "Weapon Mastery"
+          "name": "Weapon Mastery"
         },
         "Epic Boon": {
-          "title": "Epic Boon"
+          "name": "Epic Boon"
         }
       }
     },
@@ -4519,7 +4627,7 @@
     },
     "Roving": {
       "name": "Roving",
-      "description": "<p>Your Speed increases by 10 feet while you aren’t wearing Heavy armor. You also have a Climb Speed and a Swim Speed equal to your Speed.</p><section class=\"secret\" id=\"secret-XnQYiG0fJWJSHkQw\"><p><strong>Foundry Note</strong></p><p>This feature includes an Active Effect which increases your Speed by 10 feet. It does not automatically grant an equivalent Climb and Swim Speed though. It can be disabled if you choose to wear Heavy armor.</p></section>",
+      "description": "<p>Your Speed increases by 10 feet while you aren’t wearing Heavy armor. You also have a Climb Speed and a Swim Speed equal to your Speed.</p><section class=\"secret\" id=\"secret-XnQYiG0fJWJSHkQw\"><p><strong>Foundry Note</strong></p><p>This feature includes an Active Effect which can be disabled if you are wearing Heavy armor.</p></section>",
       "effects": {
         "Roving": {
           "name": "Roving"
@@ -4650,14 +4758,14 @@
       "description": "<blockquote><p>Wield Unnatural Psionic Power</p></blockquote><p>An alien influence has wrapped its tendrils around your mind, giving you psionic power. You can now touch other minds with that power and alter the world around you. Will this power shine from you as a hopeful beacon to others? Or will you be a terror to those who feel the stab of your mind?</p><p>Perhaps a psychic wind from the Astral Plane carried psionic energy to you, or you were exposed to the Far Realm’s warping influence. Alternatively, you were implanted with a mind flayer tadpole, but your transformation into a mind flayer never occurred; now the tadpole’s psionic power is yours. However you acquired this power, your mind is aflame with it.</p>",
       "advancement": {
         "Subclass Features": {
-          "title": "Subclass Features"
+          "name": "Subclass Features"
         },
         "Psionic Spells": {
-          "title": "Psionic Spells",
+          "name": "Psionic Spells",
           "hint": "When you reach a Sorcerer level specified in the Psionic Spells table, you thereafter always have the listed spells prepared."
         },
         "Psychic Defenses": {
-          "title": "Psychic Defenses",
+          "name": "Psychic Defenses",
           "hint": "You have Resistance to Psychic damage."
         }
       }
@@ -4710,10 +4818,10 @@
       "description": "<blockquote><p>Channel Cosmic Forces of Order</p></blockquote><p>The cosmic force of order has suffused you with magic. That power arises from Mechanus or a realm like it—a plane of existence shaped entirely by clockwork efficiency. You or someone from your lineage might have become entangled in the machinations of modrons, the orderly beings who inhabit Mechanus. Perhaps your ancestor even took part in the Great Modron March. Whatever its origin within you, the power of order can seem strange to others, but for you, it’s part of a vast and glorious system.</p>",
       "advancement": {
         "Subclass Features": {
-          "title": "Subclass Features"
+          "name": "Subclass Features"
         },
         "Clockwork Spells": {
-          "title": "Clockwork Spells",
+          "name": "Clockwork Spells",
           "hint": "When you reach a Sorcerer level specified in the Clockwork Spells table, you thereafter always have the listed spells prepared."
         }
       }
@@ -4739,10 +4847,10 @@
       "description": "<blockquote><p>Breathe the Magic of Dragons</p></blockquote><p>Your innate magic comes from the gift of a dragon. Perhaps an ancient dragon facing death bequeathed some of its magical power to you or your ancestor. You might have absorbed magic from a site infused with dragons’ power. Or perhaps you handled a treasure taken from a dragon’s hoard that was steeped in draconic power. Or you might have a dragon for an ancestor.</p>",
       "advancement": {
         "Subclass Features": {
-          "title": "Subclass Features"
+          "name": "Subclass Features"
         },
         "Draconic Spells": {
-          "title": "Draconic Spells",
+          "name": "Draconic Spells",
           "hint": "When you reach a Sorcerer level specified in the Draconic Spells table, you thereafter always have the listed spells prepared."
         },
         "8UnvG3X4TR3MpCGe": {
@@ -4872,7 +4980,7 @@
     },
     "Revelation in Flesh": {
       "name": "Revelation in Flesh",
-      "description": "<p>You can unleash the aberrant truth hidden within yourself. As a Bonus Action, you can spend 1 Sorcery Point or more to magically alter your body for 10 minutes. For each Sorcery Point you spend, you gain one of the following benefits of your choice, the effects of which last until the alteration ends.</p><p><strong>Aquatic Adaptation.</strong> You gain a Swim Speed equal to twice your Speed, and you can breathe underwater. Gills grow from your neck or flare behind your ears, and your fingers become webbed or you grow wriggling cilia.</p><p><strong>Glistening Flight.</strong> You gain a Fly Speed equal to your Speed, and you can hover. As you fly, your skin glistens with mucus or otherworldly light.</p><p><strong>See the Invisible.</strong> You can see any Invisible creature within 60 feet of yourself that isn’t behind Total Cover. Your eyes also turn black or become writhing sensory tendrils.</p><p><strong>Wormlike Movement.</strong> Your body, along with any equipment you are wearing or carrying, becomes slimy and pliable. You can move through any space as narrow as 1 inch, and you can spend 5 feet of movement to escape from nonmagical restraints or the Grappled condition.</p><section id=\"secret-jX8dvHDf5youPS4j\" class=\"secret\"><p><strong>Foundry Note</strong></p><p>The <strong>Expend Sorcery Points</strong> activity will let you select the number of Sorcery Points you would like to expend. It includes an Active Effect for each option which can be used for tracking but does not automate their changes.</p></section>",
+      "description": "<p>You can unleash the aberrant truth hidden within yourself. As a Bonus Action, you can spend 1 Sorcery Point or more to magically alter your body for 10 minutes. For each Sorcery Point you spend, you gain one of the following benefits of your choice, the effects of which last until the alteration ends.</p><p><strong>Aquatic Adaptation.</strong> You gain a Swim Speed equal to twice your Speed, and you can breathe underwater. Gills grow from your neck or flare behind your ears, and your fingers become webbed or you grow wriggling cilia.</p><p><strong>Glistening Flight.</strong> You gain a Fly Speed equal to your Speed, and you can hover. As you fly, your skin glistens with mucus or otherworldly light.</p><p><strong>See the Invisible.</strong> You can see any Invisible creature within 60 feet of yourself that isn’t behind Total Cover. Your eyes also turn black or become writhing sensory tendrils.</p><p><strong>Wormlike Movement.</strong> Your body, along with any equipment you are wearing or carrying, becomes slimy and pliable. You can move through any space as narrow as 1 inch, and you can spend 5 feet of movement to escape from nonmagical restraints or the Grappled condition.</p><section class=\"secret\" id=\"secret-jX8dvHDf5youPS4j\"><p><strong>Foundry Note</strong></p><p>The <strong>Expend Sorcery Points</strong> activity will let you select the number of Sorcery Points you would like to expend.</p></section>",
       "activities": {
         "Expend Sorcery Points": {
           "name": "Expend Sorcery Points"
@@ -4898,32 +5006,32 @@
       "description": "<blockquote><p>A Dazzling Mage Filled with Innate Magic</p></blockquote><h3>Core Sorcerer Traits</h3><table class=\"core-class-traits\"><tbody><tr><th scope=\"row\"><p><strong>Primary Ability</strong></p></th><td><p>Charisma</p></td></tr><tr><th scope=\"row\"><p><strong>Hit Point Die</strong></p></th><td><p>D6 per Sorcerer level</p></td></tr><tr><th scope=\"row\"><p><strong>Saving Throw Proficiencies</strong></p></th><td><p>Constitution and Charisma</p></td></tr><tr><th scope=\"row\"><p><strong>Skill Proficiencies</strong></p></th><td><p><em>Choose 2:</em> Arcana, Deception, Insight, Intimidation, Persuasion, or Religion</p></td></tr><tr><th scope=\"row\"><p><strong>Weapon Proficiencies</strong></p></th><td><p>Simple weapons</p></td></tr><tr><th scope=\"row\"><p><strong>Armor Training</strong></p></th><td><p>None</p></td></tr><tr><th scope=\"row\"><p><strong>Starting Equipment</strong></p></th><td><p><em>Choose A or B: </em>(A) @UUID[Compendium.dnd-players-handbook.equipment.Item.phbwepSpear00000]{Spear}, 2 @UUID[Compendium.dnd-players-handbook.equipment.Item.phbwepDagger0000]{Daggers}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagArcaneFocus]{Arcane Focus} (@UUID[Compendium.dnd-players-handbook.equipment.Item.phbafcCrystal000]{crystal}), @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagDungeoneers]{Dungeoneer’s Pack}, and [[/award 28GP]]; or (B) [[/award 50GP]]</p></td></tr></tbody></table><p>Sorcerers wield innate magic that is stamped into their being. Some Sorcerers can’t name the origin of their power, while others trace it to strange events in their personal or family history. The blessing of a dragon or a dryad at a baby’s birth or the strike of lightning from a clear sky might spark a Sorcerer’s gift. So too might the gift of a deity, exposure to the strange magic of another plane of existence, or a glimpse into the inner workings of reality. Whatever the origin, the result is an indelible mark on the Sorcerer, a churning magic that can be passed down through generations.</p><p>Sorcerers don’t learn magic; the raw, roiling power of magic is part of them. The essential art of a Sorcerer is learning to harness and channel that innate magic, allowing the Sorcerer to discover new and staggering ways to unleash their power. As Sorcerers master their innate magic, they grow more attuned to its origin, developing distinct powers that reflect its source.</p><p>Sorcerers are rare. Some family lines produce exactly one Sorcerer in every generation, but most of the time, the talents of sorcery appear as a fluke. People who have this magical power soon discover that it doesn’t like to stay quiet. A Sorcerer’s magic wants to be wielded.</p><h2>Becoming a Sorcerer …</h2><h3>As a Level 1 Character</h3><ul><li>Gain all the traits in the Core Sorcerer Traits table.</li><li>Gain the Sorcerer’s level 1 features, which are listed in the @UUID[Compendium.dnd-players-handbook.content.JournalEntry.phbSorcerer00000.JournalEntryPage.fsqRUA4acVXH4I3O#class-features]{Sorcerer Features table}.</li></ul><h3>As a Multiclass Character</h3><ul><li>Gain the Hit Point Die from the Core Sorcerer Traits table.</li><li>Gain the Sorcerer’s level 1 features, which are listed in the Sorcerer Features table. See the @UUID[Compendium.dnd-players-handbook.content.JournalEntry.phbCreatingAChar.JournalEntryPage.vcs4jfEKRxPCsgXm]{multiclassing rules} to determine your available spell slots.</li></ul>",
       "advancement": {
         "Class Features": {
-          "title": "Class Features"
+          "name": "Class Features"
         },
         "Max Prepared Spells": {
-          "title": "Max Prepared Spells"
+          "name": "Max Prepared Spells"
         },
         "Cantrips Known": {
-          "title": "Cantrips Known"
+          "name": "Cantrips Known"
         },
         "Metamagic": {
-          "title": "Metamagic",
+          "name": "Metamagic",
           "hint": "Because your magic flows from within, you can alter your spells to suit your needs; you gain two Metamagic options."
         },
         "Saving Throw Proficiencies": {
-          "title": "Saving Throw Proficiencies"
+          "name": "Saving Throw Proficiencies"
         },
         "Skill Proficiencies": {
-          "title": "Skill Proficiencies"
+          "name": "Skill Proficiencies"
         },
         "Weapon Proficiencies": {
-          "title": "Weapon Proficiencies"
+          "name": "Weapon Proficiencies"
         },
         "Sorcery Points": {
-          "title": "Sorcery Points"
+          "name": "Sorcery Points"
         },
         "Epic Boon": {
-          "title": "Epic Boon"
+          "name": "Epic Boon"
         }
       }
     },
@@ -4973,7 +5081,15 @@
     },
     "Tides of Chaos": {
       "name": "Tides of Chaos",
-      "description": "<p>You can manipulate chaos itself to give yourself Advantage on one D20 Test before you roll the d20. Once you do so, you must cast a Sorcerer spell with a spell slot or finish a Long Rest before you can use this feature again.</p><p>If you do cast a Sorcerer spell with a spell slot before you finish a Long Rest, you automatically roll on the @UUID[Compendium.dnd-players-handbook.tables.RollTable.phbWildMagicSurg]{Wild Magic Surge} table.</p>"
+      "description": "<p>You can manipulate chaos itself to give yourself Advantage on one D20 Test before you roll the d20. Once you do so, you must cast a Sorcerer spell with a spell slot or finish a Long Rest before you can use this feature again.</p><p>If you do cast a Sorcerer spell with a spell slot before you finish a Long Rest, you automatically roll on the @UUID[Compendium.dnd-players-handbook.tables.RollTable.phbWildMagicSurg]{Wild Magic Surge} table.</p>",
+      "activities": {
+        "Expend for Advantage": {
+          "name": "Expend for Advantage"
+        },
+        "Recharge from Spell": {
+          "name": "Recharge from Spell"
+        }
+      }
     },
     "Trance of Order": {
       "name": "Trance of Order",
@@ -5007,7 +5123,7 @@
       "description": "<blockquote><p>Unleash Chaotic Magic</p></blockquote><p>Your innate magic stems from the forces of chaos that underlie the order of creation. You or an ancestor might have endured exposure to raw magic, perhaps through a planar portal leading to Limbo or the Elemental Planes. Perhaps you were blessed by a fey being or marked by a demon. Or your magic could be a fluke with no apparent cause. Whatever its source, this magic churns within you, waiting for any outlet.</p>",
       "advancement": {
         "Subclass Features": {
-          "title": "Subclass Features"
+          "name": "Subclass Features"
         }
       }
     },
@@ -5016,18 +5132,18 @@
       "description": "<blockquote><p>Bargain with Whimsical Fey</p></blockquote><p>Your pact draws on the power of the Feywild. When you choose this subclass, you might make a deal with an archfey, such as the Prince of Frost; the Queen of Air and Darkness, ruler of the Gloaming Court; Titania of the Summer Court; or an ancient hag. Or you might call on a spectrum of Fey, weaving a web of favors and debts. Whoever they are, your patron is often inscrutable and whimsical.</p>",
       "advancement": {
         "Subclass Features": {
-          "title": "Subclass Features"
+          "name": "Subclass Features"
         },
         "Archfey Spells": {
-          "title": "Archfey Spells",
+          "name": "Archfey Spells",
           "hint": "The magic of your patron ensures you always have certain spells ready; when you reach a Warlock level specified in the Archfey Spells table, you thereafter always have the listed spells prepared."
         },
         "Beguiling Defenses": {
-          "title": "Beguiling Defenses",
+          "name": "Beguiling Defenses",
           "hint": "Your patron teaches you how to guard your mind and body. You are immune to the Charmed condition."
         },
         "Misty Escape": {
-          "title": "Misty Escape"
+          "name": "Misty Escape"
         }
       }
     },
@@ -5066,14 +5182,14 @@
       "description": "<blockquote><p>Call on the Power of the Heavens</p></blockquote><p>Your pact draws on the Upper Planes, the realms of everlasting bliss. You might enter an agreement with an empyrean, a couatl, a sphinx, a unicorn, or another heavenly entity. Or you might call on numerous such beings as you pursue goals aligned with theirs. Your pact allows you to experience a hint of the holy light that illuminates the multiverse.</p>",
       "advancement": {
         "Subclass Features": {
-          "title": "Subclass Features"
+          "name": "Subclass Features"
         },
         "Radiant Soul": {
-          "title": "Radiant Soul",
+          "name": "Radiant Soul",
           "hint": "Your link to your patron allows you to serve as a conduit for radiant energy. You have Resistance to Radiant damage."
         },
         "Celestial Spells": {
-          "title": "Celestial Spells",
+          "name": "Celestial Spells",
           "hint": "The magic of your patron ensures you always have certain spells ready; when you reach a Warlock level specified in the Archfey Spells table, you thereafter always have the listed spells prepared."
         }
       }
@@ -5135,7 +5251,12 @@
     },
     "Eldritch Hex": {
       "name": "Eldritch Hex",
-      "description": "<p>Your alien patron grants you a powerful curse. You always have the @UUID[Compendium.dnd-players-handbook.spells.Item.phbsplHex0000000]{Hex} spell prepared. When you cast <em>Hex</em> and choose an ability, the target also has Disadvantage on saving throws of the chosen ability for the duration of the spell.</p><section id=\"secret-yj97DsFIc6iBEaTL\" class=\"secret\"><p><strong>Foundry Note</strong></p><p>The spell is automatically added to your sheet when you level up.</p></section>"
+      "description": "<p>Your alien patron grants you a powerful curse. You always have the @UUID[Compendium.dnd-players-handbook.spells.Item.phbsplHex0000000]{Hex} spell prepared. When you cast <em>Hex</em> and choose an ability, the target also has Disadvantage on saving throws of the chosen ability for the duration of the spell.</p>",
+      "advancement": {
+        "A Powerful Curse": {
+          "name": "A Powerful Curse"
+        }
+      }
     },
     "Eldritch Invocations": {
       "name": "Eldritch Invocations",
@@ -5160,10 +5281,10 @@
       "description": "<blockquote><p>Make a Deal with the Lower Planes</p></blockquote><p>Your pact draws on the Lower Planes, the realms of perdition. You might forge a bargain with a demon lord such as Demogorgon or Orcus; an archdevil such as Asmodeus; or a pit fiend, balor, yugoloth, or night hag that is especially mighty. That patron’s aims are evil—the corruption or destruction of all things, ultimately including you—and your path is defined by the extent to which you strive against those aims.</p>",
       "advancement": {
         "Subclass Features": {
-          "title": "Subclass Features"
+          "name": "Subclass Features"
         },
         "Fiend Spells": {
-          "title": "Fiend Spells",
+          "name": "Fiend Spells",
           "hint": "The magic of your patron ensures you always have certain spells ready; when you reach a Warlock level specified in the Fiend Spells table, you thereafter always have the listed spells prepared."
         }
       }
@@ -5219,18 +5340,14 @@
       "description": "<blockquote><p>Unearth Forbidden Lore of Ineffable Beings</p></blockquote><p>When you choose this subclass, you might bind yourself to an unspeakable being from the Far Realm or an elder god—a being such as Tharizdun, the Chained God; Zargon, the Returner; Hadar, the Dark Hunger; or Great Cthulhu. Or you might invoke several entities without yoking yourself to one. The motives of these beings are incomprehensible, and the Great Old One might be indifferent to your existence. But the secrets you’ve learned nevertheless allow you to draw strange magic from it.</p>",
       "advancement": {
         "Subclass Features": {
-          "title": "Subclass Features"
+          "name": "Subclass Features"
         },
         "Great Old One Spells": {
-          "title": "Great Old One Spells",
+          "name": "Great Old One Spells",
           "hint": "The magic of your patron ensures you always have certain spells ready; when you reach a Warlock level specified in the Great Old One Spells table, you thereafter always have the listed spells prepared."
         },
-        "Eldritch Hex": {
-          "title": "Eldritch Hex",
-          "hint": "Your alien patron grants you a powerful curse. You always have the Hex spell prepared."
-        },
         "Create Thrall": {
-          "title": "Create Thrall"
+          "name": "Create Thrall"
         }
       }
     },
@@ -5374,7 +5491,7 @@
       "description": "<blockquote><p>An Occultist Empowered by Otherworldly Pacts</p></blockquote><h3>Core Warlock Traits</h3><table class=\"core-class-traits\"><tbody><tr><th scope=\"row\"><p>Primary Ability</p></th><td><p>Charisma</p></td></tr><tr><th scope=\"row\"><p>Hit Point Die</p></th><td><p>D8 per Warlock level</p></td></tr><tr><th scope=\"row\"><p>Saving Throw Proficiencies</p></th><td><p>Wisdom and Charisma</p></td></tr><tr><th scope=\"row\"><p>Skill Proficiencies</p></th><td><p><em>Choose 2: </em>Arcana, Deception, History, Intimidation, Investigation, Nature, or Religion</p></td></tr><tr><th scope=\"row\"><p>Weapon Proficiencies</p></th><td><p>Simple weapons</p></td></tr><tr><th scope=\"row\"><p>Armor Training</p></th><td><p>Light armor</p></td></tr><tr><th scope=\"row\"><p>Starting Equipment</p></th><td><p><em>Choose A or B: </em>(A) @UUID[Compendium.dnd-players-handbook.equipment.Item.phbarmLeatherArm]{Leather Armor}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbwepSickle0000]{Sickle}, 2 @UUID[Compendium.dnd-players-handbook.equipment.Item.phbwepDagger0000]{Daggers}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagArcaneFocus]{Arcane Focus} (@UUID[Compendium.dnd-players-handbook.equipment.Item.phbafcOrb0000000]{orb}), @UUID[Compendium.dnd-players-handbook.equipment.Item.phiPN9UzkXk3i5xh]{Book} (occult lore), @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagScholarsPac]{Scholar’s Pack}, and [[/award 15GP]]; or (B) [[/award 100GP]]</p></td></tr></tbody></table><p>Warlocks quest for knowledge that lies hidden in the fabric of the multiverse. They often begin their search for magical power by delving into tomes of forbidden lore, dabbling in invocations meant to attract the power of extraplanar beings, or seeking places of power where the influence of these beings can be felt. In no time, each Warlock is drawn into a binding pact with a powerful patron. Drawing on the ancient knowledge of beings such as angels, archfey, demons, devils, hags, and alien entities of the Far Realm, Warlocks piece together arcane secrets to bolster their own power.</p><p>Warlocks view their patrons as resources, as means to the end of achieving magical power. Some Warlocks respect, revere, or even love their patrons; some serve their patrons grudgingly; and some seek to undermine their patrons even as they wield the power their patrons have given them.</p><p>Once a pact is made, a Warlock’s thirst for knowledge and power can’t be slaked with mere study. Most Warlocks spend their days pursuing greater power and deeper knowledge, which typically means some kind of adventure.</p><h2>Becoming a Warlock …</h2><h3>As a Level 1 Character</h3><ul><li>Gain all the traits in the Core Warlock Traits table.</li><li>Gain the Warlock’s level 1 features, which are listed in the @UUID[Compendium.dnd-players-handbook.content.JournalEntry.phbWarlock000000.JournalEntryPage.znue6EaGDDXgeQb0#class-features]{Warlock Features table}.</li></ul><h3>As a Multiclass Character</h3><ul><li>Gain the following traits from the Core Warlock Traits table: Hit Point Die and training with Light armor.</li><li>Gain the Warlock’s level 1 features, which are listed in the Warlock Features table. See the @UUID[Compendium.dnd-players-handbook.content.JournalEntry.phbCreatingAChar.JournalEntryPage.vcs4jfEKRxPCsgXm]{multiclassing rules} to determine your available spell slots.</li></ul>",
       "advancement": {
         "Class Features": {
-          "title": "Class Features"
+          "name": "Class Features"
         },
         "bwCLOdauuzoHofil": {
           "hint": "You gain the Ability Score Improvement feat or another feat of your choice for which you qualify. You gain this feature again at Warlock levels 8, 12, and 16."
@@ -5389,39 +5506,39 @@
           "hint": "You gain the Ability Score Improvement feat or another feat of your choice for which you qualify. You gain this feature again at Warlock levels 8, 12, and 16."
         },
         "Eldritch Invocations Known": {
-          "title": "Eldritch Invocations Known"
+          "name": "Eldritch Invocations Known"
         },
         "Cantrips Known": {
-          "title": "Cantrips Known"
+          "name": "Cantrips Known"
         },
         "KTLPtUpPuGbXWiap": {
           "hint": "You gain a Warlock subclass of your choice. A subclass is a specialization that grants you features at certain Warlock levels. For the rest of your career, you gain each of your subclass’s features that are of your Warlock level or lower."
         },
         "Max Pact Magic Spells": {
-          "title": "Max Pact Magic Spells"
+          "name": "Max Pact Magic Spells"
         },
         "Eldritch Invocations": {
-          "title": "Eldritch Invocations",
+          "name": "Eldritch Invocations",
           "hint": "You have unearthed Eldritch Invocations, pieces of forbidden knowledge that imbue you with an abiding magical ability or other lessons."
         },
         "Contact Patron": {
-          "title": "Contact Patron",
+          "name": "Contact Patron",
           "hint": "In the past, you usually contacted your patron through intermediaries. Now you can communicate directly; you always have the Contact Other Plane spell prepared."
         },
         "Saving Throw Proficiencies": {
-          "title": "Saving Throw Proficiencies"
+          "name": "Saving Throw Proficiencies"
         },
         "Skill Proficiencies": {
-          "title": "Skill Proficiencies"
+          "name": "Skill Proficiencies"
         },
         "Weapon Proficiencies": {
-          "title": "Weapon Proficiencies"
+          "name": "Weapon Proficiencies"
         },
         "Armor Training": {
-          "title": "Armor Training"
+          "name": "Armor Training"
         },
         "Epic Boon": {
-          "title": "Epic Boon"
+          "name": "Epic Boon"
         }
       }
     },
@@ -5434,17 +5551,23 @@
       "description": "<blockquote><p>Shield Companions and Banish Foes</p></blockquote><p>Your study of magic is focused on spells that block, banish, or protect—ending harmful effects, banishing evil influences, and protecting the weak. Abjurers are sought when baleful spirits require exorcism, when locations must be guarded against magical spying, and when portals to other planes of existence must be closed. Adventuring parties value Abjurers for the protection they provide against a variety of hostile magic and other attacks.</p>",
       "advancement": {
         "Subclass Features": {
-          "title": "Subclass Features"
+          "name": "Subclass Features"
         },
         "Spell Breaker": {
-          "title": "Spell Breaker",
+          "name": "Spell Breaker",
           "hint": "You always have the Counterspell and Dispel Magic spells prepared."
         }
       }
     },
     "Arcane Recovery": {
       "name": "Arcane Recovery",
-      "description": "<p>You can regain some of your magical energy by studying your spellbook. When you finish a Short Rest, you can choose expended spell slots to recover. The spell slots can have a combined level equal to no more than half your Wizard level (round up), and none of the slots can be level 6 or higher. For example, if you’re a level 4 Wizard, you can recover up to two levels’ worth of spell slots, regaining either one level 2 spell slot or two level 1 spell slots.</p><p>Once you use this feature, you can’t do so again until you finish a Long Rest.</p><p><strong>Combined Level Available:</strong> [[(@classes.wizard.levels / 2)]]</p><section id=\"secret-cO6X083GFJ1W4071\" class=\"secret\"><p><strong>Foundry Note</strong></p><p>Since you can select the slots you will have to manually adjust your available slots. This feature can be used to track the one-time use though.</p></section>"
+      "description": "<p>You can regain some of your magical energy by studying your spellbook. When you finish a Short Rest, you can choose expended spell slots to recover. The spell slots can have a combined level equal to no more than half your Wizard level (round up), and none of the slots can be level 6 or higher. For example, if you’re a level 4 Wizard, you can recover up to two levels’ worth of spell slots, regaining either one level 2 spell slot or two level 1 spell slots.</p><p>Once you use this feature, you can’t do so again until you finish a Long Rest.</p><p><strong>Combined Level Available:</strong> [[ceil(@classes.wizard.levels / 2)]]</p><section class=\"secret\" id=\"secret-cO6X083GFJ1W4071\"><p><strong>Foundry Note</strong></p><p>Since you can select the slots you will have to manually adjust your available slots. This feature can be used to track the one-time use though.</p></section>",
+      "activities": {
+        "Recover": {
+          "name": "Recover",
+          "roll": "Combined Spell Levels"
+        }
+      }
     },
     "Arcane Ward": {
       "name": "Arcane Ward",
@@ -5475,7 +5598,7 @@
       "description": "<blockquote><p>Learn the Secrets of the Multiverse</p></blockquote><p>The counsel of a Diviner is sought by those who want a clearer understanding of the past, present, and future. As a Diviner, you strive to part the veils of space, time, and consciousness. You work to master spells of discernment, remote viewing, supernatural knowledge, and foresight.</p>",
       "advancement": {
         "Subclass Features": {
-          "title": "Subclass Features"
+          "name": "Subclass Features"
         }
       }
     },
@@ -5501,7 +5624,7 @@
       "description": "<blockquote><p>Create Explosive Elemental Effects</p></blockquote><p>Your studies focus on magic that creates powerful elemental effects such as bitter cold, searing flame, rolling thunder, crackling lightning, and burning acid. Some Evokers find employment in military forces, serving as artillery to blast armies from afar. Others use their power to protect others, while some seek their own gain.</p>",
       "advancement": {
         "Subclass Features": {
-          "title": "Subclass Features"
+          "name": "Subclass Features"
         }
       }
     },
@@ -5527,13 +5650,13 @@
       "description": "<blockquote><p>Weave Subtle Spells of Deception</p></blockquote><p>You specialize in magic that dazzles the senses and tricks the mind, and the illusions you craft make the impossible seem real.</p>",
       "advancement": {
         "Subclass Features": {
-          "title": "Subclass Features"
+          "name": "Subclass Features"
         },
         "Improved Illusions": {
-          "title": "Improved Illusions"
+          "name": "Improved Illusions"
         },
         "Phantasmal Creatures": {
-          "title": "Phantasmal Creatures",
+          "name": "Phantasmal Creatures",
           "hint": "You always have the Summon Beast and Summon Fey spells prepared."
         }
       }
@@ -5644,7 +5767,7 @@
           "name": "Signature",
           "description": "<p>Choose two level 3 spells in your spellbook as your signature spells. You always have these spells prepared, and you can cast each of them once at level 3 without expending a spell slot. When you do so, you can’t cast them in this way again until you finish a Short or Long Rest. To cast either spell at a higher level, you must expend a spell slot.</p>",
           "changes": {
-            "name": ", Signature"
+            "0": ", Signature"
           }
         }
       }
@@ -5665,7 +5788,7 @@
         "Mastered": {
           "name": "Mastered",
           "changes": {
-            "name": ", Mastered"
+            "0": ", Mastered"
           }
         }
       }
@@ -5702,7 +5825,11 @@
           "description": "<p>The Third Eye feature grants you the ability to read any language.</p>"
         },
         "See Invisibility": {
-          "name": "See Invisibility"
+          "name": "See Invisibility",
+          "changes": {
+            "0": ";Invisible creatures",
+            "1": ";Ethereal Plane"
+          }
         }
       }
     },
@@ -5711,29 +5838,29 @@
       "description": "<blockquote><p>A Scholarly Magic-User of Arcane Power</p></blockquote><h3>Core Wizard Traits</h3><table class=\"core-class-traits\"><tbody><tr><th scope=\"row\"><p><strong>Primary Ability</strong></p></th><td><p>Intelligence</p></td></tr><tr><th scope=\"row\"><p><strong>Hit Point Die</strong></p></th><td><p>D6 per Wizard level</p></td></tr><tr><th scope=\"row\"><p><strong>Saving Throw Proficiencies</strong></p></th><td><p>Intelligence and Wisdom</p></td></tr><tr><th scope=\"row\"><p><strong>Skill Proficiencies</strong></p></th><td><p><em>Choose 2:</em>Arcana, History, Insight, Investigation, Medicine, Nature, or Religion</p></td></tr><tr><th scope=\"row\"><p><strong>Weapon Proficiencies</strong></p></th><td><p>Simple weapons</p></td></tr><tr><th scope=\"row\"><p><strong>Armor Training</strong></p></th><td><p>None</p></td></tr><tr><th scope=\"row\"><p><strong>Starting Equipment</strong></p></th><td><p><em>Choose A or B:</em> (A) 2 @UUID[Compendium.dnd-players-handbook.equipment.Item.phbwepDagger0000]{Daggers}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagArcaneFocus]{Arcane Focus} (@UUID[Compendium.dnd-players-handbook.equipment.Item.phbwepQuartersta]{Quarterstaff}), @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagRobe0000000]{Robe}, @UUID[Compendium.dnd5e.items.Item.LBajgahniRJbAgDr]{Spellbook}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagScholarsPac]{Scholar’s Pack}, and [[/award 5GP]]; or (B) [[/award 55GP]]</p></td></tr></tbody></table><p>Wizards are defined by their exhaustive study of magic’s inner workings. They cast spells of explosive fire, arcing lightning, subtle deception, and spectacular transformations. Their magic conjures monsters from other planes of existence, glimpses the future, or forms protective barriers. Their mightiest spells change one substance into another, call meteors from the sky, or open portals to other worlds.</p><p>Most Wizards share a scholarly approach to magic. They examine the theoretical underpinnings of magic, particularly the categorization of spells into schools of magic. Renowned Wizards such as Bigby, Tasha, Mordenkainen, and Yolande have built on their studies to invent iconic spells now used across the multiverse.</p><p>The closest a Wizard is likely to come to an ordinary life is working as a sage or lecturer. Other Wizards sell their services as advisers, serve in military forces, or pursue lives of crime or domination.</p><p>But the lure of knowledge calls even the most unadventurous Wizards from the safety of their libraries and laboratories and into crumbling ruins and lost cities. Most Wizards believe that their counterparts in ancient civilizations knew secrets of magic that have been lost to the ages, and discovering those secrets could unlock the path to a power greater than any magic available in the present age.</p><h2>Becoming a Wizard …</h2><h3>As a Level 1 Character</h3><ul><li>Gain all the traits in the Core Wizard Traits table.</li><li>Gain the Wizard’s level 1 features, which are listed in the Wizard Features table.</li></ul><h3>As a Multiclass Character</h3><ul><li>Gain the Hit Point Die from the Core Wizard Traits table.</li><li>Gain the Wizard’s level 1 features, which are listed in the @UUID[Compendium.dnd-players-handbook.content.JournalEntry.phbWizard0000000.JournalEntryPage.g7cMRWzsgAsEF7zC#class-features]{Wizard Features table}. See the @UUID[Compendium.dnd-players-handbook.content.JournalEntry.phbCreatingAChar.JournalEntryPage.vcs4jfEKRxPCsgXm]{multiclassing rules} to determine your available spell slots.</li></ul><aside class=\"notable\"><p><strong>Expanding and Replacing a Spellbook</strong></p><p>The spells you add to your spellbook as you gain levels reflect your ongoing magical research, but you might find other spells during your adventures that you can add to the book. You could discover a Wizard spell on a Spell Scroll, for example, and then copy it into your spellbook.</p><p><strong>Copying a Spell into the Book.</strong> When you find a level 1+ Wizard spell, you can copy it into your spellbook if it’s of a level you can prepare and if you have time to copy it. For each level of the spell, the transcription takes 2 hours and costs 50 GP. Afterward you can prepare the spell like the other spells in your spellbook.</p><p><strong>Copying the Book.</strong> You can copy a spell from your spellbook into another book. This is like copying a new spell into your spellbook but faster, since you already know how to cast the spell. You need spend only 1 hour and 10 GP for each level of the copied spell.</p><p>If you lose your spellbook, you can use the same procedure to transcribe the Wizard spells that you have prepared into a new spellbook. Filling out the remainder of the new book requires you to find new spells to do so. For this reason, many wizards keep a backup spellbook.</p></aside>",
       "advancement": {
         "Class Features": {
-          "title": "Class Features"
+          "name": "Class Features"
         },
         "Max Prepared Spells": {
-          "title": "Max Prepared Spells"
+          "name": "Max Prepared Spells"
         },
         "Cantrips Known": {
-          "title": "Cantrips Known"
+          "name": "Cantrips Known"
         },
         "Scholar": {
-          "title": "Scholar",
+          "name": "Scholar",
           "hint": "While studying magic, you also specialized in another field of study. Choose one of the following skills in which you have proficiency. You have Expertise in the chosen skill."
         },
         "Saving Throw Proficiencies": {
-          "title": "Saving Throw Proficiencies"
+          "name": "Saving Throw Proficiencies"
         },
         "Skill Proficiencies": {
-          "title": "Skill Proficiencies"
+          "name": "Skill Proficiencies"
         },
         "Weapon Proficiencies": {
-          "title": "Weapon Proficiencies"
+          "name": "Weapon Proficiencies"
         },
         "Epic Boon": {
-          "title": "Epic Boon"
+          "name": "Epic Boon"
         }
       }
     }
