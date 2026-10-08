@@ -33,49 +33,49 @@
     "Bloodwell Vial +3": {
       "activities": {
         "utility": {
-          "condition": "When you roll Hit Dice to recover hit points"
+          "condition": "當你擲生命骰以恢復生命值時"
         }
       },
-      "name": "Bloodwell Vial +3",
+      "name": "血源瓶+3",
       "effects": {
         "Bloodwell Vial": {
-          "name": "Bloodwell Vial"
+          "name": "血源瓶"
         }
       },
-      "description": "<p><em>Wondrous item, requires attunement by a sorcerer</em></p><p>To attune to this vial, you must place a few drops of your blood into it. The vial can’t be opened while your attunement to it lasts. If your attunement to the vial ends, the contained blood turns to ash. You can use the vial as a spellcasting focus for your spells while wearing or holding it, and you gain a bonus to spell attack rolls and to the saving throw DCs of your sorcerer spells. The bonus is determined by the vial’s rarity.</p><p>In addition, when you roll any Hit Dice to recover hit points while you are carrying the vial, you can regain 5 sorcery points. This property of the vial can’t be used again until the next dawn.</p>"
+      "description": "<p><em>奇物，需由術士同調</em></p><p>要與這個小瓶同調，你必須將幾滴你的血滴入其中。在你與其同調期間，小瓶無法被開啟。若你與小瓶的同調結束，其中的血液會化為灰燼。你穿戴或持握這個小瓶期間，可以將其作為你的法術的施法法器，且你在術士法術的法術攻擊檢定與法術豁免DC上獲得加值。加值取決於該小瓶的稀有度。</p><p>此外，當你攜帶該小瓶，並擲出任一枚生命骰以恢復生命值時，你可以恢復5點術法點。小瓶的此項屬性，直到下個黎明前，不能再次使用。</p>"
     },
     "Arcane Grimoire +1": {
-      "name": "Arcane Grimoire +1",
+      "name": "奧法祕典+1",
       "effects": {
         "Arcane Grimoire": {
-          "name": "Arcane Grimoire"
+          "name": "奧法祕典"
         }
       },
-      "description": "<p><em>Wondrous item, requires attunement by a wizard</em></p><p>While you are holding this leather-bound book, you can use it as a spellcasting focus for your wizard spells, and you gain a bonus to spell attack rolls and to the saving throw DCs of your <strong>wizard spells</strong>. The bonus is determined by the book’s rarity.</p><p>You can use this book as a spellbook. In addition, when you use your @UUID[Compendium.dnd5e.classfeatures.Item.e0uTcFPpgxjIyUW9]{Arcane Recovery} feature, you can increase the number of spell slot levels you regain by 1.</p><p>[[1 + ceil(@classes.wizard.levels / 2)]]{Total spell slot levels recovered}</p>"
+      "description": "<p><em>奇物，需由法師同調</em></p><p>持握這本皮革封面的書籍期間，你可以將其作為你法師法術的施法法器，且你在<strong>法師法術</strong>的法術攻擊檢定與法術豁免DC上獲得加值。加值取決於該書的稀有度。</p><p>你可以將這本書作為法術書。此外，當你使用你的@UUID[Compendium.dnd5e.classfeatures.Item.e0uTcFPpgxjIyUW9]{奧術恢復}特性時，你所恢復的法術位環階總和增加1環。</p><p>[[1 + ceil(@classes.wizard.levels / 2)]]{所恢復的法術位環階總和}</p>"
     },
     "Rhythm-Maker's Drum +1": {
-      "name": "Rhythm-Maker's Drum +1",
+      "name": "調律者之鼓+1",
       "effects": {
         "Rhythm-Maker's Bard Bonuses": {
-          "description": "<p>You gain a +1 bonus to spell attack rolls and to the saving throw DCs of your bard spells.</p>",
-          "name": "Rhythm-Maker's Bard Bonuses"
+          "description": "<p>你在吟遊詩人法術的法術攻擊檢定與法術豁免DC上獲得+1加值。</p>",
+          "name": "調律者的吟遊詩人加值"
         }
       },
-      "description": "<p><em>Wondrous item, requires attunement by a bard</em></p><p>While holding this drum, you gain a bonus to spell attack rolls and to the saving throw DCs of your bard spells. The bonus is determined by the drum’s rarity.</p><p>As an action, you can play the drum to regain one use of your @UUID[Compendium.dnd5e.classfeatures.Item.hpLNiGq7y67d2EHA]{Bardic Inspiration} feature. This property of the drum can’t be used again until the next dawn.</p>"
+      "description": "<p><em>奇物，需由吟遊詩人同調</em></p><p>持握這面鼓期間，你在吟遊詩人法術的法術攻擊檢定與法術豁免DC上獲得加值。加值取決於該鼓的稀有度。</p><p>你可以採取一個動作演奏這面鼓，恢復一次你@UUID[Compendium.dnd5e.classfeatures.Item.hpLNiGq7y67d2EHA]{吟遊激勵}特性的使用次數。該鼓的這項屬性，直到下個黎明前，不能再次使用。</p>"
     },
     "Comprehend Languages": {
       "name": "Comprehend Languages",
       "description": "<p>For the duration, you understand the literal meaning of any spoken language that you hear. You also understand any written language that you see, but you must be touching the surface on which the words are written. It takes about 1 minute to read one page of text.</p><p>This spell doesn't decode secret messages in a text or a glyph, such as an arcane sigil, that isn't part of a written language.</p>"
     },
     "Summon Construct": {
-      "name": "Summon Construct",
-      "description": "<p>You call forth the spirit of a construct. It manifests in an unoccupied space that you can see within range. This corporeal form uses the @UUID[Compendium.dnd-tashas-cauldron.tcoe-actors.Actor.tcoeConstructSpi]{Construct Spirit} stat block. When you cast the spell, choose a material: @UUID[Compendium.dnd-tashas-cauldron.tcoe-actors.Actor.tcoeClaySpirit00]{Clay}, @UUID[Compendium.dnd-tashas-cauldron.tcoe-actors.Actor.tcoeMetalSpirit0]{Metal}, or @UUID[Compendium.dnd-tashas-cauldron.tcoe-actors.Actor.tcoeStoneSpirit0]{Stone}. The creature resembles a golem or a modron (your choice) made of the chosen material, which determines certain traits in its stat block. The creature disappears when it drops to 0 hit points or when the spell ends.</p><p>The creature is an ally to you and your companions. In combat, the creature shares your initiative count, but it takes its turn immediately after yours. It obeys your verbal commands (no action required by you). If you don’t issue any, it takes the &amp;Reference[dodge] action and uses its move to avoid danger.</p><p><strong>At Higher Levels.</strong> When you cast this spell using a spell slot of 4th level or higher, use the higher level wherever the spell’s level appears in the stat block.</p>",
+      "name": "構裝體召喚術",
+      "description": "<p>你喚來一個@UUID[Compendium.dnd-tashas-cauldron.tcoe-actors.Actor.tcoeConstructSpi]{構裝體靈魄}。其會在射程內你所能看見的一處未佔據空間中顯現。這個實體形態使用構裝體靈魄的數值面板。當你施放法術時，選擇一種材料：@UUID[Compendium.dnd-tashas-cauldron.tcoe-actors.Actor.tcoeClaySpirit00]{黏土}、@UUID[Compendium.dnd-tashas-cauldron.tcoe-actors.Actor.tcoeMetalSpirit0]{金屬}或@UUID[Compendium.dnd-tashas-cauldron.tcoe-actors.Actor.tcoeStoneSpirit0]{岩石}。該生物會呈現為以所選材料製成的魔像或魔冢（由你選擇），其數值面板中的某些特質也受此影響。該生物會在生命值降為0或法術結束時消失。</p><p>該生物是你及你同伴的盟友。戰鬥中，該生物與你共用先攻順位，並緊接在你的先攻順位後進行其回合。其遵從你的口頭指令（你無需花費動作）。若你沒有下達指令，其會採取&amp;Reference[dodge]{迴避}動作，並利用移動力遠離危險。</p><p><strong>【升環法術效應】</strong>當你使用4環或更高環階的法術位施放此法術時，數值面板中出現法術環階之處，均使用該較高的環階。</p>",
       "activities": {
         "summon": {
           "profiles": {
-            "Clay": "Clay",
-            "Metal": "Metal",
-            "Stone": "Stone"
+            "Clay": "黏土",
+            "Metal": "金屬",
+            "Stone": "岩石"
           }
         }
       }
@@ -83,11 +83,11 @@
     "All-Purpose Tool +1": {
       "effects": {
         "All-Purpose Tool": {
-          "name": "All-Purpose Tool"
+          "name": "萬能工具"
         }
       },
-      "name": "All-Purpose Tool +1",
-      "description": "<p><em>Wondrous item, requires attunement by an artificer</em></p><p>This simple screwdriver can transform into a variety of tools; as an action, you can touch the item and transform it into any type of @UUID[Compendium.dnd5e.rules.JournalEntry.BYFd9hiJGo9L5aOM.JournalEntryPage.Rs0xLMFGbcCkEhuA#tools$1]{artisan’s tool} of your choice. Whatever form the tool takes, you are proficient with it.</p><p>While holding this tool, you gain a bonus to the spell attack rolls and the saving throw DCs of your <strong>artificer spells</strong>. The bonus is determined by the tool’s rarity.</p><p>As an action, you can focus on the tool to channel your creative forces. Choose a cantrip that you don’t know from any class list. For 8 hours, you can cast that cantrip, and it counts as an artificer cantrip for you. Once this property is used, it can’t be used again until the next dawn.</p>"
+      "name": "萬能工具+1",
+      "description": "<p><em>奇物，需由奇械師同調</em></p><p>這把簡易的螺絲起子可以轉換成多種工具：你可以採取一個動作觸摸該物品，將其轉變為由你選擇的任一種@UUID[Compendium.dnd5e.rules.JournalEntry.BYFd9hiJGo9L5aOM.JournalEntryPage.Rs0xLMFGbcCkEhuA#tools$1]{工匠工具}。無論其呈現何種形態，你都熟練使用該工具。</p><p>持握這件工具期間，你在<strong>奇械師法術</strong>的法術攻擊檢定與法術豁免DC上獲得加值。加值取決於該工具的稀有度。</p><p>你可以採取一個動作專注於該工具，引導你的創造力。從任一職業的法術列表中，選擇一道你不知道的戲法。在接下來的8小時內，你可以施放該戲法，且對你而言其視為奇械師戲法。此屬性使用後，直到下個黎明前，不能再次使用。</p>"
     },
     "Rainbow-colored Donkey Molar": {
       "name": "Rainbow-colored Donkey Molar",
@@ -116,74 +116,74 @@
     "Bloodwell Vial +2": {
       "activities": {
         "utility": {
-          "condition": "When you roll Hit Dice to recover hit points"
+          "condition": "當你擲生命骰以恢復生命值時"
         }
       },
-      "description": "<p><em>Wondrous item, requires attunement by a sorcerer</em></p><p>To attune to this vial, you must place a few drops of your blood into it. The vial can’t be opened while your attunement to it lasts. If your attunement to the vial ends, the contained blood turns to ash. You can use the vial as a spellcasting focus for your spells while wearing or holding it, and you gain a bonus to spell attack rolls and to the saving throw DCs of your sorcerer spells. The bonus is determined by the vial’s rarity.</p><p>In addition, when you roll any Hit Dice to recover hit points while you are carrying the vial, you can regain 5 sorcery points. This property of the vial can’t be used again until the next dawn.</p>",
-      "name": "Bloodwell Vial +2",
+      "description": "<p><em>奇物，需由術士同調</em></p><p>要與這個小瓶同調，你必須將幾滴你的血滴入其中。在你與其同調期間，小瓶無法被開啟。若你與小瓶的同調結束，其中的血液會化為灰燼。你穿戴或持握這個小瓶期間，可以將其作為你的法術的施法法器，且你在術士法術的法術攻擊檢定與法術豁免DC上獲得加值。加值取決於該小瓶的稀有度。</p><p>此外，當你攜帶該小瓶，並擲出任一枚生命骰以恢復生命值時，你可以恢復5點術法點。小瓶的此項屬性，直到下個黎明前，不能再次使用。</p>",
+      "name": "血源瓶+2",
       "effects": {
         "Bloodwell Vial": {
-          "name": "Bloodwell Vial"
+          "name": "血源瓶"
         }
       }
     },
     "Shadowfell Shard": {
       "effects": {
         "Cursed Strength": {
-          "name": "Cursed Strength"
+          "name": "力量受詛"
         },
         "Cursed Charisma": {
-          "name": "Cursed Charisma"
+          "name": "魅力受詛"
         },
         "Cursed Intelligence": {
-          "name": "Cursed Intelligence"
+          "name": "智力受詛"
         },
         "Cursed Constitution": {
-          "name": "Cursed Constitution"
+          "name": "體質受詛"
         },
         "Cursed Wisdom": {
-          "name": "Cursed Wisdom"
+          "name": "感知受詛"
         },
         "Cursed Dexterity": {
-          "name": "Cursed Dexterity"
+          "name": "敏捷受詛"
         }
       },
-      "name": "Shadowfell Shard",
+      "name": "墮影冥界碎晶",
       "activities": {
         "utility": {
-          "condition": "When you use a Metamagic option on a spell"
+          "condition": "當你對一道法術使用超魔法選項時"
         }
       },
-      "description": "<p><em>Wondrous item, requires attunement by a sorcerer</em></p><p>This dull, cold crystal sits heavy and leaden, saturated by the Shadowfell’s despair. As an action, you can attach the shard to a Tiny object (such as a weapon or a piece of jewelry) or detach it. It falls off if your attunement to it ends. You can use the shard as a spellcasting focus while you hold or wear it.</p><p>When you use a Metamagic option on a spell while you are holding or wearing the shard, you can momentarily curse one creature targeted by the spell; choose one ability score, and until the end of your next turn, the creature has disadvantage on ability checks and saving throws that use that ability.</p>"
+      "description": "<p><em>奇物，需由術士同調</em></p><p>這塊黯淡冰冷的水晶摸起來沉重如鉛，浸滿了墮影冥界的絕望。你可以採取一個動作，將碎晶附著於一件微型物體（如武器或珠寶）上，或將其取下。若你與碎晶的同調結束，其會掉落。你持握或穿戴碎晶期間，可以將其作為施法法器。</p><p>當你持握或穿戴碎晶期間，對一道法術使用超魔法選項時，你可以暫時詛咒該法術的一個目標生物：選擇一項屬性，直到你的下個回合結束前，該生物在使用該屬性的屬性檢定與豁免上具有劣勢。</p>"
     },
     "Bloodwell Vial +1": {
       "effects": {
         "Bloodwell Vial": {
-          "name": "Bloodwell Vial"
+          "name": "血源瓶"
         }
       },
-      "description": "<p><em>Wondrous item, requires attunement by a sorcerer</em></p><p>To attune to this vial, you must place a few drops of your blood into it. The vial can’t be opened while your attunement to it lasts. If your attunement to the vial ends, the contained blood turns to ash. You can use the vial as a spellcasting focus for your spells while wearing or holding it, and you gain a bonus to spell attack rolls and to the saving throw DCs of your sorcerer spells. The bonus is determined by the vial’s rarity.</p><p>In addition, when you roll any Hit Dice to recover hit points while you are carrying the vial, you can regain 5 sorcery points. This property of the vial can’t be used again until the next dawn.</p>",
+      "description": "<p><em>奇物，需由術士同調</em></p><p>要與這個小瓶同調，你必須將幾滴你的血滴入其中。在你與其同調期間，小瓶無法被開啟。若你與小瓶的同調結束，其中的血液會化為灰燼。你穿戴或持握這個小瓶期間，可以將其作為你的法術的施法法器，且你在術士法術的法術攻擊檢定與法術豁免DC上獲得加值。加值取決於該小瓶的稀有度。</p><p>此外，當你攜帶該小瓶，並擲出任一枚生命骰以恢復生命值時，你可以恢復5點術法點。小瓶的此項屬性，直到下個黎明前，不能再次使用。</p>",
       "activities": {
         "utility": {
-          "condition": "When you roll Hit Dice to recover hit points"
+          "condition": "當你擲生命骰以恢復生命值時"
         }
       },
-      "name": "Bloodwell Vial +1"
+      "name": "血源瓶+1"
     },
     "Moon Sickle +1": {
       "activities": {
         "attack": {
-          "chatFlavor": "[[/healing 1d4]]{Healing spell bonus}"
+          "chatFlavor": "[[/healing 1d4]]{治療法術加值}"
         }
       },
       "effects": {
         "Moon Sickle": {
-          "description": "<p>You gain a bonus to spell attack rolls and the saving throw DCs of your <strong>druid</strong> and <strong>ranger</strong> spells.</p>",
-          "name": "Moon Sickle"
+          "description": "<p>你在<strong>德魯伊</strong>與<strong>遊俠</strong>法術的法術攻擊檢定與法術豁免DC上獲得加值。</p>",
+          "name": "月鐮"
         }
       },
-      "description": "<p>This silver-bladed sickle glimmers softly with moonlight. While holding this magic weapon, you gain a bonus to attack and damage rolls made with it, and you gain a bonus to spell attack rolls and the saving throw DCs of your druid and ranger spells. The bonus is determined by the weapon’s rarity. In addition, you can use the sickle as a spellcasting focus for your druid and ranger spells.</p><p>When you cast a spell that restores hit points, you can roll a [[/healing 1d4]]{1d4} and add the number rolled to the amount of hit points restored, provided you are holding the sickle.</p>",
-      "name": "Moon Sickle +1"
+      "description": "<p>這把銀刃鐮刀閃爍著柔和的月光。持握這把魔法武器期間，你以其進行的攻擊檢定與傷害骰獲得加值，且你在德魯伊與遊俠法術的法術攻擊檢定與法術豁免DC上也獲得加值。加值取決於該武器的稀有度。此外，你可以將這把鐮刀作為你的德魯伊與遊俠法術的施法法器。</p><p>當你施放恢復生命值的法術時，若你正持握這把鐮刀，則你可以擲[[/healing 1d4]]{1d4}，並將擲出的結果加入所恢復的生命值。</p>",
+      "name": "月鐮+1"
     },
     "Blood Fury Tattoo": {
       "name": "Blood Fury Tattoo",
@@ -198,16 +198,16 @@
       "description": "<p><em>Wondrous item, requires attunement</em></p><p>Produced by a special needle, this magic tattoo evokes fury in its form and colors.</p><p><strong>Bloodthirsty Strikes.</strong> The tattoo has 10 charges, and it regains all expended charges daily at dawn. While this tattoo is on your skin, you gain the following benefits:</p><ul><li><p>When you hit a creature with a weapon attack, you can expend a charge to deal an extra 4d6 necrotic damage to the target, and you regain a number of hit points equal to the necrotic damage dealt.</p></li><li><p>When a creature you can see damages you, you can expend a charge and use your reaction to make a melee attack against that creature, with advantage on your attack roll.</p></li></ul>"
     },
     "Amulet of the Devout +3": {
-      "name": "Amulet of the Devout +3",
+      "name": "虔信護符+3",
       "effects": {
         "Amulet of the Devout": {
-          "name": "Amulet of the Devout"
+          "name": "虔信護符"
         }
       },
-      "description": "<p><em>Wondrous item, requires attunement by a cleric or paladin</em></p><p>This amulet bears the symbol of a deity inlaid with precious stones or metals. While you wear the holy symbol, you gain a bonus to spell attack rolls and the saving throw DCs of your spells. The bonus is determined by the amulet’s rarity.</p><p>While you wear this amulet, you can use your <strong>Channel Divinity</strong> feature without expending one of the feature’s uses. Once this property is used, it can’t be used again until the next dawn.</p><p><strong>Spellcasting Focus</strong>. A cleric or paladin can use a holy symbol as a spellcasting focus. To use the symbol in this way, the caster must hold it in hand, wear it visibly, or bear it on a shield.</p>",
+      "description": "<p><em>奇物，需由牧師或聖騎士同調</em></p><p>這枚護符載有一位神祇的聖徽，以珍貴的寶石或金屬鑲嵌而成。穿戴該聖徽期間，你在你法術的法術攻擊檢定與法術豁免DC上獲得加值。加值取決於該護符的稀有度。</p><p>穿戴這枚護符期間，你可以使用你的<strong>引導神力</strong>特性，而無需消耗該特性的一次使用次數。此屬性使用後，直到下個黎明前，不能再次使用。</p><p><strong>【施法法器】</strong>牧師或聖騎士可以使用聖徽作為施法法器。要以這種方式使用該聖徽，施法者必須將其持握在手中、明顯穿戴，或將其刻印於盾牌上。</p>",
       "activities": {
         "utility": {
-          "condition": "Holy symbol must be clearly visible."
+          "condition": "聖徽必須清楚可見。"
         }
       }
     },
@@ -243,14 +243,14 @@
       "name": "Light Barrier Tattoo"
     },
     "Moon Sickle +3": {
-      "name": "Moon Sickle +3",
+      "name": "月鐮+3",
       "effects": {
         "Moon Sickle": {
-          "description": "<p>You gain a bonus to spell attack rolls and the saving throw DCs of your <strong>druid</strong> and <strong>ranger</strong> spells.</p>",
-          "name": "Moon Sickle"
+          "description": "<p>你在<strong>德魯伊</strong>與<strong>遊俠</strong>法術的法術攻擊檢定與法術豁免DC上獲得加值。</p>",
+          "name": "月鐮"
         }
       },
-      "description": "<p>This silver-bladed sickle glimmers softly with moonlight. While holding this magic weapon, you gain a bonus to attack and damage rolls made with it, and you gain a bonus to spell attack rolls and the saving throw DCs of your druid and ranger spells. The bonus is determined by the weapon’s rarity. In addition, you can use the sickle as a spellcasting focus for your druid and ranger spells.</p><p>When you cast a spell that restores hit points, you can roll a [[/healing 1d4]]{1d4} and add the number rolled to the amount of hit points restored, provided you are holding the sickle.</p>"
+      "description": "<p>這把銀刃鐮刀閃爍著柔和的月光。持握這把魔法武器期間，你以其進行的攻擊檢定與傷害骰獲得加值，且你在德魯伊與遊俠法術的法術攻擊檢定與法術豁免DC上也獲得加值。加值取決於該武器的稀有度。此外，你可以將這把鐮刀作為你的德魯伊與遊俠法術的施法法器。</p><p>當你施放恢復生命值的法術時，若你正持握這把鐮刀，則你可以擲[[/healing 1d4]]{1d4}，並將擲出的結果加入所恢復的生命值。</p>"
     },
     "Vomerine Tooth of a Large Toad": {
       "name": "Vomerine Tooth of a Large Toad",
@@ -271,14 +271,14 @@
       "description": "<table style=\"text-align:center\"><thead><tr><th>Tale</th><th>Creatures Summoned</th></tr></thead><tbody><tr><td>Dahlver-Nar’s Tooth</td><td>1 @UUID[Compendium.dnd-tashas-cauldron.tcoe-actors.Actor.PVD5wRdyO7iCJPs1]{priest}</td></tr></tbody></table><p><strong>Implanted Effect.</strong> As an action you can call on a divine force to come to your aid. Describe the assistance you seek, and the DM decides the nature of the intervention; the effect of any @UUID[Compendium.dnd5e.rules.JournalEntry.QvPDSUsAiEn3hD8s.JournalEntryPage.cuG9d7J9fQH9InYT]{cleric spell} would be appropriate. Once this property is used, it can’t be used again for 7 days.</p>"
     },
     "Libram of Souls and Flesh": {
-      "description": "<p><em>Wondrous item, requires attunement by a wizard</em></p><p>With covers made of skin and fittings of bone, this tome is cold to the touch, and it whispers faintly. When found, the book contains the following spells, which are wizard spells for you while you are attuned to the book: animate dead, circle of death, false life, finger of death, speak with dead, summon undead (appears in this book), vampiric touch. It functions as a spellbook for you.</p><p>While you are holding the book, you can use it as a spellcasting focus for your wizard spells.</p><p>The book has 3 charges, and it regains 1d3 expended charges daily at dawn. You can use the charges in the following ways while holding it:</p><ul><li><p>If you spend 1 minute studying the book, you can expend 1 charge to replace one of your prepared wizard spells with a different spell in the book. The new spell must be of the necromancy school.</p></li><li><p>As an action, you can expend 1 charge to take on a semblance of undeath for 10 minutes. For the duration, you take on a deathly appearance, and undead creatures are indifferent to you, unless you have damaged them. You also appear undead to all outward inspection and to spells used to determine the target’s status. The effect ends if you deal damage or force a creature to make a saving throw.</p></li></ul>",
+      "description": "<p><em>奇物，需由法師同調</em></p><p>這本書的封面製以人皮，飾以白骨，觸摸時手感冰涼，並發出微微低語。這本書在被找到時，包含了下列法術，且在你與其同調期間對你視為法師法術：活化死屍、死亡之環、摹造生命、死亡一指、死者交談術、不死生物召喚術（在本書出現）和吸血鬼之觸。你可以將其作為法術書。</p><p>當你持握這本書時，你可以將其作為你法師法術的施法法器。</p><p>書具有3點充能，且每天黎明時恢復1d3點已消耗的充能。你持握該書時，可以透過下列方式消耗充能：</p><ul><li><p>若你花費1分鐘時間研究這本書，你可以消耗1點充能來將你的一道已準備法師法術替換為書中的另一道法術。新法術必須是死靈學派的法術。</p></li><li><p>你可以採取一個動作並消耗1點充能，偽裝成不死生物10分鐘。在持續時間內，你外表上如同死者，並且不死生物對你態度冷漠，除非你傷害過該生物。面對所有的外部檢查，以及用來判定目標狀態的法術時，你也只會被顯示為不死生物。此效應在你造成傷害或使一個生物進行豁免檢定時結束。</p></li></ul>",
       "effects": {
         "Deathly Appearance": {
-          "description": "<p>For the duration, you take on a deathly appearance, and undead creatures are indifferent to you, unless you have damaged them. You also appear &amp;Reference[undead] to all outward inspection and to spells used to determine the target’s status. The effect ends if you deal damage or force a creature to make a saving throw</p>",
-          "name": "Deathly Appearance"
+          "description": "<p>在持續時間內，你外表上如同死者，並且不死生物對你態度冷漠，除非你傷害過該生物。面對所有的外部檢查，以及用來判定目標狀態的法術時，你也只會被顯示為&amp;Reference[undead]{不死生物}。此效應在你造成傷害或使一個生物進行豁免檢定時結束</p>",
+          "name": "死亡外貌"
         }
       },
-      "name": "Libram of Souls and Flesh"
+      "name": "靈肉聖契"
     },
     "Air Essence Shard": {
       "name": "Air Essence Shard",
@@ -379,20 +379,20 @@
       "description": "<p><em>Wondrous item, requires attunement</em></p><p>Produced by a special needle, this magic tattoo features symbols of life and rebirth.</p><p><strong>Necrotic Resistance.</strong> You have resistance to necrotic damage.</p><p><strong>Life Ward.</strong> When you would be reduced to 0 hit points, you drop to 1 hit point instead. Once used, this property can’t be used again until the next dawn.</p>"
     },
     "Astromancy Archive": {
-      "name": "Astromancy Archive",
+      "name": "星卜編集",
       "activities": {
         "Study": {
-          "name": "Study"
+          "name": "研究"
         },
         "Reaction": {
-          "name": "Reaction",
-          "condition": "A creature you can see makes a particular roll"
+          "name": "反應",
+          "condition": "一名你所能看見的生物進行特定擲骰"
         },
         "Qa9uOnmjToEh9ySH": {
-          "name": "Study"
+          "name": "研究"
         }
       },
-      "description": "<p><em>Wondrous item, requires attunement by a wizard</em></p><p>This brass disc of articulated, concentric rings unfolds into an armillary sphere. As a bonus action, you can unfold it into the sphere or back into a disc. When found, it contains the following spells, which are wizard spells for you while you are attuned to it: @UUID[Compendium.dnd5e.spells.Item.4v2H3hHb3Ph9XLNd]{augury}, @UUID[Compendium.dnd5e.spells.Item.XqzXSKNR75ZdYTA9]{divination}, @UUID[Compendium.dnd5e.spells.Item.cYI4RNNjI5GAmLhy]{find the path}, @UUID[Compendium.dnd5e.spells.Item.6HEEhLdJz32TL4Js]{foresight}, @UUID[Compendium.dnd5e.spells.Item.gXtzz9t1DTzJeLr4]{locate creature}, and @UUID[Compendium.dnd5e.spells.Item.SleYkHovQ8NagmeV]{locate object}. It functions as a spellbook for you, with spells encoded on the rings.</p><p>While you are holding the archive, you can use it as a spellcasting focus for your wizard spells.</p><p>The archive has 3 charges, and it regains 1d3 expended charges daily at dawn. You can use the charges in the following ways while holding it:</p><ul><li><p>If you spend 1 minute studying the archive, you can expend 1 charge to replace one of your prepared wizard spells with a different spell in the archive. The new spell must be of the divination school.</p></li><li><p>When a creature you can see within 30 feet of you makes an attack roll, an ability check, or a saving throw, you can use your reaction to expend 1 charge and force the creature to roll a d4 and apply the number rolled as a bonus or penalty (your choice) to the original roll. You can do this after you see the roll but before its effects are applied.</p></li></ul>"
+      "description": "<p><em>奇物，需由法師同調</em></p><p>這個以黃銅圓盤為鉸接件的同心環能夠展開為一隻渾天儀。你可以採取一個附贈動作，將其展開為渾天儀或使其收回成一個圓盤。這本書在被找到時，包含了下列法術，且在你與其同調期間對你視為法師法術：@UUID[Compendium.dnd5e.spells.Item.4v2H3hHb3Ph9XLNd]{卜筮}、@UUID[Compendium.dnd5e.spells.Item.XqzXSKNR75ZdYTA9]{預言術}、@UUID[Compendium.dnd5e.spells.Item.cYI4RNNjI5GAmLhy]{尋找捷徑}、@UUID[Compendium.dnd5e.spells.Item.6HEEhLdJz32TL4Js]{預視術}、@UUID[Compendium.dnd5e.spells.Item.gXtzz9t1DTzJeLr4]{生物定位術}與@UUID[Compendium.dnd5e.spells.Item.SleYkHovQ8NagmeV]{物品定位術}。你可以將其作為法術書，法術被編刻在其圓環上。</p><p>當你持握編集時，你可以將其作為你法師法術的施法法器。</p><p>編集具有3點充能，且每天黎明時恢復1d3點已消耗的充能。你持握該編集時，可以透過下列方式消耗充能：</p><ul><li><p>若你花費1分鐘時間研究該編集，你可以消耗1點充能來將你的一道已準備法師法術替換為編集中的另一道法術。新法術必須是預言學派的法術。</p></li><li><p>當一名位於你30呎內你所能看見的生物進行一次攻擊檢定、屬性檢定或豁免檢定時，你可以採取反應並消耗1點充能使該生物擲一個d4並將其數值作為原擲骰的加值或減值（由你選擇）。你可以在看見擲骰結果後、其效應生效前使用該反應。</p></li></ul>"
     },
     "Jade Humanoid Bicuspid": {
       "name": "Jade Humanoid Bicuspid",
@@ -401,16 +401,16 @@
     "Amulet of the Devout +2": {
       "activities": {
         "utility": {
-          "condition": "Holy symbol must be clearly visible."
+          "condition": "聖徽必須清楚可見。"
         }
       },
       "effects": {
         "Amulet of the Devout": {
-          "name": "Amulet of the Devout"
+          "name": "虔信護符"
         }
       },
-      "name": "Amulet of the Devout +2",
-      "description": "<p><em>Wondrous item, requires attunement by a cleric or paladin</em></p><p>This amulet bears the symbol of a deity inlaid with precious stones or metals. While you wear the holy symbol, you gain a bonus to spell attack rolls and the saving throw DCs of your spells. The bonus is determined by the amulet’s rarity.</p><p>While you wear this amulet, you can use your <strong>Channel Divinity</strong> feature without expending one of the feature’s uses. Once this property is used, it can’t be used again until the next dawn.</p><p><strong>Spellcasting Focus</strong>. A cleric or paladin can use a holy symbol as a spellcasting focus. To use the symbol in this way, the caster must hold it in hand, wear it visibly, or bear it on a shield.</p>"
+      "name": "虔信護符+2",
+      "description": "<p><em>奇物，需由牧師或聖騎士同調</em></p><p>這枚護符載有一位神祇的聖徽，以珍貴的寶石或金屬鑲嵌而成。穿戴該聖徽期間，你在你法術的法術攻擊檢定與法術豁免DC上獲得加值。加值取決於該護符的稀有度。</p><p>穿戴這枚護符期間，你可以使用你的<strong>引導神力</strong>特性，而無需消耗該特性的一次使用次數。此屬性使用後，直到下個黎明前，不能再次使用。</p><p><strong>【施法法器】</strong>牧師或聖騎士可以使用聖徽作為施法法器。要以這種方式使用該聖徽，施法者必須將其持握在手中、明顯穿戴，或將其刻印於盾牌上。</p>"
     },
     "Medium Barrier Tattoo": {
       "effects": {
@@ -433,18 +433,18 @@
     "Atlas of Endless Horizons": {
       "activities": {
         "Study": {
-          "name": "Study"
+          "name": "研究"
         },
         "Reaction": {
-          "condition": "You are hit by an attack",
-          "name": "Reaction"
+          "condition": "你被攻擊命中",
+          "name": "反應"
         },
         "zZ9MMiHvbYMyYIk2": {
-          "name": "Study"
+          "name": "研究"
         }
       },
-      "name": "Atlas of Endless Horizons",
-      "description": "<p><em>Wondrous item, requires attunement by a wizard</em></p><p>This thick book is bound in dark leather, crisscrossed with inlaid silver lines suggesting a map or chart. When found, the book contains the following spells, which are wizard spells for you while you are attuned to the book: arcane gate, @UUID[Compendium.dnd5e.spells.Item.A4RsPuSvB9wFtz1j]{dimension door}, @UUID[Compendium.dnd5e.spells.Item.XbwGq5kDJNvAxNXV]{gate}, @UUID[Compendium.dnd5e.spells.Item.wqfAVANuQonNBgnL]{misty step}, @UUID[Compendium.dnd5e.spells.Item.J6Jpw5XzB5aTeqnz]{plane shift}, @UUID[Compendium.dnd5e.spells.Item.8aWtP5hcrmcEesBW]{teleportation circle}, and @UUID[Compendium.dnd5e.spells.Item.76C0FdcxlU8F9Rl2]{word of recall}. It functions as a spellbook for you.</p><p>While you are holding the book, you can use it as a spellcasting focus for your wizard spells.</p><p>The book has 3 charges, and it regains 1d3 expended charges daily at dawn. You can use the charges in the following ways while holding it:</p><ul><li><p>If you spend 1 minute studying the book, you can expend 1 charge to replace one of your prepared wizard spells with a different spell in the book. The new spell must be of the conjuration school.</p></li><li><p>When you are hit by an attack, you can use your reaction to expend 1 charge to teleport up to 10 feet to an unoccupied space you can see. If your new position is out of range of the attack, it misses you.</p></li></ul>"
+      "name": "寰宇圖纂",
+      "description": "<p><em>奇物，需由法師同調</em></p><p>這本厚重的書被包在暗色的皮革中，皮革上鑲嵌著暗示一張地圖或海圖的交錯銀線。這本書在被找到時，包含了下列法術，且在你與其同調期間對你視為法師法術：祕法之門、@UUID[Compendium.dnd5e.spells.Item.A4RsPuSvB9wFtz1j]{次元門}、@UUID[Compendium.dnd5e.spells.Item.XbwGq5kDJNvAxNXV]{異界之門}、@UUID[Compendium.dnd5e.spells.Item.wqfAVANuQonNBgnL]{迷蹤步}、@UUID[Compendium.dnd5e.spells.Item.J6Jpw5XzB5aTeqnz]{異界傳送}、@UUID[Compendium.dnd5e.spells.Item.8aWtP5hcrmcEesBW]{傳送法陣}與@UUID[Compendium.dnd5e.spells.Item.76C0FdcxlU8F9Rl2]{回返真言}。你可以將其作為法術書。</p><p>當你持握這本書時，你可以將其作為你法師法術的施法法器。</p><p>該書具有3點充能，且每天黎明時恢復1d3點已消耗的充能。你持握該書時，可以透過下列方式消耗充能：</p><ul><li><p>若你花費1分鐘時間研究這本書，你可以消耗1點充能來將你的一道已準備法師法術替換為書中的另一道法術。新法術必須是咒法學派的法術。</p></li><li><p>當你被一次攻擊命中時，你可以採取反應並消耗1點充能，傳送到至多10呎一處你所能看見的未佔據空間。若你的新位置在攻擊的射程以外，那麼此次攻擊失手。</p></li></ul>"
     },
     "Earth Essence Shard": {
       "name": "Earth Essence Shard",
@@ -505,12 +505,12 @@
     "Rhythm-Maker's Drum +3": {
       "effects": {
         "Rhythm-Maker's Bard Bonuses": {
-          "name": "Rhythm-Maker's Bard Bonuses",
-          "description": "<p>You gain a +3 bonus to spell attack rolls and to the saving throw DCs of your bard spells.</p>"
+          "name": "調律者的吟遊詩人加值",
+          "description": "<p>你在吟遊詩人法術的法術攻擊檢定與法術豁免DC上獲得+3加值。</p>"
         }
       },
-      "name": "Rhythm-Maker's Drum +3",
-      "description": "<p><em>Wondrous item, requires attunement by a bard</em></p><p>While holding this drum, you gain a bonus to spell attack rolls and to the saving throw DCs of your bard spells. The bonus is determined by the drum’s rarity.</p><p>As an action, you can play the drum to regain one use of your @UUID[Compendium.dnd5e.classfeatures.Item.hpLNiGq7y67d2EHA]{Bardic Inspiration} feature. This property of the drum can’t be used again until the next dawn.</p>"
+      "name": "調律者之鼓+3",
+      "description": "<p><em>奇物，需由吟遊詩人同調</em></p><p>持握這面鼓期間，你在吟遊詩人法術的法術攻擊檢定與法術豁免DC上獲得加值。加值取決於該鼓的稀有度。</p><p>你可以採取一個動作演奏這面鼓，恢復一次你@UUID[Compendium.dnd5e.classfeatures.Item.hpLNiGq7y67d2EHA]{吟遊激勵}特性的使用次數。該鼓的這項屬性，直到下個黎明前，不能再次使用。</p>"
     },
     "Coiling Grasp Tattoo": {
       "effects": {
@@ -535,31 +535,31 @@
       "description": "<p>With this spell, you attempt to bind a Celestial, an elemental, a fey, or a fiend to your service. The creature must be within range for the entire casting of the spell. (Typically, the creature is first summoned into the center of an inverted Magic Circle in order to keep it trapped while this spell is cast.) At the completion of the casting, the target must make a Charisma saving throw. On a failed save, it is bound to serve you for the Duration. If the creature was summoned or created by another spell, that spell's duration is extended to match the duration of this spell.</p><p>A bound creature must follow your instructions to the best of its ability. You might command the creature to accompany you on an adventure, to guard a location, or to deliver a message. The creature obeys the letter of your instructions, but if the creature is hostile to you, it strives to twist your words to achieve its own objectives. If the creature carries out your instructions completely before the spell ends, it travels to you to report this fact if you are on the same plane of existence. If you are on a different plane of existence, it returns to the place where you bound it and remains there until the spell ends.</p>"
     },
     "Guardian Emblem": {
-      "description": "<p><em>Wondrous item (holy symbol), requires attunement by a cleric or paladin</em></p><p>This emblem is the symbol of a deity or a spiritual tradition. As an action, you can attach the emblem to a suit of armor or a shield or remove it.</p><p>The emblem has 3 charges. When you or a creature you can see within 30 feet of you suffers a critical hit while you’re wearing the armor or wielding the shield that bears the emblem, you can use your reaction to expend 1 charge to turn the critical hit into a normal hit instead.</p><p>The emblem regains all expended charges daily at dawn.</p>",
+      "description": "<p><em>奇物（聖徽），需由牧師或聖騎士同調</em></p><p>這枚紋章是一位神祇或一種靈性傳統的聖徽。你可以採取一個動作，將紋章附著於一套護甲或一面盾牌上，或將其取下。</p><p>該紋章具有3點充能。當你穿戴著附有該紋章的護甲，或持握著附有該紋章的盾牌時，若你或位於你30呎內一名你所能看見的生物遭受暴擊，你可以採取反應並消耗1點充能，將該次暴擊改為普通命中。</p><p>該紋章每日黎明時恢復所有已消耗的充能。</p>",
       "activities": {
         "utility": {
-          "condition": "Visible creature suffers a critical hit"
+          "condition": "一名可見的生物遭受暴擊"
         }
       },
-      "name": "Guardian Emblem"
+      "name": "守護者紋章"
     },
     "Planecaller's Codex": {
-      "name": "Planecaller's Codex",
+      "name": "異界行訪錄",
       "activities": {
         "utility": {
-          "condition": "When you conjure a creature or spend 1 minute studying the book"
+          "condition": "當你召喚生物，或花費1分鐘研究這本書時"
         },
         "Study": {
-          "name": "Study"
+          "name": "研究"
         }
       },
       "effects": {
         "Planecalled": {
-          "description": "<p>For 1 minute, the conjured creature has advantage on attack rolls.</p>",
-          "name": "Planecalled"
+          "description": "<p>在1分鐘內，被召喚的生物進行攻擊檢定具有優勢。</p>",
+          "name": "異界召喚"
         }
       },
-      "description": "<p><em>Wondrous item, requires attunement by a wizard</em></p><p>The pages of this book are bound in fiend hide, and its cover is embossed with a diagram of the Great Wheel of the multiverse. When found, the book contains the following spells: @UUID[Compendium.dnd5e.spells.Item.pxpb2eOB6bv4phAf]{banishment}, @UUID[Compendium.dnd5e.spells.Item.JGT5bNqu9REL7Fuz]{find familiar}, @UUID[Compendium.dnd5e.spells.Item.XbwGq5kDJNvAxNXV]{gate}, @UUID[Compendium.dnd5e.spells.Item.y8A4HfTwd93ypdEz]{magic circle}, @UUID[Compendium.dnd5e.spells.Item.42O2aNBW7vK90gTL]{planar binding}, and @UUID[Compendium.dnd-tashas-cauldron.tcoe-character-options.Item.tcoeSummonElemen]{summon elemental}. It functions as a spellbook for you.</p><p>While you are holding the book, you can use it as a spellcasting focus for your wizard spells.</p><p>The book has 3 charges, and it regains 1d3 expended charges daily at dawn. You can use the charges in the following ways while holding it:</p><ul><li><p>If you spend 1 minute studying the book, you can expend 1 charge to replace one of your prepared wizard spells with a different spell in the book. The new spell must be of the conjuration school.</p></li><li><p>When you cast a conjuration spell that summons or creates one creature, you can expend 1 charge to grant that creature advantage on attack rolls for 1 minute.</p></li></ul>"
+      "description": "<p><em>奇物，需由法師同調</em></p><p>這本書的書頁由邪魔的皮革裝訂，封面上繪製著多元宇宙巨輪的圖樣。這本書在被找到時，包含了下列法術：@UUID[Compendium.dnd5e.spells.Item.pxpb2eOB6bv4phAf]{放逐術}、@UUID[Compendium.dnd5e.spells.Item.JGT5bNqu9REL7Fuz]{尋獲魔寵}、@UUID[Compendium.dnd5e.spells.Item.XbwGq5kDJNvAxNXV]{異界之門}、@UUID[Compendium.dnd5e.spells.Item.y8A4HfTwd93ypdEz]{防護法陣}、@UUID[Compendium.dnd5e.spells.Item.42O2aNBW7vK90gTL]{異界誓縛}與@UUID[Compendium.dnd-tashas-cauldron.tcoe-character-options.Item.tcoeSummonElemen]{元素召喚術}。你可以將其作為法術書。</p><p>當你持握這本書時，你可以將其作為你法師法術的施法法器。</p><p>書具有3點充能，且每天黎明時恢復1d3點已消耗的充能。你持握該書時，可以透過下列方式消耗充能：</p><ul><li><p>若你花費1分鐘時間研究這本書，你可以消耗1點充能來將你的一道已準備法師法術替換為書中的另一道法術。新法術必須是咒法學派的法術。</p></li><li><p>當你施放一道召喚或創造一個生物的咒法學派法術時，你可以消耗1點充能使該生物在攻擊檢定時具有優勢，持續1分鐘。</p></li></ul>"
     },
     "Halfling Canine": {
       "activities": {
@@ -580,21 +580,21 @@
       }
     },
     "All-Purpose Tool +3": {
-      "name": "All-Purpose Tool +3",
-      "description": "<p><em>Wondrous item, requires attunement by an artificer</em></p><p>This simple screwdriver can transform into a variety of tools; as an action, you can touch the item and transform it into any type of @UUID[Compendium.dnd5e.rules.JournalEntry.BYFd9hiJGo9L5aOM.JournalEntryPage.Rs0xLMFGbcCkEhuA#tools$1]{artisan’s tool} of your choice. Whatever form the tool takes, you are proficient with it.</p><p>While holding this tool, you gain a bonus to the spell attack rolls and the saving throw DCs of your <strong>artificer spells</strong>. The bonus is determined by the tool’s rarity.</p><p>As an action, you can focus on the tool to channel your creative forces. Choose a cantrip that you don’t know from any class list. For 8 hours, you can cast that cantrip, and it counts as an artificer cantrip for you. Once this property is used, it can’t be used again until the next dawn.</p>",
+      "name": "萬能工具+3",
+      "description": "<p><em>奇物，需由奇械師同調</em></p><p>這把簡易的螺絲起子可以轉換成多種工具：你可以採取一個動作觸摸該物品，將其轉變為由你選擇的任一種@UUID[Compendium.dnd5e.rules.JournalEntry.BYFd9hiJGo9L5aOM.JournalEntryPage.Rs0xLMFGbcCkEhuA#tools$1]{工匠工具}。無論其呈現何種形態，你都熟練使用該工具。</p><p>持握這件工具期間，你在<strong>奇械師法術</strong>的法術攻擊檢定與法術豁免DC上獲得加值。加值取決於該工具的稀有度。</p><p>你可以採取一個動作專注於該工具，引導你的創造力。從任一職業的法術列表中，選擇一道你不知道的戲法。在接下來的8小時內，你可以施放該戲法，且對你而言其視為奇械師戲法。此屬性使用後，直到下個黎明前，不能再次使用。</p>",
       "effects": {
         "All-Purpose Tool": {
-          "name": "All-Purpose Tool"
+          "name": "萬能工具"
         }
       }
     },
     "Moon Sickle +2": {
-      "description": "<p>This silver-bladed sickle glimmers softly with moonlight. While holding this magic weapon, you gain a bonus to attack and damage rolls made with it, and you gain a bonus to spell attack rolls and the saving throw DCs of your druid and ranger spells. The bonus is determined by the weapon’s rarity. In addition, you can use the sickle as a spellcasting focus for your druid and ranger spells.</p><p>When you cast a spell that restores hit points, you can roll a [[/healing 1d4]]{1d4} and add the number rolled to the amount of hit points restored, provided you are holding the sickle.</p>",
-      "name": "Moon Sickle +2",
+      "description": "<p>這把銀刃鐮刀閃爍著柔和的月光。持握這把魔法武器期間，你以其進行的攻擊檢定與傷害骰獲得加值，且你在德魯伊與遊俠法術的法術攻擊檢定與法術豁免DC上也獲得加值。加值取決於該武器的稀有度。此外，你可以將這把鐮刀作為你的德魯伊與遊俠法術的施法法器。</p><p>當你施放恢復生命值的法術時，若你正持握這把鐮刀，則你可以擲[[/healing 1d4]]{1d4}，並將擲出的結果加入所恢復的生命值。</p>",
+      "name": "月鐮+2",
       "effects": {
         "Moon Sickle": {
-          "name": "Moon Sickle",
-          "description": "<p>You gain a bonus to spell attack rolls and the saving throw DCs of your <strong>druid</strong> and <strong>ranger</strong> spells.</p>"
+          "name": "月鐮",
+          "description": "<p>你在<strong>德魯伊</strong>與<strong>遊俠</strong>法術的法術攻擊檢定與法術豁免DC上獲得加值。</p>"
         }
       }
     },
@@ -613,23 +613,23 @@
     "Duplicitous Manuscript": {
       "activities": {
         "Use": {
-          "name": "Use"
+          "name": "使用"
         }
       },
-      "name": "Duplicitous Manuscript",
-      "description": "<p><em>Wondrous item, requires attunement by a wizard</em></p><p>To you, this book is a magical spellbook. To anyone else, the book appears to be a volume of verbose romance fiction. As an action, you can change the book’s appearance and alter the plot of the romance.</p><p>When found, the book contains the following spells: @UUID[Compendium.dnd5e.spells.Item.sTIkQK7KuQNOyY0C]{hallucinatory terrain}, @UUID[Compendium.dnd5e.spells.Item.nslx2nT3p4lNkmdp]{major image}, @UUID[Compendium.dnd5e.spells.Item.X4c8xCkmF8U9HUMz]{mirror image}, @UUID[Compendium.dnd5e.spells.Item.MBMaQLwoy05qzMJ3]{mislead}, @UUID[Compendium.dnd5e.spells.Item.RvEqsD89Zvd5yex4]{Nystul’s magic aura}, phantasmal force, and @UUID[Compendium.dnd5e.spells.Item.BrBZdCCrJRIVg7YX]{silent image}. It functions as a spellbook for you.</p><p>While you are holding the book, you can use it as a spellcasting focus for your wizard spells.</p><p>The book has 3 charges, and it regains 1d3 expended charges daily at dawn. You can use the charges in the following ways while holding it:</p><ul><li><p>If you spend 1 minute studying the book, you can expend 1 charge to replace one of your prepared wizard spells with a different spell in the book. The new spell must be of the illusion school.</p></li><li><p>When a creature you can see makes an [[/check ability=int skill=inv]] check to discern the true nature of an illusion spell you cast, or makes a saving throw against an illusion spell you cast, you can use your reaction and expend 1 charge to impose disadvantage on the roll.</p></li></ul>"
+      "name": "兩面花言",
+      "description": "<p><em>奇物，需由法師同調</em></p><p>這本書對你來說是一本魔法法術書。對其他人而言，這本書看起來只是一本冗長的浪漫小說。你可以採取一個動作，改變書籍的外觀和其中的浪漫故事。</p><p>這本書在被找到時，包含了下列法術：@UUID[Compendium.dnd5e.spells.Item.sTIkQK7KuQNOyY0C]{幻景}、@UUID[Compendium.dnd5e.spells.Item.nslx2nT3p4lNkmdp]{強效幻影}、@UUID[Compendium.dnd5e.spells.Item.X4c8xCkmF8U9HUMz]{鏡影術}、@UUID[Compendium.dnd5e.spells.Item.MBMaQLwoy05qzMJ3]{假象術}、@UUID[Compendium.dnd5e.spells.Item.RvEqsD89Zvd5yex4]{涅斯圖魔法靈光}、魅影之力與@UUID[Compendium.dnd5e.spells.Item.BrBZdCCrJRIVg7YX]{無聲幻影}。你可以將其作為法術書。</p><p>當你持握這本書時，你可以將其作為你法師法術的施法法器。</p><p>書具有3點充能，且每天黎明時恢復1d3點已消耗的充能。你持握該書時，可以透過下列方式消耗充能：</p><ul><li><p>若你花費1分鐘時間研究這本書，你可以消耗1點充能來將你的一道已準備法師法術替換為書中的另一道法術。新法術必須是幻術學派的法術。</p></li><li><p>當一名你所能看見的生物進行一次[[/check ability=int skill=inv]]檢定來看穿你所施放幻術學派法術的本質，或對你施放的一道幻術學派法術進行豁免時，你可以採取反應並消耗1點充能使其在這次擲骰中具有劣勢。</p></li></ul>"
     },
     "Barrier Tattoo": {
       "description": "<p><em>Wondrous item, rarity varies, requires attunement</em></p><p>Produced by a special needle, this magic tattoo depicts protective imagery and uses ink that resembles liquid metal.</p><p><strong>Protection.</strong> While you aren’t wearing armor, the tattoo grants you an Armor Class depending on the tattoo’s rarity, as shown below. You can use a shield and still gain this benefit.</p><table><thead><tr><th>Tattoo</th><th>Rarity</th><th>AC</th></tr></thead><tbody><tr><td><p>@UUID[Compendium.dnd-tashas-cauldron.tcoe-magic-items.Item.tcoeLightBarrier]{Light Barrier}</p></td><td><p>Uncommon</p></td><td><p>12 + your Dexterity modifier</p></td></tr><tr><td><p>@UUID[Compendium.dnd-tashas-cauldron.tcoe-magic-items.Item.tcoeMediumBarrie]{Medium Barrier}</p></td><td><p>Rare</p></td><td><p>15 + your Dexterity modifier (maximum of +2)</p></td></tr><tr><td><p>@UUID[Compendium.dnd-tashas-cauldron.tcoe-magic-items.Item.tcoeHeavyBarrier]{Heavy Barrier}</p></td><td><p>Very Rare</p></td><td><p>18</p></td></tr></tbody></table>",
       "name": "Barrier Tattoo"
     },
     "Fabricate": {
-      "name": "Fabricate",
+      "name": "鬼斧神工",
       "description": "<p>You convert raw materials into products of the same material. For example, you can fabricate a wooden bridge from a clump of trees, a rope from a patch of hemp, and clothes from flax or wool.</p><p>Choose raw materials that you can see within range. You can fabricate a Large or smaller object (contained within a 10-foot cube, or eight connected 5-foot cubes), given a sufficient quantity of raw material. If you are working with metal, stone, or another mineral substance, however, the fabricated object can be no larger than Medium (contained within a single 5-foot cube). The quality of Objects made by the spell is commensurate with the quality of the raw materials.</p><p>Creatures or Magic Items can't be created or transmuted by this spell. You also can't use it to create items that ordinarily require a high degree of craftsmanship, such as jewelry, Weapons, glass, or armor, unless you have proficiency with the type of artisan's tools used to craft such Objects.</p>"
     },
     "Mending": {
-      "name": "Mending",
-      "description": "<p>This spell repairs a single break or tear in an object you touch, such as a broken chain link, two halves of a broken key, a torn cloak, or a leaking wineskin. As long as the break or tear is no larger than 1 foot in any dimension, you mend it, leaving no trace of the former damage.</p><p>This spell can physically repair a magic item or construct, but the spell can't restore magic to such an object.</p>"
+      "name": "修復術",
+      "description": "<p>此法術修復你所碰觸的一個物體上的一處破損或裂縫，像是斷掉的鏈環、斷成兩半的鑰匙、被撕裂的斗篷、漏水的酒袋等等。只要破損或裂縫的任一邊不超過1呎，你就能修復，不留下任何傷痕。</p><p>此法術可以物理性的修復魔法物品或構裝體，但無法將這些物體的魔法給回復。</p>"
     },
     "Sweet-tasting Human Canine": {
       "activities": {
@@ -659,23 +659,23 @@
       "description": "<p><em>Wondrous item, @UUID[Compendium.dnd-tashas-cauldron.tcoe-magic-items.Item.tcoeBarrierTatto]{Barrier Tattoo}, requires attunement</em></p><p>Produced by a special needle, this magic tattoo depicts protective imagery and uses ink that resembles liquid metal.</p><p><strong>Protection.</strong> While you aren’t wearing armor, the tattoo grants you an Armor Class of 18. You can use a shield and still gain this benefit.</p>"
     },
     "Arcane Grimoire +2": {
-      "name": "Arcane Grimoire +2",
+      "name": "奧法祕典+2",
       "effects": {
         "Arcane Grimoire": {
-          "name": "Arcane Grimoire"
+          "name": "奧法祕典"
         }
       },
-      "description": "<p><em>Wondrous item, requires attunement by a wizard</em></p><p>While you are holding this leather-bound book, you can use it as a spellcasting focus for your wizard spells, and you gain a bonus to spell attack rolls and to the saving throw DCs of your <strong>wizard spells</strong>. The bonus is determined by the book’s rarity.</p><p>You can use this book as a spellbook. In addition, when you use your @UUID[Compendium.dnd5e.classfeatures.Item.e0uTcFPpgxjIyUW9]{Arcane Recovery} feature, you can increase the number of spell slot levels you regain by 1.</p><p>[[1 + ceil(@classes.wizard.levels / 2)]]{Total spell slot levels recovered}</p>"
+      "description": "<p><em>奇物，需由法師同調</em></p><p>持握這本皮革封面的書籍期間，你可以將其作為你法師法術的施法法器，且你在<strong>法師法術</strong>的法術攻擊檢定與法術豁免DC上獲得加值。加值取決於該書的稀有度。</p><p>你可以將這本書作為法術書。此外，當你使用你的@UUID[Compendium.dnd5e.classfeatures.Item.e0uTcFPpgxjIyUW9]{奧術恢復}特性時，你所恢復的法術位環階總和增加1環。</p><p>[[1 + ceil(@classes.wizard.levels / 2)]]{所恢復的法術位環階總和}</p>"
     },
     "Rhythm-Maker's Drum +2": {
-      "description": "<p><em>Wondrous item, requires attunement by a bard</em></p><p>While holding this drum, you gain a bonus to spell attack rolls and to the saving throw DCs of your bard spells. The bonus is determined by the drum’s rarity.</p><p>As an action, you can play the drum to regain one use of your @UUID[Compendium.dnd5e.classfeatures.Item.hpLNiGq7y67d2EHA]{Bardic Inspiration} feature. This property of the drum can’t be used again until the next dawn.</p>",
+      "description": "<p><em>奇物，需由吟遊詩人同調</em></p><p>持握這面鼓期間，你在吟遊詩人法術的法術攻擊檢定與法術豁免DC上獲得加值。加值取決於該鼓的稀有度。</p><p>你可以採取一個動作演奏這面鼓，恢復一次你@UUID[Compendium.dnd5e.classfeatures.Item.hpLNiGq7y67d2EHA]{吟遊激勵}特性的使用次數。該鼓的這項屬性，直到下個黎明前，不能再次使用。</p>",
       "effects": {
         "Rhythm-Maker's Bard Bonuses": {
-          "name": "Rhythm-Maker's Bard Bonuses",
-          "description": "<p>You gain a +2 bonus to spell attack rolls and to the saving throw DCs of your bard spells.</p>"
+          "name": "調律者的吟遊詩人加值",
+          "description": "<p>你在吟遊詩人法術的法術攻擊檢定與法術豁免DC上獲得+2加值。</p>"
         }
       },
-      "name": "Rhythm-Maker's Drum +2"
+      "name": "調律者之鼓+2"
     },
     "Yellowed Vampire Fang": {
       "name": "Yellowed Vampire Fang",
@@ -684,11 +684,11 @@
     "All-Purpose Tool +2": {
       "effects": {
         "All-Purpose Tool": {
-          "name": "All-Purpose Tool"
+          "name": "萬能工具"
         }
       },
-      "description": "<p><em>Wondrous item, requires attunement by an artificer</em></p><p>This simple screwdriver can transform into a variety of tools; as an action, you can touch the item and transform it into any type of @UUID[Compendium.dnd5e.rules.JournalEntry.BYFd9hiJGo9L5aOM.JournalEntryPage.Rs0xLMFGbcCkEhuA#tools$1]{artisan’s tool} of your choice. Whatever form the tool takes, you are proficient with it.</p><p>While holding this tool, you gain a bonus to the spell attack rolls and the saving throw DCs of your <strong>artificer spells</strong>. The bonus is determined by the tool’s rarity.</p><p>As an action, you can focus on the tool to channel your creative forces. Choose a cantrip that you don’t know from any class list. For 8 hours, you can cast that cantrip, and it counts as an artificer cantrip for you. Once this property is used, it can’t be used again until the next dawn.</p>",
-      "name": "All-Purpose Tool +2"
+      "description": "<p><em>奇物，需由奇械師同調</em></p><p>這把簡易的螺絲起子可以轉換成多種工具：你可以採取一個動作觸摸該物品，將其轉變為由你選擇的任一種@UUID[Compendium.dnd5e.rules.JournalEntry.BYFd9hiJGo9L5aOM.JournalEntryPage.Rs0xLMFGbcCkEhuA#tools$1]{工匠工具}。無論其呈現何種形態，你都熟練使用該工具。</p><p>持握這件工具期間，你在<strong>奇械師法術</strong>的法術攻擊檢定與法術豁免DC上獲得加值。加值取決於該工具的稀有度。</p><p>你可以採取一個動作專注於該工具，引導你的創造力。從任一職業的法術列表中，選擇一道你不知道的戲法。在接下來的8小時內，你可以施放該戲法，且對你而言其視為奇械師戲法。此屬性使用後，直到下個黎明前，不能再次使用。</p>",
+      "name": "萬能工具+2"
     },
     "Crystalline Chronicle": {
       "description": "<p><em>Wondrous item, requires attunement by a wizard</em></p><p>An etched crystal sphere the size of a grapefruit hums faintly and pulses with irregular flares of inner light. While you are touching the crystal, you can retrieve and store information and spells within the crystal at the same rate as reading and writing. When found, the crystal contains the following spells: @UUID[Compendium.dnd5e.spells.Item.ppWAAEul0QHtm4er]{detect thoughts}, @UUID[Compendium.dnd-tashas-cauldron.tcoe-character-options.Item.tcoeIntellectFor]{intellect fortress},* @UUID[Compendium.dnd5e.spells.Item.uAwtVZkiSTyP6ORB]{Rary’s telepathic bond}, @UUID[Compendium.dnd5e.spells.Item.GtGjNjPBgUHxGYAD]{sending}, @UUID[Compendium.dnd5e.spells.Item.HQfd7jJyULIoGxrZ]{telekinesis}, @UUID[Compendium.dnd-tashas-cauldron.tcoe-character-options.Item.tcoeTashasMindWh]{Tasha’s mind whip},* and @UUID[Compendium.dnd5e.spells.Item.bnjXlk13ZRJuf5d0]{Tenser’s floating disk} (spells with an asterisk appear in this book). It functions as a spellbook for you, with its spells and other writing psychically encoded within it.</p><p>While you are holding the crystal, you can use it as a spellcasting focus for your wizard spells, and you know the @UUID[Compendium.dnd5e.spells.Item.Utk1OQRwYkMkFRD3]{mage hand}, @UUID[Compendium.dnd-tashas-cauldron.tcoe-character-options.Item.tcoeMindSliver00]{mind sliver} (appears in this book), and @UUID[Compendium.dnd5e.spells.Item.icZokbgV1jIMpNCv]{message} cantrips if you don’t already know them.</p><p>The crystal has 3 charges, and it regains 1d3 expended charges daily at dawn. You can use the charges in the following ways while holding it:</p><ul><li><p>If you spend 1 minute studying the information within the crystal, you can expend 1 charge to replace one of your prepared wizard spells with a different spell in the crystal.</p></li><li><p>When you cast a wizard spell, you can expend 1 charge to cast the spell without verbal, somatic, or material components of up to 100 gp value.</p></li></ul>",
@@ -713,16 +713,16 @@
       "name": "Plane Shift (3 charges)"
     },
     "Protective Verses": {
-      "name": "Protective Verses",
+      "name": "守禦詩篇",
       "activities": {
         "Study": {
-          "name": "Study"
+          "name": "研究"
         },
         "heal": {
-          "condition": "Action, 1 minute, or casting an abjuration spell"
+          "condition": "動作、1分鐘，或施放防護學派法術"
         }
       },
-      "description": "<p><em>Wondrous item, requires attunement by a wizard</em></p><p>This leather-bound spellbook is reinforced with iron and silver fittings and an iron lock (DC 20 to open). As an action, you can touch the book’s cover and cause it to lock as if you cast @UUID[Compendium.dnd5e.spells.Item.8cse7rit0oswRPUP]{arcane lock} on it. When found, the book contains the following spells: @UUID[Compendium.dnd5e.spells.Item.8cse7rit0oswRPUP]{arcane lock}, @UUID[Compendium.dnd5e.spells.Item.15Fa6q1nH27XfbR8]{dispel magic}, @UUID[Compendium.dnd5e.spells.Item.WmQpxfjZwF3MGUby]{globe of invulnerability}, @UUID[Compendium.dnd5e.spells.Item.pB7XVYwdGNcUG935]{glyph of warding}, @UUID[Compendium.dnd5e.spells.Item.NJgxf7pmSsBArIG7]{Mordenkainen’s private sanctum}, @UUID[Compendium.dnd5e.spells.Item.xmDBqZhRVrtLP8h2]{protection from evil and good}, and @UUID[Compendium.dnd5e.spells.Item.B2kbmgbA2WQR00kx]{symbol}. It functions as a spellbook for you.</p><p>While you are holding the book, you can use it as a spellcasting focus for your wizard spells.</p><p>The book has 3 charges, and it regains 1d3 expended charges daily at dawn. You can use the charges in the following ways while holding it:</p><ul><li><p>If you spend 1 minute studying the book, you can expend 1 charge to replace one of your prepared wizard spells with a different spell in the book. The new spell must be of the abjuration school.</p></li><li><p>When you cast an abjuration spell, you can expend 1 charge to grant a creature you can see within 30 feet of you [[/healing 2d10 type=temphp]]{2d10} temporary hit points.</p></li></ul>"
+      "description": "<p><em>奇物，需由法師同調</em></p><p>這本書由皮革裝訂，用鐵和銀加固，帶有鐵鎖（開鎖DC20）。你可以採取一個動作觸碰書的封面並將其上鎖，如同你施放了@UUID[Compendium.dnd5e.spells.Item.8cse7rit0oswRPUP]{祕法鎖}法術一般。這本書在被找到時，包含了下列法術：@UUID[Compendium.dnd5e.spells.Item.8cse7rit0oswRPUP]{祕法鎖}、@UUID[Compendium.dnd5e.spells.Item.15Fa6q1nH27XfbR8]{解除魔法}、@UUID[Compendium.dnd5e.spells.Item.WmQpxfjZwF3MGUby]{法術無效結界}、@UUID[Compendium.dnd5e.spells.Item.pB7XVYwdGNcUG935]{守衛銘文}、@UUID[Compendium.dnd5e.spells.Item.NJgxf7pmSsBArIG7]{魔鄧肯私人密室}、@UUID[Compendium.dnd5e.spells.Item.xmDBqZhRVrtLP8h2]{防護善惡}與@UUID[Compendium.dnd5e.spells.Item.B2kbmgbA2WQR00kx]{徽記術}。你可以將其作為法術書。</p><p>當你持握這本書時，你可以將其作為你法師法術的施法法器。</p><p>書具有3點充能，且每天黎明時恢復1d3點已消耗的充能。你持握該書時，可以透過下列方式消耗充能：</p><ul><li><p>若你花費1分鐘時間研究這本書，你可以消耗1點充能來將你的一道已準備法師法術替換為書中的另一道法術。新法術必須是防護學派的法術。</p></li><li><p>當你施放一道防護學派法術時，你可以消耗1點充能，給予位於你30呎內一名你所能看見的生物[[/healing 2d10 type=temphp]]{2d10}臨時生命值。</p></li></ul>"
     },
     "Bullets, Modern": {
       "name": "Bullets, Modern"
@@ -733,17 +733,17 @@
     "Reveler’s Concertina": {
       "effects": {
         "Reveler’s Bard Bonuses": {
-          "name": "Reveler’s Bard Bonuses",
-          "description": "<p>You gain a +2 bonus to the saving throw DC of your bard spells.</p>"
+          "name": "狂宴者的吟遊詩人加值",
+          "description": "<p>你在吟遊詩人法術的法術豁免DC上獲得+2加值。</p>"
         }
       },
       "activities": {
         "Otto's Irresistable Dance": {
-          "name": "Otto's Irresistable Dance"
+          "name": "奧圖狂舞術"
         }
       },
-      "name": "Reveler’s Concertina",
-      "description": "<p><em>Wondrous item, requires attunement by a bard</em></p><p>While holding this concertina, you gain a +2 bonus to the saving throw DC of your bard spells.</p><p>As an action, you can use the concertina to cast Otto’s irresistible dance (see below) from the item. This property of the concertina can’t be used again until the next dawn.</p><hr /><p>@Embed[Compendium.dnd5e.spells.Item.TfRzwEgBHHkCc6Ql classes=\"caption-top\" caption=false]</p>"
+      "name": "狂宴手風琴",
+      "description": "<p><em>奇物，需由吟遊詩人同調</em></p><p>持握這把手風琴期間，你在吟遊詩人法術的法術豁免DC上獲得+2加值。</p><p>你可以採取一個動作，使用這把手風琴從物品中施放奧圖狂舞術（見下方）。該手風琴的這項屬性，直到下個黎明前，不能再次使用。</p><hr /><p>@Embed[Compendium.dnd5e.spells.Item.TfRzwEgBHHkCc6Ql classes=\"caption-top\" caption=false]</p>"
     },
     "Luba's Tarokka of Souls": {
       "activities": {
@@ -767,17 +767,17 @@
     "Alchemical Compendium": {
       "activities": {
         "Study": {
-          "name": "Study"
+          "name": "研究"
         },
         "Expend Charge to Change Object": {
-          "name": "Expend Charge to Change Object"
+          "name": "消耗充能以變換物體"
         },
         "Expend Charge to Replace Spell": {
-          "name": "Expend Charge to Replace Spell"
+          "name": "消耗充能以替換法術"
         }
       },
-      "name": "Alchemical Compendium",
-      "description": "<p><em>Wondrous item, requires attunement by a wizard</em></p><p>Acrid odors cling to this stained, heavy volume. The book’s metal fittings are copper, iron, lead, silver, and gold, some frozen mid-transition from one metal to another. When found, the book contains the following spells: @UUID[Compendium.dnd5e.spells.Item.WahI41a3goVUg0x1]{enlarge/reduce}, @UUID[Compendium.dnd5e.spells.Item.pub0OWVEB71XQx1n]{feather fall}, @UUID[Compendium.dnd5e.spells.Item.kozNy29b0X6exFhY]{flesh to stone}, @UUID[Compendium.dnd5e.spells.Item.2IWiZAJtOGDoKjiz]{gaseous form}, @UUID[Compendium.dnd5e.spells.Item.Sgjrf8qqv97CCWM4]{magic weapon}, and @UUID[Compendium.dnd5e.spells.Item.04nMsTWkIFvkbXlY]{polymorph}. It functions as a spellbook for you.</p><p>While you are holding the book, you can use it as a spellcasting focus for your @UUID[Compendium.dnd5e.rules.JournalEntry.QvPDSUsAiEn3hD8s.JournalEntryPage.k7Rs5EyXeA0SFTXD]{wizard spells}.</p><p>The book has 3 charges, and it regains 1d3 expended charges daily at dawn. You can use the charges in the following ways while holding it:</p><ul><li><p>If you spend 1 minute studying the book, you can expend 1 charge to replace one of your prepared wizard spells with a different spell in the book. The new spell must be of the transmutation school.</p></li><li><p>As an action, you can touch a nonmagical object that isn’t being worn or carried and spend a number of charges to transform the target into another object. For 1 charge, the object can be no larger than 1 foot on a side. You can spend additional charges to increase the maximum dimensions by 2 feet per charge. The new object must have a gold value equal to or less than the original.</p></li></ul>"
+      "name": "鍊金總綱",
+      "description": "<p><em>奇物，需由法師同調</em></p><p>這本沾有汙漬、厚重的書卷上附著有辛辣的刺鼻氣息。這本書的金屬配件由銅、鐵、鉛、銀與金製成，其中有些凝固在由一種金屬轉變為另一種金屬的過程中。這本書在被找到時，包含了下列法術：@UUID[Compendium.dnd5e.spells.Item.WahI41a3goVUg0x1]{變巨/縮小術}、@UUID[Compendium.dnd5e.spells.Item.pub0OWVEB71XQx1n]{羽落術}、@UUID[Compendium.dnd5e.spells.Item.kozNy29b0X6exFhY]{石化術}、@UUID[Compendium.dnd5e.spells.Item.2IWiZAJtOGDoKjiz]{氣化形體}、@UUID[Compendium.dnd5e.spells.Item.Sgjrf8qqv97CCWM4]{魔化武器}與@UUID[Compendium.dnd5e.spells.Item.04nMsTWkIFvkbXlY]{變形術}。你可以將其作為法術書。</p><p>當你持握這本書時，你可以將其作為你@UUID[Compendium.dnd5e.rules.JournalEntry.QvPDSUsAiEn3hD8s.JournalEntryPage.k7Rs5EyXeA0SFTXD]{法師法術}的施法法器。</p><p>書具有3點充能，且每天黎明時恢復1d3點已消耗的充能。你持握該書時，可以透過下列方式消耗充能：</p><ul><li><p>若你花費1分鐘時間研究這本書，你可以消耗1點充能來將你的一道已準備法師法術替換為書中的另一道法術。新法術必須是變化學派的法術。</p></li><li><p>你可以採取一個動作，觸摸一件未被穿戴或攜帶的非魔法物體，並消耗一定數量的充能將其轉換為另一個物體。以1點充能變化時，該物體的邊長不能超過1呎。你可以使用更多的充能，每多1點充能，其上限尺寸增加2呎。新物體的金幣價值必須比原物體低或者相等。</p></li></ul>"
     },
     "Magic Circle (1 charge)": {
       "description": "<p>You create a 10-foot-radius, 20-foot-tall Cylinder of magical energy centered on a point on the ground that you can see within range. Glowing runes appear wherever the cylinder intersects with the floor or other surface.</p><p>Choose one or more of the following types of creatures: Celestials, Elementals, fey, Fiends, or Undead. The circle affects a creature of the chosen type in the following ways:</p><ul><li>The creature can't willingly enter the cylinder by nonmagical means. If the creature tries to use teleportation or interplanar travel to do so, it must first succeed on a Charisma saving throw.</li><li>The creature has disadvantage on Attack rolls against Targets within the Cylinder.</li><li>Targets within the cylinder can't be Charmed, Frightened, or possessed by the creature.</li></ul><p>When you cast this spell, you can elect to cause its magic to operate in the reverse direction, preventing a creature of the specified type from leaving the cylinder and protecting targets outside it.</p>",
@@ -798,11 +798,11 @@
     },
     "Move Earth": {
       "description": "<p>Choose an area of terrain no larger than 40 feet on a side within range. You can reshape dirt, sand, or clay in the area in any manner you choose for the Duration. You can raise or lower the area's elevation, create or fill in a trench, erect or flatten a wall, or form a pillar. The extent of any such changes can't exceed half the area's largest dimension. So, if you affect a 40-foot square, you can create a pillar up to 20 feet high, raise or lower the square's elevation by up to 20 feet, dig a trench up to 20 feet deep, and so on. It takes 10 minutes for these changes to complete.</p><p>At the end of every 10 minutes you spend concentrating on the spell, you can choose a new area of terrain to affect.</p><p>Because the terrain's transformation occurs slowly, creatures in the area can't usually be trapped or injured by the ground's Movement.</p><p>This spell can't manipulate natural stone or stone construction. Rocks and structures shift to accommodate the new terrain. If the way you shape the terrain would make a structure unstable, it might collapse.</p><p>Similarly, this spell doesn't directly affect Plant Growth. The moved earth carries any Plants along with it.</p>",
-      "name": "Move Earth"
+      "name": "地動術"
     },
     "Heart Weaver's Primer": {
-      "name": "Heart Weaver's Primer",
-      "description": "<p><em>Wondrous item, requires attunement by a wizard</em></p><p>This pristine book smells faintly of a random scent you find pleasing. When found, the book contains the following spells: @UUID[Compendium.dnd5e.spells.Item.GJ2WYm3SQFR0winH]{antipathy/sympathy}, @UUID[Compendium.dnd5e.spells.Item.eS7XnnApoxRxYXPs]{charm person}, @UUID[Compendium.dnd5e.spells.Item.91Sw6vOIaO7U8DvM]{dominate person}, @UUID[Compendium.dnd5e.spells.Item.30ZgXtijJVCxQk5N]{enthrall}, @UUID[Compendium.dnd5e.spells.Item.6g3WLOZ2u0EbaLAd]{hypnotic pattern}, @UUID[Compendium.dnd5e.spells.Item.r3243JU4AyQJyfX4]{modify memory}, and @UUID[Compendium.dnd5e.spells.Item.zMAWdyc8UVb37BK4]{suggestion}. It functions as a spellbook for you.</p><p>While you are holding the book, you can use it as a spellcasting focus for your wizard spells.</p><p>The book has 3 charges, and it regains 1d3 expended charges daily at dawn. You can use the charges in the following ways while holding it:</p><ul><li><p>If you spend 1 minute studying the book, you can expend 1 charge to replace one of your prepared wizard spells with a different spell in the book. The new spell must be of the enchantment school.</p></li><li><p>When you cast an enchantment spell, you can expend 1 charge to impose disadvantage on the first saving throw one target makes against the spell.</p></li></ul>"
+      "name": "織心入門",
+      "description": "<p><em>奇物，需由法師同調</em></p><p>這本書一塵不染，聞起來隱約有隨機一種你喜歡的氣味。這本書在被找到時，包含了下列法術：@UUID[Compendium.dnd5e.spells.Item.GJ2WYm3SQFR0winH]{嫌惡/共感術}、@UUID[Compendium.dnd5e.spells.Item.eS7XnnApoxRxYXPs]{魅惑人類}、@UUID[Compendium.dnd5e.spells.Item.91Sw6vOIaO7U8DvM]{支配人類}、@UUID[Compendium.dnd5e.spells.Item.30ZgXtijJVCxQk5N]{注目術}、@UUID[Compendium.dnd5e.spells.Item.6g3WLOZ2u0EbaLAd]{催眠圖紋}、@UUID[Compendium.dnd5e.spells.Item.r3243JU4AyQJyfX4]{修改記憶}與@UUID[Compendium.dnd5e.spells.Item.zMAWdyc8UVb37BK4]{暗示術}。你可以將其作為法術書。</p><p>當你持握這本書時，你可以將其作為你法師法術的施法法器。</p><p>這本書具有3點充能，且每天黎明時恢復1d3點已消耗的充能。你持握該書時，可以透過下列方式消耗充能：</p><ul><li><p>若你花費1分鐘時間研究這本書，你可以消耗1點充能來將你的一道已準備法師法術替換為書中的另一道法術。新法術必須是惑控學派的法術。</p></li><li><p>當你施放一道惑控學派法術時，你可以消耗1點充能讓其中一個目標在對抗該法術的第一個豁免檢定上具有劣勢。</p></li></ul>"
     },
     "Demonomicon Spells": {
       "description": "<p><strong>Spells.</strong> The book has 8 charges. While holding it, you can use an action to cast Tasha’s hideous laughter from it or to expend 1 or more of its charges to cast one of the following spells:</p><table><thead><tr><th>Spell</th><th>Charges Expended</th></tr></thead><tbody><tr><td><p>@UUID[Compendium.dnd5e.spells.Item.BQk5Row4NymMnUQl]{Tasha's hideous laughter}</p></td><td><p>0</p></td></tr><tr><td><p>@UUID[Compendium.dnd5e.spells.Item.y8A4HfTwd93ypdEz]{Magic Circle}</p></td><td><p>1</p></td></tr><tr><td><p>@UUID[Compendium.dnd5e.spells.Item.ej6wyY4G1gOcb1U6]{Magic Jar}</p></td><td><p>3</p></td></tr><tr><td><p>@UUID[Compendium.dnd5e.spells.Item.fkREcytuZ8sngWtC]{Planar Ally}</p></td><td><p>3</p></td></tr><tr><td><p>@UUID[Compendium.dnd5e.spells.Item.42O2aNBW7vK90gTL]{Planar Binding}</p></td><td>2</td></tr><tr><td><p>@UUID[Compendium.dnd5e.spells.Item.J6Jpw5XzB5aTeqnz]{Plane Shift} (to layers of the Abyss only)</p></td><td>3</td></tr><tr><td><p>@UUID[Compendium.dnd-tashas-cauldron.tcoe-character-options.Item.tcoeSummonFiend0]{Summon Fiend}</p></td><td>3</td></tr></tbody></table><p>It regains 1d8 expended charges daily at dawn.</p><section class=\"secret\" id=\"secret-QdEHSPtbB37USkzh\"><p><strong>Foundry Note</strong></p><p>This supplemental item is intended for use with the @UUID[Compendium.dnd-tashas-cauldron.tcoe-magic-items.Item.tcoeDemonomiconO] and represents the spells available to cast while holding it. The contained spells are preconfigured to expend charges from the book.</p></section>",
@@ -818,27 +818,27 @@
       "name": "Golden Goblin Bicuspid"
     },
     "Far Realm Shard": {
-      "name": "Far Realm Shard",
+      "name": "遙遠國度碎晶",
       "effects": {
         "Frightened": {
-          "description": "<ul><li>A frightened creature has disadvantage on ability checks and attack rolls while the source of its fear is within line of sight.</li><li>The creature can’t willingly move closer to the source of its fear.</li></ul>",
-          "name": "Frightened"
+          "description": "<ul><li>恐慌的生物在其恐懼源位於其視線範圍內時，進行屬性檢定與攻擊檢定具有劣勢。</li><li>該生物無法自願靠近其恐懼源。</li></ul>",
+          "name": "恐慌"
         }
       },
       "activities": {
         "save": {
-          "condition": "When you use a Metamagic option on a spell"
+          "condition": "當你對一道法術使用超魔法選項時"
         }
       },
-      "description": "<p><em>Wondrous item, requires attunement by a sorcerer</em></p><p>This writhing crystal is steeped in the warped essence of the Far Realm. As an action, you can attach the shard to a Tiny object (such as a weapon or a piece of jewelry) or detach it. It falls off if your attunement to it ends. You can use the shard as a spellcasting focus while you hold or wear it.</p><p>When you use a Metamagic option on a spell while you are holding or wearing the shard, you can cause a slimy tentacle to rip through the fabric of reality and strike one creature you can see within 30 feet of you. The creature must succeed on a [[/save ability=cha]] saving throw against your spell save DC or take [[/damage 3d6 type=psychic]] damage and become frightened of you until the start of your next turn.</p>"
+      "description": "<p><em>奇物，需由術士同調</em></p><p>這塊蠕動的水晶浸染著遙遠國度的扭曲精粹。你可以採取一個動作，將碎晶附著於一件微型物體（如武器或珠寶）上，或將其取下。若你與碎晶的同調結束，其會掉落。你持握或穿戴碎晶期間，可以將其作為施法法器。</p><p>當你持握或穿戴碎晶期間，對一道法術使用超魔法選項時，你可以召喚一條黏滑的觸手撕裂現實的織理，打擊位於你30呎內一名你所能看見的生物。該生物必須對抗你的法術豁免DC，成功通過一次[[/save ability=cha]]豁免，否則承受[[/damage 3d6 type=psychic]]傷害，並對你陷入恐慌狀態，直到你的下個回合開始。</p>"
     },
     "Detect Poison and Disease": {
       "description": "<p>For the duration, you can sense the presence and location of poisons, poisonous creatures, and diseases within 30 feet of you. You also identify the kind of poison, poisonous creature, or disease in each case.</p><p>The spell can penetrate most barriers, but it is blocked by 1 foot of stone, 1 inch of common metal, a thin sheet of lead, or 3 feet of wood or dirt.</p>",
       "name": "Detect Poison and Disease"
     },
     "Outer Essence Shard": {
-      "description": "<p><em>Wondrous item, requires attunement by a sorcerer</em></p><p>This flickering crystal holds the essence of an Outer Plane. As an action, you can attach the shard to a Tiny object (such as a weapon or a piece of jewelry) or detach it. It falls off if your attunement to it ends. You can use the shard as a spellcasting focus while you hold or wear it.</p><p>Roll a [[/r 1d4]] and consult the Outer Essence Shards table to determine the shard’s essence and property. When you use a Metamagic option on a spell while you are holding or wearing the shard, you can use that property.</p><p>@Embed[Compendium.dnd-tashas-cauldron.tcoe-tables.RollTable.tcoeOuterPlaneEs caption=false]</p>",
-      "name": "Outer Essence Shard"
+      "description": "<p><em>奇物，需由術士同調</em></p><p>這塊閃爍的水晶蘊含著一個外層位面的精粹。你可以採取一個動作，將碎晶附著於一件微型物體（如武器或珠寶）上，或將其取下。若你與碎晶的同調結束，其會掉落。你持握或穿戴碎晶期間，可以將其作為施法法器。</p><p>擲[[/r 1d4]]，並根據外界精粹碎晶表決定碎晶的精粹類型與屬性。當你持握或穿戴碎晶期間，對一道法術使用超魔法選項時，你可以使用該屬性。</p><p>@Embed[Compendium.dnd-tashas-cauldron.tcoe-tables.RollTable.tcoeOuterPlaneEs caption=false]</p>",
+      "name": "外界精粹碎晶"
     },
     "Teeth of Dahlver-Nar": {
       "name": "Teeth of Dahlver-Nar",
@@ -864,8 +864,8 @@
       }
     },
     "Elemental Essence Shard": {
-      "name": "Elemental Essence Shard",
-      "description": "<p><em>Wondrous Item, requires attunement by a sorcerer</em></p><p>This crackling crystal contains the essence of an elemental plane. As an action, you can attach the shard to a Tiny object (such as a weapon or a piece of jewelry) or detach it. It falls off if your attunement to it ends. You can use the shard as a spellcasting focus while you hold or wear it.</p><p>Roll a d4 and consult the Elemental Essence Shards table to determine the shard’s essence and property. When you use a Metamagic option on a spell while you are holding or wearing the shard, you can use that property.</p><p>@Embed[Compendium.dnd-tashas-cauldron.tcoe-tables.RollTable.tcoeElementalEss caption=false]</p>"
+      "name": "元素精粹碎晶",
+      "description": "<p><em>奇物，需由術士同調</em></p><p>這塊劈啪作響的水晶蘊含著一個元素位面的精粹。你可以採取一個動作，將碎晶附著於一件微型物體（如武器或珠寶）上，或將其取下。若你與碎晶的同調結束，其會掉落。你持握或穿戴碎晶期間，可以將其作為施法法器。</p><p>擲1d4，並根據元素精粹碎晶表決定碎晶的精粹類型與屬性。當你持握或穿戴碎晶期間，對一道法術使用超魔法選項時，你可以使用該屬性。</p><p>@Embed[Compendium.dnd-tashas-cauldron.tcoe-tables.RollTable.tcoeElementalEss caption=false]</p>"
     },
     "Ivory Cat Molar": {
       "name": "Ivory Cat Molar",
@@ -874,15 +874,15 @@
     "Fulminating Treatise": {
       "effects": {
         "Prone": {
-          "name": "Prone",
-          "description": "<ul><li>A prone creature's only movement option is to crawl, unless it stands up and thereby ends the condition.</li><li>The creature has disadvantage on attack rolls.</li><li>An attack roll against the creature has advantage if the attacker is within 5 feet of the creature. Otherwise, the attack roll has disadvantage.</li></ul>"
+          "name": "伏地",
+          "description": "<ul><li>伏地生物唯一的移動選項是爬行，除非其起身並因此結束該狀態。</li><li>該生物進行攻擊檢定具有劣勢。</li><li>若攻擊者位於該生物5呎內，則對該生物的攻擊檢定具有優勢；否則該攻擊檢定具有劣勢。</li></ul>"
         }
       },
-      "description": "<p><em>Wondrous item, requires attunement by a wizard</em></p><p>This thick, scorched spellbook reeks of smoke and ozone, and sparks of energy crackles along the edges of its pages. When found, the book contains the following spells: @UUID[Compendium.dnd5e.spells.Item.4smlOvpF5AQHcyg1]{contingency}, @UUID[Compendium.dnd5e.spells.Item.ztgcdrWPshKRpFd0]{fireball}, @UUID[Compendium.dnd5e.spells.Item.FSMy6VAjDnXY9vWz]{gust of wind}, @UUID[Compendium.dnd5e.spells.Item.NXWWWgHtWb7Nv21F]{Leomund’s tiny hut}, @UUID[Compendium.dnd5e.spells.Item.41JIhpDyM9Anm7cs]{magic missile}, @UUID[Compendium.dnd5e.spells.Item.WTbOQBsarsL1LuXJ]{thunderwave}, and @UUID[Compendium.dnd5e.spells.Item.o9ZCvuD2B1OTcubb]{wall of force}. It functions as a spellbook for you.</p><p>While you are holding the book, you can use it as a spellcasting focus for your wizard spells.</p><p>The book has 3 charges, and it regains 1d3 expended charges daily at dawn. You can use the charges in the following ways while holding it:</p><ul><li><p>If you spend 1 minute studying the book, you can expend 1 charge to replace one of your prepared wizard spells with a different spell in the book. The new spell must be of the evocation school.</p></li><li><p>When one creature you can see takes damage from an evocation spell you cast, you can use your reaction and expend 1 charge to deal an extra 2d6 force damage to the creature and knock the creature prone if it is Large or smaller.</p></li></ul>",
-      "name": "Fulminating Treatise",
+      "description": "<p><em>奇物，需由法師同調</em></p><p>這本被燒焦的厚實法術書散發著煙霧和臭氧的氣味，書頁的邊緣閃爍著能量的火花。這本書在被找到時，包含了下列法術：@UUID[Compendium.dnd5e.spells.Item.4smlOvpF5AQHcyg1]{觸發術}、@UUID[Compendium.dnd5e.spells.Item.ztgcdrWPshKRpFd0]{火球術}、@UUID[Compendium.dnd5e.spells.Item.FSMy6VAjDnXY9vWz]{造風術}、@UUID[Compendium.dnd5e.spells.Item.NXWWWgHtWb7Nv21F]{李歐蒙小屋}、@UUID[Compendium.dnd5e.spells.Item.41JIhpDyM9Anm7cs]{魔法飛彈}、@UUID[Compendium.dnd5e.spells.Item.WTbOQBsarsL1LuXJ]{雷鳴波}與@UUID[Compendium.dnd5e.spells.Item.o9ZCvuD2B1OTcubb]{力場牆}。你可以將其作為法術書。</p><p>當你持握這本書時，你可以將其作為你法師法術的施法法器。</p><p>書具有3點充能，且每天黎明時恢復1d3點已消耗的充能。你持握該書時，可以透過下列方式消耗充能：</p><ul><li><p>若你花費1分鐘時間研究這本書，你可以消耗1點充能來將你的一道已準備法師法術替換為書中的另一道法術。新法術必須是塑能學派的法術。</p></li><li><p>當一名你所能看見的生物承受你所施放的塑能學派法術的傷害時，你可以採取反應並消耗1點充能對該生物造成一次額外的2d6力場傷害，若該生物為大型或更小，還會使其伏地。</p></li></ul>",
+      "name": "爆鳴專論",
       "activities": {
         "damage": {
-          "condition": "Visible creature takes damage from your evocation spell"
+          "condition": "一名你所能看見的生物承受你的塑能學派法術的傷害"
         }
       }
     },
@@ -898,17 +898,17 @@
       "description": "<p>For the duration, you sense the presence of magic within 30 feet of you. If you sense magic in this way, you can use your action to see a faint aura around any visible creature or object in the area that bears magic, and you learn its school of magic, if any.</p><p>The spell can penetrate most barriers, but it is blocked by 1 foot of stone, 1 inch of common metal, a thin sheet of lead, or 3 feet of wood or dirt.</p>"
     },
     "Amulet of the Devout +1": {
-      "description": "<p><em>Wondrous item, requires attunement by a cleric or paladin</em></p><p>This amulet bears the symbol of a deity inlaid with precious stones or metals. While you wear the holy symbol, you gain a bonus to spell attack rolls and the saving throw DCs of your spells. The bonus is determined by the amulet’s rarity.</p><p>While you wear this amulet, you can use your <strong>Channel Divinity</strong> feature without expending one of the feature’s uses. Once this property is used, it can’t be used again until the next dawn.</p><p><strong>Spellcasting Focus</strong>. A cleric or paladin can use a holy symbol as a spellcasting focus. To use the symbol in this way, the caster must hold it in hand, wear it visibly, or bear it on a shield.</p>",
-      "name": "Amulet of the Devout +1",
+      "description": "<p><em>奇物，需由牧師或聖騎士同調</em></p><p>這枚護符載有一位神祇的聖徽，以珍貴的寶石或金屬鑲嵌而成。穿戴該聖徽期間，你在你法術的法術攻擊檢定與法術豁免DC上獲得加值。加值取決於該護符的稀有度。</p><p>穿戴這枚護符期間，你可以使用你的<strong>引導神力</strong>特性，而無需消耗該特性的一次使用次數。此屬性使用後，直到下個黎明前，不能再次使用。</p><p><strong>【施法法器】</strong>牧師或聖騎士可以使用聖徽作為施法法器。要以這種方式使用該聖徽，施法者必須將其持握在手中、明顯穿戴，或將其刻印於盾牌上。</p>",
+      "name": "虔信護符+1",
       "effects": {
         "Amulet of the Devout": {
-          "name": "Amulet of the Devout"
+          "name": "虔信護符"
         }
       }
     },
     "Lyre Spells": {
-      "name": "Lyre Spells",
-      "description": "<p>While holding this lyre, you can cast @UUID[Compendium.dnd5e.spells.Item.kjmjY0zlE6IEiQVL]{mending} as an action.</p><p>In addition, you can play the lyre as an action to cast @UUID[Compendium.dnd5e.spells.Item.7Fw7Bf1k3xxDVr5L]{fabricate}, @UUID[Compendium.dnd5e.spells.Item.yI0XWIgI0IGGsR3R]{move earth}, @UUID[Compendium.dnd5e.spells.Item.d9MwcXi7Il3HROXd]{passwall}, or @UUID[Compendium.dnd-tashas-cauldron.tcoe-character-options.Item.tcoeSummonConstr]{summon construct}, and that spell can’t be cast from it again until the next dawn.</p><section class=\"secret\" id=\"secret-UBK0IH4tsIE3xHTl\"><p><strong>Foundry Note</strong></p><p>This supplemental item is intended for use with the @UUID[Compendium.dnd-tashas-cauldron.tcoe-magic-items.Item.tcoeLyreOfBuildi] and represents the spells available to cast while holding it. The contained spells are preconfigured for one use per day, if required.</p></section>"
+      "name": "里拉琴法術",
+      "description": "<p>當持握這把里拉琴時，你可以採取一個動作施放@UUID[Compendium.dnd5e.spells.Item.kjmjY0zlE6IEiQVL]{修復術}。</p><p>此外，你可以採取一個動作彈奏這把里拉琴，施放@UUID[Compendium.dnd5e.spells.Item.7Fw7Bf1k3xxDVr5L]{鬼斧神工}、@UUID[Compendium.dnd5e.spells.Item.yI0XWIgI0IGGsR3R]{地動術}、@UUID[Compendium.dnd5e.spells.Item.d9MwcXi7Il3HROXd]{穿牆術}或@UUID[Compendium.dnd-tashas-cauldron.tcoe-character-options.Item.tcoeSummonConstr]{構裝體召喚術}，直到下個黎明前，該法術不能再以此法施放。</p><section class=\"secret\" id=\"secret-UBK0IH4tsIE3xHTl\"><p><strong>Foundry 註記</strong></p><p>此補充物品用於搭配@UUID[Compendium.dnd-tashas-cauldron.tcoe-magic-items.Item.tcoeLyreOfBuildi]{建築里拉琴}，代表持握該里拉琴期間可施放的法術。若有需要，所含法術已預先設定為每日一次使用。</p></section>"
     },
     "Blue Dragon Fang": {
       "name": "Blue Dragon Fang",
@@ -940,11 +940,11 @@
       }
     },
     "Lyre of Building": {
-      "name": "Lyre of Building",
-      "description": "<p><em>Wondrous item, requires attunement by a bard</em></p><p>While holding this lyre, you can cast @UUID[Compendium.dnd5e.spells.Item.kjmjY0zlE6IEiQVL]{mending} as an action.</p><p>In addition, you can play the lyre as an action to cast @UUID[Compendium.dnd5e.spells.Item.7Fw7Bf1k3xxDVr5L]{fabricate}, @UUID[Compendium.dnd5e.spells.Item.yI0XWIgI0IGGsR3R]{move earth}, @UUID[Compendium.dnd5e.spells.Item.d9MwcXi7Il3HROXd]{passwall}, or @UUID[Compendium.dnd-tashas-cauldron.tcoe-character-options.Item.tcoeSummonConstr]{summon construct}, and that spell can’t be cast from it again until the next dawn.</p><p>You can also play the lyre as a reaction when an object or a structure you can see within 300 feet of you takes damage, causing it to be immune to that damage and any further damage of the same type until the start of your next turn.</p>",
+      "name": "建築里拉琴",
+      "description": "<p><em>奇物，需由吟遊詩人同調</em></p><p>當持握這把里拉琴時，你可以採取一個動作施放@UUID[Compendium.dnd5e.spells.Item.kjmjY0zlE6IEiQVL]{修復術}。</p><p>此外，你可以採取一個動作彈奏這把里拉琴，施放@UUID[Compendium.dnd5e.spells.Item.7Fw7Bf1k3xxDVr5L]{鬼斧神工}、@UUID[Compendium.dnd5e.spells.Item.yI0XWIgI0IGGsR3R]{地動術}、@UUID[Compendium.dnd5e.spells.Item.d9MwcXi7Il3HROXd]{穿牆術}或@UUID[Compendium.dnd-tashas-cauldron.tcoe-character-options.Item.tcoeSummonConstr]{構裝體召喚術}，直到下個黎明前，該法術不能再以此法施放。</p><p>當一個位於你300呎內你所能看見的物體或建築承受傷害時，你也可以採取反應彈奏這把里拉琴，使其免疫該次傷害以及後續同類型的傷害，直到你的下個回合開始。</p>",
       "activities": {
         "utility": {
-          "condition": "When an object within range takes damage"
+          "condition": "當範圍內的物體承受傷害時"
         }
       }
     },
@@ -955,18 +955,18 @@
       "activities": {
         "utility": {
           "chatFlavor": "[[/check ability=dex skill=ste]]",
-          "condition": "If lightly obscured"
+          "condition": "若處於輕度遮蔽"
         }
       },
-      "description": "<p><em>Wondrous item, requires attunement by a druid or ranger</em></p><p>This cloak shifts color and texture to blend with the terrain surrounding you. While wearing the cloak, you can use it as a spellcasting focus for your druid and ranger spells.</p><p>While you are in an area that is &amp;Reference[lightlyobscured], you can &amp;Reference[hide] as a bonus action even if you are being directly observed.</p>",
-      "name": "Nature's Mantle"
+      "description": "<p><em>奇物，需由德魯伊或遊俠同調</em></p><p>這件斗篷會隨你周圍的地形改變顏色與質地，與之融為一體。穿戴這件斗篷期間，你可以將其作為你的德魯伊與遊俠法術的施法法器。</p><p>當你身處&amp;Reference[lightlyobscured]{輕度遮蔽}的區域時，即使你正被直接觀察，你也可以採取附贈動作進行&amp;Reference[hide]{躲藏}動作。</p>",
+      "name": "自然斗篷"
     },
     "Arcane Grimoire +3": {
-      "description": "<p><em>Wondrous item, requires attunement by a wizard</em></p><p>While you are holding this leather-bound book, you can use it as a spellcasting focus for your wizard spells, and you gain a bonus to spell attack rolls and to the saving throw DCs of your <strong>wizard spells</strong>. The bonus is determined by the book’s rarity.</p><p>You can use this book as a spellbook. In addition, when you use your @UUID[Compendium.dnd5e.classfeatures.Item.e0uTcFPpgxjIyUW9]{Arcane Recovery} feature, you can increase the number of spell slot levels you regain by 1.</p><p>[[1 + ceil(@classes.wizard.levels / 2)]]{Total spell slot levels recovered}</p>",
-      "name": "Arcane Grimoire +3",
+      "description": "<p><em>奇物，需由法師同調</em></p><p>持握這本皮革封面的書籍期間，你可以將其作為你法師法術的施法法器，且你在<strong>法師法術</strong>的法術攻擊檢定與法術豁免DC上獲得加值。加值取決於該書的稀有度。</p><p>你可以將這本書作為法術書。此外，當你使用你的@UUID[Compendium.dnd5e.classfeatures.Item.e0uTcFPpgxjIyUW9]{奧術恢復}特性時，你所恢復的法術位環階總和增加1環。</p><p>[[1 + ceil(@classes.wizard.levels / 2)]]{所恢復的法術位環階總和}</p>",
+      "name": "奧法祕典+3",
       "effects": {
         "Arcane Grimoire": {
-          "name": "Arcane Grimoire"
+          "name": "奧法祕典"
         }
       }
     },
@@ -995,14 +995,14 @@
       "name": "Good Essence Shard"
     },
     "Bell Branch": {
-      "name": "Bell Branch",
+      "name": "鐘鈴聖枝",
       "activities": {
         "Detect Presence": {
-          "target": "Aberrations, celestials, constructs, elementals, fey, fiends, or undead",
-          "name": "Detect Presence"
+          "target": "異怪、天界、構裝體、元素、精類、邪魔或不死生物",
+          "name": "偵測存在"
         }
       },
-      "description": "<p><em>Wondrous item, requires attunement by a druid or warlock</em></p><p>This silver implement is shaped like a tree branch and is strung with small golden bells. The branch is a spellcasting focus for your spells while you hold it.</p><p>The branch has 3 charges, and it regains 1d3 expended charges daily at dawn. You can use the charges in the following ways while holding it:</p><ul><li><p>As a bonus action, you can expend 1 charge to detect the presence of aberrations, celestials, constructs, elementals, fey, fiends, or undead within 60 feet of you. If such creatures are present and don’t have total cover from you, the bells ring softly, their tone indicating the creature types present.</p></li><li><p>As an action, you can expend 1 charge to cast @UUID[Compendium.dnd5e.spells.Item.xmDBqZhRVrtLP8h2]{protection from evil and good}.</p></li></ul>"
+      "description": "<p><em>奇物，需由德魯伊或契術師同調</em></p><p>這個銀色的器具看起來就像一根樹枝，上面正掛著許多金色的小鈴鐺。你持握著該樹枝時可以將其作為施法法器。</p><p>樹枝具有3點充能，且每天黎明時恢復1d3點已消耗的充能。你持握該樹枝時，可以透過下列方式消耗充能：</p><ul><li><p>你可以採取一個附贈動作並消耗1點充能以偵測距離你60呎內的異怪、天界、構裝體、元素、精類、邪魔或不死生物。若這些生物存在在60呎內且對你沒有處於全掩蔽，那麼金鈴便會輕聲作響，其音調揭示了所存在生物的種類。</p></li><li><p>你可以採取一個動作並消耗1點充能，施放@UUID[Compendium.dnd5e.spells.Item.xmDBqZhRVrtLP8h2]{防護善惡}法術。</p></li></ul>"
     },
     "Red Absorbing Tattoo": {
       "name": "Red Absorbing Tattoo",
@@ -1043,8 +1043,8 @@
       "name": "Revolver"
     },
     "Astral Shard": {
-      "description": "<p><em>Wondrous item, requires attunement by a sorcerer</em></p><p>This crystal is a solidified shard of the Astral Plane, swirling with silver mist. As an action, you can attach the shard to a Tiny object (such as a weapon or a piece of jewelry) or detach it. It falls off if your attunement to it ends. You can use the shard as a spellcasting focus while you hold or wear it.</p><p>When you use a @UUID[Compendium.dnd5e.classfeatures.Item.9Uh7uTDNZ04oTJsL]{Metamagic} option on a spell while you are holding or wearing the shard, immediately after casting the spell you can teleport to an unoccupied space you can see within 30 feet of you.</p>",
-      "name": "Astral Shard"
+      "description": "<p><em>奇物，需由術士同調</em></p><p>這塊水晶是星界位面凝固而成的碎晶，銀色的霧氣在其中盤旋。你可以採取一個動作，將碎晶附著於一件微型物體（如武器或珠寶）上，或將其取下。若你與碎晶的同調結束，其會掉落。你持握或穿戴碎晶期間，可以將其作為施法法器。</p><p>當你持握或穿戴碎晶期間，對一道法術使用@UUID[Compendium.dnd5e.classfeatures.Item.9Uh7uTDNZ04oTJsL]{超魔法}選項時，你可以緊接在施放該法術後，傳送到位於你30呎內一處你所能看見的未佔據空間。</p>",
+      "name": "星界碎晶"
     },
     "Detect Evil and Good": {
       "name": "Detect Evil and Good",
@@ -1064,7 +1064,7 @@
     },
     "Passwall": {
       "description": "<p>A passage appears at a point of your choice that you can see on a wooden, plaster, or stone surface (such as a wall, a ceiling, or a floor) within range, and lasts for the duration. You choose the opening's dimensions: up to 5 feet wide, 8 feet tall, and 20 feet deep. The passage creates no instability in a structure surrounding it.</p><p>When the opening disappears, any creatures or objects still in the passage created by the spell are safely ejected to an unoccupied space nearest to the surface on which you cast the spell.</p>",
-      "name": "Passwall"
+      "name": "穿牆術"
     },
     "Crook of Rao Spells": {
       "name": "Crook of Rao Spells",
@@ -1099,24 +1099,24 @@
       "name": "Musket"
     },
     "Devotee's Censer": {
-      "description": "<p><em>Weapon (flail), requires attunement by a cleric or paladin</em></p><p>The rounded head of this flail is perforated with tiny holes, arranged in symbols and patterns. The flail counts as a holy symbol for you. When you hit with an attack using this magic flail, the target takes an extra 1d8 radiant damage.</p><p>As a bonus action, you can speak the command word to cause the flail to emanate a thin cloud of incense out to 10 feet for 1 minute. At the start of each of your turns, you and any other creatures in the incense each regain [[/healing 1d4]]{1d4 hit points}. This property can’t be used again until the next dawn.</p>",
+      "description": "<p><em>武器（鏈枷），需由牧師或聖騎士同調</em></p><p>這把鏈枷的圓形頭部開有一些小孔，成徽記或圖紋狀排列。你可以將這把鏈枷視為聖徽。當你使用這把魔法鏈枷以一次攻擊命中時，目標承受額外1d8光耀傷害。</p><p>你可以採取一個附贈動作說出命令詞並使鏈枷散發出半徑10呎的稀薄薰香雲，持續1分鐘。在你的每個回合開始時，你和其他在薰香中的生物恢復[[/healing 1d4]]{1d4點生命值}。直到下個黎明前，此屬性都不能再使用。</p>",
       "activities": {
         "attack": {
-          "chatFlavor": "[[/healing 1d4]]{Incense healing}"
+          "chatFlavor": "[[/healing 1d4]]{薰香治療}"
         }
       },
-      "name": "Devotee's Censer"
+      "name": "奉獻香爐"
     },
     "Broken Translucent Fang": {
       "name": "Broken Translucent Fang",
       "description": "<table style=\"text-align:center\"><thead><tr><th>Tale</th><th>Creatures Summoned</th></tr></thead><tbody><tr><td>The Claws of Dragotha</td><td>1 @UUID[Compendium.dnd-tashas-cauldron.tcoe-actors.Actor.tcoeAdultRedDrac]{adult red dracolich}</td></tr></tbody></table><p><strong>Implanted Effect.</strong> You can use the tooth to cast the @UUID[Compendium.dnd5e.spells.Item.E4NXux0RHvME1XgP]{create undead} spell. Once this property is used, it can’t be used again until the next dawn.</p><p>Each time you create an undead creature using the tooth, a @UUID[Compendium.dnd5e.monsters.Actor.nU8GN8La8DCt8SDb]{skeleton}, @UUID[Compendium.dnd5e.monsters.Actor.NAISFPoNNgUCsEyW]{zombie}, or @UUID[Compendium.dnd5e.monsters.Actor.OBujQLLPSmlJiZnL]{ghoul} also appears at a random location within 5 miles of you, searching for the living to kill. A humanoid killed by these undead rises as the same type of undead at the next midnight.</p>"
     },
     "Feywild Shard": {
-      "description": "<p><em>Wondrous item, requires attunement by a sorcerer</em></p><p>This warm crystal glints with the sunset colors of the Feywild sky and evokes whispers of emotional memory. As an action, you can attach the shard to a Tiny object (such as a weapon or a piece of jewelry) or detach it. It falls off if your attunement to it ends. You can use the shard as a spellcasting focus while you hold or wear it.</p><p>When you use a Metamagic option on a spell while you are holding or wearing the shard, you can roll on the @UUID[Compendium.dnd-tashas-cauldron.tcoe-tables.RollTable.tcoeWildMagicSur]{Wild Magic Surge} table in the Player’s Handbook. If the result is a spell, it is too wild to be affected by your Metamagic, and if it normally requires concentration, it doesn’t require concentration in this case; the spell lasts for its full duration.</p><p>If you don’t have the <strong>Wild Magic Sorcerous Origin</strong>, once this property is used to roll on the Wild Magic Surge table, it can’t be used again until the next dawn.</p>",
-      "name": "Feywild Shard",
+      "description": "<p><em>奇物，需由術士同調</em></p><p>這塊溫暖的水晶閃爍著妖精荒野天空的暮色，並帶有喚起情感記憶的低語。你可以採取一個動作，將碎晶附著於一件微型物體（如武器或珠寶）上，或將其取下。若你與碎晶的同調結束，其會掉落。你持握或穿戴碎晶期間，可以將其作為施法法器。</p><p>當你持握或穿戴碎晶期間，對一道法術使用超魔法選項時，你可以在《玩家手冊》的@UUID[Compendium.dnd-tashas-cauldron.tcoe-tables.RollTable.tcoeWildMagicSur]{狂野魔法浪湧}表上擲骰一次。若結果是一道法術，則該法術過於狂野，不會受到你的超魔法影響；若其通常需要專注，則此時無需專注；該法術持續其完整的持續時間。</p><p>若你沒有<strong>狂野術法</strong>，則此屬性一經用來在狂野魔法浪湧表上擲骰，直到下個黎明前，就不能再次使用。</p>",
+      "name": "妖精荒野碎晶",
       "activities": {
         "utility": {
-          "condition": "When you use a Metamagic option on a spell"
+          "condition": "當你對一道法術使用超魔法選項時"
         }
       }
     },
