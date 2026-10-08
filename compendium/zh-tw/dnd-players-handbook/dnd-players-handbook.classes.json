@@ -90,7 +90,7 @@
     },
     "Animal Speaker": {
       "name": "動物語者",
-      "description": "<p>You can cast the @UUID[Compendium.dnd-players-handbook.spells.Item.phbsplBeastSense]{Beast Sense} and @UUID[Compendium.dnd-players-handbook.spells.Item.phbsplSpeakwithA]{Speak with Animals} spells but only as Rituals. Wisdom is your spellcasting ability for them.</p><section class=\"secret\" id=\"secret-BXxC4W21QpMgqgeQ\"><p><strong>Foundry Note</strong></p><p>When you advance to level 3 these spells are added to your Spells tab as Rituals using your Wisdom modifier.</p></section>"
+      "description": "<p>你可以施放法術@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplBeastSense]{野獸知覺}與@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplSpeakwithA]{動物交談術}，但僅限以儀式施放。感知是你施放這些法術的施法屬性。</p><section class=\"secret\" id=\"secret-BXxC4W21QpMgqgeQ\"><p><strong>【Foundry註記】</strong></p><p>當你提升至3級時，這些法術會加入你的法術分頁，設為儀式，並使用你的感知調整值。</p></section>"
     },
     "Aquatic Affinity": {
       "name": "水生親和",
@@ -206,7 +206,7 @@
     },
     "Aspect of the Wilds": {
       "name": "荒野之形",
-      "description": "<p>你獲得下列一個你所選擇的選項。每當完成一次長休後，你可以更改你的選擇。</p><p><strong>【梟】</strong> 你擁有60呎You have Darkvision with a range of 60 feet. If you already have Darkvision, its range increases by 60 feet.</p><p><strong>【豹】</strong>You have a Climb Speed equal to your Speed.</p><p><strong>【鮭】</strong> You have a Swim Speed equal to your Speed.</p><section class=\"secret\" id=\"secret-CKbkC1Dm8i7Nz9TV\"><p><strong>Foundry Note</strong></p><p>This feature includes an activity with an Active Effect which automates the Darkvision changes from the <strong>Owl</strong> option. The Speed changes are not automatically applied.</p></section>",
+      "description": "<p>你獲得下列一個你所選擇的選項。每當完成一次長休後，你可以更改你的選擇。</p><p><strong>【梟】</strong>你具有範圍60呎黑暗視覺。若你已經具有黑暗視覺，則其範圍增加60呎。</p><p><strong>【豹】</strong>你具有等同於你速度的攀爬速度。</p><p><strong>【鮭】</strong>你具有等同於你速度的游泳速度。</p><section class=\"secret\" id=\"secret-CKbkC1Dm8i7Nz9TV\"><p><strong>【Foundry註記】</strong></p><p>此特性包含一個行動，其中的Active Effect會自動套用<strong>梟</strong>選項帶來的黑暗視覺變化。速度變化不會自動套用。</p></section>",
       "activities": {
         "Owl": {
           "name": "梟"
@@ -220,8 +220,8 @@
       },
       "effects": {
         "Aspect of the Owl": {
-          "name": "Aspect of the Owl",
-          "description": "<p>You have Darkvision with a range of 60 feet. If you already have Darkvision, its range increases by 60 feet.</p>"
+          "name": "梟之形",
+          "description": "<p>你具有範圍60呎黑暗視覺。若你已經具有黑暗視覺，則其範圍增加60呎。</p>"
         }
       }
     },
@@ -1388,7 +1388,7 @@
       }
     },
     "Devouring Blade": {
-      "name": "Devouring Blade",
+      "name": "滅世魔刃",
       "description": "<blockquote><p>先決條件：契術師等級12以上，@UUID[Compendium.dnd-players-handbook.classes.Item.phbinvThirstingB]祈喚</p></blockquote><p>你的飢渴之刃額外攻擊賦予兩次額外攻擊而非一次</p>"
     },
     "Disarming Attack": {
@@ -2243,8 +2243,8 @@
       }
     },
     "Frenzy": {
-      "name": "Frenzy",
-      "description": "<p>在狂暴啟用期間，若你使用魯莽攻擊，你對在自己回合基於力量攻擊並命中的第一個目標造成額外傷害。擲等同於你狂暴傷害加值的D6，結果即為造成的額外傷害數值。該傷害與你所使用武器或徒手打擊造成的傷害類型相同。</p><section id=\"secret-EsDSGWYhmnmiS9Cu\" class=\"secret\"><p><strong>Foundry Note</strong></p><p>The <strong>Damage</strong> activity scales automatically as you level up and allows you to select the type of damage to use in the damage roll's dialog box. It will then remember your choice going forward.</p></section>"
+      "name": "狂怒",
+      "description": "<p>在狂暴啟用期間，若你使用魯莽攻擊，你對在自己回合基於力量攻擊並命中的第一個目標造成額外傷害。擲等同於你狂暴傷害加值的D6，結果即為造成的額外傷害數值。該傷害與你所使用武器或徒手打擊造成的傷害類型相同。</p><section id=\"secret-EsDSGWYhmnmiS9Cu\" class=\"secret\"><p><strong>【Foundry註記】</strong></p><p><strong>傷害</strong>行動會隨著你的等級提升自動調整比例值，並讓你在傷害骰的對話框中選擇要使用的傷害類型。此行動之後會記住你的選擇。</p></section>"
     },
     "Full of Stars": {
       "name": "Full of Stars",
@@ -2256,18 +2256,18 @@
       }
     },
     "Gaze of Two Minds": {
-      "name": "Gaze of Two Minds",
-      "description": "<blockquote><p>先決條件：Level 5+ Warlock</p></blockquote><p>You can use a Bonus Action to touch a willing creature and perceive through its senses until the end of your next turn. As long as the creature is on the same plane of existence as you, you can take a Bonus Action on subsequent turns to maintain this connection, extending the duration until the end of your next turn. The connection ends if you don’t maintain it in this way.</p><p>While perceiving through the other creature’s senses, you benefit from any special senses possessed by that creature, and you can cast spells as if you were in your space or the other creature’s space if the two of you are within 60 feet of each other.</p>",
+      "name": "共視感官",
+      "description": "<blockquote><p>先決條件：契術師等級5以上</p></blockquote><p>你能夠以附贈動作觸摸一個自願的生物，並與其建立起感官的連線。連線持續直到你下個回合結束。其間，只要你與該生物還處於同一位面中，你就可以在後續回合採取附贈動作繼續維持連線，使其持續時間延長，直到你下個回合結束。若你不再使用這種方式延續持續時間，這種連線便會結束。</p><p>以所連線生物的感官進行觀察時，你受益於該生物所擁有的任何特殊感官，且若你與該生物相距不超過60呎，你就可以如同你位於自己的空間或該生物的空間中那樣施放法術。</p>",
       "activities": {
         "Gaze of Two Minds": {
-          "name": "Gaze of Two Minds",
-          "target": "Touch"
+          "name": "共視感官",
+          "target": "觸摸"
         }
       }
     },
     "Gift of the Depths": {
-      "name": "Gift of the Depths",
-      "description": "<blockquote><p>先決條件：Level 5+ Warlock</p></blockquote><p>You can breathe underwater, and you gain a Swim Speed equal to your Speed.</p><p>You can also cast @UUID[Compendium.dnd-players-handbook.spells.Item.phbsplWaterBreat]{Water Breathing} once without expending a spell slot. You regain the ability to cast it in this way again when you finish a Long Rest.</p><section id=\"secret-aH09PLbY0nXMKypM\" class=\"secret\"><p><strong>Foundry Note</strong></p><p>The <strong>Gift Water Breathing</strong> activity consumes a limited use and includes an Active Effect for tracking the chosen creatures.</p></section>",
+      "name": "深海饋贈",
+      "description": "<blockquote><p>先決條件：契術師等級5以上</p></blockquote><p>你可以在水下呼吸，且你具有等同於你速度的游泳速度。</p><p>你也可以無需消耗法術位地施放一次@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplWaterBreat]{水下呼吸}。當你完成一次長休時，你重獲以此法施放該法術的能力。</p><hr /><p>@Embed[Compendium.dnd-players-handbook.spells.Item.phbsplWaterBreat inline]</p>",
       "activities": {
         "Gift Water Breathing": {
           "name": "Gift Water Breathing"
@@ -2278,8 +2278,8 @@
           "name": "Water Breathing"
         },
         "Water Breathing & Swim Speed": {
-          "description": "<p>You can breathe underwater, and you gain a Swim Speed equal to your Speed.</p>",
-          "name": "Water Breathing & Swim Speed"
+          "description": "<p>你可以在水下呼吸，且你具有等於你速度的游泳速度。</p>",
+          "name": "水下呼吸與游泳速度"
         }
       }
     },
@@ -2719,16 +2719,16 @@
       "description": "<p>以你進入狂暴的附贈動作的一部分，你可以移動至多等同於你速度一半的距離。</p>"
     },
     "Intimidating Presence": {
-      "name": "Intimidating Presence",
-      "description": "<p>As a Bonus Action, you can strike terror into others with your menacing presence and primal power. When you do so, each creature of your choice in a 30-foot Emanation originating from you must make a Wisdom saving throw (DC 8 plus your Strength modifier and Proficiency Bonus). On a failed save, a creature has the Frightened condition for 1 minute. At the end of each of the &amp;Reference[Frightened] creature's turns, the creature repeats the save, ending the effect on itself on a success.</p><p>Once you use this feature, you can't use it again until you finish a Long Rest unless you expend a use of your Rage (no action required) to restore your use of it.</p><section class=\"secret\" id=\"secret-vRQdGrtACAbxH4Tm\"><p><strong>Foundry Note</strong></p><p>The <strong>Save</strong> activity includes an Active Effect which adds the Frightened condition.</p><p>The <strong>Recharge</strong> activity consumes a use of Rage and recharges your use of Intimidating Presence.</p></section>",
+      "name": "威懾之姿",
+      "description": "<p>你可以採取一個附贈動作，用你那令人魂消膽喪的氣勢，在原初之力的輔助下令他者心生恐懼。當你如此做時，每名位於源自你的30呎發散範圍內、由你選擇的生物都必須進行一次感知豁免檢定（DC等同於8＋你的力量調整值＋你的熟練加值）。豁免失敗的生物陷入恐慌狀態，持續1分鐘。陷入&amp;Reference[Frightened]{恐慌}的生物在其每個回合結束時重複該豁免，成功則結束其身上的該效應。</p><p>此特性一經使用，直到完成長休前，你都無法再次使用，除非你消耗一次狂暴使用次數（無需動作）來恢復此特性的使用次數。</p><section class=\"secret\" id=\"secret-vRQdGrtACAbxH4Tm\"><p><strong>【Foundry註記】</strong></p><p><strong>豁免</strong>行動包含一項Active Effect，會加上恐慌狀態。</p><p><strong>恢復</strong>行動會消耗一次狂暴使用次數，並恢復威懾之姿的使用次數。</p></section>",
       "activities": {
         "Recharge with Rage": {
-          "name": "Recharge with Rage"
+          "name": "以狂暴充能"
         }
       },
       "effects": {
         "Intimidated": {
-          "name": "Intimidated"
+          "name": "受威懾"
         }
       }
     },
@@ -3116,11 +3116,11 @@
       "description": "<p>由於你的魔法源自體內流動，你可以修改你的法術以適應自己的需求。你獲得2個超魔法選項中你所選擇的超魔法選項。你使用你所選的超魔法來臨時改變你施放的法術。當使用一個超魔法選項時，你必須消耗其描述中需求的術法點。</p><p>當你施放法術時，你只能使用一次超魔法選項，除非超魔法選項中另有說明。</p><p>每當你獲得術士等級時，你可以將一個超魔法選項替換為一個你不知道的超魔法選項。當你的術士等級達到10和17時，你可以分別再獲得兩個超魔法選項。</p><section id=\"secret-IKw7Qq4qXvzx5Iqj\" class=\"secret\"><p><strong>Foundry Note</strong></p><p>You will be prompted to choose Metamagic options as you level up.</p></section>"
     },
     "Mindless Rage": {
-      "name": "Mindless Rage",
-      "description": "<p>You have Immunity to the &amp;Reference[Charmed] and &amp;Reference[Frightened] conditions while your Rage is active. If you're Charmed or Frightened when you enter your Rage, the condition ends on you.</p><section class=\"secret\" id=\"secret-CnCRD0Dyvx4FFGfV\"><p><strong>Foundry Note</strong></p><p>This feature includes an Active Effect which grants the Charmed and Frightened condition immunity. It is not applied automatically when you begin your Rage though.</p></section>",
+      "name": "無我狂暴",
+      "description": "<p>狂暴啟用期間，你具有對&amp;Reference[Charmed]{魅惑}與&amp;Reference[Frightened]{恐慌}狀態的免疫。當你進入狂暴時，若你已陷入魅惑或恐慌狀態，則你身上的狀態會結束。</p><section class=\"secret\" id=\"secret-CnCRD0Dyvx4FFGfV\"><p><strong>【Foundry註記】</strong></p><p>此特性包含一項Active Effect，可提供對魅惑與恐慌狀態的免疫。不過，當你開始狂暴時，此Active Effect不會自動套用。</p></section>",
       "effects": {
         "Mindless Rage": {
-          "name": "Mindless Rage"
+          "name": "無我狂暴"
         }
       }
     },
@@ -3265,8 +3265,8 @@
       }
     },
     "Nature Speaker": {
-      "name": "Nature Speaker",
-      "description": "<p>You can cast the @UUID[Compendium.dnd-players-handbook.spells.Item.phbsplCommunewit]{Commune with Nature} spell but only as a Ritual. Wisdom is your spellcasting ability for it.</p><section class=\"secret\" id=\"secret-Lh8GxpVm1IY5QkLL\"><p><strong>Foundry Note</strong></p><p>The spell is granted to you as ritual-only spell and is pre-configured with Wisdom as your spellcasting modifier.</p></section>"
+      "name": "自然語者",
+      "description": "<p>你可以施放法術@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplCommunewit]{問道自然}，但僅限以儀式施放。感知是你施放該法術的施法屬性。</p><section class=\"secret\" id=\"secret-Lh8GxpVm1IY5QkLL\"><p><strong>【Foundry註記】</strong></p><p>你獲得的該法術已設為僅限以儀式施放，並預先設定使用感知作為你的施法調整值。</p></section>"
     },
     "Nature's Sanctuary": {
       "name": "Nature's Sanctuary",
@@ -3598,17 +3598,17 @@
     },
     "Path of the Wild Heart": {
       "name": "狂野之心道途",
-      "description": "<blockquote><p>與動物世界共行</p></blockquote><p>遵行狂野之心道途的野蠻人將自己視為動物的伙伴。這些野蠻人學會了如何以魔法與動物溝通，他們和動物之間的聯繫，也因狂暴帶來的超自然力量而更加緊密。</p>",
+      "description": "<blockquote><p>與動物世界一同漫步</p></blockquote><p>跟隨狂野之心道途的野蠻人將自身視作動物們的家人。他們學習與動物交流的魔法手段，他們的狂暴賦予他們超自然的力量來增強與動物們的聯繫。</p>",
       "advancement": {
         "Subclass Features": {
           "title": "子職業特性"
         },
         "Animal Speaker": {
-          "title": "Animal Speaker",
-          "hint": "The Animal Speaker feature grants you the Beast Sense and Speak with Animals spells but only as Rituals. Wisdom is your spellcasting ability for them."
+          "title": "動物語者",
+          "hint": "動物語者特性賦予你野獸知覺與動物交談術這兩個法術，但僅限以儀式施放。感知是你施放這些法術的施法屬性。"
         },
         "Nature Speaker": {
-          "title": "Nature Speaker"
+          "title": "自然語者"
         }
       }
     },
@@ -3706,24 +3706,24 @@
       "description": "<p>Your damaging cantrips affect even creatures that avoid the brunt of the effect. When you cast a cantrip at a creature and you miss with the attack roll or the target succeeds on a saving throw against the cantrip, the target takes half the cantrip’s damage (if any) but suffers no additional effect from the cantrip.</p><section id=\"secret-fJby40y1vz8RXGG4\" class=\"secret\"><p><strong>Foundry Note</strong></p><p>With their token selected you can either right click on the damage roll's chat card and select <span class=\"reference\"><em class=\"fas fa-user-shield\"> </em>Apply Half Damage</span> or click the \"1/2\" button and then the <span class=\"reference\"><em class=\"fa-solid fa-reply-all\"> </em>Apply</span> button.</p></section>"
     },
     "Power of the Wilds": {
-      "name": "Power of the Wilds",
-      "description": "<p>Whenever you activate your Rage, you gain one of the following options of your choice.</p><p><strong>Falcon.</strong> While your Rage is active, you have a Fly Speed equal to your Speed if you aren't wearing any armor.</p><p><strong>Lion.</strong> While your Rage is active, any of your enemies within 5 feet of you have Disadvantage on attack rolls against targets other than you or another Barbarian who has this option active.</p><p><strong>Ram.</strong> While your Rage is active, you can cause a Large or smaller creature to have the &amp;Reference[Prone] condition when you hit it with a melee attack.</p><section class=\"secret\" id=\"secret-xneCqbl2nZsx0YOE\"><p><strong>Foundry Note</strong></p><p>The <strong>Ram</strong> activity includes an Active Effect which applies the Prone condition.</p><p>The <strong>Falcon</strong> and <strong>Lion</strong> options are not automated.</p></section>",
+      "name": "狂野威能",
+      "description": "<p>每當你啟用狂暴時，你從下列選項中選擇並獲得一項。</p><p><strong>【獵鷹】</strong>狂暴啟用期間，只要你沒有著裝任何護甲，你就具有等同於你速度的飛行速度。</p><p><strong>【雄獅】</strong>狂暴啟用期間，任何位於你5呎內的敵人，對你或另一名啟用了此選項的野蠻人以外的目標進行攻擊檢定時具有劣勢。</p><p><strong>【角羊】</strong>狂暴啟用期間，當你以近戰攻擊命中一名體型不超過大型的生物時，你可以使其陷入&amp;Reference[Prone]{伏地}狀態。</p><section class=\"secret\" id=\"secret-xneCqbl2nZsx0YOE\"><p><strong>【Foundry註記】</strong></p><p><strong>角羊</strong>行動包含一項Active Effect，會加上伏地狀態。</p><p><strong>獵鷹</strong>與<strong>雄獅</strong>選項沒有自動化處理。</p></section>",
       "effects": {
         "Power of the Wilds: Ram": {
-          "name": "Power of the Wilds: Ram"
+          "name": "狂野威能：角羊"
         }
       },
       "activities": {
         "Falcon": {
-          "name": "Falcon",
-          "chatFlavor": "You gain a Fly Speed equal to your Speed if you aren't wearing any armor."
+          "name": "獵鷹",
+          "chatFlavor": "只要你沒有著裝任何護甲，你就獲得等同於你速度的飛行速度。"
         },
         "Lion": {
-          "name": "Lion"
+          "name": "雄獅"
         },
         "Ram": {
-          "name": "Ram",
-          "condition": "When you a Large or smaller creature with a melee attack"
+          "name": "角羊",
+          "condition": "當你以近戰攻擊命中一名大型或更小型的生物時"
         }
       }
     },
@@ -4011,26 +4011,26 @@
       }
     },
     "Rage of the Wilds": {
-      "name": "Rage of the Wilds",
-      "description": "<p>Your Rage taps into the primal power of animals. Whenever you activate your Rage, you gain one of the following options of your choice.</p><p><strong>Bear.</strong> While your Rage is active, you have Resistance to every damage type except Force, Necrotic, Psychic, and Radiant.</p><p><strong>Eagle.</strong> When you activate your Rage, you can take the Disengage and Dash actions as part of that Bonus Action. While your Rage is active, you can take a Bonus Action to take both of those actions.</p><p><strong>Wolf.</strong> While your Rage is active, your allies have Advantage on attack rolls against any enemy of yours within 5 feet of you.</p><section class=\"secret\" id=\"secret-NkFSYzGdf370PpSv\"><p><strong>Foundry Note</strong></p><p>The <strong>Bear</strong> activity includes an Active Effect which can automate the addition of the resistances.</p><p>The <strong>Eagle</strong> activity uses a Bonus Action  for Disengage and Dash.</p><p>The <strong>Wolf</strong> activity includes a 5 foot target template for identifying impacted creatures.</p></section>",
+      "name": "野性狂暴",
+      "description": "<p>你的狂暴解放來自動物的原初之力。每當你啟用狂暴時，你從下列選項中選擇並獲得一項。</p><p><strong>【熊】</strong>狂暴啟用期間，你具有除力場、心靈、黯蝕、光耀以外所有傷害類型的抗力。</p><p><strong>【鷹】</strong>當你啟用狂暴時，做為該附贈動作的一部分，你可以同時採取撤離與疾走動作。狂暴啟用期間，你也可以採取一個附贈動作，同時採取這兩個動作。</p><p><strong>【狼】</strong>狂暴啟用期間，你的盟友對位於你5呎內、與你為敵的任何生物進行的攻擊檢定具有優勢。</p><section class=\"secret\" id=\"secret-NkFSYzGdf370PpSv\"><p><strong>【Foundry註記】</strong></p><p><strong>熊</strong>行動包含一項Active Effect，可自動加入這些抗力。</p><p><strong>鷹</strong>行動使用一個附贈動作來採取撤離與疾走動作。</p><p><strong>狼</strong>行動包含一個5呎目標模板，用於辨識受影響的生物。</p></section>",
       "activities": {
         "Eagle": {
-          "name": "Eagle"
+          "name": "鷹"
         },
         "Wolf": {
-          "name": "Wolf"
+          "name": "狼"
         },
         "Bear": {
-          "name": "Bear"
+          "name": "熊"
         }
       },
       "effects": {
         "Rage of the Bear": {
-          "name": "Rage of the Bear"
+          "name": "熊之狂暴"
         },
         "Rage of the Wolf": {
-          "name": "Rage of the Wolf",
-          "description": "<p>Your allies have Advantage on attack rolls against any enemy of yours within 5 feet of you.</p>"
+          "name": "狼之狂暴",
+          "description": "<p>你的盟友對位於你5呎內、與你為敵的任何生物進行的攻擊檢定具有優勢。</p>"
         }
       }
     },
@@ -4199,12 +4199,12 @@
       "description": "<p>When you use Lay On Hands on a creature, you can also remove one or more of the following conditions from the creature: Blinded, Charmed, Deafened, Frightened, Paralyzed, or Stunned. You must expend 5 Hit Points from the healing pool of Lay On Hands for each of these conditions you remove; those points don’t also restore Hit Points to the creature.</p><section class=\"secret\" id=\"secret-jxD0l6XyrF6DQqyI\"><p><strong>Foundry Note</strong></p><p>This feature includes a Scale prompt for selecting how many conditions you would like to remove that will automatically consume the correct number from your Lay on Hands pool.</p></section>"
     },
     "Retaliation": {
-      "name": "Retaliation",
-      "description": "<p>When you take damage from a creature that is within 5 feet of you, you can take a Reaction to make one melee attack against that creature, using a weapon or an Unarmed Strike.</p>",
+      "name": "報償",
+      "description": "<p>當位於你5呎內的一名生物對你造成傷害時，你可以採取反應，使用武器或徒手打擊對該生物發動一次近戰攻擊。</p>",
       "activities": {
         "Retaliate": {
-          "name": "Retaliate",
-          "condition": "When you take damage from a creature within 5 feet of you"
+          "name": "報償",
+          "condition": "當位於你5呎內的一名生物對你造成傷害時"
         }
       }
     },
