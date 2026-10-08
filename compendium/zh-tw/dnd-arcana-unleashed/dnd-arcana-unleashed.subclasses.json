@@ -188,11 +188,11 @@
     "Dispelling Recovery": {
       "activities": {
         "Restore Use with Channel Divinity": {
-          "name": "使用引導神力重置次數"
+          "name": "使用引導神力恢復次數"
         }
       },
       "name": "驅法復原",
-      "description": "<p>緊接在你使用法術位施放一道恢復生物生命值或終止生物身上狀態的法術時，你可以無需消耗法術位施放<em>@UUID[Compendium.dnd5e.spells24.Item.phbsplDispelMagi]{解除魔法}</em>作為該動作、附贈動作或反應的一部分。</p><p>此特性一旦使用，直到完成短休或長休前你都無法再次使用。你也可以消耗一次引導神力（無需動作）重獲使用次數。</p>"
+      "description": "<p>緊接在你使用法術位施放一道恢復生物生命值或終止生物身上狀態的法術後，作為該動作、附贈動作或反應的一部分，你可以無需消耗法術位施放<em>@UUID[Compendium.dnd5e.spells24.Item.phbsplDispelMagi]{解除魔法}</em>。</p><p>一旦使用此特性，直到完成短休或長休前，你無法再次使用。你也可以消耗一次引導神力次數（無需動作）來恢復其使用次數。</p>"
     },
     "Semblance of Life": {
       "activities": {
@@ -295,10 +295,10 @@
     },
     "Modify Magic": {
       "name": "調整魔法",
-      "description": "<p>你可以使用引導神力改動你所施放的法術。當你施放一道法術時，你可以消耗一次你的引導神力次數並選擇下列方式之一，以修改那道法術（無需動作）。</p><p><em><strong>【鞏固法術】</strong></em>該法術的其中一個目標獲得等同於 2d8 加上你的牧師等級的臨時生命值。</p><p><em><strong>【穩固法術】</strong></em>當你施放一道迫使生物進行豁免檢定的法術，且一個你所能看見的生物通過該豁免檢定時，擲1d6，並從該目標對抗該法術效應的第一次豁免檢定中減去該骰值。</p>",
+      "description": "<p>你可以使用引導神力在施放法術時改動該法術。當你施放一道法術時，你可以消耗一次你的引導神力次數，並選擇下列其中一種方式修改該法術（無需動作）。</p><p><em><strong>【鞏固法術】</strong></em>該法術的其中一個目標獲得等同於 2d8 加上你牧師等級的臨時生命值。</p><p><em><strong>【穩固法術】</strong></em>當你施放一道迫使生物進行豁免檢定的法術，且一名你所能看見的生物成功通過該豁免檢定時，擲1d6，並從該目標對抗該法術效應的第一次豁免檢定中減去擲出的數值。</p>",
       "activities": {
         "Tenacious Spell": {
-          "roll": "Reduce Save",
+          "roll": "降低豁免",
           "name": "穩固法術"
         },
         "Fortifying Spell": {
@@ -514,7 +514,7 @@
       }
     },
     "Magical Mastery": {
-      "description": "<p>你習得四道法師法術，分別為六、七、八、九環各一道。此後，你始終準備著這些法術。每當你獲得牧師等級時，你都可以將這些法術中的一道替換為同環階的另一道法師法術。</p>",
+      "description": "<p>你習得四道法師法術，分別為六環、七環、八環與九環各一道。此後，你始終準備著這些法術。每當你獲得牧師等級時，你可以將其中一道法術替換為同環階的另一道法師法術。</p>",
       "name": "奧術精通"
     },
     "Arcane Archer Lore": {
@@ -526,8 +526,8 @@
           "hint": "<p>You gain proficiency in the Arcana and Nature skills. If you already have one of these proficiencies, you instead gain proficiency in a different skill of your choice from the skills available to Fighters at level 1 (or in two skills available to Fighters at level 1 if you have both).</p><p><em>Skills available to Fighters at level 1:</em> Acrobatics, Animal Handling, Athletics, History, Insight, Intimidation, Perception, Persuasion, Survival</p>"
         }
       },
-      "name": "Arcane Archer Lore",
-      "description": "<p>You learn magical theory and secrets of nature, granting you the following benefits.</p><p><em><strong>Cantrip.</strong></em> You know either the <em>@UUID[Compendium.dnd5e.spells24.Item.phbsplDruidcraft]{Druidcraft}</em> or the @UUID[Compendium.dnd5e.spells24.Item.phbsplPrestidigi]{Prestidigitation} cantrip. Intelligence is your spellcasting ability for it.</p><p><em><strong>Skills.</strong></em> You gain proficiency in the Arcana and Nature skills. If you already have one of these proficiencies, you instead gain proficiency in a different skill of your choice from the skills available to Fighters at level 1 (or in two skills available to Fighters at level 1 if you have both).</p>"
+      "name": "奧法射手學識",
+      "description": "<p>你學習了魔法理論和自然的隱秘，賦予你下列好處。</p><p><em><strong>【戲法】</strong></em>你知曉 <em>@UUID[Compendium.dnd5e.spells24.Item.phbsplDruidcraft]{德魯伊伎倆}</em> 或 @UUID[Compendium.dnd5e.spells24.Item.phbsplPrestidigi]{魔法技倆}其中一個戲法。智力是你施放該戲法的施法屬性。</p><p><em><strong>【技能】</strong></em>你獲得奧秘和自然的技能熟練。若你已熟練於其中之一，你改為獲得一個你選擇的1級戰士其他可學技能的熟練（或在熟練於二者時獲得兩個1級戰士其他可學技能的熟練）。</p>"
     },
     "Spellcasting": {
       "advancement": {
@@ -618,14 +618,14 @@
     "Student of Arcana": {
       "advancement": {
         "szHaTl5r6pDAcGUp": {
-          "hint": "<p>你獲得奧秘技能或一項從牧師1級可用技能中選擇的技能熟練。</p>"
+          "hint": "<p>你獲得奧秘技能的熟練，或從牧師1級可選技能中選擇一項技能的熟練。</p>"
         },
         "cDw256TLQAb1yXZR": {
-          "hint": "<p>你習得由你選擇的兩道法師戲法。每當你獲得牧師等級時，你可以將這些戲法中的一道替換為另一道法師戲法。</p>"
+          "hint": "<p>你習得兩道由你選擇的法師戲法。每當你獲得牧師等級時，你可以將其中一道戲法替換為另一道法師戲法。</p>"
         }
       },
       "name": "奧秘學者",
-      "description": "<p>你獲得下列好處。</p><p><em><strong>【魔法知識】</strong></em>你獲得奧秘技能或一項從牧師1級可用技能中選擇的技能熟練。</p><p><em><strong>【戲法】</strong></em>你習得你所選擇的兩道法師戲法。每當你獲得牧師等級時，你可以將這些戲法中的一道替換為另一道法師戲法。</p>"
+      "description": "<p>你獲得下列好處。</p><p><em><strong>【魔法知識】</strong></em>你獲得奧秘技能的熟練，或從牧師1級可選技能中選擇一項技能的熟練。</p><p><em><strong>【戲法】</strong></em>你習得兩道你所選擇的法師戲法。每當你獲得牧師等級時，你可以將其中一道戲法替換為另一道法師戲法。</p>"
     },
     "Magical Ammunition": {
       "name": "Magical Ammunition",
@@ -748,7 +748,7 @@
       "description": "<p>You give your ammunition an ethereal quality. When you use this option, you don’t make an attack roll for the attack. Instead, the ammunition shoots forward in a 30-foot-long, 1-foot-wide Line originating from you, then vanishes. The Line ignores cover, as the ammunition phases through solid objects. Each creature in the Line makes a Dexterity saving throw. On a failed save, a creature takes damage as if it were hit plus extra Piercing damage equal to two rolls of your Arcane Shot Die. On a successful save, a creature takes half as much damage.</p><section id=\"secret-qCupscdY8IzvoQxK\" class=\"secret hide-in-embed\"><p><strong>Foundry Note</strong></p><p>Piercing Shot does not know which ammunition weapon produced the shot. Roll the weapon's normal hit damage separately, add the Piercing Shot damage, and apply the combined total manually: full damage on a failed save or half the combined total on a successful save.</p></section>"
     },
     "Arcana Domain Spells": {
-      "description": "<p>你與此神聖領域的連結使你始終準備了特定的法術。當你到達奧秘領域法術表中特定的牧師等級時，你就始終準備了表中對應的法術。</p><table><caption><p>奧秘領域法術</p></caption><thead><tr><th><p>牧師等級</p></th><th colspan=\"2\"><p>準備法術</p></th></tr></thead><tbody><tr><td><p>3</p></td><td colspan=\"2\"><p><em>@UUID[Compendium.dnd5e.spells24.Item.phbsplDetectMagi]{偵測魔法}、@UUID[Compendium.dnd5e.spells24.Item.phbsplMagicMissi]{魔法飛彈}、@UUID[Compendium.dnd5e.spells24.Item.phbsplMagicWeapo]{魔化武器}、@UUID[Compendium.dnd5e.spells24.Item.phbsplNystulsMag]{涅斯圖魔法靈光}</em></p></td></tr><tr><td><p>5</p></td><td colspan=\"2\"><p><em>@UUID[Compendium.dnd5e.spells24.Item.phbsplCounterspe]{法術反制}、@UUID[Compendium.dnd5e.spells24.Item.phbsplDispelMagi]{解除魔法}</em></p></td></tr><tr><td><p>7</p></td><td colspan=\"2\"><p><em>@UUID[Compendium.dnd5e.spells24.Item.phbsplArcaneEye0]{祕法眼}、@UUID[Compendium.dnd5e.spells24.Item.phbsplLeomundsSe]{李歐蒙祕藏箱}</em></p></td></tr><tr><td><p>9</p></td><td colspan=\"2\"><p><em>@UUID[Compendium.dnd5e.spells24.Item.phbsplBigbysHand]{畢格比之手}、@UUID[Compendium.dnd5e.spells24.Item.phbsplTeleportat]{傳送法陣}</em></p></td></tr></tbody></table>",
+      "description": "<p>你與此神聖領域的連結令你始終準備特定法術。當你到達奧秘領域法術表中所列的牧師等級時，此後你始終準備表中所列的法術。</p><table><caption><p>奧秘領域法術</p></caption><thead><tr><th><p>牧師等級</p></th><th colspan=\"2\"><p>準備法術</p></th></tr></thead><tbody><tr><td><p>3</p></td><td colspan=\"2\"><p><em>@UUID[Compendium.dnd5e.spells24.Item.phbsplDetectMagi]{偵測魔法}、@UUID[Compendium.dnd5e.spells24.Item.phbsplMagicMissi]{魔法飛彈}、@UUID[Compendium.dnd5e.spells24.Item.phbsplMagicWeapo]{魔化武器}、@UUID[Compendium.dnd5e.spells24.Item.phbsplNystulsMag]{涅斯圖魔法靈光}</em></p></td></tr><tr><td><p>5</p></td><td colspan=\"2\"><p><em>@UUID[Compendium.dnd5e.spells24.Item.phbsplCounterspe]{反制法術}、@UUID[Compendium.dnd5e.spells24.Item.phbsplDispelMagi]{解除魔法}</em></p></td></tr><tr><td><p>7</p></td><td colspan=\"2\"><p><em>@UUID[Compendium.dnd5e.spells24.Item.phbsplArcaneEye0]{祕法眼}、@UUID[Compendium.dnd5e.spells24.Item.phbsplLeomundsSe]{李歐蒙祕藏箱}</em></p></td></tr><tr><td><p>9</p></td><td colspan=\"2\"><p><em>@UUID[Compendium.dnd5e.spells24.Item.phbsplBigbysHand]{畢格比之掌}、@UUID[Compendium.dnd5e.spells24.Item.phbsplTeleportat]{傳送法陣}</em></p></td></tr></tbody></table>",
       "name": "奧秘領域法術"
     },
     "Enchanting Conversation (Persuasion)": {
@@ -830,8 +830,8 @@
       "name": "Improved Fighting Style"
     },
     "Arcane Archer": {
-      "description": "<p><em>Deploy Magical Effects Through Enchanted Ammunition</em></p><p>An Arcane Archer studies a unique elven method of archery that weaves magic into attacks to produce supernatural effects. Over the centuries, other folk have learned this technique and broadened it so it applies to ranged weapons of many kinds and to aspects of adventuring life outside of combat.</p>",
-      "name": "Arcane Archer"
+      "description": "<p><em>以附魔之矢，施魔法之要</em></p><p>奧法射手深研獨特的精靈箭術，將魔法融入箭擊，產生超自然效應。幾個世紀以來，其他種族也學會了這一箭技，並將其擴展到更多種類的遠程武器，同時也將箭技應用在戰鬥外的冒險之中。</p>",
+      "name": "奧法射手"
     },
     "Vestige Spells (Trickery)": {
       "name": "Vestige Spells (Trickery)",
@@ -839,7 +839,7 @@
     },
     "Arcana Domain": {
       "name": "奧秘領域",
-      "description": "<p><em>增幅你的魔法之力</em></p><p>魔法充盈於整個多元宇宙之中，既帶來了毀滅，也帶來了創生。奧秘領域的牧師將魔法知識視作一件需要他們分享的禮物，而非用於擷取私利的工具。</p><p>與奧秘領域相關的神明對魔法的秘密與潛力有著深刻的理解。這些神明通常也與知識、秘密或力量有所聯繫。</p>"
+      "description": "<p><em>增幅你的魔法之力</em></p><p>魔法充盈於整個多元宇宙之中，既帶來了毀滅，也帶來了創生。奧秘領域的牧師將魔法知識視作一件需要他們分享的禮物，而非用於攫取私利的工具。</p><p>與奧秘領域相關的神明對魔法的祕密與潛力有著深刻的理解。這些神明通常也與知識、祕密或力量有所聯繫。</p>"
     }
   }
 }
