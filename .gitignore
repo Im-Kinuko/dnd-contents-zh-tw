@@ -2,3 +2,7 @@
 *.ps1
 *.zip
 _incoming/
+
+# Python caches
+__pycache__/
+*.pyc

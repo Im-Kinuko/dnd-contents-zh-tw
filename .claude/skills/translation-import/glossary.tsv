@@ -1,0 +1,152 @@
+# 非慣用譯名 -> 英文。用途：在原文裡認出大陸譯法（或正體但非本專案慣用的說法），
+# 換回英文 key 之後，再用 Weblate terms / 條目名稱索引查出本專案的譯名。
+#
+# Weblate 的 terms 存「英文 -> 臺灣譯名」，存不了這個方向，所以這張表補它的不足。
+# 每次匯入發現新的錯配就追加一行。格式：變體<TAB>英文
+#
+光环	Emanation
+恶言相加	Vicious Mockery
+神导术	Guidance
+抵抗术	Resistance
+回避	Dodge
+迴避	Dodge
+暗蚀	Necrotic
+暗蝕	Necrotic
+施展	cast
+執行	take (an action)
+增益	benefit
+协助	Help
+躲避	Hide
+冲刺	Dash
+脱离	Disengage
+咒唤兽群	Conjure Animals
+任意门	Dimension Door
+咒唤元素	Conjure Elemental
+鹰眼术	Clairvoyance
+探知术	Scrying
+不谐低语	Dissonant Whispers
+定身类人	Hold Person
+篡改记忆	Modify Memory
+繁彩球	Chromatic Orb
+力场墙	Wall of Force
+致伤术	Inflict Wounds
+汲血之触	Vampiric Touch
+死者复活	Raise Dead
+缓慢术	Slow
+活化物件	Animate Objects
+群体疗伤术	Mass Cure Wounds
+次等复原术	Lesser Restoration
+高级幻影	Major Image
+操作动作	Utilize
+魔契师	Warlock
+圣武士	Paladin
+亡灵	Undead
+构装	Construct
+倒地	Prone
+咒唤机群	Conjure Constructs
+焰能爆	blast
+人工生命体	Homunculus
+光环区域	Emanation
+柱状区域	Cylinder
+施法范围	range
+穿界者	Portal Jumper
+奥法殡葬师	Arcane Undertaker
+赌具	Gaming Set
+旅行服装	Traveler's Clothes
+草药工具	Herbalism Kit
+织布工具	Weaver's Tools
+领航工具	Navigator's Tools
+厨师工具	Cook's Utensils
+易容工具	Disguise Kit
+铺盖	Bedroll
+火绒盒	Tinderbox
+细线	String
+医疗包	Healer's Kit
+长袍	Robe
+铁锹	Shovel
+变化系	Transmutation
+死灵术	Necromancy
+重击	Critical Hit
+法术力场墙	Wall of Force
+光能爆	Energy Blast
+秘银甲	Mithral Armor
+秘銀甲	Mithral Armor
+警戒之盾	Sentinel Shield
+抗性护甲	Armor of Resistance
+抗性護甲	Armor of Resistance
+吸矢盾	Arrow-Catching Shield
+引弹盾	Shield of Missile Attraction
+引彈盾	Shield of Missile Attraction
+抗法盾	Spellguard Shield
+以太化板甲	Plate Armor of Etherealness
+狂战斧	Berserker Axe
+狂戰斧	Berserker Axe
+巨人屠杀者	Giant Slayer
+巨人屠殺者	Giant Slayer
+窃命剑	Sword of Life Stealing
+竊命劍	Sword of Life Stealing
+唤鱼三叉戟	Trident of Fish Command
+喚魚三叉戟	Trident of Fish Command
+借机攻击	Opportunity Attack
+借機攻擊	Opportunity Attack
+圣火术	Sacred Flame
+聖火術	Sacred Flame
+重擊	Critical Hit
+游说	Persuasion
+遊說	Persuasion
+新锻臂铠	Tyro of the Gauntlet
+新鍛臂鎧	Tyro of the Gauntlet
+散塔林会暴徒	Zhentarim Ruffian
+散塔林會暴徒	Zhentarim Ruffian
+散塔林会	Zhentarim
+散塔林會	Zhentarim
+浴血	Bloodied
+野兽感官	Beast Sense
+野獸感官	Beast Sense
+链条	Chain
+鏈條	Chain
+散塔林会战术	Zhentarim Tactics
+散塔林會戰術	Zhentarim Tactics
+冷冻射线	Ray of Frost
+迷斯卓诺	Myth Drannor
+银月联邦	Silver Marches
+銀月聯邦	Silver Marches
+剑咏者	Bladesinger
+战歌训练	Training in War and Song
+奥术回想	Arcane Recovery
+奧術回想	Arcane Recovery
+守御之歌	Song of Defense
+胜利之歌	Song of Victory
+诗人激励	Bardic Inspiration
+詩人激勵	Bardic Inspiration
+吟游诗人激励	Bardic Inspiration
+吟遊詩人激勵	Bardic Inspiration
+明月激励	Moon's Inspiration
+月光祝福	Blessing of Moonlight
+月华之光	Moonbeam
+旗将	Banneret
+群体恢复	Group Recovery
+集结如潮	Rallying Surge
+团体战术	Team Tactics
+银色联邦	Silver Marches
+銀色聯邦	Silver Marches
+阙森塔	Chessenta
+达马拉	Damara
+不当之勇	Unshakable Bravery
+不當之勇	Unshakable Bravery
+骑士礼节	Knightly Envoy
+騎士禮節	Knightly Envoy
+法术反制	Counterspell
+法術反制	Counterspell
+疗伤术	Cure Wounds
+療傷術	Cure Wounds
+次等復原術	Lesser Restoration
+先天术法	Innate Sorcery
+先天術法	Innate Sorcery
+红袍巫师	Red Wizards
+紅袍巫師	Red Wizards
+咒火冠冕	Crown of Spellfire
+咒火迸发	Spellfire Burst
+力牆術	Wall of Force
+全身掩護	Total Cover
+完全掩護	Total Cover
