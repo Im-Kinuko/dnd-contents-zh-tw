@@ -772,8 +772,8 @@
       }
     },
     "Body and Mind": {
-      "name": "Body and Mind",
-      "description": "<p>You have developed your body and mind to new heights. Your 敏捷和感知 scores increase by 4, to a maximum of 25.</p>"
+      "name": "天人合一",
+      "description": "<p>你行滿功成，身心性命皆已突破超然境界。你的敏捷和感知各提升4點，上限為25。</p>"
     },
     "Bonus Proficiencies": {
       "name": "附贈熟練",
@@ -1427,13 +1427,13 @@
     },
     "Deflect Attacks": {
       "name": "撥擋攻擊",
-      "description": "<p>當一個攻擊檢定命中你，並且其傷害包含鈍擊、穿刺或揮砍傷害時，你可以採取反應以減少攻擊對你造成的總傷害，減少的數值等同於1d10 + 你的敏捷調整值 + 你的武僧等級。</p><p>若你將傷害減少至0，你可以消耗1內力點以借力打力。撥擋近戰攻擊時，選擇距離你5呎內一個你所能看見的生物；撥擋遠程攻擊時，選擇距離你60呎內一個你所能看見且不處於全掩護後的生物。所選生物必須成功通過敏捷豁免檢定，否則將承受兩枚武藝骰 + 你的敏捷調整值的傷害，傷害類型與原攻擊的傷害類型一致。</p><section class=\"secret\" id=\"secret-zWGu1AEB09UqQ21D\"><p><strong>Foundry Note</strong></p><p>The <strong>Reduce</strong> activity can be used to heal yourself to reduce the total damage if it's not enough to reduce it to 0.</p><p>The <strong>Redirect</strong> activity can be used to roll damage and consume a use of your Focus Points if you can reduce it to 0. You can select the type of damage in the roll dialog. The dice increase automatically as you level up.</p></section>",
+      "description": "<p>當一個攻擊檢定命中你，並且其傷害包含鈍擊、穿刺或揮砍傷害時，你可以採取反應以減少攻擊對你造成的總傷害，減少的數值等同於1d10 + 你的敏捷調整值 + 你的武僧等級。</p><p>若你將傷害減少至0，你可以消耗1點內力以借力打力。撥擋近戰攻擊時，選擇距離你5呎內一個你所能看見的生物；撥擋遠程攻擊時，選擇距離你60呎內一個你所能看見且不處於全掩蔽後的生物。所選生物必須成功通過敏捷豁免檢定，否則將承受兩枚武藝骰 + 你的敏捷調整值的傷害，傷害類型與原攻擊的傷害類型一致。</p><section class=\"secret\" id=\"secret-zWGu1AEB09UqQ21D\"><p><strong>【Foundry註記】</strong></p><p><strong>撥擋</strong>行動可用於治療自己，以便在無法將傷害減至0時降低傷害總值。</p><p><strong>借力打力</strong>行動可用於擲傷害骰，並在你能將傷害減至0時消耗一次內力點的使用次數。你可以在擲骰對話框中選擇傷害類型，骰子會隨著你升級自動增加。</p></section>",
       "activities": {
         "Redirect": {
           "name": "借力打力",
           "condition": "若將傷害減至0",
-          "range": "5 feet for melee attacks or 60 feet for ranged attacks",
-          "target": "Isn't behind Total Cover"
+          "range": "近戰攻擊為5呎，遠程攻擊為60呎",
+          "target": "不處於全掩蔽後"
         },
         "Reduce": {
           "name": "撥擋",
@@ -1443,23 +1443,23 @@
     },
     "Deflect Energy": {
       "name": "撥擋能量",
-      "description": "<p>You can now use your Deflect Attacks feature against attacks that deal any damage type, not just Bludgeoning, Piercing, or Slashing.</p><section class=\"secret\" id=\"secret-XAQmFmc4TpSF2Oh1\"><p>The <strong>Reduce</strong> activity can be used to heal yourself to reduce the total damage if it's not enough to reduce it to 0.</p><p>The <strong>Redirect</strong> activity can be used to roll damage and consume a use of your Focus Points if you can reduce it to 0. You can select the type of damage in the roll dialog. The dice increase automatically as you level up.</p></section>",
+      "description": "<p>你現在可以使用你的撥擋攻擊特性對抗造成任何傷害類型的攻擊，而不僅限於鈍擊、穿刺或揮砍。</p><section class=\"secret\" id=\"secret-XAQmFmc4TpSF2Oh1\"><p><strong>撥擋</strong>行動可用於治療自己，以便在無法將傷害減至0時降低傷害總值。</p><p><strong>借力打力</strong>行動可用於擲傷害骰，並在你能將傷害減至0時消耗一次內力點的使用次數。你可以在擲骰對話框中選擇傷害類型，骰子會隨著你升級自動增加。</p></section>",
       "activities": {
         "Reduce": {
-          "name": "Reduce",
-          "condition": "When an attack roll hits you and its damage includes Bludgeoning, Piercing, or Slashing damage"
+          "name": "撥擋",
+          "condition": "當一個攻擊檢定命中你，並且其傷害包含鈍擊、穿刺或揮砍傷害時"
         },
         "Redirect": {
-          "name": "Redirect",
-          "condition": "If you reduce the damage to 0",
-          "target": "Isn't behind Total Cover",
-          "range": "5 feet for melee attacks or 60 feet for ranged attacks"
+          "name": "借力打力",
+          "condition": "若將傷害減至0",
+          "target": "不處於全掩蔽後",
+          "range": "近戰攻擊為5呎，遠程攻擊為60呎"
         }
       }
     },
     "Deft Explorer": {
       "name": "熟練探險家",
-      "description": "<p>得益於你的旅途，你獲得下列好處：</p><p><strong>【專精】</strong>選擇一個你熟練但不具備專精的技能，你獲得該技能的專精。</p><p><strong>【語言】</strong>你知曉兩種從第2章節的語言表中你所選擇的語言。</p><section class=\"secret\" id=\"secret-MKYXod5Sdpyj2x7V\"><p><strong>Foundry Note</strong></p><p>You will be prompted for choices when you add the Ranger class to your character sheet.</p></section>"
+      "description": "<p>得益於你的旅途，你獲得下列好處：</p><p><strong>【專精】</strong>選擇一個你熟練但不具備專精的技能，你獲得該技能的專精。</p><p><strong>【語言】</strong>你知曉兩種從第2章節的語言表中你所選擇的語言。</p><section class=\"secret\" id=\"secret-MKYXod5Sdpyj2x7V\"><p><strong>【Foundry註記】</strong></p><p>將遊俠職業加入你的角色卡時，系統會提示你進行選擇。</p></section>"
     },
     "Devil's Sight": {
       "name": "魔鬼視覺",
@@ -1532,16 +1532,16 @@
       }
     },
     "Disciplined Survivor": {
-      "name": "隨遇而安",
-      "description": "<p>Your physical and mental discipline grant you proficiency in all saving throws.</p><p>Additionally, whenever you make a saving throw and fail, you can expend 1 Focus Point to reroll it, and you must use the new roll.</p><section class=\"secret\" id=\"secret-VLGTfBDBcfExjSXG\"><p><strong>Foundry Note</strong></p><p>You will automatically be granted the additional Saving Throw proficiencies as you level up.</p><p>Use this feature to expend 1 Focus Point.</p></section>",
+      "name": "堅忍不拔",
+      "description": "<p>你的身心修行已然有所成就，你獲得所有豁免檢定的熟練。</p><p>此外，每當你進行豁免檢定失敗時，你能消耗1點內力重擲，你必須使用新的結果。</p><section class=\"secret\" id=\"secret-VLGTfBDBcfExjSXG\"><p><strong>【Foundry註記】</strong></p><p>使用此特性來消耗1點內力。</p></section>",
       "activities": {
         "Consume Focus Point": {
-          "name": "Consume Focus Point"
+          "name": "消耗內力點"
         }
       },
       "effects": {
         "Disciplined Survivor": {
-          "name": "Disciplined Survivor"
+          "name": "堅忍不拔"
         }
       }
     },
@@ -2077,10 +2077,10 @@
     },
     "Empowered Strikes": {
       "name": "真力注拳",
-      "description": "<p>每當你使用徒手打擊造成傷害時，你可以選擇造成力場傷害或其原本的傷害類型。</p><section class=\"secret\" id=\"secret-Hg8UeaCyLgncM7iJ\"><p><strong>Foundry Note</strong></p><p>The <strong>Empowered Strike</strong> activity on this feature can allows you to choose between Force and Bludgeoning damage in the roll dialog. It will remember your choice going forward.</p><p>It uses your Martial Arts Die (currently [[lookup @scale.monk.die]] for damage and will automatically update as you level up.</p></section>",
+      "description": "<p>每當你使用徒手打擊造成傷害時，你可以選擇造成力場傷害或其原本的傷害類型。</p><section class=\"secret\" id=\"secret-Hg8UeaCyLgncM7iJ\"><p><strong>【Foundry註記】</strong></p><p>此特性上的<strong>真力注拳</strong>行動可讓你在擲骰對話框中選擇力場或鈍擊傷害，並會記住你之後的選擇。</p><p>該行動目前使用你的武藝骰（目前為[[lookup @scale.monk.die]]）計算傷害，並會隨著你升級自動更新。</p></section>",
       "activities": {
         "Empowered Strike": {
-          "name": "Empowered Strike"
+          "name": "真力注拳"
         }
       }
     },
@@ -2100,7 +2100,7 @@
     },
     "Evasion": {
       "name": "反射閃避",
-      "description": "<p>You can nimbly dodge out of the way of certain dangers. When you’re subjected to an effect that allows you to make a Dexterity saving throw to take only half damage, you instead take no damage if you succeed on the saving throw and only half damage if you fail. You can’t use this feature if you have the Incapacitated condition.</p><section class=\"secret\" id=\"secret-mJSoikZHwVq6UUDf\"><p><strong>Foundry Note</strong></p><p>With your token selected you can either right click on the damage roll's chat card and select <span class=\"reference\"><em class=\"fas fa-user-shield\"> </em>Apply Half Damage</span> or click the \"1/2\" button and then the <span class=\"reference\"><em class=\"fa-solid fa-reply-all\"> </em>Apply</span> button.</p></section>"
+      "description": "<p>當你受到一個允許你進行敏捷豁免檢定來只承受一半傷害的效應影響時，你在豁免成功時不受傷害，豁免失敗時只承受一半傷害。</p><p>若你處於失能狀態，則你無法從此特性中受益。</p>"
     },
     "Evasive Footwork": {
       "name": "Evasive Footwork",
@@ -2214,10 +2214,10 @@
     },
     "Favored Enemy": {
       "name": "宿敵",
-      "description": "<p>你始終準備@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplHuntersMar]{獵人印記}法術。你可以不消耗法術位施放此法術兩次，並在你完成一次長休後恢復所有此能力的使用次數。</p><p>你可以不消耗法術位施放此法術的次數會在你達到特定的遊俠等級時增加，具體詳見遊俠特性表中的宿敵一欄。</p><section id=\"secret-cyuZuzwxsQg01vVN\" class=\"secret\"><p><strong>Foundry Note</strong></p><p>The spell is granted to you at this level and will increase the number of free uses available automatically as you level up.</p></section>",
+      "description": "<p>你始終準備@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplHuntersMar]{獵人印記}法術。你可以不消耗法術位施放此法術兩次，並在完成長休後重獲此能力的所有使用次數。</p><p>你可以不消耗法術位施放該法術的次數，會在你達到特定遊俠等級時增加，如遊俠特性表中的宿敵一欄所示。</p>",
       "advancement": {
         "Favored Enemy": {
-          "name": "Favored Enemy"
+          "name": "宿敵"
         }
       }
     },
@@ -2244,11 +2244,11 @@
       }
     },
     "Feral Senses": {
-      "name": "Feral Senses",
-      "description": "<p>Your connection to the forces of nature grants you Blindsight with a range of 30 feet.</p><section class=\"secret\" id=\"secret-g31kKSDLrDEpbpbo\"><p><strong>Foundry Note</strong></p><p>This feature includes an Active Effect which upgrades your Blindsight to 30 feet if you do not already have it.</p></section>",
+      "name": "野性感官",
+      "description": "<p>你與自然的連結賦予你範圍30呎的盲視。</p><section class=\"secret\" id=\"secret-g31kKSDLrDEpbpbo\"><p><strong>【Foundry註記】</strong></p><p>此特性包含一個 Active Effect，若你尚未擁有盲視，會將你的盲視提升30呎。</p></section>",
       "effects": {
         "Feral Senses": {
-          "name": "Feral Senses"
+          "name": "野性感官"
         }
       }
     },
@@ -2429,11 +2429,11 @@
       }
     },
     "Foe Slayer": {
-      "name": "Foe Slayer",
-      "description": "<p>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplHuntersMar]{Hunter’s Mark} is a d10 rather than a d6.</p><section id=\"secret-GUET2urq4zcuitcV\" class=\"secret\"><p><strong>Foundry Note</strong></p><p>You may use this feature in place of the <strong>Bonus Mark Damage</strong> activity on the <em>Hunter's Mark</em> spell.</p></section>",
+      "name": "眾敵屠戮",
+      "description": "<p>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplHuntersMar]{獵人印記}的額外傷害骰從d6變為d10。</p><section id=\"secret-GUET2urq4zcuitcV\" class=\"secret\"><p><strong>【Foundry註記】</strong></p><p>你可以使用此特性來取代<em>獵人印記</em>法術上的<strong>額外標記傷害</strong>行動。</p></section>",
       "activities": {
         "Improved Hunter's Mark Damage": {
-          "name": "Improved Hunter's Mark Damage"
+          "name": "強化獵人印記傷害"
         }
       }
     },
@@ -2666,14 +2666,14 @@
     },
     "Heightened Focus": {
       "name": "出神入化",
-      "description": "<p>Your Flurry of Blows, Patient Defense, and Step of the Wind gain the following benefits.</p><p><strong>Flurry of Blows.</strong> You can expend 1 Focus Point to use Flurry of Blows and make three Unarmed Strikes with it instead of two.</p><p><strong>Patient Defense.</strong> When you expend a Focus Point to use Patient Defense, you gain a number of Temporary Hit Points equal to two rolls of your Martial Arts die.</p><p><strong>Step of the Wind.</strong> When you expend a Focus Point to use Step of the Wind, you can choose a willing creature within 5 feet of yourself that is Large or smaller. You move the creature with you until the end of your turn. The creature's movement doesn't provoke Opportunity Attacks.</p><section class=\"secret\" id=\"secret-OnZBuksoGlTtaJJC\"><p><strong>Foundry Note</strong></p><p>The <strong>Flurry of Blows</strong> activity will expend 1 Focus Point and you can then make three Unarmed Strikes.</p><p>The <strong>Patient Defense</strong> activity will roll the Temporary Hit Points for you.</p></section>",
+      "description": "<p>你的疾風連擊、閃轉騰挪和疾步如風獲得下列好處。</p><p><strong>【疾風連擊】</strong>你可以消耗1點內力使用疾風連擊，並以其進行三次徒手打擊而非兩次。</p><p><strong>【閃轉騰挪】</strong>當你消耗內力點使用閃轉騰挪時，你獲得等同於你兩個武藝骰的臨時生命值。</p><p><strong>【疾步如風】</strong>當你消耗內力點使用疾步如風時，你可以選擇位於你5呎內一名體型為大型或更小的自願生物。直到你的回合結束前，該生物將一直隨你移動。該生物的移動不會引發藉機攻擊。</p><section class=\"secret\" id=\"secret-OnZBuksoGlTtaJJC\"><p><strong>【Foundry註記】</strong></p><p><strong>疾風連擊</strong>行動會消耗1點內力，之後你可以進行三次徒手打擊。</p><p><strong>閃轉騰挪</strong>行動會為你擲出臨時生命值。</p></section>",
       "activities": {
         "Flurry of Blows": {
-          "name": "Flurry of Blows"
+          "name": "疾風連擊"
         },
         "Patient Defense": {
-          "name": "Patient Defense",
-          "condition": "When you expend a Focus Point to use Patient Defense"
+          "name": "閃轉騰挪",
+          "condition": "當你消耗內力點使用閃轉騰挪時"
         }
       }
     },
@@ -3286,7 +3286,7 @@
     },
     "Martial Arts": {
       "name": "武藝",
-      "description": "<p>你的武術訓練讓你掌握了使用徒手打擊和武僧武器的作戰方式，而武僧武器包括下列類型：</p><ul><li>簡易近戰武器</li><li>具有輕型屬性的軍用近戰武器</li></ul><p>當你徒手或僅使用武僧武器，並且未著裝護甲或持盾時，你獲得下列好處。</p><p><strong>【額外徒手打擊】</strong>你能以附贈動作進行一次徒手打擊</p><p><strong>【武藝骰】</strong>你可以使用1d6代替你徒手打擊和武僧武器的正常傷害。此傷害骰會在你達到特定的武僧等級後增加，如武僧特性表中的武藝一欄所示。</p><p><strong>當前武藝骰：</strong>[[lookup @scale.monk.die]]</p><p><strong>【敏捷攻擊】</strong>你可以使用敏捷調整值而非力量調整值進行徒手打擊和武僧武器的攻擊和傷害骰。此外，當你使用徒手打擊的推撞或擒抱選項時，你也可以使用敏捷調整值代替力量調整值來計算豁免DC。</p><section class=\"secret\" id=\"secret-krbGYn2lplFe7kOG\"><p><strong>Foundry Note</strong></p><p>This feature includes activities for enchanting a weapon which adds a <strong>Monk Attack</strong> activity to it that integrates the changes mentioned above.</p></section>",
+      "description": "<p>你的武術訓練讓你掌握了使用徒手打擊和武僧武器的作戰方式，而武僧武器包括下列類型：</p><ul><li>簡易近戰武器</li><li>具有輕型屬性的軍用近戰武器</li></ul><p>當你徒手或僅使用武僧武器，並且未穿戴護甲或握持盾牌時，你獲得下列好處。</p><p><strong>【額外徒手打擊】</strong>你能以附贈動作進行一次徒手打擊</p><p><strong>【武藝骰】</strong>你可以使用1d6代替你徒手打擊和武僧武器的正常傷害。此傷害骰會在你達到特定的武僧等級後增加，如武僧特性表中的武藝一欄所示。</p><p><strong>當前武藝骰：</strong>[[lookup @scale.monk.die]]</p><p><strong>【敏捷攻擊】</strong>你可以使用敏捷調整值而非力量調整值進行徒手打擊和武僧武器的攻擊和傷害骰。此外，當你使用徒手打擊的推撞或擒抱選項時，你也可以使用敏捷調整值代替力量調整值來計算豁免DC。</p><section class=\"secret\" id=\"secret-krbGYn2lplFe7kOG\"><p><strong>【Foundry註記】</strong></p><p>此特性包含用於為武器附魔的行動，會為該武器加入整合上述變化的<strong>武僧攻擊</strong>行動。</p></section>",
       "activities": {
         "Master Simple Weapon": {
           "name": "武僧武器（簡易武器）"
@@ -3303,12 +3303,12 @@
           "name": "武藝"
         },
         "Dexterous Attacks & Martial Arts Damage": {
-          "name": "Dexterous Attacks & Martial Arts Damage",
+          "name": "敏捷攻擊與武藝傷害",
           "changes": {
             "name": "{} (Martial Arts)",
-            "3": "{} (Martial Arts)"
+            "3": "武藝．{}"
           },
-          "description": "<p><strong>Martial Arts Die.</strong> You can roll [[lookup @scale.monk.die]] in place of the normal damage of your Unarmed Strike or Monk weapons. This die changes as you gain Monk levels, as shown in the Martial Arts column of the Monk Features table.</p><p><strong>Dexterous Attacks.</strong> You can use your Dexterity modifier instead of your Strength modifier for the attack and damage rolls of your Unarmed Strikes and Monk weapons. In addition, when you use the Grapple or Shove option of your Unarmed Strike, you can use your Dexterity modifier instead of your Strength modifier to determine the save DC.</p><p></p>"
+          "description": "<p><strong>【武藝骰】</strong>你可以使用[[lookup @scale.monk.die]]代替你徒手打擊和武僧武器的正常傷害。此傷害骰會在你達到特定的武僧等級後增加，如武僧特性表中的武藝一欄所示。</p><p><strong>【敏捷攻擊】</strong>你可以使用敏捷調整值而非力量調整值進行徒手打擊和武僧武器的攻擊和傷害骰。此外，當你使用徒手打擊的推撞或擒抱選項時，你也可以使用敏捷調整值代替力量調整值來計算豁免DC。</p><p></p>"
         }
       }
     },
@@ -3447,55 +3447,55 @@
       "advancement": {
         "Focus Points": {
           "title": "內力點",
-          "name": "Focus Points"
+          "name": "內力點"
         },
         "Class Features": {
           "title": "職業特性",
-          "name": "Class Features"
+          "name": "職業特性"
         },
         "Body and Mind": {
           "title": "天人合一"
         },
         "Martial Arts Die": {
           "title": "武藝骰",
-          "name": "Martial Arts Die"
+          "name": "武藝骰"
         },
         "Unarmored Movement": {
           "title": "無甲移動",
-          "name": "Unarmored Movement"
+          "name": "無甲移動"
         },
         "Disciplined Survivor": {
           "title": "物我合一"
         },
         "Epic Boon": {
           "title": "傳奇恩惠",
-          "name": "Epic Boon"
+          "name": "傳奇恩惠"
         },
         "Saving Throw Proficiencies": {
           "title": "豁免檢定熟練",
-          "name": "Saving Throw Proficiencies"
+          "name": "豁免檢定熟練"
         },
         "Skill Proficiencies": {
           "title": "技能熟練",
-          "name": "Skill Proficiencies"
+          "name": "技能熟練"
         },
         "Weapon Proficiencies": {
           "title": "武器熟練",
-          "name": "Weapon Proficiencies"
+          "name": "武器熟練"
         },
         "Tool Proficiencies": {
           "title": "工具熟練",
-          "name": "Tool Proficiencies"
+          "name": "工具熟練"
         }
       }
     },
     "Monk's Focus": {
       "name": "武僧內功",
-      "description": "<p>你的心法以及武藝的訓練，使你得以掌握自身非凡的能量，而內力點則代表著這股能量。你的武僧等級將決定你擁有多少內力點，具體內力點詳見武僧特性表。</p><p>你可以消耗內力點以增強或啟用特定的武僧特性，你一開始知曉三個這類特性：疾風連擊、堅強防禦、行步如風。能力細節詳見下方。</p><p>當你消耗1點內力時，直到你完成一次長休或短休時，該內力點都無法再使用。在完成長休或短休後，你將重獲所有已消耗的內力點。</p><p>某些使用內力點的特性需要目標進行豁免檢定。豁免DC = 8+你的感知調整值+你的熟練加值。</p><p><strong>【疾風連擊】</strong>你可以消耗1內力點以附贈動作進行兩次徒手打擊。</p><p><strong>【閃轉騰挪】</strong>你能以附贈動作採取撤離動作。或者，你可以消耗1內力點，以附贈動作同時採取撤離和迴避兩個動作。</p><p><strong>【疾步如風】</strong>你能以附贈動作採取疾走動作。或者，你可以消耗1內力點，以附贈動作同時採取撤離和疾走兩個動作，且該回合內你的跳躍距離翻倍。</p><section class=\"secret\" id=\"secret-Kb8gEVefEUz6IHer\"><p><strong>Foundry Note</strong></p><p>The <strong>Flurry of Blows</strong> activity is a Bonus Action which expends a Focus Point and includes the Attack Roll and Damage for an Unarmored Strike using your Martial Arts Die which automatically scales as you level up.</p><p>The <strong>Patient Defense</strong> Bonus Action activity includes an Active Effect for tracking that you're Disengaged. The <strong>Patient Defense (Focus Point)</strong> activity expends a Focus Point and includes an Active Effect that adds the Dodging status.</p><p>The <strong>Step of the Wind</strong> Bonus Action activity expends 1 Focus Point and includes an Active Effect for tracking that you're Disengaged.</p></section>",
+      "description": "<p>你的心法以及武藝的訓練，使你得以掌握自身非凡的能量，而內力點則代表著這股能量。你的武僧等級將決定你擁有多少內力點，具體內力點詳見武僧特性表。</p><p>你可以消耗內力點以增強或啟用特定的武僧特性，你一開始知曉三個這類特性：疾風連擊、堅強防禦、疾步如風。能力細節詳見下方。</p><p>當你消耗1點內力時，直到你完成一次長休或短休時，該內力點都無法再使用。在完成長休或短休後，你將重獲所有已消耗的內力點。</p><p>某些使用內力點的特性需要目標進行豁免檢定。豁免DC為8 + 你的感知調整值 + 你的熟練加值。</p><p><strong>【疾風連擊】</strong>你可以消耗1點內力以附贈動作進行兩次徒手打擊。</p><p><strong>【閃轉騰挪】</strong>你能以附贈動作採取撤離動作。或者，你可以消耗1點內力，以附贈動作同時採取撤離和迴避兩個動作。</p><p><strong>【疾步如風】</strong>你能以附贈動作採取疾走動作。或者，你可以消耗1點內力，以附贈動作同時採取撤離和疾走兩個動作，且該回合內你的跳躍距離翻倍。</p><section class=\"secret\" id=\"secret-Kb8gEVefEUz6IHer\"><p><strong>【Foundry註記】</strong></p><p><strong>疾風連擊</strong>行動為附贈動作，會消耗1點內力，並包含以你的武藝骰（會隨著你升級自動成長）進行徒手打擊的攻擊檢定與傷害。若你的[[/item Unarmed Strike]]受其他魔法物品影響，你可以使用<strong>消耗內力點</strong>行動，然後照常使用你的徒手打擊。</p><p><strong>閃轉騰挪</strong>附贈動作行動包含一個用於追蹤你處於撤離狀態的 Active Effect。<strong>閃轉騰挪（內力點）</strong>行動會消耗1點內力，並包含一個附加迴避狀態的 Active Effect。</p><p><strong>疾步如風</strong>附贈動作行動會消耗1點內力，並包含一個用於追蹤你處於撤離狀態的 Active Effect。</p></section>",
       "activities": {
         "Flurry of Blows": {
           "name": "疾風連擊",
-          "chatFlavor": "Make two [[/item Unarmed Strike]]{Unarmed Strikes}"
+          "chatFlavor": "進行兩次[[/item Unarmed Strike]]{徒手打擊}"
         },
         "Patient Defense (Focus Point)": {
           "name": "閃轉騰挪（內力點）"
@@ -3512,7 +3512,7 @@
       },
       "effects": {
         "Patient Defense (Focus Point)": {
-          "name": "疾步如風（內力點）"
+          "name": "閃轉騰挪（內力點）"
         },
         "Disengaged": {
           "name": "撤離"
@@ -3585,16 +3585,16 @@
       }
     },
     "Nature's Veil": {
-      "name": "Nature's Veil",
-      "description": "<p>You invoke spirits of nature to magically hide yourself. As a Bonus Action, you can give yourself the Invisible condition until the end of your next turn.</p><p>You can use this feature a number of times equal to your Wisdom modifier (minimum of once), and you regain all expended uses when you finish a Long Rest.</p><section id=\"secret-CrVc4y9VaKTGeCuG\" class=\"secret\"><p><strong>Foundry Note</strong></p><p>This feature includes an Active Effect which applies the Invisible condition.</p></section>",
+      "name": "自然面紗",
+      "description": "<p>你祈喚自然精魂，有如魔法般地將自己隱藏起來。以一個附贈動作，你可以進入隱形狀態，持續到你的下個回合結束。</p><p>你可以使用此特性的次數等同於你的感知調整值（最少一次），完成長休時，你重獲全部已消耗的使用次數。</p><section id=\"secret-CrVc4y9VaKTGeCuG\" class=\"secret\"><p><strong>【Foundry註記】</strong></p><p>此特性包含一個賦予隱形狀態的 Active Effect。</p></section>",
       "activities": {
         "Veil": {
-          "name": "Veil"
+          "name": "面紗"
         }
       },
       "effects": {
         "Veiled": {
-          "name": "Veiled"
+          "name": "隱蔽"
         }
       }
     },
@@ -3973,8 +3973,8 @@
       }
     },
     "Perfect Focus": {
-      "name": "心無旁騖",
-      "description": "<p>When you roll Initiative and don't use Uncanny Metabolism, you regain expended Focus Points until you have 4 if you have 3 or fewer.</p><section id=\"secret-BCqdmLkKRacPf9tr\" class=\"secret\"><p><strong>Foundry Note</strong></p><p>This feature does not automatically regain the expended Focus Points.</p></section>"
+      "name": "明鏡止水",
+      "description": "<p>當你擲先攻且未使用周天運轉時，若你的內力點為3點或更少，則你的內力點恢復至4點。</p><section id=\"secret-BCqdmLkKRacPf9tr\" class=\"secret\"><p><strong>【Foundry註記】</strong></p><p>此特性不會自動重獲已消耗的內力點。</p></section>"
     },
     "Persistent Rage": {
       "name": "持久狂暴",
@@ -4050,8 +4050,8 @@
       }
     },
     "Precise Hunter": {
-      "name": "Precise Hunter",
-      "description": "<p>You have Advantage on attack rolls against the creature currently marked by your Hunter’s Mark.</p>"
+      "name": "致命獵殺",
+      "description": "<p>你對目前被你的獵人印記標記的生物進行攻擊檢定時具有優勢。</p>"
     },
     "Precision Attack": {
       "name": "Precision Attack",
@@ -4383,59 +4383,59 @@
     },
     "Ranger": {
       "name": "遊俠",
-      "description": "<blockquote><p>身懷原初魔法的流浪武者</p></blockquote><h3>遊俠核心特徵</h3><table class=\"core-class-traits\"><tbody><tr><th scope=\"row\"><p><strong>關鍵屬性</strong></p></th><td><p>敏捷和感知</p></td></tr><tr><th scope=\"row\"><p><strong>生命骰</strong></p></th><td><p>每遊俠等級D10</p></td></tr><tr><th scope=\"row\"><p><strong>豁免熟練</strong></p></th><td><p>力量與敏捷</p></td></tr><tr><th scope=\"row\"><p><strong>技能熟練</strong></p></th><td><p>從馴獸、運動、洞悉、調查、自然、察覺、隱匿和求生中<em>選擇3項</em></p></td></tr><tr><th scope=\"row\"><p><strong>武器熟練</strong></p></th><td><p>簡易和軍用武器</p></td></tr><tr><th scope=\"row\"><p><strong>護甲訓練</strong></p></th><td><p>輕甲、中甲、盾牌</p></td></tr><tr><th scope=\"row\"><p><strong>起始裝備</strong></p></th><td><p><em>選擇A或B： </em>(A) @UUID[Compendium.dnd-players-handbook.equipment.Item.phbarmStuddedLea]、@UUID[Compendium.dnd-players-handbook.equipment.Item.phbwepScimitar00]、@UUID[Compendium.dnd-players-handbook.equipment.Item.phbwepShortsword]、@UUID[Compendium.dnd-players-handbook.equipment.Item.phbwepLongbow000]、20支@UUID[Compendium.dnd-players-handbook.equipment.Item.phbamoArrows0000]、@UUID[Compendium.dnd-players-handbook.equipment.Item.phbagQuiver00000]、@UUID[Compendium.dnd-players-handbook.equipment.Item.phbagDruidicFocu]（@UUID[Compendium.dnd-players-handbook.equipment.Item.phbdfcSprigofmis]）、@UUID[Compendium.dnd-players-handbook.equipment.Item.phbagExplorersPa]、[[/award 7GP]]；(B) [[/award 150GP]]</p></td></tr></tbody></table><p>離開城鎮的喧囂，即是茂密的森林和廣袤的原野。這正是遊俠們進行無盡守望之地。他們向掠食者們學習如何追蹤獵物，借助荒野中的灌木叢和碎石在陰影中潛行。</p><p>熟悉荒野的遊俠們得以利用自然之力施展法術。為保護世界免受魔物和暴君的破壞，遊俠們的天賦和魔法往往都需要經歷刀口舔血般的磨練。</p><h2>成為遊俠…</h2><h3>作為首級角色</h3><ul><li>獲得遊俠核心特徵表中的所有特徵。</li><li>獲得遊俠特性表中列出的1級特性。</li></ul><h3>作為兼職角色</h3><ul><li>獲得遊俠核心特徵表中的以下特徵：生命骰，軍用武器熟練，遊俠技能熟練中選擇其一，以及輕甲、中甲、盾牌訓練。</li><li>獲得遊俠特性表中列出的1級特性。請參閱第2章的兼職規則以確定可用的法術位。</li></ul>",
+      "description": "<blockquote><p>身懷原初魔法的流浪武者</p></blockquote><h3>遊俠核心特徵</h3><table class=\"core-class-traits\"><tbody><tr><th scope=\"row\"><p><strong>關鍵屬性</strong></p></th><td><p>敏捷和感知</p></td></tr><tr><th scope=\"row\"><p><strong>生命骰</strong></p></th><td><p>每遊俠等級D10</p></td></tr><tr><th scope=\"row\"><p><strong>豁免熟練</strong></p></th><td><p>力量與敏捷</p></td></tr><tr><th scope=\"row\"><p><strong>技能熟練</strong></p></th><td><p>從馴獸、運動、洞悉、調查、自然、察覺、隱匿和求生中<em>選擇3項</em></p></td></tr><tr><th scope=\"row\"><p><strong>武器熟練</strong></p></th><td><p>簡易和軍用武器</p></td></tr><tr><th scope=\"row\"><p><strong>護甲訓練</strong></p></th><td><p>輕甲、中甲、盾牌</p></td></tr><tr><th scope=\"row\"><p><strong>起始裝備</strong></p></th><td><p><em>選擇A或B： </em>(A) @UUID[Compendium.dnd-players-handbook.equipment.Item.phbarmStuddedLea]{鑲釘皮甲}、@UUID[Compendium.dnd-players-handbook.equipment.Item.phbwepScimitar00]{彎刀}、@UUID[Compendium.dnd-players-handbook.equipment.Item.phbwepShortsword]{短劍}、@UUID[Compendium.dnd-players-handbook.equipment.Item.phbwepLongbow000]{長弓}、20支@UUID[Compendium.dnd-players-handbook.equipment.Item.phbamoArrows0000]{箭矢}、@UUID[Compendium.dnd-players-handbook.equipment.Item.phbagQuiver00000]{箭袋}、@UUID[Compendium.dnd-players-handbook.equipment.Item.phbagDruidicFocu]{德魯伊法器（多類）}（@UUID[Compendium.dnd-players-handbook.equipment.Item.phbdfcSprigofmis]{槲寄生枝}）、@UUID[Compendium.dnd-players-handbook.equipment.Item.phbagExplorersPa]{探索者套裝}、[[/award 7GP]]；(B) [[/award 150GP]]</p></td></tr></tbody></table><p>離開城鎮的喧囂，即是茂密的森林和廣袤的原野。這正是遊俠們進行無盡守望之地。他們向掠食者們學習如何追蹤獵物，借助荒野中的灌木叢和碎石在陰影中潛行。</p><p>熟悉荒野的遊俠們得以利用自然之力施放法術。為保護世界免受魔物和暴君的破壞，遊俠們的天賦和魔法往往都需要經歷刀口舔血般的磨練。</p><h2>成為遊俠…</h2><h3>作為首級角色</h3><ul><li>獲得遊俠核心特徵表中的所有特徵。</li><li>獲得遊俠特性表中列出的1級特性。</li></ul><h3>作為兼職角色</h3><ul><li>獲得遊俠核心特徵表中的下列特徵：生命骰，軍用武器熟練，遊俠技能熟練中選擇其一，以及輕甲、中甲、盾牌訓練。</li><li>獲得遊俠特性表中列出的1級特性。請參閱第2章的兼職規則以確定可用的法術位。</li></ul>",
       "advancement": {
         "Armor Training": {
           "title": "護甲訓練",
-          "name": "Armor Training"
+          "name": "護甲訓練"
         },
         "Class Features": {
           "title": "職業特性",
-          "name": "Class Features"
+          "name": "職業特性"
         },
         "Expertise": {
           "title": "專精",
-          "name": "Expertise"
+          "name": "專精"
         },
         "Favored Enemy": {
           "title": "宿敵",
-          "name": "Favored Enemy"
+          "name": "宿敵"
         },
         "Deft Explorer": {
           "title": "熟練探險家",
-          "name": "Deft Explorer"
+          "name": "熟練探險家"
         },
         "Epic Boon": {
           "title": "傳奇恩惠",
-          "name": "Epic Boon"
+          "name": "傳奇恩惠"
         },
         "Hunter's Mark Damage": {
           "title": "獵人印記傷害",
-          "name": "Hunter's Mark Damage"
+          "name": "獵人印記傷害"
         },
         "Max Prepared Spells": {
           "title": "最大準備法術",
-          "name": "Max Prepared Spells"
+          "name": "最大準備法術"
         },
         "Saving Throw Proficiencies": {
           "title": "豁免檢定熟練",
-          "name": "Saving Throw Proficiencies"
+          "name": "豁免檢定熟練"
         },
         "Skill Proficiencies": {
           "title": "技能熟練",
-          "name": "Skill Proficiencies"
+          "name": "技能熟練"
         },
         "Weapon Proficiencies": {
           "title": "武器熟練",
-          "name": "Weapon Proficiencies"
+          "name": "武器熟練"
         },
         "Fighting Style": {
           "title": "戰鬥風格",
-          "name": "Fighting Style"
+          "name": "戰鬥風格"
         },
         "Weapon Mastery": {
           "title": "武器精通",
-          "name": "Weapon Mastery"
+          "name": "武器精通"
         }
       }
     },
@@ -4467,8 +4467,8 @@
       }
     },
     "Relentless Hunter": {
-      "name": "Relentless Hunter",
-      "description": "<p>Taking damage can’t break your Concentration on Hunter’s Mark.</p>"
+      "name": "永恆追獵",
+      "description": "<p>承受傷害不會打斷你對獵人印記的專注。</p>"
     },
     "Relentless Rage": {
       "name": "堅韌狂暴",
@@ -4658,11 +4658,11 @@
       }
     },
     "Roving": {
-      "name": "Roving",
-      "description": "<p>Your Speed increases by 10 feet while you aren’t wearing Heavy armor. You also have a Climb Speed and a Swim Speed equal to your Speed.</p><section class=\"secret\" id=\"secret-XnQYiG0fJWJSHkQw\"><p><strong>Foundry Note</strong></p><p>This feature includes an Active Effect which increases your Speed by 10 feet. It does not automatically grant an equivalent Climb and Swim Speed though. It can be disabled if you choose to wear Heavy armor.</p></section>",
+      "name": "越野",
+      "description": "<p>只要你未穿戴重甲，你的速度提升10呎。你也獲得等同於你速度的攀爬速度和游泳速度。</p><section class=\"secret\" id=\"secret-XnQYiG0fJWJSHkQw\"><p><strong>【Foundry註記】</strong></p><p>此特性包含一個 Active Effect，若你穿戴重甲，可將其停用。</p></section>",
       "effects": {
         "Roving": {
-          "name": "Roving"
+          "name": "越野"
         }
       }
     },
@@ -4741,7 +4741,7 @@
     },
     "Self-Restoration": {
       "name": "還元返本",
-      "description": "<p>Through sheer force of will, you can remove one of the following conditions from yourself at the end of each of your turns: &amp;Reference[Charmed apply=false], &amp;Reference[Frightened apply=false], or &amp;Reference[Poisoned apply=false].</p><p>In addition, forgoing food and drink doesn't give you levels of &amp;Reference[Exhaustion apply=false].</p>"
+      "description": "<p>憑藉純粹的意志，你能夠在你的每個回合結束時移除你身上的下列狀態之一：&amp;Reference[Charmed apply=false]{魅惑}、&amp;Reference[Frightened apply=false]{恐慌}或&amp;Reference[Poisoned apply=false]{中毒}。</p><p>此外，不吃不喝不再會使你提升&amp;Reference[Exhaustion apply=false]{力竭}等級。</p>"
     },
     "Shadow Arts": {
       "name": "影之技藝",
@@ -4819,10 +4819,10 @@
     },
     "Slow Fall": {
       "name": "輕身墜",
-      "description": "<p>當你墜落時，你可以採取一個反應將任何你所受到的墜落傷害減少等同於你武僧等級五倍的數值。</p><section id=\"secret-VRAItEYXrZxp3s8Z\" class=\"secret\"><p><strong>Foundry Note</strong></p><p>This feature includes a <strong>Reduce</strong> activity which can be used to restore lost Hit Points equal to five times your Monk level.</p></section>",
+      "description": "<p>當你墜落時，你可以採取一個反應將任何你所受到的墜落傷害減少等同於你武僧等級五倍的數值。</p><section id=\"secret-VRAItEYXrZxp3s8Z\" class=\"secret\"><p><strong>【Foundry註記】</strong></p><p>此特性包含一個<strong>減少傷害</strong>行動，可用來恢復等同於你武僧等級五倍的已損失生命值。</p></section>",
       "activities": {
         "Reduce": {
-          "name": "Reduce"
+          "name": "減少傷害"
         }
       }
     },
@@ -5101,18 +5101,18 @@
     },
     "Stunning Strike": {
       "name": "震懾拳",
-      "description": "<p>Once per turn when you hit a creature with a Monk weapon or an Unarmed Strike, you can expend 1 Focus Point to attempt a stunning strike. The target must make a Constitution saving throw. On a failed save, the target has the Stunned condition until the start of your next turn. On a successful save, the target's Speed is halved until the start of your next turn, and the next attack roll made against the target before then has Advantage.</p><section class=\"secret\" id=\"secret-bfJBOqZfcoIiBtoP\"><p><strong>Foundry Note</strong></p><p>This feature includes the Saving Throw and a Stunned Active Effect which applies the Stunned status if they fail and a Slowed Active Effect for tracking that their Speed is halved and that the next attack roll made against them has Advantage if they succeed.</p></section>",
+      "description": "<p>每回合一次，當你使用徒手打擊或武僧武器命中一個生物時，你可以消耗1點內力嘗試發動震懾拳。目標必須進行一次體質豁免檢定，豁免失敗則陷入&amp;Reference[Stunned apply=false]{震懾}狀態，直到你的下個回合開始。若豁免成功，則目標的速度減半，直到你的下個回合開始，並且下一次對該目標進行的攻擊檢定具有優勢。</p><section class=\"secret\" id=\"secret-bfJBOqZfcoIiBtoP\"><p><strong>【Foundry註記】</strong></p><p>此特性包含豁免檢定，以及一個在豁免失敗時賦予震懾狀態的 Active Effect，並包含一個在豁免成功時用於追蹤目標速度減半及下一次對其進行的攻擊檢定具有優勢的 Active Effect。</p></section>",
       "effects": {
         "Stunned": {
-          "name": "Stunned"
+          "name": "震懾"
         },
         "Slowed": {
-          "name": "Slowed"
+          "name": "減速"
         }
       },
       "activities": {
         "save": {
-          "condition": "Once per turn when you hit a creature with a Monk weapon or an Unarmed Strike"
+          "condition": "每回合一次，當你使用徒手打擊或武僧武器命中一個生物時"
         }
       }
     },
@@ -5136,16 +5136,16 @@
       }
     },
     "Superior Defense": {
-      "name": "Superior Defense",
-      "description": "<p>At the start of your turn, you can expend 3 Focus Points to bolster yourself against harm for 1 minute or until you have the Incapacitated condition. During that time, you have Resistance to all damage except Force damage.</p><section id=\"secret-jojCvqn1dDjsyTzI\" class=\"secret\"><p><strong>Foundry Note</strong></p><p>This feature will expend 3 Focus Points and includes an Active Effect which will apply the relevant Resistances.</p></section>",
+      "name": "無懈可擊",
+      "description": "<p>在你的回合開始時，你可以消耗3點內力提高自己抵擋傷害的能力，持續1分鐘或直到你陷入失能狀態。在此期間，你對力場傷害之外的所有傷害都具有抗力。</p><section id=\"secret-jojCvqn1dDjsyTzI\" class=\"secret\"><p><strong>【Foundry註記】</strong></p><p>此特性會消耗3點內力，並包含一個套用相應抗力的 Active Effect。</p></section>",
       "activities": {
         "utility": {
-          "condition": "At the start of your turn"
+          "condition": "在你的回合開始時"
         }
       },
       "effects": {
         "Superior Defense": {
-          "name": "Superior Defense"
+          "name": "無懈可擊"
         }
       }
     },
@@ -5424,15 +5424,15 @@
       }
     },
     "Tireless": {
-      "name": "Tireless",
-      "description": "<p>Primal forces now help fuel you on your journeys, granting you the following benefits.</p><p><strong>Temporary Hit Points.</strong> As a Magic action, you can give yourself a number of Temporary Hit Points equal to 1d8 plus your Wisdom modifier (minimum of 1). You can use this action a number of times equal to your Wisdom modifier (minimum of once), and you regain all expended uses when you finish a Long Rest.</p><p><strong>Decrease Exhaustion.</strong> Whenever you finish a Short Rest, your Exhaustion level, if any, decreases by 1.</p><section id=\"secret-wlhwV2MDwGKQ8plw\" class=\"secret\"><p><strong>Foundry Note</strong></p><p>The <strong>Temporary Hit Points</strong> activity can apply the Temporary Hit Points to you.</p><p>The <strong>Decrease Exhaustion</strong> activity will decrease your Exhaustion.</p></section>",
+      "name": "不知疲倦",
+      "description": "<p>原初的力量現在會幫你重整旗鼓，重新踏上旅途，並使你獲得下列好處。</p><p><strong>【臨時生命值】</strong>作為魔法動作，你能夠給予自己等同於 1d8 + 你的感知調整值（最少為1）的臨時生命值。你能夠使用此動作的次數等同於你的感知調整值（最少一次），當你完成長休時，你重獲所有已消耗的使用次數。</p><p><strong>【減少力竭】</strong>每當你完成短休時，你的力竭等級（若有）減少1級。</p><section id=\"secret-wlhwV2MDwGKQ8plw\" class=\"secret\"><p><strong>【Foundry註記】</strong></p><p><strong>臨時生命值</strong>行動可以將臨時生命值套用在你身上。</p><p><strong>減少力竭</strong>行動會降低你的力竭等級。</p></section>",
       "activities": {
         "Temporary Hit Points": {
-          "name": "Temporary Hit Points"
+          "name": "臨時生命值"
         },
         "Decrease Exhaustion": {
-          "name": "Decrease Exhaustion",
-          "condition": "Whenever you finish a Short Rest"
+          "name": "減少力竭",
+          "condition": "每當你完成短休時"
         }
       }
     },
@@ -5588,7 +5588,7 @@
     },
     "Unarmored Movement": {
       "name": "無甲移動",
-      "description": "<p>未穿戴任何護甲與持握盾牌時，你的移動速度增加10呎。該加值將隨著武僧等級的提升而增加，具體數值詳見武僧特性表。</p><p><strong>當前提升：</strong> [[lookup @scale.monk.unarmored-movement]]</p><section id=\"secret-2fH97uVacHRVqDCo\" class=\"secret\"><p><strong>Foundry Note</strong></p><p>This feature includes an Unarmored Movement Active Effect which adds 10 feet to your Movement. It can not automatically update as you level up though. You can edit the value to match your current increase.</p></section>",
+      "description": "<p>未穿戴任何護甲與持握盾牌時，你的移動速度增加10呎。該加值將隨著武僧等級的提升而增加，具體數值詳見武僧特性表。</p><p class=\"hide-in-embed\"><strong>當前提升：</strong> [[lookup @scale.monk.unarmored-movement]]</p>",
       "effects": {
         "Unarmored Movement": {
           "name": "無甲移動"
@@ -5627,11 +5627,11 @@
       }
     },
     "Uncanny Metabolism": {
-      "name": "運氣入化",
-      "description": "<p>當你骰先攻時，你可以恢復所有已消耗的內力點。當你這麼做時，投擲你的武藝骰，並恢復等同於你武僧等級加上武藝骰結果的生命值。</p><p>一旦你使用此特性，直到你完成一次長休前無法再次使用。</p><section id=\"secret-KTgTyrtJJBs1nIDS\" class=\"secret\"><p><strong>Foundry Note</strong></p><p>Using this feature will restore all expended Focus Points and offers a Healing roll for restoring your Hit Points. It includes a single free use per Long Rest.</p></section>",
+      "name": "周天運轉",
+      "description": "<p>當你骰先攻時，你可以恢復所有已消耗的內力點。當你這麼做時，投擲你的武藝骰，並恢復等同於你武僧等級加上武藝骰結果的生命值。</p><p>一旦你使用此特性，直到你完成一次長休前無法再次使用。</p><section id=\"secret-KTgTyrtJJBs1nIDS\" class=\"secret\"><p><strong>【Foundry註記】</strong></p><p>使用此特性會重獲所有已消耗的內力點，並提供用於恢復生命值的治療擲骰。每次長休包含一次免費使用。</p></section>",
       "activities": {
         "Uncanny Metabolism": {
-          "name": "運氣入化",
+          "name": "周天運轉",
           "condition": "當你擲先攻時"
         }
       }
@@ -6138,7 +6138,7 @@
           "name": "無甲防禦"
         }
       },
-      "description": "<p>While you aren't wearing armor or wielding a Shield, your base Armor Class equals 10 plus your Dexterity and Wisdom modifiers.</p><section class=\"secret\" id=\"secret-yjsIRRlbUz035Dnj\"><p><strong>Foundry Note</strong></p><p>This feature includes an Active Effect which updates your Armor Class.</p></section>"
+      "description": "<p>若你未穿戴任何護甲且未握持盾牌，你的基礎護甲等級等同於10 + 你的敏捷調整值 + 你的感知調整值。</p><section class=\"secret\" id=\"secret-yjsIRRlbUz035Dnj\"><p><strong>【Foundry註記】</strong></p><p>此特性包含一個更新你護甲等級的 Active Effect。</p></section>"
     },
     "phbrgeWeaponMast": {
       "name": "武器精通",
@@ -6168,7 +6168,7 @@
     },
     "phbmnkEpicBoon00": {
       "name": "傳奇恩惠",
-      "description": "<p>You gain an @UUID[Compendium.dnd-players-handbook.content.JournalEntry.phbFeats00000000.JournalEntryPage.GxfrwkJbrIvn7reC]{Epic Boon feat} or another feat of your choice for which you qualify. @UUID[Compendium.dnd-players-handbook.content.JournalEntry.phbFeats00000000.JournalEntryPage.GxfrwkJbrIvn7reC#boon-of-irresistible-offense]{Boon of Irresistible Offense} is recommended.</p><section id=\"secret-jF1SP5ddqgocevbp\" class=\"secret\"><p><strong>Foundry Note</strong></p><p>You will be prompted for a choice while leveling up.</p></section>"
+      "description": "<p>你獲得一項@UUID[Compendium.dnd-players-handbook.content.JournalEntry.phbFeats00000000.JournalEntryPage.GxfrwkJbrIvn7reC]{傳奇恩惠專長}，或另一項你所選擇且符合先決條件的專長。推薦選擇@UUID[Compendium.dnd-players-handbook.content.JournalEntry.phbFeats00000000.JournalEntryPage.GxfrwkJbrIvn7reC#boon-of-irresistible-offense]{無敵攻勢恩惠}。</p><section id=\"secret-jF1SP5ddqgocevbp\" class=\"secret\"><p><strong>【Foundry註記】</strong></p><p>升級時，系統會提示你進行選擇。</p></section>"
     },
     "phbpdnEpicBoon00": {
       "name": "傳奇恩惠",
@@ -6180,7 +6180,7 @@
     },
     "phbrgrEpicBoon00": {
       "name": "傳奇恩惠",
-      "description": "<p>You gain an @UUID[Compendium.dnd-players-handbook.content.JournalEntry.phbFeats00000000.JournalEntryPage.GxfrwkJbrIvn7reC]{Epic Boon feat} or another feat of your choice for which you qualify. @UUID[Compendium.dnd-players-handbook.feats.Item.phbBoonofDimensi]{Boon of Dimensional Travel} is recommended.</p><section id=\"secret-YoYODjOrhZ9UwOVg\" class=\"secret\"><p><strong>Foundry Note</strong></p><p>You will be prompted for a choice while leveling up.</p></section>"
+      "description": "<p>你獲得一項@UUID[Compendium.dnd-players-handbook.content.JournalEntry.phbFeats00000000.JournalEntryPage.GxfrwkJbrIvn7reC]{傳奇恩惠專長}，或另一項你所選擇且符合先決條件的專長。推薦選擇@UUID[Compendium.dnd-players-handbook.feats.Item.phbBoonofDimensi]{次元旅行恩惠}。</p><section id=\"secret-YoYODjOrhZ9UwOVg\" class=\"secret\"><p><strong>【Foundry註記】</strong></p><p>升級時，系統會提示你進行選擇。</p></section>"
     },
     "phbscrEpicBoon00": {
       "name": "傳奇恩惠",
@@ -6204,7 +6204,7 @@
     },
     "phbrgrExpertise0": {
       "name": "專精",
-      "description": "<p>Choose two of your skill proficiencies with which you lack Expertise. You gain Expertise in those skills.</p><section class=\"secret\" id=\"secret-8Sp7JCTIzt2U5K6u\"><p><strong>Foundry Note</strong></p><p>You will be prompted with a choice when you reach this level.</p></section>"
+      "description": "<p>選擇兩項你所熟練但不具備專精的技能，你獲得這些技能的專精。</p><section class=\"secret\" id=\"secret-8Sp7JCTIzt2U5K6u\"><p><strong>【Foundry註記】</strong></p><p>當你達到此等級時，系統會提示你進行選擇。</p></section>"
     },
     "phbbrdExtraAttac": {
       "name": "額外攻擊",
@@ -6216,7 +6216,7 @@
     },
     "phbrgrFightingSt": {
       "name": "戰鬥風格",
-      "description": "<p>你獲得一項你所選擇的@UUID[Compendium.dnd-players-handbook.content.JournalEntry.phbFeats00000000.JournalEntryPage.sbHImaCB8ZMEHYkb]{戰鬥風格專長} 。你可以選擇以下選項，而非上述這些專長。</p><hr /><p>@Embed[Compendium.dnd-players-handbook.feats.Item.phbfstDruidicWar caption=false]</p>"
+      "description": "<p>你獲得一項你所選擇的@UUID[Compendium.dnd-players-handbook.content.JournalEntry.phbFeats00000000.JournalEntryPage.sbHImaCB8ZMEHYkb]{戰鬥風格專長} 。你可以選擇下列選項，而非上述這些專長。</p><hr /><p>@Embed[Compendium.dnd-players-handbook.feats.Item.phbfstDruidicWar caption=false]</p>"
     },
     "phbftrSpellcasti": {
       "name": "施法",
@@ -6224,7 +6224,7 @@
     },
     "phbrgrSpellcasti": {
       "name": "施法",
-      "description": "<p>你學會運用自然世界的魔法本源進行施法。參見@UUID[Compendium.dnd-players-handbook.content.JournalEntry.phbSpells0000000.JournalEntryPage.mh3akteBDiLegqFK]{施法規則}。以下資訊詳細說明了如何將這些規則與遊俠法術結合使用。遊俠法術即該職業描述後的@UUID[Compendium.dnd-players-handbook.content.JournalEntry.phbSpells0000000.JournalEntryPage.5HnIk6HsrSxkvkz5]中羅列的法術。</p><p><strong>【法術位】</strong>@UUID[Compendium.dnd-players-handbook.content.JournalEntry.phbRanger0000000.JournalEntryPage.fgzoeAJE4EEUSOYQ#class-features]{遊俠特性表}記錄了你有多少法術位以施放1環以上的法術。當你完成長休時，你會重獲所有消耗的法術位。</p><p><strong>【準備1環以上的法術】</strong>通過此特性施法前，你需要準備數個可用的1環以上法術所構成的準備列表。首先，選擇兩個1環遊俠法術。推薦選擇@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplCureWounds]和@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplEnsnaringS]。</p><p>你的準備列表上的法術數量將隨著遊俠等級而增加，如遊俠特性表中準備法術一欄所示。每當該數量增加時，選擇額外的遊俠法術來添加到你的準備列表中，直到你準備列表上的法術數量與遊俠特性表中的數量相匹配。所選法術的環階必須是你擁有的法術位。例如，作為 5 級遊俠，你的準備法術列表應該包括六個任意組合的 1 環或 2 環遊俠法術。</p><p>若其他遊俠特性給予你始終準備的法術，則這些法術不會計入你在此特性中的準備法術數量，但是這些法術對你而言仍視為遊俠法術。</p><p><strong>【更換準備法術】</strong>每當你完成長休時，你可以將準備列表中的一個法術，替換為另一個你擁有法術位的遊俠法術。</p><p><strong>【施法屬性】</strong>感知是你施放遊俠法術的施法屬性。 </p><p><strong>【施法法器】 </strong>你可以使用德魯伊法器作為遊俠法術的施法法器。</p>"
+      "description": "<p>你學會運用自然世界的魔法本源進行施法。參見@UUID[Compendium.dnd-players-handbook.content.JournalEntry.phbSpells0000000.JournalEntryPage.mh3akteBDiLegqFK]{施法規則}。下列資訊詳細說明了如何將這些規則與遊俠法術結合使用。遊俠法術即該職業描述後的@UUID[Compendium.dnd-players-handbook.content.JournalEntry.phbSpells0000000.JournalEntryPage.5HnIk6HsrSxkvkz5]{遊俠法術列表}中羅列的法術。</p><p><strong>【法術位】</strong>@UUID[Compendium.dnd-players-handbook.content.JournalEntry.phbRanger0000000.JournalEntryPage.fgzoeAJE4EEUSOYQ#class-features]{遊俠特性表}記錄了你有多少法術位以施放一環以上的法術。當你完成長休時，你會重獲所有消耗的法術位。</p><p><strong>【準備一環以上的法術】</strong>通過此特性施法前，你需要準備數個可用的一環以上法術所構成的準備列表。首先，選擇兩個一環遊俠法術。推薦選擇@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplCureWounds]{治療傷勢}和@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplEnsnaringS]{誘捕打擊}。</p><p>你的準備列表上的法術數量將隨著遊俠等級而增加，如遊俠特性表中準備法術一欄所示。每當該數量增加時，選擇額外的遊俠法術來添加到你的準備列表中，直到你準備列表上的法術數量與遊俠特性表中的數量相匹配。所選法術的環階必須是你擁有的法術位。例如，作為 5 級遊俠，你的準備法術列表應該包括六個任意組合的 1 環或 2 環遊俠法術。</p><p>若其他遊俠特性給予你始終準備的法術，則這些法術不會計入你在此特性中的準備法術數量，但是這些法術對你而言仍視為遊俠法術。</p><p><strong>【更換準備法術】</strong>每當你完成長休時，你可以將準備列表中的一個法術，替換為另一個你擁有法術位的遊俠法術。</p><p><strong>【施法屬性】</strong>感知是你施放遊俠法術的施法屬性。 </p><p><strong>【施法法器】 </strong>你可以使用德魯伊法器作為遊俠法術的施法法器。</p>"
     },
     "phbscrSpellcasti": {
       "name": "施法",
@@ -6255,19 +6255,19 @@
       "name": "徒手打擊",
       "activities": {
         "Grapple/Shove": {
-          "name": "Grapple/Shove",
-          "chatFlavor": "Grapple or Shove attempt"
+          "name": "擒抱或推撞",
+          "chatFlavor": "嘗試擒抱或推撞"
         }
       },
       "effects": {
         "Grappled": {
-          "name": "Grappled"
+          "name": "受擒"
         },
         "Prone": {
-          "name": "Prone"
+          "name": "伏地"
         }
       },
-      "description": "<p><em>See: @UUID[Compendium.dnd-players-handbook.classes.Item.phbmnkMartialArt]{Martial Arts (Monk)}</em></p>"
+      "description": "<p><em>參見：@UUID[Compendium.dnd-players-handbook.classes.Item.phbmnkMartialArt]{武藝（武僧）}</em></p>"
     },
     "phbftrWeaponMast": {
       "description": "<p>你對武器的訓練使你能夠使用三種你所選擇且擁有熟練的武器精通屬性。每當你完成一次長休時，你可以進行武器練習從而更換其中一種武器的選擇。</p><p>你可以掌握精通的武器數量將隨著戰士職業到達特定等級而增加如@UUID[Compendium.dnd-players-handbook.content.JournalEntry.phbFighter000000.JournalEntryPage.wDELe3k25FQvYdrq#class-features]{戰士特性}表中武器精通一欄所示。</p><section class=\"secret\" id=\"secret-Qfoze6XoZUYIlAnw\"><p><strong>Foundry Note</strong></p><p>To change your masteries toggle on the \"Edit\" mode of your sheet. On the \"Details\" tab click on the cog icon next to \"Weapons\" in the bottom right. You can place a check in the mastery column of your chosen weapons.</p></section>",
