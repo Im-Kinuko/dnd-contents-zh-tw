@@ -1347,7 +1347,7 @@
       "description": "<p>You radiate malignant power associated with one of the Dead Three. When you use [[/item Bloodthirst]] and teleport, each creature of your choice within 10 feet of either the space you left or your destination space (your choice) takes damage equal to your Intelligence modifier; the damage type is the same as the damage Resistance granted by your choice in the Dread Allegiance feature. Damage dealt by this feature ignores Resistance.</p><section class=\"secret\" id=\"secret-96MheiNO3fejQedk\"><p><strong>Foundry Note</strong></p><p>This use of this feature will consume a use of the Bloodthirst feature.</p></section>"
     },
     "Amethyst Dragon Den": {
-      "name": "Amethyst Dragon Den",
+      "name": "紫晶龍巢",
       "description": "<p>Level 5 Bastion Facility</p><p><strong>Prerequisite:</strong> Membership in the Purple Dragon Knights</p><p><strong>Space:</strong> Vast</p><p><strong>Hirelings:</strong> 1</p><p><strong>Order:</strong> Empower</p><p>This den for an amethyst dragon is an enclosed open chamber with a pool, and one of its entrances is underwater. The facility’s hireling maintains the den and helps any visiting amethyst dragons feel comfortable.</p><p><em><strong>Empower: Psionic Defenses.</strong></em> When you issue the Empower order to this facility, latent draconic power fills the facility, allowing you to train in psionic combat. This training takes 8 hours per day for 7 days, after which you gain Resistance to Psychic damage. This benefit lasts for 7 days.</p>"
     },
     "Divine Foreknowledge": {
