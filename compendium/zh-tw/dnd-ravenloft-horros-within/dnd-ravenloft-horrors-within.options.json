@@ -140,7 +140,7 @@
     },
     "Circle of Mortality": {
       "name": "Circle of Mortality",
-      "description": "<p>You can manipulate the balance between life and death, granting you the following benefits.</p><p><strong>Pull of Death.</strong> Once per turn, when you deal damage to a creature that’s missing any Hit Points by casting a spell or by hitting with an attack roll, that creature takes an extra [[/damage]]{1d4 Necrotic} damage. This extra damage increases to 1d6 when you reach Cleric level 11.</p><p><strong>Return to Life.</strong> You can cast <em>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplSparetheDy]{Spare the Dying}</em> as a Bonus Action.</p><p>Additionally, when you would normally roll one or more dice to restore Hit Points to a creature at 0 Hit Points with a spell or Channel Divinity, don’t roll those dice for the healing; instead, use the highest number possible for each die. For example, instead of restoring 2d4 Hit Points to a creature at 0 Hit Points with a spell, you restore 8.</p>",
+      "description": "<p>你可以操弄生與死的天平，這賦予你下列好處。</p><p><strong>【死亡牽引】</strong>每回合一次，當你透過施放法術，或以攻擊檢定命中，對一個失去任何生命值的生物造成傷害時，該生物承受額外[[/damage]]{1d4黯蝕}傷害。當你達到牧師 11 級時，此額外傷害提升為 1d6。</p><p><strong>【回歸生命】</strong>你可以以附贈動作施放<em>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplSparetheDy]{拯救瀕死}</em>。</p><p>此外，當你用法術或引導神力投擲一枚或多枚骰子用於恢復生命值為0的生物的生命值時，你不用為治療投擲這些骰子；改為使用每個骰子的最大值。例如，你用法術為生命值為0的生物恢復2d4生命值時，改為恢復8點生命值。</p>",
       "activities": {
         "Pull of Death": {
           "name": "Pull of Death",
@@ -172,19 +172,19 @@
       }
     },
     "Divine Reaper": {
-      "name": "Divine Reaper",
-      "description": "<p>Your deep connection to this domain renders you a hallowed harbinger of death, granting you the following benefits.</p><p><span class=\"inline-entry\"><strong>Enhanced Necromancy.</strong></span> When you cast a spell of level 5 or lower from the Necromancy school that targets one creature, or when you cast a spell from the @UUID[Compendium.dnd-ravenloft-horrors-within.options.Item.rhwCSGraveDomaZF]{Grave Domain Spells} table, you can expend a use of Channel Divinity to target a second creature within the spell’s range. If the spell requires costly or consumed Material components, you must provide Material components for each target.</p><p><span class=\"inline-entry\"><strong>Keeper of Souls.</strong></span> When an enemy dies within 60 feet of you, you or one creature you can see within 60 feet of yourself [[/heal]]{regains Hit Points} equal to twice your Cleric level. You can’t use this feature if you have the Incapacitated condition. Once you use this feature, you can’t use it again until you finish a Short or Long Rest, unless you expend a level 6+ spell slot (no action required) to restore your use of it.</p>",
+      "name": "司命神使",
+      "description": "<p>你與此領域的深度聯繫，使你成為死亡的神聖宣告者，這賦予你下列好處：</p><p><span class=\"inline-entry\"><strong>【增強死靈術】</strong></span>當你施放一道以單一生物為目標的五環或更低的死靈學派法術，或者當你施放來自@UUID[Compendium.dnd-ravenloft-horrors-within.options.Item.rhwCSGraveDomaZF]{墳墓領域法術}表中的法術時，你可以消耗一次引導神力的使用次數，在施法距離內指定第二個生物為目標。若該法術需要有標明價值或被消耗的材料構材，你必須為每個目標提供材料構材。</p><p><span class=\"inline-entry\"><strong>【眾魂監守者】</strong></span>當一個敵人在你60呎內死亡時，你或位於你60呎內一名你所能看見的生物[[/heal]]{恢復}等同於你牧師等級兩倍的生命值。你不能在失能狀態下使用此特性。此特性一經使用，直到完成短休或長休前都無法再次使用，除非你消耗一個六環及以上的法術位（無需動作）來重置其使用權。</p>",
       "activities": {
         "Enhanced Necromancy": {
-          "name": "Enhanced Necromancy"
+          "name": "增強死靈術"
         },
         "Keeper of Souls": {
-          "name": "Keeper of Souls",
-          "condition": "an enemy dies within range",
-          "target": "visible"
+          "name": "眾魂監守者",
+          "condition": "一名敵人在範圍內死亡時",
+          "target": "可見"
         },
         "Restore Keeper of Souls": {
-          "name": "Restore Keeper of Souls"
+          "name": "恢復眾魂監守者"
         }
       }
     },
@@ -231,7 +231,7 @@
     },
     "Grave Domain Spells": {
       "name": "Grave Domain Spells",
-      "description": "<p>Your connection to this divine domain ensures you always have certain spells ready. When you reach a Cleric level specified in the Grave Domain Spells table, you thereafter always have the listed spells prepared.</p><table><caption><p>Grave Domain Spells</p></caption><thead><tr><th scope=\"col\"><p>Cleric Level</p></th><th scope=\"col\"><p>Spells</p></th></tr></thead><tbody><tr><td><p>3</p></td><td><p><em>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplDetectEvil]{Detect Evil and Good}</em>, <em>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplFalseLife0]{False Life}</em>,<br class=\"TODO\" /><em>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplGentleRepo]{Gentle Repose}</em>, <em>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplRayofEnfee]{Ray of Enfeeblement}</em>, <em>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplSparetheDy]{Spare the Dying}</em></p></td></tr><tr><td><p>5</p></td><td><p><em>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplRevivify00]{Revivify}</em>, <em>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplVampiricTo]{Vampiric Touch}</em></p></td></tr><tr><td><p>7</p></td><td><p><em>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplBlight0000]{Blight}</em>, <em>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplDeathWard0]{Death Ward}</em></p></td></tr><tr><td><p>9</p></td><td><p><em>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplDispelEvil]{Dispel Evil and Good}</em>, <em>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplRaiseDead0]{Raise Dead}</em></p></td></tr></tbody></table>",
+      "description": "<p>你與此神聖領域的連結保證你始終準備特定法術。當你達到墳墓領域法術列表上指定的牧師等級時，你視為始終準備法術表上的法術。</p><table><caption><p>墳墓領域法術</p></caption><thead><tr><th scope=\"col\"><p>牧師等級</p></th><th scope=\"col\"><p>準備法術</p></th></tr></thead><tbody><tr><td><p>3</p></td><td><p><em>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplDetectEvil]{偵測善惡}</em>、<em>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplFalseLife0]{摹造生命}</em>、<br class=\"TODO\" /><em>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplGentleRepo]{遺體防腐}</em>、<em>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplRayofEnfee]{衰弱射線}</em>、<em>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplSparetheDy]{拯救瀕死}</em></p></td></tr><tr><td><p>5</p></td><td><p><em>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplRevivify00]{回生術}</em>、<em>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplVampiricTo]{吸血鬼之觸}</em></p></td></tr><tr><td><p>7</p></td><td><p><em>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplBlight0000]{枯萎術}</em>、<em>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplDeathWard0]{防死護咒}</em></p></td></tr><tr><td><p>9</p></td><td><p><em>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplDispelEvil]{反制善惡}</em>、<em>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplRaiseDead0]{喚醒死者}</em></p></td></tr></tbody></table>",
       "advancement": {
         "Spells": {
           "name": "Spells"
@@ -244,7 +244,7 @@
     },
     "Path to the Grave": {
       "name": "Path to the Grave",
-      "description": "<p>As a Bonus Action, you present your Holy Symbol and expend a use of Channel Divinity to curse one creature you can see within 30 feet of yourself until the start of your next turn. While cursed, the creature has Disadvantage on attack rolls and saving throws.</p><p>When you or an ally you can see hits the cursed target with an attack roll, you can end the curse early (no action required) to make the attack deal extra [[/damage]]{Necrotic or Radiant damage} (your choice) equal to your Cleric level.</p>",
+      "description": "<p>你可以採取一個附贈動作，展示你的聖徽並消耗一次引導神力的使用次數，詛咒位於你30呎內一名你所能看見的生物，直到你的下一回合開始。 在被詛咒期間，該生物的攻擊檢定與豁免檢定皆具有劣勢。</p><p>當你或一個你所能看見的盟友以攻擊檢定命中被詛咒的目標時，你可以提前終止詛咒（無需動作）並使本次攻擊額外造成等同於你牧師等級的[[/damage]]{黯蝕或光耀傷害}（由你選擇）。</p>",
       "activities": {
         "Curse": {
           "name": "Curse",
@@ -283,10 +283,10 @@
     },
     "Sentinel at Death's Door": {
       "name": "Sentinel at Death's Door",
-      "description": "<p>When you or a Bloodied creature you can see within 60 feet of yourself is hit with an attack roll, you can take a Reaction to halve that attack’s damage (round down). If the triggering attack roll was a Critical Hit, any effects triggered by a Critical Hit are canceled.</p><p>You can use this feature a number of times equal to your Wisdom modifier (minimum of once). You regain all expended uses when you finish a Long Rest.</p>",
+      "description": "<p>當你或一個你60呎範圍內你所能看見的重傷生物被一次攻擊檢定命中時， 你可以採取一次反應並減半該攻擊的傷害（向下取整）。若觸發的攻擊為暴擊，取消任何暴擊觸發的效應。</p><p>你可以使用此特性的次數等同於你的感知調整值（最少1次）。 當你完成一次長休時，你恢復所有已消耗的次數。</p>",
       "activities": {
         "utility": {
-          "condition": "you or a Bloodied target within range is hit with an attack"
+          "condition": "你或一個範圍內的重傷生物被攻擊檢定命中時"
         }
       }
     },
@@ -525,7 +525,7 @@
     },
     "Grave Domain": {
       "name": "Grave Domain",
-      "description": "<p><em>Embody Deific Forces of Death</em></p><p>The Grave Domain concerns itself with the boundary between life and death. To those who tap into this domain’s power, death is a natural and inevitable part of the multiverse. Such Clerics seek to destroy undead and shepherd spirits.</p><p>The magic of this domain also allows these Clerics to stave off death for a time. But this is merely a delay of death, not a denial of it, for the grave will always claim its due.</p><p class=\"hide-in-embed\"><em>@UUID[Compendium.dnd-ravenloft-horrors-within.book.JournalEntry.rhwSubclasses000.JournalEntryPage.GraveDomainCleri]{Subclass Details}</em></p>",
+      "description": "<p><em>安息亡者，顯化神力</em></p><p>墳墓領域注重生與死的邊界。對從這一領域獲取神力的牧師來說，死亡是多元宇宙中自然且不可避免的一環。 這些牧師致力於摧毀不死生物，並超度亡魂踏入往生。</p><p>此領域的魔法同樣讓牧師能夠暫時將死亡拒之門外。 但這不過是暫緩死亡的到來，絕非徹底的拒絕——因為墳墓，終將收取其貢賦。</p><p class=\"hide-in-embed\"><em>@UUID[Compendium.dnd-ravenloft-horrors-within.book.JournalEntry.rhwSubclasses000.JournalEntryPage.GraveDomainCleri]{子職業細節}</em></p>",
       "advancement": {
         "Subclass Features": {
           "name": "Subclass Features"
@@ -975,7 +975,7 @@
     },
     "Reborn": {
       "name": "Reborn",
-      "description": "<p>Reborn are individuals who have died yet inexplicably still live. Some reborn exhibit the scars of fatal ends, their ashen flesh or bloodless veins making it clear that they’ve escaped death. Other reborn are marvels of magic or science, being stitched together from disparate beings or bearing mysterious minds in manufactured bodies. Whatever their origins, reborn know a new life and seek experiences and answers all their own.</p><h4 class=\"entry\">Reborn Traits</h4><p><strong>Creature Type:</strong> Humanoid</p><p><strong>Size:</strong> Medium (about 4–7 feet tall) or Small (about 2–4 feet tall), chosen when you select this species</p><p><strong>Speed:</strong> 30 feet</p><p>As a Reborn, you have these special traits.</p><p>@Embed[Compendium.dnd-ravenloft-horrors-within.options.Item.rhwEscapedDeatXY nameStyle=inline cite=false]</p><p>@Embed[Compendium.dnd-ravenloft-horrors-within.options.Item.rhwEverlasting7o nameStyle=inline cite=false]</p><p>@Embed[Compendium.dnd-ravenloft-horrors-within.options.Item.rhwKnowledgefraL nameStyle=inline cite=false]</p><p><em><strong>Strange Endurance.</strong></em> You have Resistance to one of the following damage types of your choice: Cold, Necrotic, or Poison.</p>",
+      "description": "<p>重生者是指那些已經死去卻又莫名依然存活的個體。有些重生者的身上有著致命傷留下的疤痕，那死灰般的血肉和無血的血管無不表明著他們曾死裡逃生。有些重生者則是魔法或科學造就的奇蹟，他們或由迥然不同的生命縫合而成，或是在人造軀殼中承載著神秘的心智。無論起源如何，重生者都迎來了新生，並尋求屬於他們自己的經歷和答案。</p><h4 class=\"entry\">重生者特質</h4><p><strong>生物類型：</strong>類人生物</p><p><strong>體型：</strong>中型（約4-7呎高）或小型（約2-4呎高），當你選擇此種族時決定</p><p><strong>速度：</strong>30呎</p><p>作為重生者，你擁有這些特質</p><p><span class=\"inline-entry\"><strong>【死裡逃生】</strong></span>@Embed[Compendium.dnd-ravenloft-horrors-within.options.Item.rhwEscapedDeatXY inline]</p><p><span class=\"inline-entry\"><strong>【永固不朽】</strong></span>@Embed[Compendium.dnd-ravenloft-horrors-within.options.Item.rhwEverlasting7o inline]</p><p><span class=\"inline-entry\"><strong>【往昔知識】</strong></span> @Embed[Compendium.dnd-ravenloft-horrors-within.options.Item.rhwKnowledgefraL inline]</p><p><span class=\"inline-entry\"><strong>【奇異耐性】</strong></span>你具有下列一項你所選擇的傷害類型抗力：寒冷、黯蝕、毒素。</p>",
       "advancement": {
         "Umt70RQ304hjOibr": {
           "hint": "<p>Medium (about 4–7 feet tall) or Small (about 2–4 feet tall), chosen when you select this species</p>"
@@ -985,7 +985,8 @@
           "hint": "<p>You have Resistance to one of the following damage types of your choice: Cold, Necrotic, or Poison.</p>"
         },
         "Reborn Traits": {
-          "name": "Reborn Traits"
+          "name": "Reborn Traits",
+          "title": "重生者特質"
         }
       }
     },
