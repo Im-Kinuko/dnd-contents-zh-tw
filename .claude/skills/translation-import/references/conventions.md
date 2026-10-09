@@ -1,5 +1,9 @@
 # 行文與格式慣例
 
+## 2026-10-09 契術師譯名裁定
+
+- **Magical Cunning＝祕法迴流**。使用者指定固定譯名；名稱、正文連結標籤及行動條件均採此譯名，取代先前「魔法機靈」。
+
 ## 每批上傳前須確認（2026-10-04 使用者更正）
 
 執行 [SKILL.md](../SKILL.md) 第 5 步「預覽與確認」：該節統一定義每批預覽、版本確認及上傳範圍。自行補翻的授權只適用於準備譯文。
@@ -420,3 +424,44 @@ takes its turn immediately after you on your Initiative count → **並緊接在
 - **一般用字依 terms**：take（承受傷害）→承受；immediately after→緊接在…後；`It takes 10 minutes`、`take on a semblance`、`takes its turn`、`takes the Dodge action`、`fiend hide` 屬一般用字，不套 terms，須在 `ack.json` 登記。
 - **保留原稿**：奉獻香爐「你可以將這把鏈枷視為聖徽」（使用者確認不改）；奉獻香爐攻擊句補 magic（使用者確認改）。
 - **修訂的判準**：使用者 2026-10-08 指示「已有譯文且與 EN 差異不大者不改，其餘依底稿處理，有差異皆報告」→ 實作為 translation-quality.md 的「允許的修改類別」。
+
+## 2026-10-09 法師（classes／子職業／content）定案與審稿修正
+- **Signature Spells＝招牌法術**；Signature Spells 的 `them`：兩道法術都不能再以此法施放（使用者裁定，不是逐道）。iconic spells 在法師介紹仍沿用既有「招牌法術」（我曾改「標誌性法術」被還原：已有譯文且差異不大則不改）。
+- **環階一律國字**（一環、二環…，使用者 2026-10-09 統一；既有 Wizard 內文的「1環」已改）。
+- **升級項目（advancement）名稱用 EN 模板的 `name` key** 上傳（Weblate 單元是 `.name`；野蠻人第1批用 `title` 沒有落地，已用 `name` 補上）。
+- **感官 range（如黑暗視覺 120 呎）用「範圍」**，射程只用於法術／攻擊（使用者 2026-10-09 糾正）。
+- **without expending a spell slot**：「不消耗法術位施放」，不寫「能不消耗法術位地施放」；Whenever you cast…→「每當你施放…時」；when a creature hits you with an attack roll→「當一名生物以攻擊檢定命中你時」；You have learned→「你知曉」；a level 2+ spell slot→「二環以上的法術位」；deal maximum damage→「造成最大值的傷害」。
+- **effect `changes` 的前後綴**（如 ", Mastered"）：`{}` 在遊戲中代表該物品名稱；前綴或後綴擇通順者，不必統一（精通＝「．精通」，招牌＝「招牌{}」）；Foundry 註記配合（「標題前加上『招牌』」）。
+- **小標寫法**：classes／物品描述的 run-in 小標用【】；**content（書籍頁面）不用【】，用節標題寫法**：`<strong>標題　</strong>`（粗體，後接全形空格）。兩者不需對齊。
+- **Foundry 用詞**（lang）：token＝指示物、Apply Half Damage＝應用半傷、Apply＝應用、Situational Bonus＝環境加值、Consumption＝消耗、Always Prepared＝始終準備、chat card＝聊天卡片（自譯）。
+- **子職業名稱（原稿）**：奧術守禦、投射守禦、破法者、法術抗性（名稱保留「抗性」）、專業預言、天眼通、強力戲法、法術塑形、強效塑能、超限導能、強化幻術、魅影生靈、幻影化形；Subclass Features＝子職業特性。
+- **既有譯文修正**：Medicine＝醫藥（不寫醫學）；advisers＝顧問；原稿裡的「妳」改「你」；Verbal components＝聲音構材（Weblate 現譯，lang 為「言語」不採）；object＝物體；inanimate＝無生命。
+- **content 頁面做法**：頁面欄位（pages.X.description／subclass）展開成 `X.description` 記錄走 skeleton，payload 還原到 `entries.<Journal>.pages.<Page>`；說明同 classes 內文者沿用已審定中文；EN 的連結（`@UUID`）補上，核心特質表是 `@Embed` 原樣保留。見 `_incoming/player-handbook/_done/wizard*/*fill.py`。
+- **取代舊建議**：重做已上傳批次時，先在 Weblate 管理 shell 列出該 unit 的建議、核對與舊 payload 完全相同，再 `Suggestion.delete()`；腳本檔放在專案目錄內再以 `docker exec -i … weblate shell < 檔` 送入（bash 的 /tmp 與 Python 路徑不同）。
+
+## 2026-10-09 魔契師（Warlock）定案
+- 職業名一律 Weblate 現行「契術師」（原稿「魔契師」不採）；Magical Cunning＝**祕法回流**（使用者指定，取代既有「魔法機靈」；「祕」用示部）；Eldritch Master 的 condition 同步為「當你使用祕法回流時」。
+- 新名稱：Contact Patron＝聯絡宗主、Mystic Arcanum＝玄奧祕法（arcanum＝祕法）、Eldritch Master＝魔能掌控；升級項目 Max Pact Magic Spells＝最大契約魔法法術、Eldritch Invocations Known＝已知魔能祈喚。
+- Pact Magic spell slots＝契約魔法法術位；「無需消耗法術位地」→「不消耗法術位」。
+- content 的 Eldritch Invocation Options 頁：`text` 為各祈喚的 h2 連結＋@Embed，標籤取 classes 現譯祈喚名即可。腳本：`scripts/translation-import/player-handbook/warlock.py`（執行用腳本一律放 `scripts/`，使用者 2026-10-09 指示）。
+
+## 2026-10-09 遊蕩者／術士定案（使用者）
+- 環階一律國字（含「一至五環」）；**法術槽→法術位**；Persuasion＝說服（既有「遊說」要改）；Incapacitated＝失能（既有「無力」要改）；「以下」→「下列」。
+- 遊蕩者：Improved Cunning Strike＝強化詭詐打擊（Improved＝強化）；Cunning Strike 子效果寫「【淬毒（消耗：1d6）】」；Steady Aim＝手穩就準（名稱與行動統一）；Thief＝竊賊（Weblate 現譯，原稿「盜賊」不採）。
+- 術士：沿用 Weblate 現譯名稱（奧法極致、術法復原、天生術法，原稿的化神／復甦／先天不採）；Boon of Dimensional Travel＝次元旅行恩惠；Metamagic Options 頁（content）text＝各超魔法標題取 classes 現譯＋導讀句「下列選項可供你的超魔法特性使用，並依英文字母順序排列。」
+- 既有譯文含未標籤的 `@UUID` 時，補 `{名稱}` 標籤再驗證（法術名取 spell_names；裝備名取 Weblate equipment 現譯；Arcane Focus＝奧術法器）。
+- **審稿修正（術士，2026-10-09）**：Sorcery Incarnate 的「在採取附贈動作啟用該特性時消耗2術法點」被改為「仍可以採取附贈動作消耗2術法點啟用該特性」（句式：採取附贈動作＋消耗＋啟用，不加「在…時」）；其餘 31＋9 字串原樣接受。
+- **審稿修正（遊俠，2026-10-09）**：使用者改過的 7 處（其餘 41＋7 字串原樣接受）：①regain 使用次數用「重獲」（「恢復此能力的所有使用次數」→「重獲」）；②「你熟練但不具備專精的技能」→「你**所**熟練但不具備專精的技能」；③效果名 Veiled＝「隱蔽」（不加「已」）；④Nature's Veil：維持原稿語氣「有如魔法般地將自己隱藏起來。以一個附贈動作，你可以進入隱形狀態，持續到你的下個回合結束」（「以一個附贈動作」、結尾不加「前」、「使用**此**特性」）；⑤Feral Senses 註記「將你的盲視提升30呎」（升級盲視不加「範圍」）；⑥Foe Slayer＝**眾敵屠戮**（原稿「屠滅眾敵」不採），內文去掉「你的」：「@獵人印記的額外傷害骰從d6變為d10」；⑦Tireless 句尾「重獲全部」→「重獲所有」。
+
+## 2026-10-09 武僧（Monk）定案（使用者）
+- focus＝**內力**、focus point＝**內力點**；費用寫「消耗1點內力」（不寫「消耗1內力點」）；Monk's Focus＝武僧內功。
+- Uncanny Metabolism＝**周天運轉**（取代運氣入化／運轉周天）；Step of the Wind＝疾步如風；Patient Defense＝閃轉騰挪；Self-Restoration＝還元返本；Disciplined Survivor＝**堅忍不拔**（取代隨遇而安／圓融自在）；Perfect Focus＝心無旁騖；Superior Defense＝無懈可擊；Body and Mind＝天人合一；Deflect Attacks 的 Redirect＝借力打力。
+- 狀態 Reference 標籤：Stunned＝震懾、Grappled＝受擒、Charmed＝魅惑、Frightened＝恐慌、Poisoned＝中毒、Exhaustion＝力竭。
+- 延伸：Weblate 其他條目若仍出現「運氣入化」「隨遇而安」「消耗N內力點」，已於 2026-10-09 掃描 classes／content 全庫，除本批外為 0。
+- **審稿修正（武僧，2026-10-09）**：91 字串中 88 原樣接受；改 3 處：①Step of the Wind 句「該生物如此移動不會引發藉機攻擊」→「該生物的移動不會引發藉機攻擊」；②**Perfect Focus＝明鏡止水**（原稿名稱，取代現譯「心無旁騖」——使用者可推翻已翻現譯的名稱，名稱衝突時先問）；③effect changes 前後綴 `{}（武藝）`→`武藝．{}`（前綴＋全形中點，與術士 Signature「招牌{}」同風格；後綴用「．X」）。
+
+## 2026-10-09 戰士（Fighter）定案（使用者）
+- 特性名稱：Studied Attacks＝**審慎攻擊**、Tactical Shift＝**戰術位移**、Tactical Master＝戰術主宰、Indomitable＝不屈、Two／Three Extra Attacks＝額外攻擊（二）／（三）；現譯維持：回氣、動作如潮、戰術思維、戰鬥風格、武器精通；推薦專長＝戰鬥威能恩惠。
+- Fighter 版 Weapon Mastery：三種「簡易或軍用武器」的精通屬性，**無「擁有熟練」限制**（Rogue 版才有）。
+- 「已有舊翻譯、相似者不更換」：使用者指示時，只補英文註記／嵌套欄位／名稱，本體不動；規則層差異列出請其裁定。
+- **審稿修正（戰士，2026-10-09）**：42 字串中 41 原樣接受；改 1 處：Studied Attacks（審慎攻擊）「失手，那麼直到…」→「失手，**則**直到…」（原稿的「那麼」改「則」）。

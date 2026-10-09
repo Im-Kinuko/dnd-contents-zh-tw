@@ -46,3 +46,5 @@ python .claude/skills/translation-import/scripts/weblate.py upload <project> <co
 3. **刪除**：以 `Suggestion.delete()` 逐條刪除；再次列出，確認範圍內剩 0 條。這只動建議，不動翻譯，也不使用 `DELETE /api/translations/…`（見 weblate-notes.md）。
 4. **刪完再上傳新版**：新舊字串相同者會被視為已存在而跳過（`skipped`），先刪舊再上傳可避免新版被舊建議吃掉。
 5. **核對**：上傳回應的 `accepted + skipped` 等於 payload 字串數；範圍內建議數等於新版字串數。
+
+補充（2026-10-09）：用 `Unit`／`Suggestion`（`weblate.trans.models`）以 unit id 列出；腳本請寫在專案目錄內，再 `docker exec -i weblate-docker-weblate-1 weblate shell < 腳本.py`；不要寫到 `/tmp`（Git Bash 與 Windows Python 的路徑不同）。

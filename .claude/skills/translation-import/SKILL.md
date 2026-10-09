@@ -138,3 +138,6 @@ python $S/validate.py aligned.json --book <book> --component <component> --out u
 上傳成功且回應已核對後才歸檔；部分成功或回應不明保留來源並記錄待處理範圍，不把整批當作完成。報告包含確認版本、四項驗收、上傳結果及剩餘字串。
 
 匯入確認的範圍是該批建議。新增術語、刪除既有建議或其他 Weblate 維護，依使用者明示範圍另行處理（刪除建議的程序見 upload.md）。翻譯檔由 Weblate 寫入；本流程的 git 寫入限新書骨架，commit／push 由使用者處理。保留既有禁止刪除 Weblate translation 的約束。
+
+## 職業匯入
+匯入職業（classes＋content 日誌頁）時，先讀 [references/class-import-playbook.md](references/class-import-playbook.md)：標準流程、取捨規則、工具陷阱與系統性建議。
