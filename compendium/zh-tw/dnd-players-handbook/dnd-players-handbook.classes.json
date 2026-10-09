@@ -27,7 +27,7 @@
     },
     "Abjure Foes": {
       "name": "棄絕眾敵",
-      "description": "<p>As a Magic action, you can expend one use of this class’s Channel Divinity to overwhelm foes with awe. As you present your Holy Symbol or weapon, you can target a number of creatures equal to your Charisma modifier (minimum of one creature) that you can see within 60 feet of yourself. Each target must succeed on a Wisdom saving throw or have the &amp;Reference[Frightened] condition for 1 minute or until it takes any damage. While Frightened in this way, a target can do only one of the following on its turns: move, take an action, or take a Bonus Action.</p><section class=\"secret\" id=\"secret-lu2BuwFj2pnJ367b\"><p><strong>Foundry Note</strong></p><p>This feature includes an Active Effect which applies the Frightened condition.</p></section>",
+      "description": "<p>以一個魔法動作，你可以消耗本職業的一次引導神力使用次數，用敬畏之力壓倒敵人。你高舉聖徽或武器，選擇位於你60呎內、你所能看見的生物作為目標，數量至多等同於你的魅力調整值（最少一名生物）。每個目標必須成功通過一次感知豁免，否則陷入&amp;Reference[Frightened]{恐慌}狀態，持續1分鐘或直到其承受任何傷害為止。因此方式陷入恐慌的目標，在自己的回合中只能執行下列其中一項：移動、採取一個動作或採取一個附贈動作。</p><section class=\"secret\" id=\"secret-lu2BuwFj2pnJ367b\"><p><strong>【Foundry註記】</strong></p><p>此特性包含一項施加恐慌狀態的Active Effect。</p></section>",
       "effects": {
         "Abjured": {
           "name": "防護"
@@ -35,7 +35,7 @@
       },
       "activities": {
         "save": {
-          "target": "That you can see"
+          "target": "你所能看見的生物"
         }
       }
     },
@@ -60,7 +60,7 @@
     },
     "Action Surge": {
       "name": "動作如潮",
-      "description": "<p>你可以短暫地驅策自己超越你的極限。在你回合中，你可以採取一次除了魔法動作外的額外動作。</p><p>一旦你使用此能力，你必須完成一次短休或長休後才能再次使用。從17級開始，你可以在一次休息前使用其二次，但同個回合只能使用一次。</p><section id=\"secret-nYOY8k3V38g8mZIS\" class=\"secret\"><p><strong>Foundry Note</strong></p><p>This feature includes a limited use that increases automatically at level 17.</p></section>"
+      "description": "<p>你可以短暫地驅策自己超越你的極限。在你回合中，你可以採取一次除了魔法動作外的額外動作。</p><p>一旦你使用此能力，你必須完成一次短休或長休後才能再次使用。從17級開始，你可以在一次休息前使用其二次，但同個回合只能使用一次。</p><section id=\"secret-nYOY8k3V38g8mZIS\" class=\"secret\"><p><strong>【Foundry註記】</strong></p><p>此特性包含一個使用次數限制，會在17級時自動增加。</p></section>"
     },
     "Additional Fighting Style": {
       "name": "額外戰鬥風格",
@@ -301,8 +301,8 @@
       "description": "<p>你獲得一套易容工具組和一套製毒工具組，並且擁有其熟練。</p><section id=\"secret-QaK1hUaUaZqGMS7e\" class=\"secret\"><p><strong>【Foundry註記】</strong></p><p>當你升級時，會自動獲得裝備及熟練。</p></section>"
     },
     "Aura Expansion": {
-      "name": "Aura Expansion",
-      "description": "<p>Your Aura of Protection is now a 30-foot Emanation.</p><section id=\"secret-gH6lYObbkvAgLL2q\" class=\"secret\"><p><strong>Foundry Note</strong></p><p>The range of your auras update automatically as you level up.</p></section>"
+      "name": "靈光增效",
+      "description": "<p>你的守護靈光現在是30呎發散區域。</p><section id=\"secret-gH6lYObbkvAgLL2q\" class=\"secret\"><p><strong>【Foundry註記】</strong></p><p>你的靈光範圍會隨著等級提升自動更新。</p></section>"
     },
     "Aura of Alacrity": {
       "name": "Aura of Alacrity",
@@ -315,7 +315,7 @@
     },
     "Aura of Courage": {
       "name": "勇氣靈光",
-      "description": "<p>You and your allies have Immunity to the Frightened condition while in your Aura of Protection. If a Frightened ally enters the aura, that condition has no effect on that ally while there.</p><section id=\"secret-equ8xnC2DFxkcJAn\" class=\"secret\"><p><strong>Foundry Note</strong></p><p>This feature includes an Active Effect for tracking who is within your aura but it is not automatically added/removed nor does it remove the Frightened condition.</p></section>",
+      "description": "<p>你與你的盟友在你的守護靈光內，免疫恐慌狀態。若處於恐慌狀態的盟友進入該靈光，只要該盟友仍處於靈光內，該狀態無效。</p><section id=\"secret-equ8xnC2DFxkcJAn\" class=\"secret\"><p><strong>【Foundry註記】</strong></p><p>此特性包含一項Active Effect，用來追蹤誰位於你的靈光內，但不會自動新增或移除，也不會移除恐慌狀態。</p></section>",
       "activities": {
         "Aura of Courage": {
           "name": "勇氣靈光"
@@ -337,11 +337,11 @@
       }
     },
     "Aura of Protection": {
-      "name": "Aura of Protection",
-      "description": "<p>You radiate a protective, unseeable aura in a 10-foot Emanation that originates from you. The aura is inactive while you have the &amp;Reference[Incapacitated apply=false] condition.</p><p>You and your allies in the aura gain a bonus to saving throws equal to your Charisma modifier (minimum bonus of +1, currently [[lookup @abilities.cha.mod]]).</p><p>If another Paladin is present, a creature can benefit from only one Aura of Protection at a time; the creature chooses which aura while in them.</p><section class=\"secret\" id=\"secret-PEdASVYFq26DP4Fq\"><p><strong>Foundry Note</strong></p><p>This feature includes an Active Effect which automatically improves your Saving Throws but it should not be used for other impacted characters because it will add their Charisma modifier and not the Paladin's. They should add your modifier manually.</p></section>",
+      "name": "守護靈光",
+      "description": "<p>以你為中心的10呎發散區域內散發出無形的保護性靈光。當你陷入&amp;Reference[Incapacitated apply=false]{失能}狀態期間，該靈光失效。</p><p>你與靈光內的盟友在豁免檢定中獲得等同於你魅力調整值的加值（最低+1，目前為[[lookup @abilities.cha.mod]]）。</p><p>若有其他聖騎士在場，一名生物同一時間只能受益於一個守護靈光；處於多個靈光內時，該生物自行選擇適用哪一個。</p><section class=\"secret\" id=\"secret-PEdASVYFq26DP4Fq\"><p><strong>【Foundry註記】</strong></p><p>此特性包含一項會自動提升你豁免檢定的Active Effect，但不應用於其他受影響的角色，因為該效果會加上的是他們的魅力調整值，而非聖騎士的。他們應手動加上你的調整值。</p></section>",
       "effects": {
         "Protected": {
-          "name": "Protected"
+          "name": "受守護"
         }
       }
     },
@@ -2181,8 +2181,8 @@
       "description": "<p>每當你在自己的回合採取攻擊動作時，你可以發動兩次攻擊而非一次。</p>"
     },
     "Faithful Steed": {
-      "name": "Faithful Steed",
-      "description": "<p>You can call on the aid of an otherworldly steed. You always have the @UUID[Compendium.dnd-players-handbook.spells.Item.phbsplFindSteed0]{Find Steed} spell prepared.</p><p>You can also cast the spell once without expending a spell slot, and you regain the ability to do so when you finish a Long Rest.</p><section class=\"secret\" id=\"secret-XC2S9ToogFr41act\"><p><strong>Foundry Note</strong></p><p>The Find Steed spell is added to your spell list as always prepared and with a free use per Long Rest when you reach this level.</p></section>"
+      "name": "信實坐騎",
+      "description": "<p>你能喚來異界坐騎的協助。你始終準備@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplFindSteed0]{尋獲坐騎}法術。</p><p>你也可以不消耗法術位施放該法術一次，而後你必須完成一次長休才能再次這麼做。</p><section class=\"secret\" id=\"secret-XC2S9ToogFr41act\"><p><strong>【Foundry註記】</strong></p><p>當你達到此等級時，尋獲坐騎法術會被加入你的法術列表，為始終準備，並附帶每次長休一次的免費使用。</p></section>"
     },
     "Fanatical Focus": {
       "name": "專心熾志",
@@ -2359,55 +2359,55 @@
     },
     "Fighter": {
       "name": "戰士",
-      "description": "<blockquote><p>十八般武藝樣樣精通的能手</p></blockquote><h3>核心戰士特徵</h3><table class=\"core-class-traits\"><tbody><tr><th scope=\"row\"><p><strong>關鍵屬性</strong></p></th><td><p>力量和敏捷</p></td></tr><tr><th scope=\"row\"><p><strong>生命骰</strong></p></th><td><p>每戰士等級D10</p></td></tr><tr><th scope=\"row\"><p><strong>豁免熟練</strong></p></th><td><p>力量與體質</p></td></tr><tr><th scope=\"row\"><p><strong>技能熟練</strong></p></th><td><p>從特技、馴獸、運動、歷史、洞悉、威嚇、遊說、察覺或求生中<em>選擇兩項</em></p></td></tr><tr><th scope=\"row\"><p><strong>武器熟練</strong></p></th><td><p>簡易武器和軍用武器</p></td></tr><tr><th scope=\"row\"><p><strong>護甲訓練</strong></p></th><td><p>輕甲、中甲、重甲、盾牌</p></td></tr><tr><th scope=\"row\"><p><strong>起始裝備</strong></p></th><td><p><em>選擇A或B或C：</em> (A) @UUID[Compendium.dnd-players-handbook.equipment.Item.phbarmChainMail0]、@UUID[Compendium.dnd-players-handbook.equipment.Item.phbwepGreatsword]、@UUID[Compendium.dnd-players-handbook.equipment.Item.phbwepFlail00000]、8把@UUID[Compendium.dnd-players-handbook.equipment.Item.phbwepJavelin000]、@UUID[Compendium.dnd-players-handbook.equipment.Item.phbagDungeoneers]、[[/award 4GP]]；(B) @UUID[Compendium.dnd-players-handbook.equipment.Item.phbarmStuddedLea]、@UUID[Compendium.dnd-players-handbook.equipment.Item.phbwepScimitar00]、@UUID[Compendium.dnd-players-handbook.equipment.Item.phbwepShortsword]、@UUID[Compendium.dnd-players-handbook.equipment.Item.phbwepLongbow000]、20支@UUID[Compendium.dnd-players-handbook.equipment.Item.phbamoArrows0000]、@UUID[Compendium.dnd-players-handbook.equipment.Item.phbagQuiver00000]、@UUID[Compendium.dnd-players-handbook.equipment.Item.phbagDungeoneers]、[[/award 11GP]]；(C) [[/award 155GP]]</p></td></tr></tbody></table><p>戰士往往馳騁於戰場。戰士可以是探險騎士，皇家鬥士，精英士兵或是老練傭兵，他們熟習各種武器與護甲，他們的生活與死亡相伴，既不害怕手上染滿鮮血，也不畏懼迎接死亡。</p><p>戰士精通各種武器技藝，裝備精良的戰士總能在任何戰鬥中找到合適的武器。同樣，戰士對於各種盔甲也駕輕就熟。除掌握基本使用技巧外，每位戰士還專精於某種特定的戰鬥風格。有些專攻箭術，有些專精雙持武器戰鬥，有些則擅長於用魔法增強自己的戰鬥能力。泛用與專精相結合，讓戰士無往而不利。</p><h2>成為戰士…</h2><h3>作為首級角色</h3><ul><li>獲得戰士核心特徵表中的所有特徵。</li><li>獲得戰士特性表中列出的1級特性。</li></ul><h3>作為兼職角色</h3><ul><li>獲得下列戰士核心特徵表中的特徵：生命骰，軍用武器熟練，以及輕甲和盾牌的訓練。</li><li>獲得戰士特性表中列出的1級特性。</li></ul>",
+      "description": "<blockquote><p>十八般武藝樣樣精通的能手</p></blockquote><h3>核心戰士特徵</h3><table class=\"core-class-traits\"><tbody><tr><th scope=\"row\"><p><strong>關鍵屬性</strong></p></th><td><p>力量和敏捷</p></td></tr><tr><th scope=\"row\"><p><strong>生命骰</strong></p></th><td><p>每戰士等級D10</p></td></tr><tr><th scope=\"row\"><p><strong>豁免熟練</strong></p></th><td><p>力量與體質</p></td></tr><tr><th scope=\"row\"><p><strong>技能熟練</strong></p></th><td><p>從特技、馴獸、運動、歷史、洞悉、威嚇、說服、察覺或求生中<em>選擇兩項</em></p></td></tr><tr><th scope=\"row\"><p><strong>武器熟練</strong></p></th><td><p>簡易武器和軍用武器</p></td></tr><tr><th scope=\"row\"><p><strong>護甲訓練</strong></p></th><td><p>輕甲、中甲、重甲、盾牌</p></td></tr><tr><th scope=\"row\"><p><strong>起始裝備</strong></p></th><td><p><em>選擇A或B或C：</em> (A) @UUID[Compendium.dnd-players-handbook.equipment.Item.phbarmChainMail0]{鎖子甲}、@UUID[Compendium.dnd-players-handbook.equipment.Item.phbwepGreatsword]{巨劍}、@UUID[Compendium.dnd-players-handbook.equipment.Item.phbwepFlail00000]{連枷}、8把@UUID[Compendium.dnd-players-handbook.equipment.Item.phbwepJavelin000]{標槍}、@UUID[Compendium.dnd-players-handbook.equipment.Item.phbagDungeoneers]{地城探險家套裝}、4 GP；(B) @UUID[Compendium.dnd-players-handbook.equipment.Item.phbarmStuddedLea]{鑲釘皮甲}、@UUID[Compendium.dnd-players-handbook.equipment.Item.phbwepScimitar00]{彎刀}、@UUID[Compendium.dnd-players-handbook.equipment.Item.phbwepShortsword]{短劍}、@UUID[Compendium.dnd-players-handbook.equipment.Item.phbwepLongbow000]{長弓}、20支@UUID[Compendium.dnd-players-handbook.equipment.Item.phbamoArrows0000]{箭矢}、@UUID[Compendium.dnd-players-handbook.equipment.Item.phbagQuiver00000]{箭袋}、@UUID[Compendium.dnd-players-handbook.equipment.Item.phbagDungeoneers]{地城探險家套裝}、[[/award 11GP]]；(C) [[/award 155GP]]</p></td></tr></tbody></table><p>戰士往往馳騁於戰場。戰士可以是探險騎士，皇家鬥士，精英士兵或是老練傭兵，他們熟習各種武器與護甲，他們的生活與死亡相伴，既不害怕手上染滿鮮血，也不畏懼迎接死亡。</p><p>戰士精通各種武器技藝，裝備精良的戰士總能在任何戰鬥中找到合適的武器。同樣，戰士對於各種盔甲也駕輕就熟。除掌握基本使用技巧外，每位戰士還專精於某種特定的戰鬥風格。有些專攻箭術，有些專精雙持武器戰鬥，有些則擅長於用魔法增強自己的戰鬥能力。泛用與專精相結合，讓戰士無往而不利。</p><h2>成為戰士…</h2><h3>作為首級角色</h3><ul><li>獲得戰士核心特徵表中的所有特徵。</li><li>獲得戰士特性表中列出的1級特性。</li></ul><h3>作為兼職角色</h3><ul><li>獲得下列戰士核心特徵表中的特徵：生命骰，軍用武器熟練，以及輕甲和盾牌的訓練。</li><li>獲得戰士特性表中列出的1級特性。</li></ul>",
       "advancement": {
         "Class Features": {
           "title": "職業特性",
-          "name": "Class Features"
+          "name": "職業特性"
         },
         "Action Surge": {
           "title": "動作如潮",
-          "name": "Action Surge"
+          "name": "動作如潮"
         },
         "Epic Boon": {
           "title": "傳奇恩惠",
-          "name": "Epic Boon"
+          "name": "傳奇恩惠"
         },
         "Indomitable": {
           "title": "不屈",
-          "name": "Indomitable"
+          "name": "不屈"
         },
         "Second Wind": {
           "title": "回氣",
-          "name": "Second Wind"
+          "name": "回氣"
         },
         "Saving Throw Proficiencies": {
           "title": "豁免檢定熟練",
-          "name": "Saving Throw Proficiencies"
+          "name": "豁免檢定熟練"
         },
         "Skill Proficiencies": {
           "title": "技能熟練",
-          "name": "Skill Proficiencies"
+          "name": "技能熟練"
         },
         "Weapon Proficiencies": {
           "title": "武器熟練",
-          "name": "Weapon Proficiencies"
+          "name": "武器熟練"
         },
         "Armor Training": {
           "title": "護甲訓練",
-          "name": "Armor Training"
+          "name": "護甲訓練"
         },
         "Weapon Mastery": {
           "title": "武器精通",
-          "name": "Weapon Mastery"
+          "name": "武器精通"
         },
         "Fighting Style": {
           "title": "戰鬥風格",
-          "name": "Fighting Style"
+          "name": "戰鬥風格"
         },
         "Weapon Masteries Known": {
           "title": "已知武器精通",
-          "name": "Weapon Masteries Known"
+          "name": "已知武器精通"
         }
       }
     },
@@ -2898,11 +2898,11 @@
       }
     },
     "Indomitable": {
-      "name": "Indomitable",
-      "description": "<p>若你豁免檢定失敗，則你可以重擲並加上等同於你戰士等級（當前[[lookup @classes.fighter.levels]]級）的額外加值。你必須使用重擲的結果，且直到你完成長休前無法再次使用此特性。</p><p>當你到達 13 級時，你能夠在長休前使用此特性兩次，到達 17 級時三次。</p><section class=\"secret\" id=\"secret-eVLmL8YfOocgD4rC\"><p><strong>Foundry Note</strong></p><p>This feature's maximum usages scale automatically as you level up.</p></section>",
+      "name": "不屈",
+      "description": "<p>若你豁免檢定失敗，則你可以重擲並加上等同於你戰士等級（當前[[lookup @classes.fighter.levels]]級）的額外加值。你必須使用重擲的結果，且直到你完成長休前無法再次使用此特性。</p><p>當你到達 13 級時，你能夠在長休前使用此特性兩次，到達 17 級時三次。</p><section class=\"secret\" id=\"secret-eVLmL8YfOocgD4rC\"><p><strong>【Foundry註記】</strong></p><p>此特性的最大使用次數會隨著你升級自動提升。</p></section>",
       "activities": {
         "utility": {
-          "roll": "Bonus"
+          "roll": "加值"
         }
       }
     },
@@ -3107,7 +3107,7 @@
     },
     "Lay on Hands": {
       "name": "聖療",
-      "description": "<p>你的觸碰溢滿祝福，可以醫治傷口。你擁有一個每次長休後會補滿的治療能量池。能量池可恢復生命值的總數等於你聖騎士等級的五倍。能量池可以恢復生命值的總數等同於你聖騎士等級的五倍。</p><p>作為附贈動作，你可以觸碰一個生物（可以是你自己）並汲取治療池中的能量來恢復該生物的生命值，其恢復量至多等同於你治療能量池中所剩餘的治療量。</p><p>你也可以消耗治療能量池的5點治療量以移除生物的中毒狀態，但這些治療量不會恢復生物的生命值。</p><section id=\"secret-CgxYFHh5PcKwwbwk\" class=\"secret\"><p><strong>Foundry Note</strong></p><p>The <strong>Heal</strong> activity allows you to select the number of Hit Points you would like to restore and reduces your Lay on Hands pool by that amount.</p><p>The <strong>Remove Poison</strong> activity reduces your pool by 5 but does not automatically remove the Poisoned condition.</p></section>",
+      "description": "<p>你的觸碰溢滿祝福，可以醫治傷口。你擁有一個每次長休後會補滿的治療能量池。能量池可以恢復生命值的總數等同於你聖騎士等級的五倍。</p><p>作為附贈動作，你可以觸碰一個生物（可以是你自己）並汲取治療池中的能量來恢復該生物的生命值，其恢復量至多等同於你治療能量池中所剩餘的治療量。</p><p>你也可以消耗治療能量池的5點治療量以移除生物的中毒狀態，但這些治療量不會恢復生物的生命值。</p><section id=\"secret-CgxYFHh5PcKwwbwk\" class=\"secret\"><p><strong>【Foundry註記】</strong></p><p><strong>治療</strong>行動讓你選擇要恢復的生命值數量，並將你的聖療能量池減少相同的數量。</p><p><strong>移除毒素</strong>行動會使能量池減少5點，但不會自動移除中毒狀態。</p></section>",
       "activities": {
         "Remove Poison": {
           "name": "移除毒素"
@@ -3839,57 +3839,57 @@
     },
     "Paladin": {
       "name": "聖騎士",
-      "description": "<blockquote><p>立下神聖誓言的虔誠戰士</p></blockquote><h3>核心聖騎士特徵</h3><table class=\"core-class-traits\"><tbody><tr><th scope=\"row\"><p><strong>關鍵屬性</strong></p></th><td><p>力量和魅力</p></td></tr><tr><th scope=\"row\"><p><strong>生命骰</strong></p></th><td><p>每聖騎士等級D10</p></td></tr><tr><th scope=\"row\"><p><strong>豁免熟練</strong></p></th><td><p>感知與魅力</p></td></tr><tr><th scope=\"row\"><p><strong>技能熟練</strong></p></th><td><p>從運動、洞悉、威嚇、醫藥、遊說、宗教中<em>選擇2項 </em></p></td></tr><tr><th scope=\"row\"><p><strong>武器熟練</strong></p></th><td><p>簡易和軍用武器</p></td></tr><tr><th scope=\"row\"><p><strong>護甲訓練</strong></p></th><td><p>輕甲、中甲、重甲、盾牌</p></td></tr><tr><th scope=\"row\"><p><strong>起始裝備</strong></p></th><td><p><em>選擇A或B：</em> (A) @UUID[Compendium.dnd-players-handbook.equipment.Item.phbarmChainMail0]、@UUID[Compendium.dnd-players-handbook.equipment.Item.phbarmShield0000]、@UUID[Compendium.dnd-players-handbook.equipment.Item.phbwepLongsword0]、6把@UUID[Compendium.dnd-players-handbook.equipment.Item.phbwepJavelin000]、@UUID[Compendium.dnd-players-handbook.equipment.Item.phbagHolySymbolV]、@UUID[Compendium.dnd-players-handbook.equipment.Item.phbagPriestsPack]、[[/award 9GP]]；(B) [[/award 150GP]]</p></td></tr></tbody></table><p>聖騎士們在各自誓言的驅使下團結一致對抗邪惡勢力。他們也許是在神壇前由祭司見證宣誓，或在林中聖地向自然精魄許下承諾，又或是面臨絕望與災難卻只在死者的見證下立約，所有這些聖騎士誓言都是極強的契約。也正是誓言的偉力才讓一名虔誠的戰士化作身負祝福的勇者。</p><p>聖騎士經年累月苦練戰鬥技藝，並精通各種武器與護甲。即便如此，其武力的重要性也僅次於其行使的魔法力量。他們以之治療傷患，斬殺妄邪，守護清白者和所有為公義而戰的同伴。</p><p>聖騎士的存在本身即決定了其為冒險而生，這種生活會一直持續直至傷重無法繼續，否則他們總是會站在宇宙善惡大戰的最前線，與邪惡殊死搏鬥。在俗世中，真正能受到感召成為聖騎士的人，遠比民兵團或正規軍中可謂之戰士者要更為罕見。而這些勇士們受到感召時，都將放棄所擁有的身份地位，義無反顧投入與邪惡對抗的戰鬥之中。</p><h2>成為聖騎士…</h2><h3>作為首級角色</h3><ul><li>獲得聖騎士核心特徵表中的所有特徵。</li><li>獲得聖騎士特性表中列出的1級特性。</li></ul><h3>作為兼職角色</h3><ul><li>獲得下列聖騎士核心特徵表中的特徵：生命骰，軍用武器熟練，以及輕甲、中甲和盾牌訓練</li><li>獲得聖騎士特性表中列出的1級特性。請參閱第 2 章的兼職規則來確定可用的法術位。</li></ul><blockquote><p><strong>打破誓言</strong></p><p>聖騎士堅持著最高的道德行為標準，但即使最虔誠的人也會犯錯。聖騎士有時也會違背誓言。</p><p>違背誓言的聖騎士常會通宵守夜或禁戒飲食，以這種方式進行懺悔。在寬恕儀式之後，聖騎士將重新啟程。</p><p>若你的聖騎士對違背誓言並無悔意，那麼請與你的 DM 討論。你的聖騎士也許應該選擇更合適的子職業，甚至放棄該職業去選用另一個職業。</p></blockquote>",
+      "description": "<blockquote><p>立下神聖誓言的虔誠戰士</p></blockquote><h3>核心聖騎士特徵</h3><table class=\"core-class-traits\"><tbody><tr><th scope=\"row\"><p><strong>關鍵屬性</strong></p></th><td><p>力量和魅力</p></td></tr><tr><th scope=\"row\"><p><strong>生命骰</strong></p></th><td><p>每聖騎士等級D10</p></td></tr><tr><th scope=\"row\"><p><strong>豁免熟練</strong></p></th><td><p>感知與魅力</p></td></tr><tr><th scope=\"row\"><p><strong>技能熟練</strong></p></th><td><p>從運動、洞悉、威嚇、醫藥、說服、宗教中<em>選擇2項 </em></p></td></tr><tr><th scope=\"row\"><p><strong>武器熟練</strong></p></th><td><p>簡易和軍用武器</p></td></tr><tr><th scope=\"row\"><p><strong>護甲訓練</strong></p></th><td><p>輕甲、中甲、重甲、盾牌</p></td></tr><tr><th scope=\"row\"><p><strong>起始裝備</strong></p></th><td><p><em>選擇A或B：</em> (A) @UUID[Compendium.dnd-players-handbook.equipment.Item.phbarmChainMail0]{鎖子甲}、@UUID[Compendium.dnd-players-handbook.equipment.Item.phbarmShield0000]{盾牌}、@UUID[Compendium.dnd-players-handbook.equipment.Item.phbwepLongsword0]{長劍}、6把@UUID[Compendium.dnd-players-handbook.equipment.Item.phbwepJavelin000]{標槍}、@UUID[Compendium.dnd-players-handbook.equipment.Item.phbagHolySymbolV]{聖徽（多類）}、@UUID[Compendium.dnd-players-handbook.equipment.Item.phbagPriestsPack]{祭司套裝}、[[/award 9GP]]；(B) [[/award 150GP]]</p></td></tr></tbody></table><p>聖騎士們在各自誓言的驅使下團結一致對抗邪惡勢力。他們也許是在神壇前由祭司見證宣誓，或在林中聖地向自然精魄許下承諾，又或是面臨絕望與災難卻只在死者的見證下立約，所有這些聖騎士誓言都是極強的契約。也正是誓言的偉力才讓一名虔誠的戰士化作身負祝福的勇者。</p><p>聖騎士經年累月苦練戰鬥技藝，並精通各種武器與護甲。即便如此，其武力的重要性也僅次於其行使的魔法力量。他們以之治療傷患，斬殺妄邪，守護清白者和所有為公義而戰的同伴。</p><p>聖騎士的存在本身即決定了其為冒險而生，這種生活會一直持續直至傷重無法繼續，否則他們總是會站在宇宙善惡大戰的最前線，與邪惡殊死搏鬥。在俗世中，真正能受到感召成為聖騎士的人，遠比民兵團或正規軍中可謂之戰士者要更為罕見。而這些勇士們受到感召時，都將放棄所擁有的身份地位，義無反顧投入與邪惡對抗的戰鬥之中。</p><h2>成為聖騎士…</h2><h3>作為首級角色</h3><ul><li>獲得聖騎士核心特徵表中的所有特徵。</li><li>獲得聖騎士特性表中列出的1級特性。</li></ul><h3>作為兼職角色</h3><ul><li>獲得下列聖騎士核心特徵表中的特徵：生命骰，軍用武器熟練，以及輕甲、中甲和盾牌訓練</li><li>獲得聖騎士特性表中列出的1級特性。請參閱第 2 章的兼職規則來確定可用的法術位。</li></ul><blockquote><p><strong>打破誓言</strong></p><p>聖騎士堅持著最高的道德行為標準，但即使最虔誠的人也會犯錯。聖騎士有時也會違背誓言。</p><p>違背誓言的聖騎士常會通宵守夜或禁戒飲食，以這種方式進行懺悔。在寬恕儀式之後，聖騎士將重新啟程。</p><p>若你的聖騎士對違背誓言並無悔意，那麼請與你的 DM 討論。你的聖騎士也許應該選擇更合適的子職業，甚至放棄該職業去選用另一個職業。</p></blockquote>",
       "advancement": {
         "Saving Throw Proficiencies": {
           "title": "豁免檢定熟練",
-          "name": "Saving Throw Proficiencies"
+          "name": "豁免檢定熟練"
         },
         "Skill Proficiencies": {
           "title": "技能熟練",
-          "name": "Skill Proficiencies"
+          "name": "技能熟練"
         },
         "Weapon Proficiencies": {
           "title": "武器熟練",
-          "name": "Weapon Proficiencies"
+          "name": "武器熟練"
         },
         "Class Features": {
           "title": "職業特性",
-          "name": "Class Features"
+          "name": "職業特性"
         },
         "Aura Distance": {
           "title": "靈光距離",
-          "name": "Aura Distance"
+          "name": "靈光範圍"
         },
         "Max Prepared Spells": {
           "title": "最大準備法術",
-          "name": "Max Prepared Spells"
+          "name": "最大準備法術"
         },
         "Channel Divinity Uses": {
           "title": "引導神力使用次數",
-          "name": "Channel Divinity Uses"
+          "name": "引導神力使用次數"
         },
         "Epic Boon": {
           "title": "傳奇恩惠",
-          "name": "Epic Boon"
+          "name": "傳奇恩惠"
         },
         "Armor Training": {
           "title": "護甲訓練",
-          "name": "Armor Training"
+          "name": "護甲訓練"
         },
         "Fighting Style": {
           "title": "戰鬥風格",
-          "name": "Fighting Style"
+          "name": "戰鬥風格"
         },
         "Weapon Mastery": {
           "title": "武器精通",
-          "name": "Weapon Mastery"
+          "name": "武器精通"
         }
       }
     },
     "Paladin's Smite": {
       "name": "聖騎士斬技",
-      "description": "<p>你始終準備@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplDivineSmit]{至聖斬}法術。此外，你可以不消耗法術位施放該法術，一旦這麼做，你必須完成一次長休才能再次施放。</p><section id=\"secret-47mDL7wHB8aQP7SD\" class=\"secret\"><p><strong>Foundry Note</strong></p><p>When you reach this level the Divine Smite spell is added to your spells as Always Prepared and with a free use.</p></section>"
+      "description": "<p>你始終準備@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplDivineSmit]{至聖斬}法術。此外，你可以不消耗法術位施放該法術，一旦這麼做，你必須完成一次長休才能再次施放。</p><section id=\"secret-47mDL7wHB8aQP7SD\" class=\"secret\"><p><strong>【Foundry註記】</strong></p><p>當你達到此等級時，至聖斬法術會被加入你的法術列表，為始終準備，並附帶一次免費使用。</p></section>"
     },
     "Parry": {
       "name": "Parry",
@@ -4304,11 +4304,11 @@
       "description": "<p>你與你天界宗主的連結允許你成為光耀能量的渠道。你獲得對光耀傷害的抗力。每回合一次，當一個你施放的法術造成光耀傷害或火焰傷害時，你可以將你的魅力調整值加到該法術對其中一個目標所造成的傷害上。</p><section class=\"secret\" id=\"secret-svyjVvard8Z17Yjz\"><p><strong>【Foundry註記】</strong></p><p>當你升級時，會自動獲得對光耀傷害的抗力。</p><p><strong>傷害</strong>行動包含傷害擲骰，讓你在擲骰對話框中選擇傷害類型。你也可以在擲傷害骰時，將你的魅力調整值填入該法術的環境加值欄位。</p></section>"
     },
     "Radiant Strikes": {
-      "name": "Radiant Strikes",
-      "description": "<p>Your strikes now carry supernatural power. When you hit a target with an attack roll using a Melee weapon or an Unarmed Strike, the target takes an extra 1d8 Radiant damage.</p><section class=\"secret\" id=\"secret-fSg1MH5IBJqfecX2\"><p><strong>Foundry Note</strong></p><p>This feature includes an Active Effect which automatically adds the Radiant damage to all Damage Rolls made with your Melee Weapon Attacks and Unarmed Strikes.</p></section>",
+      "name": "光耀打擊",
+      "description": "<p>你的打擊如今承載著超自然力量。當你使用近戰武器或徒手打擊進行攻擊檢定並命中目標時，目標額外承受1d8光耀傷害。</p><section class=\"secret\" id=\"secret-fSg1MH5IBJqfecX2\"><p><strong>【Foundry註記】</strong></p><p>此特性包含一項Active Effect，會自動將光耀傷害加入你以近戰武器攻擊與徒手打擊所進行的所有傷害擲骰。</p></section>",
       "effects": {
         "Radiant Strikes": {
-          "name": "Radiant Strikes"
+          "name": "光耀打擊"
         }
       }
     },
@@ -4547,8 +4547,8 @@
       }
     },
     "Restoring Touch": {
-      "name": "Restoring Touch",
-      "description": "<p>When you use Lay On Hands on a creature, you can also remove one or more of the following conditions from the creature: Blinded, Charmed, Deafened, Frightened, Paralyzed, or Stunned. You must expend 5 Hit Points from the healing pool of Lay On Hands for each of these conditions you remove; those points don’t also restore Hit Points to the creature.</p><section class=\"secret\" id=\"secret-jxD0l6XyrF6DQqyI\"><p><strong>Foundry Note</strong></p><p>This feature includes a Scale prompt for selecting how many conditions you would like to remove that will automatically consume the correct number from your Lay on Hands pool.</p></section>"
+      "name": "復原之觸",
+      "description": "<p>當你對一個生物使用聖療時，你可以移除該生物身上下列一種或多種狀態：目盲、魅惑、耳聾、恐慌、麻痺或震懾。你每移除其中一種狀態，都必須花費聖療治療能量池中的5點治療量；這些點數不會同時恢復該生物的生命值。</p><section class=\"secret\" id=\"secret-jxD0l6XyrF6DQqyI\"><p><strong>【Foundry註記】</strong></p><p>此特性包含一個Scale提示，用於選擇你要移除的狀態數量，並會自動從你的聖療能量池中消耗正確的量。</p></section>"
     },
     "Retaliation": {
       "name": "報償",
@@ -4718,7 +4718,7 @@
     },
     "Second Wind": {
       "name": "回氣",
-      "description": "<p>你的身心都儲有底力，能夠從中汲取力量。作為一個附贈動作，你恢復1d10 + 你戰士等級的生命值。</p><p>你可以使用此特性兩次。當你完成短休時重獲一次已消耗的使用次數，並在完成長休時重獲所有已消耗的使用次數。</p><p>當你達到特定的戰士等級後，你將獲得更多此特性的使用次數，如@UUID[Compendium.dnd-players-handbook.content.JournalEntry.phbFighter000000.JournalEntryPage.wDELe3k25FQvYdrq#class-features]{戰士特性}表中的回氣一欄所示。</p><section class=\"secret\" id=\"secret-GEvXAMpxWEFigqSc\"><p><strong>Foundry Note</strong></p><p>This feature automatically scales in usage and recovers the correct number of uses on a Short and Long Rest.</p></section>"
+      "description": "<p>你的身心都儲有底力，能夠從中汲取力量。作為一個附贈動作，你恢復1d10 + 你戰士等級的生命值。</p><p>你可以使用此特性兩次。當你完成短休時重獲一次已消耗的使用次數，並在完成長休時重獲所有已消耗的使用次數。</p><p>當你達到特定的戰士等級後，你將獲得更多此特性的使用次數，如@UUID[Compendium.dnd-players-handbook.content.JournalEntry.phbFighter000000.JournalEntryPage.wDELe3k25FQvYdrq#class-features]{戰士特性}表中的回氣一欄所示。</p><section class=\"secret\" id=\"secret-GEvXAMpxWEFigqSc\"><p><strong>【Foundry註記】</strong></p><p>此特性會隨著你升級自動調整使用次數，並在短休與長休時恢復正確的使用次數。</p></section>"
     },
     "Second-Story Work": {
       "name": "梁上君子",
@@ -5096,8 +5096,8 @@
       "description": "<p>You gain proficiency with one type of Artisan's Tools of your choice, and you gain proficiency in one skill of your choice from the skills available to Fighters at level 1.</p><section id=\"secret-cnuoImK7Jn9u5eo6\" class=\"secret\"><p><strong>Foundry Note</strong></p><p>You will be prompted for these choices while leveling up.</p></section>"
     },
     "Studied Attacks": {
-      "name": "Studied Attacks",
-      "description": "<p>You study your opponents and learn from each attack you make. If you make an attack roll against a creature and miss, you have Advantage on your next attack roll against that creature before the end of your next turn.</p><section class=\"secret\" id=\"secret-JB6LwCHybmUrbihQ\"><p><strong>Foundry Note</strong></p><p>This feature does not automate the Advantage on your next attack roll.</p></section>"
+      "name": "審慎攻擊",
+      "description": "<p>你已深曉對手的一舉一動，並且從每次攻擊中吸取經驗教訓。若你對一個生物進行攻擊檢定但失手，則直到你的下個回合結束前，你對其的下次攻擊檢定具有優勢。</p><section class=\"secret\" id=\"secret-JB6LwCHybmUrbihQ\"><p><strong>【Foundry註記】</strong></p><p>此特性不會自動處理你下一次攻擊檢定的優勢。</p></section>"
     },
     "Stunning Strike": {
       "name": "震懾拳",
@@ -5260,14 +5260,14 @@
       }
     },
     "Tactical Master": {
-      "name": "Tactical Master",
+      "name": "戰術主宰",
       "description": "<p>當你以一把可以使用精通屬性的武器進行攻擊時，你可以將該次攻擊的精通屬性替換為推離、削弱或緩速屬性。</p>",
       "effects": {
         "Tactial Master": {
           "name": "Tactial Master"
         },
         "Tactical Master": {
-          "name": "Tactical Master"
+          "name": "戰術主宰"
         }
       }
     },
@@ -5283,7 +5283,7 @@
       }
     },
     "Tactical Shift": {
-      "name": "Tactical Shift",
+      "name": "戰術位移",
       "description": "<p>每當你以附贈動作啟用回氣時，你可以移動最多等同於你速度一半的距離，且不觸發藉機攻擊。</p>"
     },
     "Tamed Surge": {
@@ -5408,8 +5408,8 @@
       }
     },
     "Three Extra Attacks": {
-      "name": "Three Extra Attacks",
-      "description": "<p>You can attack four times instead of once whenever you take the Attack action on your turn.</p>"
+      "name": "額外攻擊（三）",
+      "description": "<p>每當你在自己的回合採取攻擊動作時，你可以發動四次攻擊而非一次。</p>"
     },
     "Tides of Chaos": {
       "name": "混亂之潮",
@@ -5544,8 +5544,8 @@
       }
     },
     "Two Extra Attacks": {
-      "name": "Two Extra Attacks",
-      "description": "<p>You can attack three times instead of once whenever you take the Attack action on your turn.</p>"
+      "name": "額外攻擊（二）",
+      "description": "<p>每當你在自己的回合採取攻擊動作時，你可以發動三次攻擊而非一次。</p>"
     },
     "Ultimate Combat Superiority": {
       "name": "Ultimate Combat Superiority",
@@ -6125,7 +6125,7 @@
     },
     "phbpdnSpellcasti": {
       "name": "施法",
-      "description": "<p>你學會透過冥想與祈禱施法。參見第七章的@UUID[Compendium.dnd-players-handbook.content.JournalEntry.phbSpells0000000.JournalEntryPage.mh3akteBDiLegqFK]{施法規則}。以下資訊詳細說明了如何將這些規則與聖騎士法術結合使用。聖騎士法術即該職業描述後的@UUID[Compendium.dnd-players-handbook.content.JournalEntry.phbSpells0000000.JournalEntryPage.8yD9Jgp404hfZ9ie]{聖騎士法術列表}中羅列的法術。</p><p><strong>【法術位】</strong>@UUID[Compendium.dnd-players-handbook.content.JournalEntry.phbPaladin000000.JournalEntryPage.A34CXe4HdzXHoBEl#class-features]{聖騎士特性表}記錄了你有多少法術位以施放1環以上的法術。當你完成長休時，你會重獲所有消耗的法術位。</p><p><strong>【準備1環以上的法術】</strong>通過此特性施法前，你需要準備數個可用的1環以上法術所構成的準備列表。首先，選擇兩個 1 環聖騎士法術。推薦選擇<em>英雄氣概</em>和<em>熾炎斬</em>。</p><p>你的準備列表上的法術數量將隨著聖騎士等級而增加，如聖騎士特性表中準備法術一欄所示。每當該數量增加時，選擇額外的聖騎士法術來添加到你的準備列表中，直到你準備列表上的法術數量與聖騎士特性表中的數量相匹配。所選法術的環階必須是你擁有的法術位。例如，作為 5 級聖騎士，你的準備法術列表應該包括六個任意組合的1環或2環聖騎士法術。</p><p>若其他聖騎士特性給予你始終準備的法術，則這些法術不會計入你在此特性中的準備法術數量，但是這些法術對你而言仍視為聖騎士法術。</p><p><strong>【更換準備法術】</strong>每當你完成長休時，你可以將準備列表中的一個法術，替換為另一個你擁有法術位的聖騎士法術。</p><p><strong>【施法屬性】 </strong>魅力是你施放聖騎士法術的施法屬性。</p><p><strong>【施法法器】 </strong>你可以使用聖徽作為聖騎士法術的施法法器。</p>"
+      "description": "<p>你學會透過冥想與祈禱施法。參見第七章的@UUID[Compendium.dnd-players-handbook.content.JournalEntry.phbSpells0000000.JournalEntryPage.mh3akteBDiLegqFK]{施法規則}。下列資訊詳細說明了如何將這些規則與聖騎士法術結合使用。聖騎士法術即該職業描述後的@UUID[Compendium.dnd-players-handbook.content.JournalEntry.phbSpells0000000.JournalEntryPage.8yD9Jgp404hfZ9ie]{聖騎士法術列表}中羅列的法術。</p><p><strong>【法術位】</strong>@UUID[Compendium.dnd-players-handbook.content.JournalEntry.phbPaladin000000.JournalEntryPage.A34CXe4HdzXHoBEl#class-features]{聖騎士特性表}記錄了你有多少法術位以施放一環以上的法術。當你完成長休時，你會重獲所有消耗的法術位。</p><p><strong>【準備一環以上的法術】</strong>通過此特性施法前，你需要準備數個可用的一環以上法術所構成的準備列表。首先，選擇兩個 1 環聖騎士法術。推薦選擇<em>英雄氣概</em>和<em>熾炎斬</em>。</p><p>你的準備列表上的法術數量將隨著聖騎士等級而增加，如聖騎士特性表中準備法術一欄所示。每當該數量增加時，選擇額外的聖騎士法術來添加到你的準備列表中，直到你準備列表上的法術數量與聖騎士特性表中的數量相匹配。所選法術的環階必須是你擁有的法術位。例如，作為 5 級聖騎士，你的準備法術列表應該包括六個任意組合的一環或二環聖騎士法術。</p><p>若其他聖騎士特性給予你始終準備的法術，則這些法術不會計入你在此特性中的準備法術數量，但是這些法術對你而言仍視為聖騎士法術。</p><p><strong>【更換準備法術】</strong>每當你完成長休時，你可以將準備列表中的一個法術，替換為另一個你擁有法術位的聖騎士法術。</p><p><strong>【施法屬性】 </strong>魅力是你施放聖騎士法術的施法屬性。</p><p><strong>【施法法器】 </strong>你可以使用聖徽作為聖騎士法術的施法法器。</p>"
     },
     "phbrgeSpellcasti": {
       "name": "施法",
@@ -6150,21 +6150,21 @@
     },
     "phbpdnChannelDiv": {
       "name": "引導神力",
-      "description": "<p>你可以引導來自外層位面的神聖力量，激發各種魔法效果。你首先學會創造一種效應：神聖感知，如下所述。其他聖騎士特性提供了額外的引導神力效應選項。每當你使用本職業的引導神力，你都需要從本職業的引導神力中選擇你要創造的效應。</p><p>你可以使用本職業的引導神兩次。當你完成短休時重獲一次已消耗的使用次數，並當你完成長休時重獲所有已消耗的使用次數。你在聖騎士等級到達 11 級時額外獲得一次使用次數。</p><p>若一個引導神力效應需要豁免檢定，則該DC等同於本職業施法特性的法術豁免DC。</p><p><strong>【神聖感知】</strong>作為附贈動作，你擴展自己的意識以偵測天界、邪魔、不死生物。在接下來的10分鐘或直到你陷入無力狀態前，你能知曉自身60呎內上述類型生物的位置以及其生物類型。在同樣的範圍內，你也能偵測任何受到類似法術@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplHallow0000]祝福或褻瀆的地點或物件。</p><section class=\"secret\" id=\"secret-lIHCt32JLE7PAUbn\"><p><strong>Foundry Note</strong></p><p>The uses of your Channel Divinity increase automatically as you level up. It automatically regains the correct uses after Short and Long Rests.</p><p>The <strong>Divine Sense</strong> activity includes an Active Effect but it does not automatically reveal the given creatures.</p></section>",
+      "description": "<p>你可以引導來自外層位面的神聖力量，激發各種魔法效果。你首先學會創造一種效應：神聖感知，如下所述。其他聖騎士特性提供了額外的引導神力效應選項。每當你使用本職業的引導神力，你都需要從本職業的引導神力中選擇你要創造的效應。</p><p>你可以使用本職業的引導神力兩次。當你完成短休時重獲一次已消耗的使用次數，並當你完成長休時重獲所有已消耗的使用次數。你在聖騎士等級到達 11 級時額外獲得一次使用次數。</p><p>若一個引導神力效應需要豁免檢定，則該DC等同於本職業施法特性的法術豁免DC。</p><p><strong>【神聖感知】</strong>作為附贈動作，你擴展自己的意識以偵測天界、邪魔、不死生物。在接下來的10分鐘或直到你陷入失能狀態前，你能知曉自身60呎內上述類型生物的位置以及其生物類型。在同樣的範圍內，你也能偵測任何受到類似法術@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplHallow0000]{聖居}祝福或褻瀆的地點或物件。</p><section class=\"secret\" id=\"secret-lIHCt32JLE7PAUbn\"><p><strong>【Foundry註記】</strong></p><p>你的引導神力使用次數會隨著等級提升自動增加，並會在短休與長休後自動重獲正確的次數。</p><p><strong>神聖感知</strong>行動包含一項Active Effect，但不會自動揭示相應的生物。</p></section>",
       "effects": {
         "Divine Sense": {
-          "name": "Divine Sense"
+          "name": "神聖感知"
         }
       },
       "activities": {
         "Divine Sense": {
-          "name": "Divine Sense"
+          "name": "神聖感知"
         }
       }
     },
     "phbftrEpicBoon00": {
       "name": "傳奇恩惠",
-      "description": "<p>You gain an @UUID[Compendium.dnd-players-handbook.content.JournalEntry.phbFeats00000000.JournalEntryPage.GxfrwkJbrIvn7reC]{Epic Boon feat} or another feat of your choice for which you qualify. @UUID[Compendium.dnd-players-handbook.feats.Item.phbBoonofCombatP]{Boon of Combat Prowess} is recommended.</p>"
+      "description": "<p>你獲得一項@UUID[Compendium.dnd-players-handbook.content.JournalEntry.phbFeats00000000.JournalEntryPage.GxfrwkJbrIvn7reC]{傳奇恩惠專長}，或另一項你所選擇且符合先決條件的專長。推薦選擇@UUID[Compendium.dnd-players-handbook.feats.Item.phbBoonofCombatP]{戰鬥威能恩惠}。</p>"
     },
     "phbmnkEpicBoon00": {
       "name": "傳奇恩惠",
@@ -6172,7 +6172,7 @@
     },
     "phbpdnEpicBoon00": {
       "name": "傳奇恩惠",
-      "description": "<p>You gain an @UUID[Compendium.dnd-players-handbook.content.JournalEntry.phbFeats00000000.JournalEntryPage.GxfrwkJbrIvn7reC]{Epic Boon feat} or another feat of your choice for which you qualify. @UUID[Compendium.dnd-players-handbook.feats.Item.phbBoonofTruesig]{Boon of Truesight} is recommended.</p><section class=\"secret\" id=\"secret-KoLcW2QoxzD8LnAY\"><p><strong>Foundry Note</strong></p><p>You will be prompted for a choice while leveling up.</p></section>"
+      "description": "<p>你獲得一項@UUID[Compendium.dnd-players-handbook.content.JournalEntry.phbFeats00000000.JournalEntryPage.GxfrwkJbrIvn7reC]{傳奇恩惠專長}，或其他一項你符合資格並自選的專長。推薦選擇@UUID[Compendium.dnd-players-handbook.feats.Item.phbBoonofTruesig]{真視恩惠}。</p><section class=\"secret\" id=\"secret-KoLcW2QoxzD8LnAY\"><p><strong>【Foundry註記】</strong></p><p>升級時你會被提示做出選擇。</p></section>"
     },
     "phbrgeEpicBoon00": {
       "name": "傳奇恩惠",
@@ -6212,7 +6212,7 @@
     },
     "phbpdnFightingSt": {
       "name": "戰鬥風格",
-      "description": "<p>你獲得你一項你所選擇的@UUID[Compendium.dnd-players-handbook.content.JournalEntry.phbFeats00000000.JournalEntryPage.sbHImaCB8ZMEHYkb]{戰鬥風格專長}。你可以選擇以下選項，而非上述這些專長。</p><hr /><p>@Embed[Compendium.dnd-players-handbook.feats.Item.phbfstBlessedWar caption=false]</p>"
+      "description": "<p>你獲得你一項你所選擇的@UUID[Compendium.dnd-players-handbook.content.JournalEntry.phbFeats00000000.JournalEntryPage.sbHImaCB8ZMEHYkb]{戰鬥風格專長}。你可以選擇下列選項，而非上述這些專長。</p><hr /><p>@Embed[Compendium.dnd-players-handbook.feats.Item.phbfstBlessedWar caption=false]</p>"
     },
     "phbrgrFightingSt": {
       "name": "戰鬥風格",
@@ -6270,7 +6270,7 @@
       "description": "<p><em>參見：@UUID[Compendium.dnd-players-handbook.classes.Item.phbmnkMartialArt]{武藝（武僧）}</em></p>"
     },
     "phbftrWeaponMast": {
-      "description": "<p>你對武器的訓練使你能夠使用三種你所選擇且擁有熟練的武器精通屬性。每當你完成一次長休時，你可以進行武器練習從而更換其中一種武器的選擇。</p><p>你可以掌握精通的武器數量將隨著戰士職業到達特定等級而增加如@UUID[Compendium.dnd-players-handbook.content.JournalEntry.phbFighter000000.JournalEntryPage.wDELe3k25FQvYdrq#class-features]{戰士特性}表中武器精通一欄所示。</p><section class=\"secret\" id=\"secret-Qfoze6XoZUYIlAnw\"><p><strong>Foundry Note</strong></p><p>To change your masteries toggle on the \"Edit\" mode of your sheet. On the \"Details\" tab click on the cog icon next to \"Weapons\" in the bottom right. You can place a check in the mastery column of your chosen weapons.</p></section>",
+      "description": "<p>你對武器的訓練使你能夠使用三種你所選擇的簡易或軍用武器的精通屬性。每當你完成一次長休時，你可以進行武器練習從而更換其中一種武器的選擇。</p><p>你可以掌握精通的武器數量將隨著戰士職業到達特定等級而增加如@UUID[Compendium.dnd-players-handbook.content.JournalEntry.phbFighter000000.JournalEntryPage.wDELe3k25FQvYdrq#class-features]{戰士特性}表中武器精通一欄所示。</p><section class=\"secret\" id=\"secret-Qfoze6XoZUYIlAnw\"><p><strong>【Foundry註記】</strong></p><p>若要更改你的精通，請開啟角色卡的「編輯」模式，在「詳情」分頁右下角點擊「武器」旁的齒輪圖示，即可在你所選武器的精通欄位打勾。</p></section>",
       "name": "武器精通"
     },
     "phbpdnWeaponMast": {
