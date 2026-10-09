@@ -64,8 +64,8 @@
           "description": "<p>@Embed[Compendium.dnd-players-handbook.content.JournalEntry.phbCh3ArtHandout.JournalEntryPage.Z2RPOWDkIBXRG0CQ caption=false classes=\"three right\"]</p><blockquote><p>追溯多元宇宙的根源與分支</p></blockquote><p>遵行@UUID[Compendium.dnd-players-handbook.classes.Item.phbbrbWorldTree0]{世界樹道途}的野蠻人透過他們的狂暴與宇宙之樹伊格德拉希爾相連。這棵樹生長在外層位面之間，連接著外層位面和物質位面。這些野蠻人借助世界之樹的魔力獲得生命力，並將其作為次元旅行的工具。</p>"
         },
         "Path of the Zealot": {
-          "name": "Path of the Zealot",
-          "description": "<p>@Embed[Compendium.dnd-players-handbook.content.JournalEntry.phbCh3ArtHandout.JournalEntryPage.rbUcTqEpuFZlIQiX caption=false classes=\"three right\"]</p><blockquote><p>Rage in Ecstatic Union with a God</p></blockquote><p>Barbarians who walk the @UUID[Compendium.dnd-players-handbook.classes.Item.phbbrbZealot0000]{Path of the Zealot} receive boons from a god or pantheon. These Barbarians experience their Rage as an ecstatic episode of divine union that infuses them with power. They are often allies to the priests and other followers of their god or pantheon.</p>"
+          "name": "狂熱者道途",
+          "description": "<p>@Embed[Compendium.dnd-players-handbook.content.JournalEntry.phbCh3ArtHandout.JournalEntryPage.rbUcTqEpuFZlIQiX caption=false classes=\"three right\"]</p><blockquote><p>與神靈欣喜若狂的結合中狂暴</p></blockquote><p>遵行@UUID[Compendium.dnd-players-handbook.classes.Item.phbbrbZealot0000]{狂熱者道途}的野蠻人可獲得神或神系的恩賜。這些野蠻人將神人合一的狂想曲化為自身的狂暴，並因此獲得力量。他們通常是其神靈或神系的祭司或是其信徒的盟友。</p>"
         },
         "Path of the Berserker": {
           "name": "狂戰士道途",
@@ -541,23 +541,23 @@
       "pages": {
         "Gloom Stalker": {
           "description": "<p>@Embed[Compendium.dnd-players-handbook.content.JournalEntry.phbCh3ArtHandout.JournalEntryPage.6lH0bBjC8Fxg9rkI caption=false classes=\"three right\"]</p><blockquote><p>Draw on Shadow Magic to Fight Your Foes</p></blockquote><p>@UUID[Compendium.dnd-players-handbook.classes.Item.phbrgrGloomStalk]{Gloom Stalkers} are at home in the darkest places, wielding magic drawn from the Shadowfell to combat enemies that lurk in darkness.</p>",
-          "name": "Gloom Stalker"
+          "name": "幽域追蹤者"
         },
         "Ranger": {
-          "name": "Ranger",
-          "description": "<p>@Embed[Compendium.dnd-players-handbook.content.JournalEntry.phbCh3ArtHandout.JournalEntryPage.7qN4IGLvwpc7j7KP caption=false]</p><p>@Embed[Compendium.dnd-players-handbook.content.JournalEntry.phbCh3ArtHandout.JournalEntryPage.r9NYYGWNoSxEYTlU caption=false classes=\"right two\"]</p><p>Far from bustling cities, amid the trees of trackless forests and across wide plains, @UUID[Compendium.dnd-players-handbook.classes.Item.phbrgrRanger0000]{Rangers} keep their unending watch in the wilderness. Rangers learn to track their quarry as a predator does, moving stealthily through the wilds and hiding themselves in brush and rubble.</p><p>Thanks to their connection with nature, Rangers can also cast spells that harness primal powers of the wilderness. A Ranger’s talents and magic are honed with deadly focus to protect the world from the ravages of monsters and tyrants.</p><h2>Becoming a Ranger …</h2><h3>As a Level 1 Character</h3><ul><li><p>Gain all the traits in the Core Ranger Traits table.</p></li><li><p>Gain the Ranger’s level 1 features, which are listed in the Ranger Features table.</p></li></ul><h3>As a Multiclass Character</h3><ul><li><p>Gain the following traits from the Core Ranger Traits table: Hit Point Die, proficiency with Martial weapons, proficiency in one skill of your choice from the Ranger’s skill list, and training with Light and Medium armor and Shields.</p></li><li><p>Gain the Ranger’s level 1 features, which are listed in the Ranger Features table. See the multiclassing rules in chapter 2 to determine your available spell slots.</p></li></ul>",
-          "subclass": "<p>A Ranger subclass is a specialization that grants you features at certain levels, as specified in the subclass. The next pages present the @UUID[Compendium.dnd-players-handbook.content.JournalEntry.phbRanger0000000.JournalEntryPage.9Y6m5wyW2K8LUqzp]{Beast Master}, @UUID[Compendium.dnd-players-handbook.content.JournalEntry.phbRanger0000000.JournalEntryPage.3M6p7GyZeEPBlYOv]{Fey Wanderer}, @UUID[Compendium.dnd-players-handbook.content.JournalEntry.phbRanger0000000.JournalEntryPage.kydldl9wYbxqUuzD]{Gloom Stalker}, and @UUID[Compendium.dnd-players-handbook.content.JournalEntry.phbRanger0000000.JournalEntryPage.80h94evzbL3MwLk1]{Hunter} subclasses.</p>"
+          "name": "遊俠",
+          "description": "<p>@Embed[Compendium.dnd-players-handbook.content.JournalEntry.phbCh3ArtHandout.JournalEntryPage.7qN4IGLvwpc7j7KP caption=false]</p><p>@Embed[Compendium.dnd-players-handbook.content.JournalEntry.phbCh3ArtHandout.JournalEntryPage.r9NYYGWNoSxEYTlU caption=false classes=\"right two\"]</p><p>離開城鎮的喧囂，即是茂密的森林和廣袤的原野。這正是@UUID[Compendium.dnd-players-handbook.classes.Item.phbrgrRanger0000]{遊俠}們進行無盡守望之地。他們向掠食者們學習如何追蹤獵物，借助荒野中的灌木叢和碎石在陰影中潛行。</p><p>熟悉荒野的遊俠們得以利用自然之力施放法術。為保護世界免受魔物和暴君的破壞，遊俠們的天賦和魔法往往都需要經歷刀口舔血般的磨練。</p><h2>成為遊俠…</h2><h3>作為首級角色</h3><ul><li><p>獲得遊俠核心特徵表中的所有特徵。</p></li><li><p>獲得遊俠特性表中列出的1級特性。</p></li></ul><h3>作為兼職角色</h3><ul><li><p>獲得遊俠核心特徵表中的以下特徵：生命骰，軍用武器熟練，遊俠技能熟練中選擇其一，以及輕甲、中甲、盾牌訓練。</p></li><li><p>獲得遊俠特性表中列出的1級特性。請參閱第2章的兼職規則以確定可用的法術位。</p></li></ul>",
+          "subclass": "<p>遊俠子職業是一種特化，在特定等級給予你對應的特性，具體內容見各子職業的說明。接下來的頁面介紹@UUID[Compendium.dnd-players-handbook.content.JournalEntry.phbRanger0000000.JournalEntryPage.9Y6m5wyW2K8LUqzp]{獸王}、@UUID[Compendium.dnd-players-handbook.content.JournalEntry.phbRanger0000000.JournalEntryPage.3M6p7GyZeEPBlYOv]{妖精漫遊者}、@UUID[Compendium.dnd-players-handbook.content.JournalEntry.phbRanger0000000.JournalEntryPage.kydldl9wYbxqUuzD]{幽域追蹤者}和@UUID[Compendium.dnd-players-handbook.content.JournalEntry.phbRanger0000000.JournalEntryPage.80h94evzbL3MwLk1]{獵人}這四種子職業。</p>"
         },
         "Fey Wanderer": {
-          "name": "Fey Wanderer",
+          "name": "妖精漫遊者",
           "description": "<p>@Embed[Compendium.dnd-players-handbook.content.JournalEntry.phbCh3ArtHandout.JournalEntryPage.ckJhsBIlf7Qxo19z caption=false classes=\"three right\"]</p><blockquote><p>Wield Fey Mirth and Fury</p></blockquote><p>A fey mystique surrounds you, thanks to the boon of an archfey or a location in the Feywild that transformed you. However you gained fey magic, you are now a @UUID[Compendium.dnd-players-handbook.classes.Item.phbrgrFeyWander0]{Fey Wanderer}. Your joyful laughter brightens the hearts of the downtrodden, and your martial prowess strikes terror in your foes, for great is the mirth of the fey and dreadful is their fury.</p>"
         },
         "Beast Master": {
-          "name": "Beast Master",
+          "name": "獸王",
           "description": "<p>@Embed[Compendium.dnd-players-handbook.content.JournalEntry.phbCh3ArtHandout.JournalEntryPage.fzHuYQM4SG6qynLV caption=false classes=\"three right\"]</p><blockquote><p>Bond with a Primal Beast</p></blockquote><p>A @UUID[Compendium.dnd-players-handbook.classes.Item.phbrgrBeastMaste]{Beast Master} forms a mystical bond with a special animal, drawing on primal magic and a deep connection to the natural world.</p>"
         },
         "Hunter": {
-          "name": "Hunter",
+          "name": "獵人",
           "description": "<p>@Embed[Compendium.dnd-players-handbook.content.JournalEntry.phbCh3ArtHandout.JournalEntryPage.eDSDWaZqyZqNAGxd caption=false classes=\"three right\"]</p><blockquote><p>Protect Nature and People from Destruction</p></blockquote><p>You stalk prey in the wilds and elsewhere, using your abilities as a @UUID[Compendium.dnd-players-handbook.classes.Item.phbrgrHunter0000]{Hunter} to protect nature and people everywhere from forces that would destroy them.</p>"
         }
       }
@@ -579,25 +579,25 @@
       "name": "遊蕩者",
       "pages": {
         "Rogue": {
-          "name": "Rogue",
-          "subclass": "<p>A Rogue subclass is a specialization that grants you features at certain levels, as specified in the subclass. The next pages present the @UUID[Compendium.dnd-players-handbook.content.JournalEntry.phbRogue00000000.JournalEntryPage.yiBzQeWdFjXrWxY2]{Arcane Trickster}, @UUID[Compendium.dnd-players-handbook.content.JournalEntry.phbRogue00000000.JournalEntryPage.CT8AvC3zYbch3awT]{Assassin}, @UUID[Compendium.dnd-players-handbook.content.JournalEntry.phbRogue00000000.JournalEntryPage.ktzTbf5xQEp9qm2c]{Soulknife}, and @UUID[Compendium.dnd-players-handbook.content.JournalEntry.phbRogue00000000.JournalEntryPage.BiqRuwpBfYi32N2p]{Thief} subclasses.</p><p>@Embed[Compendium.dnd-players-handbook.content.JournalEntry.phbCh3ArtHandout.JournalEntryPage.si6movwFtZhNx4q3 caption=false]</p>",
-          "description": "<p>@Embed[Compendium.dnd-players-handbook.content.JournalEntry.phbCh3ArtHandout.JournalEntryPage.EJGPmvmIPA4IT60s caption=false]</p><p>@UUID[Compendium.dnd-players-handbook.classes.Item.phbrgeRogue00000]{Rogues} rely on cunning, stealth, and their foes’ vulnerabilities to get the upper hand in any situation. They have a knack for finding the solution to just about any problem. A few even learn magical tricks to supplement their other abilities. Many Rogues focus on stealth and deception, while others refine skills that help them in a dungeon environment, such as climbing, finding and disarming traps, and opening locks.</p><p>In combat, Rogues prioritize subtle strikes over brute strength. They would rather make one precise strike than wear an opponent down with a barrage of blows.</p><p>Some Rogues began their careers as criminals, while others used their cunning to fight crime. Whatever a Rogue’s relation to the law, no common criminal or officer of the law can match the subtle brilliance of the greatest Rogues.</p><h2>Becoming a Rogue …</h2><h3>As a Level 1 Character</h3><ul><li><p>Gain all the traits in the Core Rogue Traits table.</p></li><li><p>Gain the Rogue’s level 1 features, which are listed in the Rogue Features table.</p></li></ul><h3>As a Multiclass Character</h3><ul><li><p>Gain the following traits from the Core Rogue Traits table: Hit Point Die, proficiency in one skill of your choice from the Rogue’s skill list, proficiency with Thieves’ Tools, and training with Light armor.</p></li><li><p>Gain the Rogue’s level 1 features, which are listed in the Rogue Features table.</p></li></ul><p>@Embed[Compendium.dnd-players-handbook.content.JournalEntry.phbCh3ArtHandout.JournalEntryPage.A8wujCme7opVrxUE caption=false]</p>"
+          "name": "遊蕩者",
+          "subclass": "<p>遊蕩者子職業是一種特化，在特定等級給予你對應的特性，具體內容見各子職業的說明。接下來的頁面介紹@UUID[Compendium.dnd-players-handbook.content.JournalEntry.phbRogue00000000.JournalEntryPage.yiBzQeWdFjXrWxY2]{詭術師}、@UUID[Compendium.dnd-players-handbook.content.JournalEntry.phbRogue00000000.JournalEntryPage.CT8AvC3zYbch3awT]{刺客}、@UUID[Compendium.dnd-players-handbook.content.JournalEntry.phbRogue00000000.JournalEntryPage.ktzTbf5xQEp9qm2c]{魂刃}和@UUID[Compendium.dnd-players-handbook.content.JournalEntry.phbRogue00000000.JournalEntryPage.BiqRuwpBfYi32N2p]{竊賊}這四種子職業。</p><p>@Embed[Compendium.dnd-players-handbook.content.JournalEntry.phbCh3ArtHandout.JournalEntryPage.si6movwFtZhNx4q3 caption=false]</p>",
+          "description": "<p>@Embed[Compendium.dnd-players-handbook.content.JournalEntry.phbCh3ArtHandout.JournalEntryPage.EJGPmvmIPA4IT60s caption=false]</p><p>@UUID[Compendium.dnd-players-handbook.classes.Item.phbrgeRogue00000]{遊蕩者}們靠著靈巧的變通和隱匿的身法，針對敵人的弱點獲得優勢。他們總有解決問題的訣竅。其中少數還會學習運用詭術魔法來作為其能力的補充。很多遊蕩者專注於潛行和騙術，而另一些則精於針對地下城環境的有效技能，諸如攀爬、搜索、解除裝置和開鎖。</p><p>戰鬥中的遊蕩者更偏愛狡猾的策略而非蠻橫行事。與其用密集的攻擊放倒敵人，他們更喜歡進行精準打擊。</p><p>有些遊蕩者以犯罪為生，但也有些使用其技巧打擊犯罪。而每當遊蕩者涉及法律時，那些尋常罪犯或執法官員都無法匹敵遊蕩者們高超的才智。</p><h2>成為遊蕩者…</h2><h3>作為首級角色</h3><ul><li><p>獲得遊蕩者核心特徵表中的所有特徵。</p></li><li><p>獲得遊蕩者特性表中列出的1級特性。</p></li></ul><h3>作為兼職角色</h3><ul><li><p>獲得遊蕩者核心特徵表中的以下特徵：生命骰，遊蕩者技能熟練中選擇其一，盜賊工具熟練，以及輕甲訓練。</p></li><li><p>獲得遊蕩者特性表中列出的1級特性。</p></li></ul><p>@Embed[Compendium.dnd-players-handbook.content.JournalEntry.phbCh3ArtHandout.JournalEntryPage.A8wujCme7opVrxUE caption=false]</p>"
         },
         "Soulknife": {
-          "name": "Soulknife",
-          "description": "<p>@Embed[Compendium.dnd-players-handbook.content.JournalEntry.phbCh3ArtHandout.JournalEntryPage.jkA7ZFJd0Brfoor9 caption=false classes=\"three right\"]</p><blockquote><p>Strike Foes with Psionic Blades</p></blockquote><p>A @UUID[Compendium.dnd-players-handbook.classes.Item.phbrgeSoulknife0]{Soulknife} strikes with the mind, cutting through barriers both physical and psychic. These Rogues discover psionic power within themselves and channel it to do their roguish work. As a Soulknife, your psionic abilities might have haunted you since childhood, revealing their full potential only as you experienced the stress of adventure. Or you might have sought out an order of psychic adepts and spent years learning how to manifest your power.</p>"
+          "name": "魂刃",
+          "description": "<p>@Embed[Compendium.dnd-players-handbook.content.JournalEntry.phbCh3ArtHandout.JournalEntryPage.jkA7ZFJd0Brfoor9 caption=false classes=\"three right\"]</p><blockquote><p>馭靈能之刃擊潰敵群</p></blockquote><p>@UUID[Compendium.dnd-players-handbook.classes.Item.phbrgeSoulknife0]{魂刃}利用心靈的力量發動攻擊和滲透，能同時擊穿他們於物理與心靈兩個層面的障壁。這些遊蕩者發現了自身擁有的靈能力量，並將之融合於自己的老本行上善加利用。作為魂刃，靈能可能從你的孩童時代起就一直困擾著你，但直到面臨冒險的壓力時這些潛能才完全顯露。又或者，你可能找到了一個隱居的靈能修士團，花了多年時間學習如何顯現你的力量。</p>"
         },
         "Thief": {
-          "name": "Thief",
-          "description": "<p>@Embed[Compendium.dnd-players-handbook.content.JournalEntry.phbCh3ArtHandout.JournalEntryPage.DE7Opse8FQcWzA45 caption=false classes=\"three right\"]</p><blockquote><p>Hunt for Treasure as a Classic Adventurer</p></blockquote><p>A mix of burglar, treasure hunter, and explorer, you are the epitome of an adventurer (@UUID[Compendium.dnd-players-handbook.classes.Item.phbrgeThief00000]{Thief subclass}). In addition to improving your agility and stealth, you gain abilities useful for delving into ruins and getting maximum benefit from the magic items you find there.</p>"
+          "name": "竊賊",
+          "description": "<p>@Embed[Compendium.dnd-players-handbook.content.JournalEntry.phbCh3ArtHandout.JournalEntryPage.DE7Opse8FQcWzA45 caption=false classes=\"three right\"]</p><blockquote><p>追秘獵寶的經典冒險家</p></blockquote><p>飛賊、寶藏獵人、探險家，你是一切經典冒險者形象的縮影（@UUID[Compendium.dnd-players-handbook.classes.Item.phbrgeThief00000]{竊賊子職業}）。這個子職業不僅提高了你的靈活與隱匿技術，還為你提供了探索古老遺蹟的遊蕩技巧，使你永遠能夠最大化利用藏匿其中的魔法物品。</p>"
         },
         "Arcane Trickster": {
-          "name": "Arcane Trickster",
-          "description": "<p>@Embed[Compendium.dnd-players-handbook.content.JournalEntry.phbCh3ArtHandout.JournalEntryPage.Hkz5LQZS0MKSTWoM caption=false classes=\"three right\"]</p><blockquote><p>Enhance Stealth with Arcane Spells</p></blockquote><p>Some Rogues enhance their fine-honed skills of stealth and agility with spells, learning magical tricks to aid them in their trade. Some @UUID[Compendium.dnd-players-handbook.classes.Item.phbrgeArcaneTric]{Arcane Tricksters} use their talents as pickpockets and burglars, while others are pranksters.</p>"
+          "name": "詭術師",
+          "description": "<p>@Embed[Compendium.dnd-players-handbook.content.JournalEntry.phbCh3ArtHandout.JournalEntryPage.Hkz5LQZS0MKSTWoM caption=false classes=\"three right\"]</p><blockquote><p>以奧法咒語匿影藏形</p></blockquote><p>一些盜賊透過學習法術來增強他們精妙的潛行與身法，將魔法詐術用於他們的勾當之中。有些@UUID[Compendium.dnd-players-handbook.classes.Item.phbrgeArcaneTric]{詭術師}憑藉他們的才能成為了扒手和竊賊，而其他人則是惡作劇者。</p>"
         },
         "Assassin": {
-          "description": "<p>@Embed[Compendium.dnd-players-handbook.content.JournalEntry.phbCh3ArtHandout.JournalEntryPage.GcgIi51M6G6QXj6l caption=false classes=\"three right\"]</p><blockquote><p>Practice the Grim Art of Death</p></blockquote><p>An @UUID[Compendium.dnd-players-handbook.classes.Item.phbrgeAssassin00]{Assassin’s} training focuses on using stealth, poison, and disguise to eliminate foes with deadly efficiency. While some Rogues who follow this path are hired killers, spies, or bounty hunters, the capabilities of this subclass are equally useful for adventurers facing a variety of monstrous enemies.</p>",
-          "name": "Assassin"
+          "description": "<p>@Embed[Compendium.dnd-players-handbook.content.JournalEntry.phbCh3ArtHandout.JournalEntryPage.GcgIi51M6G6QXj6l caption=false classes=\"three right\"]</p><blockquote><p>修習殘忍的刺殺藝術</p></blockquote><p>@UUID[Compendium.dnd-players-handbook.classes.Item.phbrgeAssassin00]{刺客}的訓練專注於使用潛行、毒藥和偽裝來以致命的效率消滅敵人。儘管一些遵循此路的遊蕩者成為了受僱殺手、間諜或賞金獵人，這個子職業的能力也同樣適用於面對各種怪物的冒險者。</p>",
+          "name": "刺客"
         }
       }
     },
@@ -636,28 +636,28 @@
       },
       "pages": {
         "Sorcerer": {
-          "name": "Sorcerer",
-          "description": "<p>@Embed[Compendium.dnd-players-handbook.content.JournalEntry.phbCh3ArtHandout.JournalEntryPage.9RyrQV2snF08NjFc caption=false]</p><p>@Embed[Compendium.dnd-players-handbook.content.JournalEntry.phbCh3ArtHandout.JournalEntryPage.CaXX3GYGe2p3JJ33 caption=false classes=\"right three\"]</p><p>@UUID[Compendium.dnd-players-handbook.classes.Item.phbscrSorcerer00]{Sorcerers} wield innate magic that is stamped into their being. Some Sorcerers can’t name the origin of their power, while others trace it to strange events in their personal or family history. The blessing of a dragon or a dryad at a baby’s birth or the strike of lightning from a clear sky might spark a Sorcerer’s gift. So too might the gift of a deity, exposure to the strange magic of another plane of existence, or a glimpse into the inner workings of reality. Whatever the origin, the result is an indelible mark on the Sorcerer, a churning magic that can be passed down through generations.</p><p>Sorcerers don’t learn magic; the raw, roiling power of magic is part of them. The essential art of a Sorcerer is learning to harness and channel that innate magic, allowing the Sorcerer to discover new and staggering ways to unleash their power. As Sorcerers master their innate magic, they grow more attuned to its origin, developing distinct powers that reflect its source.</p><p>Sorcerers are rare. Some family lines produce exactly one Sorcerer in every generation, but most of the time, the talents of sorcery appear as a fluke. People who have this magical power soon discover that it doesn’t like to stay quiet. A Sorcerer’s magic wants to be wielded.</p><h2>Becoming a Sorcerer …</h2><h3>As a Level 1 Character</h3><ul><li><p>Gain all the traits in the Core Sorcerer Traits table.</p></li><li><p>Gain the Sorcerer’s level 1 features, which are listed in the Sorcerer Features table.</p></li></ul><h3>As a Multiclass Character</h3><ul><li><p>Gain the Hit Point Die from the Core Sorcerer Traits table.</p></li><li><p>Gain the Sorcerer’s level 1 features, which are listed in the Sorcerer Features table. See the multiclassing rules in chapter 2 to determine your available spell slots.</p></li></ul>",
-          "subclass": "<p>A Sorcerer subclass is a specialization that grants you features at certain levels, as specified in the subclass. The next pages present the @UUID[Compendium.dnd-players-handbook.content.JournalEntry.phbSorcerer00000.JournalEntryPage.zqwAE59wEiY1bbtm]{Aberrant Sorcery}, @UUID[Compendium.dnd-players-handbook.content.JournalEntry.phbSorcerer00000.JournalEntryPage.Uk7haOmnUX48CBuY]{Clockwork Sorcery}, @UUID[Compendium.dnd-players-handbook.content.JournalEntry.phbSorcerer00000.JournalEntryPage.h9Qhn4HyJyAnK5b9]{Draconic Sorcery}, and @UUID[Compendium.dnd-players-handbook.content.JournalEntry.phbSorcerer00000.JournalEntryPage.z7c2nyg00fI0CpxD]{Wild Magic Sorcery} subclasses.</p><p>@Embed[Compendium.dnd-players-handbook.content.JournalEntry.phbCh3ArtHandout.JournalEntryPage.Sc9DhurPdmkq4ole]</p>"
+          "name": "術士",
+          "description": "<p>@Embed[Compendium.dnd-players-handbook.content.JournalEntry.phbCh3ArtHandout.JournalEntryPage.9RyrQV2snF08NjFc caption=false]</p><p>@Embed[Compendium.dnd-players-handbook.content.JournalEntry.phbCh3ArtHandout.JournalEntryPage.CaXX3GYGe2p3JJ33 caption=false classes=\"right three\"]</p><p>@UUID[Compendium.dnd-players-handbook.classes.Item.phbscrSorcerer00]{術士}的魔法力量與生俱來，這種魔力已經融進了他們的血脈裡。有些術士已經說不清他們力量起源究竟是什麼，而另一些術士認為自己的力量來自於他或是家族的某些奇遇。出生時受到龍或樹靈的祝福，又或者萬里無雲降閃電，這些事情都有可能激起術法天賦的火苗。除此之外，神明的恩賜、暴露在另一個位面的怪誕魔法下，又或是一窺現實世界的內裡，都有可能賜予術士力量。不論這股力量起源如何，所造成的結果已然成為術士身上不可磨滅的印記，那便是這世代傳承的湧動魔力。</p><p>術士無需學習魔法，這原始而沸騰的魔力本就是他們的一部分。但他們仍需要精進駕馭引導天生魔力的技巧，以此來尋獲更高效，更強力的方式去釋放他們的力量。隨著術士得以掌控與生俱來的魔力，他們與自己的術法起源也越來越協調，最終展現出與之來源相呼應的獨特力量。</p><p>術士十分罕見。有些家族每一代只會出現一個術士，不多也不少。不過多數時候，術法天賦的出現純屬偶然。擁有這股魔法的人將很快發現，力量不喜歡沉默。其渴望被運用。</p><h2>成為一位術士 …</h2><h3>作為首級角色</h3><ul><li><p>獲得術士核心特徵表中所有特徵。</p></li><li><p>獲得術士特性表中列出的 1 級特性。</p></li></ul><h3>作為兼職角色</h3><ul><li><p>獲得術士核心特徵表中的生命骰。</p></li><li><p>獲得術士特性表中列出的 1 級特性。參見兼職規則以決定你所能使用的法術槽。</p></li></ul>",
+          "subclass": "<p>術士子職業是一種特化，在特定等級給予你對應的特性，具體內容見各子職業的說明。接下來的頁面介紹@UUID[Compendium.dnd-players-handbook.content.JournalEntry.phbSorcerer00000.JournalEntryPage.zqwAE59wEiY1bbtm]{畸變術法}、@UUID[Compendium.dnd-players-handbook.content.JournalEntry.phbSorcerer00000.JournalEntryPage.Uk7haOmnUX48CBuY]{時械術法}、@UUID[Compendium.dnd-players-handbook.content.JournalEntry.phbSorcerer00000.JournalEntryPage.h9Qhn4HyJyAnK5b9]{龍族術法}和@UUID[Compendium.dnd-players-handbook.content.JournalEntry.phbSorcerer00000.JournalEntryPage.z7c2nyg00fI0CpxD]{狂野術法}這四種子職業。</p><p>@Embed[Compendium.dnd-players-handbook.content.JournalEntry.phbCh3ArtHandout.JournalEntryPage.Sc9DhurPdmkq4ole]</p>"
         },
         "Draconic Sorcery": {
-          "name": "Draconic Sorcery",
+          "name": "龍族術法",
           "description": "<p>@Embed[Compendium.dnd-players-handbook.content.JournalEntry.phbCh3ArtHandout.JournalEntryPage.bJx0jRA0yw5VQH8U caption=false classes=\"three right\"]</p><blockquote><p>Breathe the Magic of Dragons</p></blockquote><p>Your innate magic comes from the gift of a dragon. Perhaps an ancient dragon facing death bequeathed some of its magical power to you or your ancestor. You might have absorbed magic from a site infused with dragons’ power. Or perhaps you handled a treasure taken from a dragon’s hoard that was steeped in draconic power. Or you might have a dragon for an ancestor (@UUID[Compendium.dnd-players-handbook.classes.Item.phbscrDraconicSo]{Draconic Sorcery} subclass).</p>"
         },
         "Metamagic Options": {
-          "name": "Metamagic Options",
-          "text": "<p>The following options are available to your Metamagic feature. The options are presented in alphabetical order.</p><hr /><h3>@UUID[Compendium.dnd-players-handbook.classes.Item.phbmmoCarefulSpe]{Careful Spell}</h3><p>@Embed[Compendium.dnd-players-handbook.classes.Item.phbmmoCarefulSpe inline]</p><hr /><h3>@UUID[Compendium.dnd-players-handbook.classes.Item.phbmmoDistantSpe]{Distant Spell}</h3><p>@Embed[Compendium.dnd-players-handbook.classes.Item.phbmmoDistantSpe inline]</p><hr /><h3>@UUID[Compendium.dnd-players-handbook.classes.Item.phbmmoEmpoweredS]{Empowered Spell}</h3><p>@Embed[Compendium.dnd-players-handbook.classes.Item.phbmmoEmpoweredS inline]</p><hr /><h3>@UUID[Compendium.dnd-players-handbook.classes.Item.phbmmoExtendedSp]{Extended Spell}</h3><p>@Embed[Compendium.dnd-players-handbook.classes.Item.phbmmoExtendedSp inline]</p><hr /><h3>@UUID[Compendium.dnd-players-handbook.classes.Item.phbmmoHeightened]{Heightened Spell}</h3><p>@Embed[Compendium.dnd-players-handbook.classes.Item.phbmmoHeightened inline]</p><hr /><h3>@UUID[Compendium.dnd-players-handbook.classes.Item.phbmmoQuickenedS]{Quickened Spell}</h3><p>@Embed[Compendium.dnd-players-handbook.classes.Item.phbmmoQuickenedS inline]</p><hr /><h3>@UUID[Compendium.dnd-players-handbook.classes.Item.phbmmoSeekingSpe]{Seeking Spell}</h3><p>@Embed[Compendium.dnd-players-handbook.classes.Item.phbmmoSeekingSpe inline]</p><hr /><h3>@UUID[Compendium.dnd-players-handbook.classes.Item.phbmmoSubtleSpel]{Subtle Spell}</h3><p>@Embed[Compendium.dnd-players-handbook.classes.Item.phbmmoSubtleSpel inline]</p><hr /><h3>@UUID[Compendium.dnd-players-handbook.classes.Item.phbmmoTransmuted]{Transmuted Spell}</h3><p>@Embed[Compendium.dnd-players-handbook.classes.Item.phbmmoTransmuted inline]</p><hr /><h3>@UUID[Compendium.dnd-players-handbook.classes.Item.phbmmoTwinnedSpe]{Twinned Spell}</h3><p>@Embed[Compendium.dnd-players-handbook.classes.Item.phbmmoTwinnedSpe inline]</p><hr />"
+          "name": "超魔法選項",
+          "text": "<p>下列選項可供你的超魔法特性使用，並依英文字母順序排列。</p><hr /><h3>@UUID[Compendium.dnd-players-handbook.classes.Item.phbmmoCarefulSpe]{謹慎法術}</h3><p>@Embed[Compendium.dnd-players-handbook.classes.Item.phbmmoCarefulSpe inline]</p><hr /><h3>@UUID[Compendium.dnd-players-handbook.classes.Item.phbmmoDistantSpe]{遠程法術}</h3><p>@Embed[Compendium.dnd-players-handbook.classes.Item.phbmmoDistantSpe inline]</p><hr /><h3>@UUID[Compendium.dnd-players-handbook.classes.Item.phbmmoEmpoweredS]{強效法術}</h3><p>@Embed[Compendium.dnd-players-handbook.classes.Item.phbmmoEmpoweredS inline]</p><hr /><h3>@UUID[Compendium.dnd-players-handbook.classes.Item.phbmmoExtendedSp]{延時法術}</h3><p>@Embed[Compendium.dnd-players-handbook.classes.Item.phbmmoExtendedSp inline]</p><hr /><h3>@UUID[Compendium.dnd-players-handbook.classes.Item.phbmmoHeightened]{升階法術}</h3><p>@Embed[Compendium.dnd-players-handbook.classes.Item.phbmmoHeightened inline]</p><hr /><h3>@UUID[Compendium.dnd-players-handbook.classes.Item.phbmmoQuickenedS]{瞬發法術}</h3><p>@Embed[Compendium.dnd-players-handbook.classes.Item.phbmmoQuickenedS inline]</p><hr /><h3>@UUID[Compendium.dnd-players-handbook.classes.Item.phbmmoSeekingSpe]{追蹤法術}</h3><p>@Embed[Compendium.dnd-players-handbook.classes.Item.phbmmoSeekingSpe inline]</p><hr /><h3>@UUID[Compendium.dnd-players-handbook.classes.Item.phbmmoSubtleSpel]{精妙法術}</h3><p>@Embed[Compendium.dnd-players-handbook.classes.Item.phbmmoSubtleSpel inline]</p><hr /><h3>@UUID[Compendium.dnd-players-handbook.classes.Item.phbmmoTransmuted]{轉化法術}</h3><p>@Embed[Compendium.dnd-players-handbook.classes.Item.phbmmoTransmuted inline]</p><hr /><h3>@UUID[Compendium.dnd-players-handbook.classes.Item.phbmmoTwinnedSpe]{孿生法術}</h3><p>@Embed[Compendium.dnd-players-handbook.classes.Item.phbmmoTwinnedSpe inline]</p><hr />"
         },
         "Wild Magic Sorcery": {
-          "name": "Wild Magic Sorcery",
+          "name": "狂野術法",
           "description": "<p>@Embed[Compendium.dnd-players-handbook.content.JournalEntry.phbCh3ArtHandout.JournalEntryPage.oVr588YdgC7sUNmD caption=false classes=\"three right\"]</p><blockquote><p>Unleash Chaotic Magic</p></blockquote><p>Your innate magic stems from the forces of chaos that underlie the order of creation. You or an ancestor might have endured exposure to raw magic, perhaps through a planar portal leading to Limbo or the Elemental Planes. Perhaps you were blessed by a fey being or marked by a demon. Or your magic could be a fluke with no apparent cause. Whatever its source, this magic churns within you, waiting for any outlet (@UUID[Compendium.dnd-players-handbook.classes.Item.phbscrWildMagicS]{Wild Magic Sorcery} subclass).</p>"
         },
         "Aberrant Sorcery": {
           "description": "<p>@Embed[Compendium.dnd-players-handbook.content.JournalEntry.phbCh3ArtHandout.JournalEntryPage.V5olgMSrd0Zacz0K caption=false classes=\"three right\"]</p><blockquote><p>Wield Unnatural Psionic Power</p></blockquote><p>An alien influence has wrapped its tendrils around your mind, giving you psionic power (@UUID[Compendium.dnd-players-handbook.classes.Item.phbscrAberrantSo]{Aberrant Sorcery} subclass). You can now touch other minds with that power and alter the world around you. Will this power shine from you as a hopeful beacon to others? Or will you be a terror to those who feel the stab of your mind?</p><p>Perhaps a psychic wind from the Astral Plane carried psionic energy to you, or you were exposed to the Far Realm’s warping influence. Alternatively, you were implanted with a mind flayer tadpole, but your transformation into a mind flayer never occurred; now the tadpole’s psionic power is yours. However you acquired this power, your mind is aflame with it.</p>",
-          "name": "Aberrant Sorcery"
+          "name": "畸變術法"
         },
         "Clockwork Sorcery": {
-          "name": "Clockwork Sorcery",
+          "name": "時械術法",
           "description": "<p>@Embed[Compendium.dnd-players-handbook.content.JournalEntry.phbCh3ArtHandout.JournalEntryPage.H0eF1w5Ar7ksQI98 caption=false classes=\"three right\"]</p><blockquote><p>Channel Cosmic Forces of Order</p></blockquote><p>The cosmic force of order has suffused you with magic. That power arises from Mechanus or a realm like it—a plane of existence shaped entirely by clockwork efficiency. You or someone from your lineage might have become entangled in the machinations of modrons, the orderly beings who inhabit Mechanus. Perhaps your ancestor even took part in the Great Modron March. Whatever its origin within you, the power of order can seem strange to others, but for you, it’s part of a vast and glorious system (@UUID[Compendium.dnd-players-handbook.classes.Item.phbscrClockworkS]{Clockwork Sorcery} subclass).</p>"
         }
       }
@@ -720,29 +720,29 @@
       },
       "pages": {
         "Fiend Patron": {
-          "name": "Fiend Patron",
-          "description": "<p>@Embed[Compendium.dnd-players-handbook.content.JournalEntry.phbCh3ArtHandout.JournalEntryPage.hBj1dxfsrtTE3qET caption=false classes=\"three right\"]</p><blockquote><p>Make a Deal with the Lower Planes</p></blockquote><p>Your pact draws on the Lower Planes, the realms of perdition. You might forge a bargain with a demon lord such as Demogorgon or Orcus; an archdevil such as Asmodeus; or a pit fiend, balor, yugoloth, or night hag that is especially mighty. That patron’s aims are evil—the corruption or destruction of all things, ultimately including you—and your path is defined by the extent to which you strive against those aims (@UUID[Compendium.dnd-players-handbook.classes.Item.phbwlkFiendPatro]{Fiend Patron} subclass).</p>"
+          "name": "邪魔宗主",
+          "description": "<p>@Embed[Compendium.dnd-players-handbook.content.JournalEntry.phbCh3ArtHandout.JournalEntryPage.hBj1dxfsrtTE3qET caption=false classes=\"three right\"]</p><blockquote><p>與下層位面之物簽訂契約</p></blockquote><p>你的契約從眾下層位面——諸類邪魔之鄉那裡取得力量。當你選擇此子職時，你可能完成了一次交易——對方可能是一位惡魔領主，諸如狄魔高根，奧喀斯；或是一位大魔鬼，諸如阿斯蒙蒂斯；亦可能是一位極為強大的深獄煉魔，巴洛炎魔，尤格羅斯魔，甚至是夜鬼婆。無論如何，你的宗主的目標都是邪惡的——邪魔們追求著世間萬物的墮落與毀滅，而最終連你本身也無法獨善其身。而你的道路，取決於你在多大程度上努力對抗那些目標（@UUID[Compendium.dnd-players-handbook.classes.Item.phbwlkFiendPatro]{邪魔宗主}子職業）。</p>"
         },
         "Warlock": {
-          "name": "Warlock",
-          "subclass": "<p>A Warlock subclass is a specialization that grants you features at certain levels, as specified in the subclass. The next pages present the @UUID[Compendium.dnd-players-handbook.content.JournalEntry.phbWarlock000000.JournalEntryPage.dQHeGHmdwHIiODsr]{Archfey Patron}, @UUID[Compendium.dnd-players-handbook.content.JournalEntry.phbWarlock000000.JournalEntryPage.qheoOS8eeC6alP86]{Celestial Patron}, @UUID[Compendium.dnd-players-handbook.content.JournalEntry.phbWarlock000000.JournalEntryPage.4km6CWhHArWi0klF]{Fiend Patron}, and @UUID[Compendium.dnd-players-handbook.content.JournalEntry.phbWarlock000000.JournalEntryPage.qQFJw2Bq3aVeCVNp]{Great Old One Patron} subclasses.</p>",
-          "description": "<p>@Embed[Compendium.dnd-players-handbook.content.JournalEntry.phbCh3ArtHandout.JournalEntryPage.IwQ9ZXbNnPbNVcWH caption=false]</p><p>@UUID[Compendium.dnd-players-handbook.classes.Item.phbwlkWarlock000]{Warlocks} quest for knowledge that lies hidden in the fabric of the multiverse. They often begin their search for magical power by delving into tomes of forbidden lore, dabbling in invocations meant to attract the power of extraplanar beings, or seeking places of power where the influence of these beings can be felt. In no time, each Warlock is drawn into a binding pact with a powerful patron. Drawing on the ancient knowledge of beings such as angels, archfey, demons, devils, hags, and alien entities of the Far Realm, Warlocks piece together arcane secrets to bolster their own power.</p><p>Warlocks view their patrons as resources, as means to the end of achieving magical power. Some Warlocks respect, revere, or even love their patrons; some serve their patrons grudgingly; and some seek to undermine their patrons even as they wield the power their patrons have given them.</p><p>Once a pact is made, a Warlock’s thirst for knowledge and power can’t be slaked with mere study. Most Warlocks spend their days pursuing greater power and deeper knowledge, which typically means some kind of adventure.</p><h2>Becoming a Warlock …</h2><h3>As a Level 1 Character</h3><ul><li><p>Gain all the traits in the Core Warlock Traits table.</p></li><li><p>Gain the Warlock’s level 1 features, which are listed in the Warlock Features table.</p></li></ul><h3>As a Multiclass Character</h3><ul><li><p>Gain the following traits from the Core Warlock Traits table: Hit Point Die and training with Light armor.</p></li><li><p>Gain the Warlock’s level 1 features, which are listed in the Warlock Features table. See the multiclassing rules in chapter 2 to determine your available spell slots.</p></li></ul>"
+          "name": "契術師",
+          "subclass": "<p>契術師子職業是一種特化，在特定等級給予你對應的特性，具體內容見各子職業的說明。接下來的頁面介紹@UUID[Compendium.dnd-players-handbook.content.JournalEntry.phbWarlock000000.JournalEntryPage.dQHeGHmdwHIiODsr]{至高妖精宗主}、@UUID[Compendium.dnd-players-handbook.content.JournalEntry.phbWarlock000000.JournalEntryPage.qheoOS8eeC6alP86]{天界宗主}、@UUID[Compendium.dnd-players-handbook.content.JournalEntry.phbWarlock000000.JournalEntryPage.4km6CWhHArWi0klF]{邪魔宗主}和@UUID[Compendium.dnd-players-handbook.content.JournalEntry.phbWarlock000000.JournalEntryPage.qQFJw2Bq3aVeCVNp]{舊日支配者宗主}這四種子職業。</p>",
+          "description": "<p>@Embed[Compendium.dnd-players-handbook.content.JournalEntry.phbCh3ArtHandout.JournalEntryPage.IwQ9ZXbNnPbNVcWH caption=false]</p><p>@UUID[Compendium.dnd-players-handbook.classes.Item.phbwlkWarlock000]{契術師}追尋隱於多元宇宙之下的知識。在追尋魔法力量之處，他們鑽研大量的禁忌學識，進而知曉了那些吸引著異界存在的法術，或是尋覓到了足以感受異界之力的神秘地點。在此之後，契術師便與一位強大的宗主簽下彼此綁定的契約。契術師們從天使、至高妖精、惡魔、魔鬼、鬼婆，乃至遙遠國度的外星存在處汲取著遠古學識，並將這些玄奧之秘拼湊起來，進而轉為自己的力量。</p><p>契術師們將自己的宗主視為一種資源，也可以說是他們獲取魔法力量的手段。某些契術師尊重、敬畏甚至熱愛他們的宗主；而另一些則並不那麼心甘情願為自己的宗主服務；有些人會嘗試削弱他們的宗主，即使自己所操弄的力量也正來自於其。</p><p>一旦簽下契約，契術師對知識和力量的渴求便難以僅透過學習來滿足。大部分契術師畢生都在追求更卓越的力量與更深邃的知識，而這往往通向一條冒險之路。</p><h2>成為契術師…</h2><h3>作為首級角色</h3><ul><li><p>獲得契術師核心特徵表中的所有特徵。</p></li><li><p>獲得契術師特性表中列出的 1 級特性。</p></li></ul><h3>作為兼職角色</h3><ul><li><p>獲得下列契術師核心特徵表中的特徵：生命骰和輕甲訓練。</p></li><li><p>獲得契術師特性表中列出的 1 級特性。請參閱第 2 章的兼職規則來確定可用的法術位。</p></li></ul>"
         },
         "Celestial Patron": {
-          "name": "Celestial Patron",
-          "description": "<p>@Embed[Compendium.dnd-players-handbook.content.JournalEntry.phbCh3ArtHandout.JournalEntryPage.0ODzCQ4DDHMYzAqQ caption=false classes=\"three right\"]</p><blockquote><p>Call on the Power of the Heavens</p></blockquote><p>Your pact draws on the Upper Planes, the realms of everlasting bliss. You might enter an agreement with an empyrean, a couatl, a sphinx, a unicorn, or another heavenly entity. Or you might call on numerous such beings as you pursue goals aligned with theirs. Your pact allows you to experience a hint of the holy light that illuminates the multiverse (@UUID[Compendium.dnd-players-handbook.classes.Item.phbwlkCelestialP]{Celestial Patron} subclass).</p>"
+          "name": "天界宗主",
+          "description": "<p>@Embed[Compendium.dnd-players-handbook.content.JournalEntry.phbCh3ArtHandout.JournalEntryPage.0ODzCQ4DDHMYzAqQ caption=false classes=\"three right\"]</p><blockquote><p>呼喚天堂諸界之偉力</p></blockquote><p>你的契約從眾上層位面，極樂永駐之地處取得力量。當你選擇此子職時，你可能與一位至高天、一條羽蛇、一隻斯芬克斯、一匹獨角獸、或其他天界存在達成了協議。亦或是你結識了眾多與你目的一致的天界存在。你的契約讓你體驗到些許照亮多元宇宙的聖潔輝光（@UUID[Compendium.dnd-players-handbook.classes.Item.phbwlkCelestialP]{天界宗主}子職業）。</p>"
         },
         "Great Old One Patron": {
-          "name": "Great Old One Patron",
-          "description": "<p>@Embed[Compendium.dnd-players-handbook.content.JournalEntry.phbCh3ArtHandout.JournalEntryPage.GlIQYJVBy6ndD6La caption=false classes=\"three right\"]</p><blockquote><p>Unearth Forbidden Lore of Ineffable Beings</p></blockquote><p>When you choose this subclass, you might bind yourself to an unspeakable being from the Far Realm or an elder god—a being such as Tharizdun, the Chained God; Zargon, the Returner; Hadar, the Dark Hunger; or Great Cthulhu. Or you might invoke several entities without yoking yourself to one. The motives of these beings are incomprehensible, and the Great Old One might be indifferent to your existence. But the secrets you’ve learned nevertheless allow you to draw strange magic from it (@UUID[Compendium.dnd-players-handbook.classes.Item.phbwlkGreatOldOn]{Great Old One Patron} subclass).</p>"
+          "name": "舊日支配者宗主",
+          "description": "<p>@Embed[Compendium.dnd-players-handbook.content.JournalEntry.phbCh3ArtHandout.JournalEntryPage.GlIQYJVBy6ndD6La caption=false classes=\"three right\"]</p><blockquote><p>重現不可名狀之物的禁忌傳說</p></blockquote><p>當你選擇此子職業時，你便與古神，或遙遠國度那不可言說的存在聯結在了一起，其中有那受縛之神薩瑞茲頓、歸來者扎貢、烏黯之飢渴哈達或偉大克蘇魯。不過你也有可能並沒有束縛在單一存在上，而是攀附了許多實體。祂們的動機凡人難以理解，甚至這些舊日支配者對你的存在都毫不在乎，但你習得的密傳卻多多少少讓你可以從祂們身上汲取怪異的魔法（@UUID[Compendium.dnd-players-handbook.classes.Item.phbwlkGreatOldOn]{舊日支配者宗主}子職業）。</p>"
         },
         "Archfey Patron": {
-          "description": "<p>@Embed[Compendium.dnd-players-handbook.content.JournalEntry.phbCh3ArtHandout.JournalEntryPage.yLL5lQDuwybWHdR3 caption=false classes=\"three right\"]</p><blockquote><p>Bargain with Whimsical Fey</p></blockquote><p>Your pact draws on the power of the Feywild. When you choose this subclass, you might make a deal with an archfey, such as the Prince of Frost; the Queen of Air and Darkness, ruler of the Gloaming Court; Titania of the Summer Court; or an ancient hag. Or you might call on a spectrum of Fey, weaving a web of favors and debts. Whoever they are, your patron is often inscrutable and whimsical (@UUID[Compendium.dnd-players-handbook.classes.Item.phbwlkArchfeyPat]{Archfey Patron} subclass).</p>",
-          "name": "Archfey Patron"
+          "description": "<p>@Embed[Compendium.dnd-players-handbook.content.JournalEntry.phbCh3ArtHandout.JournalEntryPage.yLL5lQDuwybWHdR3 caption=false classes=\"three right\"]</p><blockquote><p>與喜怒無常的妖精交易</p></blockquote><p>你的契約從妖精荒野，神秘的妖精國度處取得力量。當你選擇此子職時，你可能與某個強大的至高妖精簽訂了契約，比如霜凍親王；薄暮王庭之主，空暗女王；仲夏王庭的泰坦尼亞，或是一位遠古鬼婆。你可能是與眾多妖精們共處，結成一道好感與人情交織的複雜網路。不管你的宗主是誰，祂們的行為往往都難以理解，有時甚至不可理喻（@UUID[Compendium.dnd-players-handbook.classes.Item.phbwlkArchfeyPat]{至高妖精宗主}子職業）。</p>",
+          "name": "至高妖精宗主"
         },
         "Eldritch Invocation Options": {
-          "name": "Eldritch Invocation Options",
-          "text": "<h2>@UUID[Compendium.dnd-players-handbook.classes.Item.phbinvAgonizingB]{Agonizing Blast}</h2><p>@Embed[Compendium.dnd-players-handbook.classes.Item.phbinvAgonizingB cite=false caption=false]</p><hr /><h2>@UUID[Compendium.dnd-players-handbook.classes.Item.phbinvArmorofSha]{Armor of Shadows}</h2><p>@Embed[Compendium.dnd-players-handbook.classes.Item.phbinvArmorofSha cite=false caption=false]</p><hr /><h2>@UUID[Compendium.dnd-players-handbook.classes.Item.phbinvAscendantS]{Ascendant Step}</h2><p>@Embed[Compendium.dnd-players-handbook.classes.Item.phbinvAscendantS cite=false caption=false]</p><hr /><h2>@UUID[Compendium.dnd-players-handbook.classes.Item.phbinvDevilsSigh]{Devil's Sight}</h2><p>@Embed[Compendium.dnd-players-handbook.classes.Item.phbinvDevilsSigh cite=false caption=false]</p><hr /><h2>@UUID[Compendium.dnd-players-handbook.classes.Item.phbinvDevouringB]{Devouring Blade}</h2><p>@Embed[Compendium.dnd-players-handbook.classes.Item.phbinvDevouringB cite=false caption=false]</p><hr /><h2>@UUID[Compendium.dnd-players-handbook.classes.Item.phbinvEldritchMi]{Eldritch Mind}</h2><p>@Embed[Compendium.dnd-players-handbook.classes.Item.phbinvEldritchMi cite=false caption=false]</p><hr /><h2>@UUID[Compendium.dnd-players-handbook.classes.Item.phbinvEldritchSm]{Eldritch Smite}</h2><p>@Embed[Compendium.dnd-players-handbook.classes.Item.phbinvEldritchSm cite=false caption=false]</p><hr /><h2>@UUID[Compendium.dnd-players-handbook.classes.Item.phbinvEldritchSp]{Eldritch Spear}</h2><p>@Embed[Compendium.dnd-players-handbook.classes.Item.phbinvEldritchSp cite=false caption=false]</p><hr /><h2>@UUID[Compendium.dnd-players-handbook.classes.Item.phbinvFiendishVi]{Fiendish Vigor}</h2><p>@Embed[Compendium.dnd-players-handbook.classes.Item.phbinvFiendishVi cite=false caption=false]</p><hr /><h2>@UUID[Compendium.dnd-players-handbook.classes.Item.phbinvGazeofTwoM]{Gaze of Two Minds}</h2><p>@Embed[Compendium.dnd-players-handbook.classes.Item.phbinvGazeofTwoM cite=false caption=false]</p><hr /><h2>@UUID[Compendium.dnd-players-handbook.classes.Item.phbinvGiftoftheD]{Gift of the Depths}</h2><p>@Embed[Compendium.dnd-players-handbook.classes.Item.phbinvGiftoftheD cite=false caption=false]</p><hr /><h2>@UUID[Compendium.dnd-players-handbook.classes.Item.phbinvGiftoftheP]{Gift of the Protectors}</h2><p>@Embed[Compendium.dnd-players-handbook.classes.Item.phbinvGiftoftheP cite=false caption=false]</p><hr /><h2>@UUID[Compendium.dnd-players-handbook.classes.Item.phbinvInvestment]{Investment of the Chain Master}</h2><p>@Embed[Compendium.dnd-players-handbook.classes.Item.phbinvInvestment cite=false caption=false]</p><hr /><h2>@UUID[Compendium.dnd-players-handbook.classes.Item.phbinvLessonsoft]{Lessons of the First Ones}</h2><p>@Embed[Compendium.dnd-players-handbook.classes.Item.phbinvLessonsoft cite=false caption=false]</p><hr /><h2>@UUID[Compendium.dnd-players-handbook.classes.Item.phbinvLifedrinke]{Lifedrinker}</h2><p>@Embed[Compendium.dnd-players-handbook.classes.Item.phbinvLifedrinke cite=false caption=false]</p><hr /><h2>@UUID[Compendium.dnd-players-handbook.classes.Item.phbinvMaskofMany]{Mask of Many Faces}</h2><p>@Embed[Compendium.dnd-players-handbook.classes.Item.phbinvMaskofMany cite=false caption=false]</p><hr /><h2>@UUID[Compendium.dnd-players-handbook.classes.Item.phbinvMasterofMy]{Master of Myriad Forms}</h2><p>@Embed[Compendium.dnd-players-handbook.classes.Item.phbinvMasterofMy cite=false caption=false]</p><hr /><h2>@UUID[Compendium.dnd-players-handbook.classes.Item.phbinvMistyVisio]{Misty Visions}</h2><p>@Embed[Compendium.dnd-players-handbook.classes.Item.phbinvMistyVisio cite=false caption=false]</p><hr /><h2>@UUID[Compendium.dnd-players-handbook.classes.Item.phbinvOnewithSha]{One with Shadows}</h2><p>@Embed[Compendium.dnd-players-handbook.classes.Item.phbinvOnewithSha cite=false caption=false]</p><hr /><h2>@UUID[Compendium.dnd-players-handbook.classes.Item.phbinvOtherworld]{Otherworldly Leap}</h2><p>@Embed[Compendium.dnd-players-handbook.classes.Item.phbinvOtherworld cite=false caption=false]</p><hr /><h2>@UUID[Compendium.dnd-players-handbook.classes.Item.phbinvPactBlade0]{Pact of the Blade}</h2><p>@Embed[Compendium.dnd-players-handbook.classes.Item.phbinvPactBlade0 caption=false cite=false]</p><hr /><h2>@UUID[Compendium.dnd-players-handbook.classes.Item.phbinvPactChain0]{Pact of the Chain}</h2><p>@Embed[Compendium.dnd-players-handbook.classes.Item.phbinvPactChain0 caption=false cite=false]</p><hr /><h2>@UUID[Compendium.dnd-players-handbook.classes.Item.phbinvPactTome00]{Pact of the Tome}</h2><p>@Embed[Compendium.dnd-players-handbook.classes.Item.phbinvPactTome00 caption=false cite=false]</p><hr /><h2>@UUID[Compendium.dnd-players-handbook.classes.Item.phbinvRepellingB]{Repelling Blast}</h2><p>@Embed[Compendium.dnd-players-handbook.classes.Item.phbinvRepellingB caption=false cite=false]</p><hr /><h2>@UUID[Compendium.dnd-players-handbook.classes.Item.phbinvThirstingB]{Thirsting Blade}</h2><p>@Embed[Compendium.dnd-players-handbook.classes.Item.phbinvThirstingB caption=false cite=false]</p><hr /><h2>@UUID[Compendium.dnd-players-handbook.classes.Item.phbinvVisionsOfD]{Visions of Distant Realms}</h2><p>@Embed[Compendium.dnd-players-handbook.classes.Item.phbinvVisionsOfD caption=false cite=false]</p><hr /><h2>@UUID[Compendium.dnd-players-handbook.classes.Item.phbinvWhispersOf]{Whispers of the Grave}</h2><p>@Embed[Compendium.dnd-players-handbook.classes.Item.phbinvWhispersOf caption=false cite=false]</p><hr /><h2>@UUID[Compendium.dnd-players-handbook.classes.Item.phbinvWitchSight]{Witch Sight}</h2><p>@Embed[Compendium.dnd-players-handbook.classes.Item.phbinvWitchSight caption=false cite=false]</p>"
+          "name": "魔能祈喚選項",
+          "text": "<h2>@UUID[Compendium.dnd-players-handbook.classes.Item.phbinvAgonizingB]{痛苦衝擊}</h2><p>@Embed[Compendium.dnd-players-handbook.classes.Item.phbinvAgonizingB cite=false caption=false]</p><hr /><h2>@UUID[Compendium.dnd-players-handbook.classes.Item.phbinvArmorofSha]{暗影護甲}</h2><p>@Embed[Compendium.dnd-players-handbook.classes.Item.phbinvArmorofSha cite=false caption=false]</p><hr /><h2>@UUID[Compendium.dnd-players-handbook.classes.Item.phbinvAscendantS]{躍升步伐}</h2><p>@Embed[Compendium.dnd-players-handbook.classes.Item.phbinvAscendantS cite=false caption=false]</p><hr /><h2>@UUID[Compendium.dnd-players-handbook.classes.Item.phbinvDevilsSigh]{魔鬼視覺}</h2><p>@Embed[Compendium.dnd-players-handbook.classes.Item.phbinvDevilsSigh cite=false caption=false]</p><hr /><h2>@UUID[Compendium.dnd-players-handbook.classes.Item.phbinvDevouringB]{滅世魔刃}</h2><p>@Embed[Compendium.dnd-players-handbook.classes.Item.phbinvDevouringB cite=false caption=false]</p><hr /><h2>@UUID[Compendium.dnd-players-handbook.classes.Item.phbinvEldritchMi]{魔能意志}</h2><p>@Embed[Compendium.dnd-players-handbook.classes.Item.phbinvEldritchMi cite=false caption=false]</p><hr /><h2>@UUID[Compendium.dnd-players-handbook.classes.Item.phbinvEldritchSm]{魔能重斬}</h2><p>@Embed[Compendium.dnd-players-handbook.classes.Item.phbinvEldritchSm cite=false caption=false]</p><hr /><h2>@UUID[Compendium.dnd-players-handbook.classes.Item.phbinvEldritchSp]{魔能之矛}</h2><p>@Embed[Compendium.dnd-players-handbook.classes.Item.phbinvEldritchSp cite=false caption=false]</p><hr /><h2>@UUID[Compendium.dnd-players-handbook.classes.Item.phbinvFiendishVi]{邪魔精力}</h2><p>@Embed[Compendium.dnd-players-handbook.classes.Item.phbinvFiendishVi cite=false caption=false]</p><hr /><h2>@UUID[Compendium.dnd-players-handbook.classes.Item.phbinvGazeofTwoM]{共視感官}</h2><p>@Embed[Compendium.dnd-players-handbook.classes.Item.phbinvGazeofTwoM cite=false caption=false]</p><hr /><h2>@UUID[Compendium.dnd-players-handbook.classes.Item.phbinvGiftoftheD]{深海饋贈}</h2><p>@Embed[Compendium.dnd-players-handbook.classes.Item.phbinvGiftoftheD cite=false caption=false]</p><hr /><h2>@UUID[Compendium.dnd-players-handbook.classes.Item.phbinvGiftoftheP]{守護饋贈}</h2><p>@Embed[Compendium.dnd-players-handbook.classes.Item.phbinvGiftoftheP cite=false caption=false]</p><hr /><h2>@UUID[Compendium.dnd-players-handbook.classes.Item.phbinvInvestment]{鏈主賦能}</h2><p>@Embed[Compendium.dnd-players-handbook.classes.Item.phbinvInvestment cite=false caption=false]</p><hr /><h2>@UUID[Compendium.dnd-players-handbook.classes.Item.phbinvLessonsoft]{初代的教誨}</h2><p>@Embed[Compendium.dnd-players-handbook.classes.Item.phbinvLessonsoft cite=false caption=false]</p><hr /><h2>@UUID[Compendium.dnd-players-handbook.classes.Item.phbinvLifedrinke]{飲命者}</h2><p>@Embed[Compendium.dnd-players-handbook.classes.Item.phbinvLifedrinke cite=false caption=false]</p><hr /><h2>@UUID[Compendium.dnd-players-handbook.classes.Item.phbinvMaskofMany]{千面之臉}</h2><p>@Embed[Compendium.dnd-players-handbook.classes.Item.phbinvMaskofMany cite=false caption=false]</p><hr /><h2>@UUID[Compendium.dnd-players-handbook.classes.Item.phbinvMasterofMy]{萬形之主}</h2><p>@Embed[Compendium.dnd-players-handbook.classes.Item.phbinvMasterofMy cite=false caption=false]</p><hr /><h2>@UUID[Compendium.dnd-players-handbook.classes.Item.phbinvMistyVisio]{迷霧幻影}</h2><p>@Embed[Compendium.dnd-players-handbook.classes.Item.phbinvMistyVisio cite=false caption=false]</p><hr /><h2>@UUID[Compendium.dnd-players-handbook.classes.Item.phbinvOnewithSha]{融身入影}</h2><p>@Embed[Compendium.dnd-players-handbook.classes.Item.phbinvOnewithSha cite=false caption=false]</p><hr /><h2>@UUID[Compendium.dnd-players-handbook.classes.Item.phbinvOtherworld]{超凡跳躍}</h2><p>@Embed[Compendium.dnd-players-handbook.classes.Item.phbinvOtherworld cite=false caption=false]</p><hr /><h2>@UUID[Compendium.dnd-players-handbook.classes.Item.phbinvPactBlade0]{鋒刃魔契}</h2><p>@Embed[Compendium.dnd-players-handbook.classes.Item.phbinvPactBlade0 caption=false cite=false]</p><hr /><h2>@UUID[Compendium.dnd-players-handbook.classes.Item.phbinvPactChain0]{鎖鏈魔契}</h2><p>@Embed[Compendium.dnd-players-handbook.classes.Item.phbinvPactChain0 caption=false cite=false]</p><hr /><h2>@UUID[Compendium.dnd-players-handbook.classes.Item.phbinvPactTome00]{書卷魔契}</h2><p>@Embed[Compendium.dnd-players-handbook.classes.Item.phbinvPactTome00 caption=false cite=false]</p><hr /><h2>@UUID[Compendium.dnd-players-handbook.classes.Item.phbinvRepellingB]{斥力衝擊}</h2><p>@Embed[Compendium.dnd-players-handbook.classes.Item.phbinvRepellingB caption=false cite=false]</p><hr /><h2>@UUID[Compendium.dnd-players-handbook.classes.Item.phbinvThirstingB]{飢渴魔刃}</h2><p>@Embed[Compendium.dnd-players-handbook.classes.Item.phbinvThirstingB caption=false cite=false]</p><hr /><h2>@UUID[Compendium.dnd-players-handbook.classes.Item.phbinvVisionsOfD]{穹宇盡視}</h2><p>@Embed[Compendium.dnd-players-handbook.classes.Item.phbinvVisionsOfD caption=false cite=false]</p><hr /><h2>@UUID[Compendium.dnd-players-handbook.classes.Item.phbinvWhispersOf]{墳塋歿語}</h2><p>@Embed[Compendium.dnd-players-handbook.classes.Item.phbinvWhispersOf caption=false cite=false]</p><hr /><h2>@UUID[Compendium.dnd-players-handbook.classes.Item.phbinvWitchSight]{巫術視界}</h2><p>@Embed[Compendium.dnd-players-handbook.classes.Item.phbinvWitchSight caption=false cite=false]</p>"
         }
       }
     },
@@ -779,25 +779,25 @@
       },
       "pages": {
         "Abjurer": {
-          "description": "<p>@Embed[Compendium.dnd-players-handbook.content.JournalEntry.phbCh3ArtHandout.JournalEntryPage.M8tgQdPBaQ7jyCqk caption=false classes=\"three right\"]</p><blockquote><p>Shield Companions and Banish Foes</p></blockquote><p>Your study of magic is focused on spells that block, banish, or protect—ending harmful effects, banishing evil influences, and protecting the weak. Abjurers are sought when baleful spirits require exorcism, when locations must be guarded against magical spying, and when portals to other planes of existence must be closed. Adventuring parties value @UUID[Compendium.dnd-players-handbook.classes.Item.phbwzdAbjurer000]{Abjurers} for the protection they provide against a variety of hostile magic and other attacks.</p>",
-          "name": "Abjurer"
+          "description": "<p>@Embed[Compendium.dnd-players-handbook.content.JournalEntry.phbCh3ArtHandout.JournalEntryPage.M8tgQdPBaQ7jyCqk caption=false classes=\"three right\"]</p><blockquote><p>保衛同伴，放逐仇敵</p></blockquote><p>你對魔法的研究集中在阻擋、驅逐和保護的法術上——結束有害影響、消除邪惡影響和保護弱者。防護師能夠驅逐惡靈、於重要地點防範魔法窺視、關閉通往其他存在位面的門扉。@UUID[Compendium.dnd-players-handbook.classes.Item.phbwzdAbjurer000]{防護師}對冒險隊伍非常有價值，因為他們能夠從各種敵對魔法和其他攻擊中保護同伴。</p>",
+          "name": "防護師"
         },
         "Illusionist": {
-          "name": "Illusionist",
-          "description": "<p>@Embed[Compendium.dnd-players-handbook.content.JournalEntry.phbCh3ArtHandout.JournalEntryPage.rDfM6y3Au4DQ9HS3 caption=false classes=\"three right\"]</p><blockquote><p>Weave Subtle Spells of Deception</p></blockquote><p>You specialize in magic that dazzles the senses and tricks the mind, and the illusions you craft make the impossible seem real (@UUID[Compendium.dnd-players-handbook.classes.Item.phbwzdIllusionis]{Illusionist} subclass).</p>"
+          "name": "幻術師",
+          "description": "<p>@Embed[Compendium.dnd-players-handbook.content.JournalEntry.phbCh3ArtHandout.JournalEntryPage.rDfM6y3Au4DQ9HS3 caption=false classes=\"three right\"]</p><blockquote><p>編織精妙的欺瞞法術</p></blockquote><p>你專精於能擾亂感官、迷惑心靈的魔法，而你創造的幻象足夠以假亂真（@UUID[Compendium.dnd-players-handbook.classes.Item.phbwzdIllusionis]{幻術師}子職業）。</p>"
         },
         "Wizard": {
-          "description": "<p>@Embed[Compendium.dnd-players-handbook.content.JournalEntry.phbCh3ArtHandout.JournalEntryPage.PL7bJ0pKJowitAfU caption=false]</p><p>@UUID[Compendium.dnd-players-handbook.classes.Item.phbwzdWizard0000]{Wizards} are defined by their exhaustive study of magic’s inner workings. They cast spells of explosive fire, arcing lightning, subtle deception, and spectacular transformations. Their magic conjures monsters from other planes of existence, glimpses the future, or forms protective barriers. Their mightiest spells change one substance into another, call meteors from the sky, or open portals to other worlds.</p><p>Most Wizards share a scholarly approach to magic. They examine the theoretical underpinnings of magic, particularly the categorization of spells into schools of magic. Renowned Wizards such as Bigby, Tasha, Mordenkainen, and Yolande have built on their studies to invent iconic spells now used across the multiverse.</p><p>The closest a Wizard is likely to come to an ordinary life is working as a sage or lecturer. Other Wizards sell their services as advisers, serve in military forces, or pursue lives of crime or domination.</p><p>But the lure of knowledge calls even the most unadventurous Wizards from the safety of their libraries and laboratories and into crumbling ruins and lost cities. Most Wizards believe that their counterparts in ancient civilizations knew secrets of magic that have been lost to the ages, and discovering those secrets could unlock the path to a power greater than any magic available in the present age.</p><h2>Becoming a Wizard …</h2><h3>As a Level 1 Character</h3><ul><li><p>Gain all the traits in the Core Wizard Traits table.</p></li><li><p>Gain the Wizard’s level 1 features, which are listed in the Wizard Features table.</p></li></ul><h3>As a Multiclass Character</h3><ul><li><p>Gain the Hit Point Die from the Core Wizard Traits table.</p></li><li><p>Gain the Wizard’s level 1 features, which are listed in the Wizard Features table. See the multiclassing rules in chapter 2 to determine your available spell slots.</p></li></ul><p>@Embed[Compendium.dnd-players-handbook.content.JournalEntry.phbCh3ArtHandout.JournalEntryPage.n1xrSQG1U8RQ4vJj]</p><aside class=\"notable\"><p><strong>Expanding and Replacing a Spellbook</strong></p><p>The spells you add to your spellbook as you gain levels reflect your ongoing magical research, but you might find other spells during your adventures that you can add to the book. You could discover a Wizard spell on a Spell Scroll, for example, and then copy it into your spellbook.</p><p><strong>Copying a Spell into the Book.</strong> When you find a level 1+ Wizard spell, you can copy it into your spellbook if it’s of a level you can prepare and if you have time to copy it. For each level of the spell, the transcription takes 2 hours and costs 50 GP. Afterward you can prepare the spell like the other spells in your spellbook.</p><p><strong>Copying the Book.</strong> You can copy a spell from your spellbook into another book. This is like copying a new spell into your spellbook but faster, since you already know how to cast the spell. You need spend only 1 hour and 10 GP for each level of the copied spell.</p><p>If you lose your spellbook, you can use the same procedure to transcribe the Wizard spells that you have prepared into a new spellbook. Filling out the remainder of the new book requires you to find new spells to do so. For this reason, many wizards keep a backup spellbook.</p></aside>",
-          "name": "Wizard",
-          "subclass": "<p>A Wizard subclass is a specialization that grants you features at certain levels, as specified in the subclass. The next pages present the @UUID[Compendium.dnd-players-handbook.content.JournalEntry.phbWizard0000000.JournalEntryPage.iMbdRPsxWV1pV61w]{Abjurer}, @UUID[Compendium.dnd-players-handbook.content.JournalEntry.phbWizard0000000.JournalEntryPage.LTpN3JESyYoxT24T]{Diviner}, @UUID[Compendium.dnd-players-handbook.content.JournalEntry.phbWizard0000000.JournalEntryPage.F5Nlk4mkB1nUUaob]{Evoker}, and @UUID[Compendium.dnd-players-handbook.content.JournalEntry.phbWizard0000000.JournalEntryPage.ZKPFPF7JbjO73m4I]{Illusionist}.</p><p>@Embed[Compendium.dnd-players-handbook.content.JournalEntry.phbCh3ArtHandout.JournalEntryPage.rU3ZOyOp2VugnZM2 caption=false]</p>"
+          "description": "<p>@Embed[Compendium.dnd-players-handbook.content.JournalEntry.phbCh3ArtHandout.JournalEntryPage.PL7bJ0pKJowitAfU caption=false]</p><p>所謂@UUID[Compendium.dnd-players-handbook.classes.Item.phbwzdWizard0000]{法師}，便是對魔法運作原理鑽研探索之人。噴射火焰，奧法閃電，欺詐幻象以及變換身形，這一切都可以由法師施法得來。不止如此，他們手中的魔法還可以喚來異界存在，一瞥未來明細，又或是降下護佑屏障。而最為強大的法術甚至可以點石成金，墜下隕石，打開通往異界的傳送門。</p><p>大多數法師都對魔法抱有學術研究的態度。他們研究魔法的理論基礎，尤其是魔法學派的法術分類。畢格比、塔莎、魔鄧肯和悠蘭德等知名法師在研究的基礎上發明了他們的招牌法術，如今這些法術已在多元宇宙中廣泛使用。</p><p>法師最接近普通人的生活就是擔任智者或講師。還有一些法師則會出售其服務而成為顧問，服役於軍隊，甚至用其力量實施犯罪或支配他人。</p><p>不過，知識與力量的誘惑還是足以令最不想冒險的法師走出其安全的圖書館和實驗室，前往那些廢墟和失落城市中。絕大多數法師堅信遠古時代的同行們掌握了一些現今已失傳許久的魔法奧秘。而只要找到這些秘密，就能獲得遠超現有魔法的強大力量。</p><h2>成為法師…</h2><h3>作為首級角色</h3><ul><li><p>獲得法師核心特徵表中的所有特徵。</p></li><li><p>獲得法師特性表中列出的 1 級特性。</p></li></ul><h3>作為兼職角色</h3><ul><li><p>獲得法師核心特徵表中的生命骰。</p></li><li><p>獲得法師特性表中列出的 1 級特性。請參閱第 2 章的兼職規則來確定可用的法術位。</p></li></ul><p>@Embed[Compendium.dnd-players-handbook.content.JournalEntry.phbCh3ArtHandout.JournalEntryPage.n1xrSQG1U8RQ4vJj]</p><aside class=\"notable\"><p><strong>擴充和替換法術書</strong></p><p>你在提升等級時添加到法術書中的法術正體現了你所進行的魔法研究，但你也可能在冒險中發現其他可以抄錄進法術書中的法術。例如，你可以在發現一張記載法師法術的卷軸後，將其抄錄到你的法術書中。</p><p><strong>將法術抄入法術書　</strong>當你發現一道一環以上法師法術時，只要你能夠準備該法術，並且也有時間去解讀和複製其，你便可以將其抄入你的法術書中。這個過程將消耗每法術環階2小時和50 GP。之後你就可以如法術書中的其他法術一般準備該法術了。</p><p><strong>複製法術書　</strong>你可以將法術書中的法術複製到另一本書中。由於你已經知道如何施放這個法術，所以這個過程會比複製新法術到你的法術書中更快。你只需花費每個法術環階1小時和 10 GP。</p><p>若你的法術書遺失，則你可以用同樣的方法將你準備的法師法術複製到新的法術書中。而填寫新法術書剩餘的內容則需要你尋找新法術完成。因此，許多法師都會保留一本備用法術書。</p></aside>",
+          "name": "法師",
+          "subclass": "<p>法師子職業是一種特化，在特定等級給予你對應的特性，具體內容見各子職業的說明。接下來的頁面介紹@UUID[Compendium.dnd-players-handbook.content.JournalEntry.phbWizard0000000.JournalEntryPage.iMbdRPsxWV1pV61w]{防護師}、@UUID[Compendium.dnd-players-handbook.content.JournalEntry.phbWizard0000000.JournalEntryPage.LTpN3JESyYoxT24T]{預言師}、@UUID[Compendium.dnd-players-handbook.content.JournalEntry.phbWizard0000000.JournalEntryPage.F5Nlk4mkB1nUUaob]{塑能師}和@UUID[Compendium.dnd-players-handbook.content.JournalEntry.phbWizard0000000.JournalEntryPage.ZKPFPF7JbjO73m4I]{幻術師}。</p><p>@Embed[Compendium.dnd-players-handbook.content.JournalEntry.phbCh3ArtHandout.JournalEntryPage.rU3ZOyOp2VugnZM2 caption=false]</p>"
         },
         "Diviner": {
-          "description": "<p>@Embed[Compendium.dnd-players-handbook.content.JournalEntry.phbCh3ArtHandout.JournalEntryPage.hzwogHc8FgJFXMmX caption=false classes=\"three right\"]</p><blockquote><p>Learn the Secrets of the Multiverse</p></blockquote><p>The counsel of a @UUID[Compendium.dnd-players-handbook.classes.Item.phbwzdDiviner000]{Diviner} is sought by those who want a clearer understanding of the past, present, and future. As a Diviner, you strive to part the veils of space, time, and consciousness. You work to master spells of discernment, remote viewing, supernatural knowledge, and foresight.</p>",
-          "name": "Diviner"
+          "description": "<p>@Embed[Compendium.dnd-players-handbook.content.JournalEntry.phbCh3ArtHandout.JournalEntryPage.hzwogHc8FgJFXMmX caption=false classes=\"three right\"]</p><blockquote><p>探究多元宇宙之秘</p></blockquote><p>那些尋求對過去、現在和未來有更清晰了解的人會尋求@UUID[Compendium.dnd-players-handbook.classes.Item.phbwzdDiviner000]{預言師}的建議。作為一位預言師，你致力於揭開空間、時間與意識的面紗。你努力掌握的法術囊括識別能力、千里眼、超自然學識和預警等內容。</p>",
+          "name": "預言師"
         },
         "Evoker": {
-          "name": "Evoker",
-          "description": "<p>@Embed[Compendium.dnd-players-handbook.content.JournalEntry.phbCh3ArtHandout.JournalEntryPage.kFstrFfYAMz5QZmV caption=false classes=\"three right\"]</p><blockquote><p>Create Explosive Elemental Effects</p></blockquote><p>Your studies focus on magic that creates powerful elemental effects such as bitter cold, searing flame, rolling thunder, crackling lightning, and burning acid. Some @UUID[Compendium.dnd-players-handbook.classes.Item.phbwzdEvoker0000]{Evokers} find employment in military forces, serving as artillery to blast armies from afar. Others use their power to protect others, while some seek their own gain.</p>"
+          "name": "塑能師",
+          "description": "<p>@Embed[Compendium.dnd-players-handbook.content.JournalEntry.phbCh3ArtHandout.JournalEntryPage.kFstrFfYAMz5QZmV caption=false classes=\"three right\"]</p><blockquote><p>創造炸裂的元素特效</p></blockquote><p>你專注於研習以魔力創造威力驚人的元素力量，諸如苦寒、灼焰、驚雷、汲電和烈酸。一些@UUID[Compendium.dnd-players-handbook.classes.Item.phbwzdEvoker0000]{塑能師}會接受軍隊的僱傭，充當從遠處轟炸敵人的砲兵。其他人以其驚人力量保護弱小，另一些人則作為冒險者尋求自身的利益。</p>"
         }
       }
     },
@@ -920,28 +920,28 @@
           "text": "<p>When you take the Study action, you make an Intelligence check to study your memory, a book, a clue, or another source of knowledge and call to mind an important piece of information about it.</p><p>The Areas of Knowledge table suggests which skills are applicable to various areas of knowledge.</p><table><caption>Areas of Knowledge</caption><thead><tr><th><p>Skill</p></th><th><p>Areas</p></th></tr></thead><tbody><tr><td><p>Arcana</p></td><td><p>Spells, magic items, eldritch symbols, magical traditions, planes of existence, and certain creatures (Aberrations, Constructs, Elementals, Fey, and Monstrosities)</p></td></tr><tr><td><p>History</p></td><td><p>Historic events and people, ancient civilizations, wars, and certain creatures (Giants and Humanoids)</p></td></tr><tr><td><p>Investigation</p></td><td><p>Traps, ciphers, riddles, and gadgetry</p></td></tr><tr><td><p>Nature</p></td><td><p>Terrain, flora, weather, and certain creatures (Beasts, Dragons, Oozes, and Plants)</p></td></tr><tr><td><p>Religion</p></td><td><p>Deities, religious hierarchies and rites, holy symbols, cults, and certain creatures (Celestials, Fiends, and Undead)</p></td></tr></tbody></table>"
         },
         "Condition": {
-          "name": "Condition",
-          "text": "<p>A condition is a temporary game state. The definition of a condition says how it affects its recipient, and various rules define how to end a condition. This glossary defines these conditions:</p><ul><li>@UUID[.uDogReMO6QtH6NDw]{Blinded}</li><li>@UUID[.vLAsIUa0FhZNsyLk]{Charmed}</li><li>@UUID[.qlRw66tJhk0zLnwq]{Deafened}</li><li>@UUID[.jSQtPgNm0i4f3Qi3]{Exhaustion}</li><li>@UUID[.93uaingTESo8N1qL]{Frightened}</li><li>@UUID[.KbQ1k0OIowtZeQgp]{Grappled}</li><li>@UUID[.4i3G895hy99piand]{Incapacitated}</li><li>@UUID[.MQIZ1zRLWRcNOtPN]{Invisible}</li><li>@UUID[.RnxZoTglPnLc6UPb]{Paralyzed}</li><li>@UUID[.6vtLuQT9lwZ9N299]{Petrified}</li><li>@UUID[.HWs8kEojffqwTSJz]{Poisoned}</li><li>@UUID[.QxCrRcgMdUd3gfzz]{Prone}</li><li>@UUID[.dqLeGdpHtb8FfcxX]{Restrained}</li><li>@UUID[.EjbXjvyQAMlDyANI]{Stunned}</li><li>@UUID[.fZCRaKEJd4KoQCqH]{Unconscious}</li></ul><p>A condition doesn’t stack with itself; a recipient either has a condition or doesn’t. The &amp;Reference[Exhaustion] condition is an exception to that rule. <em>See also</em> chapter 1 @UUID[Compendium.dnd-players-handbook.content.JournalEntry.phbConditions000.JournalEntryPage.BuIBCfux6QYAah3q]{Conditions}.</p>"
+          "name": "狀態",
+          "text": "<p>狀態是一種臨時的遊戲狀況。每個狀態的釋義中都會解釋其對受狀態者帶來的影響，且有一系列有關如何結束這些狀態的規則。本彙編定義以下這些狀態：</p><ul><li>@UUID[.uDogReMO6QtH6NDw]{目盲}</li><li>@UUID[.vLAsIUa0FhZNsyLk]{魅惑}</li><li>@UUID[.qlRw66tJhk0zLnwq]{耳聾}</li><li>@UUID[.jSQtPgNm0i4f3Qi3]{力竭}</li><li>@UUID[.93uaingTESo8N1qL]{恐慌}</li><li>@UUID[.KbQ1k0OIowtZeQgp]{受擒}</li><li>@UUID[.4i3G895hy99piand]{失能}</li><li>@UUID[.MQIZ1zRLWRcNOtPN]{隱形}</li><li>@UUID[.RnxZoTglPnLc6UPb]{麻痺}</li><li>@UUID[.6vtLuQT9lwZ9N299]{石化}</li><li>@UUID[.HWs8kEojffqwTSJz]{中毒}</li><li>@UUID[.QxCrRcgMdUd3gfzz]{倒地}</li><li>@UUID[.dqLeGdpHtb8FfcxX]{束縛}</li><li>@UUID[.EjbXjvyQAMlDyANI]{震懾}</li><li>@UUID[.fZCRaKEJd4KoQCqH]{昏迷}</li></ul><p>狀態不會與自身疊加——受狀態者只有「陷入此狀態」與「未陷入此狀態」兩種狀況。&amp;Reference[Exhaustion]{力竭}狀態是此規則的例外。<em>另見</em>第一章@UUID[Compendium.dnd-players-handbook.content.JournalEntry.phbConditions000.JournalEntryPage.BuIBCfux6QYAah3q]{狀態}。</p>"
         },
         "Charmed": {
-          "name": "Charmed",
-          "text": "<p>While you have the Charmed condition, you experience the following effects.</p><p><em><strong>Can’t Harm the Charmer.</strong></em> You can’t attack the charmer or target the charmer with damaging abilities or magical effects.</p><p><em><strong>Social Advantage.</strong></em> The charmer has Advantage on any ability check to interact with you socially.</p>"
+          "name": "魅惑",
+          "text": "<p>處於魅惑狀態期間，你遭受下列效應。</p><p><em><strong>無法傷害魅惑源　</strong></em>你無法攻擊魅惑源，也無法將其作為傷害性能力或魔法效應的目標。</p><p><em><strong>社交優勢　</strong></em>魅惑源對你進行任何社交互動的屬性檢定時均具有優勢。</p>"
         },
         "Exhaustion": {
-          "name": "Exhaustion",
-          "text": "<p>While you have the Exhaustion condition, you experience the following effects.</p><p><em><strong>Exhaustion Levels.</strong></em> This condition is cumulative. Each time you receive it, you gain 1 Exhaustion level. You die if your Exhaustion level is 6.</p><p><em><strong>D20 Tests Affected.</strong></em> When you make a &amp;Reference[D20 Test], the roll is reduced by 2 times your Exhaustion level.</p><p><em><strong>Speed Reduced.</strong></em> Your &amp;Reference[Speed] is reduced by a number of feet equal to 5 times your Exhaustion level.</p><p><em><strong>Removing Exhaustion Levels.</strong></em> Finishing a &amp;Reference[Long Rest] removes 1 of your Exhaustion levels. When your Exhaustion level reaches 0, the condition ends.</p>"
+          "name": "力竭",
+          "text": "<p>處於力竭狀態期間，你遭受下列效應。</p><p><em><strong>力竭等級　</strong></em>此狀態可疊加。每次你獲得此狀態時，力竭等級增加1級。若你的力竭等級達到6級，你將死亡。</p><p><em><strong>D20檢定影響　</strong></em>當你進行&amp;Reference[D20 Test]{D20檢定}時，擲骰結果將減去你力竭等級2倍的數值。</p><p><em><strong>速度降低　</strong></em>你的&amp;Reference[Speed]{速度}減少等同於你力竭等級5倍的呎數。</p><p><em><strong>移除力竭等級　</strong></em>完成一次&amp;Reference[Long Rest]{長休}可移除你1級力竭等級。當你的力竭等級降至0時，此狀態結束。</p>"
         },
         "Invisible": {
-          "name": "Invisible",
-          "text": "<p>While you have the Invisible condition, you experience the following effects.</p><p><em><strong>Surprise.</strong></em> If you’re Invisible when you roll Initiative, you have &amp;Reference[Advantage] on the roll.</p><p><em><strong>Concealed.</strong></em> You aren’t affected by any effect that requires its target to be seen unless the effect’s creator can somehow see you. Any equipment you are wearing or carrying is also concealed.</p><p><em><strong>Attacks Affected.</strong></em> Attack rolls against you have &amp;Reference[Disadvantage], and your attack rolls have Advantage. If a creature can somehow see you, you don’t gain this benefit against that creature.</p>"
+          "name": "隱形",
+          "text": "<p>處於隱形狀態期間，你遭受下列效應。</p><p><em><strong>出其不意　</strong></em>若你在投擲先攻時處於隱形狀態，你的先攻檢定具有&amp;Reference[Advantage]{優勢}。</p><p><em><strong>隱蔽　</strong></em>任何需要看見目標的效應都不會影響你，除非效應的創造者能以某種方式看見你。你穿戴或攜帶的任何裝備也同樣被隱蔽。</p><p><em><strong>攻擊影響　</strong></em>以你為目標的攻擊檢定具有&amp;Reference[Disadvantage]{劣勢}，而你的攻擊檢定具有優勢。若某生物能以某種方式看見你，你面對該生物時不會獲得此好處。</p>"
         },
         "Swimming": {
           "name": "Swimming",
           "text": "<p>While you’re swimming, each foot of movement costs 1 extra foot (2 extra feet in @UUID[.9tzB6KQDTIuw1FlZ]{Difficult Terrain}). You ignore this extra cost if you have a Swim Speed and use it to swim. At the DM’s option, moving any distance in rough water might require a successful [[/check dc=15 ath]] check.</p>"
         },
         "Restrained": {
-          "name": "Restrained",
-          "text": "<p>While you have the Restrained condition, you experience the following effects.</p><p><em><strong>Speed 0.</strong></em> Your &amp;Reference[Speed] is 0 and can’t increase.</p><p><em><strong>Attacks Affected.</strong></em> Attack rolls against you have Advantage, and your attack rolls have &amp;Reference[Disadvantage].</p><p><em><strong>Saving Throws Affected.</strong></em> You have Disadvantage on Dexterity saving throws.</p>"
+          "name": "束縛",
+          "text": "<p>處於束縛狀態期間，你遭受下列效應。</p><p><em><strong>速度0　</strong></em>你的&amp;Reference[Speed]{速度}為0，且無法增加。</p><p><em><strong>攻擊影響　</strong></em>以你為目標的攻擊檢定具有優勢，而你的攻擊檢定具有&amp;Reference[Disadvantage]{劣勢}。</p><p><em><strong>豁免影響　</strong></em>你的敏捷豁免檢定具有劣勢。</p>"
         },
         "Dehydration": {
           "name": "Dehydration",
@@ -1148,16 +1148,16 @@
           "name": "Expertise"
         },
         "Petrified": {
-          "text": "<p>While you have the Petrified condition, you experience the following effects.</p><p><em><strong>Turned to Inanimate Substance.</strong></em> You are transformed, along with any nonmagical objects you are wearing and carrying, into a solid inanimate substance (usually stone). Your weight increases by a factor of ten, and you cease aging.</p><p><em><strong>Incapacitated.</strong></em> You have the &amp;Reference[Incapacitated] condition.</p><p><em><strong>Speed 0.</strong></em> Your Speed is 0 and can’t increase.</p><p><em><strong>Attacks Affected.</strong></em> Attack rolls against you have &amp;Reference[Advantage].</p><p><em><strong>Saving Throws Affected.</strong></em> You automatically fail Strength and Dexterity saving throws.</p><p><em><strong>Resist Damage.</strong></em> You have &amp;Reference[Resistance] to all damage.</p><p><em><strong>Poison Immunity.</strong></em> You have Immunity to the &amp;Reference[Poisoned] condition.</p>",
-          "name": "Petrified"
+          "text": "<p>處於石化狀態期間，你遭受下列效應。</p><p><em><strong>轉化為無生命物質　</strong></em>你連同所穿戴與攜帶的所有非魔法物體，一起被轉化為堅固的無生命物質（通常是石頭）。你的重量變為原本的十倍，且你停止衰老。</p><p><em><strong>失能　</strong></em>你陷入&amp;Reference[Incapacitated]{失能}狀態。</p><p><em><strong>速度0　</strong></em>你的速度變為0，且無法增加。</p><p><em><strong>攻擊影響　</strong></em>以你為目標的攻擊檢定具有&amp;Reference[Advantage]{優勢}。</p><p><em><strong>豁免影響　</strong></em>你的力量豁免檢定與敏捷豁免檢定自動失敗。</p><p><em><strong>傷害抗性　</strong></em>你對所有傷害都具有&amp;Reference[Resistance]{抗性}。</p><p><em><strong>中毒免疫　</strong></em>你對&amp;Reference[Poisoned]{中毒}狀態免疫。</p>",
+          "name": "石化"
         },
         "Hover": {
           "text": "<p>Some creatures can hover, as noted in their stat blocks, and some spells and other effects grant the ability to hover. Hovering while flying prevents you from falling in certain circumstances. <em>See also </em>@UUID[.ozHhbP8JVHCJAx0b]{Flying}.</p>",
           "name": "Hover"
         },
         "Incapacitated": {
-          "text": "<p>While you have the &amp;Reference[incapacitated] condition, you experience the following effects.</p><p><em><strong>Inactive.</strong></em> You can’t take any @UUID[.SsIXfzS2ZttwAaKj]{action}, @UUID[.EjR3KL7KLTwjWBS0]{Bonus Action}, or @UUID[.OhSIWaQ61dOp7S8M]{Reaction}.</p><p><em><strong>No Concentration.</strong></em> Your @UUID[.0a2umg2mJMAzM9Q3]{Concentration} is broken.</p><p><em><strong>Speechless.</strong></em> You can’t speak.</p><p><em><strong>Surprised.</strong></em> If you’re Incapacitated when you roll Initiative, you have &amp;Reference[Disadvantage] on the roll.</p>",
-          "name": "Incapacitated"
+          "text": "<p>處於&amp;Reference[incapacitated]{失能}狀態期間，你遭受下列效應。</p><p><em><strong>無法行動　</strong></em>你無法採取任何@UUID[.SsIXfzS2ZttwAaKj]{動作}、@UUID[.EjR3KL7KLTwjWBS0]{附贈動作}或@UUID[.OhSIWaQ61dOp7S8M]{反應}。</p><p><em><strong>無法專注　</strong></em>你的@UUID[.0a2umg2mJMAzM9Q3]{專注}被打斷。</p><p><em><strong>無法說話　</strong></em>你無法說話。</p><p><em><strong>措手不及　</strong></em>若你在投擲先攻時處於失能狀態，你的先攻檢定具有&amp;Reference[Disadvantage]{劣勢}。</p>",
+          "name": "失能"
         },
         "Creature Type": {
           "text": "<p>Every creature, including every player character, has a tag in the rules that identifies the type of creature it is. Most player characters are of the Humanoid type. These are the game’s creature types:</p><ul><li><p>Aberration</p></li><li><p>Beast</p></li><li><p>Celestial</p></li><li><p>Construct</p></li><li><p>Dragon</p></li><li><p>Elemental</p></li><li><p>Fey</p></li><li><p>Fiend</p></li><li><p>Giant</p></li><li><p>Humanoid</p></li><li><p>Monstrosity</p></li><li><p>Ooze</p></li><li><p>Plant</p></li><li><p>Undead</p></li></ul><p>The types don’t have rules themselves, but some rules in the game affect creatures of certain types in different ways.</p>",
@@ -1172,8 +1172,8 @@
           "name": "Adventure"
         },
         "Unconscious": {
-          "name": "Unconscious",
-          "text": "<p>While you have the Unconscious condition, you experience the following effects.</p><p><em><strong>Inert.</strong></em> You have the &amp;Reference[Incapacitated] and &amp;Reference[Prone] conditions, and you drop whatever you’re holding. When this condition ends, you remain Prone.</p><p><em><strong>Speed 0.</strong></em> Your &amp;Reference[Speed] is 0 and can’t increase.</p><p><em><strong>Attacks Affected.</strong></em> Attack rolls against you have &amp;Reference[Advantage].</p><p><em><strong>Saving Throws Affected.</strong></em> You automatically fail Strength and Dexterity saving throws.</p><p><em><strong>Automatic Critical Hits.</strong></em> Any attack roll that hits you is a Critical Hit if the attacker is within 5 feet of you.</p>"
+          "name": "昏迷",
+          "text": "<p>處於昏迷狀態期間，你遭受下列效應。</p><p><em><strong>無效　</strong></em>你陷入&amp;Reference[Incapacitated]{失能}與&amp;Reference[Prone]{倒地}狀態，且會掉落所手持的一切物體。當此狀態結束時，你仍保持倒地。</p><p><em><strong>速度0　</strong></em>你的&amp;Reference[Speed]{速度}為0，且無法增加。</p><p><em><strong>攻擊影響　</strong></em>以你為目標的攻擊檢定具有&amp;Reference[Advantage]{優勢}。</p><p><em><strong>豁免影響　</strong></em>你的力量豁免檢定與敏捷豁免檢定自動失敗。</p><p><em><strong>自動暴擊　</strong></em>若攻擊者位於你5呎內，其任何命中你的攻擊檢定都會變為暴擊。</p>"
         },
         "Knocking Out a Creature": {
           "name": "Knocking Out a Creature",
@@ -1216,8 +1216,8 @@
           "text": "<p>Challenge Rating (CR) summarizes the threat a monster poses to a group of four player characters. Compare a monster’s CR to the characters’ level. If the CR is higher, the monster is likely a danger. If the CR is lower, the monster likely poses little threat. But circumstances and the number of player characters can significantly alter how threatening a monster is in actual play. The Dungeon Master’s Guide provides guidance to the DM on using CR while planning potential combat encounters. See also @UUID[.St3ANvrKOgxECnTn]{Stat Block}.</p>"
         },
         "Prone": {
-          "text": "<p>While you have the Prone condition, you experience the following effects.</p><p><em><strong>Restricted Movement.</strong></em> Your only movement options are to crawl or to spend an amount of movement equal to half your &amp;Reference[Speed] (round down) to right yourself and thereby end the condition. If your Speed is 0, you can’t right yourself.</p><p><em><strong>Attacks Affected.</strong></em> You have &amp;Reference[Disadvantage] on attack rolls. An attack roll against you has &amp;Reference[Advantage] if the attacker is within 5 feet of you. Otherwise, that attack roll has Disadvantage.</p>",
-          "name": "Prone"
+          "text": "<p>處於倒地狀態期間，你遭受下列效應。</p><p><em><strong>限制移動　</strong></em>你唯一的移動選擇是匍匐移動，或是消耗等於你&amp;Reference[Speed]{速度}一半（向下取整）的移動力起立並由此結束此狀態。若你的速度為0，你無法起立。</p><p><em><strong>攻擊影響　</strong></em>你的攻擊檢定具有&amp;Reference[Disadvantage]{劣勢}。若攻擊者位於你5呎內，以你為目標的攻擊檢定具有&amp;Reference[Advantage]{優勢}；否則，該攻擊檢定具有劣勢。</p>",
+          "name": "倒地"
         },
         "Bloodied": {
           "name": "Bloodied",
@@ -1308,12 +1308,12 @@
           "name": "Saving Throw"
         },
         "Deafened": {
-          "name": "Deafened",
-          "text": "<p><strong>Can’t Hear.</strong> You can’t hear and automatically fail any ability check that requires hearing.</p>"
+          "name": "耳聾",
+          "text": "<p><strong>聽不見　</strong>你無法聽聲，且進行任何需要聽覺的屬性檢定都會自動失敗。</p>"
         },
         "Blinded": {
-          "text": "<p><em><strong>Can’t See.</strong></em> You can’t see and automatically fail any ability check that requires sight.</p><p><em><strong>Attacks Affected.</strong></em> Attack rolls against you have Advantage, and your attack rolls have &amp;Reference[Disadvantage].</p>",
-          "name": "Blinded"
+          "text": "<p><em><strong>看不見　</strong></em>你無法視物，且進行任何需要視覺的屬性檢定都會自動失敗。</p><p><em><strong>攻擊影響　</strong></em>以你為目標的攻擊檢定具有優勢，而你進行的攻擊檢定具有&amp;Reference[Disadvantage]{劣勢}。</p>",
+          "name": "目盲"
         },
         "Immunity": {
           "text": "<p>If you have Immunity to a damage type or a condition, it doesn’t affect you in any way.</p>",
@@ -1336,8 +1336,8 @@
           "text": "<p>Some game effects curse a creature or an object. The effect that confers a curse defines what the curse does. Curses can be removed by the @UUID[Compendium.dnd-players-handbook.spells.Item.phbsplRemoveCurs]{Remove Curse} and @UUID[Compendium.dnd-players-handbook.spells.Item.phbsplGreaterRes]{Greater Restoration} spells or other magic that explicitly ends curses.</p>"
         },
         "Poisoned": {
-          "name": "Poisoned",
-          "text": "<p>While you have the Poisoned condition, you experience the following effect.</p><p><em><strong>Ability Checks and Attacks Affected.</strong></em> You have &amp;Reference[Disadvantage] on attack rolls and ability checks.</p>"
+          "name": "中毒",
+          "text": "<p>處於中毒狀態期間，你遭受下列效應。</p><p><em><strong>屬性檢定與攻擊影響　</strong></em>你的攻擊檢定與屬性檢定具有&amp;Reference[Disadvantage]{劣勢}。</p>"
         },
         "Jumping": {
           "text": "<p>When you jump, you make either a Long Jump (horizontal) or a High Jump (vertical).</p><p>@Embed[.NcSh8lVwlfk58VAO inline]</p><p>@Embed[.sy6xon5AxuIZV1ca inline]</p>",
@@ -1380,8 +1380,8 @@
           "text": "<p>A space is unoccupied if no creatures are in it and it isn’t completely filled by objects.</p>"
         },
         "Frightened": {
-          "name": "Frightened",
-          "text": "<p>While you have the Frightened condition, you experience the following effects.</p><p><em><strong>Ability Checks and Attacks Affected.</strong></em> You have &amp;Reference[Disadvantage] on ability checks and attack rolls while the source of fear is within line of sight.</p><p><em><strong>Can’t Approach.</strong></em> You can’t willingly move closer to the source of fear.</p>"
+          "name": "恐慌",
+          "text": "<p>處於恐慌狀態期間，你遭受下列效應。</p><p><em><strong>屬性檢定與攻擊影響　</strong></em>只要恐懼源位於你的視線範圍內，你進行的屬性檢定與攻擊檢定就具有&amp;Reference[Disadvantage]{劣勢}。</p><p><em><strong>無法靠近　</strong></em>你無法自願朝靠近恐懼源的方向移動。</p>"
         },
         "Attunement": {
           "text": "<p>Some magic items require a creature to form a bond—called Attunement—with them before the creature can use an item’s magical properties. A creature can have Attunement with no more than three magic items at a time. See also @UUID[Compendium.dnd-players-handbook.content.JournalEntry.phbMagicItems000]{Magic Items}.</p>",
@@ -1392,8 +1392,8 @@
           "text": "<p>If you have Disadvantage on a &amp;Reference[D20 Test], roll two d20s and use the lower roll. A roll can’t be affected by more than one Disadvantage, and Advantage and Disadvantage on the same roll cancel each other.</p>"
         },
         "Paralyzed": {
-          "text": "<p>While you have the Paralyzed condition, you experience the following effects.</p><p><em><strong>Incapacitated.</strong></em> You have the &amp;Reference[Incapacitated] condition.</p><p><em><strong>Speed 0.</strong></em> Your Speed is 0 and can’t increase.</p><p><em><strong>Saving Throws Affected.</strong></em> You automatically fail Strength and Dexterity saving throws.</p><p><em><strong>Attacks Affected.</strong></em> Attack rolls against you have &amp;Reference[Advantage].</p><p><em><strong>Automatic Critical Hits.</strong></em> Any attack roll that hits you is a Critical Hit if the attacker is within 5 feet of you.</p>",
-          "name": "Paralyzed"
+          "text": "<p>處於麻痺狀態期間，你遭受下列效應。</p><p><em><strong>失能　</strong></em>你陷入&amp;Reference[Incapacitated]{失能}狀態。</p><p><em><strong>速度0　</strong></em>你的速度變為0，且無法增加。</p><p><em><strong>豁免影響　</strong></em>你的力量豁免檢定與敏捷豁免檢定自動失敗。</p><p><em><strong>攻擊影響　</strong></em>以你為目標的攻擊檢定具有&amp;Reference[Advantage]{優勢}。</p><p><em><strong>自動暴擊　</strong></em>若攻擊者位於你5呎內，其任何命中你的攻擊檢定都會變為暴擊。</p>",
+          "name": "麻痺"
         },
         "Lightly Obscured": {
           "text": "<p>@Embed[Compendium.dnd5e.content24.JournalEntry.phbAppendixDRule.JournalEntryPage.MAxtfJyvJV7EpzWN inline] <em>See also</em> &amp;Reference[Dim Light] and @UUID[Compendium.dnd-players-handbook.content.JournalEntry.phbExploration00]{Exploration}.</p>",
@@ -1468,8 +1468,8 @@
           "name": "Armor Class"
         },
         "Grappled": {
-          "name": "Grappled",
-          "text": "<p>While you have the Grappled condition, you experience the following effects.</p><p><em><strong>Speed 0.</strong></em> Your Speed is 0 and can’t increase.</p><p><em><strong>Attacks Affected.</strong></em> You have &amp;Reference[Disadvantage] on attack rolls against any target other than the grappler.</p><p><em><strong>Movable.</strong></em> The grappler can drag or carry you when it moves, but every foot of movement costs it 1 extra foot unless you are Tiny or two or more sizes smaller than it.</p>"
+          "name": "受擒",
+          "text": "<p>處於受擒狀態期間，你遭受下列效應。</p><p><em><strong>速度0　</strong></em>你的速度變為0，且無法增加。</p><p><em><strong>攻擊影響　</strong></em>除擒抱者外，你對任何其他目標進行的攻擊檢定都具有&amp;Reference[Disadvantage]{劣勢}。</p><p><em><strong>帶動　</strong></em>擒抱者移動時可以拖曳或攜帶你，但除非你的體型為微型或比擒抱者小至少兩個階級，否則其每移動1呎都需要額外消耗1呎移動力。</p>"
         },
         "Flying": {
           "name": "Flying",
@@ -1520,15 +1520,15 @@
           "name": "Climbing"
         },
         "Stunned": {
-          "name": "Stunned",
-          "text": "<p>When you have the Stunned condition, you experience the following effects.</p><p><em><strong>Incapacitated.</strong></em> You have the @UUID[.4i3G895hy99piand]{Incapacitated} condition.</p><p><em><strong>Saving Throws Affected.</strong></em> You automatically fail Strength and Dexterity saving throws.</p><p><em><strong>Attacks Affected.</strong></em> Attack rolls against you have &amp;Reference[Advantage].</p>"
+          "name": "震懾",
+          "text": "<p>處於震懾狀態期間，你遭受下列效應。</p><p><em><strong>失能　</strong></em>你陷入@UUID[.4i3G895hy99piand]{失能}狀態。</p><p><em><strong>豁免影響　</strong></em>你的力量豁免檢定與敏捷豁免檢定自動失敗。</p><p><em><strong>攻擊影響　</strong></em>以你為目標的攻擊檢定具有&amp;Reference[Advantage]{優勢}。</p>"
         },
         "Experience Points": {
           "name": "Experience Points",
           "text": "<p>As they overcome challenges and complete adventures, characters earn Experience Points (XP), which are awarded by the Dungeon Master. When a character’s XP total crosses certain thresholds, the character’s level increases. The Dungeon Master’s Guide provides guidance on awarding XP.</p><p><em>See also</em> @UUID[Compendium.dnd-players-handbook.content.JournalEntry.phbCreatingAChar.JournalEntryPage.Vz5QcYKA74tWkDqy]{Level Advancement}.</p>"
         }
       },
-      "name": "Appendix C: Rules Glossary"
+      "name": "附錄 C：規則彙編"
     },
     "Player's Handbook Changelog": {
       "pages": {
@@ -1711,7 +1711,7 @@
           "name": "Rogue"
         },
         "Celestial": {
-          "name": "Celestial"
+          "name": "天界宗主"
         },
         "Barbarian": {
           "name": "Barbarian",
@@ -1740,13 +1740,13 @@
           "name": "Wizard"
         },
         "Soulknife": {
-          "name": "Soulknife"
+          "name": "魂刃"
         },
         "Circle of the Moon": {
           "name": "Circle of the Moon"
         },
         "Archfey": {
-          "name": "Archfey"
+          "name": "至高妖精宗主"
         },
         "Bard": {
           "name": "Bard",
@@ -1763,7 +1763,7 @@
           "name": "Wild Magic"
         },
         "Assassin": {
-          "name": "Assassin"
+          "name": "刺客"
         },
         "Beast Master": {
           "name": "Beast Master"
@@ -1840,7 +1840,7 @@
           "caption": "A Miraculous Priest of Divine Power"
         },
         "Fiend": {
-          "name": "Fiend"
+          "name": "邪魔宗主"
         },
         "Trickery Domain": {
           "name": "Trickery Domain"
@@ -1861,13 +1861,13 @@
           "name": "Rogue Running from Fire Breath"
         },
         "Great Old One": {
-          "name": "Great Old One"
+          "name": "舊日支配者宗主"
         },
         "Thief": {
-          "name": "Thief"
+          "name": "竊賊"
         },
         "Arcane Trickster": {
-          "name": "Arcane Trickster"
+          "name": "詭術師"
         },
         "Infiltrators Restraining Guards": {
           "name": "Infiltrators Restraining Guards"
@@ -1968,7 +1968,7 @@
           "name": "Life Domain Spells"
         },
         "Fiend Spells": {
-          "name": "Fiend Spells"
+          "name": "邪魔法術"
         },
         "Gloom Stalker Spells": {
           "name": "Gloom Stalker Spells"
@@ -2001,13 +2001,13 @@
           "name": "Clockwork Spells"
         },
         "Archfey Spells": {
-          "name": "Archfey Spells"
+          "name": "至高妖精法術"
         },
         "Light Domain Spells": {
           "name": "Light Domain Spells"
         },
         "Celestial Spells": {
-          "name": "Celestial Spells"
+          "name": "天界法術"
         },
         "Trickery Domain Spells": {
           "name": "Trickery Domain Spells"
@@ -2025,7 +2025,7 @@
           "name": "Oath of Vengeance Spells"
         },
         "Great Old One Spells": {
-          "name": "Great Old One Spells"
+          "name": "舊日支配者法術"
         },
         "Circle of the Moon Spells": {
           "name": "Circle of the Moon Spells"
