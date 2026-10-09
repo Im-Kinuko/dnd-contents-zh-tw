@@ -7,16 +7,16 @@
         },
         "Celestial Resistance": {
           "title": "天界抗性",
-          "name": "Celestial Resistance"
+          "name": "天界抗性"
         },
         "Light Bearer": {
           "hint": "你知曉光亮術戲法，在該法術上你的施法屬性為魅力。",
           "title": "光輝掌者",
-          "name": "Light Bearer"
+          "name": "光輝掌者"
         },
         "Aasimar Traits": {
           "title": "阿斯莫特質",
-          "name": "Aasimar Traits"
+          "name": "阿斯莫特質"
         }
       },
       "description": "<p>阿斯莫是靈魂帶有上層位面星火的凡人，無論其源頭是來自於天使的血嗣，或是被灌注天界之力，他們都能激發這股星火，帶來光明、治療以及天怒。</p><p>阿斯莫可以在任何凡命族群中出現，他們與父母相似，但壽命可達160年且擁有代表其天界傳承的特徵。例如金屬色的雀斑、發光的眼睛、光環，或是類似天使的膚色（銀色、乳白綠色或銅紅色）。這些特徵一開始比較隱晦，但會隨著阿斯莫學會展現其完整的天界本質後，變得更加明顯。</p><h3 data-anchor=\"aasimar-traits\">阿斯莫特性</h3><p class=\"phb-meta\"><strong>生物類型：</strong>類人生物</p><p class=\"phb-meta\"><strong>體型：</strong>中型（約4~7呎高）或小型（約2~4呎高），當你選擇此種族時決定</p><p class=\"phb-meta\"><strong>速度：</strong>30呎</p><p>作為阿斯莫，你擁有這些額外特性</p><p><strong>【天界抗性】</strong>你擁有對黯蝕和光耀傷害的抗力。</p><p><strong>【黑暗視覺】</strong>你擁有60呎的黑暗視覺。</p><p><strong>【治癒之手】</strong>作為一個魔法動作，你可以觸碰一個生物並讓其恢復等同於你熟練加值數量的d4骰。一旦你使用此特性，直到你完成一次長休前無法再次使用。</p><p><strong>【光輝掌者】</strong>你知曉<em>光亮術</em>戲法，在該法術上你的施法屬性為魅力。</p><p><strong>【天啟】</strong>當你的角色等級達到3級時，作為一個附贈動作，你可以使用下列選項之一變身（每次你變身時決定選項），變身型態將持續1分鐘或直到你主動結束為止（無需動作）。一旦你變身，直到你完成一次長休前無法再次使用。</p><p>在變身型態結束前，每回合一次，當你以攻擊或法術對一個目標造成傷害時，你可以造成等同於你熟練加值的額外傷害，且額外傷害的類型在選擇死靈障幕時為黯蝕傷害；在選擇天堂羽翼或內蘊輝光時光耀傷害</p><p>變身型態選項：</p><p><strong>【天堂羽翼】</strong>你的背上暫時長出兩片靈體羽翼，直到變身型態結束前，你擁有等同於你速度的飛行速度。</p><p><strong>【內蘊輝光】</strong>你的雙眼與口中暫時綻放出炙熱的光芒，持續時間內，你散發出10呎半徑的明亮光照，以及再延伸10呎的微光光照。在你每個回合結束時，在你10呎內的每個生物將受到等同於你熟練加值的光耀傷害。</p><p><strong>【死靈障幕】</strong>你的雙眼暫時變得如同漆黑深潭般，而背上長出無法飛行的雙翼。除了你的同伴，在你10呎內的所有生物都必須成功通過一次魅力豁免（DC = 8 + 你的熟練加值 + 你的魅力調整值），否則直到你下回合結束時將陷入恐懼狀態。</p>",
@@ -27,22 +27,22 @@
         "Background Ability Score Improvement": {
           "hint": "你的背景讓你能提升力量、敏捷、感知。選擇其中一項提升 2 點，另一項提升 1 點；或是三項各提升 1 點。這些提升都不能讓該屬性超過20。",
           "title": "背景屬性值提升",
-          "name": "Background Ability Score Improvement"
+          "name": "背景屬性值提升"
         },
         "Background Proficiencies": {
           "hint": "你的背景賦予你特技與察覺的熟練，並讓你熟練領航員工具。",
           "title": "背景熟練",
-          "name": "Background Proficiencies"
+          "name": "背景熟練"
         },
         "Background Feat": {
           "hint": "你的背景賦予你專長酒館拳王",
           "title": "背景專長",
-          "name": "Background Feat"
+          "name": "背景專長"
         },
         "Choose Languages": {
           "title": "選擇語言",
           "hint": "你的角色至少知曉三種語言，通用語加兩種你從標準語言表中所擲到或所選擇的。",
-          "name": "Choose Languages"
+          "name": "選擇語言"
         }
       },
       "name": "水手",
@@ -53,12 +53,12 @@
         "Background Proficiencies": {
           "title": "背景熟練",
           "hint": "你的背景賦予你歷史與說服的熟練，並讓你熟練一種遊戲套組。",
-          "name": "Background Proficiencies"
+          "name": "背景熟練"
         },
         "Choose Languages": {
           "title": "選擇語言",
           "hint": "你的角色至少知曉三種語言，通用語加兩種你從標準語言表中所擲到或所選擇的。",
-          "name": "Choose Languages"
+          "name": "選擇語言"
         },
         "Skilled Proficiencies": {
           "title": "技巧嫻熟熟練",
@@ -67,12 +67,12 @@
         "Background Ability Score Improvement": {
           "hint": "你的背景讓你能提升力量、智力、魅力。選擇其中一項提升 2 點，另一項提升 1 點；或是三項各提升 1 點。這些提升都不能讓該屬性超過20。",
           "title": "背景屬性值提升",
-          "name": "Background Ability Score Improvement"
+          "name": "背景屬性值提升"
         },
         "Background Feat": {
           "hint": "你的背景專長賦予你技巧嫻熟專長。",
           "title": "背景專長",
-          "name": "Background Feat"
+          "name": "背景專長"
         }
       },
       "description": "<p><strong>屬性值：</strong> 力量、智力、魅力</p><p><strong>專長：</strong> @UUID[Compendium.dnd-players-handbook.feats.Item.phbftSkilled0000]</p><p><strong>技能熟練：</strong>歷史和說服</p><p><strong>工具熟練：</strong> <em>選擇一種遊戲套組</em> (see @UUID[Compendium.dnd-players-handbook.content.JournalEntry.phbEquipment0000.JournalEntryPage.GCvg8n7Q7ltSPRxe#gaming-set-(varies)]{chapter 6})</p><p><strong>裝備：</strong>選擇（A）遊戲套組（與工具熟練相同）、@UUID[Compendium.dnd5e.items.Item.FqFmdzIBUSxFKKfi]、@UUID[Compendium.dnd-players-handbook.equipment.Item.phbagPerfume0000]、29 GP 或（B）50 GP</p><p>你自幼在城堡中長大，環繞於財富、權勢與特權之中。你出身於一個次級貴族家庭，他們確保你接受一流的教育——其中有些你心懷感激，有些則讓你心生反感。你在城堡中度過的歲月，特別是長時間觀察家人在廷中應對進退，也讓你學到了不少關於領導的道理。</p>",
@@ -84,33 +84,33 @@
         "R0k1RmQximNOQw1R": {
           "title": "幽冥提夫林特質",
           "hint": "智力、感知或魅力是你以此特性施放法術的施法屬性。",
-          "name": "Chthonic Tiefling Traits"
+          "name": "幽冥提夫林特質"
         },
         "pIi692Cevlw7qZRe": {
           "title": "幽冥提夫林特質",
           "hint": "智力、感知或魅力是你以此特性施放法術的施法屬性。",
-          "name": "Chthonic Tiefling Traits"
+          "name": "幽冥提夫林特質"
         },
         "DU7Y6D1IJSSgObJK": {
           "title": "幽冥提夫林特質",
           "hint": "智力、感知或魅力是你以此特性施放法術的施法屬性。",
-          "name": "Chthonic Tiefling Traits"
+          "name": "幽冥提夫林特質"
         },
         "Chthonic Tiefling Traits": {
           "hint": "你擁有對黯蝕傷害的抗力。",
           "title": "幽冥提夫林特質",
-          "name": "Chthonic Tiefling Traits"
+          "name": "幽冥提夫林特質"
         },
         "lskxIeib6rIreZ1h": {
           "hint": "中型（約 4 到 7 呎高）或小型（約 3 到 4 呎高）"
         },
         "Otherworldly Presence": {
           "title": "異界姿態",
-          "name": "Otherworldly Presence"
+          "name": "異界姿態"
         },
         "Tiefling Traits": {
           "title": "提夫林特質",
-          "name": "Tiefling Traits"
+          "name": "提夫林特質"
         }
       },
       "description": "<p>提夫林不是一開始就出生在下層位面，就是其血脈被下層位面的邪魔浸汙。提夫林是與魔鬼、惡魔或其他邪魔有血緣關係的存在。這種與下層位面的連結帶給了提夫林某種邪魔遺贈，這是一種應許的力量，但不會影響提夫林自身的道德觀。</p><p>提夫林可能因這份邪魔遺贈而放任自流或是哀痛不安。</p><h3 data-anchor=\"chthonic\">幽冥血系</h3><p>擁有幽冥遺贈的提夫林不僅能感受到卡瑟利的牽引，還能感受到焦炎煉獄的貪婪和哈迪斯的晦暗。這些提夫林中有些看起來如同屍體，有些卻擁有魅魔的超凡脫俗之美，還有一部分提夫林的外貌特徵與夜鬼婆、尤格羅斯魔或其他中立邪惡的邪魔先祖相同。</p><h3 data-anchor=\"tiefling-traits\">提夫林特性</h3><p><strong>生物類型：</strong>類人生物</p><p><strong>體型：</strong>中型（約4~7呎高）或小型（約3~4呎高），當你選擇此種族時決定</p><p><strong>速度：</strong>30呎</p><p>作為一位提夫林，你擁有下列特性。</p><p><strong>【黑暗視覺】</strong>你擁有60呎的黑暗視覺。</p><p><strong>【邪魔遺贈】</strong>邪魔遺贈的傳承賦予你超自然的能力。</p><p>當你的角色等級達到3與5級時，你將習得更高環階的法術，如表中所示。你始終準備這些法術，你可以在不消耗法術位的情況下施放這些法術各一次，並在你完成一次長休時重獲以此方式施法的能力。你也可以使用相應環階的法術位來施展這些法術。智力、感知或魅力是你以此特性施放法術的施法屬性（當你選擇遺贈時你所選擇的屬性）。</p><p><strong>【異界姿態】</strong> 你知曉@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplThaumaturg]{奇術}戲法。當你以此特性施放時，該法術使用的施法屬性與你所使用的邪魔遺贈特性相同。</p><table><caption>【邪魔遺贈】</caption><thead><tr><td>等級1</td><td>等級3</td><td>等級5</td></tr></thead><tbody><tr><td>你具有對黯蝕傷害的抗力，此外你也知曉@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplChillTouch]戲法。</td><td>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplFalseLife0]</td><td>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplRayofEnfee]</td></tr></tbody></table>"
@@ -135,7 +135,7 @@
       "advancement": {
         "Breath Weapon Damage": {
           "title": "噴吐武器傷害",
-          "name": "Breath Weapon Damage"
+          "name": "噴吐武器傷害"
         }
       }
     },
@@ -144,7 +144,7 @@
       "name": "異界姿態"
     },
     "Draconic Flight": {
-      "description": "<p>當你的角色達到5級時，你可以引導龍族魔法讓自己短暫飛行。作為附贈動作，你的背上顯現持續 10 分鐘的幽靈之翼。你也可以主動收回翅膀（無需動作），或當你陷入失能狀態時翅膀將提前消失。在該期間， 你獲得等同於你速度的飛行速度。你的翅膀看起來與你的噴吐武器是相同類型的能量所構成的。一旦你使用此特性，直到你完成一次長休之前，你無法再次使用。</p><section id=\"secret-pP4PH5jVYBp1OEa3\" class=\"secret\"><p><strong>Foundry Note</strong></p><p>This feature includes an Active Effect for tracking but it does not automatically grant the Fly Speed.</p></section>",
+      "description": "<p>當你的角色達到5級時，你可以引導龍族魔法讓自己短暫飛行。作為附贈動作，你的背上顯現持續 10 分鐘的幽靈之翼。你也可以主動收回翅膀（無需動作），或當你陷入失能狀態時翅膀將提前消失。在該期間， 你獲得等同於你速度的飛行速度。你的翅膀看起來與你的噴吐武器是相同類型的能量所構成的。一旦你使用此特性，直到你完成一次長休之前，你無法再次使用。</p>",
       "name": "龍翔天際",
       "effects": {
         "Draconic Flight": {
@@ -162,12 +162,12 @@
         "Choose Languages": {
           "hint": "你的角色至少知曉三種語言，通用語加兩種你從標準語言表中所擲到或所選擇的。",
           "title": "選擇語言",
-          "name": "Choose Languages"
+          "name": "選擇語言"
         },
         "Background Feat": {
           "title": "背景專長",
           "hint": "你的背景賦予你音樂家專長。",
-          "name": "Background Feat"
+          "name": "背景專長"
         },
         "Instrument Training": {
           "hint": "由起源專長獲得：音樂家。你獲得你選擇的三種樂器的熟練。",
@@ -176,12 +176,12 @@
         "Background Ability Score Improvement": {
           "title": "背景屬性值提升",
           "hint": "你的背景讓你能提升力量、敏捷、魅力。選擇其中一項提升 2 點，另一項提升 1 點；或是三項各提升 1 點。這些提升都不能讓該屬性超過20。",
-          "name": "Background Ability Score Improvement"
+          "name": "背景屬性值提升"
         },
         "Background Proficiencies": {
           "title": "背景熟練",
           "hint": "你的背景賦予你特技與表演的熟練，並讓你熟練一種樂器。",
-          "name": "Background Proficiencies"
+          "name": "背景熟練"
         }
       },
       "description": "<p><strong>屬性值：</strong> 力量、敏捷、魅力</p><p><strong>專長：</strong> @UUID[Compendium.dnd-players-handbook.feats.Item.phbftMusician000]</p><p><strong>技能熟練：</strong>特技和表演</p><p><strong>工具熟練：</strong><em>選擇一種樂器</em></p><p><strong>裝備：</strong> <em>選擇A或B：</em> （A）Musical Instrument (same as above)、2 @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagCostume0000]{Costumes}、@UUID[Compendium.dnd-players-handbook.equipment.Item.phbagMirror00000]{Mirror}、@UUID[Compendium.dnd-players-handbook.equipment.Item.phbagPerfume0000]{Perfume}、@UUID[Compendium.dnd5e.items.Item.SsAmWV6YBqeOFihT]{Traveler's Clothes}、11 GP 或（B）50 GP</p><p>你年輕時大多時間都在追隨巡迴的慶典與馬戲團，替音樂家與雜技藝人打些零工換取他們的指點。你或許學會了走鋼索、用獨特的風格彈奏魯特琴，或是以無可挑剔的咬字朗誦詩句。直到今日，你依然渴望掌聲，渴望重返舞台。</p>",
@@ -196,7 +196,7 @@
         "Versatile": {
           "hint": "你獲得一樣你所選擇的起源專長，推薦選擇技巧嫻熟",
           "title": "多才多藝",
-          "name": "Versatile"
+          "name": "多才多藝"
         },
         "dLxv96vt2B2KOEe2": {
           "hint": "中型（約 4 到 7 呎高）或小型（約 2 到 4 呎高），於你選擇此種族時決定。"
@@ -204,11 +204,11 @@
         "Skillful": {
           "title": "技藝嫻熟",
           "hint": "你獲得一項你所選擇的技能熟練。",
-          "name": "Skillful"
+          "name": "技藝嫻熟"
         },
         "Human Traits": {
           "title": "人類特質",
-          "name": "Human Traits"
+          "name": "人類特質"
         }
       },
       "name": "人類",
@@ -219,19 +219,19 @@
         "Forest Gnome Lineage Cantrip": {
           "title": "森林侏儒血系戲法",
           "hint": "你可以選擇智力、感知或魅力作為你的施法屬性。",
-          "name": "Forest Gnome Lineage Cantrip"
+          "name": "森林侏儒血系戲法"
         },
         "Forest Gnome Lineage Spell": {
           "hint": "你可以選擇智力、感知或魅力作為你的施法屬性。",
           "title": "森林侏儒血系法術",
-          "name": "Forest Gnome Lineage Spell"
+          "name": "森林侏儒血系法術"
         },
         "O7gYRGMSW3atQ2Yc": {
           "hint": "小型（約 3 到 4 呎高）"
         },
         "Gnome Traits": {
           "title": "侏儒特質",
-          "name": "Gnome Traits"
+          "name": "侏儒特質"
         }
       },
       "description": "<p>侏儒是發明之神、幻象之神和地下生活之神創造的神奇生物。由於侏儒生性隱秘，喜歡住在深林和洞穴中，所以原初的侏儒很少被目擊到。侏儒用聰明才智彌補了體型上的矮小。他們用陷阱和錯綜複雜的隧道迷惑掠食者。加爾．閃金、貝爾凡．野遊者和巴瑞瓦．影斗篷等神祇也曾喬裝打扮與侏儒們相會，並賜予了他們魔法。而這種魔法最終創造了森林侏儒和岩侏儒的血系。</p><p>侏儒身材嬌小，長著大眼睛和尖耳朵，壽命約為 425 歲。許多侏儒喜歡頭頂有屋頂的感覺，即使這個「屋頂」只是一頂帽子。</p><h3 data-anchor=\"gnome-traits\">侏儒特性</h3><p><strong>生物類型：</strong>類人生物</p><p><strong>體型：</strong>小型（約3~4呎高）</p><p><strong>速度：</strong>30呎</p><p>作為侏儒，你擁有這些額外特性</p><p><strong>【黑暗視覺】</strong>你擁有60呎的黑暗視覺。</p><p><strong>【侏儒狡黠】</strong>你在智力、感知、魅力的豁免檢定上具有優勢。</p><p><strong>【侏儒血系】</strong>你屬於一支賦予你超自然能力的血系。你屬於一支賦予你超自然能力的血系。無論你選擇哪一血系，智力、感知或魅力是你以此特性施放法術的施法屬性（當你選擇血系時選擇屬性）：</p><p><strong><em>森林侏儒　</em></strong>你知曉@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplMinorIllus]戲法，此外你也始終準備@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplSpeakwithA]。你可以在不消耗法術位的情況下施放此法術的次數等同於你的熟練加值，並在你完成一次長休時，重獲所有已消耗次數。你也可以使用相應環階的法術位施放該法術。</p>",
@@ -242,22 +242,22 @@
         "Background Feat": {
           "hint": "你的背景賦予你專長野蠻攻擊者",
           "title": "背景專長",
-          "name": "Background Feat"
+          "name": "背景專長"
         },
         "Choose Languages": {
           "title": "選擇語言",
           "hint": "你的角色至少知曉三種語言，通用語加兩種你從標準語言表中所擲到或所選擇的。",
-          "name": "Choose Languages"
+          "name": "選擇語言"
         },
         "Background Ability Score Improvement": {
           "hint": "你的背景讓你能提升力量、敏捷、體質。選擇其中一項提升 2 點，另一項提升 1 點；或是三項各提升 1 點。這些提升都不能讓該屬性超過20。",
           "title": "背景屬性值提升",
-          "name": "Background Ability Score Improvement"
+          "name": "背景屬性值提升"
         },
         "Background Proficiencies": {
           "title": "背景熟練",
           "hint": "你的背景賦予你運動與威嚇的熟練，並讓你熟練任意一種遊戲套組。",
-          "name": "Background Proficiencies"
+          "name": "背景熟練"
         }
       },
       "name": "士兵",
@@ -268,33 +268,33 @@
         "Abyssal Tiefling Traits": {
           "hint": "你對毒素具有抗力。",
           "title": "深淵提夫林特質",
-          "name": "Abyssal Tiefling Traits"
+          "name": "深淵提夫林特質"
         },
         "KwcwntR3Ai0R5iPN": {
           "title": "深淵提夫林特質",
           "hint": "智力、感知或魅力是你以此特性施放法術的施法屬性。",
-          "name": "Abyssal Tiefling Traits"
+          "name": "深淵提夫林特質"
         },
         "Tiefling Traits": {
           "title": "提夫林特質",
-          "name": "Tiefling Traits"
+          "name": "提夫林特質"
         },
         "9iZufhdzY3XN7Em3": {
           "hint": "智力、感知或魅力是你以此特性施放法術的施法屬性。",
           "title": "深淵提夫林特質",
-          "name": "Abyssal Tiefling Traits"
+          "name": "深淵提夫林特質"
         },
         "lskxIeib6rIreZ1h": {
           "hint": "中型（約 4 到 7 呎高）或小型（約 3 到 4 呎高）"
         },
         "Otherworldly Presence": {
           "title": "異界姿態",
-          "name": "Otherworldly Presence"
+          "name": "異界姿態"
         },
         "VhCiGFOLtG8H93jy": {
           "hint": "智力、感知或魅力是你以此特性施放法術的施法屬性。",
           "title": "深淵提夫林特質",
-          "name": "Abyssal Tiefling Traits"
+          "name": "深淵提夫林特質"
         }
       },
       "name": "深淵提夫林",
@@ -305,22 +305,22 @@
         "Background Feat": {
           "title": "背景專長",
           "hint": "你的背景專長賦予你技巧嫻熟專長。",
-          "name": "Background Feat"
+          "name": "背景專長"
         },
         "Background Ability Score Improvement": {
           "hint": "你的背景讓你能提升敏捷、智力、感知。選擇其中一項提升 2 點，另一項提升 1 點；或是三項各提升 1 點。這些提升都不能讓該屬性超過20。",
           "title": "背景屬性值提升",
-          "name": "Background Ability Score Improvement"
+          "name": "背景屬性值提升"
         },
         "Choose Languages": {
           "hint": "你的角色至少知曉三種語言，通用語加兩種你從標準語言表中所擲到或所選擇的。",
           "title": "選擇語言",
-          "name": "Choose Languages"
+          "name": "選擇語言"
         },
         "Background Proficiencies": {
           "title": "背景熟練",
           "hint": "你的背景賦予你調查與察覺的熟練，並讓你熟練書法家設備。",
-          "name": "Background Proficiencies"
+          "name": "背景熟練"
         },
         "Skilled Proficiencies": {
           "hint": "由起源專長獲得：技巧嫻熟。你獲得你所選擇的任意三種技能或工具的熟練。",
@@ -363,22 +363,22 @@
         "Background Feat": {
           "title": "背景專長",
           "hint": "你的背景賦予你專長幸運",
-          "name": "Background Feat"
+          "name": "背景專長"
         },
         "Choose Languages": {
           "hint": "你的角色至少知曉三種語言，通用語加兩種你從標準語言表中所擲到或所選擇的。",
           "title": "選擇語言",
-          "name": "Choose Languages"
+          "name": "選擇語言"
         },
         "Background Proficiencies": {
           "hint": "你的背景賦予你洞悉與隱匿的熟練，並讓你熟練盜賊工具。",
           "title": "背景熟練",
-          "name": "Background Proficiencies"
+          "name": "背景熟練"
         },
         "Background Ability Score Improvement": {
           "title": "背景屬性值提升",
           "hint": "你的背景讓你能提升敏捷、感知、魅力。選擇其中一項提升 2 點，另一項提升 1 點；或是三項各提升 1 點。這些提升都不能讓該屬性超過20。",
-          "name": "Background Ability Score Improvement"
+          "name": "背景屬性值提升"
         }
       },
       "description": "<p><strong>屬性值：</strong> 敏捷、感知、 魅力</p><p><strong>專長：</strong> @UUID[Compendium.dnd-players-handbook.feats.Item.phbftLucky000000]</p><p><strong>技能熟練：</strong>洞察和隱匿</p><p><strong>工具熟練：</strong>盜賊工具</p><p><strong>裝備：</strong>選擇（A）2把@UUID[Compendium.dnd-players-handbook.equipment.Item.phbwepDagger0000]、@UUID[Compendium.dnd-players-handbook.equipment.Item.phbtulThievesToo]、任一遊戲套組、@UUID[Compendium.dnd-players-handbook.equipment.Item.phbagBedroll0000]{Bedroll}、2包@UUID[Compendium.dnd-players-handbook.equipment.Item.phbagPouch000000]、@UUID[Compendium.dnd5e.items.Item.SsAmWV6YBqeOFihT]、16 GP 或（B）50 GP</p><p>你在街頭長大，身邊盡是命途多舛的棄兒，其中有些成了朋友，有些則成了對手。你睡在任何能歇腳的地方，為了換取食物四處打零工。偶爾，當飢餓難耐時，你也會鋌而走險，伸出手去偷竊。儘管如此，你從未失去自尊，也從未放棄希望——命運尚未寫完你的篇章。</p>",
@@ -389,21 +389,21 @@
         "Infernal Tiefling Traits": {
           "hint": "你具有對火焰傷害的抗力",
           "title": "煉獄提夫林特質",
-          "name": "Infernal Tiefling Traits"
+          "name": "煉獄提夫林特質"
         },
         "gMovXMwHeD9cCL99": {
           "title": "煉獄提夫林特質",
           "hint": "智力、感知或魅力是你以此特性施放法術的施法屬性。",
-          "name": "Infernal Tiefling Traits"
+          "name": "煉獄提夫林特質"
         },
         "ol3SWLw2FTNEiXrb": {
           "hint": "智力、感知或魅力是你以此特性施放法術的施法屬性。",
           "title": "煉獄提夫林特質",
-          "name": "Infernal Tiefling Traits"
+          "name": "煉獄提夫林特質"
         },
         "Otherworldly Presence": {
           "title": "異界姿態",
-          "name": "Otherworldly Presence"
+          "name": "異界姿態"
         },
         "lskxIeib6rIreZ1h": {
           "hint": "中型（約 4 到 7 呎高）或小型（約 3 到 4 呎高）"
@@ -411,11 +411,11 @@
         "cj8h25IH0Zvdy3Bm": {
           "title": "煉獄提夫林特質",
           "hint": "智力、感知或魅力是你以此特性施放法術的施法屬性。",
-          "name": "Infernal Tiefling Traits"
+          "name": "煉獄提夫林特質"
         },
         "Tiefling Traits": {
           "title": "提夫林特質",
-          "name": "Tiefling Traits"
+          "name": "提夫林特質"
         }
       },
       "name": "煉獄提夫林",
@@ -443,16 +443,16 @@
         "High Elf Traits": {
           "hint": "你可以選擇智力、感知或魅力作為你的施法屬性。",
           "title": "高等精靈特質",
-          "name": "High Elf Traits"
+          "name": "高等精靈特質"
         },
         "Keen Senses": {
           "hint": "你獲得洞悉、察覺或求生中一項技能的熟練項。",
           "title": "敏銳感官",
-          "name": "Keen Senses"
+          "name": "敏銳感官"
         },
         "Elf Traits": {
           "title": "精靈特質",
-          "name": "Elf Traits"
+          "name": "精靈特質"
         }
       },
       "name": "高等精靈"
@@ -462,22 +462,22 @@
         "Background Ability Score Improvement": {
           "hint": "你的背景讓你能提升力量、智力、感知。選擇其中一項提升 2 點，另一項提升 1 點；或是三項各提升 1 點。這些提升都不能讓該屬性超過20。",
           "title": "背景屬性值提升",
-          "name": "Background Ability Score Improvement"
+          "name": "背景屬性值提升"
         },
         "Background Proficiencies": {
           "title": "背景熟練",
           "hint": "你的背景賦予你運動與察覺的熟練，並讓你熟練一種遊戲套組。",
-          "name": "Background Proficiencies"
+          "name": "背景熟練"
         },
         "Background Feat": {
           "title": "背景專長",
           "hint": "你的背景賦予你專長警覺",
-          "name": "Background Feat"
+          "name": "背景專長"
         },
         "Choose Languages": {
           "hint": "你的角色至少知曉三種語言，通用語加兩種你從標準語言表中所擲到或所選擇的。",
           "title": "選擇語言",
-          "name": "Choose Languages"
+          "name": "選擇語言"
         }
       },
       "name": "守衛",
@@ -492,8 +492,8 @@
       "name": "侏儒狡黠",
       "effects": {
         "Gnomish Cunning": {
-          "description": "<p>You have Advantage on Intelligence, Wisdom, and Charisma saving throws.</p>",
-          "name": "Gnomish Cunning"
+          "description": "<p>你在智力、感知、魅力的豁免檢定中具有優勢。</p>",
+          "name": "侏儒狡黠"
         }
       }
     },
@@ -507,7 +507,7 @@
       "effects": {
         "Large Form": {
           "name": "巨化形體",
-          "description": "<p>For the duration, you have Advantage on Strength checks, and your Speed increases by 10 feet. Once you use this trait, you can’t use it again until you finish a Long Rest.</p>"
+          "description": "<p>在持續時間內，你在力量檢定上具有優勢，並且你的速度提升10呎。一旦你使用此特性，直到完成一次長休前，你無法再次使用。</p>"
         }
       },
       "name": "巨化形體"
@@ -517,11 +517,11 @@
         "Rock Gnome Traits": {
           "title": "岩侏儒特質",
           "hint": "你可以選擇智力、感知或魅力作為你的施法屬性。",
-          "name": "Rock Gnome Traits"
+          "name": "岩侏儒特質"
         },
         "Gnome Traits": {
           "title": "侏儒特質",
-          "name": "Gnome Traits"
+          "name": "侏儒特質"
         },
         "O7gYRGMSW3atQ2Yc": {
           "hint": "小型（約 3 到 4 呎高）"
@@ -548,16 +548,16 @@
         "Drow Traits": {
           "hint": "你可以選擇智力、感知或魅力作為你的施法屬性。",
           "title": "卓爾特質",
-          "name": "Drow Traits"
+          "name": "卓爾特質"
         },
         "Keen Senses": {
           "hint": "你獲得洞悉、察覺或求生中一項技能的熟練項。",
           "title": "敏銳感官",
-          "name": "Keen Senses"
+          "name": "敏銳感官"
         },
         "Elf Traits": {
           "title": "精靈特質",
-          "name": "Elf Traits"
+          "name": "精靈特質"
         }
       },
       "name": "卓爾精靈",
@@ -568,22 +568,22 @@
         "Background Proficiencies": {
           "hint": "你的背景賦予你巧手和隱匿的熟練，以及盜賊工具的熟練。",
           "title": "背景熟練",
-          "name": "Background Proficiencies"
+          "name": "背景熟練"
         },
         "Background Ability Score Improvement": {
           "hint": "你的背景讓你能提升敏捷、體質、魅力。選擇其中一項提升 2 點，另一項提升 1 點；或是三項各提升 1 點。這些提升都不能讓該屬性超過20。",
           "title": "背景屬性值提升",
-          "name": "Background Ability Score Improvement"
+          "name": "背景屬性值提升"
         },
         "Background Feat": {
           "hint": "你背景賦予你警覺專長。",
           "title": "背景專長",
-          "name": "Background Feat"
+          "name": "背景專長"
         },
         "Choose Languages": {
           "hint": "你的角色至少知曉三種語言，通用語加兩種你從標準語言表中所擲到或所選擇的。",
           "title": "選擇語言",
-          "name": "Choose Languages"
+          "name": "選擇語言"
         }
       },
       "description": "<p><strong>屬性值：</strong> 敏捷、體質、智力</p><p><strong>專長：</strong> @UUID[Compendium.dnd-players-handbook.feats.Item.phbftAlert000000]</p><p><strong>技能熟練：</strong>巧手和隱匿</p><p><strong>工具熟練：</strong> Thieves’ Tools</p><p><strong>裝備：</strong><em>選擇A或B：</em>（A）2 @UUID[Compendium.dnd-players-handbook.equipment.Item.phbwepDagger0000]、@UUID[Compendium.dnd-players-handbook.equipment.Item.phbtulThievesToo]、@UUID[Compendium.dnd-players-handbook.equipment.Item.phbagCrowbar0000]、2包@UUID[Compendium.dnd-players-handbook.equipment.Item.phbagPouch000000]、@UUID[Compendium.dnd5e.items.Item.SsAmWV6YBqeOFihT]、16 GP 或（B）50 GP</p><p>你在昏暗巷弄中勉強討生活，不是下手割錢袋，就是潛入店鋪行竊。也許你曾是個小型盜賊團的一員，與一群同道中人彼此照應；又或者你是獨來獨往的孤狼，在當地盜賊公會與更凶殘的罪犯之間艱難求生。</p>",
@@ -595,22 +595,22 @@
         "Choose Languages": {
           "title": "選擇語言",
           "hint": "你的角色至少知曉三種語言，通用語加兩種你從標準語言表中所擲到或所選擇的。",
-          "name": "Choose Languages"
+          "name": "選擇語言"
         },
         "Background Proficiencies": {
           "hint": "你的背景賦予你醫藥與宗教的熟練，並讓你熟練草藥師套組。",
           "title": "背景熟練",
-          "name": "Background Proficiencies"
+          "name": "背景熟練"
         },
         "Background Ability Score Improvement": {
           "title": "背景屬性值提升",
           "hint": "你的背景讓你能提升體質、感知、魅力。選擇其中一項提升 2 點，另一項提升 1 點；或是三項各提升 1 點。這些提升都不能讓該屬性超過20。",
-          "name": "Background Ability Score Improvement"
+          "name": "背景屬性值提升"
         },
         "Background Feat": {
           "title": "背景專長",
           "hint": "你的背景賦予你專長治療師",
-          "name": "Background Feat"
+          "name": "背景專長"
         }
       },
       "description": "<p><strong>屬性值：</strong> 體質、感知、 魅力</p><p><strong>專長：</strong> @UUID[Compendium.dnd-players-handbook.feats.Item.phbftHealer00000]</p><p><strong>技能熟練：</strong>醫藥和宗教</p><p><strong>工具熟練：</strong>藥草師工具組Herbalism Kit</p><p><strong>裝備：</strong>選擇（A）@UUID[Compendium.dnd-players-handbook.equipment.Item.phbwepQuartersta]、@UUID[Compendium.dnd-players-handbook.equipment.Item.phbtulHerbalismK]、@UUID[Compendium.dnd-players-handbook.equipment.Item.phbagBedroll0000]、@UUID[Compendium.dnd-players-handbook.equipment.Item.phbagBook0000000] (philosophy)、@UUID[Compendium.dnd-players-handbook.equipment.Item.phbagLamp0000000]、3瓶@UUID[Compendium.dnd-players-handbook.equipment.Item.phbagOil00000000]、@UUID[Compendium.dnd5e.items.Item.SsAmWV6YBqeOFihT]、16 GP 或（B）50 GP</p><p>你在年幼時便隱居於遠離聚落邊陲的小屋或修道院中。那段日子裡，你唯一的陪伴是森林中的生靈，以及偶爾前來傳遞外界消息與補給的訪客。長久的獨處讓你得以沉思無數時光，默想萬物起源的奧秘。</p>"
@@ -620,28 +620,28 @@
         "FRJszO7cYchbaGzt": {
           "hint": "你可以選擇智力、感知或魅力作為你的施法屬性。",
           "title": "木精靈特質",
-          "name": "Wood Elf Traits"
+          "name": "木精靈特質"
         },
         "zFsEPXauTgmYxqiJ": {
           "title": "木精靈特質",
           "hint": "你可以選擇智力、感知或魅力作為你的施法屬性。",
-          "name": "Wood Elf Traits"
+          "name": "木精靈特質"
         },
         "Wood Elf Traits": {
           "title": "木精靈特質",
-          "name": "Wood Elf Traits"
+          "name": "木精靈特質"
         },
         "5w2FaHXRKiN7v1rE": {
           "hint": "中型（約 5 到 6 呎高）"
         },
         "Elf Traits": {
           "title": "精靈特質",
-          "name": "Elf Traits"
+          "name": "精靈特質"
         },
         "Keen Senses": {
           "title": "敏銳感官",
           "hint": "你獲得洞悉、察覺或求生中一項技能的熟練項。",
-          "name": "Keen Senses"
+          "name": "敏銳感官"
         }
       },
       "name": "木精靈",
@@ -671,22 +671,22 @@
         "Background Ability Score Improvement": {
           "title": "背景屬性值提升",
           "hint": "你的背景讓你能提升體質、智力、感知。選擇其中一項提升 2 點，另一項提升 1 點；或是三項各提升 1 點。這些提升都不能讓該屬性超過20。",
-          "name": "Background Ability Score Improvement"
+          "name": "背景屬性值提升"
         },
         "Background Proficiencies": {
           "hint": "你的背景賦予你奧術與歷史的熟練，並讓你熟練書法家設備。",
           "title": "背景熟練",
-          "name": "Background Proficiencies"
+          "name": "背景熟練"
         },
         "Choose Languages": {
           "hint": "你的角色至少知曉三種語言，通用語加兩種你從標準語言表中所擲到或所選擇的。",
           "title": "選擇語言",
-          "name": "Choose Languages"
+          "name": "選擇語言"
         },
         "Background Feat": {
           "title": "背景專長",
           "hint": "你的背景賦予你專長魔法學徒（法師）",
-          "name": "Background Feat"
+          "name": "背景專長"
         }
       },
       "description": "<p><strong>屬性值：</strong> 體質、智力、感知</p><p><strong>專長：</strong> @UUID[Compendium.dnd-players-handbook.feats.Item.phbftMagicInitia]（法師）</p><p><strong>技能熟練：</strong>奧秘和歷史</p><p><strong>工具熟練：</strong>書法家設備</p><p><strong>裝備：</strong>選擇（A）@UUID[Compendium.dnd-players-handbook.equipment.Item.phbwepQuartersta]、@UUID[Compendium.dnd-players-handbook.equipment.Item.phbtulCalligraph]、@UUID[Compendium.dnd-players-handbook.equipment.Item.phbagBook0000000] （歷史）、@UUID[Compendium.dnd-players-handbook.equipment.Item.phbagParchment00]（8張）、@UUID[Compendium.dnd-players-handbook.equipment.Item.phbagRobe0000000]、8 GP 或（B）50 GP</p><p>你在成長歲月中四處奔走於莊園與修道院之間，靠著替人打零工與提供雜務服務，換取進入圖書館的機會。無數個漫長夜晚，你沉浸於書籍與卷軸之中，鑽研多元宇宙的古老知識——甚至略通魔法的基礎。如今，你的心靈仍渴望汲取更多奧秘。</p>",
@@ -697,12 +697,12 @@
         "Background Proficiencies": {
           "hint": "你的背景賦予你調查和說服的熟練，以及一種工匠工具的熟練。",
           "title": "背景熟練",
-          "name": "Background Proficiencies"
+          "name": "背景熟練"
         },
         "Background Feat": {
           "title": "背景專長",
           "hint": "你的背景賦予你巧匠專長",
-          "name": "Background Feat"
+          "name": "背景專長"
         },
         "Tool Proficiency": {
           "title": "工具熟練",
@@ -711,12 +711,12 @@
         "Background Ability Score Improvement": {
           "title": "背景屬性值提升",
           "hint": "你的背景讓你能提升力量、敏捷、智力。選擇其中一項提升 2 點，另一項提升 1 點；或是三項各提升 1 點。這些提升都不能讓該屬性超過20。",
-          "name": "Background Ability Score Improvement"
+          "name": "背景屬性值提升"
         },
         "Choose Languages": {
           "hint": "你的角色至少知曉三種語言，通用語加兩種你從標準語言表中所擲到或所選擇的。",
           "title": "選擇語言",
-          "name": "Choose Languages"
+          "name": "選擇語言"
         }
       },
       "description": "<p><strong>屬性值：</strong> 力量、敏捷、智力</p><p><strong>專長：</strong> @UUID[Compendium.dnd-players-handbook.feats.Item.phbftCrafter0000]</p><p><strong>技能熟練：</strong>調查和說服</p><p><strong>工具熟練：</strong> <em>選擇一種工匠工具</em> (see chapter 6)</p><p><strong>裝備：</strong><em>選擇A或B：</em>：（A）Artisan’s Tools (same as above)、2包@UUID[Compendium.dnd-players-handbook.equipment.Item.phbagPouch000000]、@UUID[Compendium.dnd5e.items.Item.SsAmWV6YBqeOFihT]、32 GP 或（B）50 GP</p><p>你一有力氣提起水桶，便開始在工匠的作坊裡拖地擦台，每日只賺得幾枚銅幣。等你年紀夠大成為學徒時，你學會了親手打造些簡單的工藝品，也學會了如何巧言應對那些偶爾上門的挑剔客人。這門手藝也鍛鍊出你對細節的敏銳眼光。</p>",
@@ -727,22 +727,22 @@
         "Choose Languages": {
           "hint": "你的角色至少知曉三種語言，通用語加兩種你從標準語言表中所擲到或所選擇的。",
           "title": "選擇語言",
-          "name": "Choose Languages"
+          "name": "選擇語言"
         },
         "Background Feat": {
           "hint": "你的背景賦予你專長魔法學徒（德魯伊）",
           "title": "背景專長",
-          "name": "Background Feat"
+          "name": "背景專長"
         },
         "Background Proficiencies": {
           "title": "背景熟練",
           "hint": "你的背景賦予你隱匿與求生的熟練，並讓你熟練制圖師工具。",
-          "name": "Background Proficiencies"
+          "name": "背景熟練"
         },
         "Background Ability Score Improvement": {
           "title": "背景屬性值提升",
           "hint": "你的背景讓你能提升敏捷、體質、感知。選擇其中一項提升 2 點，另一項提升 1 點；或是三項各提升 1 點。這些提升都不能讓該屬性超過20。",
-          "name": "Background Ability Score Improvement"
+          "name": "背景屬性值提升"
         }
       },
       "name": "嚮導",
@@ -756,7 +756,7 @@
       "advancement": {
         "Draconic Ancestry": {
           "title": "龍族先祖",
-          "name": "Draconic Ancestry"
+          "name": "龍族先祖"
         },
         "Breath Weapon": {
           "title": "噴吐武器"
@@ -766,7 +766,7 @@
         },
         "Draconic Flight": {
           "title": "龍翔天際",
-          "name": "Draconic Flight"
+          "name": "龍翔天際"
         },
         "Damage Resistance": {
           "hint": "你擁有你龍族血統特性所決定的傷害類型的抗性。",
@@ -789,22 +789,22 @@
         "Background Feat": {
           "title": "背景專長",
           "hint": "你的背景賦予你專長幸運",
-          "name": "Background Feat"
+          "name": "背景專長"
         },
         "Background Ability Score Improvement": {
           "title": "背景屬性值提升",
           "hint": "你的背景讓你能提升體質、智力、魅力。選擇其中一項提升 2 點，另一項提升 1 點；或是三項各提升 1 點。這些提升都不能讓該屬性超過20。",
-          "name": "Background Ability Score Improvement"
+          "name": "背景屬性值提升"
         },
         "Choose Languages": {
           "title": "選擇語言",
           "hint": "你的角色至少知曉三種語言，通用語加兩種你從標準語言表中所擲到或所選擇的。",
-          "name": "Choose Languages"
+          "name": "選擇語言"
         },
         "Background Proficiencies": {
           "hint": "你的背景賦予你馴獸與說服的熟練，並讓你熟練領航員工具。",
           "title": "背景熟練",
-          "name": "Background Proficiencies"
+          "name": "背景熟練"
         }
       },
       "description": "<p><strong>屬性值：</strong> 體質、智力、魅力</p><p><strong>專長：</strong> @UUID[Compendium.dnd-players-handbook.feats.Item.phbftLucky000000]{Lucky}</p><p><strong>技能熟練：</strong>馴獸和說服</p><p><strong>工具熟練：</strong>領航員工具</p><p><strong>裝備：</strong>選擇（A）@UUID[Compendium.dnd-players-handbook.equipment.Item.phbtulNavigators]、2包@UUID[Compendium.dnd-players-handbook.equipment.Item.phbagPouch000000]、@UUID[Compendium.dnd5e.items.Item.SsAmWV6YBqeOFihT]、22 GP 或（B）50 GP</p><p>你曾拜師於一位商人、商隊領主，或店主門下，學習商業的基本之道。你足跡遍及四方，靠著買賣維生——也許是販售工匠施展技藝所需的原材料，或是這些工匠製作出的成品。你可能曾駕船、乘車或隨商隊運送貨物，也可能向流動商販採購，再在自己的店舖中轉售。</p>",
@@ -815,14 +815,14 @@
         "Dwarven Resilience": {
           "title": "矮人抗性",
           "hint": "你對毒素具有抗力。",
-          "name": "Dwarven Resilience"
+          "name": "矮人抗性"
         },
         "6HdONjMD4UozXSfC": {
           "hint": "中型（約 4 到 5 呎高）"
         },
         "Dwarf Traits": {
           "title": "矮人特質",
-          "name": "Dwarf Traits"
+          "name": "矮人特質"
         }
       },
       "description": "<p>矮人於太古時代由一位鍛造之神自大地中孕育而生。這位神祇在不同的世界有著不同的名號——莫拉丁、李奥克斯，或其他稱呼——祂賦予了矮人對岩石與金屬的親和，以及在地底生活的天性。這位神同時也讓矮人如山嶽般堅韌，其壽命約為 350 年。</p><p>身形矮壯、常蓄鬍鬚的遠古矮人，曾在山脈側壁與地底深處雕鑿出城市與要塞。他們最古老的傳說中，充滿了與高山怪物與幽暗地域邪物的衝突——不論是高聳的巨人，還是潛伏於地底的恐怖存在。受到這些故事的啟發，來自各地文化的矮人往往都會高唱英勇事蹟之歌——尤其是弱小戰勝強敵的傳奇。</p><p>在多元宇宙中的某些世界裡，矮人最初的聚落建立於丘陵或高山之中。而那些能追溯血統至這些聚落的家族，便自稱為丘陵矮人或高山矮人。灰鷹與龍槍的世界觀中就存在這類社群。</p><h3 data-anchor=\"dwarf-traits\">矮人特性</h3><p><strong>生物類型：</strong>類人生物</p><p><strong>體型：</strong>中型（約4~5呎高）</p><p><strong>速度：</strong>30呎</p><p>作為矮人，你擁有這些額外特性</p><p><strong>【黑暗視覺】</strong>你擁有120呎得黑暗視覺。</p><p><strong>【矮人抗性】</strong>你對毒素具有抗力。你在避免或結束中毒狀態時所進行的豁免檢定也具有優勢</p><p><strong>【矮人韌性】</strong>你的生命最大值提升1點，並且每當你獲得1級時再次提升1點。</p><p><strong>【石中精妙】</strong>作為附贈動作，你獲得持續 10 分鐘60呎範圍的震顫感知。你必須站在石質表面上，或與石質表面接觸才能使用此震顫感知。這些石質可以是天然形成的，也可以是人工打造的。你可以使用此附贈動作的次數等同於你的熟練加值，並在你完成一次長休時，重獲所有已消耗的使用次數。</p>",
@@ -833,22 +833,22 @@
         "Background Feat": {
           "title": "背景專長",
           "hint": "你的背景賦予你魔法學徒（牧師）專長。",
-          "name": "Background Feat"
+          "name": "背景專長"
         },
         "Choose Languages": {
           "hint": "你的角色至少知曉三種語言，通用語加兩種你從標準語言表中所擲到或所選擇的。",
           "title": "選擇語言",
-          "name": "Choose Languages"
+          "name": "選擇語言"
         },
         "Background Ability Score Improvement": {
           "hint": "你的背景讓你能提升智力、感知、魅力。選擇其中一項提升 2 點，另一項提升 1 點；或是三項各提升 1 點。這些提升都不能讓該屬性超過20。",
           "title": "背景屬性值提升",
-          "name": "Background Ability Score Improvement"
+          "name": "背景屬性值提升"
         },
         "Background Proficiencies": {
           "title": "背景熟練",
           "hint": "你的背景賦予你洞悉和宗教的熟練，以及書法家設備的熟練。",
-          "name": "Background Proficiencies"
+          "name": "背景熟練"
         }
       },
       "description": "<p><strong>屬性值：</strong> 智力、感知、魅力</p><p><strong>專長：</strong> @UUID[Compendium.dnd-players-handbook.feats.Item.phbftMagicInitia]（牧師）</p><p><strong>技能熟練：</strong>洞察和宗教</p><p><strong>工具熟練：</strong>書法家設備</p><p><strong>裝備：</strong><em>選擇A或B：</em>（A）@UUID[Compendium.dnd-players-handbook.equipment.Item.phbtulCalligraph]、@UUID[Compendium.dnd-players-handbook.equipment.Item.phbagBook0000000]（禱文）、聖徽、@UUID[Compendium.dnd-players-handbook.equipment.Item.phbagParchment00]（10張）、@UUID[Compendium.dnd-players-handbook.equipment.Item.phbagRobe0000000]、8 GP 或（B）50 GP</p><p>你曾獻身於一座神殿中侍奉神祇，那裡可能坐落於城鎮之中，也可能隱於神聖的林間空地。在那裡，你主持儀式以敬奉某位神明或整個神祇群。你在一位祭司麾下服侍，並研習宗教知識。在祭司的教導與你自身虔誠的修行下，你學會了如何引導一絲神聖之力，來服侍你所敬奉的聖地，以及向神祈禱的信眾們。</p>",
@@ -859,22 +859,22 @@
         "Background Feat": {
           "title": "背景專長",
           "hint": "你的背景專長賦予你技巧嫻熟專長。",
-          "name": "Background Feat"
+          "name": "背景專長"
         },
         "Background Proficiencies": {
           "title": "背景熟練",
           "hint": "你的背景賦予你欺瞞與巧手的熟練，以及偽造工具組的熟練。",
-          "name": "Background Proficiencies"
+          "name": "背景熟練"
         },
         "Background Ability Score Improvement": {
           "title": "背景屬性值提升",
           "hint": "你的背景讓你能提升敏捷、體質、魅力。選擇其中一項提升 2 點，另一項提升 1 點；或是三項各提升 1 點。這些提升都不能讓該屬性超過20。",
-          "name": "Background Ability Score Improvement"
+          "name": "背景屬性值提升"
         },
         "Choose Languages": {
           "title": "選擇語言",
           "hint": "你的角色至少知曉三種語言，通用語加兩種你從標準語言表中所擲到或所選擇的。",
-          "name": "Choose Languages"
+          "name": "選擇語言"
         },
         "Skilled Proficiencies": {
           "hint": "由起源專長獲得：技巧嫻熟。你獲得你所選擇的任意三種技能或工具的熟練。",
@@ -902,22 +902,22 @@
         "Background Proficiencies": {
           "hint": "你的背景賦予你馴獸與自然的熟練，並讓你熟練木匠工具。",
           "title": "背景熟練",
-          "name": "Background Proficiencies"
+          "name": "背景熟練"
         },
         "Choose Languages": {
           "title": "選擇語言",
           "hint": "你的角色至少知曉三種語言，通用語加兩種你從標準語言表中所擲到或所選擇的。",
-          "name": "Choose Languages"
+          "name": "選擇語言"
         },
         "Background Feat": {
           "title": "背景專長",
           "hint": "你的背景賦予你健壯特性。",
-          "name": "Background Feat"
+          "name": "背景專長"
         },
         "Background Ability Score Improvement": {
           "title": "背景屬性值提升",
           "hint": "你的背景讓你能提升力量、體質、感知。選擇其中一項提升 2 點，另一項提升 1 點；或是三項各提升 1 點。這些提升都不能讓該屬性超過20。",
-          "name": "Background Ability Score Improvement"
+          "name": "背景屬性值提升"
         }
       },
       "name": "農夫",
@@ -946,7 +946,7 @@
           "name": "死靈障幕"
         }
       },
-      "description": "<p>當你的角色等級達到3級時，作為一個附贈動作，你可以使用下列選項之一變身（每次你變身時決定選項），變身型態將持續1分鐘或直到你主動結束為止（無需動作）。一旦你變身，直到你完成一次長休前無法再次使用。</p><p>在變身型態結束前，每回合一次，當你以攻擊或法術對一個目標造成傷害時，你可以造成等同於你熟練加值的額外傷害，且額外傷害的類型在選擇死靈障幕時為黯蝕傷害；在選擇天堂羽翼或內蘊輝光時光耀傷害</p><p>變身型態選項：</p><p><strong>【天堂羽翼】</strong>你的背上暫時長出兩片靈體羽翼，直到變身型態結束前，你擁有等同於你速度的飛行速度。</p><p><strong>【內蘊輝光】</strong>你的雙眼與口中暫時綻放出炙熱的光芒，持續時間內，你散發出10呎半徑的明亮光照，以及再延伸10呎的微光光照。在你每個回合結束時，在你10呎內的每個生物將受到等同於你熟練加值的光耀傷害。</p><p><strong>【死靈障幕】</strong>你的雙眼暫時變得如同漆黑深潭般，而背上長出無法飛行的雙翼。除了你的同伴，在你10呎內的所有生物都必須成功通過一次魅力豁免（DC = 8 + 你的熟練加值 + 你的魅力調整值），否則直到你下回合結束時將陷入&amp;Reference[Frightened]狀態。</p><section class=\"secret\" id=\"secret-xYg9zvtrUSXdd7vM\"><p><strong>Foundry Note</strong></p><p>Each activity expends your use of this feature.</p><p>The <strong>Heavenly Wings</strong> activity includes an Active Effect which upgrades your Fly Speed to \"1\" to indicate equivalence to (walk) Speed.</p><p>The <strong>Inner Radiance</strong> activity includes an Active Effect for tracking and a damage roll that scales as you level up.</p><p>The <strong>Necrotic Shroud</strong> activity includes the saving throw and an Active Effect for tracking impacted creatures and applies the Frightened condition.</p></section>",
+      "description": "<p>當你的角色等級達到3級時，作為一個附贈動作，你可以使用下列選項之一變身（每次你變身時決定選項），變身型態將持續1分鐘或直到你主動結束為止（無需動作）。一旦你變身，直到你完成一次長休前無法再次使用。</p><p>在變身型態結束前，每回合一次，當你以攻擊或法術對一個目標造成傷害時，你可以造成等同於你熟練加值的額外傷害，且額外傷害的類型在選擇死靈障幕時為黯蝕傷害；在選擇天堂羽翼或內蘊輝光時光耀傷害</p><p>變身型態選項：</p><p><strong>【天堂羽翼】</strong>你的背上暫時長出兩片靈體羽翼，直到變身型態結束前，你擁有等同於你速度的飛行速度。</p><p><strong>【內蘊輝光】</strong>你的雙眼與口中暫時綻放出炙熱的光芒，持續時間內，你散發出10呎半徑的明亮光照，以及再延伸10呎的微光光照。在你每個回合結束時，在你10呎內的每個生物將受到等同於你熟練加值的光耀傷害。</p><p><strong>【死靈障幕】</strong>你的雙眼暫時變得如同漆黑深潭般，而背上長出無法飛行的雙翼。除了你的同伴，在你10呎內的所有生物都必須成功通過一次魅力豁免（DC = 8 + 你的熟練加值 + 你的魅力調整值），否則直到你下回合結束時將陷入&amp;Reference[Frightened]狀態。</p><section class=\"secret\" id=\"secret-xYg9zvtrUSXdd7vM\"><p><strong>Foundry Note</strong></p><p>Each activity expends your use of this feature.</p><p>The <strong>Heavenly Wings</strong> activity includes an Active Effect which upgrades your Fly Speed.</p><p>The <strong>Inner Radiance</strong> activity includes an Active Effect for tracking and a damage roll that scales as you level up.</p><p>The <strong>Necrotic Shroud</strong> activity includes the saving throw and an Active Effect for tracking impacted creatures and applies the Frightened condition.</p></section>",
       "name": "天啟"
     },
     "Elven Lineage, High Elf": {
@@ -960,12 +960,12 @@
         },
         "Goliath Traits": {
           "title": "歌利亞特質",
-          "name": "Goliath Traits"
+          "name": "歌利亞特質"
         },
         "Giant Ancestry": {
           "hint": "你是巨人的後裔，從下列先祖恩賜的增益中選擇一項；你可以使用所選增益的次數等同於你的熟練加值，並在你完成一次長休時重獲所有已消耗的使用次數。",
           "title": "巨人血統",
-          "name": "Giant Ancestry"
+          "name": "巨人血統"
         }
       },
       "name": "歌利亞",
@@ -984,7 +984,7 @@
       "advancement": {
         "Orc Traits": {
           "title": "獸人特質",
-          "name": "Orc Traits"
+          "name": "獸人特質"
         },
         "B2sUOuY0KhoULqlX": {
           "hint": "中型（約 6 到 7 呎高）"
@@ -1062,7 +1062,7 @@
         },
         "Halfling Traits": {
           "title": "半身人特質",
-          "name": "Halfling Traits"
+          "name": "半身人特質"
         }
       },
       "name": "半身人"
@@ -1076,7 +1076,7 @@
       "description": "<p>你可以穿過任何體型比你大的生物所在的空間，但你無法在同一空間停留。</p>",
       "effects": {
         "Halfling Nimbleness": {
-          "name": "Halfling Nimbleness"
+          "name": "半身人靈巧"
         }
       }
     },
@@ -1094,7 +1094,7 @@
           "name": "凍結"
         }
       },
-      "description": "<p>當你的攻擊檢定命中目標並對其造成傷害時，你可以對該目標造成1d6寒冷傷害，並且直到你下一回合開始前，減少其10呎速度。</p><section id=\"secret-jxuUuY0r33aiP0zL\" class=\"secret\"><p><strong>Foundry Note</strong></p><p>This feature includes an Active Effect which can be used for tracking and reduces their Speed by 10.</p></section>",
+      "description": "<p>當你的攻擊檢定命中目標並對其造成傷害時，你可以對該目標造成1d6寒冷傷害，並且直到你下一回合開始前，減少其10呎速度。</p>",
       "activities": {
         "Chill": {
           "condition": "當你的攻擊檢定命中目標並對其造成傷害時",
@@ -1113,7 +1113,7 @@
     },
     "Fiendish Legacy": {
       "name": "邪魔遺贈",
-      "description": "<p>You are the recipient of a legacy that grants you supernatural abilities. Choose a legacy from the Fiendish Legacies table. You gain the level 1 benefit of the chosen legacy.</p><p>When you reach character levels 3 and 5, you learn a higher-level spell, as shown on the table. You always have that spell prepared. You can cast it once without a spell slot, and you regain the ability to cast it in that way when you finish a Long Rest. You can also cast the spell using any spell slots you have of the appropriate level. Intelligence, Wisdom, or Charisma is your spellcasting ability for the spells you cast with this trait (choose the ability when you select the legacy).</p><p></p><table><caption>Fiendish Legacies</caption><thead><tr><td><p>Lineage</p></td><td><p>Level 1</p></td><td><p>Level 3</p></td><td><p>Level 5</p></td></tr></thead><tbody><tr><td><p>@UUID[Compendium.dnd-players-handbook.origins.Item.phbsptAbyssalLeg]{Abyssal}</p></td><td>You have Resistance to Poison damage.You also know the @UUID[Compendium.dnd-players-handbook.spells.Item.phbsplPoisonSpra]{Poison Spray} cantrip.</td><td>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplRayofSickn]{Ray of Sickness}</td><td>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplHoldPerson]{Hold Person}</td></tr><tr><td><p>@UUID[Compendium.dnd-players-handbook.origins.Item.phbsptChthonicLe]{Chthonic}</p></td><td>You have Resistance to Necrotic damage.You also know the @UUID[Compendium.dnd-players-handbook.spells.Item.phbsplChillTouch]{Chill Touch} cantrip.</td><td>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplFalseLife0]{False Life}</td><td>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplRayofEnfee]{Ray of Enfeeblement}</td></tr><tr><td><p>@UUID[Compendium.dnd-players-handbook.origins.Item.phbsptInfernalLe]{Infernal}</p></td><td>You have Resistance to Fire damage.You also know the @UUID[Compendium.dnd-players-handbook.spells.Item.phbsplFireBolt00]{Fire Bolt} cantrip.</td><td>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplHellishReb]{Hellish Rebuke}</td><td>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplDarkness00]{Darkness}</td></tr></tbody></table>"
+      "description": "<p>邪魔遺贈的傳承賦予你超自然的能力。從邪魔遺贈表中選擇一種遺贈。你獲得所選遺贈在等級1的好處。</p><p>當你的角色等級達到3與5級時，你將習得更高環階的法術，如表中所示。你始終準備這些法術，你可以在不消耗法術位的情況下施放這些法術各一次，並在你完成一次長休時重獲以此方式施法的能力。你也可以使用相應環階的法術位來施展這些法術。智力、感知或魅力是你以此特性施放法術的施法屬性（當你選擇遺贈時你所選擇的屬性）。</p><p></p><table><caption>邪魔遺贈</caption><thead><tr><td><p>血系</p></td><td><p>等級1</p></td><td><p>等級3</p></td><td><p>等級5</p></td></tr></thead><tbody><tr><td><p>@UUID[Compendium.dnd-players-handbook.origins.Item.phbsptAbyssalLeg]{深淵}</p></td><td>你具有對毒素傷害的抗力，此外你也知曉@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplPoisonSpra]{毒氣噴灑}戲法。</td><td>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplRayofSickn]{致病射線}</td><td>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplHoldPerson]{人類定身術}</td></tr><tr><td><p>@UUID[Compendium.dnd-players-handbook.origins.Item.phbsptChthonicLe]{幽冥}</p></td><td>你具有對黯蝕傷害的抗力，此外你也知曉@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplChillTouch]{寒顫之觸}戲法。</td><td>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplFalseLife0]{摹造生命}</td><td>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplRayofEnfee]{衰弱射線}</td></tr><tr><td><p>@UUID[Compendium.dnd-players-handbook.origins.Item.phbsptInfernalLe]{煉獄}</p></td><td>你具有對火焰傷害的抗力，此外你也知曉@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplFireBolt00]{火焰箭}戲法。</td><td>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplHellishReb]{煉獄叱喝}</td><td>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplDarkness00]{黑暗術}</td></tr></tbody></table>"
     },
     "Trance": {
       "name": "傳思",
@@ -1131,7 +1131,7 @@
       "advancement": {
         "Breath Weapon Damage": {
           "title": "噴吐武器傷害",
-          "name": "Breath Weapon Damage"
+          "name": "噴吐武器傷害"
         }
       },
       "name": "毒素噴吐武器",
@@ -1149,7 +1149,7 @@
       "advancement": {
         "Breath Weapon Damage": {
           "title": "噴吐武器傷害",
-          "name": "Breath Weapon Damage"
+          "name": "噴吐武器傷害"
         }
       },
       "name": "強酸噴吐武器",
@@ -1169,7 +1169,7 @@
       "advancement": {
         "Breath Weapon Damage": {
           "title": "噴吐武器傷害",
-          "name": "Breath Weapon Damage"
+          "name": "噴吐武器傷害"
         }
       }
     },
@@ -1186,7 +1186,7 @@
       "advancement": {
         "Breath Weapon Damage": {
           "title": "噴吐武器傷害",
-          "name": "Breath Weapon Damage"
+          "name": "噴吐武器傷害"
         }
       },
       "description": "<p>當你在自己回合採取攻擊動作時，你可以呼出魔法能量來替代其中一次攻擊，15呎錐形範圍或長30呎寬5呎的直線範圍（每次使用時選擇）。</p><p>該區域內的每個生物必須進行敏捷豁免檢定（DC = 8 + 你的熟練加值 + 你的體質調整值）。豁免失敗的生物承受1d10被你的龍族血統特性所決定類型的傷害。豁免成功的生物僅承受一半傷害。</p><p>此傷害在角色到達 5 級時增加到 2d10，11 級為 3d10，17 級為 4d10。你可以使用此噴吐武器的次數等同於你的熟練加值，並在你完成長休時重獲所有已消耗的使用次數。</p>"
@@ -1203,7 +1203,7 @@
       "advancement": {
         "Breath Weapon Damage": {
           "title": "噴吐武器傷害",
-          "name": "Breath Weapon Damage"
+          "name": "噴吐武器傷害"
         }
       },
       "description": "<p>當你在自己回合採取攻擊動作時，你可以呼出魔法能量來替代其中一次攻擊，15呎錐形範圍或長30呎寬5呎的直線範圍（每次使用時選擇）。</p><p>該區域內的每個生物必須進行敏捷豁免檢定（DC = 8 + 你的熟練加值 + 你的體質調整值）。豁免失敗的生物承受1d10被你的龍族血統特性所決定類型的傷害。豁免成功的生物僅承受一半傷害。</p><p>此傷害在角色到達 5 級時增加到 2d10，11 級為 3d10，17 級為 4d10。你可以使用此噴吐武器的次數等同於你的熟練加值，並在你完成長休時重獲所有已消耗的使用次數。</p>",
