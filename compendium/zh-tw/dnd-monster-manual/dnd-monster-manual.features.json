@@ -81,7 +81,7 @@
     },
     "Elemental Burst": {
       "name": "Elemental Burst",
-      "description": "<p>As a Magic action, you can expend 2 Focus Points to cause elemental energy to burst in a 20-foot-radius Sphere centered on a point within 120 feet of yourself. Choose a damage type: Acid, Cold, Fire, Lightning, or Thunder.</p><p>Each creature in the Sphere must make a Dexterity saving throw. On a failed save, a creature takes damage of the chosen type equal to three rolls of your Martial Arts die. On a successful save, a creature takes half as much damage.</p><section id=\"secret-ibRDHOMdegAOpfmU\" class=\"secret\"><p><strong>Foundry Note</strong></p><p>The damage type can be selected in the roll dialog.</p></section>",
+      "description": "<p>As a Magic action, you can expend 2 Focus Points to cause elemental energy to burst in a 20-foot-radius Sphere centered on a point within 120 feet of yourself. Choose a damage type: Acid, Cold, Fire, Lightning, or Thunder.</p><p>Each creature in the Sphere must make a Dexterity saving throw. On a failed save, a creature takes damage of the chosen type equal to three rolls of your Martial Arts die. On a successful save, a creature takes half as much damage.</p><section id=\"secret-ibRDHOMdegAOpfmU\" class=\"secret\"><p><strong>Foundry 註記</strong></p><p>The damage type can be selected in the roll dialog.</p></section>",
       "activities": {
         "Burst": {
           "name": "Burst"
@@ -107,7 +107,7 @@
     },
     "Evasion": {
       "name": "反射閃避",
-      "description": "<p>You can nimbly dodge out of the way of certain dangers. When you’re subjected to an effect that allows you to make a Dexterity saving throw to take only half damage, you instead take no damage if you succeed on the saving throw and only half damage if you fail. You can’t use this feature if you have the Incapacitated condition.</p><section class=\"secret\" id=\"secret-mJSoikZHwVq6UUDf\"><p><strong>Foundry Note</strong></p><p>With your token selected you can either right click on the damage roll's chat card and select <span class=\"reference\"><em class=\"fas fa-user-shield\"> </em>Apply Half Damage</span> or click the \"1/2\" button and then the <span class=\"reference\"><em class=\"fa-solid fa-reply-all\"> </em>Apply</span> button.</p></section>"
+      "description": "<p>You can nimbly dodge out of the way of certain dangers. When you’re subjected to an effect that allows you to make a Dexterity saving throw to take only half damage, you instead take no damage if you succeed on the saving throw and only half damage if you fail. You can’t use this feature if you have the Incapacitated condition.</p><section class=\"secret\" id=\"secret-mJSoikZHwVq6UUDf\"><p><strong>Foundry 註記</strong></p><p>With your token selected you can either right click on the damage roll's chat card and select <span class=\"reference\"><em class=\"fas fa-user-shield\"> </em>Apply Half Damage</span> or click the \"1/2\" button and then the <span class=\"reference\"><em class=\"fa-solid fa-reply-all\"> </em>Apply</span> button.</p></section>"
     },
     "Fog Cloud": {
       "name": "雲霧術",
@@ -135,7 +135,7 @@
       "description": "<p>傷害你的生物暫時被綠色的火焰包圍。其進行一次敏捷豁免，失敗時承受2d10點火焰傷害，成功時傷害減半。</p><p><strong>【升環法術效應】</strong>法術位每升一個環階，傷害就增加1d10。</p>"
     },
     "Hunger of Hadar": {
-      "description": "<p>You open a gateway to the Far Realm, a region infested with unspeakable horrors. A 20-foot-radius Sphere of &amp;Reference[Darkness] appears, centered on a point with range and lasting for the duration. The Sphere is &amp;Reference[DifficultTerrain], and it is filled with strange whispers and slurping noises, which can be heard up to 30 feet away. No light, magical or otherwise, can illuminate the area, and creatures fully within it have the &amp;Reference[Blinded] condition.</p><p>Any creature that starts its turn in the area takes 2d6 Cold damage. Any creature that ends its turn there must succeed on a Dexterity saving throw or take 2d6 Acid damage from otherworldly tentacles.</p><p><strong>【升環法術效應】 </strong>The Cold or Acid damage (your choice) increases by 1d6 for each spell slot level above 3.</p>",
+      "description": "<p class=\"feature\">The [[lookup @name lowercase]] casts <em>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplHungerofHa]{Hunger of Hadar}</em> (level 5 version), requiring no spell components and using Charisma as the spellcasting ability (spell save DC [[lookup @abilities.cha.dc]]).</p>",
       "name": "Hunger of Hadar",
       "activities": {
         "Start of Turn Damage": {
@@ -161,7 +161,7 @@
     },
     "Misty Escape": {
       "name": "Misty Escape",
-      "description": "<p>You can cast @UUID[Compendium.dnd-players-handbook.spells.Item.phbsplMistyStep0]{迷蹤步} as a Reaction in response to taking damage.</p><p>In addition, the following effects are now among your Steps of the Fey options.</p><p><strong>Disappearing Step. </strong>You have the &amp;Reference[Invisible]{隱形} condition until the start of your next turn or until immediately after you make an attack roll, deal damage, or cast a spell.</p><p><strong>Dreadful Step.</strong> Creatures within 5 feet of the space you left or the space you appear in (your choice) must succeed on a Wisdom saving throw against your spell save DC or take 2d10 Psychic damage.</p><section class=\"secret\" id=\"secret-TTIMVNpwS90Cackr\"><p><strong>Foundry Note</strong></p><p>The <strong>Disappearing Step</strong> activity includes an Active Effect which applies the Invisible condition.</p><p>The spell is granted to you automatically as you level up.</p></section>",
+      "description": "<p>You can cast @UUID[Compendium.dnd-players-handbook.spells.Item.phbsplMistyStep0]{迷蹤步} as a Reaction in response to taking damage.</p><p>In addition, the following effects are now among your Steps of the Fey options.</p><p><strong>Disappearing Step. </strong>You have the &amp;Reference[Invisible]{隱形} condition until the start of your next turn or until immediately after you make an attack roll, deal damage, or cast a spell.</p><p><strong>Dreadful Step.</strong> Creatures within 5 feet of the space you left or the space you appear in (your choice) must succeed on a Wisdom saving throw against your spell save DC or take 2d10 Psychic damage.</p><section class=\"secret\" id=\"secret-TTIMVNpwS90Cackr\"><p><strong>Foundry 註記</strong></p><p>The <strong>Disappearing Step</strong> activity includes an Active Effect which applies the Invisible condition.</p><p>The spell is granted to you automatically as you level up.</p></section>",
       "activities": {
         "Disappearing Step": {
           "name": "Disappearing Step",
@@ -198,7 +198,7 @@
     },
     "Parry": {
       "name": "Parry",
-      "description": "<p>When another creature damages you with a melee attack roll, you can take a Reaction and expend one Superiority Die to reduce the damage by the number you roll on your Superiority Die plus your 力量和敏捷 modifier (your choice).</p><section id=\"secret-0wY3O9dAMQDKj066\" class=\"secret\"><p><strong>Foundry Note</strong></p><p>This feature includes a Healing Reaction activity which can be used to reduce the damage.</p></section>",
+      "description": "<p>When another creature damages you with a melee attack roll, you can take a Reaction and expend one Superiority Die to reduce the damage by the number you roll on your Superiority Die plus your 力量和敏捷 modifier (your choice).</p><section id=\"secret-0wY3O9dAMQDKj066\" class=\"secret\"><p><strong>Foundry 註記</strong></p><p>This feature includes a Healing Reaction activity which can be used to reduce the damage.</p></section>",
       "activities": {
         "heal": {
           "condition": "When another creature damages you with a melee attack roll"
@@ -227,7 +227,7 @@
     },
     "Portent": {
       "name": "Portent",
-      "description": "<p>Glimpses of the future begin to press on your awareness. Whenever you finish a Long Rest, roll two [[/r d20]] and record the numbers rolled. You can replace any &amp;Reference[D20 Test] made by you or a creature that you can see with one of these foretelling rolls. You must choose to do so before the roll, and you can replace a roll in this way only once per turn.</p><p>Each foretelling roll can be used only once. When you finish a Long Rest, you lose any unused foretelling rolls.</p><p><strong>Current Portent Rolls:</strong> x, y</p><section class=\"secret\" id=\"secret-UWpQx1BOZPI14hq0\"><p><strong>Foundry Note</strong></p><p>When you roll both of the d20 you can edit this feature's description to track them or log it another way.</p></section>",
+      "description": "<p>Glimpses of the future begin to press on your awareness. Whenever you finish a Long Rest, roll two [[/r d20]] and record the numbers rolled. You can replace any &amp;Reference[D20 Test] made by you or a creature that you can see with one of these foretelling rolls. You must choose to do so before the roll, and you can replace a roll in this way only once per turn.</p><p>Each foretelling roll can be used only once. When you finish a Long Rest, you lose any unused foretelling rolls.</p><p><strong>Current Portent Rolls:</strong> x, y</p><section class=\"secret\" id=\"secret-UWpQx1BOZPI14hq0\"><p><strong>Foundry 註記</strong></p><p>When you roll both of the d20 you can edit this feature's description to track them or log it another way.</p></section>",
       "activities": {
         "Roll d20": {
           "name": "Roll d20",
@@ -238,7 +238,7 @@
     },
     "Protection": {
       "name": "守護",
-      "description": "<p><em>（先決條件：戰鬥風格特性）</em></p><p>當一個你所能看見的生物攻擊一個距離你5呎內你以外的目標時，若你正持握盾牌，你可以用一個反應介入攻擊守護目標。你可以讓該攻擊檢定承受劣勢，並且直到你的下一回合開始，若你仍處於守護的目標5呎內，那麼所有該目標進行的其他所有攻擊檢定都將承受劣勢。</p><section id=\"secret-omzqnTg5Wlirj4sK\" class=\"secret\"><p><strong>Foundry Note</strong></p><p>This feature includes an Active Effect for tracking the protected creature but it does not automate the Disadvantage.</p></section>",
+      "description": "<p><em>（先決條件：戰鬥風格特性）</em></p><p>當一個你所能看見的生物攻擊一個距離你5呎內你以外的目標時，若你正持握盾牌，你可以用一個反應介入攻擊守護目標。你可以讓該攻擊檢定承受劣勢，並且直到你的下一回合開始，若你仍處於守護的目標5呎內，那麼所有該目標進行的其他所有攻擊檢定都將承受劣勢。</p><section id=\"secret-omzqnTg5Wlirj4sK\" class=\"secret\"><p><strong>Foundry 註記</strong></p><p>This feature includes an Active Effect for tracking the protected creature but it does not automate the Disadvantage.</p></section>",
       "activities": {
         "Protect": {
           "name": "守護",
@@ -275,7 +275,7 @@
         }
       },
       "name": "Ram",
-      "description": "<p><em>Large Object</em></p><p><strong>Armor Class:</strong> 15 <strong>Hit Points:</strong> 100</p><p><em><strong>Ram (Requires Position).</strong></em> <em>Melee Attack Roll:</em> +8, reach 5 ft. <em>Hit:</em> 16 (3d10) Bludgeoning damage.</p><p>A Ram consists of a movable gallery equipped with a heavy log suspended from two roof beams by chains. The log is shod in iron and used to batter through doors and barricades. Positioning a Ram requires three Utilize actions. Then a crew member can use the Ram action.</p><p>The gallery roof gives the operators &amp;Reference[Total Cover] against attacks and other effects from above.</p><section class=\"secret\" id=\"secret-BrA9tvhEbS4ebsJn\"><p><strong>Foundry Note</strong></p><p>This item has 3 limited uses for tracking positioning.</p><p>The <strong>Position</strong> activity grants one use so after three uses you can use the <strong>Ram</strong> activity.</p></section>",
+      "description": "<p><em>Large Object</em></p><p><strong>Armor Class:</strong> 15 <strong>Hit Points:</strong> 100</p><p><em><strong>Ram (Requires Position).</strong></em> <em>Melee Attack Roll:</em> +8, reach 5 ft. <em>Hit:</em> 16 (3d10) Bludgeoning damage.</p><p>A Ram consists of a movable gallery equipped with a heavy log suspended from two roof beams by chains. The log is shod in iron and used to batter through doors and barricades. Positioning a Ram requires three Utilize actions. Then a crew member can use the Ram action.</p><p>The gallery roof gives the operators &amp;Reference[Total Cover] against attacks and other effects from above.</p><section class=\"secret\" id=\"secret-BrA9tvhEbS4ebsJn\"><p><strong>Foundry 註記</strong></p><p>This item has 3 limited uses for tracking positioning.</p><p>The <strong>Position</strong> activity grants one use so after three uses you can use the <strong>Ram</strong> activity.</p></section>",
       "effects": {
         "Prone": {
           "name": "Prone",
@@ -285,7 +285,7 @@
     },
     "Riposte": {
       "name": "Riposte",
-      "description": "<p>When a creature misses you with a melee attack roll, you can take a Reaction and expend one Superiority Die to make a melee attack roll with a weapon or an Unarmed Strike against the creature. If you hit, add the Superiority Die to the attack's damage.</p><section id=\"secret-aL4TzEY3Wy7mzsWY\" class=\"secret\"><p><strong>Foundry Note</strong></p><p>The <strong>Riposte Damage</strong> reaction activity allows you to select the type of damage it should deal in the roll dialog and will consume a use of your Superiority Die.</p></section>",
+      "description": "<p>When a creature misses you with a melee attack roll, you can take a Reaction and expend one Superiority Die to make a melee attack roll with a weapon or an Unarmed Strike against the creature. If you hit, add the Superiority Die to the attack's damage.</p><section id=\"secret-aL4TzEY3Wy7mzsWY\" class=\"secret\"><p><strong>Foundry 註記</strong></p><p>The <strong>Riposte Damage</strong> reaction activity allows you to select the type of damage it should deal in the roll dialog and will consume a use of your Superiority Die.</p></section>",
       "activities": {
         "Riposte Damage": {
           "condition": "When a creature misses you with a melee attack roll",
@@ -349,7 +349,7 @@
     },
     "Slow": {
       "name": "緩速術",
-      "description": "<p>You alter time around up to six creatures of your choice in a 40-foot Cube within range. Each target must succeed on a Wisdom saving throw or be affected by this spell for the duration.</p><p>An affected target’s Speed is halved, it takes a −2 penalty to AC and Dexterity saving throws, and it can’t take Reactions. On its turns, it can take either an action or a Bonus Action, not both, and it can make only one attack if it takes the Attack action. If it casts a spell with a Somatic component, there is a [[/r 1d100cs&lt;=25#Slowed spell cast success]]{25 percent} chance the spell fails as a result of the target making the spell’s gestures too slowly.</p><p>An affected target repeats the save at the end of each of its turns, ending the spell on itself on a success.</p><section id=\"secret-2RobIVhv3tn7gmU7\" class=\"secret\"><p><strong>Foundry Note</strong></p><p>The inline roll above will return 1 if it succeeded or 0 if it failed.</p></section>",
+      "description": "<p>You alter time around up to six creatures of your choice in a 40-foot Cube within range. Each target must succeed on a Wisdom saving throw or be affected by this spell for the duration.</p><p>An affected target’s Speed is halved, it takes a −2 penalty to AC and Dexterity saving throws, and it can’t take Reactions. On its turns, it can take either an action or a Bonus Action, not both, and it can make only one attack if it takes the Attack action. If it casts a spell with a Somatic component, there is a [[/r 1d100cs&lt;=25#Slowed spell cast success]]{25 percent} chance the spell fails as a result of the target making the spell’s gestures too slowly.</p><p>An affected target repeats the save at the end of each of its turns, ending the spell on itself on a success.</p><section id=\"secret-2RobIVhv3tn7gmU7\" class=\"secret\"><p><strong>Foundry 註記</strong></p><p>The inline roll above will return 1 if it succeeded or 0 if it failed.</p></section>",
       "effects": {
         "Slowed": {
           "name": "Slowed",
@@ -359,11 +359,11 @@
     },
     "Spellcasting": {
       "name": "施法",
-      "description": "<p>你透過鑽研詩人技藝而學會了施法。有關施法的規則請參見@UUID[Compendium.dnd-players-handbook.content.JournalEntry.phbSpells0000000.JournalEntryPage.mh3akteBDiLegqFK]{chapter 7} 。以下資訊詳細說明了如何將這些規則與吟遊詩人法術結合使用。吟遊詩人法術即該職業描述後的@UUID[Compendium.dnd-players-handbook.content.JournalEntry.phbSpells0000000.JournalEntryPage.wwia6Wwo4BgE9GSI]{吟遊詩人法術列表}中羅列的法術。</p><p><strong>【戲法】</strong>你知曉兩個從吟遊詩人法術列表中你所選擇的戲法。推薦選擇<em>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplDancingLig]</em>和<em>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplViciousMoc]</em> 。</p><p>每當你獲得吟遊詩人等級時，你可以將一個戲法替換為另一個吟遊詩人法術列表中你所選擇的戲法。</p><p>當你達到吟遊詩人 4 級和 10 級時，你可以從吟遊詩人法術列表中學習一個新的戲法，正如@UUID[Compendium.dnd-players-handbook.content.JournalEntry.phbBard000000000.JournalEntryPage.V8pqIWlaL9GhY61t#class-features]{吟遊詩人特性}表中戲法一欄所示。</p><p><strong>【法術位】</strong>吟遊詩人特性表記錄了你有多少法術位用以施放 1+環階的法術。當你完成長休時，你會重獲所有消耗的法術位。</p><p><strong>【準備1環以上的法術】</strong>通過該特性施法前，你需要選擇數個可用的1環以上的法術構成準備列表。首先，從吟遊詩人法術列表中選擇四個 1 環法術。推薦選擇<em>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplCharmPerso]</em>、<em>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplColorSpray]</em>、<em>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplDissonantW]</em>、<em>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplHealingWor]</em>。</p><p>準備列表上的法術數量將隨著你的吟遊詩人等級而增加，正如吟遊詩人特性表中準備法術一欄所示。每當該數量增加時，從吟遊詩人法術列表中選擇額外的法術來新增到你的準備列表中，直到你準備列表上的法術數量與吟遊詩人特性表中的數量相匹配。你只能準備已經獲得相應環階法術位的法術。例如，作為 3 級吟遊詩人，你的準備法術列表應該包括六個任意組合的1環或2環法術。</p><p>若另一個吟遊詩人特性給予你額外的準備法術，這些法術不會計入你在該特性中的準備法術數量，但是這些法術對你而言仍算作吟遊詩人法術。</p><p><strong>【更改準備法術】</strong>每當你獲得一個吟遊詩人等級時， 你可以將準備列表中的一個法術，替換為另一個你擁有法術位的吟遊詩人法術。</p><p><strong>【施法屬性】</strong>魅力是你施放吟遊詩人法術的施法屬性。</p><p><strong>【師法法器】</strong>你可以使用樂器作為吟遊詩人法術的施法法器。</p>"
+      "description": "<p class=\"feature\">The [[lookup @name lowercase]] casts one of the following spells, requiring no {type} components and using {ability} as the spellcasting ability (spell save DC [[lookup @attributes.spell.dc]]):</p><p class=\"feature-trait\"><strong>At Will:</strong> <em>{spell}</em></p><p class=\"feature-trait\"><strong>{count}/Day Each:</strong> <em>{spell}</em></p>"
     },
     "Spider Climb": {
       "name": "蛛行術",
-      "description": "<p>直到法術結束前，你觸碰的一個自願生物會獲得在垂直表面和天花板上移動的能力，且不需要佔用雙手。目標還會獲得等於其速度的攀爬速度。</p><p><strong>【升環法術效應】</strong>法術位每升一個環階，就可以額外選擇一個生物。</p><section class=\"secret\" id=\"secret-4LoECjSnyIsXFdKY\"><p><strong>Foundry Note</strong></p><p>The Active Effect provided by the <strong>Cast</strong> activity upgrades the character's Climb Speed to a value of \"1\" to indicate equivalence to (walk) Speed.</p></section>",
+      "description": "<p>直到法術結束前，你觸碰的一個自願生物會獲得在垂直表面和天花板上移動的能力，且不需要佔用雙手。目標還會獲得等於其速度的攀爬速度。</p><p><strong>【升環法術效應】</strong>法術位每升一個環階，就可以額外選擇一個生物。</p><section class=\"secret\" id=\"secret-4LoECjSnyIsXFdKY\"><p><strong>Foundry 註記</strong></p><p>The Active Effect provided by the <strong>Cast</strong> activity upgrades the character's Climb Speed to a value of \"1\" to indicate equivalence to (walk) Speed.</p></section>",
       "effects": {
         "Spider Climb": {
           "name": "蛛行術"
@@ -420,7 +420,7 @@
     },
     "Uncanny Dodge": {
       "name": "Uncanny Dodge",
-      "description": "<p>When an attacker that you can see hits you with an attack roll, you can take a Reaction to halve the attack’s damage against you (round down).</p><section class=\"secret\" id=\"secret-fLqTNntX7T0swRsu\"><p><strong>Foundry Note</strong></p><p>With your token selected you can either right click on the damage roll's chat card and select <span class=\"reference\"><em class=\"fas fa-user-shield\"> </em>Apply Half Damage</span> or click the \"1/2\" button and then the <span class=\"reference\"><em class=\"fa-solid fa-reply-all\"> </em>Apply</span> button.</p></section>",
+      "description": "<p>When an attacker that you can see hits you with an attack roll, you can take a Reaction to halve the attack’s damage against you (round down).</p><section class=\"secret\" id=\"secret-fLqTNntX7T0swRsu\"><p><strong>Foundry 註記</strong></p><p>With your token selected you can either right click on the damage roll's chat card and select <span class=\"reference\"><em class=\"fas fa-user-shield\"> </em>Apply Half Damage</span> or click the \"1/2\" button and then the <span class=\"reference\"><em class=\"fa-solid fa-reply-all\"> </em>Apply</span> button.</p></section>",
       "activities": {
         "Uncanny Dodge": {
           "name": "Uncanny Dodge",
