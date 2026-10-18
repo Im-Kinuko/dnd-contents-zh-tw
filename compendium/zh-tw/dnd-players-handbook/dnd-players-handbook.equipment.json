@@ -46,7 +46,7 @@
     },
     "Book": {
       "name": "書",
-      "description": "<p>一本書會記載虛構或非虛構的內容。如果你在某個主題上參考了一本內容準確的非虛構書籍，你對該主題所做的智力（奧秘、歷史、自然或宗教）檢定會獲得+5加值。</p>"
+      "description": "<p>一本書會記載虛構或非虛構的內容。若你在某個主題上參考了一本內容準確的非虛構書籍，你對該主題所做的智力（奧秘、歷史、自然或宗教）檢定會獲得+5加值。</p>"
     },
     "Candle": {
       "name": "蠟燭",
@@ -71,7 +71,7 @@
           "name": "掙脫檢定"
         }
       },
-      "description": "<p>以一個利用動作，你可以用鎖鏈捆住一個位於你5呎內處於&amp;Reference[Grappled]{受擒}、&amp;Reference[Incapacitated]{失能}或&amp;Reference[Restrained]{束縛}狀態的非自願生物，前提是你成功通過一次DC13的力量（運動）檢定。如果該生物的腿被綁住，其將陷入束縛狀態，直至掙脫為止。掙脫鎖鏈需要該生物使用動作通過一次DC18的敏捷（特技）檢定。扯斷鎖鏈需要使用動作通過一次DC20的力量（運動）檢定。</p>"
+      "description": "<p>以一個利用動作，你可以用鎖鏈捆住一個位於你5呎內處於&amp;Reference[Grappled]{受擒}、&amp;Reference[Incapacitated]{失能}或&amp;Reference[Restrained]{束縛}狀態的非自願生物，前提是你成功通過一次DC 13的力量（運動）檢定。若該生物的腿被綁住，其將陷入束縛狀態，直到掙脫為止。掙脫鎖鏈需要該生物使用動作通過一次DC 18的敏捷（特技）檢定。扯斷鎖鏈需要使用動作通過一次DC 20的力量（運動）檢定。</p>"
     },
     "Flute": {
       "name": "長笛",
@@ -91,7 +91,7 @@
     },
     "Map": {
       "name": "地圖",
-      "description": "<p>如果你參考一張準確的地圖，你在地圖所繪地點為辨認方位所做的感知（求生）檢定會獲得+5加值。</p>"
+      "description": "<p>若你參考一張準確的地圖，你在地圖所繪地點為辨認方位所做的感知（求生）檢定會獲得+5加值。</p>"
     },
     "Mace": {
       "name": "硬頭錘"
@@ -106,7 +106,7 @@
           "name": "標定方向"
         }
       },
-      "description": "<p class=\"phb-meta\"><strong>屬性：</strong>感知</p><p class=\"phb-meta\"><strong>使用：</strong> Plot a course (DC 10), or determine position by stargazing (DC 15)</p>"
+      "description": "<p class=\"phb-meta\"><strong>屬性：</strong>感知</p><p class=\"phb-meta\"><strong>利用：</strong>標定方向（DC 10），或藉由觀星確認位置（DC 15）</p>"
     },
     "Quiver": {
       "description": "<p>箭袋至多能裝入20根箭矢。</p>",
@@ -149,7 +149,7 @@
         }
       },
       "name": "鐵蒺藜",
-      "description": "<p>以一個利用動作，你能將一包鐵蒺藜從袋中撒出，覆蓋你周圍5呎內的一處5呎方形區域。任何生物每回合首次進入這片區域時都必須成功通過一次DC15的敏捷豁免，否則受到1點穿刺傷害，且速度降至0，直到其下一回合開始為止。重新收集這些鐵蒺藜需要花費10分鐘時間。</p>"
+      "description": "<p>以一個利用動作，你能將一包鐵蒺藜從袋中撒出，覆蓋你周圍5呎內的一處5呎方形區域。任何生物每回合首次進入這片區域時都必須成功通過一次DC 15的敏捷豁免，否則受到1點穿刺傷害，且速度降至0，直到其下一回合開始為止。重新收集這些鐵蒺藜需要花費10分鐘時間。</p>"
     },
     "Glassblower's Tools": {
       "activities": {
@@ -157,7 +157,7 @@
           "name": "辨識先前內容"
         }
       },
-      "description": "<p class=\"phb-meta\"><strong>屬性：</strong>智力</p><p class=\"phb-meta\"><strong>使用：</strong> Discern what a glass object held in the past 24 hours (DC 15)</p><p class=\"phb-meta\"><strong>製作：</strong> @UUID[Compendium.dnd5e.items.Item.HZp69hhyNZUUCipF]{Glass Bottle}、@UUID[Compendium.dnd-players-handbook.equipment.Item.phbagMagnifyingG]{Magnifying Glass}、@UUID[Compendium.dnd-players-handbook.equipment.Item.phbagSpyglass100]{Spyglass}、@UUID[Compendium.dnd-players-handbook.equipment.Item.phbagVial0000000]{Vial}</p>",
+      "description": "<p class=\"phb-meta\"><strong>屬性：</strong>智力</p><p class=\"phb-meta\"><strong>利用：</strong>辨識玻璃物品在過去24小時內盛裝過什麼（DC 15）</p><p class=\"phb-meta\"><strong>製作：</strong>@UUID[Compendium.dnd5e.items.Item.HZp69hhyNZUUCipF]{玻璃瓶}、@UUID[Compendium.dnd-players-handbook.equipment.Item.phbagMagnifyingG]{放大鏡}、@UUID[Compendium.dnd-players-handbook.equipment.Item.phbagSpyglass100]{望遠鏡}、@UUID[Compendium.dnd-players-handbook.equipment.Item.phbagVial0000000]{小瓶}</p>",
       "name": "玻璃匠工具"
     },
     "Brewer's Supplies": {
@@ -170,7 +170,7 @@
         }
       },
       "name": "釀酒師設備",
-      "description": "<p class=\"phb-meta\"><strong>屬性：</strong>智力</p><p class=\"phb-meta\"><strong>使用：</strong> Detect poisoned drink (DC 15), or identify alcohol (DC 10)</p><p class=\"phb-meta\"><strong>製作：</strong> @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagAntitoxin00]{Antitoxin}</p>"
+      "description": "<p class=\"phb-meta\"><strong>屬性：</strong>智力</p><p class=\"phb-meta\"><strong>利用：</strong>偵測有毒飲品（DC 15），或鑑別酒類（DC 10）</p><p class=\"phb-meta\"><strong>製作：</strong>@UUID[Compendium.dnd-players-handbook.equipment.Item.phbagAntitoxin00]{抗毒劑}</p>"
     },
     "Longbow": {
       "name": "長弓"
@@ -182,7 +182,7 @@
         }
       },
       "name": "織布工工具",
-      "description": "<p class=\"phb-meta\"><strong>屬性：</strong>敏捷</p><p class=\"phb-meta\"><strong>使用：</strong> Mend a tear in clothing (DC 10), or sew a Tiny design (DC 10)</p><p class=\"phb-meta\"><strong>製作：</strong> @UUID[Compendium.dnd-players-handbook.equipment.Item.phbarmPaddedArmo]{Padded Armor}、@UUID[Compendium.dnd-players-handbook.equipment.Item.phbagBasket00000]{Basket}、@UUID[Compendium.dnd-players-handbook.equipment.Item.phbagBedroll0000]、@UUID[Compendium.dnd-players-handbook.equipment.Item.phbagBlanket0000]、@UUID[Compendium.dnd-players-handbook.equipment.Item.phbagClothesFine]、@UUID[Compendium.dnd-players-handbook.equipment.Item.phbagNet00000000]、@UUID[Compendium.dnd-players-handbook.equipment.Item.phbagRobe0000000]、@UUID[Compendium.dnd-players-handbook.equipment.Item.phbagRope0000000]、@UUID[Compendium.dnd-players-handbook.equipment.Item.phbagSack0000000]、@UUID[Compendium.dnd-players-handbook.equipment.Item.phbagString00000]、@UUID[Compendium.dnd-players-handbook.equipment.Item.phbagTent0000000]、@UUID[Compendium.dnd-players-handbook.equipment.Item.phbagClothesTrav]</p>"
+      "description": "<p class=\"phb-meta\"><strong>屬性：</strong>敏捷</p><p class=\"phb-meta\"><strong>利用：</strong>縫補衣物的破口（DC 10），或縫出微型圖案（DC 10）</p><p class=\"phb-meta\"><strong>製作：</strong>@UUID[Compendium.dnd-players-handbook.equipment.Item.phbarmPaddedArmo]{綿甲}、@UUID[Compendium.dnd-players-handbook.equipment.Item.phbagBasket00000]{籃子}、@UUID[Compendium.dnd-players-handbook.equipment.Item.phbagBedroll0000]{睡袋}、@UUID[Compendium.dnd-players-handbook.equipment.Item.phbagBlanket0000]{毛毯}、@UUID[Compendium.dnd-players-handbook.equipment.Item.phbagClothesFine]{高級服裝}、@UUID[Compendium.dnd-players-handbook.equipment.Item.phbagNet00000000]{捕網}、@UUID[Compendium.dnd-players-handbook.equipment.Item.phbagRobe0000000]{法袍}、@UUID[Compendium.dnd-players-handbook.equipment.Item.phbagRope0000000]{繩索}、@UUID[Compendium.dnd-players-handbook.equipment.Item.phbagSack0000000]{麻袋}、@UUID[Compendium.dnd-players-handbook.equipment.Item.phbagString00000]{弦線}、@UUID[Compendium.dnd-players-handbook.equipment.Item.phbagTent0000000]{帳篷}、@UUID[Compendium.dnd-players-handbook.equipment.Item.phbagClothesTrav]{旅行者服裝}</p>"
     },
     "Club": {
       "name": "棍棒"
@@ -196,7 +196,7 @@
     },
     "Tinker's Tools": {
       "name": "修補匠工具",
-      "description": "<p class=\"phb-meta\"><strong>屬性：</strong>敏捷</p><p class=\"phb-meta\"><strong>使用：</strong> Assemble a Tiny item composed of scrap, which falls apart in 1 minute (DC 20)</p><p class=\"phb-meta\"><strong>製作：</strong> @UUID[Compendium.dnd-players-handbook.equipment.Item.phbwepMusket0000]{Musket}、@UUID[Compendium.dnd-players-handbook.equipment.Item.phbwepPistol0000]{Pistol}、@UUID[Compendium.dnd-players-handbook.equipment.Item.phbagBell0000000]{Bell}、@UUID[Compendium.dnd5e.items.Item.UkWdyJYQTfVX2cJW]{Bullseye Lantern}、@UUID[Compendium.dnd-players-handbook.equipment.Item.phbagFlask000000]{Flask}、@UUID[Compendium.dnd5e.items.Item.wjHtGnd05SPdURqE]{Hooded Lantern}、@UUID[Compendium.dnd-players-handbook.equipment.Item.phbagHuntingTrap]{Hunting Trap}、@UUID[Compendium.dnd-players-handbook.equipment.Item.phbagLock0000000]{Lock}、@UUID[Compendium.dnd-players-handbook.equipment.Item.phbagManacles000]{Manacles}、@UUID[Compendium.dnd-players-handbook.equipment.Item.phbagMirror00000]{Mirror}、@UUID[Compendium.dnd-players-handbook.equipment.Item.phbagShovel00000]{Shovel}、@UUID[Compendium.dnd-players-handbook.equipment.Item.phbagSignalWhist]{Signal Whistle}、@UUID[Compendium.dnd-players-handbook.equipment.Item.phbagTinderbox00]{Tinderbox}</p>",
+      "description": "<p class=\"phb-meta\"><strong>屬性：</strong>敏捷</p><p class=\"phb-meta\"><strong>利用：</strong>以廢料組裝一件微型物品，該物品會在1分鐘後解體（DC 20）</p><p class=\"phb-meta\"><strong>製作：</strong>@UUID[Compendium.dnd-players-handbook.equipment.Item.phbwepMusket0000]{烏銃}、@UUID[Compendium.dnd-players-handbook.equipment.Item.phbwepPistol0000]{手槍}、@UUID[Compendium.dnd-players-handbook.equipment.Item.phbagBell0000000]{鈴鐺}、@UUID[Compendium.dnd5e.items.Item.UkWdyJYQTfVX2cJW]{牛眼提燈}、@UUID[Compendium.dnd-players-handbook.equipment.Item.phbagFlask000000]{扁瓶}、@UUID[Compendium.dnd5e.items.Item.wjHtGnd05SPdURqE]{附蓋提燈}、@UUID[Compendium.dnd-players-handbook.equipment.Item.phbagHuntingTrap]{狩獵陷阱}、@UUID[Compendium.dnd-players-handbook.equipment.Item.phbagLock0000000]{鎖}、@UUID[Compendium.dnd-players-handbook.equipment.Item.phbagManacles000]{鐐銬}、@UUID[Compendium.dnd-players-handbook.equipment.Item.phbagMirror00000]{鏡子}、@UUID[Compendium.dnd-players-handbook.equipment.Item.phbagShovel00000]{鏟子}、@UUID[Compendium.dnd-players-handbook.equipment.Item.phbagSignalWhist]{訊號哨}、@UUID[Compendium.dnd-players-handbook.equipment.Item.phbagTinderbox00]{打火匣}</p>",
       "activities": {
         "Assemble a Tiny Item": {
           "name": "組裝微型物品"
@@ -236,7 +236,7 @@
           "name": "投擲"
         }
       },
-      "description": "<p>以一個利用動作，你能將爪鉤朝著位於自身50呎內的一處欄杆、突起的邊緣或其他可鉤住的位置扔出，若你通過一次DC13的敏捷（特技）檢定，爪鉤便會鉤住。如果你已將繩索綁在爪鉤上，就可以攀爬上去。</p>",
+      "description": "<p>以一個利用動作，你能將爪鉤朝著位於自身50呎內的一處欄杆、突起的邊緣或其他可鉤住的位置扔出，若你通過一次DC 13的敏捷（特技）檢定，爪鉤便會鉤住。若你已將繩索綁在爪鉤上，就可以攀爬上去。</p>",
       "name": "爪鉤"
     },
     "Carpenter's Tools": {
@@ -245,7 +245,7 @@
           "name": "封住或撬開"
         }
       },
-      "description": "<p class=\"phb-meta\"><strong>屬性：</strong>力量</p><p class=\"phb-meta\"><strong>使用：</strong> Seal or pry open a door or container (DC 20)</p><p class=\"phb-meta\"><strong>製作：</strong> @UUID[Compendium.dnd-players-handbook.equipment.Item.phbwepClub000000]{Club}、@UUID[Compendium.dnd-players-handbook.equipment.Item.phbwepGreatclub0]{Greatclub}、@UUID[Compendium.dnd-players-handbook.equipment.Item.phbwepQuartersta]{Quarterstaff}、@UUID[Compendium.dnd-players-handbook.equipment.Item.phbagBarrel00000]{Barrel}、@UUID[Compendium.dnd-players-handbook.equipment.Item.phbagChest000000]{Chest}、@UUID[Compendium.dnd-players-handbook.equipment.Item.phbagLadder00000]{Ladder}、@UUID[Compendium.dnd-players-handbook.equipment.Item.phbagPole0000000]{Pole}、@UUID[Compendium.dnd5e.items.Item.srTRzwTfWKO5opOo]{Portable Ram}、@UUID[Compendium.dnd-players-handbook.equipment.Item.phbagTorch000000]{Torch}</p>",
+      "description": "<p class=\"phb-meta\"><strong>屬性：</strong>力量</p><p class=\"phb-meta\"><strong>利用：</strong>封住或撬開門或容器（DC 20）</p><p class=\"phb-meta\"><strong>製作：</strong>@UUID[Compendium.dnd-players-handbook.equipment.Item.phbwepClub000000]{棍棒}、@UUID[Compendium.dnd-players-handbook.equipment.Item.phbwepGreatclub0]{巨棍}、@UUID[Compendium.dnd-players-handbook.equipment.Item.phbwepQuartersta]{長棍}、@UUID[Compendium.dnd-players-handbook.equipment.Item.phbagBarrel00000]{木桶}、@UUID[Compendium.dnd-players-handbook.equipment.Item.phbagChest000000]{箱子}、@UUID[Compendium.dnd-players-handbook.equipment.Item.phbagLadder00000]{長梯}、@UUID[Compendium.dnd-players-handbook.equipment.Item.phbagPole0000000]{長桿}、@UUID[Compendium.dnd5e.items.Item.srTRzwTfWKO5opOo]{便攜式攻城錘}、@UUID[Compendium.dnd-players-handbook.equipment.Item.phbagTorch000000]{火炬}</p>",
       "name": "木匠工具"
     },
     "Case, Map or Scroll": {
@@ -266,7 +266,7 @@
       "name": "條板甲"
     },
     "Wooden staff": {
-      "description": "<p>@UUID[Compendium.dnd-players-handbook.equipment.Item.phbagDruidicFocu]{德魯伊法器}是德魯伊法器表中列出的其中一種形式，並經由雕刻、綁上緞帶或彩繪來引導原初魔法。德魯伊或遊俠可以使用這種物品作為施法法器。</p><p>此物品也當作@UUID[Compendium.dnd-players-handbook.equipment.Item.phbwepQuartersta]{長棍}使用。</p><section class=\"secret\" id=\"secret-XEbhgCaozZsnw6QT\"><p><strong>Foundry註記</strong></p><p>此物品已配有長棍額外的屬性。</p></section>",
+      "description": "<p>@UUID[Compendium.dnd-players-handbook.equipment.Item.phbagDruidicFocu]{德魯伊法器}是德魯伊法器表中列出的其中一種形式，並經由雕刻、綁上緞帶或彩繪來引導原初魔法。德魯伊或遊俠可以使用這種物品作為施法法器。</p><p>此物品也當作@UUID[Compendium.dnd-players-handbook.equipment.Item.phbwepQuartersta]{長棍}使用。</p><section class=\"secret\" id=\"secret-XEbhgCaozZsnw6QT\"><p><strong>Foundry 註記</strong></p><p>此物品已配有長棍額外的屬性。</p></section>",
       "name": "木質法杖"
     },
     "Manacles": {
@@ -287,7 +287,7 @@
           "name": "被銬住"
         }
       },
-      "description": "<p>以一個利用動作，你可以用鐐銬捆住一個位於你5呎內、處於&amp;Reference[Grappled]{受擒}、&amp;Reference[Incapacitated]{失能}或&amp;Reference[Restrained]{束縛}狀態的非自願小型或中型生物，前提是你成功通過一次DC13的敏捷（巧手）檢定。被捆住期間，該生物進行的攻擊檢定具有劣勢；如果鐐銬還被固定在原地的鎖鏈或鉤子上，該生物還會陷入束縛狀態。掙脫鐐銬需要該生物使用動作通過一次DC20的敏捷（巧手）檢定。扯斷鐐銬需要使用動作通過一次DC25的力量（運動）檢定。</p><p>每副鐐銬都附有對應的鑰匙。若沒有鑰匙，生物可以使用盜賊工具，成功通過一次[[/tool thief dex 15]]檢定來撬開鐐銬的鎖。</p>",
+      "description": "<p>以一個利用動作，你可以用鐐銬捆住一個位於你5呎內、處於&amp;Reference[Grappled]{受擒}、&amp;Reference[Incapacitated]{失能}或&amp;Reference[Restrained]{束縛}狀態的非自願小型或中型生物，前提是你成功通過一次DC 13的敏捷（巧手）檢定。被捆住期間，該生物進行的攻擊檢定具有劣勢；若鐐銬還被固定在原地的鎖鏈或鉤子上，該生物還會陷入束縛狀態。掙脫鐐銬需要該生物使用動作通過一次DC 20的敏捷（巧手）檢定。扯斷鐐銬需要使用動作通過一次DC 25的力量（運動）檢定。</p><p>每副鐐銬都附有對應的鑰匙。若沒有鑰匙，生物可以使用盜賊工具，成功通過一次[[/tool thief dex 15]]檢定來撬開鐐銬的鎖。</p>",
       "name": "鐐銬"
     },
     "Unarmed Strike": {
@@ -329,7 +329,7 @@
       "description": "<p>口糧由適合長途旅行攜帶的食物組成，包含肉乾、風乾水果、硬餅乾和堅果。不進食的風險詳見規則詞彙表中的&amp;Reference[Malnutrition]{飢餓}。</p>"
     },
     "Thieves' Tools": {
-      "description": "<p class=\"phb-meta\"><strong>屬性：</strong>敏捷</p><p class=\"phb-meta\"><strong>使用：</strong> Pick a lock (DC 15), or disarm a trap (DC 15)</p>",
+      "description": "<p class=\"phb-meta\"><strong>屬性：</strong>敏捷</p><p class=\"phb-meta\"><strong>利用：</strong>開鎖（DC 15），或解除陷阱（DC 15）</p>",
       "activities": {
         "Pick a Lock/Disarm a Trap": {
           "name": "開鎖／解除陷阱"
@@ -351,7 +351,7 @@
       "name": "毛毯"
     },
     "Water (Pint)": {
-      "description": "<p>如果你喝水不足，就會面臨&amp;Reference[dehydration]{脫水}的風險。</p>",
+      "description": "<p>若你喝水不足，就會面臨&amp;Reference[dehydration]{脫水}的風險。</p>",
       "activities": {
         "Consume": {
           "name": "消耗"
@@ -365,7 +365,7 @@
     },
     "Disguise Kit": {
       "name": "易容工具組",
-      "description": "<p class=\"phb-meta\"><strong>屬性：</strong> 魅力</p><p class=\"phb-meta\"><strong>使用：</strong> Apply makeup (DC 10)</p><p class=\"phb-meta\"><strong>製作：</strong> @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagCostume0000]{Costume}</p>",
+      "description": "<p class=\"phb-meta\"><strong>屬性：</strong>魅力</p><p class=\"phb-meta\"><strong>利用：</strong>化妝（DC 10）</p><p class=\"phb-meta\"><strong>製作：</strong>@UUID[Compendium.dnd-players-handbook.equipment.Item.phbagCostume0000]{戲服}</p>",
       "activities": {
         "Apply Makeup": {
           "name": "化妝"
@@ -415,7 +415,7 @@
       "name": "號角"
     },
     "Forgery Kit": {
-      "description": "<p class=\"phb-meta\"><strong>屬性：</strong>敏捷</p><p class=\"phb-meta\"><strong>使用：</strong> Mimic 10 or fewer words of someone else’s handwriting (DC 15), or duplicate a wax seal (DC 20)</p>",
+      "description": "<p class=\"phb-meta\"><strong>屬性：</strong>敏捷</p><p class=\"phb-meta\"><strong>利用：</strong>模仿他人的筆跡，字數不超過10個字（DC 15），或仿造封蠟（DC 20）</p>",
       "activities": {
         "Mimic Handwriting": {
           "name": "模仿筆跡"
@@ -453,7 +453,7 @@
           "name": "被捕獲"
         }
       },
-      "description": "<p>以一個利用動作，你可以設置一個狩獵陷阱。狩獵陷阱是一組帶有鋸齒的鋼環，當生物踩到中心的壓力板時，鋸齒會迅速合上。陷阱以沉重的鎖鏈固定在某個無法移動的物體上，例如大樹或打入地面的固定釘。踩到壓力板的生物必須成功通過一次DC13的敏捷豁免，否則受到1d4點穿刺傷害，且速度降至0，直到其下一回合開始為止。此後，在該生物掙脫陷阱之前，其移動範圍會受鎖鏈長度限制（通常為3呎）。生物可以使用其動作進行一次DC13的力量（運動）檢定，成功時能讓自己或自己觸及範圍內的另一個生物脫困。每次檢定失敗，被困生物就會受到[[/damage 1 type=piercing]]點傷害。</p>",
+      "description": "<p>以一個利用動作，你可以設置一個狩獵陷阱。狩獵陷阱是一組帶有鋸齒的鋼環，當生物踩到中心的壓力板時，鋸齒會迅速合上。陷阱以沉重的鎖鏈固定在某個無法移動的物體上，例如大樹或打入地面的固定釘。踩到壓力板的生物必須成功通過一次DC 13的敏捷豁免，否則受到1d4點穿刺傷害，且速度降至0，直到其下一回合開始為止。此後，在該生物掙脫陷阱之前，其移動範圍會受鎖鏈長度限制（通常為3呎）。生物可以使用其動作進行一次DC 13的力量（運動）檢定，成功時能讓自己或自己觸及範圍內的另一個生物脫困。每次檢定失敗，被困生物就會受到[[/damage 1 type=piercing]]點傷害。</p>",
       "activities": {
         "Escape": {
           "name": "脫困"
@@ -470,14 +470,14 @@
           "name": "撬開"
         }
       },
-      "description": "<p class=\"phb-meta\"><strong>屬性：</strong>力量</p><p class=\"phb-meta\"><strong>使用：</strong> Pry open a door or container (DC 20)</p><p class=\"phb-meta\"><strong>製作：</strong> Any Melee weapon (except Club, Greatclub, Quarterstaff, and Whip), Medium armor (except Hide), Heavy armor, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagBallBearing]{Ball Bearings}、@UUID[Compendium.dnd-players-handbook.equipment.Item.phbagBucket00000]{Bucket}、@UUID[Compendium.dnd-players-handbook.equipment.Item.phbagCaltrops000]{Caltrops}、@UUID[Compendium.dnd-players-handbook.equipment.Item.phbagChain000000]{Chain}、@UUID[Compendium.dnd-players-handbook.equipment.Item.phbagCrowbar0000]{Crowbar}、@UUID[Compendium.dnd-players-handbook.equipment.Item.phbamoBulletsFir]{Firearm Bullets}、@UUID[Compendium.dnd-players-handbook.equipment.Item.phbagGrapplingHo]{Grappling Hook}、@UUID[Compendium.dnd5e.items.Item.M8xM8BLK4tpUayEE]{Iron Pot}、@UUID[Compendium.dnd-players-handbook.equipment.Item.phbagSpikesIron0]{Iron Spikes}、@UUID[Compendium.dnd-players-handbook.equipment.Item.phbamoBulletsSli]{Sling Bullets}</p>"
+      "description": "<p class=\"phb-meta\"><strong>屬性：</strong>力量</p><p class=\"phb-meta\"><strong>利用：</strong>撬開門或容器（DC 20）</p><p class=\"phb-meta\"><strong>製作：</strong>任何近戰武器（棍棒、巨棍、長棍與鞭除外）、中甲（生皮甲除外）、重甲、@UUID[Compendium.dnd-players-handbook.equipment.Item.phbagBallBearing]{滾珠}、@UUID[Compendium.dnd-players-handbook.equipment.Item.phbagBucket00000]{水桶}、@UUID[Compendium.dnd-players-handbook.equipment.Item.phbagCaltrops000]{鐵蒺藜}、@UUID[Compendium.dnd-players-handbook.equipment.Item.phbagChain000000]{鎖鏈}、@UUID[Compendium.dnd-players-handbook.equipment.Item.phbagCrowbar0000]{撬棍}、@UUID[Compendium.dnd-players-handbook.equipment.Item.phbamoBulletsFir]{火器子彈}、@UUID[Compendium.dnd-players-handbook.equipment.Item.phbagGrapplingHo]{爪鉤}、@UUID[Compendium.dnd5e.items.Item.M8xM8BLK4tpUayEE]{鐵鍋}、@UUID[Compendium.dnd-players-handbook.equipment.Item.phbagSpikesIron0]{鐵釘}、@UUID[Compendium.dnd-players-handbook.equipment.Item.phbamoBulletsSli]{投石索子彈}</p>"
     },
     "Parchment": {
       "description": "<p>一頁羊皮紙可以寫下約250個手寫單詞。</p>",
       "name": "羊皮紙"
     },
     "Woodcarver's Tools": {
-      "description": "<p class=\"phb-meta\"><strong>屬性：</strong>敏捷</p><p class=\"phb-meta\"><strong>使用：</strong> Carve a pattern in wood (DC 10)</p><p class=\"phb-meta\"><strong>製作：</strong> @UUID[Compendium.dnd-players-handbook.equipment.Item.phbwepClub000000]{Club}、@UUID[Compendium.dnd-players-handbook.equipment.Item.phbwepGreatclub0]{Greatclub}、@UUID[Compendium.dnd-players-handbook.equipment.Item.phbwepQuartersta]{Quarterstaff}, Ranged weapons (except Pistol, Musket, and Sling), Arcane Focus, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbamoArrows0000]{Arrows}、@UUID[Compendium.dnd-players-handbook.equipment.Item.phbamoBolts00000]{Bolts}, Druidic Focus, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagInkPen00000]{Ink Pen}、@UUID[Compendium.dnd-players-handbook.equipment.Item.phbamoNeedles000]{Needles}</p>",
+      "description": "<p class=\"phb-meta\"><strong>屬性：</strong>敏捷</p><p class=\"phb-meta\"><strong>利用：</strong>在木頭上雕刻圖案（DC 10）</p><p class=\"phb-meta\"><strong>製作：</strong>@UUID[Compendium.dnd-players-handbook.equipment.Item.phbwepClub000000]{棍棒}、@UUID[Compendium.dnd-players-handbook.equipment.Item.phbwepGreatclub0]{巨棍}、@UUID[Compendium.dnd-players-handbook.equipment.Item.phbwepQuartersta]{長棍}、遠程武器（手槍、烏銃與投石索除外）、奧術法器、@UUID[Compendium.dnd-players-handbook.equipment.Item.phbamoArrows0000]{箭矢}、@UUID[Compendium.dnd-players-handbook.equipment.Item.phbamoBolts00000]{弩矢}、德魯伊法器、@UUID[Compendium.dnd-players-handbook.equipment.Item.phbagInkPen00000]{墨水筆}、@UUID[Compendium.dnd-players-handbook.equipment.Item.phbamoNeedles000]{吹箭}</p>",
       "activities": {
         "Carve Pattern": {
           "name": "雕刻圖案"
@@ -494,7 +494,7 @@
           "name": "撒出滾珠"
         }
       },
-      "description": "<p>以一個利用動作，你能將一小包滾珠撒至地面，並覆蓋你周圍10呎內的一處10呎方形區域。任何生物每回合首次進入這片區域時都必須成功通過一次DC10的敏捷豁免，否則陷入&amp;Reference[Prone]{伏地}狀態。重新收集這些滾珠需要花費10分鐘時間。</p><section id=\"secret-bbcC5syRGw0PCZnG\" class=\"secret\"><p><strong>Foundry 註記</strong></p><p>「<strong>回收滾珠」行動</strong>會賦予這件物品一次額外的使用次數。</p></section>",
+      "description": "<p>以一個利用動作，你能將一小包滾珠撒至地面，並覆蓋你周圍10呎內的一處10呎方形區域。任何生物每回合首次進入這片區域時都必須成功通過一次DC 10的敏捷豁免，否則陷入&amp;Reference[Prone]{伏地}狀態。重新收集這些滾珠需要花費10分鐘時間。</p><section id=\"secret-bbcC5syRGw0PCZnG\" class=\"secret\"><p><strong>Foundry 註記</strong></p><p>「<strong>回收滾珠」行動</strong>會賦予這件物品一次額外的使用次數。</p></section>",
       "effects": {
         "Tripped": {
           "name": "絆倒"
@@ -526,7 +526,7 @@
         }
       },
       "name": "廚師炊具",
-      "description": "<p class=\"phb-meta\"><strong>屬性：</strong>感知</p><p class=\"phb-meta\"><strong>使用：</strong> Improve food’s flavor (DC 10), or detect spoiled or poisoned food (DC 15)</p><p class=\"phb-meta\"><strong>製作：</strong> @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagRations0000]{Rations}</p>"
+      "description": "<p class=\"phb-meta\"><strong>屬性：</strong>感知</p><p class=\"phb-meta\"><strong>利用：</strong>增添食物風味（DC 10），或辨別食物是否腐壞或有毒（DC 15）</p><p class=\"phb-meta\"><strong>製作：</strong>@UUID[Compendium.dnd-players-handbook.equipment.Item.phbagRations0000]{口糧}</p>"
     },
     "Alchemist's Fire": {
       "effects": {
@@ -564,7 +564,7 @@
     },
     "Mason's Tools": {
       "name": "石匠工具",
-      "description": "<p class=\"phb-meta\"><strong>屬性：</strong>力量</p><p class=\"phb-meta\"><strong>使用：</strong> Chisel a symbol or hole in stone (DC 10)</p><p class=\"phb-meta\"><strong>製作：</strong> @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagBlockandTac]{Block and Tackle}</p>",
+      "description": "<p class=\"phb-meta\"><strong>屬性：</strong>力量</p><p class=\"phb-meta\"><strong>利用：</strong>在石頭上鑿出符號或孔洞（DC 10）</p><p class=\"phb-meta\"><strong>製作：</strong>@UUID[Compendium.dnd-players-handbook.equipment.Item.phbagBlockandTac]{滑輪組}</p>",
       "activities": {
         "Chisel a Symbol or Hole": {
           "name": "鑿出一個形狀或洞"
@@ -572,7 +572,7 @@
       }
     },
     "Waterskin": {
-      "description": "<p>水袋具有4品脫的容量。如果你喝水不足，就會面臨&amp;Reference[dehydration]{脫水}的風險。</p>",
+      "description": "<p>水袋具有4品脫的容量。若你喝水不足，就會面臨&amp;Reference[dehydration]{脫水}的風險。</p>",
       "name": "水袋"
     },
     "Shortbow": {
@@ -614,7 +614,7 @@
       "name": "祭司套裝"
     },
     "Herbalism Kit": {
-      "description": "<p class=\"phb-meta\"><strong>屬性：</strong>智力</p><p class=\"phb-meta\"><strong>使用：</strong> Identify a plant (DC 10)</p><p class=\"phb-meta\"><strong>製作：</strong> @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagAntitoxin00]{Antitoxin}、@UUID[Compendium.dnd-players-handbook.equipment.Item.phbagCandle00000]{Candle}、@UUID[Compendium.dnd-players-handbook.equipment.Item.phbagHealersKit0]{Healer’s Kit}、@UUID[Compendium.dnd-players-handbook.equipment.Item.phbagPotionofHea]{Potion of Healing}</p>",
+      "description": "<p class=\"phb-meta\"><strong>屬性：</strong>智力</p><p class=\"phb-meta\"><strong>利用：</strong>辨別植物（DC 10）</p><p class=\"phb-meta\"><strong>製作：</strong>@UUID[Compendium.dnd-players-handbook.equipment.Item.phbagAntitoxin00]{抗毒劑}、@UUID[Compendium.dnd-players-handbook.equipment.Item.phbagCandle00000]{蠟燭}、@UUID[Compendium.dnd-players-handbook.equipment.Item.phbagHealersKit0]{醫療工具組}、@UUID[Compendium.dnd-players-handbook.equipment.Item.phbagPotionofHea]{治療藥水}</p>",
       "activities": {
         "Identify Plant": {
           "name": "辨別植物"
@@ -737,12 +737,12 @@
           "name": "掙脫檢定"
         }
       },
-      "description": "<p>以一個利用動作，你可以在成功通過一次DC10的敏捷（巧手）檢定後，用繩索打一個結。扯斷繩索需要成功通過一次DC20的力量（運動）檢定。</p><p>只有當生物處於&amp;Reference[Grappled]{受擒}、&amp;Reference[Incapacitated]{失能}或&amp;Reference[Restrained]{束縛}狀態時，你才能用繩索捆住非自願生物。如果該生物的腿被綁住，其將陷入束縛狀態，直至掙脫為止。掙脫繩索需要該生物使用動作成功通過一次DC15的敏捷（特技）檢定。</p>",
+      "description": "<p>以一個利用動作，你可以在成功通過一次DC 10的敏捷（巧手）檢定後，用繩索打一個結。扯斷繩索需要成功通過一次DC 20的力量（運動）檢定。</p><p>只有當生物處於&amp;Reference[Grappled]{受擒}、&amp;Reference[Incapacitated]{失能}或&amp;Reference[Restrained]{束縛}狀態時，你才能用繩索捆住非自願生物。若該生物的腿被綁住，其將陷入束縛狀態，直到掙脫為止。掙脫繩索需要該生物使用動作成功通過一次DC 15的敏捷（特技）檢定。</p>",
       "name": "繩索"
     },
     "Spell Scroll, Level 1": {
       "name": "1環法術卷軸",
-      "description": "<p>一個@UUID[Compendium.dnd-players-handbook.equipment.Item.phbagCantripScro]{戲法法術卷軸}或<em>1環法術卷軸</em>是一種記載了戲法或1環法術的魔法物品，具體是哪一種由卷軸的創造者決定。如果該法術在你的職業法術列表中，你就可以閱讀這卷卷軸，並以法術的正常施法時間施放該法術，且無需提供任何材料構材。</p><p>如果法術要求豁免檢定或攻擊檢定，法術豁免DC為13，攻擊加值為+5。施法完成後，卷軸會煙消雲散。</p>"
+      "description": "<p>一個@UUID[Compendium.dnd-players-handbook.equipment.Item.phbagCantripScro]{戲法法術卷軸}或<em>1環法術卷軸</em>是一種記載了戲法或1環法術的魔法物品，具體是哪一種由卷軸的創造者決定。若該法術在你的職業法術列表中，你就可以閱讀這卷卷軸，並以法術的正常施法時間施放該法術，且無需提供任何材料構材。</p><p>若法術要求豁免檢定或攻擊檢定，法術豁免DC為13，攻擊加值為+5。施法完成後，卷軸會煙消雲散。</p>"
     },
     "Scimitar": {
       "name": "彎刀"
@@ -783,14 +783,14 @@
           "name": "偵測有毒物體"
         }
       },
-      "description": "<p class=\"phb-meta\"><strong>屬性：</strong>智力</p><p class=\"phb-meta\"><strong>使用：</strong> Detect a poisoned object (DC 10)</p><p class=\"phb-meta\"><strong>製作：</strong> @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagPoisonBasic]{Basic Poison}</p>",
+      "description": "<p class=\"phb-meta\"><strong>屬性：</strong>智力</p><p class=\"phb-meta\"><strong>利用：</strong>偵測有毒物體（DC 10）</p><p class=\"phb-meta\"><strong>製作：</strong>@UUID[Compendium.dnd-players-handbook.equipment.Item.phbagPoisonBasic]{基礎毒藥}</p>",
       "name": "製毒工具組"
     },
     "Glaive": {
       "name": "長柄刀"
     },
     "Net": {
-      "description": "<p>當你採取攻擊動作時，你可以將你的一次攻擊替換為丟出一張捕網。你可以選擇位於你15呎內一個你所能看見的生物作為目標。該目標必須成功通過一次敏捷豁免（DC = 8 + 你的敏捷調整值 + 你的熟練加值），否則陷入&amp;Reference[Restrained]{束縛}狀態，直至掙脫為止。若目標的體型為巨型或更大，則自動通過豁免。</p><p>要掙脫，目標或位於其5呎內的生物必須使用一個動作進行一次[[/skill ath 10]]檢定，成功時即可解放被束縛的生物。摧毀捕網（AC 10；5 HP；對鈍擊、毒素和心靈傷害免疫）同樣能解放目標並結束效果。</p>",
+      "description": "<p>當你採取攻擊動作時，你可以將你的一次攻擊替換為丟出一張捕網。你可以選擇位於你15呎內一個你所能看見的生物作為目標。該目標必須成功通過一次敏捷豁免（DC = 8 + 你的敏捷調整值 + 你的熟練加值），否則陷入&amp;Reference[Restrained]{束縛}狀態，直到掙脫為止。若目標的體型為巨型或更大，則自動通過豁免。</p><p>要掙脫，目標或位於其5呎內的生物必須使用一個動作進行一次[[/skill ath 10]]檢定，成功時即可解放被束縛的生物。摧毀捕網（AC 10；5 HP；對鈍擊、毒素和心靈傷害免疫）同樣能解放目標並結束效果。</p>",
       "effects": {
         "Caught in Net": {
           "name": "被捕網纏住"
@@ -834,7 +834,7 @@
     },
     "Case, Crossbow Bolt": {
       "name": "弩矢匣",
-      "description": "<p>一個弩箭匣可容納 20 支弩矢。</p>"
+      "description": "<p>一個弩箭匣可容納20支弩矢。</p>"
     },
     "Battleaxe": {
       "name": "戰斧"
@@ -862,7 +862,7 @@
       "name": "斧槍"
     },
     "Pole": {
-      "description": "<p>一根長桿長10呎。你可以用其觸碰10呎外的東西。如果你需要為跳高或跳遠進行力量（運動）檢定，你可以使用長桿撐竿跳，讓該次檢定具有優勢。</p>",
+      "description": "<p>一根長桿長10呎。你可以用其觸碰10呎外的東西。若你需要為跳高或跳遠進行力量（運動）檢定，你可以使用長桿撐竿跳，讓該次檢定具有優勢。</p>",
       "name": "長桿"
     },
     "Scholar's Pack": {
@@ -904,14 +904,14 @@
         }
       },
       "name": "制圖師工具",
-      "description": "<p class=\"phb-meta\"><strong>屬性：</strong>感知</p><p class=\"phb-meta\"><strong>使用：</strong> Draft a map of a small area (DC 15)</p><p class=\"phb-meta\"><strong>製作：</strong> @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagMap00000000]{Map}</p>"
+      "description": "<p class=\"phb-meta\"><strong>屬性：</strong>感知</p><p class=\"phb-meta\"><strong>利用：</strong>繪製小範圍區域的地圖（DC 15）</p><p class=\"phb-meta\"><strong>製作：</strong>@UUID[Compendium.dnd-players-handbook.equipment.Item.phbagMap00000000]{地圖}</p>"
     },
     "Staff": {
-      "description": "<p>@UUID[Compendium.dnd-players-handbook.equipment.Item.phbagArcaneFocus]{奧術法器}鑲嵌著寶石或被雕刻過以引導奧術魔法。術士、契術師、法師可以使用這種物品作為施法法器。</p><p>此物品也當作@UUID[Compendium.dnd-players-handbook.equipment.Item.phbwepQuartersta]{長棍}使用。</p><section class=\"secret\" id=\"secret-wJ4SJVg9unbYSBJb\"><p><strong>Foundry註記</strong></p><p>此物品已配有長棍額外的屬性。</p></section>",
+      "description": "<p>@UUID[Compendium.dnd-players-handbook.equipment.Item.phbagArcaneFocus]{奧術法器}鑲嵌著寶石或被雕刻過以引導奧術魔法。術士、契術師、法師可以使用這種物品作為施法法器。</p><p>此物品也當作@UUID[Compendium.dnd-players-handbook.equipment.Item.phbwepQuartersta]{長棍}使用。</p><section class=\"secret\" id=\"secret-wJ4SJVg9unbYSBJb\"><p><strong>Foundry 註記</strong></p><p>此物品已配有長棍額外的屬性。</p></section>",
       "name": "法杖"
     },
     "Painter's Supplies": {
-      "description": "<p class=\"phb-meta\"><strong>屬性：</strong>感知</p><p class=\"phb-meta\"><strong>使用：</strong> Paint a recognizable image of something you’ve seen (DC 10)</p><p class=\"phb-meta\"><strong>製作：</strong> Druidic Focus, Holy Symbol</p>",
+      "description": "<p class=\"phb-meta\"><strong>屬性：</strong>感知</p><p class=\"phb-meta\"><strong>利用：</strong>繪製一幅你見過的事物的可辨識圖像（DC 10）</p><p class=\"phb-meta\"><strong>製作：</strong>德魯伊法器、聖徽</p>",
       "name": "畫家設備",
       "activities": {
         "Paint a Recognizable Image": {
@@ -961,7 +961,7 @@
         }
       },
       "name": "鞋匠工具",
-      "description": "<p class=\"phb-meta\"><strong>屬性：</strong>敏捷</p><p class=\"phb-meta\"><strong>使用：</strong> Modify footwear to give Advantage on the wearer’s next敏捷 (Acrobatics) check (DC 10)</p><p class=\"phb-meta\"><strong>製作：</strong> @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagClimbersKit]{Climber’s Kit}</p>"
+      "description": "<p class=\"phb-meta\"><strong>屬性：</strong>敏捷</p><p class=\"phb-meta\"><strong>利用：</strong>調整鞋具，使穿戴者的下一次敏捷（特技）檢定具有優勢（DC 10）</p><p class=\"phb-meta\"><strong>製作：</strong>@UUID[Compendium.dnd-players-handbook.equipment.Item.phbagClimbersKit]{攀爬工具組}</p>"
     },
     "Climber's Kit": {
       "name": "攀爬工具組",
@@ -969,7 +969,7 @@
     },
     "Spell Scroll, Cantrip": {
       "name": "戲法法術卷軸",
-      "description": "<p>一個<em>戲法法術卷軸</em>或@UUID[Compendium.dnd-players-handbook.equipment.Item.phbagSpellScroll]{1環法術卷軸}是一種記載了戲法或1環法術的魔法物品，具體是哪一種由卷軸的創造者決定。如果該法術在你的職業法術列表中，你就可以閱讀這卷卷軸，並以法術的正常施法時間施放該法術，且無需提供任何材料構材。</p><p>如果法術要求豁免檢定或攻擊檢定，法術豁免DC為13，攻擊加值為+5。施法完成後，卷軸會煙消雲散。</p>"
+      "description": "<p>一個<em>戲法法術卷軸</em>或@UUID[Compendium.dnd-players-handbook.equipment.Item.phbagSpellScroll]{1環法術卷軸}是一種記載了戲法或1環法術的魔法物品，具體是哪一種由卷軸的創造者決定。若該法術在你的職業法術列表中，你就可以閱讀這卷卷軸，並以法術的正常施法時間施放該法術，且無需提供任何材料構材。</p><p>若法術要求豁免檢定或攻擊檢定，法術豁免DC為13，攻擊加值為+5。施法完成後，卷軸會煙消雲散。</p>"
     },
     "Explorer's Pack": {
       "name": "探索者套裝",
@@ -985,7 +985,7 @@
           "name": "辨識先前內容"
         }
       },
-      "description": "<p class=\"phb-meta\"><strong>屬性：</strong>智力 <strong>Weight:</strong> 3 lb.</p><p class=\"phb-meta\"><strong>使用：</strong> Discern what a ceramic object held in the past 24 hours (DC 15)</p><p class=\"phb-meta\"><strong>製作：</strong> @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagJug00000000]{Jug}、@UUID[Compendium.dnd-players-handbook.equipment.Item.phbagLamp0000000]{Lamp}</p>",
+      "description": "<p class=\"phb-meta\"><strong>屬性：</strong>智力 <strong>重量：</strong>3磅</p><p class=\"phb-meta\"><strong>利用：</strong>辨識陶瓷物品在過去24小時內盛裝過什麼（DC 15）</p><p class=\"phb-meta\"><strong>製作：</strong>@UUID[Compendium.dnd-players-handbook.equipment.Item.phbagJug00000000]{壺}、@UUID[Compendium.dnd-players-handbook.equipment.Item.phbagLamp0000000]{油燈}</p>",
       "name": "陶匠工具"
     },
     "Ebony-bound Atlas": {
@@ -993,7 +993,7 @@
       "name": "黑檀木封皮星圖集"
     },
     "Jeweler's Tools": {
-      "description": "<p class=\"phb-meta\"><strong>屬性：</strong>智力</p><p class=\"phb-meta\"><strong>使用：</strong> Discern a gem’s value (DC 15)</p><p class=\"phb-meta\"><strong>製作：</strong> Arcane Focus, Holy Symbol</p>",
+      "description": "<p class=\"phb-meta\"><strong>屬性：</strong>智力</p><p class=\"phb-meta\"><strong>利用：</strong>鑑定寶石的價值（DC 15）</p><p class=\"phb-meta\"><strong>製作：</strong>奧術法器、聖徽</p>",
       "activities": {
         "Discern Value": {
           "name": "辨識價值"
@@ -1003,7 +1003,7 @@
     },
     "Oil": {
       "name": "燃油",
-      "description": "<p>你可以將燃油潑在生物、物體或一處空間上，也可以將燃油作為燃料使用，詳細如下。</p><p><strong>【潑灑生物或物體】</strong>當你採取攻擊動作時，你可以將你的一次攻擊替換為丟出一扁瓶燃油。你可以選擇位於你20呎內一個你所能看見的生物或物體作為目標。該目標必須成功通過一次敏捷豁免（DC = 8 + 你的敏捷調整值 + 你的熟練加值），否則被燃油覆蓋。如果目標在燃油揮發前（1分鐘後）受到火焰傷害，則目標因燃燒的燃油受到額外[[/damage 5 type=fire]]點傷害。</p><p><strong>【潑灑空間】</strong>你可以採取利用動作，將一扁瓶燃油潑在水平地面上，覆蓋你周圍5呎內一塊5呎方型區域。點燃後，燃油會持續燃燒直到從點燃時算起的第2輪回合結束（或12秒），任何進入該區域或在該區域結束其回合的生物都會受到5點火焰傷害。同一生物每回合只會受到一次該傷害。</p><p><strong>【燃料】</strong>燃油可作為油燈和提燈的燃料。一旦點燃，一扁瓶燃油可在油燈或提燈中持續燃燒6小時。持續時間不需要連續；你可以（以一個利用動作）熄滅燃燒中的燃油，並在之後再次點燃，直到總共燃燒了6小時。</p>",
+      "description": "<p>你可以將燃油潑在生物、物體或一處空間上，也可以將燃油作為燃料使用，詳細如下。</p><p><strong>【潑灑生物或物體】</strong>當你採取攻擊動作時，你可以將你的一次攻擊替換為丟出一扁瓶燃油。你可以選擇位於你20呎內一個你所能看見的生物或物體作為目標。該目標必須成功通過一次敏捷豁免（DC = 8 + 你的敏捷調整值 + 你的熟練加值），否則被燃油覆蓋。若目標在燃油揮發前（1分鐘後）受到火焰傷害，則目標因燃燒的燃油受到額外[[/damage 5 type=fire]]點傷害。</p><p><strong>【潑灑空間】</strong>你可以採取利用動作，將一扁瓶燃油潑在水平地面上，覆蓋你周圍5呎內一塊5呎方型區域。點燃後，燃油會持續燃燒直到從點燃時算起的第2輪回合結束（或12秒），任何進入該區域或在該區域結束其回合的生物都會受到5點火焰傷害。同一生物每回合只會受到一次該傷害。</p><p><strong>【燃料】</strong>燃油可作為油燈和提燈的燃料。一旦點燃，一扁瓶燃油可在油燈或提燈中持續燃燒6小時。持續時間不需要連續；你可以（以一個利用動作）熄滅燃燒中的燃油，並在之後再次點燃，直到總共燃燒了6小時。</p>",
       "activities": {
         "Throw": {
           "name": "投擲"
@@ -1045,7 +1045,7 @@
     },
     "Alchemist's Supplies": {
       "name": "煉金師設備",
-      "description": "<p class=\"phb-meta\"><strong>屬性：</strong>智力</p><p class=\"phb-meta\"><strong>使用：</strong> Identify a substance (DC 15), or start a fire (DC 15)</p><p class=\"phb-meta\"><strong>製作：</strong> @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagAcid0000000]{Acid}、@UUID[Compendium.dnd-players-handbook.equipment.Item.phbagAlchemistsF]{Alchemist’s Fire}、@UUID[Compendium.dnd-players-handbook.equipment.Item.phbagComponentPo]{Component Pouch}、@UUID[Compendium.dnd-players-handbook.equipment.Item.phbagOil00000000]{Oil}、@UUID[Compendium.dnd-players-handbook.equipment.Item.phbagPaper000000]{Paper}、@UUID[Compendium.dnd-players-handbook.equipment.Item.phbagPerfume0000]{Perfume}</p>"
+      "description": "<p class=\"phb-meta\"><strong>屬性：</strong>智力</p><p class=\"phb-meta\"><strong>利用：</strong>辨識某種物質（DC 15），或生火（DC 15）</p><p class=\"phb-meta\"><strong>製作：</strong>@UUID[Compendium.dnd-players-handbook.equipment.Item.phbagAcid0000000]{強酸}、@UUID[Compendium.dnd-players-handbook.equipment.Item.phbagAlchemistsF]{熾火膠}、@UUID[Compendium.dnd-players-handbook.equipment.Item.phbagComponentPo]{材料包}、@UUID[Compendium.dnd-players-handbook.equipment.Item.phbagOil00000000]{燃油}、@UUID[Compendium.dnd-players-handbook.equipment.Item.phbagPaper000000]{紙張}、@UUID[Compendium.dnd-players-handbook.equipment.Item.phbagPerfume0000]{香水}</p>"
     },
     "String": {
       "name": "弦線",
@@ -1085,7 +1085,7 @@
     },
     "Calligrapher's Supplies": {
       "name": "書法家設備",
-      "description": "<p class=\"phb-meta\"><strong>屬性：</strong>敏捷</p><p class=\"phb-meta\"><strong>使用：</strong> Write text with impressive flourishes that guard against forgery (DC 15)</p><p class=\"phb-meta\"><strong>製作：</strong> @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagInk00000000]{Ink}, <em>Spell Scroll</em></p>"
+      "description": "<p class=\"phb-meta\"><strong>屬性：</strong>敏捷</p><p class=\"phb-meta\"><strong>利用：</strong>以華麗的筆法書寫文字，使其難以偽造（DC 15）</p><p class=\"phb-meta\"><strong>製作：</strong>@UUID[Compendium.dnd-players-handbook.equipment.Item.phbagInk00000000]{墨水}、<em>法術卷軸</em></p>"
     },
     "Reliquary": {
       "name": "聖物匣",
@@ -1105,11 +1105,11 @@
     "Leatherworker's Tools": {
       "activities": {
         "Add Design": {
-          "name": "Add Design"
+          "name": "加上圖案"
         }
       },
       "name": "皮匠工具",
-      "description": "<p class=\"phb-meta\"><strong>屬性：</strong>敏捷</p><p class=\"phb-meta\"><strong>使用：</strong> Add a design to a leather item (DC 10)</p><p class=\"phb-meta\"><strong>製作：</strong> @UUID[Compendium.dnd-players-handbook.equipment.Item.phbwepSling00000]{Sling}、@UUID[Compendium.dnd-players-handbook.equipment.Item.phbwepWhip000000]{Whip}、@UUID[Compendium.dnd-players-handbook.equipment.Item.phbarmHideArmor0]{Hide Armor}、@UUID[Compendium.dnd-players-handbook.equipment.Item.phbarmLeatherArm]{Leather Armor}、@UUID[Compendium.dnd-players-handbook.equipment.Item.phbarmStuddedLea]{Studded Leather Armor}、@UUID[Compendium.dnd-players-handbook.equipment.Item.phbagBackpack000]、@UUID[Compendium.dnd5e.items.Item.eJtPBiZtr2pp6ynt]{Crossbow Bolt Case}、@UUID[Compendium.dnd-players-handbook.equipment.Item.phbagCaseMaporSc]{Map or Scroll Case}、@UUID[Compendium.dnd-players-handbook.equipment.Item.phbagParchment00]{Parchment}、@UUID[Compendium.dnd-players-handbook.equipment.Item.phbagPouch000000]{Pouch}、@UUID[Compendium.dnd-players-handbook.equipment.Item.phbagQuiver00000]{Quiver}、@UUID[Compendium.dnd-players-handbook.equipment.Item.phbagWaterskin00]{Waterskin}</p>"
+      "description": "<p class=\"phb-meta\"><strong>屬性：</strong>敏捷</p><p class=\"phb-meta\"><strong>利用：</strong>在皮革物品上加上圖案（DC 10）</p><p class=\"phb-meta\"><strong>製作：</strong>@UUID[Compendium.dnd-players-handbook.equipment.Item.phbwepSling00000]{投石索}、@UUID[Compendium.dnd-players-handbook.equipment.Item.phbwepWhip000000]{鞭}、@UUID[Compendium.dnd-players-handbook.equipment.Item.phbarmHideArmor0]{生皮甲}、@UUID[Compendium.dnd-players-handbook.equipment.Item.phbarmLeatherArm]{皮甲}、@UUID[Compendium.dnd-players-handbook.equipment.Item.phbarmStuddedLea]{鑲釘皮甲}、@UUID[Compendium.dnd-players-handbook.equipment.Item.phbagBackpack000]{背包}、@UUID[Compendium.dnd5e.items.Item.eJtPBiZtr2pp6ynt]{弩矢匣}、@UUID[Compendium.dnd-players-handbook.equipment.Item.phbagCaseMaporSc]{地圖或卷軸筒}、@UUID[Compendium.dnd-players-handbook.equipment.Item.phbagParchment00]{羊皮紙}、@UUID[Compendium.dnd-players-handbook.equipment.Item.phbagPouch000000]{囊袋}、@UUID[Compendium.dnd-players-handbook.equipment.Item.phbagQuiver00000]{箭袋}、@UUID[Compendium.dnd-players-handbook.equipment.Item.phbagWaterskin00]{水袋}</p>"
     },
     "Spikes, Iron": {
       "description": "<p>鐵釘以十支為一組。以一個利用動作，你可以使用鈍器（例如輕錘）將鐵釘錘入木頭、土地或類似的材質。你可以藉此卡死一扇門，或是將繩索或鎖鏈綁在鐵釘上。</p>",
