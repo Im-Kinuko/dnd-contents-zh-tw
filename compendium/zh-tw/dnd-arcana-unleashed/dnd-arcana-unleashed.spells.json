@@ -27,7 +27,7 @@
           "name": "體質豁免劣勢"
         }
       },
-      "description": "<p>一段擾亂心神的旋律短暫迴盪在以施法距離內你選擇的一點為中心、[[lookup @target.template.size activity=3Hl3sK9YjhjG6nnR]]呎半徑[[lookup @target.template.type capitalize activity=3Hl3sK9YjhjG6nnR]]區域。區域內的每個生物都進行一次體質豁免。豁免失敗時，目標失去&amp;Reference[Concentration]{專注}，且在法術持續時間內為維持專注而進行的體質豁免具有劣勢。</p><section id=\"secret-P10nQtg4ZUovIVzG\" class=\"secret hide-in-embed\"><p><strong>Foundry 說明</strong></p><p>在初始豁免失敗時，結束目標當前的專注並套用「擾神曲」主動效果。若此法術的專注提前結束，則移除該效果。</p></section>"
+      "description": "<p>一段擾亂心神的旋律短暫迴盪在以施法距離內你選擇的一點為中心、[[lookup @target.template.size activity=3Hl3sK9YjhjG6nnR]]呎半徑[[lookup @target.template.type capitalize activity=3Hl3sK9YjhjG6nnR]]區域。區域內的每個生物都進行一次體質豁免。豁免失敗時，目標失去&amp;Reference[Concentration]{專注}，且在法術持續時間內為維持專注而進行的體質豁免具有劣勢。</p><section id=\"secret-P10nQtg4ZUovIVzG\" class=\"secret hide-in-embed\"><p><strong>Foundry 註記</strong></p><p>在初始豁免失敗時，結束目標當前的專注並套用「擾神曲」主動效果。若此法術的專注提前結束，則移除該效果。</p></section>"
     },
     "Negative Energy Flood": {
       "activities": {
@@ -98,7 +98,7 @@
           "name": "重複豁免"
         }
       },
-      "description": "<p>一道[[lookup @target.template.size activity=kpVaAawtqwUYnst5]]呎長、[[lookup @target.template.width activity=kpVaAawtqwUYnst5]]呎寬的[[lookup @target.template.type capitalize activity=kpVaAawtqwUYnst5]]瘴氣自你的位置向你選擇的方向爆散而出。該直線區域內的每個生物都必須進行一次體質豁免。豁免失敗者承受[[/damage activity=kpVaAawtqwUYnst5]]傷害，且在法術持續時間內陷入&amp;Reference[Poisoned apply=false]{中毒}狀態。</p><p>因此法術而中毒的生物在其每個回合開始時承受[[/damage activity=RsCrFQCmliHaBpsa]]傷害。</p><p>中毒的目標在其每個回合結束時重複此豁免，豁免成功則結束此法術對其的影響。</p><p><em><strong>【升環法術效應】</strong></em>你使用的法術位每比四環高一環，初始傷害便增加1d10。</p>",
+      "description": "<p>一道[[lookup @target.template.size activity=kpVaAawtqwUYnst5]]呎長、[[lookup @target.template.width activity=kpVaAawtqwUYnst5]]呎寬的[[lookup @target.template.type capitalize activity=kpVaAawtqwUYnst5]]瘴氣自你的位置向你選擇的方向爆散而出。該直線區域內的每個生物都必須進行一次體質豁免。豁免失敗者承受[[/damage activity=kpVaAawtqwUYnst5]]傷害，且在法術持續時間內陷入&amp;Reference[Poisoned apply=false]{中毒}狀態。</p><p>因此法術而中毒的生物在其每個回合開始時承受[[/damage activity=RsCrFQCmliHaBpsa]]傷害。</p><p>中毒的目標在其每個回合結束時重複此豁免，豁免成功則結束此法術對其的影響。</p><p><em><strong>【升環法術效應】</strong></em>你使用的法術位每比4環高一環，初始傷害便增加1d10。</p>",
       "effects": {
         "Poisoned": {
           "name": "中毒",
@@ -148,7 +148,7 @@
         }
       },
       "name": "靡葉生華",
-      "description": "<p>你以施法距離內的一點作為中心，在[[lookup @target.template.size activity=VuL7iUvj2gXAthhI]]呎半徑的[[lookup @target.template.type capitalize activity=VuL7iUvj2gXAthhI]]區域裡喚起死氣與生機。該區域裡每個由你所選擇的生物都進行一次體質豁免，豁免失敗則受到[[/damage]]傷害，豁免成功則傷害減半。區域裡並非生物的非魔法植物都會枯萎，例如樹木與灌木。</p><p>此外，區域裡一個由你所選擇的生物能擲一枚其未使用的生命骰，並恢復等同於擲骰結果加上你的施法屬性調整值的生命值。該骰子隨即被消耗。</p><p><em><strong>【升環法術效應】</strong></em>。你使用的法術位每比二環高一環，其傷害便增加1d6。可投擲並消耗的生命骰數量每高一環也多1顆。無論擲多少顆生命骰，你的施法屬性調整值都僅在法術恢復的生命值中加上一次。</p>"
+      "description": "<p>你以施法距離內的一點作為中心，在[[lookup @target.template.size activity=VuL7iUvj2gXAthhI]]呎半徑的[[lookup @target.template.type capitalize activity=VuL7iUvj2gXAthhI]]區域裡喚起死氣與生機。該區域裡每個由你所選擇的生物都進行一次體質豁免，豁免失敗則受到[[/damage]]傷害，豁免成功則傷害減半。區域裡並非生物的非魔法植物都會枯萎，例如樹木與灌木。</p><p>此外，區域裡一個由你所選擇的生物能擲一枚其未使用的生命骰，並恢復等同於擲骰結果加上你的施法屬性調整值的生命值。該骰子隨即被消耗。</p><p><em><strong>【升環法術效應】</strong></em>。你使用的法術位每比2環高一環，其傷害便增加1d6。可投擲並消耗的生命骰數量每高一環也多1顆。無論擲多少顆生命骰，你的施法屬性調整值都僅在法術恢復的生命值中加上一次。</p>"
     },
     "Waves of Exhaustion": {
       "effects": {
@@ -233,7 +233,7 @@
         }
       },
       "name": "戰鬥魔寵",
-      "description": "<p>你召喚出一隻充滿魔法力量的魔寵。該魔寵出現在施法距離內一處未佔據的空間；外貌類似你所選擇的一種動物，但生物類型為天界生物、妖精或邪魔（由你選擇），並且使用<strong>戰鬥魔寵</strong>數值面板。當你施放此法術時，選擇@UUID[Compendium.dnd-arcana-unleashed.actors.Actor.aunBattleFamilXo]{蠻勇}、@UUID[Compendium.dnd-arcana-unleashed.actors.Actor.aunBattleFamilbe]{掠空}或@UUID[Compendium.dnd-arcana-unleashed.actors.Actor.aunBattleFamil2I]{潛獵}形態。該選擇將決定數值面板中的特定細節。</p><p><em><strong>【戰鬥】</strong></em>該魔寵是你與你盟友的盟友。其擁有自己的先攻，並在自己的回合內行動。</p><p><em><strong>【魔寵消失】</strong></em>戰鬥魔寵在法術結束、其生命值降至0，或你死亡時消失。當它消失時，其所穿著或攜帶的任何物品都會留在其原本所在空間。如果你再次施放此法術，你可以決定是召喚那隻已消失的魔寵，還是召喚一隻不同的魔寵。</p><p><em><strong>【數量限制】</strong></em>。你同時擁有的魔寵數量上限為一。如果你已經擁有一個通過此法術召喚的魔寵，則舊的魔寵會被新的取代。</p><p>當你施放此法術時，如果你已經擁有一個來自<em>尋獲魔寵</em>法術的魔寵，你將強化你現有的魔寵，而不是召喚一個新的。在持續時間內，除了正常採取其他動作外，你的魔寵還可以進行攻擊，並且你魔寵的遊戲數據會被<strong>戰鬥魔寵</strong>數值面板所取代，但其保留其原本的生物類型、陣營、生命值、生命骰，以及<em>尋獲魔寵</em>法術賦予的任何特性。你的魔寵獲得數量等同於戰鬥魔寵生命值數值的臨時生命值。<em>戰鬥魔寵</em>法術在魔寵沒有剩餘臨時生命值時提前結束；而當<em>戰鬥魔寵</em>結束時，若仍有剩餘的臨時生命值，這些臨時生命值也會隨之消散。當<em>戰鬥魔寵</em>結束時，你的魔寵會變回原本的形態。</p><p><em><strong>【升環法術效應】</strong></em>該生物的數據使用新的法術環階。</p><section id=\"secret-eZlFTx3zwyNUMJUJ\" class=\"secret hide-in-embed\"><p><strong>Foundry 說明</strong></p><p>如果你已經擁有來自<em>尋獲魔寵</em>法術的魔寵，開啟其角色卡，將<strong>戰鬥魔寵</strong>Actor 拖曳至其上，並選擇<strong>變化</strong>變形設定檔。</p></section>"
+      "description": "<p>你召喚出一隻充滿魔法力量的魔寵。該魔寵出現在施法距離內一處未佔據的空間；外貌類似你所選擇的一種動物，但生物類型為天界生物、妖精或邪魔（由你選擇），並且使用<strong>戰鬥魔寵</strong>數值面板。當你施放此法術時，選擇@UUID[Compendium.dnd-arcana-unleashed.actors.Actor.aunBattleFamilXo]{蠻勇}、@UUID[Compendium.dnd-arcana-unleashed.actors.Actor.aunBattleFamilbe]{掠空}或@UUID[Compendium.dnd-arcana-unleashed.actors.Actor.aunBattleFamil2I]{潛獵}形態。該選擇將決定數值面板中的特定細節。</p><p><em><strong>【戰鬥】</strong></em>該魔寵是你與你盟友的盟友。其擁有自己的先攻，並在自己的回合內行動。</p><p><em><strong>【魔寵消失】</strong></em>戰鬥魔寵在法術結束、其生命值降至0，或你死亡時消失。當它消失時，其所穿著或攜帶的任何物品都會留在其原本所在空間。如果你再次施放此法術，你可以決定是召喚那隻已消失的魔寵，還是召喚一隻不同的魔寵。</p><p><em><strong>【數量限制】</strong></em>。你同時擁有的魔寵數量上限為一。如果你已經擁有一個通過此法術召喚的魔寵，則舊的魔寵會被新的取代。</p><p>當你施放此法術時，如果你已經擁有一個來自<em>尋獲魔寵</em>法術的魔寵，你將強化你現有的魔寵，而不是召喚一個新的。在持續時間內，除了正常採取其他動作外，你的魔寵還可以進行攻擊，並且你魔寵的遊戲數據會被<strong>戰鬥魔寵</strong>數值面板所取代，但其保留其原本的生物類型、陣營、生命值、生命骰，以及<em>尋獲魔寵</em>法術賦予的任何特性。你的魔寵獲得數量等同於戰鬥魔寵生命值數值的臨時生命值。<em>戰鬥魔寵</em>法術在魔寵沒有剩餘臨時生命值時提前結束；而當<em>戰鬥魔寵</em>結束時，若仍有剩餘的臨時生命值，這些臨時生命值也會隨之消散。當<em>戰鬥魔寵</em>結束時，你的魔寵會變回原本的形態。</p><p><em><strong>【升環法術效應】</strong></em>該生物的數據使用新的法術環階。</p><section id=\"secret-eZlFTx3zwyNUMJUJ\" class=\"secret hide-in-embed\"><p><strong>Foundry 註記</strong></p><p>如果你已經擁有來自<em>尋獲魔寵</em>法術的魔寵，開啟其角色卡，將<strong>戰鬥魔寵</strong>Actor 拖曳至其上，並選擇<strong>變化</strong>變形設定檔。</p></section>"
     },
     "Mordenkainen's Lucubration": {
       "activities": {
@@ -298,7 +298,7 @@
         }
       },
       "name": "距離失真",
-      "description": "<p>你創造出一種空間膨脹幻象，填滿以射程內一點為中心的[[lookup @target.template.size activity=HmKOEyhRsTbneToR]]呎半徑[[lookup @target.template.type capitalize activity=HmKOEyhRsTbneToR]]區域。對於球型區域內你所能看見的每個生物，你可以對其選擇下列效應之一：</p><p><strong>【天旋地轉】</strong>該生物進行一次智力豁免。若豁免失敗，則其受到[[/damage]]傷害，且球形區域對其而言視為&amp;Reference[Difficult Terrain]{困難地形}，持續至其回合結束。</p><p><strong>【縮地成吋】</strong>該生物的速度增加20呎，持續至其下一回合結束。</p><p>直到法術結束前，每當一名生物進入球型區域或在其中結束回合，你都可以選擇使其受到這些效應之一。一名生物每回合只能受到一次此法術的影響。</p><section id=\"secret-lYkX9VZaLhXCSjif\" class=\"secret hide-in-embed\"><p><strong>Foundry 說明</strong></p><p>當生物進入球型區域或在其中結束回合時，使用對應的後續活動。每名生物每回合只能受影響一次。天旋地轉豁免失敗後，將球型區域視為該生物的困難地形，持續至其回合結束。</p></section>",
+      "description": "<p>你創造出一種空間膨脹幻象，填滿以射程內一點為中心的[[lookup @target.template.size activity=HmKOEyhRsTbneToR]]呎半徑[[lookup @target.template.type capitalize activity=HmKOEyhRsTbneToR]]區域。對於球型區域內你所能看見的每個生物，你可以對其選擇下列效應之一：</p><p><strong>【天旋地轉】</strong>該生物進行一次智力豁免。若豁免失敗，則其受到[[/damage]]傷害，且球形區域對其而言視為&amp;Reference[Difficult Terrain]{困難地形}，持續至其回合結束。</p><p><strong>【縮地成吋】</strong>該生物的速度增加20呎，持續至其下一回合結束。</p><p>直到法術結束前，每當一名生物進入球型區域或在其中結束回合，你都可以選擇使其受到這些效應之一。一名生物每回合只能受到一次此法術的影響。</p><section id=\"secret-lYkX9VZaLhXCSjif\" class=\"secret hide-in-embed\"><p><strong>Foundry 註記</strong></p><p>當生物進入球型區域或在其中結束回合時，使用對應的後續活動。每名生物每回合只能受影響一次。天旋地轉豁免失敗後，將球型區域視為該生物的困難地形，持續至其回合結束。</p></section>",
       "activities": {
         "Cast Spell": {
           "name": "施放法術"
@@ -388,11 +388,11 @@
           "name": "施放法術"
         }
       },
-      "description": "<p>你做出一個安撫的手勢，隨後，射程內至多三名你所選且能看見的自願生物在法術持續時間內陷入&amp;Reference[Unconscious apply=false]{昏迷}狀態。</p><p>若目標承受傷害，或有其他生物採取動作將其搖醒，則目標身上的法術提前終止。</p><p>若一名目標因此法術而在整個持續時間內都具有昏迷狀態，則該目標獲得完成一次&amp;Reference[Short Rest]{短休}的好處，且在完成一次&amp;Reference[Long Rest]{長休}前不能再受到此法術的影響。</p><p><em><strong>【升環法術效應】</strong></em>法術位每升一個環階，你就可以額外指定一名自願生物作為目標。</p><section id=\"secret-N37yYvCodMIbXhyB\" class=\"secret hide-in-embed\"><p><strong>Foundry 說明</strong></p><p>若目標受到傷害或被搖醒，請提前移除昏迷效果。</p></section>",
+      "description": "<p>你做出一個安撫的手勢，隨後，射程內至多三名你所選且能看見的自願生物在法術持續時間內陷入&amp;Reference[Unconscious apply=false]{昏迷}狀態。</p><p>若目標承受傷害，或有其他生物採取動作將其搖醒，則目標身上的法術提前終止。</p><p>若一名目標因此法術而在整個持續時間內都具有昏迷狀態，則該目標獲得完成一次&amp;Reference[Short Rest]{短休}的好處，且在完成一次&amp;Reference[Long Rest]{長休}前不能再受到此法術的影響。</p><p><em><strong>【升環法術效應】</strong></em>法術位每升一個環階，你就可以額外指定一名自願生物作為目標。</p><section id=\"secret-N37yYvCodMIbXhyB\" class=\"secret hide-in-embed\"><p><strong>Foundry 註記</strong></p><p>若目標受到傷害或被搖醒，請提前移除昏迷效果。</p></section>",
       "name": "假寐術"
     },
     "Dueling Ground": {
-      "description": "<p>你創造出一個由發光符文法陣所框定的魔法決鬥場地，其以你所觸碰的地面上一點為中心的[[lookup @target.template.size activity=xCrhehapHurs0qGo]]呎半徑[[lookup @target.template.type capitalize activity=xCrhehapHurs0qGo]]區域。</p><p>作為創造此決鬥場的一部分，你指定兩名位於球狀區域中的自願生物作為目標。若除了這兩名目標之外的任何生物進入球狀區域，則法術提前終止。</p><p>若一名目標在身處決鬥場地期間生命值降至0，則目標傷勢穩定，並傳送至距其最近且位於決鬥場外的未佔據空間。若一名目標在身處決鬥場期間，受到某種不造成傷害卻能夠立即將其殺死的效應影響，則目標不會死亡，轉而具有0生命值並陷入昏迷狀態，傷勢穩定，並傳送至距其最近且位於決鬥場外的未佔據空間。</p><p>當只有一名目標位於決鬥場地中時，與球狀區域周圍地面上相對應的符文會短暫地在那名目標的頭頂閃爍，如同一頂冠冕。</p><p><em><strong>【升環法術效應】</strong></em>你使用的法術位每比二環高一環，你就可以額外指定一名自願生物作為目標。</p><section id=\"secret-oAC2hWsRcxuwS4pA\" class=\"secret hide-in-embed\"><p><strong>Foundry 說明</strong></p><p>為每名被指定的決鬥者套用<strong>標記決鬥場地目標</strong>主動效果。若有其他生物進入球狀區域，結束法術並移除這些效果。當決鬥者的生命值降至0或透過此法術避免立即死亡時，處理其傷勢穩定狀態並將其 Token 移動至球狀區域外最近的未佔據空間。</p></section>",
+      "description": "<p>你創造出一個由發光符文法陣所框定的魔法決鬥場地，其以你所觸碰的地面上一點為中心的[[lookup @target.template.size activity=xCrhehapHurs0qGo]]呎半徑[[lookup @target.template.type capitalize activity=xCrhehapHurs0qGo]]區域。</p><p>作為創造此決鬥場的一部分，你指定兩名位於球狀區域中的自願生物作為目標。若除了這兩名目標之外的任何生物進入球狀區域，則法術提前終止。</p><p>若一名目標在身處決鬥場地期間生命值降至0，則目標傷勢穩定，並傳送至距其最近且位於決鬥場外的未佔據空間。若一名目標在身處決鬥場期間，受到某種不造成傷害卻能夠立即將其殺死的效應影響，則目標不會死亡，轉而具有0生命值並陷入昏迷狀態，傷勢穩定，並傳送至距其最近且位於決鬥場外的未佔據空間。</p><p>當只有一名目標位於決鬥場地中時，與球狀區域周圍地面上相對應的符文會短暫地在那名目標的頭頂閃爍，如同一頂冠冕。</p><p><em><strong>【升環法術效應】</strong></em>你使用的法術位每比2環高一環，你就可以額外指定一名自願生物作為目標。</p><section id=\"secret-oAC2hWsRcxuwS4pA\" class=\"secret hide-in-embed\"><p><strong>Foundry 註記</strong></p><p>為每名被指定的決鬥者套用<strong>標記決鬥場地目標</strong>主動效果。若有其他生物進入球狀區域，結束法術並移除這些效果。當決鬥者的生命值降至0或透過此法術避免立即死亡時，處理其傷勢穩定狀態並將其 Token 移動至球狀區域外最近的未佔據空間。</p></section>",
       "effects": {
         "Mark Dueling Ground Target": {
           "name": "標記決鬥場目標",
