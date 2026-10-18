@@ -173,7 +173,7 @@
     },
     "Divine Reaper": {
       "name": "司命神使",
-      "description": "<p>你與此領域的深度聯繫，使你成為死亡的神聖宣告者，這賦予你下列好處：</p><p><span class=\"inline-entry\"><strong>【增強死靈術】</strong></span>當你施放一道以單一生物為目標的五環或更低的死靈學派法術，或者當你施放來自@UUID[Compendium.dnd-ravenloft-horrors-within.options.Item.rhwCSGraveDomaZF]{墳墓領域法術}表中的法術時，你可以消耗一次引導神力的使用次數，在施法距離內指定第二個生物為目標。若該法術需要有標明價值或被消耗的材料構材，你必須為每個目標提供材料構材。</p><p><span class=\"inline-entry\"><strong>【眾魂監守者】</strong></span>當一個敵人在你60呎內死亡時，你或位於你60呎內一名你所能看見的生物[[/heal]]{恢復}等同於你牧師等級兩倍的生命值。你不能在失能狀態下使用此特性。此特性一經使用，直到完成短休或長休前都無法再次使用，除非你消耗一個六環及以上的法術位（無需動作）來重置其使用權。</p>",
+      "description": "<p>你與此領域的深度聯繫，使你成為死亡的神聖宣告者，這賦予你下列好處：</p><p><span class=\"inline-entry\"><strong>【增強死靈術】</strong></span>當你施放一道以單一生物為目標的5環或更低的死靈學派法術，或者當你施放來自@UUID[Compendium.dnd-ravenloft-horrors-within.options.Item.rhwCSGraveDomaZF]{墳墓領域法術}表中的法術時，你可以消耗一次引導神力的使用次數，在施法距離內指定第二個生物為目標。若該法術需要有標明價值或被消耗的材料構材，你必須為每個目標提供材料構材。</p><p><span class=\"inline-entry\"><strong>【眾魂監守者】</strong></span>當一個敵人在你60呎內死亡時，你或位於你60呎內一名你所能看見的生物[[/heal]]{恢復}等同於你牧師等級兩倍的生命值。你不能在失能狀態下使用此特性。此特性一經使用，直到完成短休或長休前都無法再次使用，除非你消耗一個6環及以上的法術位（無需動作）來重置其使用權。</p>",
       "activities": {
         "Enhanced Necromancy": {
           "name": "增強死靈術"
