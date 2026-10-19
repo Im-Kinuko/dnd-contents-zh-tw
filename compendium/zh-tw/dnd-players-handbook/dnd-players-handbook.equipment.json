@@ -19,6 +19,14 @@
     "activities": {
       "converter": "activities",
       "path": "system.activities"
+    },
+    "capacityWeight": {
+      "path": "system.capacity.weight",
+      "converter": "weight"
+    },
+    "effects": {
+      "converter": "effects",
+      "path": "effects"
     }
   },
   "entries": {
