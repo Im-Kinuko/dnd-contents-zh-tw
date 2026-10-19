@@ -829,7 +829,7 @@
       "name": "法球"
     },
     "Lock": {
-      "description": "<p>每把鎖都附有對應的鑰匙。若沒有鑰匙，生物可以使用@UUID[Compendium.dnd-players-handbook.equipment.Item.phbtulThievesToo]{盜賊工具}，成功通過一次[[/tool thief dex 15]]檢定來撬開這把鎖。</p>",
+      "description": "<p>每把鎖都附有對應的鑰匙。若沒有鑰匙，生物可以使用@UUID[Compendium.dnd-players-handbook.equipment.Item.phbtulThievesToo]{盜賊工具}，成功通過一次[[/check slt dex 15]]檢定來撬開這把鎖。</p>",
       "name": "鎖"
     },
     "Bell": {
