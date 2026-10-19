@@ -22,13 +22,15 @@
           "description": "<p>當生物因毒物而承受傷害時，該生物必須成功通過一次[[/save ability=con]]豁免（DC = 8+ 此專長提升屬性的調整值 + 你的熟練加值），否則將承受2d8毒素傷害，並且直到你的下回合結束前，陷入&amp;Reference[Poisoned]{中毒}狀態。</p>",
           "name": "中毒（敏捷）",
           "changes": {
-            "name": "，中毒"
+            "name": "，中毒",
+            "0": ", Poisoned"
           }
         },
         "Poisoned (Int)": {
           "description": "<p>塗抹後，毒藥的效力將維持1分鐘，或直到你用塗毒的物品造成傷害，以先發生者為準。當生物受到塗毒物品的傷害時，該生物必須成功通過一次[[/save ability=con]]（DC = 8 + 此專長增加的屬性調整值 + 你的熟練加值），否則承受2d8毒素傷害，並直到你下一回合結束前陷入&amp;Reference[Poisoned]{中毒}狀態。</p>",
           "changes": {
-            "name": "，中毒"
+            "name": "，中毒",
+            "0": ", Poisoned"
           },
           "name": "中毒（智力）"
         }
@@ -113,12 +115,25 @@
           "name": "中度著甲"
         }
       },
-      "name": "中度著甲"
+      "name": "中度著甲",
+      "advancement": {
+        "Armor Training": {
+          "name": "Armor Training"
+        }
+      }
     },
     "Boon of Skill": {
       "description": "<p>你獲得下列好處。</p><p><strong>屬性值提升。</strong>自選一項屬性提升1點，上限為30。</p><p><strong>全能精通。</strong>你獲得所有技能的熟練項。</p><p><strong>專精訓練。</strong>選擇一項未專精的技能，你將獲得該技能的專精。</p>",
       "name": "技能恩惠",
       "effects": {
+        "All-Around Adept": {
+          "name": "All-Around Adept"
+        }
+      },
+      "advancement": {
+        "Expertise": {
+          "name": "Expertise"
+        },
         "All-Around Adept": {
           "name": "All-Around Adept"
         }
@@ -138,7 +153,18 @@
           "name": "心靈傳話"
         }
       },
-      "description": "<p>你獲得下列好處</p><p><strong>【屬性值提升】</strong> 你的智力、感知或魅力值提升1點，上限為20。</p><p><strong>【心靈傳話】</strong>你可以和60尺內任何你所能看見的生物用心靈感應進行交流。你的心靈傳話使用你知曉的語言，並且該生物只有懂得該語言時才能理解你。你的溝通不會給予生物以心靈感應回復你的能力。</p><p><strong>【偵測想法】</strong>你始終準備@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplDetectThou]{偵測思想}法術。你可以在不消耗法術位或法術構材的情況下施放法術，並且在你再次以此方式施放前，你必須完成一次長休。你也可以使用相應環階的魔法位施放該法術。你在該法術的施法屬性為此專長所提升的屬性。</p><section id=\"secret-unoZ1rgJPaBmd1Dn\" class=\"secret\"><p><strong>Foundry 註記</strong></p><p><strong>偵測思想</strong>行動可用來追蹤每次長休一次的免費使用。不過此法術仍須手動加入你的角色卡。</p></section>"
+      "description": "<p>你獲得下列好處</p><p><strong>【屬性值提升】</strong> 你的智力、感知或魅力值提升1點，上限為20。</p><p><strong>【心靈傳話】</strong>你可以和60尺內任何你所能看見的生物用心靈感應進行交流。你的心靈傳話使用你知曉的語言，並且該生物只有懂得該語言時才能理解你。你的溝通不會給予生物以心靈感應回復你的能力。</p><p><strong>【偵測想法】</strong>你始終準備@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplDetectThou]{偵測思想}法術。你可以在不消耗法術位或法術構材的情況下施放法術，並且在你再次以此方式施放前，你必須完成一次長休。你也可以使用相應環階的魔法位施放該法術。你在該法術的施法屬性為此專長所提升的屬性。</p><section id=\"secret-unoZ1rgJPaBmd1Dn\" class=\"secret\"><p><strong>Foundry 註記</strong></p><p><strong>偵測思想</strong>行動可用來追蹤每次長休一次的免費使用。不過此法術仍須手動加入你的角色卡。</p></section>",
+      "advancement": {
+        "Detect Thoughts": {
+          "hint": "<p>Your spellcasting ability for the spell is the ability increased by this feat.</p>",
+          "name": "Detect Thoughts"
+        }
+      },
+      "effects": {
+        "Telepathic Utterance": {
+          "name": "Telepathic Utterance"
+        }
+      }
     },
     "Boon of Fate": {
       "name": "命運恩惠",
@@ -157,7 +183,8 @@
       "advancement": {
         "Instrument Training": {
           "title": "樂器訓練",
-          "hint": "You gain proficiency with three Musical Instruments of your choice."
+          "hint": "You gain proficiency with three Musical Instruments of your choice.",
+          "name": "Instrument Training"
         }
       }
     },
@@ -248,6 +275,11 @@
         "Heavily Armored": {
           "name": "重度著甲"
         }
+      },
+      "advancement": {
+        "Armor Training": {
+          "name": "Armor Training"
+        }
       }
     },
     "Resilient": {
@@ -259,7 +291,8 @@
         },
         "Saving Throw Proficiency": {
           "title": "Saving Throw Proficiency",
-          "hint": "You gain saving throw proficiency with the ability you chose to increase."
+          "hint": "You gain saving throw proficiency with the ability you chose to increase.",
+          "name": "Saving Throw Proficiency"
         }
       }
     },
@@ -270,7 +303,12 @@
         }
       },
       "name": "儀式施法者",
-      "description": "<p>你獲得下列好處。</p><p><strong>【屬性值提升】</strong> 你的智力、感知或魅力提升1點，上限為20。</p><p><strong>【儀式法術】</strong> 選擇數量等同於你熟練加值（當前為[[lookup @prof]]）且帶有儀式標籤的1環法術。你始終準備這些法術，並且你可以使用任何你擁有環位施放，其施法屬性為此專長所提升的屬性。每當你的熟練加值提升後，你可以額外選擇一個帶儀式標籤的1環法術加入此特性的始終準備法術。</p><p><strong>【迅捷儀式】</strong> 透過此好處，你可以使用法術原始施法時間而非儀式延長時間來施放已準備的儀式法術，且無需消耗法術位。一旦你以此方式施放法術，直到你完成長休前，你無法再次使用此好處。</p><section id=\"secret-k6S1sYFzUtw0k3RK\" class=\"secret\"><p><strong>Foundry 註記</strong></p><p>需手動添加法術並進行相應調整。</p><p><strong>迅捷儀式</strong>行動可用於追蹤長休間的使用次數限制。</p></section>"
+      "description": "<p>你獲得下列好處。</p><p><strong>【屬性值提升】</strong> 你的智力、感知或魅力提升1點，上限為20。</p><p><strong>【儀式法術】</strong> 選擇數量等同於你熟練加值（當前為[[lookup @prof]]）且帶有儀式標籤的1環法術。你始終準備這些法術，並且你可以使用任何你擁有環位施放，其施法屬性為此專長所提升的屬性。每當你的熟練加值提升後，你可以額外選擇一個帶儀式標籤的1環法術加入此特性的始終準備法術。</p><p><strong>【迅捷儀式】</strong> 透過此好處，你可以使用法術原始施法時間而非儀式延長時間來施放已準備的儀式法術，且無需消耗法術位。一旦你以此方式施放法術，直到你完成長休前，你無法再次使用此好處。</p><section id=\"secret-k6S1sYFzUtw0k3RK\" class=\"secret\"><p><strong>Foundry 註記</strong></p><p>需手動添加法術並進行相應調整。</p><p><strong>迅捷儀式</strong>行動可用於追蹤長休間的使用次數限制。</p></section>",
+      "advancement": {
+        "Ritual Spells": {
+          "name": "Ritual Spells"
+        }
+      }
     },
     "Two-Weapon Fighting": {
       "name": "雙武器戰鬥",
@@ -282,7 +320,8 @@
       "advancement": {
         "Choose Cantrips": {
           "title": "Choose Cantrips",
-          "hint": "You learn two Cleric cantrips of your choice. Guidance and Sacred Flame are recommended. The chosen cantrips count as Paladin spells for you, and Charisma is your spellcasting ability for them. Whenever you gain a Paladin level, you can replace one of these cantrips with another Cleric cantrip."
+          "hint": "You learn two Cleric cantrips of your choice. Guidance and Sacred Flame are recommended. The chosen cantrips count as Paladin spells for you, and Charisma is your spellcasting ability for them. Whenever you gain a Paladin level, you can replace one of these cantrips with another Cleric cantrip.",
+          "name": "Choose Cantrips"
         }
       }
     },
@@ -336,7 +375,17 @@
         }
       },
       "description": "<p><em>通用專長（先決條件：4等以上）</em></p><p>暴露在墮影冥界的魔法之下，使你獲得下列好處。</p><p><strong>【屬性值提升】</strong> 你的智力、感知或魅力值提升1點，上限為20。</p><p><strong>【墮影魔法】</strong>選擇一個1環幻術或死靈學派的法術。你始終準備該法術以及@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplInvisibili]{隱形術}法術。你可以不消耗法術位施放其中一個法術。一旦你以此方式施放法術，直到你完成一次長休後，該法術無法再次以此方式施放。你也可以使用對應環階的法術位施放這些法術。法術施法屬性為此專長所提升的屬性。</p><section class=\"secret\" id=\"secret-MHCfb0RA6g4rzo6K\"><p><strong>Foundry 註記</strong></p><p>這些法術必須依這些變更手動加入你的角色卡。</p><p><strong>消耗選擇法術的使用次數</strong>與<strong>消耗隱形術次數</strong>可用來追蹤你的免費使用次數。</p></section>",
-      "name": "影界觸碰"
+      "name": "影界觸碰",
+      "advancement": {
+        "Shadow Magic": {
+          "name": "Shadow Magic",
+          "hint": "<p>Note: select the same spellcasting ability as the ability increased by this feat.</p>"
+        },
+        "zNWhwvlkJN4NAGL1": {
+          "name": "Shadow Magic",
+          "hint": "<p>Choose one level 1 spell from the <strong>Illusion</strong> or <strong>Necromancy </strong>school of magic.</p><p>Note: select the same spellcasting ability as the ability increased by this feat.</p>"
+        }
+      }
     },
     "Martial Weapon Training": {
       "description": "<p>你獲得下列好處</p><p><strong>【屬性值提升】</strong> 你的力量或敏捷提升1點，上限為20。</p><p><strong>【武器熟練】</strong>你獲得軍用武器的熟練。</p><section class=\"secret\" id=\"secret-D09BeCa8lfTgpJ6h\"><p><strong>Foundry 註記</strong></p><p>此特性會自動賦予你軍用武器的熟練。</p></section>",
@@ -344,6 +393,11 @@
       "effects": {
         "Martial Weapon Training": {
           "name": "軍用武器訓練"
+        }
+      },
+      "advancement": {
+        "Weapon Proficiency": {
+          "name": "Weapon Proficiency"
         }
       }
     },
@@ -353,7 +407,12 @@
     },
     "Dual Wielder": {
       "name": "雙持客",
-      "description": "<p>你獲得下列好處</p><p><strong>【屬性值提升】</strong> 你的力量或敏捷提升1點，上限為20。</p><p><strong>【強化雙持】</strong>當你在你的回合中採取攻擊動作，並以一把具有輕型屬性的武器進行攻擊時，你可以在同一回合稍後以附贈動作進行一次額外攻擊，該攻擊必須使用不同且不具有雙手屬性的近戰武器。你不會將你的屬性調整值加添加到額外攻擊的傷害中，除非該調整值為負值。</p><p><strong>【迅速拔刀】</strong>當你原本只能拔出或收起一把武器時，你可以改為同時拔出或收起兩把不具有雙手屬性的武器。</p><section id=\"secret-EJIyTsTmMlxQDh6V\" class=\"secret\"><p><strong>Foundry 註記</strong></p><p>移除屬性調整值的處理未自動化。你可以在傷害擲骰對話框的環境加值欄位中減去該調整值。</p></section>"
+      "description": "<p>你獲得下列好處</p><p><strong>【屬性值提升】</strong> 你的力量或敏捷提升1點，上限為20。</p><p><strong>【強化雙持】</strong>當你在你的回合中採取攻擊動作，並以一把具有輕型屬性的武器進行攻擊時，你可以在同一回合稍後以附贈動作進行一次額外攻擊，該攻擊必須使用不同且不具有雙手屬性的近戰武器。你不會將你的屬性調整值加添加到額外攻擊的傷害中，除非該調整值為負值。</p><p><strong>【迅速拔刀】</strong>當你原本只能拔出或收起一把武器時，你可以改為同時拔出或收起兩把不具有雙手屬性的武器。</p><section id=\"secret-EJIyTsTmMlxQDh6V\" class=\"secret\"><p><strong>Foundry 註記</strong></p><p>移除屬性調整值的處理未自動化。你可以在傷害擲骰對話框的環境加值欄位中減去該調整值。</p></section>",
+      "effects": {
+        "Enhanced Dual Wielding": {
+          "name": "Enhanced Dual Wielding"
+        }
+      }
     },
     "Shield Master": {
       "effects": {
@@ -419,7 +478,13 @@
           "name": "迅捷恩惠"
         }
       },
-      "name": "迅捷恩惠"
+      "name": "迅捷恩惠",
+      "activities": {
+        "Escape Artist": {
+          "chatFlavor": "Disengage and end Grapple",
+          "name": "Escape Artist"
+        }
+      }
     },
     "Boon of Spell Recall": {
       "name": "法術回想恩惠",
@@ -575,7 +640,12 @@
           "name": "輕度著甲"
         }
       },
-      "name": "輕度著甲"
+      "name": "輕度著甲",
+      "advancement": {
+        "Armor Training": {
+          "name": "Armor Training"
+        }
+      }
     },
     "Skill Expert": {
       "description": "<p>你獲得下列好處</p><p><strong>【屬性值提升】</strong>提升一項你所選擇的屬性1點，上限為20。</p><p><strong>【技能熟練】</strong>你獲得你所選擇的一項技能熟練。</p><p><strong>【專精】</strong>選擇一項你擁有熟練但缺少專精的技能。</p><section class=\"secret\" id=\"secret-ulUPWBL6qcjwB3jp\"><p><strong>Foundry筆記</strong></p><p>This feature does not automatically grant the proficiency/Expertise. You can toggle the \"Edit\" mode for your sheet and click on the circle next to the skills to apply proficiency or Expertise as needed.</p></section>",
@@ -583,11 +653,13 @@
       "advancement": {
         "Expertise": {
           "title": "專精",
-          "hint": "Choose one skill in which you have proficiency but lack Expertise. You gain Expertise with that skill."
+          "hint": "Choose one skill in which you have proficiency but lack Expertise. You gain Expertise with that skill.",
+          "name": "Expertise"
         },
         "Skill Proficiency": {
           "title": "Skill Proficiency",
-          "hint": "You gain proficiency in one skill of your choice."
+          "hint": "You gain proficiency in one skill of your choice.",
+          "name": "Skill Proficiency"
         }
       }
     },
@@ -616,7 +688,8 @@
       "advancement": {
         "Lore Knowledge": {
           "hint": "選擇下列其中一項技能：奧秘、歷史、調查、自然或宗教。若你沒有所選技能的熟練，則你獲得此技能的熟練；若你已經擁有該項熟練，則獲得該技能的專精。",
-          "title": "博聞智識"
+          "title": "博聞智識",
+          "name": "Lore Knowledge"
         }
       }
     },
@@ -639,7 +712,8 @@
       "advancement": {
         "Tool Proficiency": {
           "title": "工具熟練",
-          "hint": "You gain proficiency with three different Artisan’s Tools of your choice from the Fast Crafting table."
+          "hint": "You gain proficiency with three different Artisan’s Tools of your choice from the Fast Crafting table.",
+          "name": "Tool Proficiency"
         }
       }
     },
@@ -690,7 +764,16 @@
     },
     "Magic Initiate": {
       "description": "<p>你獲得下列好處</p><p><strong>【兩道戲法】</strong>你從@UUID[Compendium.dnd-players-handbook.content.JournalEntry.phbSpells0000000.JournalEntryPage.SkHptN2PTzFGDaEj]{牧師}、@UUID[Compendium.dnd-players-handbook.content.JournalEntry.phbSpells0000000.JournalEntryPage.LhvuDQEyrCdg5EfU]{德魯伊}、@UUID[Compendium.dnd-players-handbook.content.JournalEntry.phbSpells0000000.JournalEntryPage.6AnqLUowgdsqMFvz]{法師}法術列表中習得兩個戲法。你以智力、感知、魅力做為你施放專長法術的施法屬性（你選擇此專長時決定）。</p><p><strong>【1環法術】</strong>選擇一個與你所選擇的專長戲法相同的法術列表中的1環法術，且你始終準備這道法術。你可以不消耗法術位施放該法術一次，並在你完成一次長休後，恢復以這種方式施放該法術的能力，你也可以使用你擁有的任意法術位施放這道法術。</p><p><strong>【法術改變】</strong>每當你獲得一個新等級時，你可以將透過此專長所習得的一道法術替換成相同法術列表中相同環術的另一道法術。</p><p><strong>【可複選】</strong>你可以重複選擇此專長，但每次你都必須選擇一個不同的法術列表。</p><section id=\"secret-7JQCSgnGrtu9huzf\" class=\"secret\"><p><strong>Foundry 註記</strong></p><p>這些法術必須依上述變更手動加入你的角色卡。</p></section>",
-      "name": "魔法學徒"
+      "name": "魔法學徒",
+      "advancement": {
+        "Learn Two Cantrips": {
+          "name": "Learn Two Cantrips"
+        },
+        "Level 1 Spell": {
+          "hint": "<p>Choose a level 1 spell from the same spell list as the chosen cantrips and select the same spellcasting ability.</p>",
+          "name": "Level 1 Spell"
+        }
+      }
     },
     "Ability Score Improvement": {
       "name": "屬性值提升",
@@ -706,7 +789,8 @@
       "advancement": {
         "Choose Cantrips": {
           "title": "Choose Cantrips",
-          "hint": "You learn two Druid cantrips of your choice. Guidance and Starry Wisp are recommended. The chosen cantrips count as Ranger spells for you, and Wisdom is your spellcasting ability for them. Whenever you gain a Ranger level, you can replace one of these cantrips with another Druid cantrip."
+          "hint": "You learn two Druid cantrips of your choice. Guidance and Starry Wisp are recommended. The chosen cantrips count as Ranger spells for you, and Wisdom is your spellcasting ability for them. Whenever you gain a Ranger level, you can replace one of these cantrips with another Druid cantrip.",
+          "name": "Choose Cantrips"
         }
       }
     },
@@ -761,7 +845,8 @@
       "advancement": {
         "Skilled": {
           "hint": "You gain proficiency in any combination of three skills or tools of your choice.",
-          "title": "技巧嫻熟"
+          "title": "技巧嫻熟",
+          "name": "Skilled"
         }
       }
     },
@@ -771,7 +856,8 @@
       "advancement": {
         "Keen Observer": {
           "title": "敏銳觀察者",
-          "hint": "選擇下列其中一項技能：洞悉、調查或察覺。若你沒有所選技能的熟練，則你獲得此技能的熟練；若你已經擁有該項熟練，則獲得該技能的專精。"
+          "hint": "選擇下列其中一項技能：洞悉、調查或察覺。若你沒有所選技能的熟練，則你獲得此技能的熟練；若你已經擁有該項熟練，則獲得該技能的專精。",
+          "name": "Keen Observer"
         }
       }
     },
@@ -781,7 +867,8 @@
       "advancement": {
         "Mastery Property": {
           "title": "Mastery Property",
-          "hint": "Your training with weapons allows you to use the mastery property of one kind of Simple or Martial weapon of your choice, provided you have proficiency with it. Whenever you finish a Long Rest, you can change the kind of weapon to another eligible kind."
+          "hint": "Your training with weapons allows you to use the mastery property of one kind of Simple or Martial weapon of your choice, provided you have proficiency with it. Whenever you finish a Long Rest, you can change the kind of weapon to another eligible kind.",
+          "name": "Mastery Property"
         }
       }
     },
@@ -796,7 +883,17 @@
     },
     "Fey-Touched": {
       "description": "<p>暴露在妖精荒野的魔法之下，使你獲得下列好處。</p><p><strong>【屬性值提升】</strong> 你的智力、感知或魅力值提升1點，上限為20。</p><p><strong>【精類魔法】</strong>選擇一個1環預言或惑控學派的@UUID[Compendium.dnd-players-handbook.content.JournalEntry.phbSpells0000000.JournalEntryPage.dWVioXxEGjcPsI9Y]{法術}。你始終準備該法術以及@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplMistyStep0]{迷蹤步}法術。你可以不消耗法術位施放其中一個法術。一旦你以此方式施放法術，直到你完成一次長休後，該法術無法再次以此方式施放。你也可以使用對應環階的法術位施放這些法術。法術施法屬性為此專長所提升的屬性。</p><section class=\"secret\" id=\"secret-O8kxBQYKdt4eFJIV\"><p><strong>Foundry 註記</strong></p><p>這些法術加入角色卡後，必須手動編輯以設定施法屬性並加入免費使用。</p></section>",
-      "name": "精類觸碰"
+      "name": "精類觸碰",
+      "advancement": {
+        "ZRKPkQ5ax9etQ1rH": {
+          "name": "Fey Magic",
+          "hint": "<p>Note: select the same spellcasting ability as the ability increased by this feat.</p>"
+        },
+        "Fey Magic": {
+          "name": "Fey Magic",
+          "hint": "<p>Choose one level 1 spell from the <strong>Divination</strong> or <strong>Enchantment</strong> school of magic.</p><p>Note: select the same spellcasting ability as the ability increased by this feat.</p>"
+        }
+      }
     }
   },
   "folders": {
@@ -817,6 +914,10 @@
     "activities": {
       "converter": "activities",
       "path": "system.activities"
+    },
+    "advancement": {
+      "converter": "advancement",
+      "path": "system.advancement"
     }
   },
   "label": "專長"
