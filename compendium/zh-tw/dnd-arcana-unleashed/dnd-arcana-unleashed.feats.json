@@ -419,7 +419,7 @@
         }
       },
       "name": "奧法預言家",
-      "description": "<p>你獲得下列好處。</p><p><span class=\"inline-h4\">【戲法】</span>你習得<em>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplGuidance00]{指導術}</em>戲法。你施放該法術的施法屬性是智力、感知或魅力（在你選取此專長時選擇）。</p><p><span class=\"inline-h4\">【助人預兆】</span>當你或位於你30呎內一名你所能看見的生物豁免失敗時，你可以採取反應擲1d4並將骰值加入該豁免總值，這可能使失敗改為成功。你能使用此好處的次數等同於你的熟練加值，當你完成長休時重獲所有已消耗的使用次數。</p>"
+      "description": "<p>你獲得下列好處。</p><p><span class=\"inline-h4\">【戲法】</span>你習得<em>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplGuidance00]{神導術}</em>戲法。你施放該法術的施法屬性是智力、感知或魅力（在你選取此專長時選擇）。</p><p><span class=\"inline-h4\">【助人預兆】</span>當你或位於你30呎內一名你所能看見的生物豁免失敗時，你可以採取反應擲1d4並將骰值加入該豁免總值，這可能使失敗改為成功。你能使用此好處的次數等同於你的熟練加值，當你完成長休時重獲所有已消耗的使用次數。</p>"
     },
     "Conjuration Adept": {
       "effects": {
