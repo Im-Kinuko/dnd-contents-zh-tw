@@ -1848,7 +1848,7 @@
       "target": "up to 2,500 square feet of floor space"
     },
     "Guidance": {
-      "name": "指導術",
+      "name": "神導術",
       "description": "<p>你觸碰一個自願生物並選擇一項技能。直到法術結束前，該生物可以擲一顆d4，並將其結果加到使用所選技能的任何屬性檢定。</p>",
       "effects": {
         "Arcana Guidance": {
