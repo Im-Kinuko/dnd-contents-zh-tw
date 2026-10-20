@@ -285,18 +285,18 @@
         },
         "Circle of Moon": {
           "name": "月亮結社",
-          "description": "<p>@Embed[Compendium.dnd-players-handbook.content.JournalEntry.phbCh3ArtHandout.JournalEntryPage.n1JJcOrHZkyaTHZ3 caption=false classes=\"three right\"]</p><blockquote><p>Adopt Animal Forms to Guard the Wilds</p></blockquote><p>Druids of the @UUID[Compendium.dnd-players-handbook.classes.Item.phbdrdCirmoon000]{Circle of the Moon} draw on lunar magic to transform themselves. Their order gathers under the moon to share news and perform rituals.</p><p>Changeable as the moon, a Druid of this circle might prowl as a great cat one night, soar over the treetops as an eagle the next day, and then crash through undergrowth as a bear to drive off a trespassing monster. The wild is in the Druid’s blood.</p>"
+          "description": "<p>@Embed[Compendium.dnd-players-handbook.content.JournalEntry.phbCh3ArtHandout.JournalEntryPage.n1JJcOrHZkyaTHZ3 caption=false classes=\"three right\"]</p><blockquote><p>荒野衛士，身化獸軀</p></blockquote><p>@UUID[Compendium.dnd-players-handbook.classes.Item.phbdrdCirmoon000]{月亮結社}的德魯伊憑藉月亮的魔法讓自己改變形態。他們的結社成員們在月下相聚，分享見聞，舉行儀式。</p><p>該結社的德魯伊如月亮般善變，他們會化身大貓整夜徘徊，第二天又成為一隻盤旋在樹頂的老鷹，隨後從林下灌叢猛衝而出，以熊的形態趕走領地中的入侵者。荒野存在於這些德魯伊的血液之中。</p>"
         },
         "Circle of Land": {
-          "description": "<p>@Embed[Compendium.dnd-players-handbook.content.JournalEntry.phbCh3ArtHandout.JournalEntryPage.nZYRZlB2TkxCbQC5 caption=false classes=\"three right\"]</p><blockquote><p>Celebrate Connection to the Natural World</p></blockquote><p>The @UUID[Compendium.dnd-players-handbook.classes.Item.phbdrdCirland000]{Circle of the Land} comprises mystics and sages who safeguard ancient knowledge and rites. These Druids meet within sacred circles of trees or standing stones to whisper primal secrets in Druidic. The circle’s wisest members preside as the chief priests of their communities.</p>",
+          "description": "<p>@Embed[Compendium.dnd-players-handbook.content.JournalEntry.phbCh3ArtHandout.JournalEntryPage.nZYRZlB2TkxCbQC5 caption=false classes=\"three right\"]</p><blockquote><p>自然世界，頌之以系</p></blockquote><p>@UUID[Compendium.dnd-players-handbook.classes.Item.phbdrdCirland000]{大地結社}由守護著遠古知識與儀式的祕術師和智者們構成。這些德魯伊們聚集在樹木的聖環下或石陣之中，他們用德魯伊語低聲交流，傳遞著原初的祕密。結社中最睿智的成員如教團的首席祭司地位般尊貴。</p>",
           "name": "大地結社"
         },
         "Circle of Sea": {
-          "description": "<p>@Embed[Compendium.dnd-players-handbook.content.JournalEntry.phbCh3ArtHandout.JournalEntryPage.mHpIstCE24qkzKqy caption=false classes=\"three right\"]</p><blockquote><p>Become One with Tides and Storms</p></blockquote><p>Druids of the @UUID[Compendium.dnd-players-handbook.classes.Item.phbdrdCirsea0000]{Circle of the Sea} draw on the tempestuous forces of oceans and storms. Some view themselves as embodiments of nature’s wrath, seeking vengeance against those who despoil nature. Others seek mystical unity with nature by attuning themselves to the ebb and flow of the tides, following the rush of currents and waves and listening to the inscrutable whispers and roars of the winds.</p>",
+          "description": "<p>@Embed[Compendium.dnd-players-handbook.content.JournalEntry.phbCh3ArtHandout.JournalEntryPage.mHpIstCE24qkzKqy caption=false classes=\"three right\"]</p><blockquote><p>海潮風暴，一體同心</p></blockquote><p>@UUID[Compendium.dnd-players-handbook.classes.Item.phbdrdCirsea0000]{海洋結社}的德魯伊們驅使著世界上海洋和風暴中狂野的自然之力。其中一些德魯伊將自己視作自然怒火的化身，對那些掠奪自然世界的人們施以報復。而另一些德魯伊則順應潮汐的漲落，跟隨洋流和波浪的激盪，聆聽狂風的低語和怒號，從中尋求和自然的靈性統一。</p>",
           "name": "海洋結社"
         },
         "Circle of Stars": {
-          "description": "<p>@Embed[Compendium.dnd-players-handbook.content.JournalEntry.phbCh3ArtHandout.JournalEntryPage.lOyX9K8LEAd5IswG caption=false classes=\"three right\"]</p><blockquote><p>Harness Secrets Hidden in Constellations</p></blockquote><p>The @UUID[Compendium.dnd-players-handbook.classes.Item.phbdrdCirstars00]{Circle of the Stars} has tracked heavenly patterns since time immemorial, discovering secrets hidden amid the constellations. By understanding these secrets, the Druids of this circle seek to harness the powers of the cosmos.</p>",
+          "description": "<p>@Embed[Compendium.dnd-players-handbook.content.JournalEntry.phbCh3ArtHandout.JournalEntryPage.lOyX9K8LEAd5IswG caption=false classes=\"three right\"]</p><blockquote><p>群星隱祕，求索馭力</p></blockquote><p>在無法追憶的過去，@UUID[Compendium.dnd-players-handbook.classes.Item.phbdrdCirstars00]{星辰結社}的德魯伊們便開始記錄天穹中的圖案，探索星座之間隱藏的祕密。透過理解這些祕密，這個結社的德魯伊探索著如何駕馭宇宙的偉力。</p>",
           "name": "星辰結社"
         }
       }
@@ -350,23 +350,23 @@
         },
         "Psi Warrior": {
           "name": "靈能武士",
-          "description": "<p>@Embed[Compendium.dnd-players-handbook.content.JournalEntry.phbCh3ArtHandout.JournalEntryPage.1A9tH1YFWh3bj4Ps caption=false classes=\"three right\"]</p><blockquote><p>Augment Physical Might with Psionic Power</p></blockquote><p>@UUID[Compendium.dnd-players-handbook.classes.Item.phbftrPsiWarrior]{Psi Warriors} awaken the power of their minds to augment their physical might. They harness this psionic power to infuse their weapon strikes, lash out with telekinetic energy, and create barriers of mental force.</p>"
+          "description": "<p>@Embed[Compendium.dnd-players-handbook.content.JournalEntry.phbCh3ArtHandout.JournalEntryPage.1A9tH1YFWh3bj4Ps caption=false classes=\"three right\"]</p><blockquote><p>靈能庇體顯神威</p></blockquote><p>@UUID[Compendium.dnd-players-handbook.classes.Item.phbftrPsiWarrior]{靈能武士}喚醒他們心靈中的力量以增強自身的體魄，他們將這種被稱為靈能的力量注入於刀兵之中，用念動力鞭笞他們的敵人，並以精神力鑄造無形壁壘抵禦攻擊。</p>"
         },
         "Maneuver Options": {
-          "name": "Maneuver Options",
-          "text": "<h3>@UUID[Compendium.dnd-players-handbook.classes.Item.phbmnvAmbush0000]{Ambush}</h3><p>@Embed[Compendium.dnd-players-handbook.classes.Item.phbmnvAmbush0000 caption=false cite=false]</p><hr /><h3>@UUID[Compendium.dnd-players-handbook.classes.Item.phbmnvBaitandSwi]{Bait and Switch}</h3><p>@Embed[Compendium.dnd-players-handbook.classes.Item.phbmnvBaitandSwi caption=false cite=false]</p><hr /><h3>@UUID[Compendium.dnd-players-handbook.classes.Item.phbmnvCommanders]{Commander's Strike}</h3><p>@Embed[Compendium.dnd-players-handbook.classes.Item.phbmnvCommanders caption=false cite=false]</p><hr /><h3>@UUID[Compendium.dnd-players-handbook.classes.Item.phbmnvCommanding]{Commanding Presence}</h3><p>@Embed[Compendium.dnd-players-handbook.classes.Item.phbmnvCommanding caption=false cite=false]</p><hr /><h3>@UUID[Compendium.dnd-players-handbook.classes.Item.phbmnvDisarmingA]{Disarming Attack}</h3><p>@Embed[Compendium.dnd-players-handbook.classes.Item.phbmnvDisarmingA caption=false cite=false]</p><hr /><h3>@UUID[Compendium.dnd-players-handbook.classes.Item.phbmnvDistractin]{Distracting Strike}</h3><p>@Embed[Compendium.dnd-players-handbook.classes.Item.phbmnvDistractin caption=false cite=false]</p><hr /><h3>@UUID[Compendium.dnd-players-handbook.classes.Item.phbmnvEvasiveFoo]{Evasive Footwork}</h3><p>@Embed[Compendium.dnd-players-handbook.classes.Item.phbmnvEvasiveFoo caption=false cite=false]</p><hr /><h3>@UUID[Compendium.dnd-players-handbook.classes.Item.phbmnvFeintingAt]{Feinting Attack}</h3><p>@Embed[Compendium.dnd-players-handbook.classes.Item.phbmnvFeintingAt caption=false cite=false]</p><hr /><h3>@UUID[Compendium.dnd-players-handbook.classes.Item.phbmnvGoadingAtt]{Goading Attack}</h3><p>@Embed[Compendium.dnd-players-handbook.classes.Item.phbmnvGoadingAtt caption=false cite=false]</p><hr /><h3>@UUID[Compendium.dnd-players-handbook.classes.Item.phbmnvLungingAtt]{Lunging Attack}</h3><p>@Embed[Compendium.dnd-players-handbook.classes.Item.phbmnvLungingAtt caption=false cite=false]</p><hr /><h3>@UUID[Compendium.dnd-players-handbook.classes.Item.phbmnvManeuverin]{Maneuvering Attack}</h3><p>@Embed[Compendium.dnd-players-handbook.classes.Item.phbmnvManeuverin caption=false cite=false]</p><hr /><h3>@UUID[Compendium.dnd-players-handbook.classes.Item.phbmnvMenacingAt]{Menacing Attack}</h3><p>@Embed[Compendium.dnd-players-handbook.classes.Item.phbmnvMenacingAt caption=false cite=false]</p><hr /><h3>@UUID[Compendium.dnd-players-handbook.classes.Item.phbmnvParry00000]{Parry}</h3><p>@Embed[Compendium.dnd-players-handbook.classes.Item.phbmnvParry00000 caption=false cite=false]</p><hr /><h3>@UUID[Compendium.dnd-players-handbook.classes.Item.phbmnvPrecisionA]{Precision Attack}</h3><p>@Embed[Compendium.dnd-players-handbook.classes.Item.phbmnvPrecisionA caption=false cite=false]</p><hr /><h3>@UUID[Compendium.dnd-players-handbook.classes.Item.phbmnvPushingAtt]{Pushing Attack}</h3><p>@Embed[Compendium.dnd-players-handbook.classes.Item.phbmnvPushingAtt caption=false cite=false]</p><hr /><h3>@UUID[Compendium.dnd-players-handbook.classes.Item.phbmnvRally00000]{Rally}</h3><p>@Embed[Compendium.dnd-players-handbook.classes.Item.phbmnvRally00000 caption=false cite=false]</p><hr /><h3>@UUID[Compendium.dnd-players-handbook.classes.Item.phbmnvRiposte000]{Riposte}</h3><p>@Embed[Compendium.dnd-players-handbook.classes.Item.phbmnvRiposte000 caption=false cite=false]</p><hr /><h3>@UUID[Compendium.dnd-players-handbook.classes.Item.phbmnvSweepingAt]{Sweeping Attack}</h3><p>@Embed[Compendium.dnd-players-handbook.classes.Item.phbmnvSweepingAt caption=false cite=false]</p><hr /><h3>@UUID[Compendium.dnd-players-handbook.classes.Item.phbmnvTacticalAs]{Tactical Assessment}</h3><p>@Embed[Compendium.dnd-players-handbook.classes.Item.phbmnvTacticalAs caption=false cite=false]</p><hr /><h3>@UUID[Compendium.dnd-players-handbook.classes.Item.phbmnvTripAttack]{Trip Attack}</h3><p>@Embed[Compendium.dnd-players-handbook.classes.Item.phbmnvTripAttack caption=false cite=false]</p>"
+          "name": "戰技選項",
+          "text": "<h3>@UUID[Compendium.dnd-players-handbook.classes.Item.phbmnvAmbush0000]{突襲}</h3><p>@Embed[Compendium.dnd-players-handbook.classes.Item.phbmnvAmbush0000 caption=false cite=false]</p><hr /><h3>@UUID[Compendium.dnd-players-handbook.classes.Item.phbmnvBaitandSwi]{誘餌戰術}</h3><p>@Embed[Compendium.dnd-players-handbook.classes.Item.phbmnvBaitandSwi caption=false cite=false]</p><hr /><h3>@UUID[Compendium.dnd-players-handbook.classes.Item.phbmnvCommanders]{指揮官奇襲}</h3><p>@Embed[Compendium.dnd-players-handbook.classes.Item.phbmnvCommanders caption=false cite=false]</p><hr /><h3>@UUID[Compendium.dnd-players-handbook.classes.Item.phbmnvCommanding]{領導風範}</h3><p>@Embed[Compendium.dnd-players-handbook.classes.Item.phbmnvCommanding caption=false cite=false]</p><hr /><h3>@UUID[Compendium.dnd-players-handbook.classes.Item.phbmnvDisarmingA]{繳械擊}</h3><p>@Embed[Compendium.dnd-players-handbook.classes.Item.phbmnvDisarmingA caption=false cite=false]</p><hr /><h3>@UUID[Compendium.dnd-players-handbook.classes.Item.phbmnvDistractin]{擾亂擊}</h3><p>@Embed[Compendium.dnd-players-handbook.classes.Item.phbmnvDistractin caption=false cite=false]</p><hr /><h3>@UUID[Compendium.dnd-players-handbook.classes.Item.phbmnvEvasiveFoo]{躲閃步伐}</h3><p>@Embed[Compendium.dnd-players-handbook.classes.Item.phbmnvEvasiveFoo caption=false cite=false]</p><hr /><h3>@UUID[Compendium.dnd-players-handbook.classes.Item.phbmnvFeintingAt]{詭詐擊}</h3><p>@Embed[Compendium.dnd-players-handbook.classes.Item.phbmnvFeintingAt caption=false cite=false]</p><hr /><h3>@UUID[Compendium.dnd-players-handbook.classes.Item.phbmnvGoadingAtt]{挑釁擊}</h3><p>@Embed[Compendium.dnd-players-handbook.classes.Item.phbmnvGoadingAtt caption=false cite=false]</p><hr /><h3>@UUID[Compendium.dnd-players-handbook.classes.Item.phbmnvLungingAtt]{突刺擊}</h3><p>@Embed[Compendium.dnd-players-handbook.classes.Item.phbmnvLungingAtt caption=false cite=false]</p><hr /><h3>@UUID[Compendium.dnd-players-handbook.classes.Item.phbmnvManeuverin]{靈動擊}</h3><p>@Embed[Compendium.dnd-players-handbook.classes.Item.phbmnvManeuverin caption=false cite=false]</p><hr /><h3>@UUID[Compendium.dnd-players-handbook.classes.Item.phbmnvMenacingAt]{恐嚇擊}</h3><p>@Embed[Compendium.dnd-players-handbook.classes.Item.phbmnvMenacingAt caption=false cite=false]</p><hr /><h3>@UUID[Compendium.dnd-players-handbook.classes.Item.phbmnvParry00000]{格擋}</h3><p>@Embed[Compendium.dnd-players-handbook.classes.Item.phbmnvParry00000 caption=false cite=false]</p><hr /><h3>@UUID[Compendium.dnd-players-handbook.classes.Item.phbmnvPrecisionA]{精準擊}</h3><p>@Embed[Compendium.dnd-players-handbook.classes.Item.phbmnvPrecisionA caption=false cite=false]</p><hr /><h3>@UUID[Compendium.dnd-players-handbook.classes.Item.phbmnvPushingAtt]{推撞擊}</h3><p>@Embed[Compendium.dnd-players-handbook.classes.Item.phbmnvPushingAtt caption=false cite=false]</p><hr /><h3>@UUID[Compendium.dnd-players-handbook.classes.Item.phbmnvRally00000]{鼓舞}</h3><p>@Embed[Compendium.dnd-players-handbook.classes.Item.phbmnvRally00000 caption=false cite=false]</p><hr /><h3>@UUID[Compendium.dnd-players-handbook.classes.Item.phbmnvRiposte000]{反擊}</h3><p>@Embed[Compendium.dnd-players-handbook.classes.Item.phbmnvRiposte000 caption=false cite=false]</p><hr /><h3>@UUID[Compendium.dnd-players-handbook.classes.Item.phbmnvSweepingAt]{橫掃擊}</h3><p>@Embed[Compendium.dnd-players-handbook.classes.Item.phbmnvSweepingAt caption=false cite=false]</p><hr /><h3>@UUID[Compendium.dnd-players-handbook.classes.Item.phbmnvTacticalAs]{戰術預估}</h3><p>@Embed[Compendium.dnd-players-handbook.classes.Item.phbmnvTacticalAs caption=false cite=false]</p><hr /><h3>@UUID[Compendium.dnd-players-handbook.classes.Item.phbmnvTripAttack]{絆摔擊}</h3><p>@Embed[Compendium.dnd-players-handbook.classes.Item.phbmnvTripAttack caption=false cite=false]</p>"
         },
         "Champion": {
-          "description": "<p>@Embed[Compendium.dnd-players-handbook.content.JournalEntry.phbCh3ArtHandout.JournalEntryPage.qayHNwOyTmTv3cXj caption=false classes=\"three right\"]</p><blockquote><p>Pursue Physical Excellence in Combat</p></blockquote><p>A @UUID[Compendium.dnd-players-handbook.classes.Item.phbftrChampion00]{Champion} focuses on the development of martial prowess in a relentless pursuit of victory. Champions combine rigorous training with physical excellence to deal devastating blows, withstand peril, and garner glory. Whether in athletic contests or bloody battle, Champions strive for the crown of the victor.</p>",
+          "description": "<p>@Embed[Compendium.dnd-players-handbook.content.JournalEntry.phbCh3ArtHandout.JournalEntryPage.qayHNwOyTmTv3cXj caption=false classes=\"three right\"]</p><blockquote><p>勇冠三軍彰英豪</p></blockquote><p>在對勝利的不懈追求中，@UUID[Compendium.dnd-players-handbook.classes.Item.phbftrChampion00]{勇士}專注於發展自身的武勇。他們透過嚴酷的訓練鍛冶出卓絕的肉體以直面打擊，跨越險境，尋覓榮譽。無論是在角鬥場之中還是血染的疆場上，勇士都只為奪得勝利之桂冠而奮戰。</p>",
           "name": "勇士"
         },
         "Eldritch Knight": {
           "name": "魔能騎士",
-          "description": "<p>@Embed[Compendium.dnd-players-handbook.content.JournalEntry.phbCh3ArtHandout.JournalEntryPage.iW2cLi93r3AuYxUi caption=false classes=\"three right\"]</p><blockquote><p>Support Combat Skills with Arcane Magic</p></blockquote><p>@UUID[Compendium.dnd-players-handbook.classes.Item.phbftrEldritchKn]{Eldritch Knights} combine the martial mastery common to all Fighters with a careful study of magic. Their spells both complement and extend their combat skills, providing additional protection to shore up their armor and also allowing them to engage many foes at once with explosive magic.</p>"
+          "description": "<p>@Embed[Compendium.dnd-players-handbook.content.JournalEntry.phbCh3ArtHandout.JournalEntryPage.iW2cLi93r3AuYxUi caption=false classes=\"three right\"]</p><blockquote><p>奧法遍身附劍戟</p></blockquote><p>@UUID[Compendium.dnd-players-handbook.classes.Item.phbftrEldritchKn]{魔能騎士}將所有戰士共通的高超武技與對魔法的精妙研究融合貫通。法術補足並拓展了他們的武技，為甲冑提供額外的保護，並使他們能夠使用爆發性的魔法同時與多個敵人鏖戰。</p>"
         },
         "Battle Master": {
           "name": "戰鬥大師",
-          "description": "<p>@Embed[Compendium.dnd-players-handbook.content.JournalEntry.phbCh3ArtHandout.JournalEntryPage.Lmsac07AO6ZzvEcG caption=false classes=\"three right\"]</p><blockquote><p>Master Sophisticated Battle Maneuvers</p></blockquote><p>@UUID[Compendium.dnd-players-handbook.classes.Item.phbftrBattleMast]{Battle Masters} are students of the art of battle, learning martial techniques passed down through generations. The most accomplished Battle Masters are well-rounded figures who combine their carefully honed combat skills with academic study in the fields of history, theory, and the arts.</p>"
+          "description": "<p>@Embed[Compendium.dnd-players-handbook.content.JournalEntry.phbCh3ArtHandout.JournalEntryPage.Lmsac07AO6ZzvEcG caption=false classes=\"three right\"]</p><blockquote><p>戰技百般昭武藝</p></blockquote><p>@UUID[Compendium.dnd-players-handbook.classes.Item.phbftrBattleMast]{戰鬥大師}是研習戰鬥技藝的學者，他們勤學代代相傳的武術。那些最負盛名的戰鬥大師將苦心練就的武功與史學、藝術與理論相互結合，由此，他們往往兼備文才武略。</p>"
         }
       }
     },
@@ -416,18 +416,18 @@
         },
         "Warrior of Shadow": {
           "name": "暗影武者",
-          "description": "<p>@Embed[Compendium.dnd-players-handbook.content.JournalEntry.phbCh3ArtHandout.JournalEntryPage.yIwAis0MvTMsjCe5 caption=false classes=\"three right\"]</p><blockquote><p>Harness Shadow Power for Stealth and Subterfuge</p></blockquote><p>@UUID[Compendium.dnd-players-handbook.classes.Item.phbmnkShadowWarr]{Warriors of Shadow} practice stealth and subterfuge, harnessing the power of the Shadowfell. They are at home in darkness, able to draw gloom around themselves to hide, leap from shadow to shadow, and take on a wraithlike form.</p>"
+          "description": "<p>@Embed[Compendium.dnd-players-handbook.content.JournalEntry.phbCh3ArtHandout.JournalEntryPage.yIwAis0MvTMsjCe5 caption=false classes=\"three right\"]</p><blockquote><p>暗影藏形</p></blockquote><p>@UUID[Compendium.dnd-players-handbook.classes.Item.phbmnkShadowWarr]{暗影武者}習練隱匿與遁術，引導、駕馭來自墮影冥界的力量。他們居於黑暗，藏於薄暮，遁於幽影，出手亦猶如幽影一般兇險。</p>"
         },
         "Warrior of the Open Hand": {
           "name": "散打武者",
-          "description": "<p>@Embed[Compendium.dnd-players-handbook.content.JournalEntry.phbCh3ArtHandout.JournalEntryPage.jmcZttoCPWV91sB1 caption=false classes=\"three right\"]</p><blockquote><p>Master Unarmed Combat Techniques</p></blockquote><p>@UUID[Compendium.dnd-players-handbook.classes.Item.phbmnkOpenHandWa]{Warriors of the Open Hand} are masters of unarmed combat. They learn techniques to push and trip their opponents and manipulate their own energy to protect themselves from harm.</p>"
+          "description": "<p>@Embed[Compendium.dnd-players-handbook.content.JournalEntry.phbCh3ArtHandout.JournalEntryPage.jmcZttoCPWV91sB1 caption=false classes=\"three right\"]</p><blockquote><p>散打隨心</p></blockquote><p>@UUID[Compendium.dnd-players-handbook.classes.Item.phbmnkOpenHandWa]{散打武者}是徒手戰鬥的大師，他們學習了推離和絆摔的技藝妨敵，並用內力保護自己免受傷害。</p>"
         },
         "Warrior of Mercy": {
-          "description": "<p>@Embed[Compendium.dnd-players-handbook.content.JournalEntry.phbCh3ArtHandout.JournalEntryPage.LbGptG9eEuu2nNwL caption=false classes=\"three right\"]</p><blockquote><p>Manipulate Forces of Life and Death</p></blockquote><p>@UUID[Compendium.dnd-players-handbook.classes.Item.phbmnkMercyWarri]{Warriors of Mercy} manipulate the life force of others. These Monks are wandering physicians, but they bring a swift end to their enemies. They often wear masks, presenting themselves as faceless bringers of life and death.</p>",
+          "description": "<p>@Embed[Compendium.dnd-players-handbook.content.JournalEntry.phbCh3ArtHandout.JournalEntryPage.LbGptG9eEuu2nNwL caption=false classes=\"three right\"]</p><blockquote><p>掌執命流</p></blockquote><p>@UUID[Compendium.dnd-players-handbook.classes.Item.phbmnkMercyWarri]{命流武者}操弄著他人的命流之力。這些武僧既是雲遊的醫者，但也能給敵人帶去迅疾的死亡。他們總戴著面具，以無臉的生死使者之形象示人。</p>",
           "name": "命流武者"
         },
         "Warrior of the Elements": {
-          "description": "<p>@Embed[Compendium.dnd-players-handbook.content.JournalEntry.phbCh3ArtHandout.JournalEntryPage.NLBWCSUy2sIvCtzJ caption=false classes=\"three right\"]</p><blockquote><p>Wield Strikes and Bursts of Elemental Power</p></blockquote><p>@UUID[Compendium.dnd-players-handbook.classes.Item.phbmnkElementsWa]{Warriors of the Elements} tap into the power of the Elemental Planes. Harnessing their supernatural focus, these Monks momentarily tame the energy of the Elemental Chaos to empower themselves in and out of battle.</p>",
+          "description": "<p>@Embed[Compendium.dnd-players-handbook.content.JournalEntry.phbCh3ArtHandout.JournalEntryPage.NLBWCSUy2sIvCtzJ caption=false classes=\"three right\"]</p><blockquote><p>身起四象</p></blockquote><p>@UUID[Compendium.dnd-players-handbook.classes.Item.phbmnkElementsWa]{四象武者}揮灑著來自元素位面的力量。這些武僧們以超凡內力引動著元素混沌的能量，既可內強自身，又能外發制敵。</p>",
           "name": "四象武者"
         }
       }
@@ -473,14 +473,14 @@
       "pages": {
         "Oath of Vengeance": {
           "name": "復仇之誓",
-          "description": "<p>@Embed[Compendium.dnd-players-handbook.content.JournalEntry.phbCh3ArtHandout.JournalEntryPage.8J2SuRksDxJJcFiv caption=false classes=\"three right\"]</p><blockquote><p>Punish Evildoers at Any Cost</p></blockquote><p>The @UUID[Compendium.dnd-players-handbook.classes.Item.phbpdnOathOfVeng]{Oath of Vengeance} is a solemn commitment to punish those who have committed grievously evil acts. When evil armies slaughter helpless villagers, when a tyrant defies the will of the gods, when a thieves’ guild grows too violent, when a dragon rampages through the countryside—at times like these, paladins arise and swear an Oath of Vengeance to set right what has gone wrong.</p><p>These paladins share the following tenets:</p><ul><li><p>Show the wicked no mercy.</p></li><li><p>Fight injustice and its causes.</p></li><li><p>Aid those harmed by injustice.</p></li></ul>"
+          "description": "<p>@Embed[Compendium.dnd-players-handbook.content.JournalEntry.phbCh3ArtHandout.JournalEntryPage.8J2SuRksDxJJcFiv caption=false classes=\"three right\"]</p><blockquote><p>鐵面無情伏妖魔</p></blockquote><p>@UUID[Compendium.dnd-players-handbook.classes.Item.phbpdnOathOfVeng]{復仇之誓}，是立誓懲戒那些嚴重罪行的莊嚴承諾。當邪惡勢力屠殺無助居民，當暴君背離諸神意志，當某個盜賊行會過於強橫霸道，當恐怖巨龍橫行鄉野——每當這種時刻，復仇之誓的聖騎士就會出現來撥亂反正。</p><p>立下此誓言的聖騎士都秉持下列信條：</p><ul><li><p>除惡務盡</p></li><li><p>直面不義</p></li><li><p>亡羊補牢</p></li></ul>"
         },
         "Oath of Devotion": {
-          "description": "<p>@Embed[Compendium.dnd-players-handbook.content.JournalEntry.phbCh3ArtHandout.JournalEntryPage.3DHjTK7qlPg4HNYU caption=false classes=\"three right\"]</p><blockquote><p>Uphold the Ideals of Justice and Order</p></blockquote><p>The @UUID[Compendium.dnd-players-handbook.classes.Item.phbpdnOathOfDevo]{Oath of Devotion} binds Paladins to the ideals of justice and order. These Paladins meet the archetype of the knight in shining armor. They hold themselves to the highest standards of conduct, and some—for better or worse—hold the rest of the world to the same standards.</p><p>Many who swear this oath are devoted to gods of law and good and use their gods’ tenets as the measure of personal devotion. Others hold angels as their ideals and incorporate images of angelic wings into their helmets or coats of arms.</p><p>These paladins share the following tenets:</p><ul><li><p>Let your word be your promise.</p></li><li><p>Protect the weak and never fear to act.</p></li><li><p>Let your honorable deeds be an example.</p></li></ul>",
+          "description": "<p>@Embed[Compendium.dnd-players-handbook.content.JournalEntry.phbCh3ArtHandout.JournalEntryPage.3DHjTK7qlPg4HNYU caption=false classes=\"three right\"]</p><blockquote><p>當仁不讓知行正</p></blockquote><p>@UUID[Compendium.dnd-players-handbook.classes.Item.phbpdnOathOfDevo]{奉獻之誓}讓聖騎士和正義與秩序的崇高理念連為一體。他們是身披閃亮的盔甲的正派騎士形象代表。他們嚴於律己，某些成員甚至會過於嚴苛地對待他人。</p><p>追隨該誓言的許多聖騎士都獻身於守序和善良的神祇，並將其所奉神祇的信條視作奉獻的標準。另一些人將天使視作其典範，並在頭盔或罩袍上飾以天使羽翼的形象。</p><p>立下此誓言的聖騎士都秉持下列信條：</p><ul><li><p>言出必行</p></li><li><p>扶危濟困</p></li><li><p>以身作則</p></li></ul>",
           "name": "奉獻之誓"
         },
         "Oath of the Ancients": {
-          "description": "<p>@Embed[Compendium.dnd-players-handbook.content.JournalEntry.phbCh3ArtHandout.JournalEntryPage.MOn6qZ2dV0VBHusB caption=false classes=\"three right\"]</p><blockquote><p>Preserve Life and Light in the World</p></blockquote><p>The @UUID[Compendium.dnd-players-handbook.classes.Item.phbpdnOathOfTheA]{Oath of the Ancients} is as old as the first elves. Paladins who swear this oath cherish the light; they love the beautiful and life-giving things of the world more than any principles of honor, courage, and justice. They often adorn their armor and clothing with images of growing things—leaves, antlers, or flowers—to reflect their commitment to preserving life and light.</p><p>These paladins share the following tenets:</p><ul><li><p>Kindle the light of hope.</p></li><li><p>Shelter life.</p></li><li><p>Delight in art and laughter.</p></li></ul>",
+          "description": "<p>@Embed[Compendium.dnd-players-handbook.content.JournalEntry.phbCh3ArtHandout.JournalEntryPage.MOn6qZ2dV0VBHusB caption=false classes=\"three right\"]</p><blockquote><p>護生驅暗濟世界</p></blockquote><p>@UUID[Compendium.dnd-players-handbook.classes.Item.phbpdnOathOfTheA]{遠古之誓}存在的時間與最初的精靈一族的歷史相仿。他們發誓捍衛光明的存在。他們熱愛世界上的美與帶來生命的事物，更甚於榮耀、勇氣和正義。他們在盔甲和服飾上飾以樹葉、鹿角、花朵等等生機勃勃的紋樣，以象徵自己立下承諾保護世上的生命與光明。</p><p>立下此誓言的聖騎士都秉持下列信條：</p><ul><li><p>點亮希望</p></li><li><p>庇護生命</p></li><li><p>樂人之樂</p></li></ul>",
           "name": "遠古之誓"
         },
         "Paladin": {
@@ -490,7 +490,7 @@
         },
         "Oath of Glory": {
           "name": "榮耀之誓",
-          "description": "<p>@Embed[Compendium.dnd-players-handbook.content.JournalEntry.phbCh3ArtHandout.JournalEntryPage.NSQCO8WeewZNRNvb caption=false classes=\"three right\"]</p><blockquote><p>Strive for the Heights of Heroism</p></blockquote><p>Paladins who take the @UUID[Compendium.dnd-players-handbook.classes.Item.phbpdnOathOfGlor]{Oath of Glory} believe they and their companions are destined to achieve glory through deeds of heroism. They train diligently and encourage their companions, so they’re all ready when destiny calls.</p><p>These paladins share the following tenets:</p><ul><li><p>Endeavor to be known by your deeds.</p></li><li><p>Face hardships with courage.</p></li><li><p>Inspire others to strive for glory.</p></li></ul>"
+          "description": "<p>@Embed[Compendium.dnd-players-handbook.content.JournalEntry.phbCh3ArtHandout.JournalEntryPage.NSQCO8WeewZNRNvb caption=false classes=\"three right\"]</p><blockquote><p>砥身勵行蜚聲英</p></blockquote><p>立下@UUID[Compendium.dnd-players-handbook.classes.Item.phbpdnOathOfGlor]{榮耀之誓}的聖騎士堅信他們將與同伴命中註定一起達成英勇的偉業。他們將刻苦訓練，砥礪前行，從而確保當命運決定的時刻到來之際，他們都已有所準備。</p><p>立下此誓言的聖騎士都秉持下列信條：</p><ul><li><p>力爭上游</p></li><li><p>勇往直前</p></li><li><p>振奮人心</p></li></ul>"
         }
       }
     },
@@ -1974,7 +1974,7 @@
           "name": "Gloom Stalker Spells"
         },
         "Circle of the Land, Arid Spells": {
-          "name": "Circle of the Land, Arid Spells"
+          "name": "大地結社（荒漠）法術"
         },
         "Oath of Glory Spells": {
           "name": "Oath of Glory Spells"
@@ -1986,16 +1986,16 @@
           "name": "Psionic Spells"
         },
         "Circle of the Land, Polar Spells": {
-          "name": "Circle of the Land, Polar Spells"
+          "name": "大地結社（極地）法術"
         },
         "Oath of the Ancients Spells": {
           "name": "Oath of the Ancients Spells"
         },
         "Circle of the Sea Spells": {
-          "name": "Circle of the Sea Spells"
+          "name": "海洋結社法術"
         },
         "Circle of the Land, Tropical Spells": {
-          "name": "Circle of the Land, Tropical Spells"
+          "name": "大地結社（熱帶）法術"
         },
         "Clockwork Spells": {
           "name": "Clockwork Spells"
@@ -2019,7 +2019,7 @@
           "name": "Draconic Spells"
         },
         "Circle of the Land, Temperate Spells": {
-          "name": "Circle of the Land, Temperate Spells"
+          "name": "大地結社（溫帶）法術"
         },
         "Oath of Vengeance Spells": {
           "name": "Oath of Vengeance Spells"
@@ -2028,7 +2028,7 @@
           "name": "舊日支配者法術"
         },
         "Circle of the Moon Spells": {
-          "name": "Circle of the Moon Spells"
+          "name": "月亮結社法術"
         }
       }
     },
