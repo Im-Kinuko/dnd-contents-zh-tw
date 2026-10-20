@@ -3,21 +3,21 @@
   "entries": {
     "Aberrant Sorcery": {
       "name": "畸變術法",
-      "description": "<blockquote><p>操弄非自然的靈能之力</p></blockquote><p>某種外來的影響曾經用其卷鬚將你的意識纏繞，給予了你靈能之力。如今，你能夠使用這股力量觸碰他人的內心並顛覆你周遭的世界。這種力量會從你身上如希望的燈塔一般照耀著旁人嗎？亦或是你將成為那些受你心靈所傷害的人的恐懼呢？</p><p>或許是一股從星界吹來的靈能之風將靈能能量灌入你的體內，亦或是你曾暴露在遙遠國度的扭曲影響下。又或者，你可能被植入一隻奪心魔蝌蚪，但蛻變從未發生。如今，其靈能之力已被你佔為己有。無論你如何獲得這種力量，他都在你的心靈中熊熊燃燒。</p>",
+      "description": "<blockquote><p>操弄非自然的靈能之力</p></blockquote><p>某種外來的影響曾經用其卷鬚將你的意識纏繞，給予了你靈能之力。如今，你能夠使用這股力量觸碰他人的內心並顛覆你周遭的世界。這種力量會從你身上如希望的燈塔一般照耀著旁人嗎？抑或是你將成為那些受你心靈所傷害的人的恐懼呢？</p><p>或許是一股從星界吹來的靈能之風將靈能能量灌入你的體內，抑或是你曾暴露在遙遠國度的扭曲影響下。又或者，你可能被植入一隻奪心魔蝌蚪，但蛻變從未發生。如今，其靈能之力已被你佔為己有。無論你如何獲得這種力量，其都在你的心靈中熊熊燃燒。</p>",
       "advancement": {
         "Subclass Features": {
           "title": "子職業特性",
-          "name": "Subclass Features"
+          "name": "子職業特性"
         },
         "Psionic Spells": {
           "title": "靈能法術",
           "hint": "當你達到靈能法術表中所述的相應術士等級時，你視為始終準備法術表上的法術。",
-          "name": "Psionic Spells"
+          "name": "靈能法術"
         },
         "Psychic Defenses": {
           "title": "心靈防禦",
           "hint": "你擁有對心靈傷害的抗力。",
-          "name": "Psychic Defenses"
+          "name": "心靈防禦"
         }
       }
     },
@@ -305,11 +305,11 @@
       "description": "<p>你的守護靈光現在是30呎發散區域。</p><section id=\"secret-gH6lYObbkvAgLL2q\" class=\"secret\"><p><strong>Foundry 註記</strong></p><p>你的靈光範圍會隨著等級提升自動更新。</p></section>"
     },
     "Aura of Alacrity": {
-      "name": "Aura of Alacrity",
-      "description": "<p>Your Speed increases by 10 feet.</p><p>In addition, whenever an ally enters your Aura of Protection for the first time on a turn or starts their turn there, the ally’s Speed increases by 10 feet until the end of their next turn.</p><section id=\"secret-kOizvMlalbKjwbX4\" class=\"secret\"><p><strong>Foundry Note</strong></p><p>This feature includes an Active Effect which increases your Speed by 10 feet. It does not automatically apply to creatures within your aura.</p></section>",
+      "name": "迅捷靈光",
+      "description": "<p>你的速度提升10呎。</p><p>此外，每個在一個回合中第一次進入你守護靈光內的盟友，或在其內開始回合的盟友，速度提升10呎，直到其下個回合結束。</p><section id=\"secret-kOizvMlalbKjwbX4\" class=\"secret\"><p><strong>Foundry 註記</strong></p><p>此特性包含一個使你的速度增加10呎的 Active Effect，不會自動套用於你靈光內的生物。</p></section>",
       "effects": {
         "Alacrity": {
-          "name": "Alacrity"
+          "name": "迅捷"
         }
       }
     },
@@ -328,11 +328,11 @@
       }
     },
     "Aura of Devotion": {
-      "name": "Aura of Devotion",
-      "description": "<p>You and your allies have Immunity to the Charmed condition while in your Aura of Protection. If a Charmed ally enters the aura, that condition has no effect on that ally while there.</p><section id=\"secret-FUisOAkgNW9r118u\" class=\"secret\"><p><strong>Foundry Note</strong></p><p>This feature includes an Active Effect for tracking characters impacted by your aura but does not automate the effects.</p></section>",
+      "name": "奉獻靈光",
+      "description": "<p>你與你的盟友在你的守護靈光內，免疫魅惑狀態。若處於魅惑狀態的盟友進入該靈光，只要該盟友仍處於靈光內，該狀態無效。</p><section id=\"secret-FUisOAkgNW9r118u\" class=\"secret\"><p><strong>Foundry 註記</strong></p><p>此特性包含一個用於追蹤受你靈光影響之角色的 Active Effect，但不會自動處理其效果。</p></section>",
       "effects": {
         "Devoted": {
-          "name": "Devoted"
+          "name": "奉獻"
         }
       }
     },
@@ -346,16 +346,16 @@
       }
     },
     "Aura of Warding": {
-      "name": "Aura of Warding",
-      "description": "<p>Ancient magic lies so heavily upon you that it forms an eldritch ward, blunting energy from beyond the Material Plane; you and your allies have Resistance to Necrotic, Psychic, and Radiant damage while in your @UUID[Compendium.dnd-players-handbook.classes.Item.phbpdnProtection].</p><section class=\"secret\" id=\"secret-kuCOxEuxal5gCdp1\"><p><strong>Foundry Note</strong></p><p>This feature includes an Active Effect that applies the Resistances but it is not automatically granted when a character enters/exits your aura.</p></section>",
+      "name": "守禦靈光",
+      "description": "<p>強大的遠古魔法眷顧著你，並在你身邊形成了一道神秘的結界，阻擋著來自物質位面外的能量。你和位於你@UUID[Compendium.dnd-players-handbook.classes.Item.phbpdnProtection]{守護靈光}內的盟友獲得對黯蝕、心靈、光耀傷害的抗力。</p><section class=\"secret\" id=\"secret-kuCOxEuxal5gCdp1\"><p><strong>Foundry 註記</strong></p><p>此特性包含一個會套用抗力的 Active Effect，但不會在角色進入／離開你的靈光時自動授予。</p></section>",
       "activities": {
         "Grant Resistances": {
-          "name": "Grant Resistances"
+          "name": "授予抗力"
         }
       },
       "effects": {
         "Aura of Warding": {
-          "name": "Aura of Warding"
+          "name": "守禦靈光"
         }
       }
     },
@@ -374,26 +374,26 @@
       }
     },
     "Avenging Angel": {
-      "name": "Avenging Angel",
-      "description": "<p>As a Bonus Action, you gain the benefits below for 10 minutes or until you end them (no action required). Once you use this feature, you can’t use it again until you finish a Long Rest. You can also restore your use of it by expending a level 5 spell slot (no action required).</p><p><strong>Flight.</strong> You sprout spectral wings on your back, have a Fly Speed of 60 feet, and can hover.</p><p><strong>Frightful Aura.</strong> Whenever an enemy starts its turn in your Aura of Protection, that creature must succeed on a Wisdom saving throw or have the Frightened condition for 1 minute or until it takes any damage. Attack rolls against the &amp;Reference[Frightened] creature have Advantage.</p><section id=\"secret-tmmMrdRJYHiqTIh1\" class=\"secret\"><p><strong>Foundry Note</strong></p><p>The <strong>Avenging Angel</strong> activity will consume a use of this feature and includes an Active Effect that grants you the Fly Speed and hover ability.</p><p>The <strong>Frightful Aura</strong> activity includes the saving throw and an Active Effect that applies the Frightened condition.</p><p>The <strong>Restore Use</strong> activity consumes a 5th level spell slot and restores a use of this feature.</p></section>",
+      "name": "復仇天使",
+      "description": "<p>作為附贈動作，你獲得下列好處，持續10分鐘或直到你將之提前結束（無需動作）。此特性一經使用，直到完成長休前你都無法再次使用。你也可以消耗一個5環法術位（無需動作）來重置此特性的使用權。</p><p><strong>【飛行】</strong>你的背後生出靈體雙翼，獲得60呎的飛行速度，並且可以懸浮。</p><p><strong>【恐懼靈光】</strong>每當敵人在你的守護靈光內開始其回合時，該生物必須成功通過一次感知豁免檢定，否則陷入恐慌狀態，持續1分鐘或直到其承受任何傷害。對處於&amp;Reference[Frightened]{恐慌}狀態的生物進行的攻擊檢定具有優勢。</p><section id=\"secret-tmmMrdRJYHiqTIh1\" class=\"secret\"><p><strong>Foundry 註記</strong></p><p><strong>復仇天使</strong>行動會消耗此特性的一次使用次數，並包含一個賦予你飛行速度與懸浮能力的 Active Effect。</p><p><strong>恐懼靈光</strong>行動包含豁免檢定，以及一個會施加恐慌狀態的 Active Effect。</p><p><strong>恢復使用次數</strong>行動會消耗一個5環法術位，並恢復此特性的一次使用次數。</p></section>",
       "activities": {
         "Restore Use": {
-          "name": "Restore Use"
+          "name": "恢復使用次數"
         },
         "Avenging Angel": {
-          "name": "Avenging Angel"
+          "name": "復仇天使"
         },
         "Frightful Aura": {
-          "name": "Frightful Aura",
-          "condition": "Whenever an enemy starts its turn in your Aura of Protection"
+          "name": "恐懼靈光",
+          "condition": "每當敵人在你的守護靈光內開始其回合時"
         }
       },
       "effects": {
         "Frightened": {
-          "name": "Frightened"
+          "name": "恐慌"
         },
         "Avenging Angel": {
-          "name": "Avenging Angel"
+          "name": "復仇天使"
         }
       }
     },
@@ -596,22 +596,22 @@
       }
     },
     "Bastion of Law": {
-      "name": "Bastion of Law",
-      "description": "<p>You can tap into the grand equation of existence to imbue a creature with a shimmering shield of order. As a Magic action, you can expend 1 to 5 Sorcery Points to create a magical ward around yourself or another creature you can see within 30 feet of yourself. The ward is represented by a number of d8s equal to the number of Sorcery Points spent to create it. When the warded creature takes damage, it can expend a number of those dice, roll them, and reduce the damage taken by the total rolled on those dice.</p><p>The ward lasts until you finish a Long Rest or until you use this feature again.</p><section id=\"secret-O9GfdJl9WWz3Wnli\" class=\"secret\"><p><strong>Foundry Note</strong></p><p>The <strong>Expend Sorcery Points</strong> activity allows you to expend the desired number of Sorcery Points. It includes an Active Effect which can be used for tracking the warded creature. It also includes a \"Ward Die\" roll which rolls 1d8. You will have to manually track the number of dice available.</p></section>",
+      "name": "律令之壁",
+      "description": "<p>你可以利用世界的均衡之力為一個生物激發閃爍的秩序之盾。作為魔法動作，你可以消耗1至5點術法點，創造出一個環繞你或位於你30呎內一名你所能看見的生物的魔法屏障。屏障以d8表示，其數量等同於你創造該屏障所消耗的術法點數量。當被守護的生物承受傷害時，其可以消耗任意數量的骰子並將其擲出，使所承受的傷害減少這些骰子所擲出結果的總和。</p><p>此屏障將一直保持存在，直到你完成一次長休，或直到你再次使用此特性。</p><section id=\"secret-O9GfdJl9WWz3Wnli\" class=\"secret\"><p><strong>Foundry 註記</strong></p><p><strong>創造屏障</strong>行動讓你消耗所需數量的術法點，並包含一個可用於追蹤受守護生物的 Active Effect。此行動還包含一個擲出1d8的「守護骰」擲骰。你必須手動追蹤可用的骰數。</p></section>",
       "activities": {
         "Expend Sorcery Points": {
           "name": "Expend Sorcery Points",
           "roll": "Ward Die"
         },
         "Create Shield": {
-          "name": "Create Shield",
-          "roll": "Ward Die"
+          "name": "創造屏障",
+          "roll": "守護骰"
         }
       },
       "effects": {
         "Warded by Law": {
-          "description": "<p>When the warded creature takes damage, it can expend a number of those dice, roll them, and reduce the damage taken by the total rolled on those dice. The ward lasts until you finish a Long Rest or until you use this feature again.</p>",
-          "name": "Warded by Law"
+          "description": "<p>當被守護的生物承受傷害時，其可以消耗任意數量的這些d8骰並將其擲出，使所承受的傷害減少這些骰擲出結果的總和。此屏障將一直存在，直到你完成一次長休，或直到你再次使用此特性。</p>",
+          "name": "受律令守護"
         }
       }
     },
@@ -656,11 +656,11 @@
     },
     "Beast Master": {
       "name": "獸王",
-      "description": "<blockquote><p>與遠古野獸建立友誼</p></blockquote><p>借助原初魔法，通天地之靈，獸王與某些獨特動物構建起了神秘的連結。</p>",
+      "description": "<blockquote><p>與原初野獸建立友誼</p></blockquote><p>借助原初魔法，通天地之靈，獸王與某些獨特動物構建起了神秘的連結。</p>",
       "advancement": {
         "Subclass Features": {
           "title": "子職業特性",
-          "name": "Subclass Features"
+          "name": "子職業特性"
         }
       }
     },
@@ -699,23 +699,23 @@
       }
     },
     "Beguiling Twist": {
-      "name": "Beguiling Twist",
-      "description": "<p>The magic of the Feywild guards your mind. You have Advantage on saving throws to avoid or end the Charmed or Frightened condition.</p><p>In addition, whenever you or a creature you can see within 120 feet of you succeeds on a saving throw to avoid or end the Charmed or Frightened condition, you can take a Reaction to force a different creature you can see within 120 feet of yourself to make a Wisdom save against your spell save DC. On a failed save, the target is &amp;Reference[Charmed] or &amp;Reference[Frightened] (your choice) for 1 minute. The target repeats the save at the end of each of its turns, ending the effect on itself on a success.</p>"
+      "name": "妖思魅縷",
+      "description": "<p>妖精荒野的魔法護衛著你的心靈。你在對抗或終止魅惑或恐慌狀態的豁免檢定上具有優勢。</p><p>此外，每當你或位於你120呎內一名你所能看見的生物成功通過一次對抗或終止魅惑或恐慌狀態的豁免檢定時，你可以採取反應，迫使位於你120呎內另一名你所能看見的不同生物進行一次對抗你法術豁免DC的感知豁免檢定。豁免失敗時，目標陷入&amp;Reference[Charmed]{魅惑}或&amp;Reference[Frightened]{恐慌}狀態（由你選擇）持續1分鐘。目標在其每個回合結束時重複此豁免，豁免成功時結束其身上的此效應。</p>"
     },
     "Bend Luck": {
-      "name": "Bend Luck",
-      "description": "<p>You have the ability to twist fate using your wild magic. Immediately after another creature you can see rolls the d20 for a D20 Test, you can take a Reaction and spend 1 Sorcery Point to roll 1d4 and apply the number rolled as a bonus or penalty (your choice) to the d20 roll.</p>",
+      "name": "扭曲幸運",
+      "description": "<p>你獲得用你的狂野魔法扭曲命運的能力。緊接在另一名你所能看見的生物為D20檢定擲出d20後，你可以採取反應並消耗1點術法點，擲1d4並將擲骰結果作為加值或減值（由你決定）加到該次d20擲骰上。</p>",
       "activities": {
         "Bend Luck": {
-          "name": "Bend Luck",
-          "roll": "Bonus/Penalty",
-          "condition": "Immediately after another creature you can see rolls the d20 for a D20 Test"
+          "name": "扭曲幸運",
+          "roll": "加值／減值",
+          "condition": "緊接在另一名你所能看見的生物為D20檢定擲出d20後"
         }
       }
     },
     "Bestial Fury": {
-      "name": "Bestial Fury",
-      "description": "<p>When you command your Primal Companion beast to take the Beast’s Strike action, the beast can use it twice.</p><p>In addition, the first time each turn it hits a creature under the effect of your Hunter’s Mark spell, the beast deals extra Force damage equal to the bonus damage of that spell.</p><section id=\"secret-oX1a4cTYW435Ii3q\" class=\"secret\"><p><strong>Foundry Note</strong></p><p>The <strong>Damage</strong> activity includes the additional damage roll.</p></section>"
+      "name": "獸性狂怒",
+      "description": "<p>當你命令原初行侶野獸採取野獸打擊動作時，該野獸能使用該動作兩次。</p><p>此外，每個回合中，當其首次命中一個受到你的法術獵人印記影響的生物時，其可以額外造成力場傷害，其數值等同於該法術的額外傷害。</p><section id=\"secret-oX1a4cTYW435Ii3q\" class=\"secret\"><p><strong>Foundry 註記</strong></p><p><strong>傷害</strong>行動包含額外傷害擲骰。</p></section>"
     },
     "Bewitching Magic": {
       "name": "醉心魔法",
@@ -1113,34 +1113,34 @@
     },
     "Clockwork Cavalcade": {
       "name": "時械矩陣",
-      "description": "<p>You momentarily summon spirits of order to expunge disorder around you. As a Magic action, you summon the spirits in a 30-foot Cube originating from you. The spirits look like modrons or other Constructs of your choice. The spirits are intangible and invulnerable, and they create the effects below within the Cube before vanishing. Once you use this action, you can’t use it again until you finish a Long Rest unless you spend 7 Sorcery Points (no action required) to restore your use of it.</p><p><strong>Heal.</strong> The spirits restore up to 100 Hit Points, divided as you choose among any number of creatures of your choice in the Cube.</p><p><strong>Repair.</strong> Any damaged objects entirely in the Cube are repaired instantly.</p><p><strong>Dispel.</strong> Every spell of level 6 and lower ends on creatures and objects of your choice in the Cube.</p><section id=\"secret-wH5odny5bILRv7eY\" class=\"secret\"><p><strong>Foundry Note</strong></p><p>The <strong>Cavalcade (Free)</strong> activity includes a free use and the <strong>Cavalcade (Sorcery Points)</strong> activity expends the correct number of Sorcery Points. Both include a template for tracking the impacted area.</p></section>",
+      "description": "<p>你短暫召喚出秩序的精魂以抹除周遭的混亂。作為魔法動作，你在以你為原點的30呎立方區域內召喚出一些精魂。這些精魂看起來像是魔冢或你所選擇的其他構裝體，其沒有實體也無法被摧毀，並在消失前於立方區域內產生下列效應。此特性一經使用，直到完成長休前都不能再次使用。你也可以消耗7點術法點（無需動作）來重置此特性的使用權。</p><p><strong>【治癒】</strong>精魂合計提供至多恢復100點生命值，由你隨意分配給立方區域內你所選擇的任意數量生物。</p><p><strong>【修復】</strong>完全位於立方區域內的任何受損物體將被立即修復。</p><p><strong>【破法】</strong>你選擇立方區域內任意數量的生物或物體，其身上所有6環以下的法術結束。</p><section id=\"secret-wH5odny5bILRv7eY\" class=\"secret\"><p><strong>Foundry 註記</strong></p><p><strong>矩陣（免費）</strong>行動包含一次免費使用，<strong>矩陣（術法點）</strong>行動會消耗正確數量的術法點。兩者都包含用於追蹤影響區域的範本。</p></section>",
       "activities": {
         "Cavalcade (Free)": {
-          "name": "Cavalcade (Free)"
+          "name": "矩陣（免費）"
         },
         "Cavalcade (Sorcery Points)": {
-          "name": "Cavalcade (Sorcery Points)"
+          "name": "矩陣（術法點）"
         }
       }
     },
     "Clockwork Sorcery": {
       "name": "時械術法",
-      "description": "<blockquote><p>引導寰宇的秩序之力</p></blockquote><p>一股源自宇宙本身的秩序之力，從機械境或與之類似完全由時械般精確的效率所構成的存在位面使你充滿了魔力。你或你宗族中的某個人也許已經捲入到魔冢這種居住在機械境的秩序生命的陰謀之中。又或許，你的先祖甚至參與過魔冢長征。無論是何種起源，秩序的力量也許對旁人來說有些奇怪，但於你而言，其是一個宏偉而璀璨的系統的一部分。</p>",
+      "description": "<blockquote><p>引導寰宇的秩序之力</p></blockquote><p>宇宙的秩序之力使你充滿了魔力。這股力量源自機械境或與之類似的領域，一個完全由時械般精確的效率所塑造的存在位面。你或你宗族中的某個人也許已經捲入到魔冢這種居住在機械境的秩序生命的陰謀之中。又或許，你的先祖甚至參與過魔冢長征。無論是何種起源，秩序的力量也許對旁人來說有些奇怪，但於你而言，其是一個宏偉而璀璨的系統的一部分。</p>",
       "advancement": {
         "Subclass Features": {
           "title": "子職業特性",
-          "name": "Subclass Features"
+          "name": "子職業特性"
         },
         "Clockwork Spells": {
           "hint": "當你達到時械法術表中所述的相應術士等級時，你視為始終準備法術表上的法術。",
           "title": "Clockwork Spells",
-          "name": "Clockwork Spells"
+          "name": "時械法術"
         }
       }
     },
     "Clockwork Spells": {
       "name": "時械法術",
-      "description": "<p>當你達到時械法術表中所述的相應術士等級時，你視為始終準備法術表上的法術。</p><table><caption>時械法術</caption><thead><tr><td>術士等級</td><td>法術</td></tr></thead><tbody><tr><td>3</td><td>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplAid0000000]{援助術}、@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplAlarm00000]、@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplLesserRest]{次級復原術}、@UUID[Compendium.dnd-players-handbook.spells.Item.phbEvilAndGoodPr]{Protection from Evil and Good}</td></tr><tr><td>5</td><td>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplDispelMagi]、@UUID[Compendium.dnd-players-handbook.spells.Item.phbProtectionFro]</td></tr><tr><td>7</td><td>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplFreedomofM]、@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplSummonCons]{Summon Construct}</td></tr><tr><td>9</td><td>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplGreaterRes]{高等復原術}、@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplWallofForc]</td></tr></tbody></table><p>此外，你可以從秩序顯跡表格中選擇或擲骰決定一種你在施法時顯現出與秩序之聯繫的方式。</p><p>@Embed[Compendium.dnd-players-handbook.tables.RollTable.phbManifestation rollable caption=false]</p><section class=\"secret\" id=\"secret-bh8NWt7XSuwLjVsa\"><p><strong>Foundry 註記</strong></p><p>法術會隨著你升級時自動獲得。</p></section>"
+      "description": "<p>當你達到時械法術表中所述的相應術士等級時，你視為始終準備法術表上的法術。</p><table><caption>時械法術</caption><thead><tr><td>術士等級</td><td>法術</td></tr></thead><tbody><tr><td>3</td><td>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplAid0000000]{援助術}、@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplAlarm00000]{警報術}、@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplLesserRest]{次級復原術}、@UUID[Compendium.dnd-players-handbook.spells.Item.phbEvilAndGoodPr]{防護善惡}</td></tr><tr><td>5</td><td>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplDispelMagi]{解除魔法}、@UUID[Compendium.dnd-players-handbook.spells.Item.phbProtectionFro]{防護能量}</td></tr><tr><td>7</td><td>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplFreedomofM]{行動自如術}、@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplSummonCons]{構裝體召喚術}</td></tr><tr><td>9</td><td>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplGreaterRes]{高等復原術}、@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplWallofForc]{力場牆}</td></tr></tbody></table><p>此外，你可以從秩序顯跡表格中選擇或擲骰決定一種你在施法時顯現出與秩序之聯繫的方式。</p><p>@Embed[Compendium.dnd-players-handbook.tables.RollTable.phbManifestation rollable caption=false]</p><section class=\"secret\" id=\"secret-bh8NWt7XSuwLjVsa\"><p><strong>Foundry 註記</strong></p><p>法術會隨著你升級時自動獲得。</p></section>"
     },
     "College of Dance": {
       "name": "舞蹈學院",
@@ -1237,8 +1237,8 @@
       "description": "<p>在過去，你通常需要透過各種渠道才能聯絡宗主。但現在，你可以直接聯絡宗主本身。你始終準備@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplContactOth]{異界探知}法術。你可以不消耗法術位，以此特性施放該法術來聯絡宗主，並自動成功通過該法術的豁免檢定。</p><p>一旦你以此特性施放了該法術，直到完成長休前，你都無法再次以此法施放該法術。</p><section class=\"secret\" id=\"secret-ZobRIiK6iB3SlCis\"><p><strong>Foundry 註記</strong></p><p>此法術會在你達到此等級時自動授予你，並附帶一次免費使用。</p></section>"
     },
     "Controlled Chaos": {
-      "name": "Controlled Chaos",
-      "description": "<p>You gain a modicum of control over the surges of your wild magic. Whenever you roll on the @UUID[Compendium.dnd-players-handbook.tables.RollTable.phbWildMagicSurg]{Wild Magic Surge} table, you can roll twice and use either number.</p>"
+      "name": "受控混沌",
+      "description": "<p>你獲得了對狂野魔法湧動的些微掌控。每當你在@UUID[Compendium.dnd-players-handbook.tables.RollTable.phbWildMagicSurg]{狂野魔法浪湧}表上擲骰時，你可以擲兩次並使用其中任一個結果。</p>"
     },
     "Corona of Light": {
       "name": "日冕光輝",
@@ -1411,17 +1411,17 @@
       }
     },
     "Defensive Tactics": {
-      "name": "Defensive Tactics",
-      "description": "<p>You gain one of the following feature options of your choice. Whenever you finish a Short or Long Rest, you can replace the chosen option with the other one.</p><p><strong>Escape the Horde.</strong> Opportunity Attacks have Disadvantage against you.</p><p><strong>Multiattack Defense.</strong> When a creature hits you with an attack roll, that creature has Disadvantage on all other attack rolls against you this turn.</p><section class=\"secret\" id=\"secret-5BXeADNIjwRdwzBf\"><p><strong>Foundry Note</strong></p><p>This feature includes a <strong>Multiattack Defense</strong> activity with an Active Effect which can be used to track a creature that has Disadvantage against you but it does not automate the effect.</p></section>",
+      "name": "防守戰術",
+      "description": "<p>你獲得下列一項你所選擇的特性。每當你完成短休或長休時，你可以用另一項特性來替換所選特性。</p><p><strong>【衝出重圍】</strong>對你發動的藉機攻擊具有劣勢。</p><p><strong>【多重防禦】</strong>當一個生物的攻擊檢定命中你時，該生物在本回合內對你進行的所有其他攻擊檢定具有劣勢。</p><section class=\"secret\" id=\"secret-5BXeADNIjwRdwzBf\"><p><strong>Foundry 註記</strong></p><p>此特性包含一個<strong>多重防禦</strong>行動，附帶一個 Active Effect，可用於追蹤對你具有劣勢的生物，但不會自動處理其效果。</p></section>",
       "activities": {
         "Multiattack Defense": {
-          "name": "Multiattack Defense",
-          "condition": "When a creature hits you with an attack roll"
+          "name": "多重防禦",
+          "condition": "當一個生物以攻擊檢定命中你時"
         }
       },
       "effects": {
         "Multiattack Defense": {
-          "name": "Multiattack Defense"
+          "name": "多重防禦"
         }
       }
     },
@@ -1631,7 +1631,7 @@
     },
     "Draconic Resilience": {
       "name": "龍族韌性",
-      "description": "<p>魔法在你體內流動，使你龍族贈禮的物理特徵開始浮現。你的生命值最大值增加3點，且每當你提升術士等級時都會再增加1點。</p><p>此外，你一部份的肌膚將會覆蓋著龍族般的鱗片。當你未穿戴護甲時，你的AC等於10 + 你的敏捷調整值 + 你的魅力調整值</p><section class=\"secret\" id=\"secret-uBlQVhOqmjWWiLc4\"><p><strong>Foundry 註記</strong></p><p>此特性包含一個 Active Effect，會自動增加你的生命值上限，並設定你的無甲防禦；若你偏好穿著護甲，可將其停用。</p></section>",
+      "description": "<p>魔法在你體內流動，使你龍族贈禮的物理特徵開始浮現。你的生命值最大值增加3點，且每當你提升術士等級時都會再增加1點。</p><p>此外，你一部份的肌膚將會覆蓋著龍族般的鱗片。當你未穿戴護甲時，你的AC等同於10 + 你的敏捷調整值 + 你的魅力調整值。</p><section class=\"secret\" id=\"secret-uBlQVhOqmjWWiLc4\"><p><strong>Foundry 註記</strong></p><p>此特性包含一個 Active Effect，會自動增加你的生命值上限，並設定你的無甲防禦；若你偏好穿著護甲，可將其停用。</p></section>",
       "effects": {
         "Draconic Resilience: Armor": {
           "name": "龍族韌性：護甲"
@@ -1643,16 +1643,16 @@
     },
     "Draconic Sorcery": {
       "name": "龍族術法",
-      "description": "<blockquote><p>吐息巨龍魔法</p></blockquote><p>你的天生魔法來自於巨龍的贈禮。或許是一條瀕死的遠古巨龍將一部分的魔力賜予你或你的先祖。你也可能從滿溢著巨龍之力的某處吸收了魔力。又或者，你取得一件從巨龍寶庫中出來的寶藏，其充滿龍族之力。亦或是你的先祖是一條巨龍。</p>",
+      "description": "<blockquote><p>吐息巨龍魔法</p></blockquote><p>你的天生魔法來自於巨龍的贈禮。或許是一條瀕死的遠古巨龍將一部分的魔力賜予你或你的先祖。你也可能從滿溢著巨龍之力的某處吸收了魔力。又或者，你取得一件從巨龍寶庫中出來的寶藏，其充滿龍族之力。抑或是你的先祖是一條巨龍。</p>",
       "advancement": {
         "Draconic Spells": {
           "title": "龍族法術",
           "hint": "當你達到龍族法術表中所述的相應術士等級時，你視為始終準備法術表上的法術。",
-          "name": "Draconic Spells"
+          "name": "龍族法術"
         },
         "Subclass Features": {
           "title": "子職業特性",
-          "name": "Subclass Features"
+          "name": "子職業特性"
         },
         "8UnvG3X4TR3MpCGe": {
           "hint": "你的龍族魔法表現出與某種巨龍的元素親和。選擇一種傷害類型：強酸、寒冷、火焰、閃電或毒素。\n                \n                你獲得該傷害類型的抗力。"
@@ -1661,38 +1661,38 @@
     },
     "Draconic Spells": {
       "name": "龍族法術",
-      "description": "<p>當你達到龍族法術表中所述的相應術士等級時，你視為始終準備法術表上的法術。</p><table><caption>龍族法術</caption><thead><tr><td>術士等級</td><td>法術</td></tr></thead><tbody><tr><td>3</td><td><em>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplAlterSelf0]、@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplChromaticO]、@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplCommand000]{命令術}、@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplDragonsBre]</em></td></tr><tr><td>5</td><td><em>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplFear000000]、@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplFly0000000]</em></td></tr><tr><td>7</td><td><em>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplArcaneEye0]、@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplCharmMonst]</em></td></tr><tr><td>9</td><td><em>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplLegendLore]、@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplSummonDrag]</em></td></tr></tbody></table><section class=\"secret\" id=\"secret-kL8H0ClyrUNajoht\"><p><strong>Foundry 註記</strong></p><p>法術會隨著你升級時自動獲得。</p></section>"
+      "description": "<p>當你達到龍族法術表中所述的相應術士等級時，你視為始終準備法術表上的法術。</p><table><caption>龍族法術</caption><thead><tr><td>術士等級</td><td>法術</td></tr></thead><tbody><tr><td>3</td><td><em>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplAlterSelf0]{變造自身}、@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplChromaticO]{幻色法球}、@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplCommand000]{命令術}、@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplDragonsBre]{龍息術}</em></td></tr><tr><td>5</td><td><em>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplFear000000]{恐懼術}、@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplFly0000000]{飛行術}</em></td></tr><tr><td>7</td><td><em>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplArcaneEye0]{祕法眼}、@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplCharmMonst]{魅惑怪物}</em></td></tr><tr><td>9</td><td><em>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplLegendLore]{通曉傳奇}、@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplSummonDrag]{龍類召喚術}</em></td></tr></tbody></table><section class=\"secret\" id=\"secret-kL8H0ClyrUNajoht\"><p><strong>Foundry 註記</strong></p><p>法術會隨著你升級時自動獲得。</p></section>"
     },
     "Dragon Companion": {
-      "name": "Dragon Companion",
-      "description": "<p>You can cast @UUID[Compendium.dnd-players-handbook.spells.Item.phbsplSummonDrag]{Summon Dragon} without a Material component. You can also cast it once without a spell slot, and you regain the ability to cast it in this way when you finish a Long Rest.</p><p>Whenever you start casting the spell, you can modify it so that it doesn’t require Concentration. If you do so, the spell’s duration becomes 1 minute for that casting.</p><section id=\"secret-dxl0rjuVblJvTXgy\" class=\"secret\"><p><strong>Foundry Note</strong></p><p>This feature can be used for tracking your free usage. When you cast the spell you can uncheck the \"Consumption\" box and, optionally, the \"Concentration\" box.</p></section>",
+      "name": "龍族夥伴",
+      "description": "<p>你可以無需材料構材施放@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplSummonDrag]{龍類召喚術}。同時，你可以不消耗法術位施放該法術一次，當你完成一次長休時，你重獲以此方式施放該法術的能力。</p><p>每當你開始施放該法術時，你可以修改該法術使其無需專注。若你這麼做，該法術的持續時間在該次施放中變為1分鐘。</p><section id=\"secret-dxl0rjuVblJvTXgy\" class=\"secret\"><p><strong>Foundry 註記</strong></p><p>此特性可用於追蹤你的免費使用次數。施放該法術時，你可以取消勾選「消耗」框，也可選擇性取消勾選「專注」框。</p></section>",
       "activities": {
         "Expend Use": {
-          "name": "Expend Use"
+          "name": "消耗使用次數"
         }
       }
     },
     "Dragon Wings": {
-      "name": "Dragon Wings",
-      "description": "<p>As a Bonus Action, you can cause draconic wings to appear on your back. The wings last for 1 hour or until you dismiss them (no action required). For the duration, you have a Fly Speed of 60 feet.</p><p>Once you use this feature, you can’t use it again until you finish a Long Rest unless you spend 3 Sorcery Points (no action required) to restore your use of it.</p><section class=\"secret\" id=\"secret-sOSBeegnxa98QlIn\"><p><strong>Foundry Note</strong></p><p>The <strong>Dragon Wings</strong> activity includes an Active Effect that grants you a Fly Speed of 60 feet.</p><p>The <strong>Restore Use</strong> activity can be used to expend the Sorcery Points to restore a use of the <strong>Dragon Wings</strong> activity.</p></section>",
+      "name": "龍之翼",
+      "description": "<p>作為附贈動作，你可以在背後張開一對龍翼。龍翼持續1小時，若你選擇將其解除（無需動作）則會提前終止，在龍翼持續期間你獲得60呎飛行速度。</p><p>此特性一經使用，直到完成長休前你都無法再次使用。你也可以消耗3點術法點（無需動作）來重置此特性的使用權。</p><section class=\"secret\" id=\"secret-sOSBeegnxa98QlIn\"><p><strong>Foundry 註記</strong></p><p><strong>龍之翼</strong>行動包含一個授予你60呎飛行速度的 Active Effect。</p><p><strong>恢復使用次數</strong>行動可用於消耗術法點，以恢復<strong>龍之翼</strong>行動的一次使用次數。</p></section>",
       "activities": {
         "Dragon Wings": {
-          "name": "Dragon Wings"
+          "name": "龍之翼"
         },
         "Restore Use": {
-          "name": "Restore Use"
+          "name": "恢復使用次數"
         }
       },
       "effects": {
         "Winged": {
-          "name": "Winged",
-          "description": "<p>he wings last for 1 hour or until you dismiss them (no action required). For the duration, you have a Fly Speed of 60 feet.</p>"
+          "name": "有翼",
+          "description": "<p>龍翼持續1小時，或直到你將其解除（無需動作）。在持續期間，你獲得60呎飛行速度。</p>"
         }
       }
     },
     "Dread Ambusher": {
       "name": "恐怖伏兵",
-      "description": "<p>你精通於製造恐怖伏擊的藝術，並獲得下列好處。</p><p><strong>【伏兵出擊】</strong>在每場戰鬥你的首個回合開始時，直到該回合結束前你的速度增加10呎。</p><p><strong>【恐懼打擊】</strong>當你以武器攻擊一名生物並命中時，你可以額外造成2d6心靈傷害。你每回合僅能使用一次此好處，而你可以使用的總次數等同於你的感知調整值（最少一次），並在你完成長休時重獲所有已消耗的使用次數。 </p><p><strong>【先攻加值】</strong>當你擲先攻骰時，你可以將感知調整值加入擲骰結果中。</p><section class=\"secret\" id=\"secret-QF11lzzOLRLzoSrk\"><p><strong>Foundry 註記</strong></p><p>此特性包含一個 Active Effect，會自動將你的感知調整值加入先攻擲骰。</p><p><strong>恐懼打擊</strong>行動包含額外傷害，並追蹤你有限的使用次數。當你獲得@UUID[Compendium.dnd-players-handbook.classes.Item.phbrgrStalkersFl]{追獵者疾擊}特性時，其傷害會自動提升。</p><p><strong>伏兵出擊</strong>行動包含一個 Active Effect，可用來將你的速度提升10呎。</p></section>",
+      "description": "<p>你精通於製造恐怖伏擊的藝術，並獲得下列好處。</p><p><strong>【伏兵出擊】</strong>在每場戰鬥你的首個回合開始時，直到該回合結束前你的速度增加10呎。</p><p><strong>【恐懼打擊】</strong>當你以武器攻擊一名生物並命中時，你可以額外造成2d6心靈傷害。你每回合僅能使用一次此好處，而你可以使用的總次數等同於你的感知調整值（最少一次），並在你完成長休時重獲所有已消耗的使用次數。 </p><p><strong>【先攻加值】</strong>當你擲先攻骰時，你可以將感知調整值加入擲骰結果中。</p><section class=\"secret\" id=\"secret-QF11lzzOLRLzoSrk\"><p><strong>Foundry 註記</strong></p><p>此特性包含一個 Active Effect，會自動將你的感知調整值加入先攻擲骰。</p><p><strong>恐懼打擊</strong>行動包含額外傷害，並追蹤你有限的使用次數。當你獲得@UUID[Compendium.dnd-players-handbook.classes.Item.phbrgrStalkersFl]{追獵如風}特性時，其傷害會自動提升。</p><p><strong>伏兵出擊</strong>行動包含一個 Active Effect，可用來將你的速度提升10呎。</p></section>",
       "activities": {
         "Dreadful Strike": {
           "name": "恐懼打擊",
@@ -1714,7 +1714,7 @@
     },
     "Dreadful Strikes": {
       "name": "哀懼靈襲",
-      "description": "<p>你可以使用來自妖精荒野中黑暗空洞的攝心魔法以強化你的武器攻擊。當你以武器命中一個生物時，你可以對目標造成額外1d4心靈傷害，每個生物在每回合僅會承受一次此額外傷害。該額外傷害在你的遊俠等級達到 11 級時增加為1d6。</p><section id=\"secret-4bJV0nAffRomytFv\" class=\"secret\"><p><strong>Foundry Note</strong></p><p>The <strong>Damage</strong> activity includes the extra damage. It automatically scales as you level up.</p></section>",
+      "description": "<p>你可以使用來自妖精荒野中黑暗空洞的攝心魔法來強化你的武器攻擊。當你以武器命中一個生物時，你可以對目標造成額外的1d4心靈傷害，每名目標每回合僅會承受一次此額外傷害。當你達到遊俠等級11級時，此額外傷害增加為1d6。</p>",
       "activities": {
         "damage": {
           "condition": "當你以武器命中一個生物時"
@@ -1803,22 +1803,22 @@
       "description": "<p>你知曉德魯伊語，這是一種德魯伊間的秘密語言。在學習這門古老語言的過程中，你獲悉了與動物交流的魔法；你始終準備@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplSpeakwithA]{動物交談術}。</p><p>你可以使用這門語言用其留下隱藏的資訊。懂得這門語言的人（包括你自己）會自動注意到此資訊。而不懂該語言的人通過[[/check inv 15]]檢定後也可以注意到其存在，但無法以非魔法手段解讀。</p><section class=\"secret\" id=\"secret-5uD3Qi61JX7q2Fk8\"><p><strong>Foundry 註記</strong></p><p>德魯伊語與動物交談術會在升級過程中自動加入。</p></section>"
     },
     "Elder Champion": {
-      "name": "Elder Champion",
-      "description": "<p>As a Bonus Action, you can imbue your Aura of Protection with primal power, granting the benefits below for 1 minute or until you end them (no action required). Once you use this feature, you can’t use it again until you finish a Long Rest. You can also restore your use of it by expending a level 5 spell slot (no action required).</p><p><strong>Diminish Defiance.</strong> Enemies in the aura have Disadvantage on saving throws against your spells and Channel Divinity options.</p><p><strong>Regeneration.</strong> At the start of each of your turns, you regain 10 Hit Points.</p><p><strong>Swift Spells.</strong> Whenever you cast a spell that has a casting time of an action, you can cast it using a Bonus Action instead.</p><section id=\"secret-EKKHqruZyH8NdBEa\" class=\"secret\"><p><strong>Foundry Note</strong></p><p>The <strong>Elder Champion</strong> activity will consume a use and includes an Active Effect which can be used for tracking creatures impacted by Diminished Defense.</p><p>The <strong>Regeneration</strong> activity includes the 10 Hit Points you can regain each turn.</p><p>The <strong>Restore Use</strong> activity will consume a 5th level spell slot and restore a use of this feature.</p></section>",
+      "name": "上古鬥士",
+      "description": "<p>作為附贈動作，你可以用原初之力盈滿你的守護靈光，靈光獲得下列好處。持續1分鐘或直到你將之提前結束（無需動作）。此特性一經使用，直到完成長休前你都無法再次使用。你也可以消耗一個5環法術位（無需動作）來重置此特性的使用權。</p><p><strong>【瓦解反抗】</strong>位於你靈光範圍內的敵人，在對抗你的法術與引導神力選項的豁免檢定上具有劣勢。</p><p><strong>【復生】</strong>在每個自己回合開始時，你恢復10點生命值。</p><p><strong>【迅捷法術】</strong>每當你施放一道施法時間為動作的法術時，你可以改為以附贈動作施放該法術。</p><section id=\"secret-EKKHqruZyH8NdBEa\" class=\"secret\"><p><strong>Foundry 註記</strong></p><p><strong>上古鬥士</strong>行動會消耗一次使用次數，並包含一個可用於追蹤受瓦解反抗影響之生物的 Active Effect。</p><p><strong>復生</strong>行動包含你每回合可恢復的10點生命值。</p><p><strong>恢復使用次數</strong>行動會消耗一個5環法術位，並恢復此特性的一次使用次數。</p></section>",
       "effects": {
         "Diminished Defiance": {
-          "name": "Diminished Defiance"
+          "name": "瓦解反抗"
         }
       },
       "activities": {
         "Elder Champion": {
-          "name": "Elder Champion"
+          "name": "上古鬥士"
         },
         "Regeneration": {
-          "name": "Regeneration"
+          "name": "復生"
         },
         "Restore Use": {
-          "name": "Restore Use"
+          "name": "恢復使用次數"
         }
       }
     },
@@ -1910,28 +1910,28 @@
       }
     },
     "Elemental Affinity": {
-      "name": "Elemental Affinity",
+      "name": "元素親和",
       "description": "<p>你的龍族魔法表現出與某種巨龍的元素親和。選擇一種傷害類型：強酸、寒冷、火焰、閃電或毒素。</p><p>你獲得該傷害類型的抗力，且當你施放造成該傷害類型的法術時，你可以將你的魅力調整值添加在該法術的一次傷害擲骰中。</p><section class=\"secret\" id=\"secret-3vHUORtVzoP6V4xF\"><p><strong>Foundry 註記</strong></p><p>當你升級時，系統會提示你選擇一種傷害類型。額外的傷害不會自動加上，但此特性會為每種傷害類型各包含一個行動。</p><p>你可以將所選的傷害類型移到最上方，來加快此特性的使用，這樣在使用此特性時會自動套用該傷害類型。</p></section>",
       "activities": {
         "Poison": {
-          "name": "Poison",
-          "condition": "When you cast a spell that deals damage of your elemental affinity"
+          "name": "毒素",
+          "condition": "當你施放造成你的元素親和傷害類型的法術時"
         },
         "Acid": {
-          "name": "Acid",
-          "condition": "When you cast a spell that deals damage of your elemental affinity"
+          "name": "強酸",
+          "condition": "當你施放造成你的元素親和傷害類型的法術時"
         },
         "Cold": {
-          "name": "Cold",
-          "condition": "When you cast a spell that deals damage of your elemental affinity"
+          "name": "寒冷",
+          "condition": "當你施放造成你的元素親和傷害類型的法術時"
         },
         "Fire": {
-          "name": "Fire",
-          "condition": "When you cast a spell that deals damage of your elemental affinity"
+          "name": "火焰",
+          "condition": "當你施放造成你的元素親和傷害類型的法術時"
         },
         "Lightning": {
-          "name": "Lightning",
-          "condition": "When you cast a spell that deals damage of your elemental affinity"
+          "name": "閃電",
+          "condition": "當你施放造成你的元素親和傷害類型的法術時"
         }
       }
     },
@@ -1998,39 +1998,39 @@
     },
     "Elemental Epitome": {
       "name": "四象神通",
-      "description": "<p>While your Elemental Attunement is active, you also gain the following benefits.</p><p><strong>Damage Resistance.</strong> You gain Resistance to one of the following damage types of your choice: Acid, Cold, Fire, Lightning, or Thunder. At the start of each of your turns, you can change this choice.</p><p><strong>Destructive Stride.</strong> When you use your Step of the Wind, your Speed increases by 20 feet until the end of the turn. For that duration, any creature of your choice takes damage equal to one roll of your Martial Arts die when you enter a space within 5 feet of it. The damage type is your choice of Acid, Cold, Fire, Lightning, or Thunder. A creature can take this damage only once per turn.</p><p><strong>Empowered Strikes.</strong> Once on each of your turns, you can deal extra damage to a target equal to one roll of your Martial Arts die when you hit it with an Unarmed Strike. The extra damage is the same type dealt by that strike.</p><section class=\"secret\" id=\"secret-o7dIl2Kw7UaODgLu\"><p><strong>Foundry Note</strong></p><p>This <strong>Damage Resistance</strong> activity includes 5 Active Effects which you can toggle between to select your preferred Resistance.</p><p>The <strong>Destructive Stride</strong> activity includes an Active Effect which can increase your Movement Speed by 20 feet and allows you to choose the type of damage in the roll dialog.</p><p>The <strong>Empowered Strike</strong> activity allows you to choose the damage type in the roll dialog.</p></section>",
+      "description": "<p>你的四象同調啟用期間，你也獲得下列好處。</p><p><strong>【傷害抗力】</strong>你選擇一種傷害類型：強酸、寒冷、火焰、閃電或雷鳴，你獲得該傷害類型的抗力。在每個自己回合開始時，你可以改變所選擇的傷害類型。</p><p><strong>【破滅奔行】</strong>當你使用疾步如風時，你的速度提升20呎，直到本回合結束。在此期間，當你進入你所選擇的任意生物5呎內的空間時，該生物承受等同於你一枚武藝骰的傷害。該傷害的類型由你選擇：強酸、寒冷、火焰、閃電或雷鳴。一個生物每回合只會承受一次此傷害。</p><p><strong>【真力注拳】</strong>每個自己回合一次，當你用徒手打擊命中一個目標時，你可以對其造成等同於你一枚武藝骰的額外傷害。該傷害的類型與該次徒手打擊所造成的傷害類型相同。</p><section class=\"secret\" id=\"secret-o7dIl2Kw7UaODgLu\"><p><strong>Foundry 註記</strong></p><p>此<strong>傷害抗力</strong>行動包含5個 Active Effect，你可以在其間切換以選擇你偏好的抗力。</p><p><strong>破滅奔行</strong>行動包含一個 Active Effect，可使你的移動速度增加20呎，並讓你在擲骰對話框中選擇傷害類型。</p><p><strong>真力注拳</strong>行動讓你在擲骰對話框中選擇傷害類型。</p></section>",
       "activities": {
         "Destructive Stride": {
-          "name": "Destructive Stride",
-          "condition": "When you use your Step of the Wind"
+          "name": "破滅奔行",
+          "condition": "當你使用疾步如風時"
         },
         "Damage Resistance": {
-          "condition": "While your Elemental Attunement is active",
-          "name": "Damage Resistance"
+          "condition": "你的四象同調啟用期間",
+          "name": "傷害抗力"
         },
         "Empowered Strike": {
-          "name": "Empowered Strike",
-          "condition": "每回合一次，當你以徒手打擊命中時"
+          "name": "真力注拳",
+          "condition": "每個自己回合一次，當你以徒手打擊命中時"
         }
       },
       "effects": {
         "Acid Resistance": {
-          "name": "Acid Resistance"
+          "name": "強酸抗力"
         },
         "Cold Resistance": {
-          "name": "Cold Resistance"
+          "name": "寒冷抗力"
         },
         "Fire Resistance": {
-          "name": "Fire Resistance"
+          "name": "火焰抗力"
         },
         "Lightning Resistance": {
-          "name": "Lightning Resistance"
+          "name": "閃電抗力"
         },
         "Thunder Resistance": {
-          "name": "Thunder Resistance"
+          "name": "雷鳴抗力"
         },
         "Step of the Wind Bonus": {
-          "name": "Step of the Wind Bonus"
+          "name": "疾步如風加值"
         }
       }
     },
@@ -2133,23 +2133,23 @@
       }
     },
     "Exceptional Training": {
-      "name": "Exceptional Training",
-      "description": "<p>When you take a Bonus Action to command your Primal Companion beast to take an action, you can also command it to take the &amp;Reference[Dash], &amp;Reference[Disengage], &amp;Reference[Dodge], or &amp;Reference[Help] action using its Bonus Action.</p><p>In addition, whenever it hits with an attack roll and deals damage, it can deal your choice of Force damage or its normal damage type.</p><section id=\"secret-dFb0uteASfxCBh4m\" class=\"secret\"><p><strong>Foundry Note</strong></p><p>The Primal Companion's damage roll dialog's will allow you to choose the type of damage. It defaults to your previous choice each time going forward.</p></section>",
+      "name": "特效訓練",
+      "description": "<p>當你採取附贈動作命令你的原初行侶野獸採取動作時，你還可以命令其以附贈動作採取&amp;Reference[Dash]{疾走}、&amp;Reference[Disengage]{撤離}、&amp;Reference[Dodge]{迴避}或&amp;Reference[Help]{協助}動作。</p><p>此外，每當你的野獸的攻擊檢定命中並造成傷害時，其可造成力場傷害或其原本的傷害類型（由你選擇）。</p><section class=\"secret\" id=\"secret-dFb0uteASfxCBh4m\"><p><strong>Foundry 註記</strong></p><p><strong>訓練行侶</strong>附魔行動設計用於套用到你的行侶的「野獸打擊」物品，並在該動作的傷害擲骰設定中加入力場傷害選項。</p></section>",
       "activities": {
         "Train Companion": {
-          "target": "Primal Companion's Attack features",
-          "condition": "As needed to add Force damage option",
-          "name": "Train Companion"
+          "target": "原初行侶的攻擊特性",
+          "condition": "視需要加入力場傷害選項",
+          "name": "訓練行侶"
         },
         "Command Companion": {
-          "name": "Command Companion",
-          "target": "Primal Companion"
+          "name": "命令行侶",
+          "target": "原初行侶"
         }
       },
       "effects": {
         "Exceptionally Trained": {
-          "description": "<p>Whenever the Companion hits with an attack roll and deals damage, it can deal your choice of Force damage or its normal damage type.</p>",
-          "name": "Exceptionally Trained"
+          "description": "<p>每當行侶的攻擊檢定命中並造成傷害時，其可以造成力場傷害或其原本的傷害類型（由你選擇）。</p>",
+          "name": "受特效訓練"
         }
       }
     },
@@ -2253,39 +2253,39 @@
       }
     },
     "Fey Reinforcements": {
-      "name": "Fey Reinforcements",
-      "description": "<p>You can cast @UUID[Compendium.dnd-players-handbook.spells.Item.phbsplSummonFey0]{Summon Fey} without a Material component. You can also cast it once without a spell slot, and you regain the ability to cast it in this way when you finish a Long Rest.</p><p>Whenever you start casting the spell, you can modify it so that it doesn’t require Concentration. If you do so, the spell’s duration becomes 1 minute for that casting.</p><section id=\"secret-gJ5tzqkKp2ML92a3\" class=\"secret\"><p><strong>Foundry Note</strong></p><p>This feature can be used for tracking the free use. Then cast the spell and uncheck the \"Consumption\" box and optionally the \"Concentration\" option.</p></section>",
+      "name": "精宸所與",
+      "description": "<p>你可以無需材料構材施放@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplSummonFey0]{精類召喚術}。同時，你可以不消耗法術位施放該法術一次，當你完成一次長休時，你重獲以此方式施放該法術的能力。</p><p>每當你開始施放該法術時，你可以微調該法術使其無需專注。若你這麼做，該法術的持續時間在該次施放中變為1分鐘。</p><section id=\"secret-gJ5tzqkKp2ML92a3\" class=\"secret\"><p><strong>Foundry 註記</strong></p><p>此特性可用於追蹤免費使用次數。接著施放法術，取消勾選「消耗」框，也可選擇性取消勾選「專注」選項。</p></section>",
       "activities": {
         "Reinforce": {
-          "name": "Reinforce"
+          "name": "增援"
         }
       }
     },
     "Fey Wanderer": {
       "name": "妖精漫遊者",
-      "description": "<blockquote><p>散播妖精歡喜與怒火</p></blockquote><p>或來自一位至高妖精的恩惠，或是來自你食用的一枚從能言之樹上取下的閃亮果實，或是來自你曾浸游於中的魔法清泉，或是來自其他妙事，你的身側因那次奇遇而有妖精的魔力纏繞。無論你是怎麼得到你來自妖精的魔法的，你現在是一名代表了凡間與妖精國度雙方的遊俠妖精漫遊者。你漫步於多元宇宙之時，你輕快的笑聲為受壓迫者們帶來欣喜的希望，你英勇的技藝直擊你敵人的恐懼，你所就的偉績乃是妖精的喜悅，你散布的恐懼乃是妖精的憤怒。</p>",
+      "description": "<blockquote><p>散播妖精歡喜與怒火</p></blockquote><p>或來自一位至高妖精的恩惠，或是妖精荒野中某處令你蛻變的地方，你的身側因此縈繞著妖精的魔力。無論你是怎麼得到你來自妖精的魔法的，你現在是一名妖精漫遊者。你輕快的笑聲為受壓迫者們帶來欣喜的希望，你英勇的技藝直擊你敵人的恐懼，你所成就的偉績乃是妖精的喜悅，你散布的恐懼乃是妖精的憤怒。</p>",
       "advancement": {
         "Subclass Features": {
           "title": "子職業特性",
-          "name": "Subclass Features"
+          "name": "子職業特性"
         },
         "Fey Wanderer Spells": {
           "title": "妖精漫遊者法術",
-          "name": "Fey Wanderer Spells"
+          "name": "妖精漫遊者法術"
         },
         "Otherworldly Glamour": {
           "title": "異界魅影",
-          "name": "Otherworldly Glamour"
+          "name": "異界魅影"
         },
         "Dreadful Strike Damage": {
           "title": "哀懼靈襲傷害",
-          "name": "Dreadful Strike Damage"
+          "name": "哀懼靈襲傷害"
         }
       }
     },
     "Fey Wanderer Spells": {
       "name": "妖精漫遊者法術",
-      "description": "<p>當你達到妖精漫遊者法術表中所述的相應遊俠等級時，你視為始終準備法術表上的法術。</p><table><caption>妖精漫遊者法術</caption><thead><tr><td>遊俠等級</td><td>Spell</td></tr></thead><tbody><tr><td>3</td><td>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplCharmPerso]</td></tr><tr><td>5</td><td>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplMistyStep0]{迷蹤步}</td></tr><tr><td>9</td><td>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplSummonFey0]</td></tr><tr><td>13</td><td>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplDimensionD]</td></tr><tr><td>17</td><td>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplMislead000]</td></tr></tbody></table><p>你還獲得了來自妖精的神奇祝福。你可以從妖精荒野之賜表中自行選擇或隨機決定。</p><p>@Embed[Compendium.dnd-players-handbook.tables.RollTable.phbFeywildGifts0 rollable]</p><section class=\"secret\" id=\"secret-iOmJyauf3eYFUSIM\"><p><strong>Foundry 註記</strong></p><p>法術會隨著你升級時自動獲得。</p></section>"
+      "description": "<p>當你達到妖精漫遊者法術表中所述的相應遊俠等級時，你視為始終準備法術表上的法術。</p><table><caption>妖精漫遊者法術</caption><thead><tr><td>遊俠等級</td><td>法術</td></tr></thead><tbody><tr><td>3</td><td>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplCharmPerso]{魅惑人類}</td></tr><tr><td>5</td><td>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplMistyStep0]{迷蹤步}</td></tr><tr><td>9</td><td>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplSummonFey0]{精類召喚術}</td></tr><tr><td>13</td><td>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplDimensionD]{次元門}</td></tr><tr><td>17</td><td>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplMislead000]{假象術}</td></tr></tbody></table><p>你還獲得了來自妖精的神奇祝福。你可以從妖精荒野之賜表中自行選擇或隨機決定。</p><p>@Embed[Compendium.dnd-players-handbook.tables.RollTable.phbFeywildGifts0 rollable]</p><section class=\"secret\" id=\"secret-iOmJyauf3eYFUSIM\"><p><strong>Foundry 註記</strong></p><p>法術會隨著你升級時自動獲得。</p></section>"
     },
     "Fiend Patron": {
       "name": "邪魔宗主",
@@ -2416,15 +2416,15 @@
       "description": "<p>你已磨練你的戰鬥技藝並獲得一項你所選擇的@UUID[Compendium.dnd-players-handbook.content.JournalEntry.phbFeats00000000.JournalEntryPage.sbHImaCB8ZMEHYkb]{戰鬥風格專長}。推薦選擇@UUID[Compendium.dnd-players-handbook.feats.Item.phbfstDefense000]。</p><p>每當你獲得戰士等級時，你可以將原專長替換為另一個不同的戰鬥風格專長。</p>"
     },
     "Fleet Step": {
-      "name": "Fleet Step",
-      "description": "<p>When you take a Bonus Action other than Step of the Wind, you can also use Step of the Wind immediately after that Bonus Action.</p>"
+      "name": "流星步",
+      "description": "<p>當你採取疾步如風以外的附贈動作時，你還可以緊接在該附贈動作後使用疾步如風。</p>"
     },
     "Flurry of Healing and Harm": {
-      "name": "Flurry of Healing and Harm",
-      "description": "<p>When you use Flurry of Blows, you can replace each of the Unarmed Strikes with a use of Hand of Healing without expending Focus Points for the healing.</p><p>In addition, when you make an Unarmed Strike with Flurry of Blows and deal damage, you can use Hand of Harm with that strike without expending a Focus Point for Hand of Harm. You can still use Hand of Harm only once per turn.</p><p>You can use these benefits a total number of times equal to your Wisdom modifier (minimum of once). You regain all expended uses when you finish a Long Rest.</p><section id=\"secret-FnxdUfwVso4SoAFQ\" class=\"secret\"><p><strong>Foundry Note</strong></p><p>This feature can be used for tracking your available uses.</p></section>",
+      "name": "生殺予奪",
+      "description": "<p>當你使用疾風連擊時，你可以將每一次徒手打擊都替換為使用予命之手，且無需為予命之手消耗內力。</p><p>此外，當你以疾風連擊發動徒手打擊並造成傷害時，你可以為該次打擊使用奪命之手且無需為奪命之手消耗內力。但你每回合仍然只能使用一次奪命之手。</p><p>你能使用這些好處的總次數等同於你的感知調整值（至少一次）。當你完成長休時，你重獲所有已消耗的使用次數。</p><section id=\"secret-FnxdUfwVso4SoAFQ\" class=\"secret\"><p><strong>Foundry 註記</strong></p><p>此特性可用於追蹤你可用的使用次數。</p></section>",
       "activities": {
         "Expend Use": {
-          "name": "Expend Use"
+          "name": "消耗使用次數"
         }
       }
     },
@@ -2522,34 +2522,34 @@
         "Iron Mind": {
           "title": "鋼鐵意志",
           "hint": "你獲得感知豁免的熟練。若你已擁有此熟練，你可以改為獲得智力或魅力豁免的熟練（由你選擇）。",
-          "name": "Iron Mind"
+          "name": "鋼鐵意志"
         },
         "Dreadful Strike Damage": {
           "title": "恐懼打擊傷害",
-          "name": "Dreadful Strike Damage"
+          "name": "恐懼打擊傷害"
         },
         "Subclass Features": {
           "title": "子職業特性",
-          "name": "Subclass Features"
+          "name": "子職業特性"
         },
         "Gloom Stalker Spells": {
           "title": "幽域追蹤者法術",
-          "name": "Gloom Stalker Spells"
+          "name": "幽域追蹤者法術"
         }
       }
     },
     "Gloom Stalker Spells": {
       "name": "幽域追蹤者法術",
-      "description": "<p>當你達到幽域追蹤者法術表中所述的相應遊俠等級時，你視為始終準備法術表上的法術。</p><table><caption>幽域追蹤者法術</caption><thead><tr><td>遊俠等級</td><td>法術</td></tr></thead><tbody><tr><td>3</td><td>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplDisguiseSe]</td></tr><tr><td>5</td><td>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplRopeTrick0]</td></tr><tr><td>9</td><td>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplFear000000]</td></tr><tr><td>13</td><td>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplGreaterInv]{高等隱形術}</td></tr><tr><td>17</td><td>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplSeeming000]{偽裝術}</td></tr></tbody></table><section class=\"secret\" id=\"secret-1sIvASxNVM40UYVR\"><p><strong>Foundry 註記</strong></p><p><span style=\"font-family:'Roboto Condensed', sans-serif\">法術會隨著你升級時自動獲得。</span></p></section>"
+      "description": "<p>當你達到幽域追蹤者法術表中所述的相應遊俠等級時，你視為始終準備法術表上的法術。</p><table><caption>幽域追蹤者法術</caption><thead><tr><td>遊俠等級</td><td>法術</td></tr></thead><tbody><tr><td>3</td><td>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplDisguiseSe]{易容術}</td></tr><tr><td>5</td><td>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplRopeTrick0]{通天繩}</td></tr><tr><td>9</td><td>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplFear000000]{恐懼術}</td></tr><tr><td>13</td><td>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplGreaterInv]{高等隱形術}</td></tr><tr><td>17</td><td>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplSeeming000]{偽裝術}</td></tr></tbody></table><section class=\"secret\" id=\"secret-1sIvASxNVM40UYVR\"><p><strong>Foundry 註記</strong></p><p><span style=\"font-family:'Roboto Condensed', sans-serif\">法術會隨著你升級時自動獲得。</span></p></section>"
     },
     "Glorious Defense": {
-      "name": "Glorious Defense",
-      "description": "<p>You can turn defense into a sudden strike. When you or another creature you can see within 10 feet of you is hit by an attack roll, you can take a Reaction to grant a bonus to the target’s AC against that attack, potentially causing it to miss. The bonus equals your Charisma modifier (minimum of +1). If the attack misses, you can make one attack with a weapon against the attacker as part of this Reaction if the attacker is within your weapon’s range.</p><p>You can use this feature a number of times equal to your Charisma modifier (minimum of once), and you regain all expended uses when you finish a Long Rest.</p>",
+      "name": "輝煌防禦",
+      "description": "<p>你能在防禦中轉守為攻，對敵人發起突然襲擊。當你或位於你10呎內一名你所能看見的生物被攻擊檢定命中時，你可以採取反應，使目標獲得對抗該次攻擊的一定AC加值，此舉可能使該次攻擊失手。該加值等同於你的魅力調整值（最低+1）。若該次攻擊失手，且攻擊者位於你的武器射程內，作為此反應的一部分，你可以用武器對其進行一次攻擊。</p><p>你能使用此特性的次數等同於你的魅力調整值（最少一次）。當你完成長休時，你重獲所有已消耗的使用次數。</p>",
       "activities": {
         "Glorious Defense": {
-          "name": "Glorious Defense",
-          "roll": "AC Bonus",
-          "condition": "When you or another creature you can see within 10 feet of you is hit by an attack roll"
+          "name": "輝煌防禦",
+          "roll": "AC加值",
+          "condition": "當你或位於你10呎內一名你所能看見的生物被攻擊檢定命中時"
         }
       }
     },
@@ -2635,7 +2635,7 @@
     },
     "Hand of Harm": {
       "name": "奪命之手",
-      "description": "<p>一回合一次，當你使用徒手打擊命中一個生物並造成傷害時，可以消耗1點內力以造成等同於你一顆武藝骰加上你感知調整值的額外黯蝕傷害。</p>",
+      "description": "<p>每回合一次，當你使用徒手打擊命中一個生物並造成傷害時，可以消耗1點內力以造成等同於你一枚武藝骰加上你的感知調整值的額外黯蝕傷害。</p>",
       "activities": {
         "damage": {
           "condition": "每回合一次，當你以徒手打擊命中一個生物並造成傷害時"
@@ -2644,19 +2644,19 @@
     },
     "Hand of Healing": {
       "name": "予命之手",
-      "description": "<p>作為一個魔法動作，你可以消耗1點內力來接觸一個生物，並恢復目標等同於一個你的武藝骰加上你感知調整值的生命值。</p><p>當你使用疾風連擊時，你能在不消耗氣的情況下使用此特性將一次徒手攻擊替換成治療。</p><section id=\"secret-LN6wqVwidwz8lQxo\" class=\"secret\"><p><strong>Foundry 註記</strong></p><p>以此取代徒手打擊的免費使用時，請取消勾選消耗資源的提示。</p></section>",
+      "description": "<p>作為一個魔法動作，你可以消耗1點內力來觸碰一個生物，並恢復目標等同於一枚你的武藝骰加上你的感知調整值的生命值。</p><p>當你使用疾風連擊時，你可以將其中一次徒手打擊替換為使用此特性，且無需為治療消耗內力。</p><section id=\"secret-LN6wqVwidwz8lQxo\" class=\"secret\"><p><strong>Foundry 註記</strong></p><p>以此取代徒手打擊的免費使用時，請取消勾選消耗資源的提示。</p></section>",
       "activities": {
         "Healing Hand": {
-          "name": "Healing Hand"
+          "name": "予命之手"
         }
       }
     },
     "Hand of Ultimate Mercy": {
-      "name": "Hand of Ultimate Mercy",
-      "description": "<p>Your mastery of life energy opens the door to the ultimate mercy. As a Magic action, you can touch the corpse of a creature that died within the past 24 hours and expend 5 Focus Points. The creature then returns to life with a number of Hit Points equal to 4d10 plus your Wisdom modifier. If the creature died with any of the following conditions, the creature revives with the conditions removed: Blinded, Deafened, Paralyzed, Poisoned, and Stunned.</p><p>Once you use this feature, you can't use it again until you finish a Long Rest.</p><section id=\"secret-qP8GEBd6nXKTiRMj\" class=\"secret\"><p><strong>Foundry Note</strong></p><p>This feature includes a single use per Long Rest and a healing roll.</p></section>",
+      "name": "命極之手",
+      "description": "<p>你對生命能量的掌握開啟了通往命流奧義的大門。作為魔法動作，你可以消耗5點內力並觸碰一名死亡不超過24小時的生物屍體。該生物將以等同於4d10 + 你的感知調整值的生命值起死回生。若該生物死前具有任意下列狀態，則該生物復活時這些狀態即被移除：目盲、耳聾、麻痺、中毒、震懾。</p><p>此特性一經使用，直到完成長休前你都無法再次使用。</p><section id=\"secret-qP8GEBd6nXKTiRMj\" class=\"secret\"><p><strong>Foundry 註記</strong></p><p>此特性包含每次長休一次的使用次數，以及一個治療擲骰。</p></section>",
       "activities": {
         "heal": {
-          "target": "died within the past 24 hours"
+          "target": "死亡不超過24小時"
         }
       }
     },
@@ -2692,29 +2692,29 @@
       "description": "<p>戰鬥帶來的快感驅使你向勝利邁進。在戰鬥中，每當你回合開始時沒有英雄激勵，你可以獲得一次。</p>"
     },
     "Holy Nimbus": {
-      "name": "Holy Nimbus",
-      "description": "<p>As a Bonus Action, you can imbue your Aura of Protection with holy power, granting the benefits below for 10 minutes or until you end them (no action required). Once you use this feature, you can’t use it again until you finish a Long Rest. You can also restore your use of it by expending a level 5 spell slot (no action required).</p><p><strong>Holy Ward.</strong> You have Advantage on any saving throw you are forced to make by a Fiend or an Undead.</p><p><strong>Radiant Damage.</strong> Whenever an enemy starts its turn in the aura, that creature takes Radiant damage equal to your Charisma modifier plus your Proficiency Bonus.</p><p><strong>Sunlight.</strong> The aura is filled with Bright Light that is sunlight.</p><section id=\"secret-WendmZ2xiuj3cSwE\" class=\"secret\"><p><strong>Foundry Note</strong></p><p>This feature includes an Active Effect for tracking your Holy Nimbus but it does not automate the Advantage on Saving Throws.</p><p>The <strong>Holy Nimbus</strong> activity includes a damage roll.</p><p>The <strong>Regain Use</strong> activity will consume a 5th level spell slot and restore a use of this feature.</p></section>",
+      "name": "至聖光輪",
+      "description": "<p>作為附贈動作，你可以用聖力盈滿你的守護靈光，靈光獲得下列好處，持續10分鐘或直到你將之提前結束（無需動作）。此特性一經使用，直到完成長休前你都無法再次使用。你也可以消耗一個5環法術位（無需動作）來重置此特性的使用權。</p><p><strong>【至聖守護】</strong>你被邪魔或不死生物迫使進行的任何豁免檢定具有優勢。</p><p><strong>【光耀傷害】</strong>每當敵人在靈光範圍內開始回合時，該生物承受等同於你的魅力調整值 + 你的熟練加值的光耀傷害。</p><p><strong>【陽光】</strong>你的靈光內變為明亮光照，視為陽光。</p><section id=\"secret-WendmZ2xiuj3cSwE\" class=\"secret\"><p><strong>Foundry 註記</strong></p><p>此特性包含一個用於追蹤你的至聖光輪的 Active Effect，但不會自動處理豁免檢定的優勢。</p><p><strong>至聖光輪</strong>行動包含傷害擲骰。</p><p><strong>重獲使用次數</strong>行動會消耗一個5環法術位，並恢復此特性的一次使用次數。</p></section>",
       "activities": {
         "Holy Nimbus": {
-          "name": "Holy Nimbus"
+          "name": "至聖光輪"
         },
         "Regain Use": {
-          "name": "Regain Use"
+          "name": "重獲使用次數"
         }
       },
       "effects": {
         "Holy Nimbus": {
-          "name": "Holy Nimbus"
+          "name": "至聖光輪"
         }
       }
     },
     "Hunter": {
       "name": "獵人",
-      "description": "<blockquote><p>守護自然與眾生不被摧毀</p></blockquote><p>你在荒野和別處追蹤獵物，運用作為獵人的屬性守護自然和各地的人類遠離摧毀力量。</p>",
+      "description": "<blockquote><p>守護自然與眾生不被摧毀</p></blockquote><p>你在荒野和別處追蹤獵物，運用作為獵人的能力守護自然和各地的人類遠離摧毀力量。</p>",
       "advancement": {
         "Subclass Features": {
           "title": "子職業特性",
-          "name": "Subclass Features"
+          "name": "子職業特性"
         }
       }
     },
@@ -2723,8 +2723,8 @@
       "description": "<p>你可以召喚自然神力以顯露獵物的優勢和弱點。當生物被你的<em>獵人印記</em>標記時，你將知曉該生物是否擁有任何免疫、抗力或易傷，以及知曉分別是什麼。</p>"
     },
     "Hunter's Prey": {
-      "name": "狩者獵物",
-      "description": "<p>你獲得下列一項你所選擇的特性。每當你完成短休或長休時，你可以用另一項特性來替換所選特性。</p><p><strong>【斬殺者】</strong>你強而有力的攻擊可以擊倒最強壯的對手。當你以武器命中生物時，若目標失去過任何生命值，則武器額外造成1d8傷害。你每回合只能造成一次此額外傷害。</p><p><strong>【破陣者】</strong>你每回合一次，當你以武器進行攻擊時，你可以用同一武器對武器範圍內位於原目標5呎內的另一個此回合尚未被你攻擊過的不同生物發動一次攻擊。</p><section class=\"secret\" id=\"secret-I2q5Nm7g6mkLjH5Y\"><p><strong>Foundry 註記</strong></p><p>此特性包含一個<strong>斬殺者</strong>行動，用於額外傷害。你可以在擲骰對話框中選擇正確的傷害類型。</p><p>選擇<strong>破陣者</strong>時，只需再進行一次攻擊即可。</p></section>",
+      "name": "獵殺技藝",
+      "description": "<p>你獲得下列一項你所選擇的特性。每當你完成短休或長休時，你可以用另一項特性來替換所選特性。</p><p><strong>【巨像屠夫】</strong>你強而有力的攻擊可以擊倒最強壯的對手。當你以武器命中生物時，若目標失去過任何生命值，則武器額外造成1d8傷害。你每回合只能造成一次此額外傷害。</p><p><strong>【滅族者】</strong>你每回合一次，當你以武器進行攻擊時，你可以用同一武器對武器範圍內位於原目標5呎內的另一個此回合尚未被你攻擊過的不同生物發動一次攻擊。</p><section class=\"secret\" id=\"secret-I2q5Nm7g6mkLjH5Y\"><p><strong>Foundry 註記</strong></p><p>此特性包含一個<strong>巨像屠夫</strong>行動，用於額外傷害。你可以在擲骰對話框中選擇正確的傷害類型。</p><p>選擇<strong>滅族者</strong>時，只需再進行一次攻擊即可。</p></section>",
       "activities": {
         "damage": {
           "condition": "每回合一次當你以武器命中一個生物時"
@@ -2875,12 +2875,12 @@
       "description": "<p>你施放幻術學派法術時無需聲音構材，且若你施放的幻術學派法術的射程不小於10呎，則其射程增加60呎。</p><p>你同時知曉@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplMinorIllus]{次級幻象}戲法。若你已經知曉了此戲法，則你習得另一道你選擇的法師戲法。此戲法不計入你的已知戲法數。當你施放次級幻象時，可以在一次施法中同時創造出聲音和影像，並且你能以一個附贈動作施放該戲法。</p><section id=\"secret-bPvrTfqAh0Wge0x9\" class=\"secret\"><p><strong>Foundry 註記</strong></p><p>次級幻象戲法會在你升級時加入你的角色卡。</p></section>"
     },
     "Improved Shadow Step": {
-      "name": "Improved Shadow Step",
-      "description": "<p>You can draw on your Shadowfell connection to empower your teleportation. When you use your Shadow Step, you can expend 1 Focus Point to remove the requirement that you must start and end in Dim Light or Darkness for that use of the feature. As part of this Bonus Action, you can make an Unarmed Strike immediately after you teleport.</p><section id=\"secret-YgbNq427MgTSg20W\" class=\"secret\"><p><strong>Foundry Note</strong></p><p>This feature includes an activity which will expend a Focus Point.</p></section>",
+      "name": "無影步",
+      "description": "<p>你可以利用與墮影冥界的連結來增強自己的傳送能力。當你使用暗影步特性時，你可以消耗1點內力，移除該次使用時開始和結束時對微光光照或黑暗環境的要求。此外，作為此附贈動作的一部分，你可以緊接在傳送之後進行一次徒手打擊。</p><section id=\"secret-YgbNq427MgTSg20W\" class=\"secret\"><p><strong>Foundry 註記</strong></p><p>此特性包含一個會消耗1點內力的行動。</p></section>",
       "activities": {
         "Improved Shadow Step": {
-          "name": "Improved Shadow Step",
-          "target": "Unoccupied space"
+          "name": "無影步",
+          "target": "未佔據空間"
         }
       }
     },
@@ -2940,11 +2940,11 @@
       }
     },
     "Inspiring Smite": {
-      "name": "Inspiring Smite",
-      "description": "<p>緊接在你施放@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplDivineSmit]後，你可以消耗一次引導神力，並將臨時生命值分配給你自身30呎內你所選擇的生物（可以包括你自身）。臨時生命值的總值等同於2d8 + 你的聖騎士等級，由你隨意為所選生物分配臨時生命值。</p>",
+      "name": "鼓舞斬",
+      "description": "<p>緊接在你施放@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplDivineSmit]{至聖斬}後，你可以消耗一次引導神力，並將臨時生命值分配給你自身30呎內你所選擇的生物（可以包括你自身）。臨時生命值的總值等同於2d8 + 你的聖騎士等級，由你隨意為所選生物分配臨時生命值。</p>",
       "activities": {
         "heal": {
-          "condition": "Immediately after you cast Divine Smite"
+          "condition": "緊接在你施放至聖斬後"
         }
       }
     },
@@ -3076,8 +3076,8 @@
       }
     },
     "Iron Mind": {
-      "name": "Iron Mind",
-      "description": "<p>You have honed your ability to resist mind-altering powers. You gain proficiency in Wisdom saving throws. If you already have this proficiency, you instead gain proficiency in Intelligence or Charisma saving throws (your choice).</p><section id=\"secret-5dqxmon9VZi1vCwf\" class=\"secret\"><p><strong>Foundry Note</strong></p><p>When you gain this feature during advancement you will be prompted to choose your Saving Throw. You should select Wisdom unless you are already proficient in it.</p></section>"
+      "name": "鋼鐵意志",
+      "description": "<p>你已經磨練出了抵禦精神影響的能力。你獲得感知豁免的熟練。若你已擁有此熟練，你可以改為獲得智力或魅力豁免的熟練（由你選擇）。</p><section id=\"secret-5dqxmon9VZi1vCwf\" class=\"secret\"><p><strong>Foundry 註記</strong></p><p>當你在升級時獲得此特性，系統會提示你選擇豁免檢定。除非你已熟練感知豁免，否則應選擇感知。</p></section>"
     },
     "Jack of All Trades": {
       "name": "全能高手",
@@ -3182,17 +3182,17 @@
       "description": "<p>你與此神聖領域的連結保證你始終準備特定法術。當你達到光明領域法術列表上指定的牧師等級時，你視為始終準備法術表上的法術。</p><table><caption>光明領域法術</caption><thead><tr><td>牧師等級</td><td>準備法術</td></tr></thead><tbody><tr><td>3</td><td>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplBurningHan]{燃燒之手}、@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplFaerieFire]{妖火術}、@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplScorchingR]{灼熱射線}、@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplSeeInvisib]{識破隱形}</td></tr><tr><td>5</td><td>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplDaylight00]{晝明術}、@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplFireball00]{火球術}</td></tr><tr><td>7</td><td>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplArcaneEye0]{祕法眼}、@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplWallofFire]{火牆術}</td></tr><tr><td>9</td><td>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplFlameStrik]{焰擊術}、@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplScrying000]{探知}</td></tr></tbody></table><section class=\"secret\" id=\"secret-gGmJsB1mwI4zNuDh\"><p><strong>Foundry 註記</strong></p><p>這些法術將在你升級時自動獲得。</p></section>"
     },
     "Living Legend": {
-      "name": "Living Legend",
-      "description": "<p>You can empower yourself with the legends—whether true or exaggerated—of your great deeds. As a Bonus Action, you gain the benefits below for 10 minutes. Once you use this feature, you can’t use it again until you finish a Long Rest. You can also restore your use of it by expending a level 5 spell slot (no action required).</p><p><strong>Charismatic.</strong> You are blessed with an otherworldly presence and have Advantage on all Charisma checks.</p><p><strong>Saving Throw Reroll.</strong> If you fail a saving throw, you can take a Reaction to reroll it. You must use this new roll.</p><p><strong>Unerring Strike.</strong> Once on each of your turns when you make an attack roll with a weapon and miss, you can cause that attack to hit instead.</p><section class=\"secret\" id=\"secret-mhBj862IzYiWQQ5P\"><p><strong>Foundry Note</strong></p><p>This feature includes an Active Effect which can be used for tracking but the above benefits are not automated.</p><p>The <strong>Reroll Saving Throw</strong> activity is just for tracking Reaction use.</p><p>The <strong>Restore Use</strong> activity can be used to consume a 5th level slot and restore a use of this feature.</p></section>",
+      "name": "現世傳說",
+      "description": "<p>你能夠以自身偉業的傳說使自己變得強大——無論是確有此事，抑或誇大其詞。作為附贈動作，你獲得下列好處，持續10分鐘。此特性一經使用，直到完成長休前你都無法再次使用。你也可以消耗一個5環法術位（無需動作）來重置此特性的使用權。</p><p><strong>【神眷天恩】</strong>你獲得異界般的氣場，在所有魅力檢定上獲得優勢。</p><p><strong>【重擲豁免】</strong>當你進行一次豁免檢定並失敗時，你可以採取反應重擲之。你必須使用重擲的結果。</p><p><strong>【無誤打擊】</strong>每個自己回合一次，當你進行一次武器攻擊檢定且失手時，你可以使該次攻擊改為命中。</p><section class=\"secret\" id=\"secret-mhBj862IzYiWQQ5P\"><p><strong>Foundry 註記</strong></p><p>此特性包含一個會自動處理所有魅力檢定優勢、也可用於追蹤的 Active Effect，但其他好處不會自動處理。</p><p><strong>重擲豁免</strong>行動僅用於追蹤反應的使用。</p><p><strong>恢復使用次數</strong>行動可用於消耗一個5環法術位，並恢復此特性的一次使用次數。</p></section>",
       "activities": {
         "Reroll Saving Throw": {
-          "name": "Reroll Saving Throw"
+          "name": "重擲豁免"
         },
         "Empower Self": {
-          "name": "Empower Self"
+          "name": "強化自身"
         },
         "Restore Use": {
-          "name": "Restore Use"
+          "name": "恢復使用次數"
         }
       },
       "effects": {
@@ -3200,8 +3200,8 @@
           "name": "Living Legend"
         },
         "Living Legend: Charismatic": {
-          "description": "<p>You are blessed with an otherworldly presence and have Advantage on all Charisma checks.</p>",
-          "name": "Living Legend: Charismatic"
+          "description": "<p>你獲得異界般的氣場，在所有魅力檢定上獲得優勢。</p>",
+          "name": "現世傳說：神眷天恩"
         }
       }
     },
@@ -3433,11 +3433,11 @@
       "description": "<blockquote><p>先決條件：契術師等級2以上</p></blockquote><p>你可以不消耗法術位施放@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplSilentImag]{無聲幻影}。</p><hr /><p>@Embed[Compendium.dnd-players-handbook.spells.Item.phbsplSilentImag inline]</p>"
     },
     "Misty Wanderer": {
-      "name": "Misty Wanderer",
-      "description": "<p>You can cast @UUID[Compendium.dnd-players-handbook.spells.Item.phbsplMistyStep0]{迷蹤步} without expending a spell slot. You can do so a number of times equal to your Wisdom modifier (minimum of once), and you regain all expended uses when you finish a Long Rest.</p><p>In addition, whenever you cast <em>迷蹤步</em>, you can bring along one willing creature you can see within 5 feet of yourself. That creature teleports to an unoccupied space of your choice within 5 feet of your destination space.</p><section id=\"secret-ZBwLFJ6wcrANu0xZ\" class=\"secret\"><p><strong>Foundry Note</strong></p><p>This feature can be used for tracking your limited uses. Then you can cast the spell normally and uncheck the \"Consumption\" box.</p></section>",
+      "name": "霧行漫遊",
+      "description": "<p>你可以不消耗法術位施放@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplMistyStep0]{迷蹤步}。你可以這麼做的次數等同於你的感知調整值（至少一次），當你完成長休時，你重獲所有已消耗的使用次數。</p><p>另外，每當你施放<em>迷蹤步</em>時，你可以攜帶一名位於你5呎內你所能看見的自願生物與你一同傳送。該生物會被傳送到由你選擇、位於你的目標位置5呎內的一處未佔據空間。</p><section id=\"secret-ZBwLFJ6wcrANu0xZ\" class=\"secret\"><p><strong>Foundry 註記</strong></p><p>此特性可用於追蹤你有限的使用次數。接著你可以正常施放該法術，並取消勾選「消耗」框。</p></section>",
       "activities": {
         "Wander": {
-          "name": "Wander"
+          "name": "漫遊"
         }
       }
     },
@@ -3625,85 +3625,85 @@
       }
     },
     "Nature's Wrath": {
-      "name": "Nature's Wrath",
-      "description": "<p>As a Magic action, you can expend one use of your Channel Divinity to conjure spectral vines around nearby creatures. Each creature of your choice that you can see within 15 feet of yourself must succeed on a Strength saving throw or have the Restrained condition for 1 minute. A Restrained creature repeats the save at the end of each of its turns, ending the effect on itself on a success.</p><section id=\"secret-0hFWoWfW8qGxYckC\" class=\"secret\"><p><strong>Foundry Note</strong></p><p>This feature includes an Active Effect which applies the Restrained condition.</p></section>",
+      "name": "自然之怒",
+      "description": "<p>作為魔法動作，你可以消耗一次引導神力使用次數，喚出靈體藤蔓纏繞周圍的生物。位於你15呎內你所能看見且你所選擇的每個生物，都必須成功通過一次力量豁免檢定，否則陷入束縛狀態持續1分鐘。被束縛的生物可以在其每個回合結束時重複該豁免，豁免成功時結束其身上的該效應。</p><section id=\"secret-0hFWoWfW8qGxYckC\" class=\"secret\"><p><strong>Foundry 註記</strong></p><p>此特性包含一個會施加束縛狀態的 Active Effect。</p></section>",
       "effects": {
         "Nature's Wrath": {
-          "name": "Nature's Wrath"
+          "name": "自然之怒"
         }
       }
     },
     "Oath of Devotion": {
       "name": "奉獻之誓",
-      "description": "<blockquote><p>Uphold the Ideals of Justice and Order</p></blockquote><p>The Oath of Devotion binds Paladins to the ideals of justice and order. These Paladins meet the archetype of the knight in shining armor. They hold themselves to the highest standards of conduct, and some—for better or worse—hold the rest of the world to the same standards.</p><p>Many who swear this oath are devoted to gods of law and good and use their gods’ tenets as the measure of personal devotion. Others hold angels as their ideals and incorporate images of angelic wings into their helmets or coats of arms.</p><p>These paladins share the following tenets:</p><ul><li>Let your word be your promise.</li><li>Protect the weak and never fear to act.</li><li>Let your honorable deeds be an example.</li></ul>",
+      "description": "<blockquote><p>當仁不讓知行正</p></blockquote><p>奉獻之誓讓聖騎士和正義與秩序的崇高理念連為一體。他們是身披閃亮的盔甲的正派騎士形象代表。他們嚴於律己，某些成員甚至會過於嚴苛地對待他人。</p><p>追隨該誓言的許多聖騎士都獻身於守序和善良的神祇，並將其所奉神祇的信條視作奉獻的標準。另一些人將天使視作其典範，並在頭盔或罩袍上飾以天使羽翼的形象。</p><p>立下此誓言的聖騎士都秉持下列信條：</p><ul><li>言出必行</li><li>扶危濟困</li><li>以身作則</li></ul>",
       "advancement": {
         "Subclass Features": {
           "title": "子職業特性",
-          "name": "Subclass Features"
+          "name": "子職業特性"
         },
         "Oath of Devotion Spells": {
           "title": "Oath of Devotion Spells",
-          "name": "Oath of Devotion Spells"
+          "name": "奉獻之誓法術"
         }
       }
     },
     "Oath of Devotion Spells": {
       "name": "奉獻之誓法術",
-      "description": "<p>The magic of your oath ensures you always have certain spells ready; when you reach a Paladin level specified in the Oath of Devotion Spells table, 你視為始終準備法術表上的法術。</p><table><caption>Oath of Devotion Spells</caption><thead><tr><td>Paladin Level</td><td>Spells</td></tr></thead><tbody><tr><td>3</td><td>@UUID[Compendium.dnd-players-handbook.spells.Item.phbEvilAndGoodPr]{Protection from Evil and Good}、@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplShieldofFa]{Shield of Faith}</td></tr><tr><td>5</td><td>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplAid0000000]{援助術}、@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplZoneofTrut]{Zone of Truth}</td></tr><tr><td>9</td><td>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplBeaconofHo]{Beacon of Hope}、@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplDispelMagi]{Dispel Magic}</td></tr><tr><td>13</td><td>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplFreedomofM]{Freedom of Movement}、@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplGuardianof]{虔誠守衛}</td></tr><tr><td>17</td><td>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplCommune000]{Commune}、@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplFlameStrik]{Flame Strike}</td></tr></tbody></table><section class=\"secret\" id=\"secret-BJb1nvUMxSS77zuz\"><p><strong>Foundry Note</strong></p><p>法術會隨著你升級時自動獲得。</p></section>"
+      "description": "<p>你誓言具有的魔法使你始終準備著特定的法術。當你達到奉獻之誓法術表中特定的聖騎士等級時，你就始終準備著表中對應的法術。</p><table><caption>奉獻之誓法術</caption><thead><tr><td>聖騎士等級</td><td>準備法術</td></tr></thead><tbody><tr><td>3</td><td>@UUID[Compendium.dnd-players-handbook.spells.Item.phbEvilAndGoodPr]{防護善惡}、@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplShieldofFa]{虔誠護盾}</td></tr><tr><td>5</td><td>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplAid0000000]{援助術}、@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplZoneofTrut]{誠實之域}</td></tr><tr><td>9</td><td>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplBeaconofHo]{希望信標}、@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplDispelMagi]{解除魔法}</td></tr><tr><td>13</td><td>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplFreedomofM]{行動自如術}、@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplGuardianof]{虔誠守衛}</td></tr><tr><td>17</td><td>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplCommune000]{通神術}、@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplFlameStrik]{焰擊術}</td></tr></tbody></table><section class=\"secret\" id=\"secret-BJb1nvUMxSS77zuz\"><p><strong>Foundry 註記</strong></p><p>這些法術將在你升級時自動獲得。</p></section>"
     },
     "Oath of Glory": {
       "name": "榮耀之誓",
-      "description": "<blockquote><p>Strive for the Heights of Heroism</p></blockquote><p>Paladins who take the Oath of Glory believe they and their companions are destined to achieve glory through deeds of heroism. They train diligently and encourage their companions, so they’re all ready when destiny calls.</p><p>These paladins share the following tenets:</p><ul><li>Endeavor to be known by your deeds.</li><li>Face hardships with courage.</li><li>Inspire others to strive for glory.</li></ul>",
+      "description": "<blockquote><p>砥身勵行蜚聲英</p></blockquote><p>立下榮耀之誓的聖騎士堅信他們將與同伴命中註定一起達成英勇的偉業。他們將刻苦訓練，砥礪前行，從而確保當命運決定的時刻到來之際，他們都已有所準備。</p><p>立下此誓言的聖騎士都秉持下列信條：</p><ul><li>力爭上游</li><li>勇往直前</li><li>振奮人心</li></ul>",
       "advancement": {
         "Oath of Glory Spells": {
           "title": "Oath of Glory Spells",
-          "name": "Oath of Glory Spells"
+          "name": "榮耀之誓法術"
         },
         "Subclass Features": {
           "title": "子職業特性",
-          "name": "Subclass Features"
+          "name": "子職業特性"
         }
       }
     },
     "Oath of Glory Spells": {
       "name": "榮耀之誓法術",
-      "description": "<p>The magic of your oath ensures you always have certain spells ready; when you reach a Paladin level specified in the Oath of Glory Spells table, 你視為始終準備法術表上的法術。</p><table><caption>Oath of Glory Spells</caption><thead><tr><td>Paladin Level</td><td>Spells</td></tr></thead><tbody><tr><td>3</td><td>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplGuidingBol]{光導箭}、@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplHeroism000]{Heroism}</td></tr><tr><td>5</td><td>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplEnhanceAbi]{Enhance Ability}、@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplMagicWeapo]{Magic Weapon}</td></tr><tr><td>9</td><td>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplHaste00000]{Haste}、@UUID[Compendium.dnd-players-handbook.spells.Item.phbProtectionFro]{Protection from Energy}</td></tr><tr><td>13</td><td>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplCompulsion]{Compulsion}、@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplFreedomofM]{Freedom of Movement}</td></tr><tr><td>17</td><td>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplLegendLore]{Legend Lore}、@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplYolandesRe]{Yolande’s Regal Presence}</td></tr></tbody></table><section class=\"secret\" id=\"secret-az07CRGGmv4y8sVC\"><p><strong>Foundry Note</strong></p><p>法術會隨著你升級時自動獲得。</p></section>"
+      "description": "<p>你誓言具有的魔法使你始終準備著特定的法術。當你達到榮耀之誓法術表中特定的聖騎士等級時，你就始終準備著表中對應的法術。</p><table><caption>榮耀之誓法術</caption><thead><tr><td>聖騎士等級</td><td>準備法術</td></tr></thead><tbody><tr><td>3</td><td>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplGuidingBol]{光導箭}、@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplHeroism000]{英雄氣概}</td></tr><tr><td>5</td><td>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplEnhanceAbi]{強化屬性}、@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplMagicWeapo]{魔化武器}</td></tr><tr><td>9</td><td>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplHaste00000]{加速術}、@UUID[Compendium.dnd-players-handbook.spells.Item.phbProtectionFro]{防護能量}</td></tr><tr><td>13</td><td>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplCompulsion]{強迫術}、@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplFreedomofM]{行動自如術}</td></tr><tr><td>17</td><td>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplLegendLore]{通曉傳奇}、@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplYolandesRe]{悠蘭德王者威儀}</td></tr></tbody></table><section class=\"secret\" id=\"secret-az07CRGGmv4y8sVC\"><p><strong>Foundry 註記</strong></p><p>這些法術將在你升級時自動獲得。</p></section>"
     },
     "Oath of the Ancients": {
       "name": "遠古之誓",
-      "description": "<blockquote><p>Preserve Life and Light in the World</p></blockquote><p>The Oath of the Ancients is as old as the first elves. Paladins who swear this oath cherish the light; they love the beautiful and life-giving things of the world more than any principles of honor, courage, and justice. They often adorn their armor and clothing with images of growing things—leaves, antlers, or flowers—to reflect their commitment to preserving life and light.</p><p>These paladins share the following tenets:</p><ul><li>Kindle the light of hope.</li><li>Shelter life.</li><li>Delight in art and laughter.</li></ul>",
+      "description": "<blockquote><p>護生驅暗濟世界</p></blockquote><p>遠古之誓存在的時間與最初的精靈一族的歷史相仿。他們發誓捍衛光明的存在。他們熱愛世界上的美與帶來生命的事物，更甚於榮耀、勇氣和正義。他們在盔甲和服飾上飾以樹葉、鹿角、花朵等等生機勃勃的紋樣，以象徵自己立下承諾保護世上的生命與光明。</p><p>立下此誓言的聖騎士都秉持下列信條：</p><ul><li>點亮希望</li><li>庇護生命</li><li>樂人之樂</li></ul>",
       "advancement": {
         "Oath of the Ancients Spells": {
           "title": "Oath of the Ancients Spells",
-          "name": "Oath of the Ancients Spells"
+          "name": "遠古之誓法術"
         },
         "Subclass Features": {
           "title": "子職業特性",
-          "name": "Subclass Features"
+          "name": "子職業特性"
         }
       }
     },
     "Oath of the Ancients Spells": {
       "name": "遠古之誓法術",
-      "description": "<p>The magic of your oath ensures you always have certain spells ready; when you reach a Paladin level specified in the Oath of the Ancients Spells table, 你視為始終準備法術表上的法術。</p><table><caption>Oath of the Ancients</caption><thead><tr><td>Paladin Level</td><td>Spells</td></tr></thead><tbody><tr><td>3</td><td>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplEnsnaringS]{Ensnaring Strike}、@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplSpeakwithA]{Speak with Animals}</td></tr><tr><td>5</td><td>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplMistyStep0]{迷蹤步}、@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplMoonbeam00]{Moonbeam}</td></tr><tr><td>9</td><td>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplPlantGrowt]{植物滋長}、@UUID[Compendium.dnd-players-handbook.spells.Item.phbProtectionFro]{Protection from Energy}</td></tr><tr><td>13</td><td>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplIceStorm00]{Ice Storm}、@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplStoneskin0]{Stoneskin}</td></tr><tr><td>17</td><td>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplCommunewit]{Commune with Nature}、@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplTreeStride]{Tree Stride}</td></tr></tbody></table><section class=\"secret\" id=\"secret-T4Lyq3RpPYOb6FaN\"><p><strong>Foundry Note</strong></p><p>法術會隨著你升級時自動獲得。</p></section>"
+      "description": "<p>你誓言具有的魔法使你始終準備著特定的法術。當你達到遠古之誓法術表中特定的聖騎士等級時，你就始終準備著表中對應的法術。</p><table><caption>遠古之誓法術</caption><thead><tr><td>聖騎士等級</td><td>準備法術</td></tr></thead><tbody><tr><td>3</td><td>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplEnsnaringS]{誘捕打擊}、@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplSpeakwithA]{動物交談術}</td></tr><tr><td>5</td><td>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplMistyStep0]{迷蹤步}、@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplMoonbeam00]{月華之光}</td></tr><tr><td>9</td><td>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplPlantGrowt]{植物滋長}、@UUID[Compendium.dnd-players-handbook.spells.Item.phbProtectionFro]{防護能量}</td></tr><tr><td>13</td><td>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplIceStorm00]{冰風暴}、@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplStoneskin0]{石膚術}</td></tr><tr><td>17</td><td>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplCommunewit]{問道自然}、@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplTreeStride]{樹躍術}</td></tr></tbody></table><section class=\"secret\" id=\"secret-T4Lyq3RpPYOb6FaN\"><p><strong>Foundry 註記</strong></p><p>這些法術將在你升級時自動獲得。</p></section>"
     },
     "Oath of Vengeance": {
       "name": "復仇之誓",
-      "description": "<blockquote><p>Punish Evildoers at Any Cost</p></blockquote><p>The Oath of Vengeance is a solemn commitment to punish those who have committed grievously evil acts. When evil armies slaughter helpless villagers, when a tyrant defies the will of the gods, when a thieves’ guild grows too violent, when a dragon rampages through the countryside—at times like these, paladins arise and swear an Oath of Vengeance to set right what has gone wrong.</p><p>These paladins share the following tenets:</p><ul><li>Show the wicked no mercy.</li><li>Fight injustice and its causes.</li><li>Aid those harmed by injustice.</li></ul>",
+      "description": "<blockquote><p>鐵面無情伏妖魔</p></blockquote><p>復仇之誓，是立誓懲戒那些嚴重罪行的莊嚴承諾。當邪惡勢力屠殺無助居民，當暴君背離諸神意志，當某個盜賊行會過於強橫霸道，當恐怖巨龍橫行鄉野——每當這種時刻，復仇之誓的聖騎士就會出現來撥亂反正。</p><p>立下此誓言的聖騎士都秉持下列信條：</p><ul><li>除惡務盡</li><li>直面不義</li><li>亡羊補牢</li></ul>",
       "advancement": {
         "Subclass Features": {
           "title": "子職業特性",
-          "name": "Subclass Features"
+          "name": "子職業特性"
         },
         "Oath of Vengeance Spells": {
           "title": "Oath of Vengeance Spells",
-          "name": "Oath of Vengeance Spells"
+          "name": "復仇之誓法術"
         }
       }
     },
     "Oath of Vengeance Spells": {
       "name": "復仇之誓法術",
-      "description": "<p>The magic of your oath ensures you always have certain spells ready; when you reach a Paladin level specified in the Oath of Vengeance Spells table, 你視為始終準備法術表上的法術。</p><table><caption>Oath of Vengeance</caption><thead><tr><td>Paladin Level</td><td>Spells</td></tr></thead><tbody><tr><td>3</td><td>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplBane000000]{Bane}、@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplHuntersMar]{Hunter’s Mark}</td></tr><tr><td>5</td><td>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplHoldPerson]{Hold Person}、@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplMistyStep0]{迷蹤步}</td></tr><tr><td>9</td><td>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplHaste00000]{Haste}、@UUID[Compendium.dnd-players-handbook.spells.Item.phbProtectionFro]{Protection from Energy}</td></tr><tr><td>13</td><td>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplBanishment]{Banishment}、@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplDimensionD]{Dimension Door}</td></tr><tr><td>17</td><td>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplHoldMonste]{Hold Monster}、@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplScrying000]{Scrying}</td></tr></tbody></table><section class=\"secret\" id=\"secret-ARuMZTj8D6EPgcw7\"><p><strong>Foundry Note</strong></p><p>法術會隨著你升級時自動獲得。</p></section>"
+      "description": "<p>你誓言具有的魔法使你始終準備著特定的法術。當你達到復仇之誓法術表中特定的聖騎士等級時，你就始終準備著表中對應的法術。</p><table><caption>復仇之誓法術</caption><thead><tr><td>聖騎士等級</td><td>準備法術</td></tr></thead><tbody><tr><td>3</td><td>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplBane000000]{災禍術}、@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplHuntersMar]{獵人印記}</td></tr><tr><td>5</td><td>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplHoldPerson]{人類定身術}、@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplMistyStep0]{迷蹤步}</td></tr><tr><td>9</td><td>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplHaste00000]{加速術}、@UUID[Compendium.dnd-players-handbook.spells.Item.phbProtectionFro]{防護能量}</td></tr><tr><td>13</td><td>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplBanishment]{放逐術}、@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplDimensionD]{次元門}</td></tr><tr><td>17</td><td>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplHoldMonste]{怪物定身術}、@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplScrying000]{探知}</td></tr></tbody></table><section class=\"secret\" id=\"secret-ARuMZTj8D6EPgcw7\"><p><strong>Foundry 註記</strong></p><p>這些法術將在你升級時自動獲得。</p></section>"
     },
     "Oceanic Gift": {
       "name": "大洋贈禮",
@@ -3736,33 +3736,33 @@
     },
     "Open Hand Technique": {
       "name": "散打技巧",
-      "description": "<p>每當你使用疾風連擊的攻擊命中一個生物時，你可以強迫其承受下列效果之一：</p><p><strong>【慌神】</strong>目標直到你的下個回合結束前都不能做出藉機攻擊。</p><p><strong>【推離】</strong>目標必須成功通過一次力量豁免，否則將被推離最多15呎。</p><p><strong>【失衡】</strong>目標必須成功通過一次敏捷豁免，否則將被擊倒伏地。</p><section id=\"secret-4BkgU26V2trst09S\" class=\"secret\"><p><strong>Foundry 註記</strong></p><p><strong>慌神</strong>行動包含一個用來追蹤受慌神影響之目標的 Active Effect。</p><p><strong>失衡</strong>行動包含一個會施加伏地狀態的 Active Effect。</p></section>",
+      "description": "<p>每當你使用疾風連擊的攻擊命中一個生物時，你可以強迫其承受下列效果之一：</p><p><strong>【慌神】</strong>目標直到其下個回合開始前無法進行藉機攻擊。</p><p><strong>【推離】</strong>目標必須成功通過一次力量豁免檢定，否則將被推離你至多15呎。</p><p><strong>【失衡】</strong>目標必須成功通過一次敏捷豁免，否則陷入伏地狀態。</p><section id=\"secret-4BkgU26V2trst09S\" class=\"secret\"><p><strong>Foundry 註記</strong></p><p><strong>慌神</strong>行動包含一個用來追蹤受慌神影響之目標的 Active Effect。</p><p><strong>失衡</strong>行動包含一個會施加伏地狀態的 Active Effect。</p></section>",
       "activities": {
         "Topple": {
-          "condition": "Whenever you hit a creature with an attack granted by your Flurry of Blows",
-          "name": "Topple"
+          "condition": "每當你使用疾風連擊的攻擊命中一個生物時",
+          "name": "失衡"
         },
         "Addle": {
-          "name": "Addle",
-          "condition": "Whenever you hit a creature with an attack granted by your Flurry of Blows"
+          "name": "慌神",
+          "condition": "每當你使用疾風連擊的攻擊命中一個生物時"
         },
         "Push": {
-          "name": "Push",
-          "condition": "Whenever you hit a creature with an attack granted by your Flurry of Blows"
+          "name": "推離",
+          "condition": "每當你使用疾風連擊的攻擊命中一個生物時"
         }
       },
       "effects": {
         "Addled": {
-          "name": "Addled"
+          "name": "慌神"
         },
         "Toppled": {
-          "name": "Toppled"
+          "name": "失衡"
         }
       }
     },
     "Otherworldly Glamour": {
       "name": "異界魅影",
-      "description": "<p>每當你進行魅力檢定時，你都能在檢定中獲得等同於你感知調整值的加值（至少+1）。</p><p>你還將獲得這些技能中一項你所選擇的技能：欺瞞、表演或遊說。</p><section id=\"secret-G1217mPhZSkH8hBY\" class=\"secret\"><p><strong>Foundry 註記</strong></p><p>此特性包含一個 Active Effect，會自動將加值加入你的魅力檢定。</p><p>你會在等級提升時被提示選擇你的熟練項目。</p></section>",
+      "description": "<p>每當你進行魅力檢定時，你都能在檢定中獲得等同於你感知調整值的加值（至少+1）。</p><p>你還將獲得這些技能中你所選擇的一項熟練：欺瞞、表演或說服。</p><section id=\"secret-G1217mPhZSkH8hBY\" class=\"secret\"><p><strong>Foundry 註記</strong></p><p>此特性包含一個 Active Effect，會自動將加值加入你的魅力檢定。</p><p>你會在等級提升時被提示選擇你的熟練項目。</p></section>",
       "effects": {
         "Glamorous": {
           "name": "光彩奪目"
@@ -3906,7 +3906,7 @@
       "advancement": {
         "Subclass Features": {
           "title": "子職業特性",
-          "name": "Subclass Features"
+          "name": "子職業特性"
         }
       }
     },
@@ -3953,12 +3953,12 @@
       }
     },
     "Peerless Athlete": {
-      "name": "Peerless Athlete",
-      "description": "<p>As a Bonus Action, you can expend one use of your Channel Divinity to augment your athleticism. For 1 hour, you have Advantage on Strength (Athletics) and Dexterity (Acrobatics) checks, and the distance of your Long and High Jumps increases by 10 feet (this extra distance costs movement as normal).</p>",
+      "name": "絕倫健將",
+      "description": "<p>作為附贈動作，你可以消耗一次引導神力使用次數以增強運動能力。1小時內，你在力量（運動）檢定和敏捷（特技）檢定上獲得優勢，且你跳遠和跳高的距離增加10呎（你依然為此額外距離正常消耗移動力）。</p>",
       "effects": {
         "Peerless Athlete": {
-          "name": "Peerless Athlete",
-          "description": "<p>For 1 hour, you have Advantage on Strength (Athletics) and Dexterity (Acrobatics) checks, and the distance of your Long and High Jumps increases by 10 feet (this extra distance costs movement as normal).</p>"
+          "name": "絕倫健將",
+          "description": "<p>1小時內，你在力量（運動）檢定和敏捷（特技）檢定上獲得優勢，且你跳遠和跳高的距離增加10呎（你依然為此額外距離正常消耗移動力）。</p>"
         }
       }
     },
@@ -3999,15 +3999,15 @@
       }
     },
     "Physician's Touch": {
-      "name": "Physician's Touch",
-      "description": "<p>Your Hand of Harm and Hand of Healing improve, as detailed below.</p><p><strong>Hand of Harm.</strong> When you use Hand of Harm on a creature, you can also give that creature the Poisoned condition until the end of your next turn.</p><p><strong>Hand of Healing.</strong> When you use Hand of Healing, you can also end one of the following conditions on the creature you heal: Blinded, Deafened, Paralyzed, Poisoned, or Stunned.</p><section id=\"secret-0OzKGSx4PSkIO5se\" class=\"secret\"><p><strong>Foundry Note</strong></p><p>You can use the <strong>Hand of Harm</strong> and <strong>Hand of Healing</strong> activities on this feature going forward. <strong>Hand of Harm</strong> includes an Active Effect which will apply the Poisoned status.</p></section>",
+      "name": "生死之觸",
+      "description": "<p>你的奪命之手和予命之手獲得強化，具體內容見下。</p><p><strong>【奪命之手】</strong>當你對一名生物使用奪命之手時，你還可以使該生物陷入&amp;Reference[Poisoned apply=false]{中毒}狀態，直到你的下個回合結束。</p><p><strong>【予命之手】</strong>當你使用予命之手時，你還可以結束你所治療生物身上的下列狀態之一：目盲、耳聾、麻痺、中毒或震懾。</p><section class=\"secret\" id=\"secret-0OzKGSx4PSkIO5se\"><p><strong>Foundry 註記</strong></p><p>你之後可以使用此特性上的<strong>奪命之手</strong>與<strong>予命之手</strong>行動。<strong>奪命之手</strong>包含一個會施加中毒狀態的 Active Effect。</p></section>",
       "activities": {
         "Hand of Harm": {
-          "name": "Hand of Harm",
-          "condition": "Once per turn when you hit a creature with an Unarmed Strike and deal damage"
+          "name": "奪命之手",
+          "condition": "每回合一次，當你以徒手打擊命中一個生物並造成傷害時"
         },
         "Healing Hand": {
-          "name": "Healing Hand"
+          "name": "予命之手"
         }
       },
       "effects": {
@@ -4015,7 +4015,7 @@
           "name": "Physician's Touch: Hand of Harm"
         },
         "Poisoned (Hand of Harm)": {
-          "name": "Poisoned (Hand of Harm)"
+          "name": "中毒（奪命之手）"
         }
       }
     },
@@ -4077,26 +4077,26 @@
       "description": "<p>你本身便是原初之力的象徵。你的力量與體質各提升4點，上限為25。</p>"
     },
     "Primal Companion": {
-      "name": "原初夥伴",
-      "description": "<p>你魔法般地召出一隻原初野獸，其力量來源於你和自然的聯繫。從@UUID[Compendium.dnd-players-handbook.actors.Actor.phbBeastoftheLan]{陸地之獸}、@UUID[Compendium.dnd-players-handbook.actors.Actor.phbBeastoftheSea]{海洋之獸}、@UUID[Compendium.dnd-players-handbook.actors.Actor.phbBeastoftheSky]{天空之獸}三種數值面板中選擇其中一個。同時，你為原初野獸數值面板選擇一種合適的動物，以決定其呈現的野獸外貌。無論你選擇什麼動物，其身上都帶有原初的印記，暗示其神秘的起源。</p><p>野獸對你和你同伴的態度友善並服從你的命令。若你死亡其將消失。</p><p><strong>【戰鬥中的野獸】</strong>在戰鬥中，野獸在你的回合中行動。其能自主移動並使用其反應，但除非你採取附贈動作命令其採取其數值面板中列出的動作或是除此之外的其他動作，否則其只會採取迴避動作。你也可以在採取攻擊動作時，放棄其中的一次攻擊來命令野獸採取野獸打擊動作。若你陷入失能狀態，則野獸將自主行動而非限於採取迴避動作。</p><p><strong>【恢復或替換野獸】</strong>若野獸死亡且未超過一小時，你可以採取魔法動作觸碰其並消耗一個法術位。野獸將在1分鐘後以全部生命值重生。</p><p>每當你完成長休時，你可以召喚一隻不同的原初野獸，這隻新的野獸將會出現在你5呎內一處未被占據的空間裡。由你選擇其數據和外觀。若你已通過此特性獲得一隻野獸，則其會在新的野獸出現時消失。</p><section class=\"fvtt advice\" style=\"margin:0.5rem;padding:0.5rem\"><article><p>除了夥伴的特徵與動作中註明會使用你的數據外，下列屬性也會受到影響。</p><table><caption>共用</caption><tbody><tr><td><strong>護甲等級</strong></td><td>13 + 你的感知調整值</td></tr><tr><td><strong>熟練加值</strong></td><td>等同於你的熟練加值</td></tr></tbody></table><table><caption>陸地之獸</caption><tbody><tr><td><strong>生命值</strong></td><td>5 + 你遊俠等級的5倍</td></tr><tr><td><strong>生命骰</strong></td><td>等同於你遊俠等級的d8</td></tr><tr><td><strong>速度</strong></td><td>40呎、攀爬40呎</td></tr><tr><td><strong>感官</strong></td><td>黑暗視覺60呎</td></tr></tbody></table><table><caption>天空之獸</caption><tbody><tr><td><strong>生命值</strong></td><td>4 + 你遊俠等級的4倍</td></tr><tr><td><strong>生命骰</strong></td><td>等同於你遊俠等級的d6</td></tr><tr><td><strong>速度</strong></td><td>10呎、飛行60呎</td></tr><tr><td><strong>感官</strong></td><td>黑暗視覺60呎</td></tr></tbody></table><table><caption>海洋之獸</caption><tbody><tr><td><strong>生命值</strong></td><td>5 + 你遊俠等級的5倍</td></tr><tr><td><strong>生命骰</strong></td><td>等同於你遊俠等級的d8</td></tr><tr><td><strong>速度</strong></td><td>5呎、游泳60呎</td></tr><tr><td><strong>感官</strong></td><td>黑暗視覺90呎</td></tr></tbody></table></article></section><section class=\"secret\" id=\"secret-vZalmDSCpVh4yzu3\"><p><strong>Foundry 註記</strong></p><p><strong>復原夥伴</strong>行動讓你消耗任何一個法術位來完全治療該野獸。</p><p><strong>命令</strong>行動只有在你追蹤附贈動作的使用情況時才需要使用。</p></section>",
+      "name": "原初行侶",
+      "description": "<p>你魔法般地召出一隻原初野獸，其力量來源於你和自然的聯繫。從@UUID[Compendium.dnd-players-handbook.actors.Actor.phbBeastoftheLan]{陸地之獸}、@UUID[Compendium.dnd-players-handbook.actors.Actor.phbBeastoftheSea]{海洋之獸}、@UUID[Compendium.dnd-players-handbook.actors.Actor.phbBeastoftheSky]{天空之獸}三種數值面板中選擇其中一個。同時，你為原初野獸數值面板選擇一種合適的動物，以決定其呈現的野獸外貌。無論你選擇什麼動物，其身上都帶有原初的印記，暗示其神秘的起源。</p><p>野獸對你和你同伴的態度友善並服從你的命令。若你死亡其將消失。</p><p><strong>【戰鬥中的野獸】</strong>在戰鬥中，野獸在你的回合中行動。其能自主移動並使用其反應，但除非你採取附贈動作命令其採取其數值面板中列出的動作或是除此之外的其他動作，否則其只會採取迴避動作。你也可以在採取攻擊動作時，放棄其中的一次攻擊來命令野獸採取野獸打擊動作。若你陷入失能狀態，則野獸將自主行動而非限於採取迴避動作。</p><p><strong>【恢復或替換野獸】</strong>若野獸死亡且未超過一小時，你可以採取魔法動作觸碰其並消耗一個法術位。野獸將在1分鐘後以全部生命值重生。</p><p>每當你完成長休時，你可以召喚一隻不同的原初野獸，這隻新的野獸將會出現在你5呎內一處未佔據空間。由你選擇其數值面板和外觀。若你已通過此特性獲得一隻野獸，則其會在新的野獸出現時消失。</p><section class=\"fvtt advice\" style=\"margin:0.5rem;padding:0.5rem\"><article><p>除了行侶的特徵與動作中註明會使用你的數據外，下列屬性也會受到影響。</p><table><caption>共用</caption><tbody><tr><td><strong>護甲等級</strong></td><td>13 + 你的感知調整值</td></tr><tr><td><strong>熟練加值</strong></td><td>等同於你的熟練加值</td></tr></tbody></table><table><caption>陸地之獸</caption><tbody><tr><td><strong>生命值</strong></td><td>5 + 你遊俠等級的5倍</td></tr><tr><td><strong>生命骰</strong></td><td>等同於你遊俠等級的d8</td></tr><tr><td><strong>速度</strong></td><td>40呎、攀爬40呎</td></tr><tr><td><strong>感官</strong></td><td>黑暗視覺60呎</td></tr></tbody></table><table><caption>天空之獸</caption><tbody><tr><td><strong>生命值</strong></td><td>4 + 你遊俠等級的4倍</td></tr><tr><td><strong>生命骰</strong></td><td>等同於你遊俠等級的d6</td></tr><tr><td><strong>速度</strong></td><td>10呎、飛行60呎</td></tr><tr><td><strong>感官</strong></td><td>黑暗視覺60呎</td></tr></tbody></table><table><caption>海洋之獸</caption><tbody><tr><td><strong>生命值</strong></td><td>5 + 你遊俠等級的5倍</td></tr><tr><td><strong>生命骰</strong></td><td>等同於你遊俠等級的d8</td></tr><tr><td><strong>速度</strong></td><td>5呎、游泳60呎</td></tr><tr><td><strong>感官</strong></td><td>黑暗視覺90呎</td></tr></tbody></table></article></section><section class=\"secret\" id=\"secret-vZalmDSCpVh4yzu3\"><p><strong>Foundry 註記</strong></p><p><strong>復原行侶</strong>行動讓你消耗任何一個法術位來完全治療該野獸。</p><p><strong>命令</strong>行動只有在你追蹤附贈動作的使用情況時才需要使用。</p></section>",
       "activities": {
         "summon": {
           "condition": "每當你完成長休時"
         },
         "Command": {
           "name": "命令",
-          "target": "Primal Companion"
+          "target": "原初行侶"
         },
         "Summon with Spell Slot": {
           "name": "以法術位召喚"
         },
         "Summon Companion": {
-          "name": "Summon Companion",
-          "target": "Unoccupied"
+          "name": "召喚行侶",
+          "target": "未佔據空間"
         },
         "Restore Companion": {
-          "name": "Restore Companion",
-          "target": "Primal Companion that has died within the last hour"
+          "name": "復原行侶",
+          "target": "一小時內死亡的原初行侶"
         }
       }
     },
@@ -4199,17 +4199,17 @@
       }
     },
     "Psionic Sorcery": {
-      "name": "Psionic Sorcery",
-      "description": "<p>When you cast any level 1+ spell from your Psionic Spells feature, you can cast it by expending a spell slot as normal or by spending a number of Sorcery Points equal to the spell’s level. If you cast the spell using Sorcery Points, it requires no Verbal or Somatic components, and it requires no Material components unless they are consumed by the spell or have a cost specified in it.</p><section class=\"secret\" id=\"secret-H9Jw21JtDIh3GNyM\"><p><strong>Foundry Note</strong></p><p>The <strong>Expend Sorcery Points</strong> activity will allow you to select how many Sorcery Points to expend. You can then cast the spell and uncheck the \"Consume Spell Slot\" option.</p></section>",
+      "name": "靈能術法",
+      "description": "<p>當你施放你的靈能法術特性中的任何1環以上的法術時，你可以改為使用等同於該法術環階數量的術法點，而非消耗法術位施放該法術。你消耗術法點施放法術時，你無視該法術施法需要的聲音構材或姿勢構材。你同時無視該法術需要的不會被消耗且未給出具體價值的材料構材。</p><section class=\"secret\" id=\"secret-H9Jw21JtDIh3GNyM\"><p><strong>Foundry 註記</strong></p><p><strong>消耗術法點</strong>行動讓你選擇要消耗多少術法點。接著你可以施放該法術，並取消勾選「消耗法術位」選項。</p></section>",
       "activities": {
         "Expend Sorcery Points": {
-          "name": "Expend Sorcery Points"
+          "name": "消耗術法點"
         }
       }
     },
     "Psionic Spells": {
       "name": "靈能法術",
-      "description": "<p>當你達到靈能法術表中所述的相應術士等級時，你視為始終準備法術表上的法術。</p><table><caption>靈能法術</caption><thead><tr><td>術士等級</td><td>Spells</td></tr></thead><tbody><tr><td>3</td><td><em>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplArmsofHada]{Arms of Hadar}、@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplCalmEmotio]{Calm Emotions}、@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplDetectThou]{偵測思想}、@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplDissonantW]{噪音暗語}、@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplMindSliver]{Mind Sliver}</em></td></tr><tr><td>5</td><td><em>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplHungerofHa]{哈達之慾}、@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplSending000]{Sending}</em></td></tr><tr><td>7</td><td><em>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplEvardsBlac]{Evard's Black Tentacles}、@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplSummonAber]{異怪召喚術}</em></td></tr><tr><td>9</td><td><em>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplRarysTelep]{Rary's Telepathic Bond}、@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplTelekinesi]{心靈遙控}</em></td></tr></tbody></table><section class=\"secret\" id=\"secret-ZRp7VXEYNUsACyUR\"><p><strong>Foundry 註記</strong></p><p>法術會隨著你升級時自動獲得。</p></section>"
+      "description": "<p>當你達到靈能法術表中所述的相應術士等級時，你視為始終準備法術表上的法術。</p><table><caption>靈能法術</caption><thead><tr><td>術士等級</td><td>法術</td></tr></thead><tbody><tr><td>3</td><td><em>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplArmsofHada]{哈達之臂}、@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplCalmEmotio]{安定心神}、@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplDetectThou]{偵測思想}、@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplDissonantW]{噪音暗語}、@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplMindSliver]{心靈撕裂}</em></td></tr><tr><td>5</td><td><em>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplHungerofHa]{哈達之欲}、@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplSending000]{短訊術}</em></td></tr><tr><td>7</td><td><em>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplEvardsBlac]{艾伐黑觸手}、@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplSummonAber]{異怪召喚術}</em></td></tr><tr><td>9</td><td><em>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplRarysTelep]{拉瑞心靈連結}、@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplTelekinesi]{心靈遙控}</em></td></tr></tbody></table><section class=\"secret\" id=\"secret-ZRp7VXEYNUsACyUR\"><p><strong>Foundry 註記</strong></p><p>法術會隨著你升級時自動獲得。</p></section>"
     },
     "Psychic Blade": {
       "name": "心靈之刃",
@@ -4225,8 +4225,8 @@
       "description": "<p>你能將自己的心靈異能塑造為由靈能構成的閃亮劍刃。每當你採取攻擊動作或進行藉機攻擊時，你能從空手中塑造出心靈之刃，並以其來進行攻擊。這把魔法劍刃具有下列特徵：</p><p><strong>武器種類：</strong>簡易近戰</p><p><strong>命中傷害：</strong>1d6心靈傷害 + 攻擊檢定使用的屬性調整值</p><p><strong>屬性：</strong>靈巧、投擲（射程60/120呎）</p><p><strong>精通：</strong>侵擾（你可以使用此精通屬性，且不計入你可以使用的武器精通屬性數量）</p><p>緊接在劍刃命中目標或失手後，其將消失且不會在造成傷害後留下任何痕跡。</p><p>當你在自己的回合中以心靈之刃發動攻擊後，只要你的另一隻手空閒，就能以附贈動作在那隻手中塑造第二把心靈之刃，並以其進行一次近戰或遠程攻擊。此次附贈攻擊的傷害骰為1d4而非1d6。</p><section class=\"secret\" id=\"secret-meNYJzRDvyQRD9xs\"><p><strong>Foundry 註記</strong></p><p>當你獲得此特性時，會獲得一把[[/item Psychic Blade]]{心靈之刃}，其會出現在你的物品欄中，並包含上述特性。</p></section>"
     },
     "Psychic Defenses": {
-      "name": "Psychic Defenses",
-      "description": "<p>You have Resistance to Psychic damage, and you have Advantage on saving throws to avoid or end the Charmed or Frightened condition.</p><section id=\"secret-RsOEvBJWVWqSLQfY\" class=\"secret\"><p><strong>Foundry Note</strong></p><p>You will receive the Psychic damage resistance as you level up. The Advantage on saving throws is not automated.</p></section>"
+      "name": "心靈防禦",
+      "description": "<p>你具有對心靈傷害的抗力。此外，你在避免或結束魅惑狀態或恐慌狀態的豁免檢定上具有優勢。</p><section id=\"secret-RsOEvBJWVWqSLQfY\" class=\"secret\"><p><strong>Foundry 註記</strong></p><p>你會在升級時獲得心靈傷害抗力。豁免檢定的優勢不會自動處理。</p></section>"
     },
     "Psychic Spells": {
       "name": "心靈法術",
@@ -4277,21 +4277,21 @@
       }
     },
     "Quivering Palm": {
-      "name": "Quivering Palm",
-      "description": "<p>You gain the ability to set up lethal vibrations in someone's body. When you hit a creature with an Unarmed Strike, you can expend 4 Focus Points to start these imperceptible vibrations, which last for a number of days equal to your Monk level. The vibrations are harmless unless you take an action to end them. Alternatively, when you take the Attack action on your turn, you can forgo one of the attacks to end the vibrations. To end them, you and the target must be on the same plane of existence. When you end them, the target must make a Constitution saving throw, taking 10d12 Force damage on a failed save or half as much damage on a successful one.</p><p>You can have only one creature under the effect of this feature at a time. You can end the vibrations harmlessly (no action required).</p><section id=\"secret-BSTexn4tHp20evAQ\" class=\"secret\"><p><strong>Foundry Note</strong></p><p>The <strong>Instill Vibrations</strong> activity expends 4 Focus Points and includes an Active Effect which can be used to track the target you have set up lethal vibrations in.</p><p>The <strong>End Vibrations</strong> activity includes the Saving Throw and Damage rolls.</p></section>",
+      "name": "滲透勁",
+      "description": "<p>你獲得了將內勁擊入他人體內的能力。當你以徒手打擊命中一個生物時，可以消耗4點內力打入暗勁，其持續等同於你武僧等級的天數。在你採取動作將之結束前，暗勁是無害的。或者，當你在自己的回合採取攻擊動作時，你可以將其中一次攻擊替換為將暗勁結束。要結束暗勁，你和目標必須處於同一個存在位面。當你結束暗勁時，目標必須進行一次體質豁免檢定，豁免失敗時，目標承受10d12力場傷害，豁免成功時則只承受一半傷害。</p><p>在同一時間你只能用此特性使一個生物處於此效應中。你可以結束某人身上的暗勁而不造成傷害（無需動作）。</p><section id=\"secret-BSTexn4tHp20evAQ\" class=\"secret\"><p><strong>Foundry 註記</strong></p><p><strong>打入暗勁</strong>行動會消耗4點內力，並包含一個 Active Effect，可用於追蹤你已對其打入致命暗勁的目標。</p><p><strong>結束暗勁</strong>行動包含豁免檢定與傷害擲骰。</p></section>",
       "activities": {
         "Instill Vibrations": {
-          "name": "Instill Vibrations",
-          "condition": "When you hit a creature with an Unarmed Strike"
+          "name": "打入暗勁",
+          "condition": "當你以徒手打擊命中一個生物時"
         },
         "End Vibrations": {
-          "name": "End Vibrations",
-          "condition": "When you take the Attack action on your turn"
+          "name": "結束暗勁",
+          "condition": "當你在自己的回合採取攻擊動作時"
         }
       },
       "effects": {
         "Lethal Vibrations": {
-          "name": "Lethal Vibrations"
+          "name": "致命暗勁"
         }
       }
     },
@@ -4453,16 +4453,16 @@
       "description": "<p>每回合一次，當你使用一項戰技時，你可以不消耗卓越骰，而是擲[[/r 1d8]]並使用結果作為代替。</p>"
     },
     "Relentless Avenger": {
-      "name": "Relentless Avenger",
-      "description": "<p>Your supernatural focus helps you close off a foe’s retreat. When you hit a creature with an Opportunity Attack, you can reduce the creature’s Speed to 0 until the end of the current turn. You can then move up to half your Speed as part of the same Reaction. This movement doesn’t provoke Opportunity Attacks.</p><section id=\"secret-uwcgo5JN2zR5OpEv\" class=\"secret\"><p><strong>Foundry Note</strong></p><p>This feature includes an Active Effect which will reduce the enemies Speed to 0.</p></section>",
+      "name": "無情復仇",
+      "description": "<p>你超自然的專注力使你可以攔截敵人撤退。當你以藉機攻擊命中一個生物時，你可以將該生物的速度降為0，直到當前回合結束。隨後你可以移動至多等同於你速度一半的距離，此為同一反應的一部分，且此次移動不會引發藉機攻擊。</p><section id=\"secret-uwcgo5JN2zR5OpEv\" class=\"secret\"><p><strong>Foundry 註記</strong></p><p>此特性包含一個會將敵人速度降為0的 Active Effect。</p></section>",
       "activities": {
         "Prevent Retreat": {
-          "name": "Prevent Retreat"
+          "name": "攔截撤退"
         }
       },
       "effects": {
         "Relentless Avenger": {
-          "name": "Relentless Avenger"
+          "name": "無情復仇"
         }
       }
     },
@@ -4537,12 +4537,12 @@
     },
     "Restore Balance": {
       "name": "歸復平衡",
-      "description": "<p>你與絕對秩序之位面的聯繫使你能重整混沌的時刻。當你60尺內一個你所能看見的生物即將進行一次具有優勢或劣勢的檢定時，你可以用反應使其擲骰免受到所有的優勢劣勢影響。</p><p>你可以使用此能力的次數等同於你魅力調整值（最少一次）。每當你完成一次長休時，你恢復所有已消耗的使用次數。</p>",
+      "description": "<p>你與絕對秩序之位面的聯繫使你能重整混沌的時刻。當位於你60呎內一個你所能看見的生物即將進行一次具有優勢或劣勢的檢定時，你可以用反應使其擲骰免受到所有的優勢劣勢影響。</p><p>你可以使用此能力的次數等同於你魅力調整值（最少一次）。每當你完成一次長休時，你重獲所有已消耗的使用次數。</p>",
       "activities": {
         "Prevent Advantage/Disadvantage": {
-          "name": "Prevent Advantage/Disadvantage",
-          "condition": "When a creature you can see within 60 feet is about to roll d20 with Advantage/Disadvantage",
-          "target": "You can see"
+          "name": "阻止優勢／劣勢",
+          "condition": "當位於你60呎內你所能看見的生物即將以優勢或劣勢擲d20時",
+          "target": "你所能看見的生物"
         }
       }
     },
@@ -4561,25 +4561,25 @@
       }
     },
     "Revelation in Flesh": {
-      "name": "Revelation in Flesh",
-      "description": "<p>You can unleash the aberrant truth hidden within yourself. As a Bonus Action, you can spend 1 Sorcery Point or more to magically alter your body for 10 minutes. For each Sorcery Point you spend, you gain one of the following benefits of your choice, the effects of which last until the alteration ends.</p><p><strong>Aquatic Adaptation.</strong> You gain a Swim Speed equal to twice your Speed, and you can breathe underwater. Gills grow from your neck or flare behind your ears, and your fingers become webbed or you grow wriggling cilia.</p><p><strong>Glistening Flight.</strong> You gain a Fly Speed equal to your Speed, and you can hover. As you fly, your skin glistens with mucus or otherworldly light.</p><p><strong>See the Invisible.</strong> You can see any Invisible creature within 60 feet of yourself that isn’t behind Total Cover. Your eyes also turn black or become writhing sensory tendrils.</p><p><strong>Wormlike Movement.</strong> Your body, along with any equipment you are wearing or carrying, becomes slimy and pliable. You can move through any space as narrow as 1 inch, and you can spend 5 feet of movement to escape from nonmagical restraints or the Grappled condition.</p><section id=\"secret-jX8dvHDf5youPS4j\" class=\"secret\"><p><strong>Foundry Note</strong></p><p>The <strong>Expend Sorcery Points</strong> activity will let you select the number of Sorcery Points you would like to expend. It includes an Active Effect for each option which can be used for tracking but does not automate their changes.</p></section>",
+      "name": "血肉啟示",
+      "description": "<p>你能夠釋放出潛藏在你內部扭曲的真實形態。作為附贈動作，你消耗1點或更多的術法點，魔法般地轉變你的身體，持續10分鐘。你每消耗1點術法點，便獲得下列你所選擇的好處，這些效應持續直到轉變形態結束。</p><p><strong>【水生適應】</strong>你獲得等同於你速度兩倍的游泳速度，且你能在水下呼吸。不止如此，你的脖子兩側會長出鰓、或鰓在耳後呈扇狀翻出、或你的手指變成蹼趾、或是有捲曲的纖毛從你的衣服底下延展出來。</p><p><strong>【閃耀飛翔】</strong>你獲得等同於你速度的飛行速度，並能懸浮。當你飛行時，你的皮膚表面流出發光的黏液、或是散發出異界的光芒。</p><p><strong>【識破隱形】</strong>你能看見周圍60呎內處於隱形狀態的生物，前提是其相對於你並未處於全掩蔽之後。你的眼睛也會變成黑色、或是變成扭動的感官觸須。</p><p><strong>【蠕行移動】</strong>你的身體和你攜帶的裝備都變得柔韌黏滑。你能夠輕鬆穿過最窄1吋寬的狹窄空間而不用擠進去，且你可以消耗5呎移動力以脫離非魔法的束縛或受擒狀態。</p><section class=\"secret\" id=\"secret-jX8dvHDf5youPS4j\"><p><strong>Foundry 註記</strong></p><p><strong>消耗術法點</strong>行動讓你選擇想消耗的術法點數量。每個選項都包含一個可用於追蹤的 Active Effect，但不會自動處理其變更。</p></section>",
       "activities": {
         "Expend Sorcery Points": {
-          "name": "Expend Sorcery Points"
+          "name": "消耗術法點"
         }
       },
       "effects": {
         "Aquatic Adaptation": {
-          "name": "Aquatic Adaptation"
+          "name": "水生適應"
         },
         "Glistening Flight": {
-          "name": "Glistening Flight"
+          "name": "閃耀飛翔"
         },
         "See the Invisible": {
-          "name": "See the Invisible"
+          "name": "識破隱形"
         },
         "Wormlike Movement": {
-          "name": "Wormlike Movement"
+          "name": "蠕行移動"
         }
       }
     },
@@ -4667,14 +4667,14 @@
       }
     },
     "Sacred Weapon": {
-      "name": "Sacred Weapon",
-      "description": "<p>When you take the Attack action, you can expend one use of your Channel Divinity to imbue one Melee weapon that you are holding with positive energy. For 10 minutes or until you use this feature again, you add your Charisma modifier to attack rolls you make with that weapon (minimum bonus of +1), and each time you hit with it, you cause it to deal its normal damage type or Radiant damage.</p><p>The weapon also emits Bright Light in a 20-foot radius and Dim Light 20 feet beyond that.</p><p>You can end this effect early (no action required). This effect also ends if you aren’t carrying the weapon.</p>",
+      "name": "聖潔武器",
+      "description": "<p>當你採取攻擊動作時，你可以消耗一次引導神力使用次數，為你持握的一把近戰武器注入正能量。在10分鐘內或直到你再次使用此特性前，你使用該武器進行的攻擊檢定加上你的魅力調整值（最低+1），且每次命中時，你可以選擇造成其正常傷害類型或光耀傷害。</p><p>該武器同時散發出半徑20呎的明亮光照以及其外20呎的微光光照。</p><p>你可以提前終止此效應（無需動作）。若你不再攜帶該武器，此效應也會終止。</p>",
       "effects": {
         "Sacred Weapon": {
-          "name": "Sacred Weapon",
+          "name": "聖潔武器",
           "changes": {
             "name": ", Sacred Weapon",
-            "0": ", Sacred Weapon"
+            "0": "聖潔{}"
           }
         }
       }
@@ -4745,7 +4745,7 @@
     },
     "Shadow Arts": {
       "name": "影之技藝",
-      "description": "<p>你已習得喚出墮影冥界的力量，獲得下列好處。</p><p><strong>【黑暗術】</strong>你可以消耗1點內力不需要任何材料施放@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplDarkness00]{黑暗術}。你在以該特性施放的法術範圍內依然看得見，不受黑暗影響。法術持續時間內，在你的回合開始時，你可以將該法術區域移動到你60呎範圍內的任意一處空間。</p><p><strong>【黑暗視覺】</strong>你獲得60呎黑暗視覺，若你已經有黑暗視覺則其範圍再增加60呎。</p><p><strong>【陰影幻象】</strong>你知曉次級幻象法術，在該法術上你的施法屬性為感知。</p><section class=\"secret\" id=\"secret-wd4smhB7uw8Awq0x\"><p><strong>Foundry Note</strong></p><p>The <strong>Expend Focus Point</strong> activity expends a use and you can then use the [[/item Darkness]] spell which is granted to you at this level.</p><p>This feature includes an Active Effect that increases your Darkvision.</p><p>You are granted the Minor Illusion spell when you reach this level.</p></section>",
+      "description": "<p>你掌握了如何喚出墮影冥界的力量，獲得下列好處。</p><p><strong>【黑暗術】</strong>你可以消耗1點內力以施放法術@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplDarkness00]{黑暗術}且無需任何構材。你可以看穿以此特性施放的黑暗區域。法術持續期間，你可以在每個自己回合開始時，將此法術區域移動到位於你60呎內的任意一處空間。</p><p><strong>【黑暗視覺】</strong>你獲得60呎黑暗視覺。若你已經有黑暗視覺，則其範圍提升60呎。</p><p><strong>【幻影術】</strong>你知曉戲法@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplMinorIllus]{次級幻象}，其施法屬性為感知。</p>",
       "activities": {
         "Expend Focus Point": {
           "name": "Expend Focus Point"
@@ -4753,40 +4753,40 @@
       },
       "effects": {
         "Shadow Art Vision": {
-          "name": "Shadow Art Vision"
+          "name": "影之技藝視覺"
         }
       },
       "advancement": {
         "Shadowy Figments": {
-          "name": "Shadowy Figments"
+          "name": "幻影術"
         }
       }
     },
     "Shadow Step": {
-      "name": "Shadow Step",
-      "description": "<p>While entirely within Dim Light or Darkness, you can use a Bonus Action to teleport up to 60 feet to an unoccupied space you can see that is also in Dim Light or Darkness. You then have Advantage on the next melee attack you make before the end of the current turn.</p>",
+      "name": "暗影步",
+      "description": "<p>當你完全身處微光光照或黑暗下，你能以一個附贈動作傳送至多60呎，到一處你所能看見的未佔據空間，目標地點需要同樣位於微光光照或黑暗下。接下來，你在當前回合結束前所做的下一次近戰攻擊具有優勢。</p>",
       "activities": {
         "Shadow Step": {
-          "condition": "While entirely within Dim Light or Darkness",
-          "name": "Shadow Step",
-          "target": "Unoccupied space"
+          "condition": "當你完全身處微光光照或黑暗下",
+          "name": "暗影步",
+          "target": "未佔據空間"
         }
       }
     },
     "Shadowy Dodge": {
-      "name": "Shadowy Dodge",
-      "description": "<p>When a creature makes an attack roll against you, you can take a Reaction to impose Disadvantage on that roll. Whether the attack hits or misses, you can then teleport up to 30 feet to an unoccupied space you can see.</p>",
+      "name": "如影隨行",
+      "description": "<p>當一個生物對你進行攻擊檢定時，你可以採取反應對該檢定施加劣勢。無論該次攻擊命中或失手，你隨後都可以傳送至多30呎，到一處你所能看見的未佔據空間。</p>",
       "activities": {
         "Shadowy Dodge": {
-          "name": "Shadowy Dodge",
-          "condition": "When a creature makes an attack roll against you",
-          "target": "Unoccupied"
+          "name": "如影隨行",
+          "condition": "當一個生物對你進行攻擊檢定時",
+          "target": "未佔據空間"
         }
       }
     },
     "Share Spells": {
-      "name": "Share Spells",
-      "description": "<p>當你施放目標為自身的法術時，若你的原初夥伴野獸處於你身邊30呎內，則該法術效應也同時作用於野獸。</p>"
+      "name": "法術共享",
+      "description": "<p>當你施放目標為自身的法術時，若你的原初行侶野獸處於你身邊30呎內，則該法術效應也同時作用於野獸。</p>"
     },
     "Signature Spells": {
       "name": "招牌法術",
@@ -4827,11 +4827,11 @@
       }
     },
     "Smite of Protection": {
-      "name": "Smite of Protection",
-      "description": "<p>Your magical smite now radiates protective energy. Whenever you cast @UUID[Compendium.dnd-players-handbook.spells.Item.phbsplDivineSmit]{Divine Smite}, you and your allies have Half Cover while in your Aura of Protection. The aura has this benefit until the start of your next turn.</p><section class=\"secret\" id=\"secret-zaNpOup6oPMC6RtV\"><p><strong>Foundry Note</strong></p><p>This feature includes an Active Effect which provides the Half Cover status but it is not automatically granted as creatures enter/exit your aura.</p></section>",
+      "name": "衛護斬",
+      "description": "<p>你現在能讓魔法斬擊散發出保護性的能量。每當你施放@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplDivineSmit]{至聖斬}時，直到你的下個回合開始，你的靈光獲得下列好處：身處你的守護靈光期間，你和你的盟友具有半掩蔽。</p><section class=\"secret\" id=\"secret-zaNpOup6oPMC6RtV\"><p><strong>Foundry 註記</strong></p><p>此特性包含一個提供半掩蔽狀態的 Active Effect，但不會在生物進入／離開你的靈光時自動授予。</p></section>",
       "effects": {
         "Smite of Protection": {
-          "name": "Smite of Protection"
+          "name": "衛護斬"
         }
       }
     },
@@ -4917,8 +4917,8 @@
       }
     },
     "Soul of Vengeance": {
-      "name": "Soul of Vengeance",
-      "description": "<p>Immediately after a creature under the effect of your Vow of Enmity hits or misses with an attack roll, you can take a Reaction to make a melee attack against that creature if it’s within range.</p>"
+      "name": "復仇之魂",
+      "description": "<p>緊接在受你仇敵誓言影響的生物發動一次攻擊檢定（無論是否命中）後，只要其位於你的觸及內，你就能夠採取反應對其進行一次近戰攻擊。</p>"
     },
     "Soulknife": {
       "name": "魂刃",
@@ -4987,12 +4987,12 @@
       "description": "<p>你透過鑽研詩人技藝而學會了施法。有關施法的規則請參見@UUID[Compendium.dnd-players-handbook.content.JournalEntry.phbSpells0000000.JournalEntryPage.mh3akteBDiLegqFK]{第7章} 。下列資訊詳細說明了如何將這些規則與吟遊詩人法術結合使用。吟遊詩人法術即該職業描述後的@UUID[Compendium.dnd-players-handbook.content.JournalEntry.phbSpells0000000.JournalEntryPage.wwia6Wwo4BgE9GSI]{吟遊詩人法術列表}中羅列的法術。</p><p><strong>【戲法】</strong>你知曉兩個從吟遊詩人法術列表中你所選擇的戲法。推薦選擇<em>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplDancingLig]{舞光術}</em>和<em>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplViciousMoc]{惡毒嘲笑}</em> 。</p><p>每當你獲得吟遊詩人等級時，你可以將一個戲法替換為另一個吟遊詩人法術列表中你所選擇的戲法。</p><p>當你達到吟遊詩人4級和10級時，你可以從吟遊詩人法術列表中學習一個新的戲法，正如@UUID[Compendium.dnd-players-handbook.content.JournalEntry.phbBard000000000.JournalEntryPage.V8pqIWlaL9GhY61t#class-features]{吟遊詩人特性}表中戲法一欄所示。</p><p><strong>【法術位】</strong>吟遊詩人特性表記錄了你有多少法術位用以施放1環以上的法術。當你完成長休時，你會重獲所有消耗的法術位。</p><p><strong>【準備1環以上的法術】</strong>通過該特性施法前，你需要選擇數個可用的1環以上的法術構成準備列表。首先，從吟遊詩人法術列表中選擇四個1環法術。推薦選擇<em>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplCharmPerso]{魅惑人類}</em>、<em>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplColorSpray]{七彩噴射}</em>、<em>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplDissonantW]{噪音暗語}</em>、<em>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplHealingWor]{治癒真言}</em>。</p><p>準備列表上的法術數量將隨著你的吟遊詩人等級而增加，正如吟遊詩人特性表中準備法術一欄所示。每當該數量增加時，從吟遊詩人法術列表中選擇額外的法術來新增到你的準備列表中，直到你準備列表上的法術數量與吟遊詩人特性表中的數量相匹配。你只能準備已經獲得相應環階法術位的法術。例如，作為3級吟遊詩人，你的準備法術列表應該包括六個任意組合的1環或2環法術。</p><p>若另一個吟遊詩人特性給予你額外的準備法術，這些法術不會計入你在該特性中的準備法術數量，但是這些法術對你而言仍算作吟遊詩人法術。</p><p><strong>【更改準備法術】</strong>每當你獲得一個吟遊詩人等級時， 你可以將準備列表中的一個法術，替換為另一個你擁有法術位的吟遊詩人法術。</p><p><strong>【施法屬性】</strong>魅力是你施放吟遊詩人法術的施法屬性。</p><p><strong>【施法法器】</strong>你可以使用樂器作為吟遊詩人法術的施法法器。</p>"
     },
     "Stalker's Flurry": {
-      "name": "Stalker's Flurry",
-      "description": "<p>The Psychic damage of your Dreadful Strike becomes 2d8. In addition, when you use the Dreadful Strike effect of your Dread Ambusher feature, you can cause one of the following additional effects.</p><p><strong>Sudden Strike.</strong> You can make another attack with the same weapon against a different creature that is within 5 feet of the original target and that is within the weapon’s range.</p><p><strong>Mass Fear.</strong> The target and each creature within 10 feet of it must make a Wisdom saving throw against your spell save DC. On a failed save, a creature has the &amp;Reference[Frightened] condition until the start of your next turn.</p><section class=\"secret\" id=\"secret-1EO1czD31TZtrQzN\"><p><strong>Foundry Note</strong></p><p>The damage of your <strong>Dreadful Strike</strong> activity will automatically scale as you level up.</p><p>To use the <strong>Sudden Strike</strong> effect simply make another attack.</p><p>The <strong>Mass Fear</strong> activity on this feature includes the save.</p></section>",
+      "name": "追獵如風",
+      "description": "<p>你的恐懼打擊所造成的心靈傷害變為2d8。此外，當你使用恐怖伏兵特性的恐懼打擊效應時，你可以創造出下列額外效應之一。</p><p><strong>【瞬殺】</strong>你可以用同一把武器，對位於原目標5呎內的另一生物再發動一次攻擊，新目標必須處於你武器的射程內。</p><p><strong>【群慌】</strong>目標與位於目標10呎內的每個生物都必須進行一次對抗你法術豁免DC的感知豁免檢定。豁免失敗時，該生物陷入&amp;Reference[Frightened]{恐慌}狀態，直到你的下個回合開始。</p><section class=\"secret\" id=\"secret-1EO1czD31TZtrQzN\"><p><strong>Foundry 註記</strong></p><p><strong>恐懼打擊</strong>行動的傷害會隨你升級自動成長。</p><p>使用<strong>瞬殺</strong>效應時，只需再進行一次攻擊。</p><p>此特性的<strong>群慌</strong>行動包含豁免檢定。</p></section>",
       "activities": {
         "Mass Fear": {
-          "name": "Mass Fear",
-          "condition": "When you use the Dreadful Strike effect"
+          "name": "群慌",
+          "condition": "當你使用恐懼打擊效應時"
         }
       }
     },
@@ -5078,8 +5078,8 @@
       }
     },
     "Stride of the Elements": {
-      "name": "Stride of the Elements",
-      "description": "<p>While your Elemental Attunement is active, you also have a Fly Speed and a Swim Speed equal to your Speed.</p><section id=\"secret-2VpFYVEuPixaVTaH\" class=\"secret\"><p><strong>Foundry Note</strong></p><p>This feature does not automatically grant the Fly and Swim Speed.</p></section>"
+      "name": "四象遁術",
+      "description": "<p>你的四象同調啟用期間，你獲得等同於你速度的飛行速度與游泳速度。</p><section class=\"secret\" id=\"secret-2VpFYVEuPixaVTaH\"><p><strong>Foundry 註記</strong></p><p>這些變更由你的<strong>四象同調</strong>特性處理。</p></section>"
     },
     "Stroke of Luck": {
       "name": "幸運一擊",
@@ -5150,62 +5150,62 @@
       }
     },
     "Superior Hunter's Defense": {
-      "name": "Superior Hunter's Defense",
-      "description": "<p>When you take damage, you can take a Reaction to give yourself Resistance to that damage and any other damage of the same type until the end of the current turn.</p><section class=\"secret\" id=\"secret-9xLaYNr0fhUQLYuZ\"><p><strong>Foundry Note</strong></p><p>This feature includes an Active Effect for resisting each type of damage which can be applied to get the relevant resistance. Be sure you disable/delete the previous Active Effect in the \"Effects\" tab of your sheet when you change Resistances.</p></section>",
+      "name": "卓越防守戰術",
+      "description": "<p>當你承受傷害時，你可以採取反應使自己獲得對該傷害以及相同類型傷害的抗力，直到當前回合結束。</p><section class=\"secret\" id=\"secret-9xLaYNr0fhUQLYuZ\"><p><strong>Foundry 註記</strong></p><p>此特性包含針對每種傷害類型的抗力 Active Effect，可套用以獲得相應抗力。更換抗力時，請務必在角色卡的「效果」分頁中停用或刪除先前的 Active Effect。</p></section>",
       "activities": {
         "Resistances": {
-          "name": "Resistances",
-          "condition": "When you take damage"
+          "name": "抗力",
+          "condition": "當你承受傷害時"
         }
       },
       "effects": {
         "Hunter's Defense: Acid": {
-          "name": "Hunter's Defense: Acid"
+          "name": "獵人防禦：強酸"
         },
         "Hunter's Defense: Bludgeoning": {
-          "name": "Hunter's Defense: Bludgeoning"
+          "name": "獵人防禦：鈍擊"
         },
         "Hunter's Defense: Cold": {
-          "name": "Hunter's Defense: Cold"
+          "name": "獵人防禦：寒冷"
         },
         "Hunter's Defense: Fire": {
-          "name": "Hunter's Defense: Fire"
+          "name": "獵人防禦：火焰"
         },
         "Hunter's Defense: Force": {
-          "name": "Hunter's Defense: Force"
+          "name": "獵人防禦：力場"
         },
         "Hunter's Defense: Lightning": {
-          "name": "Hunter's Defense: Lightning"
+          "name": "獵人防禦：閃電"
         },
         "Hunter's Defense: Necrotic": {
-          "name": "Hunter's Defense: Necrotic"
+          "name": "獵人防禦：黯蝕"
         },
         "Hunter's Defense: Piercing": {
-          "name": "Hunter's Defense: Piercing"
+          "name": "獵人防禦：穿刺"
         },
         "Hunter's Defense: Poison": {
-          "name": "Hunter's Defense: Poison"
+          "name": "獵人防禦：毒素"
         },
         "Hunter's Defense: Psychic": {
-          "name": "Hunter's Defense: Psychic"
+          "name": "獵人防禦：心靈"
         },
         "Hunter's Defense: Radiant": {
-          "name": "Hunter's Defense: Radiant"
+          "name": "獵人防禦：光耀"
         },
         "Hunter's Defense: Slashing": {
-          "name": "Hunter's Defense: Slashing"
+          "name": "獵人防禦：揮砍"
         },
         "Hunter's Defense: Thunder": {
-          "name": "Hunter's Defense: Thunder"
+          "name": "獵人防禦：雷鳴"
         }
       }
     },
     "Superior Hunter's Prey": {
-      "name": "高等狩者獵物",
-      "description": "<p>Once per turn when you deal damage to a creature marked by your <em>Hunter’s Mark</em>, you can also deal that spell’s extra damage to a different creature that you can see within 30 feet of the first creature.</p><section id=\"secret-AuiRnxdHXs9cXvQV\" class=\"secret\"><p><strong>Foundry Note</strong></p><p>You can apply the damage from Hunter's Mark or use the <strong>Damage</strong> activity on this feature.</p></section>",
+      "name": "卓越獵殺技藝",
+      "description": "<p>每回合一次，當你對被你的<em>獵人印記</em>標記的生物造成傷害時，你可以對位於該生物30呎內你所能看見的另一名生物，同樣施加該法術的額外傷害。</p><section id=\"secret-AuiRnxdHXs9cXvQV\" class=\"secret\"><p><strong>Foundry 註記</strong></p><p>你可以套用獵人印記的傷害，或使用此特性上的<strong>傷害</strong>行動。</p></section>",
       "activities": {
         "damage": {
-          "range": "Of the damaged creature"
+          "range": "以受傷害的生物為準"
         }
       }
     },
@@ -5287,8 +5287,8 @@
       "description": "<p>每當你以附贈動作啟用回氣時，你可以移動最多等同於你速度一半的距離，且不觸發藉機攻擊。</p>"
     },
     "Tamed Surge": {
-      "name": "Tamed Surge",
-      "description": "<p>Immediately after you cast a Sorcerer spell with a spell slot, you can create an effect of your choice from the @UUID[Compendium.dnd-players-handbook.tables.RollTable.phbWildMagicSurg]{Wild Magic Surge} table instead of rolling on that table. You can choose any effect in the table except for the final row, and if the chosen effect involves a roll, you must make it.</p><p>Once you use this feature, you can’t do so again until you finish a Long Rest.</p>"
+      "name": "馴服浪湧",
+      "description": "<p>緊接在你以法術位施放一道術士法術後，你可以創造一種從@UUID[Compendium.dnd-players-handbook.tables.RollTable.phbWildMagicSurg]{狂野魔法浪湧}表中選擇的效應，而非在該表上擲骰。你可以選擇表中除了最後一行以外的任何效應，且若你選擇的效應包含擲骰，則你必須擲骰。</p><p>此特性一經使用，直到完成長休前你都無法再次使用。</p>"
     },
     "Tandem Footwork": {
       "name": "協同舞步",
@@ -5335,11 +5335,11 @@
     },
     "Telepathic Speech": {
       "name": "傳心談話",
-      "description": "<p>你能夠在自己與他人的意識中構建一道心靈感應的連結。作為一個附贈動作，你可以選擇30尺內一個你所能看見的生物，只要你與你所選擇的生物在等同於你魅力調整值（最少1里，當前[[lookup @abilities.cha.mod]]里）的里數內，你們就可以通過心靈感應的方式進行交流。為了理解彼此，你們都必須在心靈交流中使用對方知曉的語言。</p><p>心靈感應的連結將持續等同於你術士等級的分鐘。當你使用此能力與其他生物構建連結時，其將提前結束。</p>",
+      "description": "<p>你能夠在自己與他人的意識中構建一道心靈感應的連結。作為一個附贈動作，你可以選擇30呎內一個你所能看見的生物，只要你與你所選擇的生物在等同於你魅力調整值（最少1哩，當前[[lookup @abilities.cha.mod]]哩）的哩數內，你們就可以通過心靈感應的方式進行交流。為了理解彼此，你們都必須在心靈交流中使用對方知曉的語言。</p><p>心靈感應的連結將持續等同於你術士等級的分鐘。當你使用此能力與其他生物構建連結時，其將提前結束。</p>",
       "activities": {
         "Telepathic Speech": {
-          "name": "Telepathic Speech",
-          "target": "You can see"
+          "name": "傳心談話",
+          "target": "你所能看見的生物"
         }
       }
     },
@@ -5416,10 +5416,10 @@
       "description": "<p>你可以操作混沌本身，讓自己在一個D20檢定具有優勢，你必須在擲出D20前決定是否使用。一旦你這麼做，你必須以法術位施放一次術士法術或完成一次長休後才能再次使用此能力。</p><p>若你在完成長休前以法術位施放一次術士法術，則你自動在@UUID[Compendium.dnd-players-handbook.tables.RollTable.phbWildMagicSurg]{狂野魔法浪湧}表上擲骰。</p>",
       "activities": {
         "Expend for Advantage": {
-          "name": "Expend for Advantage"
+          "name": "消耗以獲得優勢"
         },
         "Recharge from Spell": {
-          "name": "Recharge from Spell"
+          "name": "由施法恢復"
         }
       }
     },
@@ -5437,20 +5437,20 @@
       }
     },
     "Trance of Order": {
-      "name": "Trance of Order",
-      "description": "<p>You gain the ability to align your consciousness with the endless calculations of Mechanus. As a Bonus Action, you can enter this state for 1 minute. For the duration, attack rolls against you can’t benefit from Advantage, and whenever you make a D20 Test, you can treat a roll of 9 or lower on the d20 as a 10.</p><p>Once you use this feature, you can’t use it again until you finish a Long Rest unless you spend 5 Sorcery Points (no action required) to restore your use of it.</p><section class=\"secret\" id=\"secret-Czwc4gBG5ZYCuD6i\"><p><strong>Foundry Note</strong></p><p>The <strong>Enter Trance (Free)</strong> activity includes a free use.</p><p>The <strong>Enter Trance (Sorcery Points)</strong> activity will expend five Sorcery Points.</p><p>The minimum roll is not automated.</p></section>",
+      "name": "序列意識",
+      "description": "<p>你獲得了將你的意識和機械境無盡的計算達成同步的能力。作為附贈動作，你可以進入此狀態1分鐘。在此期間，對你進行的攻擊檢定無法受益於優勢，且每當你進行一次D20檢定時，你可以將d20擲出的9或以下的骰值視為10。</p><p>此特性一經使用，直到完成長休前你都無法再次使用。你也可以消耗5點術法點（無需動作）來重置此特性的使用權。</p><section class=\"secret\" id=\"secret-Czwc4gBG5ZYCuD6i\"><p><strong>Foundry 註記</strong></p><p><strong>序列同步（免費）</strong>行動包含一次免費使用。</p><p><strong>序列同步（術法點）</strong>行動會消耗五點術法點。</p><p>最低擲骰值不會自動處理。</p></section>",
       "activities": {
         "Enter Trance (Free)": {
-          "name": "Enter Trance (Free)"
+          "name": "序列同步（免費）"
         },
         "Enter Trance (Sorcery Points)": {
-          "name": "Enter Trance (Sorcery Points)"
+          "name": "序列同步（術法點）"
         }
       },
       "effects": {
         "Trance of Order": {
-          "name": "Trance of Order",
-          "description": "<p>For the duration, attack rolls against you can’t benefit from Advantage, and whenever you make a D20 Test, you can treat a roll of 9 or lower on the d20 as a 10.</p>"
+          "name": "序列意識",
+          "description": "<p>在此期間，對你進行的攻擊檢定無法受益於優勢，且每當你進行一次D20檢定時，你可以將d20擲出的9或以下的骰值視為10。</p>"
         }
       }
     },
@@ -5637,11 +5637,11 @@
       }
     },
     "Undying Sentinel": {
-      "name": "Undying Sentinel",
-      "description": "<p>When you are reduced to 0 Hit Points and not killed outright, you can drop to 1 Hit Point instead, and you regain a number of Hit Points equal to three times your Paladin level. Once you use this feature, you can’t do so again until you finish a Long Rest.</p><p>Additionally, you can’t be aged magically, and you cease visibly aging.</p>",
+      "name": "不滅哨衛",
+      "description": "<p>當你的生命值降至0，但尚未被直接殺死時，你可以選擇讓你的生命值降到1而不是0，然後你恢復等同於你聖騎士等級三倍的生命值。此特性一經使用，直到完成長休前你都無法再次使用。</p><p>此外，你不會因為魔法效應而衰老，你的外表也會停止老去。</p>",
       "activities": {
         "heal": {
-          "condition": "When you are reduced to 0 Hit Points"
+          "condition": "當你的生命值降至0時"
         }
       }
     },
@@ -5678,16 +5678,16 @@
       }
     },
     "Vow of Enmity": {
-      "name": "Vow of Enmity",
-      "description": "<p>When you take the Attack action, you can expend one use of your Channel Divinity to utter a vow of enmity against a creature you can see within 30 feet of yourself. You have Advantage on attack rolls against the creature for 1 minute or until you use this feature again.</p><p>If the creature drops to 0 Hit Points before the vow ends, you can transfer the vow to a different creature within 30 feet of yourself (no action required).</p><section class=\"secret\" id=\"secret-Y9AmNgpQoEkUuCHU\"><p><strong>Foundry Note</strong></p><p>This feature includes an Active Effect for tracking the creature you have vowed against but it does not automate the Advantage.</p></section>",
+      "name": "仇敵誓言",
+      "description": "<p>當你採取攻擊動作時，你可以消耗一次引導神力使用次數，對位於你30呎內一名你所能看見的生物立下仇敵誓言。在1分鐘內或直到你再次使用此特性前，你對該生物進行的攻擊檢定具有優勢。</p><p>若該生物的生命值在誓言結束前降至0，你可以將誓言轉移給另一名位於你30呎內的生物（無需動作）。</p><section class=\"secret\" id=\"secret-Y9AmNgpQoEkUuCHU\"><p><strong>Foundry 註記</strong></p><p>此特性包含一個用於追蹤你立誓針對之生物的 Active Effect，但不會自動處理優勢。</p></section>",
       "activities": {
         "utility": {
-          "condition": "When you take the Attack action"
+          "condition": "當你採取攻擊動作時"
         }
       },
       "effects": {
         "Vow of Enmity": {
-          "name": "Vow of Enmity"
+          "name": "仇敵誓言"
         }
       }
     },
@@ -5836,35 +5836,35 @@
       }
     },
     "Warping Implosion": {
-      "name": "Warping Implosion",
-      "description": "<p>You can unleash a space-warping anomaly. As a Magic action, you teleport to an unoccupied space you can see within 120 feet of yourself. Immediately after you disappear, each creature within 30 feet of the space you left must make a Strength saving throw against your spell save DC. On a failed save, a creature takes 3d10 Force damage and is pulled straight toward the space you left, ending in an unoccupied space as close to your former space as possible. On a successful save, the creature takes half as much damage only.</p><p>Once you use this feature, you can’t do so again until you finish a Long Rest unless you spend 5 Sorcery Points (no action required) to restore your use of it.</p>",
+      "name": "扭曲內爆",
+      "description": "<p>你能夠釋放出扭曲空間的異常現象。作為魔法動作，你傳送到位於你120呎內你所能看見的一處未佔據空間，緊接在你消失後，位於你離開空間30呎內的每個生物必須進行一次對抗你法術豁免DC的力量豁免檢定。豁免失敗時，該生物承受3d10力場傷害，並被直線拉向你離開的空間，停在最靠近該空間的一處未佔據空間內。豁免成功時，該生物只承受半傷。</p><p>此特性一經使用，直到完成長休前你都無法再次使用。你也可以消耗5點術法點（無需動作）來重置此特性的使用權。</p>",
       "activities": {
         "Warping Implosion": {
-          "name": "Warping Implosion"
+          "name": "扭曲內爆"
         }
       }
     },
     "Warrior of Mercy": {
       "name": "命流武者",
-      "description": "<blockquote><p>Manipulate Forces of Life and Death</p></blockquote><p>Warriors of Mercy manipulate the life force of others. These Monks are wandering physicians, but they bring a swift end to their enemies. They often wear masks, presenting themselves as faceless bringers of life and death.</p>",
+      "description": "<blockquote><p>掌執命流</p></blockquote><p>命流武者操弄著他人的命流之力。這些武僧既是雲遊的醫者，但也能給敵人帶去迅疾的死亡。他們總戴著面具，以無臉的生死使者之形象示人。</p>",
       "advancement": {
         "Subclass Features": {
           "title": "子職業特性",
-          "name": "Subclass Features"
+          "name": "子職業特性"
         },
         "Implements of Mercy": {
           "title": "Implements of Mercy",
-          "name": "Implements of Mercy"
+          "name": "命流之器"
         }
       }
     },
     "Warrior of Shadow": {
       "name": "暗影武者",
-      "description": "<blockquote><p>Harness Shadow Power for Stealth and Subterfuge</p></blockquote><p>Warriors of Shadow practice stealth and subterfuge, harnessing the power of the Shadowfell. They are at home in darkness, able to draw gloom around themselves to hide, leap from shadow to shadow, and take on a wraithlike form.</p>",
+      "description": "<blockquote><p>暗影藏形</p></blockquote><p>暗影武者習練隱匿與遁術，引導、駕馭來自墮影冥界的力量。他們居於黑暗，藏於薄暮，遁於幽影，出手亦猶如幽影一般兇險。</p>",
       "advancement": {
         "Subclass Features": {
           "title": "子職業特性",
-          "name": "Subclass Features"
+          "name": "子職業特性"
         },
         "Shadow Arts": {
           "title": "Shadow Arts"
@@ -5873,15 +5873,15 @@
     },
     "Warrior of the Elements": {
       "name": "四象武者",
-      "description": "<blockquote><p>Wield Strikes and Bursts of Elemental Power</p></blockquote><p>Warriors of the Elements tap into the power of the Elemental Planes. Harnessing their supernatural focus, these Monks momentarily tame the energy of the Elemental Chaos to empower themselves in and out of battle.</p>",
+      "description": "<blockquote><p>身起四象</p></blockquote><p>四象武者揮灑著來自元素位面的力量。這些武僧們以超凡內力引動著元素混沌的能量，既可內強自身，又能外發制敵。</p>",
       "advancement": {
         "Subclass Features": {
           "title": "子職業特性",
-          "name": "Subclass Features"
+          "name": "子職業特性"
         },
         "Manipulate Elements": {
           "title": "Manipulate Elements",
-          "name": "Manipulate Elements"
+          "name": "操控四象"
         }
       }
     },
@@ -5897,11 +5897,11 @@
     },
     "Warrior of the Open Hand": {
       "name": "散打武者",
-      "description": "<blockquote><p>Master Unarmed Combat Techniques</p></blockquote><p>Warriors of the Open Hand are masters of unarmed combat. They learn techniques to push and trip their opponents and manipulate their own energy to protect themselves from harm.</p>",
+      "description": "<blockquote><p>散打隨心</p></blockquote><p>散打武者是徒手戰鬥的大師，他們學習了推離和絆摔的技藝妨敵，並用內力保護自己免受傷害。</p>",
       "advancement": {
         "Subclass Features": {
           "title": "子職業特性",
-          "name": "Subclass Features"
+          "name": "子職業特性"
         }
       }
     },
@@ -5919,8 +5919,8 @@
       }
     },
     "Wholeness of Body": {
-      "name": "Wholeness of Body",
-      "description": "<p>You gain the ability to heal yourself. As a Bonus Action, you can roll your Martial Arts die. You regain a number of Hit Points equal to the number rolled plus your Wisdom modifier (minimum of 1 Hit Point regained).</p><p>You can use this feature a number of times equal to your Wisdom modifier (minimum of once), and you regain all expended uses when you finish a Long Rest.</p>"
+      "name": "混元體",
+      "description": "<p>你獲得治癒己身的能力。你能夠以一個附贈動作擲你的武藝骰。你恢復等同於擲骰結果 + 你的感知調整值數量的生命值（至少恢復1點生命值）。</p><p>你可以使用此特性的次數等同於你的感知調整值（至少一次），並且當你完成長休時，你重獲所有已消耗的使用次數。</p>"
     },
     "Wild Companion": {
       "name": "荒野夥伴",
@@ -5936,11 +5936,11 @@
     },
     "Wild Magic Sorcery": {
       "name": "狂野術法",
-      "description": "<blockquote><p>釋放混沌魔力</p></blockquote><p>你的天生魔法來自於潛伏於創造秩序之下的混沌之力。你或你的先祖可能因為穿越一扇位面傳送門到混沌海或元素位面，而曾暴露於原初魔法之下。或者，你曾被一個精類生物祝福或被一名惡魔所標記。又或者，你只是僥倖獲得沒有顯著的原因。無論其來源為何，這道混亂魔力在你體內翻湧著，等待著被以任何方式釋放出來。</p>",
+      "description": "<blockquote><p>釋放混沌魔力</p></blockquote><p>你的天生魔法源自創生秩序之下的混沌之力。你或你的先祖可能曾透過一道通往混沌海或元素位面的位面傳送門，暴露於原生魔法之下。也許你曾受妖精生物祝福，或被惡魔標記。又或者，你的魔法毫無徵兆地偶然出現了。無論其來源為何，這種魔法在你體內翻湧，等待著任何宣洩的出口。</p>",
       "advancement": {
         "Subclass Features": {
           "title": "子職業特性",
-          "name": "Subclass Features"
+          "name": "子職業特性"
         }
       }
     },
