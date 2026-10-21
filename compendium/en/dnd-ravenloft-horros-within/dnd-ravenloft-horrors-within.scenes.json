@@ -1,0 +1,2021 @@
+{
+  "label": "Scenes",
+  "mapping": {
+    "grid": {
+      "path": "grid",
+      "converter": "grid"
+    },
+    "deltaTokens": {
+      "path": "tokens",
+      "converter": "tokens"
+    }
+  },
+  "folders": {
+    "Shadowlands": "Shadowlands",
+    "Treacherous Blood": "Treacherous Blood",
+    "The Ghost Hunter’s Haunting": "The Ghost Hunter’s Haunting",
+    "The Shadowborn Sword": "The Shadowborn Sword",
+    "Cyre 1313": "Cyre 1313",
+    "Lamordia": "Lamordia",
+    "Hungry for More": "Hungry for More",
+    "Eyes of the Darklord": "Eyes of the Darklord",
+    "Shadow of the Black Rose": "Shadow of the Black Rose",
+    "Custodian's Hall": "Custodian's Hall",
+    "Odaire": "Odaire",
+    "Other Domains of Dread": "Other Domains of Dread",
+    "The Tithe": "The Tithe",
+    "Scrolls of the Dead": "Scrolls of the Dead",
+    "Siege of Lekar": "Siege of Lekar",
+    "Trial of Hearts": "Trial of Hearts",
+    "Vault of the Elder": "Vault of the Elder",
+    "Secrets of Avernus": "Secrets of Avernus",
+    "Blood o’ the Vine": "Blood o’ the Vine",
+    "Tower of Traitors": "Tower of Traitors",
+    "Schloss Mordenheim": "Schloss Mordenheim",
+    "Lethal Lavender": "Lethal Lavender",
+    "The Grand Masquerade": "The Grand Masquerade",
+    "Borca": "Borca",
+    "Darkon": "Darkon",
+    "Dementlieu": "Dementlieu",
+    "Falkovnia": "Falkovnia",
+    "Har’Akir": "Har’Akir",
+    "Hazlan": "Hazlan",
+    "Innsmouth": "Innsmouth",
+    "Kartakass": "Kartakass",
+    "Mordent": "Mordent",
+    "Sithicus": "Sithicus",
+    "Tepest": "Tepest",
+    "Barovia": "Barovia",
+    "Kalakeri": "Kalakeri",
+    "Valachan": "Valachan"
+  },
+  "entries": {
+    "Lekar Gates (Gate of Torches)": {
+      "name": "Lekar Gates (Gate of Torches)",
+      "navName": "Gate of Torches",
+      "drawings": {
+        "+20 ft.": "+20 ft.",
+        "East Tower": "East Tower",
+        "West Tower": "West Tower"
+      },
+      "deltaTokens": {
+        "Southern Gate": {
+          "name": "Southern Gate"
+        },
+        "Northern Gate": {
+          "name": "Northern Gate"
+        },
+        "Round 1: Zombie Attack": {
+          "name": "Round 1: Zombie Attack"
+        },
+        "Round 3: Zombie Attack Continues": {
+          "name": "Round 3: Zombie Attack Continues"
+        },
+        "Round 7: Final Zombie Group": {
+          "name": "Round 7: Final Zombie Group"
+        },
+        "Round 5: Drakov's Talons": {
+          "name": "Round 5: Drakov's Talons"
+        },
+        "Round 5: Zombie Clots Attack": {
+          "name": "Round 5: Zombie Clots Attack"
+        }
+      },
+      "levels": {
+        "Lekar Gates (Gate of Torches)": "Lekar Gates (Gate of Torches)"
+      },
+      "regions": {
+        "Stairs: Gate 0": {
+          "name": "Stairs: Gate 0",
+          "behaviors": {
+            "Teleport Token": {
+              "name": "Teleport Token"
+            }
+          }
+        },
+        "Stairs: Gate 1": {
+          "name": "Stairs: Gate 1",
+          "behaviors": {
+            "Teleport Token": {
+              "name": "Teleport Token"
+            }
+          }
+        },
+        "Stairs: W Tower 1": {
+          "name": "Stairs: W Tower 1",
+          "behaviors": {
+            "Teleport Token": {
+              "name": "Teleport Token"
+            }
+          }
+        },
+        "Stairs: E Tower 1": {
+          "name": "Stairs: E Tower 1",
+          "behaviors": {
+            "Teleport Token": {
+              "name": "Teleport Token"
+            }
+          }
+        },
+        "Stairs: E Tower 2": {
+          "name": "Stairs: E Tower 2",
+          "behaviors": {
+            "Teleport Token (Down)": {
+              "name": "Teleport Token (Down)"
+            },
+            "Teleport Token (Up)": {
+              "name": "Teleport Token (Up)"
+            }
+          }
+        },
+        "Stairs: E Tower 3": {
+          "name": "Stairs: E Tower 3",
+          "behaviors": {
+            "Teleport Token": {
+              "name": "Teleport Token"
+            }
+          }
+        },
+        "Stairs: W Tower 2 (Down)": {
+          "name": "Stairs: W Tower 2 (Down)",
+          "behaviors": {
+            "Teleport Token": {
+              "name": "Teleport Token"
+            }
+          }
+        },
+        "Stairs: W Tower 2 (Up)": {
+          "name": "Stairs: W Tower 2 (Up)",
+          "behaviors": {
+            "Teleport Token": {
+              "name": "Teleport Token"
+            }
+          }
+        },
+        "Stairs: W Tower 3": {
+          "name": "Stairs: W Tower 3",
+          "behaviors": {
+            "Teleport Token": {
+              "name": "Teleport Token"
+            }
+          }
+        },
+        "Gate: S Approach": {
+          "name": "Gate: S Approach",
+          "behaviors": {
+            "Teleport Token": {
+              "name": "Teleport Token"
+            }
+          }
+        },
+        "Gate: N Approach": {
+          "name": "Gate: N Approach",
+          "behaviors": {
+            "Teleport Token": {
+              "name": "Teleport Token"
+            }
+          }
+        },
+        "Gate: N Egress": {
+          "name": "Gate: N Egress",
+          "behaviors": {
+            "Teleport Token": {
+              "name": "Teleport Token"
+            }
+          }
+        },
+        "Gate: S Egress": {
+          "name": "Gate: S Egress",
+          "behaviors": {
+            "Teleport Token": {
+              "name": "Teleport Token"
+            }
+          }
+        }
+      }
+    },
+    "Lekar Gates (Loyalist's Gate)": {
+      "name": "Lekar Gates (Loyalist's Gate)",
+      "navName": "Loyalist's Gate",
+      "drawings": {
+        "+20 ft.": "+20 ft.",
+        "East Tower": "East Tower",
+        "West Tower": "West Tower"
+      },
+      "deltaTokens": {
+        "Southern Gate": {
+          "name": "Southern Gate"
+        },
+        "Northern Gate": {
+          "name": "Northern Gate"
+        },
+        "Talon Soldier": {
+          "name": "Talon Soldier"
+        },
+        "Round 5+: Zombies": {
+          "name": "Round 5+: Zombies"
+        },
+        "Vladeska Drakov": {
+          "name": "Vladeska Drakov"
+        }
+      },
+      "levels": {
+        "Lekar Gates (Loyalist's Gate)": "Lekar Gates (Loyalist's Gate)"
+      },
+      "regions": {
+        "Stairs: Gate 0": {
+          "name": "Stairs: Gate 0",
+          "behaviors": {
+            "Teleport Token": {
+              "name": "Teleport Token"
+            }
+          }
+        },
+        "Stairs: Gate 1": {
+          "name": "Stairs: Gate 1",
+          "behaviors": {
+            "Teleport Token": {
+              "name": "Teleport Token"
+            }
+          }
+        },
+        "Stairs: W Tower 1": {
+          "name": "Stairs: W Tower 1",
+          "behaviors": {
+            "Teleport Token": {
+              "name": "Teleport Token"
+            }
+          }
+        },
+        "Stairs: E Tower 1": {
+          "name": "Stairs: E Tower 1",
+          "behaviors": {
+            "Teleport Token": {
+              "name": "Teleport Token"
+            }
+          }
+        },
+        "Stairs: E Tower 2": {
+          "name": "Stairs: E Tower 2",
+          "behaviors": {
+            "Teleport Token (Down)": {
+              "name": "Teleport Token (Down)"
+            },
+            "Teleport Token (Up)": {
+              "name": "Teleport Token (Up)"
+            }
+          }
+        },
+        "Stairs: E Tower 3": {
+          "name": "Stairs: E Tower 3",
+          "behaviors": {
+            "Teleport Token": {
+              "name": "Teleport Token"
+            }
+          }
+        },
+        "Stairs: W Tower 2 (Down)": {
+          "name": "Stairs: W Tower 2 (Down)",
+          "behaviors": {
+            "Teleport Token": {
+              "name": "Teleport Token"
+            }
+          }
+        },
+        "Stairs: W Tower 2 (Up)": {
+          "name": "Stairs: W Tower 2 (Up)",
+          "behaviors": {
+            "Teleport Token": {
+              "name": "Teleport Token"
+            }
+          }
+        },
+        "Stairs: W Tower 3": {
+          "name": "Stairs: W Tower 3",
+          "behaviors": {
+            "Teleport Token": {
+              "name": "Teleport Token"
+            }
+          }
+        },
+        "Gate: S Approach": {
+          "name": "Gate: S Approach",
+          "behaviors": {
+            "Teleport Token": {
+              "name": "Teleport Token"
+            }
+          }
+        },
+        "Gate: N Approach": {
+          "name": "Gate: N Approach",
+          "behaviors": {
+            "Teleport Token": {
+              "name": "Teleport Token"
+            }
+          }
+        },
+        "Gate: N Egress": {
+          "name": "Gate: N Egress",
+          "behaviors": {
+            "Teleport Token": {
+              "name": "Teleport Token"
+            }
+          }
+        },
+        "Gate: S Egress": {
+          "name": "Gate: S Egress",
+          "behaviors": {
+            "Teleport Token": {
+              "name": "Teleport Token"
+            }
+          }
+        }
+      }
+    },
+    "Misericordia": {
+      "name": "Misericordia",
+      "drawings": {
+        "Misericordia Greenhouse": "Misericordia Greenhouse",
+        "Degravo Laughing House": "Degravo Laughing House",
+        "Playhouse": "Playhouse",
+        "Ivan's Playroom": "Ivan's Playroom",
+        "+5 Feet": "+5 Feet"
+      },
+      "deltaTokens": {
+        "Bard": {
+          "name": "Bard"
+        }
+      },
+      "levels": {
+        "Misericordia": "Misericordia"
+      }
+    },
+    "D'Honaire Estate": {
+      "name": "D'Honaire Estate",
+      "drawings": {
+        "D'Honaire Estate": "D'Honaire Estate",
+        "Upper Floor": "Upper Floor",
+        "Main Floor": "Main Floor",
+        "40 Feet down to Sea Cave Floor": "40 Feet down to Sea Cave Floor"
+      },
+      "deltaTokens": {
+        "Masked Servants": {
+          "name": "Masked Servants"
+        }
+      },
+      "levels": {
+        "D'Honaire Estate": "D'Honaire Estate"
+      },
+      "regions": {
+        "Bifur Stair Left Up": {
+          "name": "Bifur Stair Left Up",
+          "behaviors": {
+            "Teleport Token": {
+              "name": "Teleport Token"
+            }
+          }
+        },
+        "Bifur Stair Right Up": {
+          "name": "Bifur Stair Right Up",
+          "behaviors": {
+            "Teleport Token": {
+              "name": "Teleport Token"
+            }
+          }
+        },
+        "Bifur Stair Left Down": {
+          "name": "Bifur Stair Left Down",
+          "behaviors": {
+            "Teleport Token": {
+              "name": "Teleport Token"
+            }
+          }
+        },
+        "Bifur Stair Right Down": {
+          "name": "Bifur Stair Right Down",
+          "behaviors": {
+            "Teleport Token": {
+              "name": "Teleport Token"
+            }
+          }
+        },
+        "Sea Cave Down": {
+          "name": "Sea Cave Down",
+          "behaviors": {
+            "Teleport Token": {
+              "name": "Teleport Token"
+            },
+            "Execute Script": {
+              "name": "Execute Script"
+            }
+          }
+        },
+        "Sea Cave Up": {
+          "name": "Sea Cave Up",
+          "behaviors": {
+            "Teleport Token": {
+              "name": "Teleport Token"
+            },
+            "Execute Script": {
+              "name": "Execute Script"
+            }
+          }
+        },
+        "Cave Stairs Mid": {
+          "name": "Cave Stairs Mid",
+          "behaviors": {
+            "Execute Script": {
+              "name": "Execute Script"
+            }
+          }
+        },
+        "Cave Stairs Bottom": {
+          "name": "Cave Stairs Bottom",
+          "behaviors": {
+            "Execute Script": {
+              "name": "Execute Script"
+            }
+          }
+        }
+      }
+    },
+    "Borca": {
+      "name": "Borca",
+      "levels": {
+        "Borca": "Borca"
+      }
+    },
+    "Secrets of Avernus": {
+      "name": "Secrets of Avernus",
+      "navName": "Castle Avernus",
+      "drawings": {
+        "First Floor Outer Bailey and Gallery": "First Floor Outer Bailey and Gallery",
+        "Second Floor Hall of Records": "Second Floor Hall of Records",
+        "Eleventh Floor Hall of Life": "Eleventh Floor Hall of Life",
+        "1 Square = 5 Feet": "1 Square = 5 Feet",
+        "Ninth Floor Lair of Ebbasheyth": "Ninth Floor Lair of Ebbasheyth",
+        "Eighth Floor Tomb of Irik Zal'honan": "Eighth Floor Tomb of Irik Zal'honan"
+      },
+      "deltaTokens": {
+        "Elzarath": {
+          "name": "Elzarath"
+        },
+        "Kargat Messenger": {
+          "name": "Kargat Messenger"
+        },
+        "Lossa": {
+          "name": "Lossa"
+        },
+        "Zombie Clot (1)": {
+          "name": "Zombie Clot (1)"
+        },
+        "Zombie Clot (2)": {
+          "name": "Zombie Clot (2)"
+        },
+        "Zombie Clot (3)": {
+          "name": "Zombie Clot (3)"
+        },
+        "Irik Zal’honan": {
+          "name": "Irik Zal’honan"
+        },
+        "Lesser Star Spawn Emissary": {
+          "name": "Lesser Star Spawn Emissary"
+        },
+        "Ebbasheyth": {
+          "name": "Ebbasheyth"
+        }
+      },
+      "levels": {
+        "Secrets of Avernus": "Secrets of Avernus"
+      },
+      "regions": {
+        "8th Floor: W Stairs (Up)": {
+          "name": "8th Floor: W Stairs (Up)",
+          "behaviors": {
+            "Up": {
+              "name": "Up"
+            }
+          }
+        },
+        "9th Floor: W Stairs (Down)": {
+          "name": "9th Floor: W Stairs (Down)",
+          "behaviors": {
+            "Down": {
+              "name": "Down"
+            }
+          }
+        },
+        "1st Floor: NW Stairs": {
+          "name": "1st Floor: NW Stairs",
+          "behaviors": {
+            "Up": {
+              "name": "Up"
+            }
+          }
+        },
+        "2nd Floor Library": {
+          "name": "2nd Floor Library",
+          "behaviors": {
+            "Down": {
+              "name": "Down"
+            }
+          }
+        }
+      }
+    },
+    "Odaire Toy Shop": {
+      "name": "Odaire Toy Shop",
+      "deltaTokens": {
+        "Zanna": {
+          "name": "Zanna"
+        }
+      },
+      "levels": {
+        "Odaire Toy Shop": "Odaire Toy Shop"
+      },
+      "regions": {
+        "2nd Floor": {
+          "name": "2nd Floor",
+          "behaviors": {
+            "2nd Floor": {
+              "name": "2nd Floor"
+            }
+          }
+        },
+        "1st Floor": {
+          "name": "1st Floor",
+          "behaviors": {
+            "1st Floor": {
+              "name": "1st Floor"
+            }
+          }
+        }
+      }
+    },
+    "Schloss Mordenheim": {
+      "name": "Schloss Mordenheim",
+      "levels": {
+        "Schloss Mordenheim": "Schloss Mordenheim"
+      }
+    },
+    "Pantara Lodge & Shrine": {
+      "name": "Pantara Lodge & Shrine",
+      "drawings": {
+        "Central Lodge": "Central Lodge",
+        "Guest Quarters": "Guest Quarters",
+        "Trial Shrine": "Trial Shrine",
+        "Lift to Forest Floor": "Lift to Forest Floor",
+        "Trapdoor": "Trapdoor"
+      },
+      "deltaTokens": {
+        "Chakuna": {
+          "name": "Chakuna"
+        },
+        "Displacer Beast": {
+          "name": "Displacer Beast"
+        },
+        "Yana": {
+          "name": "Yana"
+        },
+        "Aian": {
+          "name": "Aian"
+        },
+        "Citana": {
+          "name": "Citana"
+        },
+        "Lesar": {
+          "name": "Lesar"
+        },
+        "Rakengel": {
+          "name": "Rakengel"
+        },
+        "Pirate": {
+          "name": "Pirate"
+        },
+        "Tolocwa": {
+          "name": "Tolocwa"
+        },
+        "Lizardfolk": {
+          "name": "Lizardfolk"
+        }
+      },
+      "levels": {
+        "Pantara Lodge & Shrine": "Pantara Lodge & Shrine"
+      },
+      "regions": {
+        "Central Lodge": {
+          "name": "Central Lodge",
+          "behaviors": {
+            "Teleport Token": {
+              "name": "Teleport Token"
+            }
+          }
+        },
+        "Guest Quarters": {
+          "name": "Guest Quarters",
+          "behaviors": {
+            "Teleport Token": {
+              "name": "Teleport Token"
+            }
+          }
+        }
+      }
+    },
+    "Cerulean Citadel": {
+      "name": "Cerulean Citadel",
+      "drawings": {
+        "Cerulean Citadel": "Cerulean Citadel"
+      },
+      "levels": {
+        "Cerulean Citadel": "Cerulean Citadel"
+      }
+    },
+    "Hazlan": {
+      "name": "Hazlan",
+      "levels": {
+        "Hazlan": "Hazlan"
+      }
+    },
+    "Pharaoh's Rest": {
+      "name": "Pharaoh's Rest",
+      "drawings": {
+        "Pharaoh's Rest": "Pharaoh's Rest",
+        "Shrine of Ankhtepot": "Shrine of Ankhtepot",
+        "Lesser Tombs": "Lesser Tombs",
+        "Funeral Barge": "Funeral Barge",
+        "Ankhtepot's Tomb": "Ankhtepot's Tomb"
+      },
+      "deltaTokens": {
+        "Isu Rehkotep": {
+          "name": "Isu Rehkotep"
+        },
+        "Death Cultist": {
+          "name": "Death Cultist"
+        },
+        "Priest": {
+          "name": "Priest"
+        },
+        "Ankhtepot": {
+          "name": "Ankhtepot"
+        }
+      },
+      "levels": {
+        "Pharaoh's Rest": "Pharaoh's Rest"
+      },
+      "regions": {
+        "Shrine Level": {
+          "name": "Shrine Level",
+          "behaviors": {
+            "Teleport Token": {
+              "name": "Teleport Token"
+            }
+          }
+        },
+        "Tombs Level": {
+          "name": "Tombs Level",
+          "behaviors": {
+            "Teleport Token": {
+              "name": "Teleport Token"
+            }
+          }
+        },
+        "Tombs Stairs": {
+          "name": "Tombs Stairs",
+          "behaviors": {
+            "Teleport Token": {
+              "name": "Teleport Token"
+            }
+          }
+        },
+        "Barge Stairs": {
+          "name": "Barge Stairs",
+          "behaviors": {
+            "Teleport Token": {
+              "name": "Teleport Token"
+            }
+          }
+        },
+        "Barge Upper Ramp": {
+          "name": "Barge Upper Ramp",
+          "behaviors": {
+            "Teleport Token": {
+              "name": "Teleport Token"
+            }
+          }
+        },
+        "Tomb Ramp": {
+          "name": "Tomb Ramp",
+          "behaviors": {
+            "Teleport Token": {
+              "name": "Teleport Token"
+            }
+          }
+        }
+      }
+    },
+    "Dementlieu": {
+      "name": "Dementlieu",
+      "levels": {
+        "Dementlieu": "Dementlieu"
+      }
+    },
+    "Viktal and Mother's Sight": {
+      "name": "Viktal and Mother's Sight",
+      "deltaTokens": {
+        "Wolflike Biped": {
+          "name": "Wolflike Biped"
+        },
+        "Lorelei": {
+          "name": "Lorelei"
+        },
+        "Wyan": {
+          "name": "Wyan"
+        },
+        "Villager": {
+          "name": "Villager"
+        }
+      },
+      "levels": {
+        "Viktal and Mother's Sight": "Viktal and Mother's Sight"
+      }
+    },
+    "Tower of Traitors": {
+      "name": "Tower of Traitors",
+      "drawings": {
+        "Tower of Traitors": "Tower of Traitors"
+      },
+      "deltaTokens": {
+        "Undead Patrol": {
+          "name": "Undead Patrol"
+        },
+        "Lurking Hatred": {
+          "name": "Lurking Hatred"
+        }
+      },
+      "levels": {
+        "Tower of Traitors": "Tower of Traitors"
+      },
+      "regions": {
+        "Dimming Global Light": {
+          "name": "Dimming Global Light",
+          "behaviors": {
+            "Adjust Darkness Level": {
+              "name": "Adjust Darkness Level"
+            }
+          }
+        },
+        "Dark Interior": {
+          "name": "Dark Interior",
+          "behaviors": {
+            "Adjust Darkness Level": {
+              "name": "Adjust Darkness Level"
+            }
+          }
+        }
+      }
+    },
+    "Mordent": {
+      "name": "Mordent",
+      "levels": {
+        "Mordent": "Mordent"
+      }
+    },
+    "Ruins & Nedragaard Keep": {
+      "name": "Ruins & Nedragaard Keep",
+      "deltaTokens": {
+        "Zanna": {
+          "name": "Zanna"
+        }
+      },
+      "levels": {
+        "Ruins & Nedragaard Keep": "Ruins & Nedragaard Keep"
+      }
+    },
+    "The Mourning Rail": {
+      "name": "The Mourning Rail",
+      "levels": {
+        "The Mourning Rail": "The Mourning Rail"
+      },
+      "regions": {
+        "Rear Passenger Carts": {
+          "name": "Rear Passenger Carts",
+          "behaviors": {
+            "To Forward Carts": {
+              "name": "To Forward Carts"
+            }
+          }
+        },
+        "Forward Passenger Carts": {
+          "name": "Forward Passenger Carts",
+          "behaviors": {
+            "To Rear Carts": {
+              "name": "To Rear Carts"
+            }
+          }
+        }
+      }
+    },
+    "Valachan": {
+      "name": "Valachan",
+      "levels": {
+        "Valachan": "Valachan"
+      }
+    },
+    "Darkon": {
+      "name": "Darkon",
+      "levels": {
+        "Darkon": "Darkon"
+      }
+    },
+    "Barovia DM": {
+      "name": "Barovia DM",
+      "levels": {
+        "Barovia DM": "Barovia DM"
+      }
+    },
+    "Blood o’ the Vine": {
+      "name": "Blood o’ the Vine",
+      "navName": "Blood o’ the Vine Tavern",
+      "drawings": {
+        "OHL": "OHL"
+      },
+      "notes": {
+        "Blood o’ the Vine": "Blood o’ the Vine"
+      },
+      "deltaTokens": {
+        "Alenka": {
+          "name": "Alenka"
+        },
+        "Ghoul (2)": {
+          "name": "Ghoul (2)"
+        },
+        "Mirabel": {
+          "name": "Mirabel"
+        },
+        "Sorvina": {
+          "description": "<p>@Embed[Compendium.dnd-ravenloft-horrors-within.book.JournalEntry.rhwBestiary00000.JournalEntryPage.vVosPFqGIcCATr8Q cite=false caption=false]</p>",
+          "name": "Sorvina"
+        },
+        "Minotaur Skeleton": {
+          "name": "Minotaur Skeleton"
+        },
+        "Ghoul (1)": {
+          "name": "Ghoul (1)"
+        }
+      },
+      "levels": {
+        "Blood o’ the Vine": "Blood o’ the Vine"
+      },
+      "regions": {
+        "Tavern Interior - 1st Floor": {
+          "name": "Tavern Interior - 1st Floor",
+          "behaviors": {
+            "Suppress Weather": {
+              "name": "Suppress Weather"
+            },
+            "Interior Lighting": {
+              "name": "Interior Lighting"
+            }
+          }
+        },
+        "Tavern Interior - 2nd Floor": {
+          "name": "Tavern Interior - 2nd Floor",
+          "behaviors": {
+            "Suppress Weather": {
+              "name": "Suppress Weather"
+            },
+            "Interior Lighting": {
+              "name": "Interior Lighting"
+            }
+          }
+        },
+        "Tavern - 1st Floor NW Stairs": {
+          "name": "Tavern - 1st Floor NW Stairs",
+          "behaviors": {
+            "1st Floor": {
+              "name": "1st Floor"
+            }
+          }
+        },
+        "Tavern - 1st Floor SE Stairs": {
+          "name": "Tavern - 1st Floor SE Stairs",
+          "behaviors": {
+            "1st Floor": {
+              "name": "1st Floor"
+            }
+          }
+        },
+        "Tavern - 2nd Floor NW Stairs": {
+          "name": "Tavern - 2nd Floor NW Stairs",
+          "behaviors": {
+            "2nd Floor": {
+              "name": "2nd Floor"
+            }
+          }
+        },
+        "Tavern - 2nd Floor SE Stairs": {
+          "name": "Tavern - 2nd Floor SE Stairs",
+          "behaviors": {
+            "2nd Floor": {
+              "name": "2nd Floor"
+            }
+          }
+        },
+        "Tavern - Trapdoor NE Office": {
+          "name": "Tavern - Trapdoor NE Office",
+          "behaviors": {
+            "1st Floor": {
+              "name": "1st Floor"
+            }
+          }
+        },
+        "Temple - E Ladder": {
+          "name": "Temple - E Ladder",
+          "behaviors": {
+            "Temple Ladder": {
+              "name": "Temple Ladder"
+            }
+          }
+        },
+        "Temple - Tunnel Latter": {
+          "name": "Temple - Tunnel Latter",
+          "behaviors": {
+            "Teleport Token": {
+              "name": "Teleport Token"
+            }
+          }
+        },
+        "Tree - Tunnel East": {
+          "name": "Tree - Tunnel East",
+          "behaviors": {
+            "Outside Village Tunnel": {
+              "name": "Outside Village Tunnel"
+            }
+          }
+        },
+        "Tree - Ladder Underground": {
+          "name": "Tree - Ladder Underground",
+          "behaviors": {
+            "Ladder Underground": {
+              "name": "Ladder Underground"
+            }
+          }
+        },
+        "Tree - Ladder Above Ground": {
+          "name": "Tree - Ladder Above Ground",
+          "behaviors": {
+            "Ladder Above Ground": {
+              "name": "Ladder Above Ground"
+            }
+          }
+        },
+        "Temple Interior": {
+          "name": "Temple Interior",
+          "behaviors": {
+            "Suppress Weather": {
+              "name": "Suppress Weather"
+            },
+            "Interior Lighting": {
+              "name": "Interior Lighting"
+            }
+          }
+        },
+        "Tunnel Interior - Outside Village": {
+          "name": "Tunnel Interior - Outside Village",
+          "behaviors": {
+            "Suppress Weather": {
+              "name": "Suppress Weather"
+            },
+            "Interior Lighting": {
+              "name": "Interior Lighting"
+            }
+          }
+        }
+      }
+    },
+    "Borca DM": {
+      "name": "Borca DM",
+      "levels": {
+        "Borca DM": "Borca DM"
+      }
+    },
+    "Cthulhu's Vault": {
+      "name": "Cthulhu's Vault",
+      "levels": {
+        "Cthulhu's Vault": "Cthulhu's Vault"
+      }
+    },
+    "Custodian's Hall": {
+      "name": "Custodian's Hall",
+      "levels": {
+        "Custodian's Hall": "Custodian's Hall"
+      },
+      "regions": {
+        "Dungeon Interior": {
+          "name": "Dungeon Interior",
+          "behaviors": {
+            "Adjust Darkness Level": {
+              "name": "Adjust Darkness Level"
+            }
+          }
+        },
+        "Main Building Interior": {
+          "name": "Main Building Interior",
+          "behaviors": {
+            "Adjust Darkness Level": {
+              "name": "Adjust Darkness Level"
+            }
+          }
+        },
+        "Tower Interior": {
+          "name": "Tower Interior",
+          "behaviors": {
+            "Adjust Darkness Level": {
+              "name": "Adjust Darkness Level"
+            }
+          }
+        },
+        "Main Building to Tower": {
+          "name": "Main Building to Tower",
+          "behaviors": {
+            "Teleport Token": {
+              "name": "Teleport Token"
+            }
+          }
+        },
+        "Tower to Main Building": {
+          "name": "Tower to Main Building",
+          "behaviors": {
+            "Teleport Token": {
+              "name": "Teleport Token"
+            }
+          }
+        },
+        "Dungeon to Main Building": {
+          "name": "Dungeon to Main Building",
+          "behaviors": {
+            "Teleport Token": {
+              "name": "Teleport Token"
+            }
+          }
+        },
+        "Main Building to Dungeon": {
+          "name": "Main Building to Dungeon",
+          "behaviors": {
+            "Teleport Token": {
+              "name": "Teleport Token"
+            }
+          }
+        }
+      }
+    },
+    "Darkon DM": {
+      "name": "Darkon DM",
+      "levels": {
+        "Darkon DM": "Darkon DM"
+      }
+    },
+    "Dementlieu DM": {
+      "name": "Dementlieu DM",
+      "levels": {
+        "Dementlieu DM": "Dementlieu DM"
+      }
+    },
+    "Falkovnia": {
+      "name": "Falkovnia",
+      "levels": {
+        "Falkovnia": "Falkovnia"
+      }
+    },
+    "Falkovnia DM": {
+      "name": "Falkovnia DM",
+      "levels": {
+        "Falkovnia DM": "Falkovnia DM"
+      }
+    },
+    "Har'Akir": {
+      "name": "Har'Akir",
+      "levels": {
+        "Har'Akir": "Har'Akir"
+      }
+    },
+    "Har'Akir DM": {
+      "name": "Har'Akir DM",
+      "levels": {
+        "Har'Akir DM": "Har'Akir DM"
+      }
+    },
+    "Hazlan DM": {
+      "name": "Hazlan DM",
+      "levels": {
+        "Hazlan DM": "Hazlan DM"
+      }
+    },
+    "Innsmouth": {
+      "name": "Innsmouth",
+      "levels": {
+        "Innsmouth": "Innsmouth"
+      }
+    },
+    "Innsmouth DM": {
+      "name": "Innsmouth DM",
+      "levels": {
+        "Innsmouth DM": "Innsmouth DM"
+      }
+    },
+    "Kalakeri": {
+      "name": "Kalakeri",
+      "levels": {
+        "Kalakeri": "Kalakeri"
+      }
+    },
+    "Kalakeri DM": {
+      "name": "Kalakeri DM",
+      "levels": {
+        "Kalakeri DM": "Kalakeri DM"
+      }
+    },
+    "Kartakass DM": {
+      "name": "Kartakass DM",
+      "levels": {
+        "Kartakass DM": "Kartakass DM"
+      }
+    },
+    "Lamordia": {
+      "name": "Lamordia",
+      "levels": {
+        "Lamordia": "Lamordia"
+      }
+    },
+    "Lamordia DM": {
+      "name": "Lamordia DM",
+      "levels": {
+        "Lamordia DM": "Lamordia DM"
+      }
+    },
+    "Martira Bay": {
+      "name": "Martira Bay",
+      "levels": {
+        "Martira Bay": "Martira Bay"
+      }
+    },
+    "Martira Bay DM": {
+      "name": "Martira Bay DM",
+      "levels": {
+        "Martira Bay DM": "Martira Bay DM"
+      }
+    },
+    "Mordent DM": {
+      "name": "Mordent DM",
+      "levels": {
+        "Mordent DM": "Mordent DM"
+      }
+    },
+    "Mordentshire": {
+      "name": "Mordentshire",
+      "levels": {
+        "Mordentshire": "Mordentshire"
+      }
+    },
+    "Mordentshire DM": {
+      "name": "Mordentshire DM",
+      "levels": {
+        "Mordentshire DM": "Mordentshire DM"
+      }
+    },
+    "Old Kartakan Inn and Taverna": {
+      "name": "Old Kartakan Inn and Taverna",
+      "drawings": {
+        "Harkon Lukas’s Room": "Harkon Lukas’s Room",
+        "Trapdoor (down)": "Trapdoor (down)",
+        "Trapdoor (10 ft. Up)": "Trapdoor (10 ft. Up)",
+        "Second Floor": "Second Floor",
+        "First Floor": "First Floor",
+        "+5 Feet": "+5 Feet",
+        "-5 Feet": "-5 Feet",
+        "Brawl Actors": "Brawl Actors",
+        "Heckler": "Heckler"
+      },
+      "deltaTokens": {
+        "Tough Boss (1)": {
+          "name": "Tough Boss (1)"
+        },
+        "Tough Boss (2)": {
+          "name": "Tough Boss (2)"
+        },
+        "Tough Boss (3)": {
+          "name": "Tough Boss (3)"
+        },
+        "Heckler": {
+          "name": "Heckler"
+        },
+        "Bandit (1)": {
+          "name": "Bandit (1)"
+        },
+        "Bandit (2)": {
+          "name": "Bandit (2)"
+        },
+        "Bandit (3)": {
+          "name": "Bandit (3)"
+        },
+        "Werewolf (1)": {
+          "name": "Werewolf (1)"
+        },
+        "Werewolf (2)": {
+          "name": "Werewolf (2)"
+        },
+        "Werewolf (3)": {
+          "name": "Werewolf (3)"
+        },
+        "Werewolf (4)": {
+          "name": "Werewolf (4)"
+        },
+        "Frantosh": {
+          "items": {
+            "Shape-Shift": {
+              "name": "Shape-Shift",
+              "description": "<p class=\"feature\">[[lookup @name]] shape-shifts into a Large wolf-humanoid hybrid form or a Medium wolf, or it returns to its true humanoid form, or he returns to its true form. Its game statistics, other than its size, are the same in each form. Any equipment it is wearing or carrying isn’t transformed.</p><section class=\"secret\" id=\"secret-D36xZfDfJHOK8pdJ\"><p><strong>Foundry Note</strong></p><p>Use when Frantosh uses the Harkon’s Bite necklace he wears to transform into a Werewolf.</p></section>",
+              "activities": {
+                "Transform in Werewolf": {
+                  "name": "Transform in Werewolf"
+                }
+              },
+              "effects": {
+                "Speed: Wolf Form": {
+                  "name": "Speed: Wolf Form"
+                }
+              }
+            }
+          },
+          "name": "Frantosh"
+        },
+        "Patron (1)": {
+          "name": "Patron (1)"
+        },
+        "Patron (2)": {
+          "name": "Patron (2)"
+        },
+        "Patron (3)": {
+          "name": "Patron (3)"
+        },
+        "Patron (4)": {
+          "name": "Patron (4)"
+        },
+        "Patron (5)": {
+          "name": "Patron (5)"
+        },
+        "Patron (6)": {
+          "name": "Patron (6)"
+        },
+        "Patron (7)": {
+          "name": "Patron (7)"
+        },
+        "Patron (8)": {
+          "name": "Patron (8)"
+        },
+        "Patron (9)": {
+          "name": "Patron (9)"
+        },
+        "Patron (10)": {
+          "name": "Patron (10)"
+        },
+        "Patron (11)": {
+          "name": "Patron (11)"
+        },
+        "Patron (12)": {
+          "name": "Patron (12)"
+        },
+        "Patron (13)": {
+          "name": "Patron (13)"
+        },
+        "Patron (14)": {
+          "name": "Patron (14)"
+        },
+        "Patron (15)": {
+          "name": "Patron (15)"
+        },
+        "Patron (16)": {
+          "name": "Patron (16)"
+        },
+        "Patron (17)": {
+          "name": "Patron (17)"
+        },
+        "Patron (18)": {
+          "name": "Patron (18)"
+        },
+        "Patron (19)": {
+          "name": "Patron (19)"
+        },
+        "Patron (20)": {
+          "name": "Patron (20)"
+        },
+        "Patron (21)": {
+          "name": "Patron (21)"
+        },
+        "Patron (22)": {
+          "name": "Patron (22)"
+        },
+        "Harkon Lukas": {
+          "name": "Harkon Lukas"
+        },
+        "Patron (23)": {
+          "name": "Patron (23)"
+        },
+        "Patron (24)": {
+          "name": "Patron (24)"
+        },
+        "Patron (25)": {
+          "name": "Patron (25)"
+        },
+        "Patron (26)": {
+          "name": "Patron (26)"
+        },
+        "Patron (27)": {
+          "name": "Patron (27)"
+        },
+        "Patron (28)": {
+          "name": "Patron (28)"
+        },
+        "Patron (29)": {
+          "name": "Patron (29)"
+        },
+        "Patron (30)": {
+          "name": "Patron (30)"
+        },
+        "Patron (31)": {
+          "name": "Patron (31)"
+        },
+        "Patron (32)": {
+          "name": "Patron (32)"
+        },
+        "Patron (33)": {
+          "name": "Patron (33)"
+        },
+        "Patron (34)": {
+          "name": "Patron (34)"
+        },
+        "Patron (35)": {
+          "name": "Patron (35)"
+        },
+        "Patron (36)": {
+          "name": "Patron (36)"
+        },
+        "Patron (37)": {
+          "name": "Patron (37)"
+        },
+        "Patron (38)": {
+          "name": "Patron (38)"
+        },
+        "Patron (39)": {
+          "name": "Patron (39)"
+        },
+        "Patron (40)": {
+          "name": "Patron (40)"
+        },
+        "Patron (41)": {
+          "name": "Patron (41)"
+        },
+        "Patron (42)": {
+          "name": "Patron (42)"
+        },
+        "Patron (43)": {
+          "name": "Patron (43)"
+        },
+        "Patron (44)": {
+          "name": "Patron (44)"
+        },
+        "Patron (45)": {
+          "name": "Patron (45)"
+        },
+        "Patron (46)": {
+          "name": "Patron (46)"
+        },
+        "Patron (47)": {
+          "name": "Patron (47)"
+        },
+        "Patron (48)": {
+          "name": "Patron (48)"
+        },
+        "Patron (49)": {
+          "name": "Patron (49)"
+        },
+        "Patron (50)": {
+          "name": "Patron (50)"
+        },
+        "Patron (51)": {
+          "name": "Patron (51)"
+        },
+        "Patron (52)": {
+          "name": "Patron (52)"
+        },
+        "Patron (53)": {
+          "name": "Patron (53)"
+        },
+        "Patron (54)": {
+          "name": "Patron (54)"
+        },
+        "Patron (55)": {
+          "name": "Patron (55)"
+        },
+        "Patron (56)": {
+          "name": "Patron (56)"
+        },
+        "Patron (57)": {
+          "name": "Patron (57)"
+        },
+        "Patron (58)": {
+          "name": "Patron (58)"
+        },
+        "Patron (59)": {
+          "name": "Patron (59)"
+        },
+        "Patron (60)": {
+          "name": "Patron (60)"
+        },
+        "Patron (61)": {
+          "name": "Patron (61)"
+        },
+        "Patron (62)": {
+          "name": "Patron (62)"
+        },
+        "Patron (63)": {
+          "name": "Patron (63)"
+        },
+        "Patron (64)": {
+          "name": "Patron (64)"
+        },
+        "Patron (65)": {
+          "name": "Patron (65)"
+        },
+        "Patron (66)": {
+          "name": "Patron (66)"
+        },
+        "Patron (67)": {
+          "name": "Patron (67)"
+        },
+        "Patron (68)": {
+          "name": "Patron (68)"
+        },
+        "Patron (69)": {
+          "name": "Patron (69)"
+        },
+        "Patron (70)": {
+          "name": "Patron (70)"
+        },
+        "Werewolf (5)": {
+          "name": "Werewolf (5)"
+        },
+        "Werewolf (6)": {
+          "name": "Werewolf (6)"
+        },
+        "Werewolf (7)": {
+          "name": "Werewolf (7)"
+        },
+        "Werewolf (8)": {
+          "name": "Werewolf (8)"
+        },
+        "Werewolf (9)": {
+          "name": "Werewolf (9)"
+        },
+        "Werewolf (10)": {
+          "name": "Werewolf (10)"
+        }
+      },
+      "levels": {
+        "Old Kartakan Inn and Taverna": "Old Kartakan Inn and Taverna"
+      },
+      "regions": {
+        "2nd Floor - Trap Door Ladder": {
+          "name": "2nd Floor - Trap Door Ladder",
+          "behaviors": {
+            "To Harkon's Room": {
+              "name": "To Harkon's Room"
+            }
+          }
+        },
+        "Harkon Lukas’s Room": {
+          "name": "Harkon Lukas’s Room",
+          "behaviors": {
+            "To Second Floor": {
+              "name": "To Second Floor"
+            }
+          }
+        },
+        "2nd Floor - West Ladder": {
+          "name": "2nd Floor - West Ladder",
+          "behaviors": {
+            "To 1st Floor": {
+              "name": "To 1st Floor"
+            }
+          }
+        },
+        "1st Floor - West Ladder": {
+          "name": "1st Floor - West Ladder",
+          "behaviors": {
+            "To 2nd Floor": {
+              "name": "To 2nd Floor"
+            }
+          }
+        },
+        "1st Floor - East Ladder": {
+          "name": "1st Floor - East Ladder",
+          "behaviors": {
+            "To 2nd Floor": {
+              "name": "To 2nd Floor"
+            }
+          }
+        },
+        "2nd Floor - East Ladder": {
+          "name": "2nd Floor - East Ladder",
+          "behaviors": {
+            "To 1st Floor": {
+              "name": "To 1st Floor"
+            }
+          }
+        },
+        "Larder": {
+          "name": "Larder",
+          "behaviors": {
+            "To Kitchen": {
+              "name": "To Kitchen"
+            }
+          }
+        },
+        "Kitchen": {
+          "name": "Kitchen",
+          "behaviors": {
+            "To Larder": {
+              "name": "To Larder"
+            }
+          }
+        },
+        "1st Floor - South Stairs": {
+          "name": "1st Floor - South Stairs",
+          "behaviors": {
+            "To 2nd Floor": {
+              "name": "To 2nd Floor"
+            }
+          }
+        },
+        "2nd Floor - South Stairs": {
+          "name": "2nd Floor - South Stairs",
+          "behaviors": {
+            "To 1st Floor": {
+              "name": "To 1st Floor"
+            }
+          }
+        },
+        "2nd Floor - North Stairs*": {
+          "name": "2nd Floor - North Stairs*",
+          "behaviors": {
+            "To 1st Floor": {
+              "name": "To 1st Floor"
+            }
+          }
+        },
+        "1st Floor - North Stairs": {
+          "name": "1st Floor - North Stairs",
+          "behaviors": {
+            "To 2nd Floor": {
+              "name": "To 2nd Floor"
+            }
+          }
+        },
+        "Larder Interior Lighting": {
+          "name": "Larder Interior Lighting",
+          "behaviors": {
+            "Interior Lighting": {
+              "name": "Interior Lighting"
+            }
+          }
+        },
+        "Harkon Lukas’s Room - Int. Lighting": {
+          "name": "Harkon Lukas’s Room - Int. Lighting",
+          "behaviors": {
+            "Adjust Darkness Level": {
+              "name": "Adjust Darkness Level"
+            }
+          }
+        }
+      }
+    },
+    "Shadowlands": {
+      "name": "Shadowlands",
+      "levels": {
+        "Shadowlands": "Shadowlands"
+      }
+    },
+    "Sithicus": {
+      "name": "Sithicus",
+      "levels": {
+        "Sithicus": "Sithicus"
+      }
+    },
+    "Sithicus DM": {
+      "name": "Sithicus DM",
+      "levels": {
+        "Sithicus DM": "Sithicus DM"
+      }
+    },
+    "Surroundings Cthulhu's Vault": {
+      "name": "Surroundings Cthulhu's Vault",
+      "levels": {
+        "Surroundings Cthulhu's Vault": "Surroundings Cthulhu's Vault"
+      }
+    },
+    "Tepest": {
+      "name": "Tepest",
+      "levels": {
+        "Tepest": "Tepest"
+      }
+    },
+    "Tepest DM": {
+      "name": "Tepest DM",
+      "levels": {
+        "Tepest DM": "Tepest DM"
+      }
+    },
+    "The Shadowborn Sword": {
+      "name": "The Shadowborn Sword",
+      "deltaTokens": {
+        "Ebonbane": {
+          "name": "Ebonbane"
+        },
+        "Death Knight Aspirant": {
+          "name": "Death Knight Aspirant"
+        },
+        "Armored Corpses": {
+          "name": "Armored Corpses"
+        }
+      },
+      "levels": {
+        "The Shadowborn Sword": "The Shadowborn Sword"
+      },
+      "regions": {
+        "Indoor Regions": {
+          "name": "Indoor Regions",
+          "behaviors": {
+            "Disable Global Illumination": {
+              "name": "Disable Global Illumination"
+            },
+            "Suppress Weather": {
+              "name": "Suppress Weather"
+            }
+          }
+        },
+        "Ground Floor from Cellar (Wooden)": {
+          "name": "Ground Floor from Cellar (Wooden)",
+          "behaviors": {
+            "Teleport Token": {
+              "name": "Teleport Token"
+            }
+          }
+        },
+        "Cellar to Ground Floor (Wood)": {
+          "name": "Cellar to Ground Floor (Wood)",
+          "behaviors": {
+            "Teleport Token": {
+              "name": "Teleport Token"
+            }
+          }
+        },
+        "Cellar to Ground Floor (Stone)": {
+          "name": "Cellar to Ground Floor (Stone)",
+          "behaviors": {
+            "Teleport Token": {
+              "name": "Teleport Token"
+            }
+          }
+        },
+        "Ground Floor to Cellar (Stone)": {
+          "name": "Ground Floor to Cellar (Stone)",
+          "behaviors": {
+            "Teleport Token": {
+              "name": "Teleport Token"
+            }
+          }
+        },
+        "Ground Floor to Upper Floor": {
+          "name": "Ground Floor to Upper Floor",
+          "behaviors": {
+            "Teleport Token": {
+              "name": "Teleport Token"
+            }
+          }
+        },
+        "Upper Floor to Ground Floor": {
+          "name": "Upper Floor to Ground Floor",
+          "behaviors": {
+            "Teleport Token": {
+              "name": "Teleport Token"
+            }
+          }
+        },
+        "Ground Floor to Dungeon": {
+          "name": "Ground Floor to Dungeon",
+          "behaviors": {
+            "Teleport Token": {
+              "name": "Teleport Token"
+            }
+          }
+        },
+        "Dungeon to Ground Floor": {
+          "name": "Dungeon to Ground Floor",
+          "behaviors": {
+            "Teleport Token": {
+              "name": "Teleport Token"
+            }
+          }
+        }
+      }
+    },
+    "Shadowlands DM": {
+      "name": "Shadowlands DM",
+      "levels": {
+        "Shadowlands DM": "Shadowlands DM"
+      }
+    },
+    "Valachan DM": {
+      "name": "Valachan DM",
+      "levels": {
+        "Valachan DM": "Valachan DM"
+      }
+    },
+    "Van Richten’s Herbalist Shop": {
+      "name": "Van Richten’s Herbalist Shop",
+      "deltaTokens": {
+        "Cat": {
+          "name": "Cat"
+        },
+        "Poltergeist (1)": {
+          "name": "Poltergeist (1)"
+        },
+        "Poltergeist (2)": {
+          "name": "Poltergeist (2)"
+        },
+        "Gennifer Weathermay-Foxgrov": {
+          "name": "Gennifer Weathermay-Foxgrov"
+        },
+        "Ghost": {
+          "name": "Ghost"
+        }
+      },
+      "levels": {
+        "Van Richten’s Herbalist Shop": "Van Richten’s Herbalist Shop"
+      },
+      "regions": {
+        "1st Floor Stairs Down": {
+          "name": "1st Floor Stairs Down",
+          "behaviors": {
+            "To Cellar": {
+              "name": "To Cellar"
+            }
+          }
+        },
+        "Cellar Stairs": {
+          "name": "Cellar Stairs",
+          "behaviors": {
+            "Up to First Floor": {
+              "name": "Up to First Floor"
+            }
+          }
+        },
+        "1st Floor Stairs": {
+          "name": "1st Floor Stairs",
+          "behaviors": {
+            "To 2nd Floor": {
+              "name": "To 2nd Floor"
+            }
+          }
+        },
+        "2nd Floor Stairs": {
+          "name": "2nd Floor Stairs",
+          "behaviors": {
+            "To First Floor": {
+              "name": "To First Floor"
+            }
+          }
+        }
+      }
+    },
+    "Veneficus": {
+      "name": "Veneficus",
+      "drawings": {
+        "+20 ft.": "+20 ft.",
+        "Red Tower: Hazlik’s Orrery": "Red Tower: Hazlik’s Orrery",
+        "Red Tower: Apprentice Chambers": "Red Tower: Apprentice Chambers",
+        "Red Tower: Lecture Hall": "Red Tower: Lecture Hall",
+        "Red Tower: Laboratory": "Red Tower: Laboratory",
+        "Red Tower": "Red Tower"
+      },
+      "deltaTokens": {
+        "Hazlik": {
+          "name": "Hazlik"
+        },
+        "Relentless Juggernaut": {
+          "name": "Relentless Juggernaut"
+        }
+      },
+      "levels": {
+        "Veneficus": "Veneficus"
+      },
+      "regions": {
+        "Entrance to Veneficus": {
+          "name": "Entrance to Veneficus"
+        },
+        "Hazlik's Orrery Portal": {
+          "name": "Hazlik's Orrery Portal",
+          "behaviors": {
+            "To Main Entrance": {
+              "name": "To Main Entrance"
+            },
+            "To Main Floor Portal": {
+              "name": "To Main Floor Portal"
+            }
+          }
+        },
+        "Apprentice Chambers North Portal": {
+          "name": "Apprentice Chambers North Portal",
+          "behaviors": {
+            "To Main Entrance": {
+              "name": "To Main Entrance"
+            },
+            "To Hazlik’s Orrery": {
+              "name": "To Hazlik’s Orrery"
+            },
+            "To Main Floor Portal": {
+              "name": "To Main Floor Portal"
+            }
+          }
+        },
+        "Lecture Hall North Portal": {
+          "name": "Lecture Hall North Portal",
+          "behaviors": {
+            "To Main Entrance": {
+              "name": "To Main Entrance"
+            },
+            "To Hazlik’s Orrery": {
+              "name": "To Hazlik’s Orrery"
+            },
+            "To Main Floor Portal": {
+              "name": "To Main Floor Portal"
+            }
+          }
+        },
+        "Laboratory North Portal": {
+          "name": "Laboratory North Portal",
+          "behaviors": {
+            "To Main Entrance": {
+              "name": "To Main Entrance"
+            },
+            "To Hazlik’s Orrery": {
+              "name": "To Hazlik’s Orrery"
+            },
+            "To Main Floor Portal": {
+              "name": "To Main Floor Portal"
+            }
+          }
+        },
+        "Apprentice Chambers South Portal": {
+          "name": "Apprentice Chambers South Portal",
+          "behaviors": {
+            "To Main Entrance": {
+              "name": "To Main Entrance"
+            },
+            "To Haslick’s Orrery": {
+              "name": "To Haslick’s Orrery"
+            },
+            "To Main Floor Portal": {
+              "name": "To Main Floor Portal"
+            },
+            "To Laboratory": {
+              "name": "To Laboratory"
+            }
+          }
+        },
+        "Lecture Hall South Portal": {
+          "name": "Lecture Hall South Portal",
+          "behaviors": {
+            "To Main Entrance": {
+              "name": "To Main Entrance"
+            },
+            "To Hazlik’s Orrery": {
+              "name": "To Hazlik’s Orrery"
+            },
+            "To Main Floor Portal": {
+              "name": "To Main Floor Portal"
+            }
+          }
+        },
+        "Laboratory South Portal": {
+          "name": "Laboratory South Portal",
+          "behaviors": {
+            "To Main Entrance": {
+              "name": "To Main Entrance"
+            },
+            "To Hazlik’s Orrery": {
+              "name": "To Hazlik’s Orrery"
+            },
+            "To Lecture Hall": {
+              "name": "To Lecture Hall"
+            },
+            "To Main Floor Portal": {
+              "name": "To Main Floor Portal"
+            }
+          }
+        },
+        "Main Floor Portal": {
+          "name": "Main Floor Portal",
+          "behaviors": {
+            "To Hazlik’s Orrery": {
+              "name": "To Hazlik’s Orrery"
+            },
+            "To Apprentice Chambers": {
+              "name": "To Apprentice Chambers"
+            }
+          }
+        }
+      }
+    },
+    "Von Zarovich Sanctuary": {
+      "name": "Von Zarovich Sanctuary",
+      "drawings": {},
+      "deltaTokens": {
+        "Vampire Spawn (1)": {
+          "name": "Vampire Spawn (1)"
+        },
+        "Vampire Spawn (2)": {
+          "name": "Vampire Spawn (2)"
+        },
+        "Lyssa von Zarovich": {
+          "name": "Lyssa von Zarovich"
+        },
+        "Vampire Nosferatu": {
+          "name": "Vampire Nosferatu"
+        },
+        "Vampire Mind Flayer (1)": {
+          "name": "Vampire Mind Flayer (1)"
+        },
+        "Vampire Mind Flayer (2)": {
+          "name": "Vampire Mind Flayer (2)"
+        },
+        "Swarm of Infesting Insects": {
+          "name": "Swarm of Infesting Insects"
+        }
+      },
+      "levels": {
+        "Von Zarovich Sanctuary": "Von Zarovich Sanctuary"
+      },
+      "regions": {
+        "Teleport - Below Ground": {
+          "name": "Teleport - Below Ground",
+          "behaviors": {
+            "Below Ground": {
+              "name": "Below Ground"
+            }
+          }
+        },
+        "Teleport - Above Ground": {
+          "name": "Teleport - Above Ground",
+          "behaviors": {
+            "Above Ground": {
+              "name": "Above Ground"
+            }
+          }
+        },
+        "Sanctuary Interior": {
+          "name": "Sanctuary Interior",
+          "behaviors": {
+            "Sanctuary Lighting": {
+              "name": "Sanctuary Lighting"
+            }
+          }
+        }
+      }
+    },
+    "Wreck of the Providence": {
+      "name": "Wreck of the Providence",
+      "levels": {
+        "Wreck of the Providence": "Wreck of the Providence"
+      }
+    },
+    "Schloss Mordenheim Tower": {
+      "name": "Schloss Mordenheim Tower",
+      "levels": {
+        "Schloss Mordenheim Tower": "Schloss Mordenheim Tower"
+      }
+    },
+    "Kartakass": {
+      "name": "Kartakass",
+      "levels": {
+        "Kartakass": "Kartakass"
+      }
+    },
+    "Barovia": {
+      "name": "Barovia",
+      "levels": {
+        "Barovia": "Barovia"
+      }
+    }
+  }
+}
