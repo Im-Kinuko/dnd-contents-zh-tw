@@ -43,19 +43,19 @@
       "name": "勝利之歌"
     },
     "Fortifying Soul": {
-      "description": "<p>Your experience surviving harrowing environments allows you to bolster your allies in addition to yourself. As a Magic action, choose a number of creatures you can see equal to your Wisdom modifier ([[lookup @abilities.wis.mod]]{0}, minimum of one). Each chosen creature regains Hit Points equal to [[/heal]]{1d10 plus your Ranger level} and has Advantage on saving throws to avoid or end the Frightened condition for 1 hour.</p><p>Once you use this feature, you can’t use it again until you finish a Long Rest.</p>",
+      "description": "<p>你在酷烈環境中生存的經驗不僅足夠支撐你自己，也能幫助你的盟友。作為魔法動作，你可以選擇數量等同於你感知調整值（[[lookup @abilities.wis.mod]]{0}，至少1個）且你所能看見的生物。每個被選中的生物恢復等同於[[/heal]]{1d10 + 你遊俠等級}的生命值，且在1小時內，其為避免或結束恐慌狀態所進行的豁免檢定具有優勢。</p><p>此特性一經使用，直到完成長休前你都無法再次使用。</p>",
       "effects": {
         "Fortifying Soul": {
-          "description": "<p>Each chosen creature has Advantage on saving throws to avoid or end the &amp;Reference[Frightened apply=false] condition for 1 hour.</p>",
-          "name": "Fortifying Soul"
+          "description": "<p>每個被選中的生物在1小時內，其為避免或結束&amp;Reference[Frightened apply=false]{恐慌}狀態所進行的豁免檢定具有優勢。</p>",
+          "name": "凝凍之魂"
         }
       },
       "activities": {
         "Bolster": {
-          "name": "Bolster"
+          "name": "鼓舞"
         }
       },
-      "name": "Fortifying Soul"
+      "name": "凝凍之魂"
     },
     "Knowledge Domain": {
       "description": "<blockquote><p>Unearth Secrets and Master the Mind</p></blockquote><p>The Knowledge Domain values learning and understanding above all. Clerics who tap into this domain study esoteric lore, collect old tomes, delve into secret places, and examine the processes of the mind. To them, knowledge is more valuable than material wealth, and learning is an act of worship. Libraries, universities, and other educational institutions also draw on the power of the Knowledge Domain.</p><p>Gods of knowledge vary from masters of arcane magic to patrons of craft and invention. In Faerûn, Clerics of the Knowledge Domain worship deities of learning and ingenuity such as Oghma and Gond, among many others.</p>",
@@ -160,42 +160,42 @@
     "Frozen Haunt": {
       "effects": {
         "Frozen Soul": {
-          "name": "Frozen Soul",
+          "name": "寒冰之魂",
           "description": "<p>@Embed[Compendium.dnd-heroes-faerun.options.Item.hofWiwFrozenHaun inline]</p>"
         },
         "Frozen Haunt": {
           "changes": {
-            "activities[enchant].name": "Revert Form",
-            "activities[forward].name": "Revert Form",
-            "name": "{} (Active)"
+            "activities[enchant].name": "恢復原形",
+            "activities[forward].name": "恢復原形",
+            "name": "{}（啟用中）"
           },
-          "name": "Frozen Haunt"
+          "name": "冰結惡靈"
         }
       },
       "activities": {
         "Frozen Soul": {
-          "name": "Frozen Soul"
+          "name": "寒冰之魂"
         },
         "Adopt Form": {
-          "duration": "until Hunter's Mark ends",
-          "condition": "When you cast Hunter's Mark",
-          "name": "Adopt Form"
+          "duration": "直到獵人印記結束",
+          "condition": "當你施放獵人印記時",
+          "name": "化身形態"
         },
         "Expend Slot & Adopt Form": {
-          "name": "Expend Slot & Adopt Form"
+          "name": "消耗法術位並化身形態"
         }
       },
-      "description": "<p>When you cast <em>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplHuntersMar]{Hunter's Mark}</em>, you can adopt a ghostly, snowy form. This form lasts until the spell ends, and while you are in this form, you gain the following benefits. Once you use this feature, you can’t use it again until you finish a Long Rest unless you expend a level 4+ spell slot (no action required).</p><p><em><strong>Frozen Soul.</strong></em> You have Immunity to Cold damage. When you first adopt this form and at the start of each of your subsequent turns, each creature of your choice in a 15-foot Emanation originating from you takes [[/damage]] damage.</p><p><em><strong>Partially Incorporeal.</strong></em> You have Immunity to the Grappled, Prone, and Restrained conditions. You can move through creatures and objects as if they were Difficult Terrain, but you take [[/damage 1d10 force]] damage if you end your turn inside a creature or an object. If the form ends while you are inside a creature or an object, you are shunted to the nearest unoccupied space.</p>",
-      "name": "Frozen Haunt"
+      "description": "<p>當你施放<em>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplHuntersMar]{獵人印記}</em>時，你可以化身為冰雪覆蓋的幽靈形態。此形態持續到該法術結束，處於此形態期間，你獲得下列好處。此特性一經使用，除非你消耗一個4環以上的法術位（無需動作），否則直到完成長休前你都無法再次使用。</p><p><em><strong>【寒冰之魂】</strong></em>你免疫寒冷傷害。當你首次化身為此形態時，以及在你之後每個自己回合開始時，位於以你為中心的15呎發散區域內你所選擇的每個生物，都將承受[[/damage]]傷害。</p><p><em><strong>【有限虛體】</strong></em>你免疫受擒、伏地、束縛狀態。你可以如同穿過困難地形般穿過生物與物體，但若你在一名生物或一個物體內結束回合，你將承受[[/damage 1d10 force]]傷害。若該形態結束時你身處一名生物或一個物體內，你將被彈出到最近的未佔據空間。</p>",
+      "name": "冰結惡靈"
     },
     "Winter Walker": {
-      "description": "<blockquote><p>Withstand the Horrors of Frigid Wastelands</p></blockquote><p>Winter Walkers hone their craft in the bleak and frozen wilds of places like Icewind Dale. These ruthless, rimed Rangers hunt monsters that haunt arctic wastelands, eventually becoming frigid terrors themselves. Winter Walkers are well versed in the phenomena of Icewind Dale, including the latent magic of fallen Netherese cities, endemic monsters like yetis and crag cats, and the rising threat of Underdark invaders. Due to their cold pragmatism, terrifying magic, and mastery of the region, Winter Walkers are regarded with equal parts respect and fear. Ten-Towns citizens say that Winter Walkers’ frequent exposure to malignant entities gives them their fearsome powers. Many Reghed nomads, on the other hand, believe that nature spirits bestow on Winter Walkers a unique curse.</p>",
+      "description": "<blockquote><p>抵禦來自冰凍荒原的恐怖</p></blockquote><p>凜冬行者在冰風谷等充斥著極寒和荒蕪的地區中磨練他們的技藝。這些冷酷無情、披冰蓋雪的遊俠狩獵著那些盤踞在極北荒原的怪物，最終自身也成為凜冽的恐怖存在。凜冬行者深諳發生在這片土地上的種種特異現象，包括在墜落的耐瑟瑞爾都市中沉寂的魔法，雪怪和峭壁貓等本土怪物，以及來自幽暗地域的入侵者們日漸迫近的威脅。凜冬行者冷酷的追求實效，掌握的恐怖魔法，以及對這片土地掌控，令人們又尊敬又害怕。十鎮的居民們說，凜冬行者因其頻繁接觸邪惡存在的經歷，賦予了他們令人畏懼的力量。另一種說法則是，瑞格冰川的遊牧民認為，這是自然精魂賦予凜冬行者的一種獨特詛咒。</p>",
       "advancement": {
         "Subclass Features": {
           "title": "子職業特性"
         }
       },
-      "name": "Winter Walker"
+      "name": "凜冬行者"
     },
     "Strike Fear": {
       "activities": {
@@ -271,7 +271,7 @@
       }
     },
     "Spellfire Storm": {
-      "description": "<p>你召喚一道咒火光柱，以射程內一點為中心，形成半徑20呎、高20呎的圓柱體。圓柱體區域內為明亮光照，且圓柱體出現時位於其中的每名生物都進行一次體質豁免，豁免失敗時承受4d10光耀傷害，成功時傷害減半。當一名生物在一回合中首次進入法術區域，或在其中結束其回合時，該生物也要進行此豁免。生物每回合只會進行一次此豁免。</p><p>此外，每當圓柱體內的一名生物施放法術時，該生物都進行一次體質豁免。豁免失敗時，該法術消散且沒有任何效果，用於施放該法術的動作、附贈動作或反應也隨之浪費。若該法術是以法術位施放的，則該法術位不會被消耗。</p><p>當你施放此法術時，你可以指定不受其影響的生物。</p><p><em><strong>【結陣施法】</strong></em>除了此法術的一般成分外，你還必須提供一項特殊成分（一顆價值25,000+ GP的藍色星彩藍寶石），此法術會將其消耗。此法術的射程增加至1哩，且不再需要專注。施放此法術時，每名輔施法者都必須消耗一個3環以上的法術位，否則法術失敗。</p><p><em><strong>【升環法術效應】</strong></em>法術位每升一個環階，傷害就增加1d10。</p><p>輔施法者的數量決定此法術的效應區域與持續時間，如下表所示。若任何參與此次施法的施法者又參與另一次<em>咒火風暴</em>的結陣施法，此法術便提前結束。</p><table><thead><tr><th scope=\"col\"><p>輔施法者</p></th><th scope=\"col\"><p>效應區域</p></th><th scope=\"col\"><p>持續時間</p></th></tr></thead><tbody><tr><td><p>1–3</p></td><td><p>半徑40呎、高40呎的圓柱體</p></td><td><p>1小時</p></td></tr><tr><td><p>4–6</p></td><td><p>半徑60呎、高60呎的圓柱體</p></td><td><p>8小時</p></td></tr><tr><td><p>7+</p></td><td><p>半徑100呎、高100呎的圓柱體</p></td><td><p>24小時</p></td></tr></tbody></table>",
+      "description": "<p>你召喚一道咒火光柱，以射程內一點為中心，形成半徑20呎、高20呎的圓柱體。圓柱體區域內為明亮光照，且圓柱體出現時位於其中的每名生物都進行一次體質豁免，豁免失敗時承受4d10光耀傷害，成功時傷害減半。當一名生物在一回合中首次進入法術區域，或在其中結束其回合時，該生物也要進行此豁免。生物每回合只會進行一次此豁免。</p><p>此外，每當圓柱體內的一名生物施放法術時，該生物都進行一次體質豁免。豁免失敗時，該法術消散且沒有任何效果，用於施放該法術的動作、附贈動作或反應也隨之浪費。若該法術是以法術位施放的，則該法術位不會被消耗。</p><p>當你施放此法術時，你可以指定不受其影響的生物。</p><p><em><strong>【結陣施法】</strong></em>除了此法術的一般構材外，你還必須提供一項特殊構材（一顆價值25,000+ GP的藍色星彩藍寶石），此法術會將其消耗。此法術的射程增加至1哩，且不再需要專注。施放此法術時，每名輔施法者都必須消耗一個3環以上的法術位，否則法術失敗。</p><p><em><strong>【升環法術效應】</strong></em>法術位每升一個環階，傷害就增加1d10。</p><p>輔施法者的數量決定此法術的效應區域與持續時間，如下表所示。若任何參與此次施法的施法者又參與另一次<em>咒火風暴</em>的結陣施法，此法術便提前結束。</p><table><thead><tr><th scope=\"col\"><p>輔施法者</p></th><th scope=\"col\"><p>效應區域</p></th><th scope=\"col\"><p>持續時間</p></th></tr></thead><tbody><tr><td><p>1–3</p></td><td><p>半徑40呎、高40呎的圓柱體</p></td><td><p>1小時</p></td></tr><tr><td><p>4–6</p></td><td><p>半徑60呎、高60呎的圓柱體</p></td><td><p>8小時</p></td></tr><tr><td><p>7+</p></td><td><p>半徑100呎、高100呎的圓柱體</p></td><td><p>24小時</p></td></tr></tbody></table>",
       "name": "咒火風暴",
       "activities": {
         "Cast and Save": {
@@ -430,11 +430,11 @@
       "description": "<p><strong>屬性值：</strong>敏捷、體質、智力</p><p><strong>專長：</strong>@UUID[Compendium.dnd-players-handbook.feats.Item.phbftLucky000000]</p><p><strong>技能熟練：</strong>調查與宗教</p><p><strong>工具熟練：</strong>石匠工具</p><p><strong>裝備：</strong><em>選擇</em> (A) @UUID[Compendium.dnd-players-handbook.equipment.Item.phbwepDagger0000]、@UUID[Compendium.dnd-players-handbook.equipment.Item.phbwepLightHamme]、@UUID[Compendium.dnd-players-handbook.equipment.Item.phbtulMasonsTool]、@UUID[Compendium.dnd-players-handbook.equipment.Item.phbagBackpack000]、@UUID[Compendium.dnd-players-handbook.equipment.Item.phbagBedroll0000]、@UUID[Compendium.dnd-players-handbook.equipment.Item.rvz6gQc3OcOMgIQz]、@UUID[Compendium.dnd-players-handbook.equipment.Item.phbagLadder00000]、@UUID[Compendium.dnd-players-handbook.equipment.Item.phbagPole0000000]、2個@UUID[Compendium.dnd-players-handbook.equipment.Item.phbagPouch000000]、@UUID[Compendium.dnd-players-handbook.equipment.Item.x8jC9e00t4cUYiKR]、@UUID[Compendium.dnd-players-handbook.equipment.Item.phbagString00000]、@UUID[Compendium.dnd-players-handbook.equipment.Item.rIuY5ZDJh6ctfUwG]、5支@UUID[Compendium.dnd-players-handbook.equipment.Item.phbagTorch000000]、@UUID[Compendium.dnd-players-handbook.equipment.Item.phbagClothesTrav]、@UUID[Compendium.dnd-players-handbook.equipment.Item.phbagWaterskin00]、[[/award 26GP]]或 (B) [[/award 50GP]]</p><p>你出生在神王們生活的土地上，而自從孩提時起，你便聽過了無數有關古代帝國與被掩埋城邦的故事。在這些故事當中，穆爾霍蘭德是一片充滿了被遺忘財富的土地——無價之寶等待著足夠狡詐又足夠勇敢的人來將它們發掘。你主動出發去探索墓穴、墳塚與金字塔，以發掘自己的民族遺產。</p>"
     },
     "Winter Walker Spells": {
-      "description": "<p>When you reach a Ranger level specified in the Winter Walker Spells table, you thereafter always have the listed spells prepared.</p><table><caption>Winter Walker Spells</caption><thead><tr><th scope=\"col\"><p>Ranger Level</p></th><th scope=\"col\"><p>Spell</p></th></tr></thead><tbody><tr><td><p>3</p></td><td><p>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplIceKnife00]{Ice Knife}</p></td></tr><tr><td><p>5</p></td><td><p>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplHoldPerson]{Hold Person}</p></td></tr><tr><td><p>9</p></td><td><p>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplRemoveCurs]{Remove Curse}</p></td></tr><tr><td><p>13</p></td><td><p>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplIceStorm00]{Ice Storm}</p></td></tr><tr><td><p>17</p></td><td><p>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplConeofCold]{Cone of Cold}</p></td></tr></tbody></table>",
-      "name": "Winter Walker Spells",
+      "description": "<p>當你達到凜冬行者法術表中所述的相應遊俠等級時，你視為始終準備法術表上的法術。</p><table><caption>凜冬行者法術</caption><thead><tr><th scope=\"col\"><p>遊俠等級</p></th><th scope=\"col\"><p>法術</p></th></tr></thead><tbody><tr><td><p>3</p></td><td><p>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplIceKnife00]{冰刃}</p></td></tr><tr><td><p>5</p></td><td><p>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplHoldPerson]{人類定身術}</p></td></tr><tr><td><p>9</p></td><td><p>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplRemoveCurs]{移除詛咒}</p></td></tr><tr><td><p>13</p></td><td><p>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplIceStorm00]{冰風暴}</p></td></tr><tr><td><p>17</p></td><td><p>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplConeofCold]{寒冰錐}</p></td></tr></tbody></table>",
+      "name": "凜冬行者法術",
       "advancement": {
         "Winter Walker Spells": {
-          "title": "Winter Walker Spells"
+          "title": "凜冬行者法術"
         }
       }
     },
@@ -745,7 +745,7 @@
       "description": "<p>你始終準備著<em>反制法術</em>法術。</p><p>此外，每當目標對抗你所施放的<em>反制法術</em>豁免失敗時，你重獲1d4術法點。</p>",
       "advancement": {
         "Subclass Feature Spell": {
-          "hint": "你始終準備反制法術法術。",
+          "hint": "你始終準備反制法術。",
           "title": "子職業特性法術"
         }
       },
@@ -771,26 +771,26 @@
       "description": "<p>你獲得下列好處。</p><p><em><strong>【激勵打擊】</strong></em>每回合一次，當你對一名生物造成暴擊時，你可以選擇位於你30呎內一名能看見或聽見你、且沒有英雄激勵的盟友。該盟友獲得英雄激勵。</p><p><em><strong>【重獲榮譽】</strong></em>當一名你所能看見的敵人對位於你5呎內的盟友造成傷害時，直到你的下個回合結束前，你對該敵人進行的下一次攻擊檢定具有優勢。</p><section class=\"secret\" id=\"secret-mWiw16lJG04PHCaY\"><p><strong>Foundry 註記</strong></p><p>此特性包含一個<strong>Active Effect</strong>，用來提醒你具有優勢，但不會自動處理此流程。</p></section>"
     },
     "Frigid Explorer": {
-      "description": "<p>你獲得下列好處。</p><p><em><strong>Biting Cold.</strong></em> Damage from your weapon attacks, Ranger spells, and Ranger features ignores Resistance to Cold damage.</p><p><em><strong>Frost Resistance.</strong></em> You have Resistance to Cold damage.</p><p><em><strong>Polar Strikes.</strong></em> When you hit a creature with an attack roll using a weapon, you can deal an extra 1d4 Cold damage to the target, which can take this extra damage only once per turn. When you reach Ranger level 11, this extra damage increases to 1d6.</p><section id=\"secret-bnYrR1lg9cK7jGHJ\" class=\"secret\"><p><strong>Foundry Note</strong></p><p>This feature's extra damage can either be rolled individually via the <strong>Polar Strike</strong> activity, or as a toggled bonus via the <strong>Polar Strikes Damage</strong> active effect applying to all weapon damage rolls.</p></section>",
+      "description": "<p>你獲得下列好處。</p><p><em><strong>【刺骨嚴寒】</strong></em>你的武器攻擊、遊俠法術以及遊俠特性所造成的傷害無視寒冷抗力。</p><p><em><strong>【冰霜抗力】</strong></em>你獲得寒冷傷害的抗力。</p><p><em><strong>【極地打擊】</strong></em>當你使用一把武器以攻擊檢定命中生物時，你可以額外對目標造成1d4寒冷傷害，每名目標每回合僅會承受一次此額外傷害。當你達到遊俠等級11級時，此額外傷害增加為1d6。</p><section id=\"secret-bnYrR1lg9cK7jGHJ\" class=\"secret\"><p><strong>Foundry 註記</strong></p><p>此特性的額外傷害可藉由<strong>極地打擊</strong>行動單獨擲骰，或藉由<strong>極地打擊傷害</strong> Active Effect 作為可切換的加值，套用於所有武器傷害擲骰。</p></section>",
       "advancement": {
         "Polar Strikes Die": {
-          "title": "Polar Strikes Die"
+          "title": "極地打擊骰"
         },
         "Frost Resistance": {
-          "title": "Frost Resistance"
+          "title": "冰霜抗力"
         }
       },
       "effects": {
         "Polar Strikes Damage": {
           "description": "<p>@Embed[Compendium.dnd-heroes-faerun.options.Item.hofWiwFrigidExpl inline]</p>",
-          "name": "Polar Strikes Damage"
+          "name": "極地打擊傷害"
         }
       },
-      "name": "Frigid Explorer",
+      "name": "凍原探索者",
       "activities": {
         "Polar Strike": {
-          "condition": "When you hit a creature with a weapon attack roll",
-          "name": "Polar Strike"
+          "condition": "當你以武器攻擊檢定命中一個生物時",
+          "name": "極地打擊"
         }
       }
     },
@@ -974,7 +974,7 @@
         }
       },
       "name": "咒火冠冕",
-      "description": "<p>當你使用天生術法時，你可以對其進行變化，讓自己灌注咒火的精華，並在此次天生術法啟用期間獲得下列好處。一旦你使用此特性改變天生術法，直到完成長休前你都無法再次使用此特性，除非你消耗5術法點（無需動作）來恢復此特性的使用次數。</p><p><em><strong>【燃盡生命力】</strong></em>每回合一次，當你被一次攻擊檢定命中時，你可以消耗生命骰，數量至多等同於你的魅力調整值（最少為1）。擲出所消耗的骰子，並使該次攻擊的傷害減少等同於擲出總和的數值。</p><p><em><strong>【飛行】</strong></em>你獲得60呎飛行速度，且可以懸浮。</p><p><em><strong>【法術閃避】</strong></em>當你受到一個允許你進行豁免檢定以僅承受一半傷害的法術或魔法效應影響時，若你豁免成功則改為不承受傷害，若豁免失敗則僅承受一半傷害。若你陷入失能狀態，你無法使用此好處。</p><section class=\"secret\" id=\"secret-2dbSB5SQFmvO1ZHQ\"><p><strong>Foundry 註記</strong></p><p>使用<strong>啟用咒火</strong>行動時有數個效果：</p><ol><li><p>該行動會<strong>消耗</strong>此特性的一次使用次數。</p></li><li><p>該行動會將行動名稱從「啟用咒火」改為「<strong>關閉咒火</strong>」。</p></li><li><p>該行動會顯示「<strong>燃盡生命力（d6）</strong>」行動，讓你能依據你選擇消耗的生命骰（HD）數量擲骰以減少傷害，數量至多為你的魅力調整值。</p></li><li><p>該行動會顯示「<strong>法術閃避</strong>」行動，你可以在咒火冠冕啟用期間使用。此子特性沒有自動化，需要手動裁定來結算。</p></li></ol><p>點擊「<strong>關閉咒火」</strong>會隱藏「燃盡生命力（d6）」與「法術閃避」行動，並將名稱還原為「啟用咒火」。</p><p>請注意，「燃盡生命力」行動會扣除<strong>術士骰型的生命骰（d6）</strong>。若你兼職不使用d6的子職業，其不會消耗其他骰型的生命骰。</p></section>"
+      "description": "<p>當你使用天生術法時，你可以對其進行變化，讓自己灌注咒火的精華，並在此次天生術法啟用期間獲得下列好處。一旦你使用此特性改變天生術法，直到完成長休前你都無法再次使用此特性，除非你消耗5點術法點（無需動作）來恢復此特性的使用次數。</p><p><em><strong>【燃盡生命力】</strong></em>每回合一次，當你被一次攻擊檢定命中時，你可以消耗生命骰，數量至多等同於你的魅力調整值（最少為1）。擲出所消耗的骰子，並使該次攻擊的傷害減少等同於擲出總和的數值。</p><p><em><strong>【飛行】</strong></em>你獲得60呎飛行速度，且可以懸浮。</p><p><em><strong>【法術閃避】</strong></em>當你受到一個允許你進行豁免檢定以僅承受一半傷害的法術或魔法效應影響時，豁免成功時，你改為不承受傷害；豁免失敗時，你僅承受一半傷害。若你陷入失能狀態，你無法使用此好處。</p><section class=\"secret\" id=\"secret-2dbSB5SQFmvO1ZHQ\"><p><strong>Foundry 註記</strong></p><p>使用<strong>啟用咒火</strong>行動時有數個效果：</p><ol><li><p>該行動會<strong>消耗</strong>此特性的一次使用次數。</p></li><li><p>該行動會將行動名稱從「啟用咒火」改為「<strong>關閉咒火</strong>」。</p></li><li><p>該行動會顯示「<strong>燃盡生命力（d6）</strong>」行動，讓你能依據你選擇消耗的生命骰（HD）數量擲骰以減少傷害，數量至多為你的魅力調整值。</p></li><li><p>該行動會顯示「<strong>法術閃避</strong>」行動，你可以在咒火冠冕啟用期間使用。此子特性沒有自動化，需要手動裁定來結算。</p></li></ol><p>點擊「<strong>關閉咒火」</strong>會隱藏「燃盡生命力（d6）」與「法術閃避」行動，並將名稱還原為「啟用咒火」。</p><p>請注意，「燃盡生命力」行動會扣除<strong>術士骰型的生命骰（d6）</strong>。若你兼職不使用d6的子職業，其不會消耗其他骰型的生命骰。</p></section>"
     },
     "Death Armor": {
       "activities": {
@@ -1268,23 +1268,23 @@
     "Hunter's Rime": {
       "activities": {
         "Move Rimed Mark": {
-          "name": "Move Rimed Mark",
-          "condition": "when the currently marked target drops to 0 Hit Points"
+          "name": "轉移結霜印記",
+          "condition": "當目前被標記的目標生命值降至0時"
         },
         "Heal and Apply Rime": {
-          "name": "Heal and Apply Rime",
-          "target": "self and Hunter's Mark Target",
-          "condition": "When you cast Hunter’s Mark"
+          "name": "治療並施加霜凍",
+          "target": "自身與獵人印記目標",
+          "condition": "當你施放獵人印記時"
         }
       },
-      "name": "Hunter's Rime",
+      "name": "冬獵霜寒",
       "effects": {
         "Rimed Hunter's Mark": {
-          "description": "<p>@Embed[Compendium.dnd-players-handbook.spells.Item.phbsplHuntersMar caption=false] Additionally, while a creature is marked by your <em>Hunter’s Mark</em>, it can’t take the &amp;Reference[Disengage] action.</p>",
-          "name": "Rimed Hunter's Mark"
+          "description": "<p>@Embed[Compendium.dnd-players-handbook.spells.Item.phbsplHuntersMar caption=false] 此外，當一名生物被你的<em>獵人印記</em>標記期間，其無法採取&amp;Reference[Disengage]{撤離}動作。</p>",
+          "name": "結霜獵人印記"
         }
       },
-      "description": "<p>Ice rimes you and your prey, protecting you and hindering them. When you cast <em>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplHuntersMar]{Hunter's Mark}</em>, you gain Temporary Hit Points equal to [[/heal]]{1d10 plus your Ranger level}.</p><p>Additionally, while a creature is marked by your <em>Hunter’s Mark</em>, it can’t take the &amp;Reference[Disengage] action.</p><section id=\"secret-tpxarvjUcu9qxvXy\" class=\"secret\"><p><strong>Foundry Note</strong></p><p>This feature's <strong>Rimed Hunter's Mark</strong> effect can be used in place of the spell's equivalent via the <strong>Heal and Apply Rime</strong> activity. The rimed mark can be transferred to a new creature via the <strong>Move Rimed Mark</strong> activity.</p></section>"
+      "description": "<p>冰霜會覆蓋你和你的獵物，保護你並讓你的獵物變得遲緩。當你施放<em>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplHuntersMar]{獵人印記}</em>時，你獲得等同於[[/heal]]{1d10 + 你遊俠等級}的臨時生命值。</p><p>此外，當一名生物被你的<em>獵人印記</em>標記期間，其無法採取&amp;Reference[Disengage]{撤離}動作。</p><section id=\"secret-tpxarvjUcu9qxvXy\" class=\"secret\"><p><strong>Foundry 註記</strong></p><p>此特性的<strong>結霜獵人印記</strong>效果可藉由<strong>治療並施加霜凍</strong>行動，取代該法術的對應效果。結霜的印記可藉由<strong>轉移結霜印記</strong>行動轉移到新的生物身上。</p></section>"
     },
     "Blessing of Moonlight": {
       "activities": {
@@ -2042,19 +2042,19 @@
       "description": "<p><strong>屬性值：</strong>力量、敏捷、體質</p><p><strong>專長：</strong>@UUID[Compendium.dnd-players-handbook.feats.Item.phbftAlert000000]</p><p><strong>技能熟練：</strong>馴獸與運動</p><p><strong>工具熟練：</strong>木雕師工具</p><p><strong>裝備：</strong><em>選擇</em> (A) @UUID[Compendium.dnd-players-handbook.equipment.Item.phbtulWoodcarver]、@UUID[Compendium.dnd-players-handbook.equipment.Item.phbagBasket00000]、@UUID[Compendium.dnd-players-handbook.equipment.Item.phbagBlockandTac]、@UUID[Compendium.dnd-players-handbook.equipment.Item.phbagBucket00000]{Bucket}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagChain000000]{Chain}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagHuntingTrap]{Hunting Trap}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagNet00000000]{Net}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagPole0000000]{Pole}, @UUID[Compendium.dnd-players-handbook.equipment.Item.xP6OWuEaxQbDUfJV]{Rations} (3 days’ worth), @UUID[Compendium.dnd-players-handbook.equipment.Item.x8jC9e00t4cUYiKR]{Rope}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagClothesTrav]{Traveler’s Clothes}, [[/award 32GP]]; or (B) [[/award 50GP]]</p><p>You come from a proud line of ice fishers out of Ten-Towns in Icewind Dale. Catching knucklehead trout isn’t the most glorious trade in the North, but it’s an honest living. You’ve trained your senses for the slightest tug on the line, wrestled big trout out of ice-covered lakes, and gutted enough knucklehead trout to feed your village many times over. These experiences have toughened your body and mind for a life of adventuring.</p>"
     },
     "Chilling Retribution": {
-      "name": "Chilling Retribution",
+      "name": "寒心復仇",
       "effects": {
         "Stunned (Chilled)": {
-          "description": "<p>The target has the Stunned condition until the end of your next turn. While the target is Stunned, its Speed is reduced to 0 feet.</p>",
-          "name": "Stunned (Chilled)"
+          "description": "<p>目標陷入震懾狀態直到你的下個回合結束。目標處於震懾狀態期間，其速度降為0。</p>",
+          "name": "震懾（寒凍）"
         }
       },
       "activities": {
         "save": {
-          "condition": "When a creature hits you with an attack roll"
+          "condition": "當一名生物以攻擊檢定命中你時"
         }
       },
-      "description": "<p>When a creature hits you with an attack roll, you can take a Reaction to force the creature to make a Wisdom saving throw against your spell save DC. On a failed save, the target has the Stunned condition until the end of your next turn. While the target is Stunned, its Speed is reduced to 0 feet.</p><p>You can use this feature a number of times equal to your Wisdom modifier (minimum of once), and you regain all expended uses when you finish a Long Rest.</p>"
+      "description": "<p>當一名生物以攻擊檢定命中你時，你可以採取反應，迫使該生物進行一次對抗你法術豁免DC的感知豁免檢定。豁免失敗時，目標陷入震懾狀態直到你的下個回合結束。目標處於震懾狀態期間，其速度降為0。</p><p>你可以使用此特性的次數等同於你的感知調整值（最低一次），並且當你完成長休時，你重獲所有已消耗的使用次數。</p>"
     },
     "Harper Hideout": {
       "effects": {
