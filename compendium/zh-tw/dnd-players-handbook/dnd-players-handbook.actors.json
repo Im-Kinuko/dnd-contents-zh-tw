@@ -4808,32 +4808,32 @@
     "Beast of the Sea": {
       "items": {
         "Amphibious": {
-          "name": "Amphibious",
-          "description": "<p> The beast can breathe air and water.</p>"
+          "name": "水陸兩棲",
+          "description": "<p>野獸可以在空氣和水中呼吸。</p>"
         },
         "Beast's Strike": {
           "activities": {
             "Escape Check": {
-              "condition": "Taken by Grappled creature to Escape",
-              "name": "Escape Check"
+              "condition": "受擒生物為逃脫而進行",
+              "name": "逃脫檢定"
             }
           },
           "effects": {
             "Grappled": {
-              "name": "Grappled",
-              "description": "<p>Escape DC equals the ranger's spell save DC. [[/check ath acr]].</p>"
+              "name": "受擒",
+              "description": "<p>逃脫DC等同於遊俠的法術豁免DC。[[/check ath acr]]。</p>"
             }
           },
-          "name": "Beast's Strike",
-          "description": "<p><em>Melee Attack Roll:</em> Bonus equals your spell attack modifier, reach 5 ft. <em>Hit:</em> 1d6 + 2 plus your Wisdom modifier Bludgeoning or Piercing damage (your choice when you summon the beast), and the target has the &amp;Reference[grappled] condition (escape DC equals your spell save DC).</p><section class=\"secret\" id=\"secret-AoVM7zkUrdX0Ny38\"><p><strong>Foundry Note</strong></p><p>The <strong>Attack</strong> activity will allow you to choose the damage type in the roll dialog. You should choose one damage type and use it consistently until resummoning your companion.</p></section>"
+          "name": "野獸打擊",
+          "description": "<p><em>近戰攻擊檢定：</em>加值等同於你的法術攻擊加值，觸及5呎。<em>命中：</em>1d6 + 2 + 你的感知調整值的鈍擊或穿刺傷害（於召喚野獸時由你選擇），且目標陷入&amp;Reference[grappled]{受擒}狀態（逃脫DC等同於你的法術豁免DC）。</p><section class=\"secret\" id=\"secret-AoVM7zkUrdX0Ny38\"><p><strong>Foundry 註記</strong></p><p><strong>攻擊</strong>行動讓你在擲骰對話框中選擇傷害類型。在重新召喚你的行侶之前，你應選定一種傷害類型並持續使用。</p></section>"
         },
         "Primal Bond": {
-          "name": "Primal Bond",
-          "description": "<p>Add your Proficiency Bonus to any ability check or saving throw the beast makes.</p><section class=\"secret\" id=\"secret-pNoLkUZKFbyzHTbF\"><p><strong>Foundry Note</strong></p><p>This bonus has been included in the beast's global bonuses.</p></section>"
+          "name": "原初聯結",
+          "description": "<p>將你的熟練加值加到野獸所進行的任何屬性檢定或豁免檢定中。</p><section class=\"secret\" id=\"secret-pNoLkUZKFbyzHTbF\"><p><strong>Foundry 註記</strong></p><p>此加值已包含在野獸的整體加值中。</p></section>"
         }
       },
       "description": "<p>@Embed[Compendium.dnd-players-handbook.classes.Item.phbrgrPrimalComp caption=false]</p>",
-      "name": "Beast of the Sea"
+      "name": "海洋之獸"
     },
     "Conjured Earth Elemental": {
       "items": {
@@ -5094,27 +5094,27 @@
     "Beast of the Land": {
       "items": {
         "Beast's Strike": {
-          "name": "Beast's Strike",
+          "name": "野獸打擊",
           "activities": {
             "Charge": {
-              "name": "Charge",
-              "condition": "has moved at least 20 feet straight toward the target"
+              "name": "衝鋒攻擊",
+              "condition": "已朝目標直線移動至少20呎"
             }
           },
-          "description": "<p><em>Melee Attack Roll:</em> Bonus equals your spell attack modifier, reach 5 ft. <em>Hit:</em> 1d8 + 2 plus your Wisdom modifier Bludgeoning, Piercing, or Slashing damage (your choice when you summon the beast). If the beast moved at least 20 feet straight toward the target before the hit, the target takes an extra 1d6 damage of the same type, and the target has the &amp;Reference[prone] condition if it is a Large or smaller creature.</p><section class=\"secret\" id=\"secret-fxROphHp3AaFzUXp\"><p><strong>Foundry Note</strong></p><p>The <strong>Attack</strong> and <strong>Charging Attack</strong> activities will allow you to choose the damage type in the roll dialog. You should choose one damage type and use it consistently until resummoning your companion.</p><p>The <strong>Charging Attack</strong> activity includes the additional damage.</p></section>",
+          "description": "<p><em>近戰攻擊檢定：</em>加值等同於你的法術攻擊加值，觸及5呎。<em>命中：</em>1d8 + 2 + 你的感知調整值的鈍擊、穿刺或揮砍傷害（於召喚野獸時由你選擇）。若野獸在命中前已朝目標直線移動至少20呎，則目標額外承受1d6與該次傷害類型相同的傷害，且若目標為大型或更小的生物，則陷入&amp;Reference[prone]{伏地}狀態。</p><section class=\"secret\" id=\"secret-fxROphHp3AaFzUXp\"><p><strong>Foundry 註記</strong></p><p><strong>攻擊</strong>與<strong>衝鋒攻擊</strong>行動讓你在擲骰對話框中選擇傷害類型。在重新召喚你的行侶之前，你應選定一種傷害類型並持續使用。</p><p><strong>衝鋒攻擊</strong>行動包含額外傷害。</p></section>",
           "effects": {
             "Prone": {
-              "name": "Prone"
+              "name": "伏地"
             }
           }
         },
         "Primal Bond": {
-          "description": "<p>Add your Proficiency Bonus to any ability check or saving throw the beast makes.</p><section class=\"secret\" id=\"secret-CfXBtyjBnCMQ2fmp\"><p><strong>Foundry Note</strong></p><p>This bonus has been included in the beast's global bonuses.</p></section>",
-          "name": "Primal Bond"
+          "description": "<p>將你的熟練加值加到野獸所進行的任何屬性檢定或豁免檢定中。</p><section class=\"secret\" id=\"secret-CfXBtyjBnCMQ2fmp\"><p><strong>Foundry 註記</strong></p><p>此加值已包含在野獸的整體加值中。</p></section>",
+          "name": "原初聯結"
         }
       },
       "description": "<p>@Embed[Compendium.dnd-players-handbook.classes.Item.phbrgrPrimalComp caption=false]</p>",
-      "name": "Beast of the Land"
+      "name": "陸地之獸"
     },
     "Airship": {
       "name": "飛空艇",
@@ -5123,20 +5123,20 @@
     "Beast of the Sky": {
       "items": {
         "Beast's Strike": {
-          "description": "<p><em>Melee Attack Roll:</em> Bonus equals your spell attack modifier, reach 5 ft. <em>Hit:</em> 1d4 + 3 plus your Wisdom modifier Slashing damage.</p>",
-          "name": "Beast's Strike"
+          "description": "<p><em>近戰攻擊檢定：</em>加值等同於你的法術攻擊加值，觸及5呎。<em>命中：</em>1d4 + 3 + 你的感知調整值的揮砍傷害。</p>",
+          "name": "野獸打擊"
         },
         "Primal Bond": {
-          "description": "<p>Add your Proficiency Bonus to any ability check or saving throw the beast makes.</p><section class=\"secret\" id=\"secret-beTIv7xucaHGX104\"><p><strong>Foundry Note</strong></p><p>This bonus has been included in the beast's global bonuses.</p></section>",
-          "name": "Primal Bond"
+          "description": "<p>將你的熟練加值加到野獸所進行的任何屬性檢定或豁免檢定中。</p><section class=\"secret\" id=\"secret-beTIv7xucaHGX104\"><p><strong>Foundry 註記</strong></p><p>此加值已包含在野獸的整體加值中。</p></section>",
+          "name": "原初聯結"
         },
         "Flyby": {
-          "name": "Flyby",
-          "description": "<p> The beast doesn’t provoke Opportunity Attacks when it flies out of an enemy’s reach.</p>"
+          "name": "飛掠",
+          "description": "<p>野獸飛出敵人的觸及範圍時，不會引發藉機攻擊。</p>"
         }
       },
       "description": "<p>@Embed[Compendium.dnd-players-handbook.classes.Item.phbrgrPrimalComp caption=false]</p>",
-      "name": "Beast of the Sky"
+      "name": "天空之獸"
     },
     "Aberrant Spirit": {
       "items": {
