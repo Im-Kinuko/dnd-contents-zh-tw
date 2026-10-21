@@ -540,7 +540,7 @@
       },
       "pages": {
         "Gloom Stalker": {
-          "description": "<p>@Embed[Compendium.dnd-players-handbook.content.JournalEntry.phbCh3ArtHandout.JournalEntryPage.6lH0bBjC8Fxg9rkI caption=false classes=\"three right\"]</p><blockquote><p>Draw on Shadow Magic to Fight Your Foes</p></blockquote><p>@UUID[Compendium.dnd-players-handbook.classes.Item.phbrgrGloomStalk]{Gloom Stalkers} are at home in the darkest places, wielding magic drawn from the Shadowfell to combat enemies that lurk in darkness.</p>",
+          "description": "<p>@Embed[Compendium.dnd-players-handbook.content.JournalEntry.phbCh3ArtHandout.JournalEntryPage.6lH0bBjC8Fxg9rkI caption=false classes=\"three right\"]</p><blockquote><p>借幽影魔法與你的敵人戰鬥</p></blockquote><p>@UUID[Compendium.dnd-players-handbook.classes.Item.phbrgrGloomStalk]{幽域追蹤者}居身於至暗之地，運用來自墮影冥界的魔法與隱於黑暗中的敵人戰鬥。</p>",
           "name": "幽域追蹤者"
         },
         "Ranger": {
@@ -550,15 +550,15 @@
         },
         "Fey Wanderer": {
           "name": "妖精漫遊者",
-          "description": "<p>@Embed[Compendium.dnd-players-handbook.content.JournalEntry.phbCh3ArtHandout.JournalEntryPage.ckJhsBIlf7Qxo19z caption=false classes=\"three right\"]</p><blockquote><p>Wield Fey Mirth and Fury</p></blockquote><p>A fey mystique surrounds you, thanks to the boon of an archfey or a location in the Feywild that transformed you. However you gained fey magic, you are now a @UUID[Compendium.dnd-players-handbook.classes.Item.phbrgrFeyWander0]{Fey Wanderer}. Your joyful laughter brightens the hearts of the downtrodden, and your martial prowess strikes terror in your foes, for great is the mirth of the fey and dreadful is their fury.</p>"
+          "description": "<p>@Embed[Compendium.dnd-players-handbook.content.JournalEntry.phbCh3ArtHandout.JournalEntryPage.ckJhsBIlf7Qxo19z caption=false classes=\"three right\"]</p><blockquote><p>散播妖精歡喜與怒火</p></blockquote><p>或來自一位至高妖精的恩惠，或是妖精荒野中某處令你蛻變的地方，你的身側因此縈繞著妖精的魔力。無論你是怎麼得到你來自妖精的魔法的，你現在是一名@UUID[Compendium.dnd-players-handbook.classes.Item.phbrgrFeyWander0]{妖精漫遊者}。你輕快的笑聲為受壓迫者們帶來欣喜的希望，你英勇的技藝直擊你敵人的恐懼，你所成就的偉績乃是妖精的喜悅，你散布的恐懼乃是妖精的憤怒。</p>"
         },
         "Beast Master": {
           "name": "獸王",
-          "description": "<p>@Embed[Compendium.dnd-players-handbook.content.JournalEntry.phbCh3ArtHandout.JournalEntryPage.fzHuYQM4SG6qynLV caption=false classes=\"three right\"]</p><blockquote><p>Bond with a Primal Beast</p></blockquote><p>A @UUID[Compendium.dnd-players-handbook.classes.Item.phbrgrBeastMaste]{Beast Master} forms a mystical bond with a special animal, drawing on primal magic and a deep connection to the natural world.</p>"
+          "description": "<p>@Embed[Compendium.dnd-players-handbook.content.JournalEntry.phbCh3ArtHandout.JournalEntryPage.fzHuYQM4SG6qynLV caption=false classes=\"three right\"]</p><blockquote><p>與原初野獸建立友誼</p></blockquote><p>借助原初魔法，通天地之靈，@UUID[Compendium.dnd-players-handbook.classes.Item.phbrgrBeastMaste]{獸王}與某些獨特動物構建起了神秘的連結。</p>"
         },
         "Hunter": {
           "name": "獵人",
-          "description": "<p>@Embed[Compendium.dnd-players-handbook.content.JournalEntry.phbCh3ArtHandout.JournalEntryPage.eDSDWaZqyZqNAGxd caption=false classes=\"three right\"]</p><blockquote><p>Protect Nature and People from Destruction</p></blockquote><p>You stalk prey in the wilds and elsewhere, using your abilities as a @UUID[Compendium.dnd-players-handbook.classes.Item.phbrgrHunter0000]{Hunter} to protect nature and people everywhere from forces that would destroy them.</p>"
+          "description": "<p>@Embed[Compendium.dnd-players-handbook.content.JournalEntry.phbCh3ArtHandout.JournalEntryPage.eDSDWaZqyZqNAGxd caption=false classes=\"three right\"]</p><blockquote><p>守護自然與眾生不被摧毀</p></blockquote><p>你在荒野和別處追蹤獵物，運用作為@UUID[Compendium.dnd-players-handbook.classes.Item.phbrgrHunter0000]{獵人}的能力守護自然和各地的人類遠離摧毀力量。</p>"
         }
       }
     },
@@ -642,7 +642,7 @@
         },
         "Draconic Sorcery": {
           "name": "龍族術法",
-          "description": "<p>@Embed[Compendium.dnd-players-handbook.content.JournalEntry.phbCh3ArtHandout.JournalEntryPage.bJx0jRA0yw5VQH8U caption=false classes=\"three right\"]</p><blockquote><p>Breathe the Magic of Dragons</p></blockquote><p>Your innate magic comes from the gift of a dragon. Perhaps an ancient dragon facing death bequeathed some of its magical power to you or your ancestor. You might have absorbed magic from a site infused with dragons’ power. Or perhaps you handled a treasure taken from a dragon’s hoard that was steeped in draconic power. Or you might have a dragon for an ancestor (@UUID[Compendium.dnd-players-handbook.classes.Item.phbscrDraconicSo]{Draconic Sorcery} subclass).</p>"
+          "description": "<p>@Embed[Compendium.dnd-players-handbook.content.JournalEntry.phbCh3ArtHandout.JournalEntryPage.bJx0jRA0yw5VQH8U caption=false classes=\"three right\"]</p><blockquote><p>吐息巨龍魔法</p></blockquote><p>你的天生魔法來自於巨龍的贈禮。或許是一條瀕死的遠古巨龍將一部分的魔力賜予你或你的先祖。你也可能從滿溢著巨龍之力的某處吸收了魔力。又或者，你取得一件從巨龍寶庫中出來的寶藏，其充滿龍族之力。抑或是你的先祖是一條巨龍（@UUID[Compendium.dnd-players-handbook.classes.Item.phbscrDraconicSo]{龍族術法}子職業）。</p>"
         },
         "Metamagic Options": {
           "name": "超魔法選項",
@@ -650,15 +650,15 @@
         },
         "Wild Magic Sorcery": {
           "name": "狂野術法",
-          "description": "<p>@Embed[Compendium.dnd-players-handbook.content.JournalEntry.phbCh3ArtHandout.JournalEntryPage.oVr588YdgC7sUNmD caption=false classes=\"three right\"]</p><blockquote><p>Unleash Chaotic Magic</p></blockquote><p>Your innate magic stems from the forces of chaos that underlie the order of creation. You or an ancestor might have endured exposure to raw magic, perhaps through a planar portal leading to Limbo or the Elemental Planes. Perhaps you were blessed by a fey being or marked by a demon. Or your magic could be a fluke with no apparent cause. Whatever its source, this magic churns within you, waiting for any outlet (@UUID[Compendium.dnd-players-handbook.classes.Item.phbscrWildMagicS]{Wild Magic Sorcery} subclass).</p>"
+          "description": "<p>@Embed[Compendium.dnd-players-handbook.content.JournalEntry.phbCh3ArtHandout.JournalEntryPage.oVr588YdgC7sUNmD caption=false classes=\"three right\"]</p><blockquote><p>釋放混沌魔力</p></blockquote><p>你的天生魔法源自創生秩序之下的混沌之力。你或你的先祖可能曾透過一道通往混沌海或元素位面的位面傳送門，暴露於原生魔法之下。也許你曾受妖精生物祝福，或被惡魔標記。又或者，你的魔法毫無徵兆地偶然出現了。無論其來源為何，這種魔法在你體內翻湧，等待著任何宣洩的出口（@UUID[Compendium.dnd-players-handbook.classes.Item.phbscrWildMagicS]{狂野術法}子職業）。</p>"
         },
         "Aberrant Sorcery": {
-          "description": "<p>@Embed[Compendium.dnd-players-handbook.content.JournalEntry.phbCh3ArtHandout.JournalEntryPage.V5olgMSrd0Zacz0K caption=false classes=\"three right\"]</p><blockquote><p>Wield Unnatural Psionic Power</p></blockquote><p>An alien influence has wrapped its tendrils around your mind, giving you psionic power (@UUID[Compendium.dnd-players-handbook.classes.Item.phbscrAberrantSo]{Aberrant Sorcery} subclass). You can now touch other minds with that power and alter the world around you. Will this power shine from you as a hopeful beacon to others? Or will you be a terror to those who feel the stab of your mind?</p><p>Perhaps a psychic wind from the Astral Plane carried psionic energy to you, or you were exposed to the Far Realm’s warping influence. Alternatively, you were implanted with a mind flayer tadpole, but your transformation into a mind flayer never occurred; now the tadpole’s psionic power is yours. However you acquired this power, your mind is aflame with it.</p>",
+          "description": "<p>@Embed[Compendium.dnd-players-handbook.content.JournalEntry.phbCh3ArtHandout.JournalEntryPage.V5olgMSrd0Zacz0K caption=false classes=\"three right\"]</p><blockquote><p>操弄非自然的靈能之力</p></blockquote><p>某種外來的影響曾經用其卷鬚將你的意識纏繞，給予了你靈能之力（@UUID[Compendium.dnd-players-handbook.classes.Item.phbscrAberrantSo]{畸變術法}子職業）。如今，你能夠使用這股力量觸碰他人的內心並顛覆你周遭的世界。這種力量會從你身上如希望的燈塔一般照耀著旁人嗎？抑或是你將成為那些受你心靈所傷害的人的恐懼呢？</p><p>或許是一股從星界吹來的靈能之風將靈能能量灌入你的體內，抑或是你曾暴露在遙遠國度的扭曲影響下。又或者，你可能被植入一隻奪心魔蝌蚪，但蛻變從未發生。如今，其靈能之力已被你佔為己有。無論你如何獲得這種力量，其都在你的心靈中熊熊燃燒。</p>",
           "name": "畸變術法"
         },
         "Clockwork Sorcery": {
           "name": "時械術法",
-          "description": "<p>@Embed[Compendium.dnd-players-handbook.content.JournalEntry.phbCh3ArtHandout.JournalEntryPage.H0eF1w5Ar7ksQI98 caption=false classes=\"three right\"]</p><blockquote><p>Channel Cosmic Forces of Order</p></blockquote><p>The cosmic force of order has suffused you with magic. That power arises from Mechanus or a realm like it—a plane of existence shaped entirely by clockwork efficiency. You or someone from your lineage might have become entangled in the machinations of modrons, the orderly beings who inhabit Mechanus. Perhaps your ancestor even took part in the Great Modron March. Whatever its origin within you, the power of order can seem strange to others, but for you, it’s part of a vast and glorious system (@UUID[Compendium.dnd-players-handbook.classes.Item.phbscrClockworkS]{Clockwork Sorcery} subclass).</p>"
+          "description": "<p>@Embed[Compendium.dnd-players-handbook.content.JournalEntry.phbCh3ArtHandout.JournalEntryPage.H0eF1w5Ar7ksQI98 caption=false classes=\"three right\"]</p><blockquote><p>引導寰宇的秩序之力</p></blockquote><p>宇宙的秩序之力使你充滿了魔力。這股力量源自機械境或與之類似的領域，一個完全由時械般精確的效率所塑造的存在位面。你或你宗族中的某個人也許已經捲入到魔冢這種居住在機械境的秩序生命的陰謀之中。又或許，你的先祖甚至參與過魔冢長征。無論是何種起源，秩序的力量也許對旁人來說有些奇怪，但於你而言，其是一個宏偉而璀璨的系統的一部分（@UUID[Compendium.dnd-players-handbook.classes.Item.phbscrClockworkS]{時械術法}子職業）。</p>"
         }
       }
     },
