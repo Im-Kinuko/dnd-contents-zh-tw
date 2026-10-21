@@ -58,13 +58,13 @@
       "name": "凝凍之魂"
     },
     "Knowledge Domain": {
-      "description": "<blockquote><p>Unearth Secrets and Master the Mind</p></blockquote><p>The Knowledge Domain values learning and understanding above all. Clerics who tap into this domain study esoteric lore, collect old tomes, delve into secret places, and examine the processes of the mind. To them, knowledge is more valuable than material wealth, and learning is an act of worship. Libraries, universities, and other educational institutions also draw on the power of the Knowledge Domain.</p><p>Gods of knowledge vary from masters of arcane magic to patrons of craft and invention. In Faerûn, Clerics of the Knowledge Domain worship deities of learning and ingenuity such as Oghma and Gond, among many others.</p>",
+      "description": "<blockquote><p>發掘祕密，主宰心智</p></blockquote><p>知識領域對學習與理解的重視勝過一切。深入這一領域的牧師研究祕傳的學問，搜集古舊的書卷，探索祕密的地點並審視思想的變化。對他們來說，知識的價值遠超物質財富，並且學習是一種敬奉神明的方式。圖書館、大學以及其他教育機構也會依賴知識領域的力量。</p><p>知識領域的神明從奧術魔法的掌控者到工藝與發明的庇護者各不相同。在費倫，知識領域的牧師信仰歐格瑪、貢德等掌管學識與巧思的神明，以及許多其他神明。</p>",
       "advancement": {
         "Subclass Features": {
           "title": "子職業特性"
         }
       },
-      "name": "Knowledge Domain"
+      "name": "知識領域"
     },
     "Zhentarim Tactics": {
       "advancement": {
@@ -200,22 +200,22 @@
     "Strike Fear": {
       "activities": {
         "Terrify": {
-          "condition": "When you deal Sneak Attack damage",
-          "name": "Terrify"
+          "condition": "當你造成偷襲傷害時",
+          "name": "震怖"
         },
         "Cunning Sneak Attack": {
-          "condition": "When you deal Sneak Attack damage",
-          "name": "Cunning Sneak Attack"
+          "condition": "當你造成偷襲傷害時",
+          "name": "詭詐偷襲"
         }
       },
       "effects": {
         "Strike Fear: Terrify": {
-          "name": "Strike Fear: Terrify",
-          "description": "<p>You are &amp;Reference[Frightened apply=false] for 1 minute (repeat Wisdom save at end of each of your turns).</p>"
+          "name": "襲殺恐懼：震怖",
+          "description": "<p>你處於&amp;Reference[Frightened apply=false]{恐慌}狀態，持續1分鐘（在你每個回合結束時重複進行感知豁免檢定）。</p>"
         }
       },
-      "description": "<p>You gain the following Cunning Strike option.</p><p><em><strong>Terrify (Cost: 1d6).</strong></em> The target must succeed on a Wisdom saving throw, or it has the Frightened condition for 1 minute. While the target is Frightened in this way, you have Advantage on attack rolls against the target.</p><p>The Frightened target repeats the save at the end of each of its turns, ending the effect on itself on a success.</p><section class=\"secret\" id=\"secret-o3m6NX5NnI8XlKFr\"><p><strong>Foundry Note</strong></p><p>The <strong>Terrify</strong> activity allows you to apply an <strong>Active Effect</strong> that gives the target the Frightened condition for up to 1 minute. </p><p>After you use <strong>Terrify</strong>, use the <strong>Cunning Sneak Attack</strong> activity to roll your Sneak Attack damage. It automatically deducts 1d6 from your Sneak Attack dice for this roll (e.g., 5d6 → 4d6). You can choose the damage type in the damage roll dialog.</p></section>",
-      "name": "Strike Fear"
+      "description": "<p>你獲得下列詭詐打擊選項。</p><p><em><strong>【震怖（消耗：1d6）】</strong></em>目標必須成功通過一次感知豁免檢定，否則陷入恐慌狀態，持續1分鐘。目標因此方式處於恐慌狀態期間，你對該目標的攻擊檢定具有優勢。</p><p>陷入恐慌狀態的目標在其每個回合結束時重複進行豁免檢定，豁免成功時，其身上的該效應終止。</p><section class=\"secret\" id=\"secret-o3m6NX5NnI8XlKFr\"><p><strong>Foundry 註記</strong></p><p><strong>震怖</strong>行動讓你套用一個 <strong>Active Effect</strong>，使目標最多陷入恐慌狀態1分鐘。</p><p>使用<strong>震怖</strong>後，請使用<strong>詭詐偷襲</strong>行動來擲出你的偷襲傷害。該行動會自動從本次擲骰的偷襲骰中扣除1d6（例如 5d6 → 4d6）。你可以在傷害擲骰對話框中選擇傷害類型。</p></section>",
+      "name": "襲殺恐懼"
     },
     "Order’s Resilience": {
       "advancement": {
@@ -262,11 +262,11 @@
       "description": "<p><strong>屬性值：</strong>力量、敏捷、感知</p><p><strong>專長：</strong>@UUID[Compendium.dnd-players-handbook.feats.Item.phbftSkilled0000]</p><p><strong>技能熟練：</strong>運動與巧手</p><p><strong>工具熟練：</strong>織布工工具</p><p><strong>裝備：</strong>選擇 (A) @UUID[Compendium.dnd-players-handbook.equipment.Item.phbwepDagger0000]、 @UUID[Compendium.dnd-players-handbook.equipment.Item.phbtulWeaversToo]、@UUID[Compendium.dnd-players-handbook.equipment.Item.phbagBackpack000]、@UUID[Compendium.dnd-players-handbook.equipment.Item.phbagBallBearing]{Ball Bearings}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagBasket00000]、@UUID[Compendium.dnd-players-handbook.equipment.Item.phbagBedroll0000]、@UUID[Compendium.dnd-players-handbook.equipment.Item.phbagBucket00000]、@UUID[Compendium.dnd-players-handbook.equipment.Item.xP6OWuEaxQbDUfJV]（3日份）、@UUID[Compendium.dnd-players-handbook.equipment.Item.x8jC9e00t4cUYiKR]、@UUID[Compendium.dnd-players-handbook.equipment.Item.phbagSignalWhist]、@UUID[Compendium.dnd-players-handbook.equipment.Item.phbagClothesTrav]、[[/award 38GP]]或 (B) [[/award 50GP]]</p><p>雖然瓊達斯的大部分年輕人都需要義務服四年兵役，但你卻對專制政府試圖操縱你的人生而感到不滿。你拋棄了自己的國民身份，拋棄了自己的姓名，並在第一艘接納了自己的船上成為了海盜。自此，你便航行於維洪海域之中。雖然你從未在離陸地距離超過幾十里格的海域航行過，但你與當地的深刻聯繫以及廣泛的人生閱歷彌補了這一點。</p>"
     },
     "Bloodthirst": {
-      "description": "<p>When an enemy you can see within 30 feet of yourself takes damage and is Bloodied after taking that damage but not killed outright, you can take a Reaction and teleport to an unoccupied space you can see within 5 feet of that enemy. You can then make one melee attack. You can use this feature a number of times equal to your Intelligence modifier ([[lookup @abilities.int.mod]]{0}, minimum of once), and you regain all expended uses when you finish a Long Rest.</p>",
-      "name": "Bloodthirst",
+      "description": "<p>當一名位於你30呎內你所能看見的敵人承受傷害，並在承受該傷害後處於重傷狀態但未被當場殺死時，你可以採取反應，傳送到位於該敵人5呎內一處你所能看見的未佔據空間。其後你可以進行一次近戰攻擊。你可以使用此特性的次數等同於你的智力調整值（[[lookup @abilities.int.mod]]{0}，最低一次），並且當你完成長休時，你重獲所有已消耗的使用次數。</p>",
+      "name": "嗜血",
       "activities": {
         "Expend Use": {
-          "name": "Expend Use"
+          "name": "消耗使用次數"
         }
       }
     },
@@ -280,12 +280,12 @@
       }
     },
     "Elemental Rebuke": {
-      "description": "<p>When you are hit by an attack roll, you can take a Reaction to halve the attack’s damage against yourself (round down) and force the attacker to make a Dexterity saving throw against your spell save DC. On a failed save, the attacker takes damage equal to 2d10 plus your Charisma modifier of one of the following types (your choice): Acid, Cold, Fire, Lightning, or Thunder. On a successful save, the attacker takes half as much damage.</p><p>You can use this feature a number of times equal to your Charisma modifier (minimum of once), and you regain all expended uses when you finish a Long Rest.</p>",
-      "name": "Elemental Rebuke",
+      "description": "<p>當你被攻擊檢定命中時，你可以採取反應，使該次攻擊對你造成的傷害減半（向下取整），並迫使攻擊者進行一次對抗你法術豁免DC的敏捷豁免檢定。豁免失敗時，攻擊者承受等同於2d10 + 你魅力調整值的傷害，傷害類型由你從下列選擇一種：強酸、寒冷、火焰、閃電或雷鳴。豁免成功時，攻擊者只承受一半的傷害。</p><p>你可以使用此特性的次數等同於你的魅力調整值（最低一次），並且當你完成長休時，你重獲所有已消耗的使用次數。</p>",
+      "name": "元素叱喝",
       "activities": {
         "Rebuke": {
-          "condition": "When you are hit by an attack roll",
-          "name": "Rebuke"
+          "condition": "當你被攻擊檢定命中時",
+          "name": "叱喝"
         }
       }
     },
@@ -454,7 +454,7 @@
           "name": "滿月之輝"
         }
       },
-      "description": "<p>月亮的力量充盈你全身，以下列方式強化你的@UUID[Compendium.dnd-heroes-faerun.options.Item.hofComMoonsInspi]{明月激勵}。</p><p><em><strong>【新月之影】</strong></em>當你使用月隱啟迪時，獲得吟遊激勵骰的生物也可以陷入隱形狀態，並立即採取反應，傳送到最多30呎外一處其所能看見的未佔據空間。該生物保持隱形狀態，直到其下個回合開始。</p><p><em><strong>【滿月之輝】</strong></em>當你使用月輝活力時，你可以擲1d6，並以擲出的數值取代將消耗的一枚吟遊激勵骰。</p><section class=\"secret\" id=\"secret-JfT8CJzewCSuU5Gu\"><p><strong>Foundry 註記</strong></p><p>獲得此特性後，可改用其取代<strong>明月激勵</strong>。<strong>月輝活力</strong>行動會消耗並擲出一枚激勵骰，而<strong>滿月之輝</strong>行動則改為擲1d6。</p></section>",
+      "description": "<p>月亮的力量充盈你全身，以下列方式強化你的@UUID[Compendium.dnd-heroes-faerun.options.Item.hofComMoonsInspi]{明月激勵}。</p><p><em><strong>【新月之影】</strong></em>當你使用月隱啟迪時，獲得吟遊激勵骰的生物也可以陷入隱形狀態，並立即採取反應，傳送到至多30呎一處其所能看見的未佔據空間。該生物保持隱形狀態，直到其下個回合開始。</p><p><em><strong>【滿月之輝】</strong></em>當你使用月輝活力時，你可以擲1d6，並以擲出的數值取代將消耗的一枚吟遊激勵骰。</p><section class=\"secret\" id=\"secret-JfT8CJzewCSuU5Gu\"><p><strong>Foundry 註記</strong></p><p>獲得此特性後，可改用其取代<strong>明月激勵</strong>。<strong>月輝活力</strong>行動會消耗並擲出一枚激勵骰，而<strong>滿月之輝</strong>行動則改為擲1d6。</p></section>",
       "effects": {
         "Lunar Vitality": {
           "description": "<p>該生物的速度也會增加10呎，直到其下個回合結束前。</p>",
@@ -470,16 +470,16 @@
     "Genie's Splendor": {
       "advancement": {
         "Skill Proficiency": {
-          "title": "Skill Proficiency"
+          "title": "技能熟練"
         }
       },
       "effects": {
         "Genie's Splendor": {
-          "name": "Genie's Splendor"
+          "name": "巨靈流光"
         }
       },
-      "description": "<p>When you aren’t wearing any armor, your base Armor Class equals 10 plus your Dexterity and Charisma modifiers. You can use a Shield and still gain this benefit.</p><p>You also gain proficiency in one of the following skills of your choice: Acrobatics, Intimidation, Performance, or Persuasion.</p>",
-      "name": "Genie's Splendor"
+      "description": "<p>當你未穿戴護甲時，你的基礎AC等同於10 + 你的敏捷調整值 + 你的魅力調整值。你可以使用盾牌，並仍能獲得此好處。</p><p>你還可以從下列技能中選擇一項獲得熟練：特技、威嚇、表演或說服。</p>",
+      "name": "巨靈流光"
     },
     "Lords' Alliance Vassal": {
       "advancement": {
@@ -562,11 +562,11 @@
       "description": "<p><strong>屬性值：</strong>力量、智力、感知</p><p><strong>專長：</strong>@UUID[Compendium.dnd-heroes-faerun.options.Item.hofTyrooftheGaun]（見本章後面所述「@UUID[Compendium.dnd-heroes-faerun.book.JournalEntry.hofFeats00000000]」）</p><p><strong>技能熟練：</strong>運動與醫藥</p><p><strong>工具熟練：</strong>鐵匠工具</p><p><strong>裝備：</strong><em>選擇 </em>(A) @UUID[Compendium.dnd-players-handbook.equipment.Item.phbwepSpear00000]、@UUID[Compendium.dnd-players-handbook.equipment.Item.phbtulSmithsTool]、@UUID[Compendium.dnd-players-handbook.equipment.Item.KZUoiZrigDbovEu7]、@UUID[Compendium.dnd-players-handbook.equipment.Item.phbagHolySymbolV]、@UUID[Compendium.dnd-players-handbook.equipment.Item.phbagManacles000]、@UUID[Compendium.dnd-players-handbook.equipment.Item.phbagOil00000000]（5瓶）、@UUID[Compendium.dnd-players-handbook.equipment.Item.rIuY5ZDJh6ctfUwG]、@UUID[Compendium.dnd-players-handbook.equipment.Item.phbagClothesTrav]、[[/award 9GP]]或 (B) [[/award 50GP]]</p><p>並非所有回應更加強大力量召喚之人都甘心於待在沉悶的神廟後殿裡面苦苦鑽研經文。你以加入鐵腕教團的方式走上了神聖武者的道路。作為一位鐵腕騎士，你對邪惡力量報以正義的輕蔑，將堅定不移的同志視為攜手並肩的骨肉同胞，並對戰爭的倖存者抱以由衷的憐憫。武器與聖徽在手，你發誓永不停歇，直至正義的光芒驅散費倫大陸上每一片混沌的陰影。</p>"
     },
     "Genie Spells": {
-      "description": "<p>When you reach a Paladin level specified in the Genie Spells table, you thereafter always have the listed spells prepared.</p><table><caption>Genie Spells</caption><thead><tr><th scope=\"col\"><p>Paladin Level</p></th><th scope=\"col\"><p>Spells</p></th></tr></thead><tbody><tr><td><p>3</p></td><td><p><em>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplChromaticO]{Chromatic Orb}</em>, <em>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplElementali]{Elementalism}</em>, <em>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplThunderous]{Thunderous Smite}</em></p></td></tr><tr><td><p>5</p></td><td><p><em>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplMirrorImag]{Mirror Image}</em>, <em>@UUID[Compendium.dnd-players-handbook.spells.Item.phbPhantasmalFor]{Phantasmal Force}</em></p></td></tr><tr><td><p>9</p></td><td><p><em>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplFly0000000]{Fly}</em>, <em>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplGaseousFor]{Gaseous Form}</em></p></td></tr><tr><td><p>13</p></td><td><p><em>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplConjureMin]{Conjure Minor Elementals}</em>, <em>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplSummonElem]{Summon Elemental}</em></p></td></tr><tr><td><p>17</p></td><td><p><em>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplBanishingS]{Banishing Smite}</em>, <em>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplContactOth]{Contact Other Plane}</em></p></td></tr></tbody></table>",
-      "name": "Genie Spells",
+      "description": "<p>當你達到巨靈法術表中所述的相應聖騎士等級時，你視為始終準備法術表上的法術。</p><table><caption>巨靈法術</caption><thead><tr><th scope=\"col\"><p>聖騎士等級</p></th><th scope=\"col\"><p>法術</p></th></tr></thead><tbody><tr><td><p>3</p></td><td><p><em>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplChromaticO]{幻色法球}</em>、<em>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplElementali]{元素技倆}</em>、<em>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplThunderous]{雷鳴斬}</em></p></td></tr><tr><td><p>5</p></td><td><p><em>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplMirrorImag]{鏡影術}</em>、<em>@UUID[Compendium.dnd-players-handbook.spells.Item.phbPhantasmalFor]{魅影之力}</em></p></td></tr><tr><td><p>9</p></td><td><p><em>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplFly0000000]{飛行術}</em>、<em>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplGaseousFor]{氣化形體}</em></p></td></tr><tr><td><p>13</p></td><td><p><em>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplConjureMin]{召喚次級元素生物}</em>、<em>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplSummonElem]{元素召喚術}</em></p></td></tr><tr><td><p>17</p></td><td><p><em>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplBanishingS]{放逐斬}</em>、<em>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplContactOth]{異界探知}</em></p></td></tr></tbody></table>",
+      "name": "巨靈法術",
       "advancement": {
         "Genie Spells": {
-          "title": "Genie Spells"
+          "title": "巨靈法術"
         }
       }
     },
@@ -620,7 +620,7 @@
       "description": "<p>你保護自己抵禦破壞性的能量，使你承受的傷害減少4d6加上你的施法屬性調整值。</p><p>若觸發此法術的傷害來自射程內的一名生物，你可以迫使該生物進行一次體質豁免。該生物豁免失敗時承受4d6力場傷害，成功時傷害減半。</p><p><em><strong>【升環法術效應】</strong></em>法術位每升一個環階，此法術的傷害減免與力場傷害就各增加1d6。</p>"
     },
     "Bladesong": {
-      "description": "<p>你可以採取附贈動作，喚起一種名為劍歌的精靈魔法，前提是你沒有穿戴護甲或使用盾牌。</p><p>劍歌持續1分鐘，若你陷入失能狀態、穿戴護甲或盾牌，或以雙手使用武器進行攻擊，則劍歌提前結束。你可以隨時解除劍歌（無需動作）。</p><p>劍歌啟用期間，你獲得下列好處。你可以喚起劍歌的次數等同於你的智力調整值（[[lookup @abilities.int.mod]]{0}，至少1次），當你完成長休時重獲所有已消耗的使用次數。當你使用奧術恢復時，你重獲一次已消耗的使用次數。</p><p><em><strong>【靈動】</strong></em>你的AC獲得等同於你智力調整值的加值（最低+1），且你的速度增加10呎。此外，你進行敏捷（特技）檢定時具有優勢。</p><p><em><strong>【劍法】</strong></em>每當你使用你具有熟練的武器進行攻擊時，你可以使用你的智力調整值，取代力量或敏捷來進行攻擊檢定與傷害擲骰。</p><p><em><strong>【凝神】</strong></em>當你為維持專注而進行體質豁免時，你可以將你的智力調整值加入總值。</p><section id=\"secret-PYLkGuyEr8KoysnM\" class=\"secret\"><p><strong>Foundry 註記</strong></p><p>所含的Active Effect不會修改攻擊與傷害擲骰所使用的屬性。此變更應在所使用武器的<strong>攻擊</strong>行動中進行。</p></section>",
+      "description": "<p>作為附贈動作，你喚起一種名為劍歌的精靈魔法，前提是你沒有穿戴護甲或使用盾牌。</p><p>劍歌持續1分鐘，若你陷入失能狀態、穿戴護甲或盾牌，或以雙手使用武器進行攻擊，則劍歌提前結束。你可以隨時解除劍歌（無需動作）。</p><p>劍歌啟用期間，你獲得下列好處。你可以喚起劍歌的次數等同於你的智力調整值（[[lookup @abilities.int.mod]]{0}，最低一次），當你完成長休時重獲所有已消耗的使用次數。當你使用奧術恢復時，你重獲一次已消耗的使用次數。</p><p><em><strong>【靈動】</strong></em>你的AC獲得等同於你智力調整值的加值（最低+1），且你的速度增加10呎。此外，你進行敏捷（特技）檢定時具有優勢。</p><p><em><strong>【劍法】</strong></em>每當你使用你具有熟練的武器進行攻擊時，你可以使用你的智力調整值，取代力量或敏捷來進行攻擊檢定與傷害擲骰。</p><p><em><strong>【凝神】</strong></em>當你為維持專注而進行體質豁免時，你可以將你的智力調整值加入總值。</p><section id=\"secret-PYLkGuyEr8KoysnM\" class=\"secret\"><p><strong>Foundry 註記</strong></p><p>所含的Active Effect不會修改攻擊與傷害擲骰所使用的屬性。此變更應在所使用武器的<strong>攻擊</strong>行動中進行。</p></section>",
       "activities": {
         "Regain Use (Arcane Recovery)": {
           "condition": "當你使用奧術恢復時",
@@ -692,28 +692,28 @@
           "title": "子職業特性"
         }
       },
-      "name": "Oath of the Noble Genies",
-      "description": "<blockquote><p>Brandish the Elemental Splendor of Genies</p></blockquote><p>Paladins sworn to the Oath of the Noble Genies revere the forces of the Elemental Planes. Through taking this oath, Paladins draw power from the four different types of genies—dao, masters of earth; djinn, masters of air; efreet, masters of fire; and marids, masters of water. In Faerûn, many Paladins who swear this oath hail from Calimshan, a land teeming with genies.</p><p>Paladins who swear this oath often undertake quests that take them all over the Realms and across the multiverse—including the Elemental Planes. These paladins share the following tenets:</p><ul><li>Sow the seeds of creation amid the ashes of destruction.</li><li>Lead with splendor and grace.</li><li>Respect the elements, and fear their wrath.</li></ul>"
+      "name": "巨靈貴族之誓",
+      "description": "<blockquote><p>駕馭來自巨靈的元素流光</p></blockquote><p>立下巨靈貴族之誓的聖騎士尊崇元素位面的偉力。藉由締結此誓言，聖騎士自四種類型不同的巨靈處獲得力量——土巨靈，大地之主；氣巨靈，大氣之主；火巨靈，火焰之主；水巨靈，流水之主。在費倫，立下此誓言的聖騎士大多來自卡林珊，一片巨靈眾多的土地。</p><p>立下此誓言的聖騎士經常要執行穿越諸國度、橫跨多元宇宙——甚至包括元素位面在內的任務。立下此誓言的聖騎士都秉持下列信條：</p><ul><li>大破大立，曉喻新生</li><li>輝煌為旌，優雅為引</li><li>尊重元素，敬畏怒火</li></ul>"
     },
     "Noble Scion": {
       "activities": {
         "Minor Wish": {
-          "condition": "When you or an ally in your Aura of Protection fails a D20 Test",
-          "name": "Minor Wish"
+          "condition": "當你或位於你守護靈光內的盟友D20檢定失敗時",
+          "name": "次級祈願術"
         },
         "Gain Benefits": {
-          "name": "Gain Benefits"
+          "name": "獲得好處"
         },
         "Restore Use": {
-          "name": "Restore Use"
+          "name": "恢復使用次數"
         }
       },
-      "name": "Noble Scion",
-      "description": "<p>As a Bonus Action, you gain the benefits below for 10 minutes or until you end them (no action required). Once you use this feature, you can’t use it again until you finish a Long Rest. You can also restore your use of it by expending a level 5 spell slot (no action required).</p><p><em><strong>Flight.</strong></em> You have a Fly Speed of 60 feet and can hover.</p><p><em><strong>Minor Wish.</strong></em> When you or an ally in your Aura of Protection fails a D20 Test, you can take a Reaction to make you or that ally succeed instead.</p>",
+      "name": "巨靈貴胄",
+      "description": "<p>作為附贈動作，你獲得下列好處，持續10分鐘或直到你將其結束（無需動作）。此特性一經使用，直到完成長休前你都無法再次使用。你也可以消耗一個5環法術位（無需動作）來重置此特性的使用權。</p><p><em><strong>【飛行】</strong></em>你獲得60呎飛行速度，並能懸浮。</p><p><em><strong>【次級祈願術】</strong></em>當你或位於你守護靈光內的盟友D20檢定失敗時，你可以採取反應，使你或該盟友改為成功。</p>",
       "effects": {
         "Noble Scion": {
           "description": "<p>@Embed[Compendium.dnd-heroes-faerun.options.Item.hofOngNobleScion inline]</p>",
-          "name": "Noble Scion"
+          "name": "巨靈貴胄"
         }
       }
     },
@@ -797,117 +797,117 @@
     "Dread Allegiance": {
       "activities": {
         "Minor Illusion (Bane)": {
-          "name": "Minor Illusion (Bane)"
+          "name": "次級幻象（班恩）"
         },
         "Choose Myrkul": {
-          "name": "Choose Myrkul",
-          "duration": "Long Rest"
+          "name": "選擇米爾寇",
+          "duration": "長休"
         },
         "Chill Touch (Myrkul)": {
-          "name": "Chill Touch (Myrkul)"
+          "name": "寒顫之觸（米爾寇）"
         },
         "Blade Ward (Bhaal)": {
-          "name": "Blade Ward (Bhaal)"
+          "name": "劍刃防護（巴爾）"
         },
         "Choose Bane": {
-          "name": "Choose Bane",
-          "duration": "Long Rest"
+          "name": "選擇班恩",
+          "duration": "長休"
         },
         "Choose Bhaal": {
-          "name": "Choose Bhaal",
-          "duration": "Long Rest"
+          "name": "選擇巴爾",
+          "duration": "長休"
         }
       },
       "effects": {
         "Myrkul: Necrotic Resistance": {
-          "description": "<p>Myrkul has gifted you temporary resistance to necrotic damage.</p>",
-          "name": "Myrkul: Necrotic Resistance",
+          "description": "<p>米爾寇賜予你對黯蝕傷害的暫時抗力。</p>",
+          "name": "米爾寇：黯蝕抗力",
           "changes": {
-            "name": "{} (Bhaal)"
+            "name": "{}（米爾寇）"
           }
         },
         "Bhaal: Poison Resistance": {
-          "description": "<p>Bhaal has gifted you temporary resistance to poison damage.</p>",
-          "name": "Bhaal: Poison Resistance"
+          "description": "<p>巴爾賜予你對毒素傷害的暫時抗力。</p>",
+          "name": "巴爾：毒素抗力"
         },
         "Bane: Psychic Resistance": {
           "changes": {
-            "name": "{} (Bane)"
+            "name": "{}（班恩）"
           },
-          "name": "Bane: Psychic Resistance",
-          "description": "<p>Bane has gifted you temporary resistance to psychic damage.</p>"
+          "name": "班恩：心靈抗力",
+          "description": "<p>班恩賜予你對心靈傷害的暫時抗力。</p>"
         }
       },
-      "name": "Dread Allegiance",
-      "description": "<p>Choose one of the Dead Three: Bane, Bhaal, or Myrkul. You gain Resistance to one type of damage and the ability to cast a cantrip, as detailed in the table below; Intelligence is your spellcasting ability for this cantrip. When you finish a Long Rest, you can change your choice.</p><table><thead><tr><th scope=\"col\"><p>God</p></th><th scope=\"col\"><p>Damage Resistance</p></th><th scope=\"col\"><p>Cantrip</p></th></tr></thead><tbody><tr><td><p>Bane</p></td><td><p>Psychic</p></td><td><p><em>Minor Illusion</em></p></td></tr><tr><td><p>Bhaal</p></td><td><p>Poison</p></td><td><p><em>Blade Ward</em></p></td></tr><tr><td><p>Myrkul</p></td><td><p>Necrotic</p></td><td><p><em>Chill Touch</em></p></td></tr></tbody></table><p></p><section class=\"secret\" id=\"secret-n4APLi8QJyeMiRD4\"><p><strong>Foundry Note</strong></p><p><strong>Active Effects</strong> are available to apply to your character through the chat card. After using one of the <strong>Expend Use activities</strong>, select your character on the map and then apply the resistance by clicking the button on the chat card.</p><p>Make sure your disable or delete the active effect after your long-rest. If you delete, the AE can be reapplied to your character on each use.</p></section>"
+      "name": "敬怖之忠",
+      "description": "<p>選擇死亡三神其一：班恩、巴爾、米爾寇。你獲得對一種傷害類型的抗力，以及施放一道戲法的能力，如下表所示；智力是你施放此戲法的施法屬性。當你完成長休時，你可以重新選擇。</p><table><thead><tr><th scope=\"col\"><p>神明</p></th><th scope=\"col\"><p>傷害抗力</p></th><th scope=\"col\"><p>戲法</p></th></tr></thead><tbody><tr><td><p>班恩</p></td><td><p>心靈</p></td><td><p><em>次級幻象</em></p></td></tr><tr><td><p>巴爾</p></td><td><p>毒素</p></td><td><p><em>劍刃防護</em></p></td></tr><tr><td><p>米爾寇</p></td><td><p>黯蝕</p></td><td><p><em>寒顫之觸</em></p></td></tr></tbody></table><p></p><section class=\"secret\" id=\"secret-n4APLi8QJyeMiRD4\"><p><strong>Foundry 註記</strong></p><p>可藉由聊天卡將 <strong>Active Effect</strong> 套用到你的角色上。使用<strong>選擇班恩、選擇巴爾或選擇米爾寇行動</strong>之一後，請在地圖上選取你的角色，再點擊聊天卡上的按鈕來套用抗力。</p><p>請務必在長休後停用或刪除該 Active Effect。若你將其刪除，每次使用時都可以重新將該 AE 套用到你的角色上。</p></section>"
     },
     "Aura of Elemental Shielding": {
       "effects": {
         "Acid Shielding": {
           "description": "<p>@Embed[Compendium.dnd-heroes-faerun.options.Item.hofOngAuraofElem inline]</p>",
-          "name": "Acid Shielding"
+          "name": "強酸守禦"
         },
         "Fire Shielding": {
           "description": "<p>@Embed[Compendium.dnd-heroes-faerun.options.Item.hofOngAuraofElem inline]</p>",
-          "name": "Fire Shielding"
+          "name": "火焰守禦"
         },
         "Thunder Shielding": {
-          "name": "Thunder Shielding",
+          "name": "雷鳴守禦",
           "description": "<p>@Embed[Compendium.dnd-heroes-faerun.options.Item.hofOngAuraofElem inline]</p>"
         },
         "Cold Shielding": {
           "description": "<p>@Embed[Compendium.dnd-heroes-faerun.options.Item.hofOngAuraofElem inline]</p>",
-          "name": "Cold Shielding"
+          "name": "寒冷守禦"
         },
         "Lightning Shielding": {
           "description": "<p>@Embed[Compendium.dnd-heroes-faerun.options.Item.hofOngAuraofElem inline]</p>",
-          "name": "Lightning Shielding"
+          "name": "閃電守禦"
         }
       },
-      "name": "Aura of Elemental Shielding",
+      "name": "元素守禦靈光",
       "activities": {
         "Apply Resistance": {
-          "name": "Apply Resistance",
-          "duration": "while in your Aura of Protection"
+          "name": "套用抗力",
+          "duration": "位於你的守護靈光內"
         }
       },
-      "description": "<p>Choose one of the following damage types: Acid, Cold, Fire, Lightning, or Thunder. You and your allies have Resistance to that damage type while in your Aura of Protection.</p><p>At the start of each of your turns, you can change the damage type affected by this feature to one of the other listed options (no action required).</p>"
+      "description": "<p>選擇下列傷害類型之一：強酸、寒冷、火焰、閃電或雷鳴。你和位於你守護靈光內的盟友具有對該傷害類型的抗力。</p><p>在你每個回合開始時，你可以將此特性影響的傷害類型更改為其他列出的選項之一（無需動作）。</p>"
     },
     "Elemental Smite": {
       "effects": {
         "Semi-Incorporeal Form": {
-          "name": "Semi-Incorporeal Form",
-          "description": "<p>You take on a semi-incorporeal form, which lasts until the end of your next turn. While in this form, you have Resistance to Bludgeoning, Piercing, and Slashing damage, and you have Immunity to the Grappled, Prone, and Restrained conditions.</p>"
+          "name": "半虛體形態",
+          "description": "<p>你化為半虛體形態，此形態持續到你的下個回合結束。處於此形態期間，你具有對鈍擊、穿刺與揮砍傷害的抗力，並具有對受擒、伏地與束縛狀態的免疫。</p>"
         },
         "Crushed (Grappled & Restrained)": {
-          "description": "<p>The target has the Grappled condition (escape DC equal to your spell save DC). While &amp;Reference[Grappled apply=false], the target has the Restrained condition.</p>",
-          "name": "Crushed (Grappled & Restrained)"
+          "description": "<p>目標陷入受擒狀態（逃脫DC等同於你的法術豁免DC）。處於&amp;Reference[Grappled apply=false]{受擒}狀態期間，目標還會陷入束縛狀態。</p>",
+          "name": "碾壓（受擒與束縛）"
         },
         "Prone": {
-          "name": "Prone"
+          "name": "伏地"
         }
       },
       "activities": {
         "Efreeti's Fury": {
-          "condition": "Immediately after you cast Divine Smite",
-          "name": "Efreeti's Fury"
+          "condition": "緊接在你施放至聖斬後",
+          "name": "火巨靈之狂怒"
         },
         "Marid's Surge": {
-          "name": "Marid's Surge",
-          "target": "including target of Divine Smite",
-          "condition": "Immediately after you cast Divine Smite"
+          "name": "水巨靈之激流",
+          "target": "包含至聖斬的目標",
+          "condition": "緊接在你施放至聖斬後"
         },
         "Djinni's Escape": {
-          "name": "Djinni's Escape",
-          "condition": "Immediately after you cast Divine Smite"
+          "name": "氣巨靈之遁形",
+          "condition": "緊接在你施放至聖斬後"
         },
         "Dao's Crush": {
-          "name": "Dao's Crush",
-          "condition": "Immediately after you cast Divine Smite"
+          "name": "土巨靈之碾壓",
+          "condition": "緊接在你施放至聖斬後"
         }
       },
-      "description": "<p>Immediately after you cast <em>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplDivineSmit]{Divine Smite}</em>, you can expend one use of your @UUID[Compendium.dnd-players-handbook.classes.Item.phbpdnChannelDiv]{Channel Divinity} and invoke one of the following effects.</p><p><em><strong>Dao’s Crush.</strong></em> Earth rises up around the target of your <em>Divine Smite</em>. The target has the Grappled condition (escape DC equal to your spell save DC, [[/check]]). While &amp;Reference[Grappled apply=false], the target has the &amp;Reference[Restrained apply=false] condition.</p><p><em><strong>Djinni’s Escape.</strong></em> You teleport to an unoccupied space you can see within 30 feet of yourself and take on a semi-incorporeal form, which lasts until the end of your next turn. While in this form, you have Resistance to Bludgeoning, Piercing, and Slashing damage, and you have Immunity to the Grappled, Prone, and Restrained conditions.</p><p><em><strong>Efreeti’s Fury.</strong></em> The target of your <em>Divine Smite</em> takes an extra [[/damage]] damage, and fire jumps from the target to another creature you can see within 30 feet of yourself. The second creature also takes [[/damage]] damage.</p><p><em><strong>Marid’s Surge.</strong></em> The target of your <em>Divine Smite</em> and each creature of your choice in a 10-foot Emanation originating from you make a Strength saving throw against your spell save DC. On a failed save, a creature is pushed 15 feet straight away from you and has the &amp;Reference[Prone] condition.</p>",
-      "name": "Elemental Smite"
+      "description": "<p>緊接在你施放<em>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplDivineSmit]{至聖斬}</em>後，你可以消耗一次你的@UUID[Compendium.dnd-players-handbook.classes.Item.phbpdnChannelDiv]{引導神力}並觸發下列效應之一。</p><p><em><strong>【土巨靈之碾壓】</strong></em>大地在你<em>至聖斬</em>的目標周圍隆起，目標陷入受擒狀態（逃脫DC等同於你的法術豁免DC，[[/check]]）。處於&amp;Reference[Grappled apply=false]{受擒}狀態期間，目標還會陷入&amp;Reference[Restrained apply=false]{束縛}狀態。</p><p><em><strong>【氣巨靈之遁形】</strong></em>你傳送到位於你30呎內一處你所能看見的未佔據空間，並化為半虛體形態，此形態持續到你的下個回合結束。處於此形態期間，你具有對鈍擊、穿刺與揮砍傷害的抗力，並免疫受擒、伏地、束縛狀態。</p><p><em><strong>【火巨靈之狂怒】</strong></em>你<em>至聖斬</em>的目標額外承受[[/damage]]傷害，火焰也會從目標彈射到另一個位於你30呎內你所能看見的生物，該生物也承受[[/damage]]傷害。</p><p><em><strong>【水巨靈之激流】</strong></em>你<em>至聖斬</em>的目標，以及每個位於以你為中心10呎發散區域內你所選擇的生物，其各進行一次對抗你法術豁免DC的力量豁免檢定。豁免失敗時，生物會被你直線推離15呎，並陷入&amp;Reference[Prone]{伏地}狀態。</p>",
+      "name": "元素斬"
     },
     "Song of Defense": {
       "description": "<p>當你在劍歌啟用期間承受傷害時，你可以採取反應，消耗一個法術位，並將所承受的傷害減少等同於該法術位環階5倍的數值。</p>",
@@ -1027,13 +1027,13 @@
       "name": "密斯特拉聖星"
     },
     "Mind Magic": {
-      "description": "<p>As a Magic action, you can expend one use of your @UUID[Compendium.dnd-players-handbook.classes.Item.phbclcChannelDiv]{Channel Divinity} to manifest your magical knowledge. Choose one spell from the Divination school on the Knowledge Domain Spells table that you have prepared. As part of that action, you cast that spell without expending a spell slot or needing Material components.</p>",
+      "description": "<p>作為魔法動作，你可以消耗一次你的@UUID[Compendium.dnd-players-handbook.classes.Item.phbclcChannelDiv]{引導神力}來具象化你的魔法學識。從知識領域法術表中選擇一道你已準備的預言學派法術。以該動作的一部分，你施放該法術時無需消耗法術位，也無需材料構材。</p>",
       "activities": {
         "Manifest Magical Knowledge": {
-          "name": "Manifest Magical Knowledge"
+          "name": "具象化魔法學識"
         }
       },
-      "name": "Mind Magic"
+      "name": "思維魔法"
     },
     "Boon of Fluid Forms": {
       "description": "<p>你獲得下列好處。</p><p><em><strong>Ability Score Increase.</strong></em> Increase your Intelligence, Wisdom, or Charisma score by 1, to a maximum of 30.</p><p><em><strong>Shapechanger.</strong></em> You can take a Magic action to shape-shift into a Beast, Humanoid, or Monstrosity with a Challenge Rating no higher than 10. When you shape-shift, you gain a number of Temporary Hit Points equal to the Hit Points of the form. The shape-shifting effect lasts for 1 hour, and it ends early if you have no Temporary Hit Points left or if you take a Magic action to return to your true form.</p><p>Your game statistics are replaced by the stat block of the chosen form, but you retain your creature type; alignment; personality; Intelligence, Wisdom, and Charisma scores; Hit Points; Hit Point Dice; proficiencies; and ability to communicate. If you have the Spellcasting or Pact Magic feature, you retain it too. Upon shape-shifting, you determine whether your equipment drops to the ground or changes in size and shape to fit the new form while you’re in it.</p><p>Once you use this benefit, you can’t do so again until you finish a Long Rest.</p><p><em><strong>Hardy Transformation.</strong></em> When you gain Temporary Hit Points when you shape-shift, increase that number of Temporary Hit Points by 20.</p><section class=\"secret\" id=\"secret-y7018g5gKljzmUqN\"><p><strong>Foundry Note</strong></p><p>The additional 20 temporary hit points from <strong>Hardy Transformation</strong> is included with the <strong>Shapechanger</strong> activity.</p></section>",
@@ -1157,17 +1157,17 @@
     "Dread Incarnate": {
       "activities": {
         "Cutthroat": {
-          "name": "Cutthroat"
+          "name": "割喉"
         }
       },
       "effects": {
         "Murderous Intent": {
-          "description": "<p>When you roll for your Sneak Attack damage, you can treat a roll of a 1 or 2 on the die as a 3.</p>",
-          "name": "Murderous Intent"
+          "description": "<p>當你擲出偷襲傷害時，你可以將傷害骰擲出的1或2視為3。</p>",
+          "name": "謀殺意向"
         }
       },
-      "name": "Dread Incarnate",
-      "description": "<p>你獲得下列好處。</p><p><em><strong>Cutthroat.</strong></em> You regain one expended use of Bloodthirst when you finish a Short Rest.</p><p><em><strong>Murderous Intent.</strong></em> When you roll for your Sneak Attack damage, you can treat a roll of a 1 or 2 on the die as a 3.</p><section class=\"secret\" id=\"secret-Xdh58rC9vQ95P7Mv\"><p><strong>Foundry Note</strong></p><p>An <strong>Active Effect</strong> is enabled that will treat a roll of a 1 or 2 on the <strong>Sneak Attack die</strong> as a 3.</p></section>"
+      "name": "恐怖化身",
+      "description": "<p>你獲得下列好處。</p><p><em><strong>【割喉】</strong></em>當你完成短休時，你重獲一次已消耗的嗜血使用次數。</p><p><em><strong>【謀殺意向】</strong></em>當你擲出偷襲傷害時，你可以將傷害骰擲出的1或2視為3。</p><section class=\"secret\" id=\"secret-Xdh58rC9vQ95P7Mv\"><p><strong>Foundry 註記</strong></p><p>已啟用一個 <strong>Active Effect</strong>，會將<strong>偷襲骰</strong>擲出的1或2視為3。</p></section>"
     },
     "Harper Teamwork": {
       "description": "<p>你獲得下列好處。</p><p><em><strong>【屬性值提升】</strong></em>你的敏捷或魅力提升1點，上限為20。</p><p><em><strong>【妙語連珠】</strong></em>當你採取&amp;Reference[Help]{協助}動作輔助盟友對一名敵人的攻擊檢定時，該敵人在你的下個回合開始前進行的第一次豁免檢定也具有劣勢。</p><p><em><strong>【激勵人心】</strong></em>若你在結束你身上恐慌或麻痺狀態的豁免檢定中成功，則你可以選擇位於你30呎內一名你所能看見且具有相同狀態的盟友。該盟友身上的該狀態立即結束。</p>",
@@ -1210,17 +1210,17 @@
     "Unfettered Mind": {
       "advancement": {
         "Saving Throw Proficiency": {
-          "title": "Saving Throw Proficiency"
+          "title": "豁免熟練"
         }
       },
       "effects": {
         "Unfettered Mind": {
-          "name": "Unfettered Mind",
+          "name": "無拘心智",
           "description": "<p>@Embed[Compendium.dnd-heroes-faerun.options.Item.hofKdoUnfettered inline]</p>"
         }
       },
-      "name": "Unfettered Mind",
-      "description": "<p>You gain telepathy out to 60 feet. When you use this telepathy, you can simultaneously contact a number of creatures equal to your Wisdom modifier ([[lookup @abilities.wis.mod]]{0}, minimum of one).</p><p>Additionally, you gain proficiency in Intelligence saving throws. If you already have this proficiency, you instead gain saving throw proficiency with one ability in which you lack it.</p>"
+      "name": "無拘心智",
+      "description": "<p>你獲得範圍60呎的心靈感應。當你使用此心靈感應時，你可以同時聯繫數量等同於你感知調整值（[[lookup @abilities.wis.mod]]{0}，最少為1）的生物。</p><p>此外，你獲得智力豁免熟練。若你已經擁有該熟練，你改為獲得一項你尚未擁有的豁免檢定熟練。</p>"
     },
     "Cult of the Dragon Archive": {
       "name": "Cult of the Dragon Archive",
@@ -1319,14 +1319,14 @@
     "Blessings of Knowledge": {
       "advancement": {
         "Skill Expertise": {
-          "title": "Skill Expertise"
+          "title": "技能專精"
         },
         "Artisan Tool Proficiency": {
-          "title": "Artisan Tool Proficiency"
+          "title": "工匠工具熟練"
         }
       },
-      "description": "<p>You gain proficiency with one type of Artisan’s Tools of your choice and in two of the following skills of your choice: Arcana, History, Nature, or Religion. You have Expertise in those two skills.</p>",
-      "name": "Blessings of Knowledge"
+      "description": "<p>你獲得你所選擇的一種工匠工具熟練，以及下列技能中你所選擇的兩個技能熟練：奧祕、歷史、自然或宗教。你還會獲得這兩個技能的專精。</p>",
+      "name": "知識祝福"
     },
     "Laeral's Silver Lance": {
       "effects": {
@@ -1343,8 +1343,8 @@
       "description": "<p>銀色能量自你身上爆發，形成一道120呎長、5呎寬的直線。直線內每名由你選擇的生物都進行一次力量豁免。豁免失敗時，該生物承受3d10力場傷害，並陷入&amp;Reference[Prone apply=false]{伏地}狀態。豁免成功時，該生物僅承受一半傷害。</p><p><em><strong>【升環法術效應】</strong></em>法術位每升一個環階，傷害就增加1d10。</p>"
     },
     "Aura of Malevolence": {
-      "name": "Aura of Malevolence",
-      "description": "<p>You radiate malignant power associated with one of the Dead Three. When you use [[/item Bloodthirst]] and teleport, each creature of your choice within 10 feet of either the space you left or your destination space (your choice) takes damage equal to your Intelligence modifier; the damage type is the same as the damage Resistance granted by your choice in the Dread Allegiance feature. Damage dealt by this feature ignores Resistance.</p><section class=\"secret\" id=\"secret-96MheiNO3fejQedk\"><p><strong>Foundry Note</strong></p><p>This use of this feature will consume a use of the Bloodthirst feature.</p></section>"
+      "name": "惡毒靈光",
+      "description": "<p>你散發出與死亡三神其一相關的惡性之力。當你使用[[/item Bloodthirst]]{嗜血}並傳送時，位於你傳送離開或傳送目的地空間（由你選擇）10呎內、由你所選擇的每個生物都會承受等同於你智力調整值的傷害；傷害類型與你的敬怖之忠特性所賦予的抗力類型相同。此特性所造成的傷害無視抗力。</p><section class=\"secret\" id=\"secret-96MheiNO3fejQedk\"><p><strong>Foundry 註記</strong></p><p>此特性的這次使用會消耗一次嗜血特性的使用次數。</p></section>"
     },
     "Amethyst Dragon Den": {
       "name": "紫晶龍巢",
@@ -1353,18 +1353,18 @@
     "Divine Foreknowledge": {
       "activities": {
         "Expand Mind": {
-          "name": "Expand Mind"
+          "name": "延展思維"
         },
         "Restore Use": {
-          "name": "Restore Use"
+          "name": "恢復使用次數"
         }
       },
-      "name": "Divine Foreknowledge",
-      "description": "<p>As a Bonus Action, you magically expand your mind to the future. For 1 hour, you have Advantage on D20 Tests. Once you use this feature, you can’t use it again until you finish a Long Rest. You can also restore your use of this feature by expending a level 6+ spell slot (no action required).</p>",
+      "name": "神聖預知",
+      "description": "<p>作為附贈動作，你以魔法將思維延展到未來。在1小時內，你在D20檢定上具有優勢。此特性一經使用，直到完成長休前你都無法再次使用。你也可以消耗一個6環以上的法術位（無需動作）來重置此特性的使用權。</p>",
       "effects": {
         "Divine Foreknowledge": {
           "description": "<p>@Embed[Compendium.dnd-heroes-faerun.options.Item.hofKdoDivineFore inline]</p>",
-          "name": "Divine Foreknowledge"
+          "name": "神聖預知"
         }
       }
     },
@@ -1866,7 +1866,7 @@
     },
     "Knightly Envoy": {
       "name": "騎士使節",
-      "description": "<p>身為一名貴族使節，你懂得如何舉止優雅得體。你獲得下列好處。</p><p><em><strong>【理解】</strong></em>你可以施放<em>@UUID[Compendium.dnd5e.spells24.Item.phbsplComprehend]{通曉語言}</em>法術，但只能作為儀式施放。魅力是你施放該法術的施法屬性。</p><p><em><strong>【悟性】</strong></em>你從<em>玩家手冊</em>或本書第二章的語言表中習得一門語言。當你完成長休時，你可以將以此好處習得的語言，替換為你在過去24小時內聽過、看人以手語表達過或讀過的另一門語言。</p><p><em><strong>【善言】</strong></em>你獲得你所選擇下列其中一項技能的熟練：洞悉、威嚇、說服或表演。</p>",
+      "description": "<p>身為一名貴族使節，你懂得如何舉止優雅得體。你獲得下列好處。</p><p><em><strong>【理解】</strong></em>你可以施放<em>@UUID[Compendium.dnd5e.spells24.Item.phbsplComprehend]{通曉語言}</em>法術，但只能作為儀式施放。魅力是你施放該法術的施法屬性。</p><p><em><strong>【悟性】</strong></em>你從<em>《玩家手冊》</em>或本書第二章的語言表中習得一門語言。當你完成長休時，你可以將以此好處習得的語言，替換為你在過去24小時內聽過、看到過手語或讀過的另一門語言。</p><p><em><strong>【善言】</strong></em>你獲得你所選擇下列其中一項技能的熟練：洞悉、威嚇、說服或表演。</p>",
       "advancement": {
         "Well Spoken": {
           "title": "善言"
@@ -1918,17 +1918,17 @@
       "description": "<p>在持續期間內，月光以微光光照充滿一片源自你的20呎發散區域。位於該區域內時，你和你的盟友具有半身掩護，並對寒冷、閃電與光耀傷害具有抗力。</p><p>在法術持續期間，你可以使用下列其中一個選項，並立即結束此法術：</p><p><strong>【解放】</strong>當你在避免或結束恐慌、受擒或束縛狀態的豁免中失敗時，你可以採取一個反應，改為使該豁免成功。</p><p><strong>【回春】</strong>你可以採取一個魔法動作，使你或區域內的一名盟友恢復等同於4d10加上你的施法屬性調整值的生命值。</p>"
     },
     "Knowledge Domain Spells": {
-      "name": "Knowledge Domain Spells",
+      "name": "知識領域法術",
       "advancement": {
         "Knowledge Domain Spells": {
-          "title": "Knowledge Domain Spells"
+          "title": "知識領域法術"
         }
       },
-      "description": "<p>When you reach a Cleric level specified in the Knowledge Domain Spells table, you thereafter always have the listed spells prepared.</p><table><caption>Knowledge Domain Spells</caption><thead><tr><th scope=\"col\"><p>Cleric Level</p></th><th scope=\"col\"><p>Prepared Spells</p></th></tr></thead><tbody><tr><td><p>3</p></td><td><p><em>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplCommand000]{Command}</em>, <em>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplComprehend]{Comprehend Languages}*</em>, <em>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplDetectMagi]{Detect Magic}*</em>, <em>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplDetectThou]{Detect Thoughts}*</em>, <em>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplIdentify00]{Identify}*</em>, <em>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplMindSpike0]{Mind Spike}*</em></p></td></tr><tr><td><p>5</p></td><td><p><em>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplDispelMagi]{Dispel Magic}</em>, <em>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplNondetecti]{Nondetection}</em>, <em>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplTongues000]{Tongues}*</em></p></td></tr><tr><td><p>7</p></td><td><p><em>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplArcaneEye0]{Arcane Eye}*</em>, <em>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplBanishment]{Banishment}</em>, <em>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplConfusion0]{Confusion}</em></p></td></tr><tr><td><p>9</p></td><td><p><em>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplLegendLore]{Legend Lore}*, @UUID[Compendium.dnd-players-handbook.spells.Item.phbsplScrying000]{Scrying}*, @UUID[Compendium.dnd-players-handbook.spells.Item.phbsplSynapticSt]{Synaptic Static}</em></p></td></tr></tbody></table><p>*Spell of the Divination school</p>"
+      "description": "<p>當你達到知識領域法術表中所述的相應牧師等級時，你視為始終準備法術表上的法術。</p><table><caption>知識領域法術</caption><thead><tr><th scope=\"col\"><p>牧師等級</p></th><th scope=\"col\"><p>準備法術</p></th></tr></thead><tbody><tr><td><p>3</p></td><td><p><em>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplCommand000]{命令術}</em>、<em>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplComprehend]{通曉語言}*</em>、<em>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplDetectMagi]{偵測魔法}*</em>、<em>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplDetectThou]{偵測思想}*</em>、<em>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplIdentify00]{鑑定術}*</em>、<em>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplMindSpike0]{心靈尖刺}*</em></p></td></tr><tr><td><p>5</p></td><td><p><em>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplDispelMagi]{解除魔法}</em>、<em>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplNondetecti]{迴避偵測}</em>、<em>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplTongues000]{巧舌術}*</em></p></td></tr><tr><td><p>7</p></td><td><p><em>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplArcaneEye0]{祕法眼}*</em>、<em>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplBanishment]{放逐術}</em>、<em>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplConfusion0]{困惑術}</em></p></td></tr><tr><td><p>9</p></td><td><p><em>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplLegendLore]{通曉傳奇}*、@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplScrying000]{探知}*、@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplSynapticSt]{突觸靜止}</em></p></td></tr></tbody></table><p>*來自預言學派的法術</p>"
     },
     "Scion of the Three": {
-      "name": "Scion of the Three",
-      "description": "<blockquote><p>Become a Gruesome Agent of Malice</p></blockquote><p>A Scion of the Three draws power from a group of malevolent gods known in Baldur’s Gate as the Dead Three: Bane, a god of tyranny; Bhaal, a god of violence and murder; and Myrkul, a god of death. While some Rogues of this subclass pledge themselves ardently to those three macabre gods, others are thrust on this path by a curse. Either way, a scion’s power manifests as various occult gifts, as well as an uncanny talent for striking and terrifying foes.</p><p>Scions of the Three are most common in Baldur’s Gate, where the Dead Three lived as mortals before ascending to godhood. Underground cults to Bane, Bhaal, and Myrkul often count Scions of the Three among their most useful agents. Outside Baldur’s Gate, secular thieves’ guilds such as the Shadow Thieves of Amn or the Xanathar Guild in Waterdeep might call on a Scion of the Three to undertake an especially violent contract.</p>",
+      "name": "三神門徒",
+      "description": "<blockquote><p>化身滔天惡意的代理人</p></blockquote><p>三神門徒的力量來源於一群邪惡神祇——在博德之門，人們稱這些神祇為「死亡三神」，祂們分別是：暴政之神班恩、暴力與謀殺之神巴爾以及死亡之神米爾寇。該子職業下的遊蕩者中，一部分人是全心全意地侍奉這三位恐怖神明；但也有一些人是因詛咒或命運的扭曲而被迫走上這條道路的。但無論出於信仰還是詛咒，門徒的力量會讓他們掌握到各類神祕的祕術禮贈、展露出用於打擊和恐嚇敵人的超凡才能。</p><p>三神門徒最常見於博德之門，那是死亡三神成神之前曾以凡人身分生活的城市。在班恩、巴爾與米爾寇的地下邪教中，三神門徒往往被視為最得力的代理人之一。而在博德之門以外，像安姆的影賊公會或深水城的珊薩娜公會這樣的世俗盜賊行會，也可能僱傭三神門徒去執行那些極端暴力的契約任務。</p>",
       "advancement": {
         "Subclass Features": {
           "title": "子職業特性"
