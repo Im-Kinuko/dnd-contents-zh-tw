@@ -497,7 +497,7 @@
           "name": "Genie Touched"
         },
         "Knowledge Domain": {
-          "name": "Knowledge Domain"
+          "name": "知識領域"
         },
         "Retinue of Spellguards": {
           "caption": "A retinue of Spellguards flanks the wizard Alustriel Silverhand in Silvermoon.",
@@ -507,10 +507,10 @@
           "name": "Disguise Kit and Items"
         },
         "Oath of the Noble Genies": {
-          "name": "Oath of the Noble Genies"
+          "name": "巨靈貴族之誓"
         },
         "Scion of the Three": {
-          "name": "Scion of the Three"
+          "name": "三神門徒"
         },
         "Flying Snake": {
           "name": "Flying Snake"
@@ -1293,8 +1293,8 @@
           "name": "咒火術法（術士）"
         },
         "Oath of the Noble Genies (Paladin)": {
-          "description": "<p><em>See @UUID[Compendium.dnd-heroes-faerun.options.Item.hofOngGenieSpell]{Genie Spells}</em></p>",
-          "name": "Oath of the Noble Genies (Paladin)"
+          "description": "<p><em>參見 @UUID[Compendium.dnd-heroes-faerun.options.Item.hofOngGenieSpell]{巨靈法術}</em></p>",
+          "name": "巨靈貴族之誓（聖騎士）"
         },
         "Winter Walker (Ranger)": {
           "description": "<p><em>參見 @UUID[Compendium.dnd-heroes-faerun.options.Item.hofWiwWinterWalk]{凜冬行者法術}</em></p>",
@@ -1313,8 +1313,8 @@
           "name": "Paladin"
         },
         "Knowledge Domain (Cleric)": {
-          "description": "<p><em>See @UUID[Compendium.dnd-heroes-faerun.options.Item.hofKdoSpellsKnow]{Knowledge Domain Spells}</em></p>",
-          "name": "Knowledge Domain (Cleric)"
+          "description": "<p><em>參見 @UUID[Compendium.dnd-heroes-faerun.options.Item.hofKdoSpellsKnow]{知識領域法術}</em></p>",
+          "name": "知識領域（牧師）"
         },
         "Bard": {
           "name": "Bard"
@@ -1369,13 +1369,13 @@
     "Subclasses": {
       "pages": {
         "Overview": {
-          "text": "<p>This chapter presents eight new subclasses that are particularly appropriate for characters in the Forgotten Realms:</p><p><strong>College of the Moon: </strong>A Bard trained by druids of the Moonshae Isles, with a special connection to local folktales and mysterious shrines called moonwells</p><p><strong>Knowledge Domain: </strong>A Cleric of Gond, Mystra, Oghma, Selûne, or another deity who values knowledge, craft, or secrets</p><p><strong>Banneret: </strong>A Fighter who leads others into battle</p><p><strong>Oath of the Noble Genies:</strong> A Paladin empowered by the elemental magic of the genies of Calimshan</p><p><strong>Winter Walker: </strong>A Ranger of the North, wielding magic of cold and ice</p><p><strong>Scion of the Three: </strong>A Rogue who taps into the deadly power of three evil gods—Bane, Bhaal, and Myrkul</p><p><strong>Spellfire Sorcery: </strong>A Sorcerer born with the ability to manipulate spellfire</p><p><strong>Bladesinger:</strong> A Wizard who has mastered an ancient elven technique of magical combat</p>",
-          "name": "Overview"
+          "text": "<p>本章呈現八個特別適配被遺忘的國度角色的新子職業：</p><p><strong>皓月學院：</strong>由月影群島的德魯伊訓練的吟遊詩人，與當地的民間傳說以及被稱為月井的神祕神廟有著特殊的聯繫。</p><p><strong>知識領域：</strong>牧師，信仰貢德、密斯特拉、歐格瑪、塞倫涅，以及其他重視知識、技藝或祕密的神明。</p><p><strong>旗將：</strong>領導眾人戰鬥的戰士。</p><p><strong>巨靈貴族之誓：</strong>聖騎士，其力量來源於卡林珊巨靈的元素魔法。</p><p><strong>凜冬行者：</strong>北地的遊俠，施展著寒冷與冰凍的魔法。</p><p><strong>三神門徒：</strong>汲取三位邪惡神明——班恩、巴爾和米爾寇——致命力量的遊蕩者。</p><p><strong>咒火術法：</strong>生來便能駕馭咒火的術士。</p><p><strong>劍詠者：</strong>掌握了古代精靈魔法戰鬥技藝的法師。</p>",
+          "name": "概覽"
         },
         "Knowledge Domain (Cleric)": {
-          "name": "Knowledge Domain (Cleric)",
-          "text": "<p>@Embed[Compendium.dnd-heroes-faerun.options.Item.hofKnowledgeDoma classes=\"item-card\"]{Knowledge Domain}</p><p>@Embed[Compendium.dnd-heroes-faerun.options.Item.hofKdoBlessingso classes=\"item-card\"]{Level 3: Blessings of Knowledge}</p><p>@Embed[Compendium.dnd-heroes-faerun.options.Item.hofKdoSpellsKnow classes=\"item-card\"]{Level 3: Knowledge Domain Spells}</p><p>@Embed[Compendium.dnd-heroes-faerun.options.Item.hofKdoMindMagic0 classes=\"item-card\"]{Level 3: Mind Magic}</p><p>@Embed[Compendium.dnd-heroes-faerun.options.Item.hofKdoUnfettered classes=\"item-card\"]{Level 6: Unfettered Mind}</p><p>@Embed[Compendium.dnd-heroes-faerun.options.Item.hofKdoDivineFore classes=\"item-card\"]{Level 17: Divine Foreknowledge}</p>",
-          "description": "<p>@Embed[Compendium.dnd-heroes-faerun.book.JournalEntry.hofArtHandouts00.JournalEntryPage.7RqdFdvOuepXudIx caption=false classes=\"float-right size-three\"]</p><p>@Embed[Compendium.dnd-heroes-faerun.options.Item.hofKnowledgeDoma caption=false]{Knowledge Domain}</p>"
+          "name": "知識領域（牧師）",
+          "text": "<p>@Embed[Compendium.dnd-heroes-faerun.options.Item.hofKnowledgeDoma classes=\"item-card\"]{知識領域}</p><p>@Embed[Compendium.dnd-heroes-faerun.options.Item.hofKdoBlessingso classes=\"item-card\"]{3級：知識祝福}</p><p>@Embed[Compendium.dnd-heroes-faerun.options.Item.hofKdoSpellsKnow classes=\"item-card\"]{3級：知識領域法術}</p><p>@Embed[Compendium.dnd-heroes-faerun.options.Item.hofKdoMindMagic0 classes=\"item-card\"]{3級：思維魔法}</p><p>@Embed[Compendium.dnd-heroes-faerun.options.Item.hofKdoUnfettered classes=\"item-card\"]{6級：無拘心智}</p><p>@Embed[Compendium.dnd-heroes-faerun.options.Item.hofKdoDivineFore classes=\"item-card\"]{17級：神聖預知}</p>",
+          "description": "<p>@Embed[Compendium.dnd-heroes-faerun.book.JournalEntry.hofArtHandouts00.JournalEntryPage.7RqdFdvOuepXudIx caption=false classes=\"float-right size-three\"]</p><p>@Embed[Compendium.dnd-heroes-faerun.options.Item.hofKnowledgeDoma caption=false]{知識領域}</p>"
         },
         "Winter Walker (Ranger)": {
           "name": "凜冬行者（遊俠）",
@@ -1383,9 +1383,9 @@
           "description": "<p>@Embed[Compendium.dnd-heroes-faerun.book.JournalEntry.hofArtHandouts00.JournalEntryPage.3SuMsg2caC5E8D4X caption=false classes=\"float-right size-three\"]</p><p>@Embed[Compendium.dnd-heroes-faerun.options.Item.hofWinterWalkerR caption=false]{凜冬行者}</p>"
         },
         "Oath of the Noble Genies (Paladin)": {
-          "description": "<p>@Embed[Compendium.dnd-heroes-faerun.book.JournalEntry.hofArtHandouts00.JournalEntryPage.1dWJNf1RGE112dEy caption=false classes=\"float-right size-three\"]</p><p>@Embed[Compendium.dnd-heroes-faerun.options.Item.hofNobleGeniesOa caption=false]{Oath of the Noble Genies}</p>",
-          "text": "<p>@Embed[Compendium.dnd-heroes-faerun.options.Item.hofNobleGeniesOa classes=\"item-card\"]{Oath of the Noble Genies (Paladin)}</p><p>@Embed[Compendium.dnd-heroes-faerun.options.Item.hofOngElementalS classes=\"item-card\"]{Level 3: Elemental Smite}</p><p>@Embed[Compendium.dnd-heroes-faerun.options.Item.hofOngGenieSpell classes=\"item-card\"]{Level 3: Genie Spells}</p><p>@Embed[Compendium.dnd-heroes-faerun.options.Item.hofOngAuraofElem classes=\"item-card\"]{Level 7: Aura of Elemental Shielding}</p><p>@Embed[Compendium.dnd-heroes-faerun.options.Item.hofOngElementalR classes=\"item-card\"]{Level 15: Elemental Rebuke}</p><p>@Embed[Compendium.dnd-heroes-faerun.options.Item.hofOngNobleScion classes=\"item-card\"]{Level 20: Noble Scion}</p>",
-          "name": "Oath of the Noble Genies (Paladin)"
+          "description": "<p>@Embed[Compendium.dnd-heroes-faerun.book.JournalEntry.hofArtHandouts00.JournalEntryPage.1dWJNf1RGE112dEy caption=false classes=\"float-right size-three\"]</p><p>@Embed[Compendium.dnd-heroes-faerun.options.Item.hofNobleGeniesOa caption=false]{巨靈貴族之誓}</p>",
+          "text": "<p>@Embed[Compendium.dnd-heroes-faerun.options.Item.hofNobleGeniesOa classes=\"item-card\"]{巨靈貴族之誓（聖騎士）}</p><p>@Embed[Compendium.dnd-heroes-faerun.options.Item.hofOngElementalS classes=\"item-card\"]{3級：元素斬}</p><p>@Embed[Compendium.dnd-heroes-faerun.options.Item.hofOngGenieSpell classes=\"item-card\"]{3級：巨靈法術}</p><p>@Embed[Compendium.dnd-heroes-faerun.options.Item.hofOngAuraofElem classes=\"item-card\"]{7級：元素守禦靈光}</p><p>@Embed[Compendium.dnd-heroes-faerun.options.Item.hofOngElementalR classes=\"item-card\"]{15級：元素叱喝}</p><p>@Embed[Compendium.dnd-heroes-faerun.options.Item.hofOngNobleScion classes=\"item-card\"]{20級：巨靈貴胄}</p>",
+          "name": "巨靈貴族之誓（聖騎士）"
         },
         "Spellfire Sorcery (Sorcerer)": {
           "name": "咒火術法（術士）",
@@ -1403,9 +1403,9 @@
           "description": "<p>@Embed[Compendium.dnd-heroes-faerun.book.JournalEntry.hofArtHandouts00.JournalEntryPage.kePbBkUrDyUrMvVU caption=false classes=\"float-right size-three\"]</p><p>@Embed[Compendium.dnd-heroes-faerun.options.Item.hofBanneretFight caption=false]{旗將}</p>"
         },
         "Scion of the Three (Rogue)": {
-          "description": "<p>@Embed[Compendium.dnd-heroes-faerun.book.JournalEntry.hofArtHandouts00.JournalEntryPage.pwZPHSNN0AD9vyk4 caption=false classes=\"float-right size-three\"]</p><p>@Embed[Compendium.dnd-heroes-faerun.options.Item.hofScionoftheThr caption=false]{Scion of the Three}</p>",
-          "name": "Scion of the Three (Rogue)",
-          "text": "<p>@Embed[Compendium.dnd-heroes-faerun.options.Item.hofScionoftheThr classes=\"item-card\"]{Scion of the Three (Rogue)}</p><p>@Embed[Compendium.dnd-heroes-faerun.options.Item.hofSotBloodthirs classes=\"item-card\"]{Level 3: Bloodthirst}</p><p>@Embed[Compendium.dnd-heroes-faerun.options.Item.hofSotDreadAlleg classes=\"item-card\"]{Level 3: Dread Allegiance}</p><p>@Embed[Compendium.dnd-heroes-faerun.options.Item.hofSotStrikeFear classes=\"item-card\"]{Level 9: Strike Fear}</p><p>@Embed[Compendium.dnd-heroes-faerun.options.Item.hofSotAuraofMale classes=\"item-card\"]{Level 13: Aura of Malevolence}</p><p>@Embed[Compendium.dnd-heroes-faerun.options.Item.hofSotDreadIncar classes=\"item-card\"]{Level 17: Dread Incarnate}</p>"
+          "description": "<p>@Embed[Compendium.dnd-heroes-faerun.book.JournalEntry.hofArtHandouts00.JournalEntryPage.pwZPHSNN0AD9vyk4 caption=false classes=\"float-right size-three\"]</p><p>@Embed[Compendium.dnd-heroes-faerun.options.Item.hofScionoftheThr caption=false]{三神門徒}</p>",
+          "name": "三神門徒（遊蕩者）",
+          "text": "<p>@Embed[Compendium.dnd-heroes-faerun.options.Item.hofScionoftheThr classes=\"item-card\"]{三神門徒（遊蕩者）}</p><p>@Embed[Compendium.dnd-heroes-faerun.options.Item.hofSotBloodthirs classes=\"item-card\"]{3級：嗜血}</p><p>@Embed[Compendium.dnd-heroes-faerun.options.Item.hofSotDreadAlleg classes=\"item-card\"]{3級：敬怖之忠}</p><p>@Embed[Compendium.dnd-heroes-faerun.options.Item.hofSotStrikeFear classes=\"item-card\"]{9級：襲殺恐懼}</p><p>@Embed[Compendium.dnd-heroes-faerun.options.Item.hofSotAuraofMale classes=\"item-card\"]{13級：惡毒靈光}</p><p>@Embed[Compendium.dnd-heroes-faerun.options.Item.hofSotDreadIncar classes=\"item-card\"]{17級：恐怖化身}</p>"
         },
         "Bladesinger (Wizard)": {
           "description": "<p>@Embed[Compendium.dnd-heroes-faerun.book.JournalEntry.hofArtHandouts00.JournalEntryPage.KiVnz3l8ZBZOobit caption=false classes=\"float-right size-three\"]</p><p>@Embed[Compendium.dnd-heroes-faerun.options.Item.hofBladesingerWi caption=false]{劍詠者}</p>",
