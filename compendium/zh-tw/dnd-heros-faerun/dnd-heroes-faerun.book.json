@@ -412,10 +412,10 @@
           "name": "Talos"
         },
         "College of the Moon": {
-          "name": "College of the Moon"
+          "name": "皓月學院"
         },
         "Spellfire Sorcery": {
-          "name": "Spellfire Sorcery"
+          "name": "咒火術法"
         },
         "Shadow Thieves Robbing": {
           "caption": "On the streets of a city like Baldur's Gate, none are safe from the Shadow Thieves.",
@@ -440,7 +440,7 @@
           "caption": "Presto, Diana, and Eric battle Themberchaud where he lairs in the Duergar city of Gracklstugh."
         },
         "Banneret": {
-          "name": "Banneret"
+          "name": "旗將"
         },
         "Oghma": {
           "name": "Oghma"
@@ -663,7 +663,7 @@
           "name": "Leira"
         },
         "Bladesinger": {
-          "name": "Bladesinger"
+          "name": "劍詠者"
         },
         "Beshaba": {
           "name": "Beshaba"
@@ -765,7 +765,7 @@
           "name": "Purple Dragon Knights"
         },
         "Winter Walker": {
-          "name": "Winter Walker"
+          "name": "凜冬行者"
         },
         "Yarting": {
           "name": "Yarting"
@@ -1289,16 +1289,16 @@
           "name": "Descriptions"
         },
         "Spellfire Sorcery (Sorcerer)": {
-          "description": "<p><em>See @UUID[Compendium.dnd-heroes-faerun.options.Item.hofSpfSpellfireS]{Spellfire Spells}</em></p>",
-          "name": "Spellfire Sorcery (Sorcerer)"
+          "description": "<p><em>參見 @UUID[Compendium.dnd-heroes-faerun.options.Item.hofSpfSpellfireS]{咒火法術}</em></p>",
+          "name": "咒火術法（術士）"
         },
         "Oath of the Noble Genies (Paladin)": {
           "description": "<p><em>See @UUID[Compendium.dnd-heroes-faerun.options.Item.hofOngGenieSpell]{Genie Spells}</em></p>",
           "name": "Oath of the Noble Genies (Paladin)"
         },
         "Winter Walker (Ranger)": {
-          "description": "<p><em>See @UUID[Compendium.dnd-heroes-faerun.options.Item.hofWiwWinterWalk]{Winter Walker Spells}</em></p>",
-          "name": "Winter Walker (Ranger)"
+          "description": "<p><em>參見 @UUID[Compendium.dnd-heroes-faerun.options.Item.hofWiwWinterWalk]{凜冬行者法術}</em></p>",
+          "name": "凜冬行者（遊俠）"
         },
         "Ranger": {
           "name": "Ranger"
@@ -1378,9 +1378,9 @@
           "description": "<p>@Embed[Compendium.dnd-heroes-faerun.book.JournalEntry.hofArtHandouts00.JournalEntryPage.7RqdFdvOuepXudIx caption=false classes=\"float-right size-three\"]</p><p>@Embed[Compendium.dnd-heroes-faerun.options.Item.hofKnowledgeDoma caption=false]{Knowledge Domain}</p>"
         },
         "Winter Walker (Ranger)": {
-          "name": "Winter Walker (Ranger)",
-          "text": "<p>@Embed[Compendium.dnd-heroes-faerun.options.Item.hofWinterWalkerR classes=\"item-card\"]{Winter Walker (Ranger)}</p><p>@Embed[Compendium.dnd-heroes-faerun.options.Item.hofWiwFrigidExpl classes=\"item-card\"]{Level 3: Frigid Explorer}</p><p>@Embed[Compendium.dnd-heroes-faerun.options.Item.hofWiwHuntersRim classes=\"item-card\"]{Level 3: Hunter's Rime}</p><p>@Embed[Compendium.dnd-heroes-faerun.options.Item.hofWiwWinterWalk classes=\"item-card\"]{Level 3: Winter Walker Spells}</p><p>@Embed[Compendium.dnd-heroes-faerun.options.Item.hofWiwFortifying classes=\"item-card\"]{Level 7: Fortifying Soul}</p><p>@Embed[Compendium.dnd-heroes-faerun.options.Item.hofWiwChillingRe classes=\"item-card\"]{Level 11: Chilling Retribution}</p><p>@Embed[Compendium.dnd-heroes-faerun.options.Item.hofWiwFrozenHaun classes=\"item-card\"]{Level 15: Frozen Haunt}</p>",
-          "description": "<p>@Embed[Compendium.dnd-heroes-faerun.book.JournalEntry.hofArtHandouts00.JournalEntryPage.3SuMsg2caC5E8D4X caption=false classes=\"float-right size-three\"]</p><p>@Embed[Compendium.dnd-heroes-faerun.options.Item.hofWinterWalkerR caption=false]{Winter Walker}</p>"
+          "name": "凜冬行者（遊俠）",
+          "text": "<p>@Embed[Compendium.dnd-heroes-faerun.options.Item.hofWinterWalkerR classes=\"item-card\"]{凜冬行者（遊俠）}</p><p>@Embed[Compendium.dnd-heroes-faerun.options.Item.hofWiwFrigidExpl classes=\"item-card\"]{3級：凍原探索者}</p><p>@Embed[Compendium.dnd-heroes-faerun.options.Item.hofWiwHuntersRim classes=\"item-card\"]{3級：冬獵霜寒}</p><p>@Embed[Compendium.dnd-heroes-faerun.options.Item.hofWiwWinterWalk classes=\"item-card\"]{3級：凜冬行者法術}</p><p>@Embed[Compendium.dnd-heroes-faerun.options.Item.hofWiwFortifying classes=\"item-card\"]{7級：凝凍之魂}</p><p>@Embed[Compendium.dnd-heroes-faerun.options.Item.hofWiwChillingRe classes=\"item-card\"]{11級：寒心復仇}</p><p>@Embed[Compendium.dnd-heroes-faerun.options.Item.hofWiwFrozenHaun classes=\"item-card\"]{15級：冰結惡靈}</p>",
+          "description": "<p>@Embed[Compendium.dnd-heroes-faerun.book.JournalEntry.hofArtHandouts00.JournalEntryPage.3SuMsg2caC5E8D4X caption=false classes=\"float-right size-three\"]</p><p>@Embed[Compendium.dnd-heroes-faerun.options.Item.hofWinterWalkerR caption=false]{凜冬行者}</p>"
         },
         "Oath of the Noble Genies (Paladin)": {
           "description": "<p>@Embed[Compendium.dnd-heroes-faerun.book.JournalEntry.hofArtHandouts00.JournalEntryPage.1dWJNf1RGE112dEy caption=false classes=\"float-right size-three\"]</p><p>@Embed[Compendium.dnd-heroes-faerun.options.Item.hofNobleGeniesOa caption=false]{Oath of the Noble Genies}</p>",
@@ -1388,19 +1388,19 @@
           "name": "Oath of the Noble Genies (Paladin)"
         },
         "Spellfire Sorcery (Sorcerer)": {
-          "name": "Spellfire Sorcery (Sorcerer)",
-          "text": "<p>@Embed[Compendium.dnd-heroes-faerun.options.Item.hofSpellfireSorc classes=\"item-card\"]{Spellfire Sorcery (Sorcerer)}</p><p>@Embed[Compendium.dnd-heroes-faerun.options.Item.hofSpfSpellfireB classes=\"item-card\"]{Level 3: Spellfire Burst}</p><p>@Embed[Compendium.dnd-heroes-faerun.options.Item.hofSpfSpellfireS classes=\"item-card\"]{Level 3: Spellfire Spells}</p><p>@Embed[Compendium.dnd-heroes-faerun.options.Item.hofSpfAbsorbSpel classes=\"item-card\"]{Level 6: Absorb Spells}</p><p>@Embed[Compendium.dnd-heroes-faerun.options.Item.hofSpfHonedSpell classes=\"item-card\"]{Level 14: Honed Spellfire}</p><p>@Embed[Compendium.dnd-heroes-faerun.options.Item.hofSpfCrownofSpe classes=\"item-card\"]{Level 18: Crown of Spellfire}</p>",
-          "description": "<p>@Embed[Compendium.dnd-heroes-faerun.book.JournalEntry.hofArtHandouts00.JournalEntryPage.EJb5hihquFqhbumu caption=false classes=\"float-right size-three\"]</p><p>@Embed[Compendium.dnd-heroes-faerun.options.Item.hofSpellfireSorc caption=false]{Spellfire Sorcery}</p>"
+          "name": "咒火術法（術士）",
+          "text": "<p>@Embed[Compendium.dnd-heroes-faerun.options.Item.hofSpellfireSorc classes=\"item-card\"]{咒火術法（術士）}</p><p>@Embed[Compendium.dnd-heroes-faerun.options.Item.hofSpfSpellfireB classes=\"item-card\"]{3級：咒火迸發}</p><p>@Embed[Compendium.dnd-heroes-faerun.options.Item.hofSpfSpellfireS classes=\"item-card\"]{3級：咒火法術}</p><p>@Embed[Compendium.dnd-heroes-faerun.options.Item.hofSpfAbsorbSpel classes=\"item-card\"]{6級：汲納法術}</p><p>@Embed[Compendium.dnd-heroes-faerun.options.Item.hofSpfHonedSpell classes=\"item-card\"]{14級：砥礪咒火}</p><p>@Embed[Compendium.dnd-heroes-faerun.options.Item.hofSpfCrownofSpe classes=\"item-card\"]{18級：咒火冠冕}</p>",
+          "description": "<p>@Embed[Compendium.dnd-heroes-faerun.book.JournalEntry.hofArtHandouts00.JournalEntryPage.EJb5hihquFqhbumu caption=false classes=\"float-right size-three\"]</p><p>@Embed[Compendium.dnd-heroes-faerun.options.Item.hofSpellfireSorc caption=false]{咒火術法}</p>"
         },
         "College of the Moon (Bard)": {
-          "name": "College of the Moon (Bard)",
-          "description": "<p>@Embed[Compendium.dnd-heroes-faerun.book.JournalEntry.hofArtHandouts00.JournalEntryPage.bIGr6jktiB7rWUYR caption=false classes=\"float-right size-three\"]</p><p>@Embed[Compendium.dnd-heroes-faerun.options.Item.hofComCollegeoft caption=false]{College of the Moon}</p>",
-          "text": "<p>@Embed[Compendium.dnd-heroes-faerun.options.Item.hofComCollegeoft classes=\"item-card\"]{College of the Moon}</p><p>@Embed[Compendium.dnd-heroes-faerun.options.Item.hofComMoonsInspi classes=\"item-card\"]{Level 3: Moon’s Inspiration}</p><p>@Embed[Compendium.dnd-heroes-faerun.options.Item.hofComPrimalLore classes=\"item-card\"]{Level 3: Primal Lore}</p><p>@Embed[Compendium.dnd-heroes-faerun.options.Item.hofComBlessingof classes=\"item-card\"]{Level 6: Blessing of Moonlight}</p><p>@Embed[Compendium.dnd-heroes-faerun.options.Item.hofComEventidesS classes=\"item-card\"]{Level 14: Eventide’s Splendor}</p>"
+          "name": "皓月學院（吟遊詩人）",
+          "description": "<p>@Embed[Compendium.dnd-heroes-faerun.book.JournalEntry.hofArtHandouts00.JournalEntryPage.bIGr6jktiB7rWUYR caption=false classes=\"float-right size-three\"]</p><p>@Embed[Compendium.dnd-heroes-faerun.options.Item.hofComCollegeoft caption=false]{皓月學院}</p>",
+          "text": "<p>@Embed[Compendium.dnd-heroes-faerun.options.Item.hofComCollegeoft classes=\"item-card\"]{皓月學院}</p><p>@Embed[Compendium.dnd-heroes-faerun.options.Item.hofComMoonsInspi classes=\"item-card\"]{3級：明月激勵}</p><p>@Embed[Compendium.dnd-heroes-faerun.options.Item.hofComPrimalLore classes=\"item-card\"]{3級：原初學識}</p><p>@Embed[Compendium.dnd-heroes-faerun.options.Item.hofComBlessingof classes=\"item-card\"]{6級：月光祝福}</p><p>@Embed[Compendium.dnd-heroes-faerun.options.Item.hofComEventidesS classes=\"item-card\"]{14級：暮色輝光}</p>"
         },
         "Banneret (Fighter)": {
-          "name": "Banneret (Fighter)",
-          "text": "<p>@Embed[Compendium.dnd-heroes-faerun.options.Item.hofBanneretFight classes=\"item-card\"]{Banneret (Fighter)}</p><p>@Embed[Compendium.dnd-heroes-faerun.options.Item.hofPdkKnightlyEn classes=\"item-card\"]{Level 3: Knightly Envoy}</p><p>@Embed[Compendium.dnd-heroes-faerun.options.Item.hofPdkGroupRecov classes=\"item-card\"]{Level 3: Group Recovery}</p><p>@Embed[Compendium.dnd-heroes-faerun.options.Item.hofPdkTeamTactic classes=\"item-card\"]{Level 7: Team Tactics}</p><p>@Embed[Compendium.dnd-heroes-faerun.options.Item.hofPdkRallyingSu classes=\"item-card\"]{Level 10: Rallying Surge}</p><p>@Embed[Compendium.dnd-heroes-faerun.options.Item.hofPdkSharedResi classes=\"item-card\"]{Level 15: Shared Resilience}</p><p>@Embed[Compendium.dnd-heroes-faerun.options.Item.hofPdkInspiringC classes=\"item-card\"]{Level 18: Inspiring Commander}</p>",
-          "description": "<p>@Embed[Compendium.dnd-heroes-faerun.book.JournalEntry.hofArtHandouts00.JournalEntryPage.kePbBkUrDyUrMvVU caption=false classes=\"float-right size-three\"]</p><p>@Embed[Compendium.dnd-heroes-faerun.options.Item.hofBanneretFight caption=false]{Banneret}</p>"
+          "name": "旗將（戰士）",
+          "text": "<p>@Embed[Compendium.dnd-heroes-faerun.options.Item.hofBanneretFight classes=\"item-card\"]{旗將（戰士）}</p><p>@Embed[Compendium.dnd-heroes-faerun.options.Item.hofPdkKnightlyEn classes=\"item-card\"]{3級：騎士使節}</p><p>@Embed[Compendium.dnd-heroes-faerun.options.Item.hofPdkGroupRecov classes=\"item-card\"]{3級：群體恢復}</p><p>@Embed[Compendium.dnd-heroes-faerun.options.Item.hofPdkTeamTactic classes=\"item-card\"]{7級：團體戰術}</p><p>@Embed[Compendium.dnd-heroes-faerun.options.Item.hofPdkRallyingSu classes=\"item-card\"]{10級：集結如潮}</p><p>@Embed[Compendium.dnd-heroes-faerun.options.Item.hofPdkSharedResi classes=\"item-card\"]{15級：同築堅城}</p><p>@Embed[Compendium.dnd-heroes-faerun.options.Item.hofPdkInspiringC classes=\"item-card\"]{18級：振軍將帥}</p>",
+          "description": "<p>@Embed[Compendium.dnd-heroes-faerun.book.JournalEntry.hofArtHandouts00.JournalEntryPage.kePbBkUrDyUrMvVU caption=false classes=\"float-right size-three\"]</p><p>@Embed[Compendium.dnd-heroes-faerun.options.Item.hofBanneretFight caption=false]{旗將}</p>"
         },
         "Scion of the Three (Rogue)": {
           "description": "<p>@Embed[Compendium.dnd-heroes-faerun.book.JournalEntry.hofArtHandouts00.JournalEntryPage.pwZPHSNN0AD9vyk4 caption=false classes=\"float-right size-three\"]</p><p>@Embed[Compendium.dnd-heroes-faerun.options.Item.hofScionoftheThr caption=false]{Scion of the Three}</p>",
@@ -1408,9 +1408,9 @@
           "text": "<p>@Embed[Compendium.dnd-heroes-faerun.options.Item.hofScionoftheThr classes=\"item-card\"]{Scion of the Three (Rogue)}</p><p>@Embed[Compendium.dnd-heroes-faerun.options.Item.hofSotBloodthirs classes=\"item-card\"]{Level 3: Bloodthirst}</p><p>@Embed[Compendium.dnd-heroes-faerun.options.Item.hofSotDreadAlleg classes=\"item-card\"]{Level 3: Dread Allegiance}</p><p>@Embed[Compendium.dnd-heroes-faerun.options.Item.hofSotStrikeFear classes=\"item-card\"]{Level 9: Strike Fear}</p><p>@Embed[Compendium.dnd-heroes-faerun.options.Item.hofSotAuraofMale classes=\"item-card\"]{Level 13: Aura of Malevolence}</p><p>@Embed[Compendium.dnd-heroes-faerun.options.Item.hofSotDreadIncar classes=\"item-card\"]{Level 17: Dread Incarnate}</p>"
         },
         "Bladesinger (Wizard)": {
-          "description": "<p>@Embed[Compendium.dnd-heroes-faerun.book.JournalEntry.hofArtHandouts00.JournalEntryPage.KiVnz3l8ZBZOobit caption=false classes=\"float-right size-three\"]</p><p>@Embed[Compendium.dnd-heroes-faerun.options.Item.hofBladesingerWi caption=false]{Bladesinger}</p>",
-          "name": "Bladesinger (Wizard)",
-          "text": "<p>@Embed[Compendium.dnd-heroes-faerun.options.Item.hofBladesingerWi classes=\"item-card\"]{Bladesinger (Wizard)}</p><p>@Embed[Compendium.dnd-heroes-faerun.options.Item.hofBldBladesong0 classes=\"item-card\"]{Level 3: Bladesong}</p><p>@Embed[Compendium.dnd-heroes-faerun.options.Item.hofBldTrainingin classes=\"item-card\"]{Level 3: Training in War and Song}</p><p>@Embed[Compendium.dnd-heroes-faerun.options.Item.hofBldExtraAttac classes=\"item-card\"]{Level 6: Extra Attack}</p><p>@Embed[Compendium.dnd-heroes-faerun.options.Item.hofBldSongofDefe classes=\"item-card\"]{Level 10: Song of Defense}</p><p>@Embed[Compendium.dnd-heroes-faerun.options.Item.hofBldSongofVict classes=\"item-card\"]{Level 14: Song of Victory}</p>"
+          "description": "<p>@Embed[Compendium.dnd-heroes-faerun.book.JournalEntry.hofArtHandouts00.JournalEntryPage.KiVnz3l8ZBZOobit caption=false classes=\"float-right size-three\"]</p><p>@Embed[Compendium.dnd-heroes-faerun.options.Item.hofBladesingerWi caption=false]{劍詠者}</p>",
+          "name": "劍詠者（法師）",
+          "text": "<p>@Embed[Compendium.dnd-heroes-faerun.options.Item.hofBladesingerWi classes=\"item-card\"]{劍詠者（法師）}</p><p>@Embed[Compendium.dnd-heroes-faerun.options.Item.hofBldBladesong0 classes=\"item-card\"]{3級：劍歌}</p><p>@Embed[Compendium.dnd-heroes-faerun.options.Item.hofBldTrainingin classes=\"item-card\"]{3級：戰歌訓練}</p><p>@Embed[Compendium.dnd-heroes-faerun.options.Item.hofBldExtraAttac classes=\"item-card\"]{6級：額外攻擊}</p><p>@Embed[Compendium.dnd-heroes-faerun.options.Item.hofBldSongofDefe classes=\"item-card\"]{10級：守禦之歌}</p><p>@Embed[Compendium.dnd-heroes-faerun.options.Item.hofBldSongofVict classes=\"item-card\"]{14級：勝利之歌}</p>"
         }
       },
       "name": "Subclasses"
