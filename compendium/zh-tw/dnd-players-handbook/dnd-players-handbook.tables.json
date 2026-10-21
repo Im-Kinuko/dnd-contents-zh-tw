@@ -25,31 +25,31 @@
       "name": "狂野魔法浪湧",
       "description": "<p>你的施法可以釋放出未經馴服的魔法浪湧。一回合一次，緊接在你以法術位施放一個術士法術骰一顆d20。若你骰出20，則在狂野魔法浪湧表上擲骰，以確定將創造的魔法效果。</p><p>若狂野魔法效果為一個法術，則它太過狂野以至於它無法被超魔法影響。</p><p>@Embed[Compendium.dnd-players-handbook.tables.RollTable.phbWildMagicSurg rollable caption=false classes=\"wild-magic-surge\"]</p>",
       "results": {
-        "9-12": "For the next minute, you regain 5 Hit Points at the start of each of your turns.",
-        "77-80": "A random creature within 60 feet of you has the Poisoned condition for [[/r 1d4]] hours.",
-        "53-56": "You can take one extra action on this turn.",
-        "21-24": "For the next minute, all your spells with a casting time of an action have a casting time of a Bonus Action.",
-        "81-84": "You radiate Bright Light in a 30-foot radius for the next minute. Any creature that ends its turn within 5 feet of you has the Blinded condition until the end of its next turn.",
-        "49-52": "A spectral shield hovers near you for the next minute, granting you a +2 bonus to AC and immunity to Magic Missile.",
-        "45-48": "You and up to three creatures you choose within 30 feet of you have the Invisible condition for 1 minute. This invisibility ends on a creature immediately after it makes an attack roll, deals damage, or casts a spell.",
-        "1-4": "Roll on this table at the start of each of your turns for the next minute, ignoring this result on subsequent rolls.",
-        "97-100": "Roll [[/r 1d6]]: On a 1, you regain [[/healing 2d10]]{2d10} Hit Points; on a 2, one ally of your choice within 300 feet of you regains [[/healing 2d10]]{2d10} Hit Points; on a 3, you regain your lowest-level expended spell slot; on a 4, one ally of your choice within 300 feet of you regains their lowest-level expended spell slot; on a 5, you regain all your expended Sorcery Points; on a 6, all the effects of row 17–20 affect you simultaneously.",
-        "57-60": "You cast a random spell. If the spell normally requires Concentration, it doesn’t require Concentration in this case; the spell lasts for its full duration. Roll [[/r 1d10]] to determine the spell: on a 1, Confusion; on a 2, Fireball; on a 3, Fog Cloud; on a 4, Fly (cast on a random creature within 60 feet of you), on a 5, Grease; on a 6, Levitate (cast on yourself); on a 7, Magic Missile (cast as a level 5 spell); on an 8, Mirror Image; on a 9, Polymorph (cast on yourself), and if you fail the saving throw, you turn into a Goat (see appendix B); on a 10, See Invisibility.",
-        "93-96": "You and all creatures within 30 feet of you have Vulnerability to Piercing damage for the next minute.",
-        "69-72": "You have the &amp;Reference[Frightened] condition until the end of your next turn. The DM determines the source of your fear.",
-        "89-92": "Up to three creatures of your choice that you can see within 30 feet of you take [[/damage 4d10 type=lightning]] damage.",
-        "5-8": "A creature that is Friendly toward you appears in a random unoccupied space within 60 feet of you. The creature is under the DM’s control and disappears 1 minute later. Roll [[/r 1d4]] to determine the creature: on a 1, a Modron Duodrone appears; on a 2, a Flumph appears; on a 3, a Modron Monodrone appears; on a 4, a Unicorn appears. See the Monster Manual for the creature’s stat block.",
-        "61-64": "For the next minute, any flammable, nonmagical object you touch that isn’t being worn or carried by another creature bursts into flame, takes 1d4 Fire damage, and is burning.",
-        "25-28": "You are transported to the Astral Plane until the end of your next turn. You then return to the space you previously occupied or the nearest unoccupied space if that space is occupied.",
-        "29-32": "The next time you cast a spell that deals damage within the next minute, don’t roll the spell’s damage dice for the damage. Instead use the highest number possible for each damage die.",
-        "41-44": "For the next minute, you can teleport up to 20 feet as a Bonus Action on each of your turns.",
-        "37-40": "You turn into a potted plant until the start of your next turn. While you’re a plant, you have the &amp;Reference[Incapacitated] condition and have Vulnerability to all damage. If you drop to 0 Hit Points, your pot breaks, and your form reverts.",
-        "33-36": "You have Resistance to all damage for the next minute.",
-        "85-88": "Up to three creatures of your choice that you can see within 30 feet of you take [[/damage 1d10 type=necrotic]] damage. You regain Hit Points equal to the sum of the Necrotic damage dealt.",
-        "13-16": "Creatures have Disadvantage on saving throws against the next spell you cast in the next minute that involves a saving throw.",
-        "73-76": "You teleport up to 60 feet to an unoccupied space you can see.",
-        "17-20": "You are subjected to an effect that lasts for 1 minute unless its description says otherwise. Roll [[/r 1d8]] to determine the effect: on a 1, you’re surrounded by faint, ethereal music only you and creatures within 5 feet of you can hear; on a 2, your size increases by one size category; on a 3, you grow a long beard made of feathers that remains until you sneeze, at which point the feathers explode from your face and vanish; on a 4, you must shout when you speak; on a 5, illusory butterflies flutter in the air within 10 feet of you; on a 6, an eye appears on your forehead, granting you Advantage on Wisdom (Perception) checks; on an 7, pink bubbles float out of your mouth whenever you speak; on an 8, your skin turns a vibrant shade of blue for 24 hours or until the effect is ended by a Remove Curse spell.",
-        "65-68": "If you die within the next hour, you immediately revive as if by the Reincarnate spell."
+        "9-12": "在接下來1分鐘內，在每個自己回合開始時，你恢復5點生命值。",
+        "77-80": "位於你60呎內的一名隨機生物陷入中毒狀態，持續[[/r 1d4]]小時。",
+        "53-56": "你可以在本回合採取一個額外的動作。",
+        "21-24": "在接下來1分鐘內，你所有施法時間為動作的法術，其施法時間變為附贈動作。",
+        "81-84": "在接下來1分鐘內，你散發出半徑30呎的明亮光照。任何在你5呎內結束其回合的生物將陷入目盲狀態，直到其下個回合結束。",
+        "49-52": "在接下來1分鐘內，一面靈體般的盾牌懸浮在你的周圍，為你的AC提供+2加值，並使你免疫魔法飛彈。",
+        "45-48": "你和至多三名位於你30呎內由你選擇的生物獲得隱形狀態，持續1分鐘。該隱形狀態會緊接在該生物進行攻擊檢定、造成傷害或施放法術後結束。",
+        "1-4": "在接下來1分鐘內，在每個自己回合開始時，你在本表上重新擲骰，並在後續的擲骰中忽略此結果。",
+        "97-100": "擲[[/r 1d6]]：擲出1時，你恢復[[/healing 2d10]]{2d10}點生命值；擲出2時，你選擇一名位於你300呎內的盟友恢復[[/healing 2d10]]{2d10}點生命值；擲出3時，你恢復一個已消耗的最低環階法術位；擲出4時，你選擇一名位於你300呎內的盟友恢復一個已消耗的最低環階法術位；擲出5時，你重獲所有已消耗的術法點；擲出6時，17–20一列所述的所有效應同時作用於你身上。",
+        "57-60": "你施放一道隨機法術，若該法術通常需要專注，則在此情況下無需專注，該法術持續其完整持續時間。擲[[/r 1d10]]以決定法術：擲出1時，為困惑術；擲出2時，為火球術；擲出3時，為雲霧術；擲出4時，為飛行術（對位於你60呎內一名隨機生物施放）；擲出5時，為油膩術；擲出6時，為浮空術（對你自己施放）；擲出7時，為魔法飛彈（作為5環法術施放）；擲出8時，為鏡影術；擲出9時，為變形術（對你自己施放），且若你豁免失敗，則你變成一隻山羊（見附錄B）；擲出10時，為識破隱形。",
+        "93-96": "在接下來1分鐘內，你和位於你30呎內的所有生物對穿刺傷害具有易傷。",
+        "69-72": "你陷入&amp;Reference[Frightened]{恐慌}狀態，直到你的下個回合結束。由DM決定你的恐懼來源。",
+        "89-92": "選擇至多三名位於你30呎內你所能看見的生物，各承受[[/damage 4d10 type=lightning]]傷害。",
+        "5-8": "一名對你友善的生物出現在位於你60呎內隨機一處未佔據空間中。此生物由DM控制，且會在1分鐘後消失不見。擲[[/r 1d4]]以決定生物：擲出1時，出現一隻二元魔冢；擲出2時，出現一隻呋嚕；擲出3時，出現一隻單元魔冢；擲出4時，出現一頭獨角獸。生物的數值面板見《怪物圖鑑》。",
+        "61-64": "在接下來1分鐘內，你觸碰的任何未被其他生物穿戴或攜帶的非魔法可燃物體都會燃起火焰，承受1d4火焰傷害，並開始燃燒。",
+        "25-28": "你被傳送到星界位面，直到你的下個回合結束。你隨後回到先前所佔據的空間，若該空間已被佔據，則來到最近的未佔據空間。",
+        "29-32": "在接下來1分鐘內，你施放的下一道造成傷害的法術，不進行該法術的傷害擲骰，而是令所有傷害骰取最大值。",
+        "41-44": "在接下來1分鐘內，你可以在每個自己回合以附贈動作傳送至多20呎。",
+        "37-40": "你變成一棵盆栽植物，直到你的下個回合開始。你處於盆栽形態期間，陷入&amp;Reference[Incapacitated]{失能}狀態，並對所有傷害具有易傷。若你的生命值降至0，你的花盆會破碎，你的形態恢復原狀。",
+        "33-36": "在接下來1分鐘內，你具有對所有傷害的抗力。",
+        "85-88": "選擇至多三名位於你30呎內你所能看見的生物，各承受[[/damage 1d10 type=necrotic]]傷害。你恢復等同於以此方式造成的黯蝕傷害總和的生命值。",
+        "13-16": "在接下來1分鐘內，你施放的第一個需要豁免檢定的法術，其目標生物進行該豁免檢定時具有劣勢。",
+        "73-76": "你傳送至多60呎，到一處你所能看見的未佔據空間。",
+        "17-20": "你受到一種效應影響，持續1分鐘（除非其描述另有說明）。擲[[/r 1d8]]以決定效應：擲出1時，你被只有你和位於你5呎內的生物才能聽到的空靈音樂聲環繞；擲出2時，你的體型增大一級；擲出3時，你臉上長出羽毛構成的絡腮鬍，一旦你打了噴嚏，這些羽毛會從你的臉上炸開並消失；擲出4時，你說話時必須大聲喊叫；擲出5時，位於你10呎內的空中會出現飛舞的虛幻蝴蝶；擲出6時，你的前額長出第三隻眼，使你在感知（察覺）檢定上獲得優勢；擲出7時，你一說話就會吐出粉色的泡泡；擲出8時，你的皮膚透出藍色，持續24小時，或直到移除詛咒法術結束此效應。",
+        "65-68": "若你在接下來1小時內死亡，你會立刻復活，如同被轉生術復活一般。"
       }
     },
     "Wisdom": {
@@ -262,14 +262,14 @@
     },
     "Manifestations of Order": {
       "results": {
-        "3-3": "Your skin glows with a brassy sheen.",
-        "4-4": "Floating equations and geometric objects overlay your body.",
-        "2-2": "The hands of a clock spin in your eyes.",
-        "5-5": "Your Spellcasting Focus temporarily takes the form of a Tiny clockwork mechanism.",
-        "6-6": "The ticking of gears or ringing of a clock can be heard by you and those affected by your magic.",
-        "1-1": "Spectral cogwheels hover behind you."
+        "3-3": "你的皮膚發出如黃銅般的金屬光澤。",
+        "4-4": "你的體表浮動著方程式和幾何圖形。",
+        "2-2": "時鐘的指針在你的眼中旋轉。",
+        "5-5": "你的施法法器暫時變成一個微型的機械裝置。",
+        "6-6": "你和那些受到你法術影響的生物都會聽到齒輪的滴答聲或是鐘錶的響鈴。",
+        "1-1": "幽靈般的虛幻齒輪在你身後旋轉。"
       },
-      "name": "Manifestations of Order"
+      "name": "秩序顯跡"
     },
     "Neutral Traits": {
       "results": {
