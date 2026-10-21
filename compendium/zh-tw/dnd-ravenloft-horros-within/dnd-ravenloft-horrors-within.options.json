@@ -1053,68 +1053,69 @@
       }
     },
     "Beasts of Ill Omen": {
-      "name": "Beasts of Ill Omen",
-      "description": "<p>You can call forth a howling creature of shadow to hound your foes. You can spend 3 Sorcery Points to cast <em>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplSummonBeas]{Summon Beast}</em> as a Bonus Action without expending a spell slot, without preparing the spell, and without Material components. The summoned creature appears as a beast made of shadow, and enemies within 5 feet of the summoned creature have Disadvantage on saving throws against spells you cast.</p><p>Whenever you cast the spell, you can modify it so that it doesn’t require Concentration. If you do so, the spell’s duration becomes 1 minute for that casting, and the spell ends early if you cast the spell again.</p>",
+      "name": "凶兆之獸",
+      "description": "<p>你可以驅使一頭嗥叫著的幽影生物追獵你的敵人。你可以消耗3點術法點，以附贈動作施放<em>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplSummonBeas]{野獸召喚術}</em>，且無需消耗法術位、無需準備該法術，也無需材料構材。被召喚出的生物呈現出由陰影構成的野獸外貌，位於被召喚生物5呎內的敵人，在對抗你所施放法術的豁免檢定上具有劣勢。</p><p>每當你施放該法術時，你可以修改該法術使其無需專注。若你這麼做，該法術的持續時間在該次施放中變為1分鐘，且若你再次施放該法術，該法術會提前結束。</p>",
       "activities": {
         "Modified Summon": {
-          "name": "Modified Summon"
+          "name": "修改召喚"
         }
       }
     },
     "Power of Shadow": {
-      "name": "Power of Shadow",
-      "description": "<p>You gain the following benefits.</p><p><span class=\"inline-entry\"><strong>Eyes of the Dark.</strong></span> You have Darkvision with a range of 120 feet and Blindsight with a range of 10 feet. In addition, if a spell you cast creates an area of Darkness, you can see normally through that spell’s Darkness.</p><p><span class=\"inline-entry\"><strong>Strength of the Grave.</strong></span> If you would drop to 0 Hit Points and not die outright, you can make a [[/save]]{Charisma saving throw} (DC 5 plus the damage taken). On a successful save, your Hit Points instead [[/heal]]{change to a number} equal to your Charisma modifier plus your Sorcerer level. After you succeed on this save, you can’t use this benefit again until you finish a Long Rest.</p>",
+      "name": "幽影之威",
+      "description": "<p>你獲得下列好處。</p><p><span class=\"inline-entry\"><strong>【幽暗之瞳】</strong></span>你具有120呎黑暗視覺與10呎盲視。此外，若你施放的一道法術創造了一片黑暗區域，則你能夠正常看透該法術的黑暗。</p><p><span class=\"inline-entry\"><strong>【墳冢之力】</strong></span>若你的生命值將降至0且不會當場死亡，你可以進行一次[[/save]]{魅力豁免}（DC 5加上所承受的傷害）。豁免成功時，你的生命值轉而[[/heal]]{變為一個數值}，該數值等同於你的魅力調整值加上你的術士等級。成功通過此豁免檢定後，直到完成長休前，你無法再次使用此好處。</p>",
       "activities": {
         "Strength of the Grave": {
-          "name": "Strength of the Grave",
-          "condition": "if you would drop to 0 HP but not die outright"
+          "name": "墳冢之力",
+          "condition": "當你的生命值將降至0但不會當場死亡時"
         },
         "Heal on Success": {
-          "name": "Heal on Success",
-          "condition": "after success on this save"
+          "name": "豁免成功時變更生命值",
+          "condition": "在此豁免成功後"
         }
       },
       "effects": {
         "Eyes of the Dark": {
-          "name": "Eyes of the Dark",
+          "name": "幽暗之瞳",
           "description": "<p>@Embed[Compendium.dnd-ravenloft-horrors-within.options.Item.rhwSSPowerofShNG inline]</p>"
         }
       }
     },
     "Shadow Spells": {
-      "name": "Shadow Spells",
-      "description": "<p>When you reach a Sorcerer level specified in the Shadow Spells table, you thereafter always have the listed spells prepared.</p><table><caption><p>Shadow Spells</p></caption><thead><tr><th scope=\"col\"><p>Sorcerer Level</p></th><th scope=\"col\"><p>Spells</p></th></tr></thead><tbody><tr><td><p>3</p></td><td><p><em>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplBane000000]{Bane}</em>, <em>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplDarkness00]{Darkness}</em>, <em>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplInflictWou]{Inflict Wounds}</em>, <em>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplPasswithou]{Pass Without Trace}</em></p></td></tr><tr><td><p>5</p></td><td><p><em>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplHungerofHa]{Hunger of Hadar}</em>, <em>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplNondetecti]{Nondetection}</em></p></td></tr><tr><td><p>7</p></td><td><p><em>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplGreaterInv]{Greater Invisibility}</em>, <em>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplPhantasmal]{Phantasmal Killer}</em></p></td></tr><tr><td><p>9</p></td><td><p><em>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplContagion0]{Contagion}</em>, <em>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplCreation00]{Creation}</em></p></td></tr></tbody></table>",
+      "name": "幽影法術",
+      "description": "<p>當你達到幽影法術表中所述的相應術士等級時，你視為始終準備法術表上的法術。</p><table><caption><p>幽影法術</p></caption><thead><tr><th scope=\"col\"><p>術士等級</p></th><th scope=\"col\"><p>法術</p></th></tr></thead><tbody><tr><td><p>3</p></td><td><p><em>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplBane000000]{災禍術}</em>、<em>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplDarkness00]{黑暗術}</em>、<em>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplInflictWou]{造成傷勢}</em>、<em>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplPasswithou]{行蹤無跡}</em></p></td></tr><tr><td><p>5</p></td><td><p><em>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplHungerofHa]{哈達之欲}</em>、<em>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplNondetecti]{迴避偵測}</em></p></td></tr><tr><td><p>7</p></td><td><p><em>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplGreaterInv]{高等隱形術}</em>、<em>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplPhantasmal]{魅影殺手}</em></p></td></tr><tr><td><p>9</p></td><td><p><em>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplContagion0]{疫病術}</em>、<em>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplCreation00]{造物術}</em></p></td></tr></tbody></table>",
       "advancement": {
         "Shadow Spells": {
-          "name": "Shadow Spells"
+          "name": "Shadow Spells",
+          "title": "幽影法術"
         }
       }
     },
     "Shadow Walk": {
-      "name": "Shadow Walk",
-      "description": "<p>While you are in Dim Light or Darkness, you can take a Bonus Action to teleport up to 120 feet to an unoccupied space you can see that is also in Dim Light or Darkness.</p>",
+      "name": "幽影漫步",
+      "description": "<p>當你處於微光光照或黑暗環境期間，你可以採取附贈動作傳送至多120呎，到一處你所能看見且同樣處於微光光照或黑暗中的未佔據空間。</p>",
       "activities": {
         "Teleport": {
-          "name": "Teleport",
-          "condition": "while in Dim Light or Darkness",
-          "target": "unoccupied, visible, and also in Dim Light or Darkness"
+          "name": "傳送",
+          "condition": "處於微光光照或黑暗中時",
+          "target": "未佔據、你所能看見，且同樣處於微光光照或黑暗中的空間"
         }
       }
     },
     "Umbral Form": {
-      "name": "Umbral Form",
-      "description": "<p>When you use @UUID[Compendium.dnd-players-handbook.classes.Item.phbscrInnateSorc]{Innate Sorcery}, you can adopt a shadowy form, gaining the benefits below while your Innate Sorcery is active or until you end the form (no action required). Once you use this feature, you can’t use it again until you finish a Long Rest unless you spend 6 Sorcery Points (no action required) to restore your use of it.</p><p><span class=\"inline-entry\"><strong>Incorporeal Movement.</strong></span> You can move through creatures and objects as if they were Difficult Terrain, but you take [[/damage 1d10 Force]] damage if you end your turn inside a creature or an object.</p><p><span class=\"inline-entry\"><strong>Shadow Resilience.</strong></span> You have Resistance to all damage except Force and Radiant damage.</p>",
+      "name": "幽冥形態",
+      "description": "<p>當你使用@UUID[Compendium.dnd-players-handbook.classes.Item.phbscrInnateSorc]{天生術法}時，你可以化為幽影形態，在你的天生術法持續期間或直到你解除此形態（無需動作）為止，獲得下列好處。此特性一經使用，除非你消耗6點術法點（無需動作）來重置此特性的使用權，否則直到完成長休前你都無法再次使用。</p><p><span class=\"inline-entry\"><strong>【虛體移動】</strong></span>你可以如同穿過困難地形般穿過生物與物體，但若你在一名生物或一個物體內結束回合，你將承受[[/damage 1d10 Force]]傷害。</p><p><span class=\"inline-entry\"><strong>【幽影堅韌】</strong></span>你具有對除力場與光耀傷害外所有傷害的抗力。</p>",
       "activities": {
         "Innate Sorcery with Umbral Form": {
-          "name": "Innate Sorcery with Umbral Form"
+          "name": "以幽冥形態使用天生術法"
         },
         "Restore Use": {
-          "name": "Restore Use"
+          "name": "恢復使用次數"
         }
       },
       "effects": {
         "Innate Sorcery (Umbral Form)": {
-          "name": "Innate Sorcery (Umbral Form)",
+          "name": "天生術法（幽冥形態）",
           "description": "<p>@Embed[Compendium.dnd-players-handbook.classes.Item.phbscrInnateSorc cite=false]</p><hr><p>@Embed[Compendium.dnd-ravenloft-horrors-within.options.Item.rhwSSUmbralForQw cite=false]</p>"
         }
       }
@@ -1144,11 +1145,12 @@
       }
     },
     "Shadow Sorcery": {
-      "name": "Shadow Sorcery",
-      "description": "<p class=\"meta\"><em>Bend Doom and Darkness to Your Will</em></p><p>Your innate magic comes from the most nebulous and inscrutable forces of the Shadowfell or from other regions of supernatural darkness. You might trace your lineage to an entity from such a place, or perhaps you were exposed to the sinister energy of a shadow dragon and were transformed by it. Your shadowy magic allows you to command darkness, undeath, and woe.</p><p class=\"hide-in-embed\"><em>@UUID[Compendium.dnd-ravenloft-horrors-within.book.JournalEntry.rhwSubclasses000.JournalEntryPage.ShadowSorcerySor]{Subclass Details}</em></p>",
+      "name": "幽影術法",
+      "description": "<p class=\"meta\"><em>掌控末日與黑暗之力</em></p><p>你的天生魔法源自墮影冥界（或其他充斥超自然黑暗的領域）那縹緲莫測的力量。你的血脈或許能夠追溯至棲居於那些地方的存在；又或者，你曾暴露於幽影龍那不祥的能量之下並被其改變。你所掌握的幽影魔法使你能夠驅使黑暗、亡者與災厄。</p><p class=\"hide-in-embed\"><em>@UUID[Compendium.dnd-ravenloft-horrors-within.book.JournalEntry.rhwSubclasses000.JournalEntryPage.ShadowSorcerySor]{子職業詳情}</em></p>",
       "advancement": {
         "Subclass Features": {
-          "name": "Subclass Features"
+          "name": "Subclass Features",
+          "title": "子職業特性"
         }
       }
     },
