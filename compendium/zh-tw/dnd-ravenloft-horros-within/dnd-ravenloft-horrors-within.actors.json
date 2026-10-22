@@ -3439,7 +3439,7 @@
       }
     },
     "Mist Wanderer": {
-      "name": "Mist Wanderer",
+      "name": "迷霧漫遊者",
       "description": "<p class=\"creature-flavor\">@Embed[Compendium.dnd-ravenloft-horrors-within.book.JournalEntry.rhwBestiary00000.JournalEntryPage.MTYXMRVHubibccio cite=false caption=false]</p>",
       "items": {
         "Spellcasting": {
