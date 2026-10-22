@@ -10,7 +10,7 @@
     },
     "Familiar Trainer": {
       "name": "魔寵訓練家",
-      "description": "<p><strong>屬性值：</strong>體質、智力、感知</p><p><strong>專長：</strong>@UUID[Compendium.dnd-arcana-unleashed.feats.Item.aunFamiliarFri4q]{魔寵密友}</p><p><strong>技能熟練：</strong>馴獸和奧秘</p><p><strong>工具熟練：</strong> <em>選擇一種遊戲套組</em></p><p><strong>裝備：</strong> <em>選擇A或B：</em>（A）長棍、遊戲套組（與上述相同）、睡袋、鈴鐺、弦線、打火匣、旅行者服裝、水袋、44 GP 或（B）50 GP</p><p>一隻魔寵在你年幼時與你締結了羈絆，陪伴你度過整個青春歲月。如今，你已經無法想像生活中少了這位毛茸茸——或羽翼豐滿、覆滿鱗片、黏滑濕潤——的朋友陪在身旁。你學會了與你的魔寵協同行動，而每當冒險帶來挑戰，你的魔寵總會適時提醒你留意生活中的那些小確幸。</p>"
+      "description": "<p><strong>屬性值：</strong>體質、智力、感知</p><p><strong>專長：</strong>@UUID[Compendium.dnd-arcana-unleashed.feats.Item.aunFamiliarFri4q]{魔寵密友}</p><p><strong>技能熟練：</strong>馴獸和奧秘</p><p><strong>工具熟練：</strong> <em>選擇一種遊戲套組</em></p><p><strong>裝備：</strong> <em>選擇A或B：</em>（A）長棍、遊戲套組（與工具熟練相同）、睡袋、鈴鐺、弦線、打火匣、旅行者服裝、水袋、44 GP 或（B）50 GP</p><p>一隻魔寵在你年幼時與你締結了羈絆，陪伴你度過整個青春歲月。如今，你已經無法想像生活中少了這位毛茸茸——或羽翼豐滿、覆滿鱗片、黏滑濕潤——的朋友陪在身旁。你學會了與你的魔寵協同行動，而每當冒險帶來挑戰，你的魔寵總會適時提醒你留意生活中的那些小確幸。</p>"
     },
     "Phantasmic Circus Trouper": {
       "description": "<p><strong>屬性值：</strong>敏捷、體質、魅力</p><p><strong>專長：</strong>@UUID[Compendium.dnd-arcana-unleashed.feats.Item.aunArcaneArtiss3]{奧法藝術家}</p><p><strong>技能熟練：</strong>欺瞞和表演</p><p><strong>工具熟練：</strong>易容工具組</p><p><strong>裝備：</strong> <em>選擇A或B：</em>（A）易容工具組、遊戲套組（任一）、戲服、鏡子、旅行者服裝、12 GP 或（B）50 GP</p><p>無論是作為表演者還是馬戲團的幫手，你都在@UUID[Compendium.dnd-arcana-unleashed.book.JournalEntry.aunPhantasmicC8Y]{幻影馬戲團}的成員之間找到了歸屬。在你周遊世界、為興奮的觀眾帶來魔法與奇觀的過程中，你學到了一些幻術學派魔法，並磨練了自己在表演與聲東擊西方面的天賦。</p>",
@@ -38,11 +38,11 @@
     },
     "Ward of the Sheltering Hands": {
       "name": "庇護之手受護者",
-      "description": "<p><strong>屬性值：</strong>體質、感知、魅力</p><p><strong>專長：</strong>@UUID[Compendium.dnd-arcana-unleashed.feats.Item.aunArcaneSafegid]{奧法護佑者}</p><p><strong>技能熟練：</strong>洞悉和醫藥</p><p><strong>工具熟練：</strong>廚師炊具</p><p><strong>裝備：</strong> <em>選擇A或B：</em>（A）廚師炊具、毛毯、醫療工具組、油燈、燃油（3扁瓶）、打火匣、旅行者服裝、水袋、40 GP 或（B）50 GP</p><p>一次厄運的轉折將你帶到了@UUID[Compendium.dnd-arcana-unleashed.book.JournalEntry.aunShelteringHmM]{庇護之手}——一個致力於保護弱勢者的無私組織。該組織幫助你重新站穩腳步，並傳授了你一些防護魔法，希望有朝一日，你也能在不幸之人需要幫助時為他們提供庇護。</p>"
+      "description": "<p><strong>屬性值：</strong>體質、感知、魅力</p><p><strong>專長：</strong>@UUID[Compendium.dnd-arcana-unleashed.feats.Item.aunArcaneSafegid]{奧法護佑者}</p><p><strong>技能熟練：</strong>洞悉和醫藥</p><p><strong>工具熟練：</strong>廚師炊具</p><p><strong>裝備：</strong> <em>選擇A或B：</em>（A）廚師炊具、毛毯、醫療工具組、油燈、燃油（3瓶）、打火匣、旅行者服裝、水袋、40 GP 或（B）50 GP</p><p>一次厄運的轉折將你帶到了@UUID[Compendium.dnd-arcana-unleashed.book.JournalEntry.aunShelteringHmM]{庇護之手}——一個致力於保護弱勢者的無私組織。該組織幫助你重新站穩腳步，並傳授了你一些防護魔法，希望有朝一日，你也能在不幸之人需要幫助時為他們提供庇護。</p>"
     },
     "Cosmic Dawn Experiment": {
       "name": "寰宇黎明實驗體",
-      "description": "<p><strong>屬性值：</strong>力量、敏捷、體質</p><p><strong>專長：</strong>@UUID[Compendium.dnd-arcana-unleashed.feats.Item.aunTransmutedAqb]{萬化本質}</p><p><strong>技能熟練：</strong>運動和求生</p><p><strong>工具熟練：</strong> <em>選擇一種工匠工具</em></p><p><strong>裝備：</strong> <em>選擇A或B：</em>（A）工匠工具（與上述相同）、背包、法袍、旅行者服裝、30 GP 或（B）50 GP</p><p>你的軀體因@UUID[Compendium.dnd-arcana-unleashed.book.JournalEntry.aunBringersofCfQ]{寰宇黎明使徒會}的變化學派魔法實踐而遭到扭曲。也許你是意外捲入了該組織的某場實驗，又或者你本就是該組織的一員，試圖藉由魔法偉力來改善自己的肉體形態。無論如何，你都能將這奇異的軀體化為自己的優勢。</p>"
+      "description": "<p><strong>屬性值：</strong>力量、敏捷、體質</p><p><strong>專長：</strong>@UUID[Compendium.dnd-arcana-unleashed.feats.Item.aunTransmutedAqb]{萬化本質}</p><p><strong>技能熟練：</strong>運動和求生</p><p><strong>工具熟練：</strong> <em>選擇一種工匠工具</em></p><p><strong>裝備：</strong> <em>選擇A或B：</em>（A）工匠工具（與工具熟練相同）、背包、法袍、旅行者服裝、30 GP 或（B）50 GP</p><p>你的軀體因@UUID[Compendium.dnd-arcana-unleashed.book.JournalEntry.aunBringersofCfQ]{寰宇黎明使徒會}的變化學派魔法實踐而遭到扭曲。也許你是意外捲入了該組織的某場實驗，又或者你本就是該組織的一員，試圖藉由魔法偉力來改善自己的肉體形態。無論如何，你都能將這奇異的軀體化為自己的優勢。</p>"
     }
   },
   "label": "背景",
