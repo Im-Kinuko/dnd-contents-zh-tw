@@ -374,23 +374,26 @@
       }
     },
     "Dhampir": {
-      "name": "Dhampir",
-      "description": "<p>Dhampirs are living people who possess vampiric prowess but are cursed with macabre hunger. Most dhampirs thirst for blood, but some gain sustenance from dreams, life energy, or other vital sources. Dhampirs must choose whether to fight to control their hunger or give in to predatory urges.</p><p>Some dhampirs are the descendants of a powerful vampire, while others are partially transformed by a vampire’s bite. Macabre bargains and necromantic influences might also give rise to dhampirs.</p><h4 class=\"entry\">Dhampir Traits</h4><p><strong>Creature Type:</strong> Humanoid</p><p><strong>Size:</strong> Medium (about 4–7 feet tall) or Small (about 2–4 feet tall), chosen when you select this species</p><p><strong>Speed:</strong> 35 feet</p><p>As a Dhampir, you have these special traits.</p><p><em><strong>Darkvision.</strong></em> You have Darkvision with a range of 60 feet.</p><p><em><strong>Trace of Undeath.</strong></em> You have Resistance to Necrotic damage.</p><p>@Embed[Compendium.dnd-ravenloft-horrors-within.options.Item.rhwSpiderClimb7F nameStyle=inline cite=false]</p><p>@Embed[Compendium.dnd-ravenloft-horrors-within.options.Item.rhwVampiricBitnE nameStyle=inline cite=false]</p>",
+      "name": "半血裔",
+      "description": "<p>半血裔是活生生的人，他們擁有類吸血鬼的超凡之力，但卻被一種可怕的飢渴所詛咒。大多數半血裔渴望吸食鮮血，不過也有一些半血裔靠汲取夢境、生氣或其他重要之物以獲取養分。半血裔必須做出選擇，是努力克制自身的飢渴，還是屈服於掠食的衝動本能。</p><p>有些半血裔是強大吸血鬼的後代，而另一些則在被吸血鬼咬傷後發生了部分轉變，可怕的交易以及死靈魔法的影響也可能催生出半血裔。</p><h4 class=\"entry\">半血裔特質</h4><p><strong>生物類型：</strong>類人生物</p><p><strong>體型：</strong>中型（約4-7呎高）或小型（約2-4呎高），當你選擇此種族時決定</p><p><strong>速度：</strong>35呎</p><p>作為半血裔，你擁有這些額外特質。</p><p><span class=\"inline-entry\"><strong>【黑暗視覺】</strong></span>你具有範圍60呎的黑暗視覺。</p><p><span class=\"inline-entry\"><strong>【不死之痕】</strong></span>你具有對黯蝕傷害的抗力。</p><p><span class=\"inline-entry\"><strong>【蛛行】</strong></span> @Embed[Compendium.dnd-ravenloft-horrors-within.options.Item.rhwSpiderClimb7F inline]</p><p><span class=\"inline-entry\"><strong>【吸血啃咬】</strong></span> @Embed[Compendium.dnd-ravenloft-horrors-within.options.Item.rhwVampiricBitnE inline]</p>",
       "advancement": {
         "yoBxJFhtJX5a9P7q": {
-          "hint": "<p>Medium (about 4–7 feet tall) or Small (about 2–4 feet tall), chosen when you select this species.</p>"
+          "hint": "<p>中型（約4-7呎高）或小型（約2-4呎高），當你選擇此種族時決定。</p>"
         },
         "Trace of Undeath": {
           "name": "Trace of Undeath",
-          "hint": "<p>You have Resistance to Necrotic damage.</p>"
+          "hint": "<p>你具有對黯蝕傷害的抗力。</p>",
+          "title": "不死之痕"
         },
         "Spider Climb Improvement": {
           "name": "Spider Climb Improvement",
-          "hint": "<p>When you reach character level 3, you can move up, down, and across vertical surfaces and along ceilings while leaving your hands free.</p>"
+          "hint": "<p>當你達到角色等級3級時，你可以在垂直表面上下左右移動，並能沿著天花板移動，期間你的雙手可以保持空閒。</p>",
+          "title": "蛛行強化"
         },
         "Vampiric Bite": {
           "name": "Vampiric Bite",
-          "hint": "<p>When you use your Unarmed Strike and deal damage, you can choose to bite with your fangs.</p>"
+          "hint": "<p>當你使用你的徒手打擊造成傷害時，你可以選擇使用你的獠牙啃咬。</p>",
+          "title": "吸血啃咬"
         }
       }
     },
@@ -423,32 +426,34 @@
       }
     },
     "Eerie Token": {
-      "name": "Eerie Token",
-      "description": "<p> As a Bonus Action, you can create a magical token by harmlessly removing a lock of hair, detaching a nail, or using some other method. While the token exists, you gain the following benefits:</p><ul><li><p><strong>Distant Message.</strong> As a Magic action, you can send a telepathic message of 25 words or fewer to a creature holding or carrying the token, as long as you are within 10 miles of it.</p></li><li><p><strong>Remote Viewing.</strong> If you are within 10 miles of the token, you can take a Magic action to extend your senses through the token for 1 minute, until you have the Incapacitated condition, or until you end this state (no action required). During this state, you can see and hear from the token as if you were located where it is. When this state ends, the token is harmlessly destroyed.</p></li></ul><p>Unless the token is destroyed early, it lasts until you finish a Long Rest. Once you create a token using this feature, you can’t do so again until you finish a Long Rest.</p>",
+      "name": "神祕信物",
+      "description": "<p>作為附贈動作，你可以藉由無害地剪下一縷頭髮、拔下一片指甲或其他方式，創造一件魔法信物。信物存在期間，你獲得下列好處：</p><ul><li><p><strong>【遠端傳信】</strong>作為魔法動作，只要你位於信物的10哩內，你就可以向攜帶或持握該信物的生物傳遞一條不超過25個單詞的心靈感應訊息。</p></li><li><p><strong>【遙遠視野】</strong>若你位於信物的10哩內，你可以採取魔法動作將你的感官延伸至信物處，持續1分鐘，或直到你陷入失能狀態，或直到你結束此狀態（無需動作）。處於此狀態期間，你能如同身處信物所在位置一樣看見與聽見。此狀態結束時，信物會被無害地摧毀。</p></li></ul><p>除非信物被提前摧毀，否則其會持續存在，直到你完成一次長休。一旦你以此特性創造一件信物，直到完成長休前你都無法再次這麼做。</p>",
       "activities": {
         "Create Token": {
-          "name": "Create Token",
-          "duration": "until you finish a Long Rest"
+          "name": "創造信物",
+          "duration": "直到你完成長休"
         },
         "Distant Message": {
-          "name": "Distant Message",
-          "target": "holding the Magical Token"
+          "name": "遠端傳信",
+          "target": "持握魔法信物者"
         },
         "Remote Viewing": {
-          "name": "Remote Viewing",
-          "target": "the Magical Token"
+          "name": "遙遠視野",
+          "target": "魔法信物"
         }
       },
       "effects": {
         "Token Created": {
-          "name": "Token Created",
+          "name": "信物已創造",
           "changes": {
             "0": "{} (Created)",
-            "1": "Destroy Token"
+            "1": "Destroy Token",
+            "name": "{}（已創造）",
+            "activities[enchant].name": "摧毀信物"
           }
         },
         "Remote Viewing (Incapacitated)": {
-          "name": "Remote Viewing (Incapacitated)"
+          "name": "遙遠視野（失能）"
         }
       }
     },
@@ -466,27 +471,27 @@
       "description": "<p>You don’t gain Exhaustion levels from dehydration, malnutrition, or suffocation. You don’t need to sleep, and magic can’t put you to sleep. You can finish a Long Rest in 4 hours if you spend those hours in an inactive, motionless state, during which you retain consciousness.</p>"
     },
     "Feral Pounce": {
-      "name": "Feral Pounce",
-      "description": "<p>Your @UUID[Compendium.dnd5e.content24.JournalEntry.phbAppendixDRule.JournalEntryPage.xJjJ4lhymAYXAOvO]{Unarmed Strikes} deal Slashing damage instead of Bludgeoning damage. In addition, when you hit a creature with an Unarmed Strike as part of the Attack action on your turn, you can use both the Damage and the Shove options. You can use this benefit only once per turn.</p>",
+      "name": "野性撲擊",
+      "description": "<p>你的@UUID[Compendium.dnd5e.content24.JournalEntry.phbAppendixDRule.JournalEntryPage.xJjJ4lhymAYXAOvO]{徒手打擊}造成揮砍傷害，而非鈍擊傷害。此外，當你在自己的回合以攻擊動作的一部分，使用徒手打擊命中一個生物時，你可以同時使用傷害選項與推撞選項。你每回合只能使用一次此好處。</p>",
       "activities": {
         "Unarmed Strike": {
-          "name": "Unarmed Strike"
+          "name": "徒手打擊"
         },
         "Shove": {
-          "name": "Shove",
-          "condition": "you hit a creature with an Unarmed Strike as part of an Attack on your turn"
+          "name": "推撞",
+          "condition": "當你在自己的回合以攻擊動作的一部分，使用徒手打擊命中一個生物時"
         },
         "Grapple/Shove": {
-          "name": "Grapple/Shove",
-          "chatFlavor": "Grapple or Shove attempt"
+          "name": "擒抱／推撞",
+          "chatFlavor": "擒抱或推撞嘗試"
         }
       },
       "effects": {
         "Grappled": {
-          "name": "Grappled"
+          "name": "受擒"
         },
         "Prone": {
-          "name": "Prone"
+          "name": "伏地"
         }
       }
     },
@@ -620,41 +625,48 @@
       }
     },
     "Haunted One": {
-      "name": "Haunted One",
-      "description": "<p><strong>Ability Scores:</strong> Constitution, Wisdom, Charisma</p><p><strong>Feat:</strong> @UUID[Compendium.dnd-ravenloft-horrors-within.options.Item.rhwSurvivor2zrM3]{Survivor} or a @UUID[Compendium.dnd-ravenloft-horrors-within.book.JournalEntry.rhwFeats00000000.JournalEntryPage.yEsfCxTXqE0ZGQ3B]{Dark Gift feat} of your choice.</p><p><strong>Skill Proficiencies:</strong> Arcana and Survival</p><p><strong>Tool Proficiency:</strong> <em>Choose one kind of Gaming Set</em></p><p><strong>Equipment:</strong> <em>Choose A or B:</em> (A) Gaming Set (same as above), @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagCrowbar0000]{Crowbar}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagHolyWater00]{Holy Water} (1 flask), @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagMirror00000]{Mirror}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagOil00000000]{Oil} (2 flasks), @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagSignalWhist]{Signal Whistle}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagTinderbox00]{Tinderbox}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagClothesTrav]{Traveler’s Clothes}, 5 @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagTorch000000]{Torches}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagWaterskin00]{Waterskin}, and [[/award 14GP]]; or (B) [[/award 50GP]]</p><p>You are haunted by the events of your past. Whether it was a lone terrible incident or an accumulation of painful moments, you bear the unshakable weight of what happened to you. You’ve tried to bury it and run away from it, to no avail; it can’t be slain with a sword or banished via magic. Nevertheless, you persist.</p>",
+      "name": "噩夢纏身者",
+      "description": "<p><strong>屬性值：</strong>體質、感知、魅力</p><p><strong>專長：</strong>@UUID[Compendium.dnd-ravenloft-horrors-within.options.Item.rhwSurvivor2zrM3]{倖存者}或一項由你選擇的@UUID[Compendium.dnd-ravenloft-horrors-within.book.JournalEntry.rhwFeats00000000.JournalEntryPage.yEsfCxTXqE0ZGQ3B]{黑暗贈禮專長}。</p><p><strong>技能熟練：</strong>奧秘和求生</p><p><strong>工具熟練：</strong><em>選擇一種遊戲套組</em></p><p><strong>裝備：</strong><em>選擇A或B：</em>（A）遊戲套組（與工具熟練相同）、撬棍、聖水（1瓶）、鏡子、燃油（2瓶）、訊號哨、打火匣、旅行者服裝、5支火炬、水袋、14 GP 或（B）50 GP</p><p>你始終被過去的陰霾所纏繞。無論那是一場孤立的慘劇，還是無數痛苦瞬間的堆疊，那些降臨在你身上的遭遇已經化作了無法撼動的重擔。你曾試圖將其深埋心底並倉皇逃離，卻終是徒勞；其無法被利刃斬殺，也無法被魔法放逐。儘管如此，你依然繼續前行。</p>",
       "advancement": {
         "Ability Scores": {
-          "name": "Ability Scores"
+          "name": "Ability Scores",
+          "title": "屬性值"
         },
         "Feat": {
           "name": "Feat",
-          "hint": "<p>@UUID[Compendium.dnd-ravenloft-horrors-within.options.Item.rhwSurvivor2zrM3]{Survivor} or a @UUID[Compendium.dnd-ravenloft-horrors-within.book.JournalEntry.rhwFeats00000000.JournalEntryPage.yEsfCxTXqE0ZGQ3B]{Dark Gift feat} of your choice.</p>"
+          "hint": "<p>@UUID[Compendium.dnd-ravenloft-horrors-within.options.Item.rhwSurvivor2zrM3]{倖存者}或一項由你選擇的@UUID[Compendium.dnd-ravenloft-horrors-within.book.JournalEntry.rhwFeats00000000.JournalEntryPage.yEsfCxTXqE0ZGQ3B]{黑暗贈禮專長}。</p>",
+          "title": "專長"
         },
         "Skill Proficiencies": {
-          "name": "Skill Proficiencies"
+          "name": "Skill Proficiencies",
+          "title": "技能熟練"
         },
         "Tool Proficiency": {
-          "name": "Tool Proficiency"
+          "name": "Tool Proficiency",
+          "title": "工具熟練"
         },
         "Choose Languages": {
           "name": "Choose Languages",
-          "hint": "<p>Your character knows at least three languages: Common plus two languages you roll or choose from the @UUID[Compendium.dnd-players-handbook.content.JournalEntry.phbCreatingAChar.JournalEntryPage.t1WP9VEevo4TOTXw#choose-languages]{Standard Languages} table.</p>"
+          "hint": "<p>你的角色至少知曉三種語言，通用語加兩種你從@UUID[Compendium.dnd-players-handbook.content.JournalEntry.phbCreatingAChar.JournalEntryPage.t1WP9VEevo4TOTXw#choose-languages]{標準語言}表中所擲到或所選擇的。</p>",
+          "title": "選擇語言"
         }
       }
     },
     "Hexblood": {
-      "name": "Hexblood",
-      "description": "<p>Hexbloods are individuals infused with fey magic as a result of eldritch energy or mysterious witchcraft. Many hexbloods are transformed into such beings after making a deal with a powerful hag, but other strange forces can result in the birth of a hexblood. A hexblood’s strange fey power manifests as eerie clairvoyance and beguiling magic.</p><h4 class=\"entry\">Hexblood Traits</h4><p><strong>Creature Type:</strong> Fey</p><p><strong>Size:</strong> Medium (about 4–7 feet tall) or Small (about 2–4 feet tall), chosen when you select this species</p><p><strong>Speed:</strong> 30 feet</p><p>As a Hexblood, you have these special traits.</p><p><em><strong>Darkvision.</strong></em> You have Darkvision with a range of 60 feet.</p><p>@Embed[Compendium.dnd-ravenloft-horrors-within.options.Item.rhwEerieTokenSri nameStyle=inline cite=false]</p><p><em><strong>Hex Magic.</strong></em> You always have the <em>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplDisguiseSe]{Disguise Self}</em> and <em>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplHex0000000]{Hex} </em>spells prepared. You can cast each spell once without a spell slot, and you regain the ability to cast it in that way when you finish a Long Rest. You can also cast the spell using any spell slots you have of the appropriate level. Intelligence, Wisdom, or Charisma is your spellcasting ability for the spells you cast with this trait (choose the ability when you select this species).</p>",
+      "name": "巫咒之子",
+      "description": "<p>巫咒之子是因詭異能量或神祕巫術而被注入了妖精魔法的個體。許多巫咒之子是在與強大的鬼婆達成交易後轉化而成，但其他的奇異能量同樣可能導致巫咒之子的誕生。巫咒之子的奇異妖精力量體現在他們的神祕預知能力和魅惑魔法。</p><h4 class=\"entry\">巫咒之子特質</h4><p><strong>生物類型：</strong>妖精</p><p><strong>體型：</strong>中型（約4-7呎高）或小型（約2-4呎高），當你選擇此種族時決定</p><p><strong>速度：</strong>30呎</p><p>作為巫咒之子，你擁有這些額外特質。</p><p><span class=\"inline-entry\"><strong>【黑暗視覺】</strong></span>你具有範圍60呎的黑暗視覺。</p><p><span class=\"inline-entry\"><strong>【神祕信物】</strong></span> @Embed[Compendium.dnd-ravenloft-horrors-within.options.Item.rhwEerieTokenSri inline]</p><p><span class=\"inline-entry\"><strong>【巫咒魔法】</strong></span>你始終準備著<em>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplDisguiseSe]{易容術}</em>和<em>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplHex0000000]{脆弱詛咒} </em>法術。你可以不消耗法術位，各施放每道法術一次，且當你完成長休時，你重獲以此方式施放該法術的能力。你也可以使用你擁有的任何合適環階法術位施放該法術。智力、感知或魅力是你以此特質施放法術時的施法屬性（當你選擇此種族時選擇該屬性）。</p>",
       "advancement": {
         "yBcff0tqdMEk19hz": {
-          "hint": "<p>Medium (about 4–7 feet tall) or Small (about 2–4 feet tall), chosen when you select this species</p>"
+          "hint": "<p>中型（約4-7呎高）或小型（約2-4呎高），當你選擇此種族時決定</p>"
         },
         "Eerie Token": {
-          "name": "Eerie Token"
+          "name": "Eerie Token",
+          "title": "神祕信物"
         },
         "Hex Magic": {
           "name": "Hex Magic",
-          "hint": "<p>You always have the <em>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplDisguiseSe]{Disguise Self}</em> and <em>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplHex0000000]{Hex} </em>spells prepared. You can cast each spell once without a spell slot, and you regain the ability to cast it in that way when you finish a Long Rest. You can also cast the spell using any spell slots you have of the appropriate level. Intelligence, Wisdom, or Charisma is your spellcasting ability for the spells you cast with this trait (choose the ability when you select this species).</p>"
+          "hint": "<p>你始終準備著<em>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplDisguiseSe]{易容術}</em>和<em>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplHex0000000]{脆弱詛咒} </em>法術。你可以不消耗法術位，各施放每道法術一次，且當你完成長休時，你重獲以此方式施放該法術的能力。你也可以使用你擁有的任何合適環階法術位施放該法術。智力、感知或魅力是你以此特質施放法術時的施法屬性（當你選擇此種族時選擇該屬性）。</p>",
+          "title": "巫咒魔法"
         }
       }
     },
@@ -668,35 +680,40 @@
       }
     },
     "Howl": {
-      "name": "Howl",
-      "description": "<p> As a Bonus Action, you let out an unearthly howl. Each creature of your choice within 15 feet of you must succeed on a Wisdom saving throw (DC 8 plus your Constitution modifier and Proficiency Bonus) or have Disadvantage on attack rolls and saving throws until the start of your next turn.</p><p>You can use this trait a number of times equal to your Proficiency Bonus, and you regain all expended uses when you finish a Long Rest.</p>",
+      "name": "嚎叫",
+      "description": "<p>作為附贈動作，你發出一聲陰森駭人的嚎叫。位於你15呎內由你選擇的每個生物都必須成功通過一次感知豁免檢定（DC為8 + 你的體質調整值 + 你的熟練加值），否則其攻擊檢定與豁免檢定具有劣勢，直到你的下個回合開始。</p><p>你可以使用此特質的次數等同於你的熟練加值，並且當你完成長休時，你重獲所有已消耗的使用次數。</p>",
       "effects": {
         "Attack and Save Disadvantage": {
-          "name": "Attack and Save Disadvantage",
-          "description": "<p>@Embed[Compendium.dnd-ravenloft-horrors-within.options.Item.rhwHowlA3f2I58L3 inline]</p><p><em>Disadvantage on attack rolls is not automated.</em></p>"
+          "name": "攻擊與豁免劣勢",
+          "description": "<p>@Embed[Compendium.dnd-ravenloft-horrors-within.options.Item.rhwHowlA3f2I58L3 inline]</p><p><em>攻擊檢定的劣勢不會自動處理。</em></p>"
         }
       }
     },
     "Investigator": {
-      "name": "Investigator",
-      "description": "<p><strong>Ability Scores:</strong> Intelligence, Wisdom, Charisma</p><p><strong>Feat:</strong> @UUID[Compendium.dnd-ravenloft-horrors-within.options.Item.rhwSharpEyev8PBf]{Sharp Eye} or a @UUID[Compendium.dnd-ravenloft-horrors-within.book.JournalEntry.rhwFeats00000000.JournalEntryPage.yEsfCxTXqE0ZGQ3B]{Dark Gift feat} of your choice.</p><p><strong>Skill Proficiencies:</strong> Insight and Investigation</p><p><strong>Tool Proficiency:</strong> Disguise Kit</p><p><strong>Equipment:</strong> <em>Choose A or B:</em> (A) @UUID[Compendium.dnd-players-handbook.equipment.Item.phbtulDisguiseKi]{Disguise Kit}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagManacles000]{Manacles}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagShovel00000]{Shovel}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagClothesTrav]{Traveler’s Clothes}, 3 @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagVial0000000]{Vials}, and [[/award 16GP]]; or (B) [[/award 50GP]]</p><p>You relentlessly seek the truth. Perhaps you witnessed something remarkable or terrible and now desire to unravel its mystery, or maybe you’re motivated by universal justice and honesty. Whether the cases you’re embroiled in are local crimes or eldritch conspiracies, you’re driven to reveal what others would keep hidden.</p>",
+      "name": "調查員",
+      "description": "<p><strong>屬性值：</strong>智力、感知、魅力</p><p><strong>專長：</strong>@UUID[Compendium.dnd-ravenloft-horrors-within.options.Item.rhwSharpEyev8PBf]{銳眼}或一項由你選擇的@UUID[Compendium.dnd-ravenloft-horrors-within.book.JournalEntry.rhwFeats00000000.JournalEntryPage.yEsfCxTXqE0ZGQ3B]{黑暗贈禮專長}。</p><p><strong>技能熟練：</strong>洞悉和調查</p><p><strong>工具熟練：</strong>易容工具</p><p><strong>裝備：</strong><em>選擇A或B：</em>（A）易容工具組、鐐銬、鏟子、旅行者服裝、3個小瓶、16 GP 或（B）50 GP</p><p>你不懈地追尋著真相。也許你曾目睹過某種超常或恐怖的事物，如今只渴望揭開其終極謎團；又或者，你是被世俗的公理與正義所驅使尋求真相。無論你所卷入的案件是純粹的地方犯罪，還是駭人的怪異陰謀，你都被一種強烈的衝動所支配，想要去揭露那些被他人極力掩藏的祕密。</p>",
       "advancement": {
         "Ability Scores": {
-          "name": "Ability Scores"
+          "name": "Ability Scores",
+          "title": "屬性值"
         },
         "Skill Proficiencies": {
-          "name": "Skill Proficiencies"
+          "name": "Skill Proficiencies",
+          "title": "技能熟練"
         },
         "Choose Languages": {
           "name": "Choose Languages",
-          "hint": "<p>Your character knows at least three languages: Common plus two languages you roll or choose from the @UUID[Compendium.dnd-players-handbook.content.JournalEntry.phbCreatingAChar.JournalEntryPage.t1WP9VEevo4TOTXw#choose-languages]{Standard Languages} table.</p>"
+          "hint": "<p>你的角色至少知曉三種語言，通用語加兩種你從@UUID[Compendium.dnd-players-handbook.content.JournalEntry.phbCreatingAChar.JournalEntryPage.t1WP9VEevo4TOTXw#choose-languages]{標準語言}表中所擲到或所選擇的。</p>",
+          "title": "選擇語言"
         },
         "Tool Proficiency": {
-          "name": "Tool Proficiency"
+          "name": "Tool Proficiency",
+          "title": "工具熟練"
         },
         "Feat": {
           "name": "Feat",
-          "hint": "<p>@UUID[Compendium.dnd-ravenloft-horrors-within.options.Item.rhwSharpEyev8PBf]{Sharp Eye} or a @UUID[Compendium.dnd-ravenloft-horrors-within.book.JournalEntry.rhwFeats00000000.JournalEntryPage.yEsfCxTXqE0ZGQ3B]{Dark Gift feat} of your choice.</p>"
+          "hint": "<p>@UUID[Compendium.dnd-ravenloft-horrors-within.options.Item.rhwSharpEyev8PBf]{銳眼}或一項由你選擇的@UUID[Compendium.dnd-ravenloft-horrors-within.book.JournalEntry.rhwFeats00000000.JournalEntryPage.yEsfCxTXqE0ZGQ3B]{黑暗贈禮專長}。</p>",
+          "title": "專長"
         }
       }
     },
@@ -740,14 +757,15 @@
       }
     },
     "Lupin": {
-      "name": "Lupin",
-      "description": "<p>With their bristling fur and snarling muzzles, lupins cast imposing shadows in the Mists. Lupins often arise from encounters with werewolves in which the curse of lycanthropy didn’t fully take hold. Unlike true werewolves, lupins can’t shift between wolf and humanoid form but are instead stuck as a hybrid transformation. This cursed wolflike physiology affords lupins bestial might, enhanced instincts, and a dread-inducing howl.</p><h4 class=\"entry\">Lupin Traits</h4><p><strong>Creature Type:</strong> Humanoid</p><p><strong>Size:</strong> Medium (about 4–7 feet tall) or Small (about 2–4 feet tall), chosen when you select this species</p><p><strong>Speed:</strong> 30 feet</p><p>As a Lupin, you have these special traits.</p><p><em><strong>Darkvision.</strong></em> You have Darkvision with a range of 60 feet.</p><p>@Embed[Compendium.dnd-ravenloft-horrors-within.options.Item.rhwFeralPounce7E nameStyle=inline cite=false]</p><p>@Embed[Compendium.dnd-ravenloft-horrors-within.options.Item.rhwHowlA3f2I58L3 nameStyle=inline cite=false]</p><p><em><strong>Werewolf Instincts.</strong></em> You have proficiency in the Perception, Stealth, or Survival skill.</p>",
+      "name": "人狼裔",
+      "description": "<p>毛髮豎立，口中傳出陣陣咆哮，人狼裔在迷霧中投下駭人的陰影。他們通常誕生於遭遇狼人的事件中，只是獸化詛咒並未完全扎根。與真正的狼人不同，人狼裔無法在狼形態與類人形態之間切換，而是被困在了混種形態之中。這種受詛咒的、與狼相近的生理結構賦予了人狼裔野獸般的力量、增強的本能，以及令人恐懼的嚎叫。</p><h4 class=\"entry\">人狼裔特質</h4><p><strong>生物類型：</strong>類人生物</p><p><strong>體型：</strong>中型（約4-7呎高）或小型（約2-4呎高），當你選擇此種族時決定</p><p><strong>速度：</strong>30呎</p><p>作為人狼裔，你擁有這些額外特質。</p><p><span class=\"inline-entry\"><strong>【黑暗視覺】</strong></span>你具有範圍60呎的黑暗視覺。</p><p><span class=\"inline-entry\"><strong>【野性撲擊】</strong></span> @Embed[Compendium.dnd-ravenloft-horrors-within.options.Item.rhwFeralPounce7E inline]</p><p><span class=\"inline-entry\"><strong>【嚎叫】</strong></span> @Embed[Compendium.dnd-ravenloft-horrors-within.options.Item.rhwHowlA3f2I58L3 inline]</p><p><span class=\"inline-entry\"><strong>【狼人本能】</strong></span>你從察覺、隱匿或求生技能中選擇一項，獲得該技能的熟練。</p>",
       "advancement": {
         "PAvmkgD3udECc0cI": {
-          "hint": "<p>Medium (about 4–7 feet tall) or Small (about 2–4 feet tall), chosen when you select this species</p>"
+          "hint": "<p>中型（約4-7呎高）或小型（約2-4呎高），當你選擇此種族時決定</p>"
         },
         "Werewolf Instincts": {
-          "name": "Werewolf Instincts"
+          "name": "Werewolf Instincts",
+          "title": "狼人本能"
         },
         "Lupin Traits": {
           "name": "Lupin Traits"
@@ -780,25 +798,30 @@
       }
     },
     "Mist Wanderer": {
-      "name": "Mist Wanderer",
-      "description": "<p><strong>Ability Scores:</strong> Dexterity, Constitution, Wisdom</p><p><strong>Feat:</strong> A @UUID[Compendium.dnd-ravenloft-horrors-within.book.JournalEntry.rhwFeats00000000.JournalEntryPage.yEsfCxTXqE0ZGQ3B]{Dark Gift feat} of your choice (see “Feats” later in this chapter; @UUID[Compendium.dnd-ravenloft-horrors-within.options.Item.rhwMistWalkerlge]{Mist Walker} is recommended)</p><p><strong>Skill Proficiencies:</strong> Survival and Stealth</p><p><strong>Tool Proficiency:</strong> <em>Choose one kind of Artisan’s Tools</em></p><p><strong>Equipment:</strong> <em>Choose A or B:</em> (A) Artisan’s Tools (same as above), @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagLamp0000000]{Lamp}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagOil00000000]{Oil} (5 flasks), @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagPouch000000]{Pouch}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagRope0000000]{Rope}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagTinderbox00]{Tinderbox}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagClothesTrav]{Traveler’s Clothes}, and [[/award 30GP]]; or (B) [[/award 50GP]]</p><p>You once knew your home. But one day, the Mists rose and drew you into a Domain of Dread. Ever since, you have wandered between domains, braving the mercurial Mists as you search for a way home. Your time in these cursed realms has changed you, yet you find solace in communities of fellow wanderers throughout the Mists.</p>",
+      "name": "迷霧漫遊者",
+      "description": "<p><strong>屬性值：</strong>敏捷、體質、感知</p><p><strong>專長：</strong>一項由你選擇的@UUID[Compendium.dnd-ravenloft-horrors-within.book.JournalEntry.rhwFeats00000000.JournalEntryPage.yEsfCxTXqE0ZGQ3B]{黑暗贈禮專長}（見本章稍後的「專長」；推薦選擇@UUID[Compendium.dnd-ravenloft-horrors-within.options.Item.rhwMistWalkerlge]{迷霧行者}）</p><p><strong>技能熟練：</strong>求生和隱匿</p><p><strong>工具熟練：</strong><em>選擇一種工匠工具</em></p><p><strong>裝備：</strong><em>選擇A或B：</em>（A）工匠工具（與工具熟練相同）、油燈、燃油（5瓶）、囊袋、繩索、打火匣、旅行者服裝、30 GP 或（B）50 GP</p><p>你曾擁有一個熟悉的家園。直到某一天，詭異的迷霧升騰而起，將你捲入了一處恐懼領域。自那以後，你便在各個領域間流浪，在變幻莫測的迷霧中艱難跋涉，只為尋找那遙不可及的歸途。在這些被詛咒的界域裡度過的歲月已經徹底改變了你，但你仍在迷霧各處的流浪者聚落中找到了些許慰藉。</p>",
       "advancement": {
         "Ability Scores": {
-          "name": "Ability Scores"
+          "name": "Ability Scores",
+          "title": "屬性值"
         },
         "Feat": {
           "name": "Feat",
-          "hint": "<p>A @UUID[Compendium.dnd-ravenloft-horrors-within.book.JournalEntry.rhwFeats00000000.JournalEntryPage.yEsfCxTXqE0ZGQ3B]{Dark Gift feat} of your choice (see “Feats” later in this chapter; @UUID[Compendium.dnd-ravenloft-horrors-within.options.Item.rhwMistWalkerlge]{Mist Walker} is recommended)</p>"
+          "hint": "<p>一項由你選擇的@UUID[Compendium.dnd-ravenloft-horrors-within.book.JournalEntry.rhwFeats00000000.JournalEntryPage.yEsfCxTXqE0ZGQ3B]{黑暗贈禮專長}（見本章稍後的「專長」；推薦選擇@UUID[Compendium.dnd-ravenloft-horrors-within.options.Item.rhwMistWalkerlge]{迷霧行者}）</p>",
+          "title": "專長"
         },
         "Skill Proficiencies": {
-          "name": "Skill Proficiencies"
+          "name": "Skill Proficiencies",
+          "title": "技能熟練"
         },
         "Tool Proficiency": {
-          "name": "Tool Proficiency"
+          "name": "Tool Proficiency",
+          "title": "工具熟練"
         },
         "Choose Languages": {
           "name": "Choose Languages",
-          "hint": "<p>Your character knows at least three languages: Common plus two languages you roll or choose from the @UUID[Compendium.dnd-players-handbook.content.JournalEntry.phbCreatingAChar.JournalEntryPage.t1WP9VEevo4TOTXw#choose-languages]{Standard Languages} table.</p>"
+          "hint": "<p>你的角色至少知曉三種語言，通用語加兩種你從@UUID[Compendium.dnd-players-handbook.content.JournalEntry.phbCreatingAChar.JournalEntryPage.t1WP9VEevo4TOTXw#choose-languages]{標準語言}表中所擲到或所選擇的。</p>",
+          "title": "選擇語言"
         }
       }
     },
@@ -975,7 +998,7 @@
     },
     "Reborn": {
       "name": "Reborn",
-      "description": "<p>重生者是指那些已經死去卻又莫名依然存活的個體。有些重生者的身上有著致命傷留下的疤痕，那死灰般的血肉和無血的血管無不表明著他們曾死裡逃生。有些重生者則是魔法或科學造就的奇蹟，他們或由迥然不同的生命縫合而成，或是在人造軀殼中承載著神秘的心智。無論起源如何，重生者都迎來了新生，並尋求屬於他們自己的經歷和答案。</p><h4 class=\"entry\">重生者特質</h4><p><strong>生物類型：</strong>類人生物</p><p><strong>體型：</strong>中型（約4-7呎高）或小型（約2-4呎高），當你選擇此種族時決定</p><p><strong>速度：</strong>30呎</p><p>作為重生者，你擁有這些特質</p><p><span class=\"inline-entry\"><strong>【死裡逃生】</strong></span>@Embed[Compendium.dnd-ravenloft-horrors-within.options.Item.rhwEscapedDeatXY inline]</p><p><span class=\"inline-entry\"><strong>【永固不朽】</strong></span>@Embed[Compendium.dnd-ravenloft-horrors-within.options.Item.rhwEverlasting7o inline]</p><p><span class=\"inline-entry\"><strong>【往昔知識】</strong></span> @Embed[Compendium.dnd-ravenloft-horrors-within.options.Item.rhwKnowledgefraL inline]</p><p><span class=\"inline-entry\"><strong>【奇異耐性】</strong></span>你具有下列一項你所選擇的傷害類型抗力：寒冷、黯蝕、毒素。</p>",
+      "description": "<p>重生者是指那些已經死去卻又莫名依然存活的個體。有些重生者的身上有著致命傷留下的疤痕，那死灰般的血肉和無血的血管無不表明著他們曾死裡逃生。有些重生者則是魔法或科學造就的奇蹟，他們或由迥然不同的生命縫合而成，或是在人造軀殼中承載著神秘的心智。無論起源如何，重生者都迎來了新生，並尋求屬於他們自己的經歷和答案。</p><h4 class=\"entry\">重生者特質</h4><p><strong>生物類型：</strong>類人生物</p><p><strong>體型：</strong>中型（約4-7呎高）或小型（約2-4呎高），當你選擇此種族時決定</p><p><strong>速度：</strong>30呎</p><p>作為重生者，你擁有這些額外特質。</p><p><span class=\"inline-entry\"><strong>【死裡逃生】</strong></span>@Embed[Compendium.dnd-ravenloft-horrors-within.options.Item.rhwEscapedDeatXY inline]</p><p><span class=\"inline-entry\"><strong>【永固不朽】</strong></span>@Embed[Compendium.dnd-ravenloft-horrors-within.options.Item.rhwEverlasting7o inline]</p><p><span class=\"inline-entry\"><strong>【往昔知識】</strong></span> @Embed[Compendium.dnd-ravenloft-horrors-within.options.Item.rhwKnowledgefraL inline]</p><p><span class=\"inline-entry\"><strong>【奇異耐性】</strong></span>你具有下列一項你所選擇的傷害類型抗力：寒冷、黯蝕、毒素。</p>",
       "advancement": {
         "Umt70RQ304hjOibr": {
           "hint": "<p>Medium (about 4–7 feet tall) or Small (about 2–4 feet tall), chosen when you select this species</p>"
@@ -1165,11 +1188,11 @@
       }
     },
     "Spider Climb Improvement": {
-      "name": "Spider Climb Improvement",
-      "description": "<p>You have a Climb Speed equal to your Speed. When you reach character level 3, you can move up, down, and across vertical surfaces and along ceilings while leaving your hands free.</p><section id=\"secret-hFNgu4YMm6Dr1Ip2\" class=\"secret hide-in-embed\"><p><strong>Foundry Note</strong></p><p>The Climb Speed granted by this feature is provided by the species item directly.</p></section>",
+      "name": "蛛行強化",
+      "description": "<p>你具有等同於你速度的攀爬速度。當你達到角色等級3級時，你可以在垂直表面上下左右移動，並能沿著天花板移動，期間你的雙手可以保持空閒。</p><section id=\"secret-hFNgu4YMm6Dr1Ip2\" class=\"secret\"><p><strong>Foundry 註記</strong></p><p>此特性所授予的攀爬速度由種族物品本身直接提供。</p></section>",
       "effects": {
         "Spider Climb (Hands Free)": {
-          "name": "Spider Climb (Hands Free)",
+          "name": "蛛行（雙手空閒）",
           "changes": {
             "0": ";Hands-free Spider Climb"
           }
@@ -1177,25 +1200,30 @@
       }
     },
     "Spirit Medium": {
-      "name": "Spirit Medium",
-      "description": "<p><strong>Ability Scores:</strong> Constitution, Intelligence, Wisdom</p><p><strong>Feat:</strong> A @UUID[Compendium.dnd-ravenloft-horrors-within.book.JournalEntry.rhwFeats00000000.JournalEntryPage.yEsfCxTXqE0ZGQ3B]{Dark Gift feat} of your choice (@UUID[Compendium.dnd-ravenloft-horrors-within.options.Item.rhwGatheredWhisp]{Gathered Whispers} is recommended)</p><p><strong>Skill Proficiencies:</strong> Insight and Religion</p><p><strong>Tool Proficiency:</strong> <em>Choose one kind of Gaming Set</em></p><p><strong>Equipment:</strong> <em>Choose A or B:</em> (A) @UUID[Compendium.dnd-players-handbook.equipment.Item.phbwepDagger0000]{Dagger}, Gaming Set (same as above), @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagBasket00000]{Basket}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagBell0000000]{Bell}, 8 @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagCandle00000]{Candles}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagInk00000000]{Ink}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagInkPen00000]{Ink Pen}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagPaper000000]{Paper} (5 sheets), @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagTinderbox00]{Tinderbox}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagClothesTrav]{Traveler’s Clothes}, and [[/award 32GP]]; or (B) [[/award 50GP]]</p><p>Through strange rituals and fateful encounters, you’ve discovered that you bear a unique connection to the spirits of the dead and damned. Your body is a conduit for such spirits, granting you prescient insight from beyond. But these spirits’ intentions aren’t always innocent, and their gifts come at a haunting cost.</p>",
+      "name": "降靈師",
+      "description": "<p><strong>屬性值：</strong>體質、智力、感知</p><p><strong>專長：</strong>一項由你選擇的@UUID[Compendium.dnd-ravenloft-horrors-within.book.JournalEntry.rhwFeats00000000.JournalEntryPage.yEsfCxTXqE0ZGQ3B]{黑暗贈禮專長}（推薦選擇@UUID[Compendium.dnd-ravenloft-horrors-within.options.Item.rhwGatheredWhisp]{匯靈低語}）</p><p><strong>技能熟練：</strong>洞悉和宗教</p><p><strong>工具熟練：</strong><em>選擇一種遊戲套組</em></p><p><strong>裝備：</strong><em>選擇A或B：</em>（A）匕首、遊戲套組（與工具熟練相同）、籃子、鈴鐺、8根蠟燭、墨水、墨水筆、紙張（5張）、打火匣、旅行者服裝、32 GP 或（B）50 GP</p><p>藉由奇詭的儀式與宿命般的遭遇，你發覺自己與那些死者和受詛者的靈魂之間，存在著某種極為獨特的連結。你的肉身化作了導引這些靈體的靈媒，這些靈體則賜予你來自彼岸的洞察。然而，這些怨魂的意圖並不總是那麼純粹，其賜下的恩惠往往伴隨著揮之不去的駭人代價。</p>",
       "advancement": {
         "Ability Scores": {
-          "name": "Ability Scores"
+          "name": "Ability Scores",
+          "title": "屬性值"
         },
         "Skill Proficiencies": {
-          "name": "Skill Proficiencies"
+          "name": "Skill Proficiencies",
+          "title": "技能熟練"
         },
         "Tool Proficiency": {
-          "name": "Tool Proficiency"
+          "name": "Tool Proficiency",
+          "title": "工具熟練"
         },
         "Choose Languages": {
           "name": "Choose Languages",
-          "hint": "<p>Your character knows at least three languages: Common plus two languages you roll or choose from the @UUID[Compendium.dnd-players-handbook.content.JournalEntry.phbCreatingAChar.JournalEntryPage.t1WP9VEevo4TOTXw#choose-languages]{Standard Languages} table.</p>"
+          "hint": "<p>你的角色至少知曉三種語言，通用語加兩種你從@UUID[Compendium.dnd-players-handbook.content.JournalEntry.phbCreatingAChar.JournalEntryPage.t1WP9VEevo4TOTXw#choose-languages]{標準語言}表中所擲到或所選擇的。</p>",
+          "title": "選擇語言"
         },
         "Feat": {
           "name": "Feat",
-          "hint": "<p>A @UUID[Compendium.dnd-ravenloft-horrors-within.book.JournalEntry.rhwFeats00000000.JournalEntryPage.yEsfCxTXqE0ZGQ3B]{Dark Gift feat} of your choice (see “Feats” later in this chapter; @UUID[Compendium.dnd-ravenloft-horrors-within.options.Item.rhwGatheredWhisp]{Gathered Whispers} is recommended)</p>"
+          "hint": "<p>一項由你選擇的@UUID[Compendium.dnd-ravenloft-horrors-within.book.JournalEntry.rhwFeats00000000.JournalEntryPage.yEsfCxTXqE0ZGQ3B]{黑暗贈禮專長}（見本章稍後的「專長」；推薦選擇@UUID[Compendium.dnd-ravenloft-horrors-within.options.Item.rhwGatheredWhisp]{匯靈低語}）</p>",
+          "title": "專長"
         }
       }
     },
@@ -1336,22 +1364,22 @@
       }
     },
     "Vampiric Bite": {
-      "name": "Vampiric Bite",
-      "description": "<p>When you use your &amp;Reference[Unarmed Strike] and deal damage, you can choose to bite with your fangs. You deal Piercing damage equal to [[/damage]]{1d4 plus your Constitution modifier} instead of the normal damage of an Unarmed Strike.</p><p>In addition, when you deal this damage to a creature that isn’t a Construct or an Undead, you can empower yourself in one of the following ways:</p><ul><li><p><strong>Drain.</strong> You regain Hit Points equal to the Piercing damage dealt.</p></li><li><p><strong>Strengthen.</strong> You gain a bonus to the next ability check or attack roll you make within the next minute; the bonus is equal to the Piercing damage dealt.</p></li></ul><p>You can empower yourself with this trait a number of times equal to your Proficiency Bonus, and you regain all expended uses when you finish a Long Rest.</p><section id=\"secret-ll4s2dnNOeddNqmg\" class=\"secret hide-in-embed\"><p><strong>Foundry Note</strong></p><p>The Active Effect provided by <strong>Strengthen</strong> includes the character's Constitution modifier, but not the damage roll nor modifications to total damage dealt due to resistance/vulnerability.</p></section>",
+      "name": "吸血啃咬",
+      "description": "<p>當你使用你的&amp;Reference[Unarmed Strike]{徒手打擊}造成傷害時，你可以選擇使用你的獠牙啃咬。你造成等同於[[/damage]]{1d4 + 你的體質調整值}的穿刺傷害，而非徒手打擊原本的傷害。</p><p>此外，當你對不是構裝體或不死生物的生物造成此傷害時，你可以選擇下列方式之一來增幅你自己：</p><ul><li><p><strong>【汲取】</strong>你恢復等同於所造成穿刺傷害的生命值。</p></li><li><p><strong>【強化】</strong>在接下來1分鐘內，你進行的下一次屬性檢定或攻擊檢定，獲得等同於所造成穿刺傷害的加值。</p></li></ul><p>你能以此特質增幅你自己的次數等同於你的熟練加值，並且當你完成長休時，你重獲所有已消耗的使用次數。</p><section class=\"secret\" id=\"secret-ll4s2dnNOeddNqmg\"><p><strong>Foundry 註記</strong></p><p>「<strong>強化</strong>」所提供的 Active Effect 包含角色的體質調整值，但不包含傷害擲骰，也不包含因抗力／易傷而對總傷害造成的修改。</p></section>",
       "activities": {
         "Drain": {
-          "name": "Drain",
-          "condition": "damaging a target that is not a Construct or Undead"
+          "name": "汲取",
+          "condition": "對不是構裝體或不死生物的目標造成傷害時"
         },
         "Strengthen": {
-          "name": "Strengthen",
-          "condition": "damaging a target that is not a Construct or Undead"
+          "name": "強化",
+          "condition": "對不是構裝體或不死生物的目標造成傷害時"
         }
       },
       "effects": {
         "Strengthened Attack or Check": {
-          "name": "Strengthened Attack or Check",
-          "description": "<ul><li><p>You gain a bonus to the next ability check or attack roll you make within the next minute; the bonus is equal to the Piercing damage dealt.</p></li></ul>"
+          "name": "強化的攻擊或檢定",
+          "description": "<ul><li><p>在接下來1分鐘內，你進行的下一次屬性檢定或攻擊檢定獲得等同於所造成穿刺傷害的加值。</p></li></ul>"
         }
       }
     },
