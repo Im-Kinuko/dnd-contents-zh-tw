@@ -6,3 +6,8 @@ _incoming/
 # Python caches
 __pycache__/
 *.pyc
+
+# Local development only: never part of the repository or the release
+/dev/
+/.claude/
+/.agents/

@@ -1018,8 +1018,8 @@
       "Height": "高",
       "Length": "長",
       "Radius": "半徑",
-      "SizeSimple": "{number}-{unit}",
-      "SizeType": "{number}-{unit}-{type}",
+      "SizeSimple": "{number}{unit}",
+      "SizeType": "{type}{number}{unit}",
       "Thickness": "厚",
       "Width": "寬"
     },
@@ -3423,7 +3423,7 @@
       "EldritchInvocation": "魔能祈喚",
       "ElementalDiscipline": "四象法門",
       "FightingStyle": "戰鬥風格",
-      "HuntersPrey": "狩者獵物",
+      "HuntersPrey": "獵殺技藝",
       "Ki": "氣",
       "Maneuver": "戰技",
       "Metamagic": "超魔法選項",
@@ -3431,7 +3431,7 @@
       "PactBoon": "契約恩賜",
       "PsionicPower": "靈能力量",
       "Rune": "符文",
-      "SuperiorHuntersDefense": "卓越獵人防禦"
+      "SuperiorHuntersDefense": "卓越防守戰術"
     },
     "Feat": {
       "Label": "專長",
@@ -5423,7 +5423,7 @@
     },
     "Count": {
       "Any": "任意",
-      "Every": "所有"
+      "Every": "每"
     },
     "FIELDS": {
       "target": {
@@ -5492,7 +5492,7 @@
         }
       }
     },
-    "Formatted": "{count}個{type}",
+    "Formatted": "{count}{type}",
     "Type": {
       "Ally": {
         "Label": "盟友",
@@ -5500,8 +5500,8 @@
           "any": "任意盟友",
           "each": "每個盟友",
           "every": "所有盟友",
-          "one": "{number} 名盟友",
-          "other": "{number} 名盟友"
+          "one": "名盟友",
+          "other": "名盟友"
         }
       },
       "Any": {
@@ -5510,8 +5510,8 @@
       "Circle": {
         "Label": "圓形",
         "Counted": {
-          "one": "{number} 個圓形",
-          "other": "{number} 個圓形",
+          "one": "圓形",
+          "other": "圓形",
           "oneSized": "{sizes}圓形",
           "otherSized": "{number}個{sizes}圓形"
         }
@@ -5519,8 +5519,8 @@
       "Cone": {
         "Label": "錐形",
         "Counted": {
-          "one": "{number} 個錐形",
-          "other": "{number} 個錐形",
+          "one": "錐形",
+          "other": "錐形",
           "oneSized": "{sizes}錐形",
           "otherSized": "{number}個{sizes}錐形"
         }
@@ -5531,8 +5531,8 @@
           "any": "任意生物",
           "each": "每個生物",
           "every": "所有生物",
-          "one": "{number} 個生物",
-          "other": "{number} 個生物"
+          "one": "個生物",
+          "other": "個生物"
         }
       },
       "CreatureOrObject": {
@@ -5541,15 +5541,15 @@
           "any": "任意生物或物體",
           "each": "每個生物或物體",
           "every": "所有生物或物體",
-          "one": "{number} 個生物或物體",
-          "other": "{number} 個生物或物體"
+          "one": "個生物或物體",
+          "other": "個生物或物體"
         }
       },
       "Cube": {
         "Label": "立方",
         "Counted": {
-          "one": "{number} 個立方",
-          "other": "{number} 個立方",
+          "one": "立方",
+          "other": "立方",
           "oneSized": "{sizes}立方體",
           "otherSized": "{number}個{sizes}立方體"
         }
@@ -5557,8 +5557,8 @@
       "Cylinder": {
         "Label": "圓柱",
         "Counted": {
-          "one": "{number} 個圓柱",
-          "other": "{number} 個圓柱",
+          "one": "圓柱",
+          "other": "圓柱",
           "oneSized": "{sizes}圓柱體",
           "otherSized": "{number}個{sizes}圓柱體"
         }
@@ -5566,8 +5566,8 @@
       "Emanation": {
         "Label": "發散",
         "Counted": {
-          "one": "{number} 個發散區域",
-          "other": "{number} 個發散區域",
+          "one": "發散區域",
+          "other": "發散區域",
           "oneSized": "{sizes}發散",
           "otherSized": "{number}個{sizes}發散"
         }
@@ -5578,15 +5578,15 @@
           "any": "任意敵人",
           "each": "每個敵人",
           "every": "所有敵人",
-          "one": "{number} 名敵人",
-          "other": "{number} 名敵人"
+          "one": "名敵人",
+          "other": "名敵人"
         }
       },
       "Line": {
         "Label": "直線",
         "Counted": {
-          "one": "{number} 條直線",
-          "other": "{number} 條直線",
+          "one": "直線",
+          "other": "直線",
           "oneSized": "{sizes}直線",
           "otherSized": "{number}個{sizes}直線"
         }
@@ -5597,15 +5597,15 @@
           "any": "任意物體",
           "each": "每個物體",
           "every": "所有物體",
-          "one": "{number} 個物體",
-          "other": "{number} 個物體"
+          "one": "個物體",
+          "other": "個物體"
         }
       },
       "Radius": {
         "Label": "半徑",
         "Counted": {
-          "one": "{number} 個半徑",
-          "other": "{number} 個半徑",
+          "one": "半徑",
+          "other": "半徑",
           "oneSized": "{sizes}半徑",
           "otherSized": "{number}個{sizes}半徑"
         }
@@ -5628,17 +5628,17 @@
           "any": "任意空間",
           "each": "每個空間",
           "every": "所有空間",
-          "one": "{number} 個空間",
-          "other": "{number} 個空間"
+          "one": "個空間",
+          "other": "個空間"
         }
       },
       "Sphere": {
         "Label": "球形",
         "Counted": {
-          "one": "{number} 個球形",
-          "other": "{number} 個球形",
-          "oneSized": "{sizes}球型",
-          "otherSized": "{number}個{sizes}球型"
+          "one": "球形",
+          "other": "球形",
+          "oneSized": "{sizes}球形",
+          "otherSized": "{number}個{sizes}球形"
         }
       },
       "Special": {
@@ -5654,8 +5654,8 @@
       "Square": {
         "Label": "方格",
         "Counted": {
-          "one": "{number} 個方格",
-          "other": "{number} 個方格",
+          "one": "方格",
+          "other": "方格",
           "oneSized": "{sizes}方形",
           "otherSized": "{number}個{sizes}方形"
         }
@@ -6209,6 +6209,11 @@
     "DISTANCE": {
       "Foot": {
         "Abbreviation": "ft",
+        "Counted": {
+          "long": { "one": "{number}呎", "other": "{number}呎" },
+          "narrow": { "one": "{number}呎", "other": "{number}呎" },
+          "short": { "one": "{number}呎", "other": "{number}呎" }
+        },
         "Label": "呎",
         "Template": "呎"
       },
@@ -6225,6 +6230,11 @@
       },
       "Mile": {
         "Abbreviation": "mi",
+        "Counted": {
+          "long": { "one": "{number}哩", "other": "{number}哩" },
+          "narrow": { "one": "{number}哩", "other": "{number}哩" },
+          "short": { "one": "{number}哩", "other": "{number}哩" }
+        },
         "Label": "哩",
         "Template": "哩"
       }

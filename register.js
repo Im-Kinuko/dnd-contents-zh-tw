@@ -1,5 +1,31 @@
+import { TRANSLATION_OVERRIDES } from './translation-overrides.js';
+
 const MODULE_ID = 'dnd-contents-zh-tw'; // Change this ID!
 
+
+/**
+ * Other zh-tw modules (e.g. dnd5e-taiwan-zh-tw) load their language file after this one and
+ * overwrite entries that lang/zh-tw.json has already settled: some revert to old wording or English
+ * ("Score", "NPC"), some keep old templates that expect variables the system no longer passes
+ * ("{number} 個生物" renders "undefined"). Re-apply every conflicting entry once translations are loaded.
+ * The list is generated: python -X utf8 dev/lang-tools/generate_translation_overrides.py
+ */
+export const PROTECTED_TRANSLATIONS = TRANSLATION_OVERRIDES;
+
+Hooks.once('i18nInit', () => {
+  if (game.system.id !== 'dnd5e') return;
+  for (const [key, value] of Object.entries(PROTECTED_TRANSLATIONS)) {
+    foundry.utils.setProperty(game.i18n.translations, key, value);
+  }
+});
+
+// Intl formats "foot"/"mile" as 英尺／英里 and ignores the lang file; the system uses lang keys instead when a
+// unit has a `counted` key (see DND5E.UNITS.DISTANCE.Foot.Counted in lang/zh-tw.json).
+Hooks.once('init', () => {
+  if (game.system.id !== 'dnd5e') return;
+  CONFIG.DND5E.movementUnits.ft.counted = 'DND5E.UNITS.DISTANCE.Foot.Counted';
+  CONFIG.DND5E.movementUnits.mi.counted = 'DND5E.UNITS.DISTANCE.Mile.Counted';
+});
 
 Hooks.on('init', () => {
   if (game.system.id === 'dnd5e') {
@@ -95,6 +121,7 @@ const MODULE_TRANSLATION_DIRS = [
   'dnd-ravenloft-horros-within',
   'dnd5e',
   'dnd-forge-artificer',
+  'dnd-tashas-cauldron',
   'dnd-arcana-unleashed',
 ];
 
@@ -172,15 +199,18 @@ export class Converters {
 
     const translateAdv = adv => {
       if (!adv || typeof adv !== 'object') return adv;
-      const translation = translations[adv._id] || translations[adv.title];
-      if (translation) {
-        return foundry.utils.mergeObject(adv, {
-          title: translation.title ?? adv.title,
-          hint: translation.hint ?? adv.hint,
-          configuration: {
-            identifier: adv.configuration?.identifier?.length > 0 ? adv.configuration.identifier : adv.title?.slugify()
-          }
-        });
+      // dnd5e 6 stores the advancement title in `name`; packs not yet migrated still use `title`.
+      const sourceTitle = adv.name || adv.title;
+      const translation = translations[adv._id] || translations[sourceTitle];
+      if (!translation) return adv;
+      // The translation files key the title as `name` (PHB/TCoE) or `title` (the rest).
+      // Skip copies of the English title so a stale untranslated key cannot mask the real one.
+      const title = [translation.name, translation.title].find(value => value && value !== sourceTitle);
+      if (title) adv[(!('name' in adv) && 'title' in adv) ? 'title' : 'name'] = title;
+      if (translation.hint) adv.hint = translation.hint;
+      adv.configuration ??= {};
+      if (!(adv.configuration.identifier?.length > 0) && sourceTitle) {
+        adv.configuration.identifier = sourceTitle.slugify();
       }
       return adv;
     };

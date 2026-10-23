@@ -1412,3 +1412,23 @@ Weblate 同步：PHB classes 23、dnd5e classes24 12 個字串（名稱、advanc
 | 原始英文 | 翻譯結果 |
 | :--- | :--- |
 | `DND5E.SchoolAbj`／`SchoolCon`／`SchoolDiv`／`SchoolEnc`／`SchoolEvo`／`SchoolIll`／`SchoolNec`／`SchoolTrs` | 防護學派／咒法學派／預言學派／惑控學派／塑能學派／幻術學派／死靈學派／變化學派（原「X系」；使用者裁定，與 PHB 現行寫法一致） |
+
+## 2026-10-21 遊俠子職業用字（Hunter's Prey／Superior Hunter's Defense）
+| 原始英文 | 翻譯結果 |
+| :--- | :--- |
+| `"HuntersPrey": "Hunter's Prey"` | `"HuntersPrey": "獵殺技藝"`（原「狩者獵物」；使用者裁定 Hunter's Prey＝獵殺技藝，Superior Hunter's Prey＝卓越獵殺技藝，子選項 Colossus Slayer／Horde Breaker＝巨像屠夫／滅族者；Weblate PHB classes 已以建議送出） |
+| `"SuperiorHuntersDefense": "Superior Hunter's Defense"` | `"SuperiorHuntersDefense": "卓越防守戰術"`（原「卓越獵人防禦」；使用者裁定 Superior Hunter's Defense＝卓越防守戰術） |
+
+## 2026-10-24 介面文字衝突修正
+
+dnd5e 6.0.6 組目標與範圍標籤時只傳 `{count}`、`{type}` 等變數；其他 zh-tw 模組（dnd5e-taiwan-zh-tw）載入較晚，會把以下條目蓋回舊譯或英文。lang 已修正，並由 `translation-overrides.js`（`dev/lang-tools/generate_translation_overrides.py` 產生，`register.js` 在 i18nInit 重套）保證生效。
+
+| 項目 | 修正 |
+| :--- | :--- |
+| `DND5E.TARGET.Formatted` | `"{count}個{type}"` → `"{count}{type}"`（量詞改放在名詞裡） |
+| `DND5E.TARGET.Type.*.Counted.one/other` | `"{number} 個生物"` → `"個生物"`（盟友 `名盟友`、敵人 `名敵人`、區域類為純名詞：球形、錐形…） |
+| `DND5E.TARGET.Count.Every` | `"所有"` → `"每"`（「每個生物」） |
+| `DND5E.AreaOfEffect.Description.SizeSimple` / `SizeType` | `"{number}-{unit}"` → `"{number}{unit}"`；`"{number}-{unit}-{type}"` → `"{type}{number}{unit}"`（20呎、長60呎） |
+| `DND5E.TARGET.Type.Sphere.Counted.*Sized` | `球型` → `球形` |
+| `DND5E.UNITS.DISTANCE.Foot／Mile.Counted` | 新增 `{number}呎`、`{number}哩`；`register.js` 於 init 設定 `movementUnits.ft／mi.counted`，取代 Intl 的「英尺」「英里」 |
+| 被舊譯覆蓋的 147 個條目 | 例：屬性值（Score）、非玩家角色（NPC）、先攻（Init）、長休／短休（LR／SR）、呎（ft.）、第N（Nth）、立方呎、噸、不死生物（亡靈）、傷害抗力、傳奇恩惠、X學派（X系）、乙太、半掩蔽、重傷等，一律以本模組 lang 為準 |
