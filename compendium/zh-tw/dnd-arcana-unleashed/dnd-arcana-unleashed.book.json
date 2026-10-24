@@ -111,10 +111,10 @@
           "caption": "Any hero can use magic to enhance their skills."
         },
         "Arcana Domain Subclass": {
-          "name": "Arcana Domain Subclass"
+          "name": "奧秘領域子職業"
         },
         "Arcane Archer Subclass": {
-          "name": "Arcane Archer Subclass"
+          "name": "魔射手子職業"
         },
         "Regal Arrow-Catching Shield": {
           "name": "Regal Arrow-Catching Shield",
@@ -389,7 +389,7 @@
           "name": "Venger"
         },
         "Vestige Patron Subclass": {
-          "name": "Vestige Patron Subclass"
+          "name": "契靈宗主子職業"
         },
         "War Wizard of Cormyr": {
           "name": "War Wizard of Cormyr",
@@ -399,7 +399,7 @@
           "name": "Ward of The Sheltering Hands"
         },
         "Warrior of The Mystic Arts Subclass": {
-          "name": "Warrior of The Mystic Arts Subclass"
+          "name": "祕術武者子職業"
         },
         "Ensorcelled Missive": {
           "name": "Ensorcelled Missive",
@@ -1120,23 +1120,23 @@
       }
     },
     "Subclasses": {
-      "name": "Subclasses",
+      "name": "子職業",
       "pages": {
         "Arcana Domain (Cleric)": {
-          "name": "Arcana Domain (Cleric)",
-          "description": "<p>@Embed[Compendium.dnd-arcana-unleashed.book.JournalEntry.aunArtHandoutsG2.JournalEntryPage.CuidH7gEuXldusCy classes=\"overlay-caption float-left size-three\" cite=false]</p><p class=\"metadata\">Amplify Your Magical Power</p><p>Magic suffuses the multiverse and fuels both destruction and creation. Clerics with the Arcana Domain view magical knowledge not as power to be used in pursuit of personal ends, but as a gift they have the responsibility to share.</p><p>Gods associated with the Arcana Domain know the secrets and potential of magic intimately. These gods are often connected to knowledge, secrecy, or power.</p><p class=\"as-letter\">Magic and the divine are naturally in harmony, like colors in a beautiful cosmic painting.</p>"
+          "name": "奧秘領域（牧師）",
+          "description": "<p>@Embed[Compendium.dnd-arcana-unleashed.book.JournalEntry.aunArtHandoutsG2.JournalEntryPage.CuidH7gEuXldusCy classes=\"overlay-caption float-left size-three\" cite=false]</p><p class=\"metadata\">增幅你的魔法之力</p><p>魔法充盈於整個多元宇宙之中，既帶來了毀滅，也帶來了創生。奧秘領域的牧師將魔法知識視作一件需要他們分享的禮物，而非用於攫取私利的工具。</p><p>與奧秘領域相關的神明對魔法的祕密與潛力有著深刻的理解。這些神明通常也與知識、祕密或力量有所聯繫。</p><p class=\"as-letter\">魔法與神力本就協調和睦，恰如一幅宇宙畫卷中的諸般色彩。</p>"
         },
         "Arcane Archer (Fighter)": {
-          "name": "Arcane Archer (Fighter)",
-          "description": "<p>@Embed[Compendium.dnd-arcana-unleashed.book.JournalEntry.aunArtHandoutsG2.JournalEntryPage.H9RTYR1M2bpknxjr classes=\"overlay-caption float-left size-four\" cite=false]</p><p class=\"metadata\">Deploy Magical Effects Through Enchanted Ammunition</p><p>An Arcane Archer studies a unique elven method of archery that weaves magic into attacks to produce supernatural effects. Over the centuries, other folk have learned this technique and broadened it so it applies to ranged weapons of many kinds and to aspects of adventuring life outside of combat.</p><p class=\"as-letter\">When Mystra guides your arrows, they seldom miss.</p>"
+          "name": "魔射手（戰士）",
+          "description": "<p>@Embed[Compendium.dnd-arcana-unleashed.book.JournalEntry.aunArtHandoutsG2.JournalEntryPage.H9RTYR1M2bpknxjr classes=\"overlay-caption float-left size-four\" cite=false]</p><p class=\"metadata\">以附魔之矢，施魔法之要</p><p>魔射手深研獨特的精靈箭術，將魔法融入箭擊，產生超自然效應。幾個世紀以來，其他種族也學會了這一箭技，並將其擴展到更多種類的遠程武器，同時也將箭技應用在戰鬥外的冒險之中。</p><p class=\"as-letter\">當密斯特拉指引你的箭矢時，這些箭矢極少失準。</p>"
         },
         "Warrior of the Mystic Arts (Monk)": {
-          "name": "Warrior of the Mystic Arts (Monk)",
-          "description": "<p>@Embed[Compendium.dnd-arcana-unleashed.book.JournalEntry.aunArtHandoutsG2.JournalEntryPage.Tb1OC4FTEDXbOE7V classes=\"overlay-caption float-left size-three\" cite=false]</p><p class=\"metadata\">Weave Martial and Mystic Arts</p><p>Warriors of the Mystic Arts wield magic to supplement their martial skill. They harness mystical focus to enhance their magical and physical abilities.</p><p class=\"as-letter\">Fists can be powerful. Magic makes them more so.</p>"
+          "name": "祕術武者（武僧）",
+          "description": "<p>@Embed[Compendium.dnd-arcana-unleashed.book.JournalEntry.aunArtHandoutsG2.JournalEntryPage.Tb1OC4FTEDXbOE7V classes=\"overlay-caption float-left size-three\" cite=false]</p><p class=\"metadata\">融匯武藝與祕術</p><p>祕術武者通過運用魔法來增強他們的武藝。他們駕馭著自己的超凡內力，來增強他們的魔法與身體能力。</p><p class=\"as-letter\">拳頭可以很強。魔法讓拳頭更強。</p>"
         },
         "Vestige Patron (Warlock)": {
-          "name": "Vestige Patron (Warlock)",
-          "description": "<p>@Embed[Compendium.dnd-arcana-unleashed.book.JournalEntry.aunArtHandoutsG2.JournalEntryPage.YCLKe0Lv63TTLmM3 classes=\"overlay-caption float-left size-three\" cite=false]</p><p class=\"metadata\">Wield the Remnants of a Dying God’s Power</p><p>Your pact draws on the power of a dying god, a being once worshipped by countless followers but now abandoned and forgotten. This dying god, known as a vestige, might have been benevolent, evil, or strange and unknowable, but now it is driven to regain its former power. The vestige needs your help, and it is willing to share its remaining strength with you.</p><p class=\"as-letter\">The multiverse is full of gods, though not all their names grace the halls of temples. Communing with a forgotten god’s benevolence is a noble pursuit.</p>"
+          "name": "契靈宗主（契術師）",
+          "description": "<p>@Embed[Compendium.dnd-arcana-unleashed.book.JournalEntry.aunArtHandoutsG2.JournalEntryPage.YCLKe0Lv63TTLmM3 classes=\"overlay-caption float-left size-three\" cite=false]</p><p class=\"metadata\">掌控垂死神祇的殘餘之力</p><p>你的契約汲取自一位垂死神祇的力量，這一存在曾受無數信徒膜拜，如今卻被拋棄、被遺忘。這位被稱之為契靈的垂死神祇，昔日或許仁慈，或許邪惡，亦或是詭異而不可名狀，但如今的祂只被重獲往昔之權柄的渴望所驅使。契靈需要你的協助。為此，祂願與你共享僅存的力量。</p><p class=\"as-letter\">多元宇宙中神祇無數，但並非所有神祇的名諱都能見諸神殿。感應一位被遺忘神祇的仁慈與恩澤，是一項崇高的追求。</p>"
         },
         "Conjurer (Wizard)": {
           "name": "Conjurer (Wizard)",
@@ -1155,12 +1155,12 @@
           "description": "<p>@Embed[Compendium.dnd-arcana-unleashed.book.JournalEntry.aunArtHandoutsG2.JournalEntryPage.QH36TqCLjz4xf1kl classes=\"overlay-caption float-left size-three\" cite=false]</p><p class=\"metadata\">Transform Energy and Matter</p><p>You study spells that modify energy and matter—to you, the world is eminently mutable. Using your magic, you become a smith at reality’s forge.</p><p>Some Transmuters are tinkerers and pranksters. Others seek the power to make and destroy worlds.</p><p class=\"as-letter\">Commune with the Weave, and the limitations of your corporeal form will begin to fall away.</p>"
         },
         "Subclasses": {
-          "name": "Subclasses",
+          "name": "子職業",
           "text": "<p>This chapter presents eight new subclasses that are particularly appropriate for characters in settings that emphasize magic:</p><p class=\"hanging\"><strong>Arcana Domain:</strong> A Cleric of a divine force who understands the secrets and potential of magic intimately</p><p class=\"hanging\"><strong>Arcane Archer:</strong> A Fighter who draws on a unique tradition of elven archery to weave magic into their attacks</p><p class=\"hanging\"><strong>Warrior of the Mystic Arts:</strong> A Monk who wields magic to supplement their martial skill</p><p class=\"hanging\"><strong>Vestige Patron:</strong> A Warlock who draws on the power of a dying god</p><p class=\"hanging\"><strong>Conjurer:</strong> A Wizard who has mastered the arts of teleportation and summoning spirit allies</p><p class=\"hanging\"><strong>Enchanter:</strong> A Wizard who has become an expert in clouding and captivating minds</p><p class=\"hanging\"><strong>Necromancer:</strong> A Wizard who can manipulate and draw magic from life, death, and undeath</p><p class=\"hanging\"><strong>Transmuter:</strong> A Wizard who has mastered modifying energy and matter</p><p class=\"as-letter\">Mystra’s gifts range from subtle to earthshakingly powerful. Infuse your day with a little magic or stop a mighty villain from causing suffering—or both. When you study magic, your options are unlimited.</p>"
         },
         "Arcane Shot Options": {
-          "name": "Arcane Shot Options",
-          "text": "<p>The Arcane Shot options are presented here in alphabetical order.</p><p>@Embed[Compendium.dnd-arcana-unleashed.subclasses.Item.aunBanishingShot nameStyle=\"h4\"] @Embed[Compendium.dnd-arcana-unleashed.subclasses.Item.aunBeguilingShot nameStyle=\"h4\"] @Embed[Compendium.dnd-arcana-unleashed.subclasses.Item.aunBurstingShot0 nameStyle=\"h4\"] @Embed[Compendium.dnd-arcana-unleashed.subclasses.Item.aunEnfeeblingSho nameStyle=\"h4\"] @Embed[Compendium.dnd-arcana-unleashed.subclasses.Item.aunGraspingShot0 nameStyle=\"h4\"] @Embed[Compendium.dnd-arcana-unleashed.subclasses.Item.aunPiercingShot0 nameStyle=\"h4\"] @Embed[Compendium.dnd-arcana-unleashed.subclasses.Item.aunSeekingShot00 nameStyle=\"h4\"] @Embed[Compendium.dnd-arcana-unleashed.subclasses.Item.aunShadowShot000 nameStyle=\"h4\"]</p>"
+          "name": "奧術射擊選項",
+          "text": "<p>下列奧術射擊選項依英文字母順序排列。</p><p>@Embed[Compendium.dnd-arcana-unleashed.subclasses.Item.aunBanishingShot nameStyle=\"h4\"] @Embed[Compendium.dnd-arcana-unleashed.subclasses.Item.aunBeguilingShot nameStyle=\"h4\"] @Embed[Compendium.dnd-arcana-unleashed.subclasses.Item.aunBurstingShot0 nameStyle=\"h4\"] @Embed[Compendium.dnd-arcana-unleashed.subclasses.Item.aunEnfeeblingSho nameStyle=\"h4\"] @Embed[Compendium.dnd-arcana-unleashed.subclasses.Item.aunGraspingShot0 nameStyle=\"h4\"] @Embed[Compendium.dnd-arcana-unleashed.subclasses.Item.aunPiercingShot0 nameStyle=\"h4\"] @Embed[Compendium.dnd-arcana-unleashed.subclasses.Item.aunSeekingShot00 nameStyle=\"h4\"] @Embed[Compendium.dnd-arcana-unleashed.subclasses.Item.aunShadowShot000 nameStyle=\"h4\"]</p>"
         }
       }
     },
