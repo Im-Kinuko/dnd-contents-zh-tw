@@ -2969,24 +2969,24 @@
     "Celestial Vestige Companion": {
       "items": {
         "Divine Power": {
-          "name": "Divine Power",
+          "name": "神聖之力",
           "activities": {
             "Healing Touch": {
-              "name": "Healing Touch"
+              "name": "治癒之觸"
             }
           },
-          "description": "<p>Your vestige manifests a remnant of its divine power in one of the following ways, based on its form:</p><p><strong>Healing Touch (Celestial Only).</strong> The vestige touches another creature. The target regains Hit Points equal to 2d8 plus your Charisma modifier and ends one condition on it: Blinded, Deafened, or Poisoned.</p>"
+          "description": "<p>契靈根據其形態，顯化其神力殘餘，產生下列效應之一：</p><p><strong>【治癒之觸（僅天界生物）】</strong>契靈觸碰另一個生物。目標恢復等同於2d8 + 你魅力調整值的生命值，並終止其身上的下列一種狀態：目盲、耳聾、中毒。</p>"
         },
         "Vestige's Strike": {
-          "description": "<p>[[/attack extended]]. <em>Hit:</em> 1d6 + 3 plus your Charisma modifier Radiant damage.</p>",
-          "name": "Vestige's Strike"
+          "description": "<p>[[/attack extended]]。<em>命中：</em>1d6 + 3 + 你魅力調整值的光耀傷害。</p>",
+          "name": "契靈打擊"
         },
         "Pact Bond": {
-          "description": "<p>Add your Proficiency Bonus to any ability check or saving throw the vestige makes.</p>",
-          "name": "Pact Bond"
+          "description": "<p>將你的熟練加值加到契靈所進行的任何屬性檢定或豁免檢定中。</p>",
+          "name": "契約連結"
         }
       },
-      "name": "Celestial Vestige Companion"
+      "name": "天界契靈夥伴"
     },
     "Groundling Slayer": {
       "items": {
@@ -3089,41 +3089,41 @@
     "Vestige Companion": {
       "items": {
         "Divine Power": {
-          "description": "<p>Your vestige manifests a remnant of its divine power in one of the following ways, based on its form:</p><p><strong>Cursed Invocation (Undead Only).</strong> The vestige places a curse on a creature you can see within 30 feet of the vestige for 1 minute. While cursed, the target has Disadvantage on attack rolls against you and the vestige.</p><p><strong>Fiendish Swap (Fiend Only).</strong> If you and the vestige are within 60 feet of each other, you both teleport, swapping places.</p><p><strong>Healing Touch (Celestial Only).</strong> The vestige touches another creature. The target regains Hit Points equal to 2d8 plus your Charisma modifier and ends one condition on it: Blinded, Deafened, or Poisoned.</p>",
-          "name": "Divine Power",
+          "description": "<p>契靈根據其形態，顯化其神力殘餘，產生下列效應之一：</p><p><strong>【詛咒祈喚（僅不死生物）】</strong>契靈對位於其30呎範圍內一個你所能看見的生物施加詛咒，持續1分鐘。被詛咒期間，該目標對你和該契靈進行的攻擊檢定具有劣勢。</p><p><strong>【邪魔易位（僅邪魔）】</strong>若你和契靈彼此相距60呎內，你們同時傳送，交換位置。</p><p><strong>【治癒之觸（僅天界生物）】</strong>契靈觸碰另一個生物。目標恢復等同於2d8 + 你魅力調整值的生命值，並終止其身上的下列一種狀態：目盲、耳聾、中毒。</p>",
+          "name": "神聖之力",
           "effects": {
             "Cursed": {
-              "name": "Cursed",
-              "description": "<p>The target has Disadvantage on attack rolls against you and the vestige.</p>"
+              "name": "受詛咒",
+              "description": "<p>該目標對你和該契靈進行的攻擊檢定具有劣勢。</p>"
             }
           },
           "activities": {
             "Healing Touch": {
-              "name": "Healing Touch"
+              "name": "治癒之觸"
             },
             "Fiendish Swap": {
-              "name": "Fiendish Swap"
+              "name": "邪魔易位"
             },
             "Cursed Invocation": {
-              "name": "Cursed Invocation"
+              "name": "詛咒祈喚"
             }
           }
         },
         "Vestige's Strike": {
-          "description": "<p>[[/attack extended]].</p><p><em>Hit:</em> 1d6 + 3 plus your Charisma modifier Fire (Fiend), Necrotic (Undead), or Radiant (Celestial) damage.</p>",
-          "name": "Vestige's Strike"
+          "description": "<p>[[/attack extended]]。</p><p><em>命中：</em>1d6 + 3 + 你魅力調整值的火焰（邪魔）、黯蝕（不死生物）、光耀（天界生物）傷害。</p>",
+          "name": "契靈打擊"
         },
         "Pact Bond": {
           "effects": {
             "Pact Bond": {
-              "name": "Pact Bond"
+              "name": "契約連結"
             }
           },
-          "description": "<p>Add your Proficiency Bonus to any ability check or saving throw the vestige makes.</p>",
-          "name": "Pact Bond"
+          "description": "<p>將你的熟練加值加到契靈所進行的任何屬性檢定或豁免檢定中。</p>",
+          "name": "契約連結"
         }
       },
-      "name": "Vestige Companion"
+      "name": "契靈夥伴"
     },
     "Spirit Tree": {
       "items": {
@@ -3150,62 +3150,62 @@
     "Fiendish Vestige Companion": {
       "items": {
         "Divine Power": {
-          "name": "Divine Power",
-          "description": "<p>Your vestige manifests a remnant of its divine power in one of the following ways, based on its form:</p><p><strong>Fiendish Swap (Fiend Only).</strong> If you and the vestige are within 60 feet of each other, you both teleport, swapping places.</p>",
+          "name": "神聖之力",
+          "description": "<p>契靈根據其形態，顯化其神力殘餘，產生下列效應之一：</p><p><strong>【邪魔易位（僅邪魔）】</strong>若你和契靈彼此相距60呎內，你們同時傳送，交換位置。</p>",
           "activities": {
             "Fiendish Swap": {
-              "name": "Fiendish Swap"
+              "name": "邪魔易位"
             }
           }
         },
         "Pact Bond": {
-          "description": "<p>Add your Proficiency Bonus to any ability check or saving throw the vestige makes.</p>",
-          "name": "Pact Bond",
+          "description": "<p>將你的熟練加值加到契靈所進行的任何屬性檢定或豁免檢定中。</p>",
+          "name": "契約連結",
           "effects": {
             "Pact Bond": {
-              "name": "Pact Bond"
+              "name": "契約連結"
             }
           }
         },
         "Vestige's Strike": {
-          "name": "Vestige's Strike",
-          "description": "<p>[[/attack extended]]. <em>Hit:</em> 1d6 + 3 plus your Charisma modifier Fire damage.</p>"
+          "name": "契靈打擊",
+          "description": "<p>[[/attack extended]]。<em>命中：</em>1d6 + 3 + 你魅力調整值的火焰傷害。</p>"
         }
       },
-      "name": "Fiendish Vestige Companion"
+      "name": "邪魔契靈夥伴"
     },
     "Undead Vestige Companion": {
       "items": {
         "Pact Bond": {
-          "description": "<p>Add your Proficiency Bonus to any ability check or saving throw the vestige makes.</p>",
-          "name": "Pact Bond",
+          "description": "<p>將你的熟練加值加到契靈所進行的任何屬性檢定或豁免檢定中。</p>",
+          "name": "契約連結",
           "effects": {
             "Pact Bond": {
-              "name": "Pact Bond"
+              "name": "契約連結"
             }
           }
         },
         "Divine Power": {
-          "description": "<p>Your vestige manifests a remnant of its divine power in one of the following ways, based on its form:</p><p><strong>Cursed Invocation (Undead Only).</strong> The vestige places a curse on a creature you can see within 30 feet of the vestige for 1 minute. While cursed, the target has Disadvantage on attack rolls against you and the vestige.</p>",
-          "name": "Divine Power",
+          "description": "<p>契靈根據其形態，顯化其神力殘餘，產生下列效應之一：</p><p><strong>【詛咒祈喚（僅不死生物）】</strong>契靈對位於其30呎範圍內一個你所能看見的生物施加詛咒，持續1分鐘。被詛咒期間，該目標對你和該契靈進行的攻擊檢定具有劣勢。</p>",
+          "name": "神聖之力",
           "effects": {
             "Cursed": {
-              "name": "Cursed",
-              "description": "<p>While cursed, the target has Disadvantage on attack rolls against you and the vestige.</p>"
+              "name": "受詛咒",
+              "description": "<p>被詛咒期間，該目標對你和該契靈進行的攻擊檢定具有劣勢。</p>"
             }
           },
           "activities": {
             "Cursed Invocation": {
-              "name": "Cursed Invocation"
+              "name": "詛咒祈喚"
             }
           }
         },
         "Vestige's Strike": {
-          "description": "<p>[[/attack extended]]. <em>Hit:</em> 1d6 + 3 plus your Charisma modifier Necrotic damage.</p>",
-          "name": "Vestige's Strike"
+          "description": "<p>[[/attack extended]]。<em>命中：</em>1d6 + 3 + 你魅力調整值的黯蝕傷害。</p>",
+          "name": "契靈打擊"
         }
       },
-      "name": "Undead Vestige Companion"
+      "name": "不死契靈夥伴"
     },
     "Living Thunderwave": {
       "items": {
