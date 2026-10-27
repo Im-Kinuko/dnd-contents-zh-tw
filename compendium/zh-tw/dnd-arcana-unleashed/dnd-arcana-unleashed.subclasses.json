@@ -170,11 +170,11 @@
     "Ever-Ready Shot": {
       "advancement": {
         "UMD7ZTUmkPj4n9L2": {
-          "hint": "<p>This advancement modifies Arcane Shot to automatically recover a use when you roll for initiative.</p>"
+          "hint": "<p>此升級項目會修改奧術射擊，使你在擲先攻時自動重獲一次使用次數。</p>"
         }
       },
-      "description": "<p>When you roll Initiative, you can regain one expended use of Arcane Shot.</p>",
-      "name": "Ever-Ready Shot"
+      "description": "<p>當你擲先攻時，你可以重獲一次已消耗的奧術射擊使用次數。</p>",
+      "name": "有箭無患"
     },
     "Necromancy Savant": {
       "name": "Necromancy Savant",
@@ -197,28 +197,28 @@
     "Semblance of Life": {
       "activities": {
         "Summon Celestial": {
-          "name": "Summon Celestial"
+          "name": "天界生物召喚術"
         },
         "Summon Fiend": {
           "profiles": {
             "Demon": {
-              "name": "Demon"
+              "name": "惡魔"
             },
             "Devil": {
-              "name": "Devil"
+              "name": "魔鬼"
             },
             "Yugoloth": {
-              "name": "Yugoloth"
+              "name": "尤格羅斯"
             }
           },
-          "name": "Summon Fiend"
+          "name": "邪魔召喚術"
         },
         "Summon Undead": {
-          "name": "Summon Undead"
+          "name": "不死生物召喚術"
         }
       },
-      "name": "Semblance of Life",
-      "description": "<p>Your Vestige Companion continues to grow in strength, and with your assistance, it can briefly adopt a more powerful form. Depending on the vestige’s type, you can take a Magic action while the vestige is within 90 feet of you to shape-shift it for 1 hour into one of the following forms: <strong>Celestial Spirit</strong> (Celestial vestige; see the <em>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplSummonCele]{Summon Celestial}</em> spell in the <em>Player’s Handbook</em>), <strong>Fiendish Spirit</strong> (Fiend vestige; see the <em>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplSummonFien]{Summon Fiend}</em> spell in the <em>Player’s Handbook</em>), or <strong>Undead Spirit</strong> (Undead vestige; see the <em>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplSummonUnde]{Summon Undead}</em> spell in the <em>Player’s Handbook</em>). The vestige’s game statistics are replaced by the spirit’s stat block, and the spell’s level is equal to half your Warlock level (round down; maximum level 9), but the vestige retains its personality, Divine Power Bonus Action, Hit Points, and Hit Point Dice.</p><p>The vestige gains a number of Temporary Hit Points equal to the Hit Points of the spirit form. These Temporary Hit Points vanish if any remain after 1 hour, and the transformation ends early if it has no Temporary Hit Points left.</p><p>Once you use this feature, you can’t do so again until you finish a Long Rest.</p><section id=\"secret-GxwxdxU1Jup55ZMI\" class=\"secret\"><p><strong>Foundry Note</strong></p><p>Use the relevant summon activity for the creature you would like transform your Vestige Companion into so that it will be scaled to your level. Then, drag the actor onto your Vestige's character sheet to transform it.</p></section>"
+      "name": "擬態生命",
+      "description": "<p>你的契靈夥伴的力量不斷成長，愈發強大。借助你的力量，其能夠短暫化作更加強大的形態。根據契靈的類型，當契靈位於你90呎內時，你可以採取魔法動作使其變形，持續1小時，變為下列形態之一：<strong>天界靈魄</strong>（天界生物契靈；見<em>《玩家手冊》</em>中的法術<em>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplSummonCele]{天界生物召喚術}</em>）、<strong>邪魔靈魄</strong>（邪魔契靈；見<em>《玩家手冊》</em>中的法術<em>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplSummonFien]{邪魔召喚術}</em>），或<strong>不死靈魄</strong>（不死生物契靈；見<em>《玩家手冊》</em>中的法術<em>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplSummonUnde]{不死生物召喚術}</em>）。該契靈的遊戲數據會被靈魄的數值面板所替換，並且該法術的環階等同於你契術師等級的一半（向下取整；最高9環），但該契靈保留其自身的人格、神聖之力附贈動作、生命值以及生命骰。</p><p>契靈夥伴獲得等同於該靈魄形態生命值的臨時生命值。若這些臨時生命值在1小時後仍有剩餘，便會消失；並且若該契靈的臨時生命值耗盡，此變形將提前結束。</p><p>此特性一經使用，直到完成長休前你無法再次使用。</p><section id=\"secret-GxwxdxU1Jup55ZMI\" class=\"secret\"><p><strong>Foundry 註記</strong></p><p>請使用想讓你的契靈夥伴變形成的生物所對應的召喚行動，使其依你的等級縮放，然後將該角色拖放到你的契靈的角色卡上，以進行變形。</p></section>"
     },
     "Enchanting Conversation (Deception)": {
       "name": "Enchanting Conversation (Deception)",
@@ -256,16 +256,16 @@
       "name": "Benign Transposition"
     },
     "Curving Shot": {
-      "name": "Curving Shot",
-      "description": "<p>You learn how to direct an errant shot toward a new target. If you make a ranged attack roll with a weapon with the Ammunition property and miss, you can cause the shot to ricochet toward a new target as a Bonus Action immediately after the attack misses. The new target must be a creature you can see within the weapon’s range and within 60 feet of the attack’s original target. Make an attack roll against the new target.</p>"
+      "name": "曲線射擊",
+      "description": "<p>你習得如何將偏離的彈藥引向新的目標。若你使用具有彈藥屬性的武器進行遠程攻擊檢定時失手，則你可以作為附贈動作，緊接在攻擊失手後使該次射擊偏折向一名新的目標。這個新目標必須位於武器射程內，且位於該次攻擊原目標60呎內的一名你所能看見的生物。對新目標進行一次攻擊檢定。</p>"
     },
     "Focused Strike": {
-      "name": "Focused Strike",
-      "description": "<p>When you use your Stunning Strike, whether the target succeeds or fails on the saving throw, the target has Disadvantage on saving throws against your spells until the start of your next turn.</p>",
+      "name": "凝神擊",
+      "description": "<p>當你使用震懾拳時，無論目標豁免檢定成功與否，目標在對抗你法術的豁免檢定上具有劣勢，直到你的下個回合開始。</p>",
       "activities": {
         "Focused Strike": {
-          "condition": "When you use your Stunning Strike",
-          "name": "Focused Strike"
+          "condition": "當你使用震懾拳時",
+          "name": "凝神擊"
         }
       }
     },
@@ -281,17 +281,17 @@
     "Grasping Shot": {
       "effects": {
         "Grasping Shot": {
-          "name": "Grasping Shot",
-          "description": "<p>The target has the &amp;Reference[Restrained apply=false] condition for 1 minute or until you use this option again. The target or a creature within reach of it can take an action to make a Strength (Athletics) check against your Arcane Shot saving throw DC, removing the brambles and ending the Restrained condition on the target on a successful check.</p>"
+          "name": "纏繞彈",
+          "description": "<p>目標陷入&amp;Reference[Restrained apply=false]{束縛}狀態，持續1分鐘，或直到你再次使用此選項。目標或其觸及範圍內的一個生物可以採取動作，進行一次力量（運動）檢定，對抗你的奧術射擊豁免檢定DC；檢定成功時，荊棘被移除並結束目標的束縛狀態。</p>"
         }
       },
       "activities": {
         "Escape Check": {
-          "name": "Escape Check"
+          "name": "掙脫檢定"
         }
       },
-      "name": "Grasping Shot",
-      "description": "<p>Your ammunition creates clutching brambles around your target. The creature you hit takes extra Slashing damage equal to one roll of your Arcane Shot Die and must succeed on a Strength saving throw or have the &amp;Reference[Restrained apply=false] condition for 1 minute or until you use this option again. The target or a creature within reach of it can take an action to make a Strength (Athletics) check against your Arcane Shot saving throw DC, removing the brambles and ending the Restrained condition on the target on a successful check.</p>"
+      "name": "纏繞彈",
+      "description": "<p>你的彈藥在目標周圍創造出糾纏的荊棘。你命中的生物額外承受等同於一枚奧術射擊骰的揮砍傷害，且必須成功通過一次力量豁免檢定，否則陷入&amp;Reference[Restrained apply=false]{束縛}狀態，持續1分鐘，或直到你再次使用此選項。目標或其觸及範圍內的一個生物可以採取動作，進行一次力量（運動）檢定，對抗你的奧術射擊豁免檢定DC；檢定成功時，荊棘被移除並結束目標的束縛狀態。</p>"
     },
     "Modify Magic": {
       "name": "調整魔法",
@@ -309,40 +309,40 @@
     "Mystic Focus": {
       "activities": {
         "Focus Points to Spell Slots": {
-          "condition": "When you finish a Short Rest or use Uncanny Metabolism",
-          "name": "Focus Points to Spell Slots"
+          "condition": "當你完成短休或使用周天運轉時",
+          "name": "內力點轉換為法術位"
         },
         "9Lsz1JvFAbp4mZSM": {
-          "name": "Focus Points to Spell Slots",
-          "condition": "When you finish a Short Rest or use Uncanny Metabolism"
+          "name": "內力點轉換為法術位",
+          "condition": "當你完成短休或使用周天運轉時"
         },
         "Spell Slot to Focus Points": {
-          "name": "Spell Slot to Focus Points",
-          "condition": "When you finish a Short Rest or use Uncanny Metabolism"
+          "name": "法術位轉換為內力點",
+          "condition": "當你完成短休或使用周天運轉時"
         },
         "8FmJJxmbEcWBDrkP": {
-          "condition": "When you finish a Short Rest or use Uncanny Metabolism",
-          "name": "Spell Slot to Focus Points"
+          "condition": "當你完成短休或使用周天運轉時",
+          "name": "法術位轉換為內力點"
         },
         "kejiMdIfeakli8Pj": {
-          "condition": "When you finish a Short Rest or use Uncanny Metabolism",
-          "name": "Spell Slot to Focus Points"
+          "condition": "當你完成短休或使用周天運轉時",
+          "name": "法術位轉換為內力點"
         },
         "oRhnEpnZSoWr3sVZ": {
-          "name": "Focus Points to Spell Slots",
-          "condition": "When you finish a Short Rest or use Uncanny Metabolism"
+          "name": "內力點轉換為法術位",
+          "condition": "當你完成短休或使用周天運轉時"
         },
         "RyhhF5c8eTk1LUZ1": {
-          "name": "Focus Points to Spell Slots",
-          "condition": "When you finish a Short Rest or use Uncanny Metabolism"
+          "name": "內力點轉換為法術位",
+          "condition": "當你完成短休或使用周天運轉時"
         },
         "yOMpjrTwhl0K4rL3": {
-          "name": "Spell Slot to Focus Points",
-          "condition": "When you finish a Short Rest or use Uncanny Metabolism"
+          "name": "法術位轉換為內力點",
+          "condition": "當你完成短休或使用周天運轉時"
         }
       },
-      "description": "<p>You keep your magical power and martial focus in perfect balance, allowing you to convert spell slots into Focus Points, or convert Focus Points into spell slots.</p><p><span class=\"inline-h4\"><em><strong>Converting Spell Slots to Focus Points.</strong></em></span> You can expend a spell slot to regain a number of expended Focus Points equal to the slot’s level (no action required).</p><p><span class=\"inline-h4\"><em><strong>Recovering Spell Slots.</strong></em></span> When you finish a Short Rest or use Uncanny Metabolism, you can transform unexpended Focus Points to recover one expended spell slot. The Recovering Spell Slots table shows the cost of recovering a spell slot of a given level, and it lists the minimum Monk level you must be to recover a slot. You can recover a spell slot no higher than level 4.</p><table><caption><p>Recovering Spell Slots</p></caption><thead><tr><th scope=\"col\"><p>Spell Slot Level</p></th><th scope=\"col\"><p>Focus Point Cost</p></th><th scope=\"col\"><p>Min. Monk Level</p></th></tr></thead><tbody><tr><td><p>1</p></td><td><p>2</p></td><td><p>6</p></td></tr><tr><td><p>2</p></td><td><p>3</p></td><td><p>7</p></td></tr><tr><td><p>3</p></td><td><p>5</p></td><td><p>13</p></td></tr><tr><td><p>4</p></td><td><p>6</p></td><td><p>19</p></td></tr></tbody></table><section id=\"secret-iSKyD79i1QyCMLss\" class=\"secret hide-in-embed\"><p><strong>Foundry Note</strong></p><p>Use Focus Points to Spell Slots only after finishing a Short Rest or when you use Uncanny Metabolism.</p></section>",
-      "name": "Mystic Focus"
+      "description": "<p>你使自己的魔力與武道內力保持著完美平衡，使得你能夠將法術位轉換為內力點，或將內力點轉換為法術位。</p><p><span class=\"inline-h4\"><em><strong>【法術位轉換為內力點】</strong></em></span>你可以消耗一個法術位，恢復等同於該法術位環階數量的已消耗內力點（無需動作）。</p><p><span class=\"inline-h4\"><em><strong>【恢復法術位】</strong></em></span>當你完成短休或使用周天運轉時，你可以轉換未消耗的內力點來恢復一個已消耗的法術位。恢復法術位表列出了恢復特定環階法術位的消耗，並列出了恢復該法術位所需的最低武僧等級。你最高只能恢復4環法術位。</p><table><caption><p>恢復法術位</p></caption><thead><tr><th scope=\"col\"><p>法術位環階</p></th><th scope=\"col\"><p>內力點消耗</p></th><th scope=\"col\"><p>最低武僧等級</p></th></tr></thead><tbody><tr><td><p>1</p></td><td><p>2</p></td><td><p>6</p></td></tr><tr><td><p>2</p></td><td><p>3</p></td><td><p>7</p></td></tr><tr><td><p>3</p></td><td><p>5</p></td><td><p>13</p></td></tr><tr><td><p>4</p></td><td><p>6</p></td><td><p>19</p></td></tr></tbody></table><section id=\"secret-iSKyD79i1QyCMLss\" class=\"secret hide-in-embed\"><p><strong>Foundry 註記</strong></p><p>只有在完成短休或使用周天運轉後，才使用內力點轉換法術位。</p></section>",
+      "name": "祕法內功"
     },
     "Transmuter Stone": {
       "name": "Transmuter Stone",
@@ -387,8 +387,8 @@
       "name": "Enchantment Savant"
     },
     "Vestige Spells (War)": {
-      "name": "Vestige Spells (War)",
-      "description": "<p>The magic of your Vestige Companion ensures you always have certain spells ready. Select one of the following Cleric domains: Life, Light, Trickery, or War. The Domain Spells of your chosen domain are Warlock spells for you. When you reach a Warlock level equal to a Cleric level listed on the Domain Spells table for the domain you have chosen, you thereafter always have the listed spells prepared.</p><p>For example, if you chose the War Domain for this feature, when you reach Warlock level 3, you would have the <em>@UUID[Compendium.dnd5e.spells24.Item.phbsplGuidingBol]{Guiding Bolt}</em>, <em>@UUID[Compendium.dnd5e.spells24.Item.phbsplMagicWeapo]{Magic Weapon}</em>, <em>@UUID[Compendium.dnd5e.spells24.Item.phbsplShieldofFa]{Shield of Faith}</em>, and <em>@UUID[Compendium.dnd5e.spells24.Item.phbsplSpiritualW]{Spiritual Weapon}</em> spells prepared.</p>"
+      "name": "契靈法術（戰爭）",
+      "description": "<p>契靈夥伴的魔法確保你始終準備著特定的法術。從下列牧師領域中選擇其一：生命、光明、詭術或戰爭。你所選領域的領域法術對你而言視為契術師法術。當你到達的契術師等級等同於你所選領域的領域法術表中所列的牧師等級時，你此後始終準備著所列的法術。</p><p>例如，若你為此特性選擇了戰爭領域，當你到達契術師3級時，你便準備了法術<em>@UUID[Compendium.dnd5e.spells24.Item.phbsplGuidingBol]{光導箭}</em>、<em>@UUID[Compendium.dnd5e.spells24.Item.phbsplMagicWeapo]{魔化武器}</em>、<em>@UUID[Compendium.dnd5e.spells24.Item.phbsplShieldofFa]{虔誠護盾}</em>與<em>@UUID[Compendium.dnd5e.spells24.Item.phbsplSpiritualW]{靈體武器}</em>。</p>"
     },
     "Enchanting Conversation": {
       "description": "<p>You gain proficiency in one of the following skills of your choice: Deception, Intimidation, or Persuasion.</p><p>In addition, when you make an ability check with the chosen skill, you gain a bonus to the check equal to your Intelligence modifier (minimum of +1).</p>",
@@ -453,14 +453,14 @@
       "name": "契靈夥伴",
       "activities": {
         "Vestige Companion": {
-          "name": "Vestige Companion"
+          "name": "契靈夥伴"
         }
       },
-      "description": "<p>The vestige manifests, drawing strength from your pact. It uses the <strong>Vestige Companion</strong> stat block and is a @UUID[Compendium.dnd-arcana-unleashed.actors.Actor.aunCelestialVest]{Celestial}, @UUID[Compendium.dnd-arcana-unleashed.actors.Actor.aunFiendishVesti]{Fiend}, or @UUID[Compendium.dnd-arcana-unleashed.actors.Actor.aunUndeadVestige]{Undead} (choose when you gain this feature). You determine what the vestige looks like, but regardless of its form, the vestige bears features indicating its supernatural origin. For example, you might decide your vestige is an oversized floating skull etched with sigils, a circle of glowing runes, or a constantly shifting abstract shape. The vestige is Friendly to you and your allies and obeys your commands. It vanishes if you die.</p><p><span class=\"inline-h4\"><em><strong>The Vestige in Combat.</strong></em></span> In combat, the vestige acts during your turn. It can move and use its Reaction on its own, but the only action it takes is the Dodge action unless you take a Bonus Action to command it to take an action in its stat block or some other action. You can also sacrifice one of your attacks when you take the Attack action to command the vestige to take the Vestige’s Strike action. If you have the &amp;Reference[Incapacitated apply=false] condition, the vestige acts on its own and isn’t limited to the Dodge action.</p><p><span class=\"inline-h4\"><em><strong>Disappearance of the Vestige.</strong></em></span> When the vestige drops to 0 Hit Points, it disappears. You can spend 1 minute performing a magical ceremony to manifest the vestige again; it reappears with its maximum Hit Points in an unoccupied space within 5 feet of you. As a Magic action, you can temporarily dismiss the vestige to a pocket dimension. As a Magic action while it is temporarily dismissed, you can cause the vestige to reappear in an unoccupied space within 30 feet of you. Whenever the vestige drops to 0 Hit Points or disappears into the pocket dimension, it leaves behind in its space anything it was wearing or carrying.</p><p>Whenever you finish a Long Rest, you can summon the vestige in a new form, which appears in an unoccupied space within 5 feet of you. You choose its appearance and whether it is a Celestial, Fiend, or Undead. If the vestige is already manifested from this feature, its form changes to the new one.</p><p>@Embed[Compendium.dnd-arcana-unleashed.actors.Actor.audVestigeCompan caption=false cite=true statblock]</p>"
+      "description": "<p>契靈顯化成形，從你的契約中汲取力量。其使用<strong>契靈夥伴</strong>數值面板，生物類型為@UUID[Compendium.dnd-arcana-unleashed.actors.Actor.aunCelestialVest]{天界生物}、@UUID[Compendium.dnd-arcana-unleashed.actors.Actor.aunFiendishVesti]{邪魔}或@UUID[Compendium.dnd-arcana-unleashed.actors.Actor.aunUndeadVestige]{不死生物}（當你獲得此特性時選擇）。由你決定契靈的外觀，但無論其形態如何，契靈都帶有彰顯其超自然起源的特徵。例如，你可以設定你的契靈是一顆銘刻著符印的特大型浮游顱骨、一圈發光的符文，或是一個不斷變幻的抽象形體。契靈對你和你的盟友態度友善，並服從你的命令。若你死亡，其也會隨之消失。</p><p><span class=\"inline-h4\"><em><strong>【戰鬥中的契靈】</strong></em></span>在戰鬥中，契靈在你的回合內行動。其可以自主移動並使用其反應，但除非你採取附贈動作指揮其採取其數值面板中的動作或其他動作，否則其只會採取迴避動作。當你採取攻擊動作時，你也可以放棄其中一次攻擊，轉而指揮契靈採取契靈打擊動作。若你陷入&amp;Reference[Incapacitated apply=false]{失能}狀態，契靈將自行行動，且不再受限於僅能採取迴避動作。</p><p><span class=\"inline-h4\"><em><strong>【契靈的消逝】</strong></em></span>當契靈的生命值降至0時，其會消失。你可以花費1分鐘進行某種魔法儀式再次顯化契靈，其會以生命值全滿的狀態重新出現在你5呎內的一處未佔據空間。你能以魔法動作將契靈暫時遣散至一處口袋維度。在其被暫時遣散期間，你能以魔法動作讓契靈重新出現在你30呎內的一處未佔據空間。無論契靈是因生命值降至0，還是因進入口袋維度而消失，其都會將其穿戴或攜帶的任何物品留在其原本所在的空間內。</p><p>每當你完成長休時，你可以以新的形態召喚契靈，其出現在你5呎內的一處未佔據空間。由你選擇其外觀，並決定其是天界生物、邪魔還是不死生物。若契靈已通過此特性顯化，其形態將轉變為新的樣子。</p><p>@Embed[Compendium.dnd-arcana-unleashed.actors.Actor.audVestigeCompan caption=false cite=true statblock]</p>"
     },
     "Vestige Power": {
-      "name": "Vestige Power",
-      "description": "<p>Your Vestige Companion now regains its use of Divine Power whenever you finish a Short or Long Rest or when you use your Magical Cunning feature. In addition, while within 30 feet of your Vestige Companion, you have Resistance to the same damage types as the vestige.</p><section id=\"secret-CxYREKXuRmiApzSY\" class=\"secret hide-in-embed\"><p><strong>Foundry Notes</strong></p><p>After a qualifying rest or use of Magical Cunning, manually reset the manifested vestige's Divine Power to 1 use on its sheet. The Warlock's matching damage resistance is not automated; adjudicate that resistance manually while it is in effect.</p></section>"
+      "name": "契靈神威",
+      "description": "<p>現在，每當你完成一次短休或長休，或使用你的祕法回流特性時，你的契靈夥伴都會重獲其神聖之力的使用次數。此外，當你位於契靈夥伴30呎內時，你獲得與該契靈相同的傷害抗力。</p><section id=\"secret-CxYREKXuRmiApzSY\" class=\"secret hide-in-embed\"><p><strong>Foundry 註記</strong></p><p>在符合條件的休息或使用祕法回流後，請在已顯化契靈的角色卡上，手動將其神聖之力重置為1次使用。契術師所獲得的對應傷害抗力不會自動套用；請在其生效期間手動裁定該抗力。</p></section>"
     },
     "Necromancer": {
       "name": "Necromancer",
@@ -532,14 +532,14 @@
     "Spellcasting": {
       "advancement": {
         "Z2ms9KKLMRagWNna": {
-          "hint": "<p>You prepare the list of level 1+ spells that are available for you to cast with this feature. To start, choose three level 1 spells from the Sorcerer spell list. <em>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplJump000000]{Jump}</em>, <em>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplMagicMissi]{Magic Missile}</em>, and <em>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplShield0000]{Shield}</em> are recommended.</p>"
+          "hint": "<p>你準備可供你以此特性施放的1環以上法術的列表。起始時，從術士法術列表中選擇三道1環法術。推薦選擇<em>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplJump000000]{跳躍術}</em>、<em>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplMagicMissi]{魔法飛彈}</em>與<em>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplShield0000]{護盾術}</em>。</p>"
         },
         "KWXlpdXeV6uSKQmi": {
-          "hint": "<p>You know two cantrips of your choice from the Sorcerer spell list. <em>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplBladeWard0]{Blade Ward}</em> and <em>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplThundercla]{Thunderclap}</em> are recommended. Whenever you gain a Monk level, you can replace one of these cantrips with another cantrip of your choice from the Sorcerer spell list.</p><p>When you reach Monk level 10, you learn another Sorcerer cantrip of your choice.</p>"
+          "hint": "<p>你從術士法術列表中選擇並習得兩道戲法。推薦選擇<em>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplBladeWard0]{劍刃防護}</em>與<em>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplThundercla]{鳴雷破}</em>。每當你獲得一個武僧等級時，你可以將這些戲法中的一道替換為另一道你從術士法術列表中選擇的戲法。</p><p>當你的武僧等級到達10級時，你習得另一道由你選擇的術士戲法。</p>"
         }
       },
-      "description": "<p>You have learned to cast spells. See the <em>Player’s Handbook</em> for the rules on spellcasting. The information below details how you use those rules as a Warrior of the Mystic Arts.</p><p><span class=\"inline-h4\"><em><strong>Cantrips.</strong></em></span> You know two cantrips of your choice from the Sorcerer spell list. <em>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplBladeWard0]{Blade Ward}</em> and <em>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplThundercla]{Thunderclap}</em> are recommended. Whenever you gain a Monk level, you can replace one of these cantrips with another cantrip of your choice from the Sorcerer spell list.</p><p>When you reach Monk level 10, you learn another Sorcerer cantrip of your choice.</p><p><span class=\"inline-h4\"><em><strong>Spell Slots.</strong></em></span> The Warrior of the Mystic Arts Spellcasting table shows how many spell slots you have to cast your level 1+ spells. You regain all expended slots when you finish a Long Rest.</p><table><caption><p>Warrior of the Mystic Arts Spellcasting</p></caption><thead><tr><th rowspan=\"2\" scope=\"col\"><p>Monk Level</p></th><th rowspan=\"2\" scope=\"col\"><p>Prepared Spells</p></th><th colspan=\"4\" scope=\"col\"><p>—Spell Slots per Spell Level—</p></th></tr><tr><th scope=\"col\"><p>1</p></th><th scope=\"col\"><p>2</p></th><th scope=\"col\"><p>3</p></th><th scope=\"col\"><p>4</p></th></tr></thead><tbody><tr><td><p>3</p></td><td><p>3</p></td><td><p>2</p></td><td><p>—</p></td><td><p>—</p></td><td><p>—</p></td></tr><tr><td><p>4</p></td><td><p>4</p></td><td><p>3</p></td><td><p>—</p></td><td><p>—</p></td><td><p>—</p></td></tr><tr><td><p>5</p></td><td><p>4</p></td><td><p>3</p></td><td><p>—</p></td><td><p>—</p></td><td><p>—</p></td></tr><tr><td><p>6</p></td><td><p>4</p></td><td><p>3</p></td><td><p>—</p></td><td><p>—</p></td><td><p>—</p></td></tr><tr><td><p>7</p></td><td><p>5</p></td><td><p>4</p></td><td><p>2</p></td><td><p>—</p></td><td><p>—</p></td></tr><tr><td><p>8</p></td><td><p>6</p></td><td><p>4</p></td><td><p>2</p></td><td><p>—</p></td><td><p>—</p></td></tr><tr><td><p>9</p></td><td><p>6</p></td><td><p>4</p></td><td><p>2</p></td><td><p>—</p></td><td><p>—</p></td></tr><tr><td><p>10</p></td><td><p>7</p></td><td><p>4</p></td><td><p>3</p></td><td><p>—</p></td><td><p>—</p></td></tr><tr><td><p>11</p></td><td><p>8</p></td><td><p>4</p></td><td><p>3</p></td><td><p>—</p></td><td><p>—</p></td></tr><tr><td><p>12</p></td><td><p>8</p></td><td><p>4</p></td><td><p>3</p></td><td><p>—</p></td><td><p>—</p></td></tr><tr><td><p>13</p></td><td><p>9</p></td><td><p>4</p></td><td><p>3</p></td><td><p>2</p></td><td><p>—</p></td></tr><tr><td><p>14</p></td><td><p>10</p></td><td><p>4</p></td><td><p>3</p></td><td><p>2</p></td><td><p>—</p></td></tr><tr><td><p>15</p></td><td><p>10</p></td><td><p>4</p></td><td><p>3</p></td><td><p>2</p></td><td><p>—</p></td></tr><tr><td><p>16</p></td><td><p>11</p></td><td><p>4</p></td><td><p>3</p></td><td><p>3</p></td><td><p>—</p></td></tr><tr><td><p>17</p></td><td><p>11</p></td><td><p>4</p></td><td><p>3</p></td><td><p>3</p></td><td><p>—</p></td></tr><tr><td><p>18</p></td><td><p>11</p></td><td><p>4</p></td><td><p>3</p></td><td><p>3</p></td><td><p>—</p></td></tr><tr><td><p>19</p></td><td><p>12</p></td><td><p>4</p></td><td><p>3</p></td><td><p>3</p></td><td><p>1</p></td></tr><tr><td><p>20</p></td><td><p>13</p></td><td><p>4</p></td><td><p>3</p></td><td><p>3</p></td><td><p>1</p></td></tr></tbody></table><p><span class=\"inline-h4\"><em><strong>Prepared Spells of Level 1+.</strong></em></span> You prepare the list of level 1+ spells that are available for you to cast with this feature. To start, choose three level 1 spells from the Sorcerer spell list. <em>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplJump000000]{Jump}</em>, <em>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplMagicMissi]{Magic Missile}</em>, and <em>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplShield0000]{Shield}</em> are recommended.</p><p>The number of spells on your list increases as you gain Monk levels, as shown in the Prepared Spells column of the Warrior of the Mystic Arts Spellcasting table. Whenever that number increases, choose additional spells from the Sorcerer spell list until the number of spells on your list matches the number on the table. The chosen spells must be of a level for which you have spell slots. For example, if you’re a level 7 Monk, your list of prepared spells can include five Sorcerer spells of levels 1 and 2 in any combination.</p><p><span class=\"inline-h4\"><em><strong>Changing Your Prepared Spells.</strong></em></span> Whenever you gain a Monk level, you can replace one spell on your list with another Sorcerer spell for which you have spell slots.</p><p><span class=\"inline-h4\"><em><strong>Spellcasting Ability.</strong></em></span> Wisdom is your spellcasting ability for your Sorcerer spells.</p><p><span class=\"inline-h4\"><em><strong>Spellcasting Focus.</strong></em></span> You can use an Arcane Focus as a Spellcasting Focus for your Sorcerer spells.</p><p><span class=\"inline-h4\"><em><strong>Multiclassing.</strong></em></span> If you multiclass and have the Spellcasting feature from more than one class, add one third of your Monk levels (round down) to determine your available spell slots.</p>",
-      "name": "Spellcasting"
+      "description": "<p>你學會了如何施放法術。施放法術的規則見<em>《玩家手冊》</em>。下文詳述如何將這些規則應用於祕術武者。</p><p><span class=\"inline-h4\"><em><strong>【戲法】</strong></em></span>你從術士法術列表中選擇並習得兩道戲法。推薦選擇<em>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplBladeWard0]{劍刃防護}</em>與<em>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplThundercla]{鳴雷破}</em>。每當你獲得一個武僧等級時，你可以將這些戲法中的一道替換為另一道你從術士法術列表中選擇的戲法。</p><p>當你的武僧等級到達10級時，你習得另一道由你選擇的術士戲法。</p><p><span class=\"inline-h4\"><em><strong>【法術位】</strong></em></span>祕術武者施法表顯示了你可用於施放1環以上法術的法術位數量。當你完成長休時，你重獲所有已消耗的法術位。</p><table><caption><p>祕術武者施法</p></caption><thead><tr><th rowspan=\"2\" scope=\"col\"><p>武僧等級</p></th><th rowspan=\"2\" scope=\"col\"><p>準備法術</p></th><th colspan=\"4\" scope=\"col\"><p>—各環階法術位—</p></th></tr><tr><th scope=\"col\"><p>1</p></th><th scope=\"col\"><p>2</p></th><th scope=\"col\"><p>3</p></th><th scope=\"col\"><p>4</p></th></tr></thead><tbody><tr><td><p>3</p></td><td><p>3</p></td><td><p>2</p></td><td><p>—</p></td><td><p>—</p></td><td><p>—</p></td></tr><tr><td><p>4</p></td><td><p>4</p></td><td><p>3</p></td><td><p>—</p></td><td><p>—</p></td><td><p>—</p></td></tr><tr><td><p>5</p></td><td><p>4</p></td><td><p>3</p></td><td><p>—</p></td><td><p>—</p></td><td><p>—</p></td></tr><tr><td><p>6</p></td><td><p>4</p></td><td><p>3</p></td><td><p>—</p></td><td><p>—</p></td><td><p>—</p></td></tr><tr><td><p>7</p></td><td><p>5</p></td><td><p>4</p></td><td><p>2</p></td><td><p>—</p></td><td><p>—</p></td></tr><tr><td><p>8</p></td><td><p>6</p></td><td><p>4</p></td><td><p>2</p></td><td><p>—</p></td><td><p>—</p></td></tr><tr><td><p>9</p></td><td><p>6</p></td><td><p>4</p></td><td><p>2</p></td><td><p>—</p></td><td><p>—</p></td></tr><tr><td><p>10</p></td><td><p>7</p></td><td><p>4</p></td><td><p>3</p></td><td><p>—</p></td><td><p>—</p></td></tr><tr><td><p>11</p></td><td><p>8</p></td><td><p>4</p></td><td><p>3</p></td><td><p>—</p></td><td><p>—</p></td></tr><tr><td><p>12</p></td><td><p>8</p></td><td><p>4</p></td><td><p>3</p></td><td><p>—</p></td><td><p>—</p></td></tr><tr><td><p>13</p></td><td><p>9</p></td><td><p>4</p></td><td><p>3</p></td><td><p>2</p></td><td><p>—</p></td></tr><tr><td><p>14</p></td><td><p>10</p></td><td><p>4</p></td><td><p>3</p></td><td><p>2</p></td><td><p>—</p></td></tr><tr><td><p>15</p></td><td><p>10</p></td><td><p>4</p></td><td><p>3</p></td><td><p>2</p></td><td><p>—</p></td></tr><tr><td><p>16</p></td><td><p>11</p></td><td><p>4</p></td><td><p>3</p></td><td><p>3</p></td><td><p>—</p></td></tr><tr><td><p>17</p></td><td><p>11</p></td><td><p>4</p></td><td><p>3</p></td><td><p>3</p></td><td><p>—</p></td></tr><tr><td><p>18</p></td><td><p>11</p></td><td><p>4</p></td><td><p>3</p></td><td><p>3</p></td><td><p>—</p></td></tr><tr><td><p>19</p></td><td><p>12</p></td><td><p>4</p></td><td><p>3</p></td><td><p>3</p></td><td><p>1</p></td></tr><tr><td><p>20</p></td><td><p>13</p></td><td><p>4</p></td><td><p>3</p></td><td><p>3</p></td><td><p>1</p></td></tr></tbody></table><p><span class=\"inline-h4\"><em><strong>【1環以上的準備法術】</strong></em></span>你準備可供你以此特性施放的1環以上法術的列表。起始時，從術士法術列表中選擇三道1環法術。推薦選擇<em>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplJump000000]{跳躍術}</em>、<em>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplMagicMissi]{魔法飛彈}</em>與<em>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplShield0000]{護盾術}</em>。</p><p>你列表中的法術數量會隨著你獲得武僧等級而增加，如祕術武者施法表的準備法術一欄所示。每當該數量增加時，從術士法術列表中選擇額外的法術，直到你列表中的法術數量與表中的數字一致。所選法術的環階必須是你擁有法術位的環階。例如，若你是7級武僧，你的準備法術列表可以包含五道任意組合的1環與2環的術士法術。</p><p><span class=\"inline-h4\"><em><strong>【更換準備的法術】</strong></em></span>每當你獲得一個武僧等級，你可以將列表中的一道法術替換為另一道你擁有對應環階法術位的術士法術。</p><p><span class=\"inline-h4\"><em><strong>【施法屬性】</strong></em></span>感知是你施放術士法術的施法屬性。</p><p><span class=\"inline-h4\"><em><strong>【施法法器】</strong></em></span>你可以使用奧術法器作為你術士法術的施法法器。</p><p><span class=\"inline-h4\"><em><strong>【兼職】</strong></em></span>若你兼職，且擁有來自多個職業的施法特性，將你武僧等級的三分之一（向下取整）計入，以決定你可用的法術位。</p>",
+      "name": "施法"
     },
     "Potent Stone": {
       "name": "Potent Stone",
@@ -599,12 +599,12 @@
       "name": "Instinctive Charm"
     },
     "Vestige Spells (Life)": {
-      "description": "<p>The magic of your Vestige Companion ensures you always have certain spells ready. Select one of the following Cleric domains: Life, Light, Trickery, or War. The Domain Spells of your chosen domain are Warlock spells for you. When you reach a Warlock level equal to a Cleric level listed on the Domain Spells table for the domain you have chosen, you thereafter always have the listed spells prepared.</p><p>For example, if you chose the War Domain for this feature, when you reach Warlock level 3, you would have the <em>@UUID[Compendium.dnd5e.spells24.Item.phbsplGuidingBol]{Guiding Bolt}</em>, <em>@UUID[Compendium.dnd5e.spells24.Item.phbsplMagicWeapo]{Magic Weapon}</em>, <em>@UUID[Compendium.dnd5e.spells24.Item.phbsplShieldofFa]{Shield of Faith}</em>, and <em>@UUID[Compendium.dnd5e.spells24.Item.phbsplSpiritualW]{Spiritual Weapon}</em> spells prepared.</p>",
-      "name": "Vestige Spells (Life)"
+      "description": "<p>契靈夥伴的魔法確保你始終準備著特定的法術。從下列牧師領域中選擇其一：生命、光明、詭術或戰爭。你所選領域的領域法術對你而言視為契術師法術。當你到達的契術師等級等同於你所選領域的領域法術表中所列的牧師等級時，你此後始終準備著所列的法術。</p><p>例如，若你為此特性選擇了戰爭領域，當你到達契術師3級時，你便準備了法術<em>@UUID[Compendium.dnd5e.spells24.Item.phbsplGuidingBol]{光導箭}</em>、<em>@UUID[Compendium.dnd5e.spells24.Item.phbsplMagicWeapo]{魔化武器}</em>、<em>@UUID[Compendium.dnd5e.spells24.Item.phbsplShieldofFa]{虔誠護盾}</em>與<em>@UUID[Compendium.dnd5e.spells24.Item.phbsplSpiritualW]{靈體武器}</em>。</p>",
+      "name": "契靈法術（生命）"
     },
     "Warrior of the Mystic Arts": {
-      "name": "Warrior of the Mystic Arts",
-      "description": "<p><em>Weave Martial and Mystic Arts</em></p><p>Warriors of the Mystic Arts wield magic to supplement their martial skill. They harness mystical focus to enhance their magical and physical abilities.</p>"
+      "name": "祕術武者",
+      "description": "<p><em>融匯武藝與祕術</em></p><p>祕術武者通過運用魔法來增強他們的武藝。他們駕馭著自己的超凡內力，來增強他們的魔法與身體能力。</p>"
     },
     "Harvest Undead": {
       "description": "<p>You have learned more secrets about the nuances of life and death. Immediately after you become &amp;Reference[Bloodied apply=false] but aren’t reduced to 0 Hit Points from taking damage, you can take a Reaction to reduce an Undead creature under your control that you can see to 0 Hit Points. You then immediately regain a number of Hit Points equal to your Wizard level.</p>",
@@ -628,32 +628,32 @@
       "description": "<p>你獲得下列好處。</p><p><em><strong>【魔法知識】</strong></em>你獲得奧秘技能的熟練，或從牧師1級可選技能中選擇一項技能的熟練。</p><p><em><strong>【戲法】</strong></em>你習得兩道你所選擇的法師戲法。每當你獲得牧師等級時，你可以將其中一道戲法替換為另一道法師戲法。</p>"
     },
     "Magical Ammunition": {
-      "name": "Magical Ammunition",
+      "name": "注魔彈藥",
       "activities": {
         "Restore Use with Second Wind": {
-          "name": "Restore Use with Second Wind"
+          "name": "使用回氣恢復次數"
         },
         "Darkening Ammunition": {
-          "name": "Darkening Ammunition"
+          "name": "暗幕彈"
         },
         "Vine Ammunition": {
-          "name": "Vine Ammunition"
+          "name": "蔓生彈"
         },
         "Unlocking Ammunition": {
-          "name": "Unlocking Ammunition"
+          "name": "解鎖彈"
         }
       },
-      "description": "<p>You learn to imbue your ammunition with magical properties. As a Magic action, you can imbue a piece of nonmagical ammunition with one of the following magical properties and fire it at a solid surface you can see within the weapon’s range. When the ammunition hits the surface, the ammunition’s effect activates, and the ammunition attaches to the surface it hit for the duration of the effect; you can remove an attached piece of ammunition as a Magic action, ending the effect early. When the effect ends, the ammunition is destroyed.</p><p>Once you use this feature, you can’t do so again until you finish a Short or Long Rest. You can also restore your use of this feature by expending a use of your Second Wind (no action required).</p><p><em><strong>Darkening Ammunition.</strong></em> Magical shadows fill a 15-foot Emanation originating from the ammunition for 1 minute. Nonmagical flames in the Emanation are extinguished, and creatures in the Emanation have a −5 penalty to Wisdom (Perception) checks and Passive Perception.</p><p><em><strong>Unlocking Ammunition.</strong></em> A burst of magic fills a 15-foot Emanation originating from the ammunition. The ammunition also emits a loud knocking sound, audible up to 300 feet away. Any object in the Emanation that is held shut by a nonmagical lock or that is stuck or barred becomes unlocked, unstuck, or unbarred. If such an object has multiple locks, only one of them is unlocked.</p><p><em><strong>Vine Ammunition.</strong></em> A 120-foot-long vine grows from the ammunition. You and other creatures can then climb it. The vine withers away after 10 minutes.</p>"
+      "description": "<p>你學會了給你的彈藥注入魔法屬性。作為魔法動作，你可以為一枚非魔法彈藥注入下列其中一種魔法屬性，並將其射向你武器射程內一處你所能看見的固體表面。當該彈藥命中表面時，其魔法效應啟動，彈藥在效應持續期間附著在其所命中的表面上；你能以魔法動作取下已附著的彈藥，提前結束效應。當效應結束時，彈藥將被摧毀。</p><p>此特性一經使用，直到完成短休或長休前，你無法再次使用。你也可以消耗一次回氣使用次數（無需動作）來重置此特性的使用權。</p><p><em><strong>【暗幕彈】</strong></em>以彈藥為中心15呎發散區域內佈滿魔法陰影，持續1分鐘。發散區域內的非魔法火焰被熄滅，發散區域內的生物在感知（察覺）檢定和被動察覺上具有−5減值。</p><p><em><strong>【解鎖彈】</strong></em>以彈藥為中心15呎發散區域內爆發出一陣魔法能量。彈藥還會發出一聲響亮的敲擊聲，其聲響最遠300呎內都能聽見。發散區域內任何被一把非魔法鎖具鎖住的物體，其鎖具會被解開，被卡死的物體會被鬆開，被閂住的物體會被打開。若此類物體被多種鎖具鎖住，則只有其中一把鎖會被解開。</p><p><em><strong>【蔓生彈】</strong></em>從彈藥處長出一段120呎長的藤蔓，你和其他生物其後可以在藤蔓上攀爬，藤蔓將在10分鐘後枯萎。</p>"
     },
     "Shadow Shot": {
       "effects": {
         "Shadow Shot": {
-          "name": "Shadow Shot",
-          "description": "<p>The target has the &amp;Reference[Blinded apply=false] condition until the end of its next turn.</p>"
+          "name": "遮影彈",
+          "description": "<p>目標陷入&amp;Reference[Blinded apply=false]{目盲}狀態直到其下個回合結束。</p>"
         }
       },
-      "name": "Shadow Shot",
-      "description": "<p>Your ammunition occludes your foe’s vision with shadows. The creature you hit takes extra Psychic damage equal to one roll of your Arcane Shot Die, and it must succeed on a Wisdom saving throw or have the &amp;Reference[Blinded apply=false] condition until the end of its next turn.</p>"
+      "name": "遮影彈",
+      "description": "<p>你的彈藥以陰影遮蔽敵人的視線。你命中的生物額外承受等同於一枚奧術射擊骰的心靈傷害，且必須成功通過一次感知豁免檢定，否則陷入&amp;Reference[Blinded apply=false]{目盲}狀態直到其下個回合結束。</p>"
     },
     "Hypnotic Presence": {
       "description": "<p>Your charming words and enchanting gaze can enthrall another creature. As a Magic action, choose one creature that you can see within 10 feet of yourself. If the target can see or hear you, it must succeed on a Wisdom saving throw against your spell save DC or have the &amp;Reference[Charmed apply=false] condition for 1 minute or until the target is more than 10 feet away from you, the target can neither see nor hear you, or the target takes damage. While Charmed, the target has the &amp;Reference[Incapacitated apply=false] condition and a Speed of 0.</p><p>You can use this feature a number of times equal to your Intelligence modifier (minimum of once), and you regain all expended uses when you finish a Long Rest.</p><section id=\"secret-TmiTf3R7QgHAkvHY\" class=\"secret hide-in-embed\"><p><strong>Foundry Notes</strong></p><p>Foundry applies the 1-minute duration automatically, but it doesn't end the effect when the target moves more than 10 feet away, can no longer see or hear you, or takes damage. Remove the Hypnotic Presence effect manually when any of those conditions occurs.</p></section>",
@@ -703,21 +703,21 @@
     "Vestige Spells": {
       "advancement": {
         "7nJeTyS6ojgzbVPS": {
-          "hint": "<p>The magic of your Vestige Companion ensures you always have certain spells ready. Select one of the following Cleric domains: Life, Light, Trickery, or War. The Domain Spells of your chosen domain are Warlock spells for you. When you reach a Warlock level equal to a Cleric level listed on the Domain Spells table for the domain you have chosen, you thereafter always have the listed spells prepared.</p>"
+          "hint": "<p>契靈夥伴的魔法確保你始終準備著特定的法術。從下列牧師領域中選擇其一：生命、光明、詭術或戰爭。你所選領域的領域法術對你而言視為契術師法術。當你到達的契術師等級等同於你所選領域的領域法術表中所列的牧師等級時，你此後始終準備著所列的法術。</p>"
         }
       },
-      "name": "Vestige Spells",
-      "description": "<p>The magic of your Vestige Companion ensures you always have certain spells ready. Select one of the following Cleric domains: Life, Light, Trickery, or War. The Domain Spells of your chosen domain are Warlock spells for you. When you reach a Warlock level equal to a Cleric level listed on the Domain Spells table for the domain you have chosen, you thereafter always have the listed spells prepared.</p><p>For example, if you chose the War Domain for this feature, when you reach Warlock level 3, you would have the <em>@UUID[Compendium.dnd5e.spells24.Item.phbsplGuidingBol]{Guiding Bolt}</em>, <em>@UUID[Compendium.dnd5e.spells24.Item.phbsplMagicWeapo]{Magic Weapon}</em>, <em>@UUID[Compendium.dnd5e.spells24.Item.phbsplShieldofFa]{Shield of Faith}</em>, and <em>@UUID[Compendium.dnd5e.spells24.Item.phbsplSpiritualW]{Spiritual Weapon}</em> spells prepared.</p>"
+      "name": "契靈法術",
+      "description": "<p>契靈夥伴的魔法確保你始終準備著特定的法術。從下列牧師領域中選擇其一：生命、光明、詭術或戰爭。你所選領域的領域法術對你而言視為契術師法術。當你到達的契術師等級等同於你所選領域的領域法術表中所列的牧師等級時，你此後始終準備著所列的法術。</p><p>例如，若你為此特性選擇了戰爭領域，當你到達契術師3級時，你便準備了法術<em>@UUID[Compendium.dnd5e.spells24.Item.phbsplGuidingBol]{光導箭}</em>、<em>@UUID[Compendium.dnd5e.spells24.Item.phbsplMagicWeapo]{魔化武器}</em>、<em>@UUID[Compendium.dnd5e.spells24.Item.phbsplShieldofFa]{虔誠護盾}</em>與<em>@UUID[Compendium.dnd5e.spells24.Item.phbsplSpiritualW]{靈體武器}</em>。</p>"
     },
     "Enfeebling Shot": {
       "effects": {
         "Enfeebling Shot": {
-          "name": "Enfeebling Shot",
-          "description": "<p>The target has the &amp;Reference[Poisoned apply=false] condition until the end of its next turn. Whenever a target Poisoned in this way hits with an attack roll, it subtracts an amount equal to one roll of your Arcane Shot Die from the total damage of that attack.</p>"
+          "name": "虛弱彈",
+          "description": "<p>目標陷入&amp;Reference[Poisoned apply=false]{中毒}狀態直到其下個回合結束。每當以此方式中毒的目標所發動的攻擊檢定命中時，其該次攻擊的總傷害減少等同於你其中一枚奧術射擊骰擲出的數值。</p>"
         }
       },
-      "name": "Enfeebling Shot",
-      "description": "<p>Your ammunition saps your target’s strength. The creature you hit takes extra Necrotic damage equal to two rolls of your Arcane Shot Die. The target must also succeed on a Constitution saving throw or have the &amp;Reference[Poisoned apply=false] condition until the end of its next turn. Whenever a target Poisoned in this way hits with an attack roll, it subtracts an amount equal to one roll of your Arcane Shot Die from the total damage of that attack.</p>"
+      "name": "虛弱彈",
+      "description": "<p>你的彈藥將損耗目標的力量。你命中的生物額外承受等同於兩枚奧術射擊骰的黯蝕傷害。該目標還必須成功通過一次體質豁免檢定，否則陷入&amp;Reference[Poisoned apply=false]{中毒}狀態直到其下個回合結束。每當以此方式中毒的目標所發動的攻擊檢定命中時，其該次攻擊的總傷害減少等同於你其中一枚奧術射擊骰擲出的數值。</p>"
     },
     "Durable Summons": {
       "description": "<p>When you cast a Conjuration spell to summon or create a creature using a spell slot, that creature gains Temporary Hit Points equal to twice your Wizard level when it first appears. While it has these Temporary Hit Points, the creature has Resistance to every damage type except Force, Necrotic, Psychic, and Radiant.</p>",
@@ -735,17 +735,17 @@
       }
     },
     "Indomitable Teleport": {
-      "description": "<p>Your magical mastery lets you escape dire situations. When you use your Indomitable feature and succeed on the saving throw, you can teleport up to 60 feet to an unoccupied space you can see.</p>",
-      "name": "Indomitable Teleport",
+      "description": "<p>你掌握的魔法讓你逃離險境。當你使用你的不屈特性且該次豁免檢定成功時，你可以傳送到至多60呎一處你所能看見的未佔據空間。</p>",
+      "name": "不屈傳送",
       "activities": {
         "teleport": {
-          "condition": "Succeed on Indomitable saving throw"
+          "condition": "不屈豁免檢定成功"
         }
       }
     },
     "Piercing Shot": {
-      "name": "Piercing Shot",
-      "description": "<p>You give your ammunition an ethereal quality. When you use this option, you don’t make an attack roll for the attack. Instead, the ammunition shoots forward in a 30-foot-long, 1-foot-wide Line originating from you, then vanishes. The Line ignores cover, as the ammunition phases through solid objects. Each creature in the Line makes a Dexterity saving throw. On a failed save, a creature takes damage as if it were hit plus extra Piercing damage equal to two rolls of your Arcane Shot Die. On a successful save, a creature takes half as much damage.</p><section id=\"secret-qCupscdY8IzvoQxK\" class=\"secret hide-in-embed\"><p><strong>Foundry Note</strong></p><p>Piercing Shot does not know which ammunition weapon produced the shot. Roll the weapon's normal hit damage separately, add the Piercing Shot damage, and apply the combined total manually: full damage on a failed save or half the combined total on a successful save.</p></section>"
+      "name": "穿梭彈",
+      "description": "<p>你賦予彈藥乙太能量。當你使用此選項時，你無需為該次攻擊進行攻擊檢定。作為替代，彈藥會向前射出一道源自你、長30呎、寬1呎的直線，隨後彈藥消失。該直線無視掩護，因為彈藥會穿過固體物體。直線內的每名生物各進行一次敏捷豁免檢定。豁免失敗時，該生物承受如同被命中時的傷害，外加等同於兩枚奧術射擊骰的穿刺傷害。豁免成功時，該生物承受一半的傷害。</p><section id=\"secret-qCupscdY8IzvoQxK\" class=\"secret hide-in-embed\"><p><strong>Foundry 註記</strong></p><p>穿梭彈無法得知是哪把具有彈藥屬性的武器射出了這一擊。請另外擲出該武器命中時的一般傷害，再加上穿梭彈的傷害，並手動套用合計總傷害：豁免失敗時承受全額傷害，豁免成功時承受合計總傷害的一半。</p></section>"
     },
     "Arcana Domain Spells": {
       "description": "<p>你與此神聖領域的連結令你始終準備特定法術。當你到達奧秘領域法術表中所列的牧師等級時，此後你始終準備表中所列的法術。</p><table><caption><p>奧秘領域法術</p></caption><thead><tr><th><p>牧師等級</p></th><th colspan=\"2\"><p>準備法術</p></th></tr></thead><tbody><tr><td><p>3</p></td><td colspan=\"2\"><p><em>@UUID[Compendium.dnd5e.spells24.Item.phbsplDetectMagi]{偵測魔法}、@UUID[Compendium.dnd5e.spells24.Item.phbsplMagicMissi]{魔法飛彈}、@UUID[Compendium.dnd5e.spells24.Item.phbsplMagicWeapo]{魔化武器}、@UUID[Compendium.dnd5e.spells24.Item.phbsplNystulsMag]{涅斯圖魔法靈光}</em></p></td></tr><tr><td><p>5</p></td><td colspan=\"2\"><p><em>@UUID[Compendium.dnd5e.spells24.Item.phbsplCounterspe]{反制法術}、@UUID[Compendium.dnd5e.spells24.Item.phbsplDispelMagi]{解除魔法}</em></p></td></tr><tr><td><p>7</p></td><td colspan=\"2\"><p><em>@UUID[Compendium.dnd5e.spells24.Item.phbsplArcaneEye0]{祕法眼}、@UUID[Compendium.dnd5e.spells24.Item.phbsplLeomundsSe]{李歐蒙祕藏箱}</em></p></td></tr><tr><td><p>9</p></td><td colspan=\"2\"><p><em>@UUID[Compendium.dnd5e.spells24.Item.phbsplBigbysHand]{畢格比之掌}、@UUID[Compendium.dnd5e.spells24.Item.phbsplTeleportat]{傳送法陣}</em></p></td></tr></tbody></table>",
@@ -766,25 +766,25 @@
       "name": "Enchanting Conversation (Persuasion)"
     },
     "Vestige Spells (Light)": {
-      "name": "Vestige Spells (Light)",
-      "description": "<p>The magic of your Vestige Companion ensures you always have certain spells ready. Select one of the following Cleric domains: Life, Light, Trickery, or War. The Domain Spells of your chosen domain are Warlock spells for you. When you reach a Warlock level equal to a Cleric level listed on the Domain Spells table for the domain you have chosen, you thereafter always have the listed spells prepared.</p><p>For example, if you chose the War Domain for this feature, when you reach Warlock level 3, you would have the <em>@UUID[Compendium.dnd5e.spells24.Item.phbsplGuidingBol]{Guiding Bolt}</em>, <em>@UUID[Compendium.dnd5e.spells24.Item.phbsplMagicWeapo]{Magic Weapon}</em>, <em>@UUID[Compendium.dnd5e.spells24.Item.phbsplShieldofFa]{Shield of Faith}</em>, and <em>@UUID[Compendium.dnd5e.spells24.Item.phbsplSpiritualW]{Spiritual Weapon}</em> spells prepared.</p>"
+      "name": "契靈法術（光明）",
+      "description": "<p>契靈夥伴的魔法確保你始終準備著特定的法術。從下列牧師領域中選擇其一：生命、光明、詭術或戰爭。你所選領域的領域法術對你而言視為契術師法術。當你到達的契術師等級等同於你所選領域的領域法術表中所列的牧師等級時，你此後始終準備著所列的法術。</p><p>例如，若你為此特性選擇了戰爭領域，當你到達契術師3級時，你便準備了法術<em>@UUID[Compendium.dnd5e.spells24.Item.phbsplGuidingBol]{光導箭}</em>、<em>@UUID[Compendium.dnd5e.spells24.Item.phbsplMagicWeapo]{魔化武器}</em>、<em>@UUID[Compendium.dnd5e.spells24.Item.phbsplShieldofFa]{虔誠護盾}</em>與<em>@UUID[Compendium.dnd5e.spells24.Item.phbsplSpiritualW]{靈體武器}</em>。</p>"
     },
     "Seeking Shot": {
       "activities": {
         "save": {
-          "target": "seen within the past minute"
+          "target": "過去1分鐘內見過的生物"
         }
       },
-      "description": "<p>Your ammunition can seek out a target. When you use this option, you don’t make an attack roll for the attack. Instead, choose one creature you have seen in the last minute. The ammunition flies toward that creature, moving around corners if necessary and ignoring &amp;Reference[Half Cover] and &amp;Reference[Three-Quarters Cover]. If the target is within your weapon’s long range, the target makes a Dexterity saving throw. On a failed save, the target takes damage as if it were hit plus extra Force damage equal to two rolls of your Arcane Shot Die, and you learn the target’s current location. On a successful save, the target takes half as much damage only. If the target is beyond your weapon’s long range, the ammunition disappears after traveling as far as it can.</p><section id=\"secret-B2Bv8IpUGkF4hVwv\" class=\"secret hide-in-embed\"><p><strong>Foundry Note</strong></p><p>Verify the target was seen within the last minute and is within the weapon's long range. Roll the weapon's normal hit damage separately and combine it with Seeking Shot damage. Apply full damage on a failed save or half on a success. On a failed save, reveal the target's location. If the target is beyond long range, the ammunition disappears before reaching it.</p></section>",
-      "name": "Seeking Shot"
+      "description": "<p>你的彈藥能夠追蹤目標。當你使用此選項時，你無需為該次攻擊進行攻擊檢定。作為替代，選擇一名你在過去1分鐘內見過的生物。彈藥會向該生物飛去，必要時會繞過拐角，並無視&amp;Reference[Half Cover]{半身掩護}與&amp;Reference[Three-Quarters Cover]{四分之三掩護}。若目標位於你武器的長射程內，其進行一次敏捷豁免檢定。豁免失敗時，目標承受如同被命中時的傷害，加上等同於兩枚奧術射擊骰的力場傷害，且你得知目標當前的位置。豁免成功時，目標僅承受一半的傷害。若目標超出你武器的長射程，彈藥會在飛行至其所能抵達的最遠距離後消失。</p><section id=\"secret-B2Bv8IpUGkF4hVwv\" class=\"secret hide-in-embed\"><p><strong>Foundry 註記</strong></p><p>請確認目標是在過去1分鐘內見過，且位於武器的長射程內。另外擲出該武器命中時的一般傷害，並與追蹤彈傷害合併計算。豁免失敗時承受全額傷害，豁免成功時承受一半傷害。豁免失敗時，揭示目標的位置。若目標超出長射程，彈藥會在抵達目標前消失。</p></section>",
+      "name": "追蹤彈"
     },
     "Vestige Patron": {
-      "name": "Vestige Patron",
-      "description": "<p><em>Wield the Remnants of a Dying God’s Power</em></p><p>Your pact draws on the power of a dying god, a being once worshipped by countless followers but now abandoned and forgotten. This dying god, known as a vestige, might have been benevolent, evil, or strange and unknowable, but now it is driven to regain its former power. The vestige needs your help, and it is willing to share its remaining strength with you.</p>"
+      "name": "契靈宗主",
+      "description": "<p><em>掌控垂死神祇的殘餘之力</em></p><p>你的契約汲取自一位垂死神祇的力量，這一存在曾受無數信徒膜拜，如今卻被拋棄、被遺忘。這位被稱之為契靈的垂死神祇，昔日或許仁慈，或許邪惡，亦或是詭異而不可名狀，但如今的祂只被重獲往昔之權柄的渴望所驅使。契靈需要你的協助。為此，祂願與你共享僅存的力量。</p>"
     },
     "Masterful Shots": {
-      "name": "Masterful Shots",
-      "description": "<p>You employ agility in your sharpshooting. When a creature you can see misses you with an attack roll, you can take a Reaction to move up to half your Speed away from the attacker without provoking Opportunity Attacks. You can then make a ranged attack roll against the attacker as part of this Reaction if the attacker is within the weapon’s range.</p>"
+      "name": "宗師射術",
+      "description": "<p>你的射擊過程中你總是保持著機敏。當一名你所能看見的生物對你進行攻擊檢定並失手時，你可以採取反應，向遠離攻擊者的方向移動至多等同於你速度一半的距離，且不會引發藉機攻擊。其後作為該反應的一部分，若攻擊者位於你武器的射程範圍內，你可以對其進行一次遠程攻擊檢定。</p>"
     },
     "Conjuration Savant": {
       "name": "Conjuration Savant",
@@ -805,37 +805,37 @@
       "name": "Transmutation Savant"
     },
     "Arcane Shot": {
-      "description": "<p>你習得如何用射術釋放特殊的魔法效應。</p><p><em><strong>【奧術射擊選項】</strong></em>你從本子職業描述後文的「奧術射擊選項」一節中習得兩種由你選擇的奧術射擊選項。</p><p>當你的戰士等級到達7級、10級、15級和18級時，你均可額外習得一種你所選擇的奧術射擊選項。每當你習得新的奧術射擊選項時，你也可以將你已知的一種選項替換為另一種。</p><p><em><strong>【使用奧術射擊】</strong></em>每回合一次，當你使用具有彈藥屬性的武器發動遠程攻擊時，你可以將你的一種奧術射擊選項賦予該次攻擊。除非某選項不涉及到攻擊檢定，否則你在命中一名生物並對其造成傷害時決定是否使用該選項。</p><p>你可以使用此特性的次數等同於你的智力調整值（至少1次）。當你完成短休或長休時，你重獲所有已消耗的使用次數。</p><p><em><strong>【奧術射擊骰】</strong></em>奧術射擊選項依賴你的奧術射擊骰。你的奧術射擊骰為[[lookup @scale.arcane-archer.arcane-shot.die]]{d6}。</p><p><em><strong>【豁免檢定】</strong></em>若某個奧術射擊選項要求進行豁免檢定，其DC為8 + 你的智力調整值 + 你的熟練加值。</p><p><em><strong>【隨級提升】</strong></em>當你到達一定的戰士等級時，你的奧術射擊骰會改變。該骰在10級時變為d8，在15級時變為d10，在18級時變為d12。</p>",
+      "description": "<p>你習得如何用射術釋放特殊的魔法效應。</p><p><em><strong>【奧術射擊選項】</strong></em>你從本子職業描述後文的「奧術射擊選項」一節中習得兩種由你選擇的奧術射擊選項。</p><p>當你的戰士等級到達7級、10級、15級和18級時，你均可額外習得一種你所選擇的奧術射擊選項。每次你習得新的奧術射擊選項時，你也可以將你已知的一種選項替換為另一種。</p><p><em><strong>【使用奧術射擊】</strong></em>每回合一次，當你使用具有彈藥屬性的武器發動遠程攻擊時，你可以將你的一種奧術射擊選項賦予該次攻擊。除非某選項不涉及到攻擊檢定，否則你在命中一名生物並對其造成傷害時決定是否使用該選項。</p><p>你可以使用此特性的次數等同於你的智力調整值（至少1次）。當你完成短休或長休時，你重獲所有已消耗的使用次數。</p><p><em><strong>【奧術射擊骰】</strong></em>奧術射擊選項依賴你的奧術射擊骰。你的奧術射擊骰為[[lookup @scale.arcane-archer.arcane-shot.die]]{d6}。</p><p><em><strong>【豁免檢定】</strong></em>若某個奧術射擊選項要求進行豁免檢定，其DC為8 + 你的智力調整值 + 你的熟練加值。</p><p><em><strong>【隨級提升】</strong></em>當你到達一定的戰士等級時，你的奧術射擊骰會改變。該骰在10級時變為d8，在15級時變為d10，在18級時變為d12。</p>",
       "advancement": {
         "fw8yHNCnQkj4nRqD": {
-          "hint": "<p>你從本子職業描述後文的「奧術射擊選項」一節中習得兩種由你選擇的奧術射擊選項。</p><p>當你的戰士等級到達7級、10級、15級和18級時，你均可額外習得一種你所選擇的奧術射擊選項。每當你習得新的奧術射擊選項時，你也可以將你已知的一種選項替換為另一種。</p>"
+          "hint": "<p>你從本子職業描述後文的「奧術射擊選項」一節中習得兩種由你選擇的奧術射擊選項。</p><p>當你的戰士等級到達7級、10級、15級和18級時，你均可額外習得一種你所選擇的奧術射擊選項。每次你習得新的奧術射擊選項時，你也可以將你已知的一種選項替換為另一種。</p>"
         }
       },
       "name": "奧術射擊"
     },
     "Vestige Recovery": {
-      "name": "Vestige Recovery",
-      "description": "<p>When your Vestige Companion would drop to 0 Hit Points, you can take a Reaction and expend a Pact Magic spell slot to instead change its Hit Points to its Hit Point maximum. The vestige then teleports to an unoccupied space you can see within 30 feet of it. Once you use this feature, you can’t do so again until you finish a Long Rest.</p>"
+      "name": "契靈復甦",
+      "description": "<p>當你的契靈夥伴將要降至0點生命值時，你可以採取反應並消耗一個契約魔法法術位，改為將其生命值變為其生命值上限。隨後，該契靈傳送到位於其30呎內一處你所能看見的未佔據空間。此特性一經使用，直到完成長休前你無法再次使用。</p>"
     },
     "Bursting Shot": {
       "name": "爆裂彈",
-      "description": "<p>You imbue your ammunition with explosive magical energy. Immediately after you deal damage to the creature, your target and each creature within a 10-foot Emanation originating from the target take Force damage equal to two rolls of your Arcane Shot Die.</p>"
+      "description": "<p>你將爆炸性的魔法能量注入彈藥。緊接在你對該生物造成傷害後，你的目標，以及位於以目標為中心10呎發散區域內的每名生物，承受等同於兩枚奧術射擊骰的力場傷害。</p>"
     },
     "Mystic Fighting Style": {
-      "description": "<p>When you take the Attack action on your turn, you can replace one Unarmed Strike with a casting of one of your Sorcerer cantrips that has a casting time of an action.</p><section id=\"secret-xdGR0G9ZvoP8k4tM\" class=\"secret hide-in-embed\"><p><strong>Foundry Note</strong></p><p>When using Mystic Fighting Style, cast the qualifying cantrip from your Spellbook and treat that casting as replacing one Unarmed Strike from your Attack action.</p></section>",
-      "name": "Mystic Fighting Style"
+      "description": "<p>當你在自己的回合採取攻擊動作時，你可以將一次徒手打擊替換為施放一道你的術士戲法，且該戲法的施法時間須為動作。</p><section id=\"secret-xdGR0G9ZvoP8k4tM\" class=\"secret hide-in-embed\"><p><strong>Foundry 註記</strong></p><p>使用祕法戰鬥風格時，請從你的法術書施放符合條件的戲法，並將該次施放視為取代你攻擊動作中的一次徒手打擊。</p></section>",
+      "name": "祕法戰鬥風格"
     },
     "Improved Fighting Style": {
-      "description": "<p>When you use Flurry of Blows, you can replace two of the Unarmed Strikes with a casting of one of your level 1 or 2 Sorcerer spells that has a casting time of an action, and you cast it as part of the same Bonus Action you use to activate Flurry of Blows.</p><section id=\"secret-nnBL3LsZawQMpV99\" class=\"secret hide-in-embed\"><p><strong>Foundry Note</strong></p><p>Use the normal Flurry of Blows activity, then cast the qualifying level 1 or 2 spell from your Spellbook in place of two of its Unarmed Strikes. Do not make those two replaced strikes.</p></section>",
-      "name": "Improved Fighting Style"
+      "description": "<p>當你使用疾風連擊時，你可以將其中兩次徒手打擊替換為施放你的一道施法時間為動作的1環或2環術士法術，且該法術的施放視為你啟動疾風連擊的同一個附贈動作的一部分。</p><section id=\"secret-nnBL3LsZawQMpV99\" class=\"secret hide-in-embed\"><p><strong>Foundry 註記</strong></p><p>使用一般的疾風連擊行動，然後從你的法術書施放符合條件的1環或2環法術，以取代其中兩次徒手打擊。不要進行那兩次被替換的打擊。</p></section>",
+      "name": "精通祕法戰鬥風格"
     },
     "Arcane Archer": {
       "description": "<p><em>以附魔之矢，施魔法之要</em></p><p>魔射手深研獨特的精靈箭術，將魔法融入箭擊，產生超自然效應。幾個世紀以來，其他種族也學會了這一箭技，並將其擴展到更多種類的遠程武器，同時也將箭技應用在戰鬥外的冒險之中。</p>",
       "name": "魔射手"
     },
     "Vestige Spells (Trickery)": {
-      "name": "Vestige Spells (Trickery)",
-      "description": "<p>The magic of your Vestige Companion ensures you always have certain spells ready. Select one of the following Cleric domains: Life, Light, Trickery, or War. The Domain Spells of your chosen domain are Warlock spells for you. When you reach a Warlock level equal to a Cleric level listed on the Domain Spells table for the domain you have chosen, you thereafter always have the listed spells prepared.</p><p>For example, if you chose the War Domain for this feature, when you reach Warlock level 3, you would have the <em>@UUID[Compendium.dnd5e.spells24.Item.phbsplGuidingBol]{Guiding Bolt}</em>, <em>@UUID[Compendium.dnd5e.spells24.Item.phbsplMagicWeapo]{Magic Weapon}</em>, <em>@UUID[Compendium.dnd5e.spells24.Item.phbsplShieldofFa]{Shield of Faith}</em>, and <em>@UUID[Compendium.dnd5e.spells24.Item.phbsplSpiritualW]{Spiritual Weapon}</em> spells prepared.</p>"
+      "name": "契靈法術（詭術）",
+      "description": "<p>契靈夥伴的魔法確保你始終準備著特定的法術。從下列牧師領域中選擇其一：生命、光明、詭術或戰爭。你所選領域的領域法術對你而言視為契術師法術。當你到達的契術師等級等同於你所選領域的領域法術表中所列的牧師等級時，你此後始終準備著所列的法術。</p><p>例如，若你為此特性選擇了戰爭領域，當你到達契術師3級時，你便準備了法術<em>@UUID[Compendium.dnd5e.spells24.Item.phbsplGuidingBol]{光導箭}</em>、<em>@UUID[Compendium.dnd5e.spells24.Item.phbsplMagicWeapo]{魔化武器}</em>、<em>@UUID[Compendium.dnd5e.spells24.Item.phbsplShieldofFa]{虔誠護盾}</em>與<em>@UUID[Compendium.dnd5e.spells24.Item.phbsplSpiritualW]{靈體武器}</em>。</p>"
     },
     "Arcana Domain": {
       "name": "奧秘領域",
