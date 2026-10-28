@@ -158,7 +158,7 @@
           "caption": "Archmages from Each School of Magic (left to right): Conjurer, Abjurer, Necromancer, Illusionist, Diviner, Enchanter, Transmuter, Evoker"
         },
         "Conjurerer Subclass": {
-          "name": "Conjurerer Subclass"
+          "name": "咒法師子職業"
         },
         "Cosmic Dawn Experiment": {
           "name": "Cosmic Dawn Experiment"
@@ -177,7 +177,7 @@
           "name": "Darkenbeast"
         },
         "Enchanter Subclass": {
-          "name": "Enchanter Subclass"
+          "name": "惑控師子職業"
         },
         "Enraged Mage Uses Detonate": {
           "name": "Enraged Mage Uses Detonate",
@@ -290,7 +290,7 @@
           "name": "Necklaces of the Beastly Familiar"
         },
         "Necromancer Subclass": {
-          "name": "Necromancer Subclass"
+          "name": "死靈師子職業"
         },
         "Necromancers Cast Animate Dead Spell": {
           "name": "Necromancers Cast Animate Dead Spell",
@@ -372,7 +372,7 @@
           "caption": "The Tower of High Sorcery in the world of Dragonlance charges heroes with protecting magical secrets from a destructive draconic army."
         },
         "Transmuter Subclass": {
-          "name": "Transmuter Subclass"
+          "name": "變化師子職業"
         },
         "Unassuming Baker Whisper Network": {
           "name": "Unassuming Baker Whisper Network",
@@ -1139,20 +1139,20 @@
           "description": "<p>@Embed[Compendium.dnd-arcana-unleashed.book.JournalEntry.aunArtHandoutsG2.JournalEntryPage.YCLKe0Lv63TTLmM3 classes=\"overlay-caption float-left size-three\" cite=false]</p><p class=\"metadata\">掌控垂死神祇的殘餘之力</p><p>你的契約汲取自一位垂死神祇的力量，這一存在曾受無數信徒膜拜，如今卻被拋棄、被遺忘。這位被稱之為契靈的垂死神祇，昔日或許仁慈，或許邪惡，亦或是詭異而不可名狀，但如今的祂只被重獲往昔之權柄的渴望所驅使。契靈需要你的協助。為此，祂願與你共享僅存的力量。</p><p class=\"as-letter\">多元宇宙中神祇無數，但並非所有神祇的名諱都能見諸神殿。感應一位被遺忘神祇的仁慈與恩澤，是一項崇高的追求。</p>"
         },
         "Conjurer (Wizard)": {
-          "name": "Conjurer (Wizard)",
-          "description": "<p>@Embed[Compendium.dnd-arcana-unleashed.book.JournalEntry.aunArtHandoutsG2.JournalEntryPage.2D5SFxo6DgbRbNJH classes=\"overlay-caption float-left size-three\" cite=false]</p><p class=\"metadata\">Step Across Space and Call Creatures from Thin Air</p><p>A Conjurer considers distance and matter to be flexible guidelines rather than physical laws. Conjurers master magic that moves creatures instantly through space and summons creatures to fight on their behalf.</p><p class=\"as-letter\">There is no concept of physical distance in the Weave. With enough magical power, you can travel anywhere in existence with merely a thought.</p>"
+          "name": "咒法師（法師）",
+          "description": "<p>@Embed[Compendium.dnd-arcana-unleashed.book.JournalEntry.aunArtHandoutsG2.JournalEntryPage.2D5SFxo6DgbRbNJH classes=\"overlay-caption float-left size-three\" cite=false]</p><p class=\"metadata\">縮地成寸，無中生有</p><p>咒法師將距離與物質視為可以變通的準則，而非不可輕易違背的物理法則。咒法師精通能夠讓生物瞬間穿越空間的魔法，並能召喚生物代替自己戰鬥。</p><p class=\"as-letter\">魔網之中並不存在物理距離這一概念。只要擁有足夠的魔力，僅憑一個念頭，你便能抵達存在中的任何地方。</p>"
         },
         "Enchanter (Wizard)": {
-          "name": "Enchanter (Wizard)",
-          "description": "<p>@Embed[Compendium.dnd-arcana-unleashed.book.JournalEntry.aunArtHandoutsG2.JournalEntryPage.Sk74AdwKmYXOyAn4 classes=\"overlay-caption float-left size-three\" cite=false]</p><p class=\"metadata\">Entrance and Beguile Others</p><p>An Enchanter’s magic clouds or captivates minds. Some Enchanters use their abilities to encourage peace and soften cruelty, while others use their mind-altering magic for selfish ends.</p><p class=\"as-letter\">Minds can be molded like clay when magic is involved. Take care you don’t abuse this power.</p>"
+          "name": "惑控師（法師）",
+          "description": "<p>@Embed[Compendium.dnd-arcana-unleashed.book.JournalEntry.aunArtHandoutsG2.JournalEntryPage.Sk74AdwKmYXOyAn4 classes=\"overlay-caption float-left size-three\" cite=false]</p><p class=\"metadata\">攝人心神，蠱惑他人</p><p>惑控師的魔法既能矇蔽心智，也能攝人心魄。一些惑控師運用這些能力促成和平、消解暴戾，另一些則把改變心智的魔法用於一己私利。</p><p class=\"as-letter\">在魔法面前，意識就像黏土一樣可被輕易揉捏塑造。切記，不可濫用此等力量。</p>"
         },
         "Necromancer (Wizard)": {
-          "name": "Necromancer (Wizard)",
-          "description": "<p>@Embed[Compendium.dnd-arcana-unleashed.book.JournalEntry.aunArtHandoutsG2.JournalEntryPage.8BIKoD4qDyVlBP4H classes=\"overlay-caption float-left size-three\" cite=false]</p><p><em>Command the Powers of Death and Undeath</em></p><p>You explore the forces of life, death, and undeath. As a necromancer, you learn to manipulate the energy that animates all creatures, and you draw increasing power from the forbidden secrets in your spellbook. Though many see Necromancers as menacing or villainous, not all Necromancers are evil.</p><p class=\"as-letter\">Minds can be molded like clay when magic is involved. Take you don't abuse this power.</p>"
+          "name": "死靈師（法師）",
+          "description": "<p>@Embed[Compendium.dnd-arcana-unleashed.book.JournalEntry.aunArtHandoutsG2.JournalEntryPage.8BIKoD4qDyVlBP4H classes=\"overlay-caption float-left size-three\" cite=false]</p><p><em>死亡與不朽之主宰</em></p><p>你探索生命、死亡與不朽之力。作為一名死靈師，你知曉如何操控驅使生物活動的能量，並從載於法術書的那些禁忌祕密中汲取日益強大的力量。儘管許多人視死靈師為可怖或邪惡之徒，但並非所有死靈師都是邪惡的。</p><p class=\"as-letter\">對於強大的魔法師而言，生與死不過是可以相互轉換的存在狀態。</p>"
         },
         "Transmuter (Wizard)": {
-          "name": "Transmuter (Wizard)",
-          "description": "<p>@Embed[Compendium.dnd-arcana-unleashed.book.JournalEntry.aunArtHandoutsG2.JournalEntryPage.QH36TqCLjz4xf1kl classes=\"overlay-caption float-left size-three\" cite=false]</p><p class=\"metadata\">Transform Energy and Matter</p><p>You study spells that modify energy and matter—to you, the world is eminently mutable. Using your magic, you become a smith at reality’s forge.</p><p>Some Transmuters are tinkerers and pranksters. Others seek the power to make and destroy worlds.</p><p class=\"as-letter\">Commune with the Weave, and the limitations of your corporeal form will begin to fall away.</p>"
+          "name": "變化師（法師）",
+          "description": "<p>@Embed[Compendium.dnd-arcana-unleashed.book.JournalEntry.aunArtHandoutsG2.JournalEntryPage.QH36TqCLjz4xf1kl classes=\"overlay-caption float-left size-three\" cite=false]</p><p class=\"metadata\">重構能量和物質</p><p>你專精於修改能量和物質的法術，對你來說，世界法則並非磐石，你可以輕易改變。使用你的魔法，你便能成為鍛造現實的工匠。</p><p>有些變化師只是想用法術給世界縫縫補補或者用來開個玩笑。其他的變化師則尋求能夠創造或者毀滅世界的偉力。</p><p class=\"as-letter\">與魔網共鳴，你肉身的局限便會逐漸消解。</p>"
         },
         "Subclasses": {
           "name": "子職業",
