@@ -5,12 +5,12 @@
     "Magical Ammunition": "注魔彈藥",
     "Warrior of the Mystic Arts": "祕術武者",
     "Conjurer": "咒法師",
-    "Necromancer": "Necromancer",
-    "Transmuter": "Transmuter",
+    "Necromancer": "死靈師",
+    "Transmuter": "變化師",
     "Arcana Domain Features": "奧秘領域特性",
     "Vestige Patron": "契靈宗主",
     "Arcane Archer Features": "魔射手特性",
-    "Enchanter": "Enchanter"
+    "Enchanter": "惑控師"
   },
   "mapping": {
     "activities": {
@@ -34,138 +34,138 @@
     "Death's Master": {
       "activities": {
         "Bolster Undead": {
-          "target": "Undead you have created or summoned with a Necromancy spell",
-          "name": "Bolster Undead"
+          "target": "你使用死靈學派法術創造或召喚的不死生物",
+          "name": "增幅不死"
         },
         "Extinguish Undead": {
-          "name": "Extinguish Undead",
-          "target": "Can see"
+          "name": "湮滅不死",
+          "target": "你所能看見者"
         },
         "Expend Reaction/Slot": {
-          "name": "Expend Reaction/Slot"
+          "name": "消耗反應／法術位"
         }
       },
       "effects": {
         "Extinguished": {
-          "description": "<p>The creature cannot take Reactions until the start of its next turn.</p>",
-          "name": "Extinguished"
+          "description": "<p>該生物直到其下個回合開始前無法採取反應。</p>",
+          "name": "受湮滅"
         }
       },
-      "name": "Death's Master",
-      "description": "<p>Abstruse rituals within your spellbook allow you mastery over undeath. While holding your spellbook, you gain the following benefits.</p><p><span class=\"inline-h4\"><em><strong>Bolster Undead.</strong></em></span> As a Bonus Action, choose any number of Undead you have created or summoned with a Necromancy spell that are within 60 feet of you. Those Undead each gain Temporary Hit Points equal to your Wizard level. Once you use this Bonus Action, you can’t do so again until you finish a Long Rest.</p><p><span class=\"inline-h4\"><em><strong>Extinguish Undead.</strong></em></span> When an Undead creature you can see is reduced to 0 Hit Points, you can cause it to explode with necrotic energy. Roll a number of d6s equal to half the creature’s unexpended Hit Dice (round up, minimum of 1d6), and add them together. Each creature in a 10-foot Emanation originating from the Undead makes a Dexterity saving throw. On a failed save, a target takes Necrotic damage equal to the number rolled and can’t take Reactions until the start of its next turn. On a successful save, a target takes half as much damage only. When you use this feature to explode an Undead creature you don’t control, you must take a Reaction and expend a level 5+ spell slot to do so.</p><section id=\"secret-lmHtlFuyXttyNc45\" class=\"secret hide-in-embed\"><p><strong>Foundry Notes</strong></p><p><strong>Extinguish Undead.</strong> Place the 10-foot Emanation at the Undead that was reduced to 0 Hit Points. Open that Undead's actor sheet and click the <strong>Short Rest</strong> icon to see how many Hit Dice it has remaining. Enter that number as the Scaling value.</p><p>If you don't control that Undead, also use <strong>Expend Reaction/Slot</strong> to expend your Reaction and a level 5+ spell slot. Creatures that fail the saving throw can't take Reactions until the start of their next turn; enforce this restriction manually.</p></section>"
+      "name": "死之尊主",
+      "description": "<p>你法術書中記載的玄奧祕儀令你主宰不死之力。在你持握法術書期間，你獲得下列好處。</p><p><span class=\"inline-h4\"><em><strong>【增幅不死】</strong></em></span>作為附贈動作，你指定位於你60呎內、由你使用死靈學派法術創造或召喚的任意數量不死生物。每個不死生物都獲得等同於你法師等級的臨時生命值。此附贈動作一經使用，直到完成長休前，你無法再這麼做。</p><p><span class=\"inline-h4\"><em><strong>【湮滅不死】</strong></em></span>當一名你所能看見的不死生物降至0點生命值時，你可以使其在黯蝕能量中爆裂。擲數量等同於該生物未消耗生命骰數量一半的d6（向上取整，至少為1d6），並將結果相加。每個位於以該不死生物為中心10呎發散區域內的生物各進行一次敏捷豁免檢定。豁免失敗時，目標承受等同於擲骰結果的黯蝕傷害，並直到其下個回合開始前無法採取反應。豁免成功時，目標只承受一半傷害。你必須採取反應並消耗一個5環以上的法術位，才能使用此特性令不受你控制的不死生物爆裂。</p><section id=\"secret-lmHtlFuyXttyNc45\" class=\"secret hide-in-embed\"><p><strong>Foundry 註記</strong></p><p><strong>湮滅不死</strong>將10呎發散區域放置在被降至0點生命值的該不死生物上。開啟該不死生物的角色卡，點擊<strong>短休</strong>圖示，查看其剩餘的生命骰數量。將該數字輸入為升環數值。</p><p>若你不控制該不死生物，還要使用<strong>消耗反應／法術位</strong>來消耗你的反應與一個5環以上的法術位。豁免失敗的生物直到其下個回合開始前無法採取反應；請手動執行這項限制。</p></section>"
     },
     "Transmuter's Stone": {
       "effects": {
         "Acid Resistance Benefit": {
-          "name": "Acid Resistance Benefit",
+          "name": "強酸抗力好處",
           "changes": {
-            "system.description.value": "<p><span class=\"inline-h4\"><em><strong>Resistance.</strong></em></span> The bearer gains Resistance to Acid damage.</p>"
+            "system.description.value": "<p><span class=\"inline-h4\"><em><strong>【抗力】</strong></em></span>擁有者獲得對強酸傷害的抗力。</p>"
           }
         },
         "Lightning Resistance": {
-          "name": "Lightning Resistance"
+          "name": "閃電抗力"
         },
         "oYo5HUxB5vSKInba": {
-          "name": "Mighty Build Benefit"
+          "name": "強健身形好處"
         },
         "Speed Benefit": {
-          "name": "Speed Benefit",
+          "name": "速度好處",
           "changes": {
-            "system.description.value": "<p><span class=\"inline-h4\"><em><strong>Speed.</strong></em></span> The bearer’s Speed increases by 10 feet.</p>"
+            "system.description.value": "<p><span class=\"inline-h4\"><em><strong>【速度】</strong></em></span>擁有者的速度提升10呎。</p>"
           }
         },
         "jU3Le3X02vkUYu2U": {
           "changes": {
-            "system.description.value": "<p><span class=\"inline-h4\"><em><strong>Darkvision.</strong></em></span> The bearer gains Darkvision with a range of 60 feet or increases the range of its Darkvision by 60 feet.</p>"
+            "system.description.value": "<p><span class=\"inline-h4\"><em><strong>【黑暗視覺】</strong></em></span>擁有者獲得60呎的黑暗視覺，或是將其黑暗視覺的範圍擴大60呎。</p>"
           },
-          "name": "Darkvision Benefit"
+          "name": "黑暗視覺好處"
         },
         "Fire Resistance Benefit": {
-          "name": "Fire Resistance Benefit",
+          "name": "火焰抗力好處",
           "changes": {
-            "system.description.value": "<p><span class=\"inline-h4\"><em><strong>Resistance.</strong></em></span> The bearer gains Resistance to Fire damage.</p>"
+            "system.description.value": "<p><span class=\"inline-h4\"><em><strong>【抗力】</strong></em></span>擁有者獲得對火焰傷害的抗力。</p>"
           }
         },
         "Poison Resistance": {
-          "name": "Poison Resistance"
+          "name": "毒素抗力"
         },
         "Thunder Resistance": {
-          "name": "Thunder Resistance"
+          "name": "雷鳴抗力"
         },
         "Thunder Resistance Benefit": {
           "changes": {
-            "system.description.value": "<p><span class=\"inline-h4\"><em><strong>Resistance.</strong></em></span> The bearer gains Resistance to Thunder damage.</p>"
+            "system.description.value": "<p><span class=\"inline-h4\"><em><strong>【抗力】</strong></em></span>擁有者獲得對雷鳴傷害的抗力。</p>"
           },
-          "name": "Thunder Resistance Benefit"
+          "name": "雷鳴抗力好處"
         },
         "Cold Resistance": {
-          "name": "Cold Resistance"
+          "name": "寒冷抗力"
         },
         "Lightning Resistance Benefit": {
-          "name": "Lightning Resistance Benefit",
+          "name": "閃電抗力好處",
           "changes": {
-            "system.description.value": "<p><span class=\"inline-h4\"><em><strong>Resistance.</strong></em></span> The bearer gains Resistance to Lightning damage.</p>"
+            "system.description.value": "<p><span class=\"inline-h4\"><em><strong>【抗力】</strong></em></span>擁有者獲得對閃電傷害的抗力。</p>"
           }
         },
         "Poison Resistance Benefit": {
-          "name": "Poison Resistance Benefit",
+          "name": "毒素抗力好處",
           "changes": {
-            "system.description.value": "<p><span class=\"inline-h4\"><em><strong>Resistance.</strong></em></span> The bearer gains Resistance to Poison damage.</p>"
+            "system.description.value": "<p><span class=\"inline-h4\"><em><strong>【抗力】</strong></em></span>擁有者獲得對毒素傷害的抗力。</p>"
           }
         },
         "Mighty Build Benefit": {
-          "name": "Mighty Build Benefit",
+          "name": "強健身形好處",
           "changes": {
-            "system.description.value": "<p><span class=\"inline-h4\"><em><strong>Mighty Build.</strong></em></span> The bearer has Advantage on Strength saving throws. The bearer also counts as one size larger when determining its carrying capacity.</p>"
+            "system.description.value": "<p><span class=\"inline-h4\"><em><strong>【強健身形】</strong></em></span>擁有者的力量豁免檢定具有優勢。擁有者在決定其負重時也會被記為大一級體型。</p>"
           }
         },
         "Tremorsense Benefit": {
           "changes": {
-            "system.description.value": "<p><span class=\"inline-h4\"><em><strong style=\"\">Tremorsense.</strong></em></span> The bearer gains Tremorsense with a range of 30 feet.</p>"
+            "system.description.value": "<p><span class=\"inline-h4\"><em><strong style=\"\">【震顫感知】</strong></em></span>擁有者獲得30呎的震顫感知。</p>"
           },
-          "name": "Tremorsense Benefit"
+          "name": "震顫感知好處"
         },
         "Darkvision Benefit": {
-          "name": "Darkvision Benefit"
+          "name": "黑暗視覺好處"
         },
         "Cold Resistance Benefit": {
           "changes": {
-            "system.description.value": "<p><span class=\"inline-h4\"><em><strong>Resistance.</strong></em></span> The bearer gains Resistance to Cold damage.</p>"
+            "system.description.value": "<p><span class=\"inline-h4\"><em><strong>【抗力】</strong></em></span>擁有者獲得對寒冷傷害的抗力。</p>"
           },
-          "name": "Cold Resistance Benefit"
+          "name": "寒冷抗力好處"
         },
         "Fire Resistance": {
-          "name": "Fire Resistance"
+          "name": "火焰抗力"
         },
         "hxYVIfvftZkcm7LJ": {
-          "name": "Tremorsense Benefit"
+          "name": "震顫感知好處"
         },
         "Acid Resistance": {
-          "name": "Acid Resistance"
+          "name": "強酸抗力"
         },
         "jIxRybS7O6TdvlVE": {
-          "name": "Speed Benefit"
+          "name": "速度好處"
         }
       },
       "activities": {
         "Darkvision Benefit": {
-          "name": "Darkvision Benefit"
+          "name": "黑暗視覺好處"
         },
         "Resistance Benefit": {
-          "name": "Resistance Benefit"
+          "name": "抗力好處"
         },
         "Tremorsense Benefit": {
-          "name": "Tremorsense Benefit"
+          "name": "震顫感知好處"
         },
         "Speed Benefit": {
-          "name": "Speed Benefit"
+          "name": "速度好處"
         },
         "Mighty Build Benefit": {
-          "name": "Mighty Build Benefit"
+          "name": "強健身形好處"
         }
       },
-      "name": "Transmuter's Stone",
-      "description": "<p>When you finish a Long Rest, you can create a magic stone that lasts until you use this feature again. The stone is a Tiny object, and you can use it as a Spellcasting Focus for your Wizard spells. A creature with the stone in its possession gains proficiency in Constitution saving throws and one of the following benefits, which you choose when you create the stone. You can change the stone’s benefit when you cast a Transmutation spell using a spell slot.</p><p><span class=\"inline-h4\"><em><strong>Darkvision.</strong></em></span> The bearer gains Darkvision with a range of 60 feet or increases the range of its Darkvision by 60 feet.</p><p><span class=\"inline-h4\"><em><strong>Resistance.</strong></em></span> The bearer gains Resistance to Acid, Cold, Fire, Lightning, Poison, or Thunder damage (your choice each time you choose this benefit).</p><p><span class=\"inline-h4\"><em><strong>Speed.</strong></em></span> The bearer’s Speed increases by 10 feet.</p><section id=\"secret-9vsSXrF720FyorEA\" class=\"secret\"><p><strong>Foundry Note</strong></p><p>This feature includes enchantments that can be applied to your Transmuter Stone. You can remove the enchantments and replace them with new ones as needed. The <strong>Resistance</strong> enchantment can be used multiple times to apply multiple different resistances.</p></section>"
+      "name": "變化師之石",
+      "description": "<p>當你完成一次長休時，你可以創造一顆持續至你再次使用此特性的魔法石。這枚石頭是一個微型物體，且你可以將其用作你的法師法術的施法法器。帶著該石頭的生物會獲得體質豁免檢定的熟練，以及下列好處中的一種（由你在創造石頭時選擇）。你也可以在使用法術位施放一道變化學派法術後改變此好處。</p><p><span class=\"inline-h4\"><em><strong>【黑暗視覺】</strong></em></span>擁有者獲得60呎的黑暗視覺，或是將其黑暗視覺的範圍擴大60呎。</p><p><span class=\"inline-h4\"><em><strong>【抗力】</strong></em></span>擁有者獲得對強酸、寒冷、火焰、閃電、毒素、雷鳴傷害的抗力（每次你選擇此好處時，由你自行選擇一種傷害類型）。</p><p><span class=\"inline-h4\"><em><strong>【速度】</strong></em></span>擁有者的速度提升10呎。</p><section id=\"secret-9vsSXrF720FyorEA\" class=\"secret\"><p><strong>Foundry 註記</strong></p><p>此特性包含可套用在你的變化師之石上的附魔。你可以視需要移除這些附魔，並以新的附魔取代。<strong>抗力</strong>附魔可以重複使用多次，以套用多種不同的抗力。</p></section>"
     },
     "Ever-Ready Shot": {
       "advancement": {
@@ -177,13 +177,13 @@
       "name": "有箭無患"
     },
     "Necromancy Savant": {
-      "name": "Necromancy Savant",
+      "name": "死靈學者",
       "advancement": {
         "AKw9wLUr2rWMwE1K": {
-          "hint": "<p>Choose two Wizard spells from the Necromancy school, each of which must be no higher than level 2, and add them to your spellbook for free.</p><p>In addition, whenever you gain access to a new level of spell slots in this class, you can add one Wizard spell from the Necromancy school to your spellbook for free. The chosen spell must be of a level for which you have spell slots.</p>"
+          "hint": "<p>從法師法術列表中選擇兩道不高於2環的死靈學派法術，並將其免費抄入你的法術書。</p><p>此外，每當你在本職業中獲得一個新環階的法術位時，你都能免費將一道法師法術列表中的死靈學派法術抄入你的法術書。你所選的法術都必須是你當前擁有法術位的環階。</p>"
         }
       },
-      "description": "<p>Choose two Wizard spells from the Necromancy school, each of which must be no higher than level 2, and add them to your spellbook for free.</p><p>In addition, whenever you gain access to a new level of spell slots in this class, you can add one Wizard spell from the Necromancy school to your spellbook for free. The chosen spell must be of a level for which you have spell slots.</p>"
+      "description": "<p>從法師法術列表中選擇兩道不高於2環的死靈學派法術，並將其免費抄入你的法術書。</p><p>此外，每當你在本職業中獲得一個新環階的法術位時，你都能免費將一道法師法術列表中的死靈學派法術抄入你的法術書。你所選的法術都必須是你當前擁有法術位的環階。</p>"
     },
     "Dispelling Recovery": {
       "activities": {
@@ -221,39 +221,39 @@
       "description": "<p>你的契靈夥伴的力量不斷成長，愈發強大。借助你的力量，其能夠短暫化作更加強大的形態。根據契靈的類型，當契靈位於你90呎內時，你可以採取魔法動作使其變形，持續1小時，變為下列形態之一：<strong>天界靈魄</strong>（天界生物契靈；見<em>《玩家手冊》</em>中的法術<em>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplSummonCele]{天界生物召喚術}</em>）、<strong>邪魔靈魄</strong>（邪魔契靈；見<em>《玩家手冊》</em>中的法術<em>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplSummonFien]{邪魔召喚術}</em>），或<strong>不死靈魄</strong>（不死生物契靈；見<em>《玩家手冊》</em>中的法術<em>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplSummonUnde]{不死生物召喚術}</em>）。該契靈的遊戲數據會被靈魄的數值面板所替換，並且該法術的環階等同於你契術師等級的一半（向下取整；最高9環），但該契靈保留其自身的人格、神聖之力附贈動作、生命值以及生命骰。</p><p>契靈夥伴獲得等同於該靈魄形態生命值的臨時生命值。若這些臨時生命值在1小時後仍有剩餘，便會消失；並且若該契靈的臨時生命值耗盡，此變形將提前結束。</p><p>此特性一經使用，直到完成長休前你無法再次使用。</p><section id=\"secret-GxwxdxU1Jup55ZMI\" class=\"secret\"><p><strong>Foundry 註記</strong></p><p>請使用想讓你的契靈夥伴變形成的生物所對應的召喚行動，使其依你的等級縮放，然後將該角色拖放到你的契靈的角色卡上，以進行變形。</p></section>"
     },
     "Enchanting Conversation (Deception)": {
-      "name": "Enchanting Conversation (Deception)",
-      "description": "<p>You gain proficiency in Deception.</p><p>In addition, when you make an ability check with the chosen skill, you gain a bonus to the check equal to your Intelligence modifier (minimum of +1).</p>",
+      "name": "惑心善言（欺瞞）",
+      "description": "<p>你獲得欺瞞的熟練。</p><p>此外，當你使用所選技能進行屬性檢定時，你獲得等同於你智力調整值的加值（至少+1）。</p>",
       "advancement": {
         "u52oqCfB5pTiTdUz": {
-          "hint": "<p>You gain proficiency in Deception.</p>"
+          "hint": "<p>你獲得欺瞞的熟練。</p>"
         }
       },
       "effects": {
         "Enchanting Deception": {
-          "name": "Enchanting Deception"
+          "name": "惑心善言（欺瞞）"
         }
       }
     },
     "Distant Transposition": {
-      "description": "<p>The range of your Benign Transposition feature increases to 60 feet. Additionally, you can restore one use of it by expending a level 3+ spell slot (no action required).</p>",
-      "name": "Distant Transposition"
+      "description": "<p>你的王車易位特性的距離增加至60呎。此外，你也可以消耗一個3環以上的法術位，來重獲此特性的一次使用次數（無需動作）。</p>",
+      "name": "遠距易位"
     },
     "Transmuter": {
-      "description": "<p><em>Transform Energy and Matter</em></p><p>You study spells that modify energy and matter—to you, the world is eminently mutable. Using your magic, you become a smith at reality’s forge.</p><p>Some Transmuters are tinkerers and pranksters. Others seek the power to make and destroy worlds.</p>",
-      "name": "Transmuter"
+      "description": "<p><em>重構能量和物質</em></p><p>你專精於修改能量和物質的法術，對你來說，世界法則並非磐石，你可以輕易改變。使用你的魔法，你便能成為鍛造現實的工匠。</p><p>有些變化師只是想用法術給世界縫縫補補或者用來開個玩笑。其他的變化師則尋求能夠創造或者毀滅世界的偉力。</p>",
+      "name": "變化師"
     },
     "Alter Memories": {
-      "name": "Alter Memories",
-      "description": "<p>You can make a creature unaware of your magical influence. When you cast an Enchantment spell that imposes the &amp;Reference[Charmed apply=false] condition using a spell slot, you can choose one creature targeted by the spell. That creature remains unaware of being Charmed by you.</p><p>In addition, once before the spell ends, you can take a Magic action to force the chosen creature to make an Intelligence saving throw against your spell save DC. On a failed save, you can make the creature lose a number of hours of its memories equal to 1 plus your Intelligence modifier (minimum of 1 hour lost; maximum of<strong>:</strong> [[max(1 + @abilities.int.mod, 1)]] hours). You can make the creature forget less time, and the amount of time can’t exceed the duration of your Enchantment spell.</p>"
+      "name": "改寫記憶",
+      "description": "<p>你可以讓一個生物察覺不到你的魔法影響。當你使用法術位施放一道會使目標陷入&amp;Reference[Charmed apply=false]{魅惑}狀態的惑控學派法術時，你可以選擇該法術的一個目標。該生物不會意識到自己正被你魅惑。</p><p>此外，在法術結束前限一次，你可以採取魔法動作，迫使所選生物進行一次對抗你法術豁免DC的智力豁免檢定。豁免失敗時，你可以使其失去若干小時的記憶，其小時數等同於1 + 你的智力調整值（至少失去1小時；最多<strong>：</strong>[[max(1 + @abilities.int.mod, 1)]]小時）。你可以選擇讓目標忘記更短的時間，且總時間不能超過你的惑控學派法術的持續時間。</p>"
     },
     "Benign Transposition": {
       "activities": {
         "Restore Use": {
-          "name": "Restore Use"
+          "name": "恢復使用次數"
         }
       },
-      "description": "<p>As a Bonus Action, you teleport up to 30 feet to an unoccupied space that you can see. Alternatively, you can choose a space within range that is occupied by a Medium or smaller creature. If that creature is willing, you both teleport, swapping places.</p><p>You can use this feature a number of times equal to your Intelligence modifier (minimum of once), and you regain all expended uses when you finish a Long Rest.</p><section id=\"secret-IP2XxTe8cBkyLdBn\" class=\"secret hide-in-embed\"><p><strong>Foundry Notes</strong></p><p>The Teleport activity handles normal teleport movement but doesn't enforce the swap restrictions. For a swap, verify the other creature is willing and Medium or smaller, then exchange the two tokens' spaces manually.</p></section>",
-      "name": "Benign Transposition"
+      "description": "<p>作為附贈動作，你傳送到至多30呎一處你所能看見的未佔據空間。或者，你可以選擇該範圍內一個被中型或更小的生物佔據的空間。若該生物自願，你們兩人同時傳送，並互換位置。</p><p>你可以使用此特性的次數等同於你的智力調整值（至少1次）。當你完成長休時，你重獲所有已消耗的使用次數。</p><section id=\"secret-IP2XxTe8cBkyLdBn\" class=\"secret hide-in-embed\"><p><strong>Foundry 註記</strong></p><p>傳送行動可處理一般的傳送移動，但不會強制執行互換的限制。若要互換，請確認另一名生物自願且為中型或更小，然後手動交換兩個指示物的所在空間。</p></section>",
+      "name": "王車易位"
     },
     "Curving Shot": {
       "name": "曲線射擊",
@@ -270,11 +270,11 @@
       }
     },
     "Grave Power": {
-      "name": "Grave Power",
-      "description": "<p>You have discovered more necromantic insights and inscribed them in your spellbook. While holding your spellbook, you gain the following benefits.</p><p><span class=\"inline-h4\"><em><strong>Grave Resilience.</strong></em></span> When you use Arcane Recovery, your Exhaustion level, if any, decreases by 1.</p><p><span class=\"inline-h4\"><em><strong>Overwhelming Necrosis.</strong></em></span> Damage from your Wizard spells and Wizard features ignores Resistance to Necrotic damage.</p><section id=\"secret-CIVLhFvHcJ8FfieR\" class=\"secret hide-in-embed\"><p><strong>Foundry Notes</strong></p><p><strong>Overwhelming Necrosis.</strong> Foundry doesn't automatically ignore Necrotic Resistance for damage from your Wizard spells and Wizard features. If a target has Resistance to Necrotic damage, apply the full Necrotic damage instead of halving it.</p></section>",
+      "name": "墳冢之力",
+      "description": "<p>你進一步洞悉了死靈術的核心，並將這些內容記錄進了你的法術書。在你持握法術書期間，你獲得下列好處。</p><p><span class=\"inline-h4\"><em><strong>【墳冢之韌】</strong></em></span>當你使用奧術恢復時，你的力竭等級（若有）減少1級。</p><p><span class=\"inline-h4\"><em><strong>【朽壞之威】</strong></em></span>你的法師法術和法師特性造成的黯蝕傷害無視對黯蝕傷害的抗力。</p><section id=\"secret-CIVLhFvHcJ8FfieR\" class=\"secret hide-in-embed\"><p><strong>Foundry 註記</strong></p><p><strong>朽壞之威</strong>Foundry 不會自動對你的法師法術與法師特性造成的傷害忽略黯蝕抗力。若目標具有黯蝕傷害抗力，請套用全額黯蝕傷害，而不是減半。</p></section>",
       "advancement": {
         "bQ60shzNektNYSL6": {
-          "hint": "<p><span class=\"inline-h4\"><em><strong>Grave Resilience.</strong></em></span> When you use Arcane Recovery, your Exhaustion level, if any, decreases by 1.</p>"
+          "hint": "<p><span class=\"inline-h4\"><em><strong>【墳冢之韌】</strong></em></span>當你使用奧術恢復時，你的力竭等級（若有）減少1級。</p>"
         }
       }
     },
@@ -345,17 +345,17 @@
       "name": "祕法內功"
     },
     "Transmuter Stone": {
-      "name": "Transmuter Stone",
+      "name": "變化師之石",
       "effects": {
         "Transmuter Stone": {
-          "name": "Transmuter Stone"
+          "name": "變化師之石"
         }
       },
-      "description": "<p>The stone is a Tiny object, and you can use it as a Spellcasting Focus for your Wizard spells. A creature with the stone in its possession gains proficiency in Constitution saving throws and can include benefits from the Transmuter's Stone feature. The current benefits (if any are applied) are:</p>"
+      "description": "<p>這枚石頭是一個微型物體，且你可以將其用作你的法師法術的施法法器。帶著該石頭的生物會獲得體質豁免檢定的熟練，並可包含變化師之石特性所提供的好處。目前的好處（若有套用）為：</p>"
     },
     "Conjurer": {
-      "description": "<p><em>Step Across Space and Call Creatures from Thin Air</em></p><p>A Conjurer considers distance and matter to be flexible guidelines rather than physical laws. Conjurers master magic that moves creatures instantly through space and summons creatures to fight on their behalf.</p>",
-      "name": "Conjurer"
+      "description": "<p><em>縮地成寸，無中生有</em></p><p>咒法師將距離與物質視為可以變通的準則，而非不可輕易違背的物理法則。咒法師精通能夠讓生物瞬間穿越空間的魔法，並能召喚生物代替自己戰鬥。</p>",
+      "name": "咒法師"
     },
     "Banishing Shot": {
       "description": "<p>你的彈藥將目標暫時隔離在無害的半位面中。你命中的生物額外承受等同於一枚奧術射擊骰的心靈傷害，且必須成功通過一次魅力豁免檢定，否則被放逐。</p><p>被放逐期間，該生物陷入&amp;Reference[Incapacitated apply=false]{失能}狀態且速度為0。在其下個回合結束時，目標會重新出現在其原本所在的空間；若該空間已被佔據，則出現在最近的未佔據空間。</p>",
@@ -380,74 +380,74 @@
     "Enchantment Savant": {
       "advancement": {
         "uUaB153AMqwjd2kd": {
-          "hint": "<p>Choose two Wizard spells from the Enchantment school, each of which must be no higher than level 2, and add them to your spellbook for free.</p><p>In addition, whenever you gain access to a new level of spell slots in this class, you can add one Wizard spell from the Enchantment school to your spellbook for free. The chosen spell must be of a level for which you have spell slots.</p>"
+          "hint": "<p>從法師法術列表中選擇兩道不高於2環的惑控學派法術，並將其免費抄入你的法術書。</p><p>此外，每當你在本職業中獲得一個新環階的法術位時，你都能免費將一道法師法術列表中的惑控學派法術抄入你的法術書。你所選的法術都必須是你當前擁有法術位的環階。</p>"
         }
       },
-      "description": "<p>Choose two Wizard spells from the Enchantment school, each of which must be no higher than level 2, and add them to your spellbook for free.</p><p>In addition, whenever you gain access to a new level of spell slots in this class, you can add one Wizard spell from the Enchantment school to your spellbook for free. The chosen spell must be of a level for which you have spell slots.</p>",
-      "name": "Enchantment Savant"
+      "description": "<p>從法師法術列表中選擇兩道不高於2環的惑控學派法術，並將其免費抄入你的法術書。</p><p>此外，每當你在本職業中獲得一個新環階的法術位時，你都能免費將一道法師法術列表中的惑控學派法術抄入你的法術書。你所選的法術都必須是你當前擁有法術位的環階。</p>",
+      "name": "惑控學者"
     },
     "Vestige Spells (War)": {
       "name": "契靈法術（戰爭）",
       "description": "<p>契靈夥伴的魔法確保你始終準備著特定的法術。從下列牧師領域中選擇其一：生命、光明、詭術或戰爭。你所選領域的領域法術對你而言視為契術師法術。當你到達的契術師等級等同於你所選領域的領域法術表中所列的牧師等級時，你此後始終準備著所列的法術。</p><p>例如，若你為此特性選擇了戰爭領域，當你到達契術師3級時，你便準備了法術<em>@UUID[Compendium.dnd5e.spells24.Item.phbsplGuidingBol]{光導箭}</em>、<em>@UUID[Compendium.dnd5e.spells24.Item.phbsplMagicWeapo]{魔化武器}</em>、<em>@UUID[Compendium.dnd5e.spells24.Item.phbsplShieldofFa]{虔誠護盾}</em>與<em>@UUID[Compendium.dnd5e.spells24.Item.phbsplSpiritualW]{靈體武器}</em>。</p>"
     },
     "Enchanting Conversation": {
-      "description": "<p>You gain proficiency in one of the following skills of your choice: Deception, Intimidation, or Persuasion.</p><p>In addition, when you make an ability check with the chosen skill, you gain a bonus to the check equal to your Intelligence modifier (minimum of +1).</p>",
-      "name": "Enchanting Conversation",
+      "description": "<p>你在下列技能中選擇一項並獲得熟練：欺瞞、威嚇或說服。</p><p>此外，當你使用所選技能進行屬性檢定時，你獲得等同於你智力調整值的加值（至少+1）。</p>",
+      "name": "惑心善言",
       "advancement": {
         "WcSVwjh3aCH0bNvL": {
-          "hint": "<p>Choose one skill for Enchanting Conversation: Deception, Intimidation, or Persuasion. Your choice grants proficiency in that skill and applies the feature’s Intelligence modifier bonus to checks using it.</p>"
+          "hint": "<p>為惑心善言選擇一項技能：欺瞞、威嚇或說服。你的選擇會使你獲得該技能的熟練，並對使用該技能的檢定套用此特性的智力調整值加值。</p>"
         }
       }
     },
     "Undead Thralls": {
       "advancement": {
         "EH4n2nPforM9RQYP": {
-          "hint": "<p>You always have <em>@UUID[Compendium.dnd5e.spells24.Item.phbsplAnimateDea]{Animate Dead}</em> prepared and can cast it without expending a spell slot, but you must finish a Long Rest before you can cast it in this way again. Whenever you start casting the spell, you can increase the spell’s effective level by 1.</p>"
+          "hint": "<p>你始終準備著法術<em>@UUID[Compendium.dnd5e.spells24.Item.phbsplAnimateDea]{活化死屍}</em>，並且可以不消耗法術位施放該法術一次，但在你再次以此法施放該法術前，你必須完成一次長休。每當你開始施放該法術時，你可以對其進行調整，使該法術的有效環階提升一環。</p>"
         },
         "TQyDraJOy8HtXiZL": {
-          "hint": "<p>Whenever you cast Animate Dead the spell's level is increased by 1. It also has the benefits of <em><strong>Undead Fortitude</strong></em> and <em><strong>Withering Strike</strong></em>.</p>"
+          "hint": "<p>每當你施放活化死屍時，該法術的環階提升1環。其同時具有<em><strong>不死堅韌</strong></em>與<em><strong>凋零打擊</strong></em>的好處。</p>"
         }
       },
-      "name": "Undead Thralls",
+      "name": "不死僕役",
       "activities": {
         "Spell Improvements": {
-          "name": "Spell Improvements"
+          "name": "法術強化"
         }
       },
-      "description": "<p>You always have <em>@UUID[Compendium.dnd5e.spells24.Item.phbsplAnimateDea]{Animate Dead}</em> prepared and can cast it without expending a spell slot, but you must finish a Long Rest before you can cast it in this way again. Whenever you start casting the spell, you can increase the spell’s effective level by 1.</p><p>In addition, while holding your spellbook, you gain the following benefits.</p><p><span class=\"inline-h4\"><em><strong>Undead Fortitude.</strong></em></span> Whenever you cast a Necromancy spell that creates or summons an Undead, the Undead’s Hit Point maximum and current Hit Points increase by a number equal to your Intelligence modifier plus half your Wizard level (round down).</p><p><span class=\"inline-h4\"><em><strong>Withering Strike.</strong></em></span> Whenever an Undead you control within 60 feet of you hits a creature with an attack roll, the Undead deals extra Necrotic damage equal to your Intelligence modifier (minimum of 1 Necrotic damage).</p><section id=\"secret-7SB3q6JehDZTuqrX\" class=\"secret\"><p><strong>Foundry Note</strong></p><p>The improvements to <em>Animate Dead</em> are automatically applied. You can use the <strong>Spell Improvements</strong> enchantment on any other Necromancy spells to integrate the benefits of <em><strong>Undead Fortitude</strong></em> and <em><strong>Withering Strike</strong></em>.</p></section>"
+      "description": "<p>你始終準備著法術<em>@UUID[Compendium.dnd5e.spells24.Item.phbsplAnimateDea]{活化死屍}</em>，並且可以不消耗法術位施放該法術一次，但在你再次以此法施放該法術前，你必須完成一次長休。每當你開始施放該法術時，你可以對其進行調整，使該法術的有效環階提升一環。</p><p>此外，在你持握法術書期間，你獲得下列好處。</p><p><span class=\"inline-h4\"><em><strong>【不死堅韌】</strong></em></span>每當你施放一道會創造或召喚不死生物的死靈學派法術時，該不死生物的生命值上限和當前生命值增加，數值等同於你的智力調整值加上你法師等級的一半（向下取整）。</p><p><span class=\"inline-h4\"><em><strong>【凋零打擊】</strong></em></span>每當位於你60呎內、由你操控的不死生物以一次攻擊檢定命中一名生物時，該不死生物造成等同於你智力調整值的額外黯蝕傷害（至少1點黯蝕傷害）。</p><section id=\"secret-7SB3q6JehDZTuqrX\" class=\"secret\"><p><strong>Foundry 註記</strong></p><p>對<em>活化死屍</em>的強化會自動套用。你可以對任何其他死靈學派法術使用<strong>法術強化</strong>附魔，以整合<em><strong>不死堅韌</strong></em>與<em><strong>凋零打擊</strong></em>的好處。</p></section>"
     },
     "Enchanter": {
-      "name": "Enchanter",
-      "description": "<p><em>Entrance and Beguile Others</em></p><p>An Enchanter’s magic clouds or captivates minds. Some Enchanters use their abilities to encourage peace and soften cruelty, while others use their mind-altering magic for selfish ends.</p>"
+      "name": "惑控師",
+      "description": "<p><em>攝人心神，蠱惑他人</em></p><p>惑控師的魔法既能矇蔽心智，也能攝人心魄。一些惑控師運用這些能力促成和平、消解暴戾，另一些則把改變心智的魔法用於一己私利。</p>"
     },
     "Enchanting Conversation (Intimidation)": {
       "effects": {
         "Enchanting Intimidation": {
-          "name": "Enchanting Intimidation"
+          "name": "惑心善言（威嚇）"
         }
       },
-      "name": "Enchanting Conversation (Intimidation)",
-      "description": "<p>You gain proficiency in Intimidation.</p><p>In addition, when you make an ability check with the chosen skill, you gain a bonus to the check equal to your Intelligence modifier (minimum of +1).</p>",
+      "name": "惑心善言（威嚇）",
+      "description": "<p>你獲得威嚇的熟練。</p><p>此外，當你使用所選技能進行屬性檢定時，你獲得等同於你智力調整值的加值（至少+1）。</p>",
       "advancement": {
         "VL0jgCgBBTRe0zjZ": {
-          "hint": "<p>You gain proficiency in Intimidation.</p>"
+          "hint": "<p>你獲得威嚇的熟練。</p>"
         }
       }
     },
     "Master Transmuter": {
       "activities": {
         "Restore Life": {
-          "name": "Restore Life"
+          "name": "起死回生"
         },
         "Panacea": {
-          "name": "Panacea"
+          "name": "萬靈祕藥"
         },
         "Expend Spell Slot": {
-          "name": "Expend Spell Slot"
+          "name": "消耗法術位"
         }
       },
-      "description": "<p>While you carry your Transmuter’s Stone, you can take a Magic action to consume the reserve of transmutation magic stored inside and choose one of the following benefits. After you use the stone in this way, it crumbles to dust. You can prevent the stone from crumbling by expending a level 7+ spell slot as part of the Magic action you take using this feature.</p><p><em><strong>Major Transformation.</strong></em> You can transmute one nonmagical object—no larger than a 10-foot Cube or eight connected 5-foot Cubes—into another non-magical object of similar size and mass and of equal or lesser value. You must spend 10 minutes handling the object to transform it.</p><p><em><strong>Panacea.</strong></em> You touch a creature as part of this Magic action, and the target regains a number of Hit Points equal to half its Hit Point maximum (round down). The target is cured of all magical contagions, and any curses affecting the target are lifted, including the target’s Attunement to a cursed item. If the target has the Poisoned or Petrified condition, those conditions end.</p><p><em><strong>Restore Life.</strong></em> You cast the <em>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplRaiseDead0]{Raise Dead}</em> spell without expending a spell slot, using the stone in place of the required Material components.</p><p><em><strong>Restore Youth.</strong></em> You touch one willing creature as part of this Magic action, and the target’s Exhaustion level, if any, decreases to 0, and it permanently appears [[/r 3d10]] years younger, to a minimum of young adulthood.</p><section id=\"secret-g1y4y2qWE6FjAdoc\" class=\"secret hide-in-embed\"><p><strong>Foundry Notes</strong></p><p>After using Master Transmuter, unequip the Transmuter Stone to represent it crumbling unless you also use Expend Spell Slot to expend a level 7+ spell slot. Re-equip the stone after your next Long Rest when you create it again.</p><p>For Panacea, enter half the target's Hit Point maximum, rounded down, as the Scaling value and resolve its other removals manually. </p><p>Resolve Major Transformation and Restore Youth manually.</p></section>",
-      "name": "Master Transmuter"
+      "description": "<p>當你攜帶著變化師之石時，你可以採取魔法動作，將儲存在你變化師之石中的變化魔力一次耗盡，並選擇下列好處之一。在你以此方式使用了變化師之石後，其將崩解為灰塵。作為使用此特性的魔法動作的一部分，你也可以消耗一個7環以上的法術位來防止石頭崩解。</p><p><em><strong>【高級變化術】</strong></em>你可以變化一件不大於10呎立方或八個相連的5呎立方體的非魔法物體，使其變成另一個大小與質量相似、價值相等或更低的非魔法物體。你必須觸碰該物體10分鐘才能如此變化。</p><p><em><strong>【萬靈祕藥】</strong></em>作為此魔法動作的一部分，你觸碰一名生物。目標恢復等同於其生命值上限一半的生命值（向下取整）。目標會被治療其身上的全部魔法疫病和影響自身的任何詛咒——包括目標與受詛咒魔法物品的同調。若目標處於中毒或石化狀態，該狀態也會結束。</p><p><em><strong>【起死回生】</strong></em>你施放法術<em>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplRaiseDead0]{喚醒死者}</em>，不消耗法術位，並使用變化師之石代替所需的材料構材。</p><p><em><strong>【返老還童】</strong></em>作為此魔法動作的一部分，你觸碰一名自願生物，該生物的力竭等級（若有）降為0，且其外表永久性地變年輕[[/r 3d10]]歲，但至少會保持在剛成年時的狀態。</p><section id=\"secret-g1y4y2qWE6FjAdoc\" class=\"secret hide-in-embed\"><p><strong>Foundry 註記</strong></p><p>使用變化宗師後，除非你同時使用消耗法術位行動來消耗一個7環以上的法術位，否則請卸下變化師之石，以表示其崩解。在你下次長休後再次創造該石頭時，重新裝備該石頭。</p><p>使用萬靈祕藥時，請將目標生命值上限的一半（向下取整）輸入為升環數值，其他的移除效果請手動處理。</p><p>高級變化術與返老還童請手動處理。</p></section>",
+      "name": "變化宗師"
     },
     "Vestige Companion": {
       "name": "契靈夥伴",
@@ -463,53 +463,53 @@
       "description": "<p>現在，每當你完成一次短休或長休，或使用你的祕法回流特性時，你的契靈夥伴都會重獲其神聖之力的使用次數。此外，當你位於契靈夥伴30呎內時，你獲得與該契靈相同的傷害抗力。</p><section id=\"secret-CxYREKXuRmiApzSY\" class=\"secret hide-in-embed\"><p><strong>Foundry 註記</strong></p><p>在符合條件的休息或使用祕法回流後，請在已顯化契靈的角色卡上，手動將其神聖之力重置為1次使用。契術師所獲得的對應傷害抗力不會自動套用；請在其生效期間手動裁定該抗力。</p></section>"
     },
     "Necromancer": {
-      "name": "Necromancer",
-      "description": "<p><em>Command the Powers of Death and Undeath</em></p><p>You explore the forces of life, death, and undeath. As a necromancer, you learn to manipulate the energy that animates all creatures, and you draw increasing power from the forbidden secrets in your spellbook. Though many see Necromancers as menacing or villainous, not all Necromancers are evil.</p>"
+      "name": "死靈師",
+      "description": "<p><em>死亡與不朽之主宰</em></p><p>你探索生命、死亡與不朽之力。作為一名死靈師，你知曉如何操控驅使生物活動的能量，並從載於法術書的那些禁忌祕密中汲取日益強大的力量。儘管許多人視死靈師為可怖或邪惡之徒，但並非所有死靈師都是邪惡的。</p>"
     },
     "Split Enchantment": {
       "activities": {
         "Cast Spell: 8th → 9th Level": {
-          "name": "Cast Spell: 8th → 9th Level"
+          "name": "施放法術：8環→9環"
         },
         "Cast Spell: 1st → 2nd Level": {
-          "name": "Cast Spell: 1st → 2nd Level"
+          "name": "施放法術：1環→2環"
         },
         "Cast Spell: 4th → 5th Level": {
-          "name": "Cast Spell: 4th → 5th Level"
+          "name": "施放法術：4環→5環"
         },
         "Cast Spell: 5th → 6th Level": {
-          "name": "Cast Spell: 5th → 6th Level"
+          "name": "施放法術：5環→6環"
         },
         "Cast Spell: 6th → 7th Level": {
-          "name": "Cast Spell: 6th → 7th Level"
+          "name": "施放法術：6環→7環"
         },
         "Cast Spell: 7th → 8th Level": {
-          "name": "Cast Spell: 7th → 8th Level"
+          "name": "施放法術：7環→8環"
         },
         "Cast Spell: 2nd → 3rd Level": {
-          "name": "Cast Spell: 2nd → 3rd Level"
+          "name": "施放法術：2環→3環"
         },
         "Cast Spell: 3rd → 4th Level": {
-          "name": "Cast Spell: 3rd → 4th Level"
+          "name": "施放法術：3環→4環"
         }
       },
-      "description": "<p>When you use a spell slot to cast an Enchantment spell, such as <em>@UUID[Compendium.dnd5e.spells24.Item.phbsplCharmPerso]{Charm Person}</em>, that can be cast with a higher-level spell slot to target an additional creature, you can increase the spell’s effective level by 1.</p><p>You can use this feature a number of times equal to your Intelligence modifier, and you regain all expended uses when you finish a Long Rest.</p><section id=\"secret-rzMF0sjS1za8A1od\" class=\"secret hide-in-embed\"><p><strong>Foundry Notes</strong></p><p>Cast the qualifying Enchantment spell one spell-slot level higher than the slot you want to expend, allowing Foundry to apply the increased target count and consume that higher-level slot. </p><p>Then use the matching <strong>Split Enchantment</strong> activity. It restores the higher-level slot, expends the correct slot one level lower, and spends one use of Split Enchantment.</p></section>",
-      "name": "Split Enchantment"
+      "description": "<p>當你使用法術位施放一道惑控學派法術，例如<em>@UUID[Compendium.dnd5e.spells24.Item.phbsplCharmPerso]{魅惑人類}</em>，且該法術可以使用更高環階的法術位施放來額外指定一名生物為目標時，你可以使該法術的有效環階提升一環。</p><p>你可以使用此特性的次數等同於你的智力調整值，並在完成長休時重獲所有已消耗的使用次數。</p><section id=\"secret-rzMF0sjS1za8A1od\" class=\"secret hide-in-embed\"><p><strong>Foundry 註記</strong></p><p>使用比你想消耗的法術位高一環的法術位，來施放符合條件的惑控學派法術，讓 Foundry 套用增加的目標數量並消耗該較高環階的法術位。</p><p>接著使用對應的<strong>分裂惑控</strong>行動。其會恢復該較高環階的法術位、消耗低一環的正確法術位，並消耗一次分裂惑控的使用次數。</p></section>",
+      "name": "分裂惑控"
     },
     "Splintered Summons": {
-      "name": "Splintered Summons",
+      "name": "裂分召喚",
       "activities": {
         "Restore Use": {
-          "name": "Restore Use"
+          "name": "恢復使用次數"
         },
         "utility": {
-          "condition": "When you use a spell slot to cast a Conjuration spell that summons a spirit whose stat block is included in the spell description"
+          "condition": "當你使用法術位施放一道咒法學派法術，並且該法術會召喚一個其數值面板包含於法術描述中的靈魄時"
         }
       },
-      "description": "<p>When you use a spell slot to cast a Conjuration spell that summons a spirit whose stat block is included in the spell description, such as <em>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplSummonAber]{Summon Aberration}</em>, you can modify the spell to summon two creatures with the spell instead of one. Each creature is of the same kind, uses the stat block and rules denoted by the spell, and manifests in a different unoccupied space of your choice within the spell’s range, but the summoned creatures’ Hit Point maximums and current Hit Points are halved. If you lose Concentration on the spell, both creatures disappear.</p><p>Once you use this feature to modify a spell in this way, you must finish a Long Rest before you can do so again. You can also restore your use of it by expending a level 5+ spell slot (no action required).</p><section id=\"secret-sgkOOp9V8YKLoWZH\" class=\"secret hide-in-embed\"><p><strong>Foundry Notes</strong></p><p>Cast the eligible summon spell normally and use its Summon chat button twice to place two copies of the same spirit. Then target both creatures and use Splintered Summons to apply the halved Hit Points effect.</p></section>",
+      "description": "<p>當你使用法術位施放一道咒法學派法術，並且該法術會召喚一個其數值面板包含於法術描述中的靈魄時（例如<em>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplSummonAber]{異怪召喚術}</em>），你可以修改該法術，使其召喚兩個生物而非一個。每個生物均屬於相同種類，並使用該法術所規定的數值面板與規則。其會分別顯現在該法術射程內由你選擇的不同未佔據空間中。但是，所召喚生物的生命值上限與當前生命值均減半。若你失去對該法術的專注，這兩個生物都會消失。</p><p>一旦你使用此特性以此方式修改了法術，你必須完成一次長休才能再次使用。你也可以消耗一個5環以上的法術位，來重置此特性的使用權（無需動作）。</p><section id=\"secret-sgkOOp9V8YKLoWZH\" class=\"secret hide-in-embed\"><p><strong>Foundry 註記</strong></p><p>照常施放符合條件的召喚法術，並使用其召喚聊天按鈕兩次，放置兩個相同的靈魄。接著以這兩個生物為目標，使用裂分召喚來套用生命值減半的效果。</p></section>",
       "effects": {
         "Splintered Summon": {
-          "name": "Splintered Summon"
+          "name": "裂分召喚"
         }
       }
     },
@@ -542,61 +542,61 @@
       "name": "施法"
     },
     "Potent Stone": {
-      "name": "Potent Stone",
-      "description": "<p>Your Transmuter’s Stone is more versatile. When you create your Transmuter’s Stone, you can choose up to two benefits. You can choose each option other than Resistance only once. If you choose Resistance twice, you must choose different damage types. You can change either or both benefits when you cast a Transmutation spell using a spell slot.</p><p>In addition, the following are now among your benefit options for Transmuter’s Stone.</p><p><span class=\"inline-h4\"><em><strong>Mighty Build.</strong></em></span> The bearer has Advantage on Strength saving throws. The bearer also counts as one size larger when determining its carrying capacity.</p><p><span class=\"inline-h4\"><em><strong>Tremorsense.</strong></em></span> The bearer gains Tremorsense with a range of 30 feet.</p><section id=\"secret-IjF57btSMj6a9dRP\" class=\"secret\"><p><strong>Foundry Note</strong></p><p>These options are automatically added to your [[/item Transmuter's Stone]] feature.</p></section>"
+      "name": "強效之石",
+      "description": "<p>你的變化師之石變得更加靈活多用。現在你創造變化師之石時，你可以選擇至多兩個好處。除了抗力以外的每個選項只能選擇一次。若你選擇兩次抗力，你必須選擇不同的傷害類型。當你使用法術位施放一道變化學派法術後，你可以改變其中一個或兩個好處。</p><p>此外，下列選項現在也列入你的變化師之石的好處選項中。</p><p><span class=\"inline-h4\"><em><strong>【強健身形】</strong></em></span>擁有者的力量豁免檢定具有優勢。擁有者在決定其負重時也會被記為大一級體型。</p><p><span class=\"inline-h4\"><em><strong>【震顫感知】</strong></em></span>擁有者獲得30呎的震顫感知。</p><section id=\"secret-IjF57btSMj6a9dRP\" class=\"secret\"><p><strong>Foundry 註記</strong></p><p>這些選項會自動加入你的 [[/item Transmuter's Stone]] 特性。</p></section>"
     },
     "Necromancy Spellbook": {
-      "description": "<p>Your spellbook’s necromantic secrets grant you additional powers. You gain the following benefits.</p><p><span class=\"inline-h4\"><em><strong>Necrotic Resistance.</strong></em></span> You have Resistance to Necrotic damage.</p><p><span class=\"inline-h4\"><em><strong>Undead Familiar.</strong></em></span> The <em>@UUID[Compendium.dnd5e.spells24.Item.phbsplFindFamili]{Find Familiar}</em> spell appears in your spellbook. When you cast the spell, you choose one of the normal forms for your familiar or one of the following special forms: <strong>Skeleton</strong> or <strong>Zombie</strong> (see appendix B of the <em>Player’s Handbook</em> for the familiar’s stat block). When you choose one of the normal forms, you can choose Undead as its creature type.</p><p>Additionally, when you take the Attack action, you can forgo one of your own attacks to allow your familiar to make one attack of its own with its Reaction.</p><p><span class=\"inline-h4\"><em><strong>Undead Vitality.</strong></em></span> When you cast a Necromancy spell using a spell slot, you can choose an Undead creature you can see within 60 feet of yourself to regain a number of Hit Points equal to the level of the spell slot expended plus your Wizard level.</p>",
-      "name": "Necromancy Spellbook",
+      "description": "<p>記載在你的法術書中的死靈魔法祕儀令你獲得了更多的力量。你獲得下列好處。</p><p><span class=\"inline-h4\"><em><strong>【黯蝕抗力】</strong></em></span>你具有黯蝕傷害抗力。</p><p><span class=\"inline-h4\"><em><strong>【不死魔寵】</strong></em></span>法術<em>@UUID[Compendium.dnd5e.spells24.Item.phbsplFindFamili]{尋獲魔寵}</em>出現在你的法術書中。當你施放該法術時，除了通常的形態選項，你還可以改為選擇下列特殊形態之一：<strong>骷髏</strong>或<strong>喪屍</strong>（魔寵的數值面板見<em>《玩家手冊》</em>附錄B）。當你使用通常的形態選項時，你可以選擇不死生物作為其生物類型。</p><p>此外，當你採取攻擊動作時，你可以放棄你自己的一次攻擊，轉而讓你的魔寵使用其反應進行一次攻擊。</p><p><span class=\"inline-h4\"><em><strong>【不死生機】</strong></em></span>當你使用法術位施放一道死靈學派法術時，你可以選擇位於你60呎內一名你所能看見的不死生物，使其恢復等同於所消耗法術位環階加上你法師等級的生命值。</p>",
+      "name": "死靈魔典",
       "advancement": {
         "53nSv1GAo6wXWt5A": {
-          "hint": "<p>When you cast Find Familiar, you choose one of the normal forms for your familiar or one of the following special forms: <strong>Skeleton</strong> or <strong>Zombie</strong>. When you choose one of the normal forms, you can choose Undead as its creature type.</p>"
+          "hint": "<p>當你施放尋獲魔寵時，你可以選擇魔寵的一種通常形態，或下列其中一種特殊形態：<strong>骷髏</strong>或<strong>喪屍</strong>。當你選擇通常形態時，你可以選擇不死生物作為其生物類型。</p>"
         },
         "yUEiTJrLsByaEvWV": {
-          "hint": "<p>The <em>Find Familiar</em> spell appears in your spellbook.</p>"
+          "hint": "<p>法術<em>尋獲魔寵</em>出現在你的法術書中。</p>"
         },
         "uAEFNQd4AgPZ68cN": {
-          "hint": "<p>You have Resistance to Necrotic damage.</p>"
+          "hint": "<p>你具有黯蝕傷害抗力。</p>"
         }
       },
       "effects": {
         "Undead Familiar": {
-          "name": "Undead Familiar"
+          "name": "不死魔寵"
         }
       },
       "activities": {
         "Undead Vitality": {
-          "name": "Undead Vitality",
-          "condition": "When you cast a Necromancy spell using a spell slot",
-          "target": "Undead you can see"
+          "name": "不死生機",
+          "condition": "當你使用法術位施放一道死靈學派法術時",
+          "target": "你所能看見的不死生物"
         },
         "Summon Undead Familiar": {
-          "name": "Summon Undead Familiar"
+          "name": "召喚不死魔寵"
         }
       }
     },
     "Focused Conjuration": {
-      "name": "Focused Conjuration",
-      "description": "<p>Taking damage can’t break your Concentration on Conjuration spells.</p>"
+      "name": "潛神咒喚",
+      "description": "<p>承受傷害無法打斷你對咒法學派法術的專注。</p>"
     },
     "Empowered Transmutation": {
-      "name": "Empowered Transmutation",
+      "name": "強力變化",
       "activities": {
         "Expend Use": {
-          "name": "Expend Use"
+          "name": "消耗使用次數"
         }
       },
-      "description": "<p>When you use a spell slot to cast a Transmutation spell that doesn’t make an attack roll or force a saving throw, such as <em>@UUID[Compendium.dnd5e.spells24.Item.phbsplFly0000000]{Fly}</em> or <em>@UUID[Compendium.dnd5e.spells24.Item.phbsplMagicWeapo]{Magic Weapon}</em>, you can increase the spell’s effective level by 1.</p><p>You can use this feature a number of times equal to your Intelligence modifier (minimum of once), and you regain all expended uses when you finish a Long Rest.</p><section id=\"secret-aH5uLHKpx9cJfWAZ\" class=\"secret\"><p><strong>Foundry Note</strong></p><p>This feature can be used to track uses but does not automatically scale the level of the spell.</p></section>"
+      "description": "<p>當你使用法術位施放一道不進行攻擊檢定也不迫使進行豁免檢定的變化學派法術，例如<em>@UUID[Compendium.dnd5e.spells24.Item.phbsplFly0000000]{飛行術}</em>或<em>@UUID[Compendium.dnd5e.spells24.Item.phbsplMagicWeapo]{魔化武器}</em>時，你可以令該法術的有效環階提升一環。</p><p>你可以使用此特性的次數等同於你的智力調整值（至少1次），並在完成長休時重獲所有已消耗的使用次數。</p><section id=\"secret-aH5uLHKpx9cJfWAZ\" class=\"secret\"><p><strong>Foundry 註記</strong></p><p>此特性可用來追蹤使用次數，但不會自動提升法術的環階。</p></section>"
     },
     "Instinctive Charm": {
-      "description": "<p>When a creature within 30 feet of you that you can see hits you with an attack roll, you can take a Reaction to force the attacker to make a Wisdom saving throw against your spell save DC. On a failed save, the attack misses instead, and if there is another creature within range of the attack other than the attacker, the attacker targets that creature with the triggering attack, using the same attack roll. If multiple creatures are within the attack’s range, you choose which one to target.</p><p>Once you take this Reaction, you can’t do so again until you finish a Long Rest. You can also restore your use of it by casting an Enchantment spell with a spell slot.</p>",
+      "description": "<p>當一名位於你30呎內且你所能看見的生物以攻擊檢定命中你時，你可以採取反應，迫使攻擊者進行一次對抗你法術豁免DC的感知豁免檢定。豁免失敗時，該攻擊改為失手，且若有除了攻擊者以外的另一名生物在攻擊者該次攻擊的範圍內，攻擊者將那名生物指定為觸發攻擊的目標，並使用同一次攻擊檢定。若有多名生物在該次攻擊的範圍內，則由你選擇指定哪個生物為目標。</p><p>此反應一經使用，直到完成長休前，你無法再如此做。你也可以使用法術位施放一道惑控學派法術，來重置此特性的使用權。</p>",
       "activities": {
         "Restore Use": {
-          "name": "Restore Use",
-          "condition": "Cast an Enchantment spell with a spell slot"
+          "name": "恢復使用次數",
+          "condition": "使用法術位施放一道惑控學派法術"
         }
       },
-      "name": "Instinctive Charm"
+      "name": "本能魅惑"
     },
     "Vestige Spells (Life)": {
       "description": "<p>契靈夥伴的魔法確保你始終準備著特定的法術。從下列牧師領域中選擇其一：生命、光明、詭術或戰爭。你所選領域的領域法術對你而言視為契術師法術。當你到達的契術師等級等同於你所選領域的領域法術表中所列的牧師等級時，你此後始終準備著所列的法術。</p><p>例如，若你為此特性選擇了戰爭領域，當你到達契術師3級時，你便準備了法術<em>@UUID[Compendium.dnd5e.spells24.Item.phbsplGuidingBol]{光導箭}</em>、<em>@UUID[Compendium.dnd5e.spells24.Item.phbsplMagicWeapo]{魔化武器}</em>、<em>@UUID[Compendium.dnd5e.spells24.Item.phbsplShieldofFa]{虔誠護盾}</em>與<em>@UUID[Compendium.dnd5e.spells24.Item.phbsplSpiritualW]{靈體武器}</em>。</p>",
@@ -607,13 +607,13 @@
       "description": "<p><em>融匯武藝與祕術</em></p><p>祕術武者通過運用魔法來增強他們的武藝。他們駕馭著自己的超凡內力，來增強他們的魔法與身體能力。</p>"
     },
     "Harvest Undead": {
-      "description": "<p>You have learned more secrets about the nuances of life and death. Immediately after you become &amp;Reference[Bloodied apply=false] but aren’t reduced to 0 Hit Points from taking damage, you can take a Reaction to reduce an Undead creature under your control that you can see to 0 Hit Points. You then immediately regain a number of Hit Points equal to your Wizard level.</p>",
+      "description": "<p>你知曉了更多關於生死之異同的祕密。緊接在你承受傷害而陷入&amp;Reference[Bloodied apply=false]{重傷}狀態，但並未降至0點生命值後，你可以採取反應，將一個由你控制且你所能看見的不死生物降至0點生命值。隨後你立即恢復等同於你法師等級的生命值。</p>",
       "activities": {
         "heal": {
-          "range": "Undead that you can see"
+          "range": "你所能看見的不死生物"
         }
       },
-      "name": "Harvest Undead"
+      "name": "收割不死"
     },
     "Student of Arcana": {
       "advancement": {
@@ -656,49 +656,49 @@
       "description": "<p>你的彈藥以陰影遮蔽敵人的視線。你命中的生物額外承受等同於一枚奧術射擊骰的心靈傷害，且必須成功通過一次感知豁免檢定，否則陷入&amp;Reference[Blinded apply=false]{目盲}狀態直到其下個回合結束。</p>"
     },
     "Hypnotic Presence": {
-      "description": "<p>Your charming words and enchanting gaze can enthrall another creature. As a Magic action, choose one creature that you can see within 10 feet of yourself. If the target can see or hear you, it must succeed on a Wisdom saving throw against your spell save DC or have the &amp;Reference[Charmed apply=false] condition for 1 minute or until the target is more than 10 feet away from you, the target can neither see nor hear you, or the target takes damage. While Charmed, the target has the &amp;Reference[Incapacitated apply=false] condition and a Speed of 0.</p><p>You can use this feature a number of times equal to your Intelligence modifier (minimum of once), and you regain all expended uses when you finish a Long Rest.</p><section id=\"secret-TmiTf3R7QgHAkvHY\" class=\"secret hide-in-embed\"><p><strong>Foundry Notes</strong></p><p>Foundry applies the 1-minute duration automatically, but it doesn't end the effect when the target moves more than 10 feet away, can no longer see or hear you, or takes damage. Remove the Hypnotic Presence effect manually when any of those conditions occurs.</p></section>",
+      "description": "<p>你迷人的言語和惑人的目光能夠攝住另一個生物的心神。作為魔法動作，指定位於你10呎內一名你所能看見的生物。若目標能看見你或聽見你，則其必須成功通過一次對抗你法術豁免DC的感知豁免檢定，否則陷入&amp;Reference[Charmed apply=false]{魅惑}狀態，持續1分鐘，或在目標離你超過10呎、目標既無法看見你也無法聽見你，或目標承受傷害時提前結束。目標在魅惑期間陷入&amp;Reference[Incapacitated apply=false]{失能}狀態且速度為0。</p><p>你可以使用此特性的次數等同於你的智力調整值（至少1次），並在完成長休時重獲所有已消耗的使用次數。</p><section id=\"secret-TmiTf3R7QgHAkvHY\" class=\"secret hide-in-embed\"><p><strong>Foundry 註記</strong></p><p>Foundry 會自動套用1分鐘的持續時間，但當目標移動到離你超過10呎、不再能看見或聽見你，或承受傷害時，並不會結束該效果。當上述任一情形發生時，請手動移除催眠儀態效果。</p></section>",
       "effects": {
         "Hypnotic Presence": {
-          "name": "Hypnotic Presence",
-          "description": "<p>The target has the Charmed condition for 1 minute or until the target is more than 10 feet away from you, the target can neither see nor hear you, or the target takes damage. While Charmed, the target has the Incapacitated condition and a Speed of 0.</p>"
+          "name": "催眠儀態",
+          "description": "<p>目標陷入魅惑狀態，持續1分鐘，或在目標離你超過10呎、目標既無法看見你也無法聽見你，或目標承受傷害時提前結束。目標在魅惑期間陷入失能狀態且速度為0。</p>"
         }
       },
-      "name": "Hypnotic Presence"
+      "name": "催眠儀態"
     },
     "Wondrous Alteration": {
-      "name": "Wondrous Alteration",
+      "name": "妙法化形",
       "effects": {
         "Wondrous Alteration": {
-          "description": "<p>While under the effects of the <em>Alter Self</em> spell's <strong>Natural Weapons</strong> option.</p>",
-          "name": "Wondrous Alteration"
+          "description": "<p>處於<em>變造自身</em>的<strong>天生武器</strong>選項效應期間。</p>",
+          "name": "妙法化形"
         }
       },
       "activities": {
         "Natural Weapons": {
-          "name": "Natural Weapons"
+          "name": "天生武器"
         },
         "Change Appearance": {
-          "name": "Change Appearance"
+          "name": "改變外貌"
         },
         "Aquatic Adaptation": {
-          "name": "Aquatic Adaptation"
+          "name": "水中適應"
         }
       },
-      "description": "<p>You always have the <em>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplAlterSelf0]{Alter Self}</em> spell prepared and can cast it once without expending a spell slot. You regain the ability to cast it in this way when you finish a Long Rest.</p><p>While under the effects of <em>Alter Self</em>, you gain an additional benefit for each of its options.</p><p><span class=\"inline-h4\"><em><strong>Aquatic Adaptation.</strong></em></span> While underwater, you can take the Dash action as a Bonus Action.</p><p><span class=\"inline-h4\"><em><strong>Change Appearance.</strong></em></span> You have Advantage on Charisma (Deception) checks.</p><p><span class=\"inline-h4\"><em><strong>Natural Weapons.</strong></em></span> The damage of your new growth increases to 2d6 damage of the type associated with the growth. You also have Advantage on Constitution saving throws to maintain Concentration.</p><section id=\"secret-kWXzIvMpoES9aNF8\" class=\"secret\"><p><strong>Foundry Note</strong></p><p>The <strong>Aquatic Adaptation</strong> activity can be used to expend your Bonus Action. The <strong>Change Appearance</strong> activity can be used to apply an Active Effect that grants Advantage. The <strong>Natural Weapons</strong> changes are automatically applied to the spell's activities.</p></section>"
+      "description": "<p>你始終準備著法術<em>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplAlterSelf0]{變造自身}</em>，並且可以不消耗法術位施放一次。當你完成長休時，重獲以此方式施放該法術的能力。</p><p>處於<em>變造自身</em>效應期間，你根據其每個選項，分別獲得一項額外好處。</p><p><span class=\"inline-h4\"><em><strong>【水中適應】</strong></em></span>位於水下時，你可以作為附贈動作採取疾走動作。</p><p><span class=\"inline-h4\"><em><strong>【改變外貌】</strong></em></span>你進行的魅力（欺瞞）檢定具有優勢。</p><p><span class=\"inline-h4\"><em><strong>【天生武器】</strong></em></span>你新長出來的身體器官所造成的傷害提升至2d6，傷害類型保持不變。同時，你對維持專注所進行的體質豁免檢定具有優勢。</p><section id=\"secret-kWXzIvMpoES9aNF8\" class=\"secret\"><p><strong>Foundry 註記</strong></p><p><strong>水中適應</strong>行動可用來消耗你的附贈動作。<strong>改變外貌</strong>行動可用來套用一個授予優勢的 Active Effect。<strong>天生武器</strong>的變更會自動套用到該法術的行動上。</p></section>"
     },
     "Shape-Shifter": {
       "activities": {
         "Target Self": {
           "profiles": {
             "Creature into Creature": {
-              "name": "Creature into Creature"
+              "name": "生物變生物"
             }
           },
-          "name": "Target Self"
+          "name": "以自身為目標"
         }
       },
-      "name": "Shape-Shifter",
-      "description": "<p>You always have the <em>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplPolymorph0]{Polymorph}</em> spell prepared and can cast it once without expending a spell slot. You regain the ability to cast it in this way when you finish a Long Rest.</p><p>In addition, when you target yourself with the spell, you can modify the spell to gain the benefits below. Once you modify the spell using this feature, you can’t do so again until you finish a Long Rest.</p><p><span class=\"inline-h4\"><em><strong>Game Statistics.</strong></em></span> In addition to retaining the features specified in the spell, you retain your memories and ability to communicate. You also retain your Intelligence, Wisdom, and Charisma scores; proficiencies; class features; and feats.</p><p><span class=\"inline-h4\"><em><strong>Transmute Spells.</strong></em></span> While shape-shifted, you can cast spells, but only Transmutation spells that don’t have a Material component that has a specified cost or that is consumed by the spell.</p>"
+      "name": "變形生物",
+      "description": "<p>你始終準備著法術<em>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplPolymorph0]{變形術}</em>，並且可以不消耗法術位施放一次。當你完成長休時，重獲以此方式施放該法術的能力。</p><p>此外，當你以自身為此法術的目標時，你可以調整該法術，使你獲得下列好處。一旦你使用此特性調整了該法術，直到完成長休前，你無法再如此做。</p><p><span class=\"inline-h4\"><em><strong>【遊戲數據】</strong></em></span>除了保留該法術所指定的特性外，你還會保留自身的記憶與溝通能力。此外，你保留自身的智力、感知和魅力屬性值，以及熟練項、職業特性和專長。</p><p><span class=\"inline-h4\"><em><strong>【變形施法】</strong></em></span>你可以在處於變形期間如常施放變化學派法術，只要該法術沒有指定價值或會被法術消耗的材料構材。</p>"
     },
     "Vestige Spells": {
       "advancement": {
@@ -720,17 +720,17 @@
       "description": "<p>你的彈藥將損耗目標的力量。你命中的生物額外承受等同於兩枚奧術射擊骰的黯蝕傷害。該目標還必須成功通過一次體質豁免檢定，否則陷入&amp;Reference[Poisoned apply=false]{中毒}狀態直到其下個回合結束。每當以此方式中毒的目標所發動的攻擊檢定命中時，其該次攻擊的總傷害減少等同於你其中一枚奧術射擊骰擲出的數值。</p>"
     },
     "Durable Summons": {
-      "description": "<p>When you cast a Conjuration spell to summon or create a creature using a spell slot, that creature gains Temporary Hit Points equal to twice your Wizard level when it first appears. While it has these Temporary Hit Points, the creature has Resistance to every damage type except Force, Necrotic, Psychic, and Radiant.</p>",
+      "description": "<p>當你使用法術位施放一道咒法學派法術以召喚或創造一個生物時，該生物在其第一次出現時獲得等同於你法師等級兩倍的臨時生命值。只要該生物擁有這些臨時生命值，其便具有除力場、黯蝕、心靈、光耀之外的所有傷害類型的抗力。</p>",
       "activities": {
         "heal": {
-          "condition": "When you cast a Conjuration spell to summon or create a creature"
+          "condition": "當你施放咒法學派法術以召喚或創造一個生物時"
         }
       },
-      "name": "Durable Summons",
+      "name": "強韌召喚",
       "effects": {
         "Durable Summons": {
-          "description": "<p>While it has Temporary Hit Points, the creature has Resistance to every damage type except Force, Necrotic, Psychic, and Radiant.</p>",
-          "name": "Durable Summons"
+          "description": "<p>只要該生物擁有臨時生命值，其便具有除力場、黯蝕、心靈、光耀之外的所有傷害類型的抗力。</p>",
+          "name": "強韌召喚"
         }
       }
     },
@@ -752,18 +752,18 @@
       "name": "奧秘領域法術"
     },
     "Enchanting Conversation (Persuasion)": {
-      "description": "<p>You gain proficiency in Persuasion.</p><p>In addition, when you make an ability check with the chosen skill, you gain a bonus to the check equal to your Intelligence modifier (minimum of +1).</p>",
+      "description": "<p>你獲得說服的熟練。</p><p>此外，當你使用所選技能進行屬性檢定時，你獲得等同於你智力調整值的加值（至少+1）。</p>",
       "advancement": {
         "GmhoVWpx7pk7F4Fs": {
-          "hint": "<p>You gain proficiency in Persuasion.</p>"
+          "hint": "<p>你獲得說服的熟練。</p>"
         }
       },
       "effects": {
         "Enchanting Persuasion": {
-          "name": "Enchanting Persuasion"
+          "name": "惑心善言（說服）"
         }
       },
-      "name": "Enchanting Conversation (Persuasion)"
+      "name": "惑心善言（說服）"
     },
     "Vestige Spells (Light)": {
       "name": "契靈法術（光明）",
@@ -787,22 +787,22 @@
       "description": "<p>你的射擊過程中你總是保持著機敏。當一名你所能看見的生物對你進行攻擊檢定並失手時，你可以採取反應，向遠離攻擊者的方向移動至多等同於你速度一半的距離，且不會引發藉機攻擊。其後作為該反應的一部分，若攻擊者位於你武器的射程範圍內，你可以對其進行一次遠程攻擊檢定。</p>"
     },
     "Conjuration Savant": {
-      "name": "Conjuration Savant",
-      "description": "<p>Choose two Wizard spells from the Conjuration school, each of which must be no higher than level 2, and add them to your spellbook for free.</p><p>In addition, whenever you gain access to a new level of spell slots in this class, you can add one Wizard spell from the Conjuration school to your spellbook for free. The chosen spell must be of a level for which you have spell slots.</p>",
+      "name": "咒法學者",
+      "description": "<p>從法師法術列表中選擇兩道不高於2環的咒法學派法術，並將其免費抄入你的法術書。</p><p>此外，每當你在本職業中獲得一個新環階的法術位時，你都能免費將一道法師法術列表中的咒法學派法術抄入你的法術書。你所選的法術都必須是你當前擁有法術位的環階。</p>",
       "advancement": {
         "LATroigBMTButQll": {
-          "hint": "<p>Choose two Wizard spells from the Conjuration school, each of which must be no higher than level 2, and add them to your spellbook for free.</p><p>In addition, whenever you gain access to a new level of spell slots in this class, you can add one Wizard spell from the Conjuration school to your spellbook for free. The chosen spell must be of a level for which you have spell slots.</p>"
+          "hint": "<p>從法師法術列表中選擇兩道不高於2環的咒法學派法術，並將其免費抄入你的法術書。</p><p>此外，每當你在本職業中獲得一個新環階的法術位時，你都能免費將一道法師法術列表中的咒法學派法術抄入你的法術書。你所選的法術都必須是你當前擁有法術位的環階。</p>"
         }
       }
     },
     "Transmutation Savant": {
       "advancement": {
         "mKmzZLAdo9JIY0uL": {
-          "hint": "<p>Choose two Wizard spells from the Transmutation school, each of which must be no higher than level 2, and add them to your spellbook for free.</p><p>In addition, whenever you gain access to a new level of spell slots in this class, you can add one Wizard spell from the Transmutation school to your spellbook for free. The chosen spell must be of a level for which you have spell slots.</p>"
+          "hint": "<p>從法師法術列表中選擇兩道不高於2環的變化學派法術，並將其免費抄入你的法術書。</p><p>此外，每當你在本職業中獲得一個新環階的法術位時，你都能免費將一道法師法術列表中的變化學派法術抄入你的法術書。你所選的法術都必須是你當前擁有法術位的環階。</p>"
         }
       },
-      "description": "<p>Choose two Wizard spells from the Transmutation school, each of which must be no higher than level 2, and add them to your spellbook for free.</p><p>In addition, whenever you gain access to a new level of spell slots in this class, you can add one Wizard spell from the Transmutation school to your spellbook for free. The chosen spell must be of a level for which you have spell slots.</p>",
-      "name": "Transmutation Savant"
+      "description": "<p>從法師法術列表中選擇兩道不高於2環的變化學派法術，並將其免費抄入你的法術書。</p><p>此外，每當你在本職業中獲得一個新環階的法術位時，你都能免費將一道法師法術列表中的變化學派法術抄入你的法術書。你所選的法術都必須是你當前擁有法術位的環階。</p>",
+      "name": "變化學者"
     },
     "Arcane Shot": {
       "description": "<p>你習得如何用射術釋放特殊的魔法效應。</p><p><em><strong>【奧術射擊選項】</strong></em>你從本子職業描述後文的「奧術射擊選項」一節中習得兩種由你選擇的奧術射擊選項。</p><p>當你的戰士等級到達7級、10級、15級和18級時，你均可額外習得一種你所選擇的奧術射擊選項。每次你習得新的奧術射擊選項時，你也可以將你已知的一種選項替換為另一種。</p><p><em><strong>【使用奧術射擊】</strong></em>每回合一次，當你使用具有彈藥屬性的武器發動遠程攻擊時，你可以將你的一種奧術射擊選項賦予該次攻擊。除非某選項不涉及到攻擊檢定，否則你在命中一名生物並對其造成傷害時決定是否使用該選項。</p><p>你可以使用此特性的次數等同於你的智力調整值（至少1次）。當你完成短休或長休時，你重獲所有已消耗的使用次數。</p><p><em><strong>【奧術射擊骰】</strong></em>奧術射擊選項依賴你的奧術射擊骰。你的奧術射擊骰為[[lookup @scale.arcane-archer.arcane-shot.die]]{d6}。</p><p><em><strong>【豁免檢定】</strong></em>若某個奧術射擊選項要求進行豁免檢定，其DC為8 + 你的智力調整值 + 你的熟練加值。</p><p><em><strong>【隨級提升】</strong></em>當你到達一定的戰士等級時，你的奧術射擊骰會改變。該骰在10級時變為d8，在15級時變為d10，在18級時變為d12。</p>",
