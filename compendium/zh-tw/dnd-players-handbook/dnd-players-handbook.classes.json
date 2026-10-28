@@ -680,10 +680,10 @@
     },
     "Beguiling Magic": {
       "name": "迷人魔法",
-      "description": "<p>你始終準備@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplCharmPerso]{魅惑人類}與@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplMirrorImag]{鏡影術}法術。</p><p>此外，緊接在你使用一個法術位施放惑控或幻術系法術後，你可以使自身60呎內你所能看見的一個生物依你的法術豁免DC進行一次感知豁免檢定。在豁免失敗時，目標陷入&amp;Reference[Charmed]{魅惑}或&amp;Reference[Frightened]{恐慌}狀態（由你選擇）1分鐘。目標在其每個回合結束時重複該豁免，若豁免成功則結束在其身上的效果。</p><p>一旦你使用此好處，直到你完成一次長休前無法再次使用。你也可以消耗一次吟遊激勵恢復該特性的使用次數（無需動作）。</p><section class=\"secret\" id=\"secret-yJ0pYJyjePrUp7wQ\"><p><strong>Foundry 註記</strong></p><p><strong>豁免</strong>行動包含魅惑與恐慌兩種狀態的 Active Effect。</p><p><strong>以激勵充能</strong>行動會恢復此特性的一次使用次數。</p><p>這些法術會自動以「始終準備」的形式加入你的角色卡。</p></section>",
+      "description": "<p>你始終準備@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplCharmPerso]{魅惑人類}與@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplMirrorImag]{鏡影術}法術。</p><p>此外，緊接在你使用一個法術位施放惑控學派或幻術學派法術後，你可以使自身60呎內你所能看見的一個生物依你的法術豁免DC進行一次感知豁免檢定。在豁免失敗時，目標陷入&amp;Reference[Charmed]{魅惑}或&amp;Reference[Frightened]{恐慌}狀態（由你選擇）1分鐘。目標在其每個回合結束時重複該豁免，若豁免成功則結束在其身上的效果。</p><p>一旦你使用此好處，直到你完成一次長休前無法再次使用。你也可以消耗一次吟遊激勵恢復該特性的使用次數（無需動作）。</p><section class=\"secret\" id=\"secret-yJ0pYJyjePrUp7wQ\"><p><strong>Foundry 註記</strong></p><p><strong>豁免</strong>行動包含魅惑與恐慌兩種狀態的 Active Effect。</p><p><strong>以激勵充能</strong>行動會恢復此特性的一次使用次數。</p><p>這些法術會自動以「始終準備」的形式加入你的角色卡。</p></section>",
       "activities": {
         "save": {
-          "condition": "在使用法術位施放惑控系或幻術系法術後"
+          "condition": "在使用法術位施放惑控學派或幻術學派法術後"
         },
         "Recharge with Inspiration": {
           "name": "以激勵充能"
@@ -1567,7 +1567,7 @@
     },
     "Divination Savant": {
       "name": "預言學者",
-      "description": "<p>從@UUID[Compendium.dnd-players-handbook.content.JournalEntry.phbSpells0000000.JournalEntryPage.6AnqLUowgdsqMFvz]{預言學派}中選擇兩個不高於2環的法師法術（調整分組模式以便於選擇），並將其免費抄入你的法術書。</p><p>此外，每當你在此職業獲得新環階的法術位時，你可以從預言學派中選擇一個法師法術免費抄入你法術書。所選法術必須是你擁有的法術位環階。</p>"
+      "description": "<p>從@UUID[Compendium.dnd-players-handbook.content.JournalEntry.phbSpells0000000.JournalEntryPage.6AnqLUowgdsqMFvz]{預言學派}中選擇兩個不高於2環的法師法術（調整分組模式至「學派」以便於選擇），並將其免費抄入你的法術書。</p><p>此外，每當你在此職業獲得新環階的法術位時，你可以從預言學派中選擇一個法師法術免費抄入你法術書。所選法術必須是你擁有的法術位環階。</p>"
     },
     "Divine Fury": {
       "name": "神性之怒",
