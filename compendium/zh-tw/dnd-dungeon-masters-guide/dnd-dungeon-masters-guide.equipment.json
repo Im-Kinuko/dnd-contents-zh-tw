@@ -48,15 +48,15 @@
     "Quaal's Feather Token (Anchor)": {
       "effects": {
         "Anchor": {
-          "name": "Anchor",
+          "name": "錨",
           "description": "<p>@Embed[Compendium.dnd-dungeon-masters-guide.equipment.Item.dmgAnchorQuaalsF caption=false]</p>"
         }
       },
-      "description": "<p><em>奇物，非普通, See: @UUID[Compendium.dnd-dungeon-masters-guide.equipment.Item.dmgQuaalsFeather]{Quaal's Feather Token}</em></p><p>You can take a Magic action to touch the token to a boat or ship. For the next 24 hours, the vessel can’t be moved by any means. Touching the token to the vessel again ends the effect. When the effect ends, the token disappears.</p>",
-      "name": "Quaal's Feather Token (Anchor)",
+      "description": "<p><em>奇物，非普通，參見：@UUID[Compendium.dnd-dungeon-masters-guide.equipment.Item.dmgQuaalsFeather]{夸爾羽符}</em></p><p>你可以採取魔法動作，用羽符觸碰一艘小艇或船隻。接下來的24小時內，該船隻無法以任何方式移動。再次用羽符觸碰該船隻即可結束此效應。效應結束時，羽符也隨之消失。</p>",
+      "name": "夸爾羽符（錨）",
       "activities": {
         "Use": {
-          "name": "Use"
+          "name": "使用"
         }
       }
     },
@@ -112,12 +112,12 @@
     "Quaal's Feather Token (Swan Boat)": {
       "activities": {
         "Use": {
-          "name": "Use",
-          "target": "body of water at least 60 feet in diameter"
+          "name": "使用",
+          "target": "直徑至少60呎的水體"
         }
       },
-      "name": "Quaal's Feather Token (Swan Boat)",
-      "description": "<p><em>奇物，珍稀, See: @UUID[Compendium.dnd-dungeon-masters-guide.equipment.Item.dmgQuaalsFeather]{Quaal's Feather Token}</em></p><p>You can take a Magic action to touch the token to a body of water at least 60 feet in diameter. The token disappears, and a 50-foot-long, 20-foot-wide boat shaped like a swan takes its place. The boat is self-propelled and moves across water at a speed of 6 miles per hour. You can take a Magic action while on the boat to command it to move or to turn up to 90 degrees. The boat remains for 24 hours and then disappears. You can dismiss the boat as a Magic action.</p>"
+      "name": "夸爾羽符（天鵝船）",
+      "description": "<p><em>奇物，珍稀，參見：@UUID[Compendium.dnd-dungeon-masters-guide.equipment.Item.dmgQuaalsFeather]{夸爾羽符}</em></p><p>你可以採取魔法動作，用羽符觸碰直徑至少60呎的水體。羽符將消失，並且一艘50呎長，20呎寬，形狀類似天鵝的船取而代之。這艘船可以自行推進並以6哩/小時的速度穿越水體。在船上時，你可以採取魔法動作，命令其移動或轉向最多90度。這艘船持續24小時，隨後消失。你可以採取魔法動作遣散這艘船。</p>"
     },
     "Enspelled Weapon": {
       "activities": {
@@ -347,110 +347,110 @@
       "effects": {
         "Ring of Resistance (Cold)": {
           "changes": {
-            "name": "Ring of Resistance (tourmaline)",
-            "system.description.value": "{}<p><em>See: @UUID[Compendium.dnd-dungeon-masters-guide.equipment.Item.dmgRingOfResista]</em></p> <p>You have Resistance to one damage type while wearing this ring. The gemstone in the ring indicates the type.</p>"
+            "name": "抗力戒指（電氣石）",
+            "system.description.value": "{}<p><em>參見：@UUID[Compendium.dnd-dungeon-masters-guide.equipment.Item.dmgRingOfResista]{抗力戒指}</em></p> <p>佩戴這枚戒指期間，你具有一種傷害類型的抗力。戒指上的寶石指示其類型。</p>"
           },
-          "name": "Ring of Resistance (Cold)"
+          "name": "抗力戒指（寒冷）"
         },
         "Thunder Resistance": {
-          "name": "Thunder Resistance"
+          "name": "雷鳴抗力"
         },
         "Ring of Resistance (Thunder)": {
           "changes": {
-            "system.description.value": "{}<p><em>See: @UUID[Compendium.dnd-dungeon-masters-guide.equipment.Item.dmgRingOfResista]</em></p> <p>You have Resistance to one damage type while wearing this ring. The gemstone in the ring indicates the type.</p>",
-            "name": "Ring of Resistance (spinel)"
+            "system.description.value": "{}<p><em>參見：@UUID[Compendium.dnd-dungeon-masters-guide.equipment.Item.dmgRingOfResista]{抗力戒指}</em></p> <p>佩戴這枚戒指期間，你具有一種傷害類型的抗力。戒指上的寶石指示其類型。</p>",
+            "name": "抗力戒指（尖晶石）"
           },
-          "name": "Ring of Resistance (Thunder)"
+          "name": "抗力戒指（雷鳴）"
         },
         "Ring of Resistance (Acid)": {
-          "name": "Ring of Resistance (Acid)",
+          "name": "抗力戒指（強酸）",
           "changes": {
-            "name": "Ring of Resistance (pearl)",
-            "system.description.value": "{}<p><em>See: @UUID[Compendium.dnd-dungeon-masters-guide.equipment.Item.dmgRingOfResista]</em></p> <p>You have Resistance to one damage type while wearing this ring. The gemstone in the ring indicates the type.</p>"
+            "name": "抗力戒指（珍珠）",
+            "system.description.value": "{}<p><em>參見：@UUID[Compendium.dnd-dungeon-masters-guide.equipment.Item.dmgRingOfResista]{抗力戒指}</em></p> <p>佩戴這枚戒指期間，你具有一種傷害類型的抗力。戒指上的寶石指示其類型。</p>"
           }
         },
         "Ring of Resistance (Force)": {
-          "name": "Ring of Resistance (Force)",
+          "name": "抗力戒指（力場）",
           "changes": {
-            "name": "Ring of Resistance (sapphire)",
-            "system.description.value": "{}<p><em>See: @UUID[Compendium.dnd-dungeon-masters-guide.equipment.Item.dmgRingOfResista]</em></p> <p>You have Resistance to one damage type while wearing this ring. The gemstone in the ring indicates the type.</p>"
+            "name": "抗力戒指（藍寶石）",
+            "system.description.value": "{}<p><em>參見：@UUID[Compendium.dnd-dungeon-masters-guide.equipment.Item.dmgRingOfResista]{抗力戒指}</em></p> <p>佩戴這枚戒指期間，你具有一種傷害類型的抗力。戒指上的寶石指示其類型。</p>"
           }
         },
         "Ring of Resistance (Lightning)": {
           "changes": {
-            "name": "Ring of Resistance (citrine)",
-            "system.description.value": "{}<p><em>See: @UUID[Compendium.dnd-dungeon-masters-guide.equipment.Item.dmgRingOfResista]</em></p> <p>You have Resistance to one damage type while wearing this ring. The gemstone in the ring indicates the type.</p>"
+            "name": "抗力戒指（黃水晶）",
+            "system.description.value": "{}<p><em>參見：@UUID[Compendium.dnd-dungeon-masters-guide.equipment.Item.dmgRingOfResista]{抗力戒指}</em></p> <p>佩戴這枚戒指期間，你具有一種傷害類型的抗力。戒指上的寶石指示其類型。</p>"
           },
-          "name": "Ring of Resistance (Lightning)"
+          "name": "抗力戒指（閃電）"
         },
         "Ring of Resistance (Psychic)": {
-          "name": "Ring of Resistance (Psychic)",
+          "name": "抗力戒指（心靈）",
           "changes": {
-            "system.description.value": "{}<p><em>See: @UUID[Compendium.dnd-dungeon-masters-guide.equipment.Item.dmgRingOfResista]</em></p> <p>You have Resistance to one damage type while wearing this ring. The gemstone in the ring indicates the type.</p>",
-            "name": "Ring of Resistance (jade)"
+            "system.description.value": "{}<p><em>參見：@UUID[Compendium.dnd-dungeon-masters-guide.equipment.Item.dmgRingOfResista]{抗力戒指}</em></p> <p>佩戴這枚戒指期間，你具有一種傷害類型的抗力。戒指上的寶石指示其類型。</p>",
+            "name": "抗力戒指（玉石）"
           }
         },
         "Ring of Resistance (Radiant)": {
           "changes": {
-            "name": "Ring of Resistance (topaz)",
-            "system.description.value": "{}<p><em>See: @UUID[Compendium.dnd-dungeon-masters-guide.equipment.Item.dmgRingOfResista]</em></p> <p>You have Resistance to one damage type while wearing this ring. The gemstone in the ring indicates the type.</p>"
+            "name": "抗力戒指（黃玉）",
+            "system.description.value": "{}<p><em>參見：@UUID[Compendium.dnd-dungeon-masters-guide.equipment.Item.dmgRingOfResista]{抗力戒指}</em></p> <p>佩戴這枚戒指期間，你具有一種傷害類型的抗力。戒指上的寶石指示其類型。</p>"
           },
-          "name": "Ring of Resistance (Radiant)"
+          "name": "抗力戒指（光耀）"
         },
         "Necrotic Resistance": {
-          "name": "Necrotic Resistance"
+          "name": "黯蝕抗力"
         },
         "Poison Resistance": {
-          "name": "Poison Resistance"
+          "name": "毒素抗力"
         },
         "Ring of Resistance (Poison)": {
           "changes": {
-            "name": "Ring of Resistance (amethyst)",
-            "system.description.value": "{}<p><em>See: @UUID[Compendium.dnd-dungeon-masters-guide.equipment.Item.dmgRingOfResista]</em></p> <p>You have Resistance to one damage type while wearing this ring. The gemstone in the ring indicates the type.</p>"
+            "name": "抗力戒指（紫水晶）",
+            "system.description.value": "{}<p><em>參見：@UUID[Compendium.dnd-dungeon-masters-guide.equipment.Item.dmgRingOfResista]{抗力戒指}</em></p> <p>佩戴這枚戒指期間，你具有一種傷害類型的抗力。戒指上的寶石指示其類型。</p>"
           },
-          "name": "Ring of Resistance (Poison)"
+          "name": "抗力戒指（毒素）"
         },
         "Force Resistance": {
-          "name": "Force Resistance"
+          "name": "力場抗力"
         },
         "Radiant Resistance": {
-          "name": "Radiant Resistance"
+          "name": "光耀抗力"
         },
         "Lightning Resistance": {
-          "name": "Lightning Resistance"
+          "name": "閃電抗力"
         },
         "Cold Resistance": {
-          "name": "Cold Resistance"
+          "name": "寒冷抗力"
         },
         "Ring of Resistance (Necrotic)": {
           "changes": {
-            "system.description.value": "{}<p><em>See: @UUID[Compendium.dnd-dungeon-masters-guide.equipment.Item.dmgRingOfResista]</em></p> <p>You have Resistance to one damage type while wearing this ring. The gemstone in the ring indicates the type.</p>",
-            "name": "Ring of Resistance (jet)"
+            "system.description.value": "{}<p><em>參見：@UUID[Compendium.dnd-dungeon-masters-guide.equipment.Item.dmgRingOfResista]{抗力戒指}</em></p> <p>佩戴這枚戒指期間，你具有一種傷害類型的抗力。戒指上的寶石指示其類型。</p>",
+            "name": "抗力戒指（黑玉）"
           },
-          "name": "Ring of Resistance (Necrotic)"
+          "name": "抗力戒指（黯蝕）"
         },
         "Acid Resistance": {
-          "name": "Acid Resistance"
+          "name": "強酸抗力"
         },
         "Ring of Resistance (Fire)": {
-          "name": "Ring of Resistance (Fire)",
+          "name": "抗力戒指（火焰）",
           "changes": {
-            "name": "Ring of Resistance (garnet)",
-            "system.description.value": "{}<p><em>See: @UUID[Compendium.dnd-dungeon-masters-guide.equipment.Item.dmgRingOfResista]</em></p> <p>You have Resistance to one damage type while wearing this ring. The gemstone in the ring indicates the type.</p>"
+            "name": "抗力戒指（石榴石）",
+            "system.description.value": "{}<p><em>參見：@UUID[Compendium.dnd-dungeon-masters-guide.equipment.Item.dmgRingOfResista]{抗力戒指}</em></p> <p>佩戴這枚戒指期間，你具有一種傷害類型的抗力。戒指上的寶石指示其類型。</p>"
           }
         },
         "Fire Resistance": {
-          "name": "Fire Resistance"
+          "name": "火焰抗力"
         },
         "Psychic Resistance": {
-          "name": "Psychic Resistance"
+          "name": "心靈抗力"
         }
       },
-      "name": "Ring of Resistance",
-      "description": "<p><em>@UUID[Compendium.dnd-dungeon-masters-guide.equipment.Item.dmgsupRingofResi]{Ring}，珍稀</em></p><p>You have Resistance to one damage type while wearing this ring. The gemstone in the ring indicates the type, which the DM chooses or determines randomly by rolling on the following table.</p><p>@Embed[Compendium.dnd-dungeon-masters-guide.tables.RollTable.dmgRingOfResista rollable caption=false]</p><p>@Embed[Compendium.dnd-dungeon-masters-guide.content.JournalEntry.dmgFoundryRefere.JournalEntryPage.Ok4iCgD25ENgoRxE cite=false caption=false classes=\"hide-in-embed\"]</p>",
+      "name": "抗力戒指",
+      "description": "<p><em>@UUID[Compendium.dnd-dungeon-masters-guide.equipment.Item.dmgsupRingofResi]{戒指}，珍稀</em></p><p>佩戴這枚戒指期間，你具有一種傷害類型的抗力。可通過戒指上的寶石判斷其對應的傷害類型，具體類型由DM選擇或在下表中擲骰以隨機決定。</p><p>@Embed[Compendium.dnd-dungeon-masters-guide.tables.RollTable.dmgRingOfResista rollable caption=false]</p><p>@Embed[Compendium.dnd-dungeon-masters-guide.content.JournalEntry.dmgFoundryRefere.JournalEntryPage.Ok4iCgD25ENgoRxE cite=false caption=false classes=\"hide-in-embed\"]</p>",
       "activities": {
         "Ring of Resistance": {
-          "name": "Ring of Resistance"
+          "name": "抗力戒指"
         }
       }
     },
@@ -709,8 +709,8 @@
       "name": "矮人板甲"
     },
     "Ollamh Harp Instrument of the Bards": {
-      "name": "Ollamh Harp Instrument of the Bards",
-      "description": "<p><em>See: @UUID[Compendium.dnd-dungeon-masters-guide.equipment.Item.dmgInstrumentOfT]{Instrument of the Bards}</em></p><p>An <em>Instrument of the Bards</em> is superior to an ordinary instrument in every way.</p><p>A creature that attempts to play the instrument without being attuned to it must succeed on a [[/save ability=wis dc=15 format=long]] or take [[/damage 2d4 type=psychic]] damage.</p><p>You can play the instrument to cast one of its spells. Once the instrument has been used to cast a spell, it can’t be used to cast that spell again until the next dawn. The spells use your spellcasting ability and spell save DC.</p>"
+      "name": "奧萊姆豎琴",
+      "description": "<p><em>參見：@UUID[Compendium.dnd-dungeon-masters-guide.equipment.Item.dmgInstrumentOfT]{吟遊詩人樂器}</em></p><p><em>吟遊詩人樂器</em>在各方面都優於普通樂器。</p><p>在未與樂器完成同調的情況下，嘗試演奏樂器的生物必須成功通過一次[[/save ability=wis dc=15 format=long]]，否則承受[[/damage 2d4 type=psychic]]傷害。</p><p>你可以通過演奏樂器來施放其中一道法術。一旦該樂器被用來施放了某道法術，則其直到下個黎明前都無法再被用來施放該法術。這些法術使用你的施法屬性和法術豁免DC。</p>"
     },
     "Lute of Thunderous Thumping": {
       "name": "Lute of Thunderous Thumping",
@@ -724,16 +724,16 @@
     "Silver Horn of Valhalla": {
       "effects": {
         "Horn of Valhalla: Condition Immunity": {
-          "description": "<p>The spirits look like living, breathing warriors, and they have Immunity to the &amp;Reference[Charmed apply=false] and &amp;Reference[Frightened apply=false] conditions.</p>",
-          "name": "Horn of Valhalla: Condition Immunity"
+          "description": "<p>英靈們看起來就像是活著的，能夠呼吸的戰士，且免疫&amp;Reference[Charmed apply=false]{魅惑}與&amp;Reference[Frightened apply=false]{恐慌}狀態。</p>",
+          "name": "瓦爾哈拉號角：狀態免疫"
         }
       },
-      "description": "<p><em>See: @UUID[Compendium.dnd-dungeon-masters-guide.equipment.Item.dmgHornofValhall]{Horn of Valhalla}</em></p><p><em>Requirement: None</em></p><p><em>Spirits: 2</em></p><p>You can take a Magic action to blow this horn. In response, warrior spirits from the plane of Ysgard appear in unoccupied spaces within 60 feet of you. Each spirit uses the <strong>@UUID[Compendium.dnd-dungeon-masters-guide.actors.Actor.kz1t6xeXVwODpYb2]{Berserker}</strong> stat block and returns to Ysgard after 1 hour or when it drops to 0 Hit Points. The spirits look like living, breathing warriors, and they have Immunity to the &amp;Reference[Charmed apply=false] and &amp;Reference[Frightened apply=false] conditions. Once you use the horn, it can’t be used again until 7 days have passed.</p><p>If you blow the horn without meeting its requirement, the summoned spirits attack you. If you meet the requirement, they are Friendly to you and your allies and follow your commands.</p>",
+      "description": "<p><em>參見：@UUID[Compendium.dnd-dungeon-masters-guide.equipment.Item.dmgHornofValhall]{瓦爾哈拉號角}</em></p><p><em>條件：無</em></p><p><em>英靈數量：2</em></p><p>你可以採取魔法動作吹響號角。作為回應，伊斯加德的武者英靈們將在位於你60呎內的未佔據空間出現。每個英靈都使用<strong>@UUID[Compendium.dnd-dungeon-masters-guide.actors.Actor.kz1t6xeXVwODpYb2]{狂戰士}</strong>的數值面板，並會在1小時後或其生命值降至0時返回伊斯加德。英靈們看起來就像是活著的，能夠呼吸的戰士，且免疫&amp;Reference[Charmed apply=false]{魅惑}與&amp;Reference[Frightened apply=false]{恐慌}狀態。號角一經使用，需要經過7天才能再次使用。</p><p>若你在不滿足條件的情況下吹響了號角，召喚出的英靈們將攻擊你。若你滿足條件，這些英靈會對你和你的盟友持友善態度，並聽從你的命令。</p>",
       "name": "瓦爾哈拉白銀號角",
       "activities": {
         "Summon Warriors": {
-          "name": "Summon Warriors",
-          "target": "unoccupied spaces"
+          "name": "召喚武者",
+          "target": "未佔據空間"
         }
       }
     },
@@ -1297,8 +1297,8 @@
       "name": "Sword of Kas"
     },
     "Instrument of the Bards": {
-      "name": "Instrument of the Bards",
-      "description": "<p><em>奇物, Rarity Varies (Requires Attunement by a Bard)</em></p><p>An <em>Instrument of the Bards</em> is superior to an ordinary instrument in every way. Seven types of these instruments exist, each named after a bard college. The Instruments of the Bards table lists the spells common to all instruments, as well as the spells specific to each one and its rarity. A creature that attempts to play the instrument without being attuned to it must succeed on a [[/save ability=wis dc=15 format=long]] or take [[/damage 2d4 type=psychic]] damage.</p><p>You can play the instrument to cast one of its spells. Once the instrument has been used to cast a spell, it can’t be used to cast that spell again until the next dawn. The spells use your spellcasting ability and spell save DC.</p><table><caption>Instruments of the Bards</caption><thead><tr><td>Instrument</td><td>Rarity</td><td>Spells</td></tr></thead><tbody><tr><td>All</td><td>—</td><td><em>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplFly0000000]{Fly}</em>, <em>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplInvisibili]{Invisibility}</em>, <em>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplLevitate00]{Levitate}</em>, <em>@UUID[Compendium.dnd-players-handbook.spells.Item.phbEvilAndGoodPr]{Protection from Evil and Good}</em>, plus the spells listed for the particular instrument</td></tr><tr><td>@UUID[Compendium.dnd-dungeon-masters-guide.equipment.Item.dmgAnstruthHarpI]{Anstruth harp}</td><td>Very Rare</td><td><em>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplCureWounds]{Cure Wounds}</em> (level 5), <em>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplIceStorm00]{Ice Storm}</em>, <em>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplWallofThor]{Wall of Thorns}</em></td></tr><tr><td>@UUID[Compendium.dnd-dungeon-masters-guide.equipment.Item.dmgCanaithMandol]{Canaith mandolin}</td><td>Rare</td><td><em>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplCureWounds]{Cure Wounds}</em> (level 3), <em>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplDispelMagi]{Dispel Magic}</em>, <em>@UUID[Compendium.dnd-players-handbook.spells.Item.phbProtectionFro]{Protection from Energy}</em> (Lightning damage only)</td></tr><tr><td>@UUID[Compendium.dnd-dungeon-masters-guide.equipment.Item.dmgCliLyreInstru]{Cli lyre}</td><td>Rare</td><td><em>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplStoneShape]{Stone Shape}</em>, <em>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplWallofFire]{Wall of Fire}</em>, <em>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplWindWall00]{Wind Wall}</em></td></tr><tr><td>@UUID[Compendium.dnd-dungeon-masters-guide.equipment.Item.dmgDossLuteInstr]{Doss lute}</td><td>Uncommon</td><td><em>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplAnimalFrie]{Animal Friendship}</em>, <em>@UUID[Compendium.dnd-players-handbook.spells.Item.phbProtectionFro]{Protection from Energy}</em> (Fire damage only), <em>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplProtection]{Protection from Poison}</em></td></tr><tr><td>@UUID[Compendium.dnd-dungeon-masters-guide.equipment.Item.dmgFochlucanBand]{Fochlucan bandore}</td><td>Uncommon</td><td><em>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplEntangle00]{Entangle}</em>, <em>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplFaerieFire]{Faerie Fire}</em>, <em>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplShillelagh]{Shillelagh}</em>, <em>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplSpeakwithA]{Speak with Animals}</em></td></tr><tr><td>@UUID[Compendium.dnd-dungeon-masters-guide.equipment.Item.dmgMacfuirmidhCi]{Mac-Fuirmidh cittern}</td><td>Uncommon</td><td><em>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplBarkskin00]{Barkskin}</em>, <em>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplCureWounds]{Cure Wounds}</em>, <em>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplFogCloud00]{Fog Cloud}</em></td></tr><tr><td>@UUID[Compendium.dnd-dungeon-masters-guide.equipment.Item.dmgOllamHarpInst]{Ollamh harp}</td><td>Legendary</td><td><em>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplConfusion0]{Confusion}</em>, <em>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplControlWea]{Control Weather}</em>, <em>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplFireStorm0]{Fire Storm}</em></td></tr></tbody></table>"
+      "name": "吟遊詩人樂器",
+      "description": "<p><em>奇物，多種稀有度（需由吟遊詩人同調）</em></p><p><em>吟遊詩人樂器</em>在各方面都優於普通樂器。吟遊詩人樂器共有七種，每種都以一所吟遊詩人學院的名字命名。吟遊詩人樂器列表中列出了所有樂器的通用法術，以及每種樂器的獨有法術和其稀有度。在未與樂器完成同調的情況下，嘗試演奏樂器的生物必須成功通過一次[[/save ability=wis dc=15 format=long]]，否則承受[[/damage 2d4 type=psychic]]傷害。</p><p>你可以通過演奏樂器來施放其中一道法術。一旦該樂器被用來施放了某道法術，則其直到下個黎明前都無法再被用來施放該法術。這些法術使用你的施法屬性和法術豁免DC。</p><table><caption>吟遊詩人樂器</caption><thead><tr><td>樂器</td><td>稀有度</td><td>法術</td></tr></thead><tbody><tr><td>所有</td><td>——</td><td><em>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplFly0000000]{飛行術}</em>、<em>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplInvisibili]{隱形術}</em>、<em>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplLevitate00]{浮空術}</em>、<em>@UUID[Compendium.dnd-players-handbook.spells.Item.phbEvilAndGoodPr]{防護善惡}</em>，外加每種樂器各自列出的法術</td></tr><tr><td>@UUID[Compendium.dnd-dungeon-masters-guide.equipment.Item.dmgAnstruthHarpI]{安斯翠瑟豎琴}</td><td>極珍稀</td><td><em>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplCureWounds]{治療傷勢}</em>（5環版本）、<em>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplIceStorm00]{冰風暴}</em>、<em>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplWallofThor]{棘牆術}</em></td></tr><tr><td>@UUID[Compendium.dnd-dungeon-masters-guide.equipment.Item.dmgCanaithMandol]{卡奈斯曼陀林}</td><td>珍稀</td><td><em>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplCureWounds]{治療傷勢}</em>（3環版本）、<em>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplDispelMagi]{解除魔法}</em>、<em>@UUID[Compendium.dnd-players-handbook.spells.Item.phbProtectionFro]{防護能量}</em>（僅閃電傷害）</td></tr><tr><td>@UUID[Compendium.dnd-dungeon-masters-guide.equipment.Item.dmgCliLyreInstru]{克里里拉琴}</td><td>珍稀</td><td><em>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplStoneShape]{塑石術}</em>、<em>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplWallofFire]{火牆術}</em>、<em>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplWindWall00]{風牆術}</em></td></tr><tr><td>@UUID[Compendium.dnd-dungeon-masters-guide.equipment.Item.dmgDossLuteInstr]{道斯魯特琴}</td><td>非普通</td><td><em>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplAnimalFrie]{化獸為友}</em>、<em>@UUID[Compendium.dnd-players-handbook.spells.Item.phbProtectionFro]{防護能量}</em>（僅火焰傷害）、<em>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplProtection]{防護毒素}</em></td></tr><tr><td>@UUID[Compendium.dnd-dungeon-masters-guide.equipment.Item.dmgFochlucanBand]{佛克路坎班多里琴}</td><td>非普通</td><td><em>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplEntangle00]{糾纏術}</em>、<em>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplFaerieFire]{妖火術}</em>、<em>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplShillelagh]{橡棍術}</em>、<em>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplSpeakwithA]{動物交談術}</em></td></tr><tr><td>@UUID[Compendium.dnd-dungeon-masters-guide.equipment.Item.dmgMacfuirmidhCi]{麥克-弗瑞米西特琴}</td><td>非普通</td><td><em>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplBarkskin00]{樹膚術}</em>、<em>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplCureWounds]{治療傷勢}</em>、<em>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplFogCloud00]{雲霧術}</em></td></tr><tr><td>@UUID[Compendium.dnd-dungeon-masters-guide.equipment.Item.dmgOllamHarpInst]{奧萊姆豎琴}</td><td>傳說</td><td><em>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplConfusion0]{困惑術}</em>、<em>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplControlWea]{操控天氣}</em>、<em>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplFireStorm0]{火焰風暴}</em></td></tr></tbody></table>"
     },
     "Boots of the Winterlands": {
       "name": "雪地之靴",
@@ -1485,20 +1485,20 @@
       "activities": {
         "Utilize (Scale by Spell Level)": {
           "name": "利用（隨法術等級提升）",
-          "condition": "when a creature you can see casts a spell of 4th level or lower",
+          "condition": "當你所能看見的一名生物施放4環或更低環階的法術時",
           "roll": "環位取消"
         }
       },
-      "name": "艾恩石，吸收",
-      "description": "<p><em>See: @UUID[Compendium.dnd-dungeon-masters-guide.equipment.Item.dmgIounStone0000]{Ioun Stone}</em></p><p>When you take a Magic action to toss an <em>Ioun Stone</em> into the air, the stone orbits your head at a distance of 1d3 feet, conferring its benefit to you while doing so. You can have up to three <em>Ioun Stones</em> orbiting your head at the same time.</p><p>As a Utilize action, you can seize and stow any number of <em>Ioun Stones</em> orbiting your head. If your Attunement to an <em>Ioun Stone</em> ends while it’s orbiting your head, the stone falls as though you had dropped it.</p><p>While this pale lavender ellipsoid orbits your head, you can take a Reaction to cancel a spell of level 4 or lower cast by a creature you can see. A canceled spell has no effect, and any resources used to cast it are wasted. Once the stone has canceled 20 levels of spells, it burns out, turns dull gray, and loses its magic.</p>"
+      "name": "艾恩石．吸收",
+      "description": "<p><em>參見：@UUID[Compendium.dnd-dungeon-masters-guide.equipment.Item.dmgIounStone0000]{艾恩石}</em></p><p>當你採取魔法動作將<em>艾恩石</em>扔向空中時，此石會環繞在距離你頭頂1d3呎之處，並在環繞期間為你帶來其好處。同一時間內，你至多只能有3顆<em>艾恩石</em>環繞在你的頭頂。</p><p>作為利用動作，你可以抓住並收起任意數量環繞在你頭頂的<em>艾恩石</em>。若你與某顆正環繞在你頭頂的<em>艾恩石</em>的同調結束，該石頭就會如同你將其丟棄一般掉落。</p><p>在這顆淡紫色的橢球形艾恩石環繞在你頭頂期間，你可以採取反應，使一名你所能看見的生物所施放的、4環或更低環階的法術無效化。被無效化的法術不會產生任何效應，且用於施放該法術的資源也會被浪費。此石無效化了總計20環階的法術後，會燒盡、變成黯淡的灰色並失去魔力。</p>"
     },
     "Orb of Direction": {
       "description": "<p><em>奇物，普通</em></p><p>這顆法球可用作奧術法器。</p><p>持握這顆法球期間，你可以採取魔法動作，確認磁北的方向。若在沒有磁北的地方使用這顆法球，則不會發生任何事。</p>",
       "name": "方向法球"
     },
     "Ioun Stone": {
-      "name": "Ioun Stone",
-      "description": "<p><em>奇物, Rarity Varies（需同調）</em></p><p>Roughly marble sized, <em>Ioun Stones</em> are named after Ioun, a god of knowledge and prophecy revered on some worlds. Many types of <em>Ioun Stones</em> exist, each type a distinct combination of shape and color.</p><p>When you take a Magic action to toss an <em>Ioun Stone</em> into the air, the stone orbits your head at a distance of 1d3 feet, conferring its benefit to you while doing so. You can have up to three <em>Ioun Stones</em> orbiting your head at the same time.</p><p>Each <em>Ioun Stone</em> orbiting your head is considered to be an object you are wearing. The orbiting stone avoids contact with other creatures and objects, adjusting its orbit to avoid collisions and thwarting all attempts by other creatures to attack or snatch it.</p><p>As a Utilize action, you can seize and stow any number of <em>Ioun Stones</em> orbiting your head. If your Attunement to an <em>Ioun Stone</em> ends while it’s orbiting your head, the stone falls as though you had dropped it.</p><p>The type of stone determines its rarity and effects.</p><p><strong>@UUID[Compendium.dnd-dungeon-masters-guide.equipment.Item.dmgAbsorptionIou]{Absorption} (Very Rare).</strong> While this pale lavender ellipsoid orbits your head, you can take a Reaction to cancel a spell of level 4 or lower cast by a creature you can see. A canceled spell has no effect, and any resources used to cast it are wasted. Once the stone has canceled 20 levels of spells, it burns out, turns dull gray, and loses its magic.</p><p><strong>@UUID[Compendium.dnd-dungeon-masters-guide.equipment.Item.dmgAgilityIounSt]{Agility} (Very Rare).</strong> Your Dexterity increases by 2, to a maximum of 20, while this deep-red sphere orbits your head.</p><p><strong>@UUID[Compendium.dnd-dungeon-masters-guide.equipment.Item.dmgAwarenessIoun]{Awareness} (Rare).</strong> While this dark-blue rhomboid orbits your head, you have Advantage on Initiative rolls and Wisdom (Perception) checks.</p><p><strong>@UUID[Compendium.dnd-dungeon-masters-guide.equipment.Item.dmgFortitudeIoun]{Fortitude} (Very Rare).</strong> Your Constitution increases by 2, to a maximum of 20, while this pink rhomboid orbits your head.</p><p><strong>@UUID[Compendium.dnd-dungeon-masters-guide.equipment.Item.dmgGreaterAbsorp]{Greater Absorption} (Legendary).</strong> While this marbled lavender and green ellipsoid orbits your head, you can take a Reaction to cancel a spell of level 8 or lower cast by a creature you can see. A canceled spell has no effect, and any resources used to cast it are wasted. Once the stone has canceled 20 levels of spells, it burns out, turns dull gray, and loses its magic.</p><p><strong>@UUID[Compendium.dnd-dungeon-masters-guide.equipment.Item.dmgInsightIounSt]{Insight} (Very Rare).</strong> Your Wisdom increases by 2, to a maximum of 20, while this incandescent blue sphere orbits your head.</p><p><strong>@UUID[Compendium.dnd-dungeon-masters-guide.equipment.Item.dmgIntellectIoun]{Intellect} (Very Rare).</strong> Your Intelligence increases by 2, to a maximum of 20, while this marbled scarlet and blue sphere orbits your head.</p><p><strong>@UUID[Compendium.dnd-dungeon-masters-guide.equipment.Item.dmgLeadershipIou]{Leadership} (Very Rare).</strong> Your Charisma increases by 2, to a maximum of 20, while this marbled pink and green sphere orbits your head.</p><p><strong>@UUID[Compendium.dnd-dungeon-masters-guide.equipment.Item.dmgMasteryIounSt]{Mastery} (Legendary).</strong> Your Proficiency Bonus increases by 1 while this pale green prism orbits your head.</p><p><strong>@UUID[Compendium.dnd-dungeon-masters-guide.equipment.Item.dmgProtectionIou]{Protection} (Rare).</strong> You gain a +1 bonus to Armor Class while this dusty-rose prism orbits your head.</p><p><strong>@UUID[Compendium.dnd-dungeon-masters-guide.equipment.Item.dmgRegnerationIo]{Regeneration} (Legendary).</strong> You regain 15 Hit Points at the end of each hour this pearly white spindle orbits your head if you have at least 1 Hit Point.</p><p><strong>@UUID[Compendium.dnd-dungeon-masters-guide.equipment.Item.dmgReserveIounSt]{Reserve} (Rare).</strong> This vibrant purple prism stores spells cast into it, holding them until you use them. The stone can store up to 4 levels of spells at a time. When found, it contains 1d4 levels of stored spells chosen by the DM.</p><p>Any creature can cast a spell of level 1 through 4 into the stone by touching it as the spell is cast. The spell has no effect, other than to be stored in the stone. If the stone can’t hold the spell, the spell is expended without effect. The level of the slot used to cast the spell determines how much space it uses.</p><p>While this stone orbits your head, you can cast any spell stored in it. The spell uses the slot level, spell save DC, spell attack bonus, and spellcasting ability of the original caster but is otherwise treated as if you cast the spell. The spell cast from the stone is no longer stored in it, freeing up space.</p><p><strong>@UUID[Compendium.dnd-dungeon-masters-guide.equipment.Item.dmgStrengthIounS]{Strength} (Very Rare).</strong> Your Strength increases by 2, to a maximum of 20, while this pale blue rhomboid orbits your head.</p><p><strong>@UUID[Compendium.dnd-dungeon-masters-guide.equipment.Item.dmgSustenanceIou]{Sustenance} (Rare).</strong> You don’t need to eat or drink while this clear spindle orbits your head.</p>"
+      "name": "艾恩石",
+      "description": "<p><em>奇物，多種稀有度（需同調）</em></p><p>每顆<em>艾恩石</em>的大小都和一枚彈珠相仿。這種石頭是以知識與預言之神艾恩之名命名的，祂在某些世界中備受敬仰。<em>艾恩石</em>分為許多種，每一種都有獨特的形狀與顏色組合。</p><p>當你採取魔法動作將<em>艾恩石</em>扔向空中時，此石會環繞在距離你頭頂1d3呎之處，並在環繞期間為你帶來其好處。同一時間內，你至多只能有3顆<em>艾恩石</em>環繞在你的頭頂。</p><p>每顆環繞在你頭頂的<em>艾恩石</em>，都視為你正在穿戴的物體。環繞中的艾恩石會避免與其他生物和物體接觸，並調整其軌道以避免碰撞，且使其他生物攻擊或奪取艾恩石的一切嘗試都無法得逞。</p><p>作為利用動作，你可以抓住並收起任意數量環繞在你頭頂的<em>艾恩石</em>。若你與某顆正環繞在你頭頂的<em>艾恩石</em>的同調結束，該石頭就會如同你將其丟棄一般掉落。</p><p>石頭的種類決定其稀有度和效果：</p><p><strong>@UUID[Compendium.dnd-dungeon-masters-guide.equipment.Item.dmgAbsorptionIou]{吸收}（極珍稀）。</strong>在這顆淡紫色的橢球形艾恩石環繞在你頭頂期間，你可以採取反應，使一名你所能看見的生物所施放的、4環或更低環階的法術無效化。被無效化的法術不會產生任何效應，且用於施放該法術的資源也會被浪費。此石無效化了總計20環階的法術後，會燒盡、變成黯淡的灰色並失去魔力。</p><p><strong>@UUID[Compendium.dnd-dungeon-masters-guide.equipment.Item.dmgAgilityIounSt]{機敏}（極珍稀）。</strong>在這顆深紅色的球形艾恩石環繞在你頭頂期間，你的敏捷提升2點，上限為20。</p><p><strong>@UUID[Compendium.dnd-dungeon-masters-guide.equipment.Item.dmgAwarenessIoun]{警覺}（珍稀）。</strong>在這顆暗藍色的長菱形艾恩石環繞在你頭頂期間，你的先攻檢定和感知（察覺）檢定都具有優勢。</p><p><strong>@UUID[Compendium.dnd-dungeon-masters-guide.equipment.Item.dmgFortitudeIoun]{堅韌}（極珍稀）。</strong>在這顆粉色的長菱形艾恩石環繞在你頭頂期間，你的體質提升2點，上限為20。</p><p><strong>@UUID[Compendium.dnd-dungeon-masters-guide.equipment.Item.dmgGreaterAbsorp]{強效吸收}（傳說）。</strong>在這顆具有淡紫與綠色大理石花紋的橢球形艾恩石環繞在你頭頂期間，你可以採取反應，使一名你所能看見的生物所施放的、8環或更低環階的法術無效化。被無效化的法術不會產生任何效應，且用於施放該法術的資源也會被浪費。此石無效化了總計20環階的法術後，會燒盡、變成黯淡的灰色並失去魔力。</p><p><strong>@UUID[Compendium.dnd-dungeon-masters-guide.equipment.Item.dmgInsightIounSt]{洞悉}（極珍稀）。</strong>在這顆熾藍色的球形艾恩石環繞在你頭頂期間，你的感知提升2點，上限為20。</p><p><strong>@UUID[Compendium.dnd-dungeon-masters-guide.equipment.Item.dmgIntellectIoun]{才智}（極珍稀）。</strong>在這顆具有紅藍雙色大理石花紋的球形艾恩石環繞在你頭頂期間，你的智力提升2點，上限為20。</p><p><strong>@UUID[Compendium.dnd-dungeon-masters-guide.equipment.Item.dmgLeadershipIou]{統御}（極珍稀）。</strong>在這顆具有粉綠雙色大理石花紋的球形艾恩石環繞在你頭頂期間，你的魅力提升2點，上限為20。</p><p><strong>@UUID[Compendium.dnd-dungeon-masters-guide.equipment.Item.dmgMasteryIounSt]{精通}（傳說）。</strong>在這顆淡綠色的稜柱形艾恩石環繞在你頭頂期間，你的熟練加值提升1點。</p><p><strong>@UUID[Compendium.dnd-dungeon-masters-guide.equipment.Item.dmgProtectionIou]{防護}（珍稀）。</strong>在這顆菸灰玫瑰色的稜柱形艾恩石環繞在你頭頂期間，你的AC獲得+1加值。</p><p><strong>@UUID[Compendium.dnd-dungeon-masters-guide.equipment.Item.dmgRegnerationIo]{再生}（傳說）。</strong>在這顆珍珠白色的紡錘形艾恩石環繞在你頭頂期間，每個小時結束時，若你至少擁有1點生命值，你便恢復15點生命值。</p><p><strong>@UUID[Compendium.dnd-dungeon-masters-guide.equipment.Item.dmgReserveIounSt]{儲法}（珍稀）。</strong>這顆豔紫色的稜柱形艾恩石會儲存對其施放的法術，直到你使用為止。該艾恩石同時最多只能儲存總計4環階的法術。這顆艾恩石在被發現時，儲存有由DM選擇、總計1d4環階的法術。</p><p>任何生物都可以在施放1至4環的法術時觸碰該艾恩石，以將該法術儲存於石中。此時法術除了被儲存之外不產生任何效應。若石頭無法容納該法術，則該法術會被消耗而不產生效應。施放該法術所用法術位的環階，決定其佔用的空間。</p><p>在這顆艾恩石環繞在你頭頂期間，你可以施放儲存其中的任何法術。該法術使用原施法者的法術位環階、法術豁免DC、法術攻擊加值和施法屬性，但在其他方面視為由你施放。從艾恩石中施放的法術不再儲存於其中，其佔用的空間隨之釋出。</p><p><strong>@UUID[Compendium.dnd-dungeon-masters-guide.equipment.Item.dmgStrengthIounS]{力量}（極珍稀）。</strong>在這顆淡藍色的長菱形艾恩石環繞在你頭頂期間，你的力量提升2點，上限為20。</p><p><strong>@UUID[Compendium.dnd-dungeon-masters-guide.equipment.Item.dmgSustenanceIou]{維生}（珍稀）。</strong>在這顆無色透明的紡錘形艾恩石環繞在你頭頂期間，你無需飲食也能生存。</p>"
     },
     "Earth Ring of Elemental Command": {
       "effects": {
@@ -1807,12 +1807,12 @@
     "Ioun Stone of Strength": {
       "effects": {
         "Enhanced Strength: Strength Bonus": {
-          "description": "<p>Your Strength increases by 2, to a maximum of 20, while this pale blue rhomboid orbits your head.</p>",
-          "name": "Enhanced Strength: Strength Bonus"
+          "description": "<p>在這顆淡藍色的長菱形艾恩石環繞在你頭頂期間，你的力量提升2點，上限為20。</p>",
+          "name": "提升力量：力量加值"
         }
       },
-      "name": "艾恩石，力量",
-      "description": "<p><em>See: @UUID[Compendium.dnd-dungeon-masters-guide.equipment.Item.dmgIounStone0000]{Ioun Stone}</em></p><p>When you take a Magic action to toss an <em>Ioun Stone</em> into the air, the stone orbits your head at a distance of 1d3 feet, conferring its benefit to you while doing so. You can have up to three <em>Ioun Stones</em> orbiting your head at the same time.</p><p>As a Utilize action, you can seize and stow any number of <em>Ioun Stones</em> orbiting your head. If your Attunement to an <em>Ioun Stone</em> ends while it’s orbiting your head, the stone falls as though you had dropped it.</p><p>Your Strength increases by 2, to a maximum of 20, while this pale blue rhomboid orbits your head.</p>"
+      "name": "艾恩石．力量",
+      "description": "<p><em>參見：@UUID[Compendium.dnd-dungeon-masters-guide.equipment.Item.dmgIounStone0000]{艾恩石}</em></p><p>當你採取魔法動作將<em>艾恩石</em>扔向空中時，此石會環繞在距離你頭頂1d3呎之處，並在環繞期間為你帶來其好處。同一時間內，你至多只能有3顆<em>艾恩石</em>環繞在你的頭頂。</p><p>作為利用動作，你可以抓住並收起任意數量環繞在你頭頂的<em>艾恩石</em>。若你與某顆正環繞在你頭頂的<em>艾恩石</em>的同調結束，該石頭就會如同你將其丟棄一般掉落。</p><p>在這顆淡藍色的長菱形艾恩石環繞在你頭頂期間，你的力量提升2點，上限為20。</p>"
     },
     "Midsize Compartment": {
       "description": "<p>The midsize compartment holds up to 18 Javelins or similar objects.</p>",
@@ -2035,15 +2035,15 @@
     "Brass Horn of Valhalla": {
       "effects": {
         "Horn of Valhalla: Condition Immunity": {
-          "description": "<p>The spirits look like living, breathing warriors, and they have Immunity to the &amp;Reference[Charmed apply=false] and &amp;Reference[Frightened apply=false] conditions.</p>",
-          "name": "Horn of Valhalla: Condition Immunity"
+          "description": "<p>英靈們看起來就像是活著的，能夠呼吸的戰士，且免疫&amp;Reference[Charmed apply=false]{魅惑}與&amp;Reference[Frightened apply=false]{恐慌}狀態。</p>",
+          "name": "瓦爾哈拉號角：狀態免疫"
         }
       },
-      "description": "<p><em>See: @UUID[Compendium.dnd-dungeon-masters-guide.equipment.Item.dmgHornofValhall]{Horn of Valhalla}</em></p><p><em>Requirement: Proficiency with all Simple weapons</em></p><p><em>Spirits: 3</em></p><p>You can take a Magic action to blow this horn. In response, warrior spirits from the plane of Ysgard appear in unoccupied spaces within 60 feet of you. Each spirit uses the <strong>@UUID[Compendium.dnd-dungeon-masters-guide.actors.Actor.kz1t6xeXVwODpYb2]{Berserker}</strong> stat block and returns to Ysgard after 1 hour or when it drops to 0 Hit Points. The spirits look like living, breathing warriors, and they have Immunity to the &amp;Reference[Charmed apply=false] and &amp;Reference[Frightened apply=false] conditions. Once you use the horn, it can’t be used again until 7 days have passed.</p><p>If you blow the horn without meeting its requirement, the summoned spirits attack you. If you meet the requirement, they are Friendly to you and your allies and follow your commands.</p>",
+      "description": "<p><em>參見：@UUID[Compendium.dnd-dungeon-masters-guide.equipment.Item.dmgHornofValhall]{瓦爾哈拉號角}</em></p><p><em>條件：熟練於所有簡易武器</em></p><p><em>英靈數量：3</em></p><p>你可以採取魔法動作吹響號角。作為回應，伊斯加德的武者英靈們將在位於你60呎內的未佔據空間出現。每個英靈都使用<strong>@UUID[Compendium.dnd-dungeon-masters-guide.actors.Actor.kz1t6xeXVwODpYb2]{狂戰士}</strong>的數值面板，並會在1小時後或其生命值降至0時返回伊斯加德。英靈們看起來就像是活著的，能夠呼吸的戰士，且免疫&amp;Reference[Charmed apply=false]{魅惑}與&amp;Reference[Frightened apply=false]{恐慌}狀態。號角一經使用，需要經過7天才能再次使用。</p><p>若你在不滿足條件的情況下吹響了號角，召喚出的英靈們將攻擊你。若你滿足條件，這些英靈會對你和你的盟友持友善態度，並聽從你的命令。</p>",
       "activities": {
         "Summon Warriors": {
-          "name": "Summon Warriors",
-          "target": "unoccupied spaces"
+          "name": "召喚武者",
+          "target": "未佔據空間"
         }
       },
       "name": "瓦爾哈拉黃銅號角"
@@ -2061,12 +2061,12 @@
     "Ioun Stone of Fortitude": {
       "effects": {
         "Enhance Fortitude: Constitution Bonus": {
-          "name": "Enhance Fortitude: Constitution Bonus",
-          "description": "<p>Your Constitution increases by 2, to a maximum of 20, while this pink rhomboid orbits your head.</p>"
+          "name": "提升堅韌：體質加值",
+          "description": "<p>在這顆粉色的長菱形艾恩石環繞在你頭頂期間，你的體質提升2點，上限為20。</p>"
         }
       },
-      "name": "艾恩石，堅韌",
-      "description": "<p><em>See: @UUID[Compendium.dnd-dungeon-masters-guide.equipment.Item.dmgIounStone0000]{Ioun Stone}</em></p><p>When you take a Magic action to toss an <em>Ioun Stone</em> into the air, the stone orbits your head at a distance of 1d3 feet, conferring its benefit to you while doing so. You can have up to three <em>Ioun Stones</em> orbiting your head at the same time.</p><p>As a Utilize action, you can seize and stow any number of <em>Ioun Stones</em> orbiting your head. If your Attunement to an <em>Ioun Stone</em> ends while it’s orbiting your head, the stone falls as though you had dropped it.</p><p>Your Constitution increases by 2, to a maximum of 20, while this pink rhomboid orbits your head.</p>"
+      "name": "艾恩石．堅韌",
+      "description": "<p><em>參見：@UUID[Compendium.dnd-dungeon-masters-guide.equipment.Item.dmgIounStone0000]{艾恩石}</em></p><p>當你採取魔法動作將<em>艾恩石</em>扔向空中時，此石會環繞在距離你頭頂1d3呎之處，並在環繞期間為你帶來其好處。同一時間內，你至多只能有3顆<em>艾恩石</em>環繞在你的頭頂。</p><p>作為利用動作，你可以抓住並收起任意數量環繞在你頭頂的<em>艾恩石</em>。若你與某顆正環繞在你頭頂的<em>艾恩石</em>的同調結束，該石頭就會如同你將其丟棄一般掉落。</p><p>在這顆粉色的長菱形艾恩石環繞在你頭頂期間，你的體質提升2點，上限為20。</p>"
     },
     "Orb of Dragonkind": {
       "effects": {
@@ -2759,20 +2759,20 @@
     },
     "Ring of the Ram": {
       "name": "公羊戒指",
-      "description": "<p><em>Ring，珍稀（需同調）</em></p><p>This ring has 3 charges and regains 1d3 expended charges daily at dawn. While wearing the ring, you can take a Magic action to expend 1 to 3 charges to make a ranged spell attack against one creature you can see within 60 feet of yourself. The ring produces a spectral ram’s head and makes its attack roll with a +7 bonus. On a hit, for each charge you spend, the target takes 2d10 Force damage and is pushed 5 feet away from you.</p><p>Alternatively, you can expend 1 to 3 of the ring’s charges as a Magic action to try to break a nonmagical object you can see within 60 feet of yourself that isn’t being worn or carried. The ring makes a Strength check with a +5 bonus for each charge you spend.</p>",
+      "description": "<p><em>戒指，珍稀（需同調）</em></p><p>這枚戒指具有3點充能，且在每日黎明時重獲1d3點已消耗的充能。佩戴該戒指期間，你可以採取魔法動作並消耗1至3點充能，對位於你60呎內一名你所能看見的生物進行一次遠程法術攻擊。戒指創造出一個靈體公羊腦袋並進行具有+7加值的攻擊檢定。命中時，你每消耗1點充能，目標就會承受2d10點力場傷害並且從你的方向被推離5呎。</p><p>作為另一種用法，你可以採取魔法動作並消耗戒指的1至3點充能，以嘗試破壞位於你60呎內一件你所能看見、未被穿戴或攜帶的非魔法性的物體。戒指將進行力量檢定，你每消耗1點充能，此檢定便具有+5加值。</p>",
       "activities": {
         "Break Item": {
-          "name": "Break Item",
-          "roll": "Strength Roll"
+          "name": "破壞物體",
+          "roll": "力量檢定"
         }
       }
     },
     "Ring of Swimming": {
-      "description": "<p><em>Ring，非普通</em></p><p>You have a Swim Speed of 40 feet while wearing this ring.</p>",
+      "description": "<p><em>戒指，非普通</em></p><p>佩戴這枚戒指期間，你獲得40呎游泳速度。</p>",
       "name": "游泳戒指",
       "effects": {
         "Swimmer": {
-          "name": "Swimmer"
+          "name": "游泳者"
         }
       }
     },
@@ -2827,8 +2827,8 @@
       }
     },
     "Anstruth Harp Instrument of the Bards": {
-      "name": "Anstruth Harp Instrument of the Bards",
-      "description": "<p><em>See: @UUID[Compendium.dnd-dungeon-masters-guide.equipment.Item.dmgInstrumentOfT]{Instrument of the Bards}</em></p><p>An <em>Instrument of the Bards</em> is superior to an ordinary instrument in every way.</p><p>A creature that attempts to play the instrument without being attuned to it must succeed on a [[/save ability=wis dc=15 format=long]] or take [[/damage 2d4 type=psychic]] damage.</p><p>You can play the instrument to cast one of its spells. Once the instrument has been used to cast a spell, it can’t be used to cast that spell again until the next dawn. The spells use your spellcasting ability and spell save DC.</p>"
+      "name": "安斯翠瑟豎琴",
+      "description": "<p><em>參見：@UUID[Compendium.dnd-dungeon-masters-guide.equipment.Item.dmgInstrumentOfT]{吟遊詩人樂器}</em></p><p><em>吟遊詩人樂器</em>在各方面都優於普通樂器。</p><p>在未與樂器完成同調的情況下，嘗試演奏樂器的生物必須成功通過一次[[/save ability=wis dc=15 format=long]]，否則承受[[/damage 2d4 type=psychic]]傷害。</p><p>你可以通過演奏樂器來施放其中一道法術。一旦該樂器被用來施放了某道法術，則其直到下個黎明前都無法再被用來施放該法術。這些法術使用你的施法屬性和法術豁免DC。</p>"
     },
     "Helm of Brilliance": {
       "effects": {
@@ -3082,7 +3082,7 @@
     },
     "Ring of Protection": {
       "name": "防護戒指",
-      "description": "<p><em>Ring，珍稀（需同調）</em></p><p>You gain a +1 bonus to Armor Class and saving throws while wearing this ring.</p>",
+      "description": "<p><em>戒指，珍稀（需同調）</em></p><p>佩戴這枚戒指期間，你在護甲等級和豁免檢定中獲得+1加值。</p>",
       "effects": {
         "Ring of Protection": {
           "name": "防護戒指"
@@ -3100,12 +3100,12 @@
     "Ioun Stone of Awareness": {
       "effects": {
         "Enhanced Awareness: Initiative and Perception": {
-          "name": "Enhanced Awareness: Initiative and Perception",
-          "description": "<p>While this dark-blue rhomboid orbits your head, you have Advantage on Initiative rolls and Wisdom (Perception) checks.</p>"
+          "name": "提升警覺：先攻與察覺",
+          "description": "<p>在這顆暗藍色的長菱形艾恩石環繞在你頭頂期間，你的先攻檢定和感知（察覺）檢定都具有優勢。</p>"
         }
       },
-      "description": "<p><em>See: @UUID[Compendium.dnd-dungeon-masters-guide.equipment.Item.dmgIounStone0000]{Ioun Stone}</em></p><p>When you take a Magic action to toss an <em>Ioun Stone</em> into the air, the stone orbits your head at a distance of 1d3 feet, conferring its benefit to you while doing so. You can have up to three <em>Ioun Stones</em> orbiting your head at the same time.</p><p>As a Utilize action, you can seize and stow any number of <em>Ioun Stones</em> orbiting your head. If your Attunement to an <em>Ioun Stone</em> ends while it’s orbiting your head, the stone falls as though you had dropped it.</p><p>While this dark-blue rhomboid orbits your head, you have Advantage on Initiative rolls and Wisdom (Perception) checks.</p>",
-      "name": "艾恩石，警覺"
+      "description": "<p><em>參見：@UUID[Compendium.dnd-dungeon-masters-guide.equipment.Item.dmgIounStone0000]{艾恩石}</em></p><p>當你採取魔法動作將<em>艾恩石</em>扔向空中時，此石會環繞在距離你頭頂1d3呎之處，並在環繞期間為你帶來其好處。同一時間內，你至多只能有3顆<em>艾恩石</em>環繞在你的頭頂。</p><p>作為利用動作，你可以抓住並收起任意數量環繞在你頭頂的<em>艾恩石</em>。若你與某顆正環繞在你頭頂的<em>艾恩石</em>的同調結束，該石頭就會如同你將其丟棄一般掉落。</p><p>在這顆暗藍色的長菱形艾恩石環繞在你頭頂期間，你的先攻檢定和感知（察覺）檢定都具有優勢。</p>",
+      "name": "艾恩石．警覺"
     },
     "Staff of the Magi": {
       "activities": {
@@ -3130,16 +3130,16 @@
     "Iron Horn of Valhalla": {
       "effects": {
         "Horn of Valhalla: Condition Immunity": {
-          "name": "Horn of Valhalla: Condition Immunity",
-          "description": "<p>The spirits look like living, breathing warriors, and they have Immunity to the &amp;Reference[Charmed apply=false] and &amp;Reference[Frightened apply=false] conditions.</p>"
+          "name": "瓦爾哈拉號角：狀態免疫",
+          "description": "<p>英靈們看起來就像是活著的，能夠呼吸的戰士，且免疫&amp;Reference[Charmed apply=false]{魅惑}與&amp;Reference[Frightened apply=false]{恐慌}狀態。</p>"
         }
       },
       "name": "瓦爾哈拉黑鐵號角",
-      "description": "<p><em>See: @UUID[Compendium.dnd-dungeon-masters-guide.equipment.Item.dmgHornofValhall]{Horn of Valhalla}</em></p><p><em>Requirement: Proficiency with all Martial weapons</em></p><p><em>Spirits: 5</em></p><p>You can take a Magic action to blow this horn. In response, warrior spirits from the plane of Ysgard appear in unoccupied spaces within 60 feet of you. Each spirit uses the <strong>@UUID[Compendium.dnd-dungeon-masters-guide.actors.Actor.kz1t6xeXVwODpYb2]{Berserker}</strong> stat block and returns to Ysgard after 1 hour or when it drops to 0 Hit Points. The spirits look like living, breathing warriors, and they have Immunity to the &amp;Reference[Charmed apply=false] and &amp;Reference[Frightened apply=false] conditions. Once you use the horn, it can’t be used again until 7 days have passed.</p><p>If you blow the horn without meeting its requirement, the summoned spirits attack you. If you meet the requirement, they are Friendly to you and your allies and follow your commands.</p>",
+      "description": "<p><em>參見：@UUID[Compendium.dnd-dungeon-masters-guide.equipment.Item.dmgHornofValhall]{瓦爾哈拉號角}</em></p><p><em>條件：熟練於所有軍用武器</em></p><p><em>英靈數量：5</em></p><p>你可以採取魔法動作吹響號角。作為回應，伊斯加德的武者英靈們將在位於你60呎內的未佔據空間出現。每個英靈都使用<strong>@UUID[Compendium.dnd-dungeon-masters-guide.actors.Actor.kz1t6xeXVwODpYb2]{狂戰士}</strong>的數值面板，並會在1小時後或其生命值降至0時返回伊斯加德。英靈們看起來就像是活著的，能夠呼吸的戰士，且免疫&amp;Reference[Charmed apply=false]{魅惑}與&amp;Reference[Frightened apply=false]{恐慌}狀態。號角一經使用，需要經過7天才能再次使用。</p><p>若你在不滿足條件的情況下吹響了號角，召喚出的英靈們將攻擊你。若你滿足條件，這些英靈會對你和你的盟友持友善態度，並聽從你的命令。</p>",
       "activities": {
         "Summon Warriors": {
-          "name": "Summon Warriors",
-          "target": "unoccupied spaces"
+          "name": "召喚武者",
+          "target": "未佔據空間"
         }
       }
     },
@@ -3263,12 +3263,12 @@
       }
     },
     "Ioun Stone of Mastery": {
-      "description": "<p><em>See: @UUID[Compendium.dnd-dungeon-masters-guide.equipment.Item.dmgIounStone0000]{Ioun Stone}</em></p><p>When you take a Magic action to toss an <em>Ioun Stone</em> into the air, the stone orbits your head at a distance of 1d3 feet, conferring its benefit to you while doing so. You can have up to three <em>Ioun Stones</em> orbiting your head at the same time.</p><p>As a Utilize action, you can seize and stow any number of <em>Ioun Stones</em> orbiting your head. If your Attunement to an <em>Ioun Stone</em> ends while it’s orbiting your head, the stone falls as though you had dropped it.</p><p><span style=\"font-family:'Roboto Condensed', sans-serif\">Your Proficiency Bonus increases by 1 while this pale green prism orbits your head.</span></p>",
-      "name": "艾恩石，精通",
+      "description": "<p><em>參見：@UUID[Compendium.dnd-dungeon-masters-guide.equipment.Item.dmgIounStone0000]{艾恩石}</em></p><p>當你採取魔法動作將<em>艾恩石</em>扔向空中時，此石會環繞在距離你頭頂1d3呎之處，並在環繞期間為你帶來其好處。同一時間內，你至多只能有3顆<em>艾恩石</em>環繞在你的頭頂。</p><p>作為利用動作，你可以抓住並收起任意數量環繞在你頭頂的<em>艾恩石</em>。若你與某顆正環繞在你頭頂的<em>艾恩石</em>的同調結束，該石頭就會如同你將其丟棄一般掉落。</p><p><span style=\"font-family:'Roboto Condensed', sans-serif\">在這顆淡綠色的稜柱形艾恩石環繞在你頭頂期間，你的熟練加值提升1點。</span></p>",
+      "name": "艾恩石．精通",
       "effects": {
         "Enhanced Mastery: Proficiency Bonus": {
-          "description": "<p>Your Proficiency Bonus increases by 1 while this pale green prism orbits your head.</p>",
-          "name": "Enhanced Mastery: Proficiency Bonus"
+          "description": "<p>在這顆淡綠色的稜柱形艾恩石環繞在你頭頂期間，你的熟練加值提升1點。</p>",
+          "name": "提升精通：熟練加值"
         }
       }
     },
@@ -3380,18 +3380,18 @@
     "Horn of Valhalla": {
       "effects": {
         "Horn of Valhalla: Condition Immunity": {
-          "name": "Horn of Valhalla: Condition Immunity",
-          "description": "<p>The spirits look like living, breathing warriors, and they have Immunity to the &amp;Reference[Charmed apply=false] and &amp;Reference[Frightened apply=false] conditions.</p>"
+          "name": "瓦爾哈拉號角：狀態免疫",
+          "description": "<p>英靈們看起來就像是活著的，能夠呼吸的戰士，且免疫&amp;Reference[Charmed apply=false]{魅惑}與&amp;Reference[Frightened apply=false]{恐慌}狀態。</p>"
         }
       },
-      "name": "Horn of Valhalla",
+      "name": "瓦爾哈拉號角",
       "activities": {
         "Summon Warriors": {
-          "name": "Summon Warriors",
-          "target": "unoccupied space"
+          "name": "召喚武者",
+          "target": "未佔據空間"
         }
       },
-      "description": "<p><em>奇物，珍稀 (Silver or Brass)，非常珍稀(Bronze), or Legendary (Iron)</em></p><p>You can take a Magic action to blow this horn. In response, warrior spirits from the plane of Ysgard appear in unoccupied spaces within 60 feet of you. Each spirit uses the <strong>Berserker</strong> stat block and returns to Ysgard after 1 hour or when it drops to 0 Hit Points. The spirits look like living, breathing warriors, and they have Immunity to the Charmed and Frightened conditions. Once you use the horn, it can’t be used again until 7 days have passed.</p><p>Four types of <em>Horn of Valhalla</em> are known to exist, each made of a different metal. The horn’s type determines how many spirits it summons, as well as the requirement for its use. The DM chooses the horn’s type or determines it randomly by rolling on the following table.</p><p>If you blow the horn without meeting its requirement, the summoned spirits attack you. If you meet the requirement, they are Friendly to you and your allies and follow your commands.</p><p>@Embed[Compendium.dnd-dungeon-masters-guide.tables.RollTable.dmgHornOfValhall rollable]</p>"
+      "description": "<p><em>奇物，珍稀（白銀或黃銅）、極珍稀（青銅）、傳說（黑鐵）</em></p><p>你可以採取魔法動作吹響號角。作為回應，伊斯加德的武者英靈們將在位於你60呎內的未佔據空間出現。每個英靈都使用<strong>狂戰士</strong>的數值面板，並會在1小時後或其生命值降至0時返回伊斯加德。英靈們看起來就像是活著的，能夠呼吸的戰士，且免疫魅惑與恐慌狀態。號角一經使用，需要經過7天才能再次使用。</p><p>已知共有四種類型的<em>瓦爾哈拉號角</em>存在，分別由不同的金屬製成。號角的類型決定了該號角能召喚多少英靈及其使用條件。號角的類型由DM決定或通過投擲下表來隨機決定。</p><p>若你在不滿足條件的情況下吹響了號角，召喚出的英靈們將攻擊你。若你滿足條件，這些英靈會對你和你的盟友持友善態度，並聽從你的命令。</p><p>@Embed[Compendium.dnd-dungeon-masters-guide.tables.RollTable.dmgHornOfValhall rollable]</p>"
     },
     "Goggles of Night": {
       "effects": {
@@ -3831,19 +3831,19 @@
     "Ioun Stone of Agility": {
       "effects": {
         "Enhanced Agility: Dexterity Bonus": {
-          "description": "<p>Your Dexterity increases by 2, to a maximum of 20, while this deep-red sphere orbits your head.</p>",
-          "name": "Enhanced Agility: Dexterity Bonus"
+          "description": "<p>在這顆深紅色的球形艾恩石環繞在你頭頂期間，你的敏捷提升2點，上限為20。</p>",
+          "name": "提升靈活：敏捷加值"
         }
       },
-      "name": "艾恩石，機敏",
-      "description": "<p><em>See: @UUID[Compendium.dnd-dungeon-masters-guide.equipment.Item.dmgIounStone0000]{Ioun Stone}</em></p><p>When you take a Magic action to toss an <em>Ioun Stone</em> into the air, the stone orbits your head at a distance of 1d3 feet, conferring its benefit to you while doing so. You can have up to three <em>Ioun Stones</em> orbiting your head at the same time.</p><p>As a Utilize action, you can seize and stow any number of <em>Ioun Stones</em> orbiting your head. If your Attunement to an <em>Ioun Stone</em> ends while it’s orbiting your head, the stone falls as though you had dropped it.</p><p>Your Dexterity increases by 2, to a maximum of 20, while this deep-red sphere orbits your head.</p>"
+      "name": "艾恩石．機敏",
+      "description": "<p><em>參見：@UUID[Compendium.dnd-dungeon-masters-guide.equipment.Item.dmgIounStone0000]{艾恩石}</em></p><p>當你採取魔法動作將<em>艾恩石</em>扔向空中時，此石會環繞在距離你頭頂1d3呎之處，並在環繞期間為你帶來其好處。同一時間內，你至多只能有3顆<em>艾恩石</em>環繞在你的頭頂。</p><p>作為利用動作，你可以抓住並收起任意數量環繞在你頭頂的<em>艾恩石</em>。若你與某顆正環繞在你頭頂的<em>艾恩石</em>的同調結束，該石頭就會如同你將其丟棄一般掉落。</p><p>在這顆深紅色的球形艾恩石環繞在你頭頂期間，你的敏捷提升2點，上限為20。</p>"
     },
     "Serpentine Owl": {
-      "description": "<p><em>See @UUID[Compendium.dnd-dungeon-masters-guide.equipment.Item.dmgFigurineOfWon]{Figurine of Wondrous Power}</em></p><p>This serpentine statuette of an owl can become a <strong>@UUID[Compendium.dnd-dungeon-masters-guide.actors.Actor.VVXly3ue0i3YgGrB]{Giant Owl}</strong> for up to 8 hours. The owl can communicate telepathically with you at any range if you and it are on the same plane of existence. Once it has been used, it can’t be used again until 2 days have passed.</p><section class=\"secret\" id=\"secret-lvDPI4uyHQj4dE5a\"><p><strong>Foundry 註記</strong></p><p>This item's limited uses represent the 2 days required before the figurine can be used again.</p></section>",
-      "name": "Serpentine Owl",
+      "description": "<p><em>參見：@UUID[Compendium.dnd-dungeon-masters-guide.equipment.Item.dmgFigurineOfWon]{異能塑像}</em></p><p>這個蛇紋石貓頭鷹塑像可以變為一隻<strong>@UUID[Compendium.dnd-dungeon-masters-guide.actors.Actor.VVXly3ue0i3YgGrB]{巨貓頭鷹}</strong>，其存在至多維持8小時。只要你和該貓頭鷹在同一位面，該貓頭鷹就可以在任何距離與你通過心靈感應進行溝通。使用後，該塑像需要經過2日才能再次啟動。</p><section class=\"secret\" id=\"secret-lvDPI4uyHQj4dE5a\"><p><strong>Foundry 註記</strong></p><p>這件物品的有限使用次數代表塑像再次可用前所需經過的2日。</p></section>",
+      "name": "蛇紋石貓頭鷹",
       "activities": {
         "summon": {
-          "target": "unoccupied space"
+          "target": "未佔據空間"
         }
       }
     },
@@ -4242,17 +4242,17 @@
       "description": "<p><em>@UUID[Compendium.dnd-players-handbook.equipment.Item.phbafcStaffalsoa]{Staff}，非常珍稀(Requires Attunement by a Druid, Sorcerer, Warlock, or Wizard)</em></p><p>You have Resistance to Cold damage while you hold this staff.</p><p><em><strong>Spells.</strong></em> The staff has 10 charges. While holding the staff, you can cast one of the spells on the following table from it, using your spell save DC. The table indicates how many charges you must expend to cast the spell.</p><table><thead><tr><th>Spell</th><th>Charge Cost</th></tr></thead><tbody><tr><td>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplConeofCold]{Cone of Cold}</td><td>5</td></tr><tr><td>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplIceStorm00]{Ice Storm}</td><td>4</td></tr><tr><td>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplFogCloud00]{Fog Cloud}</td><td>1</td></tr><tr><td>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplWallofIce0]{Wall of Ice}</td><td>4</td></tr></tbody></table><p><em><strong>Regaining Charges.</strong></em> The staff regains 1d6 + 4 expended charges daily at dawn. If you expend the last charge, roll [[/r 1d20]]. On a 1, the staff turns to water and is destroyed.</p>"
     },
     "Quaal's Feather Token (Fan)": {
-      "description": "<p><em>奇物，非普通, See: @UUID[Compendium.dnd-dungeon-masters-guide.equipment.Item.dmgQuaalsFeather]{Quaal's Feather Token}</em></p><p>If you are on a boat or ship, you can take a Magic action to toss the token up to 10 feet in the air. The token disappears, and a giant flapping fan takes its place. The fan floats and creates a strong wind. This wind can fill the sails of one ship, increasing its speed by 5 miles per hour for 8 hours. You can dismiss the fan as a Magic action.</p>",
-      "name": "Quaal's Feather Token (Fan)",
+      "description": "<p><em>奇物，非普通，參見：@UUID[Compendium.dnd-dungeon-masters-guide.equipment.Item.dmgQuaalsFeather]{夸爾羽符}</em></p><p>若你在小艇或船隻上，你可以採取魔法動作將羽符拋至至多10呎高的空中。羽符將消失，一把巨大的扇子取而代之。這把扇子會漂浮並製造一股強風。此強風能吹滿一艘船的風帆，使其速度增加5哩/小時，持續8小時。你可以採取魔法動作將扇子遣散。</p>",
+      "name": "夸爾羽符（扇）",
       "effects": {
         "Feather Token: Fan": {
-          "name": "Feather Token: Fan",
-          "description": "<p>This wind can fill the sails of one ship, increasing its speed by 5 miles per hour for 8 hours. You can dismiss the fan as a Magic action.</p>"
+          "name": "羽符：扇",
+          "description": "<p>此強風能吹滿一艘船的風帆，使其速度增加5哩/小時，持續8小時。你可以採取魔法動作將扇子遣散。</p>"
         }
       },
       "activities": {
         "Use": {
-          "name": "Use"
+          "name": "使用"
         }
       }
     },
@@ -4272,12 +4272,12 @@
       "description": "<div><p><em>奇物，非常珍稀(Requires Attunement by a Druid or Warlock)</em></p></div><blockquote><p>This Tiny pot bears relief scenes of heroes on its cast-iron sides.</p></blockquote><p>You can use the cauldron as a Spellcasting Focus for your spells, and it functions as a suitable component for the <em>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplScrying000]{Scrying}</em> spell.</p><details><summary><strong>Brew Potion.</strong></summary><p>When you finish a Long Rest, you can use the cauldron to create a <em>@UUID[Compendium.dnd-dungeon-masters-guide.equipment.Item.dmgGreaterPotion]{Potion of Healing (greater)}</em>, which takes 1 minute. The potion lasts for 24 hours, then loses its magic if not consumed.</p></details><details><summary><strong>Raise Dead.</strong></summary><p>As a Magic action, you can cause the cauldron to grow large enough for a Medium creature to crouch within. You can revert the cauldron to its normal size as a Magic action, harmlessly shunting anything that can’t fit inside to the nearest unoccupied space.</p><p>If you place the corpse of a Humanoid into the cauldron and cover the corpse with 200 pounds of salt (which costs 10 GP) for at least 8 hours, the salt is consumed and the creature returns to life as if by <em>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplRaiseDead0]</em> at the next dawn. Once used, this property can’t be used again for 7 days.</p><section class=\"secret\" id=\"secret-67GBb7ysNk6W5rYv\"><p><strong>Foundry 註記</strong></p><p>The <strong>Enlarge Cauldron</strong> activity is optional and provided to create a small, circular Measured Template indicating the cauldron's position.</p><p>The <strong>Raise Dead</strong> activity contains and consumes 7 uses, which recover at a rate of one per Day to represent its one activation per 7 Days.</p></section></details>"
     },
     "Obsidian Steed": {
-      "name": "Obsidian Steed",
-      "description": "<p><em>See @UUID[Compendium.dnd-dungeon-masters-guide.equipment.Item.dmgFigurineOfWon]{Figurine of Wondrous Power}</em></p><p>This polished obsidian horse can become a <strong>@UUID[Compendium.dnd-dungeon-masters-guide.actors.Actor.5SgVGhQBswgWRwsF]{Nightmare}</strong> for up to 24 hours. The nightmare fights only to defend itself. Once it has been used, it can’t be used again until 5 days have passed.</p><p>The figurine has a [[/r 1d10cs1]]{10 percent chance} each time you use it to ignore your orders, including a command to revert to figurine form. If you mount the nightmare while it is ignoring your orders, you and the nightmare are instantly transported to a random location on the plane of Hades, where the nightmare reverts to figurine form.</p><section class=\"secret\" id=\"secret-OH9v7OxKinHyCnIQ\"><p><strong>Foundry 註記</strong></p><p>This item's limited uses represent the 5 days required before the figurine can be used again.</p></section>",
+      "name": "黑曜石駒",
+      "description": "<p><em>參見：@UUID[Compendium.dnd-dungeon-masters-guide.equipment.Item.dmgFigurineOfWon]{異能塑像}</em></p><p>這個打磨過的黑曜石駒塑像可以變為一隻<strong>@UUID[Compendium.dnd-dungeon-masters-guide.actors.Actor.5SgVGhQBswgWRwsF]{夢魘}</strong>，其存在至多維持24小時。夢魘只會為了保護自己而戰鬥。使用後，該塑像需要經過5日才能再次啟動。</p><p>每次使用該塑像時，其有[[/r 1d10cs1]]{10%的機率}會無視你的命令，包括讓其變回塑像的命令。若你在夢魘無視你的命令時騎上夢魘，則你和夢魘會一起立刻被傳送到哈迪斯位面的隨機地點。之後夢魘將變回塑像。</p><section class=\"secret\" id=\"secret-OH9v7OxKinHyCnIQ\"><p><strong>Foundry 註記</strong></p><p>這件物品的有限使用次數代表塑像再次可用前所需經過的5日。</p></section>",
       "activities": {
         "summon": {
-          "chatFlavor": " [[/r 1d10cs1]]{10 percent chance} of ignoring your orders.",
-          "target": "unoccupied space"
+          "chatFlavor": "[[/r 1d10cs1]]{10%的機率}無視你的命令。",
+          "target": "未佔據空間"
         }
       }
     },
@@ -4460,12 +4460,12 @@
     "Ioun Stone of Sustenance": {
       "effects": {
         "Sustained": {
-          "description": "<p>You don’t need to eat or drink while this clear spindle orbits your head.</p>",
-          "name": "Sustained"
+          "description": "<p>在這顆無色透明的紡錘形艾恩石環繞在你頭頂期間，你無需飲食也能生存。</p>",
+          "name": "維生"
         }
       },
-      "name": "艾恩石，維生",
-      "description": "<p><em>See: @UUID[Compendium.dnd-dungeon-masters-guide.equipment.Item.dmgIounStone0000]{Ioun Stone}</em></p><p>When you take a Magic action to toss an <em>Ioun Stone</em> into the air, the stone orbits your head at a distance of 1d3 feet, conferring its benefit to you while doing so. You can have up to three <em>Ioun Stones</em> orbiting your head at the same time.</p><p>As a Utilize action, you can seize and stow any number of <em>Ioun Stones</em> orbiting your head. If your Attunement to an <em>Ioun Stone</em> ends while it’s orbiting your head, the stone falls as though you had dropped it.</p><p>You don’t need to eat or drink while this clear spindle orbits your head.</p>"
+      "name": "艾恩石．維生",
+      "description": "<p><em>參見：@UUID[Compendium.dnd-dungeon-masters-guide.equipment.Item.dmgIounStone0000]{艾恩石}</em></p><p>當你採取魔法動作將<em>艾恩石</em>扔向空中時，此石會環繞在距離你頭頂1d3呎之處，並在環繞期間為你帶來其好處。同一時間內，你至多只能有3顆<em>艾恩石</em>環繞在你的頭頂。</p><p>作為利用動作，你可以抓住並收起任意數量環繞在你頭頂的<em>艾恩石</em>。若你與某顆正環繞在你頭頂的<em>艾恩石</em>的同調結束，該石頭就會如同你將其丟棄一般掉落。</p><p>在這顆無色透明的紡錘形艾恩石環繞在你頭頂期間，你無需飲食也能生存。</p>"
     },
     "Potion of Longevity": {
       "activities": {
@@ -4616,10 +4616,10 @@
       "name": "水手護甲"
     },
     "Ring of Animal Influence": {
-      "description": "<p><em>Ring，珍稀</em></p><p>This ring has 3 charges, and it regains 1d3 expended charges daily at dawn. While wearing the ring, you can expend 1 charge to cast one of the following spells (save DC 13) from it:</p><ul><li class=\"Core-Styles_Core-Bulleted\">@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplAnimalFrie]{Animal Friendship}</li><li class=\"Core-Styles_Core-Bulleted\">@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplFear000000]{Fear} (affects Beasts only)</li><li class=\"Core-Styles_Core-Bulleted\">@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplSpeakwithA]{Speak with Animals}</li></ul>",
+      "description": "<p><em>戒指，珍稀</em></p><p>這枚戒指具有3點充能，並在每日黎明時重獲1d3點已消耗的充能。佩戴該戒指期間，你可以消耗1點充能，從中施放下列其中一道法術（豁免DC 13）：</p><ul><li class=\"Core-Styles_Core-Bulleted\">@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplAnimalFrie]{化獸為友}</li><li class=\"Core-Styles_Core-Bulleted\">@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplFear000000]{恐懼術}（只影響野獸）</li><li class=\"Core-Styles_Core-Bulleted\">@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplSpeakwithA]{動物交談術}</li></ul>",
       "activities": {
         "Fear (Affects Beasts Only)": {
-          "name": "Fear (Affects Beasts Only)"
+          "name": "恐懼術（只影響野獸）"
         }
       },
       "name": "支配動物戒指"
@@ -4799,11 +4799,11 @@
     "Canaith Mandolin Instrument of the Bards": {
       "activities": {
         "Protection from Energy (Lightning Only)": {
-          "name": "Protection from Energy (Lightning Only)"
+          "name": "防護能量（僅閃電傷害）"
         }
       },
-      "name": "Canaith Mandolin Instrument of the Bards",
-      "description": "<p><em>See: @UUID[Compendium.dnd-dungeon-masters-guide.equipment.Item.dmgInstrumentOfT]{Instrument of the Bards}</em></p><p>An <em>Instrument of the Bards</em> is superior to an ordinary instrument in every way.</p><p>A creature that attempts to play the instrument without being attuned to it must succeed on a [[/save ability=wis dc=15 format=long]] or take [[/damage 2d4 type=psychic]] damage.</p><p>You can play the instrument to cast one of its spells. Once the instrument has been used to cast a spell, it can’t be used to cast that spell again until the next dawn. The spells use your spellcasting ability and spell save DC.</p>"
+      "name": "卡奈斯曼陀林",
+      "description": "<p><em>參見：@UUID[Compendium.dnd-dungeon-masters-guide.equipment.Item.dmgInstrumentOfT]{吟遊詩人樂器}</em></p><p><em>吟遊詩人樂器</em>在各方面都優於普通樂器。</p><p>在未與樂器完成同調的情況下，嘗試演奏樂器的生物必須成功通過一次[[/save ability=wis dc=15 format=long]]，否則承受[[/damage 2d4 type=psychic]]傷害。</p><p>你可以通過演奏樂器來施放其中一道法術。一旦該樂器被用來施放了某道法術，則其直到下個黎明前都無法再被用來施放該法術。這些法術使用你的施法屬性和法術豁免DC。</p>"
     },
     "Ruin": {
       "name": "Ruin",
@@ -4953,13 +4953,13 @@
       "name": "陽炎劍"
     },
     "Doss Lute Instrument of the Bards": {
-      "name": "Doss Lute Instrument of the Bards",
+      "name": "道斯魯特琴",
       "activities": {
         "Protection from Energy (Fire Only)": {
-          "name": "Protection from Energy (Fire Only)"
+          "name": "防護能量（僅火焰傷害）"
         }
       },
-      "description": "<p><em>See: @UUID[Compendium.dnd-dungeon-masters-guide.equipment.Item.dmgInstrumentOfT]{Instrument of the Bards}</em></p><p>An <em>Instrument of the Bards</em> is superior to an ordinary instrument in every way.</p><p>A creature that attempts to play the instrument without being attuned to it must succeed on a [[/save ability=wis dc=15 format=long]] or take [[/damage 2d4 type=psychic]] damage.</p><p>You can play the instrument to cast one of its spells. Once the instrument has been used to cast a spell, it can’t be used to cast that spell again until the next dawn. The spells use your spellcasting ability and spell save DC.</p>"
+      "description": "<p><em>參見：@UUID[Compendium.dnd-dungeon-masters-guide.equipment.Item.dmgInstrumentOfT]{吟遊詩人樂器}</em></p><p><em>吟遊詩人樂器</em>在各方面都優於普通樂器。</p><p>在未與樂器完成同調的情況下，嘗試演奏樂器的生物必須成功通過一次[[/save ability=wis dc=15 format=long]]，否則承受[[/damage 2d4 type=psychic]]傷害。</p><p>你可以通過演奏樂器來施放其中一道法術。一旦該樂器被用來施放了某道法術，則其直到下個黎明前都無法再被用來施放該法術。這些法術使用你的施法屬性和法術豁免DC。</p>"
     },
     "Heward's Handy Haversack": {
       "name": "霍華德的便利袋",
@@ -4990,14 +4990,14 @@
     "Ring of X-ray Vision": {
       "effects": {
         "X-Ray Vision": {
-          "name": "X-Ray Vision"
+          "name": "X光視覺"
         }
       },
       "name": "X光視覺戒指",
-      "description": "<p><em>Ring，珍稀（需同調）</em></p><p>While wearing this ring, you can take a Magic action to gain X-ray vision with a range of 30 feet for 1 minute. To you, solid objects within that radius appear transparent and don’t prevent light from passing through them. The vision can penetrate 1 foot of stone, 1 inch of common metal, or up to 3 feet of wood or dirt. Thicker substances or a thin sheet of lead block the vision.</p><p>Whenever you use the ring again before taking a Long Rest, you must succeed on a DC 15 Constitution saving throw or gain 1 &amp;Reference[Exhaustion] level.</p>",
+      "description": "<p><em>戒指，珍稀（需同調）</em></p><p>佩戴這枚戒指期間，你可以採取魔法動作以獲得範圍30呎的X光視覺，持續1分鐘。對你來說，半徑內的固態物體變為透明，並且不會阻礙光線通過。這種視覺可以穿透1呎厚的石頭，1吋厚的常見金屬或最多3呎厚的木頭或泥土。更厚的物質或一張薄鉛片會阻擋這種視覺。</p><p>每當你在完成一次長休前再次使用該戒指時，你必須成功通過一次DC 15的體質豁免檢定，否則獲得1級&amp;Reference[Exhaustion]{力竭}。</p>",
       "activities": {
         "Gain X-Ray Vision": {
-          "name": "Gain X-Ray Vision"
+          "name": "獲得X光視覺"
         }
       }
     },
@@ -5306,7 +5306,7 @@
     },
     "Ring of Warmth": {
       "name": "溫暖戒指",
-      "description": "<p><em>Ring，非普通（需同調）</em></p><p>If you take Cold damage while wearing this ring, the ring reduces the damage you take by [[/r 2d8]].</p><p>In addition, while wearing this ring, you and everything you wear and carry are unharmed by temperatures of 0 degrees Fahrenheit or lower.</p>"
+      "description": "<p><em>戒指，非普通（需同調）</em></p><p>佩戴這枚戒指期間，當你承受寒冷傷害時，戒指將你所承受的傷害減少[[/r 2d8]]。</p><p>此外，佩戴這枚戒指期間，你以及你穿戴和攜帶的任何東西都不會被0華氏度及以下的溫度所傷害。</p>"
     },
     "Wand of Wonder": {
       "activities": {
@@ -5538,17 +5538,17 @@
     },
     "Bronze Horn of Valhalla": {
       "name": "瓦爾哈拉青銅號角",
-      "description": "<p><em>See: @UUID[Compendium.dnd-dungeon-masters-guide.equipment.Item.dmgHornofValhall]{Horn of Valhalla}</em></p><p><em>Requirement: Training with all Medium armor</em></p><p><em>Spirits: 4</em></p><p>You can take a Magic action to blow this horn. In response, warrior spirits from the plane of Ysgard appear in unoccupied spaces within 60 feet of you. Each spirit uses the <strong>@UUID[Compendium.dnd-dungeon-masters-guide.actors.Actor.kz1t6xeXVwODpYb2]{Berserker}</strong> stat block and returns to Ysgard after 1 hour or when it drops to 0 Hit Points. The spirits look like living, breathing warriors, and they have Immunity to the &amp;Reference[Charmed apply=false] and &amp;Reference[Frightened apply=false] conditions. Once you use the horn, it can’t be used again until 7 days have passed.</p><p>If you blow the horn without meeting its requirement, the summoned spirits attack you. If you meet the requirement, they are Friendly to you and your allies and follow your commands.</p>",
+      "description": "<p><em>參見：@UUID[Compendium.dnd-dungeon-masters-guide.equipment.Item.dmgHornofValhall]{瓦爾哈拉號角}</em></p><p><em>條件：受訓於所有中甲</em></p><p><em>英靈數量：4</em></p><p>你可以採取魔法動作吹響號角。作為回應，伊斯加德的武者英靈們將在位於你60呎內的未佔據空間出現。每個英靈都使用<strong>@UUID[Compendium.dnd-dungeon-masters-guide.actors.Actor.kz1t6xeXVwODpYb2]{狂戰士}</strong>的數值面板，並會在1小時後或其生命值降至0時返回伊斯加德。英靈們看起來就像是活著的，能夠呼吸的戰士，且免疫&amp;Reference[Charmed apply=false]{魅惑}與&amp;Reference[Frightened apply=false]{恐慌}狀態。號角一經使用，需要經過7天才能再次使用。</p><p>若你在不滿足條件的情況下吹響了號角，召喚出的英靈們將攻擊你。若你滿足條件，這些英靈會對你和你的盟友持友善態度，並聽從你的命令。</p>",
       "activities": {
         "Summon Warriors": {
-          "name": "Summon Warriors",
-          "target": "unoccupied spaces"
+          "name": "召喚武者",
+          "target": "未佔據空間"
         }
       },
       "effects": {
         "Horn of Valhalla: Condition Immunity": {
-          "name": "Horn of Valhalla: Condition Immunity",
-          "description": "<p>The spirits look like living, breathing warriors, and they have Immunity to the &amp;Reference[Charmed apply=false] and &amp;Reference[Frightened apply=false] conditions.</p>"
+          "name": "瓦爾哈拉號角：狀態免疫",
+          "description": "<p>英靈們看起來就像是活著的，能夠呼吸的戰士，且免疫&amp;Reference[Charmed apply=false]{魅惑}與&amp;Reference[Frightened apply=false]{恐慌}狀態。</p>"
         }
       }
     },
@@ -5629,14 +5629,14 @@
       "name": "River Styx"
     },
     "Ioun Stone of Leadership": {
-      "name": "艾恩石，統御",
+      "name": "艾恩石．統御",
       "effects": {
         "Enhanced Leadership: Charisma Bonus": {
-          "name": "Enhanced Leadership: Charisma Bonus",
-          "description": "<p>Your Charisma increases by 2, to a maximum of 20, while this marbled pink and green sphere orbits your head.</p>"
+          "name": "提升統御：魅力加值",
+          "description": "<p>在這顆具有粉綠雙色大理石花紋的球形艾恩石環繞在你頭頂期間，你的魅力提升2點，上限為20。</p>"
         }
       },
-      "description": "<p><em>See: @UUID[Compendium.dnd-dungeon-masters-guide.equipment.Item.dmgIounStone0000]{Ioun Stone}</em></p><p>When you take a Magic action to toss an <em>Ioun Stone</em> into the air, the stone orbits your head at a distance of 1d3 feet, conferring its benefit to you while doing so. You can have up to three <em>Ioun Stones</em> orbiting your head at the same time.</p><p>As a Utilize action, you can seize and stow any number of <em>Ioun Stones</em> orbiting your head. If your Attunement to an <em>Ioun Stone</em> ends while it’s orbiting your head, the stone falls as though you had dropped it.</p><p><span style=\"font-family:'Roboto Condensed', sans-serif\">Your Charisma increases by 2, to a maximum of 20, while this marbled pink and green sphere orbits your head.</span></p>"
+      "description": "<p><em>參見：@UUID[Compendium.dnd-dungeon-masters-guide.equipment.Item.dmgIounStone0000]{艾恩石}</em></p><p>當你採取魔法動作將<em>艾恩石</em>扔向空中時，此石會環繞在距離你頭頂1d3呎之處，並在環繞期間為你帶來其好處。同一時間內，你至多只能有3顆<em>艾恩石</em>環繞在你的頭頂。</p><p>作為利用動作，你可以抓住並收起任意數量環繞在你頭頂的<em>艾恩石</em>。若你與某顆正環繞在你頭頂的<em>艾恩石</em>的同調結束，該石頭就會如同你將其丟棄一般掉落。</p><p><span style=\"font-family:'Roboto Condensed', sans-serif\">在這顆具有粉綠雙色大理石花紋的球形艾恩石環繞在你頭頂期間，你的魅力提升2點，上限為20。</span></p>"
     },
     "Censer of Controlling Air Elementals": {
       "name": "控制氣元素香爐",
@@ -5785,12 +5785,12 @@
       "name": "巨蟒法杖"
     },
     "Ioun Stone of Intellect": {
-      "name": "艾恩石，才智",
-      "description": "<p><em>See: @UUID[Compendium.dnd-dungeon-masters-guide.equipment.Item.dmgIounStone0000]{Ioun Stone}</em></p><p>When you take a Magic action to toss an <em>Ioun Stone</em> into the air, the stone orbits your head at a distance of 1d3 feet, conferring its benefit to you while doing so. You can have up to three <em>Ioun Stones</em> orbiting your head at the same time.</p><p>As a Utilize action, you can seize and stow any number of <em>Ioun Stones</em> orbiting your head. If your Attunement to an <em>Ioun Stone</em> ends while it’s orbiting your head, the stone falls as though you had dropped it.</p><p>Your Intelligence increases by 2, to a maximum of 20, while this marbled scarlet and blue sphere orbits your head.</p>",
+      "name": "艾恩石．才智",
+      "description": "<p><em>參見：@UUID[Compendium.dnd-dungeon-masters-guide.equipment.Item.dmgIounStone0000]{艾恩石}</em></p><p>當你採取魔法動作將<em>艾恩石</em>扔向空中時，此石會環繞在距離你頭頂1d3呎之處，並在環繞期間為你帶來其好處。同一時間內，你至多只能有3顆<em>艾恩石</em>環繞在你的頭頂。</p><p>作為利用動作，你可以抓住並收起任意數量環繞在你頭頂的<em>艾恩石</em>。若你與某顆正環繞在你頭頂的<em>艾恩石</em>的同調結束，該石頭就會如同你將其丟棄一般掉落。</p><p>在這顆具有紅藍雙色大理石花紋的球形艾恩石環繞在你頭頂期間，你的智力提升2點，上限為20。</p>",
       "effects": {
         "Enhanced Intellect: Intelligence Bonus": {
-          "description": "<p>Your Intelligence increases by 2, to a maximum of 20, while this marbled scarlet and blue sphere orbits your head.</p>",
-          "name": "Enhanced Intellect: Intelligence Bonus"
+          "description": "<p>在這顆具有紅藍雙色大理石花紋的球形艾恩石環繞在你頭頂期間，你的智力提升2點，上限為20。</p>",
+          "name": "提升才智：智力加值"
         }
       }
     },
@@ -6057,28 +6057,28 @@
     "Ivory Goats": {
       "activities": {
         "Goat of Traveling": {
-          "name": "Goat of Traveling",
-          "duration": "24 hours of use (non-contiguous)",
-          "target": "unoccupied space"
+          "name": "客運山羊",
+          "duration": "24小時使用時間（可不連續）",
+          "target": "未佔據空間"
         },
         "Revert or Recall Goat of Traveling": {
-          "chatFlavor": "Each hour or portion thereof it spends in goat form costs 1 charge.",
-          "name": "Revert or Recall Goat of Traveling",
-          "target": "unoccupied space",
-          "duration": "24 hours of use (non-contiguous)"
+          "chatFlavor": "處於山羊形態每小時（不足1小時按1小時計）消耗1點充能。",
+          "name": "變回或召回客運山羊",
+          "target": "未佔據空間",
+          "duration": "24小時使用時間（可不連續）"
         },
         "Goat of Travail": {
-          "name": "Goat of Travail",
-          "duration": "24 hours of use (non-contiguous)",
-          "target": "unoccupied space"
+          "name": "苦力山羊",
+          "duration": "24小時使用時間（可不連續）",
+          "target": "未佔據空間"
         },
         "Goat of Terror": {
-          "name": "Goat of Terror",
-          "target": "unoccupied space"
+          "name": "可怖山羊",
+          "target": "未佔據空間"
         }
       },
-      "name": "Ivory Goats",
-      "description": "<p><em>See @UUID[Compendium.dnd-dungeon-masters-guide.equipment.Item.dmgFigurineOfWon]{Figurine of Wondrous Power}</em></p><p>These ivory statuettes of goats are always created in sets of three. Each goat looks unique and functions differently from the others. Their properties are as follows:</p><p><strong>Goat of Terror.</strong> This figurine can become a <strong>@UUID[Compendium.dnd-players-handbook.actors.Actor.phbmobGiantGoat0]{Giant Goat}</strong> for up to 3 hours. The goat can’t attack, but you can (harmlessly) remove its horns and use them as weapons. One horn becomes a <em>+1 Lance</em> , and the other becomes a <em>+2 Longsword</em>. Removing a horn requires a Magic action, and the weapons disappear and the horns return when the goat reverts to figurine form. While you ride the goat, any Hostile creature that starts its turn within a 30-foot Emanation originating from the goat must succeed on a DC 15 Wisdom saving throw or have the Frightened condition for 1 minute, until you are no longer riding the goat, or until the goat reverts to figurine form. The Frightened creature repeats the save at the end of each of its turns, ending the effect on itself on a success. Once it succeeds on the save, a creature is immune to this effect for the next 24 hours. Once the figurine has been used, it can’t be used again until 15 days have passed.</p><p><strong>Goat of Traveling.</strong> This figurine can become a Large goat with the same statistics as a <strong>@UUID[Compendium.dnd-players-handbook.actors.Actor.phbmobRidingHors]{Riding Horse}</strong>. It has 24 charges, and each hour or portion thereof it spends in goat form costs 1 charge. While it has charges, you can use it as often as you wish. When it runs out of charges, it reverts to a figurine and can’t be used again until 7 days have passed, when it regains all expended charges.</p><section class=\"secret\" id=\"secret-Bzl0aaerk0Ql0uOm\"><p><strong>Foundry 註記</strong></p><p>The <strong>Revert or Recall Goat of Traveling</strong> activity is optionally provided to aid in tracking the non-contiguous 24 hours the figurine can remain in goat form. When reverting to a figurine, the scaling value for consumption represents the number of hours spent in goat form. When recalling the figurine to goat form, uncheck the \"Consume Item Use?\" checkbox when using this activity.</p></section><p><strong>Goat of Travail.</strong> This figurine can become a <strong>@UUID[Compendium.dnd-players-handbook.actors.Actor.phbmobGiantGoat0]{Giant Goat}</strong> for up to 3 hours. Once it has been used, it can’t be used again until 30 days have passed.</p>"
+      "name": "象牙山羊",
+      "description": "<p><em>參見：@UUID[Compendium.dnd-dungeon-masters-guide.equipment.Item.dmgFigurineOfWon]{異能塑像}</em></p><p>這些象牙製成的山羊塑像總是三個為一組製造。每個山羊塑像都有獨特的外形和功能，如下所述：</p><p><strong>【可怖山羊】</strong>該塑像可以變為一隻<strong>@UUID[Compendium.dnd-players-handbook.actors.Actor.phbmobGiantGoat0]{巨山羊}</strong>並至多維持3小時。這隻山羊無法發動攻擊，但你可以（不造成傷害地）卸下其角作為武器。其中一隻角變為<em>+1騎槍</em>，而另一隻角則變為<em>+2長劍</em>。卸下一隻角需要一個魔法動作。當山羊變回塑像時，角變成的武器也將隨之消失，而山羊的角會恢復原狀。另外，當你騎乘這頭巨山羊時，任何在以山羊為中心的30呎發散區域內開始其回合的敵對生物，都必須成功通過一次DC 15的感知豁免檢定，否則陷入恐慌狀態1分鐘，當你不再騎乘山羊、或是山羊變回塑像後該恐慌也會提前結束。該受恐慌生物可以在其每個回合結束時再次進行該豁免，成功則終止其身上的該效應。生物豁免成功時，其將在隨後的24小時裡免疫該效應。使用後，該塑像需要經過15日才能再次啟動。</p><p><strong>【客運山羊】</strong>該塑像可以變為一隻數值面板與<strong>@UUID[Compendium.dnd-players-handbook.actors.Actor.phbmobRidingHors]{騎用馬}</strong>相同的大型山羊。其具有24點充能，處於山羊形態下時每小時（不足1小時按1小時計）將消耗1點充能。只要塑像還有充能，你就能隨意使用該塑像。當充能耗盡時，其將變回塑像，並且需要等到7日後充能完全恢復時才能再次啟動。</p><section class=\"secret\" id=\"secret-Bzl0aaerk0Ql0uOm\"><p><strong>Foundry 註記</strong></p><p><strong>變回或召回客運山羊</strong>行動為選擇性提供，用於追蹤塑像可保持山羊形態的24小時（可不連續）。變回塑像時，消耗的升環數值代表處於山羊形態的小時數。將塑像召回為山羊形態時，使用此行動請取消勾選「消耗物品使用次數？」核取方塊。</p></section><p><strong>【苦力山羊】</strong>該塑像可以變為一隻<strong>@UUID[Compendium.dnd-players-handbook.actors.Actor.phbmobGiantGoat0]{巨山羊}</strong>，其存在至多維持3小時。使用後，該塑像需要經過30日才能再次啟動。</p>"
     },
     "Blessing of Magic Resistance": {
       "description": "<p>You have Advantage on saving throws against spells and other magical effects.</p>",
@@ -6122,8 +6122,8 @@
       "description": "<p><em>奇物，普通（需同調）</em></p><p>當這個玩偶位於你5呎內時，你可以花費一次短休，教導其說出至多六句短語，每句短語的長度都不得超過六個字，並為每句短語設定玩偶開口的條件。你也可以用新的短語取代舊的。無論條件為何，都必須發生在玩偶5呎內，才能使其開口說話。例如，每當有人拿起這個玩偶時，其可能會說：「我想要一塊糖果。」當你與玩偶的同調結束時，玩偶的短語會全部消失。</p>"
     },
     "Mac-Fuirmidh Cittern Instrument of the Bards": {
-      "name": "Mac-Fuirmidh Cittern Instrument of the Bards",
-      "description": "<p><em>See: @UUID[Compendium.dnd-dungeon-masters-guide.equipment.Item.dmgInstrumentOfT]{Instrument of the Bards}</em></p><p>An <em>Instrument of the Bards</em> is superior to an ordinary instrument in every way.</p><p>A creature that attempts to play the instrument without being attuned to it must succeed on a [[/save ability=wis dc=15 format=long]] or take [[/damage 2d4 type=psychic]] damage.</p><p>You can play the instrument to cast one of its spells. Once the instrument has been used to cast a spell, it can’t be used to cast that spell again until the next dawn. The spells use your spellcasting ability and spell save DC.</p>"
+      "name": "麥克-弗瑞米西特琴",
+      "description": "<p><em>參見：@UUID[Compendium.dnd-dungeon-masters-guide.equipment.Item.dmgInstrumentOfT]{吟遊詩人樂器}</em></p><p><em>吟遊詩人樂器</em>在各方面都優於普通樂器。</p><p>在未與樂器完成同調的情況下，嘗試演奏樂器的生物必須成功通過一次[[/save ability=wis dc=15 format=long]]，否則承受[[/damage 2d4 type=psychic]]傷害。</p><p>你可以通過演奏樂器來施放其中一道法術。一旦該樂器被用來施放了某道法術，則其直到下個黎明前都無法再被用來施放該法術。這些法術使用你的施法屬性和法術豁免DC。</p>"
     },
     "Staff of Healing": {
       "name": "治癒法杖",
@@ -6200,11 +6200,11 @@
       "description": "<div><p><em>奇物，普通（需由契術師同調）</em></p></div><p>這枚護符由一塊源自異界、極具韌性的材料碎片製成。你佩戴此護符期間，你獲得下列好處。</p><p><strong>【施法法器】</strong>你可以將此護符作為你的契術師法術的施法法器。</p><p><strong>【未知法術】</strong>你可以採取魔法動作，嘗試施放一道你尚未習得的戲法。該戲法必須位於契術師法術列表中，且施法時間為一個動作，並且你要進行一次DC 10的智力（奧秘）檢定。檢定成功時，你施放該法術；檢定失敗時，該法術施放失敗，且用於施法的動作被浪費。無論成功與否，直到你完成一次長休前，你都無法再次使用此屬性。</p><section class=\"secret\" id=\"secret-SB0WtYF6NBSdZhyr\"><p><strong>Foundry 註記</strong></p><p>名為<strong>施放所選戲法</strong>的行動僅供選用，啟用前必須編輯並設定為所選的契術師戲法。</p></section>"
     },
     "Ebony Fly": {
-      "name": "Ebony Fly",
-      "description": "<p><em>See @UUID[Compendium.dnd-dungeon-masters-guide.equipment.Item.dmgFigurineOfWon]{Figurine of Wondrous Power}</em></p><p>This ebony statuette, carved in the likeness of a horsefly, can become a <strong>@UUID[Compendium.dnd-dungeon-masters-guide.actors.Actor.dmgGiantFly00000]{Giant Fly}</strong> for up to 12 hours and can be ridden as a mount. Once it has been used, it can’t be used again until 2 days have passed.</p><section class=\"secret\" id=\"secret-50TFh1zOfnv1SBKO\"><p><strong>Foundry 註記</strong></p><p>This item's limited uses represent the 2 days required before the figurine can be used again.</p></section>",
+      "name": "黑檀木蒼蠅",
+      "description": "<p><em>參見：@UUID[Compendium.dnd-dungeon-masters-guide.equipment.Item.dmgFigurineOfWon]{異能塑像}</em></p><p>一尊外形類似虻的黑檀木塑像，可以變為可供騎乘的<strong>@UUID[Compendium.dnd-dungeon-masters-guide.actors.Actor.dmgGiantFly00000]{巨蒼蠅}</strong>，其存在至多維持12小時。使用後，該塑像需要經過2日才能再次啟動。</p><section class=\"secret\" id=\"secret-50TFh1zOfnv1SBKO\"><p><strong>Foundry 註記</strong></p><p>這件物品的有限使用次數代表塑像再次可用前所需經過的2日。</p></section>",
       "activities": {
         "summon": {
-          "target": "unoccupied space"
+          "target": "未佔據空間"
         }
       }
     },
@@ -6270,11 +6270,11 @@
       "description": "<p><em>武器（任意簡易或軍用）, Legendary (Requires Attunement by a Paladin)</em></p><p>You gain a +3 bonus to attack rolls and damage rolls made with this magic weapon. When you hit a Fiend or an Undead with it, that creature takes an extra 2d10 Radiant damage.</p><p>While you hold the drawn weapon, it creates a 10-foot Emanation originating from you. You and all creatures Friendly to you in the Emanation have Advantage on saving throws against spells and other magical effects. If you have 17 or more levels in the Paladin class, the size of the Emanation increases to 30 feet.</p><p>[[10 + floor(@classes.paladin.levels / 17) * 20]]{Emanation Size (feet)}</p><p>@Embed[Compendium.dnd-dungeon-masters-guide.content.JournalEntry.dmgFoundryRefere.JournalEntryPage.Ok4iCgD25ENgoRxE cite=false caption=false classes=\"hide-in-embed\"]</p>"
     },
     "Marble Elephant": {
-      "name": "Marble Elephant",
-      "description": "<p><em>See @UUID[Compendium.dnd-dungeon-masters-guide.equipment.Item.dmgFigurineOfWon]{Figurine of Wondrous Power}</em></p><p>This marble statuette resembles a trumpeting elephant. It can become an <strong>@UUID[Compendium.dnd-players-handbook.actors.Actor.phbmobElephant00]{Elephant}</strong> for up to 24 hours. Once it has been used, it can’t be used again until 7 days have passed.</p><section class=\"secret\" id=\"secret-RHHx3aKcpKsHN2aK\"><p><strong>Foundry 註記</strong></p><p>This item's limited uses represent the 7 days required before the figurine can be used again.</p></section>",
+      "name": "大理石象",
+      "description": "<p><em>參見：@UUID[Compendium.dnd-dungeon-masters-guide.equipment.Item.dmgFigurineOfWon]{異能塑像}</em></p><p>這尊大理石塑像的造型是一隻吼叫的大象。其可以變為一頭<strong>@UUID[Compendium.dnd-players-handbook.actors.Actor.phbmobElephant00]{象}</strong>，存在至多維持24小時。使用後，該塑像需要經過7日才能再次啟動。</p><section class=\"secret\" id=\"secret-RHHx3aKcpKsHN2aK\"><p><strong>Foundry 註記</strong></p><p>這件物品的有限使用次數代表塑像再次可用前所需經過的7日。</p></section>",
       "activities": {
         "summon": {
-          "target": "unoccupied space"
+          "target": "未佔據空間"
         }
       }
     },
@@ -6353,10 +6353,10 @@
       }
     },
     "Ring of Evasion": {
-      "description": "<p><em>Ring，珍稀（需同調）</em></p><p>This ring has 3 charges, and it regains 1d3 expended charges daily at dawn. When you fail a Dexterity saving throw while wearing the ring, you can take a Reaction to expend 1 charge to succeed on that save instead.</p>",
+      "description": "<p><em>戒指，珍稀（需同調）</em></p><p>這枚戒指具有3點充能，且在每日黎明時重獲1d3點已消耗的充能。佩戴該戒指期間，當你敏捷豁免檢定失敗時，你可以採取反應以消耗1點充能使豁免改為成功。</p>",
       "activities": {
         "Succeed": {
-          "name": "Succeed"
+          "name": "使豁免成功"
         }
       },
       "name": "閃避戒指"
@@ -6392,12 +6392,12 @@
       "description": "<p><em>奇物，非普通（需同調）</em></p><p>至高妖精芭芭·雅嘎精心製作了許多此類魔法掃帚，每把看起來都不盡相同。當你持握該掃帚時，你可以採取魔法動作，將其變形為一把受你控制的<strong>@UUID[Compendium.dnd-dungeon-masters-guide.actors.Actor.dmgnpcAnimatedBr]{活化掃帚}</strong>。然後，該掃帚將移動至距離你最近的一處未佔據空間。該掃帚緊接在你的先攻順位後行動，並保持活化，直到你採取附贈動作說出命令詞，使其變回非活化狀態。</p><p>在你的回合中，只要你未陷入失能狀態，且掃帚位於你30呎範圍內，你便可以在心中指揮該掃帚（無需動作）。你決定掃帚在其回合中的移動和動作，或者你也可以給出籠統的指令，例如攻擊你的敵人或守衛某個地點。</p><p>若掃帚的生命值降至0，則其將粉碎並被摧毀。若掃帚在生命值未降至0時恢復非活化狀態，則其將恢復失去的所有生命值。</p>"
     },
     "Quaal's Feather Token (Bird)": {
-      "name": "Quaal's Feather Token (Bird)",
-      "description": "<p><em>奇物，珍稀, See: @UUID[Compendium.dnd-dungeon-masters-guide.equipment.Item.dmgQuaalsFeather]{Quaal's Feather Token}</em></p><p>You can take a Magic action to toss the token 5 feet into the air. The token disappears and an enormous, multicolored bird takes its place. The bird has the statistics of a <strong>@UUID[Compendium.dnd-dungeon-masters-guide.actors.Actor.p980augbCIdpK9ZX]{Roc}</strong>, but it can’t attack. It obeys your simple commands and can carry up to 500 pounds while flying at its maximum speed (16 miles per hour for a maximum of 144 miles per day, with a 1-hour rest for every 3 hours of flying) or 1,000 pounds at half that speed. The bird disappears after flying its maximum distance for a day or if it drops to 0 Hit Points. You can dismiss the bird as a Magic action.</p>",
+      "name": "夸爾羽符（鳥）",
+      "description": "<p><em>奇物，珍稀，參見：@UUID[Compendium.dnd-dungeon-masters-guide.equipment.Item.dmgQuaalsFeather]{夸爾羽符}</em></p><p>你可以採取魔法動作將羽符拋至5呎高的空中。羽符將消失，並且一隻五彩斑斕的巨鳥取而代之。這隻鳥使用<strong>@UUID[Compendium.dnd-dungeon-masters-guide.actors.Actor.p980augbCIdpK9ZX]{鵬鳥}</strong>的數值面板，但其無法進行攻擊。其會遵從你的簡單命令，並能在負載至多500磅的同時全速前進（16哩/小時，每飛行3小時休息1小時，最高144哩/日），或在負載至多1000磅的同時以半速前進。鳥將在達到其一日能飛行的最遠距離或生命值降為0時消失。你也可以採取魔法動作將其遣散。</p>",
       "activities": {
         "Use": {
-          "name": "Use",
-          "duration": "The bird disappears after flying its maximum distance for a day or if it drops to 0 Hit Points. You can dismiss the bird as a Magic action."
+          "name": "使用",
+          "duration": "鳥將在達到其一日能飛行的最遠距離或生命值降為0時消失。你也可以採取魔法動作將其遣散。"
         }
       }
     },
@@ -6662,15 +6662,15 @@
       "description": "<div><p><em>See: @UUID[Compendium.dnd-dungeon-masters-guide.equipment.Item.dmgBeltOfGiantSt]</em></p><p>While wearing this belt, your Strength changes to 25. The type of giant determines the score. The item has no effect on you if your Strength without the belt is equal to or greater than 25.</p></div>"
     },
     "Ioun Stone of Greater Absorption": {
-      "name": "艾恩石，強效吸收",
+      "name": "艾恩石．強效吸收",
       "activities": {
         "Utilize (Scale by Spell Level)": {
           "name": "利用（隨法術等級提升）",
-          "condition": "when a creature you can see casts a spell of 8th level or lower",
+          "condition": "當你所能看見的一名生物施放8環或更低環階的法術時",
           "roll": "環位取消"
         }
       },
-      "description": "<p><em>See: @UUID[Compendium.dnd-dungeon-masters-guide.equipment.Item.dmgIounStone0000]{Ioun Stone}</em></p><p>When you take a Magic action to toss an <em>Ioun Stone</em> into the air, the stone orbits your head at a distance of 1d3 feet, conferring its benefit to you while doing so. You can have up to three <em>Ioun Stones</em> orbiting your head at the same time.</p><p>As a Utilize action, you can seize and stow any number of <em>Ioun Stones</em> orbiting your head. If your Attunement to an <em>Ioun Stone</em> ends while it’s orbiting your head, the stone falls as though you had dropped it.</p><p>While this marbled lavender and green ellipsoid orbits your head, you can take a Reaction to cancel a spell of level 8 or lower cast by a creature you can see. A canceled spell has no effect, and any resources used to cast it are wasted. Once the stone has canceled 20 levels of spells, it burns out, turns dull gray, and loses its magic.</p>"
+      "description": "<p><em>參見：@UUID[Compendium.dnd-dungeon-masters-guide.equipment.Item.dmgIounStone0000]{艾恩石}</em></p><p>當你採取魔法動作將<em>艾恩石</em>扔向空中時，此石會環繞在距離你頭頂1d3呎之處，並在環繞期間為你帶來其好處。同一時間內，你至多只能有3顆<em>艾恩石</em>環繞在你的頭頂。</p><p>作為利用動作，你可以抓住並收起任意數量環繞在你頭頂的<em>艾恩石</em>。若你與某顆正環繞在你頭頂的<em>艾恩石</em>的同調結束，該石頭就會如同你將其丟棄一般掉落。</p><p>在這顆具有淡紫與綠色大理石花紋的橢球形艾恩石環繞在你頭頂期間，你可以採取反應，使一名你所能看見的生物所施放的、8環或更低環階的法術無效化。被無效化的法術不會產生任何效應，且用於施放該法術的資源也會被浪費。此石無效化了總計20環階的法術後，會燒盡、變成黯淡的灰色並失去魔力。</p>"
     },
     "Potion of Clairvoyance": {
       "name": "銳眼藥水",
@@ -6692,12 +6692,12 @@
     "Silver Raven": {
       "activities": {
         "bO4agG7byTwFTiFg": {
-          "chatFlavor": "Can target only the Silver Raven",
-          "target": "The Silver Raven in raven form"
+          "chatFlavor": "只能以白銀渡鴉為目標",
+          "target": "處於渡鴉形態的白銀渡鴉"
         }
       },
-      "name": "Silver Raven",
-      "description": "<p><em>See @UUID[Compendium.dnd-dungeon-masters-guide.equipment.Item.dmgFigurineOfWon]{Figurine of Wondrous Power}</em></p><p>This silver statuette of a raven can become a <strong>@UUID[Compendium.dnd-players-handbook.actors.Actor.phbmobRaven00000]{Raven}</strong> for up to 12 hours. Once it has been used, it can’t be used again until 2 days have passed. While in raven form, the figurine grants you the ability to cast <em>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplAnimalMess]{Animal Messenger}</em> on it.</p><section class=\"secret\" id=\"secret-1zjsYfZzKHfXhi9j\"><p><strong>Foundry 註記</strong></p><p>This item's limited uses represent the 2 days required before the figurine can be used again.</p></section>"
+      "name": "白銀渡鴉",
+      "description": "<p><em>參見：@UUID[Compendium.dnd-dungeon-masters-guide.equipment.Item.dmgFigurineOfWon]{異能塑像}</em></p><p>這個銀製渡鴉塑像可以變為一隻<strong>@UUID[Compendium.dnd-players-handbook.actors.Actor.phbmobRaven00000]{渡鴉}</strong>，其存在至多維持12小時。使用後，該塑像需要經過2日才能再次啟動。當塑像處於渡鴉形態期間，塑像的魔法令你可以對其施放<em>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplAnimalMess]{動物信使}</em>。</p><section class=\"secret\" id=\"secret-1zjsYfZzKHfXhi9j\"><p><strong>Foundry 註記</strong></p><p>這件物品的有限使用次數代表塑像再次可用前所需經過的2日。</p></section>"
     },
     "Elemental Gem (Yellow Diamond)": {
       "description": "<p><em>See: @UUID[Compendium.dnd-dungeon-masters-guide.equipment.Item.dmgElementalGem0]</em></p><p>This gem contains a mote of elemental energy. When you take a Utilize action to break the gem, an @UUID[Compendium.dnd-dungeon-masters-guide.actors.Actor.sApYLZj9PTZ40wJr] is summoned, and the gem ceases to be magical. The elemental appears in an unoccupied space as close to the broken gem as possible, understands your languages, obeys your commands, and takes its turn immediately after you on your Initiative count. The elemental disappears after 1 hour, when it dies, or when you dismiss it as a Bonus Action.</p>",
@@ -6754,7 +6754,7 @@
       "name": "速脫護甲"
     },
     "Ring of Feather Falling": {
-      "description": "<p><em>Ring，珍稀（需同調）</em></p><p>When you fall while wearing this ring, you descend 60 feet per round and take no damage from falling.</p>",
+      "description": "<p><em>戒指，珍稀（需同調）</em></p><p>佩戴這枚戒指期間，你在墜落時每輪只會下落60呎且不會承受墜落傷害。</p>",
       "name": "羽落戒指"
     },
     "Key": {
@@ -6796,17 +6796,17 @@
     },
     "Ring of Water Walking": {
       "name": "水行戒指",
-      "description": "<p class=\"Core-Styles_Core-Metadata\"><em>Ring，非普通</em></p><p>While wearing this ring, you cast @UUID[Compendium.dnd-players-handbook.spells.Item.phbsplWaterWalk0]{Water Walk} from it, targeting only yourself.</p>"
+      "description": "<p class=\"Core-Styles_Core-Metadata\"><em>戒指，非普通</em></p><p>佩戴這枚戒指期間，你可以從中施放@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplWaterWalk0]{水面行走}，但目標只能為自身。</p>"
     },
     "Ioun Stone of Insight": {
-      "description": "<p><em>See: @UUID[Compendium.dnd-dungeon-masters-guide.equipment.Item.dmgIounStone0000]{Ioun Stone}</em></p><p>When you take a Magic action to toss an <em>Ioun Stone</em> into the air, the stone orbits your head at a distance of 1d3 feet, conferring its benefit to you while doing so. You can have up to three <em>Ioun Stones</em> orbiting your head at the same time.</p><p>As a Utilize action, you can seize and stow any number of <em>Ioun Stones</em> orbiting your head. If your Attunement to an <em>Ioun Stone</em> ends while it’s orbiting your head, the stone falls as though you had dropped it.</p><p>Your Wisdom increases by 2, to a maximum of 20, while this incandescent blue sphere orbits your head.</p>",
+      "description": "<p><em>參見：@UUID[Compendium.dnd-dungeon-masters-guide.equipment.Item.dmgIounStone0000]{艾恩石}</em></p><p>當你採取魔法動作將<em>艾恩石</em>扔向空中時，此石會環繞在距離你頭頂1d3呎之處，並在環繞期間為你帶來其好處。同一時間內，你至多只能有3顆<em>艾恩石</em>環繞在你的頭頂。</p><p>作為利用動作，你可以抓住並收起任意數量環繞在你頭頂的<em>艾恩石</em>。若你與某顆正環繞在你頭頂的<em>艾恩石</em>的同調結束，該石頭就會如同你將其丟棄一般掉落。</p><p>在這顆熾藍色的球形艾恩石環繞在你頭頂期間，你的感知提升2點，上限為20。</p>",
       "effects": {
         "Enhanced Insight: Wisdom Bonus": {
-          "description": "<p>Your Wisdom increases by 2, to a maximum of 20, while this incandescent blue sphere orbits your head.</p>",
-          "name": "Enhanced Insight: Wisdom Bonus"
+          "description": "<p>在這顆熾藍色的球形艾恩石環繞在你頭頂期間，你的感知提升2點，上限為20。</p>",
+          "name": "提升洞悉：感知加值"
         }
       },
-      "name": "艾恩石，洞悉"
+      "name": "艾恩石．洞悉"
     },
     "Gloves of Missile Snaring": {
       "activities": {
@@ -6840,18 +6840,18 @@
       "name": "讀心藥水"
     },
     "Quaal's Feather Token (Tree)": {
-      "name": "Quaal's Feather Token (Tree)",
-      "description": "<p><em>奇物，非普通, See: @UUID[Compendium.dnd-dungeon-masters-guide.equipment.Item.dmgQuaalsFeather]{Quaal's Feather Token}</em></p><p>You must be outdoors to use this token. You can take a Magic action to touch it to an unoccupied space on the ground. The token disappears, and in its place a nonmagical oak tree springs into existence. The tree is 60 feet tall and has a 5-foot-diameter trunk, and its branches at the top spread out in a 20-foot radius.</p>",
+      "name": "夸爾羽符（樹）",
+      "description": "<p><em>奇物，非普通，參見：@UUID[Compendium.dnd-dungeon-masters-guide.equipment.Item.dmgQuaalsFeather]{夸爾羽符}</em></p><p>要使用這枚羽符，你必須身處室外。你可以採取魔法動作，用羽符觸碰地面上的未佔據空間。羽符將消失，取而代之的是該地長出一棵非魔法的橡樹。這棵樹高60呎，樹幹直徑5呎，頂端的樹冠以20呎半徑向外延伸。</p>",
       "activities": {
         "Use": {
-          "name": "Use",
-          "target": "unoccupied space on the ground"
+          "name": "使用",
+          "target": "地面上的未佔據空間"
         }
       }
     },
     "Ring of Mind Shielding": {
       "name": "心靈護盾戒指",
-      "description": "<p><em>Ring，非普通（需同調）</em></p><p>While wearing this ring, you are immune to magic that allows other creatures to read your thoughts, determine whether you are lying, know your alignment, or know your creature type. Creatures can telepathically communicate with you only if you allow it.</p><p>You can take a Magic action to cause the ring to become imperceptible until you take another Magic action to make it perceptible, until you remove the ring, or until you die.</p><p>If you die while wearing the ring, your soul enters it, unless it already houses a soul. You can remain in the ring or depart for the afterlife. As long as your soul is in the ring, you can telepathically communicate with any creature wearing it. A wearer can’t prevent this telepathic communication.</p>"
+      "description": "<p><em>戒指，非普通（需同調）</em></p><p>佩戴這枚戒指期間，你免疫能讓其他生物閱讀你的思想、辨別你是否在說謊、知曉你陣營或生物類型的魔法。只有在你允許時，生物才能與你進行心靈感應交流。</p><p>你可以採取魔法動作來讓戒指變得無法被察覺，持續至你脫下戒指、死亡或採取另一個魔法動作使其可被察覺為止。</p><p>若你在佩戴戒指期間死亡，你的靈魂將進入戒指中，除非其內已寄宿著其他靈魂。你可以留在戒指內或奔向來世。只要你的靈魂處在戒指中，你就可以與佩戴該戒指的任何生物進行心靈感應交流。佩戴者無法阻止這種心靈感應交流。</p>"
     },
     "Oil of Etherealness": {
       "effects": {
@@ -6889,11 +6889,11 @@
       "description": "<p><em>藥水，普通</em></p><p>當你飲用這瓶藥水時，你恢復2d4 + 2生命值。</p><p>無論藥效如何，這瓶藥水的紅色液體在搖晃時都會閃爍。</p>"
     },
     "Quaal's Feather Token (Whip)": {
-      "description": "<p><em>奇物，珍稀, See: @UUID[Compendium.dnd-dungeon-masters-guide.equipment.Item.dmgQuaalsFeather]{Quaal's Feather Token}</em></p><p>You can take a Magic action to throw the token to a point within 10 feet of yourself. The token disappears, and a @UUID[Compendium.dnd-dungeon-masters-guide.actors.Actor.dmgqftFloatingWh]{floating whip} takes its place. You can then take a Bonus Action to make a melee spell attack against a creature within 10 feet of the whip, with an attack bonus of +9. On a hit, the target takes 1d6 + 5 Force damage.</p><p>As a Bonus Action, you can direct the whip to fly up to 20 feet and repeat the attack against a creature within 10 feet of the whip. The whip disappears after 1 hour, when you take a Magic action to dismiss it, or when you die or have the Incapacitated condition.</p>",
-      "name": "Quaal's Feather Token (Whip)",
+      "description": "<p><em>奇物，珍稀，參見：@UUID[Compendium.dnd-dungeon-masters-guide.equipment.Item.dmgQuaalsFeather]{夸爾羽符}</em></p><p>你可以採取魔法動作將羽符扔向位於你10呎內的一點。羽符消失，取而代之的是一根@UUID[Compendium.dnd-dungeon-masters-guide.actors.Actor.dmgqftFloatingWh]{漂浮的鞭子}，然後你可以採取附贈動作，對位於鞭子10呎內的一個生物進行一次近戰法術攻擊，攻擊加值為+9。命中時，目標承受1d6 + 5力場傷害。</p><p>作為附贈動作，你可以命令鞭子飛行至多20呎，並對位於鞭子10呎內的一個生物再次進行攻擊。鞭子將在經過1小時後、你採取魔法動作將其遣散時，或你死亡或陷入失能狀態時消失。</p>",
+      "name": "夸爾羽符（鞭）",
       "activities": {
         "Use": {
-          "name": "Use"
+          "name": "使用"
         }
       }
     },
@@ -6936,17 +6936,17 @@
       "description": "<p><em>奇物，非普通</em></p><p>這雙手套穿戴時無法被察覺。穿戴這雙手套期間，你進行敏捷（巧手）檢定時獲得+5加值。</p><section id=\"secret-MTbVEJqcHy1oERli\" class=\"secret\"><p><strong>Foundry 註記</strong></p><p>此物品的<strong>穿戴手套</strong> Active Effect 會自動為你的巧手檢定加上+5。</p></section>"
     },
     "Onyx Dog": {
-      "name": "Onyx Dog",
+      "name": "瑪瑙犬",
       "effects": {
         "Mastiff Figurine": {
-          "description": "<p>The mastiff has an Intelligence of 8 and can speak Common. It also has &amp;Reference[Blindsight] with a range of 60 feet.</p>",
-          "name": "Mastiff Figurine"
+          "description": "<p>這隻獒犬智力為8並且會說通用語。其還具有範圍60呎的&amp;Reference[Blindsight]{盲視}。</p>",
+          "name": "獒犬塑像"
         }
       },
-      "description": "<p><em>See @UUID[Compendium.dnd-dungeon-masters-guide.equipment.Item.dmgFigurineOfWon]{Figurine of Wondrous Power}</em></p><p>This onyx statuette of a dog can become a <strong>@UUID[Compendium.dnd-players-handbook.actors.Actor.phbmobMastiff000]{Mastiff}</strong> for up to 6 hours. The mastiff has an Intelligence of 8 and can speak Common. It also has Blindsight with a range of 60 feet. Once it has been used, it can’t be used again until 7 days have passed.</p><section class=\"secret\" id=\"secret-61PsF1VxjiD2gq06\"><p><strong>Foundry 註記</strong></p><p>This item's limited uses represent the 7 days required before the figurine can be used again.</p></section>",
+      "description": "<p><em>參見：@UUID[Compendium.dnd-dungeon-masters-guide.equipment.Item.dmgFigurineOfWon]{異能塑像}</em></p><p>這個瑪瑙犬塑像可以變為一隻<strong>@UUID[Compendium.dnd-players-handbook.actors.Actor.phbmobMastiff000]{獒犬}</strong>，其存在至多維持6小時。這隻獒犬智力為8並且會說通用語。其還具有範圍60呎的盲視。使用後，該塑像需要經過7日才能再次啟動。</p><section class=\"secret\" id=\"secret-61PsF1VxjiD2gq06\"><p><strong>Foundry 註記</strong></p><p>這件物品的有限使用次數代表塑像再次可用前所需經過的7日。</p></section>",
       "activities": {
         "summon": {
-          "target": "unoccupied space"
+          "target": "未佔據空間"
         }
       }
     },
@@ -7064,16 +7064,16 @@
       "description": "<p><em>奇物，非普通（需同調）</em></p><p>這枚勳章具有5點充能。佩戴勳章期間，你可以消耗1點充能，透過勳章施放@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplDetectThou]{偵測思想}（豁免DC 13）。勳章每日黎明時恢復1d4已消耗的充能。</p>"
     },
     "Figurine of Wondrous Power": {
-      "description": "<div><p><em>奇物, Rarity Varies</em></p></div><p>A <em>Figurine of Wondrous Power</em> is a statuette small enough to fit in a pocket. If you take a Magic action to throw the figurine to a point on the ground within 60 feet of yourself, the figurine becomes a living creature specified in the figurine’s description below. If the space where the creature would appear is occupied by other creatures or objects, or if there isn’t enough space for the creature, the figurine doesn’t become a creature.</p><p>The creature is Friendly to you and your allies. It understands your languages, obeys your commands, and takes its turn immediately after you on your Initiative count. If you issue no commands, the creature defends itself but takes no other actions.</p><p>The creature exists for a duration specific to each figurine. At the end of the duration, the creature reverts to its figurine form. It reverts to a figurine early if its creature form drops to 0 Hit Points or if you take a Magic action while touching the creature to make it revert to figurine form. When the creature becomes a figurine again, its property can’t be used again until a certain amount of time has passed, as specified in the figurine’s description.</p><p>@UUID[Compendium.dnd-dungeon-masters-guide.equipment.Item.dmgFwpBronzeGrif]{Bronze Griffon (Rare)}</p><p>@UUID[Compendium.dnd-dungeon-masters-guide.equipment.Item.dmgFwpEbonyFlyRa]{Ebony Fly (Rare)}</p><p>@UUID[Compendium.dnd-dungeon-masters-guide.equipment.Item.dmgFwpGoldenLion]{Golden Lions (Rare)}</p><p>@UUID[Compendium.dnd-dungeon-masters-guide.equipment.Item.dmgFwpIvoryGoats]{Ivory Goats (Rare)}</p><p>@UUID[Compendium.dnd-dungeon-masters-guide.equipment.Item.dmgFwpMarbleElep]{Marble Elephant (Rare)}</p><p>@UUID[Compendium.dnd-dungeon-masters-guide.equipment.Item.dmgFwpObsidianSt]{Obsidian Steed (Very Rare)}</p><p>@UUID[Compendium.dnd-dungeon-masters-guide.equipment.Item.dmgFwpOnyxDogRar]{Onyx Dog (Rare)}</p><p>@UUID[Compendium.dnd-dungeon-masters-guide.equipment.Item.dmgFwpSerpentine]{Serpentine Owl (Rare)}</p><p>@UUID[Compendium.dnd-dungeon-masters-guide.equipment.Item.dmgFwpSilverRave]{Silver Raven (Uncommon)}</p>",
-      "name": "Figurine of Wondrous Power"
+      "description": "<div><p><em>奇物，多種稀有度</em></p></div><p><em>異能塑像</em>是小到可以裝在口袋裡的小雕塑。當你採取魔法動作，將塑像扔到位於你60呎內地面上的一點時，其將變成一隻活體生物（見下文對每種塑像的描述）。若塑像被扔到的地方被其他生物或物體佔據，或者周圍的空間不足以容納該塑像變成的生物，則其將不會變成生物。</p><p>塑像變成的生物對你和你的盟友態度為友善。其能聽懂你的語言並會按你的命令行事，並緊接在你的先攻順位後進行其回合。若你不下達任何命令，則該生物會保護自己而不採取其他動作。</p><p>生物存在的時間依塑像而不同。持續時間結束時，生物將變回異能塑像形態。當其生命值降至0，或是你在觸碰其期間採取魔法動作令其變回塑像時，其亦將提前變回塑像狀態。變回塑像後，異能塑像的屬性必須經過一段時間後才能再次啟動（見下文對每種塑像的描述）。</p><p>@UUID[Compendium.dnd-dungeon-masters-guide.equipment.Item.dmgFwpBronzeGrif]{青銅獅鷲（珍稀）}</p><p>@UUID[Compendium.dnd-dungeon-masters-guide.equipment.Item.dmgFwpEbonyFlyRa]{黑檀木蒼蠅（珍稀）}</p><p>@UUID[Compendium.dnd-dungeon-masters-guide.equipment.Item.dmgFwpGoldenLion]{黃金獅子（珍稀）}</p><p>@UUID[Compendium.dnd-dungeon-masters-guide.equipment.Item.dmgFwpIvoryGoats]{象牙山羊（珍稀）}</p><p>@UUID[Compendium.dnd-dungeon-masters-guide.equipment.Item.dmgFwpMarbleElep]{大理石象（珍稀）}</p><p>@UUID[Compendium.dnd-dungeon-masters-guide.equipment.Item.dmgFwpObsidianSt]{黑曜石駒（極珍稀）}</p><p>@UUID[Compendium.dnd-dungeon-masters-guide.equipment.Item.dmgFwpOnyxDogRar]{瑪瑙犬（珍稀）}</p><p>@UUID[Compendium.dnd-dungeon-masters-guide.equipment.Item.dmgFwpSerpentine]{蛇紋石貓頭鷹（珍稀）}</p><p>@UUID[Compendium.dnd-dungeon-masters-guide.equipment.Item.dmgFwpSilverRave]{白銀渡鴉（非普通）}</p>",
+      "name": "異能塑像"
     },
     "Necklace of Prayer Beads": {
       "description": "<p><em>奇物，珍稀（需由牧師、德魯伊或聖騎士同調）</em></p><p>這條項鍊上有[[/r 1d4 + 2#Magic beads]]顆由海藍寶石、黑珍珠或黃玉製成的魔法念珠。項鍊上還有許多由琥珀、血石、黃水晶、珊瑚、翡翠、珍珠或石英等石材製成的非魔法念珠。若魔法念珠被從項鍊上取下，該念珠便失去其魔法。</p><p>魔法念珠共有六種。DM決定項鍊上每顆念珠的種類，或透過在下表擲骰隨機決定。一條項鍊可以有多顆同種類的念珠。要使用念珠，你必須佩戴著這條項鍊。每顆念珠蘊含一道法術，你可以採取附贈動作透過念珠施放該法術（若需要豁免，則使用你的法術豁免DC）。魔法念珠的法術一經施放，直到下個黎明前，該念珠都無法再次使用。</p><p>@Embed[Compendium.dnd-dungeon-masters-guide.tables.RollTable.dmgNecklaceOfPra caption=false rollable]</p><section class=\"secret\" id=\"secret-T9EktTumIxEuAXft\"><p><strong>Foundry 註記</strong></p><p>此物品為每道每黎明有使用次數限制的法術各包含一個行動。在將項鍊交給玩家之前，你可以移除這條項鍊上不存在的念珠所對應的行動，並複製出現多次的念珠所對應的行動。</p></section>",
       "name": "念珠項鍊"
     },
     "Cli Lyre Instrument of the Bards": {
-      "description": "<p><em>See: @UUID[Compendium.dnd-dungeon-masters-guide.equipment.Item.dmgInstrumentOfT]{Instrument of the Bards}</em></p><p>An <em>Instrument of the Bards</em> is superior to an ordinary instrument in every way.</p><p>A creature that attempts to play the instrument without being attuned to it must succeed on a [[/save ability=wis dc=15 format=long]] or take [[/damage 2d4 type=psychic]] damage.</p><p>You can play the instrument to cast one of its spells. Once the instrument has been used to cast a spell, it can’t be used to cast that spell again until the next dawn. The spells use your spellcasting ability and spell save DC.</p>",
-      "name": "Cli Lyre Instrument of the Bards"
+      "description": "<p><em>參見：@UUID[Compendium.dnd-dungeon-masters-guide.equipment.Item.dmgInstrumentOfT]{吟遊詩人樂器}</em></p><p><em>吟遊詩人樂器</em>在各方面都優於普通樂器。</p><p>在未與樂器完成同調的情況下，嘗試演奏樂器的生物必須成功通過一次[[/save ability=wis dc=15 format=long]]，否則承受[[/damage 2d4 type=psychic]]傷害。</p><p>你可以通過演奏樂器來施放其中一道法術。一旦該樂器被用來施放了某道法術，則其直到下個黎明前都無法再被用來施放該法術。這些法術使用你的施法屬性和法術豁免DC。</p>",
+      "name": "克里里拉琴"
     },
     "Candle of Invocation": {
       "effects": {
@@ -7127,11 +7127,11 @@
       "name": "卷軸"
     },
     "Bronze Griffon": {
-      "description": "<p><em>See @UUID[Compendium.dnd-dungeon-masters-guide.equipment.Item.dmgFigurineOfWon]{Figurine of Wondrous Power}</em></p><p>This bronze statuette is of a griffon rampant. It can become a <strong>@UUID[Compendium.dnd-dungeon-masters-guide.actors.Actor.h052EIIUmRwJum65]{Griffon}</strong> for up to 6 hours. Once it has been used, it can’t be used again until 5 days have passed.</p><section class=\"secret\" id=\"secret-CyXRwZfsh4tOiRUf\"><p><strong>Foundry 註記</strong></p><p>This item's limited uses represent the 5 days required before the figurine can be used again.</p></section>",
-      "name": "Bronze Griffon",
+      "description": "<p><em>參見：@UUID[Compendium.dnd-dungeon-masters-guide.equipment.Item.dmgFigurineOfWon]{異能塑像}</em></p><p>一尊神形桀驁的青銅獅鷲塑像，可以變為一隻<strong>@UUID[Compendium.dnd-dungeon-masters-guide.actors.Actor.h052EIIUmRwJum65]{獅鷲}</strong>，其存在至多維持6小時。使用後，該塑像需要經過5日才能再次啟動。</p><section class=\"secret\" id=\"secret-CyXRwZfsh4tOiRUf\"><p><strong>Foundry 註記</strong></p><p>這件物品的有限使用次數代表塑像再次可用前所需經過的5日。</p></section>",
+      "name": "青銅獅鷲",
       "activities": {
         "summon": {
-          "target": "unoccupied space"
+          "target": "未佔據空間"
         }
       }
     },
@@ -7208,8 +7208,8 @@
       "name": "Bomb"
     },
     "Quaal's Feather Token": {
-      "description": "<p><em>奇物, Rarity Varies</em></p><p>This object looks like a feather. Different types of feather tokens exist, each with a different <span class=\"no-break\">single</span>-use effect. The DM chooses the kind of token or determines it randomly by rolling on the Quaal’s Feather Tokens table. The type of token determines its rarity.</p><p>@Embed[Compendium.dnd-dungeon-masters-guide.tables.RollTable.dmgQuaalsFeather caption=false rollable]</p>",
-      "name": "Quaal's Feather Token"
+      "description": "<p><em>奇物，多種稀有度</em></p><p>這個物體看上去像一根羽毛。現存於世的羽符有許多種類，且每根都有不同的<span class=\"no-break\">一次性</span>效應。由DM選擇或在夸爾羽符表中隨機擲骰以決定羽符的種類。羽符的種類會決定其稀有度。</p><p>@Embed[Compendium.dnd-dungeon-masters-guide.tables.RollTable.dmgQuaalsFeather caption=false rollable]</p>",
+      "name": "夸爾羽符"
     },
     "Wind Fan": {
       "name": "造風之扇",
@@ -7238,7 +7238,7 @@
       "name": "反偵測定位護符"
     },
     "Ring of Jumping": {
-      "description": "<p><em>Ring，非普通（需同調）</em></p><p>While wearing this ring, you can cast @UUID[Compendium.dnd-players-handbook.spells.Item.phbsplJump000000]{Jump} from it, but can target only yourself when you do so.</p>",
+      "description": "<p><em>戒指，非普通（需同調）</em></p><p>佩戴這枚戒指期間，你可以從中施放@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplJump000000]{跳躍術}，但只能以自身為目標。</p>",
       "name": "跳躍戒指"
     },
     "Wand of Binding": {
@@ -7308,7 +7308,7 @@
       "name": "啟蒙盆栽"
     },
     "Ring of Spell Storing": {
-      "description": "<p><em>Ring，珍稀（需同調）</em></p><p>This ring stores spells cast into it, holding them until the attuned wearer uses them. The ring can store up to 5 levels worth of spells at a time. When found, it contains [[/r 1d6 − 1]] levels of stored spells chosen by the DM.</p><p>Any creature can cast a spell of level 1 through 5 into the ring by touching the ring as the spell is cast. The spell has no effect other than to be stored in the ring. If the ring can’t hold the spell, the spell is expended without effect. The level of the slot used to cast the spell determines how much space it uses.</p><p>While wearing this ring, you can cast any spell stored in it. The spell uses the slot level, spell save DC, spell attack bonus, and spellcasting ability of the original caster but is otherwise treated as if you cast the spell. The spell cast from the ring is no longer stored in it, freeing up space.</p><section class=\"secret\" id=\"secret-HxkxM5cqqoVK0W9S\"><p><strong>Foundry 註記</strong></p><p>To store a spell in this ring, drag the spell onto the Activities tab to create a \"Cast a Spell\" activity. Then change to the \"Spell\" tab, set the \"Casting Level\", check the \"Override Values\" box and enter the relevant Attack Bonus and Save DC from the original caster's values. You will then be able to cast that spell from this ring without expending your own slots. You will then need to delete the activity since each spell is a one-time use.</p></section>",
+      "description": "<p><em>戒指，珍稀（需同調）</em></p><p>這枚戒指會儲存向其中施放的法術，將其儲存起來，直到同調的佩戴者使用為止。這枚戒指同時可以儲存環階總和最多為5的法術。被發現時，戒指中已儲存了由DM選擇的共[[/r 1d6 − 1]]環階的法術。</p><p>任何生物都可以向戒指內存入1至5環的法術，這需要施法者在施法的同時觸碰該戒指。此時該法術會被儲存進戒指，不產生任何其他效果。若戒指無法承載該法術，則該法術會被消耗並不產生任何效果。施放法術時使用的法術位環階決定其佔用戒指中的多少空間。</p><p>佩戴這枚戒指期間，你可以施放任何其中儲存的法術。該法術使用原施法者的法術位環階，法術豁免DC，法術攻擊加值與施法屬性，但其他方面將如同你施放了法術一般處理。戒指中的法術一經施放即消失，釋放其原本佔用的空間。</p><section class=\"secret\" id=\"secret-HxkxM5cqqoVK0W9S\"><p><strong>Foundry 註記</strong></p><p>要在這枚戒指中儲存法術，請將該法術拖曳到「行動」分頁，以建立一個「施放法術」行動。接著切換到「法術」分頁，設定「施放環位」，勾選「覆寫數值」核取方塊，並填入原施法者的相關攻擊加值與豁免DC。如此一來，你就能從這枚戒指施放該法術，而不消耗你自己的法術位。由於每道法術都只能使用一次，之後你需要刪除該行動。</p></section>",
       "name": "法術儲存戒指"
     },
     "Headband of Intellect": {
@@ -7348,13 +7348,13 @@
       "description": "<p><em>魔杖，珍稀（需同調）</em></p><p>這根魔杖具有7點充能。持握魔杖期間，你可以採取魔法動作消耗1點充能。在1分鐘內，你能得知位於你60呎內、離你最近的敵對生物所在方向，但無法得知你與其的距離。魔杖能感知處於隱形、乙太化、偽裝或躲藏狀態的敵對生物，以及明顯可見的敵對生物。若你不再持握魔杖，效應便結束。</p><p><em><strong>【恢復充能】</strong></em>該魔杖每日黎明時恢復1d6 + 1已消耗的充能。若你消耗了魔杖的最後1點充能，擲[[/r 1d20]]。若結果為1，魔杖會化為灰燼並被摧毀。</p>"
     },
     "Ioun Stone of Reserve": {
-      "description": "<p><em>See: @UUID[Compendium.dnd-dungeon-masters-guide.equipment.Item.dmgIounStone0000]{Ioun Stone}</em></p><p>When you take a Magic action to toss an <em>Ioun Stone</em> into the air, the stone orbits your head at a distance of 1d3 feet, conferring its benefit to you while doing so. You can have up to three <em>Ioun Stones</em> orbiting your head at the same time.</p><p>As a Utilize action, you can seize and stow any number of <em>Ioun Stones</em> orbiting your head. If your Attunement to an <em>Ioun Stone</em> ends while it’s orbiting your head, the stone falls as though you had dropped it.</p><p>This vibrant purple prism stores spells cast into it, holding them until you use them. The stone can store up to 4 levels of spells at a time. When found, it contains [[/r 1d4#Spell Levels]] levels of stored spells chosen by the DM.</p><p>Any creature can cast a spell of level 1 through 4 into the stone by touching it as the spell is cast. The spell has no effect, other than to be stored in the stone. If the stone can’t hold the spell, the spell is expended without effect. The level of the slot used to cast the spell determines how much space it uses.</p><p>While this stone orbits your head, you can cast any spell stored in it. The spell uses the slot level, spell save DC, spell attack bonus, and spellcasting ability of the original caster but is otherwise treated as if you cast the spell. The spell cast from the stone is no longer stored in it, freeing up space.</p>",
+      "description": "<p><em>參見：@UUID[Compendium.dnd-dungeon-masters-guide.equipment.Item.dmgIounStone0000]{艾恩石}</em></p><p>當你採取魔法動作將<em>艾恩石</em>扔向空中時，此石會環繞在距離你頭頂1d3呎之處，並在環繞期間為你帶來其好處。同一時間內，你至多只能有3顆<em>艾恩石</em>環繞在你的頭頂。</p><p>作為利用動作，你可以抓住並收起任意數量環繞在你頭頂的<em>艾恩石</em>。若你與某顆正環繞在你頭頂的<em>艾恩石</em>的同調結束，該石頭就會如同你將其丟棄一般掉落。</p><p>這顆豔紫色的稜柱形艾恩石會儲存對其施放的法術，直到你使用為止。該艾恩石同時最多只能儲存總計4環階的法術。這顆艾恩石在被發現時，儲存有由DM選擇、總計[[/r 1d4#Spell Levels]]環階的法術。</p><p>任何生物都可以在施放1至4環的法術時觸碰該艾恩石，以將該法術儲存於石中。此時法術除了被儲存之外不產生任何效應。若石頭無法容納該法術，則該法術會被消耗而不產生效應。施放該法術所用法術位的環階，決定其佔用的空間。</p><p>在這顆艾恩石環繞在你頭頂期間，你可以施放儲存其中的任何法術。該法術使用原施法者的法術位環階、法術豁免DC、法術攻擊加值和施法屬性，但在其他方面視為由你施放。從艾恩石中施放的法術不再儲存於其中，其佔用的空間隨之釋出。</p>",
       "activities": {
         "Store Spell by Level": {
-          "name": "Store Spell by Level"
+          "name": "依環階儲存法術"
         }
       },
-      "name": "艾恩石，儲法"
+      "name": "艾恩石．儲法"
     },
     "Staff of Adornment": {
       "description": "<p><em>@UUID[Compendium.dnd-players-handbook.equipment.Item.phbafcStaffalsoa]{法杖}，普通</em></p><p>持握此法杖期間，若你將一件重量不超過1磅的超小型物件（例如一片水晶碎片、一顆蛋或一塊石頭）放在法杖尖端上方，該物件就會懸浮在距離杖尖1吋處，並停留在那裡，直到被移除或法杖不再由你持有為止。法杖尖端上方同一時間最多可懸浮三件這類物件。持握法杖期間，你可以使其中一件或多件物件緩慢地旋轉或原地轉動。</p>",
@@ -7363,16 +7363,16 @@
     "Golden Lions": {
       "activities": {
         "Use First Lion": {
-          "name": "Use First Lion",
-          "target": "unoccupied space"
+          "name": "使用第一隻獅子",
+          "target": "未佔據空間"
         },
         "Use Second Lion": {
-          "name": "Use Second Lion",
-          "target": "unoccupied space"
+          "name": "使用第二隻獅子",
+          "target": "未佔據空間"
         }
       },
-      "description": "<p><em>See @UUID[Compendium.dnd-dungeon-masters-guide.equipment.Item.dmgFigurineOfWon]{Figurine of Wondrous Power}</em></p><p>These gold statuettes of lions are always created in pairs. You can use one figurine or both simultaneously. Each can become a <strong>@UUID[Compendium.dnd-players-handbook.actors.Actor.phbmobLion000000]{Lion}</strong> for up to 1 hour. Once a lion has been used, it can’t be used again until 7 days have passed.</p><section class=\"secret\" id=\"secret-e1wLN4czlgS5CpcW\"><p><strong>Foundry 註記</strong></p><p>Each <strong>Use Lion</strong> activity has limited uses which represent the 7 days required before that particular paired figurine can be used again.</p></section>",
-      "name": "Golden Lions"
+      "description": "<p><em>參見：@UUID[Compendium.dnd-dungeon-masters-guide.equipment.Item.dmgFigurineOfWon]{異能塑像}</em></p><p>這些黃金製成的獅子塑像總是成對製造。你可以只使用其中一隻，也可以同時使用這兩隻。每隻獅子塑像都可以變為一隻<strong>@UUID[Compendium.dnd-players-handbook.actors.Actor.phbmobLion000000]{獅子}</strong>，其存在至多維持1小時。每隻獅子塑像使用後，都需要經過7日才能再次啟動。</p><section class=\"secret\" id=\"secret-e1wLN4czlgS5CpcW\"><p><strong>Foundry 註記</strong></p><p>每個<strong>使用獅子</strong>行動都有有限使用次數，代表該對塑像中那一尊再次可用前所需經過的7日。</p></section>",
+      "name": "黃金獅子"
     },
     "Prosthetic Limb": {
       "name": "義肢",
@@ -7420,12 +7420,12 @@
     "Ioun Stone of Protection": {
       "effects": {
         "Enhanced Protection: +1 AC": {
-          "name": "Enhanced Protection: +1 AC",
-          "description": "<p>You gain a +1 bonus to Armor Class while this dusty-rose prism orbits your head.</p>"
+          "name": "提升防護：AC +1",
+          "description": "<p>在這顆菸灰玫瑰色的稜柱形艾恩石環繞在你頭頂期間，你的AC獲得+1加值。</p>"
         }
       },
-      "description": "<p><em>See: @UUID[Compendium.dnd-dungeon-masters-guide.equipment.Item.dmgIounStone0000]{Ioun Stone}</em></p><p>When you take a Magic action to toss an <em>Ioun Stone</em> into the air, the stone orbits your head at a distance of 1d3 feet, conferring its benefit to you while doing so. You can have up to three <em>Ioun Stones</em> orbiting your head at the same time.</p><p>As a Utilize action, you can seize and stow any number of <em>Ioun Stones</em> orbiting your head. If your Attunement to an <em>Ioun Stone</em> ends while it’s orbiting your head, the stone falls as though you had dropped it.</p><p>You gain a +1 bonus to Armor Class while this dusty-rose prism orbits your head.</p>",
-      "name": "艾恩石，防護"
+      "description": "<p><em>參見：@UUID[Compendium.dnd-dungeon-masters-guide.equipment.Item.dmgIounStone0000]{艾恩石}</em></p><p>當你採取魔法動作將<em>艾恩石</em>扔向空中時，此石會環繞在距離你頭頂1d3呎之處，並在環繞期間為你帶來其好處。同一時間內，你至多只能有3顆<em>艾恩石</em>環繞在你的頭頂。</p><p>作為利用動作，你可以抓住並收起任意數量環繞在你頭頂的<em>艾恩石</em>。若你與某顆正環繞在你頭頂的<em>艾恩石</em>的同調結束，該石頭就會如同你將其丟棄一般掉落。</p><p>在這顆菸灰玫瑰色的稜柱形艾恩石環繞在你頭頂期間，你的AC獲得+1加值。</p>",
+      "name": "艾恩石．防護"
     },
     "Folding Boat": {
       "name": "摺疊船",
@@ -7443,8 +7443,8 @@
       "name": "Mayonnaise (Pint)"
     },
     "Fochlucan Bandore Instrument of the Bards": {
-      "name": "Fochlucan Bandore Instrument of the Bards",
-      "description": "<p><em>See: @UUID[Compendium.dnd-dungeon-masters-guide.equipment.Item.dmgInstrumentOfT]{Instrument of the Bards}</em></p><p>An <em>Instrument of the Bards</em> is superior to an ordinary instrument in every way.</p><p>A creature that attempts to play the instrument without being attuned to it must succeed on a [[/save ability=wis dc=15 format=long]] or take [[/damage 2d4 type=psychic]] damage.</p><p>You can play the instrument to cast one of its spells. Once the instrument has been used to cast a spell, it can’t be used to cast that spell again until the next dawn. The spells use your spellcasting ability and spell save DC.</p>"
+      "name": "佛克路坎班多里琴",
+      "description": "<p><em>參見：@UUID[Compendium.dnd-dungeon-masters-guide.equipment.Item.dmgInstrumentOfT]{吟遊詩人樂器}</em></p><p><em>吟遊詩人樂器</em>在各方面都優於普通樂器。</p><p>在未與樂器完成同調的情況下，嘗試演奏樂器的生物必須成功通過一次[[/save ability=wis dc=15 format=long]]，否則承受[[/damage 2d4 type=psychic]]傷害。</p><p>你可以通過演奏樂器來施放其中一道法術。一旦該樂器被用來施放了某道法術，則其直到下個黎明前都無法再被用來施放該法術。這些法術使用你的施法屬性和法術豁免DC。</p>"
     },
     "Wand of Fear": {
       "name": "恐懼魔杖",
@@ -7488,7 +7488,7 @@
       "name": "Honey (Pint)"
     },
     "Ring of Free Action": {
-      "description": "<p><em>Ring，珍稀（需同調）</em></p><p>While you wear this ring, &amp;Reference[Difficult Terrain] doesn’t cost you extra movement. In addition, magic can neither reduce any of your Speeds nor cause you to have the &amp;Reference[Paralyzed apply=false] or &amp;Reference[Restrained apply=false] condition.</p>",
+      "description": "<p><em>戒指，珍稀（需同調）</em></p><p>佩戴這枚戒指期間，你不會因&amp;Reference[Difficult Terrain]{困難地形}而損耗額外的移動力。此外，魔法不能減少你的任何速度，也不能使你陷入&amp;Reference[Paralyzed apply=false]{麻痺}或&amp;Reference[Restrained apply=false]{束縛}狀態。</p>",
       "name": "自由行動戒指"
     },
     "Wand of Polymorph": {
@@ -7514,12 +7514,12 @@
     "Ioun Stone of Regeneration": {
       "activities": {
         "Regeneration": {
-          "condition": "once per hour if you have at least 1 Hit Point",
-          "name": "Regeneration"
+          "condition": "每小時一次，若你至少擁有1點生命值",
+          "name": "再生"
         }
       },
-      "description": "<p><em>See: @UUID[Compendium.dnd-dungeon-masters-guide.equipment.Item.dmgIounStone0000]{Ioun Stone}</em></p><p>When you take a Magic action to toss an <em>Ioun Stone</em> into the air, the stone orbits your head at a distance of 1d3 feet, conferring its benefit to you while doing so. You can have up to three <em>Ioun Stones</em> orbiting your head at the same time.</p><p>As a Utilize action, you can seize and stow any number of <em>Ioun Stones</em> orbiting your head. If your Attunement to an <em>Ioun Stone</em> ends while it’s orbiting your head, the stone falls as though you had dropped it.</p><p>You regain [[/healing 15 type=healing]]{15 Hit Points} at the end of each hour this pearly white spindle orbits your head if you have at least 1 Hit Point.</p>",
-      "name": "Ioun Stone of Regeneration"
+      "description": "<p><em>參見：@UUID[Compendium.dnd-dungeon-masters-guide.equipment.Item.dmgIounStone0000]{艾恩石}</em></p><p>當你採取魔法動作將<em>艾恩石</em>扔向空中時，此石會環繞在距離你頭頂1d3呎之處，並在環繞期間為你帶來其好處。同一時間內，你至多只能有3顆<em>艾恩石</em>環繞在你的頭頂。</p><p>作為利用動作，你可以抓住並收起任意數量環繞在你頭頂的<em>艾恩石</em>。若你與某顆正環繞在你頭頂的<em>艾恩石</em>的同調結束，該石頭就會如同你將其丟棄一般掉落。</p><p>在這顆珍珠白色的紡錘形艾恩石環繞在你頭頂期間，每個小時結束時，若你至少擁有1點生命值，你便恢復[[/healing 15 type=healing]]{15點生命值}。</p>",
+      "name": "艾恩石．再生"
     }
   },
   "folders": {
