@@ -4289,25 +4289,25 @@
     "Quaal's Feather Tokens": {
       "results": {
         "21-35": {
-          "description": "@UUID[Compendium.dnd-dungeon-masters-guide.equipment.Item.dmgBirdQuaalsFea]{Bird (Rare)}"
+          "description": "@UUID[Compendium.dnd-dungeon-masters-guide.equipment.Item.dmgBirdQuaalsFea]{鳥（珍稀）}"
         },
         "91-100": {
-          "description": "@UUID[Compendium.dnd-dungeon-masters-guide.equipment.Item.dmgWhipQuaalsFea]{Whip (Rare)}"
+          "description": "@UUID[Compendium.dnd-dungeon-masters-guide.equipment.Item.dmgWhipQuaalsFea]{鞭（珍稀）}"
         },
         "1-20": {
-          "description": "@UUID[Compendium.dnd-dungeon-masters-guide.equipment.Item.dmgAnchorQuaalsF]{Anchor (Uncommon)}"
+          "description": "@UUID[Compendium.dnd-dungeon-masters-guide.equipment.Item.dmgAnchorQuaalsF]{錨（非普通）}"
         },
         "51-65": {
-          "description": "@UUID[Compendium.dnd-dungeon-masters-guide.equipment.Item.dmgSwanBoatQuaal]{Swan boat (Rare)}"
+          "description": "@UUID[Compendium.dnd-dungeon-masters-guide.equipment.Item.dmgSwanBoatQuaal]{天鵝船（珍稀）}"
         },
         "36-50": {
-          "description": "@UUID[Compendium.dnd-dungeon-masters-guide.equipment.Item.dmgFanQuaalsFeat]{Fan (Uncommon)}"
+          "description": "@UUID[Compendium.dnd-dungeon-masters-guide.equipment.Item.dmgFanQuaalsFeat]{扇（非普通）}"
         },
         "66-90": {
-          "description": "@UUID[Compendium.dnd-dungeon-masters-guide.equipment.Item.dmgTreeQuaalsFea]{Tree (Uncommon)}"
+          "description": "@UUID[Compendium.dnd-dungeon-masters-guide.equipment.Item.dmgTreeQuaalsFea]{樹（非普通）}"
         }
       },
-      "name": "Quaal's Feather Tokens"
+      "name": "夸爾羽符"
     },
     "Initial Attitude": {
       "results": {
@@ -4679,37 +4679,37 @@
       "name": "次要負面屬性"
     },
     "Ring of Resistance: Damage Type and Gemstone": {
-      "name": "Ring of Resistance: Damage Type and Gemstone",
+      "name": "抗力戒指：傷害類型與寶石",
       "results": {
         "4-4": {
-          "description": "@UUID[Compendium.dnd-dungeon-masters-guide.equipment.Item.dmgRingOfResista.ActiveEffect.ivnRnslXhD6UZH0L]{Force (Sapphire)}"
+          "description": "@UUID[Compendium.dnd-dungeon-masters-guide.equipment.Item.dmgRingOfResista.ActiveEffect.ivnRnslXhD6UZH0L]{力場（藍寶石）}"
         },
         "1-1": {
-          "description": "@UUID[Compendium.dnd-dungeon-masters-guide.equipment.Item.dmgRingOfResista.ActiveEffect.dBl3gfYXWn7YguDb]{Acid (Pearl)}"
+          "description": "@UUID[Compendium.dnd-dungeon-masters-guide.equipment.Item.dmgRingOfResista.ActiveEffect.dBl3gfYXWn7YguDb]{強酸（珍珠）}"
         },
         "6-6": {
-          "description": "@UUID[Compendium.dnd-dungeon-masters-guide.equipment.Item.dmgRingOfResista.ActiveEffect.9r8SX6QYbeLa780J]{Necrotic (Jet)}"
+          "description": "@UUID[Compendium.dnd-dungeon-masters-guide.equipment.Item.dmgRingOfResista.ActiveEffect.9r8SX6QYbeLa780J]{黯蝕（黑玉）}"
         },
         "8-8": {
-          "description": "@UUID[Compendium.dnd-dungeon-masters-guide.equipment.Item.dmgRingOfResista.ActiveEffect.ls5HwdyGS36zGNsf]{Psychic (Jade)}"
+          "description": "@UUID[Compendium.dnd-dungeon-masters-guide.equipment.Item.dmgRingOfResista.ActiveEffect.ls5HwdyGS36zGNsf]{心靈（玉石）}"
         },
         "5-5": {
-          "description": "@UUID[Compendium.dnd-dungeon-masters-guide.equipment.Item.dmgRingOfResista.ActiveEffect.96wcenml9tk62g37]{Lightning (Citrine)}"
+          "description": "@UUID[Compendium.dnd-dungeon-masters-guide.equipment.Item.dmgRingOfResista.ActiveEffect.96wcenml9tk62g37]{閃電（黃水晶）}"
         },
         "3-3": {
-          "description": "@UUID[Compendium.dnd-dungeon-masters-guide.equipment.Item.dmgRingOfResista.ActiveEffect.8IIAYzI3gqAJIBYo]{Fire (Garnet)}"
+          "description": "@UUID[Compendium.dnd-dungeon-masters-guide.equipment.Item.dmgRingOfResista.ActiveEffect.8IIAYzI3gqAJIBYo]{火焰（石榴石）}"
         },
         "2-2": {
-          "description": "<p>@UUID[Compendium.dnd-dungeon-masters-guide.equipment.Item.dmgRingOfResista.ActiveEffect.P5fYc9OEg5GKGgkR]{Cold (Tourmaline)}</p>"
+          "description": "<p>@UUID[Compendium.dnd-dungeon-masters-guide.equipment.Item.dmgRingOfResista.ActiveEffect.P5fYc9OEg5GKGgkR]{寒冷（電氣石）}</p>"
         },
         "9-9": {
-          "description": "@UUID[Compendium.dnd-dungeon-masters-guide.equipment.Item.dmgRingOfResista.ActiveEffect.zgCVJEc1e9dCj7Ut]{Radiant (Topaz)}"
+          "description": "@UUID[Compendium.dnd-dungeon-masters-guide.equipment.Item.dmgRingOfResista.ActiveEffect.zgCVJEc1e9dCj7Ut]{光耀（黃玉）}"
         },
         "10-10": {
-          "description": "@UUID[Compendium.dnd-dungeon-masters-guide.equipment.Item.dmgRingOfResista.ActiveEffect.JA9aLSXZ6W3O0W9l]{Thunder (Spinel)}"
+          "description": "@UUID[Compendium.dnd-dungeon-masters-guide.equipment.Item.dmgRingOfResista.ActiveEffect.JA9aLSXZ6W3O0W9l]{雷鳴（尖晶石）}"
         },
         "7-7": {
-          "description": "@UUID[Compendium.dnd-dungeon-masters-guide.equipment.Item.dmgRingOfResista.ActiveEffect.9r8SX6QYbeLa780J]{Poison (Amethyst)}"
+          "description": "@UUID[Compendium.dnd-dungeon-masters-guide.equipment.Item.dmgRingOfResista.ActiveEffect.9r8SX6QYbeLa780J]{毒素（紫水晶）}"
         }
       }
     },
@@ -5341,19 +5341,19 @@
       "name": "Shadowfell Despair"
     },
     "Horn of Valhalla: Type and Requirement": {
-      "name": "Horn of Valhalla: Type and Requirement",
+      "name": "瓦爾哈拉號角：類型與條件",
       "results": {
         "41-75": {
-          "description": "@UUID[Compendium.dnd-dungeon-masters-guide.equipment.Item.dmgBrassHornOfVa]{Brass} (3 spirits); Proficiency with all Simple weapons"
+          "description": "@UUID[Compendium.dnd-dungeon-masters-guide.equipment.Item.dmgBrassHornOfVa]{黃銅}（3個英靈）；熟練於所有簡易武器"
         },
         "91-100": {
-          "description": "@UUID[Compendium.dnd-dungeon-masters-guide.equipment.Item.dmgIronHornOfVal]{Iron} (5 spirits); Proficiency with all Martial weapons"
+          "description": "@UUID[Compendium.dnd-dungeon-masters-guide.equipment.Item.dmgIronHornOfVal]{黑鐵}（5個英靈）；熟練於所有軍用武器"
         },
         "76-90": {
-          "description": "@UUID[Compendium.dnd-dungeon-masters-guide.equipment.Item.dmgBronzeHornOfV]{Bronze} (4 spirits); Training with all Medium armor"
+          "description": "@UUID[Compendium.dnd-dungeon-masters-guide.equipment.Item.dmgBronzeHornOfV]{青銅}（4個英靈）；受訓於所有中甲"
         },
         "1-40": {
-          "description": "@UUID[Compendium.dnd-dungeon-masters-guide.equipment.Item.dmgSilverHornOfV]{Silver} (2 spirits); No requirement"
+          "description": "@UUID[Compendium.dnd-dungeon-masters-guide.equipment.Item.dmgSilverHornOfV]{白銀}（2個英靈）；無條件"
         }
       }
     },
