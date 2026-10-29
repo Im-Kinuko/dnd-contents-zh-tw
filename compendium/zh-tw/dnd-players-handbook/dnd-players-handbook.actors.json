@@ -5671,11 +5671,11 @@
       "name": "Undead Spirit"
     },
     "Mastiff": {
-      "name": "Mastiff",
+      "name": "獒犬",
       "items": {
         "Bite": {
-          "description": "<p><em>Melee Attack Roll:</em> +3, reach 5 ft. <em>Hit: </em>4 (1d6 + 1) Piercing damage, and the target has the &amp;Reference[prone] condition if it is Large or smaller.</p>",
-          "name": "Bite"
+          "description": "<p><em>近戰攻擊檢定：</em>+3，觸及5呎。<em>命中：</em>4（1d6 + 1）穿刺傷害，且若目標為大型或更小的生物，則陷入&amp;Reference[prone]{伏地}狀態。</p>",
+          "name": "啃咬"
         }
       }
     },
@@ -5823,29 +5823,29 @@
     "Elephant": {
       "items": {
         "Trample": {
-          "description": "<p> <em>Dexterity Saving Throw:</em> DC 16, one creature within 5 feet that has the Prone condition. <em>Failure:</em> 17 (2d10 + 6) Bludgeoning damage. <em>Success:</em> Half damage.</p>",
+          "description": "<p><em>敏捷豁免檢定：</em>DC 16，位於5呎內一個處於伏地狀態的生物。<em>失敗：</em>17（2d10 + 6）鈍擊傷害。<em>成功：</em>傷害減半。</p>",
           "activities": {
             "save": {
-              "target": "has the Prone condition"
+              "target": "處於伏地狀態"
             }
           },
-          "name": "Trample"
+          "name": "踐踏"
         },
         "Gore": {
-          "name": "Gore",
-          "description": "<p><em>Melee Attack Roll: </em>+8, reach 5 ft. <em>Hit:</em> 15 (2d8 + 6) Piercing damage. If the elephant moved at least 20 feet straight toward the target immediately before the hit, the target also has the &amp;Reference[prone] condition.</p>"
+          "name": "頂撞",
+          "description": "<p><em>近戰攻擊檢定：</em>+8，觸及5呎。<em>命中：</em>15（2d8 + 6）穿刺傷害。若象在命中前已朝目標直線移動至少20呎，則目標還會陷入&amp;Reference[prone]{伏地}狀態。</p>"
         },
         "Multiattack": {
-          "name": "Multiattack",
-          "description": "<p>The elephant makes two [[/item Gore]] attacks.</p>",
+          "name": "多重攻擊",
+          "description": "<p>象進行兩次[[/item Gore]]攻擊。</p>",
           "activities": {
             "Activate": {
-              "name": "Activate"
+              "name": "啟用"
             }
           }
         }
       },
-      "name": "Elephant"
+      "name": "象"
     },
     "Clay Construct Spirit": {
       "items": {
@@ -5926,16 +5926,16 @@
     "Goat": {
       "items": {
         "Ram": {
-          "name": "Ram",
-          "description": "<p><em>Melee Attack Roll: </em>+2, reach 5 ft. <em>Hit: </em>1 Bludgeoning damage, or the goat deals 2 (1d4) Bludgeoning damage if it moved at least 20 feet straight toward the target immediately before the hit.</p>",
+          "name": "衝撞",
+          "description": "<p><em>近戰攻擊檢定：</em>+2，觸及5呎。<em>命中：</em>1點鈍擊傷害；若山羊在命中前已朝目標直線移動至少20呎，則山羊改為造成2（1d4）鈍擊傷害。</p>",
           "activities": {
             "Charging Attack": {
-              "name": "Charging Attack"
+              "name": "衝鋒攻擊"
             }
           }
         }
       },
-      "name": "Goat"
+      "name": "山羊"
     },
     "Octopus": {
       "items": {
@@ -5994,11 +5994,11 @@
       "tokenName": "Fey Spirit"
     },
     "Riding Horse": {
-      "name": "Riding Horse",
+      "name": "騎用馬",
       "items": {
         "Hooves": {
-          "description": "<p><em>Melee Attack Roll:</em> +5, reach 5 ft. <em>Hit: </em>7 (1d8 + 3) Bludgeoning damage.</p>",
-          "name": "Hooves"
+          "description": "<p><em>近戰攻擊檢定：</em>+5，觸及5呎。<em>命中：</em>7（1d8 + 3）鈍擊傷害。</p>",
+          "name": "蹄擊"
         }
       }
     },
@@ -6147,36 +6147,36 @@
         "Multiattack": {
           "activities": {
             "Activate": {
-              "name": "Activate"
+              "name": "啟用"
             }
           },
-          "description": "<p>The lion makes two [[/item Rend]] attacks. It can replace one of these attacks with a use of [[/item Roar]].</p>",
-          "name": "Multiattack"
+          "description": "<p>獅子進行兩次[[/item Rend]]攻擊。獅子可以用一次[[/item Roar]]取代其中一次攻擊。</p>",
+          "name": "多重攻擊"
         },
         "Roar": {
-          "description": "<p><em>Wisdom Saving Throw:</em> DC 11, one creature within 15 feet. <em>Failure:</em> The target has the &amp;Reference[frightened apply=false] condition until the start of the lion’s next turn.</p>",
+          "description": "<p><em>感知豁免檢定：</em>DC 11，位於15呎內的一名生物。<em>失敗：</em>目標陷入&amp;Reference[frightened apply=false]{恐慌}狀態，直到獅子的下個回合開始。</p>",
           "effects": {
             "Frightened": {
-              "name": "Frightened",
-              "description": "<p>The target has the &amp;Reference[frightened apply=false] condition until the start of the lion’s next turn.</p>"
+              "name": "恐慌",
+              "description": "<p>目標陷入&amp;Reference[frightened apply=false]{恐慌}狀態，直到獅子的下個回合開始。</p>"
             }
           },
-          "name": "Roar"
+          "name": "咆哮"
         },
         "Pack Tactics": {
-          "description": "<p>The lion has Advantage on an attack roll against a creature if at least one of the lion’s allies is within 5 feet of the creature and the ally doesn’t have the Incapacitated condition.</p>",
-          "name": "Pack Tactics"
+          "description": "<p>若獅子所攻擊的生物5呎內，有至少一名獅子未失能的盟友，則獅子對該生物進行的攻擊檢定具有優勢。</p>",
+          "name": "群體戰術"
         },
         "Running Leap": {
-          "description": "<p>With a 10-foot running start, the lion can Long Jump up to 25 feet.</p>",
-          "name": "Running Leap"
+          "description": "<p>獅子在助跑10呎後可以跳遠至多25呎。</p>",
+          "name": "助跑跳躍"
         },
         "Rend": {
-          "name": "Rend",
-          "description": "<p><em>Melee Attack Roll:</em> +5, reach 5 ft. <em>Hit: </em>7 (1d8 + 3) Slashing damage.</p>"
+          "name": "撕裂",
+          "description": "<p><em>近戰攻擊檢定：</em>+5，觸及5呎。<em>命中：</em>7（1d8 + 3）揮砍傷害。</p>"
         }
       },
-      "name": "Lion"
+      "name": "獅子"
     },
     "Large Animated Object": {
       "tokenName": "Animated Object",
@@ -6310,15 +6310,15 @@
     "Raven": {
       "items": {
         "Beak": {
-          "name": "Beak",
-          "description": "<p> <em>Melee Attack Roll:</em> +4, reach 5 ft. <em>Hit:</em> 1 Piercing damage.</p>"
+          "name": "啄擊",
+          "description": "<p><em>近戰攻擊檢定：</em>+4，觸及5呎。<em>命中：</em>1點穿刺傷害。</p>"
         },
         "Mimicry": {
-          "description": "<p>The raven can mimic simple sounds it has heard, such as a whisper or chitter. A hearer can discern the sounds are imitations with a successful [[/check skill=ins dc=10]] check.</p>",
-          "name": "Mimicry"
+          "description": "<p>渡鴉可以模仿其聽過的簡單聲音，例如低語或嘰喳聲。聽到的生物若成功通過一次[[/check skill=ins dc=10]]檢定，便能辨別這些聲音是模仿的。</p>",
+          "name": "模仿"
         }
       },
-      "name": "Raven"
+      "name": "渡鴉"
     },
     "Duplicate": {
       "name": "Duplicate"
@@ -6563,16 +6563,16 @@
     "Giant Goat": {
       "items": {
         "Ram": {
-          "name": "Ram",
+          "name": "衝撞",
           "activities": {
             "Charging Attack": {
-              "name": "Charging Attack"
+              "name": "衝鋒攻擊"
             }
           },
-          "description": "<p><em>Melee Attack Roll:</em> +5, reach 5 ft. <em>Hit: </em>6 (1d6 + 3) Bludgeoning damage. If the goat moved at least 20 feet straight toward the target immediately before the hit, the target takes an extra 5 (2d4) Bludgeoning damage and, if it is Huge or smaller, has the &amp;Reference[prone] condition.</p>"
+          "description": "<p><em>近戰攻擊檢定：</em>+5，觸及5呎。<em>命中：</em>6（1d6 + 3）鈍擊傷害。若山羊在命中前已朝目標直線移動至少20呎，則目標額外承受5（2d4）鈍擊傷害，且若其為巨型或更小的生物，則陷入&amp;Reference[prone]{伏地}狀態。</p>"
         }
       },
-      "name": "Giant Goat"
+      "name": "巨山羊"
     },
     "Giant Weasel": {
       "items": {
