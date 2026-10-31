@@ -210,17 +210,17 @@
           "chatFlavor": "A Hostile @UUID[Compendium.dnd-dungeon-masters-guide.actors.Actor.LTomFUTBrkRi0Pj5]{Efreeti} appears"
         }
       },
-      "description": "<div><p><em>奇物, Very Rare</em></p></div><p>When you take a Magic action to remove the stopper of this painted brass bottle, a cloud of thick smoke flows out of it. At the end of your turn, the smoke disappears with a flash of harmless fire, and an <strong>@UUID[Compendium.dnd-dungeon-masters-guide.actors.Actor.LTomFUTBrkRi0Pj5]{Efreeti}</strong> appears in an unoccupied space within 30 feet of you.</p><p>@Embed[Compendium.dnd-dungeon-masters-guide.tables.RollTable.dmgEfreetiBottle rollable classes=\"caption-top\"]</p>",
+      "description": "<p>第一次打開@UUID[Compendium.dnd-dungeon-masters-guide.equipment.Item.dmgEfreetiBottle]{瓶子}時，DM在下表擲骰以決定發生什麼事。</p>",
       "name": "火巨靈囚瓶",
       "results": {
         "1-1": {
-          "description": "The efreeti attacks you. After fighting for 5 rounds, the efreeti disappears, and the bottle loses its magic."
+          "description": "火巨靈攻擊你。戰鬥5輪後，火巨靈消失，瓶子失去魔力。"
         },
         "2-9": {
-          "description": "The efreeti understands your languages and obeys your commands for 1 hour, after which it returns to the bottle, and a new stopper contains it. The stopper can’t be removed for 24 hours. The next two times the bottle is opened, the same effect occurs. If the bottle is opened a fourth time, the efreeti escapes and disappears, and the bottle loses its magic."
+          "description": "火巨靈聽得懂你的語言，並在1小時內服從你的命令；之後其返回瓶中，並由新的瓶塞封住。該瓶塞在24小時內無法被拔除。接下來兩次打開瓶子時，會發生相同的效應。若第四次打開瓶子，火巨靈會逃脫並消失，瓶子失去魔力。"
         },
         "10-10": {
-          "description": "The efreeti understands your languages and can cast <em>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplWish000000]{Wish}</em> once for you. It disappears when it grants the wish or after 1 hour, and the bottle loses its magic."
+          "description": "火巨靈聽得懂你的語言，並能為你施放一次<em>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplWish000000]{祈願術}</em>。其在實現願望後或1小時後消失，瓶子失去魔力。"
         }
       }
     },
@@ -4858,19 +4858,19 @@
     "Manual of Golems: Type, Time, and Cost": {
       "results": {
         "18-18": {
-          "description": "<strong>Golem:</strong> Iron Golem<br /><strong>Time:</strong> 120 days<br /><strong>Cost:</strong> 100,000 GP"
+          "description": "<strong>魔像：</strong>鋼鐵魔像<br /><strong>時間：</strong>120天<br /><strong>費用：</strong>100,000 GP"
         },
         "19-20": {
-          "description": "<strong>Golem:</strong> Stone Golem<br /><strong>Time:</strong> 90 days<br /><strong>Cost:</strong> 80,000 GP"
+          "description": "<strong>魔像：</strong>石魔像<br /><strong>時間：</strong>90天<br /><strong>費用：</strong>80,000 GP"
         },
         "6-17": {
-          "description": "<strong>Golem:</strong> Flesh Golem<br /><strong>Time:</strong> 60 days<br /><strong>Cost:</strong> 50,000 GP"
+          "description": "<strong>魔像：</strong>血肉魔像<br /><strong>時間：</strong>60天<br /><strong>費用：</strong>50,000 GP"
         },
         "1-5": {
-          "description": "<strong>Golem:</strong> Clay Golem<br /><strong>Time:</strong> 30 days<br /><strong>Cost:</strong> 65,000 GP"
+          "description": "<strong>魔像：</strong>黏土魔像<br /><strong>時間：</strong>30天<br /><strong>費用：</strong>65,000 GP"
         }
       },
-      "name": "Manual of Golems: Type, Time, and Cost"
+      "name": "魔像手冊的類型、時間與費用"
     },
     "Major Detrimental Properties": {
       "results": {
@@ -4974,31 +4974,31 @@
     "Potion Miscibility": {
       "results": {
         "16-25": {
-          "description": "One potion loses its effect."
+          "description": "其中一瓶藥水失去效應。"
         },
         "100-100": {
-          "description": "Only one potion works, but its effects are permanent. Choose the simplest effect to make permanent or the one that seems the most fun. For example, a Potion of Healing might increase the drinker’s Hit Point maximum by [[/roll 2d4 + 2]], or a Potion of Invisibility might give the drinker the Invisible condition indefinitely. At your discretion, a Dispel Magic spell or similar magic might end this lasting effect."
+          "description": "只有一瓶藥水生效，但其效應是永久的。選擇最簡單、或看起來最有趣的效應使其永久。例如，治療藥水可能使飲用者的生命值上限增加[[/roll 2d4 + 2]]，或隱形藥水可能使飲用者無限期處於隱形狀態。經你裁量，解除魔法法術或類似魔法可以結束這個持久的效應。"
         },
         "91-99": {
-          "description": "Both potions work, but the numerical effects and duration of one potion are <span>doubled</span>. If neither potion has anything to double in this way, they work normally."
+          "description": "兩瓶藥水都生效，但其中一瓶藥水的數值效應與持續時間<span>加倍</span>。若兩瓶藥水都沒有可如此加倍之處，則這兩瓶藥水正常生效。"
         },
         "26-35": {
-          "description": "Both potions work, but with their numerical effects and durations halved. If a potion has no numerical effect and no duration, it instead loses its effect."
+          "description": "兩瓶藥水都生效，但其數值效應與持續時間減半。若某瓶藥水沒有數值效應也沒有持續時間，則該藥水改為失去效應。"
         },
         "2-8": {
-          "description": "Both potions lose their effects, and the mixture becomes an ingested poison of your choice (see @UUID[Compendium.dnd-dungeon-masters-guide.content.JournalEntry.dmgDmsToolbox000.JournalEntryPage.UfAEdm3LbTzvQHC5]{Poison})."
+          "description": "兩瓶藥水都失去效應，混合物變成你所選擇的一種吞服型毒藥（見@UUID[Compendium.dnd-dungeon-masters-guide.content.JournalEntry.dmgDmsToolbox000.JournalEntryPage.UfAEdm3LbTzvQHC5]{毒藥}）。"
         },
         "36-90": {
-          "description": "Both potions work normally."
+          "description": "兩瓶藥水都正常生效。"
         },
         "9-15": {
-          "description": "Both potions lose their effects."
+          "description": "兩瓶藥水都失去效應。"
         },
         "1-1": {
-          "description": "Both potions lose their effects, and the mixture creates a magical explosion in a 5-foot-radius Sphere centered on itself. Each creature in that area takes [[/damage 4d10 type=force]] damage."
+          "description": "兩瓶藥水都失去效應，混合物在以其自身為中心的半徑5呎球形區域內引發魔法爆炸。該區域內的每個生物承受[[/damage 4d10 type=force]]傷害。"
         }
       },
-      "name": "Potion Miscibility"
+      "name": "藥水相容性"
     },
     "2,500 GP Art Objects": {
       "name": "2,500 GP藝術品",
@@ -5039,19 +5039,19 @@
     "Carpet of Flying: Size, Capacity, and Speed": {
       "results": {
         "56-80": {
-          "description": "5 × 7 ft. | 600 lb. capacity | 40 ft. Fly speed"
+          "description": "5 × 7呎 | 載重600磅 | 飛行速度40呎"
         },
         "21-55": {
-          "description": "4 × 6 ft. | 400 lb. capacity | 60 ft. Fly speed"
+          "description": "4 × 6呎 | 載重400磅 | 飛行速度60呎"
         },
         "1-20": {
-          "description": "3 × 5 ft. | 200 lb. capacity | 80 ft. Fly speed"
+          "description": "3 × 5呎 | 載重200磅 | 飛行速度80呎"
         },
         "81-100": {
-          "description": "6 × 9 ft. | 800 lb. capacity | 30 ft. Fly speed"
+          "description": "6 × 9呎 | 載重800磅 | 飛行速度30呎"
         }
       },
-      "name": "Carpet of Flying: Size, Capacity, and Speed"
+      "name": "飛毯的尺寸、承載量與速度"
     },
     "Moonblade Properties": {
       "name": "Moonblade Properties",
@@ -5238,16 +5238,16 @@
       }
     },
     "Sphere of Annihilation Interaction Results": {
-      "name": "Sphere of Annihilation Interaction Results",
+      "name": "湮滅法球互動結果",
       "results": {
         "1-50": {
-          "description": "The sphere is destroyed."
+          "description": "法球被摧毀。"
         },
         "51-85": {
-          "description": "The sphere moves through the portal or into the extradimensional space."
+          "description": "法球穿過傳送門或進入異次元空間。"
         },
         "86-100": {
-          "description": "A spatial rift sends the sphere and each creature and object within 180 feet of the sphere to a random plane of existence."
+          "description": "一道空間裂隙將法球，以及法球周圍180呎內的每個生物與物體，送往一個隨機的存在位面。"
         }
       }
     },
