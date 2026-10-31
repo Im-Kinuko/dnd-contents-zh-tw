@@ -390,11 +390,11 @@
       "description": "<p>You gain a +1 bonus to attack rolls and damage rolls made with this magic weapon.</p><p>When you hit a concentrating creature with an attack roll using this weapon and deal damage, the creature has Disadvantage on the saving throw it makes to maintain Concentration.</p><section id=\"secret-cYsG1DHnBnluHk5g\" class=\"secret hide-in-embed\"><p><strong>Foundry Note</strong></p><p>Apply the <strong>Disadv. Concentration Check</strong> active effect to a concentrating target damaged by this weapon, then remove the effect after the resulting Concentration save is resolved.</p></section>"
     },
     "Dictation Quill": {
-      "description": "<p>When you take a Magic action to set this magic quill next to Paper or Parchment and a bottle of Ink and use a command word, the quill writes your next spoken or signed words, in the language you’re using, at a rate of 25 words per minute. The quill writes for 1 hour; until it has no Paper, Parchment, or Ink; or until you use another command word to stop it (no action required).</p>",
-      "name": "Dictation Quill",
+      "description": "<p>當你採取魔法動作將這支魔法羽毛筆放在紙張或羊皮紙以及一瓶墨水旁邊，並說出命令詞時，該羽毛筆會以每分鐘25個字的速度，用你所使用的語言寫下你接下來所說或用手語表達的話語。該羽毛筆會持續書寫1小時；直到紙張、羊皮紙或墨水耗盡；或者直到你使用另一個命令詞使其停止（無需動作）。</p>",
+      "name": "聽寫羽毛筆",
       "activities": {
         "Dictation": {
-          "name": "Dictation"
+          "name": "聽寫"
         }
       }
     },
@@ -530,25 +530,25 @@
     "Lucky Foot": {
       "activities": {
         "Lucky Reroll": {
-          "condition": "When you roll a 1 on a saving throw or ability check.",
-          "name": "Lucky Reroll"
+          "condition": "當你在豁免檢定或屬性檢定中擲出1時。",
+          "name": "幸運重擲"
         }
       },
-      "description": "<p>When you roll a 1 on a saving throw or ability check, you can use this preserved rabbit foot’s magic to reroll the die. You must use the new roll, and the foot disintegrates.</p>",
-      "name": "Lucky Foot"
+      "description": "<p>當你在豁免檢定或屬性檢定中擲出1時，你可以使用這隻經過防腐處理兔腳的魔法來重擲該骰。你必須使用新的擲骰結果，隨後該兔腳會分解消散。</p>",
+      "name": "幸運兔腳"
     },
     "Homeward Compass": {
       "activities": {
         "Orient Compass": {
-          "condition": "While holding the compass.",
-          "name": "Orient Compass"
+          "condition": "持握羅盤期間。",
+          "name": "定位羅盤"
         },
         "End Orientation": {
-          "name": "End Orientation"
+          "name": "結束定位"
         }
       },
-      "name": "Homeward Compass",
-      "description": "<p>While holding this small brass compass, you can take a Magic action to orient the compass to your current location. Thereafter, the compass’s needle always points toward that location. The compass can be oriented to only one location at a time. As a Magic action, you can end the compass’s current orientation. When it isn’t oriented to a particular location, or if the compass is on a different plane of existence than the location to which it is oriented, the compass’s needle spins aimlessly.</p>"
+      "name": "歸鄉羅盤",
+      "description": "<p>持握這個小巧的黃銅羅盤期間，你可以採取魔法動作，將羅盤定位到你當前的位置。此後，羅盤的指針將始終指向該位置。該羅盤同一時間只能定位一個位置。作為魔法動作，你可以結束羅盤當前的定位。當其沒有定位到特定位置，或者若羅盤與其所定位的位置不處於同一個存在位面時，羅盤的指針會漫無目的地亂轉。</p>"
     },
     "Mage's Manacle": {
       "activities": {
@@ -574,16 +574,16 @@
       "name": "Goodberry Charm"
     },
     "Sweeping Broom": {
-      "name": "Sweeping Broom",
-      "description": "<p>As a Magic action, you can use this unassuming broom’s command word, choosing a point you can see on the ground within 60 feet of yourself. The broom animates and sweeps dust and detritus from the ground in a 20-foot square centered on the chosen point. It sweeps that area until you take another Magic action to deactivate it.</p>",
+      "name": "潔淨掃帚",
+      "description": "<p>作為魔法動作，你可以說出這把不起眼掃帚的命令詞，並在位於你60呎內的地面上選擇一處你所能看見的點。掃帚會活化，清掃以該點為中心的20呎平方區域內地面上的灰塵和垃圾。其會持續清掃該區域，直到你採取另一個魔法動作將其停用。</p>",
       "activities": {
         "Deactivate Broom": {
-          "name": "Deactivate Broom"
+          "name": "停用掃帚"
         },
         "Activate Broom": {
-          "duration": "Until deactivated",
-          "name": "Activate Broom",
-          "condition": "Speak the broom's command word"
+          "duration": "直到停用",
+          "name": "啟動掃帚",
+          "condition": "說出掃帚的命令詞"
         }
       }
     },
@@ -664,8 +664,8 @@
       "description": "<p>This delicate amulet looks like a diminutive beating heart impaled with spikes. It has 3 charges and regains 1d3 charges daily at dawn.</p><p>Whenever you deal damage to a creature, you can expend 1 charge to deal an extra [[/damage]] damage to the target and force it to make a [[/save format=long]]. On a failed save, the target gains one &amp;Reference[Exhaustion apply=false] level.</p>"
     },
     "Evergreen Fertilizer": {
-      "description": "<p>Once sprinkled on the soil around a nonmagical plant, this pungent powder keeps the plant healthy for the next 365 days.</p>",
-      "name": "Evergreen Fertilizer"
+      "description": "<p>一旦將這種刺鼻的粉末灑在一株非魔法植物周圍的土壤上，其就能使該植物在接下來的365天內保持健康。</p>",
+      "name": "常青肥料"
     },
     "Potion of Dragon's Breath (White)": {
       "activities": {
@@ -805,14 +805,14 @@
     "Conjurer's Canopy": {
       "activities": {
         "Canopy Reuse Period": {
-          "name": "Canopy Reuse Period"
+          "name": "華蓋再次使用間隔"
         },
         "Expend Use": {
-          "name": "Expend Use"
+          "name": "消耗使用次數"
         }
       },
       "name": "咒法師華蓋",
-      "description": "<p>You can take a Magic action and use a command word to plunge this magical walking stick into the ground, where it stands straight up and projects a canopy of transparent force in a [[lookup @target.template.size activity=r3P2CQjVaKWsfrqt]]-foot [[lookup @target.template.type capitalize activity=r3P2CQjVaKWsfrqt]] originating from the stick. The canopy lasts for 1 hour or until you end the effect early as a Magic action.</p><p>The canopy protects creatures and objects within that area from ordinary weather phenomena such as rain or snow. The atmosphere within the canopy’s area is comfortable and dry, regardless of the weather. Creatures, objects, and magical effects can still pass through the canopy as usual.</p><p>When the canopy disappears, the stick can’t be used again for [[/r 1d12]] hours.</p><section id=\"secret-s3AAdIcdBznou7uI\" class=\"secret hide-in-embed\"><p><strong>Foundry Note</strong></p><p>Remove the canopy template when the effect ends, then use <strong>Canopy Reuse Period</strong> to determine the cooldown period. Initiative recovery is only a placeholder; if Foundry restores the item's use before the cooldown expires, set the use back to spent until the rolled time has elapsed.</p></section>"
+      "description": "<p>你可以採取魔法動作並說出命令詞，將這根魔法手杖猛地插入地面。其會筆直豎立，並以手杖為源點投射出一個[[lookup @target.template.size activity=r3P2CQjVaKWsfrqt]]呎[[lookup @target.template.type capitalize activity=r3P2CQjVaKWsfrqt]]的透明力場華蓋。該華蓋持續1小時，或者直到你以魔法動作提前結束該效應。</p><p>華蓋會保護區域內的生物和物體免受尋常天氣現象（如雨雪）的影響。無論外界天氣如何，華蓋區域內的空氣始終舒適且乾燥。生物、物體和魔法效應仍可照常穿過該華蓋。</p><p>華蓋消失後，手杖在接下來的[[/r 1d12]]小時內無法再次使用。</p><section id=\"secret-s3AAdIcdBznou7uI\" class=\"secret hide-in-embed\"><p><strong>Foundry 註記</strong></p><p>當效應結束時，移除華蓋模板，然後使用<strong>華蓋再次使用間隔</strong>決定冷卻期。先攻恢復只是佔位設定；若 Foundry 在冷卻期結束前恢復了該物品的使用次數，請將使用次數改回已消耗，直到擲出的時間過去為止。</p></section>"
     },
     "Staff of Skulls": {
       "description": "<p class=\"metadata hide-in-embed\"><em>(Requires Attunement by a Spellcaster)</em></p><p>This staff is made of polished, interlocking bones. Runes are carved along its length.</p><p><em><strong>Ominous (Uncommon)</strong></em>. A skull adorns the top of the staff.</p><p>While you hold the staff, you can cast <em>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplChillTouch]{Chill Touch}</em> from it, using your spell attack bonus. Additionally, you have Advantage on Charisma (Intimidation) checks made while holding the staff, and the staff’s eye sockets glow a disquieting green, shedding Dim Light in a 5-foot radius.</p><section id=\"secret-L20ZA5A5ysB65V8A\" class=\"secret hide-in-embed\"><p><strong>Foundry Note</strong></p><p>When this item evolves, use the appropriate <strong>Evolve to...</strong> activity.</p><p>The staff includes an off by default Active Effect for the staff's glow. You can enable it if it will not impact other lights you have enabled on your Token.</p></section>",
@@ -869,11 +869,11 @@
       "description": "<p class=\"metadata hide-in-embed\"><em>Requires Attunement by a Spellcaster</em></p><p>This withered hand or talon is attached to a leather cord that can be worn like a necklace or bracelet. You gain the following benefits while wearing the trophy.</p><p><em><strong>Dispelling Touch</strong></em>. When you hit a creature with a melee spell attack, you can activate the trophy to cast the <em>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplDispelMagi]{Dispel Magic}</em> spell as part of that attack, targeting the hit creature. Once this property has been used, it can’t be used again until the next dawn.</p><p><em><strong>Helping Hand</strong></em>. When you cast a spell using a spell slot, you can cast it without any Somatic components.</p><p><em><strong>Mage Hand</strong></em>. You can cast the <em>@UUID[Compendium.dnd-players-handbook.classes.Item.phbrgeMageHandLe]{Mage Hand}</em> cantrip from the trophy.</p>"
     },
     "Spell Component Ring": {
-      "name": "Spell Component Ring",
-      "description": "<p>This steel ring has a discreet chamber lined with a mystical inscription. As a Magic action, choose one spell you have prepared that requires a Material component; the required Material component must neither have a cost specified nor be consumed by the spell. You store that spell’s Material component in the ring’s chamber.</p><p>Whenever you cast the chosen spell, you don’t need to have a hand free to access its Material component, provided you are wearing the ring. The ring can hold the Material component for one spell at a time.</p><section id=\"secret-RTkZSNw53mA0BO2o\" class=\"secret hide-in-embed\"><p><strong>Foundry Note</strong></p><p>When you use <strong>Store Component</strong>, record the chosen spell manually. The ring can store a component for only one spell at a time.</p></section>",
+      "name": "法術構材戒指",
+      "description": "<p>這枚鋼製戒指設有一個隱祕的空腔，內襯著神祕的銘文。作為魔法動作，選擇一道你已準備的、需要材料構材的法術；其所需的材料構材必須未標明價格，且不會被該法術消耗。你將該法術的材料構材儲存在戒指的空腔內。</p><p>每當你施放你所選擇的法術時，只要你佩戴著這枚戒指，你就無需空出一隻手來拿取其材料構材。該戒指同一時間只能容納一道法術的材料構材。</p><section id=\"secret-RTkZSNw53mA0BO2o\" class=\"secret hide-in-embed\"><p><strong>Foundry 註記</strong></p><p>當你使用<strong>儲存構材</strong>時，請手動記錄所選擇的法術。該戒指同一時間只能為一道法術儲存構材。</p></section>",
       "activities": {
         "Store Component": {
-          "name": "Store Component"
+          "name": "儲存構材"
         }
       }
     },
@@ -964,13 +964,13 @@
       "description": "<p class=\"metadata hide-in-embed\"><em>Requires Attunement by a Spellcaster</em></p><p>This bejeweled necklace comes with a matching charm that can be worn by your familiar. A variety of these necklaces exist, each set with a different kind of gemstone.</p><p><em><strong>Familiar</strong></em>. While wearing this necklace, you can cast the <em>Find Familiar</em> spell from it. Once the necklace has been used to cast this spell, it can’t be used to cast it again until the next dawn.</p><p><em><strong>Beast Transformation. </strong></em>While your familiar is within 60 feet of you, you can take a Magic action to activate the necklace. Your familiar shape-shifts into a Giant Scorpion for 10 minutes.</p><p>While your familiar is transformed, its stat block is replaced by the stat block of the Beast form, but it retains its alignment, personality, creature type, Hit Points, and Hit Point Dice. Equipment the familiar is wearing or carrying doesn’t change size or shape to match the Beast form, and any equipment that the Beast form can’t wear or carry falls to the ground.</p><p>Your familiar gains a number of Temporary Hit Points equal to the Hit Points of the Beast form. These Temporary Hit Points vanish if any remain when the transformation ends. The transformation ends early on your familiar if it has no Temporary Hit Points left.</p><section id=\"secret-3Pz6DwMNChXlSXaB\" class=\"secret hide-in-embed\"><p><strong>Foundry Note</strong></p><p>The necklace's activities are not automatically disabled while it is unequipped. For Beast Transformation, control only your familiar's token and confirm it is within 60 feet before transforming it. Use <strong>Restore Transformation</strong> when 10 minutes expire or the transformation's Temporary Hit Points reach 0. Handle any familiar equipment that the Beast form can't wear or carry manually.</p></section>"
     },
     "Elocutionist's Lexicon": {
-      "description": "<p>While holding this magic dictionary, you can take a Magic action and try to recall a specific word. The book automatically opens to the page containing the exact word you’re searching for.</p>",
+      "description": "<p>持握這本魔法詞典期間，你可以採取魔法動作，並嘗試回想一個特定的單詞。詞典會自動翻開至包含你正搜尋的確切單詞的那一頁。</p>",
       "activities": {
         "Open Book": {
-          "name": "Open Book"
+          "name": "翻開書本"
         }
       },
-      "name": "Elocutionist's Lexicon"
+      "name": "演說家詞典"
     },
     "Thief's Thimble": {
       "activities": {
@@ -1045,11 +1045,11 @@
       "name": "Potion of Dragon's Breath (Blue)"
     },
     "Ensorcelled Missive": {
-      "name": "Ensorcelled Missive",
-      "description": "<p>This item functions as a sheet of Parchment. After writing on it, you can take a Magic action to fold or roll the sheet and seal it while speaking or signing a word or short phrase. If a creature unseals the sheet without using the same word or phrase, the writing on the sheet appears as if it were written in an unknown and unintelligible script.</p>",
+      "name": "附魔信箋",
+      "description": "<p>這件物品可作為一張羊皮紙使用。在其上書寫之後，你可以採取魔法動作，將紙張摺疊或捲起並封口，同時說出或以手勢表達一個單詞或短語。若某個生物未使用相同的單詞或短語便解開封口，則紙上的字跡會變得彷彿是以一種未知且無法理解的文字書寫而成。</p>",
       "activities": {
         "Use Scroll": {
-          "name": "Use Scroll"
+          "name": "使用信箋"
         }
       }
     },
