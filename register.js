@@ -236,6 +236,33 @@ export class Converters {
     return (data, translations) => Converters._effects(data, translations);
   }
 
+  /**
+   * Keys of enchantment changes whose value is display text (the item's name or description,
+   * an activity's name or flavor). Mechanical changes (bonuses, JSON patches) are never touched.
+   */
+  static TEXT_CHANGE_KEY = /^(name|system\.description\.(value|chat|unidentified)|activities\[[^\]]+\]\.(name|description\.chatFlavor|activation\.condition))$/;
+
+  /**
+   * Translate the `value` of text changes in place. The dict is keyed by the change's position in
+   * the array (as exported when keys repeat) or by its `key`; a key is consumed by the first change that uses it.
+   */
+  static _changes(changes, translations) {
+    if (!translations || typeof translations !== 'object') return changes;
+
+    const usedKeys = new Set();
+    changes.forEach((change, index) => {
+      if (!change || typeof change !== 'object' || !Converters.TEXT_CHANGE_KEY.test(change.key ?? '')) return;
+      let value = translations[index];
+      if (typeof value !== 'string' && !usedKeys.has(change.key)) {
+        value = translations[change.key];
+        usedKeys.add(change.key);
+      }
+      if (typeof value === 'string') change.value = value;
+    });
+
+    return changes;
+  }
+
   static _effects(data, translations) {
     if (!translations || !data || typeof data !== 'object') {
       return data ?? translations;
@@ -245,13 +272,13 @@ export class Converters {
       if (!effect || typeof effect !== 'object') return effect;
       const translation = translations[effect._id] || translations[effect.name];
       if (translation) {
-        return foundry.utils.mergeObject(effect, {
+        foundry.utils.mergeObject(effect, {
           name: translation.name ?? effect.name,
-          description: translation.description ?? effect.description,
-          // NOTE: translation.changes is Babele's text-template dict, NOT FVTT's
-          // ActiveEffect.changes array. Do NOT apply it here or it overwrites the
-          // mechanical effect data (stat bonuses, conditions, etc.).
+          description: translation.description ?? effect.description
         });
+        // translation.changes is Babele's text-template dict, NOT FVTT's ActiveEffect.changes
+        // array, so it must never replace the array; only the `value` of text-bearing entries.
+        if (Array.isArray(effect.changes)) Converters._changes(effect.changes, translation.changes);
       }
       return effect;
     };

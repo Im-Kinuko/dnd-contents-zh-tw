@@ -1,5 +1,5 @@
 // 自動產生，請勿手動修改：python -X utf8 dev/lang-tools/generate_translation_overrides.py
-// 本模組 lang/zh-tw.json 中被其他 zh-tw 語言檔蓋掉的鍵（共 147 個）；register.js 會在 i18nInit 時重套。
+// 本模組 lang/zh-tw.json 中被其他 zh-tw 語言檔蓋掉的鍵（共 150 個）；register.js 會在 i18nInit 時重套。
 export const TRANSLATION_OVERRIDES = {
   "DND5E.ABILITY.SECTIONS.Score": "{ability}屬性值",
   "DND5E.AbilityScoreShort": "屬性值",
@@ -24,6 +24,7 @@ export const TRANSLATION_OVERRIDES = {
   "DND5E.Denomination": "面額",
   "DND5E.Die": "骰子",
   "DND5E.FACILITY.FIELDS.trade.profit.label": "利潤係數",
+  "DND5E.Feature.Class.ArcaneShot": "奧術射擊",
   "DND5E.Feature.Class.HuntersPrey": "獵殺技藝",
   "DND5E.Feature.Class.SuperiorHuntersDefense": "卓越防守戰術",
   "DND5E.Feature.Feat.EpicBoon": "傳奇恩惠專長",
@@ -67,6 +68,7 @@ export const TRANSLATION_OVERRIDES = {
   "DND5E.SchoolIll": "幻術學派",
   "DND5E.SchoolNec": "死靈學派",
   "DND5E.SchoolTrs": "變化學派",
+  "DND5E.SenseTremorsense": "震顫感知",
   "DND5E.SheetModePlay": "遊玩",
   "DND5E.SkillMed": "醫藥",
   "DND5E.SkillsConfig": "配置技能",
@@ -138,6 +140,7 @@ export const TRANSLATION_OVERRIDES = {
   "EDITOR.DND5E.Inline.DamageExtended": "<em>命中：</em> {damage}",
   "EDITOR.DND5E.Inline.DamageLong": "{damage} 傷害",
   "EDITOR.DND5E.Inline.SpecificCheck": "{ability}（{type}）",
+  "EFFECT.DND5E.StatusBloodied": "重傷",
   "EFFECT.DND5E.StatusEthereal": "乙太",
   "EFFECT.DND5E.StatusHalfCover": "半掩蔽",
   "EFFECT.DND5E.StatusMalnutrition": "飢餓",

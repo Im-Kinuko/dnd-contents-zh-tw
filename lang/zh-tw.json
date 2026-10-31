@@ -656,7 +656,7 @@
       "Hint": "讓玩家從一組物品中做出選擇（如裝備、特性或法術），可套用於一級或多級角色成長中。",
       "Options": "選項",
       "Replacement": {
-        "None": "不可替代",
+        "None": "不替代",
         "Title": "替代"
       },
       "Title": "選擇物品",
@@ -3415,7 +3415,7 @@
     "Background": "背景特性",
     "Class": {
       "Label": "職業特性",
-      "ArcaneShot": "祕法射擊",
+      "ArcaneShot": "奧術射擊",
       "ArtificerInfusion": "奇械師注法",
       "ArtificerPlan": "奇械師方案",
       "ChannelDivinity": "引導神力",
@@ -4819,7 +4819,7 @@
   "DND5E.SensesConfigHint": "配置該角色擁有的任意特殊感官能力。",
   "DND5E.SenseDarkvision": "黑暗視覺",
   "DND5E.SenseBlindsight": "盲視",
-  "DND5E.SenseTremorsense": "顫動感知",
+  "DND5E.SenseTremorsense": "震顫感知",
   "DND5E.SenseTruesight": "真視",
   "DND5E.SenseUnits": "單位",
   "DND5E.SenseSpecial": "特殊感官",
@@ -6846,7 +6846,7 @@
   },
   "EFFECT.DND5E": {
     "StatusBleeding": "流血",
-    "StatusBloodied": "血跡斑斑",
+    "StatusBloodied": "重傷",
     "StatusBurning": "燃燒",
     "StatusBurrowing": "掘地",
     "StatusConcentrating": "專注",

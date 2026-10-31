@@ -1432,3 +1432,22 @@ dnd5e 6.0.6 組目標與範圍標籤時只傳 `{count}`、`{type}` 等變數；�
 | `DND5E.TARGET.Type.Sphere.Counted.*Sized` | `球型` → `球形` |
 | `DND5E.UNITS.DISTANCE.Foot／Mile.Counted` | 新增 `{number}呎`、`{number}哩`；`register.js` 於 init 設定 `movementUnits.ft／mi.counted`，取代 Intl 的「英尺」「英里」 |
 | 被舊譯覆蓋的 147 個條目 | 例：屬性值（Score）、非玩家角色（NPC）、先攻（Init）、長休／短休（LR／SR）、呎（ft.）、第N（Nth）、立方呎、噸、不死生物（亡靈）、傷害抗力、傳奇恩惠、X學派（X系）、乙太、半掩蔽、重傷等，一律以本模組 lang 為準 |
+
+## 2026-10-24 Arcane Shot 譯名
+
+| 項目 | 修正 |
+| :--- | :--- |
+| `DND5E.Feature.Class.ArcaneShot` | `"祕法射擊"` → `"奧術射擊"`（Arcana Unleashed 奧法射手的 Arcane Shot，使用者裁定，與子職業內文及資料夾「奧術射擊選項」一致）；dnd5e-taiwan-zh-tw 另有舊譯，已加入 `translation-overrides.js`（148 個鍵） |
+
+
+## 2026-10-29 Bloodied 狀態名稱
+
+| 項目 | 修正 |
+| :--- | :--- |
+| `EFFECT.DND5E.StatusBloodied` | `"血跡斑斑"` → `"重傷"`（使用者裁定：Bloodied＝重傷，與 terms、`HITPOINTS.Bloodied.label`＝重傷閾值、`SETTINGS.DND5E.BLOODIED.*`＝重傷狀態一致）；dnd5e-taiwan-zh-tw 另有舊譯「血跡斑斑」，已加入 `translation-overrides.js`（149 個鍵） |
+
+## 2026-10-29 Tremorsense 譯名
+
+| 項目 | 修正 |
+| :--- | :--- |
+| `DND5E.SenseTremorsense` | `"顫動感知"` → `"震顫感知"`（使用者裁定，與 PHB 現譯 7 處、Arcana Unleashed 強效之石一致）；dnd5e-taiwan-zh-tw 另有舊譯，已加入 `translation-overrides.js`（150 個鍵） |
