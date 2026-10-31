@@ -1533,26 +1533,26 @@
     "Eye and Hand of Vecna": {
       "effects": {
         "Vecna's Eye and Hand: Initiative, Immunity": {
-          "name": "Vecna's Eye and Hand: Initiative, Immunity",
-          "description": "<p><strong>Danger Sense.</strong> You have Advantage on Initiative rolls.</p><p><strong>Poison Immunity.</strong> You have Immunity to Poison damage and the Poisoned condition.</p>"
+          "name": "維克納法眼和魔掌：先攻、免疫",
+          "description": "<p><strong>【危險感知】</strong>你的先攻檢定具有優勢。</p><p><strong>【毒素免疫】</strong>你對毒素傷害和中毒狀態具有免疫。</p>"
         }
       },
-      "description": "<div><p><em>奇物, Artifact（需同調）</em></p></div><blockquote><p>Vecna was a mighty wizard who, through magic and conquest, forged a terrible empire. For all his power, however, Vecna feared death and took steps to prevent his demise by becoming a lich.</p><p>A treacherous lieutenant named Kas brought Vecna’s rule to an end in a terrible battle. Of Vecna, all that remained were one hand and one eye, grisly Artifacts that still seek to work Vecna’s will in <span class=\"no-break\">the world</span>.</p></blockquote><p>The <em>@UUID[Compendium.dnd-dungeon-masters-guide.equipment.Item.dmgEyeofVecna000]{Eye of Vecna}</em> and the <em>@UUID[Compendium.dnd-dungeon-masters-guide.equipment.Item.dmgHandofVecna00]{Hand of Vecna}</em> are separate Artifacts that might be found together or <span class=\"no-break\">separately</span>. The eye looks like a bloodshot organ torn free from the socket. The hand is a shriveled left extremity.</p><p><strong>Properties of the Eye and Hand.</strong> While attuned to both the hand and eye, you gain the following additional benefits:</p><details><summary><strong>Danger Sense.</strong></summary><p>You have Advantage on Initiative rolls.</p></details><details><summary><strong>Necrotic Reduction.</strong></summary><p>As a Magic action, you can target one creature you can see within 5 feet of yourself. The target makes a DC 18 Constitution saving throw, taking 7d6 Necrotic damage on a failed save or half as much damage on a successful one. A creature reduced to 0 Hit Points by this damage is transformed into green slime (see chapter 3) that covers the ground in its space, each 5-foot square of slime representing a separate patch. Nonmagical objects worn or carried by the target that are made of metal or organic material are destroyed by the slime.</p></details><details><summary><strong>Poison Immunity.</strong></summary><p>You have Immunity to Poison damage and the Poisoned condition.</p></details><details><summary><strong>Regeneration.</strong></summary><p>If you start your turn with at least 1 Hit Point, you regain 1d10 Hit Points.</p></details><details><summary><strong>Wish.</strong></summary><p>You can cast <em>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplWish000000]{Wish}</em>. Once used, this property can’t be used again until 30 days have passed.</p></details><details><summary><strong>Destroying the Eye and Hand.</strong></summary><p>If the <em>Eye of Vecna</em> and the <em>Hand of Vecna</em> are both attached to the same creature and that creature is slain by the <em>Sword of Kas</em> , both the eye and the hand burst into flame, turn to ash, and are destroyed. Any other attempt to destroy the eye or hand seems to work, but the Artifact reappears in one of Vecna’s many hidden vaults, where it waits to be rediscovered.</p></details>",
+      "description": "<div><p><em>奇物，神器（需同調）</em></p></div><blockquote><p>維克納是一名強大的法師。他行使魔法之力征討，建立了一個恐怖的大帝國。然而，擁有強大力量的維克納依然畏懼死亡，他採取手段，藉由成為巫妖阻攔死亡的腳步。</p><p>一名名為凱斯的叛逆副官在一場駭人的戰役中結束了維克納的統治，維克納剩下的只有一隻手掌和一隻眼睛，這些可怖的神器仍試圖在<span class=\"no-break\">世上</span>貫徹維克納的意志。</p></blockquote><p><em>@UUID[Compendium.dnd-dungeon-masters-guide.equipment.Item.dmgEyeofVecna000]{維克納法眼}</em>和<em>@UUID[Compendium.dnd-dungeon-masters-guide.equipment.Item.dmgHandofVecna00]{維克納魔掌}</em>是獨立的神器，可能一起出現也可能被<span class=\"no-break\">分開發現</span>。法眼布滿血絲，有如剛剛直接從眼眶中抽出。魔掌則是風乾萎縮的左肢。</p><p><strong>【法眼和魔掌屬性】</strong>同時與法眼和魔掌維持同調期間，你獲得下列額外好處：</p><details><summary><strong>【危險感知】</strong></summary><p>你的先攻檢定具有優勢。</p></details><details><summary><strong>【黯蝕削減】</strong></summary><p>作為魔法動作，你可以指定位於你5呎內一名你所能看見的生物為目標。目標進行一次DC 18的體質豁免檢定，豁免失敗時承受7d6黯蝕傷害，豁免成功時則承受一半的傷害。因該傷害而生命值降至0的生物將被轉化為綠軟泥（見第3章），並覆蓋其所處空間的地面。每個5呎平方的軟泥代表一個單獨的區域。目標穿戴或攜帶的金屬或有機材料所製成的非魔法物體將被軟泥摧毀。</p></details><details><summary><strong>【毒素免疫】</strong></summary><p>你對毒素傷害和中毒狀態具有免疫。</p></details><details><summary><strong>【再生】</strong></summary><p>你的回合開始時，若你至少擁有1點生命值，你恢復1d10點生命值。</p></details><details><summary><strong>【祈願術】</strong></summary><p>你可以施放<em>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplWish000000]{祈願術}</em>。此屬性一經使用，30天後你才能再次使用。</p></details><details><summary><strong>【摧毀法眼和魔掌】</strong></summary><p>若<em>維克納法眼</em>和<em>維克納魔掌</em>都嫁接在同一生物身上，並且該生物被<em>凱斯之劍</em>斬殺，則法眼和魔掌迸出火焰燒成灰燼，並且被摧毀。任何其他摧毀法眼和魔掌的嘗試似乎也是可行的，但該神器會在維克納的其中一個隱藏寶庫中重現，等著再臨人間。</p></details>",
       "activities": {
         "Necrotic Reduction": {
-          "name": "Necrotic Reduction",
-          "chatFlavor": "A creature reduced to 0 Hit Points by this damage is transformed into green slime",
-          "target": "creature you can see"
+          "name": "黯蝕削減",
+          "chatFlavor": "因該傷害而生命值降至0的生物將被轉化為綠軟泥",
+          "target": "你所能看見的生物"
         },
         "Regeneration": {
-          "name": "Regeneration",
-          "condition": "start your turn with at least 1 Hit Point"
+          "name": "再生",
+          "condition": "你的回合開始時至少擁有1點生命值"
         },
         "CP9ke0GUWNpeGxGe": {
-          "chatFlavor": "Can be used once every 30 days"
+          "chatFlavor": "每30天可使用一次"
         }
       },
-      "name": "Eye and Hand of Vecna"
+      "name": "維克納法眼和魔掌"
     },
     "Cloak of Billowing": {
       "description": "<div><p><em>奇物，普通</em></p></div><p>穿著這件斗篷期間，你可以採取附贈動作，令其戲劇性地翻騰飄揚，持續1分鐘。</p>",
@@ -1770,39 +1770,39 @@
     "Eye of Vecna": {
       "activities": {
         "v2eUeY87oXO0WsFQ": {
-          "chatFlavor": "[[/r 1d20cs1#Soul devoured by Vecna on a 1]]{5% chance} Vecna tears your soul from your body."
+          "chatFlavor": "[[/r 1d20cs1#Soul devoured by Vecna on a 1]]{5%機率}維克納將你的靈魂從身體中撕裂。"
         },
         "Dn1Yjc16uJKPEZ2k": {
-          "chatFlavor": "[[/r 1d20cs1#Soul devoured by Vecna on a 1]]{5% chance} Vecna tears your soul from your body."
+          "chatFlavor": "[[/r 1d20cs1#Soul devoured by Vecna on a 1]]{5%機率}維克納將你的靈魂從身體中撕裂。"
         },
         "jU4vvlNsXitPcfeY": {
-          "chatFlavor": "[[/r 1d20cs1#Soul devoured by Vecna on a 1]]{5% chance} Vecna tears your soul from your body."
+          "chatFlavor": "[[/r 1d20cs1#Soul devoured by Vecna on a 1]]{5%機率}維克納將你的靈魂從身體中撕裂。"
         },
         "X-ray Vision": {
-          "name": "X-ray Vision"
+          "name": "X光視覺"
         },
         "09rUg20VOJ8Mdtib": {
-          "chatFlavor": "[[/r 1d20cs1#Soul devoured by Vecna on a 1]]{5% chance} Vecna tears your soul from your body."
+          "chatFlavor": "[[/r 1d20cs1#Soul devoured by Vecna on a 1]]{5%機率}維克納將你的靈魂從身體中撕裂。"
         },
         "md0bDDhh1l5plhmt": {
-          "chatFlavor": "[[/r 1d20cs1#Soul devoured by Vecna on a 1]]{5% chance} Vecna tears your soul from your body."
+          "chatFlavor": "[[/r 1d20cs1#Soul devoured by Vecna on a 1]]{5%機率}維克納將你的靈魂從身體中撕裂。"
         }
       },
       "effects": {
         "Vecna's Eye: Alignment, Truesight": {
-          "description": "<p>While you are attuned to the eye, your alignment is Neutral Evil, and you have &amp;Reference[Truesight] out to 240 feet.</p>",
-          "name": "Vecna's Eye: Alignment, Truesight",
+          "description": "<p>與法眼維持同調期間，你的陣營為中立邪惡，且你具有240呎的&amp;Reference[Truesight]{真視}。</p>",
+          "name": "維克納法眼：陣營、真視",
           "changes": {
-            "system.details.alignment": "Neutral Evil"
+            "system.details.alignment": "中立邪惡"
           }
         },
         "X-ray Vision": {
-          "name": "X-ray Vision",
-          "description": "<p>You gain X-ray vision with a range of 30 feet for 1 minute.</p><p>To you, solid objects within that radius appear transparent and don’t prevent light from passing through themselves. The vision can penetrate 1 foot of stone, 1 inch of common metal, or up to 3 feet of wood or dirt. Thicker substances block the vision, as does a thin sheet of lead.</p>"
+          "name": "X光視覺",
+          "description": "<p>你獲得範圍30呎的X光視覺，持續1分鐘。</p><p>對你來說，該半徑內的固態物體看起來是透明的，並且不會阻礙光線穿過。該視野可以穿透1呎厚的石頭、1吋厚的常見金屬或最多3呎厚的木頭或泥土。更厚的物質或一張薄鉛片會阻擋該視野。</p>"
         }
       },
-      "name": "Eye of Vecna",
-      "description": "<div><p><em>奇物, Artifact（需同調）</em></p></div><p>The <em>Eye of Vecna</em> and the <em>Hand of Vecna</em> are separate Artifacts that might be found together or <span class=\"no-break\">separately</span>. The eye looks like a bloodshot organ torn free from the socket. See: @UUID[Compendium.dnd-dungeon-masters-guide.equipment.Item.dmgEyeAndHandOfV]{Eye and Hand of Vecna} if both Artifacts are obtained.</p><p><strong>Random Properties of the Eye.</strong> The <em>Eye of Vecna</em> has the following random properties (see “Artifacts” in this chapter):</p><ul><li>1 minor beneficial property</li><li>1 major beneficial property</li><li>1 minor detrimental property</li></ul><p><strong>Attuning to the Eye.</strong> To attune to the eye, you must press it into your empty socket. The eye grafts itself to your head and remains there until you die. If the eye is ever removed, you die.</p><p><strong>Properties of the Eye.</strong> While you are attuned to the eye, your alignment is Neutral Evil, and you gain the following benefits:</p><details><summary><strong>Truesight.</strong></summary><p>You have &amp;Reference[Truesight] out to 240 feet.</p></details><details><summary><strong>Spellcasting.</strong></summary><p>The eye has 8 charges and regains 1d4 + 4 expended charges daily at dawn. You can cast a spell on the Eye of Vecna Spells table from the eye (save DC 18). The table indicates how many charges you must expend to cast the spell. Each time you cast a spell from the eye, there is a 5 percent chance that Vecna tears your soul from your body, devours it, and then takes control of the body like a puppet. If that happens, you become an NPC under the DM’s control.</p><table><caption>Eye of Vecna Spells</caption><thead><tr><td>Spell</td><td>Charge Cost</td></tr></thead><tbody><tr><td><em>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplClairvoyan]{Clairvoyance}</em></td><td>2</td></tr><tr><td><em>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplCrownofMad]{Crown of Madness}</em></td><td>1</td></tr><tr><td><em>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplDisintegra]{Disintegrate}</em></td><td>4</td></tr><tr><td><em>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplDominateMo]{Dominate Monster}</em></td><td>5</td></tr><tr><td><em>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplEyebite000]{Eyebite}</em></td><td>4</td></tr></tbody></table></details><details><summary><strong>X-ray Vision.</strong></summary><p>You can take a Magic action to gain X-ray vision with a range of 30 feet for 1 minute. To you, solid objects within that radius appear transparent and don’t prevent light from passing through themselves. The vision can penetrate 1 foot of stone, 1 inch of common metal, or up to 3 feet of wood or dirt. Thicker substances block the vision, as does a thin sheet of lead.</p></details>"
+      "name": "維克納法眼",
+      "description": "<div><p><em>奇物，神器（需同調）</em></p></div><p><em>維克納法眼</em>和<em>維克納魔掌</em>是獨立的神器，可能一起出現也可能被<span class=\"no-break\">分開發現</span>。法眼布滿血絲，有如剛剛直接從眼眶中抽出。若取得兩件神器，請參見：@UUID[Compendium.dnd-dungeon-masters-guide.equipment.Item.dmgEyeAndHandOfV]{維克納法眼和魔掌}。</p><p><strong>【法眼的隨機屬性】</strong><em>維克納法眼</em>具有下列隨機屬性（見本章「神器」）：</p><ul><li>1項次要增益屬性</li><li>1項主要增益屬性</li><li>1項次要負面屬性</li></ul><p><strong>【同調法眼】</strong>要與法眼進行同調，你必須將其壓入挖空的眼眶內，法眼會自行嫁接入你的頭部並留在其位置直到你死亡。此後法眼一旦被取下，你將立即死亡。</p><p><strong>【法眼屬性】</strong>與法眼維持同調期間，你的陣營為中立邪惡，且你獲得下列好處：</p><details><summary><strong>【真視】</strong></summary><p>你具有240呎的&amp;Reference[Truesight]{真視}。</p></details><details><summary><strong>【施法】</strong></summary><p>法眼具有8點充能，並在每日黎明時重獲1d4 + 4點已消耗的充能。你能以法眼施放維克納法眼法術表中的法術（豁免DC 18）。表中指出了你施放對應的法術需要消耗多少點充能。每次你以法眼施放法術時，維克納有5%的機率撕裂你的靈魂並將之吞噬，然後如控制傀儡一般控制你的軀體。這種情況下，你成為DM控制的NPC。</p><table><caption>維克納法眼法術</caption><thead><tr><td>法術</td><td>充能消耗</td></tr></thead><tbody><tr><td><em>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplClairvoyan]{銳眼術}</em></td><td>2</td></tr><tr><td><em>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplCrownofMad]{瘋狂冠冕}</em></td><td>1</td></tr><tr><td><em>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplDisintegra]{解離術}</em></td><td>4</td></tr><tr><td><em>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplDominateMo]{支配怪物}</em></td><td>5</td></tr><tr><td><em>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplEyebite000]{攝心目光}</em></td><td>4</td></tr></tbody></table></details><details><summary><strong>【X光視覺】</strong></summary><p>你可以採取魔法動作，獲得範圍30呎的X光視覺，持續1分鐘。對你來說，該半徑內的固態物體看起來是透明的，並且不會阻礙光線穿過。該視野可以穿透1呎厚的石頭、1吋厚的常見金屬或最多3呎厚的木頭或泥土。更厚的物質或一張薄鉛片會阻擋該視野。</p></details>"
     },
     "Ioun Stone of Strength": {
       "effects": {
@@ -3646,30 +3646,30 @@
     "Hand of Vecna": {
       "effects": {
         "Vecna's Hand: Alignment, Strength": {
-          "name": "Vecna's Hand: Alignment, Strength",
-          "description": "<p>While you are attuned to the hand, your alignment is Neutral Evil, and your Strength becomes 20 unless it is already 20 or higher.</p>",
+          "name": "維克納魔掌：陣營、力量",
+          "description": "<p>與魔掌維持同調期間，你的陣營為中立邪惡，且你的力量變為20，除非其已是20或更高。</p>",
           "changes": {
-            "system.details.alignment": "Neutral Evil"
+            "system.details.alignment": "中立邪惡"
           }
         },
         "Icy Touch: Bonus Damage": {
-          "name": "Icy Touch: Bonus Damage",
-          "description": "<p>Any melee spell attack you make with the hand and any melee attack made with a weapon held by it deals an extra 2d8 Cold damage on a hit.</p>"
+          "name": "極寒之撫：額外傷害",
+          "description": "<p>你以魔掌進行的任何近戰法術攻擊，以及以魔掌持握的武器進行的任何近戰攻擊，命中時額外造成2d8寒冷傷害。</p>"
         }
       },
-      "description": "<p><em>奇物, Artifact（需同調）</em></p><p>The <em>Eye of Vecna</em> and the <em>Hand of Vecna</em> are separate Artifacts that might be found together or <span class=\"no-break\">separately</span>. The hand is a shriveled left extremity. See: @UUID[Compendium.dnd-dungeon-masters-guide.equipment.Item.dmgEyeAndHandOfV]{Eye and Hand of Vecna} if both Artifacts are obtained.</p><p><strong>Random Properties of the Hand.</strong> The <em>Hand of Vecna</em> has the following @UUID[Compendium.dnd-dungeon-masters-guide.content.JournalEntry.dmgMagicItems000.JournalEntryPage.iA3mHmvlXvWKlyBo#artifact-properties]{random properties}:</p><ul><li>1 @UUID[Compendium.dnd-dungeon-masters-guide.tables.RollTable.dmgMinorBenefici]{minor beneficial property}</li><li>1 @UUID[Compendium.dnd-dungeon-masters-guide.tables.RollTable.dmgMajorBenefici]{major beneficial property}</li><li>1 @UUID[Compendium.dnd-dungeon-masters-guide.tables.RollTable.dmgMinorDetrimen]{minor detrimental property}</li></ul><p><strong>Attuning to the Hand.</strong> To attune to the hand, you must press it against the stump where your left hand was. The hand grafts itself to your arm and becomes a functioning appendage. If the hand is ever removed, you die.</p><p><strong>Properties of the Hand.</strong> When you are attuned to the hand, your alignment is Neutral Evil, and you gain the following benefits:</p><details><summary><strong>Great Strength.</strong></summary><p>Your Strength becomes 20 unless it is already 20 or higher.</p></details><details><summary><strong>Icy Touch.</strong></summary><p>Any melee spell attack you make with the hand and any melee attack made with a weapon held by it deals an extra 2d8 Cold damage on a hit.</p></details><details><summary><strong>Spellcasting.</strong></summary><p>The hand has 8 charges and regains 1d4 + 4 expended charges daily at dawn. You can cast a spell on the Hand of Vecna Spells table from the hand (save DC 18). The table indicates how many charges you must expend to cast the spell. Each time you cast a spell from it, the hand casts <em>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplSuggestion]{Suggestion}</em> on you ([[/save ability=wis dc=18]]{save DC 18}; no Concentration required), demanding that you commit an evil act. The hand might have a specific act in mind or leave it up to you.</p><table><caption>Hand of Vecna Spells</caption><thead><tr><td>Spell</td><td>Charge Cost</td></tr></thead><tbody><tr><td><em>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplFingerofDe]{Finger of Death}</em></td><td>5</td></tr><tr><td><em>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplSleep00000]{Sleep}</em></td><td>1</td></tr><tr><td><em>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplSlow000000]{Slow}</em></td><td>2</td></tr><tr><td><em>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplTeleport00]{Teleport}</em></td><td>3</td></tr></tbody></table></details>",
+      "description": "<p><em>奇物，神器（需同調）</em></p><p><em>維克納法眼</em>和<em>維克納魔掌</em>是獨立的神器，可能一起出現也可能被<span class=\"no-break\">分開發現</span>。魔掌是風乾萎縮的左肢。若取得兩件神器，請參見：@UUID[Compendium.dnd-dungeon-masters-guide.equipment.Item.dmgEyeAndHandOfV]{維克納法眼和魔掌}。</p><p><strong>【魔掌的隨機屬性】</strong><em>維克納魔掌</em>具有下列@UUID[Compendium.dnd-dungeon-masters-guide.content.JournalEntry.dmgMagicItems000.JournalEntryPage.iA3mHmvlXvWKlyBo#artifact-properties]{隨機屬性}：</p><ul><li>1項@UUID[Compendium.dnd-dungeon-masters-guide.tables.RollTable.dmgMinorBenefici]{次要增益屬性}</li><li>1項@UUID[Compendium.dnd-dungeon-masters-guide.tables.RollTable.dmgMajorBenefici]{主要增益屬性}</li><li>1項@UUID[Compendium.dnd-dungeon-masters-guide.tables.RollTable.dmgMinorDetrimen]{次要負面屬性}</li></ul><p><strong>【同調魔掌】</strong>要與魔掌進行同調，你必須將魔掌壓在左手斷肢的截面。魔掌會自行嫁接入你的手臂並成為一副正常運作的前肢。此後魔掌一旦被取下，你將立即死亡。</p><p><strong>【魔掌屬性】</strong>與魔掌維持同調期間，你的陣營為中立邪惡，且你獲得下列好處：</p><details><summary><strong>【超級力量】</strong></summary><p>你的力量變為20，除非其已是20或更高。</p></details><details><summary><strong>【極寒之撫】</strong></summary><p>你以魔掌進行的任何近戰法術攻擊，以及以魔掌持握的武器進行的任何近戰攻擊，命中時額外造成2d8寒冷傷害。</p></details><details><summary><strong>【施法】</strong></summary><p>魔掌具有8點充能，並在每日黎明時重獲1d4 + 4點已消耗的充能。你能以魔掌施放維克納魔掌法術表中的法術（豁免DC 18）。表中指出你施放對應的法術需要消耗多少點充能。每次你以魔掌施放法術時，魔掌會對你施放<em>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplSuggestion]{暗示術}</em>（[[/save ability=wis dc=18]]{豁免DC 18}，無需專注）要求你犯下惡行。魔掌可能對惡行有特定的要求，或是由你決定具體的行為。</p><table><caption>維克納魔掌法術</caption><thead><tr><td>法術</td><td>充能消耗</td></tr></thead><tbody><tr><td><em>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplFingerofDe]{死亡一指}</em></td><td>5</td></tr><tr><td><em>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplSleep00000]{睡眠術}</em></td><td>1</td></tr><tr><td><em>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplSlow000000]{緩速術}</em></td><td>2</td></tr><tr><td><em>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplTeleport00]{傳送術}</em></td><td>3</td></tr></tbody></table></details>",
       "activities": {
         "4n0NZ8tcCwXzY90M": {
-          "chatFlavor": "The hand casts @UUID[Compendium.dnd-players-handbook.spells.Item.phbsplSuggestion]{Suggestion} on you: [[/save ability=wis dc=18]]{save DC 18}"
+          "chatFlavor": "魔掌對你施放@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplSuggestion]{暗示術}：[[/save ability=wis dc=18]]{豁免DC 18}"
         },
         "GtyAr5Y5Jr1sY25s": {
-          "chatFlavor": "The hand casts @UUID[Compendium.dnd-players-handbook.spells.Item.phbsplSuggestion]{Suggestion} on you: [[/save ability=wis dc=18]]{save DC 18}"
+          "chatFlavor": "魔掌對你施放@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplSuggestion]{暗示術}：[[/save ability=wis dc=18]]{豁免DC 18}"
         },
         "pBWatuoq0kWxFm99": {
-          "chatFlavor": "The hand casts @UUID[Compendium.dnd-players-handbook.spells.Item.phbsplSuggestion]{Suggestion} on you: [[/save ability=wis dc=18]]{save DC 18}"
+          "chatFlavor": "魔掌對你施放@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplSuggestion]{暗示術}：[[/save ability=wis dc=18]]{豁免DC 18}"
         }
       },
-      "name": "Hand of Vecna"
+      "name": "維克納魔掌"
     },
     "Blackrazor": {
       "activities": {
@@ -4626,7 +4626,7 @@
     },
     "Blessing of Wound Closure": {
       "name": "Blessing of Wound Closure",
-      "description": "<p>This Blessing grants you the benefits of a @UUID[Compendium.dnd-dungeon-masters-guide.equipment.Item.dmgPeriaptOfWoun]{Periapt of Wound Closure}.</p>"
+      "description": "<p>此祝褔將給予你@UUID[Compendium.dnd-dungeon-masters-guide.equipment.Item.dmgPeriaptOfWoun]{癒合護身符}的好處。</p>"
     },
     "Staff of Striking": {
       "name": "強襲法杖",
@@ -6833,7 +6833,7 @@
     },
     "Periapt of Wound Closure": {
       "description": "<p><em>奇物，非普通（需同調）</em></p><p>佩戴這枚吊墜期間，你獲得下列好處。</p><p><em><strong>【維持生命】</strong></em>每當你進行死亡豁免時，你可以將9或更低的擲骰結果改為10，使失敗的豁免變為成功。</p><p><em><strong>【加速自癒】</strong></em>每當你擲生命骰來恢復生命值時，該生命骰所恢復的生命值加倍。</p>",
-      "name": "辟毒護身符"
+      "name": "癒合護身符"
     },
     "Potion of Mind Reading": {
       "description": "<p><em>藥水，珍稀</em></p><p>當你飲用這瓶藥水時，你獲得@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplDetectThou]{偵測思想}法術的效應（豁免DC 13），持續10分鐘（無需專注）。</p><p>這瓶藥水濃稠的紫色液體中漂浮著一團橢圓形的粉色雲霧。</p>",
