@@ -63,19 +63,19 @@
     "Lolth's Sting": {
       "activities": {
         "Use Poison": {
-          "name": "Use Poison"
+          "name": "使用毒藥"
         }
       },
       "effects": {
         "Poisoned": {
-          "name": "Poisoned"
+          "name": "中毒"
         },
         "Unconscious": {
-          "name": "Unconscious"
+          "name": "昏迷"
         }
       },
-      "name": "Lolth's Sting",
-      "description": "<p><em>Injury Poison</em></p><p>A creature subjected to Lolth's Sting must succeed on a DC 13 Constitution saving throw or have the &amp;reference[Poisoned apply=false] condition for 1 hour. If the creature fails the save by 5 or more, the creature also has the &amp;Reference[Unconscious apply=false] condition while Poisoned in this way. The creature wakes up if it takes damage or if another creature takes an action to shake it awake.</p>"
+      "name": "羅絲之吻",
+      "description": "<p><em>損傷型毒藥</em></p><p>遭受這種毒藥影響的生物必須成功通過一次DC 13的體質豁免檢定，否則陷入&amp;reference[Poisoned apply=false]{中毒}狀態1小時。若該生物豁免失敗，且豁免結果比DC低5或更多，則該生物還會在以此方式中毒期間陷入&amp;Reference[Unconscious apply=false]{昏迷}狀態。該生物會在承受傷害，或是其他生物採取一個動作將其搖醒時甦醒。</p>"
     },
     "Weapon, +1, +2, or +3": {
       "effects": {
@@ -275,13 +275,13 @@
       }
     },
     "Purple Worm Poison": {
-      "name": "Purple Worm Poison",
+      "name": "紫蟲毒液",
       "activities": {
         "Use Poison": {
-          "name": "Use Poison"
+          "name": "使用毒藥"
         }
       },
-      "description": "<p><em>Injury Poison</em></p><p>A creature subjected to Purple Worm Poison makes a DC 21 Constitution saving throw, taking 35 (10d6) Poison damage on a failed save or half as much damage on a successful one.</p>"
+      "description": "<p><em>損傷型毒藥</em></p><p>受該毒藥影響的生物需要進行一次DC 21的體質豁免檢定，豁免失敗時承受35（10d6）毒素傷害，豁免成功時傷害減半。</p>"
     },
     "Whelm": {
       "activities": {
@@ -1183,11 +1183,11 @@
       "name": "Art Object (25 GP)"
     },
     "Midnight Tears": {
-      "name": "Midnight Tears",
-      "description": "<p><em>Ingested Poison</em></p><p>A creature that ingests Midnight Tears suffers no effect until the stroke of midnight. Any effect that ends the &amp;Reference[Poisoned apply=false] condition neutralizes this poison. If the poison hasn't been neutralized before midnight, the creature makes a DC 17 Constitution saving throw, taking 31 (9d6) Poison damage on a failed save or half as much damage on a successful one.</p>",
+      "name": "午夜之淚",
+      "description": "<p><em>服用型毒藥</em></p><p>服用這種毒藥的生物不會立即出現異樣，其症狀會一直潛伏到午夜鐘聲敲響時。任何能夠解除&amp;Reference[Poisoned apply=false]{中毒}狀態的效應都可以在此之前中和午夜之淚，然而若毒素在午夜之前尚未中和，該生物就要進行一次DC 17的體質豁免檢定，豁免失敗時承受31（9d6）毒素傷害，豁免成功時傷害減半。</p>",
       "activities": {
         "Use Poison": {
-          "name": "Use Poison"
+          "name": "使用毒藥"
         }
       }
     },
@@ -1910,16 +1910,16 @@
     "Truth Serum": {
       "activities": {
         "Use Poison": {
-          "name": "Use Poison"
+          "name": "使用毒藥"
         }
       },
-      "description": "<p><em>Ingested Poison</em></p><p>A creature subjected to Truth Serum must succeed on a DC 11 Constitution saving throw or have the &amp;Reference[Poisoned] condition for 1 hour. The Poisoned creature can't knowingly communicate a lie.</p>",
+      "description": "<p><em>服用型毒藥</em></p><p>服用該毒藥的生物必須成功通過一次DC 11的體質豁免檢定，否則將陷入&amp;Reference[Poisoned]{中毒}狀態1小時。以此方式中毒的生物不能故意說謊。</p>",
       "effects": {
         "Poisoned": {
-          "name": "Poisoned"
+          "name": "中毒"
         }
       },
-      "name": "吐真血清(服用)"
+      "name": "吐真血清"
     },
     "Silvered Weapon": {
       "effects": {
@@ -2496,14 +2496,14 @@
     "Burnt Othur Fumes": {
       "activities": {
         "Use Poison": {
-          "name": "Use Poison"
+          "name": "使用毒藥"
         },
         "Successive Failed Save Damage": {
-          "name": "Successive Failed Save Damage"
+          "name": "連續豁免失敗傷害"
         }
       },
-      "description": "<p><em>Inhaled Poison</em></p><p>A creature subjected to Burnt Othur Fumes must succeed on a DC 13 Constitution saving throw or take 10 (3d6) Poison damage, and it must repeat the save at the start of each of its turns. On each successive failed save, the creature takes 3 (1d6) Poison damage. After three successful saves, the poison ends.</p>",
-      "name": "Burnt Othur Fumes"
+      "description": "<p><em>吸入型毒藥</em></p><p>受害於該毒藥的生物必須成功通過一次DC 13的體質豁免檢定，否則將承受10（3d6）毒素傷害，並在其每個回合開始時重複該豁免。此後每次豁免失敗時，該生物都將承受3（1d6）毒素傷害。累計三次豁免成功後，該毒藥的效應終止。</p>",
+      "name": "焦引薰煙"
     },
     "Ammunition of Slaying": {
       "effects": {
@@ -2675,16 +2675,16 @@
       "name": "惡魔護甲"
     },
     "Torpor": {
-      "description": "<p><em>Ingested Poison</em></p><p>A creature subjected to Torpor poison must succeed on a DC 15 Constitution saving throw or have the &amp;Reference[Poisoned] condition for [[/r 4d6]] hours. The creature's Speed is halved while the creature is Poisoned in this way.</p>",
-      "name": "Torpor",
+      "description": "<p><em>服用型毒藥</em></p><p>服用這種毒藥的生物必須成功通過一次DC 15的體質豁免檢定，否則將陷入&amp;Reference[Poisoned]{中毒}狀態[[/r 4d6]]小時。以此方式中毒期間，該生物的速度減半。</p>",
+      "name": "蒙汗藥",
       "activities": {
         "Use Poison": {
-          "name": "Use Poison"
+          "name": "使用毒藥"
         }
       },
       "effects": {
         "Poisoned": {
-          "name": "Poisoned"
+          "name": "中毒"
         }
       }
     },
@@ -3916,11 +3916,11 @@
       "name": "Flames"
     },
     "Serpent Venom": {
-      "description": "<p><em>Injury Poison</em></p><p>A creature subjected to Serpent Venom must succeed on a DC 11 Constitution saving throw, taking 10 (3d6) Poison damage on a failed save or half as much damage on a successful one.</p>",
-      "name": "Serpent Venom",
+      "description": "<p><em>損傷型毒藥</em></p><p>受該毒藥影響的生物必須成功通過一次DC 11的體質豁免檢定，否則將承受10（3d6）毒素傷害，豁免成功時傷害減半。</p>",
+      "name": "蛇毒",
       "activities": {
         "Use Poison": {
-          "name": "Use Poison"
+          "name": "使用毒藥"
         }
       }
     },
@@ -4291,16 +4291,16 @@
       }
     },
     "Oil of Taggit": {
-      "description": "<p><em>Contact Poison</em></p><p>A creature subjected to Oil of Taggit must succeed on a DC 13 Constitution saving throw or have the &amp;Reference[Poisoned apply=false] condition for 24 hours. The creature also has the &amp;Reference[Unconscious apply=false] condition while Poisoned in this way. It wakes up if it takes damage.</p>",
+      "description": "<p><em>接觸型毒藥</em></p><p>接觸到這種毒藥的生物必須成功通過一次DC 13的體質豁免檢定，否則將陷入&amp;Reference[Poisoned apply=false]{中毒}狀態24小時。以此方式中毒期間，該生物還會陷入&amp;Reference[Unconscious apply=false]{昏迷}狀態。該生物會在承受傷害時甦醒。</p>",
       "effects": {
         "Poisoned and Unconscious": {
-          "name": "Poisoned and Unconscious"
+          "name": "中毒並昏迷"
         }
       },
-      "name": "Oil of Taggit",
+      "name": "腐精油",
       "activities": {
         "Use Poison": {
-          "name": "Use Poison"
+          "name": "使用毒藥"
         }
       }
     },
@@ -4784,17 +4784,17 @@
     "Pale Tincture": {
       "activities": {
         "Use Poison": {
-          "name": "Use Poison"
+          "name": "使用毒藥"
         }
       },
       "effects": {
         "Poisoned and Reduce Max": {
-          "name": "Poisoned and Reduce Max",
-          "description": "<p>The Poisoned creature repeats the save every 24 hours, taking 3 (1d6) Poison damage on a failed save. The damage the poison deals can't be healed by any means while the creature remains Poisoned. After seven successful saves against the poison, the creature is no longer Poisoned.</p>"
+          "name": "中毒並降低生命值上限",
+          "description": "<p>以此方式中毒的生物每過24小時都需要重複該豁免，豁免失敗時再承受3（1d6）毒素傷害。此毒藥造成的傷害在此中毒效應終止前無法以任何方式恢復。該生物累計豁免成功七次後即不再中毒。</p>"
         }
       },
-      "description": "<p><em>Ingested Poison</em></p><p>A creature subjected to Pale Tincture must succeed on a DC 16 Constitution saving throw or take 3 (1d6) Poison damage and have the &amp;Reference[Poisoned apply=false] condition. The Poisoned creature repeats the save every 24 hours, taking 3 (1d6) Poison damage on a failed save. The damage the poison deals can't be healed by any means while the creature remains Poisoned. After seven successful saves against the poison, the creature is no longer Poisoned.</p><section class=\"secret\" id=\"secret-tSBe5DSXqLu6xn8u\"><p><strong>Foundry 註記</strong></p><p>The <strong>Use Poison</strong> activity includes the save and the <strong>Poisoned and Reduce Max</strong> Active Effect applies the Poisoned condition and can be used for preventing healing as well. Edit the Active Effect on the player, change to the \"Effects\" tab and adjust the \"Effect Value\" to be \"-X\" where X is the total damage they've taken from the poison. This will temporarily reduce their max HP by that value.</p></section>",
-      "name": "Pale Tincture"
+      "description": "<p><em>服用型毒藥</em></p><p>服用這種毒藥的生物必須成功通過一次DC 16的體質豁免檢定，否則將承受3（1d6）毒素傷害並陷入&amp;Reference[Poisoned apply=false]{中毒}狀態。以此方式中毒的生物每過24小時都需要重複該豁免，豁免失敗時再承受3（1d6）毒素傷害。此毒藥造成的傷害在此中毒效應終止前無法以任何方式恢復。該生物累計豁免成功七次後即不再中毒。</p><section class=\"secret\" id=\"secret-tSBe5DSXqLu6xn8u\"><p><strong>Foundry 註記</strong></p><p><strong>使用毒藥</strong>行動包含豁免檢定，而<strong>中毒並降低生命值上限</strong> Active Effect 會施加中毒狀態，也可用來阻止治療。請編輯玩家身上的 Active Effect，切換到「效果」分頁，並將「效果值」調整為「-X」，其中X為該生物因此毒藥已承受的傷害總量。這會暫時將其生命值上限降低該數值。</p></section>",
+      "name": "蒼白酊劑"
     },
     "Canaith Mandolin Instrument of the Bards": {
       "activities": {
@@ -4892,16 +4892,16 @@
     "Carrion Crawler Mucus": {
       "activities": {
         "Use Poison": {
-          "name": "Use Poison"
+          "name": "使用毒藥"
         }
       },
-      "description": "<p><em>Contact Poison</em></p><p>A creature subjected to Carrion Crawler Mucus must succeed on a DC 13 Constitution saving throw or have the &amp;Reference[Poisoned apply=false] condition for 1 minute. The creature also has the &amp;Reference[Paralyzed apply=false] condition while Poisoned in this way. The creature repeats the save at the end of each of its turns, ending the effect on itself on a success.</p>",
+      "description": "<p><em>接觸型毒藥</em></p><p>接觸到這種毒藥的生物必須成功通過一次DC 13的體質豁免檢定，否則將陷入&amp;Reference[Poisoned apply=false]{中毒}狀態1分鐘。以此方式中毒期間，該生物還會陷入&amp;Reference[Paralyzed apply=false]{麻痺}狀態。該生物在其每個回合結束時重複該豁免，豁免成功時，結束其身上的該效應。</p>",
       "effects": {
         "Poisoned and Paralyzed": {
-          "name": "Poisoned and Paralyzed"
+          "name": "中毒並麻痺"
         }
       },
-      "name": "Carrion Crawler Mucus"
+      "name": "食腐蟲黏液"
     },
     "Art Object (2,000 GP)": {
       "description": "<p>Idols cast of solid gold, necklaces studded with precious stones, paintings of ancient kings, bejeweled dishes—art objects include all these and more.</p>",
@@ -5871,16 +5871,16 @@
     "Assassin's Blood": {
       "effects": {
         "Poisoned": {
-          "name": "Poisoned"
+          "name": "中毒"
         }
       },
       "activities": {
         "Use Poison": {
-          "name": "Use Poison"
+          "name": "使用毒藥"
         }
       },
-      "description": "<p><em>Ingested Poison</em></p><p>A creature subjected to Assassin's Blood makes a DC 10 Constitution saving throw. On a failed save, the creature takes 6 (1d12) Poison damage and has the &amp;Reference[Poisoned apply=false] condition for 24 hours. On a successful save, the creature takes half as much damage only.</p>",
-      "name": "Assassin's Blood"
+      "description": "<p><em>服用型毒藥</em></p><p>服用這種毒藥的生物需要進行一次DC 10的體質豁免檢定。豁免失敗時，承受6（1d12）毒素傷害並陷入&amp;Reference[Poisoned apply=false]{中毒}狀態24小時。豁免成功時，只承受一半傷害。</p>",
+      "name": "刺客之血"
     },
     "Skull": {
       "activities": {
@@ -7107,13 +7107,13 @@
       }
     },
     "Wyvern Poison": {
-      "name": "Wyvern Poison",
+      "name": "飛龍毒液",
       "activities": {
         "Use Poison": {
-          "name": "Use Poison"
+          "name": "使用毒藥"
         }
       },
-      "description": "<p><em>Injury Poison</em></p><p>A creature subjected to Wyvern Poison makes a DC 14 Constitution saving throw, taking 24 (7d6) Poison damage on a failed save or half as much damage on a successful one.</p>"
+      "description": "<p><em>損傷型毒藥</em></p><p>受這種毒藥影響的生物需要進行一次DC 14的體質豁免檢定，豁免失敗時承受24（7d6）毒素傷害，豁免成功時傷害減半。</p>"
     },
     "Pole of Angling": {
       "name": "垂釣長桿",
@@ -7147,16 +7147,16 @@
     "Malice": {
       "activities": {
         "Use Poison": {
-          "name": "Use Poison"
+          "name": "使用毒藥"
         }
       },
-      "description": "<p><em>Inhaled Poison</em></p><p>A creature subjected to Malice must succeed on a DC 15 Constitution saving throw or have the &amp;Reference[Poisoned apply=false] condition for 1 hour. The creature also has the &amp;Reference[Blinded apply=false] condition while Poisoned in this way.</p>",
+      "description": "<p><em>吸入型毒藥</em></p><p>吸入這種毒藥的生物必須成功通過一次DC 15的體質豁免檢定，否則將陷入&amp;Reference[Poisoned apply=false]{中毒}狀態1小時，以此方式中毒期間，該生物還會陷入&amp;Reference[Blinded apply=false]{目盲}狀態。</p>",
       "effects": {
         "Poisoned and Blinded": {
-          "name": "Poisoned and Blinded"
+          "name": "中毒並目盲"
         }
       },
-      "name": "Malice"
+      "name": "怨恨"
     },
     "Ring of Telekinesis": {
       "name": "心靈遙控戒指",
@@ -7323,16 +7323,16 @@
     "Essence of Ether": {
       "effects": {
         "Poisoned and Unconscious": {
-          "name": "Poisoned and Unconscious"
+          "name": "中毒並昏迷"
         }
       },
       "activities": {
         "Use Poison": {
-          "name": "Use Poison"
+          "name": "使用毒藥"
         }
       },
-      "description": "<p><em>Inhaled Poison</em></p><p>A creature subjected to Essence of Ether must succeed on a DC 15 Constitution saving throw or have the &amp;Reference[Poisoned apply=false] condition for 8 hours. The creature also has the &amp;Reference[Unconscious apply=false] condition while Poisoned in this way. The creature wakes up if it takes damage or if another creature takes an action to shake it awake.</p>",
-      "name": "Essence of Ether"
+      "description": "<p><em>吸入型毒藥</em></p><p>吸入這種毒藥的生物必須成功通過一次DC 15的體質豁免檢定，否則將陷入&amp;Reference[Poisoned apply=false]{中毒}狀態8小時。以此方式中毒期間，該生物還會陷入&amp;Reference[Unconscious apply=false]{昏迷}狀態。該生物會在承受傷害，或是其他生物採取一個動作將其搖醒時甦醒。</p>",
+      "name": "乙太香精"
     },
     "Shield of Missile Attraction": {
       "description": "<p><em>護甲（盾牌），珍稀（需同調）</em></p><p>持握這面盾牌期間，你對以遠程武器進行的攻擊所造成的傷害具有抗力。</p><p><em><strong>【詛咒】</strong></em>這面盾牌被詛咒了。與其同調會使你受到詛咒，直到你成為@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplRemoveCurs]{移除詛咒}法術或類似魔法的目標。卸下該盾牌不會終止你身上的詛咒。每當遠程武器所進行的攻擊，以位於你10呎內的一名生物為目標時，詛咒會使你代替該生物成為目標。</p>",
