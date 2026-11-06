@@ -2173,9 +2173,9 @@
       "Poison": {
         "Label": "毒藥",
         "Contact": "接觸",
-        "Ingested": "攝入",
+        "Ingested": "服用",
         "Inhaled": "吸入",
-        "Injury": "傷口"
+        "Injury": "損傷"
       },
       "Potion": {
         "Label": "藥水"

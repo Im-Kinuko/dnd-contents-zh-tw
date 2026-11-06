@@ -1451,3 +1451,10 @@ dnd5e 6.0.6 組目標與範圍標籤時只傳 `{count}`、`{type}` 等變數；�
 | 項目 | 修正 |
 | :--- | :--- |
 | `DND5E.SenseTremorsense` | `"顫動感知"` → `"震顫感知"`（使用者裁定，與 PHB 現譯 7 處、Arcana Unleashed 強效之石一致）；dnd5e-taiwan-zh-tw 另有舊譯，已加入 `translation-overrides.js`（150 個鍵） |
+
+## 2026-11-06 毒藥類型名稱
+
+| 項目 | 修正 |
+| :--- | :--- |
+| `DND5E.CONSUMABLE.Type.Poison.Ingested` | `"攝入"` → `"服用"`（使用者裁定，與 DMG 範例毒藥類型行「服用型毒藥」一致） |
+| `DND5E.CONSUMABLE.Type.Poison.Injury` | `"傷口"` → `"損傷"`（同上，「損傷型毒藥」）；dnd5e-taiwan-zh-tw 另有舊譯，已加入 `translation-overrides.js`（153 個鍵，含補齊前次遺漏的 `DND5E.ADVANCEMENT.ItemChoice.Replacement.None`） |

@@ -1,7 +1,8 @@
 // 自動產生，請勿手動修改：python -X utf8 dev/lang-tools/generate_translation_overrides.py
-// 本模組 lang/zh-tw.json 中被其他 zh-tw 語言檔蓋掉的鍵（共 150 個）；register.js 會在 i18nInit 時重套。
+// 本模組 lang/zh-tw.json 中被其他 zh-tw 語言檔蓋掉的鍵（共 153 個）；register.js 會在 i18nInit 時重套。
 export const TRANSLATION_OVERRIDES = {
   "DND5E.ABILITY.SECTIONS.Score": "{ability}屬性值",
+  "DND5E.ADVANCEMENT.ItemChoice.Replacement.None": "不替代",
   "DND5E.AbilityScoreShort": "屬性值",
   "DND5E.AdditionalControls": "額外控制項",
   "DND5E.AdditionalSettings": "額外設定",
@@ -9,6 +10,8 @@ export const TRANSLATION_OVERRIDES = {
   "DND5E.AttrConcentration.Limit": "上限",
   "DND5E.Bastion.Summary.Gold": "{value}({claimed})",
   "DND5E.BonusActionAbbr": "附贈",
+  "DND5E.CONSUMABLE.Type.Poison.Ingested": "服用",
+  "DND5E.CONSUMABLE.Type.Poison.Injury": "損傷",
   "DND5E.CompendiumBrowser.Selection.Summary.Max": "<span class=\"value\">{value}</span>（上限{max}）",
   "DND5E.CompendiumBrowser.Selection.Summary.Min": "<span class=\"value\">{value}</span>（至少{min}）",
   "DND5E.CompendiumBrowser.Selection.Summary.Single": "<span class=\"value\">{value}</span>（共{max}）",
