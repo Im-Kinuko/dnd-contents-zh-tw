@@ -441,7 +441,7 @@
           "condition": "When the GM evolves the item to Very Rare"
         }
       },
-      "name": "Idol of Good Fortunes",
+      "name": "吉運神像",
       "description": "<p>This idol resembles an elephant sitting on its haunches, smiling regally behind its uplifted trunk.</p><p><em><strong>Blemished (Uncommon)</strong></em>. The idol is made of tarnished bronze, with minor dings and dents scattered over its surface.</p><p>You can cast the <em>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplAugury0000]{Augury}</em> spell from the idol. The idol speaks the omen aloud in response. Once the idol has been used to cast this spell, it can’t be used to cast this spell again until the next dawn.</p><section id=\"secret-mbrbf2Xibdf5r4Bp\" class=\"secret hide-in-embed\"><p><strong>Foundry Note</strong></p><p>When this item evolves, use the appropriate <strong>Evolve to...</strong> activity. When evolving from <strong>Tarnished</strong> to <strong>Golden</strong> revert the <strong>Tarnished</strong> evolution.</p><p>For <strong>Transform Valuables</strong>, manually remove the touched trade bar or gemstone and add coinage equal to its value.</p></section>",
       "effects": {
         "Tarnished (+1 AC)": {
@@ -880,31 +880,31 @@
     "Blossom Rod": {
       "activities": {
         "Evolve to Somniferous": {
-          "condition": "When the GM evolves the item to Very Rare",
-          "name": "Evolve to Somniferous"
+          "condition": "當GM將該物品進化為極珍稀時",
+          "name": "進化為催眠"
         },
         "Evolve to Flowering": {
-          "condition": "When the GM evolves the item to Rare",
-          "name": "Evolve to Flowering"
+          "condition": "當GM將該物品進化為珍稀時",
+          "name": "進化為盛放"
         },
         "Rejuvenate Plants": {
-          "name": "Rejuvenate Plants",
-          "duration": "1d4 days",
-          "roll": "Verdant Duration",
-          "condition": "plants only"
+          "name": "使植物恢復生機",
+          "duration": "1d4天",
+          "roll": "繁茂持續時間",
+          "condition": "僅限植物"
         },
         "Save: Sleep-Inducing Pollen": {
-          "name": "Save: Sleep-Inducing Pollen"
+          "name": "豁免：催眠花粉"
         }
       },
       "effects": {
         "Unconscious": {
-          "name": "Unconscious",
-          "description": "<p>The target is &amp;Reference[Unconscious apply=false] for 1 hour.</p>"
+          "name": "昏迷",
+          "description": "<p>目標陷入&amp;Reference[Unconscious apply=false]{昏迷}狀態1小時。</p>"
         }
       },
-      "name": "Blossom Rod",
-      "description": "<p class=\"metadata hide-in-embed\"><em>(Requires Attunement by a Spellcaster)</em></p><p>This rod is made of intertwined, living plant stems.</p><p><em><strong>Budding (Uncommon)</strong></em>. Multicolored leaves decorate the rod’s stems, and a few buds cluster near each end.</p><p>While you hold the rod, you can cast <em>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplDruidcraft]{Druidcraft}</em> or <em>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplPlantGrowt]{Plant Growth}</em> (Overgrowth only) from it. Once the rod has been used to cast <em>Plant Growth</em>, it can’t be used to cast this spell again until the next dawn.</p><p>While you hold the rod, as a Magic action, you can rejuvenate nonmagical plants in a 5-foot Cube you can see within 15 feet of yourself. The rejuvenated plants remain verdant for 1d4 days, after which they grow or wither as normal plants would.</p><section id=\"secret-9UFmZpQR6vnzn3Jm\" class=\"secret hide-in-embed\"><p><strong>Foundry Note</strong></p><p>When this item evolves, use the appropriate <strong>Evolve to...</strong> activity. When evolving from <strong>Flowering</strong> to <strong>Somniferous</strong> revert the <strong>Flowering</strong> evolution.</p></section>"
+      "name": "繁花權杖",
+      "description": "<p class=\"metadata hide-in-embed\"><em>（需施法者同調）</em></p><p>這柄權杖由交織的活體植物莖稈構成。</p><p><em><strong>【待放（非普通）】</strong></em>五彩斑斕的葉片點綴著權杖的莖稈，兩端的位置簇生著花苞。</p><p>持握此權杖期間，你可以從中施放<em>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplDruidcraft]{德魯伊伎倆}</em>或<em>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplPlantGrowt]{植物滋長}</em>（僅限繁茂）。一旦此權杖被用於施放<em>植物滋長</em>，直到下個黎明前，其無法再次被用於施放此法術。</p><p>持握此權杖期間，作為魔法動作，你可以使位於你15呎內一處你所能看見的5呎立方體區域內的非魔法植物恢復生機。恢復生機的植物會保持繁茂達1d4天，之後就會像一般植物那樣生長或枯萎。</p><section id=\"secret-9UFmZpQR6vnzn3Jm\" class=\"secret hide-in-embed\"><p><strong>Foundry 註記</strong></p><p>當此物品進化時，請使用對應的<strong>進化為…</strong>行動。從<strong>盛放</strong>進化為<strong>催眠</strong>時，請撤銷<strong>盛放</strong>的進化。</p></section>"
     },
     "Boon Companions' Bands": {
       "name": "Boon Companions' Bands",
