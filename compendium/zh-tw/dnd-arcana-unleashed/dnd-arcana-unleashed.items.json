@@ -287,32 +287,32 @@
     "Keyholes Dagger": {
       "activities": {
         "Transform Weapon (Many)": {
-          "name": "Transform Weapon (Many)",
-          "condition": "When you take the Attack action"
+          "name": "武器變形（萬孔）",
+          "condition": "當你採取攻擊動作時"
         },
         "Evolve to Many": {
-          "name": "Evolve to Many",
-          "condition": "When the GM evolves the item to Very Rare"
+          "name": "進化為萬孔",
+          "condition": "當GM將該物品進化為極珍稀時"
         },
         "Transform Weapon (Ten)": {
-          "condition": "When you take the Attack action",
-          "name": "Transform Weapon (Ten)"
+          "condition": "當你採取攻擊動作時",
+          "name": "武器變形（十孔）"
         },
         "Evolve to Ten": {
-          "name": "Evolve to Ten",
-          "condition": "When the GM evolves the item to Rare"
+          "name": "進化為十孔",
+          "condition": "當GM將該物品進化為珍稀時"
         },
         "Transform Weapon (Three)": {
-          "condition": "When you take the Attack action",
-          "name": "Transform Weapon (Three)"
+          "condition": "當你採取攻擊動作時",
+          "name": "武器變形（三孔）"
         },
         "Reroll Miss": {
-          "name": "Reroll Miss",
-          "condition": "When you miss with an attack roll using this weapon"
+          "name": "重擲失手",
+          "condition": "當你使用此武器進行的攻擊檢定失手時"
         }
       },
-      "name": "Keyholes Dagger",
-      "description": "<p>The hilt of this magic weapon is adorned with ornate, decorative keyholes outlined in golden filigree.</p><p><em><strong>Three (Uncommon)</strong></em>. Three ornamental keyholes adorn the weapon’s hilt.</p><p>You have a +1 bonus to attack rolls and damage rolls made with this magic weapon. When you take the Attack action, you can transform this weapon into a Handaxe or Mace. It remains transformed in this way until the start of your next turn, at which point it reverts back to its Dagger form. Regardless of the weapon’s form, you can use the choice of your Strength or Dexterity modifier for the attack and damage rolls; you must use the same modifier for both rolls.</p><section id=\"secret-AWjlUY03vOfKhAou\" class=\"secret hide-in-embed\"><p><strong>Foundry Note</strong></p><p>When the dagger transforms, use <strong>Transform Weapon</strong> and choose the desired weapon form. The transformation expires automatically at the start of your next turn.</p><p>When this item evolves, use the appropriate <strong>Evolve to...</strong> activity. When evolving to the <strong>Many Keyholes Dagger</strong> revert the <strong>Ten Keyholes Dagger</strong> evolution if it was applied.</p></section>"
+      "name": "鎖眼匕首",
+      "description": "<p>這柄魔法武器的柄部裝飾著華麗的鎖孔圖案，並以金絲勾勒輪廓。</p><p><em><strong>【三孔（非普通）】</strong></em>武器柄部點綴著三個裝飾性鎖孔。</p><p>你用此魔法武器進行的攻擊檢定和傷害擲骰獲得+1加值。當你採取攻擊動作時，你可以令此武器變形為手斧或硬頭錘。其維持以此方式變形的形態，直到你的下個回合開始，屆時此武器將變回匕首形態。無論此武器的形態為何，你都可以選擇使用你的力量或敏捷調整值進行攻擊檢定和傷害擲骰，但兩次擲骰必須使用相同的調整值。</p><section id=\"secret-AWjlUY03vOfKhAou\" class=\"secret hide-in-embed\"><p><strong>Foundry 註記</strong></p><p>當匕首變形時，請使用<strong>武器變形</strong>，並選擇所需的武器形態。變形會在你的下個回合開始時自動結束。</p><p>當此物品進化時，請使用對應的<strong>進化為…</strong>行動。進化為<strong>萬孔鎖眼匕首</strong>時，若已套用<strong>十孔鎖眼匕首</strong>的進化，請將其撤銷。</p></section>"
     },
     "Magewright's Gloves": {
       "description": "<p>While you wear these gloves, you work as efficiently as two characters when determining how much time it takes to craft nonmagical items using any of the following tools: Alchemist’s Supplies, Brewer’s Supplies, Calligrapher’s Supplies, Cartographer’s Tools, Glassblower’s Tools, or Jeweler’s Tools.</p>",
@@ -430,22 +430,22 @@
     "Idol of Good Fortunes": {
       "activities": {
         "Evolve to Tarnished": {
-          "condition": "When the GM evolves the item to Rare",
-          "name": "Evolve to Tarnished"
+          "condition": "當GM將該物品進化為珍稀時",
+          "name": "進化為蒙塵"
         },
         "Transform Valuables": {
-          "name": "Transform Valuables"
+          "name": "轉化貴重物品"
         },
         "Evolve to Golden": {
-          "name": "Evolve to Golden",
-          "condition": "When the GM evolves the item to Very Rare"
+          "name": "進化為燦金",
+          "condition": "當GM將該物品進化為極珍稀時"
         }
       },
       "name": "吉運神像",
-      "description": "<p>This idol resembles an elephant sitting on its haunches, smiling regally behind its uplifted trunk.</p><p><em><strong>Blemished (Uncommon)</strong></em>. The idol is made of tarnished bronze, with minor dings and dents scattered over its surface.</p><p>You can cast the <em>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplAugury0000]{Augury}</em> spell from the idol. The idol speaks the omen aloud in response. Once the idol has been used to cast this spell, it can’t be used to cast this spell again until the next dawn.</p><section id=\"secret-mbrbf2Xibdf5r4Bp\" class=\"secret hide-in-embed\"><p><strong>Foundry Note</strong></p><p>When this item evolves, use the appropriate <strong>Evolve to...</strong> activity. When evolving from <strong>Tarnished</strong> to <strong>Golden</strong> revert the <strong>Tarnished</strong> evolution.</p><p>For <strong>Transform Valuables</strong>, manually remove the touched trade bar or gemstone and add coinage equal to its value.</p></section>",
+      "description": "<p>這座神像的造型為一頭盤坐在後腿上的大象，象鼻高高揚起，露出威嚴而親切的笑容。</p><p><em><strong>【有瑕（非普通）】</strong></em>神像由失去光澤的青銅製成，表面散布著些許磕碰和凹痕。</p><p>你可以從神像中施放<em>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplAugury0000]{卜筮}</em>。神像會出聲回應，宣告預兆。一旦此神像被用於施放此法術，直到下個黎明前，其無法再次被用於施放此法術。</p><section id=\"secret-mbrbf2Xibdf5r4Bp\" class=\"secret hide-in-embed\"><p><strong>Foundry 註記</strong></p><p>當此物品進化時，請使用對應的<strong>進化為…</strong>行動。從<strong>蒙塵</strong>進化為<strong>燦金</strong>時，請撤銷<strong>蒙塵</strong>的進化。</p><p>對於<strong>轉化貴重物品</strong>，請手動移除被觸碰的貿易金屬條或寶石，並加入等同於其價值的錢幣。</p></section>",
       "effects": {
         "Tarnished (+1 AC)": {
-          "name": "Tarnished (+1 AC)"
+          "name": "蒙塵（+1 AC）"
         }
       }
     },
@@ -482,50 +482,50 @@
       "description": "<p>When a target takes damage from this magical piece of ammunition, any ongoing spell of level 3 or lower on the target ends. Once it deals damage to a target, the ammunition is no longer magical.</p><section id=\"secret-gNrXI0cVSjqbGHig\" class=\"secret hide-in-embed\"><p><strong>Foundry Note</strong></p><p>After this ammunition deals damage, use <strong>Dispelling Effect</strong>. The GM manually removes any ongoing spell effects of level 3 or lower from the damaged target.</p></section>"
     },
     "Wave-Swept Weapon": {
-      "name": "Wave-Swept Weapon",
+      "name": "逐浪武器",
       "effects": {
         "Aquatic": {
           "changes": {
-            "name": "Aquatic {}",
-            "system.description.value": "{}<hr> <p class=\"metadata hide-in-embed\"><em>Wave-Swept Weapon, Rare (Requires Attunement)</em></p> <p>This weapon is covered in oceanic motifs, from wavelike etchings on its blade to stylized sea monsters embroidered onto its leather hilt.</p> <p><em><strong>Barnacled (Uncommon)</strong></em>. Barnacles dot this blade’s guard and the flat sides of its etched blade.</p> <p>You have a +1 bonus to attack rolls and damage rolls made with this magic weapon. While holding this weapon, you can take a Magic action to touch up to a gallon of liquid and infuse it with brine, turning fresh water into saltwater, for instance.</p> <p><em><strong>Aquatic (Rare)</strong></em>. The wavelike etchings on this weapon’s blade glow with light, shedding Bright Light in a 5-foot radius and Dim Light for an additional 5 feet.</p> <p>Your bonus to attack rolls and damage rolls made with this magic weapon increases to +2. While you hold the weapon, you can breathe underwater, and you have a Swim Speed of 30 feet.</p> <section class=\"secret hide-in-embed\">   <p><strong>Foundry Note.</strong> This weapon was created with the <strong>Aquatic</strong> Wave-Swept Weapon enchantment. Toggle the <strong>Aquatic Light</strong> effect on while the weapon is held and off when it is not. Underwater breathing is not automated. When the weapon evolves, replace this enchantment with the higher-rarity profile rather than stacking multiple Wave-Swept enchantments.</p> </section>"
+            "name": "水棲{}",
+            "system.description.value": "{}<hr> <p class=\"metadata hide-in-embed\"><em>逐浪武器，珍稀（需同調）</em></p> <p>這件武器上布滿海洋主題的圖案，從劍身上的波浪蝕刻到皮革劍柄上繡著的海怪圖案皆是如此。</p> <p><em><strong>【藤壺（非普通）】</strong></em>劍格與蝕刻劍身的平整側面附著著藤壺。</p> <p>你用此魔法武器進行的攻擊檢定和傷害擲骰獲得+1加值。持握此武器期間，你可以採取魔法動作，觸碰至多一加侖的液體並為其注入鹽水，例如將淡水轉化為鹽水。</p> <p><em><strong>【水棲（珍稀）】</strong></em>武器劍身上的波浪蝕刻散發光芒，發出半徑5呎的明亮光照，並在額外5呎內發出微光光照。</p> <p>你用此魔法武器進行的攻擊檢定和傷害擲骰的加值提升至+2。持握此武器期間，你可以在水下呼吸，且具有30呎游泳速度。</p> <section class=\"secret hide-in-embed\">   <p><strong>Foundry 註記</strong>　這把武器是以<strong>水棲</strong>逐浪武器附魔製成。持握武器期間請開啟<strong>水棲光照</strong>效果，未持握時則關閉。水下呼吸未自動化。當武器進化時，請以更高稀有度的設定檔取代此附魔，而不是疊加多個逐浪附魔。</p> </section>"
           },
-          "name": "Aquatic"
+          "name": "水棲"
         },
         "Barnacled": {
           "changes": {
-            "name": "Barnacled {}",
-            "system.description.value": "{}<hr> <p class=\"metadata hide-in-embed\"><em>Wave-Swept Weapon, Uncommon (Requires Attunement)</em></p> <p>This weapon is covered in oceanic motifs, from wavelike etchings on its blade to stylized sea monsters embroidered onto its leather hilt.</p> <p><em><strong>Barnacled (Uncommon)</strong></em>. Barnacles dot this blade’s guard and the flat sides of its etched blade.</p> <p>You have a +1 bonus to attack rolls and damage rolls made with this magic weapon. While holding this weapon, you can take a Magic action to touch up to a gallon of liquid and infuse it with brine, turning fresh water into saltwater, for instance.</p> <section class=\"secret hide-in-embed\">   <p><strong>Foundry Note.</strong> This weapon was created with the <strong>Barnacled</strong> Wave-Swept Weapon enchantment. When it evolves, replace this enchantment with the appropriate higher-rarity profile rather than stacking multiple Wave-Swept enchantments.</p> </section>"
+            "name": "藤壺{}",
+            "system.description.value": "{}<hr> <p class=\"metadata hide-in-embed\"><em>逐浪武器，非普通（需同調）</em></p> <p>這件武器上布滿海洋主題的圖案，從劍身上的波浪蝕刻到皮革劍柄上繡著的海怪圖案皆是如此。</p> <p><em><strong>【藤壺（非普通）】</strong></em>劍格與蝕刻劍身的平整側面附著著藤壺。</p> <p>你用此魔法武器進行的攻擊檢定和傷害擲骰獲得+1加值。持握此武器期間，你可以採取魔法動作，觸碰至多一加侖的液體並為其注入鹽水，例如將淡水轉化為鹽水。</p> <section class=\"secret hide-in-embed\">   <p><strong>Foundry 註記</strong>　這把武器是以<strong>藤壺</strong>逐浪武器附魔製成。當其進化時，請以對應的更高稀有度設定檔取代此附魔，而不是疊加多個逐浪附魔。</p> </section>"
           },
-          "name": "Barnacled"
+          "name": "藤壺"
         },
         "Ascendant": {
           "changes": {
-            "name": "Ascendant {}",
-            "system.description.value": "{}<hr> <p class=\"metadata hide-in-embed\"><em>Wave-Swept Weapon, Very Rare (Requires Attunement)</em></p> <p>This weapon is covered in oceanic motifs, from wavelike etchings on its blade to stylized sea monsters embroidered onto its leather hilt.</p> <p><em><strong>Barnacled (Uncommon)</strong></em>. Barnacles dot this blade’s guard and the flat sides of its etched blade.</p> <p>You have a +1 bonus to attack rolls and damage rolls made with this magic weapon. While holding this weapon, you can take a Magic action to touch up to a gallon of liquid and infuse it with brine, turning fresh water into saltwater, for instance.</p> <p><em><strong>Aquatic (Rare)</strong></em>. The wavelike etchings on this weapon’s blade glow with light, shedding Bright Light in a 5-foot radius and Dim Light for an additional 5 feet.</p> <p>Your bonus to attack rolls and damage rolls made with this magic weapon increases to +2. While you hold the weapon, you can breathe underwater, and you have a Swim Speed of 30 feet.</p> <p><em><strong>Ascendant (Very Rare)</strong></em>. The sea monsters embroidered on this weapon’s hilt are studded with chips of colorful gemstones.</p> <p>Your bonus to attack rolls and damage rolls made with this magic weapon increases to +3. While you hold this weapon, you have a Fly Speed of 30 feet; when you use this Fly Speed, a salty sea breeze carries you through the air.</p> <section class=\"secret hide-in-embed\">   <p><strong>Foundry Note.</strong> This weapon was created with the <strong>Ascendant</strong> Wave-Swept Weapon enchantment. Toggle the <strong>Aquatic Light</strong> effect on while the weapon is held and off when it is not. Underwater breathing is not automated. If the weapon is reverted to an earlier state, replace this enchantment with the appropriate lower-rarity profile rather than stacking multiple Wave-Swept enchantments.</p> </section>"
+            "name": "騰躍{}",
+            "system.description.value": "{}<hr> <p class=\"metadata hide-in-embed\"><em>逐浪武器，極珍稀（需同調）</em></p> <p>這件武器上布滿海洋主題的圖案，從劍身上的波浪蝕刻到皮革劍柄上繡著的海怪圖案皆是如此。</p> <p><em><strong>【藤壺（非普通）】</strong></em>劍格與蝕刻劍身的平整側面附著著藤壺。</p> <p>你用此魔法武器進行的攻擊檢定和傷害擲骰獲得+1加值。持握此武器期間，你可以採取魔法動作，觸碰至多一加侖的液體並為其注入鹽水，例如將淡水轉化為鹽水。</p> <p><em><strong>【水棲（珍稀）】</strong></em>武器劍身上的波浪蝕刻散發光芒，發出半徑5呎的明亮光照，並在額外5呎內發出微光光照。</p> <p>你用此魔法武器進行的攻擊檢定和傷害擲骰的加值提升至+2。持握此武器期間，你可以在水下呼吸，且具有30呎游泳速度。</p> <p><em><strong>【騰躍（極珍稀）】</strong></em>武器劍柄上繡著的海怪圖案鑲嵌著彩色寶石碎片。</p> <p>你用此魔法武器進行的攻擊檢定和傷害擲骰的加值提升至+3。持握此武器期間，你具有30呎飛行速度；使用此飛行速度時，鹹鹹的海風會托著你在空中穿行。</p> <section class=\"secret hide-in-embed\">   <p><strong>Foundry 註記</strong>　這把武器是以<strong>騰躍</strong>逐浪武器附魔製成。持握武器期間請開啟<strong>水棲光照</strong>效果，未持握時則關閉。水下呼吸未自動化。若武器被還原為較早的狀態，請以對應的較低稀有度設定檔取代此附魔，而不是疊加多個逐浪附魔。</p> </section>"
           },
-          "name": "Ascendant"
+          "name": "騰躍"
         },
         "Aquatic Traits": {
-          "name": "Aquatic Traits"
+          "name": "水棲特質"
         },
         "Ascendant Traits": {
-          "name": "Ascendant Traits"
+          "name": "騰躍特質"
         },
         "Aquatic Light": {
-          "name": "Aquatic Light"
+          "name": "水棲光照"
         }
       },
       "activities": {
         "Wave-Swept Weapon": {
-          "name": "Wave-Swept Weapon"
+          "name": "逐浪武器"
         },
         "Infuse with Brine": {
-          "name": "Infuse with Brine",
-          "target": "Up to 1 gallon of liquid",
-          "condition": "While holding the weapon"
+          "name": "注入鹽水",
+          "target": "至多一加侖的液體",
+          "condition": "持握武器期間"
         }
       },
-      "description": "<p class=\"metadata hide-in-embed\"><em>Weapon (Greatsword, Longsword, Rapier, Scimitar, or Shortsword), Rarity Varies (Requires Attunement)</em></p><p>This weapon is covered in oceanic motifs, from wavelike etchings on its blade to stylized sea monsters embroidered onto its leather hilt.</p><p><em><strong>Barnacled (Uncommon)</strong></em>. Barnacles dot this blade’s guard and the flat sides of its etched blade.</p><p>You have a +1 bonus to attack rolls and damage rolls made with this magic weapon. While holding this weapon, you can take a Magic action to touch up to a gallon of liquid and infuse it with brine, turning fresh water into saltwater, for instance.</p><p><em><strong>Aquatic (Rare)</strong></em>. The wavelike etchings on this weapon’s blade glow with light, shedding Bright Light in a 5-foot radius and Dim Light for an additional 5 feet.</p><p>Your bonus to attack rolls and damage rolls made with this magic weapon increases to +2. While you hold the weapon, you can breathe underwater, and you have a Swim Speed of 30 feet.</p><p><em><strong>Ascendant (Very Rare)</strong></em>. The sea monsters embroidered on this weapon’s hilt are studded with chips of colorful gemstones.</p><p>Your bonus to attack rolls and damage rolls made with this magic weapon increases to +3. While you hold this weapon, you have a Fly Speed of 30 feet; when you use this Fly Speed, a salty sea breeze carries you through the air.</p><section id=\"secret-xuyZt3DWHHDE5byk\" class=\"secret hide-in-embed\"><p><strong>Foundry Note.</strong> Apply the appropriate Barnacled, Aquatic, or Ascendant enchantment profile to a mundane Greatsword, Longsword, Rapier, Scimitar, or Shortsword. When the weapon evolves, replace its current Wave-Swept enchantment with the new profile rather than stacking multiple profiles. At the Aquatic or Ascendant stage, toggle the <strong>Aquatic Light</strong> effect on while the weapon is held and off when it is not. Underwater breathing is not automated.</p></section>"
+      "description": "<p class=\"metadata hide-in-embed\"><em>武器（巨劍、長劍、刺劍、彎刀或短劍），多種稀有度（需同調）</em></p><p>這件武器上布滿海洋主題的圖案，從劍身上的波浪蝕刻到皮革劍柄上繡著的海怪圖案皆是如此。</p><p><em><strong>【藤壺（非普通）】</strong></em>劍格與蝕刻劍身的平整側面附著著藤壺。</p><p>你用此魔法武器進行的攻擊檢定和傷害擲骰獲得+1加值。持握此武器期間，你可以採取魔法動作，觸碰至多一加侖的液體並為其注入鹽水，例如將淡水轉化為鹽水。</p><p><em><strong>【水棲（珍稀）】</strong></em>武器劍身上的波浪蝕刻散發光芒，發出半徑5呎的明亮光照，並在額外5呎內發出微光光照。</p><p>你用此魔法武器進行的攻擊檢定和傷害擲骰的加值提升至+2。持握此武器期間，你可以在水下呼吸，且具有30呎游泳速度。</p><p><em><strong>【騰躍（極珍稀）】</strong></em>武器劍柄上繡著的海怪圖案鑲嵌著彩色寶石碎片。</p><p>你用此魔法武器進行的攻擊檢定和傷害擲骰的加值提升至+3。持握此武器期間，你具有30呎飛行速度；使用此飛行速度時，鹹鹹的海風會托著你在空中穿行。</p><section id=\"secret-xuyZt3DWHHDE5byk\" class=\"secret hide-in-embed\"><p><strong>Foundry 註記</strong>　對一把一般的巨劍、長劍、刺劍、彎刀或短劍，套用對應的藤壺、水棲或騰躍附魔設定檔。當武器進化時，請以新的設定檔取代其目前的逐浪附魔，而不是疊加多個設定檔。處於水棲或騰躍階段時，持握武器期間請開啟<strong>水棲光照</strong>效果，未持握時則關閉。水下呼吸未自動化。</p></section>"
     },
     "Lucky Foot": {
       "activities": {
@@ -815,43 +815,43 @@
       "description": "<p>你可以採取魔法動作並說出命令詞，將這根魔法手杖猛地插入地面。其會筆直豎立，並以手杖為源點投射出一個[[lookup @target.template.size activity=r3P2CQjVaKWsfrqt]]呎[[lookup @target.template.type capitalize activity=r3P2CQjVaKWsfrqt]]的透明力場華蓋。該華蓋持續1小時，或者直到你以魔法動作提前結束該效應。</p><p>華蓋會保護區域內的生物和物體免受尋常天氣現象（如雨雪）的影響。無論外界天氣如何，華蓋區域內的空氣始終舒適且乾燥。生物、物體和魔法效應仍可照常穿過該華蓋。</p><p>華蓋消失後，手杖在接下來的[[/r 1d12]]小時內無法再次使用。</p><section id=\"secret-s3AAdIcdBznou7uI\" class=\"secret hide-in-embed\"><p><strong>Foundry 註記</strong></p><p>當效應結束時，移除華蓋模板，然後使用<strong>華蓋再次使用間隔</strong>決定冷卻期。先攻恢復只是佔位設定；若 Foundry 在冷卻期結束前恢復了該物品的使用次數，請將使用次數改回已消耗，直到擲出的時間過去為止。</p></section>"
     },
     "Staff of Skulls": {
-      "description": "<p class=\"metadata hide-in-embed\"><em>(Requires Attunement by a Spellcaster)</em></p><p>This staff is made of polished, interlocking bones. Runes are carved along its length.</p><p><em><strong>Ominous (Uncommon)</strong></em>. A skull adorns the top of the staff.</p><p>While you hold the staff, you can cast <em>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplChillTouch]{Chill Touch}</em> from it, using your spell attack bonus. Additionally, you have Advantage on Charisma (Intimidation) checks made while holding the staff, and the staff’s eye sockets glow a disquieting green, shedding Dim Light in a 5-foot radius.</p><section id=\"secret-L20ZA5A5ysB65V8A\" class=\"secret hide-in-embed\"><p><strong>Foundry Note</strong></p><p>When this item evolves, use the appropriate <strong>Evolve to...</strong> activity.</p><p>The staff includes an off by default Active Effect for the staff's glow. You can enable it if it will not impact other lights you have enabled on your Token.</p></section>",
+      "description": "<p class=\"metadata hide-in-embed\"><em>（需施法者同調）</em></p><p>這根法杖由打磨光滑、互相嵌合的骨骼製成。杖身刻有符文。</p><p><em><strong>【噩兆（非普通）】</strong></em>法杖頂端裝飾著一個頭骨。</p><p>持握此法杖期間，你可以從中施放<em>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplChillTouch]{寒顫之觸}</em>，使用你的法術攻擊加值。此外，持握此法杖期間，你進行的魅力（威嚇）檢定具有優勢，且法杖頭骨的眼窩會散發令人不安的綠光，發出半徑5呎的微光光照。</p><section id=\"secret-L20ZA5A5ysB65V8A\" class=\"secret hide-in-embed\"><p><strong>Foundry 註記</strong></p><p>當此物品進化時，請使用對應的<strong>進化為…</strong>行動。</p><p>此法杖附有一個預設關閉的 Active Effect，用於法杖的發光。若不會影響你指示物上已啟用的其他光源，你可以將其啟用。</p></section>",
       "activities": {
         "Chattering": {
-          "condition": "When a creature you can see within 30 feet of you makes an attack roll",
-          "name": "Chattering"
+          "condition": "當位於你30呎內一名你所能看見的生物進行攻擊檢定時",
+          "name": "絮叨"
         },
         "Pulverizing": {
-          "target": "Humanoid",
-          "condition": "While holding the staff",
-          "name": "Pulverizing",
-          "range": "A Humanoid you can see"
+          "target": "類人生物",
+          "condition": "持握法杖期間",
+          "name": "碾滅",
+          "range": "一名你所能看見的類人生物"
         },
         "zgmcUan7zafnfOC3": {
-          "condition": "While holding the staff"
+          "condition": "持握法杖期間"
         },
         "Evolve to Pulverizing": {
-          "condition": "When the GM evolves the item to Very Rare",
-          "name": "Evolve to Pulverizing"
+          "condition": "當GM將該物品進化為極珍稀時",
+          "name": "進化為碾滅"
         },
         "Evolve to Chattering": {
-          "name": "Evolve to Chattering",
-          "condition": "When the GM evolves the item to Rare"
+          "name": "進化為絮叨",
+          "condition": "當GM將該物品進化為珍稀時"
         }
       },
       "effects": {
         "Prone": {
-          "name": "Prone",
-          "description": "<p>The target is knocked &amp;Reference[prone apply=false] and can use half of their movement on their turn to stand up.</p>"
+          "name": "伏地",
+          "description": "<p>目標被擊倒，陷入&amp;Reference[prone apply=false]{伏地}狀態，且可以在其回合花費一半移動力起身。</p>"
         },
         "Intimidation Advantage": {
-          "name": "Intimidation Advantage"
+          "name": "威嚇優勢"
         },
         "Staff Glow": {
-          "name": "Staff Glow"
+          "name": "法杖發光"
         }
       },
-      "name": "Staff of Skulls"
+      "name": "骸骨法杖"
     },
     "Traveler's Pearl": {
       "name": "Traveler's Pearl",
