@@ -6,9 +6,28 @@
     "Rogue": "遊蕩者",
     "Evoker": "喚能師",
     "Paladin": "聖騎士",
-    "Hunter": "獵人"
+    "Hunter": "獵人",
+    "Warrior Maneuvers": "Warrior Maneuvers",
+    "Shadow Domain Features": "Shadow Domain Features",
+    "Oath of the Holy Features": "Oath of the Holy Features",
+    "Swashbuckler Features": "Swashbuckler Features",
+    "Oath of the Ebon Blade Features": "Oath of the Ebon Blade Features",
+    "Renown": "Renown",
+    "Eldritch Invocations": "Eldritch Invocations",
+    "Discipline Domain Features": "Discipline Domain Features",
+    "Death Knight": "Death Knight",
+    "Runes": "Runes",
+    "Warrior": "Warrior",
+    "Path of the Spiritual Guardian Features": "Path of the Spiritual Guardian Features",
+    "Path of the Elements Features": "Path of the Elements Features",
+    "Demon Hunter": "Demon Hunter",
+    "Magical Beverages": "Magical Beverages",
+    "Demon Hunter Spells": "Demon Hunter Spells",
+    "Priest": "Priest",
+    "Demon Hunter Features": "Demon Hunter Features",
+    "Warrior of Mystic Brews Features": "Warrior of Mystic Brews Features",
+    "Shaman": "Shaman"
   },
-  "entries": {},
   "mapping": {
     "activities": {
       "path": "system.activities",
@@ -25,6 +44,1303 @@
     "advancement": {
       "path": "system.advancement",
       "converter": "advancement"
+    }
+  },
+  "entries": {
+    "Raging Elements": {
+      "activities": {
+        "Lightning Bolt": {
+          "name": "Lightning Bolt",
+          "condition": "While your rage is active",
+          "description": "<p>When this effect is activated, roll a number of d6s equal to your Rage Damage bonus, and add them together. You can then hurl a bolt of lightning at one other creature you can see within 30 feet. The target makes a Dexterity saving throw. On a failed save, the target takes Lightning damage equal to the roll’s total, and the next time the target takes Cold damage until the end of your next turn, it takes an extra 1d6 Cold damage. On a successful save, the target takes half as much damage only.</p>"
+        },
+        "Icefury": {
+          "name": "Icefury",
+          "description": "<p>When this effect is activated, roll a number of d8s equal to your Rage Damage bonus, and add them together. You hurl frigid ice at one creature within 30 feet of yourself. Make either a melee spell attack (if the target is within 5 feet) or a ranged spell attack, using Constitution as your spellcasting ability. On a hit, the attack deals Cold damage equal to the number rolled, and the next time the target takes Fire damage before the end of your next turn, it takes an extra 1d10 Fire damage.</p>",
+          "condition": "While your rage is active"
+        },
+        "Lava Burst": {
+          "condition": "While your rage is active",
+          "description": "<p>When this effect is activated, roll a number of d4s equal to your Rage Damage bonus, and add them together. You then hurl molten lava at one creature you can see within 30 feet. The target makes a Dexterity saving throw. On a failed save, the target takes Fire damage equal to the number rolled, and the next time the target takes Lightning damage until the end of your next turn, it takes an extra 1d8 Lightning damage. On a successful save, the target takes half as much damage only.</p>",
+          "name": "Lava Burst"
+        },
+        "Lava Burst: Extra Damage": {
+          "condition": "When a target hit by Lava Burst takes Lightning damage before the end of your next turn",
+          "name": "Lava Burst: Extra Damage",
+          "description": "<p>The next time the target takes Lightning damage until the end of your next turn, it takes an extra 1d8 Lightning damage.</p>"
+        },
+        "Lightning Bolt: Extra Damage": {
+          "condition": "When a target hit by Lightning Bolt takes Cold damage before the end of your next turn",
+          "name": "Lightning Bolt: Extra Damage",
+          "description": "<p>The next time the target takes Cold damage until the end of your next turn, it takes an extra 1d6 Cold damage.</p>"
+        },
+        "Icefury: Extra Damage": {
+          "condition": "When a target hit by Icefury takes Fire damage before the end of your next turn",
+          "name": "Icefury: Extra Damage",
+          "description": "<p>The next time the target takes Fire damage before the end of your next turn, it takes an extra 1d10 Fire damage.</p>"
+        }
+      },
+      "description": "<p>Whenever you activate your Rage, you can take one of the following Raging Elements options of your choice as part of that Bonus Action. While your rage is active, you can take a Bonus Action to use that option again or a different option.</p><p>If a Raging Elements option requires a saving throw, the DC equals 8 plus your Constitution modifier and Proficiency Bonus.</p><p>@Embed[Compendium.dnd-world-warcraft.classes.Item.wowbrbRagingElem.Activity.mRzg7tfqJ0isvgzI caption=false cite=false nameStyle=inline]</p><p>@Embed[Compendium.dnd-world-warcraft.classes.Item.wowbrbRagingElem.Activity.9yUGECTb4UA5Kr9R caption=false cite=false nameStyle=inline]</p><p>@Embed[Compendium.dnd-world-warcraft.classes.Item.wowbrbRagingElem.Activity.iFAHgbl082BOhhnI caption=false cite=false nameStyle=inline]</p>",
+      "name": "Raging Elements"
+    },
+    "Spirits' Fury": {
+      "name": "Spirits' Fury",
+      "description": "<p>Your spirits hasten your attacks. When you make an attack roll with a Melee weapon as part of the &amp;Reference[Attack] action and roll 18–20 on the d20, you can make one additional attack roll with the same weapon as part of that action. Once you use this feature, you can’t do so again until the start of your next turn.</p>"
+    },
+    "Atonement": {
+      "activities": {
+        "Grant Blessing": {
+          "name": "Grant Blessing",
+          "condition": "When a level 1+ spell you cast restores Hit Points"
+        },
+        "heal": {
+          "description": "<p>Whenever you cast a spell that deals damage to a creature using a spell slot, each blessed creature regains additional Hit Points equal to the level of the spell slot you used to cast the damaging spell.</p>",
+          "target": "With the blessing",
+          "condition": "When you cast a spell that deals damage to a creature using a spell slot"
+        }
+      },
+      "effects": {
+        "Blessing of Atonement": {
+          "description": "<p>Whenever you cast a spell that deals damage to a creature using a spell slot, each blessed creature regains additional Hit Points equal to the level of the spell slot you used to cast the damaging spell.</p>",
+          "name": "Blessing of Atonement"
+        }
+      },
+      "name": "Atonement",
+      "description": "<p>When a level 1+ spell you cast restores Hit Points to one or more creatures, each of those creatures gains a blessing that lasts until the end of your next turn. Whenever you cast a spell that deals damage to a creature using a spell slot, each blessed creature regains additional Hit Points equal to the level of the spell slot you used to cast the damaging spell.</p>"
+    },
+    "Devouring Plague": {
+      "description": "<p>When a creature you can see within 30 feet of you fails a saving throw, you can cause that creature to take 1d10 Necrotic damage. If you do, you regain Hit Points equal to the Necrotic damage dealt.</p><p>You can use this feature a number of times equal to your Wisdom modifier (minimum of once), and you regain all expended uses when you finish a Long Rest.</p>",
+      "activities": {
+        "damage": {
+          "condition": "When a creature you can see within 30 feet of you fails a saving throw"
+        }
+      },
+      "name": "Devouring Plague"
+    },
+    "Consult the Spirits": {
+      "name": "Consult the Spirits",
+      "description": "<p>You gain the ability to consult with your guardian spirits. When you do so, you cast the <em>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplAugury0000]{Augury}</em> or <em>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplClairvoyan]{Clairvoyance}</em> spell without expending a spell slot or needing Material components. Rather than creating a spherical sensor, this use of <em>Clairvoyance</em> invisibly summons one of your guardian spirits to the chosen location. Wisdom is your spellcasting ability for these spells.</p><p>After you cast either spell in this way, you can’t use this feature again until you finish a Short or Long Rest.</p>"
+    },
+    "Death Coil": {
+      "activities": {
+        "Heal Undead": {
+          "target": "Undead",
+          "name": "Heal Undead",
+          "description": "<p>As a Bonus Action, you can target a creature you can see within 60 feet of yourself and force it to make a Constitution saving throw, expending dice from the pool. The maximum number of dice you can expend at once equals your Charisma modifier (minimum of one die). Roll the dice you expend. The target takes Necrotic damage equal to the roll’s total on a failed save or half as much damage on a successful one. If the target is an Undead, you can choose to have it regain Hit Points equal to the roll’s total instead.</p>"
+        },
+        "Extra Damage": {
+          "description": "<p>When you use Death Coil to deal damage, the target takes extra Necrotic damage equal to your Charisma modifier (minimum of 1) whether or not it fails its saving throw.</p>",
+          "name": "Extra Damage",
+          "condition": "when you use Death Coil to deal damage"
+        },
+        "Improved Heal Undead": {
+          "name": "Improved Heal Undead",
+          "target": "Undead",
+          "description": "<p>As a Bonus Action, you can target a creature you can see within 60 feet of yourself and force it to make a Constitution saving throw, expending dice from the pool. The maximum number of dice you can expend at once equals your Charisma modifier (minimum of one die). Roll the dice you expend. The target takes Necrotic damage equal to the roll’s total on a failed save or half as much damage on a successful one. If the target is an Undead, you can choose to have it regain Hit Points equal to the roll’s total instead.</p><hr><p>If the target is an Undead, and you have it regain Hit Points, it regains additional Hit Points equal to your Paladin level.</p>"
+        },
+        "save": {
+          "description": "<p>As a Bonus Action, you can target a creature you can see within 60 feet of yourself and force it to make a Constitution saving throw, expending dice from the pool. The maximum number of dice you can expend at once equals your Charisma modifier (minimum of one die). Roll the dice you expend. The target takes Necrotic damage equal to the roll’s total on a failed save or half as much damage on a successful one. If the target is an Undead, you can choose to have it regain Hit Points equal to the roll’s total instead.</p>"
+        }
+      },
+      "effects": {
+        "Death Coil": {
+          "name": "Death Coil",
+          "description": "<p>Your creature type is Undead.</p>"
+        }
+      },
+      "name": "Death Coil",
+      "description": "<p>Your creature type becomes Undead.</p><p>You also gain the ability to manipulate negative energy. You have a pool of d8s to fuel this ability. The number of dice in the pool equals one plus your Charisma modifier (minimum of one die).</p><p>As a Bonus Action, you can target a creature you can see within 60 feet of yourself and force it to make a Constitution saving throw, expending dice from the pool. The maximum number of dice you can expend at once equals your Charisma modifier (minimum of one die). Roll the dice you expend. The target takes Necrotic damage equal to the roll’s total on a failed save or half as much damage on a successful one. If the target is an Undead, you can choose to have it regain Hit Points equal to the roll’s total instead. Your pool regains all expended dice when you finish a Long Rest.</p>"
+    },
+    "Faithful Steed": {
+      "name": "Faithful Steed",
+      "activities": {
+        "Summon Undead Steed": {
+          "name": "Summon Undead Steed"
+        }
+      },
+      "advancement": {
+        "Modify Find Steed": {
+          "hint": "<p>@Embed[Compendium.dnd-world-warcraft.classes.Item.wowpdnFaithfStee inline]</p>",
+          "name": "Modify Find Steed"
+        }
+      },
+      "effects": {
+        "Undead Faithful Steed": {
+          "name": "Undead Faithful Steed"
+        }
+      },
+      "description": "<div class=\"hide-in-embed\"><p>@Embed[Compendium.dnd-players-handbook.classes.Item.phbpdnFaithfulSt inline]</p><hr></div><p>In addition to the benefits of the Paladin’s Faithful Steed feature, when you cast <em>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplFindSteed0]{Find Steed}</em>, the <strong>@UUID[Compendium.dnd-players-handbook.actors.Actor.phbmobOtherworld]{Otherworldly Steed}</strong> can be Undead. An Undead steed deals Necrotic damage with its Otherworldly Slam action and has this Bonus Action:</p><p>@Embed[Compendium.dnd-world-warcraft.classes.Item.wowpdnGhostlyStr caption=false cite=false nameStyle=inline]{Ghostly Stride (Undead Only; Recharges After a Long Rest)}</p>"
+    },
+    "Frost Rune": {
+      "activities": {
+        "Inscribe Weapon": {
+          "name": "Inscribe Weapon"
+        }
+      },
+      "advancement": {
+        "Oath of the Ebon Blade Spells": {
+          "name": "Oath of the Ebon Blade Spells"
+        }
+      },
+      "name": "Frost Rune",
+      "effects": {
+        "Frost Rune": {
+          "name": "Frost Rune",
+          "description": "<p>@Embed[Compendium.dnd-world-warcraft.classes.Item.wowpdnFrostRune0 inline]</p>",
+          "changes": {
+            "1": "{}<p>@Embed[Compendium.dnd-world-warcraft.classes.Item.wowpdnFrostRune0 caption=false cite=false nameStyle=inline]</p>",
+            "0": "{} (Frost)"
+          }
+        },
+        "Frost Mastery": {
+          "description": "<p>While you are wielding your inscribed weapon, damage from your weapon attacks, Paladin spells, and Paladin features ignores &amp;Reference[Resistance] to Cold damage.</p>",
+          "name": "Frost Mastery"
+        }
+      },
+      "description": "<p>While you are wielding your inscribed weapon, damage from your weapon attacks, Paladin spells, and Paladin features ignores &amp;Reference[Resistance] to Cold damage. When you make the extra attack of the Light property and hit while wielding your inscribed weapon, you deal an extra 1d4 Cold damage.</p>"
+    },
+    "Ghostly Stride": {
+      "name": "Ghostly Stride",
+      "description": "<p>The steed and its rider can move through other creatures and objects this turn as if they were &amp;Reference[Difficult Terrain]. Both steed and rider take [[/damage 1d10 Force average]] damage if they end their turn inside an object.</p>",
+      "activities": {
+        "Stride": {
+          "name": "Stride"
+        }
+      }
+    },
+    "Holy Deliverance": {
+      "name": "Holy Deliverance",
+      "activities": {
+        "Healing Power": {
+          "description": "<p>Whenever an ally starts its turn &amp;Reference[Bloodied] and in the aura, that creature regains Hit Points equal to your Charisma modifier plus your Proficiency Bonus.</p>",
+          "condition": "when an ally starts its turn Bloodied and in the imbued aura",
+          "name": "Healing Power"
+        },
+        "Imbue Aura": {
+          "name": "Imbue Aura"
+        },
+        "Restore Use": {
+          "name": "Restore Use"
+        }
+      },
+      "effects": {
+        "Aura Light": {
+          "name": "Aura Light",
+          "description": "<p>The aura is filled with &amp;Reference[Bright Light] that is sunlight.</p>"
+        }
+      },
+      "description": "<p>As a Bonus Action, you can imbue your Aura of Protection with holy power, granting the benefits below for 10 minutes or until you end them (no action required). Once you use this feature, you can’t use it again until you finish a Long Rest. You can also restore your use of it by expending a level 5 spell slot (no action required).</p><p>@Embed[Compendium.dnd-world-warcraft.classes.Item.wowpdnHolyDelive.Activity.4aq7zxAgHeYo3pKE caption=false cite=false nameStyle=inline]</p><p><em><strong>Sunlight.</strong></em> The aura is filled with &amp;Reference[Bright Light] that is sunlight.</p>"
+    },
+    "Infusion of Light": {
+      "name": "Infusion of Light",
+      "activities": {
+        "Regain Lay on Hands": {
+          "condition": "When you cast a spell that deals Radiant damage",
+          "name": "Regain Lay on Hands"
+        }
+      },
+      "description": "<p>Whenever you cast a spell that deals Radiant damage, you refresh the pool of healing power that fuels your Lay On Hands feature. Your pool of healing power regains a number of Hit Points equal to the total number rolled for the spell’s Radiant damage, to a maximum of five times your Paladin level.</p>"
+    },
+    "Oath of the Ebon Blade": {
+      "name": "Oath of the Ebon Blade",
+      "description": "<div class=\"item-entry-details\"><p class=\"item-entry-tag\">Wield the Power of Death Against the Scourge</p></div><p>The Oath of the Ebon Blade unites the free death knights of Azeroth. No longer directly under the Lich King’s control, they still serve Bolvar Fordragon—first as agents of the new Lich King, and later, after the destruction of the <em>Helm of Domination</em>, as troops devoted to stopping the Scourge’s spread.</p>"
+    },
+    "Oath of the Holy": {
+      "name": "Oath of the Holy",
+      "description": "<div class=\"item-entry-details\"><p class=\"item-entry-tag\">Serve as a Beacon of the Light</p></div><p>The Oath of the Holy unites Paladins who nurture life and use the power of the Light for healing and support. They combine great piety and virtue with martial skill, aspiring to the highest standards of morality, service to others, and self-sacrifice.</p><p>These paladins share the following tenets:</p><ul><li><p>Live your life in service to others of goodwill.</p></li><li><p>Do all in your power to ease the suffering of the innocent.</p></li><li><p>Let the Light shine through you to banish the darkness.</p></li></ul>"
+    },
+    "Oath of the Holy Spells": {
+      "name": "Oath of the Holy Spells",
+      "advancement": {
+        "Oath of the Holy Spells": {
+          "name": "Oath of the Holy Spells"
+        }
+      },
+      "description": "<p>The magic of your oath ensures you always have certain spells ready; when you reach a Paladin level specified in the Oath of the Holy Spells table, you thereafter always have the listed spells prepared.</p><table><caption><p>Oath of the Holy Spells</p></caption><thead><tr><th scope=\"col\"><p>Paladin Level</p></th><th scope=\"col\"><p><br>Spells</p></th></tr></thead><tbody><tr><td><p>3</p></td><td><p><em>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplCureWounds]{Cure Wounds}, @UUID[Compendium.dnd-players-handbook.spells.Item.phbsplHealingWor]{Healing Word}</em></p></td></tr><tr><td><p>5</p></td><td><p><em>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplLesserRest]{Lesser Restoration}, @UUID[Compendium.dnd-players-handbook.spells.Item.phbsplPrayerofHe]{Prayer of Healing}</em></p></td></tr><tr><td><p>9</p></td><td><p><em>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplDispelMagi]{Dispel Magic}, @UUID[Compendium.dnd-players-handbook.spells.Item.phbsplMassHealin]{Mass Healing Word}</em></p></td></tr><tr><td><p>13</p></td><td><p><em>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplAuraofLife]{Aura of Life}, @UUID[Compendium.dnd-players-handbook.spells.Item.phbsplDeathWard0]{Death Ward}</em></p></td></tr><tr><td><p>17</p></td><td><p><em>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplGreaterRes]{Greater Restoration}, @UUID[Compendium.dnd-players-handbook.spells.Item.phbsplMassCureWo]{Mass Cure Wounds}</em></p></td></tr></tbody></table>"
+    },
+    "Runeforging": {
+      "advancement": {
+        "Choose Rune": {
+          "name": "Choose Rune",
+          "hint": "<p>You can inscribe one of the following runes on a melee weapon you are holding. Whenever you gain a level, you can replace it with a different rune.</p>"
+        }
+      },
+      "name": "Runeforging",
+      "description": "<p>When you finish a Long Rest, you can inscribe one of the following runes on a melee weapon you are holding, or you can transfer the rune to a different weapon. Whenever you gain a level, you can replace it with a different rune.</p><p><em><strong>Blood.</strong></em> When you inscribe this rune on your weapon, and whenever you finish a Long Rest while the rune is inscribed on your weapon, you gain Temporary Hit Points equal to your Charisma modifier plus your Paladin level. While you are wielding your inscribed weapon, you gain these Temporary Hit Points whenever you reduce an enemy to 0 Hit Points.</p><p><em><strong>Frost.</strong></em> While you are wielding your inscribed weapon, damage from your weapon attacks, Paladin spells, and Paladin features ignores Resistance to Cold damage. When you make the extra attack of the Light property and hit while wielding your inscribed weapon, you deal an extra 1d4 Cold damage.</p><p><em><strong>Unholy.</strong></em> While you are wielding your inscribed weapon, damage from your weapon attacks, Paladin spells, and Paladin features ignores Resistance to Necrotic damage. If your inscribed weapon has the Heavy property, the first creature you hit with it each turn takes extra Necrotic damage equal to your Charisma modifier (minimum of 1).</p>"
+    },
+    "Runic Mastery": {
+      "activities": {
+        "Blood Rune Mastery": {
+          "name": "Blood Rune Mastery",
+          "description": "<p>When a creature hits another creature you can see within 10 feet of you with an attack roll, you can take a Reaction to reduce the damage the target takes by your Paladin level. You then lose a number of Hit Points equal to your Paladin level.</p>",
+          "roll": "Damage Reduction",
+          "condition": "When a creature hits another creature you can see within 10 feet of you with an attack roll"
+        },
+        "Unholy Rune Mastery": {
+          "name": "Unholy Rune Mastery",
+          "description": "<p>When you cast <em>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplSummonUnde]{Summon Undead}</em>, you can modify it so that the spell doesn’t require Concentration. If you do so, the spell’s duration becomes 1 minute for that casting, and when summoned, the <strong>Undead Spirit</strong> has a number of Temporary Hit Points equal to your Paladin level plus your Charisma modifier. In addition, the first time each turn the spirit hits a creature, the spirit deals extra Necrotic damage equal to half your Paladin level (round up).</p>"
+        },
+        "Frost Rune Mastery": {
+          "description": "<p>When you take the Attack action on your turn, you can replace one attack with an exhalation of frost magic in a 30-foot Cone. Each creature in that area makes a Dexterity saving throw against your spell save DC. A creature takes 8d6 Cold damage on a failed save or half as much damage on a successful one.</p>",
+          "name": "Frost Rune Mastery"
+        }
+      },
+      "name": "Runic Mastery",
+      "description": "<p>You can invoke the power of the rune inscribed on your weapon. Once you use this feature, you can’t do so again until you finish a Long Rest. The effect depends on the rune you have inscribed.</p><p>@Embed[Compendium.dnd-world-warcraft.classes.Item.wowpdnRunicMaste.Activity.0qewIevsqXHWH6gi caption=false cite=false nameStyle=inline]{Blood}</p><p>@Embed[Compendium.dnd-world-warcraft.classes.Item.wowpdnRunicMaste.Activity.KQof5j7cLcx1UoQZ caption=false cite=false nameStyle=inline]{Frost}</p><p>@Embed[Compendium.dnd-world-warcraft.classes.Item.wowpdnRunicMaste.Activity.FCqySIWGG8FpQWwi caption=false cite=false nameStyle=inline]{Unholy}</p>"
+    },
+    "Runic Power": {
+      "name": "Runic Power",
+      "activities": {
+        "Unholy Rune Power": {
+          "description": "<p>The target of your <em>Rune Strike</em> is cursed until the end of your next turn. The next time the cursed target makes a saving throw, it subtracts 1d6 from the roll, and the curse ends.</p>",
+          "condition": "Immediately after you cast Rune Strike",
+          "name": "Unholy Rune Power"
+        },
+        "Frost Rune Power": {
+          "name": "Frost Rune Power",
+          "description": "<p>Frost covers your weapon and shatters on impact. The target of your <em>Rune Strike</em> and each enemy in a 10-foot Emanation originating from the target take 2d6 Cold damage.</p>",
+          "condition": "Immediately after you cast Rune Strike"
+        },
+        "Blood Rune Power": {
+          "name": "Blood Rune Power",
+          "description": "<p>You regain a number of Hit Points equal to the Necrotic damage dealt with your <em>Rune Strike</em>.</p>",
+          "condition": "Immediately after you cast Rune Strike"
+        }
+      },
+      "effects": {
+        "Cursed": {
+          "name": "Cursed",
+          "description": "<p>The next time you make a saving throw, subtract 1d6 from the roll. The curse then ends.</p>"
+        }
+      },
+      "description": "<p>Immediately after you cast <em>@UUID[Compendium.dnd-world-warcraft.spells.Item.wowsplRuneStrike]{Rune Strike}</em>, you can expend one use of your Channel Divinity to gain one of the following benefits based on the rune inscribed on your weapon.</p><p>@Embed[Compendium.dnd-world-warcraft.classes.Item.wowpdnRunicPower.Activity.JWDSQ9VMl7b2i708 caption=false cite=false nameStyle=inline]{Blood}</p><p>@Embed[Compendium.dnd-world-warcraft.classes.Item.wowpdnRunicPower.Activity.CioLdVJmrPWDk17G caption=false cite=false nameStyle=inline]{Frost}</p><p>@Embed[Compendium.dnd-world-warcraft.classes.Item.wowpdnRunicPower.Activity.Sq6gQ3LO5JspdAJv caption=false cite=false nameStyle=inline]{Unholy}</p>"
+    },
+    "Unholy Rune": {
+      "name": "Unholy Rune",
+      "effects": {
+        "Unholy Rune": {
+          "changes": {
+            "1": "{}<p>@Embed[Compendium.dnd-world-warcraft.classes.Item.wowpdnUnholyRune caption=false cite=false nameStyle=inline]</p>",
+            "0": "{} (Unholy)"
+          },
+          "name": "Unholy Rune",
+          "description": "<p>@Embed[Compendium.dnd-world-warcraft.classes.Item.wowpdnUnholyRune inline]</p>"
+        },
+        "Unholy Rune Curse": {
+          "name": "Unholy Rune Curse",
+          "description": "<p>The next time you make a saving throw, you subtract 1d6 from the roll, and the curse ends.</p>"
+        },
+        "Unholy Mastery": {
+          "description": "<p>While you are wielding your inscribed weapon, damage from your weapon attacks, Paladin spells, and Paladin features ignores &amp;Reference[Resistance] to Necrotic damage.</p>",
+          "name": "Unholy Mastery"
+        }
+      },
+      "advancement": {
+        "Oath of the Ebon Blade Spells": {
+          "name": "Oath of the Ebon Blade Spells"
+        }
+      },
+      "activities": {
+        "Inscribe Weapon": {
+          "name": "Inscribe Weapon"
+        }
+      },
+      "description": "<p>While you are wielding your inscribed weapon, damage from your weapon attacks, Paladin spells, and Paladin features ignores &amp;Reference[Resistance] to Necrotic damage. If your inscribed weapon has the Heavy property, the first creature you hit with it each turn takes extra Necrotic damage equal to your Charisma modifier (minimum of 1).</p>"
+    },
+    "Dashing Strikes": {
+      "activities": {
+        "Invigorate": {
+          "name": "Invigorate",
+          "condition": "When you deal Sneak Attack damage",
+          "description": "<p>Choose a creature you can see within 30 feet of yourself. Until the end of that creature’s next turn, whenever it makes an attack roll or a saving throw, it can roll 1d6 and add the number rolled to the attack roll or saving throw.</p>"
+        },
+        "Parrying Stance": {
+          "description": "<p>Roll 1d6. Until the start of your next turn, you gain a bonus to your AC equal to the number rolled.</p>",
+          "roll": "AC Increase",
+          "name": "Parrying Stance",
+          "condition": "When you deal Sneak Attack damage"
+        }
+      },
+      "name": "Dashing Strikes",
+      "effects": {
+        "Cunning Strike: Parried +2": {
+          "description": "<p>You gain a +2 bonus to your AC.</p>",
+          "name": "Cunning Strike: Parried +2"
+        },
+        "Cunning Strike: Parried +3": {
+          "description": "<p>You gain a +3 bonus to your AC.</p>",
+          "name": "Cunning Strike: Parried +3"
+        },
+        "Cunning Strike: Parried +5": {
+          "description": "<p>You gain a +5 bonus to your AC.</p>",
+          "name": "Cunning Strike: Parried +5"
+        },
+        "Cunning Strike: Parried +6": {
+          "description": "<p>You gain a +6 bonus to your AC.</p>",
+          "name": "Cunning Strike: Parried +6"
+        },
+        "Cunning Strike: Invigorated": {
+          "description": "<p>Whenever it makes an attack roll or a saving throw, it can roll 1d6 and add the number rolled to the attack roll or saving throw.</p>",
+          "name": "Cunning Strike: Invigorated"
+        },
+        "Cunning Strike: Parried +4": {
+          "description": "<p>You gain a +4 bonus to your AC.</p>",
+          "name": "Cunning Strike: Parried +4"
+        },
+        "Cunning Strike: Parried +1": {
+          "description": "<p>You gain a +1 bonus to your AC.</p>",
+          "name": "Cunning Strike: Parried +1"
+        }
+      },
+      "description": "<p>You have practiced new ways to use your Sneak Attack. The following effects are now among your Cunning Strike options.</p><p>@Embed[Compendium.dnd-world-warcraft.classes.Item.wowrgeDashinStri.Activity.OOvjpnb4pkVJu0RO caption=false cite=false nameStyle=inline]{Invigorate (Cost: 2d6)}</p><p>@Embed[Compendium.dnd-world-warcraft.classes.Item.wowrgeDashinStri.Activity.NN6U33yVboPYyOYJ caption=false cite=false nameStyle=inline]{Parrying Stance (Cost: 2d6)}</p>"
+    },
+    "Rakish Audacity": {
+      "effects": {
+        "Rakish Audacity": {
+          "description": "<p>When you roll Initiative, you can give yourself a bonus to the roll equal to your Charisma modifier.</p>",
+          "name": "Rakish Audacity"
+        }
+      },
+      "name": "Rakish Audacity",
+      "description": "<p>When you roll Initiative, you can give yourself a bonus to the roll equal to your Charisma modifier.</p><p>You also gain an additional way to use your Sneak Attack: You don’t need Advantage on the attack roll to use your Sneak Attack against a creature if you are within 5 feet of it, no other creatures are within 5 feet of you, and you don’t have Disadvantage on the attack roll. All the other rules for Sneak Attack still apply to you.</p><section id=\"secret-XcBE1DBQkg95nvHl\" class=\"secret hide-in-embed\"><p><strong>Foundry Note</strong></p><p>The Rakish Audacity effect applies the Charisma modifier automatically. If the modifier is negative, disable the effect before rolling Initiative.</p></section>"
+    },
+    "Swashbuckler": {
+      "name": "Swashbuckler",
+      "description": "<div class=\"item-entry-details\"><p class=\"item-entry-tag\">Glide into Melee with Panache and Agility</p></div><p>As a Swashbuckler, you focus on the art of the blade, bringing speed, elegance, and charm to your combat style—topped off with an exquisite flourish of panache. You excel in single combat, and your methods make a duel look like a flamboyant performance.</p>"
+    },
+    "Deft Explorer": {
+      "description": "<div class=\"hide-in-embed\"><p>@Embed[Compendium.dnd5e.classes24.Item.phbrgrDeftExplor inline]</p><hr><h5>Demon Hunter</h5></div><p>When you choose languages for the Deft Explorer class feature, choose from the language tables in chapter 2. Eredun and Nathrezim are recommended.</p>",
+      "name": "Deft Explorer",
+      "advancement": {
+        "Expertise": {
+          "name": "Expertise"
+        }
+      }
+    },
+    "Havoc Spells": {
+      "name": "Havoc Spells",
+      "advancement": {
+        "Demon Hunter Spells": {
+          "name": "Demon Hunter Spells"
+        }
+      },
+      "description": "<table><caption><p>Demon Hunter Spells</p></caption><thead><tr><th scope=\"col\"><p>Ranger Level</p></th><th scope=\"col\"><p>Spells</p></th></tr></thead><tbody><tr><td><p>3</p></td><td><p><em>@UUID[Compendium.dnd-world-warcraft.spells.Item.wowsplFelRush000]{Fel Rush*}</em></p></td></tr><tr><td><p>5</p></td><td><p><em>@UUID[Compendium.dnd-world-warcraft.spells.Item.wowsplEyeBeam000]{Eye Beam*}</em></p></td></tr><tr><td><p>9</p></td><td><p><em>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplBlink00000]{Blink}</em></p></td></tr><tr><td><p>13</p></td><td><p><em>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplFireShield]{Fire Shield}</em></p></td></tr><tr><td><p>17</p></td><td><p><em>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplConjureVol]{Conjure Volley}</em></p></td></tr></tbody></table>"
+    },
+    "Devourer Spells": {
+      "advancement": {
+        "Demon Hunter Spells": {
+          "name": "Demon Hunter Spells"
+        }
+      },
+      "name": "Devourer Spells",
+      "description": "<table><caption><p>Demon Hunter Spells</p></caption><thead><tr><th scope=\"col\"><p>Ranger Level</p></th><th scope=\"col\"><p>Spells</p></th></tr></thead><tbody><tr><td><p>3</p></td><td><p><em>@UUID[Compendium.dnd-world-warcraft.spells.Item.wowsplConsumSoul]{Consume Soul*}</em></p></td></tr><tr><td><p>5</p></td><td><p><em>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplMistyStep0]{Misty Step}</em></p></td></tr><tr><td><p>9</p></td><td><p><em>@UUID[Compendium.dnd-world-warcraft.spells.Item.wowsplSoulReap00]{Soul Reap*}</em></p></td></tr><tr><td><p>13</p></td><td><p><em>@UUID[Compendium.dnd-world-warcraft.spells.Item.wowsplCollapStar]{Collapsing Star*}</em></p></td></tr><tr><td><p>17</p></td><td><p><em>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplSteelWindS]{Steel Wind Strike}</em></p></td></tr></tbody></table>"
+    },
+    "Fighting Style": {
+      "name": "Fighting Style",
+      "advancement": {
+        "AtKKnCoTLBqSxhCh": {
+          "hint": "<div class=\"hide-in-embed\"><p>You gain a Fighting Style feat of your choice. Instead of choosing one of those feats, you can choose the option below.</p></div>"
+        }
+      },
+      "description": "<div class=\"hide-in-embed\"><p>@Embed[Compendium.dnd5e.classes24.Item.phbrgrFightingSt inline]</p><hr><h5>Demon Hunter</h5></div><p>As a Demon Hunter, you can choose a Fighting Style feat, the Druidic Warrior option in the <em>Player’s Handbook</em>, or the Void Warrior option below.</p><p>@Embed[Compendium.dnd-world-warcraft.classes.Item.wowrngVoidWarrio caption=false nameStyle=inline]</p>"
+    },
+    "Illidari Knowledge": {
+      "name": "Illidari Knowledge",
+      "description": "<p>You gain new mastery over souls, granting you new ways to use soul fragments:</p><p>@Embed[Compendium.dnd-world-warcraft.classes.Item.wowrngSoulFragme.Activity.eo1Ttrwunz0Efisn caption=false cite=false classes=\"subfeature\" nameStyle=inline]</p><p>@Embed[Compendium.dnd-world-warcraft.classes.Item.wowrngSoulFragme.Activity.dxylXLNPPTf3PpfR caption=false cite=false classes=\"subfeature\" nameStyle=inline]</p>"
+    },
+    "Pet Specialization": {
+      "effects": {
+        "Ferocity Specialization": {
+          "description": "<p>When your primal beast is &amp;Reference[Bloodied] and it hits with its Beast’s Strike attack, you and your primal beast each regain Hit Points equal to your Wisdom modifier. In addition, your primal beast can use its action to cast <em>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplHaste00000]{Haste}</em> without any spell components, affecting itself and you (if you are within range). Once it does so, it can’t do so again until you finish a Long Rest.</p>",
+          "changes": {
+            "0": "{} (Ferocity)"
+          },
+          "name": "Ferocity Specialization"
+        },
+        "Tenacity Health": {
+          "name": "Tenacity Health",
+          "description": "<p>Your Hit Point maximum increases by 6. Whenever you gain a Ranger level, your Hit Point maximum increases by an additional 1 Hit Point. Your primal beast’s Hit Point maximum also increases by your Ranger level.</p>"
+        },
+        "Tenacity Specialization": {
+          "changes": {
+            "0": "{} (Tenacity)"
+          },
+          "description": "<p>Your Hit Point maximum increases by 6. Whenever you gain a Ranger level, your Hit Point maximum increases by an additional 1 Hit Point. Your primal beast’s Hit Point maximum also increases by your Ranger level. In addition, your primal beast can use its action to cast <em>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplStoneskin0]{Stoneskin}</em> without any spell components, affecting itself and you (if you are within range). Once it does so, it can’t do so again until you finish a Long Rest.</p>",
+          "name": "Tenacity Specialization"
+        },
+        "Cunning Specialization": {
+          "changes": {
+            "0": "{} (Cunning)"
+          },
+          "name": "Cunning Specialization",
+          "description": "<p>Your Speed and all of your primal beast’s speeds increase by 10 feet. In addition, your primal beast can use its action to cast <em>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplFreedomofM]{Freedom of Movement}</em> without any spell components, affecting itself and you (if you are within range). Once it does so, it can’t do so again until you finish a Long Rest.</p>"
+        },
+        "Cunning Speed": {
+          "name": "Cunning Speed",
+          "description": "<p>Your Speed and all of your primal beast’s speeds increase by 10 feet.</p>"
+        }
+      },
+      "description": "<p>While the beast from your Primal Companion feature is within 60 feet of you, you gain one of the following benefits, depending on the beast’s pet family and its specialization (see “Hunter Pets”).</p><p><em><strong>Cunning.</strong></em> Your Speed and all of your primal beast’s speeds increase by 10 feet. In addition, your primal beast can use its action to cast <em>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplFreedomofM]{Freedom of Movement}</em> without any spell components, affecting itself and you (if you are within range). Once it does so, it can’t do so again until you finish a Long Rest.</p><p><em><strong>Ferocity.</strong></em> When your primal beast is &amp;Reference[Bloodied] and it hits with its Beast’s Strike attack, you and your primal beast each regain Hit Points equal to your Wisdom modifier. In addition, your primal beast can use its action to cast <em>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplHaste00000]{Haste}</em> without any spell components, affecting itself and you (if you are within range). Once it does so, it can’t do so again until you finish a Long Rest.</p><p><em><strong>Tenacity.</strong></em> Your Hit Point maximum increases by 6. Whenever you gain a Ranger level, your Hit Point maximum increases by an additional 1 Hit Point. Your primal beast’s Hit Point maximum also increases by your Ranger level. In addition, your primal beast can use its action to cast <em>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplStoneskin0]{Stoneskin}</em> without any spell components, affecting itself and you (if you are within range). Once it does so, it can’t do so again until you finish a Long Rest.</p>",
+      "activities": {
+        "Heal": {
+          "condition": "When your primal beast is Bloodied and it hits with its Beast's Strike attack",
+          "target": "You and your primal beast",
+          "name": "Heal"
+        },
+        "Select Specialization": {
+          "name": "Select Specialization"
+        }
+      },
+      "name": "Pet Specialization"
+    },
+    "Soul Fragments": {
+      "activities": {
+        "Regain Soul Fragment": {
+          "name": "Regain Soul Fragment",
+          "description": "<p>When an enemy you can see within 30 feet of you dies, you can take a Reaction to regain one expended soul fragment.</p>",
+          "condition": "When an enemy you can see within 30 feet of you dies"
+        },
+        "Soul Cleave: Save": {
+          "description": "<p>Once on each of your turns, when you take the Attack action, you can expend one soul fragment and replace one of your attacks with a whirlwind of soul energy. Each creature in a 10-foot Emanation originating from you makes a Dexterity saving throw. On a failed save, a creature takes Psychic damage equal to 1d12 plus your Wisdom modifier, and you regain Hit Points equal to your Wisdom modifier.</p>",
+          "name": "Soul Cleave: Save",
+          "condition": "When you take the Attack action"
+        },
+        "Soul Cleave: Heal": {
+          "name": "Soul Cleave: Heal",
+          "description": "<p>Once on each of your turns, when you take the Attack action, you can expend one soul fragment and replace one of your attacks with a whirlwind of soul energy. Each creature in a 10-foot Emanation originating from you makes a Dexterity saving throw. On a failed save, a creature takes Psychic damage equal to 1d12 plus your Wisdom modifier, and you regain Hit Points equal to your Wisdom modifier.</p>",
+          "condition": "When you use Soul Cleave"
+        },
+        "Disrupt": {
+          "name": "Disrupt",
+          "description": "<p>You can expend two soul fragments to cast <em>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplCounterspe]{Counterspell}</em> in response to that spell’s trigger, using your spellcasting ability.</p>"
+        },
+        "cyBJTZ7VFAPf9nrH": {
+          "description": "<p>Once on each of your turns, when you take the Attack action, you can expend one soul fragment and replace one of your attacks with a whirlwind of soul energy. Each creature in a 10-foot Emanation originating from you makes a Dexterity saving throw. On a failed save, a creature takes Psychic damage equal to 1d12 plus your Wisdom modifier, and you regain Hit Points equal to your Wisdom modifier.</p>",
+          "name": "Soul Cleave: Save",
+          "condition": "When you take the Attack action"
+        },
+        "Double Jump: Feather Fall": {
+          "name": "Double Jump: Feather Fall"
+        },
+        "Warglaive Mastery": {
+          "name": "Warglaive Mastery",
+          "description": "<p>As a Bonus Action, you can expend one soul fragment to cast <em>@UUID[Compendium.dnd-world-warcraft.spells.Item.wowsplThrowGlaiv]{Throw Glaive}</em> (see “Demon Hunter Spells”) without expending a spell slot.</p>"
+        },
+        "Double Jump: Jump": {
+          "name": "Double Jump: Jump"
+        }
+      },
+      "name": "Soul Fragments",
+      "description": "<p>You harvest the energy of souls to fuel some of your special powers. Whenever you finish a Long Rest, you gain a number of soul fragments equal to your Wisdom modifier (minimum of one fragment); each soul fragment is a Tiny object in the form of a crystal. These fragments last until you finish another Long Rest, at which point they disintegrate. If you ever move more than 30 feet from a fragment, the fragment immediately teleports to you, appearing somewhere on your person.</p><p>If a soul fragment effect requires a saving throw, the DC equals your Ranger spell save DC.</p><p>The number of soul fragments you gain when you finish a Long Rest increases when you reach Ranger levels 13 (Wisdom modifier plus one soul fragment) and 17 (Wisdom modifier plus two soul fragments).</p><p><em><strong>Using Soul Fragments.</strong></em> You can use soul fragments in the following ways:</p><p class=\"subfeature\"><strong>Double Jump.</strong> You can expend one soul fragment to cast <em>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplFeatherFal]{Feather Fall}</em> or <em>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplJump000000]{Jump}</em> without expending a spell slot.</p><p class=\"subfeature\"><strong>Soul Cleave.</strong> Once on each of your turns, when you take the &amp;Reference[Attack] action, you can expend one soul fragment and replace one of your attacks with a whirlwind of soul energy. Each creature in a 10-foot Emanation originating from you makes a Dexterity saving throw. On a failed save, a creature takes Psychic damage equal to 1d12 plus your Wisdom modifier, and you regain Hit Points equal to your Wisdom modifier.</p><p><em><strong>Regaining Soul Fragments.</strong></em> When an enemy you can see within 30 feet of you dies, you can take a Reaction to regain one expended soul fragment.</p>",
+      "advancement": {
+        "Extra Soul Fragments": {
+          "name": "Extra Soul Fragments"
+        }
+      }
+    },
+    "Spectral Sight": {
+      "effects": {
+        "Spectral Sight": {
+          "name": "Spectral Sight",
+          "description": "<p>You have &amp;Reference[Blindsight] with a range of 10 feet.</p>"
+        }
+      },
+      "description": "<p>You have &amp;Reference[Blindsight] with a range of 10 feet.</p>",
+      "name": "Spectral Sight"
+    },
+    "Demon Hunter Spells": {
+      "name": "Demon Hunter Spells",
+      "description": "<p>When you reach a Ranger level specified in the Demon Hunter Spells table, you thereafter always have the spell in the Spells (All) column prepared. You also have the additional spells listed in one other column of your choice.</p><table><caption><p>Demon Hunter Spells</p></caption><thead><tr><th scope=\"col\"><p>Ranger Level</p></th><th scope=\"col\"><p>Spells (All)</p></th><th scope=\"col\"><p>Spells (Devourer)</p></th><th scope=\"col\"><p>Spells (Havoc)</p></th><th scope=\"col\"><p>Spells (Vengeance)</p></th></tr></thead><tbody><tr><td><p>3</p></td><td><p><em>@UUID[Compendium.dnd-world-warcraft.spells.Item.wowsplThrowGlaiv]{Throw Glaive*}</em></p></td><td><p><em>@UUID[Compendium.dnd-world-warcraft.spells.Item.wowsplConsumSoul]{Consume Soul*}</em></p></td><td><p><em>@UUID[Compendium.dnd-world-warcraft.spells.Item.wowsplFelRush000]{Fel Rush*}</em></p></td><td><p><em>@UUID[Compendium.dnd-world-warcraft.spells.Item.wowsplInfernStri]{Infernal Strike*}</em></p></td></tr><tr><td><p>5</p></td><td><p><em>@UUID[Compendium.dnd-world-warcraft.spells.Item.wowsplSigilFlame]{Sigil of Flame*}</em></p></td><td><p><em>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplMistyStep0]{Misty Step}</em></p></td><td><p><em>@UUID[Compendium.dnd-world-warcraft.spells.Item.wowsplEyeBeam000]{Eye Beam*}</em></p></td><td><p><em>@UUID[Compendium.dnd-world-warcraft.spells.Item.wowsplFieryBrand]{Fiery Brand*}</em></p></td></tr><tr><td><p>9</p></td><td><p><em>@UUID[Compendium.dnd-world-warcraft.spells.Item.wowsplMetamorpho]{Metamorphosis*}</em></p></td><td><p><em>@UUID[Compendium.dnd-world-warcraft.spells.Item.wowsplSoulReap00]{Soul Reap*}</em></p></td><td><p><em>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplBlink00000]{Blink}</em></p></td><td><p><em>@UUID[Compendium.dnd-world-warcraft.spells.Item.wowsplDemonSpike]{Demon Spikes*}</em></p></td></tr><tr><td><p>13</p></td><td><p><em>@UUID[Compendium.dnd-world-warcraft.spells.Item.wowsplChaosNova0]{Chaos Nova*}</em></p></td><td><p><em>@UUID[Compendium.dnd-world-warcraft.spells.Item.wowsplCollapStar]{Collapsing Star*}</em></p></td><td><p><em>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplFireShield]{Fire Shield}</em></p></td><td><p><em>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplBanishment]{Banishment}</em></p></td></tr><tr><td><p>17</p></td><td><p><em>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplDestructiv]{Destructive Wave}</em></p></td><td><p><em>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplSteelWindS]{Steel Wind Strike}</em></p></td><td><p><em>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplConjureVol]{Conjure Volley}</em></p></td><td><p><em>@UUID[Compendium.dnd-world-warcraft.spells.Item.wowsplSigilChain]{Sigil of Chains*}</em></p></td></tr></tbody></table>",
+      "advancement": {
+        "5vRLrx0tbpgysq3i": {
+          "hint": "<p>@Embed[Compendium.dnd-world-warcraft.classes.Item.wowrngSpellsDemo inline]</p>"
+        }
+      }
+    },
+    "Torment": {
+      "activities": {
+        "Aura of Pain": {
+          "name": "Aura of Pain",
+          "roll": "Save Reduction",
+          "description": "<p>The target subtracts 1d4 from the next saving throw it makes before the end of your next turn.</p>",
+          "condition": "When you hit a creature marked by your Hunter's Mark with an attack roll with a weapon or a Ranger spell"
+        },
+        "Chaos Strike": {
+          "condition": "When you hit a creature marked by your Hunter's Mark with an attack roll with a weapon or a Ranger spell",
+          "name": "Chaos Strike",
+          "description": "<p>The target takes an extra 1d8 Fire damage.</p>"
+        }
+      },
+      "name": "Torment",
+      "description": "<p>A creature marked by your <em>@UUID[Compendium.dnd5e.spells24.Item.phbsplHuntersMar]{Hunter’s Mark}</em> spell has Disadvantage on attack rolls against targets other than you.</p><p>Additionally, once per turn when you hit a creature marked by your <em>Hunter’s Mark</em> with an attack roll with a weapon or a Ranger spell, you can impose one of the following effects on the target (your choice):</p><p>@Embed[Compendium.dnd-world-warcraft.classes.Item.wowrngTorment000.Activity.5z3zbbkK0swd0noL caption=false cite=false classes=\"subfeature\" nameStyle=inline]</p><p>@Embed[Compendium.dnd-world-warcraft.classes.Item.wowrngTorment000.Activity.M3EsIQmvowFc2pjH caption=false cite=false classes=\"subfeature\" nameStyle=inline]</p>"
+    },
+    "Spellcasting": {
+      "name": "Spellcasting",
+      "description": "<div class=\"hide-in-embed\">\n    <p>@Embed[Compendium.dnd5e.classes24.Item.phbrgrSpellcasti inline]</p>\n    <hr>\n    <h5>Demon Hunter</h5>\n</div>\n<p>You can use an Arcane Focus (not a Druidic Focus) as a Spellcasting Focus for your Ranger spells.</p>"
+    },
+    "Holy Bolt": {
+      "activities": {
+        "Ascending Step": {
+          "name": "Ascending Step",
+          "condition": "When you use Holy Bolt before you make an attack roll",
+          "description": "<p>When you use Holy Bolt, you can teleport to an unoccupied space you can see within 30 feet before you make an attack roll.</p>"
+        },
+        "Holy Bolt": {
+          "name": "Holy Bolt"
+        },
+        "heal": {
+          "condition": "when you hit with Holy Bolt"
+        },
+        "Ascending Volley": {
+          "name": "Ascending Volley",
+          "description": "<p>When you use Holy Bolt, you can expend a spell slot as part of the Bonus Action to hurl a number of additional bolts equal to the spell slot level expended. You can direct the bolts to hit one creature or several. Make a separate attack roll for each bolt.</p>"
+        }
+      },
+      "name": "Holy Bolt",
+      "description": "<p>As a Bonus Action, you present your Holy Symbol and expend a use of your Channel Divinity to make a ranged spell attack, hurling a bolt of holy energy targeting one creature within 60 feet of yourself. On a hit, the target takes Radiant damage equal to 2d10 plus your Wisdom modifier, and you can choose a creature you can see within 60 feet of yourself to regain Hit Points equal to 1d10 plus your Wisdom modifier.</p>"
+    },
+    "Evoker Spells": {
+      "description": "<p>When you reach a Sorcerer level specified in the Evoker Spells table, you thereafter always have the spells in the Spells (All) column prepared. You also have the additional spells listed in one other column of your choice.</p><table><caption><p>Evoker Spells</p></caption><thead><tr><th><p>Sorcerer Level</p></th><th><p>Spells (All)</p></th><th><p>Spells (Augmentation)</p></th><th><p>Spells (Devastation)</p></th><th><p>Spells (Preservation)</p></th></tr></thead><tbody><tr><td><p>3</p></td><td><p><em>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplChromaticO]{Chromatic Orb}, @UUID[Compendium.dnd-players-handbook.spells.Item.phbsplDragonsBre]{Dragon’s Breath}</em></p></td><td><p><em>@UUID[Compendium.dnd-world-warcraft.spells.Item.wowsplEbonMight0]{Ebon Might*}, @UUID[Compendium.dnd-world-warcraft.spells.Item.wowsplEruption00]{Eruption*}</em></p></td><td><p><em>@UUID[Compendium.dnd-world-warcraft.spells.Item.wowsplAzureStrik]{Azure Strike*}, @UUID[Compendium.dnd-players-handbook.spells.Item.phbsplScorchingR]{Scorching Ray}</em></p></td><td><p><em>@UUID[Compendium.dnd-world-warcraft.spells.Item.wowsplDreamBreat]{Dream Breath*}, @UUID[Compendium.dnd-world-warcraft.spells.Item.wowsplLivingFlam]{Living Flame*}</em></p></td></tr><tr><td><p>5</p></td><td><p><em>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplFly0000000]{Fly}</em></p></td><td><p><em>@UUID[Compendium.dnd-world-warcraft.spells.Item.wowsplBlisteScal]{Blistering Scales*}</em></p></td><td><p><em>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplFireball00]{Fireball}</em></p></td><td><p><em>@UUID[Compendium.dnd-world-warcraft.spells.Item.wowsplEmeralBlos]{Emerald Blossom*}</em></p></td></tr><tr><td><p>7</p></td><td><p><em>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplArcaneEye0]{Arcane Eye}</em></p></td><td><p><em>@UUID[Compendium.dnd-world-warcraft.spells.Item.wowsplUpheaval00]{Upheaval*}</em></p></td><td><p>@UUID[Compendium.dnd-world-warcraft.spells.Item.wowsplEmberstorm]{Emberstorm*}</p></td><td><p><em>@UUID[Compendium.dnd-world-warcraft.spells.Item.wowsplTimeDilati]{Time Dilation*}</em></p></td></tr><tr><td><p>9</p></td><td><p><em>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplSummonDrag]{Summon Dragon}</em></p></td><td><p><em>@UUID[Compendium.dnd-world-warcraft.spells.Item.wowsplBreathEons]{Breath of Eons*}</em></p></td><td><p><em>@UUID[Compendium.dnd-world-warcraft.spells.Item.wowsplShatteStar]{Shattering Star*}</em></p></td><td><p><em>@UUID[Compendium.dnd-world-warcraft.spells.Item.wowsplDreamFligh]{Dream Flight*}</em></p></td></tr></tbody></table><p>*See @UUID[Compendium.dnd-world-warcraft.book.JournalEntry.wowEvoker0000000.JournalEntryPage.HQrv2yJB3d6uI8on]{New Evoker Spells}.</p>",
+      "advancement": {
+        "Mhetvn5tjbxwccRq": {
+          "hint": "<p>@Embed[Compendium.dnd-world-warcraft.classes.Item.wowsrcEvokerSpel inline]</p>"
+        }
+      },
+      "name": "Evoker Spells"
+    },
+    "Barbarian Renown (Earthen Ring)": {
+      "name": "Barbarian Renown (Earthen Ring)",
+      "description": "<p>Adopting the Barbarian class as a shaman, either at character creation or through multiclassing, increases a character’s Renown Score with the @UUID[Compendium.dnd-world-warcraft.book.JournalEntry.wowEarthenRing00]{Earthen Ring} by 3.</p>"
+    },
+    "Tipsy Sway": {
+      "activities": {
+        "Redirect Attack": {
+          "description": "<p>When an enemy misses you with a melee attack roll, you can take a Reaction and spend 1 Focus Point to cause that attack to hit one creature of your choice, other than the attacker, that you can see within 5 feet of yourself.</p>",
+          "name": "Redirect Attack",
+          "condition": "When an enemy misses you with a melee attack roll"
+        }
+      },
+      "name": "Tipsy Sway",
+      "description": "<p>You can move in sudden, swaying ways. You gain the following benefits.</p><p><em><strong>Leap to Your Feet.</strong></em> When you have the &amp;Reference[Prone apply=false] condition, you can stand up by spending 5 feet of movement.</p><p>@Embed[Compendium.dnd-world-warcraft.classes.Item.wowmnkTipsySway0.Activity.FazaOhVY8fYMedL1 caption=false cite=false nameStyle=inline]</p>"
+    },
+    "Augmentation Spells": {
+      "advancement": {
+        "Evoker Spells": {
+          "name": "Evoker Spells"
+        }
+      },
+      "description": "<table><caption><p>Evoker Spells</p></caption><thead><tr><th><p>Sorcerer Level</p></th><th><p>Spells</p></th></tr></thead><tbody><tr><td><p>3</p></td><td><p><em>@UUID[Compendium.dnd-world-warcraft.spells.Item.wowsplEbonMight0]{Ebon Might*}, @UUID[Compendium.dnd-world-warcraft.spells.Item.wowsplEruption00]{Eruption*}</em></p></td></tr><tr><td><p>5</p></td><td><p><em>@UUID[Compendium.dnd-world-warcraft.spells.Item.wowsplBlisteScal]{Blistering Scales*}</em></p></td></tr><tr><td><p>7</p></td><td><p><em>@UUID[Compendium.dnd-world-warcraft.spells.Item.wowsplUpheaval00]{Upheaval*}</em></p></td></tr><tr><td><p>9</p></td><td><p><em>@UUID[Compendium.dnd-world-warcraft.spells.Item.wowsplBreathEons]{Breath of Eons*}</em></p></td></tr></tbody></table><p>*See “New Evoker Spells.”</p>",
+      "name": "Augmentation Spells"
+    },
+    "Devastation Spells": {
+      "name": "Devastation Spells",
+      "advancement": {
+        "Evoker Spells": {
+          "name": "Evoker Spells"
+        }
+      },
+      "description": "<table><caption><p>Evoker Spells</p></caption><thead><tr><th><p>Sorcerer Level</p></th><th><p>Spells</p></th></tr></thead><tbody><tr><td><p>3</p></td><td><p><em>@UUID[Compendium.dnd-world-warcraft.spells.Item.wowsplAzureStrik]{Azure Strike*}, @UUID[Compendium.dnd-players-handbook.spells.Item.phbsplScorchingR]{Scorching Ray}</em></p></td></tr><tr><td><p>5</p></td><td><p><em>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplFireball00]{Fireball}</em></p></td></tr><tr><td><p>7</p></td><td><p>@UUID[Compendium.dnd-world-warcraft.spells.Item.wowsplEmberstorm]{Emberstorm*}</p></td></tr><tr><td><p>9</p></td><td><p><em>@UUID[Compendium.dnd-world-warcraft.spells.Item.wowsplShatteStar]{Shattering Star*}</em></p></td></tr></tbody></table><p>*See “New Evoker Spells.”</p>"
+    },
+    "Preservation Spells": {
+      "name": "Preservation Spells",
+      "description": "<table><caption><p>Evoker Spells</p></caption><thead><tr><th><p>Sorcerer Level</p></th><th><p>Spells</p></th></tr></thead><tbody><tr><td><p>3</p></td><td><p><em>@UUID[Compendium.dnd-world-warcraft.spells.Item.wowsplDreamBreat]{Dream Breath*}, @UUID[Compendium.dnd-world-warcraft.spells.Item.wowsplLivingFlam]{Living Flame*}</em></p></td></tr><tr><td><p>5</p></td><td><p><em>@UUID[Compendium.dnd-world-warcraft.spells.Item.wowsplEmeralBlos]{Emerald Blossom*}</em></p></td></tr><tr><td><p>7</p></td><td><p><em>@UUID[Compendium.dnd-world-warcraft.spells.Item.wowsplTimeDilati]{Time Dilation*}</em></p></td></tr><tr><td><p>9</p></td><td><p><em>@UUID[Compendium.dnd-world-warcraft.spells.Item.wowsplDreamFligh]{Dream Flight*}</em></p></td></tr></tbody></table><p>*See “New Evoker Spells.”</p>",
+      "advancement": {
+        "Evoker Spells": {
+          "name": "Evoker Spells"
+        }
+      }
+    },
+    "Master Duelist": {
+      "name": "Master Duelist",
+      "description": "<p>Immediately after you use your Sneak Attack, you can make another attack against the same target, provided you are within 5 feet of it and no other creatures are within 5 feet of you.</p>"
+    },
+    "Improved Spectral Sight": {
+      "description": "<p>You have &amp;Reference[Truesight] with a range of 30 feet.</p>",
+      "effects": {
+        "Improved Spectral Sight": {
+          "name": "Improved Spectral Sight",
+          "description": "<p>You have &amp;Reference[Truesight] with a range of 30 feet.</p>"
+        }
+      },
+      "name": "Improved Spectral Sight"
+    },
+    "Heroic Leap": {
+      "name": "Heroic Leap",
+      "activities": {
+        "Leap": {
+          "name": "Leap"
+        }
+      },
+      "description": "<p>As a Bonus Action, you can expend one Superiority Die to jump a number of feet up to your Strength score. Creatures within 5 feet of you when you land make a Strength saving throw, taking Bludgeoning damage equal to the Superiority Die roll on a failed save, or half as much damage on a successful one.</p>"
+    },
+    "Discipline Spells": {
+      "name": "Discipline Spells",
+      "advancement": {
+        "Discipline Spells": {
+          "name": "Discipline Spells"
+        }
+      },
+      "description": "<p>Your connection to this domain ensures you always have certain spells ready. When you reach a Cleric level specified in the Discipline Domain Spells table, you thereafter always have the listed spells prepared.</p><table><caption><p>Discipline Domain Spells</p></caption><thead><tr><th scope=\"col\"><p>Cleric Level</p></th><th scope=\"col\"><p><br>Spells</p></th></tr></thead><tbody><tr><td><p>3</p></td><td><p><em>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplArcaneVigo]{Arcane Vigor}</em>, <em>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplGuidingBol]{Guiding Bolt}</em>, <em>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplMagicWeapo]{Magic Weapon}</em>, <em>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplShieldofFa]{Shield of Faith}</em></p></td></tr><tr><td><p>5</p></td><td><p><em>@UUID[Compendium.dnd-world-warcraft.spells.Item.wowsplPrayerMend]{Prayer of Mending*},</em> <em>@UUID[Compendium.dnd-players-handbook.spells.Item.phbProtectionFro]{Protection from Energy}</em></p></td></tr><tr><td><p>7</p></td><td><p><em>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplGuardianof]{Guardian of Faith}</em>, <em>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplStoneskin0]{Stoneskin}</em></p></td></tr><tr><td><p>9</p></td><td><p><em>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplCircleofPo]{Circle of Power}</em>, <em>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplDestructiv]{Destructive Wave}</em></p></td></tr></tbody></table><p>*See “Priest Spells.”</p>"
+    },
+    "Shadow Spells": {
+      "name": "Shadow Spells",
+      "advancement": {
+        "Shadow Spells": {
+          "name": "Shadow Spells"
+        }
+      },
+      "description": "<p>Your connection to this domain ensures you always have certain spells ready. When you reach a Cleric level specified in the Shadow Domain Spells table, you thereafter always have the listed spells prepared.</p><table><caption><p>Shadow Domain Spells</p></caption><thead><tr><th scope=\"col\"><p>Cleric Level</p></th><th scope=\"col\"><p><br>Spells</p></th></tr></thead><tbody><tr><td><p>3</p></td><td><p><em>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplCrownofMad]{Crown of Madness}</em>, <em>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplDissonantW]{Dissonant Whispers}</em>, <em>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplMindSpike0]{Mind Spike}</em>, <em>@UUID[Compendium.dnd-world-warcraft.spells.Item.wowsplShadowWord]{Shadow Word: Pain*}</em></p></td></tr><tr><td><p>5</p></td><td><p><em>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplSummonUnde]{Summon Undead}</em>, <em>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplVampiricTo]{Vampiric Touch}</em></p></td></tr><tr><td><p>7</p></td><td><p><em>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplEvardsBlac]{Evard’s Black Tentacles}</em>, <em>@UUID[Compendium.dnd-world-warcraft.spells.Item.wowsplPsychiHorr]{Psychic Horror*}</em></p></td></tr><tr><td><p>9</p></td><td><p><em>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplDominatePe]{Dominate Person}</em>, <em>@UUID[Compendium.dnd-world-warcraft.spells.Item.wowsplVoidErupti]{Void Eruption*}</em></p></td></tr></tbody></table><p>*See “Priest Spells.”</p>"
+    },
+    "Blood Rune": {
+      "advancement": {
+        "Oath of the Ebon Blade Spells": {
+          "name": "Oath of the Ebon Blade Spells"
+        }
+      },
+      "name": "Blood Rune",
+      "effects": {
+        "Blood Rune": {
+          "name": "Blood Rune",
+          "changes": {
+            "0": "{} (Blood)",
+            "1": "{}<p>@Embed[Compendium.dnd-world-warcraft.classes.Item.wowpdnBloodRune0 caption=false cite=false nameStyle=inline]</p>"
+          }
+        }
+      },
+      "activities": {
+        "Temporary Hit Points": {
+          "condition": "When you inscribe this run, finish a Long Rest, or reduce an enemy to 0 Hit Points with this weapon",
+          "name": "Temporary Hit Points"
+        },
+        "Inscribe Weapon": {
+          "name": "Inscribe Weapon"
+        }
+      },
+      "description": "<p>When you inscribe this rune on your weapon, and whenever you finish a Long Rest while the rune is inscribed on your weapon, you gain Temporary Hit Points equal to your Charisma modifier plus your Paladin level. While you are wielding your inscribed weapon, you gain these Temporary Hit Points whenever you reduce an enemy to 0 Hit Points.</p>"
+    },
+    "Health Funnel": {
+      "name": "Health Funnel",
+      "description": "<div class=\"item-entry-details\"><p class=\"item-entry-tag\">Prerequisite: Level 2+ Warlock</p></div><p>As a Bonus Action, you can expend any number of your unexpended Hit Dice to roll those dice, add your Charisma modifier to each die, and total the rolls. Your familiar or another Fiend you command gains that many Temporary Hit Points.</p>",
+      "activities": {
+        "heal": {
+          "target": "Your familiar or another Fiend you command"
+        }
+      }
+    },
+    "Legion Summoning": {
+      "name": "Legion Summoning",
+      "activities": {
+        "summon": {
+          "condition": "When you cast Planar Binding using this invocation"
+        }
+      },
+      "description": "<div class=\"item-entry-details\"><p class=\"item-entry-tag\">Prerequisite: Level 9+ Warlock, Pact of the Legion Invocation</p></div><p>You can cast <em>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplPlanarBind]{Planar Binding}</em> without expending a spell slot. When you do, you summon a <strong>@UUID[Compendium.dnd-world-warcraft.actors.Actor.wowFelguardtHf0N]{Felguard}</strong>, a <strong>@UUID[Compendium.dnd-world-warcraft.actors.Actor.wowFelhoundNi2CR]{Felhound}</strong>, an <strong>@UUID[Compendium.dnd-monster-manual.actors.Actor.mmIncubus0000000]{Incubus}</strong>, or a <strong>@UUID[Compendium.dnd-monster-manual.actors.Actor.mmSuccubus000000]{Succubus}</strong>, and that Fiend becomes the target of the spell. (Felguards and felhounds are described in chapter 7.) Once you cast the spell in this way, you can’t do so again until you finish a Long Rest.</p>"
+    },
+    "Expendable Minions": {
+      "activities": {
+        "heal": {
+          "condition": "When your familiar or a summoned creature you control dies"
+        }
+      },
+      "name": "Expendable Minions",
+      "description": "<div class=\"item-entry-details\"><p class=\"item-entry-tag\">Prerequisite: Level 9+ Warlock</p></div><p>When your familiar or a summoned creature you control dies, you or another creature within 60 feet of you regains Hit Points equal to your Warlock level plus your Charisma modifier.</p>"
+    },
+    "Beacon of Light": {
+      "effects": {
+        "Holy Energy": {
+          "name": "Holy Energy",
+          "description": "<p>Anytime you heal a creature other than the affected ally with a spell or your Lay On Hands, the chosen ally also regains half as many Hit Points.</p>"
+        }
+      },
+      "name": "Beacon of Light",
+      "description": "<p>As a &amp;Reference[Magic] action, you can expend one use of your Channel Divinity to wrap an ally within 60 feet in holy energy. For 1 minute, anytime you heal a creature other than the affected ally with a spell or your Lay On Hands, the chosen ally also regains half as many Hit Points.</p>"
+    },
+    "Mystic Brew": {
+      "name": "Mystic Brew",
+      "activities": {
+        "Brew (Enhanced)": {
+          "name": "Brew (Enhanced)"
+        },
+        "HB50RwHx79JB8Dl1": {
+          "name": "Brew (Enhanced)"
+        },
+        "3xeUFZkPkoHCLmuC": {
+          "name": "Brew"
+        },
+        "Brew": {
+          "name": "Brew"
+        }
+      },
+      "description": "<p>Whenever you finish a Short or Long Rest while holding Brewer’s Supplies, you can use that tool to magically produce one magical beverage, chosen from the following options: Cinnamon Dragon, Heavenly Spirit, or Refreshing Dip. A pint of the beverage appears in a bottle or flask you are holding or carrying; otherwise, the beverage spills out on the ground and then vanishes. If any beverage remains when you finish a Short or Long Rest, the beverage vanishes.</p><p><em><strong>Drinking a Magical Beverage.</strong></em> Only you can gain the benefits of drinking the beverage. You must drink the full pint of the beverage before gaining its benefit. You can spend 1 minute drinking the beverage. You then gain the benefits of the beverage for 1 hour or until you drink another magical beverage, as described below:</p><p>@Embed[Compendium.dnd-world-warcraft.classes.Item.wowmnkCinnamDrag caption=false nameStyle=inline classes=\"subfeature\"]</p><p>@Embed[Compendium.dnd-world-warcraft.classes.Item.wowmnkHeavenSpir caption=false nameStyle=inline classes=\"subfeature\"]</p><p>@Embed[Compendium.dnd-world-warcraft.classes.Item.wowmnkRefresDrip caption=false nameStyle=inline classes=\"subfeature\"]</p><p><em><strong>Enhancing a Magical Beverage.</strong></em> When you create a magical beverage, you can expend 1 Focus Point to extend the benefits’ duration to 8 hours.</p>"
+    },
+    "Wizard Renown (Kirin Tor)": {
+      "name": "Wizard Renown (Kirin Tor)",
+      "description": "<p>Adopting the Wizard class, either at character creation or through multiclassing, increases a character’s Renown Score with the @UUID[Compendium.dnd-world-warcraft.book.JournalEntry.wowKirinTor00000]{Kirin Tor} by 3.</p>"
+    },
+    "Druid Renown (Cenarion Circle)": {
+      "name": "Druid Renown (Cenarion Circle)",
+      "description": "<p>Adopting the Druid class, either at character creation or through multiclassing, increases a character’s Renown Score with the @UUID[Compendium.dnd-world-warcraft.book.JournalEntry.wowCenarionCircl]{Cenarion Circle} by 3</p>"
+    },
+    "Path of the Spiritual Guardian": {
+      "name": "Path of the Spiritual Guardian",
+      "description": "<div class=\"item-entry-details\"><p class=\"item-entry-tag\">Call on the Spirits for Combat Aid</p></div><p>Barbarians who walk the Path of the Spiritual Guardian call on spirits—whether bestial spirits of nature, spirits of departed ancestors, or spirits of raw elemental power—to guide and protect them. When these Barbarians rage, they contact the realm of the spirits and call on them for aid.</p>"
+    },
+    "Warding Maneuver": {
+      "activities": {
+        "Ward": {
+          "name": "Ward",
+          "roll": "Armor Class Bonus",
+          "condition": "When you or a creature you can see within 5 feet is hit by an attack roll while you are wielding a Melee weapon or a Shield."
+        }
+      },
+      "name": "Warding Maneuver",
+      "description": "<p>When you or a creature you can see within 5 feet of you is hit by an attack roll, you can take a Reaction and expend one Superiority Die if you’re wielding a Melee weapon or a Shield. Add the Superiority Die to the target’s AC against the triggering attack. If the attack still hits, the target has Resistance against the attack’s damage.</p>"
+    },
+    "Blue Lightning": {
+      "activities": {
+        "Drink (Enhanced)": {
+          "name": "Drink (Enhanced)"
+        },
+        "Drink": {
+          "name": "Drink"
+        }
+      },
+      "name": "Blue Lightning",
+      "description": "<p>Whenever you take a Reaction that isn’t making an &amp;Reference[Opportunity Attacks]{Opportunity Attack} or casting a spell, you can make one Unarmed Strike as part of that Reaction.</p>"
+    },
+    "Aspect of the Horsemen": {
+      "effects": {
+        "Aspect of the Horsemen": {
+          "name": "Aspect of the Horsemen",
+          "changes": {
+            "0": "{} (Active)"
+          }
+        }
+      },
+      "activities": {
+        "Generate Runic Power": {
+          "description": "<p>You can restore a use of your Runic Mastery by expending a level 4 spell slot (no action required).</p>",
+          "name": "Generate Runic Power"
+        },
+        "Gain Benefits": {
+          "name": "Gain Benefits"
+        },
+        "Restore Use": {
+          "name": "Restore Use"
+        }
+      },
+      "name": "Aspect of the Horsemen",
+      "description": "<p>As a Bonus Action, you gain the benefits below for 10 minutes or until you end them (no action required). Once you use this feature, you can’t use it again until you finish a Long Rest. You can also restore your use of it by expending a level 5 spell slot (no action required).</p><p><em><strong>Generate Runic Power.</strong></em> You can restore a use of your Runic Mastery by expending a level 4 spell slot (no action required).</p><p><em><strong>Runeforging.</strong></em> When you use your Runic Power and Runic Mastery features, you can choose any effect, not just the one that corresponds to the rune inscribed on your weapon.</p>"
+    },
+    "Shadowform": {
+      "activities": {
+        "Take on Form": {
+          "name": "Take on Form"
+        },
+        "Void Empowerment": {
+          "description": "<p>When you cast a spell using a spell slot that deals Psychic or Necrotic damage, you can add 1d6 to one damage roll of the spell.</p>",
+          "name": "Void Empowerment"
+        },
+        "Vampiric Embrace": {
+          "name": "Vampiric Embrace",
+          "condition": "When you roll 1d6 to add extra damage to a spell",
+          "description": "<p>While your Shadowform is active, whenever you roll 1d6 to add extra damage to a spell, one creature of your choice within 30 feet of you regains that many Hit Points.</p>"
+        },
+        "Shadow Stealth": {
+          "condition": "While in Dim Light or Darkness",
+          "description": "<p>While you are in an area of Dim Light or Darkness, you can take the &amp;Reference[Hide] action as a Bonus Action.</p>",
+          "name": "Shadow Stealth"
+        }
+      },
+      "effects": {
+        "Shadowy Form": {
+          "name": "Shadowy Form"
+        }
+      },
+      "name": "Shadowform",
+      "description": "<p>As a Bonus Action, you can expend a use of your Channel Divinity to take on a shadowy form that grants you the following benefits:</p><p>@Embed[Compendium.dnd-world-warcraft.classes.Item.wowclcShadowform.Activity.b6dS7cbuNdaTvpIC caption=false cite=false classes=\"subfeature\" nameStyle=inline]</p><p>@Embed[Compendium.dnd-world-warcraft.classes.Item.wowclcShadowform.Activity.K7SZ1BzzB5vQDauQ caption=false cite=false classes=\"subfeature\" nameStyle=inline]</p><p>The form lasts for 1 minute, but it ends early if you dismiss it (no action required), if you have the &amp;Reference[Incapacitated apply=false] condition, or if you deal Radiant damage with a spell.</p>"
+    },
+    "Call of the Void": {
+      "activities": {
+        "Quick Attack": {
+          "description": "<p>As a Bonus Action, you can command the familiar to take the &amp;Reference[Attack] action.</p>",
+          "name": "Quick Attack",
+          "target": "Your familiar"
+        },
+        "Shadow Shield": {
+          "name": "Shadow Shield",
+          "target": "Your Voidwalker familiar",
+          "description": "<p>When your Voidwalker familiar takes damage, you can take a Reaction to grant it &amp;Reference[Resistance] against that damage.</p>",
+          "condition": "When your Voidwalker familiar takes damage"
+        },
+        "Summon Voidwalker": {
+          "name": "Summon Voidwalker"
+        }
+      },
+      "name": "Call of the Void",
+      "advancement": {
+        "h5yyk6WFi0yv9dYA": {
+          "hint": "<p>When you cast <em>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplFindFamili]{Find Familiar}</em>, you can choose to summon a<strong> @UUID[Compendium.dnd-world-warcraft.actors.Actor.wowFelImpEEKWKFi]{Fel Imp}</strong> familiar or a <strong>@UUID[Compendium.dnd-world-warcraft.actors.Actor.wowVoidwalkerBzr]{Voidwalker}</strong>. In addition, the familiar uses your spell attack bonus for its attacks.</p>"
+        }
+      },
+      "effects": {
+        "Find Familiar: Void": {
+          "description": "<p>When you cast <em>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplFindFamili]{Find Familiar}</em>, you can choose to summon a<strong> @UUID[Compendium.dnd-world-warcraft.actors.Actor.wowFelImpEEKWKFi]{Fel Imp}</strong> familiar or a <strong>@UUID[Compendium.dnd-world-warcraft.actors.Actor.wowVoidwalkerBzr]{Voidwalker}</strong>. In addition, the familiar uses your spell attack bonus for its attacks.</p>",
+          "name": "Find Familiar: Void"
+        }
+      },
+      "description": "<div class=\"item-entry-details\"><p class=\"item-entry-tag\">Prerequisite: Level 5+ Warlock, @UUID[Compendium.dnd-world-warcraft.classes.Item.wowinvPactLegion]{Pact of the Legion} Invocation</p></div><p>When you cast <em>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplFindFamili]{Find Familiar}</em> using Pact of the Legion, you can choose to summon a<strong> @UUID[Compendium.dnd-world-warcraft.actors.Actor.wowFelImpEEKWKFi]{Fel Imp}</strong> familiar or a <strong>@UUID[Compendium.dnd-world-warcraft.actors.Actor.wowVoidwalkerBzr]{Voidwalker}</strong> (see chapter 7 for both stat blocks). In addition, you gain the following benefits.</p><p>@Embed[Compendium.dnd-world-warcraft.classes.Item.wowinvCallVoid00.Activity.YP1Z7RloNEMLYA5n caption=false cite=false nameStyle=inline]</p><p><em><strong>Your Spell Attack.</strong></em> The familiar uses your spell attack bonus for its attacks.</p><p>@Embed[Compendium.dnd-world-warcraft.classes.Item.wowinvCallVoid00.Activity.h0twwYseJbmAOyvX caption=false cite=false nameStyle=inline]</p>"
+    },
+    "Totem": {
+      "activities": {
+        "Earthbind Totem": {
+          "name": "Earthbind Totem",
+          "range": "The totem's space",
+          "condition": "At the end of your turn while the totem is placed",
+          "description": "<p>Each enemy in the Emanation has its &amp;Reference[Speed] reduced by 10 feet until the end of your next turn.</p>"
+        },
+        "Plant Totem": {
+          "name": "Plant Totem"
+        },
+        "Tremor Totem": {
+          "condition": "At the end of your turn while the totem is placed",
+          "description": "<p>Each ally in the Emanation has Immunity to the &amp;Reference[Charmed apply=false] and &amp;Reference[Frightened apply=false] conditions until the end of your next turn. If the creature was already Charmed or Frightened, those conditions are suppressed until the end of its next turn.</p>",
+          "name": "Tremor Totem",
+          "range": "The totem's space"
+        },
+        "Recover Primal Knowledge": {
+          "description": "<p>You can also restore your use of the Primal Knowledge Totem by expending one use of your Rage (no action required).</p>",
+          "name": "Recover Primal Knowledge"
+        },
+        "Primal Knowledge Totem": {
+          "name": "Primal Knowledge Totem",
+          "description": "<p>Each ally in the Emanation is empowered with nature’s focus until the end of your next turn. While empowered in this way, whenever the creature makes an ability check using one of the following skills, the creature can make it as a Strength check even if it normally uses a different ability: Acrobatics, Intimidation, Perception, Stealth, or Survival. After you plant this totem, you can’t do so again until you finish a Long Rest. You can also restore your use of this totem by expending one use of your Rage (no action required).</p>",
+          "condition": "At the end of your turn while the totem is placed",
+          "range": "The totem's space"
+        },
+        "Wind Rush Totem": {
+          "name": "Wind Rush Totem",
+          "condition": "At the end of your turn while the totem is placed",
+          "range": "The totem's space",
+          "description": "<p>Each ally in the Emanation has its &amp;Reference[Speed] increased by 10 feet until the end of your next turn.</p>"
+        }
+      },
+      "name": "Totem",
+      "description": "<p>You can coalesce elemental spirits into a totem that aids you and your allies. As a Bonus Action, you can plant one of the totems below into the ground in an unoccupied space you can see within 10 feet of yourself.</p><p>A totem is a Small object that has AC 10 and 1 Hit Point and lasts for 1 minute, until it drops to 0 Hit Points, or until you use this feature again. At the end of each of your turns, the totem pulses with elemental energy that fills a 30-foot Emanation.</p><p>@Embed[Compendium.dnd-world-warcraft.classes.Item.wowbrbTotem00000.Activity.LgbJdaGYrv7IZo4v caption=false cite=false nameStyle=inline]</p><p>@Embed[Compendium.dnd-world-warcraft.classes.Item.wowbrbTotem00000.Activity.fJ3vmKxDZYbTG92p caption=false cite=false nameStyle=inline]</p><p>@Embed[Compendium.dnd-world-warcraft.classes.Item.wowbrbTotem00000.Activity.TwcTt28lmWEfrHWL caption=false cite=false nameStyle=inline]</p><p>@Embed[Compendium.dnd-world-warcraft.classes.Item.wowbrbTotem00000.Activity.cOLNVLDRwolPBv7x caption=false cite=false nameStyle=inline]</p>"
+    },
+    "Panache": {
+      "activities": {
+        "Goad": {
+          "name": "Goad",
+          "description": "<p>The target must succeed on a Wisdom saving throw, or until the end of its next turn, the target has Disadvantage on attack rolls against targets other than you and can’t make &amp;Reference[Opportunity Attacks] against targets other than you.</p>",
+          "condition": "When you deal Sneak Attack damage"
+        },
+        "Awe": {
+          "name": "Awe",
+          "condition": "When you deal Sneak Attack damage",
+          "description": "<p>Each creature of your choice within 30 feet of you must succeed on a Wisdom saving throw or have the &amp;Reference[Charmed apply=false] condition until the end of your next turn.</p>"
+        }
+      },
+      "description": "<p>You have practiced new ways to use your Sneak Attack. The following effects are now among your Cunning Strike options.</p><p>@Embed[Compendium.dnd-world-warcraft.classes.Item.wowrgePanache000.Activity.sn9W3wGJgkP0RS1T caption=false cite=false nameStyle=inline]{Goad (Cost: 1d6)}</p><p>@Embed[Compendium.dnd-world-warcraft.classes.Item.wowrgePanache000.Activity.yJ5iy6uNCLqCjISc caption=false cite=false nameStyle=inline]{Awe (Cost: 3d6)}</p>",
+      "name": "Panache",
+      "effects": {
+        "Cunning Strike: Goaded": {
+          "name": "Cunning Strike: Goaded",
+          "description": "<p>The target has Disadvantage on attack rolls against targets other than you and can’t make &amp;Reference[Opportunity Attacks] against targets other than you.</p>"
+        },
+        "Cunning Strike: Awed": {
+          "name": "Cunning Strike: Awed"
+        }
+      }
+    },
+    "Fancy Footwork": {
+      "name": "Fancy Footwork",
+      "description": "<p>You’ve learned how to land a strike and then slip away without reprisal. If you make a melee attack roll against a creature during your turn, that creature can’t make &amp;Reference[Opportunity Attacks] against you for the rest of that turn.</p>"
+    },
+    "Refreshing Dip": {
+      "activities": {
+        "Heal": {
+          "name": "Heal",
+          "condition": "when you regain Hit Points"
+        },
+        "Drink (Enhanced)": {
+          "name": "Drink (Enhanced)"
+        },
+        "Drink": {
+          "name": "Drink"
+        }
+      },
+      "name": "Refreshing Dip",
+      "description": "<p>You have a pool of dice of the same type as your Martial Arts die. The maximum number of dice equals your Wisdom modifier plus half your Monk level (round down). Whenever you regain Hit Points, you can expend and roll one die from this pool to regain additional Hit Points equal to the number rolled.</p>",
+      "effects": {
+        "Refreshing Dip": {
+          "name": "Refreshing Dip"
+        }
+      }
+    },
+    "Pact of the Legion": {
+      "effects": {
+        "Find Familiar: Legion": {
+          "name": "Find Familiar: Legion",
+          "description": "<p>When you cast <em>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplFindFamili]{Find Familiar}</em>, you summon a <strong>Fel Imp</strong> familiar.</p><p>Additionally, when you take the &amp;Reference[Attack] action, you can forgo one of your own attacks to allow your familiar to make one attack with its Reaction.</p>"
+        }
+      },
+      "name": "Pact of the Legion",
+      "activities": {
+        "Summon Fel Imp": {
+          "name": "Summon Fel Imp"
+        }
+      },
+      "description": "<p>You learn the <em>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplFindFamili]{Find Familiar}</em> spell and can cast it as a &amp;Reference[Magic] action without expending a spell slot. When you cast the spell, you summon a <strong>@UUID[Compendium.dnd-world-warcraft.actors.Actor.wowFelImpEEKWKFi]{Fel Imp}</strong> familiar (see chapter 7).</p><p>Additionally, when you take the &amp;Reference[Attack] action, you can forgo one of your own attacks to allow your familiar to make one attack with its Reaction.</p>",
+      "advancement": {
+        "Modify Find Familiar": {
+          "hint": "<p>When you cast Find Familiar, you summon a <strong>@UUID[Compendium.dnd-world-warcraft.actors.Actor.wowFelImpEEKWKFi]{Fel Imp}</strong> familiar</p>",
+          "name": "Modify Find Familiar"
+        }
+      }
+    },
+    "Soul Shatter": {
+      "name": "Soul Shatter",
+      "activities": {
+        "Regain Soul Fragment": {
+          "name": "Regain Soul Fragment",
+          "condition": "If you have no soul fragments"
+        }
+      },
+      "description": "<p>Your mastery of fel magic reaches new heights. When you use the Soul Cleave option of Soul Fragments, the damage increases to 2d12 plus your Wisdom modifier.</p><p>In addition, when you roll Initiative, you regain one soul fragment if you have none.</p>"
+    },
+    "Spiritual Protectors": {
+      "effects": {
+        "Distracted": {
+          "name": "Distracted",
+          "description": "<p>The target has Disadvantage on attack rolls against targets other than you or another Barbarian who has this feature.</p>"
+        },
+        "Slowed": {
+          "name": "Slowed"
+        }
+      },
+      "activities": {
+        "Strike": {
+          "name": "Strike",
+          "condition": "When you hit a creature with a weapon or an Unarmed Strike while your Rage is active",
+          "description": "<p>The target takes an extra 1d4 damage, which can be Cold, Fire, or Lightning damage (your choice).</p>"
+        },
+        "Hinder": {
+          "description": "<p>You can activate the &amp;Reference[Slow] mastery property in addition to a different mastery property you’re using with that weapon.</p>",
+          "condition": "When you hit a creature with a weapon and deal damage to it while your Rage is active.",
+          "name": "Hinder"
+        },
+        "Distract": {
+          "description": "<p>Until the start of your next turn, the target has Disadvantage on attack rolls against targets other than you or another Barbarian who has this feature.</p>",
+          "name": "Distract",
+          "condition": "When you hit a creature with a weapon or an Unarmed Strike while your Rage is active"
+        }
+      },
+      "description": "<p>Your Rage summons spectral warriors to your aid. While your Rage is active, when you hit a creature with a weapon or an Unarmed Strike, that creature becomes a target of the spirits, which cause one of the following effects of your choice.</p><p>@Embed[Compendium.dnd-world-warcraft.classes.Item.wowbrbSpiritProt.Activity.2lzF4TrCl0c1wwaW caption=false cite=false nameStyle=inline]</p><p>@Embed[Compendium.dnd-world-warcraft.classes.Item.wowbrbSpiritProt.Activity.cPxVNrCxeS4Cccm7 caption=false cite=false nameStyle=inline]</p><p>@Embed[Compendium.dnd-world-warcraft.classes.Item.wowbrbSpiritProt.Activity.GQHJPvdXx3THDlnC caption=false cite=false nameStyle=inline]</p>",
+      "name": "Spiritual Protectors"
+    },
+    "Primordial Bond": {
+      "activities": {
+        "utility": {
+          "condition": "While Rage is active"
+        }
+      },
+      "name": "Primordial Bond",
+      "description": "<p>While your Rage is active, you have Resistance to Cold, Fire, and Lightning damage.</p>",
+      "effects": {
+        "Primordial Bond": {
+          "name": "Primordial Bond",
+          "description": "<p>You have Resistance to Cold, Fire, and Lightning damage.</p>"
+        }
+      }
+    },
+    "Shadow Domain": {
+      "name": "Shadow Domain",
+      "description": "<div class=\"item-entry-details\"><p class=\"item-entry-tag\">Draw on the Debilitating Power of the Void</p></div><p>The Shadow Domain deals with the powers of shadow and the Void—a sinister mirror of the life-giving powers of the Light. Clerics who embrace these powers can wither their enemies’ flesh and debilitate their minds.</p>"
+    },
+    "Curse of Corruption": {
+      "name": "Curse of Corruption",
+      "activities": {
+        "save": {
+          "condition": "When an enemy starts its turn cursed by a Warlock spell you cast"
+        }
+      },
+      "description": "<div class=\"item-entry-details\"><p class=\"item-entry-tag\">Prerequisite: Level 2+ Warlock</p></div><p>When an enemy starts its turn cursed by a Warlock spell you cast (such as <em>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplHex0000000]{Hex}</em>), it must succeed on a Charisma saving throw or take Necrotic damage equal to your Charisma modifier.</p>"
+    },
+    "Master Demonologist": {
+      "name": "Master Demonologist",
+      "description": "<div class=\"item-entry-details\"><p class=\"item-entry-tag\">Prerequisite: Level 5+ Warlock</p></div><p>Any Fiends you command also deal extra damage to the target of your <em>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplHex0000000]{Hex}</em> spell as if they were you.</p>"
+    },
+    "Aura of Deathly Endurance": {
+      "name": "Aura of Deathly Endurance",
+      "description": "<p>You and your allies have Resistance to Cold, Necrotic, and Psychic damage while in your Aura of Protection.</p>",
+      "activities": {
+        "Place Aura": {
+          "name": "Place Aura"
+        }
+      }
+    },
+    "Lightbringer's Aura": {
+      "activities": {
+        "heal": {
+          "condition": "When you cast a spell or use Lay On Hands to restore Hit Points to a Bloodied creature within your Aura of Protection"
+        }
+      },
+      "name": "Lightbringer's Aura",
+      "description": "<p>Whenever you cast a spell or use Lay On Hands to restore Hit Points to a &amp;Reference[Bloodied] creature within your Aura of Protection, the creature regains an extra 1d6 Hit Points.</p>"
+    },
+    "Heavenly Spirit": {
+      "activities": {
+        "Drink (Enhanced)": {
+          "name": "Drink (Enhanced)"
+        },
+        "Drink": {
+          "name": "Drink"
+        }
+      },
+      "description": "<p>You gain Resistance to two of the following damage types of your choice: Cold, Necrotic, Psychic, or Radiant damage.</p>",
+      "name": "Heavenly Spirit"
+    },
+    "Luminous Barrier": {
+      "name": "Luminous Barrier",
+      "description": "<p>As a Bonus Action, you can expend a use of your Channel Divinity to place a magical ward of glowing light on each creature blessed by your Atonement. Each affected creature gains a number of Temporary Hit Points equal to your Cleric level plus your Wisdom modifier. While a creature has Temporary Hit Points gained from this feature, it has Resistance to all damage.</p><section id=\"secret-VPxZEeEIk4xiHkRL\" class=\"secret hide-in-embed\"><p><strong>Foundry Note</strong></p><p>Foundry does not link the Resistance effect to the Temporary Hit Points. Remove the effect manually when those Temporary Hit Points are depleted or replaced.</p></section>"
+    },
+    "Oath of the Ebon Blade Spells": {
+      "advancement": {
+        "Oath of the Ebon Blade Spells": {
+          "name": "Oath of the Ebon Blade Spells"
+        }
+      },
+      "name": "Oath of the Ebon Blade Spells",
+      "description": "<p>The magic of your oath and your Runeforging feature (see below) ensure you always have certain spells ready; when you reach a Paladin level specified in the Oath of the Ebon Blade Spells table, you thereafter always have the spell in the Spells (All) column prepared. You also have the additional spells listed in the column matching the rune you have inscribed on your weapon, if any.</p><table><caption><p>Oath of the Ebon Blade Spells</p></caption><thead><tr><th scope=\"col\"><p>Paladin Level</p></th><th scope=\"col\"><p><br>Spells (All)</p></th><th scope=\"col\"><p><br>Spells (Blood)</p></th><th scope=\"col\"><p><br>Spells (Frost)</p></th><th scope=\"col\"><p><br>Spells (Unholy)</p></th></tr></thead><tbody><tr><td><p>3</p></td><td><p><em>@UUID[Compendium.dnd-world-warcraft.spells.Item.wowsplDeathGrip0]{Death Grip*}</em></p></td><td><p><em>@UUID[Compendium.dnd-world-warcraft.spells.Item.wowsplVampirBloo]{Vampiric Blood*}</em></p></td><td><p><em>@UUID[Compendium.dnd-world-warcraft.spells.Item.wowsplChainsIce0]{Chains of Ice*}</em></p></td><td><p><em>@UUID[Compendium.dnd-world-warcraft.spells.Item.wowsplScourgStri]{Scourge Strike*}</em></p></td></tr><tr><td><p>5</p></td><td><p><em>@UUID[Compendium.dnd-world-warcraft.spells.Item.wowsplDeathDecay]{Death and Decay*}</em></p></td><td><p><em>@UUID[Compendium.dnd-monster-manual.features.Item.mmSpiritualWeapo]{Spiritual Weapon}</em></p></td><td><p><em>@UUID[Compendium.dnd-world-warcraft.spells.Item.wowsplFrostscyth]{Frostscythe*}</em></p></td><td><p><em>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplRayofEnfee]{Ray of Enfeeblement}</em></p></td></tr><tr><td><p>9</p></td><td><p><em>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplSummonUnde]{Summon Undead}</em></p></td><td><p><em>@UUID[Compendium.dnd-world-warcraft.spells.Item.wowsplLeechiStri]{Leeching Strike*}</em></p></td><td><p><em>@UUID[Compendium.dnd-world-warcraft.spells.Item.wowsplRemorsWint]{Remorseless Winter*}</em></p></td><td><p><em>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplBestowCurs]{Bestow Curse}</em></p></td></tr><tr><td><p>13</p></td><td><p><em>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplFreedomofM]{Freedom of Movement}</em></p></td><td><p><em>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplEvardsBlac]{Evard’s Black Tentacles}</em></p></td><td><p><em>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplIceStorm00]{Ice Storm}</em></p></td><td><p><em>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplBlight0000]{Blight}</em></p></td></tr><tr><td><p>17</p></td><td><p><em>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplCircleofPo]{Circle of Power}</em></p></td><td><p><em>@UUID[Compendium.dnd-world-warcraft.spells.Item.wowsplBonestorm0]{Bonestorm*}</em></p></td><td><p><em>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplConeofCold]{Cone of Cold}</em></p></td><td><p><em>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplContagion0]{Contagion}</em></p></td></tr></tbody></table>"
+    },
+    "Vengeance Spells": {
+      "name": "Vengeance Spells",
+      "advancement": {
+        "Demon Hunter Spells": {
+          "name": "Demon Hunter Spells"
+        }
+      },
+      "description": "<table><caption><p>Demon Hunter Spells</p></caption><thead><tr><th scope=\"col\"><p>Ranger Level</p></th><th scope=\"col\"><p>Spells</p></th></tr></thead><tbody><tr><td><p>3</p></td><td><p><em>@UUID[Compendium.dnd-world-warcraft.spells.Item.wowsplInfernStri]{Infernal Strike*}</em></p></td></tr><tr><td><p>5</p></td><td><p><em>@UUID[Compendium.dnd-world-warcraft.spells.Item.wowsplFieryBrand]{Fiery Brand*}</em></p></td></tr><tr><td><p>9</p></td><td><p><em>@UUID[Compendium.dnd-world-warcraft.spells.Item.wowsplDemonSpike]{Demon Spikes*}</em></p></td></tr><tr><td><p>13</p></td><td><p><em>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplBanishment]{Banishment}</em></p></td></tr><tr><td><p>17</p></td><td><p><em>@UUID[Compendium.dnd-world-warcraft.spells.Item.wowsplSigilChain]{Sigil of Chains*}</em></p></td></tr></tbody></table>"
+    },
+    "Stumbling Monk": {
+      "activities": {
+        "Drink (Enhanced)": {
+          "name": "Drink (Enhanced)"
+        },
+        "Drink": {
+          "name": "Drink"
+        }
+      },
+      "description": "<p>When you take a Bonus Action other than Patient Defense, you can also use Patient Defense immediately after that Bonus Action.</p>",
+      "name": "Stumbling Monk"
+    },
+    "Demoralizing Shout": {
+      "description": "<p>As a Bonus Action, you can expend one Superiority Die to shout, demoralizing enemies within 30 feet of you that can hear you. Until the end of your next turn, each affected enemy subtracts the Superiority Die from the damage roll the next time it hits a target other than you with a melee attack.</p>",
+      "name": "Demoralizing Shout",
+      "activities": {
+        "Shout": {
+          "roll": "Damage Reduction",
+          "name": "Shout"
+        }
+      }
+    },
+    "Dispersion": {
+      "activities": {
+        "heal": {
+          "condition": "When the effect ends",
+          "description": "<p>When the effect ends, you can spend up to half of your total Hit Point Dice, regaining Hit Points as if you had finished a Short Rest.</p>"
+        },
+        "Disperse": {
+          "name": "Disperse",
+          "condition": "When you are hit by an attack roll"
+        }
+      },
+      "name": "Dispersion",
+      "effects": {
+        "Shadowy Energy": {
+          "name": "Shadowy Energy"
+        }
+      },
+      "description": "<p>When you are hit by an attack roll, you can take a Reaction to disperse into shadowy energy. Until the end of your next turn, you have Resistance to all damage (including the damage from the triggering attack); you can’t take any action, Bonus Action, or Reaction; and you have a Fly Speed of 40 feet. When the effect ends, you can spend up to half of your total Hit Point Dice, regaining Hit Points as if you had finished a Short Rest.</p><p>Once you use this feature, you can’t use it again until you finish a Short or Long Rest.</p>"
+    },
+    "Bonus Proficiencies": {
+      "name": "Bonus Proficiencies",
+      "advancement": {
+        "gkbjl4ejaG9M01Nc": {
+          "hint": "<p>You gain proficiency in the Performance skill, or if you already have it, you gain proficiency in one skill of your choice from the skills available to Monks at level 1. You also gain proficiency with Brewer’s Supplies if you don’t already have it.</p>"
+        }
+      },
+      "description": "<p>You gain proficiency in the Performance skill, or if you already have it, you gain proficiency in one skill of your choice from the skills available to Monks at level 1. You also gain proficiency with Brewer’s Supplies if you don’t already have it.</p>"
+    },
+    "Void Warrior": {
+      "advancement": {
+        "Choose Cantrips": {
+          "hint": "<p>You learn two Warlock cantrips of your choice. <em>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplChillTouch]{Chill Touch}</em> and <em>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplMindSliver]{Mind Sliver}</em> are recommended. The chosen cantrips count as Ranger spells for you, and Wisdom is your spellcasting ability for them. Whenever you gain a Ranger level, you can replace one of these cantrips with another Warlock cantrip.</p>",
+          "name": "Choose Cantrips"
+        }
+      },
+      "description": "<p>You learn two Warlock cantrips of your choice. <em>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplChillTouch]{Chill Touch}</em> and <em>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplMindSliver]{Mind Sliver}</em> are recommended. The chosen cantrips count as Ranger spells for you, and Wisdom is your spellcasting ability for them. Whenever you gain a Ranger level, you can replace one of these cantrips with another Warlock cantrip.</p>",
+      "name": "Void Warrior"
+    },
+    "Drunkard's Luck": {
+      "activities": {
+        "Drink": {
+          "name": "Drink"
+        },
+        "Drink (Enhanced)": {
+          "name": "Drink (Enhanced)"
+        }
+      },
+      "name": "Drunkard's Luck",
+      "description": "<p>You gain &amp;Reference[Inspiration]{Heroic Inspiration} if you don’t already have it. In addition, you can give yourself Heroic Inspiration when you make an ability check or saving throw without it.</p>"
+    },
+    "Intoxicated Frenzy": {
+      "description": "<p>Immediately after you use your Patient Defense, you can move up to your Speed. During this movement, whenever you enter a space within 5 feet of a creature, you can make an Unarmed Strike targeting that creature. In addition, when you hit a creature with an Unarmed Strike granted by this feature, the creature must succeed on a Dexterity saving throw or have the &amp;Reference[Prone] condition. A creature can be targeted by an Unarmed Strike granted by this feature only once per turn.</p>",
+      "name": "Intoxicated Frenzy",
+      "activities": {
+        "Knock Prone": {
+          "name": "Knock Prone",
+          "condition": "When you hit a creature with an Unarmed Strike granted by Intoxicated Frenzy"
+        }
+      }
+    },
+    "Elemental Overload": {
+      "name": "Elemental Overload",
+      "description": "<p>The power of the storm you channel grows mightier, lashing out at your foes. Your Raging Elements options gain the following effects.</p><p><em><strong>Icefury.</strong></em> Whether or not you hit the target with this option, the target subtracts half the number rolled (round down) from the next damage roll it makes before the start of your next turn.</p><p><em><strong>Lava Burst.</strong></em> Whether or not the target fails its saving throw against this option, the target and each enemy within 10 feet of it start burning.</p><p><em><strong>Lightning Bolt. </strong></em>Whether or not the target fails its saving throw against this option, a bolt of lightning leaps from the target to another target of your choice that you can see within 30 feet of the first target. The new target makes a Dexterity saving throw, taking Lightning damage equal to the roll’s total on a failed save or half as much damage on a successful one.</p>"
+    },
+    "Spirit Shield": {
+      "name": "Spirit Shield",
+      "activities": {
+        "Reduce Damage": {
+          "roll": "Damage Reduction",
+          "name": "Reduce Damage",
+          "condition": "When another creature you can see takes damage while your Rage is active"
+        }
+      },
+      "description": "<p>Your guardian spirits can provide supernatural protection to those you defend. While your Rage is active, when another creature you can see within 30 feet of you takes damage, you can take a Reaction to reduce that damage. To determine the amount the damage is reduced by, roll a number of d6s equal to your Rage Damage bonus, and add them together.</p>"
+    },
+    "Echo of the Elements": {
+      "description": "<p>You tap into the tranquility of the elements. You know the <em>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplElementali]{Elementalism}</em> cantrip. In addition, you can expend a use of your Rage to cast <em>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplDaylight00]{Daylight}</em>, <em>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplWaterWalk0]{Water Walk}</em>, or <em>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplWindWall00]{Wind Wall}</em>. Wisdom is your spellcasting ability for these spells.</p>",
+      "name": "Echo of the Elements",
+      "advancement": {
+        "Elementalism": {
+          "name": "Elementalism"
+        }
+      }
+    },
+    "Cinnamon Dragon": {
+      "activities": {
+        "Exhale Toxic Flames": {
+          "name": "Exhale Toxic Flames"
+        },
+        "Drink (Enhanced)": {
+          "name": "Drink (Enhanced)"
+        },
+        "Drink": {
+          "name": "Drink"
+        }
+      },
+      "effects": {
+        "Cinnamon Dragon": {
+          "name": "Cinnamon Dragon"
+        }
+      },
+      "name": "Cinnamon Dragon",
+      "description": "<p>You can take a Magic action to exhale toxic flames in a 30-foot Cone. Each creature in the Cone makes a Dexterity saving throw (DC 8 plus your Wisdom modifier and Proficiency Bonus). On a failed save, a creature takes Fire damage equal to four rolls of your Martial Arts die and has the &amp;Reference[Poisoned apply=false] condition until the end of its next turn. On a successful save, a creature takes half as much damage only.</p>"
+    },
+    "Discipline Domain": {
+      "description": "<div class=\"item-entry-details\"><p class=\"item-entry-tag\">Cure Allies’ Wounds While Smiting Enemies</p></div><p>The Discipline Domain focuses on the balance between the Holy Light and its shadowy mirror, the Void. Wielding both powers at once, Clerics who embrace this domain aid their allies and harm their foes, often with a single spell.</p>",
+      "name": "Discipline Domain"
+    },
+    "Battle Shout": {
+      "description": "<p>As a Bonus Action, you can expend one Superiority Die to shout encouragement to allies within 30 feet of you that can hear you. Until the start of your next turn, each affected ally adds the Superiority Die to the damage roll the next time it hits with a melee attack.</p>",
+      "name": "Battle Shout",
+      "activities": {
+        "Shout": {
+          "roll": "Damage Bonus",
+          "name": "Shout"
+        }
+      }
+    },
+    "Drunken Technique": {
+      "effects": {
+        "Drunken Technique": {
+          "name": "Drunken Technique"
+        }
+      },
+      "name": "Drunken Technique",
+      "activities": {
+        "utility": {
+          "condition": "When you expend a Focus Point using Patient Defense"
+        }
+      },
+      "description": "<p>You twist and turn quickly as you move. Whenever you expend a Focus Point using Patient Defense, your Speed increases by 10 feet until the end of the current turn, and you can make one Unarmed Strike immediately after the Bonus Action.</p>"
+    },
+    "Runic Strikes": {
+      "name": "Runic Strikes",
+      "description": "<p>When you hit a target with an attack roll using a Melee weapon or an Unarmed Strike, the target takes an extra 1d8 Necrotic damage.</p>",
+      "effects": {
+        "Runic Strikes": {
+          "name": "Runic Strikes"
+        }
+      }
+    },
+    "Mortal Strike": {
+      "activities": {
+        "Strike": {
+          "condition": "When you hit a creature with an attack roll",
+          "name": "Strike"
+        }
+      },
+      "name": "Mortal Strike",
+      "effects": {
+        "Can't Regain Hit Points": {
+          "name": "Can't Regain Hit Points"
+        }
+      },
+      "description": "<p>When you hit a creature with an attack roll, you can expend one Superiority Die to prevent the target from healing. Add the Superiority Die to the attack’s damage roll. The target can’t regain Hit Points until the end of your next turn.</p>"
+    },
+    "Improved Death Coil": {
+      "description": "<p>When you use Death Coil to deal damage, the target takes extra Necrotic damage equal to your Charisma modifier (minimum of 1) whether or not it fails its saving throw. If the target is an Undead, and you have it regain Hit Points, it regains additional Hit Points equal to your Paladin level.</p>",
+      "name": "Improved Death Coil"
+    },
+    "Wizened Brewer": {
+      "name": "Wizened Brewer",
+      "description": "<p>You learn more complex flavors. The following beverages are added to your Mystic Brew options:</p><p>@Embed[Compendium.dnd-world-warcraft.classes.Item.wowmnkBlueLightn caption=false nameStyle=inline classes=\"subfeature\"]</p><p>@Embed[Compendium.dnd-world-warcraft.classes.Item.wowmnkDrunkaLuck caption=false nameStyle=inline classes=\"subfeature\"]</p><p>@Embed[Compendium.dnd-world-warcraft.classes.Item.wowmnkStumblMonk caption=false nameStyle=inline classes=\"subfeature\"]</p>"
+    },
+    "Path of the Elements": {
+      "description": "<div class=\"item-entry-details\"><p class=\"item-entry-tag\">Wield the Fury of the Elements</p></div><p>Barbarians who follow the Path of the Elements learn to harness their Rage into a storm of flames, frost, and lightning. When in their Rage, these Barbarians tap into the elemental forces of nature to create powerful magical effects.</p>",
+      "name": "Path of the Elements"
+    },
+    "Ultimate Penitence": {
+      "name": "Ultimate Penitence",
+      "description": "<p>Your Holy Bolt grows more powerful as detailed below.</p><p>@Embed[Compendium.dnd-world-warcraft.classes.Item.wowclcHolyBolt00.Activity.mRdAGaEooz0FY0Hh caption=false cite=false nameStyle=inline]</p><p>@Embed[Compendium.dnd-world-warcraft.classes.Item.wowclcHolyBolt00.Activity.8ch3lMxLcJ7kOA9c caption=false cite=false nameStyle=inline]</p>"
+    },
+    "Demon Hunter": {
+      "name": "Demon Hunter",
+      "description": "<div class=\"item-entry-details\"><p class=\"item-entry-tag\">Embrace the Magic of Demons to Fight Fire with Fire</p></div><p>Most Demon Hunters joined Illidan on Outland as he marshaled his forces to battle the Burning Legion. You might have followed a different path, inspired by Illidan rather than directly trained by him, but the result is the same: You have embraced the magic of the Burning Legion with the singular goal of defeating it on Azeroth and every other world.</p>"
+    },
+    "Runic Smite": {
+      "name": "Runic Smite",
+      "advancement": {
+        "Rune Strike": {
+          "name": "Rune Strike"
+        }
+      },
+      "description": "<p>You always have the <em>@UUID[Compendium.dnd-world-warcraft.spells.Item.wowsplRuneStrike]{Rune Strike}</em> spell (see “Death Knight Spells”) prepared. You can cast it once without a spell slot, and you regain the ability to cast it in that way when you finish a Long Rest.</p>"
+    },
+    "Vampiric Embrace": {
+      "name": "Vampiric Embrace",
+      "description": "<p>While your Shadowform is active, whenever you roll 1d6 to add extra damage to a spell, one creature of your choice within 30 feet of you regains that many Hit Points.</p>"
+    },
+    "Warrior of Mystic Brews": {
+      "description": "<div class=\"item-entry-details\"><p class=\"item-entry-tag\">Drink Mystic Brews to Overwhelm and Confound Foes</p></div><p>Warriors of Mystic Brews move with the jerky, unpredictable movements typical of someone who is intoxicated. Their apparently erratic stumbles conceal a carefully executed dance of blocks, parries, advances, attacks, and retreats. Warriors of Mystic Brews frequent bars and taverns to gather information or spy on potential threats. These warriors drink magical concoctions that enhance their martial arts.</p><p>Warriors of Mystic Brews often enjoy playing the fool to bring gladness to the downtrodden or to teach humility to the arrogant, but these Monks are maddening, masterful foes in battle.</p>",
+      "name": "Warrior of Mystic Brews"
+    },
+    "Master Brewer": {
+      "description": "<p>When you create a magical beverage using your Mystic Brew feature, you can choose two different options and produce one magical beverage. Drinking the beverage provides the effects of both options for the duration.</p>",
+      "name": "Master Brewer"
     }
   }
 }
