@@ -1,9 +1,10 @@
 {
   "label": "專長",
   "folders": {
-    "Monk": "武僧"
+    "Monk": "武僧",
+    "Mage": "Mage",
+    "Human Origin": "Human Origin"
   },
-  "entries": {},
   "mapping": {
     "activities": {
       "path": "system.activities",
@@ -16,6 +17,157 @@
     "effects": {
       "path": "effects",
       "converter": "effects"
+    }
+  },
+  "entries": {
+    "Fingers of Frost": {
+      "activities": {
+        "Frostbite": {
+          "description": "<p>When you deal Cold damage to a creature that has the &amp;Reference[Restrained apply=false] condition, the creature takes extra Cold damage. To determine the extra damage, roll a number of d4s equal to your Proficiency Bonus and add them together.</p>",
+          "condition": "When you deal Cold Damage to a creature that has the Restrained condition",
+          "target": "With the Restrained condition",
+          "name": "Frostbite"
+        }
+      },
+      "description": "<div class=\"item-entry-details\"><p class=\"item-entry-tag\">General Feat (Prerequisite: Level 4+)</p></div><p>You gain the following benefits.</p><p><em><strong>Ability Score Increase.</strong></em> Increase your Intelligence score by 1, to a maximum of 20.</p><p><em><strong>Cold Mastery.</strong></em> Spells you cast ignore &amp;Reference[Resistance] to Cold damage.</p><p>@Embed[Compendium.dnd-world-warcraft.feats.Item.wowftFingersFros.Activity.yP1Wl5TlWVEi407L caption=false cite=false nameStyle=inline]</p>",
+      "effects": {
+        "Cold Mastery": {
+          "description": "<p>Spells you cast ignore &amp;Reference[Resistance] to Cold damage.</p>",
+          "name": "Cold Mastery"
+        }
+      },
+      "name": "Fingers of Frost"
+    },
+    "Fists of Fury": {
+      "name": "Fists of Fury",
+      "description": "<div class=\"item-entry-details\"><p class=\"item-entry-tag\">General Feat (Prerequisite: Level 4+, Dexterity and Wisdom 13+)</p></div><p>You gain the following benefits.</p><p><em><strong>Ability Score Increase.</strong></em> Increase your Dexterity or Wisdom score by 1, to a maximum of 20.</p><p><em><strong>Clean Hits.</strong></em> When you roll damage for an attack you make with an Unarmed Strike or a weapon that has the Light property, you can treat any 1 on a damage die as a 2.</p><p><em><strong>Combo Strikes.</strong></em> When you deal damage to a creature with an Unarmed Strike, you gain a +1 bonus to the damage roll for each time you previously hit that creature with a melee attack roll in the same turn.</p>"
+    },
+    "Enveloping Mist": {
+      "activities": {
+        "Enveloping Mist: Reduce Damage": {
+          "condition": "When the creature is hit by an attack roll before the start of its next turn",
+          "name": "Enveloping Mist: Reduce Damage",
+          "roll": "Damage Reduction"
+        },
+        "Enveloping Mist": {
+          "condition": "When you cast a spell or use a feature to restore Hit Points to a creature",
+          "description": "<p>When you cast a spell or use a feature to restore Hit Points to a creature, the creature is wrapped in a healing mist. Roll one of the dice from the feature that healed it, and note that number as the creature’s Life Cocoon value.</p><p>If the creature is hit by an attack roll before the start of its next turn, you can take a Reaction to reduce the damage it takes from that attack by its Life Cocoon value. The mist then disappears.</p><p>At the start of the creature’s next turn, if the mist persists, the creature gains Temporary Hit Points equal to its Life Cocoon value.</p>",
+          "name": "Enveloping Mist"
+        },
+        "Enveloping Mist: Heal": {
+          "condition": "At the start of the creature's next turn",
+          "description": "<p>At the start of the creature’s next turn, if the mist persists, the creature gains Temporary Hit Points equal to its Life Cocoon value.</p>",
+          "name": "Enveloping Mist: Heal"
+        }
+      },
+      "effects": {
+        "Life Cocoon (d8)": {
+          "name": "Life Cocoon (d8)"
+        },
+        "Life Cocoon (d12)": {
+          "name": "Life Cocoon (d12)"
+        },
+        "Life Cocoon (d4)": {
+          "name": "Life Cocoon (d4)"
+        },
+        "Life Coccon (d6)": {
+          "name": "Life Coccon (d6)"
+        },
+        "Life Cocoon (d10)": {
+          "name": "Life Cocoon (d10)"
+        }
+      },
+      "description": "<div class=\"item-entry-details\"><p class=\"item-entry-tag\">General Feat (Prerequisite: Level 4+, Dexterity and Wisdom 13+)</p></div><p>You gain the following benefits.</p><p><em><strong>Ability Score Increase.</strong></em> Increase your Dexterity or Wisdom score by 1, to a maximum of 20.</p><p>@Embed[Compendium.dnd-world-warcraft.feats.Item.wowftEnvelopiMis.Activity.K76Z3eyxaMbkgz5b caption=false cite=false nameStyle=inline]</p>",
+      "name": "Enveloping Mist"
+    },
+    "Arathi Heritage": {
+      "activities": {
+        "Lethargy Resilience": {
+          "description": "<p>When you fail a saving throw to avoid or end the &amp;Reference[Unconscious apply=false] condition, you can succeed instead. Once you use this trait, you can’t do so again until you finish 1d4 Long Rests.</p>",
+          "condition": "When you fail a saving throw to avoid or end the Unconcious condition",
+          "name": "Lethargy Resilience"
+        }
+      },
+      "description": "<div class=\"item-entry-details\"><p class=\"item-entry-tag\">Origin Feat (Prerequisite: World of Warcraft Campaign, Human Species)</p></div><p>As a descendant of humans from Arathor and high elves from Quel’Thalas, you gain the following benefits.</p><p><em><strong>Fey Ancestry.</strong></em> You have Advantage on saving throws to avoid or end the &amp;Reference[Charmed apply=false] condition.</p><p>@Embed[Compendium.dnd-world-warcraft.feats.Item.wowftArathiHerit.Activity.srQ53JHkaQvQngJG caption=false cite=false nameStyle=inline]</p>",
+      "name": "Arathi Heritage"
+    },
+    "Elusive Brawler": {
+      "activities": {
+        "Reactive Dodge": {
+          "name": "Reactive Dodge",
+          "description": "<p>When you take damage, you can take a Reaction to take the &amp;Reference[Dodge] action.</p>",
+          "condition": "When you take damage"
+        }
+      },
+      "description": "<div class=\"item-entry-details\"><p class=\"item-entry-tag\">General Feat (Prerequisite: Level 4+, Dexterity and Wisdom 13+)</p></div><p>You gain the following benefits.</p><p><em><strong>Ability Score Increase.</strong></em> Increase your Dexterity or Wisdom score by 1, to a maximum of 20.</p><p>@Embed[Compendium.dnd-world-warcraft.feats.Item.wowftElusiveBraw.Activity.CvBhH0keknJB5HTJ caption=false cite=false nameStyle=inline]</p>",
+      "name": "Elusive Brawler"
+    },
+    "Clearcasting": {
+      "activities": {
+        "Clearcasting": {
+          "description": "<p>When you score a Critical Hit with a spell’s attack roll, you can take a Reaction to cast a cantrip with a casting time of an action.</p>",
+          "condition": "When you score a Critical Hit with a spell's attack roll",
+          "name": "Clearcasting"
+        }
+      },
+      "name": "Clearcasting",
+      "description": "<div class=\"item-entry-details\"><p class=\"item-entry-tag\">General Feat (Prerequisite: Level 4+)</p></div><p>You gain the following benefits.</p><p><em><strong>Ability Score Increase.</strong></em> Increase your Intelligence score by 1, to a maximum of 20.</p><p>@Embed[Compendium.dnd-world-warcraft.feats.Item.wowftClearcastin.Activity.en1s4ztXM8zViORp caption=false cite=false nameStyle=inline]</p><p><em><strong>Force Adept.</strong></em> When you roll damage for a spell you cast that deals Force damage, you can treat any 1 on a damage die as a 2.</p>"
+    },
+    "Inscription Adept": {
+      "description": "<div class=\"item-entry-details\">\n    <p class=\"item-entry-tag\">General Feat (Prerequisite: Level 4+, Proficiency with Calligrapher’s Supplies, Cartographer’s Tools, or Painter’s Supplies)</p>\n</div>\n<p>Your mastery of inscription allows you to duplicate the effects of certain spells with your written magic. You gain the following benefits.</p>\n<p><em><strong>Ability Score Increase.</strong></em> Increase your Intelligence, Wisdom, or Charisma score by 1, to a maximum of 20.</p>\n<p><em><strong>Inscription Magic.</strong></em> You learn the <em>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplIllusorySc]{Illusory Script}</em> spell and always have it prepared. You can cast it once without a spell slot, and you regain the ability to cast it in that way when you finish a Long Rest. You can also cast the spell using any spell slots you have of the appropriate level. You can use herbalism resources of the appropriate value in place of the Material component specified for that spell. The spell’s spellcasting ability is the ability increased by this feat.</p>\n<p>When you reach higher levels of proficiency in inscription, you learn higher-level spells and can cast them in the same way, as shown on the table.</p>\n<table>\n    <thead>\n        <tr>\n            <th scope=\"col\">\n                <p>Proficiency</p>\n            </th>\n            <th scope=\"col\">\n                <p>Spell</p>\n            </th>\n        </tr>\n    </thead>\n    <tbody>\n        <tr>\n            <td>\n                <p>Journeyman (+3)</p>\n            </td>\n            <td>\n                <p><em>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplGlyphofWar]{Glyph of Warding}</em></p>\n            </td>\n        </tr>\n        <tr>\n            <td>\n                <p>Artisan (+5)</p>\n            </td>\n            <td>\n                <p><em>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplSymbol0000]{Symbol}</em></p>\n            </td>\n        </tr>\n    </tbody>\n</table>",
+      "name": "Inscription Adept"
+    },
+    "Child of the Sea": {
+      "description": "<div class=\"item-entry-details\"><p class=\"item-entry-tag\">Origin Feat (Prerequisite: World of Warcraft Campaign, Human Species)</p></div><p>As a Kul Tiran, you gain the following benefits.</p><p><em><strong>Lasting Breath.</strong></em> You can hold your breath for a number of minutes equal to 2 plus your Constitution modifier (minimum of 1 minute).</p><p><em><strong>Ocean Born.</strong></em> You have a Swim Speed equal to your &amp;Reference[Speed].</p>",
+      "name": "Child of the Sea",
+      "effects": {
+        "Ocean Born": {
+          "name": "Ocean Born",
+          "description": "<p>You have a Swim Speed equal to your &amp;Reference[Speed].</p>"
+        }
+      }
+    },
+    "Hot Streak": {
+      "description": "<div class=\"item-entry-details\"><p class=\"item-entry-tag\">General Feat (Prerequisite: Level 4+)</p></div><p>You gain the following benefits.</p><p><em><strong>Ability Score Increase.</strong></em> Increase your Intelligence score by 1, to a maximum of 20.</p><p><em><strong>Fire Mastery.</strong></em> Spells you cast ignore &amp;Reference[Resistance] to Fire damage.</p><p>@Embed[Compendium.dnd-world-warcraft.feats.Item.wowftHotStreak00.Activity.CsD6XLi9DweMWwU5 caption=false cite=false nameStyle=inline]</p>",
+      "name": "Hot Streak",
+      "effects": {
+        "Fire Mastery": {
+          "description": "<p>Spells you cast ignore &amp;Reference[Resistance] to Fire damage.</p>",
+          "name": "Fire Mastery"
+        }
+      },
+      "activities": {
+        "Ignite": {
+          "condition": "When a spell you cast deals Fire damage to a creature",
+          "name": "Ignite",
+          "description": "<p>When a spell you cast deals Fire damage to a creature, the target starts burning. When you deal Fire damage to a creature that is already burning, the flames become more severe, increasing the burning damage by 1d4.</p>"
+        }
+      }
+    },
+    "Will to Survive": {
+      "name": "Will to Survive",
+      "description": "<div class=\"item-entry-details\"><p class=\"item-entry-tag\">Origin Feat (Prerequisite: World of Warcraft Campaign, Human Species)</p></div><p>When you have the &amp;Reference[Incapacitated apply=false] condition but not the &amp;Reference[Unconscious apply=false] condition, you can draw on the proud heritage of Stormwind or Stromgarde to ignore the Incapacitated condition on your turn. If you do, you gain 1 Exhaustion level.</p>"
+    },
+    "Stagger and Sway": {
+      "activities": {
+        "Defer Damage": {
+          "name": "Defer Damage",
+          "roll": "Damage Reduction",
+          "condition": "When you take damage",
+          "description": "<p>When you take damage, reduce the damage you take by your Dexterity modifier (minimum of 1). Then add a d6 to your Delayed Reaction pool. At the end of your turn, remove all the dice from your Delayed Reaction pool and roll them. You take Force damage equal to the total rolled.</p>"
+        },
+        "Deferred Damage": {
+          "condition": "At the end of your turn",
+          "description": "<p>At the end of your turn, remove all the dice from your Delayed Reaction pool and roll them. You take Force damage equal to the total rolled.</p>",
+          "name": "Deferred Damage"
+        },
+        "Purify": {
+          "description": "<p>As a Bonus Action, you can remove a number of dice equal to your Wisdom modifier from your Delayed Reaction pool.</p>",
+          "name": "Purify"
+        }
+      },
+      "description": "<div class=\"item-entry-details\"><p class=\"item-entry-tag\">General Feat (Prerequisite: Level 4+, Dexterity and Wisdom 13+)</p></div><p>You gain the following benefits.</p><p><em><strong>Ability Score Increase.</strong></em> Increase your Dexterity or Wisdom score by 1, to a maximum of 20.</p><p>@Embed[Compendium.dnd-world-warcraft.feats.Item.wowftStaggerSway.Activity.iIIayIKsaz3rpCZb caption=false cite=false nameStyle=inline]</p><p>@Embed[Compendium.dnd-world-warcraft.feats.Item.wowftStaggerSway.Activity.xLj8ZSbJ4IdlaJ2n caption=false cite=false nameStyle=inline]</p>",
+      "name": "Stagger and Sway"
     }
   }
 }
