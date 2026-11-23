@@ -10,9 +10,26 @@
     "Rings": "戒指",
     "Blessings": "祝福",
     "Light": "輕甲",
-    "Heavy": "重甲"
+    "Heavy": "重甲",
+    "Resources": "Resources",
+    "Magic Fragments": "Magic Fragments",
+    "Very Rare": "Very Rare",
+    "The Horde": "The Horde",
+    "Artifact": "Artifact",
+    "Herbalism": "Herbalism",
+    "Residue": "Residue",
+    "Wondrous Items": "Wondrous Items",
+    "Renown": "Renown",
+    "Staves": "Staves",
+    "Legendary": "Legendary",
+    "Archaeology Fragments": "Archaeology Fragments",
+    "The Alliance": "The Alliance",
+    "Fishing": "Fishing",
+    "Uncommon": "Uncommon",
+    "Skinning": "Skinning",
+    "Mining": "Mining",
+    "Rare": "Rare"
   },
-  "entries": {},
   "mapping": {
     "activities": {
       "path": "system.activities",
@@ -26,5 +43,1110 @@
       "path": "effects",
       "converter": "effects"
     }
-  }
+  },
+  "entries": {
+    "Helm of Domination": {
+      "activities": {
+        "Attuning to the Helm": {
+          "description": "<p>When you attune to the helm, make a DC 18 Charisma saving throw. On a successful save, roll and apply this Activity’s 10d6 Psychic damage. On a failed save, your soul merges with the Lich King, who takes control of your body like a puppet, and you become an NPC under the DM’s control.</p>",
+          "name": "Attuning to the Helm"
+        },
+        "Command the Scourge": {
+          "name": "Command the Scourge"
+        }
+      },
+      "name": "Helm of Domination",
+      "effects": {
+        "Properties of the Helm": {
+          "name": "Properties of the Helm",
+          "changes": {
+            "0": "Neutral Evil"
+          }
+        }
+      },
+      "description": "<p>This ornate helm is infused with the power of domination—a form of runic magic intended to utterly suppress the will of another being. The helm (along with its companion Artifact, <em>@UUID[Compendium.dnd-world-warcraft.items.Item.wowFrostmourneKA]{Frostmourne}</em>) allowed its wearers—three successive Lich Kings—to rule the Scourge.</p><p><em><strong>Attuning to the Helm.</strong></em> When you attune to the helm, make a DC 18 Charisma saving throw. On a successful save, you take 10d6 Psychic damage. On a failed save, your soul merges with the Lich King, who then takes control of your body like a puppet, and you become an NPC under the DM’s control.</p><p>While attuned to the helm, you are unwilling to part with the helm, wearing it at all times, and you can’t voluntarily end your Attunement to the helm.</p><p><em><strong>Properties of the Helm.</strong></em> While attuned to the helm, your alignment is Neutral Evil, and you gain the following benefits:</p><p class=\"hanging\"><strong>Command the Scourge. </strong>As a Magic action, you can send a psychic command to each Undead that is part of the Scourge. Make an ability check using your spellcasting ability (DC 20). On a successful check, you can issue a general command to the Undead Scourge, such as “attack any creature you come across” or “guard my stronghold,” or you can issue a command to a specific member of the Scourge, such as “deliver a plague to Stormwind.” Whether or not you succeed, this property of the helm can’t be used again until the next dawn.</p><p class=\"hanging\"><strong>Truesight.</strong> You have Truesight with a range of 120 feet.</p><p class=\"hanging\"><strong>Spellcasting. </strong>The helm has 8 charges and regains 1d4 + 4 expended charges daily at dawn. While wearing the helm, you can cast one of the spells on the following table from it (save DC 18). The table indicates how many charges you must expend to cast the spell.</p><table><thead><tr><th scope=\"col\"><p>Spell</p></th><th scope=\"col\"><p>Charge Cost</p></th></tr></thead><tbody><tr><td><p><em>Animate Dead</em></p></td><td><p>1</p></td></tr><tr><td><p><em>Clairvoyance</em></p></td><td><p>2</p></td></tr><tr><td><p><em>Dream</em></p></td><td><p>4</p></td></tr><tr><td><p><em>Speak with Dead</em></p></td><td><p>1</p></td></tr><tr><td><p><em>Telepathy</em></p></td><td><p>5</p></td></tr><tr><td><p><em>Word of Recall</em></p></td><td><p>5</p></td></tr></tbody></table><p><em><strong>Random Properties.</strong></em> The <em>Helm of Domination</em> <br>has the following random properties:</p><ul><li class=\"Core-Styles_Core-Bulleted\"><p>@UUID[Compendium.dnd-dungeon-masters-guide.tables.RollTable.dmgMajorBenefici]{1 major beneficial property}</p></li><li class=\"Core-Styles_Core-Bulleted\"><p>@UUID[Compendium.dnd-dungeon-masters-guide.tables.RollTable.dmgMinorDetrimen]{1 minor detrimental property}</p></li><li class=\"Core-Styles_Core-Bulleted\"><p>@UUID[Compendium.dnd-dungeon-masters-guide.tables.RollTable.dmgMajorDetrimen]{1 major detrimental property}</p></li></ul><p><em><strong>Destroying the Helm of Domination. </strong></em>The helm is shattered if struck by a blade forged in the Shadowlands. Only the Runecarver, who originally forged the helm, can reforge it from the fragments.</p>"
+    },
+    "Charm of the Highborne": {
+      "activities": {
+        "cZaLBCeg57SnQmVL": {
+          "target": "Monster"
+        }
+      },
+      "name": "Charm of the Highborne",
+      "description": "<p>While you have this Charm, you know Thalassian. You can expend the Charm to cast <em>Charm Monster</em>.</p>",
+      "effects": {
+        "Charm Language": {
+          "description": "<p>While you have this Charm, you know Thalassian.</p>",
+          "name": "Charm Language"
+        }
+      }
+    },
+    "Blessing of the Magic Companion": {
+      "description": "<p>While you have a magic companion whose Loyalty Score is 10 or higher, you have the Blessing of the Magic Companion, which gives you proficiency and Expertise in the Arcana skill.</p>",
+      "name": "Blessing of the Magic Companion",
+      "effects": {
+        "Blessing of the Magic Companion": {
+          "name": "Blessing of the Magic Companion"
+        }
+      }
+    },
+    "Clockwerk Charm": {
+      "name": "Clockwerk Charm",
+      "description": "<p>You can request a Clockwerk Charm from the leaders of the Bilgewater Cartel before you undertake a quest on their behalf. This Charm allows you to cast the @UUID[Compendium.dnd-players-handbook.spells.Item.phbsplSummonCons]{Summon Construct} spell (Metal only), which lasts for 1 hour and doesn’t require Concentration. The @UUID[Compendium.dnd-players-handbook.actors.Actor.phbmobConstructS]{Construct Spirit} appears as a mechanical goblin. When it drops to 0 Hit Points or the spell ends, the summoned spirit explodes in a 10-foot-radius Sphere of fire. Creatures in the Sphere make a [[/save dex 13 format=long]], taking [[/damage 2d6 Fire average]] damage on a failed save or half as much damage on a successful one.</p><p>The Charm lasts until you use it once or you complete or abandon the quest. Once you request this Charm, you can’t do so again until your Renown Score with the Bilgewater Cartel increases.</p>",
+      "activities": {
+        "Construct Explosion": {
+          "name": "Construct Explosion",
+          "condition": "When the creature drops to 0 Hit Points or the spell ends."
+        }
+      }
+    },
+    "Blessing of the Dragonkin Companion": {
+      "name": "Blessing of the Dragonkin Companion",
+      "description": "<p>While you have a dragonkin companion whose Loyalty Score is 10 or higher, you have the Blessing of the Dragonkin Companion, which gives you Advantage on saving throws to avoid or end the &amp;Reference[Frightened apply=false] condition.</p>"
+    },
+    "Blessing of the Farseer": {
+      "name": "Blessing of the Farseer",
+      "activities": {
+        "Earth: Stone Shape": {
+          "name": "Earth: Stone Shape"
+        },
+        "Air: Wind Wall": {
+          "name": "Air: Wind Wall"
+        },
+        "Water: Create or Destroy Water": {
+          "name": "Water: Create or Destroy Water"
+        },
+        "Water: Wall of Ice": {
+          "name": "Water: Wall of Ice"
+        },
+        "Air: Feather Fall": {
+          "name": "Air: Feather Fall"
+        },
+        "Fire: Burning Hands": {
+          "name": "Fire: Burning Hands"
+        },
+        "Earth: Wall of Stone": {
+          "name": "Earth: Wall of Stone"
+        },
+        "Fire: Wall of Fire": {
+          "name": "Fire: Wall of Fire"
+        },
+        "Air: Gust of Wind": {
+          "name": "Air: Gust of Wind"
+        },
+        "Water: Water Walk": {
+          "name": "Water: Water Walk"
+        },
+        "Earth: Stoneskin": {
+          "name": "Earth: Stoneskin"
+        },
+        "Earth: Earthquake": {
+          "name": "Earth: Earthquake"
+        },
+        "Fire: Fireball": {
+          "name": "Fire: Fireball"
+        },
+        "Air: \tChain Lightning": {
+          "name": "Air: \tChain Lightning"
+        },
+        "Save": {
+          "name": "Save"
+        },
+        "Water: Ice Storm": {
+          "name": "Water: Ice Storm"
+        },
+        "Water: Tsunami": {
+          "name": "Water: Tsunami"
+        }
+      },
+      "effects": {
+        "Charmed": {
+          "name": "Charmed"
+        },
+        "Elemental Focus: Earth": {
+          "name": "Elemental Focus: Earth"
+        },
+        "Elemental Focus: Air": {
+          "name": "Elemental Focus: Air"
+        },
+        "Elemental Focus: Water": {
+          "name": "Elemental Focus: Water"
+        },
+        "Elemental Focus: Fire": {
+          "name": "Elemental Focus: Fire"
+        }
+      },
+      "description": "<p><em>Prerequisite: Renown 50+ with the Earthen Ring</em></p><p>The Blessing gives you the benefits of a <em>Ring of Elemental Command</em> linked to an Elemental Plane of your choice. When you finish a Long Rest, you can change the plane it’s linked to. You lose the Blessing if your Renown Score with the Earthen Ring falls below 50.</p><p><em><strong>Elemental Bane</strong></em>. While you are under the effects of this Blessing, you have Advantage on attack rolls against Elementals, and they have Disadvantage on attack rolls against you.</p><section id=\"secret-oKpFboAkXjVBqxOa\" class=\"secret hide-in-embed\"><p><strong>Foundry Note</strong></p><p>Enable the Elemental Focus active effect for your chosen plane in the Effects tab and use its matching spell activities. When changing planes after a Long Rest, disable the previous effect and enable the new one; leave charges unchanged.</p><p>Apply Elemental Bane’s Advantage and Disadvantage manually. Use the Save activity for Elemental Compulsion, then apply Charmed on a failed save and direct the target’s next move and action manually.</p><p>Earth’s terrain benefit works with Difficult Terrain regions tagged Rocks. Handle movement through solid earth or rock, shunting, and Water’s underwater breathing manually.</p></section>"
+    },
+    "Philosopher's Stone": {
+      "activities": {
+        "Transmute Resources": {
+          "name": "Transmute Resources"
+        }
+      },
+      "name": "Philosopher's Stone",
+      "description": "<p class=\"metadata hide-in-embed\">Requires Attunement by Its Creator</p><p>A <em>Philosopher’s Stone</em> is a powerful reagent used in alchemy, and it can be effectively used only by the alchemist who created it. While you carry it, you gain the following benefits.</p><p><em><strong>Spellcasting Focus.</strong></em> You can use your <em>Philosopher’s Stone</em> as a Spellcasting Focus for your spells.</p><p><em><strong>Transmute Resources. </strong></em>If you spend 1 hour (which can be concurrent with a Short Rest) with your <em>Philosopher’s Stone</em> and crafting resources of a single kind (fish, gems, herbs, ores or stones, leather or hide, or cloth), you can magically transmute the resources into resources of a different kind but the same value. Thus, you can convert 100 GP worth of herbs into 100 GP worth of ore or vice versa, or change 500 GP of mithril (a common ore) into 500 GP of truesilver (a rare ore).</p><p><em><strong>Mixology.</strong></em> When you roll a die to determine the effect of a potion you drink (including the result of mixing potions), you can roll the die twice and choose either result. If a potion you drink has a duration, that duration is doubled.</p>"
+    },
+    "Doomhammer": {
+      "activities": {
+        "Doom Winds": {
+          "name": "Doom Winds",
+          "condition": "When you start raging"
+        },
+        "Lightning Rod": {
+          "description": "<p>When a creature you can see within 60 feet of you would take Lightning damage, you can take a Reaction to reduce the damage to 0.</p>",
+          "name": "Lightning Rod"
+        }
+      },
+      "effects": {
+        "Doom Winds": {
+          "name": "Doom Winds"
+        }
+      },
+      "name": "Doomhammer",
+      "description": "<p><em>Weapon (Warhammer), Artifact (Requires Attunement by a Barbarian)</em></p><p>Long ago on the world of Draenor, an orc named Gelnar set out to fashion a weapon that would empower his people against their ogre foes. He forged a fearsome hammer in the heat of an elemental pool of lava. Dubbed <em>Doomhammer</em>, this weapon was passed down through generations of Blackrock orcs. An ancient prophecy foretold that possession of the hammer would someday leave the Blackrock lineage; this prophecy came true when Thrall, an orc shaman, proved himself the weapon’s worthy wielder.</p><p><em><strong>Magic Weapon.</strong></em> You gain a +3 bonus to attack rolls and damage rolls made with this magic weapon. It deals an extra 1d8 Lightning damage on a hit.</p><p><em><strong>Gelnar’s Gifts.</strong></em> While holding <em>Doomhammer</em>, you gain the following benefits:</p><p><strong>Doom Winds.</strong> Your fury carries the unbridled momentum of a windstorm. While your Rage is active, your Speed is doubled, and you can take an extra Attack action (one attack only) on each of your turns.</p><p><strong>Lava Stride.</strong> You take no damage from molten lava and can walk across it as if it were solid ground.</p><p><strong>Lightning Rod.</strong> When a creature you can see within 60 feet of you would take Lightning damage, you can take a Reaction to reduce the damage to 0.</p><p><strong>Storm’s Passage.</strong><em><strong> </strong></em>You can cast <em>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplWindWalk00]{Wind Walk}</em> from this weapon. Once the weapon has been used to cast this spell, it can’t be used to cast it again until the next dawn.</p><p><em><strong>Random Properties.</strong></em> <em>Doomhammer</em> has the following random properties:</p><ul><li class=\"Core-Styles_Core-Bulleted\"><p>2 minor beneficial properties</p></li><li class=\"Core-Styles_Core-Bulleted\"><p>1 major beneficial property</p></li><li class=\"Core-Styles_Core-Bulleted\"><p>1 minor detrimental property</p></li></ul><p><em><strong>Destroying Doomhammer. </strong></em>To destroy <em>Doomhammer</em>, a descendant of Gelnar must hurl the weapon into the eye of a storm in Outland, the remnants of the destroyed world of Draenor.</p>"
+    },
+    "Shalla’tor": {
+      "activities": {
+        "Rejoin Shalamayne": {
+          "name": "Rejoin Shalamayne"
+        }
+      },
+      "name": "Shalla’tor",
+      "description": "<p class=\"hide-in-embed\"><em><strong>Note</strong>: One half of Shalamayne</em></p><hr><p>[[/attack extended]]. [[/damage average extended]].</p><p><em>Shalla’tor</em> is the night elven blade wielded by one of King Varian Wrynn’s two selves. It is a <em>+3 Longsword</em> with the Finesse and Light properties.</p><p>A creature <span style=\"margin:0px;padding:0px\">holding both <em>Shalla’tor</em> and <em>@UUID[Compendium.dnd-world-warcraft.items.Item.wowEllemaynecX2Z]{Ellemayne}</em> can use</span> a Magic action to rejoin them into <em>@UUID[Compendium.dnd-world-warcraft.items.Item.wowShalamayneP7U]{Shalamayne}</em>, and instantly attune to the weapon.</p>"
+    },
+    "Experimental Goblin Jetpack": {
+      "description": "<p><em>Wondrous Item, Rare (Requires Attunement)</em></p><p>While wearing this pack, you can take a Magic action to fire up its jets. The jets remain active for 1 hour or until you end the effect early as a Magic action. The jets give you a Fly Speed of 60 feet. If you are aloft when the jets become inactive, you fall. When the jets stop, you can’t use them again for [[/r 1d12]] hours.</p>",
+      "activities": {
+        "Restore Use": {
+          "name": "Restore Use",
+          "condition": "After 1d12 hours"
+        },
+        "Activate Jetpack": {
+          "name": "Activate Jetpack"
+        },
+        "Jetpack Control": {
+          "name": "Jetpack Control"
+        }
+      },
+      "effects": {
+        "Jetpack Activated": {
+          "name": "Jetpack Activated"
+        }
+      },
+      "name": "Experimental Goblin Jetpack"
+    },
+    "Twin Blades of Azzinoth": {
+      "activities": {
+        "Fel Synchronization (Second Blade)": {
+          "target": "Hit creature",
+          "name": "Fel Synchronization (Second Blade)",
+          "condition": "use immediately after the second distinct blade hits the same creature on a turn"
+        },
+        "Fiend Damage": {
+          "target": "Fiend only",
+          "name": "Fiend Damage",
+          "description": "<p>Ignore Psychic Resistance and Immunity for this roll</p>",
+          "condition": "use after that blade hits a Fiend"
+        },
+        "Flames of Azzinoth (Second Blade)": {
+          "name": "Flames of Azzinoth (Second Blade)"
+        },
+        "First Blade Attack": {
+          "name": "First Blade Attack"
+        },
+        "Flames of Azzinoth (First Blade)": {
+          "name": "Flames of Azzinoth (First Blade)"
+        },
+        "Second Blade Attack": {
+          "name": "Second Blade Attack"
+        }
+      },
+      "effects": {
+        "Stunned": {
+          "description": "<p>The target is &amp;Reference[stunned apply=false] until the end of its next turn.</p>",
+          "name": "Stunned"
+        }
+      },
+      "description": "<p class=\"hide-in-embed\">[[/attack extended]]. [[/damage average extended]].</p><p>This pair of demonic warglaives once belonged to Azzinoth, an ancient doomguard commander of the Burning Legion. Illidan Stormrage slew Azzinoth millennia ago during the War of the Ancients and reforged the blades for himself, allowing him to use fel magic against the demons of the Legion.</p><p><em><strong>Magic Weapons.</strong></em> You gain a +3 bonus to attack rolls and damage rolls made with these magic weapons. Each deals an extra [[/damage average activity=gNEBEiguvus0fWre]] damage if the target is a Fiend; this Psychic damage ignores Resistance and Immunity.</p><p><em><strong>Fel Synchronization.</strong></em> If you hit the same creature with both weapons on a turn, that creature makes a [[/save format=long activity=QeFZDQDx1bqtfOkQ]] immediately after the second weapon hits. On a failed save, the creature is racked by fel magic and has the &amp;Reference[Stunned apply=false] condition until the end of its next turn.</p><p><em><strong>Flames of Azzinoth.</strong></em> As a Magic action, you can throw one of the weapons to an unoccupied space on the ground you can see within 30 feet of you. The blade transforms into a fiery green fiend as if you had cast the <em>Summon Fiend</em> spell (choose the Devil option). The spell lasts for 1 minute, and when the summoned fiend disappears, the weapon reappears in your hand. You can’t turn that weapon into a Fiend again until 7 days have passed.</p><p><em><strong>Random Properties.</strong></em> <em>The Twin Blades of Azzinoth </em>have the following random properties:</p><ul><li class=\"Core-Styles_Core-Bulleted\"><p>@UUID[Compendium.dnd-dungeon-masters-guide.tables.RollTable.dmgMinorBenefici]{1 minor beneficial property}</p></li><li class=\"Core-Styles_Core-Bulleted\"><p>@UUID[Compendium.dnd-dungeon-masters-guide.tables.RollTable.dmgMajorBenefici]{1 major beneficial property}</p></li><li class=\"Core-Styles_Core-Bulleted\"><p>@UUID[Compendium.dnd-dungeon-masters-guide.tables.RollTable.dmgMinorDetrimen]{1 minor detrimental property}</p></li></ul><p><em><strong>Destroying the Blades.</strong></em> Reciting an ancient poem called “Gift of the Light” over the blades causes them to dissolve into glittering dust. This poem has largely been lost to time, but a few rare naaru remember it.</p><section id=\"secret-SFGQcx1CDR4isesl\" class=\"secret hide-in-embed\"><p><strong>Foundry Note</strong></p><p>Track hits from the two blades separately. After both hit the same creature on a turn, use Fel Synchronization; apply Stunned only on a failed save. Roll Fiend Damage separately and ignore Psychic Resistance and Immunity when applying it.</p><p>Use the Flames Cast Activity for the blade being thrown. In the linked spell, use the Summon Activity and select Devil. Record that blade’s use date, mark it unavailable while summoned, and return it to hand when the fiend disappears. After seven days, manually reset the spent use to zero on that blade’s Cast Activity.</p></section>",
+      "name": "Twin Blades of Azzinoth"
+    },
+    "Flask of the Titans": {
+      "description": "<p><em>Potion, Very Rare</em></p><p>When you drink this potion, your Hit Point maximum and current Hit Points increase by 30 for 1 hour.</p><p>The golden liquid in this flask tastes like honey and gleams with the light of dawn.</p>",
+      "name": "Flask of the Titans",
+      "effects": {
+        "Flask of the Titans": {
+          "name": "Flask of the Titans",
+          "description": "<p>Your Hit Point maximum and current Hit Points increase by 30 for 1 hour.</p>"
+        }
+      }
+    },
+    "Blessing of the Wylderdrake": {
+      "activities": {
+        "Summon Cliffside Wylderdrake": {
+          "condition": "After casting the spell",
+          "name": "Summon Cliffside Wylderdrake",
+          "target": "Unoccupied"
+        }
+      },
+      "description": "<p><em>Prerequisite: Renown 25+ with the Valdrakken Accord</em></p><p>This Blessing allows you to cast <em>Find Steed</em> (level 4 version).</p><p>The Otherworldly Steed summoned by the spell is a cliffside wylderdrake, which has the Dragon type, deals Force damage with its Otherworldly Slam, and has the following trait instead of the Bonus Action options shown in the <em>Player’s Handbook</em>:</p><p><em><strong>Flyby</strong></em>. The steed doesn’t provoke an &amp;Reference[Opportunity Attack] when it flies out of an enemy’s reach.</p>",
+      "name": "Blessing of the Wylderdrake"
+    },
+    "Thunder Bluff Bastion Location Renown": {
+      "description": "<p>While your Bastion is in Thunder Bluff or elsewhere in Mulgore or Highmountain, your Renown Score with Thunder Bluff increases by 1.</p>",
+      "name": "Thunder Bluff Bastion Location Renown"
+    },
+    "Charm of the Zandalari": {
+      "activities": {
+        "Summon Beast Spirit": {
+          "name": "Summon Beast Spirit"
+        }
+      },
+      "effects": {
+        "Charm Language": {
+          "description": "<p>While you have this Charm, you know Zandali.</p>",
+          "name": "Charm Language"
+        }
+      },
+      "description": "<p>While you have this Charm, you know Zandali. You can expend the Charm to cast <em>Summon Beast</em> (level 4 version). The summoned <strong>Bestial Spirit</strong> resembles a loa.</p>",
+      "name": "Charm of the Zandalari"
+    },
+    "Staff of Light and Shadow": {
+      "effects": {
+        "Benediction": {
+          "name": "Benediction"
+        },
+        "Necrotic Resistance": {
+          "name": "Necrotic Resistance"
+        },
+        "Radiant Resistance": {
+          "name": "Radiant Resistance"
+        },
+        "Anathema": {
+          "name": "Anathema"
+        }
+      },
+      "activities": {
+        "Shadow Mana": {
+          "description": "<p>For a qualifying spell, roll before confirming its spell-slot expenditure. Compare the result with the spell’s level. If the result is higher, cast without spending the slot.</p>",
+          "name": "Shadow Mana"
+        },
+        "Change Form": {
+          "name": "Change Form"
+        }
+      },
+      "name": "Staff of Light and Shadow",
+      "description": "<p class=\"hide-in-embed\"><em>Requires Attunement by a Cleric</em></p><p class=\"hide-in-embed\">[[/attack extended]]. [[/damage average extended]] or [[/damage attackMode=twoHanded average]] damage if used with two hands.</p><p>This staff has two forms: a shadowy state known as <em>Anathema</em> and a holy state known as <em>Benediction</em>. While attuned to the staff, you can switch the staff from one state to the other at dawn.</p><p><em><strong>Anathema. </strong></em>As <em>Anathema</em>, the staff grants the following benefits:</p><p class=\"hanging\"><strong>Necrotic Resistance.</strong> While attuned to the staff, you have Resistance to Necrotic damage.</p><p class=\"hanging\"><strong>Shadow Mana.</strong> While you’re holding the staff, when you cast a level 1–5 spell from the Necromancy school that would expend a spell slot, you can roll 1d6. If the number on the die exceeds the spell’s level, the spell slot isn’t expended.</p><p><em><strong>Benediction.</strong></em> As <em>Benediction</em>, the staff grants the following benefits:</p><p class=\"hanging\"><strong>Radiant Resistance.</strong> While attuned to the staff, you have Resistance to Radiant Damage.</p><p class=\"hanging\"><strong>Light-Blessed Healing.</strong> While you’re holding the staff, when you cast a spell that would restore Hit Points to a creature, you can treat the spell as if it had been cast using a spell slot of 1 level higher.</p>"
+    },
+    "Blessing of the Proto-Whelp": {
+      "activities": {
+        "Summon Crimson Proto-Whelp": {
+          "target": "unoccupied",
+          "condition": "After casting Find Familiar",
+          "name": "Summon Crimson Proto-Whelp"
+        }
+      },
+      "name": "Blessing of the Proto-Whelp",
+      "description": "<p><em>Prerequisite: Renown 10+ with the Valdrakken Accord</em></p><p>This Blessing allows you to cast <em>Find Familiar</em> with no Material components. When you cast the spell in this way, your familiar is a crimson proto-whelp (@UUID[Compendium.dnd-monster-manual.actors.Actor.mmPseudodragon00]{Pseudodragon}).</p><p>Once you cast the spell in this way, you can’t do so again until you finish a Long Rest.</p><p>You lose the Blessing and your proto-whelp familiar vanishes if your Renown Score with the Valdrakken Accord falls below 10.</p>"
+    },
+    "Sight of the Earth-Warder": {
+      "name": "Sight of the Earth-Warder",
+      "effects": {
+        "Sight of the Earth-Warder": {
+          "name": "Sight of the Earth-Warder"
+        }
+      },
+      "description": "<p>This Blessing gives you Advantage on Initiative rolls and Wisdom (Perception) checks. You lose the Blessing if your Renown Score with the Obsidian Warders falls below 10.</p>"
+    },
+    "Troll’s Blood Elixir (Superior)": {
+      "activities": {
+        "Consume & Heal": {
+          "condition": "When you drink the potion and then at the start of each of your turns",
+          "name": "Consume & Heal"
+        }
+      },
+      "description": "<p>When you drink this potion, you regain 6 Hit Points. At the start of each of your turns for the next 1 minute, you regain that number of Hit Points again if you have at least 1 Hit Point.</p><p>This thick green elixir is made from herbs. No trolls were harmed in the making of this elixir.</p>",
+      "name": "Troll’s Blood Elixir (Superior)"
+    },
+    "Blessing of Argent Will": {
+      "description": "<p><em>Prerequisite: Renown 3+ with the Argent Dawn</em></p><p>This Blessing gives you Advantage on saving throws to avoid or end the Charmed condition caused by a Fiend or Undead. You lose the Blessing if your Renown Score with the Argent Dawn falls below 3.</p>",
+      "name": "Blessing of Argent Will"
+    },
+    "Blessing of Argent Fortitude": {
+      "description": "<p><em>Prerequisite: Renown 25+ with the Argent Dawn</em></p><p>This Blessing gives you Immunity to the Poisoned condition and Poison damage. You lose the Blessing if your Renown Score with the Argent Dawn falls below 25.</p>",
+      "name": "Blessing of Argent Fortitude",
+      "effects": {
+        "Argent Fortitude": {
+          "name": "Argent Fortitude"
+        }
+      }
+    },
+    "Vithrak, Gaze of the Deadman": {
+      "description": "<p>This ring has 3 charges and regains 1d3 expended charges daily at dawn. While wearing the ring, you can take a Magic action and expend 1 charge to learn the Resistances, Vulnerabilities, and Immunities (if any) of a creature you can see within 120 feet of yourself. When you use this effect, your eyes briefly become glassy, gray husks.</p>",
+      "name": "Vithrak, Gaze of the Deadman",
+      "activities": {
+        "Gaze of the Deadman": {
+          "name": "Gaze of the Deadman",
+          "condition": "While wearing the ring"
+        }
+      }
+    },
+    "Ellemayne": {
+      "activities": {
+        "Rejoin Shalamayne": {
+          "name": "Rejoin Shalamayne"
+        }
+      },
+      "name": "Ellemayne",
+      "description": "<p><em><strong>Note</strong>: One half of Shalamayne</em></p><hr><p>[[/attack extended]]. [[/damage average extended]].</p><p><em>Ellemayne</em> is the night elven blade wielded by the other of King Varian Wrynn’s two selves. It is a <em>+3 Longsword</em> with the Finesse and Light properties.</p><p>A creature who holds both <em>@UUID[Compendium.dnd-world-warcraft.items.Item.wowShallatorRTIC]{Shalla’tor}</em> and <em>Ellemayne</em> can take a Magic action to rejoin them into <em>@UUID[Compendium.dnd-world-warcraft.items.Item.wowShalamayneP7U]{Shalamayne}</em>, and instantly attune to the weapon.</p>"
+    },
+    "Blessing of the Earthen Ring": {
+      "name": "Blessing of the Earthen Ring",
+      "activities": {
+        "Summon Elemental": {
+          "target": "Unoccupied",
+          "name": "Summon Elemental"
+        },
+        "Dismiss Elemental": {
+          "name": "Dismiss Elemental"
+        }
+      },
+      "description": "<p><em>Prerequisite: Renown 25+ with the Earthen Ring</em></p><p>The Blessing enables you to take a Magic action to summon an <strong>Air Elemental</strong>, an <strong>Earth Elemental</strong>, a <strong>Fire Elemental</strong>, or a <strong>Water Elemental</strong>.</p><p>The elemental appears in an unoccupied space you choose within 30 feet of yourself, obeys your commands, and takes its turn immediately after you on your Initiative count. The elemental disappears after 1 hour, when it dies, or when you dismiss it as a Bonus Action. You can’t use this Blessing again until the next dawn.</p><p>You lose the Blessing if your Renown Score with the Earthen Ring falls below 25.</p>"
+    },
+    "Sulfuras, Hand of Ragnaros": {
+      "activities": {
+        "Subsequent Fire Damage": {
+          "target": "Burning",
+          "name": "Subsequent Fire Damage"
+        },
+        "Boiling Point": {
+          "name": "Boiling Point",
+          "target": "water or container"
+        },
+        "Eruption": {
+          "name": "Eruption"
+        },
+        "Boiling Point Damage": {
+          "name": "Boiling Point Damage"
+        }
+      },
+      "effects": {
+        "Burning": {
+          "name": "Burning"
+        }
+      },
+      "name": "Sulfuras, Hand of Ragnaros",
+      "description": "<p>[[/attack extended]]. [[/damage average extended activity=N6mZtfmcaHmHSf6n]].</p>\n<p>The elementium Maul <em>Sulfuras</em> is the weapon of Ragnaros, the Elemental Lord of Fire. In the beginning, the four elemental lords warred against one another for dominance over the nascent Azeroth. While the other elemental lords fought with mastery of their own elements, Ragnaros used<em> Sulfuras</em> to turn their elements against them, boiling seas, choking the skies with smoke and embers, and turning mountains into erupting volcanoes.</p>\n<p><em><strong>Magic Weapon.</strong></em> You gain a +3 bonus to attack rolls and damage rolls made with this magic weapon. A creature hit by this weapon takes an extra 1d10 Fire damage and starts burning, taking [[/damage activity=GCUrfpUxgdEFcYCa]] damage at the start of each of its turns instead of the normal burning damage.</p>\n<p><em><strong>Ignite the Elements.</strong></em> While holding this weapon, you can take a Magic action to produce one of the following effects. Once an effect has been used, that effect can’t be used again until the next dawn:</p>\n<p class=\"hanging\"><strong>Boiling Point.</strong> You cause any container or body of water within 1 mile of you to boil for 1 minute. A creature that enters the boiling water or starts its turn there takes [[/damage activity=pxlT5wJiFR6QzoXk]] damage.</p>\n<p class=\"hanging\"><strong>Embersmoke.</strong> You cast <em>Incendiary Cloud</em> (save DC 18) from the weapon.</p>\n<p class=\"hanging\"><strong>Eruption.</strong> You make lava erupt in a [[lookup @target.template.size activity=fox3sZ5UPzzJ2y75]]-foot-radius, [[lookup @target.template.height activity=fox3sZ5UPzzJ2y75]]-foot-high [[lookup @target.template.type capitalize activity=fox3sZ5UPzzJ2y75]] centered on a point on the ground you can see within [[lookup @range.value activity=fox3sZ5UPzzJ2y75]] feet. Each creature in that area makes a DC 18 Dexterity saving throw, taking [[/damage activity=fox3sZ5UPzzJ2y75]] damage on a failed save or half as much damage on a successful one.</p>\n<p><em><strong>Random Properties.</strong></em> <em>Sulfuras </em>has the following random properties:</p>\n<ul>\n    <li class=\"Core-Styles_Core-Bulleted\">\n        <p>@UUID[Compendium.dnd-dungeon-masters-guide.tables.RollTable.dmgMinorBenefici]{1 minor beneficial property}</p>\n    </li>\n    <li class=\"Core-Styles_Core-Bulleted\">\n        <p>@UUID[Compendium.dnd-dungeon-masters-guide.tables.RollTable.dmgMajorBenefici]{1 major beneficial property}</p>\n    </li>\n    <li class=\"Core-Styles_Core-Bulleted\">\n        <p>@UUID[Compendium.dnd-dungeon-masters-guide.tables.RollTable.dmgMinorDetrimen]{1 minor detrimental property}</p>\n    </li>\n    <li class=\"Core-Styles_Core-Bulleted\">\n        <p>@UUID[Compendium.dnd-dungeon-masters-guide.tables.RollTable.dmgMajorDetrimen]{1 major detrimental property}</p>\n    </li>\n</ul>\n<p><em><strong>Destroying Sulfuras. </strong></em>In an underwater tunnel network deep beneath Vashj’ir lies an abandoned, heavily trapped temple to Neptulon, the Elemental Lord of Water. Placing <em>Sulfuras</em> on the temple’s central altar quenches its fire permanently, rendering it nonmagical and destructible.</p>"
+    },
+    "Gnomeregan Bastion Location Renown": {
+      "description": "<p>While your Bastion is in Gnomeregan, in New Tinkertown, or on Mechagon Island, your Renown Score with Gnomeregan increases by 1.</p>",
+      "name": "Gnomeregan Bastion Location Renown"
+    },
+    "Blessing of Draconic Steed Summoning": {
+      "name": "Blessing of Draconic Steed Summoning",
+      "description": "<p>A character with a Renown Score of 25+ with the @UUID[Compendium.dnd-world-warcraft.book.JournalEntry.wowValdrakkenAcc]{Valdrakken Accord} gains a Blessing allowing them to summon a draconic steed.</p>"
+    },
+    "Stormwind Bastion Location Renown": {
+      "description": "<p>While your Bastion is in Elwynn Forest, Kul Tiras, Stormwind City, Stromgarde, or Westfall, your Renown Score with Stormwind increases by 1.</p>",
+      "name": "Stormwind Bastion Location Renown"
+    },
+    "Charm of Terror": {
+      "name": "Charm of Terror",
+      "activities": {
+        "Save": {
+          "name": "Save"
+        }
+      },
+      "description": "<p>Each creature of your choice within [[lookup @target.template.size activity=Lpr4eRgz9z2fVEEt]] feet of you must succeed on a [[/save format=long]] or have the &amp;Reference[Frightened apply=false] condition for 1 minute. While Frightened, a creature must spend its turns trying to move as far away from you as it can, and it can’t make &amp;Reference[Opportunity Attacks].</p><p>For its action, it can take only the &amp;Reference[Dash] action or an action to try to escape from an effect that prevents it from moving. If it has nowhere it can move, the creature can take the &amp;Reference[Dodge apply=false] action. At the end of each of its turns, a creature repeats the save, ending the effect on itself on a success.</p><p>Once you request this Charm, you can’t do so again until your Renown Score with the Dark Talons increases.</p>"
+    },
+    "Fishing Resource (Tier 2, Rare)": {
+      "name": "Fishing Resource (Tier 2, Rare)"
+    },
+    "Life-Staff of the Web Lair": {
+      "activities": {
+        "Vampiric Silk": {
+          "name": "Vampiric Silk"
+        }
+      },
+      "name": "Life-Staff of the Web Lair",
+      "description": "<p>[[/attack extended]]. [[/damage average extended]].</p><p>This staff has 8 charges.</p><p><em><strong>Arachnid’s Grace</strong></em>. While attuned to the staff, you can move up, down, and across vertical surfaces and along ceilings without using your hands. You also gain a Climb Speed equal to your Speed. You ignore movement restrictions caused by webs, and you know the location of any other creature in contact with the same web.</p><p><em><strong>Web.</strong></em> While holding the staff, you can expend 1 charge to cast <em>Web</em> (save DC 18) from it.</p><p><em><strong>Vampiric Silk.</strong></em> While holding the staff, you can take a Bonus Action and expend 1 charge to have a creature in the area of your <em>Web</em> spell make a DC 18 Constitution saving throw. (The creature makes the save with Disadvantage if it has the Restrained condition from the webbing.) The creature takes 4d10 Necrotic damage on a failed save or half as much damage on a successful one. Either way, you regain Hit Points equal to half the damage dealt.</p><p><em><strong>Regaining Charges.</strong></em> The staff regains 1d6 + 2 expended charges daily at dawn. If you expend the last charge, roll [[/r 1d20]]. On a 1, the staff dissolves into a swarm of harmless spiders and is destroyed.</p>",
+      "effects": {
+        "Arachnid’s Grace": {
+          "name": "Arachnid’s Grace"
+        }
+      }
+    },
+    "Charm of Draenor": {
+      "description": "<p>While you have this Charm, you know Draenei and Orcish. You can expend the Charm to cast <em>Conjure Minor Elementals</em>.</p>",
+      "effects": {
+        "Charm Languages": {
+          "description": "<p>While you have the Charm of Draenor, you know Draenei and Orcish</p>",
+          "name": "Charm Languages"
+        }
+      },
+      "name": "Charm of Draenor"
+    },
+    "Drust Fragment": {
+      "name": "Drust Fragment"
+    },
+    "Troll’s Blood Elixir (Supreme)": {
+      "activities": {
+        "Consume & Heal": {
+          "condition": "When you drink the potion and then at the start of each of your turns",
+          "name": "Consume & Heal"
+        }
+      },
+      "description": "<p>When you drink this potion, you regain 8 Hit Points. At the start of each of your turns for the next 1 minute, you regain that number of Hit Points again if you have at least 1 Hit Point.</p><p>This thick green elixir is made from herbs. No trolls were harmed in the making of this elixir.</p>",
+      "name": "Troll’s Blood Elixir (Supreme)"
+    },
+    "Blessing of the Flying Companion": {
+      "description": "<p>While you have a flying companion whose Loyalty Score is 10 or higher, you have the Blessing of the Flying Companion, which increases your Speed by 5 feet.</p>",
+      "name": "Blessing of the Flying Companion",
+      "effects": {
+        "Blessing of the Flying Companion": {
+          "name": "Blessing of the Flying Companion"
+        }
+      }
+    },
+    "Blessing of the Beast Companion": {
+      "name": "Blessing of the Beast Companion",
+      "effects": {
+        "Blessing of the Beast Companion": {
+          "name": "Blessing of the Beast Companion"
+        }
+      },
+      "description": "<p>While you have a beast companion whose Loyalty Score is 10 or higher, you have the Blessing of the Beast Companion, which gives you proficiency and Expertise in Animal Handling and Survival.</p>"
+    },
+    "Herbalism Resource (Tier 2, Rare)": {
+      "name": "Herbalism Resource (Tier 2, Rare)"
+    },
+    "Ironforge Bastion Location Renown": {
+      "description": "<p>While your Bastion is in Ironforge, elsewhere in Khaz Modan (except gnome settlements), in or near Aerie Peak, or in Shadowforge City, your Renown Score with Ironforge increases by 1.</p>",
+      "name": "Ironforge Bastion Location Renown"
+    },
+    "Ashbringer": {
+      "activities": {
+        "Steal Life": {
+          "condition": "Reduce a creature to 0 Hit Points.",
+          "name": "Steal Life"
+        },
+        "Wake of Ashes": {
+          "name": "Wake of Ashes",
+          "condition": "Reduce a creature to 0 Hit Points"
+        },
+        "Change State": {
+          "condition": "Perform an act of legendary heroism",
+          "name": "Change State"
+        },
+        "Attack Against Undead": {
+          "name": "Attack Against Undead"
+        }
+      },
+      "effects": {
+        "Corrupted State": {
+          "name": "Corrupted State",
+          "changes": {
+            "0": "{} (Corrupted)"
+          }
+        },
+        "True State": {
+          "name": "True State",
+          "changes": {
+            "0": "{} (True)"
+          }
+        },
+        "Blinded by Ash": {
+          "name": "Blinded by Ash"
+        }
+      },
+      "name": "Ashbringer",
+      "description": "<p><em>Weapon (Greatsword), Artifact (Requires Attunement by a Paladin)</em></p><p>Infused with the Holy Light and forged by King Magni Bronzebeard on the Great Anvil of Ironforge, <em>Ashbringer</em> was once the pride and joy of the knightly Mograine family. But when the traitorous Renault Mograine used the sword to kill his father, it became corrupted. The sword was claimed by the Scourge until Renault’s brother, Darion Mograine, betrayed the Lich King and delivered the weapon to Tirion Fordring—an act of heroism that cleansed <em>Ashbringer</em> of its corruption and restored the sword to its rightful form.</p><p><em><strong>Magic Weapon.</strong></em> You gain a +3 bonus to attack rolls and damage rolls made with this magic weapon. It deals an extra 1d10 Fire damage on a hit, or an extra 3d10 Fire damage if the target is Undead.</p><p><em><strong>Changing States.</strong></em> When first encountered, <em>Ashbringer</em> is in either its True State or its Corrupted State. At the DM’s discretion, <em>Ashbringer</em> changes into its Corrupted State if its wielder uses it to commit an act of legendary wickedness; it changes into its True State if its wielder uses it to commit an act of legendary heroism. <em>Ashbringer</em>’s current state grants you one of the following benefits:</p><p><strong>Steal Life (Corrupted State Only).</strong> Whenever you use <em>Ashbringer</em> to reduce a creature to 0 Hit Points, you gain 20 Temporary Hit Points.</p><p><strong>Wake of Ashes (True State Only).</strong> Whenever you use <em>Ashbringer</em> to reduce a creature to 0 Hit Points, you can make its corpse explode into a cloud of smoldering ash. Each creature of your choice in a 10-foot Emanation originating from the target must succeed on a DC 18 Constitution saving throw or have the Blinded condition until the end of its next turn.</p><p><em><strong>Sentience.</strong></em> <em>Ashbringer</em> is a sentient weapon with an Intelligence of 14, a Wisdom of 17, and a Charisma of 17. It is Lawful Good in its True State or Lawful Evil in its Corrupted State. It has hearing and Darkvision with a range of 120 feet.</p><p>The weapon communicates telepathically with its wielder and speaks Common and Dwarven.</p><p><em><strong>Personality.</strong></em><strong> </strong><em>Ashbringer’s</em> voice sounds like faint, intermittent whispers. In its True State, <em>Ashbringer</em> seeks to serve the forces of the Light and reduce the unholy to ash. In its Corrupted State, <em>Ashbringer</em> wants to undermine faith in the Light and destroy the righteous. Conflict arises if the wielder doesn’t share the goals of <em>Ashbringer</em>’s current state.</p><p><em><strong>Random Properties.</strong></em> <em>Ashbringer</em> has the following random properties:</p><ul><li class=\"Core-Styles_Core-Bulleted\"><p>1 minor beneficial property</p></li><li class=\"Core-Styles_Core-Bulleted\"><p>1 major beneficial property</p></li><li class=\"Core-Styles_Core-Bulleted\"><p>1 minor detrimental property</p></li></ul><p><em><strong>Destroying Ashbringer. </strong>Ashbringer</em> can be destroyed only by its creator, Magni Bronzebeard. The weapon will shatter when he strikes it against the Great Anvil of Ironforge.</p>"
+    },
+    "Blessing of the Undead Companions": {
+      "description": "<p>While you have an undead companion whose Loyalty Score is 10 or higher, you have the Blessing of the Undead Companion, which gives you Advantage on Death Saving Throws.</p>",
+      "effects": {
+        "Blessing of the Undead Companions": {
+          "name": "Blessing of the Undead Companions"
+        }
+      },
+      "name": "Blessing of the Undead Companions"
+    },
+    "Vrykul Fragment": {
+      "name": "Vrykul Fragment"
+    },
+    "Charm of Pandaria": {
+      "effects": {
+        "Charm Language": {
+          "name": "Charm Language",
+          "description": "<p>While you have this Charm, you know the Pandaren language.</p>"
+        }
+      },
+      "name": "Charm of Pandaria",
+      "description": "<p>While you have this Charm, you know the Pandaren language. You can expend the Charm to cast <em>Gaseous Form</em>, targeting yourself. The effect lasts for 1 hour or until you end the effect as a Bonus Action.</p>"
+    },
+    "Crown of the Ogre King": {
+      "effects": {
+        "Ogre-Like": {
+          "name": "Ogre-Like",
+          "description": "<p>You are far hungrier than normal. You lose all your table manners, and your daily food requirement triples.</p>"
+        }
+      },
+      "description": "<p><em>Wondrous Item, Very Rare (Requires Attunement)</em></p><p>While wearing this crown, you can take a Magic action to release a powerful belch that can be heard up to 300 feet away. Each creature in a 20-foot Cone originating from you makes a DC 17 Strength saving throw. On a failed save, a creature is pushed up to 20 feet away from you and has the &amp;Reference[Prone apply=false] condition.</p><p><em><strong>Cursed. </strong></em>This item is cursed. Attuning to it curses you until you are targeted by a <em>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplRemoveCurs]{Remove Curse}</em> spell or similar magic. Removing the crown fails to end the curse on you. While cursed, you are far hungrier than normal. You lose all your table manners, and your daily food requirement triples.</p>",
+      "name": "Crown of the Ogre King"
+    },
+    "Potion of Rejuvenation (Greater)": {
+      "description": "<p><span>You regain [[/heal]] and one expended spell slot of level 1–3 when you drink this potion. You choose the level of the spell slot you regain.</span></p><p><span>The potion’s magenta liquid glows faintly from within.</span></p>",
+      "activities": {
+        "Drink Potion (Recover 1st Level Slot)": {
+          "name": "Drink Potion (Recover 1st Level Slot)"
+        },
+        "Drink Potion (Recover 3rd Level Slot)": {
+          "name": "Drink Potion (Recover 3rd Level Slot)"
+        },
+        "Drink Potion (Recover 2nd Level Slot)": {
+          "name": "Drink Potion (Recover 2nd Level Slot)"
+        }
+      },
+      "name": "Potion of Rejuvenation (Greater)"
+    },
+    "Potion of Mana (Greater)": {
+      "activities": {
+        "Drink Potion (Recover 1st Level Slot)": {
+          "name": "Drink Potion (Recover 1st Level Slot)"
+        },
+        "Drink Potion (Recover 3rd Level Slot)": {
+          "name": "Drink Potion (Recover 3rd Level Slot)"
+        },
+        "Drink Potion (Recover 2nd Level Slot)": {
+          "name": "Drink Potion (Recover 2nd Level Slot)"
+        }
+      },
+      "description": "<p>You regain one expended spell slot of level 1–3 when you drink this potion. You choose the level of the spell slot you regain.</p><p>The potion’s blue liquid glows with an inner light.</p>",
+      "name": "Potion of Mana (Greater)"
+    },
+    "Figurine of Wondrous Power (Jeweled Panther)": {
+      "description": "<p><em>Wondrous Item, Rare</em></p><p>This statuette of a panther—made from jade, onyx, ruby, sapphire, or sunstone—follows the rules for @UUID[Compendium.dnd-dungeon-masters-guide.equipment.Item.dmgFigurineOfWon]{Figurines of Wondrous Power} in the Dungeon Master’s Guide. It can become a Large Panther with a Fly Speed of 30 feet for up to 12 hours and can be ridden as a mount. Once it has been used, it can’t be used again until 2 days have passed.</p><section id=\"secret-qFcIABSnOTGcRXjy\" class=\"secret hide-in-embed\"><p><strong>Foundry Note</strong></p><p>This item's limited uses represent the 2 days required before the figurine can be used again. Each summon consumes 2 uses and a use is restored each day so it will be usable again after 2 days.</p></section>",
+      "effects": {
+        "Jeweled Panther Enhancements": {
+          "description": "<p>The panther has a Fly Speed of 30 feet.</p>",
+          "name": "Jeweled Panther Enhancements"
+        }
+      },
+      "name": "Figurine of Wondrous Power (Jeweled Panther)",
+      "activities": {
+        "summon": {
+          "target": "unoccupied space"
+        }
+      }
+    },
+    "Charm of the Burning Legion": {
+      "description": "<p>While you have this Charm, you know the Eredun language. You can expend the Charm to cast <em>Rain of Fire</em> (level 4 version; see chapter 1).</p>",
+      "effects": {
+        "Charm Language": {
+          "description": "<p>While you have this Charm, you know the Eredun language.</p>",
+          "name": "Charm Language"
+        }
+      },
+      "name": "Charm of the Burning Legion"
+    },
+    "Mogu Magic Fragment": {
+      "name": "Mogu Magic Fragment"
+    },
+    "Demon Magic Fragment": {
+      "name": "Demon Magic Fragment"
+    },
+    "Shadowfang": {
+      "description": "<p>[[/attack extended]]. [[/damage average extended]].</p><p>You gain a +1 bonus to attack rolls and damage rolls made with this magic weapon.</p><p><em><strong>Mark of the Worgen.</strong></em> In most circumstances, the weapon appears unremarkable. But under the night sky, ragged fur and sharp fangs sprout around the sword’s cross guard. While transformed in this way, <em>Shadowfang</em> deals an extra 2d6 Necrotic damage on a hit. The weapon returns to normal at dawn or if it is brought indoors.</p>",
+      "activities": {
+        "Mark of the Worgen Attack": {
+          "name": "Mark of the Worgen Attack"
+        },
+        "Normal Attack": {
+          "name": "Normal Attack"
+        }
+      },
+      "name": "Shadowfang"
+    },
+    "Potion of Rejuvenation (Superior)": {
+      "name": "Potion of Rejuvenation (Superior)",
+      "activities": {
+        "Drink Potion (Recover 4th Level Slot)": {
+          "name": "Drink Potion (Recover 4th Level Slot)"
+        },
+        "Drink Potion (Recover 3rd Level Slot)": {
+          "name": "Drink Potion (Recover 3rd Level Slot)"
+        },
+        "Drink Potion (Recover 1st Level Slot)": {
+          "name": "Drink Potion (Recover 1st Level Slot)"
+        },
+        "Drink Potion (Recover 2nd Level Slot)": {
+          "name": "Drink Potion (Recover 2nd Level Slot)"
+        },
+        "Drink Potion (Recover 5th Level Slot)": {
+          "name": "Drink Potion (Recover 5th Level Slot)"
+        }
+      },
+      "description": "<p><span>You regain [[/heal]] and one expended spell slot of level 1–5 when you drink this potion. You choose the level of the spell slot you regain.</span></p><p><span>The potion’s magenta liquid glows faintly from within.</span></p>"
+    },
+    "Charm of the Old Gods": {
+      "effects": {
+        "Charm Language": {
+          "name": "Charm Language",
+          "description": "<p>While you have this Charm, you know Shath’Yar.</p>"
+        }
+      },
+      "description": "<p>While you have this Charm, you know Shath’Yar. You can expend the Charm to cast <em>Summon Aberration</em>.</p>",
+      "name": "Charm of the Old Gods"
+    },
+    "Residue (Common)": {
+      "name": "Residue (Common)"
+    },
+    "Skinning Resource (Tier 1, Rare)": {
+      "name": "Skinning Resource (Tier 1, Rare)"
+    },
+    "Herbalism Resource (Tier 4, Common)": {
+      "name": "Herbalism Resource (Tier 4, Common)"
+    },
+    "Charm of the Titan-Forged": {
+      "activities": {
+        "Expend Use": {
+          "name": "Expend Use"
+        }
+      },
+      "effects": {
+        "DR All": {
+          "description": "<p>You can expend the Charm to gain Resistance to all damage for 1 minute as your flesh takes on a mineral appearance.</p>",
+          "name": "DR All"
+        },
+        "Charm Language": {
+          "name": "Charm Language",
+          "description": "<p>While you have this Charm, you know Titan.</p>"
+        }
+      },
+      "description": "<p>While you have this Charm, you know Titan. You can expend the Charm to gain Resistance to all damage for 1 minute as your flesh takes on a mineral appearance.</p>",
+      "name": "Charm of the Titan-Forged"
+    },
+    "Skinning Resource (Tier 1, Common)": {
+      "name": "Skinning Resource (Tier 1, Common)"
+    },
+    "Mining Resource (Tier 1, Common)": {
+      "name": "Mining Resource (Tier 1, Common)"
+    },
+    "Gilneas Bastion Location Renown": {
+      "description": "<p>While your Bastion is anywhere in Gilneas, your Renown Score with Gilneas increases by 1.</p>",
+      "name": "Gilneas Bastion Location Renown"
+    },
+    "Fishing Resource (Tier 3, Common)": {
+      "name": "Fishing Resource (Tier 3, Common)"
+    },
+    "Troll’s Blood Elixir (Greater)": {
+      "name": "Troll’s Blood Elixir (Greater)",
+      "activities": {
+        "Consume & Heal": {
+          "name": "Consume & Heal",
+          "condition": "When you drink the potion and then at the start of each of your turns"
+        }
+      },
+      "description": "<p>When you drink this potion, you regain 4 Hit Points. At the start of each of your turns for the next 1 minute, you regain that number of Hit Points again if you have at least 1 Hit Point.</p><p>This thick green elixir is made from herbs. No trolls were harmed in the making of this elixir.</p>"
+    },
+    "Dwarf Magic Fragment": {
+      "name": "Dwarf Magic Fragment"
+    },
+    "Potion of Mana (Superior)": {
+      "description": "<p>You regain one expended spell slot of level 1–5 when you drink this potion. You choose the level of the spell slot you regain.</p><p>The potion’s blue liquid glows with an inner light.</p>",
+      "activities": {
+        "Drink Potion (Recover 3rd Level Slot)": {
+          "name": "Drink Potion (Recover 3rd Level Slot)"
+        },
+        "Drink Potion (Recover 5th Level Slot)": {
+          "name": "Drink Potion (Recover 5th Level Slot)"
+        },
+        "Drink Potion (Recover 1st Level Slot)": {
+          "name": "Drink Potion (Recover 1st Level Slot)"
+        },
+        "Drink Potion (Recover 4th Level Slot)": {
+          "name": "Drink Potion (Recover 4th Level Slot)"
+        },
+        "Drink Potion (Recover 2nd Level Slot)": {
+          "name": "Drink Potion (Recover 2nd Level Slot)"
+        }
+      },
+      "name": "Potion of Mana (Superior)"
+    },
+    "Rod of the Sleepwalker": {
+      "name": "Rod of the Sleepwalker",
+      "description": "<p>This rod puts creatures into a suggestible, sleepwalking state. You can cast <em>Dominate Monster</em> (save DC 17) from this rod, with the following modifications:</p><p><strong>Duration.</strong> The spell’s duration is Concentration, up to 8 hours.</p><p><strong>Immunity.</strong> Creatures that don’t sleep, such as elves, or that have Immunity to the Exhaustion condition automatically succeed on the save.</p><p><strong>Memory.</strong> An affected creature remembers nothing from the spell’s duration once the spell ends.</p><p>Once the rod has been used to cast the spell in this way, it can’t be used to do so again until the next dawn.</p>"
+    },
+    "Judgment Armor": {
+      "name": "Judgment Armor",
+      "description": "<p>While wearing this armor, you are under the effects of the <em>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplDetectEvil]{Detect Evil and Good}</em> and <em>Protection from Evil and Good</em> spells (no Concentration required). If you are a Paladin, the effects of <em>Protection from Evil and Good</em> extend to creatures of your choice in your Aura of Protection.</p>"
+    },
+    "Potion of Rejuvenation": {
+      "name": "Potion of Rejuvenation",
+      "description": "<p><span>You regain [[/heal]] and one expended 1st-level spell slot when you drink this potion.</span></p><p><span>The potion’s magenta liquid glows faintly from within.</span></p>",
+      "activities": {
+        "Drink Potion": {
+          "name": "Drink Potion"
+        }
+      }
+    },
+    "Drust Magic Fragment": {
+      "name": "Drust Magic Fragment"
+    },
+    "Draenei Magic Fragment": {
+      "name": "Draenei Magic Fragment"
+    },
+    "Exodar Bastion Location Renown": {
+      "name": "Exodar Bastion Location Renown",
+      "description": "<p>While your Bastion is within the Exodar, within the Vindicaar, or on the Azuremyst Isles, your Renown Score with the Exodar increases by 1.</p>"
+    },
+    "Frostmourne": {
+      "name": "Frostmourne",
+      "effects": {
+        "Prophecy of Frostmourne": {
+          "name": "Prophecy of Frostmourne",
+          "changes": {
+            "1": "Neutral Evil"
+          }
+        },
+        "Marshal Undead (Paladin)": {
+          "name": "Marshal Undead (Paladin)"
+        },
+        "Numb to Cold (Paladin)": {
+          "name": "Numb to Cold (Paladin)"
+        }
+      },
+      "description": "<p>[[/attack extended]]. [[/damage average extended]].</p><p>Runes of domination adorn this icy mourneblade. The Jailer—one of the rulers of the Shadowlands—originally sought to use <em>Frostmourne </em>to subjugate Azeroth, and that cruel intention forever lingers in the form of a prophecy: “Whosoever takes up this blade shall wield power eternal. Just as the blade rends flesh, so must power scar the spirit.” Arthas Menethil was the first to discover the prophecy’s true meaning when he lost his soul by wielding the sword, ultimately becoming the Lich King.</p><p><em><strong>Magic Weapon.</strong></em> You gain a +3 bonus to attack rolls and damage rolls made with this magic weapon. It deals an extra 2d12 Cold damage on a hit. Whenever you use <em>Frostmourne</em> to reduce a creature to 0 Hit Points, the creature dies, and its soul is trapped in the sword. The target can’t be raised from the dead until <em>Frostmourne</em> is destroyed.</p><p><em><strong>Pawn of the Lich King.</strong></em> While you’re attuned to <em>Frostmourne</em>, the Lich King can see through your eyes, hear through your ears, and communicate with you telepathically over any distance, even across planes.</p><p><em><strong>Prophecy of Frostmourne. </strong></em>When you attune to <em>Frostmourne</em>, your creature type becomes Undead, and your alignment becomes Neutral Evil. These changes remain even if your Attunement ends.</p><p><em><strong>Twisted Aura.</strong></em> If you are a Paladin, you also gain the following benefits while attuned to <em>Frostmourne</em>:</p><p class=\"hanging\"><strong>Marshal Undead. </strong>Undead creatures of your choice (excluding you) in your Aura of Protection have Advantage on attack rolls and saving throws.</p><p class=\"hanging\"><strong>Numb to Cold.</strong> Allies in your Aura of Protection have Immunity to Cold damage.</p><p><em><strong>Random Properties.</strong></em> <em>Frostmourne</em> has the following random properties:</p><ul><li class=\"Core-Styles_Core-Bulleted\"><p>@UUID[Compendium.dnd-dungeon-masters-guide.tables.RollTable.dmgMajorBenefici]{1 major beneficial property}</p></li><li class=\"Core-Styles_Core-Bulleted\"><p>@UUID[Compendium.dnd-dungeon-masters-guide.tables.RollTable.dmgMinorDetrimen]{1 minor detrimental property}</p></li><li class=\"Core-Styles_Core-Bulleted\"><p>@UUID[Compendium.dnd-dungeon-masters-guide.tables.RollTable.dmgMajorDetrimen]{1 major detrimental property}</p></li></ul><p><em><strong>Destroying Frostmourne. </strong>Frostmourne</em> shatters if its wielder is slain by the legendary sword <em>Ashbringer</em>. Only the Runecarver, who forged the weapon at the Jailer’s command, can reforge <em>Frostmourne</em> from the resulting fragments.</p><section id=\"secret-6pGYnQAGiS5VatcQ\" class=\"secret hide-in-embed\"><p><strong>Foundry Note</strong></p><p>If attunement ends, drag the separate @UUID[Compendium.dnd-world-warcraft.effects.ActiveEffect.Jn6OfNf51ibRQfQL]{Prophecy of Frostmourne (Unattuned)} Active Effect from the compendium onto the former wielder’s character sheet. Leave the weapon’s Effect on Frostmourne.</p></section>",
+      "activities": {
+        "Marshal Undead (Paladin)": {
+          "name": "Marshal Undead (Paladin)"
+        }
+      }
+    },
+    "Fossil Fragment": {
+      "name": "Fossil Fragment"
+    },
+    "Fishing Resource (Tier 1, Rare)": {
+      "name": "Fishing Resource (Tier 1, Rare)"
+    },
+    "Fishing Resource (Tier 4, Rare)": {
+      "name": "Fishing Resource (Tier 4, Rare)"
+    },
+    "Herbalism Resource (Tier 4, Rare)": {
+      "name": "Herbalism Resource (Tier 4, Rare)"
+    },
+    "Hearthstone": {
+      "name": "Hearthstone",
+      "effects": {
+        "Attunement Allowance": {
+          "name": "Attunement Allowance"
+        }
+      },
+      "description": "<p>A <em>Hearthstone</em> teleports you to a predetermined location—usually an inn. Activating the stone takes 1 minute and a Magic action. You appear in an unoccupied space within 30 feet of the destination you previously set.</p><p>While you are at an inn (or other locations at the DM’s discretion), you can take a Magic action to set that location as the destination for your <em>Hearthstone</em>’s teleportation. That location becomes your destination until you change it.</p><p>One <em>Hearthstone</em> doesn’t count against the number of magic items you can have Attunement to.</p>",
+      "activities": {
+        "Teleport to Destination": {
+          "name": "Teleport to Destination"
+        }
+      }
+    },
+    "Skinning Resource (Tier 2, Common)": {
+      "name": "Skinning Resource (Tier 2, Common)"
+    },
+    "Draenei Fragment": {
+      "name": "Draenei Fragment"
+    },
+    "Darnassus Bastion Location Renown": {
+      "name": "Darnassus Bastion Location Renown",
+      "description": "<p>While your Bastion is in Darnassus or Teldrassil (or in Bel’ameth or Amirdrassil after the destruction of Teldrassil), your Renown Score with Darnassus increases by 1.</p>"
+    },
+    "Orc Fragment": {
+      "name": "Orc Fragment"
+    },
+    "Blessing of the Aquatic Companion": {
+      "name": "Blessing of the Aquatic Companion",
+      "effects": {
+        "Blessing of the Aquatic Companion": {
+          "name": "Blessing of the Aquatic Companion"
+        }
+      },
+      "description": "<p>While you have an aquatic companion whose Loyalty Score is 10 or higher, you have the Blessing of the Aquatic Companion, which gives you a Swim Speed equal to your Speed.</p><section id=\"secret-uGT5Kl460fxZ5FAj\" class=\"secret\"><p><strong>Foundry Note</strong></p><p>It is not currently possible to set a Swim speed to match another speed in an Active Effect. This Blessing includes an AE that upgrades your Swim speed to 1 to indicate that you should have a swim speed.</p></section>"
+    },
+    "Skinning Resource (Tier 2, Rare)": {
+      "name": "Skinning Resource (Tier 2, Rare)"
+    },
+    "Blessing of the Elemental Companion": {
+      "description": "<p>While you have an elemental companion whose Loyalty Score is 10 or higher, you have the Blessing of the Elemental Companion, which gives you Advantage on saving throws to avoid or end the &amp;Reference[Exhaustion apply=false] condition.</p>",
+      "name": "Blessing of the Elemental Companion"
+    },
+    "Goblin Jumper Cables": {
+      "activities": {
+        "Check": {
+          "target": "dead creature",
+          "name": "Check"
+        },
+        "Failed Surge": {
+          "name": "Failed Surge"
+        }
+      },
+      "name": "Goblin Jumper Cables",
+      "description": "<p>As a Magic action, you can attach these cables to a dead creature and attempt to return the creature to life. Make a [[/check format=long]] using @UUID[Compendium.dnd-players-handbook.equipment.Item.phbtulTinkersToo]{Tinker’s Tools}. On a successful check, the creature revives with 1 Hit Point as long as the creature has been dead no longer than 1 minute and didn’t die of old age. On a failed check, you take [[/damage]] damage.</p><p>Once used, a set of <em>Goblin Jumper Cables</em> can’t be used again until the next dawn.</p>"
+    },
+    "Fishing Resource (Tier 4, Common)": {
+      "name": "Fishing Resource (Tier 4, Common)"
+    },
+    "Mining Resource (Tier 2, Rare)": {
+      "name": "Mining Resource (Tier 2, Rare)"
+    },
+    "Mantid Magic Fragment": {
+      "name": "Mantid Magic Fragment"
+    },
+    "Potion of Mana": {
+      "activities": {
+        "Drink Potion": {
+          "name": "Drink Potion"
+        }
+      },
+      "description": "<p>You regain one expended 1st-level spell slot when you drink this potion.</p><p>The potion’s blue liquid glows with an inner light.</p>",
+      "name": "Potion of Mana"
+    },
+    "Orgrimmar Bastion Location Renown": {
+      "description": "<p>While your Bastion is in Orgrimmar or elsewhere in Durotar (except the Echo Isles), your Renown Score with Orgrimmar increases by 1.</p>",
+      "name": "Orgrimmar Bastion Location Renown"
+    },
+    "Fishing Resource (Tier 2, Common)": {
+      "name": "Fishing Resource (Tier 2, Common)"
+    },
+    "Fossil Magic Fragment": {
+      "name": "Fossil Magic Fragment"
+    },
+    "Troll Magic Fragment": {
+      "name": "Troll Magic Fragment"
+    },
+    "Nerubian Magic Fragment": {
+      "name": "Nerubian Magic Fragment"
+    },
+    "Residue (Rare)": {
+      "name": "Residue (Rare)"
+    },
+    "Wildguard Blessing": {
+      "description": "<p><em>Prerequisite: Renown 25+ with the Cenarion Circle</em></p><p>This Blessing gives you Advantage on saving throws against spells. You lose the Blessing if your Renown Score with the Cenarion Circle falls below 25.</p>",
+      "name": "Wildguard Blessing"
+    },
+    "Aviana's Feather": {
+      "name": "Aviana's Feather",
+      "description": "<p><em>Wondrous Item, Legendary (Requires Attunement)</em></p><p>While attuned to this golden feather, you can take a Magic action to sprout a pair of glowing, golden wings from your back. The wings give you a Fly Speed of 80 feet, and any creature that makes an Opportunity Attack against you when you fly out of its reach has Disadvantage on the attack roll. If you fall while you have the wings, you descend at a rate of 60 feet per round until you land.</p><p>The wings last until you end the effect early as a Magic action or until your Attunement ends. If you are aloft when the wings disappear, you fall.</p>",
+      "effects": {
+        "Sprout Golden Wings": {
+          "name": "Sprout Golden Wings"
+        }
+      }
+    },
+    "Highborne Fragment": {
+      "name": "Highborne Fragment"
+    },
+    "Mantid Fragment": {
+      "name": "Mantid Fragment"
+    },
+    "Defias Leather": {
+      "description": "<p><em>Armor (Leather), Rare</em></p><p>Elite members of the Defias Brotherhood wear this armor to honor the faction’s stonemason founders. While wearing the armor, you gain the following benefits.</p><p><em><strong>Mason’s Camouflage.</strong></em> You have Advantage on Dexterity (Stealth) checks made to hide behind stone objects and structures.</p><p><em><strong>Meld into Stone.</strong></em> You can cast <em>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplMeldintoSt]{Meld into Stone} </em>from the armor. Once the armor has been used to cast this spell, it can’t be used to cast it again until the next dawn.</p>",
+      "name": "Defias Leather"
+    },
+    "Undercity Bastion Location Renown": {
+      "description": "<p>While your Bastion is in Undercity or the Ruins of Lordaeron, your Renown Score with Undercity increases by 1.</p>",
+      "name": "Undercity Bastion Location Renown"
+    },
+    "Highmountain Tauren Magic Fragment": {
+      "name": "Highmountain Tauren Magic Fragment"
+    },
+    "Strike of the Earth-Warder": {
+      "description": "<p><em>Prerequisite: Renown 10+ with the Dark Talons</em></p><p>This Blessing improves your Unarmed Strikes, giving you a +1 bonus to attack rolls and damage rolls made with them and increasing the saving throw DC of your Grapple and Shove options by 1. You lose the Blessing if your Renown Score with the Dark Talons falls below 10.</p>",
+      "name": "Strike of the Earth-Warder"
+    },
+    "Mining Resource (Tier 4, Rare)": {
+      "name": "Mining Resource (Tier 4, Rare)"
+    },
+    "Night Elf Magic Fragment": {
+      "name": "Night Elf Magic Fragment"
+    },
+    "Nerubian Fragment": {
+      "name": "Nerubian Fragment"
+    },
+    "Blessing of the Humanoid Companion": {
+      "name": "Blessing of the Humanoid Companion",
+      "effects": {
+        "Blessing of the Humanoid Companion": {
+          "name": "Blessing of the Humanoid Companion"
+        }
+      },
+      "description": "<p>While you have a humanoid companion whose Loyalty Score is 10 or higher, you have the Blessing of the Humanoid Companion, which gives you proficiency and Expertise in the Persuasion skill.</p>"
+    },
+    "Zandalari Fragment": {
+      "name": "Zandalari Fragment"
+    },
+    "Shalamayne": {
+      "name": "Shalamayne",
+      "description": "<p>[[/attack extended]]. [[/damage average extended]].</p><p>When dragon magic split King Varian Wrynn into two versions of himself, one of his selves wielded the night elven blade <em>Shalla’tor</em>, while the other wielded the night elven blade <em>Ellemayne</em>. Varian eventually merged his twin selves back into one whole. In doing so, he inadvertently fused the blades into a new weapon called <em>Shalamayne</em>.</p><p>The Jailer, one of the rulers of the Shadowlands, once stole and reforged <em>Shalamayne</em> into a mourneblade called Kingsmourne. But Varian’s son, Anduin Wrynn, later restored <em>Shalamayne</em> to its rightful form. Anduin is the sword’s last known wielder.</p><p><em><strong>Magic Weapon.</strong></em> You gain a +3 bonus to attack rolls and damage rolls made with this magic weapon. It deals an extra 2d12 Force damage on a hit.</p><p><em><strong>Dual Mastery.</strong></em> If you have the Weapon Mastery feature and choose Greatsword as one of your mastered weapons, you can use both the @UUID[Compendium.dnd-players-handbook.content.JournalEntry.phbEquipment0000.JournalEntryPage.EOW6yQHLKlXre3jn#graze]{Graze} and @UUID[Compendium.dnd-players-handbook.content.JournalEntry.phbEquipment0000.JournalEntryPage.EOW6yQHLKlXre3jn#sap]{Sap} mastery properties at once while wielding <em>Shalamayne</em>.</p><p><em><strong>Splitting and Reuniting the Sword. </strong></em>While holding <em>Shalamayne</em>, you can take a Magic action to end your Attunement to the weapon and split it into two magic swords: <em>@UUID[Compendium.dnd-world-warcraft.items.Item.wowShallatorRTIC]{Shalla’tor }</em>and <em>@UUID[Compendium.dnd-world-warcraft.items.Item.wowEllemaynecX2Z]{Ellemayne}</em>. Each is a <em>+3 Longsword</em> with the Finesse and Light properties. A creature who holds both swords can take a Magic action to rejoin them into <em>Shalamayne, </em>attuning to the weapon instantly.</p><p><em><strong>Random Properties.</strong></em> <em>Shalamayne </em>has the following random properties:</p><ul><li class=\"Core-Styles_Core-Bulleted\"><p>@UUID[Compendium.dnd-dungeon-masters-guide.tables.RollTable.dmgMinorBenefici]{2 minor beneficial properties}</p></li><li class=\"Core-Styles_Core-Bulleted\"><p>@UUID[Compendium.dnd-dungeon-masters-guide.tables.RollTable.dmgMajorBenefici]{1 major beneficial property}</p></li></ul><p><em><strong>Destroying Shalamayne. </strong></em>One can destroy <em>Shalamayne</em> by splitting it into <em>Shalla’tor </em>and <em>Ellemayne</em>, then burying one or both swords at the roots of a World Tree in the Emerald Dream. After one year, the buried swords dissolve into the soil.</p>",
+      "activities": {
+        "Split Shalamayne": {
+          "name": "Split Shalamayne"
+        }
+      }
+    },
+    "Skinning Resource (Endgame, Rare)": {
+      "name": "Skinning Resource (Endgame, Rare)"
+    },
+    "Noggenfogger Elixir": {
+      "description": "<p><em>Noggenfogger Elixir</em> is an unpredictable potion invented by Marin Noggenfogger, the trade prince of the Steamwheedle Cartel. It is highly coveted by adventurers (particularly goblins), despite or perhaps because of its unpredictable effects.</p><p>When you drink this potion, roll [[/r 1d6]]:</p><p>On a <strong>1–2</strong>, you take on a skeletal appearance for [[/r 1d4]] hours, during which time you don’t need to breathe. (Not breathing doesn’t give you Exhaustion levels.)</p><p>On a <strong>3–4</strong>, you gain the Reduce effect of the <em>Enlarge/Reduce</em> spell for [[/r 1d4]] hours (no Concentration required).</p><p>On a <strong>5–6</strong>, your rate of descent while falling slows to 60 feet per round for 10 minutes. During that time, you take no damage from falling.</p><p>Drinking multiple <em>Noggenfogger Elixirs</em> doesn’t require you to roll on the Potion Miscibility table in the <em>Dungeon Master’s Guide</em>.</p><p>This green potion is oily in the mouth.</p>",
+      "name": "Noggenfogger Elixir",
+      "activities": {
+        "Drink Elixir": {
+          "name": "Drink Elixir"
+        }
+      }
+    },
+    "Residue (Very Rare)": {
+      "name": "Residue (Very Rare)"
+    },
+    "Darkspear Tribe Location Renown": {
+      "name": "Darkspear Tribe Location Renown",
+      "description": "<p>While your Bastion is anywhere on the Echo Isles or Zandalar, your Renown Score with the Darkspear tribe increases by 1.</p>"
+    },
+    "Mining Resource (Tier 1, Rare)": {
+      "name": "Mining Resource (Tier 1, Rare)"
+    },
+    "Troll’s Blood Elixir": {
+      "name": "Troll’s Blood Elixir",
+      "activities": {
+        "Consume & Heal": {
+          "condition": "When you drink the potion and then at the start of each of your turns",
+          "name": "Consume & Heal"
+        }
+      },
+      "description": "<p>When you drink this potion, you regain 2 Hit Points. At the start of each of your turns for the next 1 minute, you regain that number of Hit Points again if you have at least 1 Hit Point.</p><p>This thick green elixir is made from herbs. No trolls were harmed in the making of this elixir.</p>"
+    },
+    "Herbalism Resource (Tier 3, Common)": {
+      "name": "Herbalism Resource (Tier 3, Common)"
+    },
+    "Zandalari Magic Fragment": {
+      "name": "Zandalari Magic Fragment"
+    },
+    "Fishing Resource (Tier 3, Rare)": {
+      "name": "Fishing Resource (Tier 3, Rare)"
+    },
+    "Troll Fragment": {
+      "name": "Troll Fragment"
+    },
+    "Herbalism Resource (Tier 3, Rare)": {
+      "name": "Herbalism Resource (Tier 3, Rare)"
+    },
+    "Herbalism Resource (Endgame, Common)": {
+      "name": "Herbalism Resource (Endgame, Common)"
+    },
+    "Skinning Resource (Endgame, Common)": {
+      "name": "Skinning Resource (Endgame, Common)"
+    },
+    "Mining Resource (Endgame, Rare)": {
+      "name": "Mining Resource (Endgame, Rare)"
+    },
+    "Night Elf Fragment": {
+      "name": "Night Elf Fragment"
+    },
+    "Mining Resource (Tier 3, Rare)": {
+      "name": "Mining Resource (Tier 3, Rare)"
+    },
+    "Mining Resource (Tier 2, Common)": {
+      "name": "Mining Resource (Tier 2, Common)"
+    },
+    "Skinning Resource (Tier 4, Common)": {
+      "name": "Skinning Resource (Tier 4, Common)"
+    },
+    "Demon Fragment": {
+      "name": "Demon Fragment"
+    },
+    "Fishing Resource (Endgame, Rare)": {
+      "name": "Fishing Resource (Endgame, Rare)"
+    },
+    "Dwarf Fragment": {
+      "name": "Dwarf Fragment"
+    },
+    "Skinning Resource (Tier 4, Rare)": {
+      "name": "Skinning Resource (Tier 4, Rare)"
+    },
+    "Pandaren Fragment": {
+      "name": "Pandaren Fragment"
+    },
+    "Fishing Resource (Endgame, Common)": {
+      "name": "Fishing Resource (Endgame, Common)"
+    },
+    "Silvermoon City Bastion Location Renown": {
+      "name": "Silvermoon City Bastion Location Renown",
+      "description": "<p>While your Bastion is in Silvermoon City, elsewhere in Quel’Thalas, or in Suramar, your Renown Score with Silvermoon City increases by 1.</p>"
+    },
+    "Bilgewater Cartel Bastion Location Renown": {
+      "name": "Bilgewater Cartel Bastion Location Renown",
+      "description": "<p>While your Bastion is in Bilgewater Harbor or any other Bilgewater holding, your Renown Score with the Bilgewater Cartel increases by 1.</p>"
+    },
+    "Tol'vir Fragment": {
+      "name": "Tol'vir Fragment"
+    },
+    "Mining Resource (Endgame, Common)": {
+      "name": "Mining Resource (Endgame, Common)"
+    },
+    "Blessing of the Mechanical Companions": {
+      "description": "<p>While you have a mechanical companion whose Loyalty Score is 10 or higher, you have the Blessing of the Mechanical Companion, which allows you to roll [[/r 1d4]] whenever you take Psychic damage and reduce the damage taken by the number rolled.</p>",
+      "name": "Blessing of the Mechanical Companions"
+    },
+    "Mogu Fragment": {
+      "name": "Mogu Fragment"
+    },
+    "Orc Magic Fragment": {
+      "name": "Orc Magic Fragment"
+    },
+    "Skinning Resource (Tier 3, Common)": {
+      "name": "Skinning Resource (Tier 3, Common)"
+    },
+    "Herbalism Resource (Endgame, Rare)": {
+      "name": "Herbalism Resource (Endgame, Rare)"
+    },
+    "Highborne Magic Fragment": {
+      "name": "Highborne Magic Fragment"
+    },
+    "Herbalism Resource (Tier 1, Rare)": {
+      "name": "Herbalism Resource (Tier 1, Rare)"
+    },
+    "Tol'vir Magic Fragment": {
+      "name": "Tol'vir Magic Fragment"
+    },
+    "Skinning Resource (Tier 3, Rare)": {
+      "name": "Skinning Resource (Tier 3, Rare)"
+    },
+    "Herbalism Resource (Tier 1, Common)": {
+      "name": "Herbalism Resource (Tier 1, Common)"
+    },
+    "Mining Resource (Tier 3, Common)": {
+      "name": "Mining Resource (Tier 3, Common)"
+    },
+    "Mining Resource (Tier 4, Common)": {
+      "name": "Mining Resource (Tier 4, Common)"
+    },
+    "Pandaren Magic Fragment": {
+      "name": "Pandaren Magic Fragment"
+    },
+    "Vrykul Magic Fragment": {
+      "name": "Vrykul Magic Fragment"
+    },
+    "Fishing Resource (Tier 1, Common)": {
+      "name": "Fishing Resource (Tier 1, Common)"
+    },
+    "Herbalism Resource (Tier 2, Common)": {
+      "name": "Herbalism Resource (Tier 2, Common)"
+    },
+    "Residue (Uncommon)": {
+      "name": "Residue (Uncommon)"
+    },
+    "Highmountain Tauren Fragment": {
+      "name": "Highmountain Tauren Fragment"
+    }
+  },
+  "label": "Magic Items"
 }
