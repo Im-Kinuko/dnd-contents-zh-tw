@@ -3,9 +3,20 @@
   "folders": {
     "Elf": "精靈",
     "Gnome": "侏儒",
-    "Traits": "特質"
+    "Traits": "特質",
+    "Tauren": "Tauren",
+    "Draenei": "Draenei",
+    "Vulpera": "Vulpera",
+    "Dracthyr": "Dracthyr",
+    "Troll": "Troll",
+    "Renown": "Renown",
+    "Worgen": "Worgen",
+    "Haranir": "Haranir",
+    "Pandaren": "Pandaren",
+    "Earthen": "Earthen",
+    "Goblin": "Goblin",
+    "Forsaken": "Forsaken"
   },
-  "entries": {},
   "mapping": {
     "activities": {
       "path": "system.activities",
@@ -22,6 +33,688 @@
     "advancement": {
       "path": "system.advancement",
       "converter": "advancement"
+    }
+  },
+  "entries": {
+    "Earthen Resilience": {
+      "name": "Earthen Resilience",
+      "description": "<p>You have &amp;Reference[Resistance] to Poison damage. You also have Advantage on saving throws you make to avoid or end the &amp;Reference[Poisoned apply=false] condition.</p>"
+    },
+    "Darkflight": {
+      "activities": {
+        "Shape-Shift": {
+          "description": "<p>As a Bonus Action, you can shape-shift to assume a more bestial appearance. This transformation lasts for 1 minute or until you revert to your normal appearance as a Bonus Action.</p>",
+          "name": "Shape-Shift"
+        },
+        "Reactive Movement": {
+          "condition": "When a creature ends its turn within 5 feet of you",
+          "name": "Reactive Movement",
+          "description": "<p>You can take a Reaction to move up to 10 feet when a creature ends its turn within 5 feet of you. This reactive movement doesn’t provoke &amp;Reference[Opportunity Attacks].</p>"
+        },
+        "Temp HP": {
+          "description": "<p>When you enter your bestial form, you gain Temporary Hit Points equal to 2 times your Proficiency Bonus.</p>",
+          "name": "Temp HP",
+          "condition": "When you enter your bestial form"
+        },
+        "Instinctual Shift": {
+          "description": "<p>@Embed[Compendium.dnd-world-warcraft.origins.Item.wowsptInstincShi inline]</p>",
+          "name": "Instinctual Shift"
+        }
+      },
+      "effects": {
+        "Bestial Form": {
+          "name": "Bestial Form",
+          "description": "<p>In your bestial form, you gain the following benefits:</p><div class=\"subfeature\"><p><strong>Increased Speed.</strong> Your &amp;Reference[Speed] increases by 10 feet.</p><p>@Embed[Compendium.dnd-world-warcraft.origins.Item.wowsptDarkflight.Activity.mGDRPFwQSAmitfcJ caption=false cite=false nameStyle=inline]</p><p><strong>Necrotic Resistance.</strong> You have &amp;Reference[Resistance] to Necrotic damage.</p></div>"
+        }
+      },
+      "description": "<p>As a Bonus Action, you can shape-shift to assume a more bestial appearance. This transformation lasts for 1 minute or until you revert to your normal appearance as a Bonus Action. When you enter your bestial form, you gain Temporary Hit Points equal to 2 times your Proficiency Bonus. You can enter this form a number of times equal to your Proficiency Bonus, and you regain all expended uses when you finish a Long Rest.</p><p>In your bestial form, you gain the following benefits:</p><div class=\"subfeature\"><p><strong>Increased Speed.</strong> Your &amp;Reference[Speed] increases by 10 feet.</p><p>@Embed[Compendium.dnd-world-warcraft.origins.Item.wowsptDarkflight.Activity.mGDRPFwQSAmitfcJ caption=false cite=false nameStyle=inline]</p><p><strong>Necrotic Resistance.</strong> You have &amp;Reference[Resistance] to Necrotic damage.</p></div>",
+      "name": "Darkflight"
+    },
+    "Mechanical Nature": {
+      "description": "<p>You have &amp;Reference[Resistance] to Poison damage, and you have Advantage on saving throws to avoid or end the &amp;Reference[Paralyzed apply=false] or &amp;Reference[Poisoned apply=false] condition. You don’t gain &amp;Reference[Exhaustion apply=false] levels from dehydration, malnutrition, or suffocation.</p>",
+      "advancement": {
+        "bBNgQ6pLqWIfYdlv": {
+          "hint": "<p>You have Resistance to Poison damage and you don’t gain Exhaustion levels from dehydration, malnutrition, or suffocation.</p>"
+        }
+      },
+      "name": "Mechanical Nature"
+    },
+    "Taunka": {
+      "effects": {
+        "Taunka Lineage": {
+          "description": "<p>Your shaggy hide gives you a +1 bonus to Armor Class.</p>",
+          "name": "Taunka Lineage"
+        }
+      },
+      "name": "Taunka",
+      "description": "<p>Your shaggy hide gives you a +1 bonus to Armor Class and Resistance to Cold damage.</p>"
+    },
+    "Everlasting": {
+      "effects": {
+        "Everlasting": {
+          "name": "Everlasting",
+          "description": "<p>You don’t gain &amp;Reference[Exhaustion apply=false] levels from dehydration, malnutrition, or suffocation.</p>"
+        }
+      },
+      "description": "<p>You don’t gain &amp;Reference[Exhaustion apply=false] levels from dehydration, malnutrition, or suffocation. You don’t need to sleep, and magic can’t put you to sleep. You can finish a Long Rest in 4 hours if you spend those hours in an inactive, motionless state, during which you retain consciousness.</p>",
+      "name": "Everlasting"
+    },
+    "Troll Lineage": {
+      "description": "<p>You are part of a lineage that grants you supernatural qualities. Choose one of the following options:</p><p>@Embed[Compendium.dnd-world-warcraft.origins.Item.wowsptAmaniTroll caption=false cite=false classes=\"subfeature\" nameStyle=inline]</p><p>@Embed[Compendium.dnd-world-warcraft.origins.Item.wowsptDarkspeTro caption=false cite=false classes=\"subfeature\" nameStyle=inline]</p><p>@Embed[Compendium.dnd-world-warcraft.origins.Item.wowsptZandalaTro caption=false cite=false classes=\"subfeature\" nameStyle=inline]</p>",
+      "advancement": {
+        "Choose Lineage": {
+          "name": "Choose Lineage"
+        }
+      },
+      "name": "Troll Lineage"
+    },
+    "Horns": {
+      "activities": {
+        "yBimfXYikjCtQp0E": {
+          "description": "<p>@Embed[Compendium.dnd-world-warcraft.origins.Item.wowsptHorns00000 inline]</p>",
+          "name": "Horns Attack"
+        },
+        "Horns Attack": {
+          "name": "Horns Attack",
+          "description": "<p>@Embed[Compendium.dnd-world-warcraft.origins.Item.wowsptHorns00000 inline]</p>"
+        }
+      },
+      "name": "Horns",
+      "advancement": {
+        "Modify Unarmed Strike": {
+          "name": "Modify Unarmed Strike",
+          "hint": "<p>@Embed[Compendium.dnd-world-warcraft.origins.Item.wowsptHorns00000 inline]</p>"
+        }
+      },
+      "effects": {
+        "Horns": {
+          "name": "Horns",
+          "description": "<p>@Embed[Compendium.dnd-world-warcraft.origins.Item.wowsptHorns00000 inline]</p>"
+        }
+      },
+      "description": "<p>Your horns are powerful natural weapons. When you hit with your Unarmed Strike and deal damage, you can deal Piercing damage equal to 1d6 plus your Strength modifier instead of the normal damage of an Unarmed Strike.</p>"
+    },
+    "Nose for Trouble": {
+      "description": "<p>The first time you take damage after you roll Initiative, you reduce the damage you take by your level (to a minimum of 0 damage).</p>",
+      "activities": {
+        "Reduce Damage": {
+          "condition": "First time you take damage after you roll Initiative",
+          "name": "Reduce Damage",
+          "roll": "Damage Reduction"
+        }
+      },
+      "name": "Nose for Trouble"
+    },
+    "Amani Troll": {
+      "activities": {
+        "Regain Hit Point Die": {
+          "name": "Regain Hit Point Die",
+          "condition": "When you spend Heroic Inspiration"
+        }
+      },
+      "description": "<p>Whenever you spend &amp;Reference[Heroic Inspiration], you regain 1 expended Hit Point Die.</p>",
+      "name": "Amani Troll"
+    },
+    "Troll": {
+      "advancement": {
+        "Troll Traits": {
+          "name": "Troll Traits"
+        },
+        "tHitQ4RE5LnPCLzd": {
+          "hint": "<p>Medium (about 7 feet tall)</p>"
+        }
+      },
+      "name": "Troll",
+      "description": "<p>@Embed[Compendium.dnd-world-warcraft.book.JournalEntry.wowTroll00000000.JournalEntryPage.16BcGaJmpMdWxbFX inline]</p><h3>Darkspear Trolls</h3><p>@Embed[Compendium.dnd-world-warcraft.book.JournalEntry.wowTroll00000000.JournalEntryPage.IYvx2vAXXneUgvrA inline]</p><h3>Zandalari Trolls</h3><p>@Embed[Compendium.dnd-world-warcraft.book.JournalEntry.wowTroll00000000.JournalEntryPage.Ml9ilvzEchsOsCqI inline]</p><h3>Amani Trolls</h3><p>@Embed[Compendium.dnd-world-warcraft.book.JournalEntry.wowTroll00000000.JournalEntryPage.AdBTf7AxlTOG09N7 inline]</p><h3>Troll Renown</h3><p>@Embed[Compendium.dnd-world-warcraft.book.JournalEntry.wowTroll00000000.JournalEntryPage.cZDeDdvG6QZKdvg0 inline]</p><hr><h4>Troll Traits</h4><p>@Embed[Compendium.dnd-world-warcraft.book.JournalEntry.wowTroll00000000.JournalEntryPage.TRgv23k3mqZliWq6 inline]</p>"
+    },
+    "Haranir": {
+      "advancement": {
+        "n8tBD2JlabN1p4oV": {
+          "hint": "<p>Medium (about 7–8 feet tall)</p>"
+        },
+        "Haranir Traits": {
+          "name": "Haranir Traits"
+        }
+      },
+      "description": "<p>@Embed[Compendium.dnd-world-warcraft.book.JournalEntry.wowHaranir000000.JournalEntryPage.cm7LCFMYBgHpV6J7 inline]</p><h3>Haranir Renown</h3><p>@Embed[Compendium.dnd-world-warcraft.book.JournalEntry.wowHaranir000000.JournalEntryPage.YlqWdQTDebeS09Rn inline]</p><hr><h4>Haranir Traits</h4><p>@Embed[Compendium.dnd-world-warcraft.book.JournalEntry.wowHaranir000000.JournalEntryPage.m5coVfadMYIAIkgj inline]</p>",
+      "name": "Haranir"
+    },
+    "Draenei": {
+      "advancement": {
+        "v9h1uoZuRwP4br14": {
+          "hint": "<p>Medium (over 7 feet tall)</p>"
+        },
+        "Draenei Traits": {
+          "name": "Draenei Traits"
+        }
+      },
+      "description": "<p>@Embed[Compendium.dnd-world-warcraft.book.JournalEntry.wowDraenei000000.JournalEntryPage.mlKUJncrldk7xxto inline]</p><h3>Krokul</h3><p>@Embed[Compendium.dnd-world-warcraft.book.JournalEntry.wowDraenei000000.JournalEntryPage.NCzAEGbEJZUjmcqZ inline]</p><h3>Lightforged Draenei</h3><p>@Embed[Compendium.dnd-world-warcraft.book.JournalEntry.wowDraenei000000.JournalEntryPage.8N42L6yKr7bsJ8I3 inline]</p><h3>Man’ari Eredar</h3><p>@Embed[Compendium.dnd-world-warcraft.book.JournalEntry.wowDraenei000000.JournalEntryPage.0pKFYCW7NH6k9tvs inline]</p><h3>Draenei Renown</h3><p>@Embed[Compendium.dnd-world-warcraft.book.JournalEntry.wowDraenei000000.JournalEntryPage.S1BFFkwpjrZoWmNA inline]</p><hr><h4>Draenei Traits</h4><p>@Embed[Compendium.dnd-world-warcraft.book.JournalEntry.wowDraenei000000.JournalEntryPage.eWYOCca0SrTkvLHS inline]</p>",
+      "name": "Draenei"
+    },
+    "Earthen": {
+      "name": "Earthen",
+      "description": "<p>@Embed[Compendium.dnd-world-warcraft.book.JournalEntry.wowEarthen000000.JournalEntryPage.Qz1RPiEaslgssWRy inline]</p><h3>Earthen Renown</h3><p>@Embed[Compendium.dnd-world-warcraft.book.JournalEntry.wowEarthen000000.JournalEntryPage.NCys1V9peI1vEqY7 inline]</p><hr><h4>Earthen Traits</h4><p>@Embed[Compendium.dnd-world-warcraft.book.JournalEntry.wowEarthen000000.JournalEntryPage.VO0rFje8Nhp92tTV inline]</p>",
+      "advancement": {
+        "IapXcYyJGA9QYKob": {
+          "hint": "<p>Medium (about 4–5 feet tall)</p>"
+        },
+        "Earthen Traits": {
+          "name": "Earthen Traits"
+        }
+      }
+    },
+    "Void Elf": {
+      "advancement": {
+        "Void Elf Traits": {
+          "name": "Void Elf Traits"
+        }
+      },
+      "description": "<table><caption><p>Void Elf Traits</p></caption><thead><tr><th scope=\"col\"><p>Level 1</p></th><th scope=\"col\"><p>Level 3</p></th><th scope=\"col\"><p>Level 5</p></th></tr></thead><tbody><tr><td><p>The range of your &amp;Reference[Darkvision] increases to 120 feet. You also know the <em>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplMindSliver]{Mind Sliver}</em> cantrip.</p></td><td><p><em>@UUID[Compendium.dnd-world-warcraft.spells.Item.wowsplEntropEmbr]{Entropic Embrace}</em></p></td><td><p><em>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplMistyStep0]{Misty Step}</em></p></td></tr></tbody></table>",
+      "name": "Void Elf"
+    },
+    "Goring Rush": {
+      "description": "<p>Immediately after you take the &amp;Reference[Dash] action on your turn and move at least 20 feet, you can make one Unarmed Strike as a Bonus Action.</p>",
+      "activities": {
+        "Unarmed Strike": {
+          "condition": "When you take the Dash action on your turn and move at least 20 feet",
+          "name": "Unarmed Strike"
+        }
+      },
+      "name": "Goring Rush"
+    },
+    "wowsptDraenei000": {
+      "name": "Draenei",
+      "advancement": {
+        "Draenei Traits": {
+          "name": "Draenei Traits"
+        }
+      },
+      "description": "<table><caption><p>Draenei Lineage Traits</p></caption><thead><tr><th scope=\"col\"><p>Level 1</p></th><th scope=\"col\"><p>Level 3</p></th><th scope=\"col\"><p>Level 5</p></th></tr></thead><tbody><tr><td><p>You have Resistance to Necrotic damage. You also know the <em>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplSparetheDy]{Spare the Dying}</em> cantrip.</p></td><td><p><em>@UUID[Compendium.dnd5e.spells24.Item.phbsplHealingWor]{Healing Word}</em></p></td><td><p><em>@UUID[Compendium.dnd5e.spells24.Item.phbsplPrayerofHe]{Prayer of Healing}</em></p></td></tr></tbody></table>"
+    },
+    "Nightborne": {
+      "name": "Nightborne",
+      "advancement": {
+        "Nightborne Traits": {
+          "name": "Nightborne Traits"
+        }
+      },
+      "description": "<table><caption><p>Nightborne Traits</p></caption><thead><tr><th scope=\"col\"><p>Level 1</p></th><th scope=\"col\"><p>Level 3</p></th><th scope=\"col\"><p>Level 5</p></th></tr></thead><tbody><tr><td><p>The range of your &amp;Reference[Darkvision] increases to 120 feet. You also know the <em>@UUID[Compendium.dnd-world-warcraft.spells.Item.wowsplArcanePuls]{Arcane Pulse}</em> cantrip.</p></td><td><p><em>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplFaerieFire]{Faerie Fire}</em></p></td><td><p><em>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplDarkness00]{Darkness}</em></p></td></tr></tbody></table>"
+    },
+    "Dracthyr": {
+      "advancement": {
+        "XGzL9mM4lfkCxFe2": {
+          "hint": "<p>Medium (about 7 feet tall)</p>"
+        },
+        "Dracthyr Traits": {
+          "name": "Dracthyr Traits"
+        }
+      },
+      "description": "<p>@Embed[Compendium.dnd-world-warcraft.book.JournalEntry.wowDracthyr00000.JournalEntryPage.XQNim1D5Yywg4kS4 inline]</p><h3>Dracthyr Renown</h3><p>@Embed[Compendium.dnd-world-warcraft.book.JournalEntry.wowDracthyr00000.JournalEntryPage.Zf1kDSTUErqsw1D7 inline]</p><hr><h4>Dracthyr Traits</h4><p>@Embed[Compendium.dnd-world-warcraft.book.JournalEntry.wowDracthyr00000.JournalEntryPage.XA48kXkchkynvx7k inline]</p>",
+      "name": "Dracthyr"
+    },
+    "Worgen": {
+      "name": "Worgen",
+      "description": "<p>@Embed[Compendium.dnd-world-warcraft.book.JournalEntry.wowWorgen0000000.JournalEntryPage.Tfc1ZqRljVANsV95 inline]</p><h3>Worgen Renown</h3><p>@Embed[Compendium.dnd-world-warcraft.book.JournalEntry.wowWorgen0000000.JournalEntryPage.HUXELIaeH0BQ1Apw inline]</p><hr><h4>Worgen Traits</h4><p>@Embed[Compendium.dnd-world-warcraft.book.JournalEntry.wowWorgen0000000.JournalEntryPage.pSF3QDG0uPNeTVx1 inline]</p>",
+      "advancement": {
+        "Worgen Traits": {
+          "name": "Worgen Traits"
+        }
+      }
+    },
+    "Gnome Renown (Gnomeregan)": {
+      "name": "Gnome Renown (Gnomeregan)",
+      "description": "<p class=\"p1\">Due to your Gnome lineage, your Renown Score with @UUID[Compendium.dnd-world-warcraft.book.JournalEntry.wowTheAlliance00.JournalEntryPage.bbKM8aDik71xsqGu]{Gnomeregan} (Alliance) begins at 3.</p>"
+    },
+    "Mechagnome": {
+      "name": "Mechagnome",
+      "advancement": {
+        "hskEkloPKneSHKGc": {
+          "hint": "<p>Small (about 4 feet tall)</p>"
+        },
+        "Mechagnome Traits": {
+          "name": "Mechagnome Traits"
+        }
+      },
+      "description": "<p>@Embed[Compendium.dnd-world-warcraft.book.JournalEntry.wowGnome00000000.JournalEntryPage.kXOWs07ROWYgjM5d inline]</p><h3>Mechagnome</h3><p>@Embed[Compendium.dnd-world-warcraft.book.JournalEntry.wowGnome00000000.JournalEntryPage.4OFFV6SmsonDI0kZ inline]</p><h3>Gnome Renown</h3><p>@Embed[Compendium.dnd-world-warcraft.book.JournalEntry.wowGnome00000000.JournalEntryPage.wIiYEm701w0gCJsW inline]</p><hr><h4>Mechagnome Traits</h4><p>@Embed[Compendium.dnd-world-warcraft.book.JournalEntry.wowGnome00000000.JournalEntryPage.SbhomgpJYiTJZcQd inline]</p>"
+    },
+    "Built for Success": {
+      "name": "Built for Success",
+      "activities": {
+        "utility": {
+          "roll": "Test Increase",
+          "condition": "When you make a D20 Test"
+        }
+      },
+      "description": "<p>You can add 1d4 to one &amp;Reference[D20 Test] you make, and you can do so after rolling the die but before resolving the effects of the roll. You can use this trait a number of times equal to your Proficiency Bonus, and you regain all expended uses when you finish a Long Rest.</p>"
+    },
+    "Dracthyr Renown (Dark Talons)": {
+      "name": "Dracthyr Renown (Dark Talons)",
+      "description": "<p>By choosing to align yourself with the Dark Talons (Horde), your Renown Score with @UUID[Compendium.dnd-world-warcraft.book.JournalEntry.wowTheHorde00000.JournalEntryPage.ilcgQf59NKE2lMns]{Dark Talons} begins at 3.</p>"
+    },
+    "Bouncy": {
+      "description": "<p>You have &amp;Reference[Resistance] to Bludgeoning damage from falling.</p>",
+      "name": "Bouncy"
+    },
+    "Forsaken": {
+      "name": "Forsaken",
+      "advancement": {
+        "Forsaken Traits": {
+          "name": "Forsaken Traits"
+        },
+        "Ixng6Kx3Qpzev4zy": {
+          "hint": "<p>Medium (about 4–7 feet tall) or Small (about 2–4 feet tall), chosen when you select this species</p>"
+        }
+      },
+      "description": "<p>@Embed[Compendium.dnd-world-warcraft.book.JournalEntry.wowForsaken00000.JournalEntryPage.4Ost0K4V1JlLqsLm inline]</p><h3>Forsaken Renown</h3><p>@Embed[Compendium.dnd-world-warcraft.book.JournalEntry.wowForsaken00000.JournalEntryPage.IrFkqq6tlG6yyoqi inline]</p><hr><h4>Forsaken Traits</h4><p>@Embed[Compendium.dnd-world-warcraft.book.JournalEntry.wowForsaken00000.JournalEntryPage.GoJftxDx1jDltxaq inline]</p>"
+    },
+    "Draenei Renown (Exodar)": {
+      "description": "<p>Due to your draenei or Lightforged draenei Eredar Lineage, your Renown Score with the @UUID[Compendium.dnd-world-warcraft.book.JournalEntry.wowTheAlliance00.JournalEntryPage.xwHnObtfS8KGOgNp]{Exodar} (Alliance) begins at 3.</p>",
+      "name": "Draenei Renown (Exodar)"
+    },
+    "Human Renown (Stormwind)": {
+      "name": "Human Renown (Stormwind)",
+      "description": "<p class=\"p1\">Due to your Human lineage, your Renown Score with @UUID[Compendium.dnd-world-warcraft.book.JournalEntry.wowTheAlliance00.JournalEntryPage.w20Iuh5ocASVxvhS]{Stormwind} (Alliance) begins at 3.</p>"
+    },
+    "Orc Renown (Orgrimmar)": {
+      "name": "Orc Renown (Orgrimmar)",
+      "description": "<p class=\"p1\">Due to your Orc lineage, your Renown Score with @UUID[Compendium.dnd-world-warcraft.book.JournalEntry.wowTheHorde00000.JournalEntryPage.eTA6s4DmPfXkn2ni]{Orgrimmar} (Horde) begins at 3.</p>"
+    },
+    "Goblin": {
+      "advancement": {
+        "34RANNYF7394PUJz": {
+          "hint": "<p>Small (about 4 feet tall)</p>"
+        },
+        "Goblin Traits": {
+          "name": "Goblin Traits"
+        }
+      },
+      "name": "Goblin",
+      "description": "<p>@Embed[Compendium.dnd-world-warcraft.book.JournalEntry.wowGoblin0000000.JournalEntryPage.tGbSqB2pyPbBAUXm inline]</p><h3>Goblin Cartels</h3><p>@Embed[Compendium.dnd-world-warcraft.book.JournalEntry.wowGoblin0000000.JournalEntryPage.nyqTDMqdWc6bo7Ql inline]</p><h3>Goblin Renown</h3><p>@Embed[Compendium.dnd-world-warcraft.book.JournalEntry.wowGoblin0000000.JournalEntryPage.IKFmZHtZELb9U5Cn inline]</p><hr><h4>Goblin Traits</h4><p>@Embed[Compendium.dnd-world-warcraft.book.JournalEntry.wowGoblin0000000.JournalEntryPage.yUZhCrDX2wUddD6N inline]</p>"
+    },
+    "Pandaren": {
+      "name": "Pandaren",
+      "advancement": {
+        "Pandaren Traits": {
+          "name": "Pandaren Traits"
+        },
+        "8RQUBVCrLYJLgBEh": {
+          "hint": "<p>Medium (about 6–7 feet tall)</p>"
+        }
+      },
+      "description": "<p>@Embed[Compendium.dnd-world-warcraft.book.JournalEntry.wowPandaren00000.JournalEntryPage.yf2GI7Vl0OD3Wsh4 inline]</p><h3>Pandaren Renown</h3><p>@Embed[Compendium.dnd-world-warcraft.book.JournalEntry.wowPandaren00000.JournalEntryPage.0bBTx5oCaWJD1OHY inline]</p><hr><h4>Pandaren Traits</h4><p>@Embed[Compendium.dnd-world-warcraft.book.JournalEntry.wowPandaren00000.JournalEntryPage.TcJJwD9DMb080x5p inline]</p>"
+    },
+    "Tauren": {
+      "advancement": {
+        "a37ypSBIK2T1Jbyv": {
+          "hint": "<p>Medium (about 8–9 feet tall)</p>"
+        },
+        "Tauren Traits": {
+          "name": "Tauren Traits"
+        }
+      },
+      "description": "<p>@Embed[Compendium.dnd-world-warcraft.book.JournalEntry.wowTauren0000000.JournalEntryPage.h8fJDPhWdhCPreQZ inline]</p><h3>Tauren Renown</h3><p>@Embed[Compendium.dnd-world-warcraft.book.JournalEntry.wowTauren0000000.JournalEntryPage.ka6BHLVoDJT8c5Yy inline]</p><hr><h4>Tauren Traits</h4><p>@Embed[Compendium.dnd-world-warcraft.book.JournalEntry.wowTauren0000000.JournalEntryPage.aLuTEfUXmldAVGaZ inline]</p>",
+      "name": "Tauren"
+    },
+    "Azerite Surge": {
+      "name": "Azerite Surge",
+      "description": "<p>When you take the &amp;Reference[Attack] action on your turn, you can replace one of the attacks with a blast of Azerite energy in a 15-foot Cone. Each creature of your choice in the Cone regains 1d10 Hit Points. Each other creature in the Cone makes a Dexterity saving throw (DC 8 plus your Constitution modifier and your Proficiency Bonus), taking 1d10 Radiant damage on a failed save or half as much damage on a successful one.</p><p>Both the damage and the healing increase by 1d10 when you reach character levels 5 (2d10), 11 (3d10), and 17 (4d10).</p><p>You can use this ability a number of times equal to your Proficiency Bonus, and you regain all expended uses when you finish a Long Rest.</p>"
+    },
+    "Bloodied Frenzy": {
+      "effects": {
+        "Bloodied Frenzy": {
+          "name": "Bloodied Frenzy",
+          "description": "<p>@Embed[Compendium.dnd-world-warcraft.origins.Item.wowsptBloodieFre inline]</p>"
+        }
+      },
+      "description": "<p>While &amp;Reference[Bloodied], you have Advantage on attack rolls.</p>",
+      "name": "Bloodied Frenzy"
+    },
+    "Fire Resistance": {
+      "name": "Fire Resistance",
+      "description": "<p>You have &amp;Reference[Resistance] to Fire damage.</p>"
+    },
+    "Fey Ancestry": {
+      "description": "<p>You have Advantage on saving throws you make to avoid or end the &amp;Reference[Charmed apply=false] condition.</p>",
+      "name": "Fey Ancestry"
+    },
+    "Hammering Horns": {
+      "activities": {
+        "Shove": {
+          "name": "Shove",
+          "condition": "When you hit a creature with a melee attack as part of the Attack action on your turn"
+        }
+      },
+      "description": "<p>Immediately after you hit a creature with a melee attack as part of the &amp;Reference[Attack] action on your turn, you can use a Bonus Action to &amp;Reference[shove]{shove} that target with an Unarmed Strike as long as the target is within 5 feet of you. When you shove a target in this way, you can push the target up to 10 feet away instead of 5 feet.</p>",
+      "name": "Hammering Horns"
+    },
+    "Highmountain Tauren": {
+      "name": "Highmountain Tauren",
+      "activities": {
+        "Move": {
+          "target": "Medium or smaller",
+          "name": "Move"
+        }
+      },
+      "description": "<p>As an action, you can move up to your &amp;Reference[Speed] without provoking &amp;Reference[Opportunity Attacks] and can move through the spaces of other creatures. Each Medium or smaller creature whose space you enter makes a Strength saving throw. On a failed save, a creature takes damage equal to your Proficiency Bonus plus your Strength modifier and has the &amp;Reference[Prone apply=false] condition. A creature can take this damage only once per turn.</p>"
+    },
+    "Heroic Presence": {
+      "description": "<p>When you cast a spell granted by your Eredar Lineage, if you don’t have &amp;Reference[Heroic Inspiration], you gain it. You can gain Heroic Inspiration in this way once, and you regain the ability to do so when you finish a Short or Long Rest.</p>",
+      "name": "Heroic Presence"
+    },
+    "Haranir Magic": {
+      "advancement": {
+        "Haranir Spells": {
+          "name": "Haranir Spells"
+        }
+      },
+      "description": "<p>You know the <em>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplDruidcraft]{Druidcraft}</em> and <em>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplThornWhip0]{Thorn Whip}</em> cantrips.</p><p>When you reach character level 3, you learn the <em>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplEntangle00]{Entangle}</em> spell. You always have it prepared. You can cast it once without a spell slot, and you regain the ability to cast it in that way when you finish a Long Rest. You can also cast the spell using any spell slots you have of the appropriate level.</p><p>When you reach character level 5, you also always have the <em>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplSpikeGrowt]{Spike Growth}</em> spell prepared and can cast it the same way.</p><p>Intelligence, Wisdom, or Charisma is your spellcasting ability for the spells you cast with this trait (choose the ability when you select this species).</p>",
+      "name": "Haranir Magic"
+    },
+    "Instinctual Shift": {
+      "description": "<p>When you roll Initiative while you have one or more uses of your Darkflight species trait remaining, you can immediately use that trait to shape-shift (no action required).</p>",
+      "name": "Instinctual Shift"
+    },
+    "Krokul": {
+      "name": "Krokul",
+      "advancement": {
+        "Krokul Traits": {
+          "name": "Krokul Traits"
+        }
+      },
+      "description": "<table><caption><p>Krokul Lineage Traits</p></caption><thead><tr><th scope=\"col\"><p>Level 1</p></th><th scope=\"col\"><p>Level 3</p></th><th scope=\"col\"><p>Level 5</p></th></tr></thead><tbody><tr><td><p>You have Resistance to Poison damage. You also know the <em>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplPoisonSpra]{Poison Spray}</em> cantrip.</p></td><td><p><em>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplRayofSickn]{Ray of Sickness}</em></p></td><td><p><em>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplHoldPerson]{Hold Person}</em></p></td></tr></tbody></table>"
+    },
+    "Lightforged": {
+      "name": "Lightforged",
+      "advancement": {
+        "Lightforged Traits": {
+          "name": "Lightforged Traits"
+        }
+      },
+      "description": "<table><caption><p>Lightforged Lineage Traits</p></caption><thead><tr><th scope=\"col\"><p>Level 1</p></th><th scope=\"col\"><p>Level 3</p></th><th scope=\"col\"><p>Level 5</p></th></tr></thead><tbody><tr><td><p>You have Resistance to Radiant damage. You also know the <em>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplSacredFlam]{Sacred Flame}</em> cantrip.</p></td><td><p><em>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplGuidingBol]{Guiding Bolt}</em></p></td><td><p><em>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplAid0000000]{Aid}</em></p></td></tr></tbody></table>"
+    },
+    "Mulgore Tauren": {
+      "name": "Mulgore Tauren",
+      "activities": {
+        "Stomp": {
+          "name": "Stomp",
+          "condition": "When you take the Attack action on your turn"
+        }
+      },
+      "description": "<p>When you take the &amp;Reference[Attack] action on your turn, you can replace one of the attacks with a magically empowered stomp on the ground. You can’t use this feature if you have the &amp;Reference[Prone apply=false] condition or if you are flying, climbing, or swimming. When you use your war stomp, each creature of your choice within a 5-foot Emanation originating from you makes a Constitution saving throw. On a failed save, a creature has the Stunned condition until the end of your current turn.</p>"
+    },
+    "Natural Weaponry": {
+      "activities": {
+        "Shove": {
+          "name": "Shove",
+          "description": "<p>On a failed save, choose whether to push the target 5 feet away or knock it &amp;Reference[Prone apply=false]. Apply the Prone effect only if you choose to knock it Prone. The target must be no more than one size larger than you.</p>",
+          "condition": "While in your natural form"
+        }
+      },
+      "name": "Natural Weaponry",
+      "description": "<p>While you’re in your natural form, your wings and tail are powerful weapons. As a Bonus Action, you can use your wings or tail to make an Unarmed Strike to &amp;Reference[Shoving]{Shove} a creature.</p>"
+    },
+    "Sentry's Rest": {
+      "name": "Sentry's Rest",
+      "description": "<p>You don’t need to sleep. You can finish a Long Rest in 6 hours if you spend those hours in an inactive, motionless state, during which you retain consciousness.</p>"
+    },
+    "Specialized Design": {
+      "description": "<p>You gain proficiency with two tools of your choice.</p>",
+      "advancement": {
+        "niRY9oxdqUfSpmd5": {
+          "hint": "<p>You gain proficiency with two tools of your choice.</p>"
+        }
+      },
+      "name": "Specialized Design"
+    },
+    "Tauren Lineage": {
+      "name": "Tauren Lineage",
+      "description": "<p>You are part of a lineage that grants you supernatural qualities. If your lineage grants you an ability that allows a saving throw, the DC equals 8 plus your Strength, Constitution, or Wisdom modifier (choose when you select the lineage) and Proficiency Bonus. Choose one of the following options:</p><p>@Embed[Compendium.dnd-world-warcraft.origins.Item.wowsptMulgoreTau caption=false cite=false classes=\"subfeature\" nameStyle=inline]</p><p>@Embed[Compendium.dnd-world-warcraft.origins.Item.wowsptHighmouTau caption=false cite=false classes=\"subfeature\" nameStyle=inline]</p><p>@Embed[Compendium.dnd-world-warcraft.origins.Item.wowsptTaunka0000 caption=false cite=false classes=\"subfeature\" nameStyle=inline]</p>",
+      "advancement": {
+        "Choose Lineage": {
+          "name": "Choose Lineage"
+        }
+      }
+    },
+    "Vulpera Nimbleness": {
+      "description": "<p>You can move through the space of any creature that is a size larger than you, but you can’t stop in the same space.</p>",
+      "effects": {
+        "Vulpera Nimbleness": {
+          "name": "Vulpera Nimbleness"
+        }
+      },
+      "name": "Vulpera Nimbleness"
+    },
+    "Zandalari Troll": {
+      "description": "<p>If you roll a 1 on the d20 for a &amp;Reference[D20 Test], you gain &amp;Reference[Heroic Inspiration] at the end of the current turn.</p>",
+      "name": "Zandalari Troll"
+    },
+    "Blood Elf": {
+      "name": "Blood Elf",
+      "description": "<table><caption><p>Blood Elf Traits</p></caption><thead><tr><th scope=\"col\"><p>Level 1</p></th><th scope=\"col\"><p>Level 3</p></th><th scope=\"col\"><p>Level 5</p></th><th><p></p></th></tr></thead><tbody><tr><td><p>You know the <em>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplPrestidigi]{Prestidigitation}</em> cantrip. Whenever you finish a Long Rest, you can replace that cantrip with a different cantrip from the Wizard spell list.</p></td><td><p><em>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplDetectMagi]{Detect Magic}</em></p></td><td><p><em>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplArcaneVigo]{Arcane Vigor}</em></p></td><td><p></p></td></tr></tbody></table>",
+      "advancement": {
+        "Blood Elf Traits": {
+          "name": "Blood Elf Traits"
+        }
+      }
+    },
+    "Ingest Minerals": {
+      "effects": {
+        "Ingest Minerals": {
+          "name": "Ingest Minerals",
+          "description": "<p>You don’t gain &amp;Reference[Exhaustion apply=false] levels from malnutrition.</p>"
+        }
+      },
+      "name": "Ingest Minerals",
+      "description": "<p>You don’t gain &amp;Reference[Exhaustion apply=false] levels from malnutrition.</p>"
+    },
+    "Mar'ari": {
+      "description": "<table><caption><p>Mar'ari Lineage Traits</p></caption><thead><tr><th scope=\"col\"><p>Level 1</p></th><th scope=\"col\"><p>Level 3</p></th><th scope=\"col\"><p>Level 5</p></th></tr></thead><tbody><tr><td><p>You have Resistance to Fire damage. You also know the <em>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplFireBolt00]{Fire Bolt}</em> cantrip.</p></td><td><p><em>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplHellishReb]{Hellish Rebuke}</em></p></td><td><p><em>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplDarkness00]{Darkness}</em></p></td></tr></tbody></table>",
+      "advancement": {
+        "Mar'ari Traits": {
+          "name": "Mar'ari Traits"
+        }
+      },
+      "name": "Mar'ari"
+    },
+    "Elf Renown (Silvermoon City)": {
+      "description": "<p>Due to your Blood Elf or Nightbourne lineage, your Renown Score with @UUID[Compendium.dnd-world-warcraft.book.JournalEntry.wowTheHorde00000.JournalEntryPage.2EWR8vxGjhK2Dq6O]{Silvermoon City} (Horde) begins at 3.</p>",
+      "name": "Elf Renown (Silvermoon City)"
+    },
+    "Eredar Lineage": {
+      "advancement": {
+        "Choose Lineage": {
+          "name": "Choose Lineage",
+          "hint": "<p>You are part of a lineage related to your ancestors’ embrace of the Light—or of the power of the Burning Legion. This lineage grants you supernatural abilities. Choose a lineage from the Eredar Lineages table: Draenei, Krokul, Lightforged, or Man’ari.</p>"
+        }
+      },
+      "description": "<p>You are part of a lineage related to your ancestors’ embrace of the Light—or of the power of the Burning Legion. This lineage grants you supernatural abilities. Choose a lineage from the Eredar Lineages table: Draenei, Krokul, Lightforged, or Man’ari. You gain the level 1 benefit of that lineage.</p><p>When you reach character levels 3 and 5, you learn a higher-level spell, as shown on the table. You always have that spell prepared. You can cast it once without a spell slot, and you regain the ability to cast it in that way when you finish a Long Rest. You can also cast it using any spell slots you have of the appropriate level.</p><p>Intelligence, Wisdom, or Charisma is your spellcasting ability for the spells you cast with this trait (choose when you select the lineage).</p><table><caption><p>Eredar Lineages</p></caption><thead><tr><th scope=\"col\"><p>Lineage</p></th><th scope=\"col\"><p>Level 1</p></th><th scope=\"col\"><p>Level 3</p></th><th scope=\"col\"><p>Level 5</p></th></tr></thead><tbody><tr><td><p>@UUID[Compendium.dnd-world-warcraft.origins.Item.wowsptDraenei000]{Draenei}</p></td><td><p>You have Resistance to Necrotic damage. You also know the <em>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplSparetheDy]{Spare the Dying}</em> cantrip.</p></td><td><p><em>@UUID[Compendium.dnd5e.spells24.Item.phbsplHealingWor]{Healing Word}</em></p></td><td><p><em>@UUID[Compendium.dnd5e.spells24.Item.phbsplPrayerofHe]{Prayer of Healing}</em></p></td></tr><tr><td><p>@UUID[Compendium.dnd-world-warcraft.origins.Item.wowsptKrokul0000]{Krokul}</p></td><td><p>You have Resistance to Poison damage. You also know the <em>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplPoisonSpra]{Poison Spray}</em> cantrip.</p></td><td><p><em>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplRayofSickn]{Ray of Sickness}</em></p></td><td><p><em>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplHoldPerson]{Hold Person}</em></p></td></tr><tr><td><p>@UUID[Compendium.dnd-world-warcraft.origins.Item.wowsptLightforge]{Lightforged}</p></td><td><p>You have Resistance to Radiant damage. You also know the <em>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplSacredFlam]{Sacred Flame}</em> cantrip.</p></td><td><p><em>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplGuidingBol]{Guiding Bolt}</em></p></td><td><p><em>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplAid0000000]{Aid}</em></p></td></tr><tr><td><p>@UUID[Compendium.dnd-world-warcraft.origins.Item.wowsptMarari0000]{Man’ari}</p></td><td><p>You have Resistance to Fire damage. You also know the <em>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplFireBolt00]{Fire Bolt}</em> cantrip.</p></td><td><p><em>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplHellishReb]{Hellish Rebuke}</em></p></td><td><p><em>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplDarkness00]{Darkness}</em></p></td></tr></tbody></table>",
+      "name": "Eredar Lineage"
+    },
+    "Elf Renown (Darnassus)": {
+      "name": "Elf Renown (Darnassus)",
+      "description": "<p>Due to your Night Elf or Void Elf lineage, your Renown Score with @UUID[Compendium.dnd-world-warcraft.book.JournalEntry.wowTheAlliance00.JournalEntryPage.atJHGssGcTvG0dWQ]{Darnassus} (Alliance) begins at 3.</p>"
+    },
+    "Vulpera": {
+      "description": "<p>@Embed[Compendium.dnd-world-warcraft.book.JournalEntry.wowVulpera000000.JournalEntryPage.pMvmAiFu7mBXtz2Y inline]</p><h3>Vulpera Renown</h3><p>@Embed[Compendium.dnd-world-warcraft.book.JournalEntry.wowVulpera000000.JournalEntryPage.oAkNmys7uVFiyPys inline]</p><hr><h4>Vulpera Traits</h4><p>@Embed[Compendium.dnd-world-warcraft.book.JournalEntry.wowVulpera000000.JournalEntryPage.8weaw2vkzBHzyMBo inline]</p>",
+      "advancement": {
+        "Vulpera Traits": {
+          "name": "Vulpera Traits"
+        },
+        "w8Tm7gaTH4zrhY29": {
+          "hint": "<p>Small (about 4–5 feet tall)</p>"
+        }
+      },
+      "name": "Vulpera"
+    },
+    "Tauren Renown (Thunder Bluff)": {
+      "description": "<p class=\"p1\">Due to your Tauren lineage, your Renown Score with @UUID[Compendium.dnd-world-warcraft.book.JournalEntry.wowTheHorde00000.JournalEntryPage.dy8Z8Gtvbu98gfQc]{Thunder Bluff} (Horde) begins at 3.</p>",
+      "name": "Tauren Renown (Thunder Bluff)"
+    },
+    "Pandaren Renown (Huojin)": {
+      "name": "Pandaren Renown (Huojin)",
+      "description": "<p>By choosing to align yourself with the Huojin (Horde), your Renown Score with @UUID[Compendium.dnd-world-warcraft.book.JournalEntry.wowTheHorde00000.JournalEntryPage.zHGqWgoJEhzGtiGL]{Huojin} begins at 3.</p>"
+    },
+    "Goblin Renown (Bilgewater Cartel)": {
+      "name": "Goblin Renown (Bilgewater Cartel)",
+      "description": "<p>Due to your association with the Bilgewater Cartel, your Renown Score with the @UUID[Compendium.dnd-world-warcraft.book.JournalEntry.wowTheHorde00000.JournalEntryPage.KTz4fgoqdKuVuqzy]{Bilgewater Cartel} (Horde) begins at 3.</p>"
+    },
+    "Darkspear Troll": {
+      "description": "<p>When you take the &amp;Reference[Dash] action, &amp;Reference[Difficult Terrain] composed of ice, rubble, snow, or undergrowth doesn’t cost you extra movement until the end of your turn.</p>",
+      "effects": {
+        "Ignore Difficult Terrain": {
+          "name": "Ignore Difficult Terrain"
+        }
+      },
+      "activities": {
+        "Dash": {
+          "name": "Dash"
+        }
+      },
+      "name": "Darkspear Troll"
+    },
+    "Goblin Renown (Steamwheedle Cartel)": {
+      "name": "Goblin Renown (Steamwheedle Cartel)",
+      "description": "<p>Due to your association with the Steamwheedle Cartel, your Renown Score with the @UUID[Compendium.dnd-world-warcraft.book.JournalEntry.wowSteamwheedleC]{Steamwheedle Cartel} begins at 3.</p>"
+    },
+    "Forsaken Renown (Undercity)": {
+      "description": "<p class=\"p1\">Due to your Forsaken lineage, your Renown Score with @UUID[Compendium.dnd-world-warcraft.book.JournalEntry.wowTheHorde00000.JournalEntryPage.D1xIeKZnjR4CPjIb]{Undercity} (Horde) begins at 3.</p>",
+      "name": "Forsaken Renown (Undercity)"
+    },
+    "Quaking Palm": {
+      "name": "Quaking Palm",
+      "description": "<p>When you hit a creature with a melee attack on your turn, your movement doesn’t provoke &amp;Reference[Opportunity Attacks] from that creature until the end of your turn.</p>"
+    },
+    "Vulpera Renown (Orgrimmar)": {
+      "description": "<p class=\"p1\">Due to your Vulpera lineage, your Renown Score with @UUID[Compendium.dnd-world-warcraft.book.JournalEntry.wowTheHorde00000.JournalEntryPage.eTA6s4DmPfXkn2ni]{Orgrimmar} (Horde) begins at 3.</p>",
+      "name": "Vulpera Renown (Orgrimmar)"
+    },
+    "Night Elf": {
+      "activities": {
+        "Hide": {
+          "name": "Hide",
+          "condition": "While in Dim Light or Darkness"
+        }
+      },
+      "description": "<table><caption><p>Night Elf Traits</p></caption><thead><tr><th scope=\"col\"><p>Level 1</p></th><th scope=\"col\"><p>Level 3</p></th><th scope=\"col\"><p>Level 5</p></th></tr></thead><tbody><tr><td><p>You have proficiency in the Stealth skill, and while you are in &amp;Reference[Dim Light] or &amp;Reference[Darkness], you can take the &amp;Reference[Hide] action as a Bonus Action.</p></td><td><p><em>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplLongstride]{Longstrider}</em></p></td><td><p><em>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplPasswithou]{Pass Without Trace}</em></p></td></tr></tbody></table>",
+      "name": "Night Elf",
+      "advancement": {
+        "Night Elf Traits": {
+          "name": "Night Elf Traits"
+        }
+      }
+    },
+    "Emergency Fail-Safe": {
+      "activities": {
+        "heal": {
+          "condition": "When you become Bloodied"
+        }
+      },
+      "description": "<p>When you become &amp;Reference[Bloodied apply=false], you can take a Reaction to spend one Hit Point Die, roll it, and regain a number of Hit Points equal to the roll plus your Constitution modifier (minimum of 1 Hit Point). Once you use this trait, you can’t use it again until you finish a Short or Long Rest.</p>",
+      "name": "Emergency Fail-Safe"
+    },
+    "Touch of the Grave": {
+      "activities": {
+        "Extra Damage": {
+          "name": "Extra Damage",
+          "condition": "When you deal damage to a creature"
+        }
+      },
+      "description": "<p>When you deal damage to a creature, you can roll a number of d4s equal to your Proficiency Bonus. You deal extra Necrotic damage to the creature equal to the total rolled, and you regain a number of Hit Points equal to the extra damage dealt.</p><p>Once you use this benefit, you can’t use it again until you finish a Long Rest.</p>",
+      "name": "Touch of the Grave"
+    },
+    "Deathly Endurance": {
+      "description": "<p>You have &amp;Reference[Resistance] to Necrotic damage.</p>",
+      "name": "Deathly Endurance"
+    },
+    "Draconic Flight": {
+      "name": "Draconic Flight",
+      "description": "<p>When you reach character level 5, you can use your natural form’s wings to fly short distances. As a Bonus Action, you leap into the air and give yourself a Fly Speed equal to your &amp;Reference[Speed] that lasts for 10 minutes. Once you use this trait, you can’t use it again until you finish a Long Rest.</p>",
+      "activities": {
+        "Leap": {
+          "name": "Leap",
+          "condition": "While in your natural form"
+        }
+      }
+    },
+    "Gift of the World Trees": {
+      "description": "<p>Because of your supernatural connection to the world trees, you have proficiency in the Nature and Suvival skills.</p>",
+      "name": "Gift of the World Trees"
+    },
+    "Troll Renown (Darkspear Tribe)": {
+      "name": "Troll Renown (Darkspear Tribe)",
+      "description": "<p class=\"p1\">Due to your Darkspear troll or Zandalari troll lineage, your Renown Score with @UUID[Compendium.dnd-world-warcraft.book.JournalEntry.wowTheHorde00000.JournalEntryPage.zGI02pOayz0wbpis]{Darkspear Tribe} (Horde) begins at 3.</p>"
+    },
+    "Worgen Renown (Gilneas)": {
+      "description": "<p class=\"p1\">Due to your Worgen lineage, your Renown Score with @UUID[Compendium.dnd-world-warcraft.book.JournalEntry.wowTheAlliance00.JournalEntryPage.2FXXqAU9F2TQfPLo]{Gilneas} (Alliance) begins at 3.</p>",
+      "name": "Worgen Renown (Gilneas)"
+    },
+    "Quiet Contemplation": {
+      "description": "<p>When you spend Hit Point Dice when you finish a Short Rest, you regain 1 additional Hit Point per Hit Point Die you spend.</p>",
+      "name": "Quiet Contemplation"
+    },
+    "Dracthyr Renown (Valdrakken Accord)": {
+      "name": "Dracthyr Renown (Valdrakken Accord)",
+      "description": "<p>By choosing to align yourself with the Ebon Scales or the Healing Wings, your Renown Score with the @UUID[Compendium.dnd-world-warcraft.book.JournalEntry.wowValdrakkenAcc]{Valdrakken Accord} begins at 3.</p>"
+    },
+    "Pandaren Renown (Tushui)": {
+      "name": "Pandaren Renown (Tushui)",
+      "description": "<p>By choosing to align yourself with the Tushui (Alliance), your Renown Score with @UUID[Compendium.dnd-world-warcraft.book.JournalEntry.wowTheAlliance00.JournalEntryPage.ilOLdiGjFqiEtSlG]{Tushui} begins at 3.</p>"
+    },
+    "Dracthyr Renown (Obsidian Warders)": {
+      "description": "<p>By choosing to align yourself with the Obsidian Warders (Alliance), your Renown Score with @UUID[Compendium.dnd-world-warcraft.book.JournalEntry.wowTheAlliance00.JournalEntryPage.yXicda4EWoJxjOOi]{Obsidian Warders} begins at 3.</p>",
+      "name": "Dracthyr Renown (Obsidian Warders)"
+    },
+    "Nimble Escape": {
+      "description": "<p>You can take the &amp;Reference[Disengage apply=false] or &amp;Reference[Hide apply=false] action as a Bonus Action on each of your turns.</p>",
+      "activities": {
+        "Disengage": {
+          "name": "Disengage"
+        },
+        "Hide": {
+          "name": "Hide"
+        }
+      },
+      "name": "Nimble Escape"
+    },
+    "Visage": {
+      "description": "<p>As a &amp;Reference[Magic] action, you can shape-shift into a humanoid form called your visage, or back to your natural form. Your visage has a specific appearance that you choose when you select this species, including your coloration, height and weight, hair length, and sex. Changing shape with this trait doesn’t change your clothing, equipment, or game statistics.</p>",
+      "name": "Visage",
+      "effects": {
+        "Visage": {
+          "name": "Visage"
+        }
+      }
+    },
+    "Gliding Wings": {
+      "name": "Gliding Wings",
+      "description": "<p>While you’re in your natural form and don’t have the &amp;Reference[Incapacitated apply=false] condition, when you fall, you subtract up to 100 feet from the distance fallen when calculating the fall’s damage, and you can move up to 2 feet horizontally for every 1 foot you descend.</p>"
+    },
+    "Fury of the Small": {
+      "name": "Fury of the Small",
+      "activities": {
+        "Extra Damage": {
+          "target": "Creature's size is larger than yours",
+          "condition": "When you damage a creature with an attack or spell",
+          "name": "Extra Damage"
+        }
+      },
+      "description": "<p>When you damage a creature with an attack or a spell and the creature’s size is larger than yours, you can cause the attack or spell to deal extra damage to the creature. The extra damage equals your Proficiency Bonus and is the same damage type as the other damage dealt.</p><p>You can use this trait a number of times equal to your Proficiency Bonus, regaining all expended uses when you finish a Long Rest, and you can use it no more than once per turn.</p>"
+    },
+    "Inner Peace": {
+      "description": "<p>When you spend Hit Point Dice to regain Hit Points after a Short Rest, you regain 1 additional Hit Point per Hit Point Die you expend.</p>",
+      "name": "Inner Peace"
+    },
+    "Will of the Forsaken": {
+      "description": "<p>You have Advantage on saving throws to avoid or end the &amp;Reference[Charmed apply=false] or &amp;Reference[Frightened apply=false] condition.</p>",
+      "name": "Will of the Forsaken"
+    },
+    "Troll Healing": {
+      "description": "<p>When you expend Hit Point Dice to regain Hit Points after a Short Rest, you regain Hit Points equal to the maximum roll of the dice plus your Constitution modifier.</p>",
+      "name": "Troll Healing"
+    },
+    "Dwarf Renown (Ironforge)": {
+      "description": "<p class=\"p1\">Due to your Dwarf lineage, your Renown Score with @UUID[Compendium.dnd-world-warcraft.book.JournalEntry.wowTheAlliance00.JournalEntryPage.oyPozuVXGusZiqIe]{Ironforge} (Alliance) begins at 3.</p>",
+      "name": "Dwarf Renown (Ironforge)"
     }
   }
 }
