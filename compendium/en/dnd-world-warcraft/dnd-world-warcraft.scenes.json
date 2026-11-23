@@ -1,0 +1,493 @@
+{
+  "label": "Scenes",
+  "entries": {
+    "Azjol-Nerub": {
+      "name": "Azjol-Nerub",
+      "drawings": {
+        "Spiraling Passage Down >>>": "Spiraling Passage Down >>>",
+        "Stairs": "Stairs",
+        "Gilded Gate": "Gilded Gate",
+        "Web-Choked Chasm": "Web-Choked Chasm",
+        "Hadronox’s Lair": "Hadronox’s Lair",
+        "Throne of the Traitor King": "Throne of the Traitor King",
+        "Brood Pit": "Brood Pit"
+      },
+      "levels": {
+        "Level": "Level"
+      },
+      "regions": {
+        "Map 01 Teleport": {
+          "name": "Map 01 Teleport",
+          "behaviors": {
+            "Go to Map 02": {
+              "name": "Go to Map 02"
+            }
+          }
+        },
+        "Map 01 Web North": {
+          "name": "Map 01 Web North",
+          "behaviors": {
+            "Difficult Terrain": {
+              "name": "Difficult Terrain"
+            }
+          }
+        },
+        "Map 01 Web South": {
+          "name": "Map 01 Web South",
+          "behaviors": {
+            "Difficult Terrain": {
+              "name": "Difficult Terrain"
+            }
+          }
+        },
+        "Map 01 Web Bridge": {
+          "name": "Map 01 Web Bridge",
+          "behaviors": {
+            "Difficult Terrain": {
+              "name": "Difficult Terrain"
+            }
+          }
+        },
+        "Map 01 Web East": {
+          "name": "Map 01 Web East",
+          "behaviors": {
+            "Difficult Terrain": {
+              "name": "Difficult Terrain"
+            }
+          }
+        },
+        "Map 02 Web North": {
+          "name": "Map 02 Web North",
+          "behaviors": {
+            "Difficult Terrain": {
+              "name": "Difficult Terrain"
+            }
+          }
+        },
+        "Map 02 Web South": {
+          "name": "Map 02 Web South",
+          "behaviors": {
+            "Difficult Terrain": {
+              "name": "Difficult Terrain"
+            }
+          }
+        },
+        "Map 02 Web Bridge West": {
+          "name": "Map 02 Web Bridge West",
+          "behaviors": {
+            "Difficult Terrain": {
+              "name": "Difficult Terrain"
+            }
+          }
+        },
+        "Map 02 Web Bridge East": {
+          "name": "Map 02 Web Bridge East",
+          "behaviors": {
+            "Difficult Terrain": {
+              "name": "Difficult Terrain"
+            }
+          }
+        },
+        "Map 02 Teleport": {
+          "name": "Map 02 Teleport",
+          "behaviors": {
+            "Go to Map 01": {
+              "name": "Go to Map 01"
+            }
+          }
+        }
+      }
+    },
+    "Blackfathom Deeps": {
+      "name": "Blackfathom Deeps",
+      "drawings": {
+        "1": "1",
+        "2": "2",
+        "3": "3",
+        "4": "4",
+        "Drowned Sacellum": "Drowned Sacellum",
+        "Pool of Ask’ar": "Pool of Ask’ar",
+        "Blindlight Grotto": "Blindlight Grotto",
+        "Moonshrine Ruins": "Moonshrine Ruins",
+        "Moonshrine Sanctum": "Moonshrine Sanctum",
+        "Aku’mai’s Lair": "Aku’mai’s Lair",
+        "X": "X"
+      },
+      "levels": {
+        "Level": "Level"
+      },
+      "regions": {
+        "Trigger Braizer Controls": {
+          "name": "Trigger Braizer Controls",
+          "behaviors": {
+            "Light Ritual Braziers": {
+              "name": "Light Ritual Braziers"
+            }
+          }
+        }
+      }
+    },
+    "World Map of Azeroth (Blank)": {
+      "name": "World Map of Azeroth (Blank)",
+      "levels": {
+        "Level": "Level"
+      }
+    },
+    "Dire Maul": {
+      "name": "Dire Maul",
+      "drawings": {
+        "Eldreth Row": "Eldreth Row",
+        "Court of the Highborn": "Court of the Highborn",
+        "Prison of Immol’thar": "Prison of Immol’thar",
+        "The Athenaeum": "The Athenaeum",
+        "B": "B",
+        "C": "C",
+        "D": "D",
+        "Gordok’s Seat": "Gordok’s Seat",
+        "Hall of Destruction": "Hall of Destruction",
+        "Capitol Gardens": "Capitol Gardens",
+        "E": "E",
+        "A": "A",
+        "F": "F",
+        "Gordok Commons": "Gordok Commons",
+        "Shrine of Eldretharr": "Shrine of Eldretharr",
+        "Conservatory": "Conservatory",
+        "Hidden Reach": "Hidden Reach",
+        "Warpwood Quarter": "Warpwood Quarter",
+        "Broken Commons": "Broken Commons",
+        "The Maul": "The Maul",
+        "Central Ruin": "Central Ruin",
+        "North Wing": "North Wing"
+      },
+      "levels": {
+        "Ground Level": "Ground Level",
+        "Lower Level": "Lower Level"
+      },
+      "regions": {
+        "Transport B: Gordok Commons North": {
+          "name": "Transport B: Gordok Commons North",
+          "behaviors": {
+            "Gordok Commons North": {
+              "name": "Gordok Commons North"
+            }
+          }
+        },
+        "Transport B: The Athenaeum": {
+          "name": "Transport B: The Athenaeum",
+          "behaviors": {
+            "The Athenaeum": {
+              "name": "The Athenaeum"
+            }
+          }
+        },
+        "Transport C: Prison": {
+          "name": "Transport C: Prison",
+          "behaviors": {
+            "Prison": {
+              "name": "Prison"
+            }
+          }
+        },
+        "Transport C: Athenaeum": {
+          "name": "Transport C: Athenaeum",
+          "behaviors": {
+            "The Athenaeum": {
+              "name": "The Athenaeum"
+            }
+          }
+        },
+        "Transport D: Prison": {
+          "name": "Transport D: Prison",
+          "behaviors": {
+            "Prison": {
+              "name": "Prison"
+            }
+          }
+        },
+        "Transport D: Capitol Gardens": {
+          "name": "Transport D: Capitol Gardens",
+          "behaviors": {
+            "Capitol Gardens": {
+              "name": "Capitol Gardens"
+            }
+          }
+        },
+        "Transport E: Capitol Gardens": {
+          "name": "Transport E: Capitol Gardens",
+          "behaviors": {
+            "Capitol Gardens": {
+              "name": "Capitol Gardens"
+            }
+          }
+        },
+        "Transport E: Court of the Highborn": {
+          "name": "Transport E: Court of the Highborn",
+          "behaviors": {
+            "Court of the Highborn": {
+              "name": "Court of the Highborn"
+            }
+          }
+        },
+        "Transport A: Hall of Destruction": {
+          "name": "Transport A: Hall of Destruction",
+          "behaviors": {
+            "Hall of Destruction": {
+              "name": "Hall of Destruction"
+            }
+          }
+        },
+        "Transport A: Gordok's Seat": {
+          "name": "Transport A: Gordok's Seat",
+          "behaviors": {
+            "Gordok's Seat": {
+              "name": "Gordok's Seat"
+            }
+          }
+        },
+        "Transport F: Warpwood Quarter": {
+          "name": "Transport F: Warpwood Quarter",
+          "behaviors": {
+            "Warpwood Quarter": {
+              "name": "Warpwood Quarter"
+            }
+          }
+        },
+        "Transport F: Conservatory": {
+          "name": "Transport F: Conservatory",
+          "behaviors": {
+            "Conservatory": {
+              "name": "Conservatory"
+            }
+          }
+        }
+      }
+    },
+    "Onyxia's Lair": {
+      "name": "Onyxia's Lair",
+      "drawings": {
+        "Cavern Mouth": "Cavern Mouth",
+        "Path of the Warders": "Path of the Warders",
+        "Whelp Caves": "Whelp Caves",
+        "Onyxia’s Hoard": "Onyxia’s Hoard",
+        "Secret Exit": "Secret Exit",
+        "EGG": "EGG"
+      },
+      "levels": {
+        "Base": "Base",
+        "Bridge": "Bridge"
+      },
+      "regions": {
+        "Rock Outcrop West": {
+          "name": "Rock Outcrop West",
+          "behaviors": {
+            "Difficult Terrain": {
+              "name": "Difficult Terrain"
+            }
+          }
+        },
+        "Entrance/Bridge Surface": {
+          "name": "Entrance/Bridge Surface",
+          "behaviors": {
+            "Define Surface": {
+              "name": "Define Surface"
+            }
+          }
+        },
+        "Bridge Right": {
+          "name": "Bridge Right",
+          "behaviors": {
+            "Change Level": {
+              "name": "Change Level"
+            }
+          }
+        },
+        "Cavern Mouth Trap": {
+          "name": "Cavern Mouth Trap",
+          "behaviors": {
+            "Execute Script": {
+              "name": "Execute Script"
+            }
+          }
+        }
+      }
+    },
+    "Scarlet Monastery": {
+      "name": "Scarlet Monastery",
+      "drawings": {
+        "Grand Vestibule": "Grand Vestibule",
+        "Graveyard": "Graveyard",
+        "Chamber of Atonement": "Chamber of Atonement",
+        "Forlorn Cloister": "Forlorn Cloister",
+        "Training Grounds": "Training Grounds",
+        "Library": "Library",
+        "Huntsman’s Cloister": "Huntsman’s Cloister",
+        "Gallery of Treasures": "Gallery of Treasures",
+        "Footman's Armory": "Footman's Armory",
+        "Crusader's Armory": "Crusader's Armory",
+        "Hall of Champions": "Hall of Champions",
+        "Athenaeum": "Athenaeum",
+        "Armory": "Armory",
+        "Cathedral": "Cathedral",
+        "Crusader's Chapel": "Crusader's Chapel",
+        "Chapel Gardens": "Chapel Gardens"
+      },
+      "levels": {
+        "Level": "Level"
+      }
+    },
+    "Shadowfang Keep": {
+      "name": "Shadowfang Keep",
+      "drawings": {
+        "Entry Gate": "Entry Gate",
+        "Courtyard": "Courtyard",
+        "The Keep": "The Keep",
+        "Observatory": "Observatory",
+        "Godfrey’s Chamber": "Godfrey’s Chamber",
+        "Battlements and Rooftops": "Battlements and Rooftops",
+        "Dining Hall": "Dining Hall",
+        "Silverlaine Manor": "Silverlaine Manor",
+        "A": "A",
+        "B": "B",
+        "C": "C",
+        "D": "D",
+        "E": "E"
+      },
+      "levels": {
+        "Ground": "Ground",
+        "Bridge": "Bridge"
+      },
+      "regions": {
+        "Entry Gate": {
+          "name": "Entry Gate",
+          "behaviors": {
+            "Teleport Token": {
+              "name": "Teleport Token"
+            }
+          }
+        },
+        "Entry Interior": {
+          "name": "Entry Interior",
+          "behaviors": {
+            "Teleport Token": {
+              "name": "Teleport Token"
+            }
+          }
+        },
+        "Bridge": {
+          "name": "Bridge",
+          "behaviors": {
+            "Define Surface": {
+              "name": "Define Surface"
+            }
+          }
+        },
+        "H8MRwkmJQ8q7ICay": {
+          "name": "Bridge",
+          "behaviors": {
+            "Change Level": {
+              "name": "Change Level"
+            }
+          }
+        },
+        "A (Lower)": {
+          "name": "A (Lower)",
+          "behaviors": {
+            "Teleport Token": {
+              "name": "Teleport Token"
+            }
+          }
+        },
+        "A (Upper)": {
+          "name": "A (Upper)",
+          "behaviors": {
+            "Teleport Token": {
+              "name": "Teleport Token"
+            }
+          }
+        },
+        "B (Lower)": {
+          "name": "B (Lower)",
+          "behaviors": {
+            "Teleport Token": {
+              "name": "Teleport Token"
+            }
+          }
+        },
+        "B (Upper)": {
+          "name": "B (Upper)",
+          "behaviors": {
+            "Teleport Token": {
+              "name": "Teleport Token"
+            }
+          }
+        },
+        "C (Upper)": {
+          "name": "C (Upper)",
+          "behaviors": {
+            "Teleport Token": {
+              "name": "Teleport Token"
+            }
+          }
+        },
+        "C (Lower)": {
+          "name": "C (Lower)",
+          "behaviors": {
+            "Teleport Token": {
+              "name": "Teleport Token"
+            }
+          }
+        },
+        "D (Lower)": {
+          "name": "D (Lower)",
+          "behaviors": {
+            "Teleport Token": {
+              "name": "Teleport Token"
+            }
+          }
+        },
+        "D (Upper)": {
+          "name": "D (Upper)",
+          "behaviors": {
+            "Teleport Token": {
+              "name": "Teleport Token"
+            }
+          }
+        },
+        "E (Lower)": {
+          "name": "E (Lower)",
+          "behaviors": {
+            "Teleport Token": {
+              "name": "Teleport Token"
+            }
+          }
+        },
+        "E (Upper)": {
+          "name": "E (Upper)",
+          "behaviors": {
+            "Teleport Token": {
+              "name": "Teleport Token"
+            }
+          }
+        }
+      }
+    },
+    "The Deadmines": {
+      "name": "The Deadmines",
+      "drawings": {
+        "0 Ft.": "0 Ft.",
+        "-30 Ft.": "-30 Ft.",
+        "The Goblin Minions are positioned 30 feet above the main floor (or whichever elevation you choose).": "The Goblin Minions are positioned 30 feet above the main floor (or whichever elevation you choose).",
+        "Feel free to remove excess laborers and buccaneers from the map depending on your party size.": "Feel free to remove excess laborers and buccaneers from the map depending on your party size."
+      },
+      "levels": {
+        "Level": "Level"
+      }
+    },
+    "World Map of Azeroth (Labeled)": {
+      "name": "World Map of Azeroth (Labeled)",
+      "levels": {
+        "Level": "Level"
+      }
+    }
+  }
+}

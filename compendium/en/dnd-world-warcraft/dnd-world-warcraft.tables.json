@@ -1,0 +1,644 @@
+{
+  "label": "Roll Tables",
+  "folders": {
+    "Deadmines": "Deadmines",
+    "Shadowfang Keep": "Shadowfang Keep",
+    "Onyxia's Lair": "Onyxia's Lair",
+    "Adventures": "Adventures",
+    "Azjol-Nerub": "Azjol-Nerub",
+    "Dire Maul": "Dire Maul",
+    "Scarlet Monastery": "Scarlet Monastery",
+    "Blackfathom Deeps": "Blackfathom Deeps",
+    "Languages": "Languages"
+  },
+  "entries": {
+    "Alliance Languages": {
+      "name": "Alliance Languages",
+      "description": "<p>Your character knows Common plus two other languages.</p>",
+      "results": {
+        "1-1": {
+          "description": "<p><strong>Language</strong>: Common Sign Language</p><p><strong>Origin</strong>: Humans</p>"
+        },
+        "2-3": {
+          "description": "<p><strong>Language</strong>: Darnassian</p><p><strong>Origin</strong>: Night Elves</p>"
+        },
+        "4-4": {
+          "description": "<p><strong>Language</strong>: Draconic</p><p><strong>Origin</strong>: Dragons</p>"
+        },
+        "5-6": {
+          "description": "<p><strong>Language</strong>: Draenei</p><p><strong>Origin</strong>: Draenei</p>"
+        },
+        "7-8": {
+          "description": "<p><strong>Language</strong>: Dwarven</p><p><strong>Origin</strong>: Dwarves</p>"
+        },
+        "9-9": {
+          "description": "<p><strong>Language</strong>: Gnomish</p><p><strong>Origin</strong>: Gnomes</p>"
+        },
+        "10-10": {
+          "description": "<p><strong>Language</strong>: Hara’ni</p><p><strong>Origin</strong>: Haranir</p>"
+        },
+        "11-11": {
+          "description": "<p><strong>Language</strong>: Pandaren</p><p><strong>Origin</strong>: Pandaren</p>"
+        },
+        "12-12": {
+          "description": "<p><strong>Language</strong>: Thalassian</p><p><strong>Origin</strong>: High Elves</p>"
+        }
+      }
+    },
+    "Armory Encounters (Tier 3)": {
+      "name": "Armory Encounters (Tier 3)",
+      "results": {
+        "1-1": {
+          "description": "<p>Two <strong>@UUID[Compendium.dnd-monster-manual.actors.Actor.mmMage0000000000]{Mages}</strong> with two <strong>@UUID[Compendium.dnd-monster-manual.actors.Actor.mmFireElemental0]{Fire Elemental}</strong> bodyguards</p>"
+        },
+        "2-2": {
+          "description": "<p>An <strong>@UUID[Compendium.dnd-monster-manual.actors.Actor.mmElementalCulti]{Elemental Cultist} </strong>disciplining [[/r 1d4 + 1]] <strong>@UUID[Compendium.dnd-monster-manual.actors.Actor.mmScoutCaptain00]{Scout Captains} </strong>for their poor aim</p>"
+        },
+        "3-3": {
+          "description": "<p><strong>@UUID[Compendium.dnd-monster-manual.actors.Actor.mmBerserkerComma]{Berserker Commander}</strong> brutally sparring with a fearful and Bloodied <strong>@UUID[Compendium.dnd-monster-manual.actors.Actor.mmKnight00000000]{Knight}</strong><span>†</span> before a crowd of [[/r 1d6 + 6]] <strong>@UUID[Compendium.dnd-monster-manual.actors.Actor.mmWarriorInfantr]{Warrior Infantry}</strong></p>"
+        },
+        "4-4": {
+          "description": "<p>Reckless <strong>@UUID[Compendium.dnd-monster-manual.actors.Actor.mmMage0000000000]{Mage} </strong>and 1d4 + 4 pyromaniac <strong>@UUID[Compendium.dnd-monster-manual.actors.Actor.mmKnight00000000]{Knights}</strong><span>†</span> eager to defend her</p>"
+        }
+      }
+    },
+    "Azjol-Nerub Adventure Hooks": {
+      "name": "Azjol-Nerub Adventure Hooks",
+      "description": "<p>Multiple hooks could be active at once, creating a main quest and a side quest.</p>",
+      "results": {
+        "1-1": {
+          "description": "<p>While the characters flee the Scourge across North­rend, the ground collapses beneath them, casting them into nerubian tunnels. Now they must find a way back to the surface.</p>"
+        },
+        "2-2": {
+          "description": "<p>Seer Ixit of the Azjol-anak approaches the characters and offers them great riches if they’ll help slay Anub’arak (for more on Ixit and Anub’arak, see “Azjol-Nerub Characters” below). <em>(Renown: +3 with the Kirin Tor)</em></p>"
+        },
+        "3-3": {
+          "description": "<p>The Alliance or Horde seeks a way past the Wrath Gate into Icecrown Citadel and asks the characters to secure the route Arthas took through Azjol-Nerub long ago. <em>(Renown: +3 with one Alliance or Horde subfaction)</em></p>"
+        },
+        "4-4": {
+          "description": "<p>Explorer Brann Bronzebeard has returned to Dalaran, terrified by the presence of Yogg-­Saron within the titan vault of Ulduar. He asks the adventurers to coerce the Old God’s herald, Volazj, into being a guide for a return expedition. <em>(Renown: +3 with the Explorer’s League)</em></p>"
+        }
+      }
+    },
+    "Azjol-Nerub Treasure": {
+      "name": "Azjol-Nerub Treasure",
+      "results": {
+        "4-8": {
+          "description": "<p>Nerubian sculpture and jewelry worth 5,500 ([[/r 10d10 * 100]]{10d10 × 100}) GP to the Explorers’ League</p>"
+        },
+        "9-11": {
+          "description": "<p><strong>Krik’thir the Gatewatcher:</strong> A gnomish crab tank <em>(@UUID[Compendium.dnd-dungeon-masters-guide.equipment.Item.dmgApparatusOfKw]{Apparatus of Kwalish}) </em>that failed to breach the gate</p>"
+        },
+        "12-13": {
+          "description": "<p>A slain death knight’s runeblade named Exile (<em>@UUID[Compendium.dnd-dungeon-masters-guide.equipment.Item.dmgNineLivesStea]{Nine Lives Stealer}</em>)</p>"
+        },
+        "14-15": {
+          "description": "<p>The corpse of a dead adventurer carrying 10,000 GP worth of art and a <em>@UUID[Compendium.dnd-dungeon-masters-guide.equipment.Item.dmgRingOfFeather]{Ring of Feather Falling} </em>that slipped off his finger</p>"
+        },
+        "16-17": {
+          "description": "<p><strong>Herald Volazj:</strong> A saronite <em>@UUID[Compendium.dnd-dungeon-masters-guide.equipment.Item.dmgRodOfThePactK]{+3 Rod of the Pact Keeper} </em>etched with a thousand mouths</p>"
+        },
+        "18-19": {
+          "description": "<p><strong>Hadronox:</strong> <em>@UUID[Compendium.dnd-world-warcraft.items.Item.wowLifeStaffofQ9]{Life-Staff of the Web Lair}</em> (see chapter 3)</p>"
+        },
+        "20-24": {
+          "description": "<p><strong>Anub’arak:</strong> <em>@UUID[Compendium.dnd-dungeon-masters-guide.equipment.Item.dmgDwarvenPlate0]{Dwarven Plate} </em>and a <em>@UUID[Compendium.dnd-dungeon-masters-guide.equipment.Item.dmgDwarvenThrowe]{Dwarven Thrower} </em>bearing the Bronzebeard forgemark</p>"
+        }
+      }
+    },
+    "Blackfathom Deeps Encounters": {
+      "name": "Blackfathom Deeps Encounters",
+      "results": {
+        "1-5": {
+          "description": "<p>One <strong>@UUID[Compendium.dnd-world-warcraft.actors.Actor.wowMurlocOraclQJ]{Murloc Oracle} </strong>leading 2d4 <strong>@UUID[Compendium.dnd-world-warcraft.actors.Actor.wowMurlocForagnO]{Murloc Foragers} </strong>(see chapter 7 for both)</p>"
+        },
+        "6-10": {
+          "description": "<p>Two <strong>@UUID[Compendium.dnd-world-warcraft.actors.Actor.wowNagaMyrmidobm]{Naga Myrmidons} </strong>(see chapter 7) carrying an orc or night elf captive to Lady Sarevess</p>"
+        },
+        "11-15": {
+          "description": "<p>A <strong>@UUID[Compendium.dnd-world-warcraft.actors.Actor.wowNagaSeaWitctF]{Naga Sea Witch} </strong>demonstrating her superior magic to three <strong>@UUID[Compendium.dnd-world-warcraft.actors.Actor.wowMurlocOraclQJ]{Murloc Oracles} </strong>(see chapter 7 for both)</p>"
+        },
+        "16-19": {
+          "description": "<p>Three Twilight’s Hammer <strong>@UUID[Compendium.dnd-monster-manual.actors.Actor.mmCultistFanatic]{Cult Fanatics}</strong> with three <strong>@UUID[Compendium.dnd-world-warcraft.actors.Actor.wowVoidwalkerBzr]{Voidwalker} </strong>servants (see chapter 7) chant around an impassive <strong>@UUID[Compendium.dnd-monster-manual.actors.Actor.mmWaterElemental]{Water Elemental}</strong> to transform it into a glorious new form.</p>"
+        },
+        "20-20": {
+          "description": "<p>The characters hear the whispers of an Old God dreaming beneath the sea. They must succeed on a [[/save wis 19 format=long]] or have the &amp;Reference[Stunned] condition until the end of their next turn. Roll again on this table.</p>"
+        }
+      }
+    },
+    "Blackfathom Deeps Adventure Hooks": {
+      "name": "Blackfathom Deeps Adventure Hooks",
+      "description": "<p><span style=\"color:rgb(25, 24, 19);font-family:'Roboto Condensed', sans-serif;font-size:14px;font-style:normal;font-variant-ligatures:normal;font-variant-caps:normal;font-weight:400;letter-spacing:normal;orphans:2;text-align:start;text-indent:0px;text-transform:none;widows:2;word-spacing:0px;-webkit-text-stroke-width:0px;white-space:normal;background-color:rgb(241, 235, 232);text-decoration-thickness:initial;text-decoration-style:initial;text-decoration-color:initial;display:inline !important;float:none\">Use the suggestions in the Blackfathom Deeps Adventure Hooks table to draw adventurers there.</span></p>",
+      "results": {
+        "1-1": {
+          "description": "<p>Kaal Grimfang, commander of Zoram’gar Outpost, has ordered a strike against the naga that haunt the Zoram Strand. He asks the adventurers to strike into their lair in Blackfathom Deeps. <em>(Renown: +1 with Orgrimmar)</em></p>"
+        },
+        "2-2": {
+          "description": "<p>Raene Wolfrunner, a night elf tracker, seeks a lost party of Sentinels, including a trainee. She thinks they were captured by the Horde and asks the characters to search the coast. While there, the characters discover that the Sentinels were taken to Blackfathom Deeps by naga. <em>(Renown: +1 with Darnassus)</em></p>"
+        },
+        "3-3": {
+          "description": "<p>Je’neu Sancrea, a troll shaman of the Earthen Ring, has seen naga witches carrying gems thrumming with elemental power. Consulting the spirits, he heard a name: Aku’mai. Unsure of its meaning, he asks the characters to search Blackfathom Deeps. <em>(Renown: +1 with the Earthen Ring)</em></p>"
+        },
+        "4-4": {
+          "description": "<p>Thaelrid Silversky, a night elf warrior of the Argent Dawn, has been hunting Kelris Doomfang, a shaman-turned-warlock who committed a string of ritual murders across Kalimdor. His cult lurks within Blackfathom Deeps. Thaelrid asks the characters to find him and bring him to justice—dead or alive. <em>(Renown: +1 with the Argent Dawn)</em></p>"
+        }
+      }
+    },
+    "Blackfathom Deeps Treasure": {
+      "name": "Blackfathom Deeps Treasure",
+      "results": {
+        "4-9": {
+          "description": "<p>A bag of [[/award 450gp]] in occult ritual tools</p>"
+        },
+        "10-12": {
+          "description": "<p><em>+1 Weapon</em> or 20 pieces of <em>+1 Ammunition</em></p>"
+        },
+        "11-12": {
+          "description": "<p><strong>Ghamoo-Ra:</strong> <em>@UUID[Compendium.dnd-dungeon-masters-guide.equipment.Item.dmgElvenChain000]{Elven Chain}</em></p>"
+        },
+        "13-14": {
+          "description": "<p><strong>Lady Sarevess:</strong> <em>@UUID[Compendium.dnd-dungeon-masters-guide.equipment.Item.dmgTridentOfFish]{Trident of Fish Command}</em></p>"
+        },
+        "15-16": {
+          "description": "<p><strong>Gelihast:</strong> <em>@UUID[Compendium.dnd-dungeon-masters-guide.equipment.Item.dmgBagOfHolding0]{Bag of Holding}</em></p>"
+        },
+        "17-18": {
+          "description": "<p><strong>Twilight Lord Kelris: </strong><em>@UUID[Compendium.dnd-world-warcraft.items.Item.wowRodoftheSlem1]{Rod of the Sleepwalker}</em> (see chapter 3)</p>"
+        },
+        "19-20": {
+          "description": "<p><strong>Twilight Lord Kelris:</strong> <em>@UUID[Compendium.dnd-dungeon-masters-guide.equipment.Item.dmgRingOfSwimmin]{Ring of Swimming}</em></p>"
+        },
+        "21-22": {
+          "description": "<p><strong>Aku’mai:</strong> <em>@UUID[Compendium.dnd-dungeon-masters-guide.equipment.Item.dmgSwordOfWoundi]{Greatsword of Wounding}</em></p>"
+        },
+        "23-24": {
+          "description": "<p><strong>Aku’mai:</strong> <em>@UUID[Compendium.dnd-dungeon-masters-guide.equipment.Item.dmgRingOfFreeAct]{Ring of Free Action}</em></p>"
+        }
+      }
+    },
+    "Capital Gardens Encounters": {
+      "name": "Capital Gardens Encounters",
+      "results": {
+        "1-1": {
+          "description": "<p>An ancient equine spirit is held captive within a <strong>@UUID[Compendium.dnd-monster-manual.actors.Actor.mmVioletFungusNe]{Violet Fungus Necrohulk}</strong> made of elf corpses. If saved, it bestows a @UUID[Compendium.dnd-dungeon-masters-guide.equipment.Item.dmgCharmOfHerois]{Charm of Heroism}<em> </em>(see the <em>Dungeon Master’s Guide</em>) on each of the characters.</p>"
+        },
+        "2-2": {
+          "description": "<p>Two <strong>@UUID[Compendium.dnd-monster-manual.actors.Actor.mmGraveyardReven]{Graveyard Revenants} </strong>and three <strong>@UUID[Compendium.dnd-monster-manual.actors.Actor.mmWraith00000000]{Wraiths} </strong>vent their rage on intruders.</p>"
+        },
+        "3-3": {
+          "description": "<p>Four arcane elementals (see “Immol’thar” in “Capital Gardens Characters”) are incinerating a nosy <strong>@UUID[Compendium.dnd-monster-manual.actors.Actor.mmGladiator00000]{Gladiator}</strong>.</p>"
+        },
+        "4-4": {
+          "description": "<p>A bored Shen’dralar <strong>@UUID[Compendium.dnd-monster-manual.actors.Actor.mmCultistHieroph]{Cultist Hierophant}</strong> and her arcane golem (<strong>@UUID[Compendium.dnd-monster-manual.actors.Actor.mmShieldGuardian]{Shield Guardian}</strong>) take potshots at the shambling skeletons of her kin.</p>"
+        }
+      }
+    },
+    "Cathedral Encounters (Tier 3)": {
+      "name": "Cathedral Encounters (Tier 3)",
+      "results": {
+        "1-1": {
+          "description": "<p>An <strong>@UUID[Compendium.dnd-monster-manual.actors.Actor.mmArchpriest0000]{Archpriest}</strong> and an <strong>@UUID[Compendium.dnd-monster-manual.actors.Actor.mmElementalCulti]{Elemental Cultist}</strong> preparing to burn innocent civilians at the stake, cheered on by [[/r 1d10 + 10]] <strong>@UUID[Compendium.dnd-monster-manual.actors.Actor.mmWarriorInfantr]{Warrior Infantry}</strong></p>"
+        },
+        "2-2": {
+          "description": "<p>Two <strong>@UUID[Compendium.dnd-monster-manual.actors.Actor.mmDeathKnightAsp]{Death Knight Aspirants} </strong>brought to the chapel for execution who have broken free and are surrounded by the crusaders they slew (risen as [[/r 2d10]] <strong>@UUID[Compendium.dnd-monster-manual.actors.Actor.mmGhoul000000000]{Ghouls}</strong>) and two <strong>@UUID[Compendium.dnd-monster-manual.actors.Actor.mmPriest00000000]{Priests}</strong> begging for help</p>"
+        },
+        "3-3": {
+          "description": "<p>An <strong>@UUID[Compendium.dnd-monster-manual.actors.Actor.mmArchmage000000]{Archmage}</strong> directing [[/r 1d6 + 4]] <strong>@UUID[Compendium.dnd-monster-manual.actors.Actor.mmScoutCaptain00]{Scout Captain} </strong>to fire on intruders as [[/r 1d4 + 4]] <strong>@UUID[Compendium.dnd-monster-manual.actors.Actor.mmGladiator00000]{Gladiators}</strong> move to intercept them</p>"
+        },
+        "4-4": {
+          "description": "<p>An <strong>@UUID[Compendium.dnd-monster-manual.actors.Actor.mmArchpriest0000]{Archpriest}</strong>, guarded by three <strong>@UUID[Compendium.dnd-monster-manual.actors.Actor.mmWarriorVeteran]{Warrior Veterans}</strong>,* praying over six dead crusaders</p>"
+        }
+      }
+    },
+    "Deadmines Adventure Hooks": {
+      "name": "Deadmines Adventure Hooks",
+      "results": {
+        "1-1": {
+          "description": "<p>When the characters help the victims of an extortionist called Morgan the Collector (<strong>Bandit Captain</strong>), they eventually discover that his house in Elwynn Forest has a ledger of the protection fees he’s sent to Westfall. <em>(Renown: +1 with Stormwind)</em></p>"
+        },
+        "2-2": {
+          "description": "<p>Riverpaw <strong>Gnoll Warriors </strong>raid a town the characters are resting in. In the raiders’ base, their leader, Hogger (<strong>Gnoll Fang of Yeenoghu</strong>), has a record of payment from “EVC” for raids. <em>(Renown: +1 with Stormwind)</em></p>"
+        },
+        "3-3": {
+          "description": "<p>Wilder Thistlenettle, a miner drinking in Stormwind, wants someone to find his brother, Eugene Thistlenettle of the Explorer’s League. Wilder warns them the supposedly abandoned mine is full of bandits. <em>(Renown: +1 with the Explorers’ League)</em></p>"
+        },
+        "4-4": {
+          "description": "<p>Edwin’s right-hand man, a <strong>Bandit Captain</strong> named Bazil Thredd, flees the Stormwind Stockade pursued by four <strong>Guards</strong>. He runs into the characters and asks them to help him flee to Westfall, promising to pay them the gold he stashed there for their help.</p>"
+        }
+      }
+    },
+    "Deadmines Treasure": {
+      "name": "Deadmines Treasure",
+      "results": {
+        "2-7": {
+          "description": "<p>A bag of [[/award 10d8gp]] in gold dust</p>"
+        },
+        "8-10": {
+          "description": "<p><em>Defias Leather</em> (see chapter 3)</p>"
+        },
+        "11-12": {
+          "description": "<p><strong>Rhahk’Zor:</strong> <em>@UUID[Compendium.dnd-dungeon-masters-guide.equipment.Item.dmgGauntletsOfOg]{Gauntlets of Ogre Power}</em></p>"
+        },
+        "13-14": {
+          "description": "<p><strong>Sneed:</strong> <em>@UUID[Compendium.dnd-dungeon-masters-guide.equipment.Item.dmgAdamantineArm]{Adamantine Armor}</em></p>"
+        },
+        "15-16": {
+          "description": "<p><strong>Gilnid:</strong> <em>@UUID[Compendium.dnd-dungeon-masters-guide.equipment.Item.dmgHeadbandOfInt]{Headband of Intellect}</em></p>"
+        },
+        "17-18": {
+          "description": "<p><strong>Mister Smite:</strong> <em>@UUID[Compendium.dnd-dungeon-masters-guide.equipment.Item.dmgMarinersArmor]{Mariner’s Armor}</em></p>"
+        },
+        "19-20": {
+          "description": "<p><strong>Cookie:</strong> <em>@UUID[Compendium.dnd-dungeon-masters-guide.equipment.Item.dmgOilOfSlipperi]{Oil of Slipperiness}</em></p>"
+        },
+        "21-22": {
+          "description": "<p><strong>Captain Greenskin:</strong> <em>@UUID[Compendium.dnd-dungeon-masters-guide.equipment.Item.dmgViciousWeapon]{Vicious Scimitar}</em></p>"
+        },
+        "23-24": {
+          "description": "<p><strong>Edwin VanCleef:</strong> <em>@UUID[Compendium.dnd-dungeon-masters-guide.equipment.Item.dmgBootsOfSpeed0]{Boots of Speed}</em></p>"
+        }
+      }
+    },
+    "Dire Maul Adventure Hooks": {
+      "name": "Dire Maul Adventure Hooks",
+      "results": {
+        "1-1": {
+          "description": "<p>Furgus Warpwood (<strong>@UUID[Compendium.dnd-world-warcraft.actors.Actor.wowAncientofWa1o]{Ancient of War}</strong>; see chapter 7) pleads with the night elf General Shandris Feathermoon to send adventurers to the Capital Gardens to slay his corrupted kin, Tendris Warpwood. <em>(Renown: +2 with Darnassus)</em></p>"
+        },
+        "2-2": {
+          "description": "<p>Orhan Ogreblade (Medium <strong>@UUID[Compendium.dnd-monster-manual.actors.Actor.mmWarriorCommand]{Warrior Commander}</strong>), leader of the Stonemaul clan of ogres, wants to conquer the Gordok ogres of Dire Maul by installing one of the characters as their king (see “Ogre Tribute” below).</p>"
+        },
+        "3-3": {
+          "description": "<p>A Highborne archmage named Mordent Evenshade casts <em>Sending</em>, begging the characters for rescue. He tried to flee Prince Tortheldrin’s reign of terror but was captured by ogres (see “Gordok’s Seat” in “North Wing: Gordok Commons”). <em>(Renown: +2 with the Kirin Tor)</em></p>"
+        },
+        "4-4": {
+          "description": "<p>Prince Tortheldrin craves entertainment and loves epics. He invites the characters through his hawk familiar to dine in Eldre’Thalas and share tales of their adventures. If they accept, they discover his villainy.</p>"
+        },
+        "5-5": {
+          "description": "<p>The Crimson Ring pit masters have captured one of the characters’ allies. The friend was kidnapped from the arena by the satyr Zevrim Thornhoof (see “Warpwood Quarter Characters”), to be sacrificed in the vile blood rites of Hydrospawn.</p>"
+        },
+        "6-6": {
+          "description": "<p>A druid in the party has a nightmare of a night elf being strangled by demonic vines controlled by a sinister satyr. She begs the druid to find Eldre’Thalas and save the “Fruit of Fertility” before its corruption destroys Feralas. This elf is Millicent Serene, and the satyr has corrupted her masterwork (see “Alzzin the Wildshaper” below). <em>(Renown: +2 with the Cenarion Circle)</em></p>"
+        }
+      }
+    },
+    "Dire Maul Treasure": {
+      "name": "Dire Maul Treasure",
+      "results": {
+        "2-8": {
+          "description": "<p>Highborne tomes worth 500 ([[/r 2d4 * 100]]{2d4 × 100}) GP</p>"
+        },
+        "9-11": {
+          "description": "<p><em>@UUID[Compendium.dnd-dungeon-masters-guide.equipment.Item.dmgWeapon12or300]{+3 Weapon }</em>or 20 pieces of <em>@UUID[Compendium.dnd-dungeon-masters-guide.equipment.Item.dmgAmmunition12o]{+3 Ammunition}</em></p>"
+        },
+        "12-13": {
+          "description": "<p><em>@UUID[Compendium.dnd-dungeon-masters-guide.equipment.Item.dmgArmor12or3000]{+2 Armor}</em> in sleek, Suramar City fashion</p>"
+        },
+        "14-14": {
+          "description": "<p><strong>Hydrospawn:</strong> <em>@UUID[Compendium.dnd-dungeon-masters-guide.equipment.Item.dmgBowlOfCommand]{Bowl of Commanding Water Elementals}</em></p>"
+        },
+        "15-15": {
+          "description": "<p><strong>Pusillin:</strong> <em>@UUID[Compendium.dnd-dungeon-masters-guide.equipment.Item.dmgHorseshoesOfA]{Horseshoes of a Zephyr}</em></p>"
+        },
+        "16-16": {
+          "description": "<p><strong>Zevrim Thornhoof:</strong> A fel-seeping, vine-etched <em>@UUID[Compendium.dnd-dungeon-masters-guide.equipment.Item.dmgRodOfThePactK]{+2 Rod of the Pact Keeper}</em></p>"
+        },
+        "17-17": {
+          "description": "<p><strong>Alzzin the Wildshaper:</strong> <em>@UUID[Compendium.dnd-dungeon-masters-guide.equipment.Item.dmgNineLivesStea]{Nine Lives Stealer}</em></p>"
+        },
+        "18-18": {
+          "description": "<p><strong>Tendris Warpwood:</strong> <em>@UUID[Compendium.dnd-dungeon-masters-guide.equipment.Item.dmgStaffOfTheWoo]{Staff of the Woodlands}</em></p>"
+        },
+        "19-19": {
+          "description": "<p><strong>Illyanna Ravenoak:</strong> <em>@UUID[Compendium.dnd-dungeon-masters-guide.equipment.Item.dmgGiantSlayer00]{Giant Slayer}</em></p>"
+        },
+        "20-20": {
+          "description": "<p><strong>Immol’thar:</strong> <em>@UUID[Compendium.dnd-dungeon-masters-guide.equipment.Item.dmgDimensionalSh]{Dimensional Shackles}</em></p>"
+        },
+        "21-21": {
+          "description": "<p><strong>Prince Tortheldrin:</strong> A fel-seeping <em>@UUID[Compendium.dnd-dungeon-masters-guide.equipment.Item.dmgOathbow000000]{Oathbow}</em></p>"
+        },
+        "22-22": {
+          "description": "<p><strong>Captain Kromcrush:</strong> <em>@UUID[Compendium.dnd-dungeon-masters-guide.equipment.Item.dmgHornOfBlastin]{Horn of Blasting}</em></p>"
+        },
+        "23-23": {
+          "description": "<p><strong>King Gordok:</strong> <em>Crown of the Ogre King</em> (see chapter 3)</p>"
+        },
+        "24-24": {
+          "description": "<p><strong>Cho’Rush the Observer:</strong> <em>@UUID[Compendium.dnd-dungeon-masters-guide.equipment.Item.dmgStaffOfHealin]{Staff of Healing}</em></p>"
+        }
+      }
+    },
+    "Gordok Commons Encounters": {
+      "name": "Gordok Commons Encounters",
+      "results": {
+        "1-1": {
+          "description": "<p>Stomper Kreeg has returned victorious from the Maul and is reveling. He has the &amp;Reference[Poisoned] condition, and his party of [[/r 1d12]] drunken <strong>@UUID[Compendium.dnd-monster-manual.actors.Actor.mmOgre0000000000]{Ogres} </strong>have the &amp;Reference[Incapacitated] condition, but their [[/r 2d8]] <strong>@UUID[Compendium.dnd-monster-manual.actors.Actor.mmHyena000000000]{Hyenas}</strong> and two <strong>@UUID[Compendium.dnd-monster-manual.actors.Actor.mmDireWorg000000]{Dire Worgs}</strong> are alert and begging for scraps.</p>"
+        },
+        "2-2": {
+          "description": "<p>Four two-headed ogre mages (<strong>@UUID[Compendium.dnd-monster-manual.actors.Actor.mmOni00000000000]{Oni}</strong>) are bullying another two-headed ogre (<strong>@UUID[Compendium.dnd-monster-manual.actors.Actor.mmEttin000000000]{Ettin}</strong>) that can’t use magic.</p>"
+        },
+        "3-3": {
+          "description": "<p>An ogre guard (see “Captain Kromcrush and His Guards” in “Gordok Commons Characters”) has taken four human <strong>@UUID[Compendium.dnd-monster-manual.actors.Actor.mmGladiator00000]{Gladiators}</strong> alive as a prize from the Maul and plans to boil and eat them. The captured warriors are in chains and have the Restrained condition.</p>"
+        },
+        "4-4": {
+          "description": "<p>An Eye of Kilrogg (a visible, green sensor otherwise like that created by the <em>Arcane Eye</em> spell, with a Passive Perception of 20) drifts by. If it spots the characters, it summons two <strong>@UUID[Compendium.dnd-world-warcraft.actors.Actor.wowDoomguardXS6A]{Doomguard}</strong> (see chapter 7), then vanishes.</p>"
+        }
+      }
+    },
+    "Graveyard Encounters (Tier 2)": {
+      "name": "Graveyard Encounters (Tier 2)",
+      "results": {
+        "1-2": {
+          "description": "<p>A <strong>@UUID[Compendium.dnd-monster-manual.actors.Actor.mmGhastGravecall]{Ghast Gravecaller} </strong>and two <strong>@UUID[Compendium.dnd-monster-manual.actors.Actor.mmWraith00000000]{Wraiths} </strong>devouring a torture victim</p>"
+        },
+        "3-4": {
+          "description": "<p>A <strong>@UUID[Compendium.dnd-monster-manual.actors.Actor.mmGraveyardReven]{Graveyard Revenant}</strong> and [[/r 1d4 + 1]] <strong>@UUID[Compendium.dnd-monster-manual.actors.Actor.mmSpecter0000000]{Specters}</strong></p>"
+        },
+        "5-6": {
+          "description": "<p>[[/r 1d4 + 2]] <strong>@UUID[Compendium.dnd-monster-manual.actors.Actor.mmFlamingSkeleto]{Flaming Skeletons}</strong> from a body pile</p>"
+        }
+      }
+    },
+    "Horde Languages": {
+      "name": "Horde Languages",
+      "description": "<p>Your character knows Orcish plus two other languages.</p>",
+      "results": {
+        "1-1": {
+          "description": "<p><strong>Language</strong>: Orcish Sign Language</p><p><strong>Origin</strong>: Orcs</p>"
+        },
+        "2-2": {
+          "description": "<p><strong>Language</strong>: Draconic</p><p><strong>Origin</strong>: Dragons</p>"
+        },
+        "3-3": {
+          "description": "<p><strong>Language</strong>: Goblin</p><p><strong>Origin</strong>: Goblins</p>"
+        },
+        "4-4": {
+          "description": "<p><strong>Language</strong>: Forsaken</p><p><strong>Origin</strong>: Forsaken</p>"
+        },
+        "5-5": {
+          "description": "<p><strong>Language</strong>: Hara’ni</p><p><strong>Origin</strong>: Haranir</p>"
+        },
+        "6-6": {
+          "description": "<p><strong>Language</strong>: Pandaren</p><p><strong>Origin</strong>: Pandaren</p>"
+        },
+        "7-7": {
+          "description": "<p><strong>Language</strong>: Shalassian</p><p><strong>Origin</strong>: Nightborne</p>"
+        },
+        "8-9": {
+          "description": "<p><strong>Language</strong>: Taur-ahe</p><p><strong>Origin</strong>: Tauren</p>"
+        },
+        "10-10": {
+          "description": "<p><strong>Language</strong>: Thalassian</p><p><strong>Origin</strong>: High Elves</p>"
+        },
+        "11-11": {
+          "description": "<p><strong>Language</strong>: Vulpera</p><p><strong>Origin</strong>: Vulpera</p>"
+        },
+        "12-12": {
+          "description": "<p><strong>Language</strong>: Zandali</p><p><strong>Origin</strong>: Trolls</p>"
+        }
+      }
+    },
+    "Ironclad Cove Encounters": {
+      "name": "Ironclad Cove Encounters",
+      "results": {
+        "1-1": {
+          "description": "<p>[[/r 1d4 + 2]] <strong>@UUID[Compendium.dnd-monster-manual.actors.Actor.mmBandit00000000]{Bandits} </strong>arguing with two <strong>@UUID[Compendium.dnd-monster-manual.actors.Actor.mmPirate00000000]{Pirates}</strong></p>"
+        },
+        "2-2": {
+          "description": "<p>An <strong>@UUID[Compendium.dnd-monster-manual.actors.Actor.mmOgre0000000000]{Ogre} </strong>shouting orders as [[/r 1d6 + 3]] <strong>@UUID[Compendium.dnd-monster-manual.actors.Actor.mmGoblinMinion00]{Goblin Minions}</strong> struggle to hoist a cannon</p>"
+        },
+        "3-3": {
+          "description": "<p>Three <strong>@UUID[Compendium.dnd-world-warcraft.actors.Actor.wowMurlocForagnO]{Murloc Foragers}</strong> (see chapter 7) looking for food</p>"
+        },
+        "4-4": {
+          "description": "<p>[[/r 1d4]] parrots (<strong>@UUID[Compendium.dnd-monster-manual.actors.Actor.mmBloodHawk00000]{Blood Hawks}</strong>) looking for intruders; if the characters aren’t disguised or hidden, [[/r 1d4]] <strong>@UUID[Compendium.dnd-monster-manual.actors.Actor.mmPirate00000000]{Pirates}</strong> soon arrive to investigate</p>"
+        }
+      }
+    },
+    "Library Encounters (Tier 2)": {
+      "name": "Library Encounters (Tier 2)",
+      "results": {
+        "1-2": {
+          "description": "<p>Twelve studious <strong>@UUID[Compendium.dnd-monster-manual.actors.Actor.mmPriestAcolyte0]{Priest Acolytes}</strong> guarded by two <strong>@UUID[Compendium.dnd-monster-manual.actors.Actor.mmWarriorVeteran]{Warrior Veterans}</strong>* and a <strong>@UUID[Compendium.dnd-monster-manual.actors.Actor.mmMage0000000000]{Mage}</strong></p>"
+        },
+        "3-4": {
+          "description": "<p>Three <strong>@UUID[Compendium.dnd-monster-manual.actors.Actor.mmMage0000000000]{Mages}</strong> bullying a paladin (<strong>@UUID[Compendium.dnd-monster-manual.actors.Actor.mmKnight00000000]{Knight}</strong><span>†</span>) who struggles to perform holy magic</p>"
+        },
+        "5-6": {
+          "description": "<p>An <strong>@UUID[Compendium.dnd-monster-manual.actors.Actor.mmElementalCulti]{Elemental Cultist}</strong> purifying a relic from the Plaguelands with [[/r 1d6]] <strong>@UUID[Compendium.dnd-monster-manual.actors.Actor.mmPriest00000000]{Priests}</strong></p>"
+        }
+      }
+    },
+    "Mine Tunnels Encounters": {
+      "name": "Mine Tunnels Encounters",
+      "results": {
+        "1-1": {
+          "description": "<p>[[/r 1d4]] <strong>@UUID[Compendium.dnd-monster-manual.actors.Actor.mmGhoul000000000]{Ghouls} </strong>and a dwarf <strong>@UUID[Compendium.dnd-monster-manual.actors.Actor.mmWight000000000]{Wight} </strong>(Eugene Thistlenettle; see “Collapsed Passage”) chasing [[/r 1d4]] Defias <strong>@UUID[Compendium.dnd-monster-manual.actors.Actor.mmBandit00000000]{Bandits}</strong></p>"
+        },
+        "2-2": {
+          "description": "<p>A chain gang of [[/r 2d6]] Stormwind <strong>@UUID[Compendium.dnd-monster-manual.actors.Actor.mmWarriorInfantr]{Warrior Infantry} </strong>brawling with two Defias <strong>@UUID[Compendium.dnd-monster-manual.actors.Actor.mmMageApprentice]{Mage Apprentices}</strong></p>"
+        },
+        "3-3": {
+          "description": "<p>[[/r 1d6]] Defias <strong>@UUID[Compendium.dnd-monster-manual.actors.Actor.mmBandit00000000]{Bandits} </strong>tormenting captive Stormwind <strong>@UUID[Compendium.dnd-monster-manual.actors.Actor.mmCommoner000000]{Commoners}</strong> whom they’ve forced to serve them cocktails while they work</p>"
+        },
+        "4-4": {
+          "description": "<p>Three prototype Foe Reapers (<strong>@UUID[Compendium.dnd-monster-manual.actors.Actor.mmAnimatedArmor0]{Animated Armor}</strong>) chasing [[/r 1d6]] <strong>@UUID[Compendium.dnd-monster-manual.actors.Actor.mmGoblinMinion00]{Goblin Minions}</strong></p>"
+        }
+      }
+    },
+    "Onyxia's Lair Art Objects": {
+      "name": "Onyxia's Lair Art Objects",
+      "results": {
+        "2-8": {
+          "description": "<p>Draenethyst crystal brooch (1,000 GP)</p>"
+        },
+        "9-11": {
+          "description": "<p>Thorium crown of Thaurissan (2,500 GP)</p>"
+        },
+        "12-12": {
+          "description": "<p>Prototype Drakefire Amulet (5,000 GP)</p>"
+        }
+      }
+    },
+    "Onyxia's Lair Magic Items": {
+      "name": "Onyxia's Lair Magic Items",
+      "results": {
+        "1-1": {
+          "description": "<p><em>@UUID[Compendium.dnd-dungeon-masters-guide.equipment.Item.dmgRodOfResurrec]{Rod of Resurrection} </em>stolen by black dragons from the Sons of Lothar on Outland</p>"
+        },
+        "2-2": {
+          "description": "<p>Wildhammer dwarf bard Russell Brower’s <em>Instrument of the Bards </em>(@UUID[Compendium.dnd-dungeon-masters-guide.equipment.Item.dmgOllamHarpInst]{Ollamh harp})</p>"
+        },
+        "3-3": {
+          "description": "<p><em>@UUID[Compendium.dnd5e.equipment24.Item.dmgMasteryIounSt]{Ioun Stone} </em>(mastery)</p>"
+        },
+        "4-4": {
+          "description": "<p>Dalaran-styled <em>@UUID[Compendium.dnd-dungeon-masters-guide.equipment.Item.dmgRobeOfTheArch]{Robe of the Archmagi}</em></p>"
+        },
+        "5-5": {
+          "description": "<p><em>@UUID[Compendium.dnd-dungeon-masters-guide.equipment.Item.dmgMoonblade0000]{Moonblade} </em>known as Quel’Serrar</p>"
+        },
+        "6-6": {
+          "description": "<p><em>@UUID[Compendium.dnd-dungeon-masters-guide.equipment.Item.dmgCloakOfInvisi]{Cloak of Invisibility} </em>made of Nerubian silk</p>"
+        },
+        "7-7": {
+          "description": "<p>Vrykul <em>@UUID[Compendium.dnd5e.equipment24.Item.dmgcloBeltofGian]{Belt of Giant Strength}</em> (cloud)</p>"
+        },
+        "8-8": {
+          "description": "<p><em>@UUID[Compendium.dnd-world-warcraft.items.Item.wowJudgmentArmmw]{Judgment Armor}</em> (see chapter 3)</p>"
+        }
+      }
+    },
+    "Scarlet Monastery Adventure Hooks": {
+      "name": "Scarlet Monastery Adventure Hooks",
+      "results": {
+        "1-1": {
+          "description": "<p>The leaders of the Argent Dawn ask the characters to claiming the Scarlet Commander’s head. <em>(Renown: +2 with the Argent Dawn)</em></p>"
+        },
+        "2-2": {
+          "description": "<p>Another group of adventurers tried to storm the cathedral, but they were captured. A mutual friend asks the characters to save them from the Chamber of Atonement.</p>"
+        },
+        "3-3": {
+          "description": "<p>Sages of Thunder Bluff mistrust the Forsaken and want to turn the tauren chieftain against them. They ask adventurers to retrieve the <em>Compendium of the Fallen</em>, a book of the Crusade’s research on undead schemes, from the Athenaeum. <em>(Renown: +1 with Thunder Bluff)</em></p>"
+        },
+        "4-4": {
+          "description": "<p>Mograine and High Inquisitor Whitemane have left the monastery on a mission. The Argent Dawn asks the characters to infiltrate the cathedral and steal intelligence on their next campaign. <em>(Renown: +2 with the Argent Dawn)</em></p>"
+        },
+        "5-5": {
+          "description": "<p>Herod, a crusader who trains recruits, never takes off his helmet. A faction commander instructs the characters to kill Herod quietly and replace him with a spy. <em>(Renown: +2 with one Alliance or Horde subfaction)</em></p>"
+        },
+        "6-6": {
+          "description": "<p>An Argent Dawn priest who seeks information about the sword <em>Ashbringer</em> known only by Fairbanks, the first High Inquisitor, asks the characters to find and interrogate his corpse. <em>(Renown: +1 with the Argent Dawn)</em></p>"
+        }
+      }
+    },
+    "Scarlet Monastery Treasure": {
+      "name": "Scarlet Monastery Treasure",
+      "results": {
+        "2-10": {
+          "description": "<p>Ceremonial weaponry worth 200 GP</p>"
+        },
+        "11-16": {
+          "description": "<p><em>@UUID[Compendium.dnd-dungeon-masters-guide.equipment.Item.dmgWeapon12or300]{+2 Weapon}</em> or 20 pieces of <em>@UUID[Compendium.dnd-dungeon-masters-guide.equipment.Item.dmgWeapon12or300]{+2 Ammunition}</em></p>"
+        },
+        "17-18": {
+          "description": "<p><em>@UUID[Compendium.dnd-dungeon-masters-guide.equipment.Item.dmgShield12or300]{+2 Armor }</em>with the Crusade’s fiery heraldry</p>"
+        },
+        "19-19": {
+          "description": "<p><strong>Thalnos:</strong> <em>@UUID[Compendium.dnd-dungeon-masters-guide.equipment.Item.dmgTomeOfClearTh]{Tome of Clear Thought}</em></p>"
+        },
+        "20-20": {
+          "description": "<p><strong>Loksey:</strong> <em>@UUID[Compendium.dnd-dungeon-masters-guide.equipment.Item.dmgPipesOfTheSew]{Pipes of the Sewers}</em> (whistle that affects dogs instead of rats, and summons a <strong>@UUID[Compendium.dnd-players-handbook.actors.Actor.phbmobMastiff000]{Mastiff}</strong> instead of a <strong>Swarm of Rats</strong>)</p>"
+        },
+        "21-21": {
+          "description": "<p><strong>Doan:</strong> <em>@UUID[Compendium.dnd-world-warcraft.items.Item.wowVithrakGazehn]{Vithrak, Gaze of the Deadman}</em> (see chapter 3)</p>"
+        },
+        "22-22": {
+          "description": "<p><strong>Herod:</strong> <em>@UUID[Compendium.dnd-dungeon-masters-guide.equipment.Item.dmgExecutionersA]{Executioner’s Axe}</em></p>"
+        },
+        "23-23": {
+          "description": "<p><strong>Mograine:</strong> <em>@UUID[Compendium.dnd-dungeon-masters-guide.equipment.Item.dmgMaceOfDisrupt]{Mace of Disruption}</em></p>"
+        },
+        "24-24": {
+          "description": "<p><strong>Whitemane:</strong> Cloth miter <em>@UUID[Compendium.dnd-dungeon-masters-guide.equipment.Item.dmgHelmOfBrillia]{Helm of Brilliance}</em> that marks the Crusade’s High Inquisitor</p>"
+        }
+      }
+    },
+    "Shadowfang Keep Adventure Hooks": {
+      "name": "Shadowfang Keep Adventure Hooks",
+      "results": {
+        "1-1": {
+          "description": "<p>A faction commander recruits the characters to retake Shadowfang Keep from Lord Godfrey. <em>(Renown: +1 with one Alliance or Horde subfaction)</em></p>"
+        },
+        "2-2": {
+          "description": "<p>The characters decide to claim Shadowfang Keep for themselves and use it as a Bastion.</p>"
+        },
+        "3-3": {
+          "description": "<p>A patron in the Kirin Tor seeks <em>The</em> <em>Book of Ur</em>, which contains secrets of the worgen curse and is rumored to be in Shadowfang Keep’s library. <em>(Renown: +1 with the Kirin Tor)</em></p>"
+        },
+        "4-4": {
+          "description": "<p>The characters have claimed the keep and must defend it until reinforcements arrive.</p>"
+        },
+        "5-5": {
+          "description": "<p>A faction leader wants adventurers to liberate a prisoner of war held in Shadowfang Keep: either the Forsaken Deathstalker Adamant (Medium <strong>Spy</strong>) or the human Ashcrombe (Medium <strong>Mage Apprentice</strong>). <em>(Renown: +1 with one Alliance or Horde subfaction)</em></p>"
+        },
+        "6-6": {
+          "description": "<p>The Alliance or the Horde has conquered Shadowfang Keep; a faction commander asks adventurers to reclaim the keep. <em>(Renown: +1 with one Alliance or Horde subfaction)</em></p>"
+        }
+      }
+    },
+    "Shadowfang Keep Encounters": {
+      "name": "Shadowfang Keep Encounters",
+      "results": {
+        "1-1": {
+          "description": "<p>[[/r 2d6]] <strong>@UUID[Compendium.dnd-players-handbook.actors.Actor.phbmobSkeleton00]{Skeletons}</strong> ([[/r 1d6]] have only Shortswords and [[/r 1d6]] have only Shortbows)</p>"
+        },
+        "2-2": {
+          "description": "<p>[[/r 1d3]] <strong>@UUID[Compendium.dnd-world-warcraft.actors.Actor.wowPustulantMo4p]{Pustulant Monstrosities}</strong> (see “Shadowfang Keep Characters”)</p>"
+        },
+        "3-3": {
+          "description": "<p><strong>@UUID[Compendium.dnd-world-warcraft.actors.Actor.wowPustulantMo4p]{Pustulant Monstrosity}</strong> and [[/r 1d4]] <strong>@UUID[Compendium.dnd-world-warcraft.actors.Actor.wowSpringvalesID]{Springvale’s Specters}</strong> (see “Shadowfang Keep Characters” for both stat blocks)</p>"
+        },
+        "4-4": {
+          "description": "<p>[[/r 1d6]] <strong>@UUID[Compendium.dnd-world-warcraft.actors.Actor.wowSpringvalesID]{Springvale’s Specters}</strong> (see “Shadowfang Keep Characters”)</p>"
+        },
+        "5-5": {
+          "description": "<p>Roll on this table again, and two <strong>@UUID[Compendium.dnd-monster-manual.actors.Actor.mmGargoyle000000]{Gargoyles}</strong> join the combat at the start of round 2.</p>"
+        },
+        "6-6": {
+          "description": "<p>Roll on this table again, and add two skeleton <strong>@UUID[Compendium.dnd-monster-manual.actors.Actor.mmKnight00000000]{Knights}</strong> with the Undead type to that combat.</p>"
+        }
+      }
+    },
+    "Shadowfang Keep Treasure": {
+      "name": "Shadowfang Keep Treasure",
+      "results": {
+        "2-10": {
+          "description": "<p>[[/r 3d10]] silver bars worth 10 GP each</p>"
+        },
+        "11-12": {
+          "description": "<p><em>@UUID[Compendium.dnd-world-warcraft.items.Item.wowShadowfangKTn]{Shadowfang}</em> (see chapter 3)</p>"
+        },
+        "13-16": {
+          "description": "<p><em>@UUID[Compendium.dnd-dungeon-masters-guide.equipment.Item.dmgWeapon12or300]{+1 Weapon }</em>or 20 pieces of <em>@UUID[Compendium.dnd-dungeon-masters-guide.equipment.Item.dmgAmmunition12o]{+1 Ammunition}</em></p>"
+        },
+        "17-19": {
+          "description": "<p><em>@UUID[Compendium.dnd-dungeon-masters-guide.equipment.Item.dmgArmor12or3000]{+1 Armor}</em></p>"
+        },
+        "20-20": {
+          "description": "<p><strong>Baron Ashbury:</strong> <em>@UUID[Compendium.dnd-dungeon-masters-guide.equipment.Item.dmgRobeOfEyes000]{Robe of Eyes}</em></p>"
+        },
+        "21-21": {
+          "description": "<p><strong>Baron Silverlaine:</strong> <em>@UUID[Compendium.dnd-dungeon-masters-guide.equipment.Item.dmgGlovesOfThiev]{Gloves of Thievery}</em></p>"
+        },
+        "22-22": {
+          "description": "<p><strong>Commander Springvale:</strong> <em>@UUID[Compendium.dnd-dungeon-masters-guide.equipment.Item.dmgLanternOfReve]{Lantern of Revealing}</em></p>"
+        },
+        "23-23": {
+          "description": "<p><strong>Lord Walden:</strong> <em>@UUID[Compendium.dnd-dungeon-masters-guide.equipment.Item.dmgBootsOfSpeed0]{Boots of Speed}</em></p>"
+        },
+        "24-24": {
+          "description": "<p><strong>Lord Godfrey:</strong> <em>@UUID[Compendium.dnd-dungeon-masters-guide.equipment.Item.dmgFlameTongueuZ]{Flame Tongue}</em> (Dagger)</p>"
+        }
+      }
+    },
+    "Warpwood Quarter Encounters": {
+      "name": "Warpwood Quarter Encounters",
+      "results": {
+        "1-1": {
+          "description": "<p>Two <strong>@UUID[Compendium.dnd-monster-manual.actors.Actor.mmTreant00000000]{Treants}</strong> oozing fel sap defend the gardens from invaders, despite being corrupted.</p>"
+        },
+        "2-2": {
+          "description": "<p>A cult of [[/r 2d4]] <strong>@UUID[Compendium.dnd-world-warcraft.actors.Actor.wowFelswornSatn1]{Felsworn Satyr}</strong> perform blood sacrifices while [[/r 2d6]] <strong>@UUID[Compendium.dnd-world-warcraft.actors.Actor.wowShadowstalkXv]{Shadowstalker Satyrs}</strong> keep watch from afar (see chapter 7 for both).</p>"
+        },
+        "3-3": {
+          "description": "<p>Two <strong>@UUID[Compendium.dnd-world-warcraft.actors.Actor.wowFelguardtHf0N]{Felguards}</strong> and two <strong>@UUID[Compendium.dnd-world-warcraft.actors.Actor.wowFelhoundNi2CR]{Felhounds}</strong> (see chapter 7 for both) hunt a <strong>@UUID[Compendium.dnd-monster-manual.actors.Actor.mmMage0000000000]{Mage} </strong>from the Maul.</p>"
+        },
+        "4-4": {
+          "description": "<p>A horde of [[/r 3d12]] lashers (<strong>@UUID[Compendium.dnd-monster-manual.actors.Actor.mmVineBlight0000]{Vine Blights}</strong>) try to immobilize the characters so a corrupted <strong>@UUID[Compendium.dnd-world-warcraft.actors.Actor.wowAncientofWa1o]{Ancient of War}</strong> (see chapter 7) can kill them.</p>"
+        }
+      }
+    }
+  }
+}

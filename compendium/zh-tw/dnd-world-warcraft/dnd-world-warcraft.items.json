@@ -1,0 +1,30 @@
+{
+  "folders": {
+    "Armor": "防具",
+    "Rods": "權杖",
+    "Charms": "護咒",
+    "Martial Melee": "軍用近戰",
+    "Potions": "藥水",
+    "Consumables": "消耗品",
+    "Weapons": "武器",
+    "Rings": "戒指",
+    "Blessings": "祝福",
+    "Light": "輕甲",
+    "Heavy": "重甲"
+  },
+  "entries": {},
+  "mapping": {
+    "activities": {
+      "path": "system.activities",
+      "converter": "activities"
+    },
+    "rangeActivities": {
+      "path": "system.activities",
+      "converter": "rangeActivities"
+    },
+    "effects": {
+      "path": "effects",
+      "converter": "effects"
+    }
+  }
+}

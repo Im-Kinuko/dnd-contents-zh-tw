@@ -1,0 +1,27 @@
+{
+  "label": "角色起源",
+  "folders": {
+    "Elf": "精靈",
+    "Gnome": "侏儒",
+    "Traits": "特質"
+  },
+  "entries": {},
+  "mapping": {
+    "activities": {
+      "path": "system.activities",
+      "converter": "activities"
+    },
+    "rangeActivities": {
+      "path": "system.activities",
+      "converter": "rangeActivities"
+    },
+    "effects": {
+      "path": "effects",
+      "converter": "effects"
+    },
+    "advancement": {
+      "path": "system.advancement",
+      "converter": "advancement"
+    }
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "label": "角色職業",
+  "folders": {
+    "Monk": "武僧",
+    "Warlock": "契術師",
+    "Rogue": "遊蕩者",
+    "Evoker": "喚能師",
+    "Paladin": "聖騎士",
+    "Hunter": "獵人"
+  },
+  "entries": {},
+  "mapping": {
+    "activities": {
+      "path": "system.activities",
+      "converter": "activities"
+    },
+    "rangeActivities": {
+      "path": "system.activities",
+      "converter": "rangeActivities"
+    },
+    "effects": {
+      "path": "effects",
+      "converter": "effects"
+    },
+    "advancement": {
+      "path": "system.advancement",
+      "converter": "advancement"
+    }
+  }
+}

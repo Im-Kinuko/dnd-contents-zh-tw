@@ -1,0 +1,26 @@
+{
+  "label": "法術",
+  "folders": {
+    "Warlock": "契術師",
+    "Druid": "德魯伊",
+    "Paladin": "聖騎士",
+    "Hunter": "獵人",
+    "Evoker": "塑能師",
+    "Elf": "精靈"
+  },
+  "entries": {},
+  "mapping": {
+    "activities": {
+      "path": "system.activities",
+      "converter": "activities"
+    },
+    "rangeActivities": {
+      "path": "system.activities",
+      "converter": "rangeActivities"
+    },
+    "effects": {
+      "path": "effects",
+      "converter": "effects"
+    }
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "folders": {
+    "Vehicles": "載具",
+    "Summons": "召喚物"
+  },
+  "entries": {},
+  "mapping": {
+    "effects": {
+      "path": "effects",
+      "converter": "effects"
+    }
+  }
+}
