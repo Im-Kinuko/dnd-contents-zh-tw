@@ -6,9 +6,12 @@
     "Paladin": "聖騎士",
     "Hunter": "獵人",
     "Evoker": "塑能師",
-    "Elf": "精靈"
+    "Elf": "精靈",
+    "Mage": "Mage",
+    "Death Knight": "Death Knight",
+    "Demon Hunter": "Demon Hunter",
+    "Priest": "Priest"
   },
-  "entries": {},
   "mapping": {
     "activities": {
       "path": "system.activities",
@@ -21,6 +24,1087 @@
     "effects": {
       "path": "effects",
       "converter": "effects"
+    }
+  },
+  "entries": {
+    "Metamorphosis": {
+      "description": "<p><em>Prerequisite: Demon Hunter Subclass</em></p><p>Uttering an incantation, you draw on fel or Void magic to transform yourself, taking on demonic features. You gain one of the following benefits of your choice until the spell ends:</p><p class=\"hanging\"><strong>Devourer. </strong>When you roll damage for a spell, weapon, or feature that deals Force damage, you can treat any 1 or 2 on a damage die as a 3.</p><p class=\"hanging\"><strong>Havoc.</strong> Whenever you hit a creature with an attack roll using a Melee weapon, the target takes an extra 1d6 Fire damage.</p><p class=\"hanging\"><strong>Vengeance.</strong> You have a +2 bonus to AC, and your Hit Point maximum and your current Hit Points increase by 5 for the spell’s duration.</p><section id=\"secret-Qt1U7Rl4EURsxNan\" class=\"secret hide-in-embed\"><p><strong>Foundry Note</strong></p><p>Choose one named activity when casting. The Vengeance active effect handles AC and maximum HP, but it does not change current HP. Increase current HP by 5 when you apply it. When the spell ends, subtract 5 from current HP while the effect is still active, then remove the effect. If Foundry has already expired the effect, check whether the lower maximum already reduced current HP before making any further adjustment.</p></section>",
+      "activities": {
+        "Havoc Fire Damage": {
+          "range": "triggering weapon’s reach",
+          "description": "<p>Use only while the Havoc Active Effect is active.</p>",
+          "name": "Havoc Fire Damage",
+          "condition": "after you hit a creature with a Melee weapon attack roll"
+        },
+        "Vengeance": {
+          "name": "Vengeance"
+        },
+        "Havoc": {
+          "name": "Havoc"
+        },
+        "Devourer": {
+          "name": "Devourer"
+        }
+      },
+      "effects": {
+        "Devourer": {
+          "name": "Devourer",
+          "description": "<p>When you roll Force damage for a spell, weapon, or feature, treat each 1 or 2 on a damage die as a 3.</p>"
+        },
+        "Vengeance": {
+          "name": "Vengeance",
+          "description": "<p>When this effect is applied, increase your current Hit Points by 5. Before removing it, reduce your current Hit Points by 5, to a minimum of 0.</p>"
+        },
+        "Havoc": {
+          "name": "Havoc",
+          "description": "<p>After you hit a creature with a Melee weapon attack roll, use the Havoc Fire Damage activity.</p>"
+        }
+      },
+      "name": "Metamorphosis"
+    },
+    "Mass Polymorph": {
+      "activities": {
+        "Cast & Save": {
+          "description": "<p>Creatures other than Beasts, Giants, Humanoids, and Monstrosities automatically succeed. After resolving saves, use Transform Targets for creatures that failed.</p>",
+          "name": "Cast & Save"
+        },
+        "Transform Targets": {
+          "description": "<p>Choose one CR 0 Beast for all affected creatures. The GM controls only the failed-save tokens, then clicks Transform. Use Restore Transformation when a target has no Temporary Hit Points or the spell ends.</p>",
+          "name": "Transform Targets"
+        }
+      },
+      "description": "<p><em>Prerequisite: Mage Subclass</em></p><p>You attempt to transform any number of creatures in a 30-foot Emanation originating from you into identical Beasts. Each creature in the Emanation must succeed on a Wisdom saving throw or shape-shift into a Beast form for the duration. A creature that isn’t a Beast, a Giant, a Humanoid, or a Monstrosity automatically succeeds on its saving throw.</p><p>The new form can be any Beast you choose that has a Challenge Rating of 0 (<strong>Goat</strong> is recommended). Each target’s game statistics are replaced by the stat block of the chosen Beast, but the target retains its alignment, personality, creature type, Hit Points, and Hit Point Dice.</p><p>Each target gains a number of Temporary Hit Points equal to the Hit Points of the Beast form. The spell ends early on the target if it has no Temporary Hit Points left.</p><p>The targets are limited in the actions they can perform by the anatomy of their new form, and they can’t speak or cast spells.</p><p>Each target’s gear melds into the new form. The creature can’t use or otherwise benefit from any of that equipment.</p>",
+      "name": "Mass Polymorph"
+    },
+    "Freezing Trap": {
+      "activities": {
+        "Cast Spell": {
+          "description": "<p>An Invisible, intangible trap appears at the chosen ground point.</p>",
+          "name": "Cast Spell"
+        },
+        "Detonate": {
+          "name": "Detonate"
+        }
+      },
+      "name": "Freezing Trap",
+      "description": "<p><em>Prerequisite: Hunter Subclass</em></p><p>An Invisible, intangible trap appears on the ground at a point you choose within range. The first time a creature comes within 5 feet of the trap, the trap explodes in a burst of frost, the spell ends, and the triggering creature makes a Constitution saving throw. On a failed save, the target has the Restrained condition for 1 minute. If the creature takes any damage, the Restrained condition from the trap ends.</p><section id=\"secret-OEV8KfYSxWepwDLA\" class=\"secret hide-in-embed\"><p><strong>Foundry Note</strong></p><p>Record the trap location privately. When triggered, end concentration and use Detonate on the triggering creature. Apply Freezing Trap: Restrained on a failed save; remove it if the target takes damage.</p></section>",
+      "effects": {
+        "Restrained": {
+          "description": "<p>You are Restrained by freezing frost.</p>",
+          "name": "Restrained"
+        }
+      }
+    },
+    "Vampiric Blood": {
+      "activities": {
+        "Cast Spell": {
+          "name": "Cast Spell"
+        },
+        "Extra Healing": {
+          "name": "Extra Healing"
+        }
+      },
+      "name": "Vampiric Blood",
+      "description": "<p><em>Prerequisite: Death Knight Subclass</em></p><p>For the duration, your Hit Point maximum increases by 10. In addition, whenever you regain Hit Points, you regain an extra 1d6 Hit Points.</p><p><em><strong>Using a Higher-Level Spell Slot.</strong></em> The additional healing increases by 1d6 for each spell slot level above 1.</p><section id=\"secret-je1VlziQD7xScmcl\" class=\"secret hide-in-embed\"><p><strong>Foundry Note</strong></p><p>Apply the Vampiric Blood active effect from the Cast Spell activity. Use Extra Healing once per separate healing event and select the original casting level; it spends no additional slot.</p></section>",
+      "effects": {
+        "Vampiric Blood": {
+          "name": "Vampiric Blood"
+        }
+      }
+    },
+    "Dream Flight": {
+      "activities": {
+        "Cast Spell": {
+          "name": "Cast Spell"
+        },
+        "Healing Presence": {
+          "name": "Healing Presence"
+        }
+      },
+      "effects": {
+        "Fly Speed 60 Ft.": {
+          "name": "Fly Speed 60 Ft."
+        }
+      },
+      "name": "Dream Flight",
+      "description": "<p><em>Prerequisite: Evoker Subclass</em></p><p>You draw on the magic of the green dragonflight. For the duration, you gain the following benefits.</p><p><em><strong>Healing Presence.</strong></em> When you move within 5 feet of a creature, you can restore 5d4 Hit Points to that creature. A creature can regain these Hit Points only once per turn.</p><p><em><strong>Wings.</strong></em> You sprout spectral wings from your back if you don’t already have wings. You have a Fly Speed of 60 feet and can hover. In addition, your movement doesn’t provoke Opportunity Attacks.</p>"
+    },
+    "Azure Strike": {
+      "name": "Azure Strike",
+      "activities": {
+        "Cast & Attack": {
+          "name": "Cast & Attack"
+        }
+      },
+      "target": "within 30 feet of each other",
+      "description": "<p><em>Prerequisite: Evoker Subclass</em></p><p>You fire rays of arcane and frigid energy at up to two targets within range that are within 30 feet of each other. Make a ranged spell attack for each target. On a hit, the target takes 2d6 Force damage, and its Speed is reduced by 10 feet until the end of its next turn.</p><p><em><strong>Using a Higher-Level Spell Slot.</strong></em> The damage increases by 1d6 for each spell slot level above 1.</p>",
+      "effects": {
+        "Speed -10 Ft.": {
+          "name": "Speed -10 Ft."
+        }
+      }
+    },
+    "Combustion": {
+      "name": "Combustion",
+      "activities": {
+        "Cast Spell": {
+          "name": "Cast Spell"
+        },
+        "Damage: End of Turn": {
+          "name": "Damage: End of Turn"
+        }
+      },
+      "effects": {
+        "Combustion": {
+          "name": "Combustion"
+        }
+      },
+      "description": "<p><em>Prerequisite: Mage Subclass</em></p><p>You engulf yourself in flames for the duration, shedding Bright Light in a 20-foot radius and Dim Light for an additional 10 feet. These flames grant you Immunity to Fire damage. While they last, you have Advantage on spell attack rolls.</p><p>At the end of each of your turns, each creature of your choice in a 5-foot Emanation originating from you takes 3d8 Fire damage.</p>"
+    },
+    "Ebon Might": {
+      "activities": {
+        "Cast Spell": {
+          "name": "Cast Spell"
+        }
+      },
+      "effects": {
+        "Damage Bonuses": {
+          "name": "Damage Bonuses"
+        }
+      },
+      "description": "<p><em>Prerequisite: Evoker Subclass</em></p><p>As you invoke the black dragonflight, draconic might erupts from you. Each creature of your choice in a 10-foot Emanation originating from you is empowered until the end of your next turn. While a creature is empowered, when it hits a target with an attack roll, the attack deals an extra 1d4 Force damage.</p><section id=\"secret-oVcvM87QsbBUv3qS\" class=\"secret hide-in-embed\"><p><strong>Foundry Note</strong></p><p>Apply Ebon Might from the casting card to the chosen creatures, then remove the Emanation Region. For an attack with no damage roll, resolve the extra die manually.</p></section>",
+      "name": "Ebon Might"
+    },
+    "Emberstorm": {
+      "name": "Emberstorm",
+      "activities": {
+        "Burning Damage": {
+          "target": "Any",
+          "name": "Burning Damage"
+        },
+        "Cast & Save": {
+          "name": "Cast & Save"
+        }
+      },
+      "description": "<p><em>Prerequisite: Evoker Subclass</em></p><p>White-hot embers fill a 20-foot-radius Sphere centered on a point you choose within range. Each creature in the Sphere makes a Constitution saving throw, taking 6d8 Fire damage on a failed save or half as much damage on a successful one.</p><p>Creatures and flammable objects in the Sphere that aren’t being worn or carried start burning, taking 1d8 Fire damage at the start of each of their turns instead of the normal burning damage.</p><p><em><strong>Using a Higher-Level Spell Slot.</strong></em> The damage increases by 1d8 for each spell slot level above 4.</p><section id=\"secret-xyjgbctExjHqkb7w\" class=\"secret hide-in-embed\"><p><strong>Foundry Note</strong></p><p>Apply Emberstorm Burning regardless of save result; mark affected objects manually. Use Burning Damage for subsequent triggers and clear the markers when burning ends. Remove the Sphere Region after resolving the blast.</p></section>",
+      "effects": {
+        "Emberstorm Burning": {
+          "name": "Emberstorm Burning"
+        }
+      }
+    },
+    "Shattering Star": {
+      "name": "Shattering Star",
+      "effects": {
+        "-2 AC  Penalty": {
+          "description": "<p>Clinging frost makes your exterior brittle, imposing a −2 penalty to AC.</p>",
+          "name": "-2 AC  Penalty"
+        }
+      },
+      "description": "<p><em>Prerequisite: Evoker Subclass</em></p><p>You exhale a bolt of concentrated power at a creature within range. Make a ranged spell attack against the target. On a hit, the target takes 10d8 Force damage, and it takes a –2 penalty to AC until the start of your next turn as clinging frost makes the target’s exterior brittle.</p><p><em><strong>Using a Higher-Level Spell Slot.</strong></em> The damage increases by 1d8 for each spell slot level above 5.</p><section id=\"secret-6lrM8kMB4tP51x4t\" class=\"secret hide-in-embed\"><p><strong>Foundry Note</strong></p><p>On a hit, apply the -2 AC Penalty active effect to the target.</p></section>",
+      "activities": {
+        "Cast & Attack": {
+          "name": "Cast & Attack"
+        }
+      }
+    },
+    "Death Grip": {
+      "name": "Death Grip",
+      "activities": {
+        "Cast & Save": {
+          "name": "Cast & Save"
+        },
+        "Pull Target": {
+          "name": "Pull Target"
+        }
+      },
+      "description": "<p><em>Prerequisite: Death Knight Subclass</em></p><p>You harness runic energies to bind a foe to you. One creature you can see within range must succeed on a Strength saving throw or be pulled straight toward you to the nearest unoccupied space within 5 feet of you.</p><section id=\"secret-5AERdLZuC3ccq19o\" class=\"secret hide-in-embed\"><p><strong>Foundry Note</strong></p><p>After a failed save, select the target token and use Pull Target. Choose the destination manually; the movement planner does not determine it.</p></section>"
+    },
+    "Emerald Blossom": {
+      "activities": {
+        "Conjure Bulb": {
+          "name": "Conjure Bulb"
+        },
+        "Healing Pulse": {
+          "name": "Healing Pulse"
+        }
+      },
+      "description": "<p><em>Prerequisite: Evoker Subclass</em></p><p>You conjure a spectral bulb that sprouts from the ground in an unoccupied space that you can see within range. The bulb lasts for the duration.</p><p>The bulb emits healing magic in a 10-foot Emanation at the end of each of your turns. Allies of your choice in the Emanation regain 5 Hit Points. The bulb vanishes when it restores a total of 20 Hit Points.</p><p>Using a Higher-Level Spell Slot. The total Hit Points the bulb can restore increases by 5 for each spell slot level above 3.</p><section id=\"secret-vY1CVY0pXWfuFYJR\" class=\"secret hide-in-embed\"><p><strong>Foundry Note</strong></p><p>At each turn end, use Healing Pulse on the selected allies in the Region. Track the HP actually restored, adjust the final application to the amount remaining, and remove the Region when the bulb vanishes.</p></section>",
+      "name": "Emerald Blossom"
+    },
+    "Entropic Embrace": {
+      "name": "Entropic Embrace",
+      "activities": {
+        "Touch Damage": {
+          "name": "Touch Damage"
+        },
+        "Touch Healing": {
+          "name": "Touch Healing"
+        },
+        "Cast Spell": {
+          "name": "Cast Spell"
+        }
+      },
+      "description": "<p><em>Prerequisite: Void Elf</em></p><p>You are empowered by the essence of the Void for the duration, becoming swathed in shadow and taking on a dark-blue or purple appearance. While this effect lasts, you gain the following benefits.</p><p><em><strong>Preternatural Calm.</strong></em> You automatically succeed on Constitution saving throws to maintain Concentration.</p><p><em><strong>Shadow Shroud.</strong></em> You are shrouded in shadow, making your space Lightly Obscured.</p><p><em><strong>Touch of the Void.</strong></em> Once on each of your turns, you can deal an extra 1d4 Necrotic damage to one creature when you deal damage to it, or you can restore an extra 1d4 Hit Points to one creature when you heal it.</p><p><em><strong>Using a Higher-Level Spell Slot.</strong></em> The extra damage or healing from the Touch of the Void effect increases by 1d4 for each spell slot level above 1.</p><section id=\"secret-i1gJC9G4O83usa2k\" class=\"secret hide-in-embed\"><p><strong>Foundry Note</strong></p><p>Track the spell's duration and adjudicate Concentration saves and obscuration manually. For either Touch activity, reselect the casting slot level you used in the Cast Spell activity.</p></section>"
+    },
+    "Curse of Agony": {
+      "activities": {
+        "Save (1d12)": {
+          "name": "Save (1d12)"
+        },
+        "Save (1d10)": {
+          "name": "Save (1d10)"
+        },
+        "Save (1d8)": {
+          "name": "Save (1d8)"
+        },
+        "Save (1d6)": {
+          "name": "Save (1d6)"
+        },
+        "Cast Spell": {
+          "name": "Cast Spell"
+        }
+      },
+      "name": "Curse of Agony",
+      "effects": {
+        "Cursed": {
+          "name": "Cursed"
+        }
+      },
+      "description": "<p>You curse one creature within range with excruciating pain. The target makes a Constitution saving throw; the spell’s damage starts at 1d4 Psychic damage. On a failed save, the target takes the spell’s damage, and the spell’s damage die increases: from 1d4 to 1d6, 1d6 to 1d8, 1d8 to 1d10, or 1d10 to 1d12 (the maximum). On a successful save, the target takes the spell’s damage, and the effect ends. The target repeats the save at the end of each of its turns.</p>"
+    },
+    "Guided Prayer": {
+      "name": "Guided Prayer",
+      "description": "<p>You regain Hit Points equal to 8d4 plus your spellcasting ability modifier. You have Advantage on the next attack roll you make before the end of your next turn.</p><section id=\"secret-yCUfDDcUGAHlDCad\" class=\"secret hide-in-embed\"><p><strong>Foundry Note</strong></p><p>Set the attack roll mode manually in its roll dialog, accounting for any Disadvantage.</p></section>",
+      "activities": {
+        "Cast & Heal": {
+          "name": "Cast & Heal"
+        }
+      }
+    },
+    "Living Flame": {
+      "name": "Living Flame",
+      "description": "<p><em>Prerequisite: Evoker Subclass</em></p><p>Flickering flames hurtle toward a creature you choose within range. Choose one of these options:</p><p class=\"hanging\"><strong>Healing Flames.</strong> The target regains 2d6 Hit Points.</p><p class=\"hanging\"><strong>Searing Flames.</strong> Make a ranged attack roll against the target. On a hit, the target takes 2d8 Fire damage.</p><p><em><strong>Using a Higher-Level Spell Slot.</strong></em> For every two spell slot levels above 1, you can choose an additional target (two targets with a level 3 or 4 slot, three targets with a level 5 or 6 slot, four targets with a level 7 or 8 slot, and five targets with a level 9 slot). You choose the flames’ effect separately for each target.</p><section id=\"secret-zvNizQGg4tmfaFw3\" class=\"secret hide-in-embed\"><p><strong>Foundry Note</strong></p><p>Use Cast Spell once to spend the spell slot. Then select one target at a time and use Healing Flames or Searing Flames. Track the total targets across both activities using the slot level chosen for Cast Spell.</p></section>",
+      "activities": {
+        "Healing Flames": {
+          "description": "<p>The target regains 2d6 Hit Points.</p>",
+          "name": "Healing Flames"
+        },
+        "Searing Flames": {
+          "description": "<p>Make a ranged attack roll against the target. On a hit, the target takes 2d8 Fire damage.</p>",
+          "name": "Searing Flames"
+        },
+        "Cast Spell": {
+          "name": "Cast Spell"
+        }
+      }
+    },
+    "Scourge Strike": {
+      "activities": {
+        "Initial Save": {
+          "name": "Initial Save"
+        },
+        "Repeat Save": {
+          "condition": "End of the Poisoned target’s turn",
+          "name": "Repeat Save"
+        },
+        "Cast & Damage": {
+          "name": "Cast & Damage"
+        }
+      },
+      "target": "the target hit",
+      "effects": {
+        "Poisoned": {
+          "name": "Poisoned"
+        }
+      },
+      "name": "Scourge Strike",
+      "description": "<p><em>Prerequisite: Death Knight Subclass</em></p><p>The target takes an extra 2d6 Necrotic damage from the attack, and it must succeed on a Constitution saving throw or have the Poisoned condition until the spell ends. At the end of each of its turns, the Poisoned target repeats the save, ending the spell on itself on a success.</p><p><em><strong>Using a Higher-Level Spell Slot.</strong></em> The damage increases by 1d6 for each spell slot level above 1.</p>"
+    },
+    "Azure Sweep": {
+      "activities": {
+        "Cast & Save": {
+          "name": "Cast & Save"
+        }
+      },
+      "effects": {
+        "Speed -20 Feet": {
+          "name": "Speed -20 Feet"
+        }
+      },
+      "name": "Azure Sweep",
+      "description": "<p><em>Prerequisite: Evoker Subclass</em></p><p>Pure magic sweeps out from you in a 30-foot Emanation. Creatures of your choice in the Emanation make a Constitution saving throw. On a failed save, a creature takes 7d8 Force damage, and its Speed is reduced by 20 feet for the duration. On a successful save, the target takes half as much damage only.</p>"
+    },
+    "Lay Waste": {
+      "activities": {
+        "Teleport": {
+          "name": "Teleport"
+        },
+        "Cast & Save": {
+          "name": "Cast & Save"
+        }
+      },
+      "name": "Lay Waste",
+      "description": "<p><em>Prerequisite: Evoker Subclass</em></p><p>You draw a deep breath and spew molten cinders along a 120-foot-long, 10-foot-wide Line originating from you in a direction you choose. Each creature in the Line makes a Dexterity saving throw, taking 12d6 Fire damage on a failed save or half as much damage on a successful one.</p><p>You then teleport to an unoccupied space within 5 feet of the end of the Line.</p><section id=\"secret-xZGNdQQYwFa0g3b6\" class=\"secret hide-in-embed\"><p><strong>Foundry Note</strong></p><p>Align the Line's start with the caster. After resolving the Save, control the caster's token and use Teleport. Check the destination against the Line's end, then remove the Region.</p></section>"
+    },
+    "Blistering Scales": {
+      "activities": {
+        "Scale Explosion": {
+          "target": "the attacker",
+          "name": "Scale Explosion"
+        },
+        "Cast Spell": {
+          "description": "<p>Explosive scales formed: [[5 + @scaling.increase]]</p>",
+          "name": "Cast Spell"
+        }
+      },
+      "name": "Blistering Scales",
+      "effects": {
+        "Blistering Scales": {
+          "name": "Blistering Scales"
+        }
+      },
+      "description": "<p><em>Prerequisite: Evoker Subclass</em></p><p>Choose a willing creature you can see within range. Five explosive scales form on the target, granting it a +1 bonus to AC for the duration. If a creature hits the target with a melee attack roll before the spell ends, a scale explodes, and the attacking creature takes 1d8 Fire damage. The spell ends early if the target has no explosive scales.</p><p><em><strong>Using a Higher-Level Spell Slot.</strong></em> The number of explosive scales that form on the target increases by one for each spell slot level above 3.</p><section id=\"secret-Y7CLcfUrToMYhEdd\" class=\"secret hide-in-embed\"><p><strong>Foundry Note</strong></p><p>Track the scales manually; Item Uses does not track them. Select the attacker when using Scale Explosion. When the count reaches zero, remove the target's Blistering Scales effect and end concentration.</p></section>"
+    },
+    "Bonestorm": {
+      "activities": {
+        "Cast & Save": {
+          "name": "Cast & Save"
+        },
+        "Regain Hit Points": {
+          "name": "Regain Hit Points"
+        }
+      },
+      "name": "Bonestorm",
+      "description": "<p><em>Prerequisite: Death Knight Subclass</em></p><p>You conjure a whirl of battering bone and gore around yourself. You regain 4d6 Hit Points, and each creature in a 10-foot Emanation originating from you makes a Constitution saving throw. A target takes 4d8 Necrotic damage on a failed save or half as much damage on a successful one.</p>"
+    },
+    "Rune Strike": {
+      "name": "Rune Strike",
+      "activities": {
+        "Celestial Bonus Damage": {
+          "name": "Celestial Bonus Damage"
+        },
+        "Cast & Damage": {
+          "name": "Cast & Damage"
+        }
+      },
+      "description": "<p><em>Prerequisite: Death Knight Subclass</em></p><p>The target takes an extra 2d8 Necrotic damage. The damage increases by 1d8 if the target is a Celestial.</p><p><em><strong>Using a Higher-Level Spell Slot.</strong></em> The damage increases by 1d8 for each spell slot level above 1.</p>"
+    },
+    "Rain of Fire": {
+      "activities": {
+        "Falling Fire": {
+          "name": "Falling Fire"
+        },
+        "Cast Spell": {
+          "name": "Cast Spell"
+        }
+      },
+      "name": "Rain of Fire",
+      "description": "<p>Hellfire rains down in a 20-foot-radius, 40-foot-high Cylinder centered on a point within range. Until the spell ends, you can take a Magic action on later turns to move the Cylinder up to 60 feet.</p><p>When the Cylinder appears, each creature in it makes a Dexterity saving throw, taking 3d8 Fire damage on a failed save or half as much damage on a successful one. A creature also makes this save when the spell’s area moves into its space and when it enters the spell’s area or ends its turn there. A creature makes this save only once per turn.</p><p>You have Advantage on spell attack rolls against a creature in the Cylinder, and you deal an extra 1d6 Necrotic damage to the target if you hit.</p><p><em><strong>Using a Higher-Level Spell Slot.</strong></em> The Fire damage increases by 1d8 for each spell slot level above 3.</p><section id=\"secret-ODlffbas6wp87h0o\" class=\"secret hide-in-embed\"><p><strong>Foundry Note</strong></p><p>Move the Region manually and adjudicate its height. Reselect the casting slot level for later saves without expending it. Track affected tokens each turn, and delete the Region when the spell ends.</p></section>"
+    },
+    "Fel Rush": {
+      "activities": {
+        "Cast Spell": {
+          "name": "Cast Spell"
+        },
+        "Fel Rush Damage": {
+          "name": "Fel Rush Damage",
+          "condition": "When you move within 5 feet of a creature or an object that isn’t being worn or carried"
+        }
+      },
+      "name": "Fel Rush",
+      "description": "<p><em>Prerequisite: Demon Hunter Subclass</em></p><p>Fiery fel magic surrounds you and grants you explosive speed. Until the end of your turn, your Speed increases by 30 feet, and your movement doesn’t provoke &amp;Reference[Opportunity Attacks].</p><p>When you move within 5 feet of a creature or an object that isn’t being worn or carried, it makes a Dexterity saving throw, taking 2d6 Fire damage on a failed save or half as much damage on a successful one. A creature or object can take this damage only once per turn.</p><p><em><strong>Using a Higher-Level Spell Slot.</strong></em> The damage increases by 1d6 for each spell slot level above 1.</p>",
+      "effects": {
+        "Speed +30 Ft.": {
+          "name": "Speed +30 Ft."
+        }
+      }
+    },
+    "Collapsing Star": {
+      "name": "Collapsing Star",
+      "activities": {
+        "Cast & Save": {
+          "name": "Cast & Save"
+        }
+      },
+      "description": "<p><em>Prerequisite: Demon Hunter Subclass</em></p><p>You channel Void energy into a cataclysmic blast that fills a [[lookup @target.template.size activity=0VMlFkSyuPrHQAeQ]]-foot-radius [[lookup @target.template.type capitalize activity=0VMlFkSyuPrHQAeQ]] centered on a point you can see within range. Each creature of your choice within the Sphere makes a Constitution saving throw, taking 4d12 Force damage on a failed save or half as much damage on a successful one.</p>"
+    },
+    "Leeching Strike": {
+      "activities": {
+        "Regain Hit Points": {
+          "condition": "Resolve healing from that casting",
+          "name": "Regain Hit Points"
+        },
+        "Cast & Damage": {
+          "name": "Cast & Damage"
+        }
+      },
+      "name": "Leeching Strike",
+      "target": "The creature hit",
+      "description": "<p><em>Prerequisite: Death Knight Subclass</em></p><p>The target hit by the strike takes an extra 3d8 Necrotic damage from the attack, and you regain 3d4 Hit Points.</p><p><em><strong>Using a Higher-Level Spell Slot.</strong></em> The damage increases by 1d8, and the Hit Points you regain increase by 1d4, for each spell slot level above 3.</p><section id=\"secret-PkXv5pewdp52HEjl\" class=\"secret hide-in-embed\"><p><strong>Foundry Note</strong></p><p>Use Regain Hit Points after Cast &amp; Damage. Select the same casting level; Regain Hit Points does not spend another slot.</p></section>"
+    },
+    "Sigil of Flame": {
+      "activities": {
+        "Heat Burst": {
+          "name": "Heat Burst",
+          "condition": "start of the marked creature’s next turn",
+          "range": "the marked creature can move beyond 90 feet",
+          "target": "attach the Emanation to the marked creature’s token"
+        },
+        "Cast & Save": {
+          "name": "Cast & Save"
+        }
+      },
+      "effects": {
+        "Sigil of Flame Marker": {
+          "name": "Sigil of Flame Marker",
+          "description": "<p>At the start of your next turn, the caster uses Heat Burst with its Emanation attached to your token.</p>"
+        }
+      },
+      "description": "<p><em>Prerequisite: Demon Hunter Subclass</em></p><p>You inscribe a sigil in the air that then appears on a creature you can see within range. The target makes a Constitution saving throw, taking 2d8 Fire damage on a failed save or half as much damage on a successful one. Whether or not the target fails its saving throw, it radiates heat in a 10-foot Emanation originating from itself until the end of its next turn. At the start of the target’s next turn, the target and each creature in the Emanation must succeed on a Constitution saving throw or take 1d8 Fire damage.</p><p><em><strong>Using a Higher-Level Spell Slot. </strong></em>The damage (both initial and later) increases by 1d8 for each spell slot level above 2.</p>",
+      "name": "Sigil of Flame"
+    },
+    "Chaos Nova": {
+      "name": "Chaos Nova",
+      "activities": {
+        "Save": {
+          "target": "Chosen creatures in the Emanation",
+          "name": "Save"
+        },
+        "Cast & Damage": {
+          "name": "Cast & Damage"
+        }
+      },
+      "effects": {
+        "Stunned": {
+          "name": "Stunned"
+        }
+      },
+      "description": "<p><em>Prerequisite: Demon Hunter Subclass</em></p><p>Chaos energy bursts out in a [[lookup @target.template.size activity=N4tm3sR3nCaC8ehB]]-foot Emanation originating from you. Each creature of your choice in the Emanation takes 2d6 Force damage and must succeed on a Wisdom saving throw or have the &amp;Reference[Stunned apply=false] condition until the end of your next turn.</p>"
+    },
+    "Serpent Sting": {
+      "name": "Serpent Sting",
+      "activities": {
+        "Save: End of Turn": {
+          "description": "<p>At the end of its turn, the Poisoned target makes a Constitution saving throw. On a failed save, it takes 2d6 Poison damage. On a successful save, the spell ends.</p>",
+          "name": "Save: End of Turn"
+        },
+        "Cast Spell": {
+          "name": "Cast Spell",
+          "description": "<p>The creature hit by your weapon takes an extra 4d6 Poison damage from the attack and is Poisoned until the spell ends.</p>"
+        }
+      },
+      "description": "<p><em>Prerequisite: Hunter Subclass</em></p><p>The target takes an extra 4d6 Poison damage from the attack, and the target has the Poisoned condition until the spell ends. At the end of each of its turns, the Poisoned target makes a Constitution saving throw. On a failed save, the creature takes 2d6 Poison damage. On a successful save, the spell ends.</p><section id=\"secret-vvdeHn0NfOTdRNUQ\" class=\"secret hide-in-embed\"><p><strong>Foundry Note</strong></p><p>Apply Serpent Sting: Poisoned after casting. Use Critical for the initial damage if the weapon hit was critical. Use <strong>Save: End of Turn</strong> manually; remove the effect on success.</p></section>",
+      "effects": {
+        "Poisoned": {
+          "name": "Poisoned"
+        }
+      }
+    },
+    "Starfall": {
+      "name": "Starfall",
+      "activities": {
+        "AOE Damage": {
+          "name": "AOE Damage",
+          "condition": "a creature that enters the Cylinder for the first time on a turn or ends its turn"
+        },
+        "Cast Spell": {
+          "name": "Cast Spell"
+        }
+      },
+      "description": "<p>You call down falling stars on creatures in a 30-foot-radius, 40-foot-high Cylinder within range. Each creature in the Cylinder makes a Dexterity saving throw, taking 7d8 Radiant damage on a failed save or half as much damage on a successful one.</p><p>Until the start of your next turn, a creature that enters the Cylinder for the first time on a turn or ends its turn there takes Radiant damage equal to your Druid level. A creature takes this damage only once per turn.</p>"
+    },
+    "Explosive Trap": {
+      "activities": {
+        "Cast Spell": {
+          "name": "Cast Spell",
+          "description": "<p>An Invisible, intangible trap appears at the chosen ground point.</p>"
+        },
+        "Detonate": {
+          "description": "<p>Each creature in the Sphere makes a Dexterity saving throw. On a failed save, it takes 8d6 Fire damage and, if Huge or smaller, is pushed 20 feet straight away from the trap.</p>",
+          "name": "Detonate"
+        }
+      },
+      "name": "Explosive Trap",
+      "description": "<p><em>Prerequisite: Hunter Subclass</em></p><p>An Invisible, intangible trap appears on the ground at a point you choose within range. The first time a creature comes within 5 feet of the trap, the trap explodes in a fiery burst that fills a 20-foot-radius Sphere centered on the trap. The spell ends, and each creature within the Sphere makes a Dexterity saving throw. On a failed save, a creature takes 8d6 Fire damage and, if it is Huge or smaller, is pushed 20 feet straight away from the trap’s location.</p><section id=\"secret-v6AyZ3WEW5iGTNPz\" class=\"secret hide-in-embed\"><p><strong>Foundry Note</strong></p><p>Record the trap location privately. When triggered, end concentration and use Detonate there. Resolve pushes and vertical targeting manually, then remove the area.</p></section>"
+    },
+    "Divine Shield": {
+      "activities": {
+        "Cast Spell": {
+          "name": "Cast Spell"
+        }
+      },
+      "name": "Divine Shield",
+      "effects": {
+        "Immunity: All Damage": {
+          "name": "Immunity: All Damage"
+        }
+      },
+      "description": "<p>You have Immunity to all damage until the start of your next turn, including the triggering damage. For the duration, your Speed can’t be reduced, any current reductions to your Speed are suspended, and no effect can move you against your will.</p><section id=\"secret-Oq7f4vvIlB9K1PNH\" class=\"secret hide-in-embed\"><p><strong>Foundry Note</strong></p><p>Apply the linked effect to yourself before resolving damage; undo any damage already applied. Track walking Speed and forced movement manually.</p></section>"
+    },
+    "Eye Beam": {
+      "activities": {
+        "Cast Spell": {
+          "name": "Cast Spell"
+        },
+        "Subsequent Eye Beam": {
+          "name": "Subsequent Eye Beam"
+        }
+      },
+      "name": "Eye Beam",
+      "description": "<p><em>Prerequisite: Demon Hunter Subclass</em></p><p>You concentrate your magic into your eyes. When you cast the spell, and as a Magic action on your subsequent turns for the duration, you can unleash a burst of fel magic. Each creature in a 15-foot Cone makes a Dexterity saving throw, taking 3d6 Force damage on a failed save or half as much damage on a successful one.</p><p><em><strong>Using a Higher-Level Spell Slot. </strong></em>The damage increases by 1d6 for each spell slot level above 1.</p>"
+    },
+    "Dream Breath": {
+      "name": "Dream Breath",
+      "description": "<p><em>Prerequisite: Evoker Subclass</em></p><p>You exhale verdant healing magic. Each creature of your choice in a 15-foot Cone regains 2d6 Hit Points.</p><p><em><strong>Using a Higher-Level Spell Slot.</strong></em> The healing increases by 2d6 for each spell slot level above 2.</p>",
+      "activities": {
+        "Cast & Heal": {
+          "name": "Cast & Heal"
+        }
+      }
+    },
+    "Infernal Strike": {
+      "activities": {
+        "Cast Spell": {
+          "name": "Cast Spell"
+        },
+        "Landing Burst": {
+          "name": "Landing Burst"
+        }
+      },
+      "effects": {
+        "Landing Burst": {
+          "description": "<p>You have Disadvantage on attack rolls against creatures other than the Infernal Strike caster.</p>",
+          "name": "Landing Burst"
+        }
+      },
+      "name": "Infernal Strike",
+      "description": "<p><em>Prerequisite: Demon Hunter Subclass</em></p><p>You jump through the air without provoking Opportunity Attacks and land in an unoccupied space within 30 feet. Each creature in a 10-foot Emanation originating from you makes a Dexterity saving throw. On a failed save, a creature takes 2d6 Fire damage and has Disadvantage on attack rolls against creatures other than you until the start of your next turn. On a successful save, it takes half as much damage only.</p><p><em><strong>Using a Higher-Level Spell Slot.</strong></em> The damage increases by 1d6 for each spell slot level above 1.</p>"
+    },
+    "Holy Nova": {
+      "activities": {
+        "Heal Other Creatures": {
+          "name": "Heal Other Creatures"
+        },
+        "Cast & Save": {
+          "name": "Cast & Save"
+        }
+      },
+      "name": "Holy Nova",
+      "description": "<p><em>Prerequisite: Priest Subclass</em></p><p>An explosion of holy light surrounds you in a 30-foot Emanation, harming your enemies and healing your allies. Each creature of your choice in the Emanation makes a Constitution saving throw, taking 5d6 Radiant damage on a failed save or half as much damage on a successful one. Each other creature in the Emanation regains 3d6 Hit Points.</p><p><em><strong>Using a Higher-Level Spell Slot.</strong></em> The damage and healing each increase by 1d6 for each spell slot level above 4.</p><section id=\"secret-iHSqtUNq5ErdyCUs\" class=\"secret hide-in-embed\"><p><strong>Foundry Note</strong></p><p>After Cast Spell, use Heal Other Creatures with the same slot level. Select the remaining creatures separately.</p></section>"
+    },
+    "Frostscythe": {
+      "activities": {
+        "Cast & Save": {
+          "name": "Cast & Save"
+        }
+      },
+      "description": "<p><em>Prerequisite: Death Knight Subclass</em></p><p>Sweeping your weapon before you, you unleash a blast of icy cold. Each creature in a 20-foot Cone makes a Constitution saving throw. On a failed save, a creature takes 3d8 Cold damage, and its Speed is reduced by 10 feet for 1 minute. On a successful save, a creature takes half as much damage only.</p><p><em><strong>Using a Higher-Level Spell Slot.</strong></em> The damage increases by 1d8 for each spell slot level above 2.</p>",
+      "name": "Frostscythe",
+      "effects": {
+        "Speed Reduced 10 Ft.": {
+          "name": "Speed Reduced 10 Ft."
+        }
+      }
+    },
+    "Demon Spikes": {
+      "name": "Demon Spikes",
+      "activities": {
+        "Spikes Retaliation": {
+          "name": "Spikes Retaliation",
+          "condition": "A creature within 5 feet hits you with a melee attack roll"
+        },
+        "Cast Spell": {
+          "name": "Cast Spell"
+        }
+      },
+      "effects": {
+        "+2 AC": {
+          "name": "+2 AC"
+        }
+      },
+      "description": "<p><em>Prerequisite: Demon Hunter Subclass</em></p><p>You surge with fel power and sprout hard, jagged spikes. You gain a +2 bonus to AC for the duration, and when a creature within 5 feet of you hits you with a melee attack roll, it takes 10 Piercing damage.</p>"
+    },
+    "Arcane Pulse": {
+      "effects": {
+        "Reduce Speed -10 Ft.": {
+          "name": "Reduce Speed -10 Ft."
+        }
+      },
+      "activities": {
+        "Cast Spell": {
+          "name": "Cast Spell"
+        }
+      },
+      "name": "Arcane Pulse",
+      "description": "<p><em>Prerequisite: Nightborne Elf</em></p><p>You create a pulse of arcane energy in a 10-foot Emanation originating from yourself. Each creature of your choice within this area makes a Constitution saving throw. On a failed save, it takes 1d8 Force damage, and its Speed is reduced by 10 feet (to a minimum of 0 feet) until the end of your next turn.</p><section id=\"secret-5vBXjeF26TZ59Y49\" class=\"secret hide-in-embed\"><p><strong>Foundry Note</strong></p><p>Apply the linked Speed effect to failed saves. Remove the Emanation Region after resolving the save.</p></section>"
+    },
+    "Consume Soul": {
+      "name": "Consume Soul",
+      "description": "<p><em>Prerequisite: Demon Hunter Subclass</em></p><p>You drain the essence from a creature within range, which makes a Constitution saving throw. On a failed save, it takes 4d4 Force damage, and you gain Temporary Hit Points equal to half the Force damage dealt. On a successful save, it takes half as much damage only.</p><p><em><strong>Using a Higher-Level Spell Slot. </strong></em>The damage increases by 1d4 for each spell slot level above 1.</p>",
+      "activities": {
+        "Cast & Save": {
+          "name": "Cast & Save"
+        }
+      }
+    },
+    "Apotheosis": {
+      "activities": {
+        "Cast Spell": {
+          "name": "Cast Spell"
+        }
+      },
+      "name": "Apotheosis",
+      "effects": {
+        "Apotheosis Benefits": {
+          "name": "Apotheosis Benefits"
+        }
+      },
+      "description": "<p><em>Prerequisite: Priest Subclass</em></p><p>You transform into a spectral, angelic form that grants you the following benefits.</p><p><em><strong>Angelic Wings.</strong></em> You have a Fly Speed of 90 feet.</p><p><em><strong>Spectral Form. </strong></em>You have Resistance to Bludgeoning, Piercing, Radiant, and Slashing damage.</p><p><em><strong>Holy Empowerment.</strong></em> Whenever you cast a spell using a spell slot that restores Hit Points to one or more creatures or deals Radiant damage, determine the spell’s effects as if you had used a spell slot 2 levels higher than the spell slot you used to cast it (maximum of level 9).</p><section id=\"secret-GMyO9vTM7iit3F6w\" class=\"secret hide-in-embed\"><p><strong>Foundry Note</strong></p><p>Apply Apotheosis to yourself. For Holy Empowerment, select the effective casting level, turn off Consume Spell Slot for that use, and deduct the actual slot manually.</p></section>"
+    },
+    "Breath of Eons": {
+      "activities": {
+        "Temporal Wounds Damage": {
+          "name": "Temporal Wounds Damage"
+        },
+        "Cast Spell": {
+          "name": "Cast Spell"
+        },
+        "Temporal Wounds": {
+          "name": "Temporal Wounds"
+        }
+      },
+      "effects": {
+        "Cursed": {
+          "name": "Cursed"
+        },
+        "Fly Speed 60 Ft.": {
+          "name": "Fly Speed 60 Ft."
+        }
+      },
+      "name": "Breath of Eons",
+      "description": "<p><em>Prerequisite: Evoker Subclass</em></p><p>You draw on the magic of the bronze dragonflight. For the duration, you gain the following benefits.</p><p><em><strong>Temporal Wounds.</strong></em> When you move within 5 feet of a creature, you can curse it until the start of your next turn. While a creature is cursed, the next time it takes damage, it takes an extra 1d10 Force damage, and the curse ends. A creature can be cursed this way only once per turn.</p><p><em><strong>Wings.</strong></em> You sprout spectral wings from your back if you don’t already have wings. You have a Fly Speed of 60 feet and can hover. In addition, your movement doesn’t provoke &amp;Reference[Opportunity Attacks].</p><section id=\"secret-dvgHLg5dZhJiTiKr\" class=\"secret hide-in-embed\"><p><strong>Foundry Note</strong></p><p>Track curse eligibility manually. When triggered, use Temporal Wounds Damage and remove the curse effect. Clear remaining curses if concentration ends. Handle Opportunity Attacks manually.</p></section>"
+    },
+    "Death and Decay": {
+      "name": "Death and Decay",
+      "effects": {
+        "Cursed": {
+          "name": "Cursed"
+        }
+      },
+      "activities": {
+        "Cast & Save": {
+          "name": "Cast & Save"
+        }
+      },
+      "description": "<p><em>Prerequisite: Death Knight Subclass</em></p><p>Corruption ripples out in a 20-foot-radius Sphere from a point on the ground you can see within range. Each creature in that area makes a Wisdom saving throw. On a failed save, a target takes 2d6 Necrotic damage and is cursed until the end of your next turn. If you deal damage to a cursed target with an attack roll, the target takes an extra 1d6 Necrotic damage. On a successful save, the target takes half as much damage only.</p>"
+    },
+    "Eruption": {
+      "name": "Eruption",
+      "activities": {
+        "Cast & Save": {
+          "name": "Cast & Save"
+        }
+      },
+      "description": "<p><em>Prerequisite: Evoker Subclass</em></p><p>The ground in a 20-foot-radius Sphere centered on a point within range erupts with flames. Each creature in the Sphere makes a Dexterity saving throw, taking 3d8 Fire damage on a failed save or half as much damage on a successful one.</p><p>The cracks turn the ground in the Sphere into Difficult Terrain until the end of your next turn, at which point they close.</p><p><em><strong>Using a Higher-Level Spell Slot.</strong></em> The damage increases by 1d8 for each spell slot level above 2.</p><section id=\"secret-keMY8xUW6hbr2hrU\" class=\"secret hide-in-embed\"><p><strong>Foundry Note</strong></p><p>Remove the Eruption Region at the end of your next turn.</p></section>"
+    },
+    "Feral Prowl": {
+      "effects": {
+        "Invisible": {
+          "name": "Invisible"
+        }
+      },
+      "name": "Feral Prowl",
+      "description": "<p>You shape-shift as if you had used Wild Shape, but you don’t expend a use of your Wild Shape. You have the Invisible condition until the spell ends. The spell ends early immediately after you make an attack roll, deal damage, cast a spell, or revert to your natural form.</p><section id=\"secret-Oycr2hIs48CISes1\" class=\"secret hide-in-embed\"><p><strong>Foundry Note</strong></p><p>Activate Wild Shape and choose a known form, then activate Cast Spell before clicking Transform on Wild Shape’s chat card. Cast Spell spends the spell slot and restores the Wild Shape use. These steps resolve one Bonus Action.</p><p>After transforming, apply the Invisible active effect to your transformed Actor from the spell’s chat card. Remove the effect when the spell ends.</p><p>If no Wild Shape uses remain, disable Wild Shape’s use consumption and Cast Spell’s refund consumption for this casting. Keep spell-slot consumption enabled.</p></section>",
+      "activities": {
+        "Cast Spell": {
+          "name": "Cast Spell"
+        }
+      }
+    },
+    "Innervate": {
+      "name": "Innervate",
+      "activities": {
+        "Cast Spell": {
+          "name": "Cast Spell"
+        }
+      },
+      "description": "<p>A creature of your choice within range gains a level 4 spell slot. The spell slot vanishes after it is expended or the target finishes a Long Rest. It can use this spell slot to cast any spell it has prepared.</p><p>In addition, you regain one expended use of Wild Shape.</p><section id=\"secret-cwprRrteMVqnFGIj\" class=\"secret hide-in-embed\"><p><strong>Foundry Note</strong></p><p>On the recipient, record the level 4 slot override, then increase its maximum and available slots by one. Restore the previous override when the granted slot is spent or before resolving a Long Rest.</p><p>If no Wild Shape use is expended, disable its recovery consumption when casting.</p></section>"
+    },
+    "Moonfire": {
+      "activities": {
+        "Cast Spell": {
+          "name": "Cast Spell"
+        },
+        "Later Damage": {
+          "description": "<p>At the end of the affected creature’s next turn, it takes the later Radiant damage, and the spell ends.</p>",
+          "name": "Later Damage"
+        }
+      },
+      "effects": {
+        "Moonfire": {
+          "name": "Moonfire"
+        }
+      },
+      "name": "Moonfire",
+      "description": "<p>A beam of lunar light burns a creature you can see within range. The target makes a Dexterity saving throw. On a failed save, it takes 2d8 Radiant damage, sheds Dim Light in a 10-foot radius, and can’t benefit from the Invisible condition until the end of its next turn. At the end of its next turn, it takes an extra 1d8 Radiant damage, and the spell ends. On a successful save, it takes half the initial damage only.</p><p><em><strong>Using a Higher-Level Spell Slot.</strong></em> Both the initial and the later damage increase by 1d8 for each spell slot level above 1.</p><section id=\"secret-plO2cYvnJlQarQ1l\" class=\"secret hide-in-embed\"><p><strong>Foundry Note</strong></p><p>Apply Moonfire only on a failed save. Use Later Damage at the original casting level when the target’s next turn ends. Resolve the damage once and remove Moonfire if it has not expired.</p></section>"
+    },
+    "Psychic Horror": {
+      "activities": {
+        "Cast Spell": {
+          "name": "Cast Spell"
+        },
+        "Repeat Save": {
+          "name": "Repeat Save"
+        }
+      },
+      "name": "Psychic Horror",
+      "effects": {
+        "Stunned": {
+          "name": "Stunned"
+        },
+        "Frightened": {
+          "name": "Frightened"
+        }
+      },
+      "description": "<p><em>Prerequisite: Priest Subclass</em></p><p>A creature within range is overwhelmed with mental visions of the Void and makes a Wisdom saving throw. On a failed save, the target takes 2d10 Psychic damage and has the Frightened condition for 1 minute. A Frightened creature also has the Stunned condition until the end of your next turn. At the end of each of its turns, the target repeats the save, ending the effect on itself on a success. On a successful save, the creature takes half as much damage only.</p><p><em><strong>Using a Higher-Level Spell Slot.</strong></em> The damage increases by 1d10 for each spell slot level above 4.</p><section id=\"secret-Qn5DfwoptPtWgh0N\" class=\"secret hide-in-embed\"><p><strong>Foundry Note</strong></p><p>After a failed initial save, apply Frightened, then Stunned if Frightened takes effect. Remove both after a successful Repeat Save. Remove Stunned if Frightened ends early.</p></section>"
+    },
+    "Remorseless Winter": {
+      "activities": {
+        "Cast & Save": {
+          "name": "Cast & Save"
+        }
+      },
+      "effects": {
+        "Speed 10 Ft.": {
+          "name": "Speed 10 Ft."
+        }
+      },
+      "name": "Remorseless Winter",
+      "description": "<p><em>Prerequisite: Death Knight Subclass</em></p><p>You drain the warmth from nearby creatures. Each creature of your choice in a 30-foot Emanation originating from you makes a Constitution saving throw, taking 6d6 Cold damage on a failed save or half as much damage on a successful one. Whether or not a creature succeeds on its saving throw, its Speed is reduced to 10 feet until the end of its next turn as clinging frost hinders its movement.</p><p><em><strong>Using a Higher-Level Spell Slot.</strong></em> The damage increases by 1d6 for each spell slot level above 3.</p>"
+    },
+    "Shadow Word: Pain": {
+      "name": "Shadow Word: Pain",
+      "activities": {
+        "Cast Spell": {
+          "name": "Cast Spell"
+        },
+        "Repeat Save": {
+          "name": "Repeat Save"
+        },
+        "Ongoing Pain": {
+          "name": "Ongoing Pain"
+        }
+      },
+      "effects": {
+        "Cursed": {
+          "name": "Cursed"
+        }
+      },
+      "description": "<p><em>Prerequisite: Priest Subclass</em></p><p>Speaking a word of Void power, you cause one creature in range to suffer agonizing pain. The target makes a Wisdom saving throw. On a failed save, the target takes Psychic damage equal to 1d10 plus your spellcasting ability modifier and is cursed for the duration. On a successful save, it takes half as much damage only.</p><p>Until the curse ends, the target takes 1d10 Psychic damage at the start of each of its turns. It repeats the save at the end of each of its turns, ending the curse on a success.</p><p><em><strong>Using a Higher-Level Spell Slot.</strong></em> The spell’s initial damage increases by 1d10 for each spell slot level above 1.</p><section id=\"secret-ZLEkLCqmwZShGT8J\" class=\"secret hide-in-embed\"><p><strong>Foundry Note</strong></p><p>Apply Cursed after a failed Cast Spell save. Use Ongoing Pain and Repeat Save on the marked target; remove Cursed when Repeat Save succeeds.</p></section>"
+    },
+    "Soul Reap": {
+      "name": "Soul Reap",
+      "description": "<p><em>Prerequisite: Demon Hunter Subclass</em></p><p>You cut a hole in the fabric of reality, sending a bolt of cosmic matter toward a creature in range. Make a ranged spell attack against the target, which gains no benefit from Half Cover or Three-Quarters Cover. On a hit, you deal 6d6 Force damage.</p><p>If you roll a 6 on a d6 for this spell, you can roll another d6 and add it to the damage. When you cast this spell, the maximum number of these d6s you can add to the spell’s damage equals your spellcasting ability modifier.</p><p><em><strong>Using a Higher-Level Spell Slot. </strong></em>The damage increases by 1d6 for each spell slot level above 3.</p><section id=\"secret-YdsjMiBn2eYxY8WY\" class=\"secret hide-in-embed\"><p><strong>Foundry Note</strong></p><p>For the attack roll, compare against the target’s AC without its Half Cover (+2) or Three-Quarters Cover (+5) bonus. The damage formula handles the extra dice and their cap.</p></section>",
+      "activities": {
+        "Cast & Attack": {
+          "name": "Cast & Attack"
+        }
+      }
+    },
+    "Wrath": {
+      "name": "Wrath",
+      "description": "<p>You hurl a ball of energy at a target within range. Make a ranged spell attack against the target. On a hit, the target takes 1d8 Lightning damage, and its Speed is reduced by 10 feet until the end of your next turn.</p><p><em><strong>Cantrip Upgrade.</strong></em> The damage increases by 1d8 when you reach levels 5 (2d8), 11 (3d8), and 17 (4d8).</p>",
+      "effects": {
+        "Speed Reduced 10 Ft.": {
+          "name": "Speed Reduced 10 Ft."
+        }
+      },
+      "activities": {
+        "Cast & Attack": {
+          "name": "Cast & Attack"
+        }
+      }
+    },
+    "Time Dilation": {
+      "activities": {
+        "Cast & Reduce Damage": {
+          "description": "<p>The target reduces the triggering damage by 4d8.</p>",
+          "name": "Cast & Reduce Damage",
+          "roll": "Damage Reduction"
+        },
+        "Hit Point Loss": {
+          "roll": "Hit Point Loss",
+          "name": "Hit Point Loss",
+          "description": "<p>At the end of the target’s turn, the target loses 1d8 Hit Points.</p>"
+        }
+      },
+      "name": "Time Dilation",
+      "description": "<p><em>Prerequisite: Evoker Subclass</em></p><p>The target reduces the damage taken by 4d8. At the end of each of the target’s turns, the target loses 1d8 Hit Points until it has lost a total of 4d8 Hit Points (roll these 4d8 separately from the damage reduction).</p><section id=\"secret-afOwLYAk4wQ92DFP\" class=\"secret hide-in-embed\"><p><strong>Foundry Note</strong></p><p>Adjust damage manually using Damage Reduction. Subtract Hit Point Loss rolls directly from current HP; track four rolls.</p></section>"
+    },
+    "Void Eruption": {
+      "description": "<p><em>Prerequisite: Priest Subclass</em></p><p>Shadowy Void energy erupts in a 20-foot-radius Sphere centered on a point you choose within range. Each creature in the Sphere makes a Constitution saving throw, taking 5d6 Necrotic damage on a failed save or half as much damage on a successful one. At the same time, you take on a form of Void that grants you the following benefits for the duration.</p><p><em><strong>Void Bolt.</strong></em> As a Bonus Action on your turn, you can hurl a bolt of Void energy at a creature within 60 feet of yourself. Make a ranged spell attack; on a hit, the target takes Necrotic damage equal to 2d6 plus your spellcasting ability modifier.</p><p><em><strong>Void Stealth.</strong></em> While you are in an area of Dim Light or Darkness, you have the Invisible condition.</p><section id=\"secret-2guyfbwGsdsnLOAL\" class=\"secret hide-in-embed\"><p><strong>Foundry Note</strong></p><p>In the effects tab, Toggle Invisible on the caster as lighting changes. Clear it when the spell ends, and delete the Sphere region after the initial save.</p></section>",
+      "activities": {
+        "Void Bolt": {
+          "name": "Void Bolt"
+        },
+        "Cast Spell": {
+          "name": "Cast Spell"
+        }
+      },
+      "name": "Void Eruption"
+    },
+    "Tree of Life": {
+      "activities": {
+        "Bark Skin": {
+          "name": "Bark Skin"
+        },
+        "Source of Life": {
+          "name": "Source of Life"
+        },
+        "Condition Immunity": {
+          "name": "Condition Immunity"
+        },
+        "Cast Spell": {
+          "name": "Cast Spell"
+        },
+        "Spells Enhanced": {
+          "name": "Spells Enhanced"
+        },
+        "Tree Form": {
+          "name": "Tree Form"
+        }
+      },
+      "effects": {
+        "Tree Form": {
+          "name": "Tree Form"
+        },
+        "Spells Enhanced": {
+          "name": "Spells Enhanced"
+        },
+        "+2 AC Bonus": {
+          "name": "+2 AC Bonus"
+        },
+        "Condition Immunities": {
+          "name": "Condition Immunities"
+        }
+      },
+      "name": "Tree of Life",
+      "description": "<p>You shape-shift into a Tree of Life form that resembles a treant. In this form, you gain the following benefits.</p><p class=\"hanging\"><em><strong>Tree Form.</strong></em> You become Large. Your Speed becomes 10 feet and can’t be reduced, and Difficult Terrain doesn’t cost you extra movement.</p><p class=\"hanging\"><em><strong>Bark Skin.</strong></em> You gain a +2 bonus to Armor Class and 10 Temporary Hit Points.</p><p class=\"hanging\"><em><strong>Condition Immunity.</strong></em> You gain Immunity to the Paralyzed and Restrained conditions. You can’t be shape-shifted against your will.</p><p class=\"hanging\"><em><strong>Source of Life.</strong></em> When a spell you cast with a spell slot restores Hit Points to a creature, that creature regains an additional 1d8 Hit Points on the turn you cast the spell.</p><p class=\"hanging\"><em><strong>Spells Enhanced.</strong></em> The spell save DC of your Druid spells increases by 1, and you have Advantage on the attack rolls of Druid spells you cast.</p>"
+    },
+    "Chains of Ice": {
+      "name": "Chains of Ice",
+      "effects": {
+        "Speed Halved": {
+          "name": "Speed Halved"
+        }
+      },
+      "description": "<p><em>Prerequisite: Death Knight Subclass</em></p><p>You create chains of ice around a creature you can see within range. The target makes a Dexterity saving throw. On a failed save, the target takes 1d10 Cold damage, and its Speed is halved until the end of its next turn. On a successful save, the target takes half as much damage only.</p><p><em><strong>Using a Higher-Level Spell Slot.</strong></em> The damage increases by 1d10 for each spell slot level above 1.</p>",
+      "activities": {
+        "Cast & Save": {
+          "name": "Cast & Save"
+        }
+      }
+    },
+    "Throw Glaive": {
+      "activities": {
+        "Ricochet": {
+          "condition": "after the previous attack hits",
+          "range": "within 30 feet of the previous target",
+          "name": "Ricochet",
+          "target": "different from the previous target"
+        },
+        "Cast & Attack": {
+          "name": "Cast & Attack"
+        }
+      },
+      "name": "Throw Glaive",
+      "description": "<p><em>Prerequisite: Demon Hunter Subclass</em></p><p>You create a demonic warglaive and hurl it at a creature or object in range. Make a ranged spell attack against the target. On a hit, the target takes 1d8 Slashing damage plus 1d8 Fire damage, and the glaive ricochets to a different target of your choice within 30 feet of the target. Make new attack and damage rolls against the new target.</p><p><em><strong>Using a Higher-Level Spell Slot.</strong></em> The Fire damage increases by 1d8 for each spell slot level above 1. The glaive ricochets a maximum number of times equal to the level of the slot expended; a creature can be targeted only once by each casting of this spell.</p>"
+    },
+    "Hand of Gul'dan": {
+      "activities": {
+        "Cast Spell": {
+          "name": "Cast Spell"
+        },
+        "Spirit Damage": {
+          "name": "Spirit Damage"
+        }
+      },
+      "description": "<p>A demonic meteor hurtles from you to a point you choose within range and then erupts. Each creature in a 20-foot-radius Sphere centered on that point makes a Dexterity saving throw, taking 2d8 Fire damage plus 2d8 Necrotic damage on a failed save or half as much damage on a successful one.</p><p>Demonic spirits resembling fel imps flit about the Sphere for the duration. A creature that enters the Sphere or ends its turn there makes a Dexterity saving throw, taking 1d8 Fire damage plus 1d8 Necrotic damage on a failed save or half as much damage on a successful one. A creature can be affected by this spell only once per turn.</p><section id=\"secret-3xhQ5RR5bG32elgg\" class=\"secret hide-in-embed\"><p><strong>Foundry Note</strong></p><p>Trigger Spirit Damage manually. Log each token's resolution across both activities per turn, and remove the Region when the spell ends.</p></section>",
+      "name": "Hand of Gul'dan"
+    },
+    "Regrowth": {
+      "description": "<p>One creature you can see within range regains 3d8 Hit Points. For the duration, the target regains 1d8 Hit Points at the start of each of your turns. The spell ends early once it restores at least 24 Hit Points.</p>",
+      "activities": {
+        "Cast & Heal": {
+          "name": "Cast & Heal"
+        },
+        "Ongoing Healing": {
+          "name": "Ongoing Healing"
+        }
+      },
+      "name": "Regrowth"
+    },
+    "Consecration": {
+      "name": "Consecration",
+      "activities": {
+        "Consecration Damage": {
+          "description": "<p>A creature of your choice that starts its turn in the Emanation takes [[/damage]] damage.</p>",
+          "name": "Consecration Damage"
+        },
+        "Cast Spell": {
+          "name": "Cast Spell"
+        }
+      },
+      "description": "<p>You consecrate the area in a 15-foot Emanation originating from you. Creatures of your choice that start their turn in the Emanation take 1d8 Radiant damage. The Emanation is &amp;Reference[Difficult Terrain] for Fiends and Undead.</p>"
+    },
+    "Fiery Brand": {
+      "activities": {
+        "Cast & Save": {
+          "name": "Cast & Save"
+        },
+        "Repeat Save": {
+          "name": "Repeat Save",
+          "condition": "at the end of the cursed creature’s turn"
+        }
+      },
+      "effects": {
+        "Cursed": {
+          "name": "Cursed"
+        },
+        "Resistant to All Damage": {
+          "name": "Resistant to All Damage"
+        }
+      },
+      "description": "<p><em>Prerequisite: Demon Hunter Subclass</em></p><p>You magically place a fiery demonic symbol on a creature within range, which makes a Wisdom saving throw. On a failed save, the creature takes 3d10 Fire damage and is cursed. While it remains cursed, you have Resistance to all damage it deals. On a successful save, it takes half as much damage only.</p><p>A cursed creature repeats the save at the end of each of its turns, ending the spell on a success.</p><section id=\"secret-BdCRtSn41ugbqdcm\" class=\"secret hide-in-embed\"><p><strong>Foundry Note</strong></p><p>You can find an Active Effect in the Effects tab of your character sheet to enable the damage resistances from the cursed target. Be sure to disable it when the spell ends.</p></section>",
+      "name": "Fiery Brand"
+    },
+    "Flurry": {
+      "description": "<p><em>Prerequisite: Mage Subclass</em></p><p>You hurl three shards of ice at one target within range or at several. Make a ranged spell attack for each shard. On a hit, the target takes 3d6 Cold damage. On a Critical Hit, the target has the Restrained condition until the end of your next turn.</p><p><em><strong>Using a Higher-Level Spell Slot.</strong></em> You create one additional shard of ice for each spell slot level above 3.</p><section id=\"secret-YRomz21sYI2Igb6t\" class=\"secret hide-in-embed\"><p>Resolve each shard from this chat card, including damage, before rolling the next attack. Apply the linked effect only after a Critical Hit.</p></section>",
+      "activities": {
+        "Cast & Attack": {
+          "name": "Cast & Attack"
+        }
+      },
+      "name": "Flurry",
+      "effects": {
+        "Restrained": {
+          "name": "Restrained"
+        }
+      }
+    },
+    "Upheaval": {
+      "description": "<p><em>Prerequisite: Evoker Subclass</em></p><p>Fiery stones erupt, filling a 20-foot-radius, 10-foot-tall Cylinder originating from a point on the ground you can see within range. Each creature in the Cylinder makes a Dexterity saving throw. On a failed save, a creature takes 1d12 Bludgeoning damage plus 3d8 Fire damage and is pushed vertically to the top of the cylinder, at which point the creature falls. On a successful save, a creature takes half as much damage only.</p><p>Smoldering stones turn the ground in the Cylinder into Difficult Terrain until the end of your next turn.</p><p><em><strong>Using a Higher-Level Spell Slot.</strong></em> The Bludgeoning damage increases by 1d12 for each spell slot level above 4.</p>",
+      "activities": {
+        "Cast & Save": {
+          "name": "Cast & Save"
+        }
+      },
+      "name": "Upheaval"
+    },
+    "Tranquility": {
+      "activities": {
+        "Cast Spell": {
+          "name": "Cast Spell"
+        },
+        "Restore Hit Points": {
+          "target": "Each ally in the emanation",
+          "name": "Restore Hit Points"
+        }
+      },
+      "effects": {
+        "Physical Damage Resistances": {
+          "name": "Physical Damage Resistances"
+        }
+      },
+      "description": "<p>Nature’s power flows around you in a 60-foot Emanation for the duration. Creatures of your choice in the Emanation have Resistance to Bludgeoning, Piercing, and Slashing damage. As a Bonus Action, you can cause each ally in the Emanation to regain Hit Points equal to 2d8 plus your spellcasting ability modifier.</p><p><em><strong>Using a Higher-Level Spell Slot.</strong></em> Creatures regain 1d8 additional Hit Points for each spell slot level above 6.</p><section id=\"secret-GLfpdbMRqHZm5lFI\" class=\"secret hide-in-embed\"><p><strong>Foundry Note</strong></p><p>Attach the emanation to the caster. Apply Tranquility from the casting's chat card to chosen creatures inside it; remove or reapply it as they leave or return.</p><p>For Restore Hit Points, target each ally currently inside and select the original casting level. Clear any remaining effects and template when the spell ends.</p></section>",
+      "name": "Tranquility"
+    },
+    "Sigil of Chains": {
+      "name": "Sigil of Chains",
+      "effects": {
+        "Restrained (Save Failure)": {
+          "description": "<p>After the failed save, move your token up to 10 feet straight toward the sigil.</p>",
+          "name": "Restrained (Save Failure)"
+        },
+        "Speed -10 Ft. (Save Success)": {
+          "name": "Speed -10 Ft. (Save Success)",
+          "description": "<p>Your walking Speed is reduced by 10 feet while this effect is active.</p>"
+        }
+      },
+      "description": "<p><em>Prerequisite: Demon Hunter Subclass</em></p><p>A sigil appears at a point on the ground you can see within range, then erupts in a 20-foot-radius Sphere. Each creature in the Sphere makes a Dexterity saving throw. On a failed save, a creature takes 5d6 Force damage, is pulled up to 10 feet straight toward the sigil, and has the Restrained condition until the end of your next turn. On a successful save, the creature takes half as much damage, and its Speed is reduced by 10 feet until the end of your next turn.</p>",
+      "activities": {
+        "Cast & Save": {
+          "name": "Cast & Save"
+        }
+      }
+    },
+    "Rescue": {
+      "name": "Rescue",
+      "description": "<p><em>Prerequisite: Evoker Subclass</em></p><p>You teleport to an unoccupied space you can see within range. One willing creature within 60 feet of the space you left also teleports to an unoccupied space within 5 feet of your destination space.</p><section id=\"secret-wZLdhCTkpsSMqxyS\" class=\"secret hide-in-embed\"><p><strong>Foundry Note</strong></p><p>Check the rescued creature’s distance before moving. Select only your token and click Teleport. Verify destination visibility and vacancy. The rescued creature’s player or the GM moves its token as specified by the spell.</p></section>",
+      "activities": {
+        "Cast & Teleport": {
+          "name": "Cast & Teleport"
+        }
+      }
+    },
+    "Find Steed (Death Knight)": {
+      "activities": {
+        "Summon Flying Steed": {
+          "name": "Summon Flying Steed"
+        },
+        "Summon Steed": {
+          "name": "Summon Steed"
+        }
+      },
+      "effects": {
+        "Flying Steed": {
+          "name": "Flying Steed",
+          "description": "<p>The steed has a Fly speed of 60ft. when summoned by a level 4+ spell.</p>"
+        }
+      },
+      "name": "Find Steed (Death Knight)",
+      "description": "<p>You summon an otherworldly being that appears as a loyal steed in an unoccupied space of your choice within range. This creature uses the <strong>@UUID[Compendium.dnd-players-handbook.actors.Actor.phbmobOtherworld]{Otherworldly Steed}</strong> stat block. If you already have a steed from this spell, the steed is replaced by the new one.</p><p>The steed resembles a Large, rideable animal of your choice, such as a horse, a camel, a dire wolf, or an elk. Whenever you cast the spell, choose the steed’s creature type—Celestial, Fey, or Fiend—which determines certain traits in the stat block.</p><p><strong>Combat.</strong> The steed is an ally to you and your allies. In combat, it shares your Initiative count, and it functions as a &amp;Reference[controllingamount]{controlled mount} while you ride it (as defined in the rules on mounted combat). If you have the Incapacitated condition, the steed takes its turn immediately after yours and acts independently, focusing on protecting you.</p><p><strong>Disappearance of the Steed.</strong> The steed disappears if it drops to 0 Hit Points or if you die. When it disappears, it leaves behind anything it was wearing or carrying. If you cast this spell again, you decide whether you summon the steed that disappeared or a different one.</p><p><strong>Using a Higher-Level Spell Slot.</strong> Use the spell slot’s level for the spell’s level in the stat block.</p><section style=\"margin:0.5rem;padding:0.5rem\" class=\"fvtt advice\"><article><p>In addition to the noted usage of the spell's level in the steed's Traits and Actions, the following attributes are also affected.</p><table><caption><p>Otherworldly Steed</p></caption><tbody><tr><td><p><strong>AC</strong></p></td><td><p>10 + 1 per spell level</p></td></tr><tr><td><p><strong>HP</strong></p></td><td><p>5 + 10 per spell level (the steed has a number of Hit Dice [d10s] equal to the spell’s level)</p></td></tr><tr><td><p><strong>Speed</strong></p></td><td><p>60 ft., Fly 60 ft. (requires level 4+ spell)</p></td></tr><tr><td><p><strong>PB</strong></p></td><td><p>equals your Proficiency Bonus</p></td></tr></tbody></table></article></section><section id=\"secret-SI4qlfj05o21BBGg\" class=\"secret hide-in-embed\"><p><strong>Foundry Note</strong></p><p>The <strong>Summon Flying Steed</strong> activity should be used when consuming a fourth level or higher spell slot and is configured to apply the Fly Speed.</p><p>When using a second or third level spell slot, the <strong>Summon Steed</strong> activity should be used instead.</p></section>"
+    },
+    "Frost Nova": {
+      "effects": {
+        "Restrained": {
+          "name": "Restrained"
+        }
+      },
+      "description": "<p><em>Prerequisite: Mage Subclass</em></p><p>You unleash a burst of frost, creating a 15-foot Emanation originating from you. Each creature of your choice in the Emanation makes a Constitution saving throw. On a failed save, a creature takes 2d6 Cold damage, and it has the Restrained condition until the end of your next turn. On a successful save, the creature takes half as much damage only.</p><p><em><strong>Using a Higher-Level Spell Slot.</strong></em> The damage increases by 1d6 for each spell slot level above 1.</p>",
+      "activities": {
+        "Cast & Save": {
+          "name": "Cast & Save"
+        }
+      },
+      "name": "Frost Nova"
+    },
+    "Prayer of Mending": {
+      "effects": {
+        "Warded": {
+          "name": "Warded"
+        }
+      },
+      "activities": {
+        "Ward Healing": {
+          "name": "Ward Healing"
+        },
+        "Cast Spell": {
+          "name": "Cast Spell"
+        }
+      },
+      "name": "Prayer of Mending",
+      "description": "<p><em>Prerequisite: Priest Subclass</em></p><p>You place a holy ward on one willing creature in range. The next time that creature takes damage, the ward activates, and the creature regains Hit Points equal to 1d8 plus your spellcasting ability modifier. The ward then jumps to another ally of your choice within 30 feet of the warded creature, with the same effect. If no ally is in range, the spell ends, and it ends after the ward has healed five times.</p><p><em><strong>Using a Higher-Level Spell Slot.</strong></em> The spell can heal one additional time for each spell slot level above 3.</p><section id=\"secret-R0BMTI8MyWHUCYY0\" class=\"secret hide-in-embed\"><p><strong>Foundry Note</strong></p><p>After each Ward Healing, move the ward marker using the Cast Spell chat card. Track remaining triggers and the original expiry manually.</p></section>"
+    },
+    "Roar of Ursoc": {
+      "description": "<p>You shape-shift as if you had used Wild Shape, but you don’t expend a use of your Wild Shape. Until the start of your next turn, any creature that starts its turn within 5 feet of you has Disadvantage on attack rolls against any creature other than you.</p><section id=\"secret-ypJpo7Afq8RCArNL\" class=\"secret hide-in-embed\"><p><strong>Foundry Note</strong></p><p>Activate Wild Shape, then Cast Spell before clicking Transform. Resolve this as one Bonus Action. If no Wild Shape uses remain, disable both use consumption and the refund.</p><p>Track qualifying creatures manually and select Disadvantage only for attacks against other creatures. Clear this tracking at the start of the caster's next turn.</p></section>",
+      "activities": {
+        "Cast Spell": {
+          "name": "Cast Spell"
+        }
+      },
+      "name": "Roar of Ursoc"
     }
   }
 }
